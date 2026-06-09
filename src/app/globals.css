@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette */
+  --color-primary: #e8392b;
+  --color-primary-dark: #c52a1e;
+  --color-primary-light: #ff5a4d;
+
+  --color-ink: #0f1722;
+  --color-ink-soft: #1a2536;
+  --color-muted: #6b7585;
+  --color-line: #e7e9ee;
+  --color-cream: #f6f4f0;
+  --color-sand: #f3efe9;
+
+  /* Typography */
+  --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Radii */
+  --radius-card: 1.25rem;
+
+  /* Shadows */
+  --shadow-soft: 0 18px 50px -20px rgba(15, 23, 34, 0.25);
+  --shadow-card: 0 24px 60px -28px rgba(15, 23, 34, 0.35);
+}
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* Reusable layout helpers */
+.container-x {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .container-x {
+    padding-inline: 2rem;
+  }
+}
+
+/* Section eyebrow chip */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.eyebrow::before {
+  content: "";
+  width: 1.5rem;
+  height: 2px;
+  background: var(--color-primary);
+  display: inline-block;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
