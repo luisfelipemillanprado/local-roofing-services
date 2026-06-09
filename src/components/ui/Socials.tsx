@@ -38,7 +38,7 @@ export default function Socials({
           className={`grid size-9 place-items-center rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--color-primary)] hover:text-white ${
             theme === "dark"
               ? "bg-white/10 text-white"
-              : "bg-[var(--color-cream)] text-[var(--color-ink)]"
+              : "bg-[var(--surface-2)] text-[var(--fg)]"
           }`}
         >
           <svg viewBox="0 0 24 24" className="size-4" fill="currentColor" aria-hidden>

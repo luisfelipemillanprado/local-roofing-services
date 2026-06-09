@@ -1,18 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import { Phone, Check } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
-import { company, heroStats } from "@/data/site";
-
-const points = [
-  "Residential & commercial roofing experts",
-  "Premium materials with extended warranties",
-  "Transparent, upfront pricing — no surprises",
-];
+import { company } from "@/data/site";
+import { useContent } from "@/i18n/provider";
+import { interpolate } from "@/i18n/content";
 
 export default function About() {
+  const { heroStats, ui } = useContent();
+
   return (
-    <section id="about" className="bg-white py-20 lg:py-28">
+    <section id="about" className="bg-[var(--page-bg)] py-20 lg:py-28">
       <div className="container-x grid items-center gap-14 lg:grid-cols-2">
         {/* Image side */}
         <Reveal className="relative">
@@ -33,8 +33,8 @@ export default function About() {
                 {company.yearsExperience}+
               </div>
               <div className="mt-1 text-[0.6rem] font-semibold uppercase tracking-widest">
-                Years of
-                <br /> Experience
+                {ui.aboutYearsLine1}
+                <br /> {ui.aboutYearsLine2}
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function About() {
             </span>
             <div>
               <p className="text-[0.65rem] uppercase tracking-widest text-white/60">
-                Call us anytime
+                {ui.aboutCallAnytime}
               </p>
               <a href={company.phoneHref} className="text-sm font-bold">
                 {company.phone}
@@ -58,45 +58,43 @@ export default function About() {
         {/* Copy side */}
         <div>
           <Reveal>
-            <span className="eyebrow">Our Company</span>
-            <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] sm:text-4xl lg:text-[2.75rem]">
-              Your Partner For Durable
+            <span className="eyebrow">{ui.aboutEyebrow}</span>
+            <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-[var(--fg)] sm:text-4xl lg:text-[2.75rem]">
+              {ui.aboutTitleLead}
               <span className="block text-[var(--color-primary)]">
-                Quality-Reliable Roofing
+                {ui.aboutTitleAccent}
               </span>
             </h2>
-            <p className="mt-5 max-w-lg text-base leading-relaxed text-[var(--color-muted)]">
-              At {company.name} we are committed to providing top-notch roofing services
-              with a focus on quality and reliability. Our seasoned crew delivers
-              craftsmanship you can trust on residential and commercial roofs alike.
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-[var(--fg-muted)]">
+              {interpolate(ui.aboutBody, { name: company.name })}
             </p>
           </Reveal>
 
           <Reveal className="mt-7 space-y-3">
-            {points.map((p) => (
+            {ui.aboutPoints.map((p) => (
               <div key={p} className="flex items-start gap-3">
                 <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-[var(--color-primary)]/10 text-[var(--color-primary)]">
                   <Check className="size-3.5" strokeWidth={3} />
                 </span>
-                <span className="text-sm font-medium text-[var(--color-ink)]">{p}</span>
+                <span className="text-sm font-medium text-[var(--fg)]">{p}</span>
               </div>
             ))}
           </Reveal>
 
-          <Reveal className="mt-9 grid grid-cols-3 gap-4 border-y border-[var(--color-line)] py-6">
+          <Reveal className="mt-9 grid grid-cols-3 gap-4 border-y border-[var(--border)] py-6">
             {heroStats.map((stat) => (
               <div key={stat.label}>
-                <div className="text-2xl font-extrabold text-[var(--color-ink)] sm:text-3xl">
+                <div className="text-2xl font-extrabold text-[var(--fg)] sm:text-3xl">
                   {stat.value}
                 </div>
-                <div className="mt-1 text-xs text-[var(--color-muted)]">{stat.label}</div>
+                <div className="mt-1 text-xs text-[var(--fg-muted)]">{stat.label}</div>
               </div>
             ))}
           </Reveal>
 
           <Reveal className="mt-8">
             <Button href="#services" variant="dark" withArrow>
-              Learn More
+              {ui.learnMore}
             </Button>
           </Reveal>
         </div>

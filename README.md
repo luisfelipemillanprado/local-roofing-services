@@ -6,14 +6,26 @@ navigation, scroll-reveal animations, and a fully responsive, mobile-first layou
 
 ## Tech Stack
 
-- **Next.js 15** (App Router, React 19, TypeScript)
+- **Next.js 16** (App Router + Turbopack, React 19, TypeScript)
 - **Tailwind CSS v4** with a custom design-token theme (`src/app/globals.css`)
+- **Internationalization (i18n)** — English & Spanish, with a one-click language
+  switch and `localStorage` persistence (`src/i18n/`)
+- **Light / dark theme** via `next-themes`, with a sun/moon toggle and
+  theme-aware CSS variables that flip for `.dark`
 - **Framer Motion** for scroll-reveal and entrance animations
 - **lucide-react** for icons
 - **next/font** (Plus Jakarta Sans + Inter), `next/image` for optimized assets
-- Self-contained branded **SVG artwork** generated at build time — no external image
-  dependencies, so nothing breaks offline or behind a strict network policy
 - **pnpm** as the package manager
+
+## Internationalization & Theming
+
+- **All copy** lives in `src/i18n/content.ts`, keyed by locale (`en` / `es`).
+  Add a language by extending the `Content` map and the `locales` list.
+- Components read localized content through the `useContent()` hook
+  (`src/i18n/provider.tsx`); the active locale is persisted in `localStorage`.
+- The light/dark palette is defined with semantic CSS variables
+  (`--page-bg`, `--surface`, `--fg`, `--border`, …) in `globals.css`; the `.dark`
+  block overrides them. Brand colors stay constant across themes.
 
 ## Getting Started
 

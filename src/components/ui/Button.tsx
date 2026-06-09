@@ -19,7 +19,7 @@ const variants: Record<Variant, string> = {
     "bg-[var(--color-primary)] text-white shadow-[0_12px_30px_-12px_rgba(232,57,43,0.7)] hover:bg-[var(--color-primary-dark)] hover:-translate-y-0.5",
   dark: "bg-[var(--color-ink)] text-white hover:bg-[var(--color-ink-soft)] hover:-translate-y-0.5",
   outline:
-    "border border-[var(--color-line)] bg-white text-[var(--color-ink)] hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]",
+    "border border-[var(--border)] bg-[var(--surface)] text-[var(--fg)] hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]",
   ghost:
     "border border-white/30 bg-white/5 text-white backdrop-blur hover:bg-white/15",
 };

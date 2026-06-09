@@ -1,6 +1,9 @@
-import { featureRotator } from "@/data/site";
+"use client";
+
+import { useContent } from "@/i18n/provider";
 
 export default function Marquee() {
+  const { featureRotator } = useContent();
   const items = [...featureRotator, ...featureRotator, ...featureRotator];
   return (
     <div className="overflow-hidden bg-[var(--color-primary)] py-4">

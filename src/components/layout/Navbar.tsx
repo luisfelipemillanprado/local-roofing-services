@@ -4,11 +4,15 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
-import { navLinks, company } from "@/data/site";
+import { company } from "@/data/site";
+import { useContent } from "@/i18n/provider";
 import Logo from "@/components/ui/Logo";
 import Button from "@/components/ui/Button";
+import ThemeToggle from "@/components/ui/ThemeToggle";
+import LanguageSwitch from "@/components/ui/LanguageSwitch";
 
 export default function Navbar() {
+  const { navLinks, ui } = useContent();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -30,7 +34,7 @@ export default function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 shadow-[0_10px_40px_-24px_rgba(15,23,34,0.45)] backdrop-blur-md"
+          ? "bg-[var(--surface)]/90 shadow-[0_10px_40px_-24px_rgba(15,23,34,0.45)] backdrop-blur-md"
           : "bg-transparent"
       }`}
     >
@@ -42,37 +46,43 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-full px-3.5 py-2 text-sm font-medium text-[var(--color-ink)]/80 transition-colors hover:text-[var(--color-primary)]"
+              className="rounded-full px-3.5 py-2 text-sm font-medium text-[var(--fg)]/80 transition-colors hover:text-[var(--color-primary)]"
             >
               {link.label}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-4 lg:flex">
+        <div className="hidden items-center gap-3 lg:flex">
           <a
             href={company.phoneHref}
-            className="flex items-center gap-2 text-sm font-semibold text-[var(--color-ink)]"
+            className="flex items-center gap-2 text-sm font-semibold text-[var(--fg)]"
           >
-            <span className="grid size-9 place-items-center rounded-full bg-[var(--color-cream)] text-[var(--color-primary)]">
+            <span className="grid size-9 place-items-center rounded-full bg-[var(--surface-2)] text-[var(--color-primary)]">
               <Phone className="size-4" />
             </span>
             {company.phone}
           </a>
+          <LanguageSwitch />
+          <ThemeToggle />
           <Button href="#contact" variant="primary">
-            Get a Quote
+            {ui.getQuote}
           </Button>
         </div>
 
-        <button
-          type="button"
-          onClick={() => setOpen((v) => !v)}
-          aria-label="Toggle menu"
-          aria-expanded={open}
-          className="grid size-11 place-items-center rounded-xl bg-[var(--color-ink)] text-white lg:hidden"
-        >
-          {open ? <X className="size-5" /> : <Menu className="size-5" />}
-        </button>
+        <div className="flex items-center gap-2 lg:hidden">
+          <LanguageSwitch />
+          <ThemeToggle />
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-label={ui.toggleMenu}
+            aria-expanded={open}
+            className="grid size-11 place-items-center rounded-xl bg-[var(--color-ink)] text-white"
+          >
+            {open ? <X className="size-5" /> : <Menu className="size-5" />}
+          </button>
+        </div>
       </div>
 
       <AnimatePresence>
@@ -85,29 +95,29 @@ export default function Navbar() {
             className="lg:hidden"
           >
             <div className="container-x pb-6">
-              <div className="rounded-2xl border border-[var(--color-line)] bg-white p-4 shadow-[var(--shadow-soft)]">
+              <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 shadow-[var(--shadow-soft)]">
                 <nav className="flex flex-col">
                   {navLinks.map((link) => (
                     <Link
                       key={link.href}
                       href={link.href}
                       onClick={() => setOpen(false)}
-                      className="rounded-xl px-4 py-3 text-base font-medium text-[var(--color-ink)] transition-colors hover:bg-[var(--color-cream)] hover:text-[var(--color-primary)]"
+                      className="rounded-xl px-4 py-3 text-base font-medium text-[var(--fg)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-primary)]"
                     >
                       {link.label}
                     </Link>
                   ))}
                 </nav>
-                <div className="mt-4 flex flex-col gap-3 border-t border-[var(--color-line)] pt-4">
+                <div className="mt-4 flex flex-col gap-3 border-t border-[var(--border)] pt-4">
                   <a
                     href={company.phoneHref}
-                    className="flex items-center gap-2 px-1 text-sm font-semibold text-[var(--color-ink)]"
+                    className="flex items-center gap-2 px-1 text-sm font-semibold text-[var(--fg)]"
                   >
                     <Phone className="size-4 text-[var(--color-primary)]" />
                     {company.phone}
                   </a>
                   <Button href="#contact" variant="primary" className="w-full">
-                    Get a Quote
+                    {ui.getQuote}
                   </Button>
                 </div>
               </div>

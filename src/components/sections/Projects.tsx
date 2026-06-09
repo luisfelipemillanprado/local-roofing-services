@@ -6,27 +6,29 @@ import { ArrowUpRight } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { projects } from "@/data/site";
+import { useContent } from "@/i18n/provider";
 
 export default function Projects() {
+  const { projects, ui } = useContent();
+
   return (
     <section id="projects" className="bg-[var(--color-ink)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow="Our Projects"
+            eyebrow={ui.projectsEyebrow}
             theme="dark"
             title={
               <>
-                Transformative Roofs
+                {ui.projectsTitleLead}
                 <span className="block text-[var(--color-primary-light)]">
-                  Exceptional Results
+                  {ui.projectsTitleAccent}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            Explore Our Projects
+            {ui.projectsExplore}
           </Button>
         </div>
 

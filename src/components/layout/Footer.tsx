@@ -1,10 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
 import Logo from "@/components/ui/Logo";
 import Socials from "@/components/ui/Socials";
-import { company, footerLinks } from "@/data/site";
+import { company } from "@/data/site";
+import { useContent } from "@/i18n/provider";
+import { interpolate } from "@/i18n/content";
 
 export default function Footer() {
+  const { footerLinks, ui } = useContent();
+
   return (
     <footer className="bg-[var(--color-ink)] text-white">
       <div className="container-x py-16 lg:py-20">
@@ -13,8 +19,7 @@ export default function Footer() {
           <div>
             <Logo theme="dark" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
-              {company.name} is committed to providing high-quality, durable and reliable
-              roofing solutions designed to protect and enhance your property.
+              {interpolate(ui.footerTagline, { name: company.name })}
             </p>
             <Socials theme="dark" className="mt-6" />
           </div>
@@ -22,7 +27,7 @@ export default function Footer() {
           {/* Top links */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-white/90">
-              Top Links
+              {ui.footerTopLinks}
             </h4>
             <ul className="mt-5 space-y-3">
               {footerLinks.topLinks.map((link) => (
@@ -42,7 +47,7 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-white/90">
-              Our Services
+              {ui.footerServices}
             </h4>
             <ul className="mt-5 space-y-3">
               {footerLinks.services.map((link) => (
@@ -62,7 +67,7 @@ export default function Footer() {
           {/* Contact + hours */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-white/90">
-              Get In Touch
+              {ui.footerGetInTouch}
             </h4>
             <ul className="mt-5 space-y-4 text-sm text-white/60">
               <li className="flex items-start gap-3">
@@ -98,14 +103,14 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x flex flex-col items-center justify-between gap-3 py-6 text-sm text-white/50 sm:flex-row">
           <p>
-            © {new Date().getFullYear()} {company.name}. All rights reserved.
+            © {new Date().getFullYear()} {company.name}. {ui.footerRights}
           </p>
           <div className="flex gap-6">
             <Link href="#" className="hover:text-white">
-              Privacy Policy
+              {ui.footerPrivacy}
             </Link>
             <Link href="#" className="hover:text-white">
-              Terms of Service
+              {ui.footerTerms}
             </Link>
           </div>
         </div>

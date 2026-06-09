@@ -6,8 +6,12 @@ import { Star, ArrowUpRight, ShieldCheck } from "lucide-react";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger } from "@/lib/motion";
 import { company } from "@/data/site";
+import { useContent } from "@/i18n/provider";
+import { interpolate } from "@/i18n/content";
 
 export default function Hero() {
+  const { ui } = useContent();
+
   return (
     <section id="home" className="relative isolate overflow-hidden bg-[var(--color-ink)]">
       {/* Background */}
@@ -36,32 +40,33 @@ export default function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/90 backdrop-blur"
           >
             <ShieldCheck className="size-4 text-[var(--color-primary-light)]" />
-            Licensed • Insured • Trusted
+            {ui.heroBadge}
           </motion.div>
 
           <motion.h1
             variants={fadeUp}
             className="mt-6 text-5xl font-extrabold leading-[0.95] text-white sm:text-7xl lg:text-8xl"
           >
-            Roofing
-            <span className="block text-white/35">Services</span>
+            {ui.heroTitleLead}
+            <span className="block text-white/35">{ui.heroTitleAccent}</span>
           </motion.h1>
 
           <motion.p
             variants={fadeUp}
             className="mt-6 max-w-xl text-lg leading-relaxed text-white/75"
           >
-            Your partner for durable, quality and reliable roofing. From storm repairs to
-            full installations, {company.name} protects what matters most — for{" "}
-            {company.yearsExperience}+ years.
+            {interpolate(ui.heroSubtitle, {
+              name: company.name,
+              years: company.yearsExperience,
+            })}
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-9 flex flex-wrap items-center gap-4">
             <Button href="#contact" variant="primary" withArrow>
-              Upgrade Your Roof
+              {ui.heroCtaPrimary}
             </Button>
             <Button href="#projects" variant="ghost">
-              View Our Work
+              {ui.heroCtaSecondary}
             </Button>
           </motion.div>
 
@@ -78,9 +83,7 @@ export default function Hero() {
                   <Star key={i} className="size-3.5 fill-current" />
                 ))}
               </div>
-              <p className="text-sm font-semibold text-white">
-                1500+ Satisfied Customers
-              </p>
+              <p className="text-sm font-semibold text-white">{ui.heroCustomers}</p>
             </div>
           </motion.div>
         </motion.div>

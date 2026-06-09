@@ -6,7 +6,7 @@ import { Star, Quote } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { testimonials } from "@/data/site";
+import { useContent } from "@/i18n/provider";
 
 function GoogleMark() {
   return (
@@ -32,26 +32,28 @@ function GoogleMark() {
 }
 
 export default function Testimonials() {
+  const { testimonials, ui } = useContent();
+
   return (
-    <section className="bg-[var(--color-cream)] py-20 lg:py-28">
+    <section className="bg-[var(--surface-2)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow="Testimonials"
+            eyebrow={ui.testimonialsEyebrow}
             title={
               <>
-                Client Stories From
+                {ui.testimonialsTitleLead}
                 <span className="block text-[var(--color-primary)]">
-                  The Roofs We&apos;ve Built
+                  {ui.testimonialsTitleAccent}
                 </span>
               </>
             }
           />
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2 rounded-2xl border border-[var(--color-line)] bg-white px-4 py-3">
+            <div className="flex items-center gap-2 rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3">
               <GoogleMark />
               <div>
-                <div className="flex items-center gap-1.5 text-sm font-bold">
+                <div className="flex items-center gap-1.5 text-sm font-bold text-[var(--fg)]">
                   4.9
                   <span className="flex text-[var(--color-primary)]">
                     {Array.from({ length: 5 }).map((_, i) => (
@@ -59,11 +61,11 @@ export default function Testimonials() {
                     ))}
                   </span>
                 </div>
-                <p className="text-xs text-[var(--color-muted)]">820+ reviews</p>
+                <p className="text-xs text-[var(--fg-muted)]">{ui.testimonialsReviews}</p>
               </div>
             </div>
             <Button href="#contact" variant="dark" className="hidden sm:inline-flex">
-              View All
+              {ui.testimonialsViewAll}
             </Button>
           </div>
         </div>
@@ -79,7 +81,7 @@ export default function Testimonials() {
             <motion.figure
               key={t.name}
               variants={fadeUp}
-              className="flex flex-col rounded-[var(--radius-card)] border border-[var(--color-line)] bg-white p-7 shadow-[0_18px_50px_-34px_rgba(15,23,34,0.45)]"
+              className="flex flex-col rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] p-7 shadow-[0_18px_50px_-34px_rgba(15,23,34,0.45)]"
             >
               <div className="flex items-center justify-between">
                 <span className="flex text-[var(--color-primary)]">
@@ -87,18 +89,18 @@ export default function Testimonials() {
                     <Star key={i} className="size-4 fill-current" />
                   ))}
                 </span>
-                <Quote className="size-8 text-[var(--color-cream)]" fill="currentColor" />
+                <Quote className="size-8 text-[var(--surface-2)]" fill="currentColor" />
               </div>
-              <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-[var(--color-ink)]/80">
+              <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-[var(--fg)]/80">
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
-              <figcaption className="mt-6 flex items-center gap-3 border-t border-[var(--color-line)] pt-5">
+              <figcaption className="mt-6 flex items-center gap-3 border-t border-[var(--border)] pt-5">
                 <span className="relative size-11 overflow-hidden rounded-full">
                   <Image src={t.avatar} alt={t.name} fill sizes="44px" className="object-cover" />
                 </span>
                 <div className="flex-1">
-                  <div className="text-sm font-bold text-[var(--color-ink)]">{t.name}</div>
-                  <div className="text-xs text-[var(--color-muted)]">{t.location}</div>
+                  <div className="text-sm font-bold text-[var(--fg)]">{t.name}</div>
+                  <div className="text-xs text-[var(--fg-muted)]">{t.location}</div>
                 </div>
                 <GoogleMark />
               </figcaption>

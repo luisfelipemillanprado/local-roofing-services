@@ -5,8 +5,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
+import { useContent } from "@/i18n/provider";
 
 export default function CTA() {
+  const { ui } = useContent();
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
 
@@ -19,7 +21,7 @@ export default function CTA() {
   };
 
   return (
-    <section id="contact" className="bg-white py-20 lg:py-28">
+    <section id="contact" className="bg-[var(--page-bg)] py-20 lg:py-28">
       <div className="container-x">
         <motion.div
           variants={stagger}
@@ -38,18 +40,17 @@ export default function CTA() {
               variants={fadeUp}
               className="eyebrow text-[var(--color-primary-light)] before:bg-[var(--color-primary-light)]"
             >
-              Get Started Today
+              {ui.ctaEyebrow}
             </motion.span>
             <motion.h2
               variants={fadeUp}
               className="mt-4 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl lg:text-5xl"
             >
-              Secure Your Home With
-              <span className="block">A Strong Roof — Act Now</span>
+              {ui.ctaTitleLead}
+              <span className="block">{ui.ctaTitleAccent}</span>
             </motion.h2>
             <motion.p variants={fadeUp} className="mt-5 max-w-xl text-white/70">
-              Get a free, no-obligation inspection and quote. Drop your email and our team
-              will reach out within one business day.
+              {ui.ctaBody}
             </motion.p>
 
             <motion.form
@@ -58,7 +59,7 @@ export default function CTA() {
               className="mt-8 flex flex-col gap-3 sm:flex-row"
             >
               <label htmlFor="cta-email" className="sr-only">
-                Email address
+                {ui.ctaEmailLabel}
               </label>
               <input
                 id="cta-email"
@@ -66,7 +67,7 @@ export default function CTA() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email address"
+                placeholder={ui.ctaEmailPlaceholder}
                 className="w-full flex-1 rounded-full border border-white/15 bg-white/10 px-6 py-4 text-sm text-white placeholder:text-white/50 backdrop-blur focus:border-[var(--color-primary-light)] focus:outline-none"
               />
               <button
@@ -75,11 +76,11 @@ export default function CTA() {
               >
                 {sent ? (
                   <>
-                    Request Sent <Check className="size-4" />
+                    {ui.ctaSent} <Check className="size-4" />
                   </>
                 ) : (
                   <>
-                    Get Free Quote
+                    {ui.ctaGetQuote}
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </>
                 )}

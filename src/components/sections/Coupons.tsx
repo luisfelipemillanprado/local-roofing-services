@@ -5,9 +5,11 @@ import { Scissors } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { coupons } from "@/data/site";
+import { useContent } from "@/i18n/provider";
 
 export default function Coupons() {
+  const { coupons, ui } = useContent();
+
   return (
     <section className="relative overflow-hidden bg-[var(--color-ink)] py-20 lg:py-28">
       <div
@@ -20,19 +22,19 @@ export default function Coupons() {
       <div className="container-x relative">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow="Coupons"
+            eyebrow={ui.couponsEyebrow}
             theme="dark"
             title={
               <>
-                Save Big On Your
+                {ui.couponsTitleLead}
                 <span className="block text-[var(--color-primary-light)]">
-                  Next Roofing Project
+                  {ui.couponsTitleAccent}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            Explore Coupons
+            {ui.couponsExplore}
           </Button>
         </div>
 
@@ -50,7 +52,7 @@ export default function Coupons() {
               className={`group relative overflow-hidden rounded-[var(--radius-card)] p-7 transition-transform duration-300 hover:-translate-y-1.5 ${
                 coupon.highlighted
                   ? "bg-[var(--color-primary)] text-white"
-                  : "bg-white text-[var(--color-ink)]"
+                  : "bg-[var(--surface)] text-[var(--fg)]"
               }`}
             >
               {/* Ticket notches */}
@@ -76,7 +78,7 @@ export default function Coupons() {
 
               <p
                 className={`text-sm leading-relaxed ${
-                  coupon.highlighted ? "text-white/80" : "text-[var(--color-muted)]"
+                  coupon.highlighted ? "text-white/80" : "text-[var(--fg-muted)]"
                 }`}
               >
                 {coupon.description}
@@ -87,7 +89,7 @@ export default function Coupons() {
                 variant={coupon.highlighted ? "ghost" : "dark"}
                 className="mt-6 w-full"
               >
-                Claim Offer
+                {ui.couponsClaim}
               </Button>
             </motion.div>
           ))}

@@ -7,26 +7,28 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import Socials from "@/components/ui/Socials";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { team } from "@/data/site";
+import { useContent } from "@/i18n/provider";
 
 export default function Team() {
+  const { team, ui } = useContent();
+
   return (
-    <section className="bg-white py-20 lg:py-28">
+    <section className="bg-[var(--page-bg)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow="Our Team"
+            eyebrow={ui.teamEyebrow}
             title={
               <>
-                Our Skilled Team Of
+                {ui.teamTitleLead}
                 <span className="block text-[var(--color-primary)]">
-                  Roofing Professionals
+                  {ui.teamTitleAccent}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="dark" withArrow className="shrink-0">
-            Explore Our Team
+            {ui.teamExplore}
           </Button>
         </div>
 
@@ -41,7 +43,7 @@ export default function Team() {
             <motion.article
               key={member.name}
               variants={fadeUp}
-              className="group relative overflow-hidden rounded-[var(--radius-card)] border border-[var(--color-line)] bg-[var(--color-cream)]"
+              className="group relative overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface-2)]"
             >
               <div className="relative aspect-[4/4.6] w-full overflow-hidden">
                 <Image
@@ -61,10 +63,10 @@ export default function Team() {
 
               <div className="flex items-center justify-between p-5">
                 <div>
-                  <h3 className="text-lg font-bold text-[var(--color-ink)]">
+                  <h3 className="text-lg font-bold text-[var(--fg)]">
                     {member.name}
                   </h3>
-                  <p className="text-sm text-[var(--color-muted)]">{member.role}</p>
+                  <p className="text-sm text-[var(--fg-muted)]">{member.role}</p>
                 </div>
                 <span className="grid size-10 place-items-center rounded-full bg-[var(--color-primary)] text-white transition-transform duration-300 group-hover:rotate-90">
                   <Plus className="size-5" />

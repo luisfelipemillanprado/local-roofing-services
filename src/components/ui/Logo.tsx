@@ -26,7 +26,7 @@ export default function Logo({ theme = "light" }: { theme?: "light" | "dark" }) 
           />
         </svg>
       </span>
-      <span className={theme === "dark" ? "text-white" : "text-[var(--color-ink)]"}>
+      <span className={theme === "dark" ? "text-white" : "text-[var(--fg)]"}>
         {company.name}
       </span>
     </Link>

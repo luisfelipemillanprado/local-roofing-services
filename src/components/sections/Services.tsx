@@ -7,26 +7,28 @@ import { ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { services } from "@/data/site";
+import { useContent } from "@/i18n/provider";
 
 export default function Services() {
+  const { services, ui } = useContent();
+
   return (
-    <section id="services" className="bg-[var(--color-cream)] py-20 lg:py-28">
+    <section id="services" className="bg-[var(--surface-2)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow="Our Services"
+            eyebrow={ui.servicesEyebrow}
             title={
               <>
-                Crafting Roofs With
+                {ui.servicesTitleLead}
                 <span className="block text-[var(--color-primary)]">
-                  Precision And Care
+                  {ui.servicesTitleAccent}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            Explore All Services
+            {ui.servicesExploreAll}
           </Button>
         </div>
 
@@ -43,7 +45,7 @@ export default function Services() {
               <motion.article
                 key={service.title}
                 variants={fadeUp}
-                className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--color-line)] bg-white shadow-[0_18px_50px_-30px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card)]"
+                className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] shadow-[0_18px_50px_-30px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card)]"
               >
                 <div className="relative aspect-[16/11] overflow-hidden">
                   <Image
@@ -58,17 +60,17 @@ export default function Services() {
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <h3 className="text-xl font-bold text-[var(--color-ink)]">
+                  <h3 className="text-xl font-bold text-[var(--fg)]">
                     {service.title}
                   </h3>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-[var(--fg-muted)]">
                     {service.description}
                   </p>
                   <Link
                     href="#contact"
                     className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)] transition-colors hover:text-[var(--color-primary-dark)]"
                   >
-                    Learn More
+                    {ui.learnMore}
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>

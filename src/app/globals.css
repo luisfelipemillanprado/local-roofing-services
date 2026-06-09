@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Enable class-based dark mode (next-themes adds `.dark` on <html>). */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   /* Brand palette */
   --color-primary: #e8392b;
@@ -25,12 +28,35 @@
   --shadow-card: 0 24px 60px -28px rgba(15, 23, 34, 0.35);
 }
 
+/* Semantic, theme-aware surface tokens — these flip between light and dark. */
 :root {
   color-scheme: light;
+  --page-bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f6f4f0;
+  --fg: #0f1722;
+  --fg-muted: #6b7585;
+  --border: #e7e9ee;
+  --scrollbar-track: #f1f1f1;
+  --scrollbar-thumb: #cfcfcf;
+}
+
+.dark {
+  color-scheme: dark;
+  --page-bg: #0b111a;
+  --surface: #141d2b;
+  --surface-2: #0f1722;
+  --fg: #eef2f7;
+  --fg-muted: #9aa6b6;
+  --border: rgba(255, 255, 255, 0.1);
+  --scrollbar-track: #0f1722;
+  --scrollbar-thumb: #2a3a4f;
+  --shadow-soft: 0 18px 50px -20px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 24px 60px -28px rgba(0, 0, 0, 0.7);
 }
 
 * {
-  border-color: var(--color-line);
+  border-color: var(--border);
 }
 
 html {
@@ -38,11 +64,12 @@ html {
 }
 
 body {
-  background-color: #ffffff;
-  color: var(--color-ink);
+  background-color: var(--page-bg);
+  color: var(--fg);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1,
@@ -98,10 +125,10 @@ h5 {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--scrollbar-track);
 }
 ::-webkit-scrollbar-thumb {
-  background: #cfcfcf;
+  background: var(--scrollbar-thumb);
   border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
