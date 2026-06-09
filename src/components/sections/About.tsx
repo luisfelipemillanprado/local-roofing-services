@@ -18,7 +18,7 @@ export default function About() {
         <Reveal className="relative">
           <div className="relative aspect-[4/4.4] overflow-hidden rounded-[var(--radius-card)] shadow-[var(--shadow-card)]">
             <Image
-              src="/images/about.svg"
+              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80"
               alt="Roofpro craftsman on site"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

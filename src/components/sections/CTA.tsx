@@ -29,7 +29,7 @@ export default function CTA() {
           className="relative isolate overflow-hidden rounded-[2rem] bg-[var(--color-ink)] px-6 py-16 sm:px-12 lg:px-16"
         >
           <div className="absolute inset-0 -z-10 opacity-30">
-            <Image src="/images/cta.svg" alt="" fill sizes="100vw" className="object-cover" />
+            <Image src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=80" alt="" fill sizes="100vw" className="object-cover" />
           </div>
           <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[var(--color-ink)] via-[var(--color-ink)]/90 to-[var(--color-primary)]/40" />
 

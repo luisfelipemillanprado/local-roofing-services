@@ -55,21 +55,21 @@ export const services: Service[] = [
     title: "Gutter & Flashing",
     description:
       "Seamless gutter installation and precision flashing that channels water away and protects every edge of your roof.",
-    image: "/images/service-gutter.svg",
+    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80",
     icon: Droplets,
   },
   {
     title: "Energy-Efficient Roofing",
     description:
       "Cool-roof systems and reflective membranes that lower your bills while keeping interiors comfortable year-round.",
-    image: "/images/service-energy.svg",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
     icon: Zap,
   },
   {
     title: "Flat & Low-Slope Roofing",
     description:
       "Durable TPO, EPDM and modified-bitumen systems engineered for commercial and modern low-slope structures.",
-    image: "/images/service-flat.svg",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
     icon: Layers,
   },
 ];
@@ -123,22 +123,22 @@ export const projects: Project[] = [
   {
     title: "Cedar Heights Residence",
     category: "Residential Re-Roof",
-    image: "/images/project-1.svg",
+    image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1000&q=80",
   },
   {
     title: "Summit Commercial Plaza",
     category: "Flat Roof System",
-    image: "/images/project-wide.svg",
+    image: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1400&q=80",
   },
   {
     title: "Lakeview Family Home",
     category: "Shingle Replacement",
-    image: "/images/project-2.svg",
+    image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1000&q=80",
   },
   {
     title: "Northgate Office Park",
     category: "Metal Roofing",
-    image: "/images/project-3.svg",
+    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1000&q=80",
   },
 ];
 
@@ -149,9 +149,9 @@ export type TeamMember = {
 };
 
 export const team: TeamMember[] = [
-  { name: "Rodger Struck", role: "Lead Roofing Contractor", image: "/images/team-1.svg" },
-  { name: "Marcus Hale", role: "Project Superintendent", image: "/images/team-2.svg" },
-  { name: "Devin Cole", role: "Inspection Specialist", image: "/images/team-3.svg" },
+  { name: "Rodger Struck", role: "Lead Roofing Contractor", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&crop=faces&w=600&q=80" },
+  { name: "Marcus Hale", role: "Project Superintendent", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=600&q=80" },
+  { name: "Devin Cole", role: "Inspection Specialist", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&crop=faces&w=600&q=80" },
 ];
 
 export type Testimonial = {
@@ -169,7 +169,7 @@ export const testimonials: Testimonial[] = [
     name: "Dennis Collis",
     location: "Boulder, CO",
     rating: 5,
-    avatar: "/images/avatar-1.svg",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=150&q=80",
   },
   {
     quote:
@@ -177,7 +177,7 @@ export const testimonials: Testimonial[] = [
     name: "Paula Moss",
     location: "Aurora, CO",
     rating: 5,
-    avatar: "/images/avatar-2.svg",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&crop=faces&w=150&q=80",
   },
   {
     quote:
@@ -185,7 +185,7 @@ export const testimonials: Testimonial[] = [
     name: "Howard Tanner",
     location: "Denver, CO",
     rating: 5,
-    avatar: "/images/avatar-3.svg",
+    avatar: "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&crop=faces&w=150&q=80",
   },
 ];
 
@@ -274,7 +274,7 @@ export const posts: Post[] = [
     date: "Apr 11, 2026",
     author: "Rodger Struck",
     category: "Maintenance",
-    image: "/images/blog-1.svg",
+    image: "https://images.unsplash.com/photo-1635424710928-0544e8512eae?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Your Roof Is Under Attack Right Now — And You're Losing Money",
@@ -283,7 +283,7 @@ export const posts: Post[] = [
     date: "Mar 27, 2026",
     author: "Paula Moss",
     category: "Energy Savings",
-    image: "/images/blog-2.svg",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80",
   },
 ];
 

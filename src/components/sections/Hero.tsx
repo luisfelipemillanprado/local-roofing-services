@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero.svg"
+          src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=2000&q=80"
           alt="Modern roofing installation"
           fill
           priority
