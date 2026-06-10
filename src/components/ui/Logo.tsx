@@ -1,10 +1,10 @@
-import Link from "next/link";
 import { company } from "@/data/site";
+import { Link } from "@/i18n/navigation";
 
 export default function Logo({ theme = "light" }: { theme?: "light" | "dark" }) {
   return (
     <Link
-      href="#home"
+      href="/"
       className="inline-flex items-center gap-2.5 font-display text-xl font-extrabold tracking-tight"
       aria-label={`${company.name} home`}
     >

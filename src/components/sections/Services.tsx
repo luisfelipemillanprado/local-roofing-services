@@ -7,7 +7,7 @@ import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
 import { serviceMeta } from "@/config/content";
 
-export default async function Services() {
+export default async function Services({ exploreHref }: { exploreHref?: string } = {}) {
   const t = await getTranslations("Services");
   const tc = await getTranslations("Common");
   const items = t.raw("items") as { title: string; description: string }[];
@@ -28,9 +28,11 @@ export default async function Services() {
               </>
             }
           />
-          <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            {t("exploreAll")}
-          </Button>
+          {exploreHref && (
+            <Button href={exploreHref} variant="primary" withArrow className="shrink-0">
+              {t("exploreAll")}
+            </Button>
+          )}
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

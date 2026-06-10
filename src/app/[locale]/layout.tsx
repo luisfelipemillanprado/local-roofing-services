@@ -5,6 +5,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
 import { SyncLocale } from "@/app/SyncLocale";
+import FloatingContact from "@/components/ui/FloatingContact";
 
 const siteUrl = "https://roofpro.example.com";
 
@@ -84,6 +85,8 @@ export default async function LocaleLayout({ children, params }: Props) {
       {/* Micro-componente cliente para inyectar lang="es/en" en el HTML global */}
       <SyncLocale locale={locale} />
       {children}
+      {/* Contacto rápido flotante (WhatsApp + llamada), visible en todo el sitio */}
+      <FloatingContact />
     </NextIntlClientProvider>
   );
 }

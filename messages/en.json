@@ -11,17 +11,20 @@
     "toggleMenu": "Toggle menu",
     "selectLanguage": "Select language",
     "toggleTheme": "Toggle theme",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call us",
+    "whatsappMessage": "Hi {name}! 👋 I'd like to request a free roof inspection and quote. Could you help me?"
   },
   "Nav": {
     "links": [
-      { "label": "Home", "href": "#home" },
-      { "label": "About Us", "href": "#about" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Projects", "href": "#projects" },
-      { "label": "Pricing", "href": "#pricing" },
-      { "label": "Blog", "href": "#blog" },
-      { "label": "Contact Us", "href": "#contact" }
+      { "label": "Home", "href": "/" },
+      { "label": "About Us", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Projects", "href": "/projects" },
+      { "label": "Pricing", "href": "/#pricing" },
+      { "label": "Blog", "href": "/#blog" },
+      { "label": "Contact Us", "href": "/#contact" }
     ]
   },
   "Hero": {
@@ -260,23 +263,143 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "topLinks": [
-      { "label": "About Us", "href": "#about" },
-      { "label": "Our Services", "href": "#services" },
-      { "label": "Recent Projects", "href": "#projects" },
-      { "label": "Pricing Plans", "href": "#pricing" },
-      { "label": "Contact Us", "href": "#contact" }
+      { "label": "About Us", "href": "/about" },
+      { "label": "Our Services", "href": "/services" },
+      { "label": "Recent Projects", "href": "/projects" },
+      { "label": "Pricing Plans", "href": "/#pricing" },
+      { "label": "Contact Us", "href": "/#contact" }
     ],
     "services": [
-      { "label": "Storm Damage Repair", "href": "#services" },
-      { "label": "Roof Installation", "href": "#services" },
-      { "label": "Emergency Repairs", "href": "#services" },
-      { "label": "Roof Replacement", "href": "#services" },
-      { "label": "Gutter Installation", "href": "#services" }
+      { "label": "Storm Damage Repair", "href": "/services" },
+      { "label": "Roof Installation", "href": "/services" },
+      { "label": "Emergency Repairs", "href": "/services" },
+      { "label": "Roof Replacement", "href": "/services" },
+      { "label": "Gutter Installation", "href": "/services" }
     ],
     "hours": [
       { "day": "Mon – Fri", "time": "8:00 AM – 7:00 PM" },
       { "day": "Saturday", "time": "9:00 AM – 4:00 PM" },
       { "day": "Sunday", "time": "Closed" }
     ]
+  },
+  "ServicesPage": {
+    "meta": {
+      "title": "Roofing Services",
+      "description": "Explore Roofpro's full range of residential and commercial roofing services — repairs, installation, energy-efficient systems, gutters and more, backed by a workmanship warranty."
+    },
+    "header": {
+      "eyebrow": "Our Services",
+      "titleLead": "Roofing Done Right,",
+      "titleAccent": "Start to Finish",
+      "description": "From storm-damage repairs to full installations and energy-efficient systems, our licensed crew delivers craftsmanship you can trust on every roof — residential and commercial alike."
+    },
+    "process": {
+      "eyebrow": "How We Work",
+      "titleLead": "A Simple, Transparent",
+      "titleAccent": "4-Step Process",
+      "steps": [
+        {
+          "title": "Free Inspection",
+          "description": "We assess your roof on-site, document the condition and identify exactly what needs attention — at no cost."
+        },
+        {
+          "title": "Transparent Quote",
+          "description": "You get a clear, itemised quote with no hidden fees, so you know precisely what you're paying for before we start."
+        },
+        {
+          "title": "Expert Installation",
+          "description": "Our certified roofers complete the work with premium materials, on schedule and with a tidy, respectful job site."
+        },
+        {
+          "title": "Warranty & Aftercare",
+          "description": "Every job is backed by our workmanship warranty, plus a post-install inspection and ongoing support whenever you need it."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "titleLead": "Questions?",
+      "titleAccent": "We've Got Answers",
+      "items": [
+        {
+          "q": "How long does a typical roof replacement take?",
+          "a": "Most residential re-roofs are completed in 1–3 days, depending on the size, pitch and materials. We'll give you a precise timeline with your quote."
+        },
+        {
+          "q": "Do you handle insurance claims?",
+          "a": "Yes. We document storm damage thoroughly and work directly with your insurer to make the claims process as smooth as possible."
+        },
+        {
+          "q": "What roofing materials do you offer?",
+          "a": "Asphalt shingles, metal, TPO, EPDM and modified-bitumen systems for low-slope roofs — we'll recommend the best fit for your property and budget."
+        },
+        {
+          "q": "Is your work guaranteed?",
+          "a": "Every installation comes with our workmanship warranty, on top of the manufacturer's material warranty."
+        },
+        {
+          "q": "Do you offer emergency repairs?",
+          "a": "Absolutely. Our rapid-response crew handles storm damage and leaks, often tarping and securing your roof within hours."
+        }
+      ]
+    }
+  },
+  "AboutPage": {
+    "meta": {
+      "title": "About Us",
+      "description": "Learn about Roofpro — 25+ years of durable, reliable roofing, a team of licensed professionals, and the values that drive every project we deliver."
+    },
+    "header": {
+      "eyebrow": "Our Company",
+      "titleLead": "Protecting Homes &",
+      "titleAccent": "Businesses Since 2001",
+      "description": "Roofpro was built on a simple promise: honest, high-quality roofing that lasts. A quarter-century later, that promise still guides every inspection, quote and installation."
+    },
+    "values": {
+      "eyebrow": "Our Values",
+      "titleLead": "What We Stand",
+      "titleAccent": "For On Every Roof",
+      "items": [
+        {
+          "title": "Quality Craftsmanship",
+          "description": "Premium materials and meticulous workmanship on every job — no shortcuts, ever."
+        },
+        {
+          "title": "Safety First",
+          "description": "Certified, insured crews that follow strict safety standards to protect your property and our team."
+        },
+        {
+          "title": "Honest & Transparent",
+          "description": "Upfront, itemised pricing and straight answers — you always know exactly what you're getting."
+        },
+        {
+          "title": "Community Focused",
+          "description": "We're proud to protect the homes and businesses of the neighbourhoods we live and work in."
+        }
+      ]
+    }
+  },
+  "ProjectsPage": {
+    "meta": {
+      "title": "Our Projects",
+      "description": "Browse Roofpro's recent residential and commercial roofing projects — re-roofs, flat-roof systems, shingle replacements and metal roofing across the region."
+    },
+    "header": {
+      "eyebrow": "Our Projects",
+      "titleLead": "Roofs We're",
+      "titleAccent": "Proud To Have Built",
+      "description": "A look at recent work across residential and commercial properties — each one delivered with the same precision, care and durable materials."
+    },
+    "stats": {
+      "eyebrow": "By The Numbers",
+      "titleLead": "A Track Record",
+      "titleAccent": "You Can Count On",
+      "items": [
+        { "value": "1500+", "label": "Projects Completed" },
+        { "value": "25+", "label": "Years of Experience" },
+        { "value": "98%", "label": "Satisfied Customers" },
+        { "value": "40+", "label": "Expert Roofers" }
+      ]
+    }
   }
 }

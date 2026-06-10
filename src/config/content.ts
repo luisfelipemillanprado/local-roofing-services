@@ -20,6 +20,12 @@ import {
   Building2,
   Droplets,
   CloudRain,
+  ClipboardCheck,
+  FileText,
+  HardHat,
+  Handshake,
+  Users,
+  Star,
 } from "lucide-react";
 
 /* Shared, locale-independent image URLs */
@@ -106,4 +112,28 @@ export const featureRotatorMeta: { icon: LucideIcon }[] = [
   { icon: Award },
   { icon: Hammer },
   { icon: Wrench },
+];
+
+/* Services page — "How we work" steps */
+export const processMeta: { icon: LucideIcon }[] = [
+  { icon: ClipboardCheck },
+  { icon: FileText },
+  { icon: Hammer },
+  { icon: ShieldCheck },
+];
+
+/* About page — company values */
+export const valuesMeta: { icon: LucideIcon }[] = [
+  { icon: Award },
+  { icon: HardHat },
+  { icon: Handshake },
+  { icon: Users },
+];
+
+/* Projects page — "by the numbers" band */
+export const projectStatsMeta: { icon: LucideIcon }[] = [
+  { icon: Hammer },
+  { icon: Award },
+  { icon: Star },
+  { icon: Users },
 ];

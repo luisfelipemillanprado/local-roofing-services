@@ -11,17 +11,20 @@
     "toggleMenu": "Abrir menú",
     "selectLanguage": "Seleccionar idioma",
     "toggleTheme": "Cambiar tema",
-    "learnMore": "Saber Más"
+    "learnMore": "Saber Más",
+    "whatsapp": "Chatea por WhatsApp",
+    "call": "Llámanos",
+    "whatsappMessage": "¡Hola {name}! 👋 Quiero solicitar una inspección y cotización gratis para mi techo. ¿Me pueden ayudar?"
   },
   "Nav": {
     "links": [
-      { "label": "Inicio", "href": "#home" },
-      { "label": "Nosotros", "href": "#about" },
-      { "label": "Servicios", "href": "#services" },
-      { "label": "Proyectos", "href": "#projects" },
-      { "label": "Precios", "href": "#pricing" },
-      { "label": "Blog", "href": "#blog" },
-      { "label": "Contacto", "href": "#contact" }
+      { "label": "Inicio", "href": "/" },
+      { "label": "Nosotros", "href": "/about" },
+      { "label": "Servicios", "href": "/services" },
+      { "label": "Proyectos", "href": "/projects" },
+      { "label": "Precios", "href": "/#pricing" },
+      { "label": "Blog", "href": "/#blog" },
+      { "label": "Contacto", "href": "/#contact" }
     ]
   },
   "Hero": {
@@ -260,23 +263,143 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "topLinks": [
-      { "label": "Nosotros", "href": "#about" },
-      { "label": "Nuestros Servicios", "href": "#services" },
-      { "label": "Proyectos Recientes", "href": "#projects" },
-      { "label": "Planes y Precios", "href": "#pricing" },
-      { "label": "Contacto", "href": "#contact" }
+      { "label": "Nosotros", "href": "/about" },
+      { "label": "Nuestros Servicios", "href": "/services" },
+      { "label": "Proyectos Recientes", "href": "/projects" },
+      { "label": "Planes y Precios", "href": "/#pricing" },
+      { "label": "Contacto", "href": "/#contact" }
     ],
     "services": [
-      { "label": "Reparación por Tormenta", "href": "#services" },
-      { "label": "Instalación de Techo", "href": "#services" },
-      { "label": "Reparaciones de Emergencia", "href": "#services" },
-      { "label": "Reemplazo de Techo", "href": "#services" },
-      { "label": "Instalación de Canalones", "href": "#services" }
+      { "label": "Reparación por Tormenta", "href": "/services" },
+      { "label": "Instalación de Techo", "href": "/services" },
+      { "label": "Reparaciones de Emergencia", "href": "/services" },
+      { "label": "Reemplazo de Techo", "href": "/services" },
+      { "label": "Instalación de Canalones", "href": "/services" }
     ],
     "hours": [
       { "day": "Lun – Vie", "time": "8:00 AM – 7:00 PM" },
       { "day": "Sábado", "time": "9:00 AM – 4:00 PM" },
       { "day": "Domingo", "time": "Cerrado" }
     ]
+  },
+  "ServicesPage": {
+    "meta": {
+      "title": "Servicios de Techado",
+      "description": "Descubre toda la gama de servicios de techado residencial y comercial de Roofpro — reparaciones, instalación, sistemas energéticamente eficientes, canalones y más, con garantía de mano de obra."
+    },
+    "header": {
+      "eyebrow": "Nuestros Servicios",
+      "titleLead": "Techado Bien Hecho,",
+      "titleAccent": "De Principio a Fin",
+      "description": "Desde reparaciones por tormenta hasta instalaciones completas y sistemas eficientes, nuestra cuadrilla licenciada entrega un oficio confiable en cada techo — residencial y comercial por igual."
+    },
+    "process": {
+      "eyebrow": "Cómo Trabajamos",
+      "titleLead": "Un Proceso Simple y",
+      "titleAccent": "Transparente en 4 Pasos",
+      "steps": [
+        {
+          "title": "Inspección Gratuita",
+          "description": "Evaluamos tu techo en sitio, documentamos su estado e identificamos exactamente qué necesita atención — sin costo."
+        },
+        {
+          "title": "Cotización Transparente",
+          "description": "Recibes una cotización clara y detallada, sin cargos ocultos, para que sepas con precisión qué pagas antes de empezar."
+        },
+        {
+          "title": "Instalación Experta",
+          "description": "Nuestros techadores certificados realizan el trabajo con materiales premium, a tiempo y con un sitio de trabajo limpio y respetuoso."
+        },
+        {
+          "title": "Garantía y Postventa",
+          "description": "Cada trabajo está respaldado por nuestra garantía de mano de obra, más una inspección tras la instalación y soporte continuo cuando lo necesites."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas Frecuentes",
+      "titleLead": "¿Dudas?",
+      "titleAccent": "Tenemos las Respuestas",
+      "items": [
+        {
+          "q": "¿Cuánto tarda un reemplazo de techo típico?",
+          "a": "La mayoría de los retechos residenciales se completan en 1 a 3 días, según el tamaño, la pendiente y los materiales. Te damos un plazo preciso con tu cotización."
+        },
+        {
+          "q": "¿Gestionan reclamos al seguro?",
+          "a": "Sí. Documentamos a fondo los daños por tormenta y trabajamos directamente con tu aseguradora para que el proceso sea lo más sencillo posible."
+        },
+        {
+          "q": "¿Qué materiales de techado ofrecen?",
+          "a": "Tejas asfálticas, metal, TPO, EPDM y betún modificado para techos de baja pendiente — te recomendamos lo mejor para tu propiedad y presupuesto."
+        },
+        {
+          "q": "¿El trabajo tiene garantía?",
+          "a": "Cada instalación incluye nuestra garantía de mano de obra, además de la garantía del fabricante sobre los materiales."
+        },
+        {
+          "q": "¿Ofrecen reparaciones de emergencia?",
+          "a": "Por supuesto. Nuestra cuadrilla de respuesta rápida atiende daños por tormenta y goteras, a menudo cubriendo y asegurando tu techo en horas."
+        }
+      ]
+    }
+  },
+  "AboutPage": {
+    "meta": {
+      "title": "Nosotros",
+      "description": "Conoce Roofpro — más de 25 años de techado duradero y confiable, un equipo de profesionales licenciados, y los valores que guían cada proyecto que entregamos."
+    },
+    "header": {
+      "eyebrow": "Nuestra Empresa",
+      "titleLead": "Protegiendo Hogares y",
+      "titleAccent": "Negocios Desde 2001",
+      "description": "Roofpro nació de una promesa simple: techado honesto y de alta calidad que perdura. Un cuarto de siglo después, esa promesa sigue guiando cada inspección, cotización e instalación."
+    },
+    "values": {
+      "eyebrow": "Nuestros Valores",
+      "titleLead": "Lo Que Defendemos",
+      "titleAccent": "En Cada Techo",
+      "items": [
+        {
+          "title": "Oficio de Calidad",
+          "description": "Materiales premium y mano de obra meticulosa en cada trabajo — sin atajos, nunca."
+        },
+        {
+          "title": "Seguridad Primero",
+          "description": "Cuadrillas certificadas y aseguradas que siguen estrictos estándares de seguridad para proteger tu propiedad y a nuestro equipo."
+        },
+        {
+          "title": "Honestos y Transparentes",
+          "description": "Precios claros y detallados, y respuestas directas — siempre sabes exactamente lo que recibes."
+        },
+        {
+          "title": "Enfoque en la Comunidad",
+          "description": "Nos enorgullece proteger los hogares y negocios de los vecindarios donde vivimos y trabajamos."
+        }
+      ]
+    }
+  },
+  "ProjectsPage": {
+    "meta": {
+      "title": "Nuestros Proyectos",
+      "description": "Explora los proyectos de techado residencial y comercial más recientes de Roofpro — retechos, sistemas de techo plano, reemplazos de tejas y techos metálicos en toda la región."
+    },
+    "header": {
+      "eyebrow": "Nuestros Proyectos",
+      "titleLead": "Techos Que Nos",
+      "titleAccent": "Enorgullece Haber Construido",
+      "description": "Un vistazo a trabajos recientes en propiedades residenciales y comerciales — cada uno entregado con la misma precisión, cuidado y materiales duraderos."
+    },
+    "stats": {
+      "eyebrow": "En Cifras",
+      "titleLead": "Una Trayectoria",
+      "titleAccent": "En La Que Confiar",
+      "items": [
+        { "value": "1500+", "label": "Proyectos Completados" },
+        { "value": "25+", "label": "Años de Experiencia" },
+        { "value": "98%", "label": "Clientes Satisfechos" },
+        { "value": "40+", "label": "Techadores Expertos" }
+      ]
+    }
   }
 }

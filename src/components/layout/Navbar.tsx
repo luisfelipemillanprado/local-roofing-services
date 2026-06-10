@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
 import Logo from "@/components/ui/Logo";
 import Button from "@/components/ui/Button";

@@ -1,10 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
 import Logo from "@/components/ui/Logo";
 import Socials from "@/components/ui/Socials";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
 
 type FooterLink = { label: string; href: string };
@@ -111,12 +111,12 @@ export default function Footer() {
             © {new Date().getFullYear()} {company.name}. {t("rights")}
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="hover:text-white">
+            <a href="#" className="hover:text-white">
               {t("privacy")}
-            </Link>
-            <Link href="#" className="hover:text-white">
+            </a>
+            <a href="#" className="hover:text-white">
               {t("terms")}
-            </Link>
+            </a>
           </div>
         </div>
       </div>

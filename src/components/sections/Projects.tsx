@@ -6,7 +6,7 @@ import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
 import { projectMeta } from "@/config/content";
 
-export default async function Projects() {
+export default async function Projects({ exploreHref }: { exploreHref?: string } = {}) {
   const t = await getTranslations("Projects");
   const items = t.raw("items") as { title: string; category: string }[];
   const projects = items.map((item, i) => ({ ...item, ...projectMeta[i] }));
@@ -27,9 +27,11 @@ export default async function Projects() {
               </>
             }
           />
-          <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            {t("explore")}
-          </Button>
+          {exploreHref && (
+            <Button href={exploreHref} variant="primary" withArrow className="shrink-0">
+              {t("explore")}
+            </Button>
+          )}
         </div>
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

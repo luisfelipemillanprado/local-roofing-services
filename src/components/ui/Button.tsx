@@ -1,5 +1,6 @@
-import Link from "next/link";
+import NextLink from "next/link";
 import { ArrowRight } from "lucide-react";
+import { Link as IntlLink } from "@/i18n/navigation";
 
 type Variant = "primary" | "dark" | "outline" | "ghost";
 
@@ -31,6 +32,10 @@ export default function Button({
   withArrow = false,
   className = "",
 }: ButtonProps) {
+  // Same-page anchors (#contact) use a plain link — they don't change the path,
+  // so no locale prefix is needed. Route links (/services, /#contact) use the
+  // next-intl Link so the active locale (e.g. /es) is preserved.
+  const Link = href.startsWith("#") ? NextLink : IntlLink;
   return (
     <Link href={href} className={`${base} ${variants[variant]} ${className}`}>
       <span>{children}</span>
