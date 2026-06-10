@@ -4,15 +4,19 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { company } from "@/data/site";
-import { useContent } from "@/i18n/provider";
 import Logo from "@/components/ui/Logo";
 import Button from "@/components/ui/Button";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 import LanguageSwitch from "@/components/ui/LanguageSwitch";
 
+type NavLink = { label: string; href: string };
+
 export default function Navbar() {
-  const { navLinks, ui } = useContent();
+  const t = useTranslations("Nav");
+  const tc = useTranslations("Common");
+  const navLinks = t.raw("links") as NavLink[];
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -66,7 +70,7 @@ export default function Navbar() {
           <LanguageSwitch />
           <ThemeToggle />
           <Button href="#contact" variant="primary">
-            {ui.getQuote}
+            {tc("getQuote")}
           </Button>
         </div>
 
@@ -76,7 +80,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            aria-label={ui.toggleMenu}
+            aria-label={tc("toggleMenu")}
             aria-expanded={open}
             className="grid size-11 place-items-center rounded-xl bg-[var(--color-ink)] text-white"
           >
@@ -117,7 +121,7 @@ export default function Navbar() {
                     {company.phone}
                   </a>
                   <Button href="#contact" variant="primary" className="w-full">
-                    {ui.getQuote}
+                    {tc("getQuote")}
                   </Button>
                 </div>
               </div>

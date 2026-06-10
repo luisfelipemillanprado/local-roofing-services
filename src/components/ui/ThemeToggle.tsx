@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { useTheme } from "@/components/ThemeProvider";
 
 export default function ThemeToggle({ className = "" }: { className?: string }) {
   const { resolvedTheme, setTheme } = useTheme();
-  const { ui } = useContent();
+  const t = useTranslations("Common");
   const [mounted, setMounted] = useState(false);
 
   // Defer theme-dependent rendering until mounted to avoid hydration mismatch.
@@ -19,7 +19,7 @@ export default function ThemeToggle({ className = "" }: { className?: string }) 
   return (
     <button
       type="button"
-      aria-label={ui.toggleTheme}
+      aria-label={t("toggleTheme")}
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className={`grid size-9 place-items-center rounded-full border border-[var(--border)] bg-[var(--surface-2)] text-[var(--fg)] transition-colors hover:text-[var(--color-primary)] ${className}`}
     >

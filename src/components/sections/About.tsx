@@ -4,12 +4,17 @@ import Image from "next/image";
 import { Phone, Check } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
+import { useTranslations } from "next-intl";
 import { company } from "@/data/site";
-import { useContent } from "@/i18n/provider";
-import { interpolate } from "@/i18n/content";
+
+type Stat = { value: string; label: string };
 
 export default function About() {
-  const { heroStats, ui } = useContent();
+  const t = useTranslations("About");
+  const tc = useTranslations("Common");
+  const tHero = useTranslations("Hero");
+  const heroStats = tHero.raw("stats") as Stat[];
+  const points = t.raw("points") as string[];
 
   return (
     <section id="about" className="bg-[var(--page-bg)] py-20 lg:py-28">
@@ -33,8 +38,8 @@ export default function About() {
                 {company.yearsExperience}+
               </div>
               <div className="mt-1 text-[0.6rem] font-semibold uppercase tracking-widest">
-                {ui.aboutYearsLine1}
-                <br /> {ui.aboutYearsLine2}
+                {t("yearsLine1")}
+                <br /> {t("yearsLine2")}
               </div>
             </div>
           </div>
@@ -46,7 +51,7 @@ export default function About() {
             </span>
             <div>
               <p className="text-[0.65rem] uppercase tracking-widest text-white/60">
-                {ui.aboutCallAnytime}
+                {t("callAnytime")}
               </p>
               <a href={company.phoneHref} className="text-sm font-bold">
                 {company.phone}
@@ -58,20 +63,20 @@ export default function About() {
         {/* Copy side */}
         <div>
           <Reveal>
-            <span className="eyebrow">{ui.aboutEyebrow}</span>
+            <span className="eyebrow">{t("eyebrow")}</span>
             <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-[var(--fg)] sm:text-4xl lg:text-[2.75rem]">
-              {ui.aboutTitleLead}
+              {t("titleLead")}
               <span className="block text-[var(--color-primary)]">
-                {ui.aboutTitleAccent}
+                {t("titleAccent")}
               </span>
             </h2>
             <p className="mt-5 max-w-lg text-base leading-relaxed text-[var(--fg-muted)]">
-              {interpolate(ui.aboutBody, { name: company.name })}
+              {t("body", { name: company.name })}
             </p>
           </Reveal>
 
           <Reveal className="mt-7 space-y-3">
-            {ui.aboutPoints.map((p) => (
+            {points.map((p) => (
               <div key={p} className="flex items-start gap-3">
                 <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-[var(--color-primary)]/10 text-[var(--color-primary)]">
                   <Check className="size-3.5" strokeWidth={3} />
@@ -94,7 +99,7 @@ export default function About() {
 
           <Reveal className="mt-8">
             <Button href="#services" variant="dark" withArrow>
-              {ui.learnMore}
+              {tc("learnMore")}
             </Button>
           </Reveal>
         </div>

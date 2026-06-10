@@ -6,7 +6,8 @@ import { Star, Quote } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { testimonialMeta } from "@/config/content";
 
 function GoogleMark() {
   return (
@@ -32,19 +33,21 @@ function GoogleMark() {
 }
 
 export default function Testimonials() {
-  const { testimonials, ui } = useContent();
+  const t = useTranslations("Testimonials");
+  const items = t.raw("items") as { quote: string; name: string; location: string }[];
+  const testimonials = items.map((item, i) => ({ ...item, ...testimonialMeta[i] }));
 
   return (
     <section className="bg-[var(--surface-2)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow={ui.testimonialsEyebrow}
+            eyebrow={t("eyebrow")}
             title={
               <>
-                {ui.testimonialsTitleLead}
+                {t("titleLead")}
                 <span className="block text-[var(--color-primary)]">
-                  {ui.testimonialsTitleAccent}
+                  {t("titleAccent")}
                 </span>
               </>
             }
@@ -61,11 +64,11 @@ export default function Testimonials() {
                     ))}
                   </span>
                 </div>
-                <p className="text-xs text-[var(--fg-muted)]">{ui.testimonialsReviews}</p>
+                <p className="text-xs text-[var(--fg-muted)]">{t("reviews")}</p>
               </div>
             </div>
             <Button href="#contact" variant="dark" className="hidden sm:inline-flex">
-              {ui.testimonialsViewAll}
+              {t("viewAll")}
             </Button>
           </div>
         </div>
@@ -77,30 +80,30 @@ export default function Testimonials() {
           viewport={viewportOnce}
           className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3"
         >
-          {testimonials.map((t) => (
+          {testimonials.map((item) => (
             <motion.figure
-              key={t.name}
+              key={item.name}
               variants={fadeUp}
               className="flex flex-col rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] p-7 shadow-[0_18px_50px_-34px_rgba(15,23,34,0.45)]"
             >
               <div className="flex items-center justify-between">
                 <span className="flex text-[var(--color-primary)]">
-                  {Array.from({ length: t.rating }).map((_, i) => (
+                  {Array.from({ length: item.rating }).map((_, i) => (
                     <Star key={i} className="size-4 fill-current" />
                   ))}
                 </span>
                 <Quote className="size-8 text-[var(--surface-2)]" fill="currentColor" />
               </div>
               <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-[var(--fg)]/80">
-                &ldquo;{t.quote}&rdquo;
+                &ldquo;{item.quote}&rdquo;
               </blockquote>
               <figcaption className="mt-6 flex items-center gap-3 border-t border-[var(--border)] pt-5">
                 <span className="relative size-11 overflow-hidden rounded-full">
-                  <Image src={t.avatar} alt={t.name} fill sizes="44px" className="object-cover" />
+                  <Image src={item.avatar} alt={item.name} fill sizes="44px" className="object-cover" />
                 </span>
                 <div className="flex-1">
-                  <div className="text-sm font-bold text-[var(--fg)]">{t.name}</div>
-                  <div className="text-xs text-[var(--fg-muted)]">{t.location}</div>
+                  <div className="text-sm font-bold text-[var(--fg)]">{item.name}</div>
+                  <div className="text-xs text-[var(--fg-muted)]">{item.location}</div>
                 </div>
                 <GoogleMark />
               </figcaption>

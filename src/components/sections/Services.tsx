@@ -7,28 +7,32 @@ import { ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { serviceMeta } from "@/config/content";
 
 export default function Services() {
-  const { services, ui } = useContent();
+  const t = useTranslations("Services");
+  const tc = useTranslations("Common");
+  const items = t.raw("items") as { title: string; description: string }[];
+  const services = items.map((item, i) => ({ ...item, ...serviceMeta[i] }));
 
   return (
     <section id="services" className="bg-[var(--surface-2)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow={ui.servicesEyebrow}
+            eyebrow={t("eyebrow")}
             title={
               <>
-                {ui.servicesTitleLead}
+                {t("titleLead")}
                 <span className="block text-[var(--color-primary)]">
-                  {ui.servicesTitleAccent}
+                  {t("titleAccent")}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            {ui.servicesExploreAll}
+            {t("exploreAll")}
           </Button>
         </div>
 
@@ -70,7 +74,7 @@ export default function Services() {
                     href="#contact"
                     className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)] transition-colors hover:text-[var(--color-primary-dark)]"
                   >
-                    {ui.learnMore}
+                    {tc("learnMore")}
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>

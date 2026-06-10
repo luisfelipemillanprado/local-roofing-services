@@ -5,24 +5,35 @@ import { Check } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { pricingMeta } from "@/config/content";
+
+type Plan = {
+  name: string;
+  price: string;
+  period: string;
+  blurb: string;
+  features: string[];
+};
 
 export default function Pricing() {
-  const { pricingPlans, ui } = useContent();
+  const t = useTranslations("Pricing");
+  const plans = t.raw("plans") as Plan[];
+  const pricingPlans = plans.map((item, i) => ({ ...item, ...pricingMeta[i] }));
 
   return (
     <section id="pricing" className="bg-[var(--page-bg)] py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
-          eyebrow={ui.pricingEyebrow}
+          eyebrow={t("eyebrow")}
           align="center"
           title={
             <>
-              {ui.pricingTitleLead}{" "}
-              <span className="text-[var(--color-primary)]">{ui.pricingTitleAccent}</span>
+              {t("titleLead")}{" "}
+              <span className="text-[var(--color-primary)]">{t("titleAccent")}</span>
             </>
           }
-          description={ui.pricingDescription}
+          description={t("description")}
         />
 
         <motion.div
@@ -46,7 +57,7 @@ export default function Pricing() {
               >
                 {plan.highlighted && (
                   <span className="absolute right-6 top-6 rounded-full bg-[var(--color-primary)] px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
-                    {ui.pricingPopular}
+                    {t("popular")}
                   </span>
                 )}
 
@@ -115,7 +126,7 @@ export default function Pricing() {
                   withArrow
                   className="mt-8 w-full"
                 >
-                  {ui.pricingChoose}
+                  {t("choose")}
                 </Button>
               </motion.div>
             );

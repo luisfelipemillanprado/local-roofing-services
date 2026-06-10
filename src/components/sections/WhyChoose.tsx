@@ -4,26 +4,32 @@ import { motion } from "framer-motion";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { featureMeta, whyStatMeta } from "@/config/content";
 
 export default function WhyChoose() {
-  const { features, whyStats, ui } = useContent();
+  const t = useTranslations("WhyChoose");
+  const tc = useTranslations("Common");
+  const featureItems = t.raw("features") as { title: string; description: string }[];
+  const statItems = t.raw("stats") as { value: string; label: string }[];
+  const features = featureItems.map((item, i) => ({ ...item, ...featureMeta[i] }));
+  const whyStats = statItems.map((item, i) => ({ ...item, ...whyStatMeta[i] }));
 
   return (
     <section className="bg-[var(--page-bg)] py-20 lg:py-28">
       <div className="container-x grid items-start gap-12 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="lg:sticky lg:top-28">
           <SectionHeading
-            eyebrow={ui.whyEyebrow}
+            eyebrow={t("eyebrow")}
             title={
               <>
-                {ui.whyTitleLead}
+                {t("titleLead")}
                 <span className="block text-[var(--color-primary)]">
-                  {ui.whyTitleAccent}
+                  {t("titleAccent")}
                 </span>
               </>
             }
-            description={ui.whyDescription}
+            description={t("description")}
           />
 
           <div className="mt-9 flex flex-wrap items-center gap-6">
@@ -47,7 +53,7 @@ export default function WhyChoose() {
 
           <div className="mt-9">
             <Button href="#contact" variant="primary" withArrow>
-              {ui.learnMore}
+              {tc("learnMore")}
             </Button>
           </div>
         </div>

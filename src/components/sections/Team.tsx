@@ -7,28 +7,31 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import Socials from "@/components/ui/Socials";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { teamMeta } from "@/config/content";
 
 export default function Team() {
-  const { team, ui } = useContent();
+  const t = useTranslations("Team");
+  const members = t.raw("members") as { name: string; role: string }[];
+  const team = members.map((item, i) => ({ ...item, ...teamMeta[i] }));
 
   return (
     <section className="bg-[var(--page-bg)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow={ui.teamEyebrow}
+            eyebrow={t("eyebrow")}
             title={
               <>
-                {ui.teamTitleLead}
+                {t("titleLead")}
                 <span className="block text-[var(--color-primary)]">
-                  {ui.teamTitleAccent}
+                  {t("titleAccent")}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="dark" withArrow className="shrink-0">
-            {ui.teamExplore}
+            {t("explore")}
           </Button>
         </div>
 

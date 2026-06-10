@@ -1,0 +1,282 @@
+{
+  "Metadata": {
+    "title": "Roofpro — Durable, Quality & Reliable Roofing Services",
+    "titleTemplate": "%s | Roofpro",
+    "description": "Roofpro delivers durable, energy-efficient and reliable roofing services for residential and commercial properties. 25+ years of experience, 1500+ projects completed.",
+    "ogTitle": "Roofpro — Durable, Quality & Reliable Roofing Services",
+    "ogDescription": "Crafting roofs with precision and care. 25+ years of experience protecting homes and businesses."
+  },
+  "Common": {
+    "getQuote": "Get a Quote",
+    "toggleMenu": "Toggle menu",
+    "selectLanguage": "Select language",
+    "toggleTheme": "Toggle theme",
+    "learnMore": "Learn More"
+  },
+  "Nav": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About Us", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Blog", "href": "#blog" },
+      { "label": "Contact Us", "href": "#contact" }
+    ]
+  },
+  "Hero": {
+    "badge": "Licensed • Insured • Trusted",
+    "titleLead": "Roofing",
+    "titleAccent": "Services",
+    "subtitle": "Your partner for durable, quality and reliable roofing. From storm repairs to full installations, {name} protects what matters most — for {years}+ years.",
+    "ctaPrimary": "Upgrade Your Roof",
+    "ctaSecondary": "View Our Work",
+    "customers": "1500+ Satisfied Customers",
+    "stats": [
+      { "value": "1500+", "label": "Projects Completed" },
+      { "value": "800+", "label": "Happy Customers" },
+      { "value": "98%", "label": "Satisfied Customers" }
+    ]
+  },
+  "Marquee": {
+    "items": [
+      { "label": "Storm Ready" },
+      { "label": "Licensed & Insured" },
+      { "label": "25+ Years" },
+      { "label": "Built Strong" },
+      { "label": "Full Service" }
+    ]
+  },
+  "About": {
+    "eyebrow": "Our Company",
+    "titleLead": "Your Partner For Durable",
+    "titleAccent": "Quality-Reliable Roofing",
+    "body": "At {name} we are committed to providing top-notch roofing services with a focus on quality and reliability. Our seasoned crew delivers craftsmanship you can trust on residential and commercial roofs alike.",
+    "points": [
+      "Residential & commercial roofing experts",
+      "Premium materials with extended warranties",
+      "Transparent, upfront pricing — no surprises"
+    ],
+    "yearsLine1": "Years of",
+    "yearsLine2": "Experience",
+    "callAnytime": "Call us anytime"
+  },
+  "Services": {
+    "eyebrow": "Our Services",
+    "titleLead": "Crafting Roofs With",
+    "titleAccent": "Precision And Care",
+    "exploreAll": "Explore All Services",
+    "items": [
+      {
+        "title": "Gutter & Flashing",
+        "description": "Seamless gutter installation and precision flashing that channels water away and protects every edge of your roof."
+      },
+      {
+        "title": "Energy-Efficient Roofing",
+        "description": "Cool-roof systems and reflective membranes that lower your bills while keeping interiors comfortable year-round."
+      },
+      {
+        "title": "Flat & Low-Slope Roofing",
+        "description": "Durable TPO, EPDM and modified-bitumen systems engineered for commercial and modern low-slope structures."
+      }
+    ]
+  },
+  "WhyChoose": {
+    "eyebrow": "Why Choose Us",
+    "titleLead": "Roofing You Can Rely",
+    "titleAccent": "On Every Shingle Time",
+    "description": "With years of hands-on roofing experience and a team of licensed professionals, we bring proven, dependable workmanship to every project. When it comes to protecting your home or business, you deserve a roofing team you can count on.",
+    "features": [
+      {
+        "title": "Emergency Services",
+        "description": "An always-on rapid-response crew for storm damage, leaks and urgent repairs across our community."
+      },
+      {
+        "title": "Proactive Approach",
+        "description": "Scheduled inspections and preventative maintenance that catch issues long before they become costly."
+      },
+      {
+        "title": "Reliably Focused",
+        "description": "Licensed, insured and certified roofers using premium materials backed by industry-leading warranties."
+      },
+      {
+        "title": "Experience Focused",
+        "description": "A quarter-century of craftsmanship on thousands of roofs, from heritage homes to commercial builds."
+      }
+    ],
+    "stats": [
+      { "value": "25+", "label": "Years of Experience" },
+      { "value": "1.5k", "label": "Projects Delivered" },
+      { "value": "40+", "label": "Expert Roofers" }
+    ]
+  },
+  "Projects": {
+    "eyebrow": "Our Projects",
+    "titleLead": "Transformative Roofs",
+    "titleAccent": "Exceptional Results",
+    "explore": "Explore Our Projects",
+    "items": [
+      { "title": "Cedar Heights Residence", "category": "Residential Re-Roof" },
+      { "title": "Summit Commercial Plaza", "category": "Flat Roof System" },
+      { "title": "Lakeview Family Home", "category": "Shingle Replacement" },
+      { "title": "Northgate Office Park", "category": "Metal Roofing" }
+    ]
+  },
+  "Team": {
+    "eyebrow": "Our Team",
+    "titleLead": "Our Skilled Team Of",
+    "titleAccent": "Roofing Professionals",
+    "explore": "Explore Our Team",
+    "members": [
+      { "name": "Rodger Struck", "role": "Lead Roofing Contractor" },
+      { "name": "Marcus Hale", "role": "Project Superintendent" },
+      { "name": "Devin Cole", "role": "Inspection Specialist" }
+    ]
+  },
+  "Testimonials": {
+    "eyebrow": "Testimonials",
+    "titleLead": "Client Stories From",
+    "titleAccent": "The Roofs We've Built",
+    "reviews": "820+ reviews",
+    "viewAll": "View All",
+    "items": [
+      {
+        "quote": "Roofpro replaced our entire roof after a hailstorm and handled the insurance paperwork end to end. The crew was punctual, tidy and genuinely cared about the result.",
+        "name": "Dennis Collis",
+        "location": "Boulder, CO"
+      },
+      {
+        "quote": "From the first inspection to the final cleanup the team was professional and transparent. Our new energy-efficient roof already cut our cooling costs noticeably.",
+        "name": "Paula Moss",
+        "location": "Aurora, CO"
+      },
+      {
+        "quote": "Fast emergency response when a storm tore off shingles overnight. They tarped it within hours and had it fully repaired by the weekend. Highly recommend.",
+        "name": "Howard Tanner",
+        "location": "Denver, CO"
+      }
+    ]
+  },
+  "Coupons": {
+    "eyebrow": "Coupons",
+    "titleLead": "Save Big On Your",
+    "titleAccent": "Next Roofing Project",
+    "explore": "Explore Coupons",
+    "claim": "Claim Offer",
+    "items": [
+      {
+        "title": "Full Roof Replacement",
+        "amount": "$1000 OFF",
+        "description": "Unlock huge savings on a complete roofing system installed by certified pros."
+      },
+      {
+        "title": "Roof Repair Package",
+        "amount": "$500 OFF",
+        "description": "Limited-time deals built for every storm-season repair and restoration job."
+      },
+      {
+        "title": "Gutter & Maintenance",
+        "amount": "$400 OFF",
+        "description": "Affordable upkeep starts here with these exclusive seasonal service offers."
+      }
+    ]
+  },
+  "Pricing": {
+    "eyebrow": "Pricing",
+    "titleLead": "Transparent Pricing",
+    "titleAccent": "You Can Trust",
+    "description": "Honest, upfront quotes with no hidden fees. Choose the plan that fits your property and budget — every job is backed by our workmanship guarantee.",
+    "popular": "Popular",
+    "choose": "Choose Plan",
+    "plans": [
+      {
+        "name": "Residential",
+        "price": "$5,999",
+        "period": "starting at",
+        "blurb": "Ideal for single-family homes needing a full, reliable roofing solution.",
+        "features": [
+          "Premium shingle installation",
+          "Full tear-off & disposal",
+          "Underlayment & ice-shield",
+          "Workmanship warranty",
+          "Free post-install inspection"
+        ]
+      },
+      {
+        "name": "Commercial",
+        "price": "$599",
+        "period": "per visit",
+        "blurb": "Flat & low-slope maintenance plans built for businesses and property managers.",
+        "features": [
+          "TPO / EPDM membrane care",
+          "Quarterly inspections",
+          "Priority leak response",
+          "Drainage & flashing checks",
+          "Detailed condition reports"
+        ]
+      }
+    ]
+  },
+  "Blog": {
+    "eyebrow": "Blog & News",
+    "titleLead": "From The Experts",
+    "titleAccent": "Roofing Tips & Stories",
+    "explore": "Explore Our Blog",
+    "readMore": "Read More",
+    "posts": [
+      {
+        "title": "The 3-Layer Defense System For Roofs That Outlast Mortgages",
+        "excerpt": "How underlayment, ventilation and quality shingles work together to add decades to your roof's lifespan.",
+        "date": "Apr 11, 2026",
+        "author": "Rodger Struck",
+        "category": "Maintenance"
+      },
+      {
+        "title": "Your Roof Is Under Attack Right Now — And You're Losing Money",
+        "excerpt": "The silent ways weather, debris and neglect drain your home's value, and the simple checks that stop it.",
+        "date": "Mar 27, 2026",
+        "author": "Paula Moss",
+        "category": "Energy Savings"
+      }
+    ]
+  },
+  "CTA": {
+    "eyebrow": "Get Started Today",
+    "titleLead": "Secure Your Home With",
+    "titleAccent": "A Strong Roof — Act Now",
+    "body": "Get a free, no-obligation inspection and quote. Drop your email and our team will reach out within one business day.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email address",
+    "getQuote": "Get Free Quote",
+    "sent": "Request Sent"
+  },
+  "Footer": {
+    "tagline": "{name} is committed to providing high-quality, durable and reliable roofing solutions designed to protect and enhance your property.",
+    "topLinksTitle": "Top Links",
+    "servicesTitle": "Our Services",
+    "getInTouch": "Get In Touch",
+    "callUs": "Call us anytime",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "topLinks": [
+      { "label": "About Us", "href": "#about" },
+      { "label": "Our Services", "href": "#services" },
+      { "label": "Recent Projects", "href": "#projects" },
+      { "label": "Pricing Plans", "href": "#pricing" },
+      { "label": "Contact Us", "href": "#contact" }
+    ],
+    "services": [
+      { "label": "Storm Damage Repair", "href": "#services" },
+      { "label": "Roof Installation", "href": "#services" },
+      { "label": "Emergency Repairs", "href": "#services" },
+      { "label": "Roof Replacement", "href": "#services" },
+      { "label": "Gutter Installation", "href": "#services" }
+    ],
+    "hours": [
+      { "day": "Mon – Fri", "time": "8:00 AM – 7:00 PM" },
+      { "day": "Saturday", "time": "9:00 AM – 4:00 PM" },
+      { "day": "Sunday", "time": "Closed" }
+    ]
+  }
+}

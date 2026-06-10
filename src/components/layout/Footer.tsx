@@ -4,12 +4,17 @@ import Link from "next/link";
 import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
 import Logo from "@/components/ui/Logo";
 import Socials from "@/components/ui/Socials";
+import { useTranslations } from "next-intl";
 import { company } from "@/data/site";
-import { useContent } from "@/i18n/provider";
-import { interpolate } from "@/i18n/content";
+
+type FooterLink = { label: string; href: string };
+type Hours = { day: string; time: string };
 
 export default function Footer() {
-  const { footerLinks, ui } = useContent();
+  const t = useTranslations("Footer");
+  const topLinks = t.raw("topLinks") as FooterLink[];
+  const services = t.raw("services") as FooterLink[];
+  const hours = t.raw("hours") as Hours[];
 
   return (
     <footer className="bg-[var(--color-ink)] text-white">
@@ -19,7 +24,7 @@ export default function Footer() {
           <div>
             <Logo theme="dark" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
-              {interpolate(ui.footerTagline, { name: company.name })}
+              {t("tagline", { name: company.name })}
             </p>
             <Socials theme="dark" className="mt-6" />
           </div>
@@ -27,10 +32,10 @@ export default function Footer() {
           {/* Top links */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-white/90">
-              {ui.footerTopLinks}
+              {t("topLinksTitle")}
             </h4>
             <ul className="mt-5 space-y-3">
-              {footerLinks.topLinks.map((link) => (
+              {topLinks.map((link) => (
                 <li key={link.label}>
                   <Link
                     href={link.href}
@@ -47,10 +52,10 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-white/90">
-              {ui.footerServices}
+              {t("servicesTitle")}
             </h4>
             <ul className="mt-5 space-y-3">
-              {footerLinks.services.map((link) => (
+              {services.map((link) => (
                 <li key={link.label}>
                   <Link
                     href={link.href}
@@ -67,7 +72,7 @@ export default function Footer() {
           {/* Contact + hours */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-white/90">
-              {ui.footerGetInTouch}
+              {t("getInTouch")}
             </h4>
             <ul className="mt-5 space-y-4 text-sm text-white/60">
               <li className="flex items-start gap-3">
@@ -89,7 +94,7 @@ export default function Footer() {
             </ul>
 
             <div className="mt-6 space-y-2 border-t border-white/10 pt-5">
-              {footerLinks.hours.map((row) => (
+              {hours.map((row) => (
                 <div key={row.day} className="flex justify-between text-sm">
                   <span className="text-white/60">{row.day}</span>
                   <span className="font-medium text-white/90">{row.time}</span>
@@ -103,14 +108,14 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x flex flex-col items-center justify-between gap-3 py-6 text-sm text-white/50 sm:flex-row">
           <p>
-            © {new Date().getFullYear()} {company.name}. {ui.footerRights}
+            © {new Date().getFullYear()} {company.name}. {t("rights")}
           </p>
           <div className="flex gap-6">
             <Link href="#" className="hover:text-white">
-              {ui.footerPrivacy}
+              {t("privacy")}
             </Link>
             <Link href="#" className="hover:text-white">
-              {ui.footerTerms}
+              {t("terms")}
             </Link>
           </div>
         </div>

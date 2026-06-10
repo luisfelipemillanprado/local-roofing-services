@@ -6,29 +6,32 @@ import { ArrowUpRight } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { projectMeta } from "@/config/content";
 
 export default function Projects() {
-  const { projects, ui } = useContent();
+  const t = useTranslations("Projects");
+  const items = t.raw("items") as { title: string; category: string }[];
+  const projects = items.map((item, i) => ({ ...item, ...projectMeta[i] }));
 
   return (
     <section id="projects" className="bg-[var(--color-ink)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow={ui.projectsEyebrow}
+            eyebrow={t("eyebrow")}
             theme="dark"
             title={
               <>
-                {ui.projectsTitleLead}
+                {t("titleLead")}
                 <span className="block text-[var(--color-primary-light)]">
-                  {ui.projectsTitleAccent}
+                  {t("titleAccent")}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            {ui.projectsExplore}
+            {t("explore")}
           </Button>
         </div>
 

@@ -7,28 +7,39 @@ import { Calendar, User, ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { postMeta } from "@/config/content";
+
+type Post = {
+  title: string;
+  excerpt: string;
+  date: string;
+  author: string;
+  category: string;
+};
 
 export default function Blog() {
-  const { posts, ui } = useContent();
+  const t = useTranslations("Blog");
+  const items = t.raw("posts") as Post[];
+  const posts = items.map((item, i) => ({ ...item, ...postMeta[i] }));
 
   return (
     <section id="blog" className="bg-[var(--surface-2)] py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow={ui.blogEyebrow}
+            eyebrow={t("eyebrow")}
             title={
               <>
-                {ui.blogTitleLead}
+                {t("titleLead")}
                 <span className="block text-[var(--color-primary)]">
-                  {ui.blogTitleAccent}
+                  {t("titleAccent")}
                 </span>
               </>
             }
           />
           <Button href="#blog" variant="dark" withArrow className="shrink-0">
-            {ui.blogExplore}
+            {t("explore")}
           </Button>
         </div>
 
@@ -79,7 +90,7 @@ export default function Blog() {
                   href="#blog"
                   className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)]"
                 >
-                  {ui.blogReadMore}
+                  {t("readMore")}
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>

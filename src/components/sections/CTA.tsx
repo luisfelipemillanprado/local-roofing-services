@@ -5,10 +5,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
 
 export default function CTA() {
-  const { ui } = useContent();
+  const t = useTranslations("CTA");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
 
@@ -40,17 +40,17 @@ export default function CTA() {
               variants={fadeUp}
               className="eyebrow text-[var(--color-primary-light)] before:bg-[var(--color-primary-light)]"
             >
-              {ui.ctaEyebrow}
+              {t("eyebrow")}
             </motion.span>
             <motion.h2
               variants={fadeUp}
               className="mt-4 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl lg:text-5xl"
             >
-              {ui.ctaTitleLead}
-              <span className="block">{ui.ctaTitleAccent}</span>
+              {t("titleLead")}
+              <span className="block">{t("titleAccent")}</span>
             </motion.h2>
             <motion.p variants={fadeUp} className="mt-5 max-w-xl text-white/70">
-              {ui.ctaBody}
+              {t("body")}
             </motion.p>
 
             <motion.form
@@ -59,7 +59,7 @@ export default function CTA() {
               className="mt-8 flex flex-col gap-3 sm:flex-row"
             >
               <label htmlFor="cta-email" className="sr-only">
-                {ui.ctaEmailLabel}
+                {t("emailLabel")}
               </label>
               <input
                 id="cta-email"
@@ -67,7 +67,7 @@ export default function CTA() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder={ui.ctaEmailPlaceholder}
+                placeholder={t("emailPlaceholder")}
                 className="w-full flex-1 rounded-full border border-white/15 bg-white/10 px-6 py-4 text-sm text-white placeholder:text-white/50 backdrop-blur focus:border-[var(--color-primary-light)] focus:outline-none"
               />
               <button
@@ -76,11 +76,11 @@ export default function CTA() {
               >
                 {sent ? (
                   <>
-                    {ui.ctaSent} <Check className="size-4" />
+                    {t("sent")} <Check className="size-4" />
                   </>
                 ) : (
                   <>
-                    {ui.ctaGetQuote}
+                    {t("getQuote")}
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </>
                 )}

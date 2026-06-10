@@ -1,3 +1,6 @@
+import { use } from "react";
+import { setRequestLocale } from "next-intl/server";
+import type { Locale } from "@/i18n/routing";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
@@ -13,7 +16,14 @@ import Pricing from "@/components/sections/Pricing";
 import Blog from "@/components/sections/Blog";
 import CTA from "@/components/sections/CTA";
 
-export default function Home() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default function Home({ params }: Props) {
+  const { locale } = use(params);
+  setRequestLocale(locale as Locale);
+
   return (
     <>
       <Navbar />

@@ -5,10 +5,13 @@ import { Scissors } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { couponMeta } from "@/config/content";
 
 export default function Coupons() {
-  const { coupons, ui } = useContent();
+  const t = useTranslations("Coupons");
+  const items = t.raw("items") as { title: string; amount: string; description: string }[];
+  const coupons = items.map((item, i) => ({ ...item, ...couponMeta[i] }));
 
   return (
     <section className="relative overflow-hidden bg-[var(--color-ink)] py-20 lg:py-28">
@@ -22,19 +25,19 @@ export default function Coupons() {
       <div className="container-x relative">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
-            eyebrow={ui.couponsEyebrow}
+            eyebrow={t("eyebrow")}
             theme="dark"
             title={
               <>
-                {ui.couponsTitleLead}
+                {t("titleLead")}
                 <span className="block text-[var(--color-primary-light)]">
-                  {ui.couponsTitleAccent}
+                  {t("titleAccent")}
                 </span>
               </>
             }
           />
           <Button href="#contact" variant="primary" withArrow className="shrink-0">
-            {ui.couponsExplore}
+            {t("explore")}
           </Button>
         </div>
 
@@ -89,7 +92,7 @@ export default function Coupons() {
                 variant={coupon.highlighted ? "ghost" : "dark"}
                 className="mt-6 w-full"
               >
-                {ui.couponsClaim}
+                {t("claim")}
               </Button>
             </motion.div>
           ))}

@@ -1,10 +1,16 @@
 "use client";
 
-import { useContent } from "@/i18n/provider";
+import { useTranslations } from "next-intl";
+import { featureRotatorMeta } from "@/config/content";
 
 export default function Marquee() {
-  const { featureRotator } = useContent();
-  const items = [...featureRotator, ...featureRotator, ...featureRotator];
+  const t = useTranslations("Marquee");
+  const labels = t.raw("items") as { label: string }[];
+  const rotator = labels.map((item, i) => ({
+    ...item,
+    icon: featureRotatorMeta[i].icon,
+  }));
+  const items = [...rotator, ...rotator, ...rotator];
   return (
     <div className="overflow-hidden bg-[var(--color-primary)] py-4">
       <div className="flex w-max animate-marquee items-center">
