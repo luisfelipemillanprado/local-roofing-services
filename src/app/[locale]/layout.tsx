@@ -1,24 +1,10 @@
+// app/[locale]/layout.tsx
 import type { Metadata } from "next";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import { routing, type Locale } from "@/i18n/routing";
-import "../globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const jakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
-  variable: "--font-jakarta",
-  display: "swap",
-});
+import { SyncLocale } from "@/app/SyncLocale";
 
 const siteUrl = "https://roofpro.example.com";
 
@@ -27,10 +13,12 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+// 1. Garantiza el SSG a nivel del compilador de Next.js 16
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+// 2. Genera los Metadatos de forma estática asíncrona
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({
@@ -78,26 +66,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// 3. Layout de Idiomas (No lleva <html>, <body> ni proveedores de tema)
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
+  // Validación de seguridad para rutas inválidas
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
+  // INDISPENSABLE para SSG: Escribe el locale en el caché interno
+  // para que useTranslations() no recurra a llamadas dinámicas de cabeceras HTTP.
   setRequestLocale(locale);
 
   return (
-    <html
-      lang={locale}
-      suppressHydrationWarning
-      className={`${inter.variable} ${jakarta.variable}`}
-    >
-      <body className="antialiased">
-        <NextIntlClientProvider>
-          <ThemeProvider>{children}</ThemeProvider>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider>
+      {/* Micro-componente cliente para inyectar lang="es/en" en el HTML global */}
+      <SyncLocale locale={locale} />
+      {children}
+    </NextIntlClientProvider>
   );
 }

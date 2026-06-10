@@ -3,6 +3,11 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // Pin the workspace root to this project so Next.js doesn't infer it from a
+  // stray pnpm-lock.yaml in the home directory.
+  turbopack: {
+    root: import.meta.dirname,
+  },
   // Hide the Next.js dev indicator badge (the floating "N" in the corner).
   devIndicators: false,
   images: {
