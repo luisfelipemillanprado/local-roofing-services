@@ -1,10 +1,8 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { featureRotatorMeta } from "@/config/content";
 
-export default function Marquee() {
-  const t = useTranslations("Marquee");
+export default async function Marquee() {
+  const t = await getTranslations("Marquee");
   const labels = t.raw("items") as { label: string }[];
   const rotator = labels.map((item, i) => ({
     ...item,

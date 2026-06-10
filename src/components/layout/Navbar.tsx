@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { company } from "@/data/site";
@@ -89,46 +88,45 @@ export default function Navbar() {
         </div>
       </div>
 
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.25 }}
-            className="lg:hidden"
-          >
-            <div className="container-x pb-6">
-              <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 shadow-[var(--shadow-soft)]">
-                <nav className="flex flex-col">
-                  {navLinks.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      onClick={() => setOpen(false)}
-                      className="rounded-xl px-4 py-3 text-base font-medium text-[var(--fg)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-primary)]"
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </nav>
-                <div className="mt-4 flex flex-col gap-3 border-t border-[var(--border)] pt-4">
-                  <a
-                    href={company.phoneHref}
-                    className="flex items-center gap-2 px-1 text-sm font-semibold text-[var(--fg)]"
+      {/* Mobile menu: animated open/close with a pure-CSS grid-rows height transition. */}
+      <div
+        className={`grid overflow-hidden transition-all duration-300 ease-out lg:hidden ${
+          open
+            ? "grid-rows-[1fr] opacity-100"
+            : "pointer-events-none grid-rows-[0fr] opacity-0"
+        }`}
+      >
+        <div className="min-h-0">
+          <div className="container-x pb-6">
+            <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 shadow-[var(--shadow-soft)]">
+              <nav className="flex flex-col">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setOpen(false)}
+                    className="rounded-xl px-4 py-3 text-base font-medium text-[var(--fg)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-primary)]"
                   >
-                    <Phone className="size-4 text-[var(--color-primary)]" />
-                    {company.phone}
-                  </a>
-                  <Button href="#contact" variant="primary" className="w-full">
-                    {tc("getQuote")}
-                  </Button>
-                </div>
+                    {link.label}
+                  </Link>
+                ))}
+              </nav>
+              <div className="mt-4 flex flex-col gap-3 border-t border-[var(--border)] pt-4">
+                <a
+                  href={company.phoneHref}
+                  className="flex items-center gap-2 px-1 text-sm font-semibold text-[var(--fg)]"
+                >
+                  <Phone className="size-4 text-[var(--color-primary)]" />
+                  {company.phone}
+                </a>
+                <Button href="#contact" variant="primary" className="w-full">
+                  {tc("getQuote")}
+                </Button>
               </div>
             </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          </div>
+        </div>
+      </div>
     </header>
   );
 }

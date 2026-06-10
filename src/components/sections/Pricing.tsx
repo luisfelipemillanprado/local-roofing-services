@@ -1,11 +1,8 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { pricingMeta } from "@/config/content";
 
 type Plan = {
@@ -16,8 +13,8 @@ type Plan = {
   features: string[];
 };
 
-export default function Pricing() {
-  const t = useTranslations("Pricing");
+export default async function Pricing() {
+  const t = await getTranslations("Pricing");
   const plans = t.raw("plans") as Plan[];
   const pricingPlans = plans.map((item, i) => ({ ...item, ...pricingMeta[i] }));
 
@@ -36,19 +33,13 @@ export default function Pricing() {
           description={t("description")}
         />
 
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="mx-auto mt-14 grid max-w-4xl gap-6 md:grid-cols-2"
-        >
-          {pricingPlans.map((plan) => {
+        <div className="mx-auto mt-14 grid max-w-4xl gap-6 md:grid-cols-2">
+          {pricingPlans.map((plan, i) => {
             const Icon = plan.icon;
             return (
-              <motion.div
+              <Reveal
                 key={plan.name}
-                variants={fadeUp}
+                delay={i * 0.08}
                 className={`relative flex flex-col rounded-[var(--radius-card)] border p-8 transition-all duration-300 ${
                   plan.highlighted
                     ? "border-transparent bg-[var(--color-ink)] text-white shadow-[var(--shadow-card)]"
@@ -128,10 +119,10 @@ export default function Pricing() {
                 >
                   {t("choose")}
                 </Button>
-              </motion.div>
+              </Reveal>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

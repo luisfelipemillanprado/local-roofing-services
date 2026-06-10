@@ -1,15 +1,12 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { Scissors } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { couponMeta } from "@/config/content";
 
-export default function Coupons() {
-  const t = useTranslations("Coupons");
+export default async function Coupons() {
+  const t = await getTranslations("Coupons");
   const items = t.raw("items") as { title: string; amount: string; description: string }[];
   const coupons = items.map((item, i) => ({ ...item, ...couponMeta[i] }));
 
@@ -41,17 +38,11 @@ export default function Coupons() {
           </Button>
         </div>
 
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="mt-14 grid gap-6 md:grid-cols-3"
-        >
-          {coupons.map((coupon) => (
-            <motion.div
+        <div className="mt-14 grid gap-6 md:grid-cols-3">
+          {coupons.map((coupon, i) => (
+            <Reveal
               key={coupon.amount}
-              variants={fadeUp}
+              delay={i * 0.08}
               className={`group relative overflow-hidden rounded-[var(--radius-card)] p-7 transition-transform duration-300 hover:-translate-y-1.5 ${
                 coupon.highlighted
                   ? "bg-[var(--color-primary)] text-white"
@@ -94,9 +85,9 @@ export default function Coupons() {
               >
                 {t("claim")}
               </Button>
-            </motion.div>
+            </Reveal>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

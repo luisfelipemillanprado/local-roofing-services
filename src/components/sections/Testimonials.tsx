@@ -1,12 +1,9 @@
-"use client";
-
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { testimonialMeta } from "@/config/content";
 
 function GoogleMark() {
@@ -32,8 +29,8 @@ function GoogleMark() {
   );
 }
 
-export default function Testimonials() {
-  const t = useTranslations("Testimonials");
+export default async function Testimonials() {
+  const t = await getTranslations("Testimonials");
   const items = t.raw("items") as { quote: string; name: string; location: string }[];
   const testimonials = items.map((item, i) => ({ ...item, ...testimonialMeta[i] }));
 
@@ -73,17 +70,12 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3"
-        >
-          {testimonials.map((item) => (
-            <motion.figure
+        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {testimonials.map((item, i) => (
+            <Reveal
+              as="figure"
               key={item.name}
-              variants={fadeUp}
+              delay={i * 0.08}
               className="flex flex-col rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] p-7 shadow-[0_18px_50px_-34px_rgba(15,23,34,0.45)]"
             >
               <div className="flex items-center justify-between">
@@ -107,9 +99,9 @@ export default function Testimonials() {
                 </div>
                 <GoogleMark />
               </figcaption>
-            </motion.figure>
+            </Reveal>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

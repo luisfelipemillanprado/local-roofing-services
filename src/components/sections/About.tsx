@@ -1,18 +1,16 @@
-"use client";
-
 import Image from "next/image";
 import { Phone, Check } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 
 type Stat = { value: string; label: string };
 
-export default function About() {
-  const t = useTranslations("About");
-  const tc = useTranslations("Common");
-  const tHero = useTranslations("Hero");
+export default async function About() {
+  const t = await getTranslations("About");
+  const tc = await getTranslations("Common");
+  const tHero = await getTranslations("Hero");
   const heroStats = tHero.raw("stats") as Stat[];
   const points = t.raw("points") as string[];
 

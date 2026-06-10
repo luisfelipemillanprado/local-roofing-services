@@ -1,15 +1,12 @@
-"use client";
-
-import { motion } from "framer-motion";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { featureMeta, whyStatMeta } from "@/config/content";
 
-export default function WhyChoose() {
-  const t = useTranslations("WhyChoose");
-  const tc = useTranslations("Common");
+export default async function WhyChoose() {
+  const t = await getTranslations("WhyChoose");
+  const tc = await getTranslations("Common");
   const featureItems = t.raw("features") as { title: string; description: string }[];
   const statItems = t.raw("stats") as { value: string; label: string }[];
   const features = featureItems.map((item, i) => ({ ...item, ...featureMeta[i] }));
@@ -58,19 +55,13 @@ export default function WhyChoose() {
           </div>
         </div>
 
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="grid gap-5 sm:grid-cols-2"
-        >
+        <div className="grid gap-5 sm:grid-cols-2">
           {features.map((feature, i) => {
             const Icon = feature.icon;
             return (
-              <motion.div
+              <Reveal
                 key={feature.title}
-                variants={fadeUp}
+                delay={i * 0.08}
                 className={`group rounded-[var(--radius-card)] border p-7 transition-all duration-300 hover:-translate-y-1.5 ${
                   i === 1
                     ? "border-transparent bg-[var(--color-ink)] text-white shadow-[var(--shadow-card)]"
@@ -100,10 +91,10 @@ export default function WhyChoose() {
                 >
                   {feature.description}
                 </p>
-              </motion.div>
+              </Reveal>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

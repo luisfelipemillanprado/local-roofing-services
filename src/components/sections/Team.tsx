@@ -1,17 +1,14 @@
-"use client";
-
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { Plus } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import Socials from "@/components/ui/Socials";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { teamMeta } from "@/config/content";
 
-export default function Team() {
-  const t = useTranslations("Team");
+export default async function Team() {
+  const t = await getTranslations("Team");
   const members = t.raw("members") as { name: string; role: string }[];
   const team = members.map((item, i) => ({ ...item, ...teamMeta[i] }));
 
@@ -35,17 +32,12 @@ export default function Team() {
           </Button>
         </div>
 
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
-        >
-          {team.map((member) => (
-            <motion.article
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {team.map((member, i) => (
+            <Reveal
+              as="article"
               key={member.name}
-              variants={fadeUp}
+              delay={i * 0.08}
               className="group relative overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface-2)]"
             >
               <div className="relative aspect-[4/4.6] w-full overflow-hidden">
@@ -75,9 +67,9 @@ export default function Team() {
                   <Plus className="size-5" />
                 </span>
               </div>
-            </motion.article>
+            </Reveal>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

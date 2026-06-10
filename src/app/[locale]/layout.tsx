@@ -3,7 +3,7 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ThemeProvider, themeInitScript } from "@/components/ThemeProvider";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import { routing, type Locale } from "@/i18n/routing";
 import "../globals.css";
 
@@ -93,9 +93,6 @@ export default async function LocaleLayout({ children, params }: Props) {
       suppressHydrationWarning
       className={`${inter.variable} ${jakarta.variable}`}
     >
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
-      </head>
       <body className="antialiased">
         <NextIntlClientProvider>
           <ThemeProvider>{children}</ThemeProvider>

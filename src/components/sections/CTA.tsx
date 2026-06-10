@@ -2,10 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
 import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
 
 export default function CTA() {
   const t = useTranslations("CTA");
@@ -23,38 +22,23 @@ export default function CTA() {
   return (
     <section id="contact" className="bg-[var(--page-bg)] py-20 lg:py-28">
       <div className="container-x">
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="relative isolate overflow-hidden rounded-[2rem] bg-[var(--color-ink)] px-6 py-16 sm:px-12 lg:px-16"
-        >
+        <Reveal className="relative isolate overflow-hidden rounded-[2rem] bg-[var(--color-ink)] px-6 py-16 sm:px-12 lg:px-16">
           <div className="absolute inset-0 -z-10 opacity-30">
             <Image src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=80" alt="" fill sizes="100vw" className="object-cover" />
           </div>
           <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[var(--color-ink)] via-[var(--color-ink)]/90 to-[var(--color-primary)]/40" />
 
           <div className="max-w-2xl">
-            <motion.span
-              variants={fadeUp}
-              className="eyebrow text-[var(--color-primary-light)] before:bg-[var(--color-primary-light)]"
-            >
+            <span className="eyebrow text-[var(--color-primary-light)] before:bg-[var(--color-primary-light)]">
               {t("eyebrow")}
-            </motion.span>
-            <motion.h2
-              variants={fadeUp}
-              className="mt-4 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl lg:text-5xl"
-            >
+            </span>
+            <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl lg:text-5xl">
               {t("titleLead")}
               <span className="block">{t("titleAccent")}</span>
-            </motion.h2>
-            <motion.p variants={fadeUp} className="mt-5 max-w-xl text-white/70">
-              {t("body")}
-            </motion.p>
+            </h2>
+            <p className="mt-5 max-w-xl text-white/70">{t("body")}</p>
 
-            <motion.form
-              variants={fadeUp}
+            <form
               onSubmit={onSubmit}
               className="mt-8 flex flex-col gap-3 sm:flex-row"
             >
@@ -85,9 +69,9 @@ export default function CTA() {
                   </>
                 )}
               </button>
-            </motion.form>
+            </form>
           </div>
-        </motion.div>
+        </Reveal>
       </div>
     </section>
   );

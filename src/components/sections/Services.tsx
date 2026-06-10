@@ -1,18 +1,15 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { serviceMeta } from "@/config/content";
 
-export default function Services() {
-  const t = useTranslations("Services");
-  const tc = useTranslations("Common");
+export default async function Services() {
+  const t = await getTranslations("Services");
+  const tc = await getTranslations("Common");
   const items = t.raw("items") as { title: string; description: string }[];
   const services = items.map((item, i) => ({ ...item, ...serviceMeta[i] }));
 
@@ -36,19 +33,14 @@ export default function Services() {
           </Button>
         </div>
 
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3"
-        >
-          {services.map((service) => {
+        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {services.map((service, i) => {
             const Icon = service.icon;
             return (
-              <motion.article
+              <Reveal
+                as="article"
                 key={service.title}
-                variants={fadeUp}
+                delay={i * 0.08}
                 className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] shadow-[0_18px_50px_-30px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card)]"
               >
                 <div className="relative aspect-[16/11] overflow-hidden">
@@ -78,10 +70,10 @@ export default function Services() {
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
-              </motion.article>
+              </Reveal>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

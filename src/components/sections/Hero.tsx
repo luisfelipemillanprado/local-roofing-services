@@ -1,15 +1,12 @@
-"use client";
-
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { Star, ArrowUpRight, ShieldCheck } from "lucide-react";
 import Button from "@/components/ui/Button";
-import { fadeUp, stagger } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 
-export default function Hero() {
-  const t = useTranslations("Hero");
+export default async function Hero() {
+  const t = await getTranslations("Hero");
 
   return (
     <section id="home" className="relative isolate overflow-hidden bg-[var(--color-ink)]">
@@ -28,49 +25,50 @@ export default function Hero() {
       </div>
 
       <div className="container-x relative flex min-h-[92vh] flex-col justify-center pb-20 pt-36">
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          animate="show"
-          className="max-w-3xl"
-        >
-          <motion.div
-            variants={fadeUp}
+        <div className="max-w-3xl">
+          <Reveal
+            delay={0.05}
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/90 backdrop-blur"
           >
             <ShieldCheck className="size-4 text-[var(--color-primary-light)]" />
             {t("badge")}
-          </motion.div>
+          </Reveal>
 
-          <motion.h1
-            variants={fadeUp}
-            className="mt-6 text-5xl font-extrabold leading-[0.95] text-white sm:text-7xl lg:text-8xl"
+          <Reveal
+            as="div"
+            delay={0.13}
+            className="mt-6"
           >
-            {t("titleLead")}
-            <span className="block text-white/35">{t("titleAccent")}</span>
-          </motion.h1>
+            <h1 className="text-5xl font-extrabold leading-[0.95] text-white sm:text-7xl lg:text-8xl">
+              {t("titleLead")}
+              <span className="block text-white/35">{t("titleAccent")}</span>
+            </h1>
+          </Reveal>
 
-          <motion.p
-            variants={fadeUp}
-            className="mt-6 max-w-xl text-lg leading-relaxed text-white/75"
+          <Reveal
+            as="div"
+            delay={0.21}
+            className="mt-6 max-w-xl"
           >
-            {t("subtitle", {
-              name: company.name,
-              years: company.yearsExperience,
-            })}
-          </motion.p>
+            <p className="text-lg leading-relaxed text-white/75">
+              {t("subtitle", {
+                name: company.name,
+                years: company.yearsExperience,
+              })}
+            </p>
+          </Reveal>
 
-          <motion.div variants={fadeUp} className="mt-9 flex flex-wrap items-center gap-4">
+          <Reveal delay={0.29} className="mt-9 flex flex-wrap items-center gap-4">
             <Button href="#contact" variant="primary" withArrow>
               {t("ctaPrimary")}
             </Button>
             <Button href="#projects" variant="ghost">
               {t("ctaSecondary")}
             </Button>
-          </motion.div>
+          </Reveal>
 
-          <motion.div
-            variants={fadeUp}
+          <Reveal
+            delay={0.37}
             className="mt-12 inline-flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-2 pr-5 backdrop-blur"
           >
             <span className="grid size-12 place-items-center rounded-xl bg-[var(--color-primary)] text-white">
@@ -84,8 +82,8 @@ export default function Hero() {
               </div>
               <p className="text-sm font-semibold text-white">{t("customers")}</p>
             </div>
-          </motion.div>
-        </motion.div>
+          </Reveal>
+        </div>
       </div>
     </section>
   );

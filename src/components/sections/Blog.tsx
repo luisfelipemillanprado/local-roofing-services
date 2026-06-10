@@ -1,13 +1,10 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
-import { fadeUp, stagger, viewportOnce } from "@/lib/motion";
-import { useTranslations } from "next-intl";
+import Reveal from "@/components/ui/Reveal";
+import { getTranslations } from "next-intl/server";
 import { postMeta } from "@/config/content";
 
 type Post = {
@@ -18,8 +15,8 @@ type Post = {
   category: string;
 };
 
-export default function Blog() {
-  const t = useTranslations("Blog");
+export default async function Blog() {
+  const t = await getTranslations("Blog");
   const items = t.raw("posts") as Post[];
   const posts = items.map((item, i) => ({ ...item, ...postMeta[i] }));
 
@@ -43,17 +40,12 @@ export default function Blog() {
           </Button>
         </div>
 
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="mt-14 grid gap-6 md:grid-cols-2"
-        >
-          {posts.map((post) => (
-            <motion.article
+        <div className="mt-14 grid gap-6 md:grid-cols-2">
+          {posts.map((post, i) => (
+            <Reveal
+              as="article"
               key={post.title}
-              variants={fadeUp}
+              delay={i * 0.08}
               className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] shadow-[0_18px_50px_-34px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card)] sm:flex-row"
             >
               <div className="relative aspect-[16/11] w-full overflow-hidden sm:aspect-auto sm:w-2/5">
@@ -94,9 +86,9 @@ export default function Blog() {
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>
-            </motion.article>
+            </Reveal>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
