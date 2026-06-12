@@ -6,10 +6,16 @@ import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
 import { projectMeta } from "@/config/content";
 
-export default async function Projects({ exploreHref }: { exploreHref?: string } = {}) {
+export default async function Projects({
+  exploreHref,
+  limit,
+}: { exploreHref?: string; limit?: number } = {}) {
   const t = await getTranslations("Projects");
   const items = t.raw("items") as { title: string; category: string }[];
-  const projects = items.map((item, i) => ({ ...item, ...projectMeta[i] }));
+  // `limit` lets the home show a summary while /projects shows the full gallery.
+  const projects = items
+    .map((item, i) => ({ ...item, ...projectMeta[i] }))
+    .slice(0, limit);
 
   return (
     <section id="projects" className="bg-[var(--color-ink)] py-20 lg:py-28">

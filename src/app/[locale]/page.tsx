@@ -31,9 +31,9 @@ export default function Home({ params }: Props) {
         <Hero />
         <Marquee />
         <About />
-        <Services exploreHref="/services" />
+        <Services exploreHref="/services" limit={3} />
         <WhyChoose />
-        <Projects exploreHref="/projects" />
+        <Projects exploreHref="/projects" limit={6} />
         <Team />
         <Testimonials />
         <Coupons />

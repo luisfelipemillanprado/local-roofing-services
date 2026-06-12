@@ -29,6 +29,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# generated artwork (recreated by scripts/generate-images.mjs on dev/build)
-/public/images

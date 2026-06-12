@@ -76,11 +76,23 @@
       },
       {
         "title": "Techado Energéticamente Eficiente",
-        "description": "Sistemas de techo frío y membranas reflectantes que reducen tus facturas y mantienen interiores cómodos todo el año."
+        "description": "Sistemas de techo frío, listos para solar, con membranas reflectantes que reducen tus facturas y mantienen interiores cómodos todo el año."
       },
       {
-        "title": "Techos Planos y de Baja Pendiente",
-        "description": "Sistemas duraderos de TPO, EPDM y betún modificado diseñados para estructuras comerciales y modernas de baja pendiente."
+        "title": "Techos de Tejas",
+        "description": "Tejas asfálticas arquitectónicas duraderas, instaladas por expertos para una protección duradera y un atractivo atemporal en cualquier techo inclinado."
+      },
+      {
+        "title": "Techos Metálicos",
+        "description": "Elegantes techos metálicos de junta alzada, construidos para resistir décadas de clima con mínimo mantenimiento y un acabado limpio y moderno."
+      },
+      {
+        "title": "Buhardillas y Ventanas de Techo",
+        "description": "Buhardillas a medida y ventanas de techo herméticas que aportan luz natural y espacio adicional sin comprometer la línea del tejado."
+      },
+      {
+        "title": "Inspección y Reparación",
+        "description": "Inspecciones minuciosas y reparaciones precisas que detectan problemas a tiempo y prolongan la vida de tu techo."
       }
     ]
   },
@@ -119,10 +131,15 @@
     "titleAccent": "Resultados Excepcionales",
     "explore": "Ver Nuestros Proyectos",
     "items": [
-      { "title": "Residencia Cedar Heights", "category": "Retecho Residencial" },
-      { "title": "Plaza Comercial Summit", "category": "Sistema de Techo Plano" },
-      { "title": "Casa Familiar Lakeview", "category": "Reemplazo de Tejas" },
-      { "title": "Parque de Oficinas Northgate", "category": "Techo Metálico" }
+      { "title": "Residencia Cedar Heights", "category": "Retecho de Tejas" },
+      { "title": "Bungaló Moderno Summit", "category": "Instalación de Tejas" },
+      { "title": "Contemporánea Lakeview", "category": "Techo y Claraboya" },
+      { "title": "Residencia Maple Grove", "category": "Retecho de Tejas" },
+      { "title": "Rancho Moderno Northgate", "category": "Sistema de Techo Metálico" },
+      { "title": "Casa Familiar Stonebridge", "category": "Techo a Cuatro Aguas" },
+      { "title": "Finca Moderna Blackpine", "category": "Techo Metálico de Junta Alzada" },
+      { "title": "Granja Greystone", "category": "Sistema de Techo de Pizarra" },
+      { "title": "Casa Sunset Ridge", "category": "Techo de Teja a Dos Aguas" }
     ]
   },
   "Team": {

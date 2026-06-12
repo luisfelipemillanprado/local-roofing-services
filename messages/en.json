@@ -71,16 +71,28 @@
     "exploreAll": "Explore All Services",
     "items": [
       {
-        "title": "Gutter & Flashing",
+        "title": "Gutters & Flashing",
         "description": "Seamless gutter installation and precision flashing that channels water away and protects every edge of your roof."
       },
       {
         "title": "Energy-Efficient Roofing",
-        "description": "Cool-roof systems and reflective membranes that lower your bills while keeping interiors comfortable year-round."
+        "description": "Solar-ready, cool-roof systems with reflective membranes that lower your energy bills while keeping interiors comfortable year-round."
       },
       {
-        "title": "Flat & Low-Slope Roofing",
-        "description": "Durable TPO, EPDM and modified-bitumen systems engineered for commercial and modern low-slope structures."
+        "title": "Shingle Roofing",
+        "description": "Durable architectural asphalt shingles, expertly installed for lasting protection and timeless curb appeal on any pitched roof."
+      },
+      {
+        "title": "Metal Roofing",
+        "description": "Sleek standing-seam metal roofs built to withstand decades of weather with minimal maintenance and a clean, modern finish."
+      },
+      {
+        "title": "Dormers & Roof Windows",
+        "description": "Custom dormers and weather-tight roof windows that bring in natural light and extra living space without compromising the roofline."
+      },
+      {
+        "title": "Inspection & Repair",
+        "description": "Thorough roof inspections and precise repairs that catch problems early and extend the life of your existing roof."
       }
     ]
   },
@@ -119,10 +131,15 @@
     "titleAccent": "Exceptional Results",
     "explore": "Explore Our Projects",
     "items": [
-      { "title": "Cedar Heights Residence", "category": "Residential Re-Roof" },
-      { "title": "Summit Commercial Plaza", "category": "Flat Roof System" },
-      { "title": "Lakeview Family Home", "category": "Shingle Replacement" },
-      { "title": "Northgate Office Park", "category": "Metal Roofing" }
+      { "title": "Cedar Heights Residence", "category": "Shingle Re-Roof" },
+      { "title": "Summit Modern Bungalow", "category": "Tile Roof Installation" },
+      { "title": "Lakeview Contemporary", "category": "Roof & Skylight" },
+      { "title": "Maple Grove Residence", "category": "Tile Re-Roof" },
+      { "title": "Northgate Modern Ranch", "category": "Metal Roof System" },
+      { "title": "Stonebridge Family Home", "category": "Hip Roof Installation" },
+      { "title": "Blackpine Modern Estate", "category": "Standing-Seam Metal Roof" },
+      { "title": "Greystone Farmhouse", "category": "Slate Roof System" },
+      { "title": "Sunset Ridge Home", "category": "Gable Tile Roof" }
     ]
   },
   "Team": {

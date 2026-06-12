@@ -26,20 +26,11 @@ import {
   Handshake,
   Users,
   Star,
+  Sun,
 } from "lucide-react";
 
-/* Shared, locale-independent image URLs */
+/* Shared, locale-independent image URLs (remote sections still on Unsplash) */
 export const IMG = {
-  hero: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=2000&q=80",
-  about: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80",
-  cta: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=80",
-  serviceGutter: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80",
-  serviceEnergy: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
-  serviceFlat: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
-  project1: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1000&q=80",
-  projectWide: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1400&q=80",
-  project2: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1000&q=80",
-  project3: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1000&q=80",
   team1: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&crop=faces&w=600&q=80",
   team2: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=600&q=80",
   team3: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&crop=faces&w=600&q=80",
@@ -53,9 +44,12 @@ export const IMG = {
 /* Metadata aligned by index with the translated lists in messages/*.json */
 
 export const serviceMeta: { icon: LucideIcon; image: string }[] = [
-  { icon: Droplets, image: IMG.serviceGutter },
-  { icon: Zap, image: IMG.serviceEnergy },
-  { icon: Layers, image: IMG.serviceFlat },
+  { icon: Droplets, image: "/images/services/service1.webp" },
+  { icon: Zap, image: "/images/services/service2.webp" },
+  { icon: Layers, image: "/images/services/service3.webp" },
+  { icon: Home, image: "/images/services/service4.webp" },
+  { icon: Sun, image: "/images/services/service5.webp" },
+  { icon: Wrench, image: "/images/services/service6.webp" },
 ];
 
 export const featureMeta: { icon: LucideIcon }[] = [
@@ -72,10 +66,15 @@ export const whyStatMeta: { icon: LucideIcon }[] = [
 ];
 
 export const projectMeta: { image: string }[] = [
-  { image: IMG.project1 },
-  { image: IMG.projectWide },
-  { image: IMG.project2 },
-  { image: IMG.project3 },
+  { image: "/images/projects/project1.webp" },
+  { image: "/images/projects/project2.webp" },
+  { image: "/images/projects/project3.webp" },
+  { image: "/images/projects/project4.webp" },
+  { image: "/images/projects/project5.webp" },
+  { image: "/images/projects/project6.webp" },
+  { image: "/images/projects/project7.webp" },
+  { image: "/images/projects/project8.webp" },
+  { image: "/images/projects/project9.webp" },
 ];
 
 export const teamMeta: { image: string }[] = [

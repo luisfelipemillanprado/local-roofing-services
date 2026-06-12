@@ -7,11 +7,17 @@ import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
 import { serviceMeta } from "@/config/content";
 
-export default async function Services({ exploreHref }: { exploreHref?: string } = {}) {
+export default async function Services({
+  exploreHref,
+  limit,
+}: { exploreHref?: string; limit?: number } = {}) {
   const t = await getTranslations("Services");
   const tc = await getTranslations("Common");
   const items = t.raw("items") as { title: string; description: string }[];
-  const services = items.map((item, i) => ({ ...item, ...serviceMeta[i] }));
+  // `limit` lets the home show a 3-card summary while /services shows all of them.
+  const services = items
+    .map((item, i) => ({ ...item, ...serviceMeta[i] }))
+    .slice(0, limit);
 
   return (
     <section id="services" className="bg-[var(--surface-2)] py-20 lg:py-28">
