@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "images": "node scripts/generate-images.mjs",
-    "predev": "node scripts/generate-images.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/generate-images.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

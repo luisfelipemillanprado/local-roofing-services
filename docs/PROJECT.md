@@ -36,10 +36,6 @@ pnpm dev      # http://localhost:3000
 | `pnpm build`  | Production build           |
 | `pnpm start`  | Serve the production build |
 | `pnpm lint`   | Lint the project           |
-| `pnpm images` | Regenerate the SVG artwork |
-
-The placeholder artwork is regenerated automatically before `dev` and `build`
-(via `scripts/generate-images.mjs`).
 
 ## Project Structure
 
