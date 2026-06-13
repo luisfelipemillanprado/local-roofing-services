@@ -1,0 +1,38 @@
+{
+  "eyebrow": "Por Qué Elegirnos",
+  "titleLead": "Un Techado En El Que",
+  "titleAccent": "Confiar Siempre",
+  "description": "Con años de experiencia práctica en techado y un equipo de profesionales licenciados, aportamos un oficio probado y confiable a cada proyecto. Cuando se trata de proteger tu hogar o negocio, mereces un equipo de techado con el que puedas contar.",
+  "features": [
+    {
+      "title": "Servicios de Emergencia",
+      "description": "Una cuadrilla de respuesta rápida siempre disponible para daños por tormenta, goteras y reparaciones urgentes en nuestra comunidad."
+    },
+    {
+      "title": "Enfoque Proactivo",
+      "description": "Inspecciones programadas y mantenimiento preventivo que detectan problemas mucho antes de que sean costosos."
+    },
+    {
+      "title": "Confiabilidad Total",
+      "description": "Techadores licenciados, asegurados y certificados que usan materiales premium respaldados por garantías líderes del sector."
+    },
+    {
+      "title": "Experiencia Comprobada",
+      "description": "Un cuarto de siglo de oficio en miles de techos, desde casas tradicionales hasta construcciones comerciales."
+    }
+  ],
+  "stats": [
+    {
+      "value": "25+",
+      "label": "Años de Experiencia"
+    },
+    {
+      "value": "1.5k",
+      "label": "Proyectos Entregados"
+    },
+    {
+      "value": "40+",
+      "label": "Techadores Expertos"
+    }
+  ]
+}

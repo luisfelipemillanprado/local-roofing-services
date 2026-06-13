@@ -1,0 +1,32 @@
+{
+  "eyebrow": "Our Team",
+  "titleLead": "Our Skilled Team Of",
+  "titleAccent": "Roofing Professionals",
+  "explore": "Explore Our Team",
+  "members": [
+    {
+      "name": "Rodger Struck",
+      "role": "Lead Roofing Contractor"
+    },
+    {
+      "name": "Marcus Hale",
+      "role": "Project Superintendent"
+    },
+    {
+      "name": "Devin Cole",
+      "role": "Inspection Specialist"
+    },
+    {
+      "name": "Travis Boone",
+      "role": "Safety Manager"
+    },
+    {
+      "name": "Elena Vargas",
+      "role": "Operations Manager"
+    },
+    {
+      "name": "Caleb Foster",
+      "role": "Crew Foreman"
+    }
+  ]
+}

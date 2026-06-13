@@ -1,0 +1,36 @@
+{
+  "eyebrow": "Precios",
+  "titleLead": "Precios Transparentes",
+  "titleAccent": "En Los Que Confiar",
+  "description": "Cotizaciones honestas y claras, sin cargos ocultos. Elige el plan que se ajuste a tu propiedad y presupuesto — cada trabajo está respaldado por nuestra garantía de mano de obra.",
+  "popular": "Popular",
+  "choose": "Elegir Plan",
+  "plans": [
+    {
+      "name": "Residencial",
+      "price": "$5,999",
+      "period": "desde",
+      "blurb": "Ideal para casas unifamiliares que necesitan una solución de techado completa y confiable.",
+      "features": [
+        "Instalación de tejas premium",
+        "Retiro y desecho completo",
+        "Membrana base y escudo de hielo",
+        "Garantía de mano de obra",
+        "Inspección gratuita tras la instalación"
+      ]
+    },
+    {
+      "name": "Comercial",
+      "price": "$599",
+      "period": "por visita",
+      "blurb": "Planes de mantenimiento para techos planos y de baja pendiente, pensados para negocios y administradores.",
+      "features": [
+        "Cuidado de membrana TPO / EPDM",
+        "Inspecciones trimestrales",
+        "Respuesta prioritaria a goteras",
+        "Revisión de drenaje y tapajuntas",
+        "Reportes detallados de condición"
+      ]
+    }
+  ]
+}

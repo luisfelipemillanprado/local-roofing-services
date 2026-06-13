@@ -1,0 +1,10 @@
+{
+  "getQuote": "Get a Quote",
+  "toggleMenu": "Toggle menu",
+  "selectLanguage": "Select language",
+  "toggleTheme": "Toggle theme",
+  "learnMore": "Learn More",
+  "whatsapp": "Chat on WhatsApp",
+  "call": "Call us",
+  "whatsappMessage": "Hi {name}! 👋 I'd like to request a free roof inspection and quote. Could you help me?"
+}

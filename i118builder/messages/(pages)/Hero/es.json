@@ -1,0 +1,23 @@
+{
+  "badge": "Licenciados • Asegurados • Confiables",
+  "titleLead": "Servicios de",
+  "titleAccent": "Techado",
+  "subtitle": "Tu aliado para un techado duradero, de calidad y confiable. Desde reparaciones por tormenta hasta instalaciones completas, {name} protege lo que más importa — desde hace más de {years} años.",
+  "ctaPrimary": "Renueva Tu Techo",
+  "ctaSecondary": "Ver Nuestro Trabajo",
+  "customers": "+1500 Clientes Satisfechos",
+  "stats": [
+    {
+      "value": "1500+",
+      "label": "Proyectos Completados"
+    },
+    {
+      "value": "800+",
+      "label": "Clientes Felices"
+    },
+    {
+      "value": "98%",
+      "label": "Clientes Satisfechos"
+    }
+  ]
+}

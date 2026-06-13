@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Servicios de Techado",
+    "description": "Descubre toda la gama de servicios de techado residencial y comercial de Roofpro — reparaciones, instalación, sistemas energéticamente eficientes, canalones y más, con garantía de mano de obra."
+  },
+  "header": {
+    "eyebrow": "Nuestros Servicios",
+    "titleLead": "Techado Bien Hecho,",
+    "titleAccent": "De Principio a Fin",
+    "description": "Desde reparaciones por tormenta hasta instalaciones completas y sistemas eficientes, nuestra cuadrilla licenciada entrega un oficio confiable en cada techo — residencial y comercial por igual."
+  },
+  "process": {
+    "eyebrow": "Cómo Trabajamos",
+    "titleLead": "Un Proceso Simple y",
+    "titleAccent": "Transparente en 4 Pasos",
+    "steps": [
+      {
+        "title": "Inspección Gratuita",
+        "description": "Evaluamos tu techo en sitio, documentamos su estado e identificamos exactamente qué necesita atención — sin costo."
+      },
+      {
+        "title": "Cotización Transparente",
+        "description": "Recibes una cotización clara y detallada, sin cargos ocultos, para que sepas con precisión qué pagas antes de empezar."
+      },
+      {
+        "title": "Instalación Experta",
+        "description": "Nuestros techadores certificados realizan el trabajo con materiales premium, a tiempo y con un sitio de trabajo limpio y respetuoso."
+      },
+      {
+        "title": "Garantía y Postventa",
+        "description": "Cada trabajo está respaldado por nuestra garantía de mano de obra, más una inspección tras la instalación y soporte continuo cuando lo necesites."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas Frecuentes",
+    "titleLead": "¿Dudas?",
+    "titleAccent": "Tenemos las Respuestas",
+    "items": [
+      {
+        "q": "¿Cuánto tarda un reemplazo de techo típico?",
+        "a": "La mayoría de los retechos residenciales se completan en 1 a 3 días, según el tamaño, la pendiente y los materiales. Te damos un plazo preciso con tu cotización."
+      },
+      {
+        "q": "¿Gestionan reclamos al seguro?",
+        "a": "Sí. Documentamos a fondo los daños por tormenta y trabajamos directamente con tu aseguradora para que el proceso sea lo más sencillo posible."
+      },
+      {
+        "q": "¿Qué materiales de techado ofrecen?",
+        "a": "Tejas asfálticas, metal, TPO, EPDM y betún modificado para techos de baja pendiente — te recomendamos lo mejor para tu propiedad y presupuesto."
+      },
+      {
+        "q": "¿El trabajo tiene garantía?",
+        "a": "Cada instalación incluye nuestra garantía de mano de obra, además de la garantía del fabricante sobre los materiales."
+      },
+      {
+        "q": "¿Ofrecen reparaciones de emergencia?",
+        "a": "Por supuesto. Nuestra cuadrilla de respuesta rápida atiende daños por tormenta y goteras, a menudo cubriendo y asegurando tu techo en horas."
+      }
+    ]
+  }
+}

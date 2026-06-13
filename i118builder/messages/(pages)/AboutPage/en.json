@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "About Us",
+    "description": "Learn about Roofpro — 25+ years of durable, reliable roofing, a team of licensed professionals, and the values that drive every project we deliver."
+  },
+  "header": {
+    "eyebrow": "Our Company",
+    "titleLead": "Protecting Homes &",
+    "titleAccent": "Businesses Since 2001",
+    "description": "Roofpro was built on a simple promise: honest, high-quality roofing that lasts. A quarter-century later, that promise still guides every inspection, quote and installation."
+  },
+  "values": {
+    "eyebrow": "Our Values",
+    "titleLead": "What We Stand",
+    "titleAccent": "For On Every Roof",
+    "items": [
+      {
+        "title": "Quality Craftsmanship",
+        "description": "Premium materials and meticulous workmanship on every job — no shortcuts, ever."
+      },
+      {
+        "title": "Safety First",
+        "description": "Certified, insured crews that follow strict safety standards to protect your property and our team."
+      },
+      {
+        "title": "Honest & Transparent",
+        "description": "Upfront, itemised pricing and straight answers — you always know exactly what you're getting."
+      },
+      {
+        "title": "Community Focused",
+        "description": "We're proud to protect the homes and businesses of the neighbourhoods we live and work in."
+      }
+    ]
+  }
+}

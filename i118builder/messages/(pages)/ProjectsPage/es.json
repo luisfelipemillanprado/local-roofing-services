@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Nuestros Proyectos",
+    "description": "Explora los proyectos de techado residencial y comercial más recientes de Roofpro — retechos, sistemas de techo plano, reemplazos de tejas y techos metálicos en toda la región."
+  },
+  "header": {
+    "eyebrow": "Nuestros Proyectos",
+    "titleLead": "Techos Que Nos",
+    "titleAccent": "Enorgullece Haber Construido",
+    "description": "Un vistazo a trabajos recientes en propiedades residenciales y comerciales — cada uno entregado con la misma precisión, cuidado y materiales duraderos."
+  },
+  "stats": {
+    "eyebrow": "En Cifras",
+    "titleLead": "Una Trayectoria",
+    "titleAccent": "En La Que Confiar",
+    "items": [
+      {
+        "value": "1500+",
+        "label": "Proyectos Completados"
+      },
+      {
+        "value": "25+",
+        "label": "Años de Experiencia"
+      },
+      {
+        "value": "98%",
+        "label": "Clientes Satisfechos"
+      },
+      {
+        "value": "40+",
+        "label": "Techadores Expertos"
+      }
+    ]
+  }
+}

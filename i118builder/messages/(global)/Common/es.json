@@ -1,0 +1,10 @@
+{
+  "getQuote": "Cotización",
+  "toggleMenu": "Abrir menú",
+  "selectLanguage": "Seleccionar idioma",
+  "toggleTheme": "Cambiar tema",
+  "learnMore": "Saber Más",
+  "whatsapp": "Chatea por WhatsApp",
+  "call": "Llámanos",
+  "whatsappMessage": "¡Hola {name}! 👋 Quiero solicitar una inspección y cotización gratis para mi techo. ¿Me pueden ayudar?"
+}

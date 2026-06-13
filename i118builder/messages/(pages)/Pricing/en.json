@@ -1,0 +1,36 @@
+{
+  "eyebrow": "Pricing",
+  "titleLead": "Transparent Pricing",
+  "titleAccent": "You Can Trust",
+  "description": "Honest, upfront quotes with no hidden fees. Choose the plan that fits your property and budget — every job is backed by our workmanship guarantee.",
+  "popular": "Popular",
+  "choose": "Choose Plan",
+  "plans": [
+    {
+      "name": "Residential",
+      "price": "$5,999",
+      "period": "starting at",
+      "blurb": "Ideal for single-family homes needing a full, reliable roofing solution.",
+      "features": [
+        "Premium shingle installation",
+        "Full tear-off & disposal",
+        "Underlayment & ice-shield",
+        "Workmanship warranty",
+        "Free post-install inspection"
+      ]
+    },
+    {
+      "name": "Commercial",
+      "price": "$599",
+      "period": "per visit",
+      "blurb": "Flat & low-slope maintenance plans built for businesses and property managers.",
+      "features": [
+        "TPO / EPDM membrane care",
+        "Quarterly inspections",
+        "Priority leak response",
+        "Drainage & flashing checks",
+        "Detailed condition reports"
+      ]
+    }
+  ]
+}

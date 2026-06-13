@@ -1,0 +1,23 @@
+{
+  "badge": "Licensed • Insured • Trusted",
+  "titleLead": "Roofing",
+  "titleAccent": "Services",
+  "subtitle": "Your partner for durable, quality and reliable roofing. From storm repairs to full installations, {name} protects what matters most — for {years}+ years.",
+  "ctaPrimary": "Upgrade Your Roof",
+  "ctaSecondary": "View Our Work",
+  "customers": "1500+ Satisfied Customers",
+  "stats": [
+    {
+      "value": "1500+",
+      "label": "Projects Completed"
+    },
+    {
+      "value": "800+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": "98%",
+      "label": "Satisfied Customers"
+    }
+  ]
+}

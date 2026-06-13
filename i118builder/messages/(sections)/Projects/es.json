@@ -1,0 +1,44 @@
+{
+  "eyebrow": "Nuestros Proyectos",
+  "titleLead": "Techos Que Transforman",
+  "titleAccent": "Resultados Excepcionales",
+  "explore": "Ver Nuestros Proyectos",
+  "items": [
+    {
+      "title": "Residencia Cedar Heights",
+      "category": "Retecho de Tejas"
+    },
+    {
+      "title": "Bungaló Moderno Summit",
+      "category": "Instalación de Tejas"
+    },
+    {
+      "title": "Contemporánea Lakeview",
+      "category": "Techo y Claraboya"
+    },
+    {
+      "title": "Residencia Maple Grove",
+      "category": "Retecho de Tejas"
+    },
+    {
+      "title": "Rancho Moderno Northgate",
+      "category": "Sistema de Techo Metálico"
+    },
+    {
+      "title": "Casa Familiar Stonebridge",
+      "category": "Techo a Cuatro Aguas"
+    },
+    {
+      "title": "Finca Moderna Blackpine",
+      "category": "Techo Metálico de Junta Alzada"
+    },
+    {
+      "title": "Granja Greystone",
+      "category": "Sistema de Techo de Pizarra"
+    },
+    {
+      "title": "Casa Sunset Ridge",
+      "category": "Techo de Teja a Dos Aguas"
+    }
+  ]
+}

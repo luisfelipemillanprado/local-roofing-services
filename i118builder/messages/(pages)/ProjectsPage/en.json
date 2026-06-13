@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Our Projects",
+    "description": "Browse Roofpro's recent residential and commercial roofing projects — re-roofs, flat-roof systems, shingle replacements and metal roofing across the region."
+  },
+  "header": {
+    "eyebrow": "Our Projects",
+    "titleLead": "Roofs We're",
+    "titleAccent": "Proud To Have Built",
+    "description": "A look at recent work across residential and commercial properties — each one delivered with the same precision, care and durable materials."
+  },
+  "stats": {
+    "eyebrow": "By The Numbers",
+    "titleLead": "A Track Record",
+    "titleAccent": "You Can Count On",
+    "items": [
+      {
+        "value": "1500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "25+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "98%",
+        "label": "Satisfied Customers"
+      },
+      {
+        "value": "40+",
+        "label": "Expert Roofers"
+      }
+    ]
+  }
+}

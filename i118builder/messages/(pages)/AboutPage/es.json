@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Nosotros",
+    "description": "Conoce Roofpro — más de 25 años de techado duradero y confiable, un equipo de profesionales licenciados, y los valores que guían cada proyecto que entregamos."
+  },
+  "header": {
+    "eyebrow": "Nuestra Empresa",
+    "titleLead": "Protegiendo Hogares y",
+    "titleAccent": "Negocios Desde 2001",
+    "description": "Roofpro nació de una promesa simple: techado honesto y de alta calidad que perdura. Un cuarto de siglo después, esa promesa sigue guiando cada inspección, cotización e instalación."
+  },
+  "values": {
+    "eyebrow": "Nuestros Valores",
+    "titleLead": "Lo Que Defendemos",
+    "titleAccent": "En Cada Techo",
+    "items": [
+      {
+        "title": "Oficio de Calidad",
+        "description": "Materiales premium y mano de obra meticulosa en cada trabajo — sin atajos, nunca."
+      },
+      {
+        "title": "Seguridad Primero",
+        "description": "Cuadrillas certificadas y aseguradas que siguen estrictos estándares de seguridad para proteger tu propiedad y a nuestro equipo."
+      },
+      {
+        "title": "Honestos y Transparentes",
+        "description": "Precios claros y detallados, y respuestas directas — siempre sabes exactamente lo que recibes."
+      },
+      {
+        "title": "Enfoque en la Comunidad",
+        "description": "Nos enorgullece proteger los hogares y negocios de los vecindarios donde vivimos y trabajamos."
+      }
+    ]
+  }
+}
