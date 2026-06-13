@@ -29,10 +29,13 @@ function GoogleMark() {
   );
 }
 
-export default async function Testimonials() {
+export default async function Testimonials({ limit }: { limit?: number } = {}) {
   const t = await getTranslations("Testimonials");
   const items = t.raw("items") as { quote: string; name: string; location: string }[];
-  const testimonials = items.map((item, i) => ({ ...item, ...testimonialMeta[i] }));
+  // `limit` lets the home show a subset while /projects shows them all.
+  const testimonials = items
+    .map((item, i) => ({ ...item, ...testimonialMeta[i] }))
+    .slice(0, limit);
 
   return (
     <section className="bg-[var(--surface-2)] py-20 lg:py-28">

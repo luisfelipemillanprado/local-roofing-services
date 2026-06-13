@@ -7,10 +7,13 @@ import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
 import { teamMeta } from "@/config/content";
 
-export default async function Team() {
+export default async function Team({ limit }: { limit?: number } = {}) {
   const t = await getTranslations("Team");
   const members = t.raw("members") as { name: string; role: string }[];
-  const team = members.map((item, i) => ({ ...item, ...teamMeta[i] }));
+  // `limit` lets the home show a subset while /about shows the full team.
+  const team = members
+    .map((item, i) => ({ ...item, ...teamMeta[i] }))
+    .slice(0, limit);
 
   return (
     <section className="bg-[var(--page-bg)] py-20 lg:py-28">

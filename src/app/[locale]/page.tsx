@@ -11,7 +11,6 @@ import WhyChoose from "@/components/sections/WhyChoose";
 import Projects from "@/components/sections/Projects";
 import Team from "@/components/sections/Team";
 import Testimonials from "@/components/sections/Testimonials";
-import Coupons from "@/components/sections/Coupons";
 import Pricing from "@/components/sections/Pricing";
 import Blog from "@/components/sections/Blog";
 import CTA from "@/components/sections/CTA";
@@ -34,9 +33,8 @@ export default function Home({ params }: Props) {
         <Services exploreHref="/services" limit={3} />
         <WhyChoose />
         <Projects exploreHref="/projects" limit={6} />
-        <Team />
-        <Testimonials />
-        <Coupons />
+        <Team limit={3} />
+        <Testimonials limit={3} />
         <Pricing />
         <Blog />
         <CTA />

@@ -31,12 +31,6 @@ import {
 
 /* Shared, locale-independent image URLs (remote sections still on Unsplash) */
 export const IMG = {
-  team1: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&crop=faces&w=600&q=80",
-  team2: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=600&q=80",
-  team3: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&crop=faces&w=600&q=80",
-  avatar1: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=150&q=80",
-  avatar2: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&crop=faces&w=150&q=80",
-  avatar3: "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&crop=faces&w=150&q=80",
   blog1: "https://images.unsplash.com/photo-1635424710928-0544e8512eae?auto=format&fit=crop&w=800&q=80",
   blog2: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80",
 } as const;
@@ -78,21 +72,21 @@ export const projectMeta: { image: string }[] = [
 ];
 
 export const teamMeta: { image: string }[] = [
-  { image: IMG.team1 },
-  { image: IMG.team2 },
-  { image: IMG.team3 },
+  { image: "/images/team/team1.webp" },
+  { image: "/images/team/team2.webp" },
+  { image: "/images/team/team3.webp" },
+  { image: "/images/team/team4.webp" },
+  { image: "/images/team/team5.webp" },
+  { image: "/images/team/team6.webp" },
 ];
 
 export const testimonialMeta: { avatar: string; rating: number }[] = [
-  { avatar: IMG.avatar1, rating: 5 },
-  { avatar: IMG.avatar2, rating: 5 },
-  { avatar: IMG.avatar3, rating: 5 },
-];
-
-export const couponMeta: { highlighted?: boolean }[] = [
-  {},
-  { highlighted: true },
-  {},
+  { avatar: "/images/avatars/avatar1.webp", rating: 5 },
+  { avatar: "/images/avatars/avatar2.webp", rating: 5 },
+  { avatar: "/images/avatars/avatar3.webp", rating: 5 },
+  { avatar: "/images/avatars/avatar4.webp", rating: 5 },
+  { avatar: "/images/avatars/avatar5.webp", rating: 5 },
+  { avatar: "/images/avatars/avatar6.webp", rating: 5 },
 ];
 
 export const pricingMeta: { icon: LucideIcon; highlighted?: boolean }[] = [

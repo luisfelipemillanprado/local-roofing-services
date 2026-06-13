@@ -150,7 +150,10 @@
     "members": [
       { "name": "Rodger Struck", "role": "Lead Roofing Contractor" },
       { "name": "Marcus Hale", "role": "Project Superintendent" },
-      { "name": "Devin Cole", "role": "Inspection Specialist" }
+      { "name": "Devin Cole", "role": "Inspection Specialist" },
+      { "name": "Travis Boone", "role": "Safety Manager" },
+      { "name": "Elena Vargas", "role": "Operations Manager" },
+      { "name": "Caleb Foster", "role": "Crew Foreman" }
     ]
   },
   "Testimonials": {
@@ -161,43 +164,34 @@
     "viewAll": "View All",
     "items": [
       {
-        "quote": "Roofpro replaced our entire roof after a hailstorm and handled the insurance paperwork end to end. The crew was punctual, tidy and genuinely cared about the result.",
-        "name": "Dennis Collis",
-        "location": "Boulder, CO"
-      },
-      {
         "quote": "From the first inspection to the final cleanup the team was professional and transparent. Our new energy-efficient roof already cut our cooling costs noticeably.",
         "name": "Paula Moss",
         "location": "Aurora, CO"
       },
       {
+        "quote": "Roofpro replaced our entire roof after a hailstorm and handled the insurance paperwork end to end. The crew was punctual, tidy and genuinely cared about the result.",
+        "name": "Dennis Collis",
+        "location": "Boulder, CO"
+      },
+      {
         "quote": "Fast emergency response when a storm tore off shingles overnight. They tarped it within hours and had it fully repaired by the weekend. Highly recommend.",
         "name": "Howard Tanner",
         "location": "Denver, CO"
-      }
-    ]
-  },
-  "Coupons": {
-    "eyebrow": "Coupons",
-    "titleLead": "Save Big On Your",
-    "titleAccent": "Next Roofing Project",
-    "explore": "Explore Coupons",
-    "claim": "Claim Offer",
-    "items": [
-      {
-        "title": "Full Roof Replacement",
-        "amount": "$1000 OFF",
-        "description": "Unlock huge savings on a complete roofing system installed by certified pros."
       },
       {
-        "title": "Roof Repair Package",
-        "amount": "$500 OFF",
-        "description": "Limited-time deals built for every storm-season repair and restoration job."
+        "quote": "They re-roofed our home with standing-seam metal and the difference is night and day. Professional, on time, and the crew treated our property with real respect.",
+        "name": "Grace Holloway",
+        "location": "Littleton, CO"
       },
       {
-        "title": "Gutter & Maintenance",
-        "amount": "$400 OFF",
-        "description": "Affordable upkeep starts here with these exclusive seasonal service offers."
+        "quote": "I got three quotes and Roofpro was by far the most transparent. No hidden fees, quality workmanship, and they finished ahead of schedule.",
+        "name": "Greg Walsh",
+        "location": "Lakewood, CO"
+      },
+      {
+        "quote": "From the inspection to the warranty paperwork everything was clear and easy. Our new roof looks fantastic and the house feels cooler already.",
+        "name": "Tyler Brooks",
+        "location": "Englewood, CO"
       }
     ]
   },
