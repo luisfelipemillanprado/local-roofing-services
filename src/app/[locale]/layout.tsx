@@ -5,7 +5,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
 import { SyncLocale } from "@/app/SyncLocale";
-import FloatingContact from "@/components/ui/FloatingContact";
+import { FloatingContact } from "@/common/floating-contact/components/organisms/FloatingContact";
 
 const siteUrl = "https://roofpro.example.com";
 

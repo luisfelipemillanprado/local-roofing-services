@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-import PageHeader from "@/components/sections/PageHeader";
-import Projects from "@/components/sections/Projects";
-import StatsBand from "@/components/sections/StatsBand";
-import Testimonials from "@/components/sections/Testimonials";
-import CTA from "@/components/sections/CTA";
+import { Navbar } from "@/common/navbar/components/organisms/Navbar";
+import { Footer } from "@/common/footer/components/organisms/Footer";
+import { PageHeader } from "@/common/page-header/components/organisms/PageHeader";
+import { Projects } from "@/common/project/components/organisms/Projects";
+import { StatsBand } from "@/features/projects/components/organisms/StatsBand";
+import { Testimonials } from "@/common/review/components/organisms/Testimonials";
+import { CTA } from "@/common/call-action/components/organisms/CTA";
 
 type Props = { params: Promise<{ locale: string }> };
 
