@@ -8,7 +8,7 @@ export async function ProcessSteps() {
   const items = processSection.steps;
 
   return (
-    <section className="bg-[var(--page-bg)] py-20 lg:py-28">
+    <section className="bg-canvas py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -16,7 +16,7 @@ export async function ProcessSteps() {
           title={
             <>
               {t("titleLead")}{" "}
-              <span className="text-[var(--color-primary)]">{t("titleAccent")}</span>
+              <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
         />
@@ -29,18 +29,18 @@ export async function ProcessSteps() {
                 as="article"
                 key={step.key}
                 delay={i * 0.08}
-                className="rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] p-7"
+                className="rounded-card border border-line bg-surface p-7"
               >
-                <span className="text-sm font-extrabold text-[var(--color-primary)]">
+                <span className="text-sm font-extrabold text-primary">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <span className="mt-4 grid size-14 place-items-center rounded-2xl bg-[var(--surface-2)] text-[var(--color-primary)]">
+                <span className="mt-4 grid size-14 place-items-center rounded-2xl bg-surface-2 text-primary">
                   <Icon className="size-7" />
                 </span>
-                <h3 className="mt-5 text-lg font-bold text-[var(--fg)]">
+                <h3 className="mt-5 text-lg font-bold text-fg">
                   {t(`steps.${step.key}.title`)}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-[var(--fg-muted)]">
+                <p className="mt-2 text-sm leading-relaxed text-fg-muted">
                   {t(`steps.${step.key}.description`)}
                 </p>
               </Reveal>

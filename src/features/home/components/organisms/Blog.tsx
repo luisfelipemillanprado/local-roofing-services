@@ -12,7 +12,7 @@ export async function Blog() {
   const posts = blogSection.posts;
 
   return (
-    <section id="blog" className="bg-[var(--surface-2)] py-20 lg:py-28">
+    <section id="blog" className="bg-surface-2 py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
@@ -20,7 +20,7 @@ export async function Blog() {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-[var(--color-primary)]">
+                <span className="block text-primary">
                   {t("titleAccent")}
                 </span>
               </>
@@ -37,7 +37,7 @@ export async function Blog() {
               as="article"
               key={post.key}
               delay={i * 0.08}
-              className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] shadow-[0_18px_50px_-34px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card)] sm:flex-row"
+              className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-[0_18px_50px_-34px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card sm:flex-row"
             >
               <div className="relative aspect-[16/11] w-full overflow-hidden sm:aspect-auto sm:w-2/5">
                 <Image
@@ -49,31 +49,31 @@ export async function Blog() {
                   sizes="(max-width: 768px) 100vw, 40vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <span className="absolute left-4 top-4 rounded-full bg-[var(--color-primary)] px-3 py-1 text-xs font-bold text-white">
+                <span className="absolute left-4 top-4 rounded-full bg-primary px-3 py-1 text-xs font-bold text-white">
                   {t(`posts.${post.key}.category`)}
                 </span>
               </div>
 
               <div className="flex flex-1 flex-col p-6">
-                <div className="flex items-center gap-4 text-xs text-[var(--fg-muted)]">
+                <div className="flex items-center gap-4 text-xs text-fg-muted">
                   <span className="flex items-center gap-1.5">
-                    <Calendar className="size-3.5 text-[var(--color-primary)]" />
+                    <Calendar className="size-3.5 text-primary" />
                     {t(`posts.${post.key}.date`)}
                   </span>
                   <span className="flex items-center gap-1.5">
-                    <User className="size-3.5 text-[var(--color-primary)]" />
+                    <User className="size-3.5 text-primary" />
                     {t(`posts.${post.key}.author`)}
                   </span>
                 </div>
-                <h3 className="mt-3 text-lg font-bold leading-snug text-[var(--fg)] transition-colors group-hover:text-[var(--color-primary)]">
+                <h3 className="mt-3 text-lg font-bold leading-snug text-fg transition-colors group-hover:text-primary">
                   {t(`posts.${post.key}.title`)}
                 </h3>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-[var(--fg-muted)]">
+                <p className="mt-3 flex-1 text-sm leading-relaxed text-fg-muted">
                   {t(`posts.${post.key}.excerpt`)}
                 </p>
                 <Link
                   href="#blog"
-                  className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)]"
+                  className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-primary"
                 >
                   {t("readMore")}
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />

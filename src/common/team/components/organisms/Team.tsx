@@ -14,7 +14,7 @@ export async function Team({ limit }: TeamProps = {}) {
   const team = teamSection.members.slice(0, limit);
 
   return (
-    <section className="bg-[var(--page-bg)] py-20 lg:py-28">
+    <section className="bg-canvas py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
@@ -22,7 +22,7 @@ export async function Team({ limit }: TeamProps = {}) {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-[var(--color-primary)]">
+                <span className="block text-primary">
                   {t("titleAccent")}
                 </span>
               </>
@@ -41,7 +41,7 @@ export async function Team({ limit }: TeamProps = {}) {
               as="article"
               key={member.key}
               delay={i * 0.08}
-              className="group relative overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface-2)]"
+              className="group relative overflow-hidden rounded-card border border-line bg-surface-2"
             >
               <div className="relative aspect-[4/4.6] w-full overflow-hidden">
                 <Image
@@ -53,7 +53,7 @@ export async function Team({ limit }: TeamProps = {}) {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)]/70 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
 
                 {/* Socials reveal */}
                 <div className="absolute right-4 top-4 translate-x-4 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
@@ -63,14 +63,14 @@ export async function Team({ limit }: TeamProps = {}) {
 
               <div className="flex items-center justify-between p-5">
                 <div>
-                  <h3 className="text-lg font-bold text-[var(--fg)]">
+                  <h3 className="text-lg font-bold text-fg">
                     {name}
                   </h3>
-                  <p className="text-sm text-[var(--fg-muted)]">
+                  <p className="text-sm text-fg-muted">
                     {t(`members.${member.key}.role`)}
                   </p>
                 </div>
-                <span className="grid size-10 place-items-center rounded-full bg-[var(--color-primary)] text-white transition-transform duration-300 group-hover:rotate-90">
+                <span className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:rotate-90">
                   <Plus className="size-5" />
                 </span>
               </div>

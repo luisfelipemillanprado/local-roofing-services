@@ -13,7 +13,7 @@ export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
   const projects = projectsSection.items.slice(0, limit);
 
   return (
-    <section id="projects" className="bg-[var(--color-ink)] py-20 lg:py-28">
+    <section id="projects" className="bg-ink py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
@@ -22,7 +22,7 @@ export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-[var(--color-primary-light)]">
+                <span className="block text-primary-light">
                   {t("titleAccent")}
                 </span>
               </>
@@ -43,7 +43,7 @@ export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
               as="article"
               key={project.key}
               delay={i * 0.08}
-              className={`group relative overflow-hidden rounded-[var(--radius-card)] ${
+              className={`group relative overflow-hidden rounded-card ${
                 i === 1 ? "sm:col-span-2" : ""
               }`}
             >
@@ -57,17 +57,17 @@ export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)] via-[var(--color-ink)]/10 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/10 to-transparent" />
               </div>
 
               <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-between p-5 opacity-90 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest text-[var(--color-primary-light)]">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-primary-light">
                     {t(`items.${project.key}.category`)}
                   </p>
                   <h3 className="mt-1 text-lg font-bold text-white">{title}</h3>
                 </div>
-                <span className="grid size-10 shrink-0 place-items-center rounded-full bg-[var(--color-primary)] text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <span className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <ArrowUpRight className="size-5" />
                 </span>
               </div>

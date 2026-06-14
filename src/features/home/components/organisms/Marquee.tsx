@@ -6,7 +6,7 @@ export async function Marquee() {
   const rotator = marqueeSection.items;
   const items = [...rotator, ...rotator, ...rotator];
   return (
-    <div className="overflow-hidden bg-[var(--color-primary)] py-4">
+    <div className="overflow-hidden bg-primary py-4">
       <div className="flex w-max animate-marquee items-center">
         {items.map((item, i) => {
           const Icon = item.icon;

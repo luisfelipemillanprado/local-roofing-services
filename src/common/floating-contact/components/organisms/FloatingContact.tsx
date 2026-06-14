@@ -40,7 +40,7 @@ export async function FloatingContact() {
       label: t("call"),
       icon: <Phone className="size-6" />,
       className:
-        "bg-[var(--color-primary)] shadow-[0_12px_30px_-8px_rgba(232,57,43,0.6)]",
+        "bg-primary shadow-[0_12px_30px_-8px_rgba(232,57,43,0.6)]",
     },
   ];
 
@@ -56,7 +56,7 @@ export async function FloatingContact() {
             : {})}
           className="group flex items-center"
         >
-          <span className="pointer-events-none mr-3 translate-x-2 rounded-full bg-[var(--surface)] px-3 py-1.5 text-sm font-semibold text-[var(--fg)] opacity-0 shadow-[var(--shadow-soft)] transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+          <span className="pointer-events-none mr-3 translate-x-2 rounded-full bg-surface px-3 py-1.5 text-sm font-semibold text-fg opacity-0 shadow-soft transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
             {action.label}
           </span>
           <span

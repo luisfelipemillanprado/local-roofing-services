@@ -10,7 +10,7 @@ export async function Pricing() {
   const pricingPlans = pricingSection.plans;
 
   return (
-    <section id="pricing" className="bg-[var(--page-bg)] py-20 lg:py-28">
+    <section id="pricing" className="bg-canvas py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -18,7 +18,7 @@ export async function Pricing() {
           title={
             <>
               {t("titleLead")}{" "}
-              <span className="text-[var(--color-primary)]">{t("titleAccent")}</span>
+              <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
           description={t("description")}
@@ -32,14 +32,14 @@ export async function Pricing() {
               <Reveal
                 key={plan.key}
                 delay={i * 0.08}
-                className={`relative flex flex-col rounded-[var(--radius-card)] border p-8 transition-all duration-300 ${
+                className={`relative flex flex-col rounded-card border p-8 transition-all duration-300 ${
                   plan.highlighted
-                    ? "border-transparent bg-[var(--color-ink)] text-white shadow-[var(--shadow-card)]"
-                    : "border-[var(--border)] bg-[var(--surface-2)]"
+                    ? "border-transparent bg-ink text-white shadow-card"
+                    : "border-line bg-surface-2"
                 }`}
               >
                 {plan.highlighted && (
-                  <span className="absolute right-6 top-6 rounded-full bg-[var(--color-primary)] px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
+                  <span className="absolute right-6 top-6 rounded-full bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
                     {t("popular")}
                   </span>
                 )}
@@ -47,8 +47,8 @@ export async function Pricing() {
                 <span
                   className={`grid size-14 place-items-center rounded-2xl ${
                     plan.highlighted
-                      ? "bg-[var(--color-primary)] text-white"
-                      : "bg-[var(--surface)] text-[var(--color-primary)]"
+                      ? "bg-primary text-white"
+                      : "bg-surface text-primary"
                   }`}
                 >
                   <Icon className="size-7" />
@@ -56,14 +56,14 @@ export async function Pricing() {
 
                 <h3
                   className={`mt-6 text-xl font-bold ${
-                    plan.highlighted ? "text-white" : "text-[var(--fg)]"
+                    plan.highlighted ? "text-white" : "text-fg"
                   }`}
                 >
                   {t(`plans.${plan.key}.name`)}
                 </h3>
                 <p
                   className={`mt-2 text-sm ${
-                    plan.highlighted ? "text-white/70" : "text-[var(--fg-muted)]"
+                    plan.highlighted ? "text-white/70" : "text-fg-muted"
                   }`}
                 >
                   {t(`plans.${plan.key}.blurb`)}
@@ -75,7 +75,7 @@ export async function Pricing() {
                   </span>
                   <span
                     className={`mb-1 text-sm ${
-                      plan.highlighted ? "text-white/60" : "text-[var(--fg-muted)]"
+                      plan.highlighted ? "text-white/60" : "text-fg-muted"
                     }`}
                   >
                     {t(`plans.${plan.key}.period`)}
@@ -88,15 +88,15 @@ export async function Pricing() {
                       <span
                         className={`grid size-5 shrink-0 place-items-center rounded-full ${
                           plan.highlighted
-                            ? "bg-[var(--color-primary)] text-white"
-                            : "bg-[var(--color-primary)]/10 text-[var(--color-primary)]"
+                            ? "bg-primary text-white"
+                            : "bg-primary/10 text-primary"
                         }`}
                       >
                         <Check className="size-3" strokeWidth={3.5} />
                       </span>
                       <span
                         className={
-                          plan.highlighted ? "text-white/85" : "text-[var(--fg)]/80"
+                          plan.highlighted ? "text-white/85" : "text-fg/80"
                         }
                       >
                         {feature}

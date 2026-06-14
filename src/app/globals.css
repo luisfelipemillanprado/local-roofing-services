@@ -54,6 +54,10 @@
   --color-fg: var(--fg);
   --color-fg-muted: var(--fg-muted);
   --color-line: var(--border);
+  --color-footer: var(--footer-bg);
+  --color-footer-fg: var(--footer-fg);
+  --color-footer-line: var(--footer-border);
+  --color-footer-accent: var(--footer-accent);
 }
 
 /* ───────────────────────────────────────────────────────────────────

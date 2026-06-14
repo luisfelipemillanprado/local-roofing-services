@@ -36,7 +36,7 @@ export function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[var(--surface)]/90 shadow-[0_10px_40px_-24px_rgba(15,23,34,0.45)] backdrop-blur-md"
+          ? "bg-surface/90 shadow-[0_10px_40px_-24px_rgba(15,23,34,0.45)] backdrop-blur-md"
           : "bg-transparent"
       }`}
     >
@@ -48,7 +48,7 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-full px-3.5 py-2 text-sm font-medium text-[var(--fg)]/80 transition-colors hover:text-[var(--color-primary)]"
+              className="rounded-full px-3.5 py-2 text-sm font-medium text-fg/80 transition-colors hover:text-primary"
             >
               {link.label}
             </Link>
@@ -58,9 +58,9 @@ export function Navbar() {
         <div className="hidden items-center gap-3 lg:flex">
           <a
             href={company.phoneHref}
-            className="flex items-center gap-2 text-sm font-semibold text-[var(--fg)]"
+            className="flex items-center gap-2 text-sm font-semibold text-fg"
           >
-            <span className="grid size-9 place-items-center rounded-full bg-[var(--surface-2)] text-[var(--color-primary)]">
+            <span className="grid size-9 place-items-center rounded-full bg-surface-2 text-primary">
               <Phone className="size-4" />
             </span>
             {company.phone}
@@ -80,7 +80,7 @@ export function Navbar() {
             onClick={() => setOpen((v) => !v)}
             aria-label={t("toggleMenu")}
             aria-expanded={open}
-            className="grid size-11 place-items-center rounded-xl bg-[var(--color-ink)] text-white"
+            className="grid size-11 place-items-center rounded-xl bg-ink text-white"
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
           </button>
@@ -97,25 +97,25 @@ export function Navbar() {
       >
         <div className="min-h-0">
           <div className="container-x pb-6">
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 shadow-[var(--shadow-soft)]">
+            <div className="rounded-2xl border border-line bg-surface p-4 shadow-soft">
               <nav className="flex flex-col">
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
                     onClick={() => setOpen(false)}
-                    className="rounded-xl px-4 py-3 text-base font-medium text-[var(--fg)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-primary)]"
+                    className="rounded-xl px-4 py-3 text-base font-medium text-fg transition-colors hover:bg-surface-2 hover:text-primary"
                   >
                     {link.label}
                   </Link>
                 ))}
               </nav>
-              <div className="mt-4 flex flex-col gap-3 border-t border-[var(--border)] pt-4">
+              <div className="mt-4 flex flex-col gap-3 border-t border-line pt-4">
                 <a
                   href={company.phoneHref}
-                  className="flex items-center gap-2 px-1 text-sm font-semibold text-[var(--fg)]"
+                  className="flex items-center gap-2 px-1 text-sm font-semibold text-fg"
                 >
-                  <Phone className="size-4 text-[var(--color-primary)]" />
+                  <Phone className="size-4 text-primary" />
                   {company.phone}
                 </a>
                 <Button href="#contact" variant="primary" className="w-full">

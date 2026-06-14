@@ -36,7 +36,7 @@ export async function Testimonials({ limit }: TestimonialsProps = {}) {
   const testimonials = reviewsSection.items.slice(0, limit);
 
   return (
-    <section className="bg-[var(--surface-2)] py-20 lg:py-28">
+    <section className="bg-surface-2 py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
           <SectionHeading
@@ -44,25 +44,25 @@ export async function Testimonials({ limit }: TestimonialsProps = {}) {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-[var(--color-primary)]">
+                <span className="block text-primary">
                   {t("titleAccent")}
                 </span>
               </>
             }
           />
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2 rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3">
+            <div className="flex items-center gap-2 rounded-2xl border border-line bg-surface px-4 py-3">
               <GoogleMark />
               <div>
-                <div className="flex items-center gap-1.5 text-sm font-bold text-[var(--fg)]">
+                <div className="flex items-center gap-1.5 text-sm font-bold text-fg">
                   4.9
-                  <span className="flex text-[var(--color-primary)]">
+                  <span className="flex text-primary">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} className="size-3.5 fill-current" />
                     ))}
                   </span>
                 </div>
-                <p className="text-xs text-[var(--fg-muted)]">{t("reviews")}</p>
+                <p className="text-xs text-fg-muted">{t("reviews")}</p>
               </div>
             </div>
             <Button href="#contact" variant="dark" className="hidden sm:inline-flex">
@@ -79,20 +79,20 @@ export async function Testimonials({ limit }: TestimonialsProps = {}) {
               as="figure"
               key={item.key}
               delay={i * 0.08}
-              className="flex flex-col rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] p-7 shadow-[0_18px_50px_-34px_rgba(15,23,34,0.45)]"
+              className="flex flex-col rounded-card border border-line bg-surface p-7 shadow-[0_18px_50px_-34px_rgba(15,23,34,0.45)]"
             >
               <div className="flex items-center justify-between">
-                <span className="flex text-[var(--color-primary)]">
+                <span className="flex text-primary">
                   {Array.from({ length: item.rating }).map((_, i) => (
                     <Star key={i} className="size-4 fill-current" />
                   ))}
                 </span>
-                <Quote className="size-8 text-[var(--surface-2)]" fill="currentColor" />
+                <Quote className="size-8 text-surface-2" fill="currentColor" />
               </div>
-              <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-[var(--fg)]/80">
+              <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-fg/80">
                 &ldquo;{t(`items.${item.key}.quote`)}&rdquo;
               </blockquote>
-              <figcaption className="mt-6 flex items-center gap-3 border-t border-[var(--border)] pt-5">
+              <figcaption className="mt-6 flex items-center gap-3 border-t border-line pt-5">
                 <span className="relative size-11 overflow-hidden rounded-full">
                   <Image
                     src={item.avatar}
@@ -105,8 +105,8 @@ export async function Testimonials({ limit }: TestimonialsProps = {}) {
                   />
                 </span>
                 <div className="flex-1">
-                  <div className="text-sm font-bold text-[var(--fg)]">{name}</div>
-                  <div className="text-xs text-[var(--fg-muted)]">
+                  <div className="text-sm font-bold text-fg">{name}</div>
+                  <div className="text-xs text-fg-muted">
                     {t(`items.${item.key}.location`)}
                   </div>
                 </div>

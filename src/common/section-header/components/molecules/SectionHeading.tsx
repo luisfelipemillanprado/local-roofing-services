@@ -19,7 +19,7 @@ export function SectionHeading({
       <span className="eyebrow">{eyebrow}</span>
       <h2
         className={`text-3xl font-extrabold leading-[1.1] sm:text-4xl lg:text-[2.75rem] ${
-          theme === "dark" ? "text-white" : "text-[var(--fg)]"
+          theme === "dark" ? "text-white" : "text-fg"
         }`}
       >
         {title}
@@ -27,7 +27,7 @@ export function SectionHeading({
       {description && (
         <p
           className={`text-base leading-relaxed ${
-            theme === "dark" ? "text-white/70" : "text-[var(--fg-muted)]"
+            theme === "dark" ? "text-white/70" : "text-fg-muted"
           }`}
         >
           {description}

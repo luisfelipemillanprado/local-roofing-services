@@ -9,7 +9,7 @@ export async function Hero() {
   const t = await getTranslations("home.hero");
 
   return (
-    <section id="home" className="relative isolate overflow-hidden bg-[var(--color-ink)]">
+    <section id="home" className="relative isolate overflow-hidden bg-ink">
       {/* Background */}
       <div className="absolute inset-0 -z-10">
         <Image
@@ -20,8 +20,8 @@ export async function Hero() {
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-ink)] via-[var(--color-ink)]/85 to-[var(--color-ink)]/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)] via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
       </div>
 
       <div className="container-x relative flex min-h-[92vh] flex-col justify-center pb-20 pt-36">
@@ -30,7 +30,7 @@ export async function Hero() {
             delay={0.05}
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/90 backdrop-blur"
           >
-            <ShieldCheck className="size-4 text-[var(--color-primary-light)]" />
+            <ShieldCheck className="size-4 text-primary-light" />
             {t("badge")}
           </Reveal>
 
@@ -71,11 +71,11 @@ export async function Hero() {
             delay={0.37}
             className="mt-12 inline-flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-2 pr-5 backdrop-blur"
           >
-            <span className="grid size-12 place-items-center rounded-xl bg-[var(--color-primary)] text-white">
+            <span className="grid size-12 place-items-center rounded-xl bg-primary text-white">
               <ArrowUpRight className="size-6" />
             </span>
             <div>
-              <div className="flex items-center gap-1 text-[var(--color-primary-light)]">
+              <div className="flex items-center gap-1 text-primary-light">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star key={i} className="size-3.5 fill-current" />
                 ))}

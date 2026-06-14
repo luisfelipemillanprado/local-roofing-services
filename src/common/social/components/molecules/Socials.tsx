@@ -31,7 +31,7 @@ export function Socials({ className = "" }: SocialsProps) {
           key={s.label}
           href={s.href}
           aria-label={s.label}
-          className="grid size-9 place-items-center rounded-full bg-current/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--color-primary)] hover:text-white"
+          className="grid size-9 place-items-center rounded-full bg-current/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary hover:text-white"
         >
           <svg viewBox="0 0 24 24" className="size-4" fill="currentColor" aria-hidden>
             <path d={s.path} />

@@ -8,7 +8,7 @@ export async function StatsBand() {
   const items = projectStatsSection.items;
 
   return (
-    <section className="bg-[var(--color-ink)] py-20 lg:py-28">
+    <section className="bg-ink py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -17,7 +17,7 @@ export async function StatsBand() {
           title={
             <>
               {t("titleLead")}{" "}
-              <span className="text-[var(--color-primary-light)]">{t("titleAccent")}</span>
+              <span className="text-primary-light">{t("titleAccent")}</span>
             </>
           }
         />
@@ -29,9 +29,9 @@ export async function StatsBand() {
               <Reveal
                 key={stat.key}
                 delay={i * 0.08}
-                className="rounded-[var(--radius-card)] border border-white/10 bg-white/5 p-7 text-center"
+                className="rounded-card border border-white/10 bg-white/5 p-7 text-center"
               >
-                <span className="mx-auto grid size-14 place-items-center rounded-2xl bg-[var(--color-primary)] text-white">
+                <span className="mx-auto grid size-14 place-items-center rounded-2xl bg-primary text-white">
                   <Icon className="size-7" />
                 </span>
                 <div className="mt-5 text-4xl font-extrabold text-white">
