@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import { pricingSection } from "@/data/pages/home";
 
 export async function Pricing() {
-  const t = await getTranslations("pricing");
+  const t = await getTranslations("home.pricing");
   const pricingPlans = pricingSection.plans;
 
   return (

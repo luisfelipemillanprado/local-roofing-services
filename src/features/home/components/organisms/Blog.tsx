@@ -8,7 +8,7 @@ import { getTranslations } from "next-intl/server";
 import { blogSection } from "@/data/pages/home";
 
 export async function Blog() {
-  const t = await getTranslations("blog");
+  const t = await getTranslations("home.blog");
   const posts = blogSection.posts;
 
   return (

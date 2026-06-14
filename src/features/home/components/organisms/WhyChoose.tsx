@@ -5,7 +5,7 @@ import { getTranslations } from "next-intl/server";
 import { whyChooseSection } from "@/data/pages/home";
 
 export async function WhyChoose() {
-  const t = await getTranslations("why-choose");
+  const t = await getTranslations("home.why-choose");
   const tc = await getTranslations("common");
   const features = whyChooseSection.features;
   const whyStats = whyChooseSection.stats;

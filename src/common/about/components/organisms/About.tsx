@@ -10,7 +10,7 @@ type Stat = { value: string; label: string };
 export async function About() {
   const t = await getTranslations("about");
   const tc = await getTranslations("common");
-  const tHero = await getTranslations("hero");
+  const tHero = await getTranslations("home.hero");
   const heroStats = tHero.raw("stats") as Stat[];
   const points = t.raw("points") as string[];
 
