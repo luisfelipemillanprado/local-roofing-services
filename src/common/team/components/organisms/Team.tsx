@@ -57,7 +57,7 @@ export async function Team({ limit }: TeamProps = {}) {
 
                 {/* Socials reveal */}
                 <div className="absolute right-4 top-4 translate-x-4 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-                  <Socials theme="dark" className="flex-col" />
+                  <Socials className="flex-col text-white" />
                 </div>
               </div>
 

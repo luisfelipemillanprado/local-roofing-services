@@ -23,7 +23,7 @@ const socials = [
   },
 ];
 
-export function Socials({ theme = "dark", className = "" }: SocialsProps) {
+export function Socials({ className = "" }: SocialsProps) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       {socials.map((s) => (
@@ -31,11 +31,7 @@ export function Socials({ theme = "dark", className = "" }: SocialsProps) {
           key={s.label}
           href={s.href}
           aria-label={s.label}
-          className={`grid size-9 place-items-center rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--color-primary)] hover:text-white ${
-            theme === "dark"
-              ? "bg-white/10 text-white"
-              : "bg-[var(--surface-2)] text-[var(--fg)]"
-          }`}
+          className="grid size-9 place-items-center rounded-full bg-current/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--color-primary)] hover:text-white"
         >
           <svg viewBox="0 0 24 24" className="size-4" fill="currentColor" aria-hidden>
             <path d={s.path} />

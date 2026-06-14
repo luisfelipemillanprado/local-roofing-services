@@ -69,6 +69,11 @@
   --border: rgba(255, 255, 255, 0.09);
   --scrollbar-track: #151b20;
   --scrollbar-thumb: #2a3640;
+  /* Footer = superficie cálida (tan) con texto oscuro (del mockup) */
+  --footer-bg: var(--color-tan);
+  --footer-fg: var(--color-night);
+  --footer-border: rgba(26, 33, 38, 0.16);
+  --footer-accent: var(--color-night);
 }
 
 /* Light — se deja tal cual el diseño original (marca roja sobre blanco). */
@@ -89,6 +94,11 @@
   --scrollbar-thumb: #cfcfcf;
   --shadow-soft: 0 18px 50px -20px rgba(15, 23, 34, 0.25);
   --shadow-card: 0 24px 60px -28px rgba(15, 23, 34, 0.35);
+  /* Footer en light = como estaba (ink oscuro, texto blanco) */
+  --footer-bg: var(--color-ink);
+  --footer-fg: #ffffff;
+  --footer-border: rgba(255, 255, 255, 0.1);
+  --footer-accent: var(--color-primary-light);
 }
 
 * {

@@ -1,8 +1,9 @@
 import { company } from "@/data/site";
 import { Link } from "@/i18n/navigation";
-import type { LogoProps } from "@/common/logo/types";
 
-export function Logo({ theme = "light" }: LogoProps) {
+/** Wordmark inherits `currentColor`, so the parent (navbar / footer) drives its
+ *  color and it stays readable on any themed surface. */
+export function Logo() {
   return (
     <Link
       href="/"
@@ -27,9 +28,7 @@ export function Logo({ theme = "light" }: LogoProps) {
           />
         </svg>
       </span>
-      <span className={theme === "dark" ? "text-white" : "text-[var(--fg)]"}>
-        {company.name}
-      </span>
+      <span>{company.name}</span>
     </Link>
   );
 }
