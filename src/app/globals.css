@@ -1,52 +1,59 @@
 @import "tailwindcss";
 
-/* Class-based theming (next-themes toggles `.dark` / `.light` on <html>). */
+/* Class-based theming: next-themes toggles .dark/.light on <html>. */
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  /* Breakpoints — custom breakpoints for the project */
+  /* Device-targeted breakpoints (reset Tailwind defaults first). */
   --breakpoint-*: initial;
-  --breakpoint-m390: 24.375rem; /* 390px · iPhone 12–16 Pro, Pixel 8, S24 */
-  --breakpoint-m412: 25.75rem; /* 412px · Galaxy Ultra, Pixel Pro · 414px Plus/Max */
-  --breakpoint-m428: 26.75rem; /* 428px · Pro Max, Plus (430px) */
-  --breakpoint-m440: 27.5rem; /* 440px · iPhone 16/17 Pro Max */
-  --breakpoint-m480: 30rem; /* 480px · mobile safety cap */
-  --breakpoint-sm: 40rem; /* 640px · tablet */
-  --breakpoint-md: 48rem; /* 768px */
-  --breakpoint-lg: 64rem; /* 1024px */
-  --breakpoint-xl: 80rem; /* 1280px */
-  --breakpoint-2xl: 96rem; /* 1536px */
+  --breakpoint-m390: 24.375rem; /* iPhone 12–16 Pro, Pixel 8, S24 */
+  --breakpoint-m412: 25.75rem; /* Galaxy Ultra, Pixel Pro */
+  --breakpoint-m428: 26.75rem; /* Pro Max, Plus */
+  --breakpoint-m440: 27.5rem; /* iPhone 16/17 Pro Max */
+  --breakpoint-m480: 30rem; /* mobile safety cap */
+  --breakpoint-sm: 40rem; /* tablet */
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
 
-  /* Dark brand (default theme) — from the design mockup */
-  --color-night: #1a2126; /* near-black slate · dark base */
-  --color-amber: #d9a648; /* amber/gold · primary accent */
-  --color-tan: #bf895a; /* warm tan · deep accent (hover) */
-  --color-peach: #f2cfbb; /* light peach · soft accent */
+  /* Dark brand palette (default theme), from the mockup. */
+  --color-night: #1a2126; /* dark base */
+  --color-amber: #d9a648; /* primary accent */
+  --color-tan: #bf895a; /* deep accent (hover) */
+  --color-peach: #f2cfbb; /* soft accent */
 
-  /* Typography */
+  /* Typography. */
   --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
   --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 
-  /* Radii */
+  /* Radii. */
   --radius-card: 1.25rem;
 
-  /* ── Semantic ROLES (default = DARK) ─────────────────────────────
-     Consumed by components (via var() or utilities like ring-primary).
-     Overridden in .light below. */
+  /* Semantic roles (default = dark, overridden in .light). */
   --color-primary: var(--color-amber);
   --color-primary-light: var(--color-peach);
   --color-primary-dark: var(--color-tan);
-  --color-ink: #12181c; /* "ink" sections = darkest in dark */
+  --color-ink: #12181c; /* darkest sections in dark */
   --color-ink-soft: #1b2329;
 
-  /* Shadows (default = dark, deeper) */
+  /* Shadows (default = dark, deeper). */
   --shadow-soft: 0 18px 50px -20px rgba(0, 0, 0, 0.6);
   --shadow-card: 0 24px 60px -28px rgba(0, 0, 0, 0.7);
+
+  /* Marquee animation (utility: animate-marquee). */
+  --animate-marquee: marquee 28s linear infinite;
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
 
-/* Surface/content roles also exposed as Tailwind utilities
-   (bg-surface, text-fg, border-line…), resolving to the runtime var so
-   they switch with the theme without a rebuild. */
+/* Theme-aware roles aliased to runtime vars so utilities switch themes. */
 @theme inline {
   --color-canvas: var(--page-bg);
   --color-surface: var(--surface);
@@ -60,28 +67,25 @@
   --color-footer-accent: var(--footer-accent);
 }
 
-/* ───────────────────────────────────────────────────────────────────
-   2. THEME ROLES per theme. :root = DARK (default). .light overrides.
-   ─────────────────────────────────────────────────────────────────── */
+/* :root = dark theme (default). */
 :root {
   color-scheme: dark;
-  --page-bg: var(--color-night); /* #1a2126 */
-  --surface: #232e38; /* panel · blue-ish slate (night→steel) */
+  --page-bg: var(--color-night);
+  --surface: #232e38; /* panel */
   --surface-2: #151b20; /* darker inset */
   --fg: #ffffff;
   --fg-muted: #9aa6b6;
   --border: rgba(255, 255, 255, 0.09);
   --scrollbar-track: #151b20;
   --scrollbar-thumb: #2a3640;
-  /* Footer = warm (tan) surface with dark text (from the mockup) */
+  /* Footer = warm tan surface, dark text (from the mockup). */
   --footer-bg: var(--color-tan);
   --footer-fg: var(--color-night);
   --footer-border: rgba(26, 33, 38, 0.16);
   --footer-accent: var(--color-night);
 }
 
-/* Light — surfaces stay light, but the accent uses the same amber as dark
-   (primary/-light/-dark inherit the amber family from the @theme defaults). */
+/* Light theme: light surfaces, same amber accent (inherits @theme defaults). */
 .light {
   color-scheme: light;
   --color-ink: #0f1722;
@@ -96,7 +100,7 @@
   --scrollbar-thumb: #cfcfcf;
   --shadow-soft: 0 18px 50px -20px rgba(15, 23, 34, 0.25);
   --shadow-card: 0 24px 60px -28px rgba(15, 23, 34, 0.35);
-  /* Footer in light = as before (dark ink, white text) */
+  /* Footer in light = dark ink, white text. */
   --footer-bg: var(--color-ink);
   --footer-fg: #ffffff;
   --footer-border: rgba(255, 255, 255, 0.1);
@@ -134,7 +138,7 @@ h5 {
   color: #fff;
 }
 
-/* Reusable layout helpers */
+/* Page gutter container. */
 .container-x {
   width: 100%;
   max-width: 80rem;
@@ -148,7 +152,7 @@ h5 {
   }
 }
 
-/* Section eyebrow chip */
+/* Section eyebrow chip. */
 .eyebrow {
   display: inline-flex;
   align-items: center;
@@ -168,7 +172,7 @@ h5 {
   display: inline-block;
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar. */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -183,21 +187,7 @@ h5 {
   background: var(--color-primary);
 }
 
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-marquee {
-  animation: marquee 28s linear infinite;
-}
-
-/* Scroll-reveal: elements start hidden and animate in when <Reveal> adds
-   `.is-visible` (via IntersectionObserver). The delay prop drives the stagger. */
+/* Scroll-reveal: <Reveal> adds .is-visible via IntersectionObserver. */
 @keyframes reveal-fade-up {
   from {
     opacity: 0;
