@@ -1,13 +1,5 @@
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
-
-type SectionHeadingProps = {
-  eyebrow: string;
-  title: React.ReactNode;
-  description?: string;
-  align?: "left" | "center";
-  theme?: "light" | "dark";
-  className?: string;
-};
+import type { SectionHeadingProps } from "@/common/section-header/types";
 
 export function SectionHeading({
   eyebrow,

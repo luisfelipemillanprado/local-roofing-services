@@ -5,6 +5,7 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
 import { reviewsSection } from "@/data/sections/reviews";
+import type { TestimonialsProps } from "@/common/review/types";
 
 function GoogleMark() {
   return (
@@ -29,7 +30,7 @@ function GoogleMark() {
   );
 }
 
-export async function Testimonials({ limit }: { limit?: number } = {}) {
+export async function Testimonials({ limit }: TestimonialsProps = {}) {
   const t = await getTranslations("review");
   // `limit` lets the home show a subset while /projects shows them all.
   const testimonials = reviewsSection.items.slice(0, limit);

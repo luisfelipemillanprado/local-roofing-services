@@ -1,17 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-type RevealVariant = "fade-up" | "fade-in" | "scale-in";
-
-type RevealProps = {
-  children: React.ReactNode;
-  className?: string;
-  variant?: RevealVariant;
-  /** Delay in seconds — used to stagger sibling reveals. */
-  delay?: number;
-  as?: "div" | "section" | "article" | "figure" | "li" | "span";
-};
+import type { RevealProps } from "@/common/reveal/types";
 
 /**
  * One shared IntersectionObserver for every <Reveal> on the page (far cheaper

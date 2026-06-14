@@ -1,7 +1,8 @@
 import { company } from "@/data/site";
 import { Link } from "@/i18n/navigation";
+import type { LogoProps } from "@/common/logo/types";
 
-export function Logo({ theme = "light" }: { theme?: "light" | "dark" }) {
+export function Logo({ theme = "light" }: LogoProps) {
   return (
     <Link
       href="/"

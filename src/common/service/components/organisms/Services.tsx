@@ -6,11 +6,9 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
 import { servicesSection } from "@/data/sections/services";
+import type { ServicesProps } from "@/common/service/types";
 
-export async function Services({
-  exploreHref,
-  limit,
-}: { exploreHref?: string; limit?: number } = {}) {
+export async function Services({ exploreHref, limit }: ServicesProps = {}) {
   const t = await getTranslations("service");
   const tc = await getTranslations("common");
   // Data drives order + icon/image/blur; text is resolved by key (no index merge).

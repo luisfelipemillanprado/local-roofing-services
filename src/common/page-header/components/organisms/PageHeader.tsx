@@ -1,11 +1,5 @@
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
-
-type PageHeaderProps = {
-  eyebrow: string;
-  titleLead: string;
-  titleAccent: string;
-  description: string;
-};
+import type { PageHeaderProps } from "@/common/page-header/types";
 
 /** Intro band for the dedicated pages, with top padding to clear the fixed navbar. */
 export function PageHeader({

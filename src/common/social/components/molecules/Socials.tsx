@@ -1,3 +1,5 @@
+import type { SocialsProps } from "@/common/social/types";
+
 const socials = [
   {
     label: "Facebook",
@@ -21,13 +23,7 @@ const socials = [
   },
 ];
 
-export function Socials({
-  theme = "dark",
-  className = "",
-}: {
-  theme?: "light" | "dark";
-  className?: string;
-}) {
+export function Socials({ theme = "dark", className = "" }: SocialsProps) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       {socials.map((s) => (

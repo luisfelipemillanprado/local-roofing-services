@@ -5,11 +5,9 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
 import { projectsSection } from "@/data/sections/projects";
+import type { ProjectsProps } from "@/common/project/types";
 
-export async function Projects({
-  exploreHref,
-  limit,
-}: { exploreHref?: string; limit?: number } = {}) {
+export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
   const t = await getTranslations("project");
   // `limit` lets the home show a summary while /projects shows the full gallery.
   const projects = projectsSection.items.slice(0, limit);
