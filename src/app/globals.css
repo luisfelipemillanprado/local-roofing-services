@@ -25,11 +25,11 @@
   /* Dark brand (default theme) — from the design mockup */
   --color-steel: #305473; /* steel blue · cool accent / structure */
   --color-night: #1a2126; /* near-black slate · dark base */
-  --color-amber: #f2b950; /* amber/gold · primary accent */
+  --color-amber: #d9a648; /* amber/gold · primary accent */
   --color-tan: #bf895a; /* warm tan · deep accent (hover) */
   --color-peach: #f2cfbb; /* light peach · soft accent */
 
-  /* Light brand (red) — kept as the original design */
+  /* Red brand — available palette, not currently applied */
   --color-red: #e8392b;
   --color-red-dark: #c52a1e;
   --color-red-light: #ff5a4d;
@@ -90,12 +90,10 @@
   --footer-accent: var(--color-night);
 }
 
-/* Light — kept exactly as the original design (red brand on white). */
+/* Light — surfaces stay light, but the accent uses the same amber as dark
+   (primary/-light/-dark inherit the amber family from the @theme defaults). */
 .light {
   color-scheme: light;
-  --color-primary: var(--color-red);
-  --color-primary-light: var(--color-red-light);
-  --color-primary-dark: var(--color-red-dark);
   --color-ink: #0f1722;
   --color-ink-soft: #1a2536;
   --page-bg: #ffffff;
