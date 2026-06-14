@@ -5,8 +5,8 @@
   "description": "Cotizaciones honestas y claras, sin cargos ocultos. Elige el plan que se ajuste a tu propiedad y presupuesto — cada trabajo está respaldado por nuestra garantía de mano de obra.",
   "popular": "Popular",
   "choose": "Elegir Plan",
-  "plans": [
-    {
+  "plans": {
+    "residential": {
       "name": "Residencial",
       "price": "$5,999",
       "period": "desde",
@@ -19,7 +19,7 @@
         "Inspección gratuita tras la instalación"
       ]
     },
-    {
+    "commercial": {
       "name": "Comercial",
       "price": "$599",
       "period": "por visita",
@@ -32,5 +32,5 @@
         "Reportes detallados de condición"
       ]
     }
-  ]
+  }
 }

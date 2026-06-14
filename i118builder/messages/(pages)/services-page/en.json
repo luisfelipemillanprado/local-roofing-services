@@ -13,24 +13,24 @@
     "eyebrow": "How We Work",
     "titleLead": "A Simple, Transparent",
     "titleAccent": "4-Step Process",
-    "steps": [
-      {
+    "steps": {
+      "inspection": {
         "title": "Free Inspection",
         "description": "We assess your roof on-site, document the condition and identify exactly what needs attention — at no cost."
       },
-      {
+      "quote": {
         "title": "Transparent Quote",
         "description": "You get a clear, itemised quote with no hidden fees, so you know precisely what you're paying for before we start."
       },
-      {
+      "installation": {
         "title": "Expert Installation",
         "description": "Our certified roofers complete the work with premium materials, on schedule and with a tidy, respectful job site."
       },
-      {
+      "warranty": {
         "title": "Warranty & Aftercare",
         "description": "Every job is backed by our workmanship warranty, plus a post-install inspection and ongoing support whenever you need it."
       }
-    ]
+    }
   },
   "faq": {
     "eyebrow": "FAQ",

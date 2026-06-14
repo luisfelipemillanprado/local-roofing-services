@@ -4,20 +4,20 @@
   "titleAccent": "Consejos e Historias de Techado",
   "explore": "Ver Nuestro Blog",
   "readMore": "Leer Más",
-  "posts": [
-    {
+  "posts": {
+    "defenseSystem": {
       "title": "El Sistema de Defensa de 3 Capas Para Techos Que Duran Más Que la Hipoteca",
       "excerpt": "Cómo la membrana base, la ventilación y las tejas de calidad trabajan juntas para sumar décadas de vida a tu techo.",
       "date": "11 Abr 2026",
       "author": "Rodger Struck",
       "category": "Mantenimiento"
     },
-    {
+    "underAttack": {
       "title": "Tu Techo Está Bajo Ataque Ahora Mismo — Y Estás Perdiendo Dinero",
       "excerpt": "Las formas silenciosas en que el clima, los escombros y el descuido drenan el valor de tu hogar, y los chequeos simples que lo detienen.",
       "date": "27 Mar 2026",
       "author": "Paula Moss",
       "category": "Ahorro Energético"
     }
-  ]
+  }
 }

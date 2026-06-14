@@ -5,20 +5,11 @@ import { SectionHeading } from "@/common/section-header/components/molecules/Sec
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
-import { postMeta } from "@/config/content";
-
-type Post = {
-  title: string;
-  excerpt: string;
-  date: string;
-  author: string;
-  category: string;
-};
+import { blogSection } from "@/data/pages/home";
 
 export async function Blog() {
   const t = await getTranslations("blog");
-  const items = t.raw("posts") as Post[];
-  const posts = items.map((item, i) => ({ ...item, ...postMeta[i] }));
+  const posts = blogSection.posts;
 
   return (
     <section id="blog" className="bg-[var(--surface-2)] py-20 lg:py-28">
@@ -44,20 +35,22 @@ export async function Blog() {
           {posts.map((post, i) => (
             <Reveal
               as="article"
-              key={post.title}
+              key={post.key}
               delay={i * 0.08}
               className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] shadow-[0_18px_50px_-34px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card)] sm:flex-row"
             >
               <div className="relative aspect-[16/11] w-full overflow-hidden sm:aspect-auto sm:w-2/5">
                 <Image
                   src={post.image}
-                  alt={post.title}
+                  alt={t(`posts.${post.key}.title`)}
+                  placeholder="blur"
+                  blurDataURL={post.blur}
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <span className="absolute left-4 top-4 rounded-full bg-[var(--color-primary)] px-3 py-1 text-xs font-bold text-white">
-                  {post.category}
+                  {t(`posts.${post.key}.category`)}
                 </span>
               </div>
 
@@ -65,18 +58,18 @@ export async function Blog() {
                 <div className="flex items-center gap-4 text-xs text-[var(--fg-muted)]">
                   <span className="flex items-center gap-1.5">
                     <Calendar className="size-3.5 text-[var(--color-primary)]" />
-                    {post.date}
+                    {t(`posts.${post.key}.date`)}
                   </span>
                   <span className="flex items-center gap-1.5">
                     <User className="size-3.5 text-[var(--color-primary)]" />
-                    {post.author}
+                    {t(`posts.${post.key}.author`)}
                   </span>
                 </div>
                 <h3 className="mt-3 text-lg font-bold leading-snug text-[var(--fg)] transition-colors group-hover:text-[var(--color-primary)]">
-                  {post.title}
+                  {t(`posts.${post.key}.title`)}
                 </h3>
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-[var(--fg-muted)]">
-                  {post.excerpt}
+                  {t(`posts.${post.key}.excerpt`)}
                 </p>
                 <Link
                   href="#blog"

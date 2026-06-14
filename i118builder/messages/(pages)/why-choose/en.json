@@ -3,36 +3,36 @@
   "titleLead": "Roofing You Can Rely",
   "titleAccent": "On Every Shingle Time",
   "description": "With years of hands-on roofing experience and a team of licensed professionals, we bring proven, dependable workmanship to every project. When it comes to protecting your home or business, you deserve a roofing team you can count on.",
-  "features": [
-    {
+  "features": {
+    "emergency": {
       "title": "Emergency Services",
       "description": "An always-on rapid-response crew for storm damage, leaks and urgent repairs across our community."
     },
-    {
+    "proactive": {
       "title": "Proactive Approach",
       "description": "Scheduled inspections and preventative maintenance that catch issues long before they become costly."
     },
-    {
+    "reliable": {
       "title": "Reliably Focused",
       "description": "Licensed, insured and certified roofers using premium materials backed by industry-leading warranties."
     },
-    {
+    "experience": {
       "title": "Experience Focused",
       "description": "A quarter-century of craftsmanship on thousands of roofs, from heritage homes to commercial builds."
     }
-  ],
-  "stats": [
-    {
+  },
+  "stats": {
+    "years": {
       "value": "25+",
       "label": "Years of Experience"
     },
-    {
+    "projects": {
       "value": "1.5k",
       "label": "Projects Delivered"
     },
-    {
+    "roofers": {
       "value": "40+",
       "label": "Expert Roofers"
     }
-  ]
+  }
 }

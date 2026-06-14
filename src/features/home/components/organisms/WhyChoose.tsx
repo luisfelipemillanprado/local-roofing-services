@@ -2,15 +2,13 @@ import { SectionHeading } from "@/common/section-header/components/molecules/Sec
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
-import { featureMeta, whyStatMeta } from "@/config/content";
+import { whyChooseSection } from "@/data/pages/home";
 
 export async function WhyChoose() {
   const t = await getTranslations("why-choose");
   const tc = await getTranslations("common");
-  const featureItems = t.raw("features") as { title: string; description: string }[];
-  const statItems = t.raw("stats") as { value: string; label: string }[];
-  const features = featureItems.map((item, i) => ({ ...item, ...featureMeta[i] }));
-  const whyStats = statItems.map((item, i) => ({ ...item, ...whyStatMeta[i] }));
+  const features = whyChooseSection.features;
+  const whyStats = whyChooseSection.stats;
 
   return (
     <section className="bg-[var(--page-bg)] py-20 lg:py-28">
@@ -33,15 +31,17 @@ export async function WhyChoose() {
             {whyStats.map((stat) => {
               const Icon = stat.icon;
               return (
-                <div key={stat.label} className="flex items-center gap-3">
+                <div key={stat.key} className="flex items-center gap-3">
                   <span className="grid size-11 place-items-center rounded-xl bg-[var(--surface-2)] text-[var(--color-primary)]">
                     <Icon className="size-5" />
                   </span>
                   <div>
                     <div className="text-xl font-extrabold text-[var(--fg)]">
-                      {stat.value}
+                      {t(`stats.${stat.key}.value`)}
                     </div>
-                    <div className="text-xs text-[var(--fg-muted)]">{stat.label}</div>
+                    <div className="text-xs text-[var(--fg-muted)]">
+                      {t(`stats.${stat.key}.label`)}
+                    </div>
                   </div>
                 </div>
               );
@@ -60,7 +60,7 @@ export async function WhyChoose() {
             const Icon = feature.icon;
             return (
               <Reveal
-                key={feature.title}
+                key={feature.key}
                 delay={i * 0.08}
                 className={`group rounded-[var(--radius-card)] border p-7 transition-all duration-300 hover:-translate-y-1.5 ${
                   i === 1
@@ -82,14 +82,14 @@ export async function WhyChoose() {
                     i === 1 ? "text-white" : "text-[var(--fg)]"
                   }`}
                 >
-                  {feature.title}
+                  {t(`features.${feature.key}.title`)}
                 </h3>
                 <p
                   className={`mt-3 text-sm leading-relaxed ${
                     i === 1 ? "text-white/70" : "text-[var(--fg-muted)]"
                   }`}
                 >
-                  {feature.description}
+                  {t(`features.${feature.key}.description`)}
                 </p>
               </Reveal>
             );

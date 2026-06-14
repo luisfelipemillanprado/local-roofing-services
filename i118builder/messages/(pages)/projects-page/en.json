@@ -13,23 +13,23 @@
     "eyebrow": "By The Numbers",
     "titleLead": "A Track Record",
     "titleAccent": "You Can Count On",
-    "items": [
-      {
+    "items": {
+      "projects": {
         "value": "1500+",
         "label": "Projects Completed"
       },
-      {
+      "years": {
         "value": "25+",
         "label": "Years of Experience"
       },
-      {
+      "satisfaction": {
         "value": "98%",
         "label": "Satisfied Customers"
       },
-      {
+      "roofers": {
         "value": "40+",
         "label": "Expert Roofers"
       }
-    ]
+    }
   }
 }

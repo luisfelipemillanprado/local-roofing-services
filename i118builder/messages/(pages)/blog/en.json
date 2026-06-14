@@ -4,20 +4,20 @@
   "titleAccent": "Roofing Tips & Stories",
   "explore": "Explore Our Blog",
   "readMore": "Read More",
-  "posts": [
-    {
+  "posts": {
+    "defenseSystem": {
       "title": "The 3-Layer Defense System For Roofs That Outlast Mortgages",
       "excerpt": "How underlayment, ventilation and quality shingles work together to add decades to your roof's lifespan.",
       "date": "Apr 11, 2026",
       "author": "Rodger Struck",
       "category": "Maintenance"
     },
-    {
+    "underAttack": {
       "title": "Your Roof Is Under Attack Right Now — And You're Losing Money",
       "excerpt": "The silent ways weather, debris and neglect drain your home's value, and the simple checks that stop it.",
       "date": "Mar 27, 2026",
       "author": "Paula Moss",
       "category": "Energy Savings"
     }
-  ]
+  }
 }

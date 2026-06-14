@@ -5,8 +5,8 @@
   "description": "Honest, upfront quotes with no hidden fees. Choose the plan that fits your property and budget — every job is backed by our workmanship guarantee.",
   "popular": "Popular",
   "choose": "Choose Plan",
-  "plans": [
-    {
+  "plans": {
+    "residential": {
       "name": "Residential",
       "price": "$5,999",
       "period": "starting at",
@@ -19,7 +19,7 @@
         "Free post-install inspection"
       ]
     },
-    {
+    "commercial": {
       "name": "Commercial",
       "price": "$599",
       "period": "per visit",
@@ -32,5 +32,5 @@
         "Detailed condition reports"
       ]
     }
-  ]
+  }
 }

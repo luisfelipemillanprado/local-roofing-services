@@ -13,23 +13,23 @@
     "eyebrow": "Nuestros Valores",
     "titleLead": "Lo Que Defendemos",
     "titleAccent": "En Cada Techo",
-    "items": [
-      {
+    "items": {
+      "quality": {
         "title": "Oficio de Calidad",
         "description": "Materiales premium y mano de obra meticulosa en cada trabajo — sin atajos, nunca."
       },
-      {
+      "safety": {
         "title": "Seguridad Primero",
         "description": "Cuadrillas certificadas y aseguradas que siguen estrictos estándares de seguridad para proteger tu propiedad y a nuestro equipo."
       },
-      {
+      "honest": {
         "title": "Honestos y Transparentes",
         "description": "Precios claros y detallados, y respuestas directas — siempre sabes exactamente lo que recibes."
       },
-      {
+      "community": {
         "title": "Enfoque en la Comunidad",
         "description": "Nos enorgullece proteger los hogares y negocios de los vecindarios donde vivimos y trabajamos."
       }
-    ]
+    }
   }
 }

@@ -13,23 +13,23 @@
     "eyebrow": "En Cifras",
     "titleLead": "Una Trayectoria",
     "titleAccent": "En La Que Confiar",
-    "items": [
-      {
+    "items": {
+      "projects": {
         "value": "1500+",
         "label": "Proyectos Completados"
       },
-      {
+      "years": {
         "value": "25+",
         "label": "Años de Experiencia"
       },
-      {
+      "satisfaction": {
         "value": "98%",
         "label": "Clientes Satisfechos"
       },
-      {
+      "roofers": {
         "value": "40+",
         "label": "Techadores Expertos"
       }
-    ]
+    }
   }
 }

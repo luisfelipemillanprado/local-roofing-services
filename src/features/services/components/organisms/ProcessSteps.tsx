@@ -1,12 +1,11 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
-import { processMeta } from "@/config/content";
+import { processSection } from "@/data/pages/services";
 
 export async function ProcessSteps() {
   const t = await getTranslations("services-page.process");
-  const steps = t.raw("steps") as { title: string; description: string }[];
-  const items = steps.map((step, i) => ({ ...step, ...processMeta[i] }));
+  const items = processSection.steps;
 
   return (
     <section className="bg-[var(--page-bg)] py-20 lg:py-28">
@@ -28,7 +27,7 @@ export async function ProcessSteps() {
             return (
               <Reveal
                 as="article"
-                key={step.title}
+                key={step.key}
                 delay={i * 0.08}
                 className="rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] p-7"
               >
@@ -38,9 +37,11 @@ export async function ProcessSteps() {
                 <span className="mt-4 grid size-14 place-items-center rounded-2xl bg-[var(--surface-2)] text-[var(--color-primary)]">
                   <Icon className="size-7" />
                 </span>
-                <h3 className="mt-5 text-lg font-bold text-[var(--fg)]">{step.title}</h3>
+                <h3 className="mt-5 text-lg font-bold text-[var(--fg)]">
+                  {t(`steps.${step.key}.title`)}
+                </h3>
                 <p className="mt-2 text-sm leading-relaxed text-[var(--fg-muted)]">
-                  {step.description}
+                  {t(`steps.${step.key}.description`)}
                 </p>
               </Reveal>
             );

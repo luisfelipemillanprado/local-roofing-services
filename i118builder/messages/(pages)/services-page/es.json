@@ -13,24 +13,24 @@
     "eyebrow": "Cómo Trabajamos",
     "titleLead": "Un Proceso Simple y",
     "titleAccent": "Transparente en 4 Pasos",
-    "steps": [
-      {
+    "steps": {
+      "inspection": {
         "title": "Inspección Gratuita",
         "description": "Evaluamos tu techo en sitio, documentamos su estado e identificamos exactamente qué necesita atención — sin costo."
       },
-      {
+      "quote": {
         "title": "Cotización Transparente",
         "description": "Recibes una cotización clara y detallada, sin cargos ocultos, para que sepas con precisión qué pagas antes de empezar."
       },
-      {
+      "installation": {
         "title": "Instalación Experta",
         "description": "Nuestros techadores certificados realizan el trabajo con materiales premium, a tiempo y con un sitio de trabajo limpio y respetuoso."
       },
-      {
+      "warranty": {
         "title": "Garantía y Postventa",
         "description": "Cada trabajo está respaldado por nuestra garantía de mano de obra, más una inspección tras la instalación y soporte continuo cuando lo necesites."
       }
-    ]
+    }
   },
   "faq": {
     "eyebrow": "Preguntas Frecuentes",

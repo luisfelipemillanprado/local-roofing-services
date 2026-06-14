@@ -13,23 +13,23 @@
     "eyebrow": "Our Values",
     "titleLead": "What We Stand",
     "titleAccent": "For On Every Roof",
-    "items": [
-      {
+    "items": {
+      "quality": {
         "title": "Quality Craftsmanship",
         "description": "Premium materials and meticulous workmanship on every job — no shortcuts, ever."
       },
-      {
+      "safety": {
         "title": "Safety First",
         "description": "Certified, insured crews that follow strict safety standards to protect your property and our team."
       },
-      {
+      "honest": {
         "title": "Honest & Transparent",
         "description": "Upfront, itemised pricing and straight answers — you always know exactly what you're getting."
       },
-      {
+      "community": {
         "title": "Community Focused",
         "description": "We're proud to protect the homes and businesses of the neighbourhoods we live and work in."
       }
-    ]
+    }
   }
 }
