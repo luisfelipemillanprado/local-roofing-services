@@ -3,13 +3,8 @@
 /* Class-based theming (next-themes toggles `.dark` / `.light` on <html>). */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* ───────────────────────────────────────────────────────────────────
-   1. RAW PALETTE — named brand primitives. Components NEVER use these
-   directly; they go through the semantic roles below.
-   ─────────────────────────────────────────────────────────────────── */
 @theme {
-  /* Breakpoints — reset Tailwind defaults, then mobile m{px} (375px base)
-     for fine-grained phone control + standard sm→2xl for tablet/desktop. */
+  /* Breakpoints — custom breakpoints for the project */
   --breakpoint-*: initial;
   --breakpoint-m390: 24.375rem; /* 390px · iPhone 12–16 Pro, Pixel 8, S24 */
   --breakpoint-m412: 25.75rem; /* 412px · Galaxy Ultra, Pixel Pro · 414px Plus/Max */
@@ -23,18 +18,10 @@
   --breakpoint-2xl: 96rem; /* 1536px */
 
   /* Dark brand (default theme) — from the design mockup */
-  --color-steel: #305473; /* steel blue · cool accent / structure */
   --color-night: #1a2126; /* near-black slate · dark base */
   --color-amber: #d9a648; /* amber/gold · primary accent */
   --color-tan: #bf895a; /* warm tan · deep accent (hover) */
   --color-peach: #f2cfbb; /* light peach · soft accent */
-
-  /* Red brand — available palette, not currently applied */
-  --color-red: #e8392b;
-  --color-red-dark: #c52a1e;
-  --color-red-light: #ff5a4d;
-  --color-cream: #f6f4f0;
-  --color-sand: #f3efe9;
 
   /* Typography */
   --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
@@ -49,7 +36,6 @@
   --color-primary: var(--color-amber);
   --color-primary-light: var(--color-peach);
   --color-primary-dark: var(--color-tan);
-  --color-secondary: var(--color-steel); /* cool accent, available */
   --color-ink: #12181c; /* "ink" sections = darkest in dark */
   --color-ink-soft: #1b2329;
 
