@@ -1,4 +1,8 @@
 {
+  "getQuote": "Get a Quote",
+  "toggleMenu": "Toggle menu",
+  "selectLanguage": "Select language",
+  "toggleTheme": "Toggle theme",
   "links": [
     {
       "label": "Home",

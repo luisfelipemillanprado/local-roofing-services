@@ -14,7 +14,6 @@ type NavLink = { label: string; href: string };
 
 export function Navbar() {
   const t = useTranslations("navbar");
-  const tc = useTranslations("common");
   const navLinks = t.raw("links") as NavLink[];
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -69,7 +68,7 @@ export function Navbar() {
           <LanguageSwitch />
           <ThemeToggle />
           <Button href="#contact" variant="primary">
-            {tc("getQuote")}
+            {t("getQuote")}
           </Button>
         </div>
 
@@ -79,7 +78,7 @@ export function Navbar() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            aria-label={tc("toggleMenu")}
+            aria-label={t("toggleMenu")}
             aria-expanded={open}
             className="grid size-11 place-items-center rounded-xl bg-[var(--color-ink)] text-white"
           >
@@ -120,7 +119,7 @@ export function Navbar() {
                   {company.phone}
                 </a>
                 <Button href="#contact" variant="primary" className="w-full">
-                  {tc("getQuote")}
+                  {t("getQuote")}
                 </Button>
               </div>
             </div>

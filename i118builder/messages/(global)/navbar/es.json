@@ -1,4 +1,8 @@
 {
+  "getQuote": "Cotización",
+  "toggleMenu": "Abrir menú",
+  "selectLanguage": "Seleccionar idioma",
+  "toggleTheme": "Cambiar tema",
   "links": [
     {
       "label": "Inicio",
