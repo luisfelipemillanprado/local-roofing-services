@@ -4,7 +4,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Reveal from "@/components/ui/Reveal";
 
 export default async function Faq() {
-  const t = await getTranslations("ServicesPage.faq");
+  const t = await getTranslations("services-page.faq");
   const items = t.raw("items") as { q: string; a: string }[];
 
   return (

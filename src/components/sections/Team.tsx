@@ -5,15 +5,12 @@ import Button from "@/components/ui/Button";
 import Socials from "@/components/ui/Socials";
 import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
-import { teamMeta } from "@/config/content";
+import { teamSection } from "@/data/sections/team";
 
 export default async function Team({ limit }: { limit?: number } = {}) {
-  const t = await getTranslations("Team");
-  const members = t.raw("members") as { name: string; role: string }[];
+  const t = await getTranslations("team");
   // `limit` lets the home show a subset while /about shows the full team.
-  const team = members
-    .map((item, i) => ({ ...item, ...teamMeta[i] }))
-    .slice(0, limit);
+  const team = teamSection.members.slice(0, limit);
 
   return (
     <section className="bg-[var(--page-bg)] py-20 lg:py-28">
@@ -36,17 +33,21 @@ export default async function Team({ limit }: { limit?: number } = {}) {
         </div>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {team.map((member, i) => (
+          {team.map((member, i) => {
+            const name = t(`members.${member.key}.name`);
+            return (
             <Reveal
               as="article"
-              key={member.name}
+              key={member.key}
               delay={i * 0.08}
               className="group relative overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface-2)]"
             >
               <div className="relative aspect-[4/4.6] w-full overflow-hidden">
                 <Image
                   src={member.image}
-                  alt={member.name}
+                  alt={name}
+                  placeholder="blur"
+                  blurDataURL={member.blur}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -62,16 +63,19 @@ export default async function Team({ limit }: { limit?: number } = {}) {
               <div className="flex items-center justify-between p-5">
                 <div>
                   <h3 className="text-lg font-bold text-[var(--fg)]">
-                    {member.name}
+                    {name}
                   </h3>
-                  <p className="text-sm text-[var(--fg-muted)]">{member.role}</p>
+                  <p className="text-sm text-[var(--fg-muted)]">
+                    {t(`members.${member.key}.role`)}
+                  </p>
                 </div>
                 <span className="grid size-10 place-items-center rounded-full bg-[var(--color-primary)] text-white transition-transform duration-300 group-hover:rotate-90">
                   <Plus className="size-5" />
                 </span>
               </div>
             </Reveal>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

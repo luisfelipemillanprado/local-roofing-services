@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 import Reveal from "@/components/ui/Reveal";
 
 export default function CTA() {
-  const t = useTranslations("CTA");
+  const t = useTranslations("call-action");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
 

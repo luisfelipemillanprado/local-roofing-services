@@ -5,19 +5,17 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
-import { serviceMeta } from "@/config/content";
+import { servicesSection } from "@/data/sections/services";
 
 export default async function Services({
   exploreHref,
   limit,
 }: { exploreHref?: string; limit?: number } = {}) {
-  const t = await getTranslations("Services");
-  const tc = await getTranslations("Common");
-  const items = t.raw("items") as { title: string; description: string }[];
+  const t = await getTranslations("service");
+  const tc = await getTranslations("common");
+  // Data drives order + icon/image/blur; text is resolved by key (no index merge).
   // `limit` lets the home show a 3-card summary while /services shows all of them.
-  const services = items
-    .map((item, i) => ({ ...item, ...serviceMeta[i] }))
-    .slice(0, limit);
+  const services = servicesSection.items.slice(0, limit);
 
   return (
     <section id="services" className="bg-[var(--surface-2)] py-20 lg:py-28">
@@ -44,18 +42,21 @@ export default async function Services({
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, i) => {
             const Icon = service.icon;
+            const title = t(`items.${service.key}.title`);
             return (
               <Reveal
                 as="article"
-                key={service.title}
+                key={service.key}
                 delay={i * 0.08}
                 className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] shadow-[0_18px_50px_-30px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card)]"
               >
                 <div className="relative aspect-[16/11] overflow-hidden">
                   <Image
                     src={service.image}
-                    alt={service.title}
+                    alt={title}
                     fill
+                    placeholder="blur"
+                    blurDataURL={service.blur}
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -64,11 +65,9 @@ export default async function Services({
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <h3 className="text-xl font-bold text-[var(--fg)]">
-                    {service.title}
-                  </h3>
+                  <h3 className="text-xl font-bold text-[var(--fg)]">{title}</h3>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-[var(--fg-muted)]">
-                    {service.description}
+                    {t(`items.${service.key}.description`)}
                   </p>
                   <Link
                     href="#contact"

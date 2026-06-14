@@ -3,30 +3,30 @@
   "titleLead": "Nuestro Equipo De",
   "titleAccent": "Profesionales Del Techado",
   "explore": "Conoce al Equipo",
-  "members": [
-    {
+  "members": {
+    "rodger": {
       "name": "Rodger Struck",
       "role": "Contratista Principal de Techado"
     },
-    {
+    "marcus": {
       "name": "Marcus Hale",
       "role": "Superintendente de Proyecto"
     },
-    {
+    "devin": {
       "name": "Devin Cole",
       "role": "Especialista en Inspección"
     },
-    {
+    "travis": {
       "name": "Travis Boone",
       "role": "Gerente de Seguridad"
     },
-    {
+    "elena": {
       "name": "Elena Vargas",
       "role": "Gerente de Operaciones"
     },
-    {
+    "caleb": {
       "name": "Caleb Foster",
       "role": "Capataz de Cuadrilla"
     }
-  ]
+  }
 }

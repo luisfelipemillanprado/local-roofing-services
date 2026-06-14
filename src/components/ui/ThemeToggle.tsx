@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 
 export default function ThemeToggle({ className = "" }: { className?: string }) {
   const { resolvedTheme, setTheme } = useTheme();
-  const t = useTranslations("Common");
+  const t = useTranslations("common");
   const [mounted, setMounted] = useState(false);
 
   // Defer theme-dependent rendering until mounted to avoid hydration mismatch.

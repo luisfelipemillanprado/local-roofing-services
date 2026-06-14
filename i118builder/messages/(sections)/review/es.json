@@ -4,36 +4,36 @@
   "titleAccent": "De Los Techos Que Construimos",
   "reviews": "+820 reseñas",
   "viewAll": "Ver Todos",
-  "items": [
-    {
+  "items": {
+    "paula": {
       "quote": "Desde la primera inspección hasta la limpieza final, el equipo fue profesional y transparente. Nuestro nuevo techo eficiente ya redujo notablemente los costos de enfriamiento.",
       "name": "Paula Moss",
       "location": "Aurora, CO"
     },
-    {
+    "dennis": {
       "quote": "Roofpro reemplazó todo nuestro techo tras una granizada y gestionó el papeleo del seguro de principio a fin. La cuadrilla fue puntual, ordenada y de verdad se preocupó por el resultado.",
       "name": "Dennis Collis",
       "location": "Boulder, CO"
     },
-    {
+    "howard": {
       "quote": "Respuesta de emergencia rápida cuando una tormenta arrancó las tejas de noche. Lo cubrieron con lona en horas y lo repararon por completo para el fin de semana. Muy recomendados.",
       "name": "Howard Tanner",
       "location": "Denver, CO"
     },
-    {
+    "grace": {
       "quote": "Retecharon nuestra casa con metal de junta alzada y el cambio es enorme. Profesionales, puntuales, y la cuadrilla trató nuestra propiedad con verdadero respeto.",
       "name": "Grace Holloway",
       "location": "Littleton, CO"
     },
-    {
+    "greg": {
       "quote": "Pedí tres cotizaciones y Roofpro fue de lejos la más transparente. Sin cargos ocultos, trabajo de calidad, y terminaron antes de lo previsto.",
       "name": "Greg Walsh",
       "location": "Lakewood, CO"
     },
-    {
+    "tyler": {
       "quote": "Desde la inspección hasta el papeleo de la garantía, todo fue claro y fácil. Nuestro techo nuevo se ve fantástico y la casa ya se siente más fresca.",
       "name": "Tyler Brooks",
       "location": "Englewood, CO"
     }
-  ]
+  }
 }

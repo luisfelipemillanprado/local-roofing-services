@@ -3,42 +3,42 @@
   "titleLead": "Transformative Roofs",
   "titleAccent": "Exceptional Results",
   "explore": "Explore Our Projects",
-  "items": [
-    {
+  "items": {
+    "cedarHeights": {
       "title": "Cedar Heights Residence",
       "category": "Shingle Re-Roof"
     },
-    {
+    "summitBungalow": {
       "title": "Summit Modern Bungalow",
       "category": "Tile Roof Installation"
     },
-    {
+    "lakeviewContemporary": {
       "title": "Lakeview Contemporary",
       "category": "Roof & Skylight"
     },
-    {
+    "mapleGrove": {
       "title": "Maple Grove Residence",
       "category": "Tile Re-Roof"
     },
-    {
+    "northgateRanch": {
       "title": "Northgate Modern Ranch",
       "category": "Metal Roof System"
     },
-    {
+    "stonebridge": {
       "title": "Stonebridge Family Home",
       "category": "Hip Roof Installation"
     },
-    {
+    "blackpineEstate": {
       "title": "Blackpine Modern Estate",
       "category": "Standing-Seam Metal Roof"
     },
-    {
+    "greystoneFarmhouse": {
       "title": "Greystone Farmhouse",
       "category": "Slate Roof System"
     },
-    {
+    "sunsetRidge": {
       "title": "Sunset Ridge Home",
       "category": "Gable Tile Roof"
     }
-  ]
+  }
 }

@@ -20,7 +20,7 @@ type Action = {
 };
 
 export default async function FloatingContact() {
-  const t = await getTranslations("Common");
+  const t = await getTranslations("common");
 
   // Prefilled, roofing-themed WhatsApp message in the active locale.
   const whatsappText = t("whatsappMessage", { name: company.name });

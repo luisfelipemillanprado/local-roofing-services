@@ -4,7 +4,7 @@ import Reveal from "@/components/ui/Reveal";
 import { projectStatsMeta } from "@/config/content";
 
 export default async function StatsBand() {
-  const t = await getTranslations("ProjectsPage.stats");
+  const t = await getTranslations("projects-page.stats");
   const list = t.raw("items") as { value: string; label: string }[];
   const items = list.map((item, i) => ({ ...item, ...projectStatsMeta[i] }));
 

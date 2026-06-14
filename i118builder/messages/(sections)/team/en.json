@@ -3,30 +3,30 @@
   "titleLead": "Our Skilled Team Of",
   "titleAccent": "Roofing Professionals",
   "explore": "Explore Our Team",
-  "members": [
-    {
+  "members": {
+    "rodger": {
       "name": "Rodger Struck",
       "role": "Lead Roofing Contractor"
     },
-    {
+    "marcus": {
       "name": "Marcus Hale",
       "role": "Project Superintendent"
     },
-    {
+    "devin": {
       "name": "Devin Cole",
       "role": "Inspection Specialist"
     },
-    {
+    "travis": {
       "name": "Travis Boone",
       "role": "Safety Manager"
     },
-    {
+    "elena": {
       "name": "Elena Vargas",
       "role": "Operations Manager"
     },
-    {
+    "caleb": {
       "name": "Caleb Foster",
       "role": "Crew Foreman"
     }
-  ]
+  }
 }

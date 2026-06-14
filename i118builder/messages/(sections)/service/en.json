@@ -3,30 +3,30 @@
   "titleLead": "Crafting Roofs With",
   "titleAccent": "Precision And Care",
   "exploreAll": "Explore All Services",
-  "items": [
-    {
+  "items": {
+    "gutters": {
       "title": "Gutters & Flashing",
       "description": "Seamless gutter installation and precision flashing that channels water away and protects every edge of your roof."
     },
-    {
+    "energyEfficient": {
       "title": "Energy-Efficient Roofing",
       "description": "Solar-ready, cool-roof systems with reflective membranes that lower your energy bills while keeping interiors comfortable year-round."
     },
-    {
+    "shingle": {
       "title": "Shingle Roofing",
       "description": "Durable architectural asphalt shingles, expertly installed for lasting protection and timeless curb appeal on any pitched roof."
     },
-    {
+    "metal": {
       "title": "Metal Roofing",
       "description": "Sleek standing-seam metal roofs built to withstand decades of weather with minimal maintenance and a clean, modern finish."
     },
-    {
+    "dormers": {
       "title": "Dormers & Roof Windows",
       "description": "Custom dormers and weather-tight roof windows that bring in natural light and extra living space without compromising the roofline."
     },
-    {
+    "inspection": {
       "title": "Inspection & Repair",
       "description": "Thorough roof inspections and precise repairs that catch problems early and extend the life of your existing roof."
     }
-  ]
+  }
 }

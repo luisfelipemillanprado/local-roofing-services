@@ -16,7 +16,7 @@ type Post = {
 };
 
 export default async function Blog() {
-  const t = await getTranslations("Blog");
+  const t = await getTranslations("blog");
   const items = t.raw("posts") as Post[];
   const posts = items.map((item, i) => ({ ...item, ...postMeta[i] }));
 

@@ -11,7 +11,7 @@ type FooterLink = { label: string; href: string };
 type Hours = { day: string; time: string };
 
 export default function Footer() {
-  const t = useTranslations("Footer");
+  const t = useTranslations("footer");
   const topLinks = t.raw("topLinks") as FooterLink[];
   const services = t.raw("services") as FooterLink[];
   const hours = t.raw("hours") as Hours[];

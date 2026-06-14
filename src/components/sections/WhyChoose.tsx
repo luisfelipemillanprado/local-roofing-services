@@ -5,8 +5,8 @@ import { getTranslations } from "next-intl/server";
 import { featureMeta, whyStatMeta } from "@/config/content";
 
 export default async function WhyChoose() {
-  const t = await getTranslations("WhyChoose");
-  const tc = await getTranslations("Common");
+  const t = await getTranslations("why-choose");
+  const tc = await getTranslations("common");
   const featureItems = t.raw("features") as { title: string; description: string }[];
   const statItems = t.raw("stats") as { value: string; label: string }[];
   const features = featureItems.map((item, i) => ({ ...item, ...featureMeta[i] }));

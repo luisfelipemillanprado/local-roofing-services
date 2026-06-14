@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 
 export default async function Hero() {
-  const t = await getTranslations("Hero");
+  const t = await getTranslations("hero");
 
   return (
     <section id="home" className="relative isolate overflow-hidden bg-[var(--color-ink)]">

@@ -8,9 +8,9 @@ import { company } from "@/data/site";
 type Stat = { value: string; label: string };
 
 export default async function About() {
-  const t = await getTranslations("About");
-  const tc = await getTranslations("Common");
-  const tHero = await getTranslations("Hero");
+  const t = await getTranslations("about");
+  const tc = await getTranslations("common");
+  const tHero = await getTranslations("hero");
   const heroStats = tHero.raw("stats") as Stat[];
   const points = t.raw("points") as string[];
 

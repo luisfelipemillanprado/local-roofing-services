@@ -4,7 +4,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import { getTranslations } from "next-intl/server";
-import { testimonialMeta } from "@/config/content";
+import { reviewsSection } from "@/data/sections/reviews";
 
 function GoogleMark() {
   return (
@@ -30,12 +30,9 @@ function GoogleMark() {
 }
 
 export default async function Testimonials({ limit }: { limit?: number } = {}) {
-  const t = await getTranslations("Testimonials");
-  const items = t.raw("items") as { quote: string; name: string; location: string }[];
+  const t = await getTranslations("review");
   // `limit` lets the home show a subset while /projects shows them all.
-  const testimonials = items
-    .map((item, i) => ({ ...item, ...testimonialMeta[i] }))
-    .slice(0, limit);
+  const testimonials = reviewsSection.items.slice(0, limit);
 
   return (
     <section className="bg-[var(--surface-2)] py-20 lg:py-28">
@@ -74,10 +71,12 @@ export default async function Testimonials({ limit }: { limit?: number } = {}) {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {testimonials.map((item, i) => (
+          {testimonials.map((item, i) => {
+            const name = t(`items.${item.key}.name`);
+            return (
             <Reveal
               as="figure"
-              key={item.name}
+              key={item.key}
               delay={i * 0.08}
               className="flex flex-col rounded-[var(--radius-card)] border border-[var(--border)] bg-[var(--surface)] p-7 shadow-[0_18px_50px_-34px_rgba(15,23,34,0.45)]"
             >
@@ -90,20 +89,31 @@ export default async function Testimonials({ limit }: { limit?: number } = {}) {
                 <Quote className="size-8 text-[var(--surface-2)]" fill="currentColor" />
               </div>
               <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-[var(--fg)]/80">
-                &ldquo;{item.quote}&rdquo;
+                &ldquo;{t(`items.${item.key}.quote`)}&rdquo;
               </blockquote>
               <figcaption className="mt-6 flex items-center gap-3 border-t border-[var(--border)] pt-5">
                 <span className="relative size-11 overflow-hidden rounded-full">
-                  <Image src={item.avatar} alt={item.name} fill sizes="44px" className="object-cover" />
+                  <Image
+                    src={item.avatar}
+                    alt={name}
+                    placeholder="blur"
+                    blurDataURL={item.blur}
+                    fill
+                    sizes="44px"
+                    className="object-cover"
+                  />
                 </span>
                 <div className="flex-1">
-                  <div className="text-sm font-bold text-[var(--fg)]">{item.name}</div>
-                  <div className="text-xs text-[var(--fg-muted)]">{item.location}</div>
+                  <div className="text-sm font-bold text-[var(--fg)]">{name}</div>
+                  <div className="text-xs text-[var(--fg-muted)]">
+                    {t(`items.${item.key}.location`)}
+                  </div>
                 </div>
                 <GoogleMark />
               </figcaption>
             </Reveal>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

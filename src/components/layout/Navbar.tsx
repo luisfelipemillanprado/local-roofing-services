@@ -13,8 +13,8 @@ import LanguageSwitch from "@/components/ui/LanguageSwitch";
 type NavLink = { label: string; href: string };
 
 export default function Navbar() {
-  const t = useTranslations("Nav");
-  const tc = useTranslations("Common");
+  const t = useTranslations("navbar");
+  const tc = useTranslations("common");
   const navLinks = t.raw("links") as NavLink[];
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);

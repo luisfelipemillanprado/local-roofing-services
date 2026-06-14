@@ -4,7 +4,7 @@ import Reveal from "@/components/ui/Reveal";
 import { valuesMeta } from "@/config/content";
 
 export default async function Values() {
-  const t = await getTranslations("AboutPage.values");
+  const t = await getTranslations("about-page.values");
   const list = t.raw("items") as { title: string; description: string }[];
   const items = list.map((item, i) => ({ ...item, ...valuesMeta[i] }));
 

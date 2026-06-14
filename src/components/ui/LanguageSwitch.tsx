@@ -8,7 +8,7 @@ import { localeNames, type Locale } from "@/i18n/routing";
 
 export default function LanguageSwitch({ className = "" }: { className?: string }) {
   const locale = useLocale() as Locale;
-  const t = useTranslations("Common");
+  const t = useTranslations("common");
   const router = useRouter();
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();

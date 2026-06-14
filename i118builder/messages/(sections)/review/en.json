@@ -4,36 +4,36 @@
   "titleAccent": "The Roofs We've Built",
   "reviews": "820+ reviews",
   "viewAll": "View All",
-  "items": [
-    {
+  "items": {
+    "paula": {
       "quote": "From the first inspection to the final cleanup the team was professional and transparent. Our new energy-efficient roof already cut our cooling costs noticeably.",
       "name": "Paula Moss",
       "location": "Aurora, CO"
     },
-    {
+    "dennis": {
       "quote": "Roofpro replaced our entire roof after a hailstorm and handled the insurance paperwork end to end. The crew was punctual, tidy and genuinely cared about the result.",
       "name": "Dennis Collis",
       "location": "Boulder, CO"
     },
-    {
+    "howard": {
       "quote": "Fast emergency response when a storm tore off shingles overnight. They tarped it within hours and had it fully repaired by the weekend. Highly recommend.",
       "name": "Howard Tanner",
       "location": "Denver, CO"
     },
-    {
+    "grace": {
       "quote": "They re-roofed our home with standing-seam metal and the difference is night and day. Professional, on time, and the crew treated our property with real respect.",
       "name": "Grace Holloway",
       "location": "Littleton, CO"
     },
-    {
+    "greg": {
       "quote": "I got three quotes and Roofpro was by far the most transparent. No hidden fees, quality workmanship, and they finished ahead of schedule.",
       "name": "Greg Walsh",
       "location": "Lakewood, CO"
     },
-    {
+    "tyler": {
       "quote": "From the inspection to the warranty paperwork everything was clear and easy. Our new roof looks fantastic and the house feels cooler already.",
       "name": "Tyler Brooks",
       "location": "Englewood, CO"
     }
-  ]
+  }
 }

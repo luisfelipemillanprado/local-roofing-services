@@ -4,7 +4,7 @@ import Reveal from "@/components/ui/Reveal";
 import { processMeta } from "@/config/content";
 
 export default async function ProcessSteps() {
-  const t = await getTranslations("ServicesPage.process");
+  const t = await getTranslations("services-page.process");
   const steps = t.raw("steps") as { title: string; description: string }[];
   const items = steps.map((step, i) => ({ ...step, ...processMeta[i] }));
 

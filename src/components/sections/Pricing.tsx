@@ -14,7 +14,7 @@ type Plan = {
 };
 
 export default async function Pricing() {
-  const t = await getTranslations("Pricing");
+  const t = await getTranslations("pricing");
   const plans = t.raw("plans") as Plan[];
   const pricingPlans = plans.map((item, i) => ({ ...item, ...pricingMeta[i] }));
 

@@ -5,12 +5,14 @@
  * next-intl. The non-serialisable bits — Lucide icon components, image URLs and
  * structural flags — stay here in code and are merged by index with the
  * translated lists at render time.
+ *
+ * NOTE: Shared sections (services, projects, team, reviews) have migrated to
+ * `src/data/sections/*` with semantic keys. What remains here are the
+ * page-specific lists still pending that migration.
  */
 import type { LucideIcon } from "lucide-react";
 import {
   ShieldCheck,
-  Zap,
-  Layers,
   PhoneCall,
   Lightbulb,
   Award,
@@ -18,7 +20,6 @@ import {
   Wrench,
   Home,
   Building2,
-  Droplets,
   CloudRain,
   ClipboardCheck,
   FileText,
@@ -26,7 +27,6 @@ import {
   Handshake,
   Users,
   Star,
-  Sun,
 } from "lucide-react";
 
 /* Shared, locale-independent image URLs (remote sections still on Unsplash) */
@@ -36,15 +36,6 @@ export const IMG = {
 } as const;
 
 /* Metadata aligned by index with the translated lists in messages/*.json */
-
-export const serviceMeta: { icon: LucideIcon; image: string }[] = [
-  { icon: Droplets, image: "/images/services/service1.webp" },
-  { icon: Zap, image: "/images/services/service2.webp" },
-  { icon: Layers, image: "/images/services/service3.webp" },
-  { icon: Home, image: "/images/services/service4.webp" },
-  { icon: Sun, image: "/images/services/service5.webp" },
-  { icon: Wrench, image: "/images/services/service6.webp" },
-];
 
 export const featureMeta: { icon: LucideIcon }[] = [
   { icon: PhoneCall },
@@ -57,36 +48,6 @@ export const whyStatMeta: { icon: LucideIcon }[] = [
   { icon: Award },
   { icon: Hammer },
   { icon: Wrench },
-];
-
-export const projectMeta: { image: string }[] = [
-  { image: "/images/projects/project1.webp" },
-  { image: "/images/projects/project2.webp" },
-  { image: "/images/projects/project3.webp" },
-  { image: "/images/projects/project4.webp" },
-  { image: "/images/projects/project5.webp" },
-  { image: "/images/projects/project6.webp" },
-  { image: "/images/projects/project7.webp" },
-  { image: "/images/projects/project8.webp" },
-  { image: "/images/projects/project9.webp" },
-];
-
-export const teamMeta: { image: string }[] = [
-  { image: "/images/team/team1.webp" },
-  { image: "/images/team/team2.webp" },
-  { image: "/images/team/team3.webp" },
-  { image: "/images/team/team4.webp" },
-  { image: "/images/team/team5.webp" },
-  { image: "/images/team/team6.webp" },
-];
-
-export const testimonialMeta: { avatar: string; rating: number }[] = [
-  { avatar: "/images/avatars/avatar1.webp", rating: 5 },
-  { avatar: "/images/avatars/avatar2.webp", rating: 5 },
-  { avatar: "/images/avatars/avatar3.webp", rating: 5 },
-  { avatar: "/images/avatars/avatar4.webp", rating: 5 },
-  { avatar: "/images/avatars/avatar5.webp", rating: 5 },
-  { avatar: "/images/avatars/avatar6.webp", rating: 5 },
 ];
 
 export const pricingMeta: { icon: LucideIcon; highlighted?: boolean }[] = [
