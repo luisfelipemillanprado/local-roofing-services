@@ -1,94 +1,117 @@
 # Roofpro — Local Roofing Services Website
 
-A professional, high-performance marketing site for a roofing company, built with
-the Next.js App Router. Single-page landing experience with smooth scroll
-navigation, scroll-reveal animations, and a fully responsive, mobile-first layout.
+A professional, high-performance marketing site for a roofing company, built on the
+Next.js App Router. Multi-page experience (Home, Services, Projects, About) that is
+fully localized (English / Spanish), light/dark themed, statically prerendered, and
+responsive down to device-specific mobile breakpoints.
 
 ## Tech Stack
 
-- **Next.js 16** (App Router + Turbopack, React 19, TypeScript)
-- **Tailwind CSS v4** with a custom design-token theme (`src/app/globals.css`)
-- **Internationalization (i18n)** — English & Spanish, with a one-click language
-  switch and `localStorage` persistence (`src/i18n/`)
-- **Light / dark theme** via `next-themes`, with a sun/moon toggle and
-  theme-aware CSS variables that flip for `.dark`
-- **Framer Motion** for scroll-reveal and entrance animations
-- **lucide-react** for icons
-- **next/font** (Plus Jakarta Sans + Inter), `next/image` for optimized assets
-- **pnpm** as the package manager
+- **Next.js 16** — App Router + Turbopack, React 19, TypeScript, SSG.
+- **Tailwind CSS v4** — CSS-first config in [`src/app/globals.css`](src/app/globals.css)
+  (`@theme` tokens, generated utilities, `@layer base`, `@utility`).
+- **next-intl v4** — locale routing (`/` for English, `/es` for Spanish),
+  server/client translations, type-safe message keys.
+- **next-themes** — class-based light/dark with **dark as the default**.
+- **lucide-react** — icons. **next/font** (Plus Jakarta Sans + Inter), **next/image**.
+- **pnpm** — package manager. Custom i18n builder (`i118builder`) on `tsx`.
 
-## Internationalization & Theming
+## Architecture
 
-- **All copy** lives in `src/i18n/content.ts`, keyed by locale (`en` / `es`).
-  Add a language by extending the `Content` map and the `locales` list.
-- Components read localized content through the `useContent()` hook
-  (`src/i18n/provider.tsx`); the active locale is persisted in `localStorage`.
-- The light/dark palette is defined with semantic CSS variables
-  (`--page-bg`, `--surface`, `--fg`, `--border`, …) in `globals.css`; the `.dark`
-  block overrides them. Brand colors stay constant across themes.
+The codebase is organized **page-first** (Feature-Sliced) with **Atomic Design**;
+anything reused by two or more routes lives in `common/`, everything route-specific
+lives under `features/<route>/`.
+
+```
+i118builder/
+  index.ts                       # builder: compiles split messages → messages/{en,es}.json
+  messages/
+    (global)/                    # common, navbar, footer, metadata, floating-contact
+    (sections)/                  # shared sections: service, project, review, team, about, call-action
+    (pages)/                     # route-specific: home/*, services-page, projects-page, about-page
+messages/{en,es}.json            # GENERATED (gitignored), consumed by next-intl
+
+src/
+  app/
+    layout.tsx                   # ThemeProvider, fonts
+    [locale]/
+      layout.tsx                 # locale guard, metadata, navbar, footer, floating contact
+      page.tsx                   # Home          → /        (and /es)
+      services/page.tsx          # Services      → /services
+      projects/page.tsx          # Projects      → /projects
+      about/page.tsx             # About         → /about
+    globals.css                  # design tokens + base layer + custom utilities
+  common/<domain>/components/{atoms,molecules,organisms}/   # shared (button, navbar, footer, …)
+  features/<route>/components/organisms/                     # route-only sections
+  data/
+    site.ts                      # locale-independent company details
+    blurs.ts                     # generic blur placeholders for next/image
+    sections/<section>.ts        # metadata (icons, image paths, semantic keys) for shared sections
+    pages/<route>.ts             # page composition + route-specific section data
+  i18n/
+    routing.ts                   # locales, defaultLocale, localePrefix: "as-needed"
+    request.ts                   # getRequestConfig (loads generated messages)
+    navigation.ts                # locale-aware Link / navigation helpers
+  proxy.ts                       # Next.js 16 middleware (next-intl routing)
+```
+
+### How content is wired
+
+Data and translations are linked by **semantic keys** (e.g. `metalRoofing`), never by
+array index — this removes the positional-alignment fragility:
+
+- Non-translatable metadata (icons, image paths, flags) + a `key` live in `src/data/`.
+- Translatable copy lives in split JSON under `i118builder/messages/`, keyed by the
+  same names. The builder strips the `(group)` folders and nests the rest, so
+  `(pages)/home/hero/` → namespace `home.hero`, `(sections)/service/` → `service`.
+- Components iterate the data array and resolve text with `t(\`${item.key}.title\`)`.
+
+### Theming
+
+Brand palette and semantic roles are declared in `globals.css`. Static tokens go in
+`@theme` (`--color-primary`, `--radius-card`, `--animate-marquee`, breakpoints); the
+theme-aware surface/footer roles are aliased in `@theme inline` so the generated
+utilities (`bg-surface`, `text-fg`, `bg-footer`…) track the active theme. `:root` is
+the dark theme; `.light` overrides the runtime variables. Components style with the
+**generated utilities**, not arbitrary `bg-[var(--…)]` values.
 
 ## Getting Started
 
 ```bash
 pnpm install
-pnpm dev      # http://localhost:3000
+pnpm dev      # builds messages in watch mode + next dev → http://localhost:3000
 ```
 
 ### Scripts
 
-| Command       | Description                |
-| ------------- | ------------------------- |
-| `pnpm dev`    | Start the dev server       |
-| `pnpm build`  | Production build           |
-| `pnpm start`  | Serve the production build |
-| `pnpm lint`   | Lint the project           |
+| Command            | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| `pnpm dev`         | i18n builder (watch) + Next dev server, concurrently   |
+| `pnpm build`       | Compile messages, then production build                |
+| `pnpm start`       | Serve the production build                             |
+| `pnpm lint`        | Lint the project                                       |
+| `pnpm i18n:build`  | Compile `messages/{en,es}.json` from the split sources |
 
-## First Push To GitHub
-
-```bash
-git init
-git add -A
-git commit -m "Initial commit — Roofpro roofing services website"
-git branch -M main
-git remote add origin git@github.com:luisfelipemillanprado/local-roofing-services.git
-git push -u origin main
-```
-
-## Project Structure
-
-```
-src/
-  app/
-    layout.tsx        # Fonts, SEO metadata, global styles
-    page.tsx          # Page composition (section order)
-    globals.css       # Design tokens (colors, fonts, radii) + utilities
-  components/
-    layout/           # Navbar, Footer
-    sections/         # Hero, About, Services, WhyChoose, Projects, Team,
-                      # Testimonials, Coupons, Pricing, Blog, CTA, Marquee
-    ui/               # Button, SectionHeading, Reveal, Logo, Socials
-  data/
-    site.ts           # ALL copy & content (single source of truth)
-  lib/
-    motion.ts         # Shared Framer Motion variants
-```
+> Note: `messages/{en,es}.json` are generated and gitignored. The builder must run
+> before `next build`/typecheck — this is already wired into `dev` and `build`.
 
 ## Customizing for the Client
 
-- **Content & copy:** edit `src/data/site.ts` — company name, phone, services,
-  team, testimonials, pricing, blog posts, footer links all live here.
-- **Brand colors / fonts:** edit the `@theme` block in `src/app/globals.css`
-  (`--color-primary`, etc.) and the fonts in `src/app/layout.tsx`.
-- **Real photography:** drop images into `public/images/` and update the paths in
-  `src/data/site.ts`. To use remote images (e.g. a CMS or Unsplash), add the host
-  to `images.remotePatterns` in `next.config.ts`.
-
-## Sections
-
-Hero → marquee strip → About → Services → Why Choose Us → Projects →
-Team → Testimonials → Coupons → Pricing → Blog → Contact / CTA → Footer.
+- **Copy / translations:** edit the split JSON in `i118builder/messages/`. To add a
+  locale, extend `locales` in [`src/i18n/routing.ts`](src/i18n/routing.ts) and add the
+  matching `{locale}.json` files.
+- **Company details:** edit [`src/data/site.ts`](src/data/site.ts) (name, phone,
+  WhatsApp, email, address).
+- **Section content (icons / images / keys):** edit `src/data/sections/*` and
+  `src/data/pages/*`.
+- **Brand colors / fonts:** edit the `@theme` block in
+  [`src/app/globals.css`](src/app/globals.css) and the fonts in
+  [`src/app/layout.tsx`](src/app/layout.tsx).
+- **Photography:** drop images into `public/images/` and update the paths in
+  `src/data/`. For remote images, add the host to `images.remotePatterns` in
+  [`next.config.ts`](next.config.ts).
 
 ## Deployment
 
-Optimized for Vercel (zero-config). Any Node host works via `pnpm build` +
-`pnpm start`. The page is statically prerendered for fast first load.
+Optimized for Vercel (zero-config). Any Node host works via `pnpm build` + `pnpm start`.
+All routes are statically prerendered (SSG) for both locales.

@@ -188,48 +188,51 @@
 }
 
 /* Scroll-reveal: <Reveal> adds .is-visible via IntersectionObserver. */
-@keyframes reveal-fade-up {
-  from {
+@layer components {
+  @keyframes reveal-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes reveal-fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes reveal-scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.94);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  [data-reveal] {
     opacity: 0;
-    transform: translateY(28px);
   }
-  to {
-    opacity: 1;
-    transform: none;
+  [data-reveal].is-visible {
+    animation: reveal-fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
   }
-}
-@keyframes reveal-fade-in {
-  from {
-    opacity: 0;
+  [data-reveal="fade-in"].is-visible {
+    animation-name: reveal-fade-in;
   }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes reveal-scale-in {
-  from {
-    opacity: 0;
-    transform: scale(0.94);
-  }
-  to {
-    opacity: 1;
-    transform: none;
+  [data-reveal="scale-in"].is-visible {
+    animation-name: reveal-scale-in;
   }
 }
 
-[data-reveal] {
-  opacity: 0;
-}
-[data-reveal].is-visible {
-  animation: reveal-fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-[data-reveal="fade-in"].is-visible {
-  animation-name: reveal-fade-in;
-}
-[data-reveal="scale-in"].is-visible {
-  animation-name: reveal-scale-in;
-}
-
+/* Outside any layer so it overrides components regardless of specificity. */
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] {
     opacity: 1;
