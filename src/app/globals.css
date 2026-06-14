@@ -1,18 +1,24 @@
 @import "tailwindcss";
 
-/* Enable class-based dark mode (ThemeProvider toggles `.dark` on <html>). */
+/* Class-based theming (next-themes toggles `.dark` / `.light` on <html>). */
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* ───────────────────────────────────────────────────────────────────
+   1. RAW PALETTE — named brand primitives. Components NEVER use these
+   directly; they go through the semantic roles below.
+   ─────────────────────────────────────────────────────────────────── */
 @theme {
-  /* Brand palette */
-  --color-primary: #e8392b;
-  --color-primary-dark: #c52a1e;
-  --color-primary-light: #ff5a4d;
+  /* Dark brand (default theme) — from the design mockup */
+  --color-steel: #305473; /* azul acero · acento frío / estructura */
+  --color-night: #1a2126; /* slate casi negro · base del dark    */
+  --color-amber: #f2b950; /* ámbar/dorado · acento principal     */
+  --color-tan: #bf895a;   /* tan cálido · acento profundo (hover)*/
+  --color-peach: #f2cfbb; /* durazno claro · acento suave        */
 
-  --color-ink: #0f1722;
-  --color-ink-soft: #1a2536;
-  --color-muted: #6b7585;
-  --color-line: #e7e9ee;
+  /* Light brand (rojo) — se mantiene como el diseño original */
+  --color-red: #e8392b;
+  --color-red-dark: #c52a1e;
+  --color-red-light: #ff5a4d;
   --color-cream: #f6f4f0;
   --color-sand: #f3efe9;
 
@@ -23,14 +29,56 @@
   /* Radii */
   --radius-card: 1.25rem;
 
-  /* Shadows */
-  --shadow-soft: 0 18px 50px -20px rgba(15, 23, 34, 0.25);
-  --shadow-card: 0 24px 60px -28px rgba(15, 23, 34, 0.35);
+  /* ── Semantic ROLES (default = DARK) ─────────────────────────────
+     Los consumen los componentes (var() o utilidades como ring-primary).
+     Se redefinen en .light más abajo. */
+  --color-primary: var(--color-amber);
+  --color-primary-light: var(--color-peach);
+  --color-primary-dark: var(--color-tan);
+  --color-secondary: var(--color-steel); /* acento frío disponible */
+  --color-ink: #12181c; /* secciones “ink” = lo más oscuro en dark */
+  --color-ink-soft: #1b2329;
+
+  /* Shadows (default = dark, más profundas) */
+  --shadow-soft: 0 18px 50px -20px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 24px 60px -28px rgba(0, 0, 0, 0.7);
 }
 
-/* Semantic, theme-aware surface tokens — these flip between light and dark. */
+/* Surface/content roles expuestos también como utilidades Tailwind
+   (bg-surface, text-fg, border-line…) resolviendo a la var de runtime,
+   así cambian de tema sin rebuild. */
+@theme inline {
+  --color-canvas: var(--page-bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-line: var(--border);
+}
+
+/* ───────────────────────────────────────────────────────────────────
+   2. THEME ROLES por tema. :root = DARK (default). .light sobrescribe.
+   ─────────────────────────────────────────────────────────────────── */
 :root {
+  color-scheme: dark;
+  --page-bg: var(--color-night); /* #1a2126 */
+  --surface: #232e38; /* panel · slate azulado (night→steel) */
+  --surface-2: #151b20; /* inset más oscuro */
+  --fg: #ffffff;
+  --fg-muted: #9aa6b6;
+  --border: rgba(255, 255, 255, 0.09);
+  --scrollbar-track: #151b20;
+  --scrollbar-thumb: #2a3640;
+}
+
+/* Light — se deja tal cual el diseño original (marca roja sobre blanco). */
+.light {
   color-scheme: light;
+  --color-primary: var(--color-red);
+  --color-primary-light: var(--color-red-light);
+  --color-primary-dark: var(--color-red-dark);
+  --color-ink: #0f1722;
+  --color-ink-soft: #1a2536;
   --page-bg: #ffffff;
   --surface: #ffffff;
   --surface-2: #f6f4f0;
@@ -39,20 +87,8 @@
   --border: #e7e9ee;
   --scrollbar-track: #f1f1f1;
   --scrollbar-thumb: #cfcfcf;
-}
-
-.dark {
-  color-scheme: dark;
-  --page-bg: #0b111a;
-  --surface: #141d2b;
-  --surface-2: #0f1722;
-  --fg: #eef2f7;
-  --fg-muted: #9aa6b6;
-  --border: rgba(255, 255, 255, 0.1);
-  --scrollbar-track: #0f1722;
-  --scrollbar-thumb: #2a3a4f;
-  --shadow-soft: 0 18px 50px -20px rgba(0, 0, 0, 0.6);
-  --shadow-card: 0 24px 60px -28px rgba(0, 0, 0, 0.7);
+  --shadow-soft: 0 18px 50px -20px rgba(15, 23, 34, 0.25);
+  --shadow-card: 0 24px 60px -28px rgba(15, 23, 34, 0.35);
 }
 
 * {
