@@ -78,7 +78,6 @@
   --border: rgba(255, 255, 255, 0.09);
   --scrollbar-track: #151b20;
   --scrollbar-thumb: #2a3640;
-  /* Footer = warm tan surface, dark text (from the mockup). */
   --footer-bg: var(--color-tan);
   --footer-fg: var(--color-night);
   --footer-border: rgba(26, 33, 38, 0.16);
@@ -107,53 +106,69 @@
   --footer-accent: var(--color-primary-light);
 }
 
-* {
-  border-color: var(--border);
-}
+/* Base element styles (cascade layer so utilities can override). */
+@layer base {
+  * {
+    border-color: var(--border);
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  background-color: var(--page-bg);
-  color: var(--fg);
-  font-family: var(--font-body);
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
+  body {
+    background-color: var(--page-bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--font-display);
-  letter-spacing: -0.02em;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
 
-::selection {
-  background: var(--color-primary);
-  color: #fff;
+  ::selection {
+    background: var(--color-primary);
+    color: #fff;
+  }
+
+  /* Custom scrollbar. */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+  }
 }
 
 /* Page gutter container. */
-.container-x {
+@utility container-x {
   width: 100%;
   max-width: 80rem;
   margin-inline: auto;
   padding-inline: 1.25rem;
-}
 
-@media (min-width: 1024px) {
-  .container-x {
+  @media (min-width: 1024px) {
     padding-inline: 2rem;
   }
 }
 
 /* Section eyebrow chip. */
-.eyebrow {
+@utility eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -162,29 +177,14 @@ h5 {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--color-primary);
-}
 
-.eyebrow::before {
-  content: "";
-  width: 1.5rem;
-  height: 2px;
-  background: var(--color-primary);
-  display: inline-block;
-}
-
-/* Custom scrollbar. */
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background: var(--scrollbar-track);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
-  border-radius: 999px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-primary);
+  &::before {
+    content: "";
+    width: 1.5rem;
+    height: 2px;
+    background: var(--color-primary);
+    display: inline-block;
+  }
 }
 
 /* Scroll-reveal: <Reveal> adds .is-visible via IntersectionObserver. */
