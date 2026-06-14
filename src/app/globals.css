@@ -9,13 +9,13 @@
    ─────────────────────────────────────────────────────────────────── */
 @theme {
   /* Dark brand (default theme) — from the design mockup */
-  --color-steel: #305473; /* azul acero · acento frío / estructura */
-  --color-night: #1a2126; /* slate casi negro · base del dark    */
-  --color-amber: #f2b950; /* ámbar/dorado · acento principal     */
-  --color-tan: #bf895a;   /* tan cálido · acento profundo (hover)*/
-  --color-peach: #f2cfbb; /* durazno claro · acento suave        */
+  --color-steel: #305473; /* steel blue · cool accent / structure */
+  --color-night: #1a2126; /* near-black slate · dark base */
+  --color-amber: #f2b950; /* amber/gold · primary accent */
+  --color-tan: #bf895a; /* warm tan · deep accent (hover) */
+  --color-peach: #f2cfbb; /* light peach · soft accent */
 
-  /* Light brand (rojo) — se mantiene como el diseño original */
+  /* Light brand (red) — kept as the original design */
   --color-red: #e8392b;
   --color-red-dark: #c52a1e;
   --color-red-light: #ff5a4d;
@@ -30,23 +30,23 @@
   --radius-card: 1.25rem;
 
   /* ── Semantic ROLES (default = DARK) ─────────────────────────────
-     Los consumen los componentes (var() o utilidades como ring-primary).
-     Se redefinen en .light más abajo. */
+     Consumed by components (via var() or utilities like ring-primary).
+     Overridden in .light below. */
   --color-primary: var(--color-amber);
   --color-primary-light: var(--color-peach);
   --color-primary-dark: var(--color-tan);
-  --color-secondary: var(--color-steel); /* acento frío disponible */
-  --color-ink: #12181c; /* secciones “ink” = lo más oscuro en dark */
+  --color-secondary: var(--color-steel); /* cool accent, available */
+  --color-ink: #12181c; /* "ink" sections = darkest in dark */
   --color-ink-soft: #1b2329;
 
-  /* Shadows (default = dark, más profundas) */
+  /* Shadows (default = dark, deeper) */
   --shadow-soft: 0 18px 50px -20px rgba(0, 0, 0, 0.6);
   --shadow-card: 0 24px 60px -28px rgba(0, 0, 0, 0.7);
 }
 
-/* Surface/content roles expuestos también como utilidades Tailwind
-   (bg-surface, text-fg, border-line…) resolviendo a la var de runtime,
-   así cambian de tema sin rebuild. */
+/* Surface/content roles also exposed as Tailwind utilities
+   (bg-surface, text-fg, border-line…), resolving to the runtime var so
+   they switch with the theme without a rebuild. */
 @theme inline {
   --color-canvas: var(--page-bg);
   --color-surface: var(--surface);
@@ -57,26 +57,26 @@
 }
 
 /* ───────────────────────────────────────────────────────────────────
-   2. THEME ROLES por tema. :root = DARK (default). .light sobrescribe.
+   2. THEME ROLES per theme. :root = DARK (default). .light overrides.
    ─────────────────────────────────────────────────────────────────── */
 :root {
   color-scheme: dark;
   --page-bg: var(--color-night); /* #1a2126 */
-  --surface: #232e38; /* panel · slate azulado (night→steel) */
-  --surface-2: #151b20; /* inset más oscuro */
+  --surface: #232e38; /* panel · blue-ish slate (night→steel) */
+  --surface-2: #151b20; /* darker inset */
   --fg: #ffffff;
   --fg-muted: #9aa6b6;
   --border: rgba(255, 255, 255, 0.09);
   --scrollbar-track: #151b20;
   --scrollbar-thumb: #2a3640;
-  /* Footer = superficie cálida (tan) con texto oscuro (del mockup) */
+  /* Footer = warm (tan) surface with dark text (from the mockup) */
   --footer-bg: var(--color-tan);
   --footer-fg: var(--color-night);
   --footer-border: rgba(26, 33, 38, 0.16);
   --footer-accent: var(--color-night);
 }
 
-/* Light — se deja tal cual el diseño original (marca roja sobre blanco). */
+/* Light — kept exactly as the original design (red brand on white). */
 .light {
   color-scheme: light;
   --color-primary: var(--color-red);
@@ -94,7 +94,7 @@
   --scrollbar-thumb: #cfcfcf;
   --shadow-soft: 0 18px 50px -20px rgba(15, 23, 34, 0.25);
   --shadow-card: 0 24px 60px -28px rgba(15, 23, 34, 0.35);
-  /* Footer en light = como estaba (ink oscuro, texto blanco) */
+  /* Footer in light = as before (dark ink, white text) */
   --footer-bg: var(--color-ink);
   --footer-fg: #ffffff;
   --footer-border: rgba(255, 255, 255, 0.1);
