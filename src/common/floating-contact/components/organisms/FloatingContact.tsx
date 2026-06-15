@@ -40,7 +40,7 @@ export async function FloatingContact() {
       label: t("call"),
       icon: <Phone className="size-6" />,
       className:
-        "bg-primary shadow-[0_0.75rem_1.875rem_-0.5rem_rgba(232,57,43,0.6)]",
+        "bg-primary shadow-[0_0.75rem_1.875rem_-0.5rem_rgba(217,166,72,0.6)]",
     },
   ];
 
