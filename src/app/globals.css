@@ -106,9 +106,9 @@
   --footer-accent: var(--color-primary-light);
 }
 
-/* Desktop (mouse / fine pointer) uses the original, more saturated amber;
-   phones/touch keep the warmer base above, which is calmer on OLED. */
-@media (pointer: fine) {
+/* Base amber (above) is the mobile tone; from the lg/desktop breakpoint up
+   switch to the original, more saturated amber. */
+@media (min-width: 64rem) {
   :root {
     --color-amber: oklch(0.7552 0.1253 80.01);
   }
