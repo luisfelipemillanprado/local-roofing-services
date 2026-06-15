@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Star, ShieldCheck } from "lucide-react";
+import { Star } from "lucide-react";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
@@ -30,7 +30,10 @@ export async function Hero() {
             delay={0.05}
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.135rem] text-white/90 backdrop-blur"
           >
-            <ShieldCheck className="size-4 text-primary-light" />
+            <span className="relative flex size-2">
+              <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75" />
+              <span className="relative inline-flex size-2 rounded-full bg-primary" />
+            </span>
             {t("badge")}
           </Reveal>
 
