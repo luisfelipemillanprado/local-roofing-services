@@ -23,9 +23,9 @@
   --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
 
-  /* Typography. */
+  /* Typography (--font-sans is applied to <html> by Preflight). */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
-  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 
   /* Radii. */
   --radius-card: 1.25rem;
@@ -119,7 +119,6 @@
   body {
     background-color: var(--page-bg);
     color: var(--fg);
-    font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     transition: background-color 0.3s ease, color 0.3s ease;
