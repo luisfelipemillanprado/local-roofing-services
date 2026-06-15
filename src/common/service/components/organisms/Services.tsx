@@ -48,7 +48,7 @@ export async function Services({ exploreHref, limit }: ServicesProps = {}) {
                 as="article"
                 key={service.key}
                 delay={i * 0.08}
-                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-[0_18px_50px_-30px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card"
+                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-[0_1.125rem_3.125rem_-1.875rem_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card"
               >
                 <div className="relative aspect-[16/11] overflow-hidden">
                   <Image

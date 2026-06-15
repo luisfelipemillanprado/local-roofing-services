@@ -28,7 +28,7 @@ export async function Hero() {
         <div className="max-w-3xl">
           <Reveal
             delay={0.05}
-            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/90 backdrop-blur"
+            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.135rem] text-white/90 backdrop-blur"
           >
             <ShieldCheck className="size-4 text-primary-light" />
             {t("badge")}

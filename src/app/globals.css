@@ -38,8 +38,8 @@
   --color-ink-soft: oklch(0.251 0.0162 240.71);
 
   /* Shadows (default = dark, deeper). */
-  --shadow-soft: 0 18px 50px -20px oklch(0 0 0 / 0.6);
-  --shadow-card: 0 24px 60px -28px oklch(0 0 0 / 0.7);
+  --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0 0 0 / 0.6);
+  --shadow-card: 0 1.5rem 3.75rem -1.75rem oklch(0 0 0 / 0.7);
 
   /* Marquee animation (utility: animate-marquee). */
   --animate-marquee: marquee 28s linear infinite;
@@ -97,8 +97,8 @@
   --border: oklch(0.9339 0.0071 268.55);
   --scrollbar-track: oklch(0.9581 0 0);
   --scrollbar-thumb: oklch(0.8545 0 0);
-  --shadow-soft: 0 18px 50px -20px oklch(0.2024 0.0252 256.48 / 0.25);
-  --shadow-card: 0 24px 60px -28px oklch(0.2024 0.0252 256.48 / 0.35);
+  --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0.2024 0.0252 256.48 / 0.25);
+  --shadow-card: 0 1.5rem 3.75rem -1.75rem oklch(0.2024 0.0252 256.48 / 0.35);
   /* Footer in light = dark ink, white text. */
   --footer-bg: var(--color-ink);
   --footer-fg: oklch(1 0 0);
@@ -131,7 +131,7 @@
   h4,
   h5 {
     font-family: var(--font-display);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.05rem;
   }
 
   ::selection {
@@ -141,7 +141,7 @@
 
   /* Custom scrollbar. */
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 0.625rem;
   }
   ::-webkit-scrollbar-track {
     background: var(--scrollbar-track);
@@ -160,7 +160,7 @@
   @keyframes reveal-fade-up {
     from {
       opacity: 0;
-      transform: translateY(28px);
+      transform: translateY(1.75rem);
     }
     to {
       opacity: 1;
@@ -207,7 +207,7 @@
   margin-inline: auto;
   padding-inline: 1.25rem;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 64rem) {
     padding-inline: 2rem;
   }
 }
@@ -219,14 +219,14 @@
   gap: 0.5rem;
   font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.126rem;
   text-transform: uppercase;
   color: var(--color-primary);
 
   &::before {
     content: "";
     width: 1.5rem;
-    height: 2px;
+    height: 0.125rem;
     background: var(--color-primary);
     display: inline-block;
   }

@@ -22,7 +22,7 @@ export function CTA() {
   return (
     <section id="contact" className="bg-canvas py-20 lg:py-28">
       <div className="container-x">
-        <Reveal className="relative isolate overflow-hidden rounded-[2rem] bg-ink px-6 py-16 sm:px-12 lg:px-16">
+        <Reveal className="relative isolate overflow-hidden rounded-4xl bg-ink px-6 py-16 sm:px-12 lg:px-16">
           <div className="absolute inset-0 -z-10 opacity-30">
             <Image src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=80" alt="" fill sizes="100vw" className="object-cover" />
           </div>

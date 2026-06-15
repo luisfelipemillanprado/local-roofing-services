@@ -39,7 +39,7 @@ export async function Blog() {
               as="article"
               key={post.key}
               delay={i * 0.08}
-              className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-[0_18px_50px_-34px_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card sm:flex-row"
+              className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-[0_1.125rem_3.125rem_-2.125rem_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card sm:flex-row"
             >
               <div className="relative aspect-[16/11] w-full overflow-hidden sm:aspect-auto sm:w-2/5">
                 <Image
