@@ -23,7 +23,7 @@ export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-primary-light">
+                <span className="block text-primary">
                   {t("titleAccent")}
                 </span>
               </>
@@ -64,7 +64,7 @@ export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
 
               <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-between p-5 opacity-90 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest text-primary-light">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-primary">
                     {t(`items.${project.key}.category`)}
                   </p>
                   <h3 className="mt-1 text-lg font-bold text-white">{title}</h3>
