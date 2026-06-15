@@ -34,7 +34,7 @@ export default function Home({ params }: Props) {
         <WhyChoose />
         <Projects exploreHref="/projects" limit={6} />
         <Team limit={3} />
-        <Testimonials limit={3} />
+        <Testimonials limit={6} />
         <Pricing />
         <Blog />
         <CTA />

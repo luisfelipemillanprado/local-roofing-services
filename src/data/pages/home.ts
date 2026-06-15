@@ -8,6 +8,7 @@ import {
   CloudRain,
   Home,
   Building2,
+  Factory,
   type LucideIcon,
 } from "lucide-react";
 import { blurs } from "@/data/blurs";
@@ -16,7 +17,7 @@ import { blurs } from "@/data/blurs";
 export type WhyChooseFeatureKey = "emergency" | "proactive" | "reliable" | "experience";
 export type WhyChooseStatKey = "years" | "projects" | "roofers";
 export type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
-export type PricingPlanKey = "residential" | "commercial";
+export type PricingPlanKey = "residential" | "commercial" | "industrial";
 export type BlogPostKey = "defenseSystem" | "underAttack";
 
 export const whyChooseSection: {
@@ -52,6 +53,7 @@ export const pricingSection: {
   plans: [
     { key: "residential", icon: Home },
     { key: "commercial", icon: Building2, highlighted: true },
+    { key: "industrial", icon: Factory },
   ],
 };
 

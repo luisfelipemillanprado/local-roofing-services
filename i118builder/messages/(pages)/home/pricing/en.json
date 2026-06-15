@@ -31,6 +31,19 @@
         "Drainage & flashing checks",
         "Detailed condition reports"
       ]
+    },
+    "industrial": {
+      "name": "Industrial",
+      "price": "$12,999",
+      "period": "starting at",
+      "blurb": "Large-scale metal and flat-roof systems for warehouses and industrial facilities.",
+      "features": [
+        "Standing-seam metal systems",
+        "Structural load assessment",
+        "Heavy-duty waterproofing",
+        "Dedicated project manager",
+        "Extended workmanship warranty"
+      ]
     }
   }
 }

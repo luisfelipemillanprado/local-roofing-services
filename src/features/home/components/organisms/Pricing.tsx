@@ -24,7 +24,7 @@ export async function Pricing() {
           description={t("description")}
         />
 
-        <div className="mx-auto mt-14 grid max-w-4xl gap-6 md:grid-cols-2">
+        <div className="mx-auto mt-14 grid max-w-6xl gap-6 md:grid-cols-3">
           {pricingPlans.map((plan, i) => {
             const Icon = plan.icon;
             const features = t.raw(`plans.${plan.key}.features`) as string[];

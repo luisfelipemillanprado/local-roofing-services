@@ -31,6 +31,19 @@
         "Revisión de drenaje y tapajuntas",
         "Reportes detallados de condición"
       ]
+    },
+    "industrial": {
+      "name": "Industrial",
+      "price": "$12,999",
+      "period": "desde",
+      "blurb": "Sistemas de techo metálico y plano a gran escala para naves y plantas industriales.",
+      "features": [
+        "Sistemas de metal standing-seam",
+        "Evaluación de carga estructural",
+        "Impermeabilización de alta resistencia",
+        "Gerente de proyecto dedicado",
+        "Garantía de mano de obra extendida"
+      ]
     }
   }
 }
