@@ -15,15 +15,7 @@ type NavLink = { label: string; href: string };
 export function Navbar() {
   const t = useTranslations("navbar");
   const navLinks = t.raw("links") as NavLink[];
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -33,13 +25,7 @@ export function Navbar() {
   }, [open]);
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-surface/90 shadow-[0_0.625rem_2.5rem_-1.5rem_rgba(15,23,34,0.45)] backdrop-blur-md"
-          : "bg-transparent"
-      }`}
-    >
+    <header className="fixed inset-x-0 top-0 z-50 bg-surface/90 shadow-[0_0.625rem_2.5rem_-1.5rem_rgba(15,23,34,0.45)] backdrop-blur-md">
       <div className="container-x flex h-18 items-center justify-between py-3">
         <Logo />
 
