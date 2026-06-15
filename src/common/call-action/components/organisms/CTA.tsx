@@ -34,7 +34,7 @@ export function CTA() {
             </span>
             <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl lg:text-5xl">
               {t("titleLead")}
-              <span className="block">{t("titleAccent")}</span>
+              <span className="block text-primary">{t("titleAccent")}</span>
             </h2>
             <p className="mt-5 max-w-xl text-white/70 mx-auto lg:mx-0">{t("body")}</p>
 
