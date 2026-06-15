@@ -106,11 +106,12 @@
   --footer-accent: var(--color-primary-light);
 }
 
-/* Wide-gamut (P3/OLED) screens render the amber more vividly; tame its
-   chroma there so it doesn't look neon on mobile. sRGB displays keep it. */
-@media (color-gamut: p3) {
+/* Wide-gamut/OLED and touch screens (phones) render the amber more vividly;
+   drop its chroma there so it reads as soft gold, not neon yellow. Desktop
+   (sRGB + fine pointer) keeps the original amber. */
+@media (color-gamut: p3), (pointer: coarse) {
   :root {
-    --color-amber: oklch(0.7552 0.1 80.01);
+    --color-amber: oklch(0.7552 0.08 80.01);
   }
 }
 
