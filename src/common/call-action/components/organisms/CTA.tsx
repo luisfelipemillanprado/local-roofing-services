@@ -28,7 +28,7 @@ export function CTA() {
           </div>
           <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink via-ink/90 to-primary/40" />
 
-          <div className="max-w-2xl">
+          <div className="max-w-2xl text-center lg:text-left">
             <span className="eyebrow text-primary-light before:bg-primary-light">
               {t("eyebrow")}
             </span>
@@ -36,7 +36,7 @@ export function CTA() {
               {t("titleLead")}
               <span className="block">{t("titleAccent")}</span>
             </h2>
-            <p className="mt-5 max-w-xl text-white/70">{t("body")}</p>
+            <p className="mt-5 max-w-xl text-white/70 mx-auto lg:mx-0">{t("body")}</p>
 
             <form
               onSubmit={onSubmit}

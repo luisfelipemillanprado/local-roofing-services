@@ -59,7 +59,7 @@ export async function About() {
         </Reveal>
 
         {/* Copy side */}
-        <div>
+        <div className="text-center lg:text-left">
           <Reveal>
             <span className="eyebrow">{t("eyebrow")}</span>
             <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-fg sm:text-4xl lg:text-[2.75rem]">
@@ -68,14 +68,14 @@ export async function About() {
                 {t("titleAccent")}
               </span>
             </h2>
-            <p className="mt-5 max-w-lg text-base leading-relaxed text-fg-muted">
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-fg-muted mx-auto lg:mx-0">
               {t("body", { name: company.name })}
             </p>
           </Reveal>
 
           <Reveal className="mt-7 space-y-3">
             {points.map((p) => (
-              <div key={p} className="flex items-start gap-3">
+              <div key={p} className="flex items-start gap-3 justify-center lg:justify-start">
                 <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-primary/10 text-primary">
                   <Check className="size-3.5" strokeWidth={3} />
                 </span>

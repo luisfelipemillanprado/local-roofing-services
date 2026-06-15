@@ -4,7 +4,7 @@ export interface SectionHeadingProps {
   eyebrow: string;
   title: ReactNode;
   description?: string;
-  align?: "left" | "center";
+  align?: "left" | "center" | "center-mobile";
   theme?: "light" | "dark";
   className?: string;
 }

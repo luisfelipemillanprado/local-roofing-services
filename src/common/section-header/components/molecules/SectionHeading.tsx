@@ -9,13 +9,14 @@ export function SectionHeading({
   theme = "light",
   className = "",
 }: SectionHeadingProps) {
-  const isCenter = align === "center";
+  const alignClass =
+    align === "center"
+      ? "items-center text-center mx-auto max-w-2xl"
+      : align === "center-mobile"
+        ? "items-center text-center mx-auto max-w-xl lg:items-start lg:text-left lg:mx-0"
+        : "items-start max-w-xl";
   return (
-    <Reveal
-      className={`flex flex-col gap-4 ${isCenter ? "items-center text-center" : "items-start"} ${
-        isCenter ? "mx-auto max-w-2xl" : "max-w-xl"
-      } ${className}`}
-    >
+    <Reveal className={`flex flex-col gap-4 ${alignClass} ${className}`}>
       <span className="eyebrow">{eyebrow}</span>
       <h2
         className={`text-3xl font-extrabold leading-[1.1] sm:text-4xl lg:text-[2.75rem] ${

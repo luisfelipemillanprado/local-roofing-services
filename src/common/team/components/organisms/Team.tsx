@@ -16,9 +16,10 @@ export async function Team({ limit }: TeamProps = {}) {
   return (
     <section className="bg-canvas py-20 lg:py-28">
       <div className="container-x">
-        <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
+        <div className="flex flex-col items-center gap-6">
           <SectionHeading
             eyebrow={t("eyebrow")}
+            align="center"
             title={
               <>
                 {t("titleLead")}

@@ -16,6 +16,7 @@ export async function WhyChoose() {
         <div className="lg:sticky lg:top-28">
           <SectionHeading
             eyebrow={t("eyebrow")}
+            align="center-mobile"
             title={
               <>
                 {t("titleLead")}
@@ -27,7 +28,7 @@ export async function WhyChoose() {
             description={t("description")}
           />
 
-          <div className="mt-9 flex flex-wrap items-center gap-6">
+          <div className="mt-9 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
             {whyStats.map((stat) => {
               const Icon = stat.icon;
               return (
@@ -48,7 +49,7 @@ export async function WhyChoose() {
             })}
           </div>
 
-          <div className="mt-9">
+          <div className="mt-9 flex justify-center lg:justify-start">
             <Button href="#contact" variant="primary" withArrow>
               {tc("learnMore")}
             </Button>
