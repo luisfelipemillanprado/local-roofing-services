@@ -19,7 +19,7 @@
 
   /* Dark brand palette (default theme), from the mockup. */
   --color-night: oklch(0.243 0.014 239.25); /* dark base */
-  --color-amber: oklch(0.78 0.115 72.0); /* primary accent */
+  --color-amber: oklch(0.78 0.109 72.0); /* primary accent */
   --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
 
@@ -104,6 +104,14 @@
   --footer-fg: oklch(1 0 0);
   --footer-border: oklch(1 0 0 / 0.1);
   --footer-accent: var(--color-primary-light);
+}
+
+/* Desktop (mouse / fine pointer) uses the original, more saturated amber;
+   phones/touch keep the warmer base above, which is calmer on OLED. */
+@media (pointer: fine) {
+  :root {
+    --color-amber: oklch(0.7552 0.1253 80.01);
+  }
 }
 
 /* Base element styles (cascade layer so utilities can override). */
