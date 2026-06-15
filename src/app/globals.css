@@ -19,8 +19,10 @@
 
   /* Dark brand palette (default theme), from the mockup. */
   --color-night: oklch(0.243 0.014 239.25); /* dark base */
-  --color-amber: oklch(0.78 0.098 72.0); /* primary accent (mobile) */
-  --color-amber-desktop: oklch(0.7552 0.1253 80.01); /* primary accent (≥1024px) */
+  --color-amber: oklch(0.78 0.1 72); /* primary accent (mobile) */
+  --color-amber-desktop: oklch(
+    0.7552 0.1253 80.01
+  ); /* primary accent (≥1024px) */
   --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
 
@@ -42,8 +44,6 @@
   --color-cream: oklch(0.9676 0.0057 84.57); /* light surface-2 */
   --color-stone: oklch(0.5597 0.0276 259.8); /* light muted text */
   --color-stone-line: oklch(0.9339 0.0071 268.55); /* light border */
-  --color-stone-track: oklch(0.9581 0 0); /* light scrollbar track */
-  --color-stone-grip: oklch(0.8545 0 0); /* light scrollbar thumb */
 
   /* Typography (--font-sans is applied to <html> by Preflight). */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
@@ -89,8 +89,11 @@
   --color-footer-accent: var(--footer-accent);
 }
 
-/* :root = dark theme (default). */
-:root {
+/* :root = dark theme (default). The same tokens are pinned on any .theme-dark
+   subtree so it ignores .light and stays dark (e.g. the navbar) — defined once,
+   no duplication. */
+:root,
+.theme-dark {
   color-scheme: dark;
   --page-bg: var(--color-night);
   --surface: var(--color-panel);
@@ -98,12 +101,15 @@
   --fg: var(--color-white);
   --fg-muted: var(--color-slate);
   --border: color-mix(in oklab, var(--color-white) 9%, transparent);
-  --scrollbar-track: var(--surface-2);
-  --scrollbar-thumb: var(--color-slate-grip);
-  --footer-bg: var(--color-tan);
-  --footer-fg: var(--color-night);
-  --footer-border: color-mix(in oklab, var(--color-night) 16%, transparent);
-  --footer-accent: var(--color-night);
+  --color-ink: var(--color-graphite);
+  --color-ink-soft: var(--color-graphite-soft);
+  --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0 0 0 / 0.6);
+  --shadow-card: 0 1.5rem 3.75rem -1.75rem oklch(0 0 0 / 0.7);
+  /* Footer: single style for both themes — dark navy ink, white text. */
+  --footer-bg: var(--color-navy);
+  --footer-fg: var(--color-white);
+  --footer-border: color-mix(in oklab, var(--color-white) 10%, transparent);
+  --footer-accent: var(--color-primary-light);
 }
 
 /* Light theme: light surfaces, same amber accent (inherits @theme defaults). */
@@ -117,23 +123,10 @@
   --fg: var(--color-ink);
   --fg-muted: var(--color-stone);
   --border: var(--color-stone-line);
-  --scrollbar-track: var(--color-stone-track);
-  --scrollbar-thumb: var(--color-stone-grip);
-  --shadow-soft: 0 1.125rem 3.125rem -1.25rem color-mix(in oklab, var(--color-ink) 25%, transparent);
-  --shadow-card: 0 1.5rem 3.75rem -1.75rem color-mix(in oklab, var(--color-ink) 35%, transparent);
-  /* Footer in light = dark ink, white text. */
-  --footer-bg: var(--color-ink);
-  --footer-fg: var(--color-white);
-  --footer-border: color-mix(in oklab, var(--color-white) 10%, transparent);
-  --footer-accent: var(--color-primary-light);
-}
-
-/* Base amber (above) is the mobile tone; from the lg/desktop breakpoint up
-   switch to the more saturated desktop amber from the palette. */
-@media (min-width: 64rem) {
-  :root {
-    --color-amber: var(--color-amber-desktop);
-  }
+  --shadow-soft: 0 1.125rem 3.125rem -1.25rem
+    color-mix(in oklab, var(--color-ink) 25%, transparent);
+  --shadow-card: 0 1.5rem 3.75rem -1.75rem
+    color-mix(in oklab, var(--color-ink) 35%, transparent);
 }
 
 /* Base element styles (cascade layer so utilities can override). */
@@ -151,7 +144,9 @@
     color: var(--fg);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
   }
 
   h1,
@@ -168,15 +163,15 @@
     color: oklch(1 0 0);
   }
 
-  /* Custom scrollbar. */
+  /* Custom scrollbar (single style for both themes; uses the dark default). */
   ::-webkit-scrollbar {
     width: 0.625rem;
   }
   ::-webkit-scrollbar-track {
-    background: var(--scrollbar-track);
+    background: var(--color-inset);
   }
   ::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb);
+    background: var(--color-slate-grip);
     border-radius: 999px;
   }
   ::-webkit-scrollbar-thumb:hover {
@@ -258,6 +253,19 @@
     height: 0.125rem;
     background: var(--color-primary);
     display: inline-block;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Media queries (top-level overrides grouped here; nested ones stay in their
+   own rule, e.g. container-x).
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Base amber (in @theme) is the mobile tone; from the lg/desktop breakpoint up
+   switch to the more saturated desktop amber from the palette. */
+@media (min-width: 64rem) {
+  :root {
+    --color-amber: var(--color-amber-desktop);
   }
 }
 

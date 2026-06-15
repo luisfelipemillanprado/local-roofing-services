@@ -25,7 +25,7 @@ export function Navbar() {
   }, [open]);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-surface/90 shadow-[0_0.625rem_2.5rem_-1.5rem_rgba(15,23,34,0.45)] backdrop-blur-md">
+    <header className="theme-dark fixed inset-x-0 top-0 z-50 bg-surface/90 text-fg shadow-[0_0.625rem_2.5rem_-1.5rem_rgba(15,23,34,0.45)] backdrop-blur-md">
       <div className="container-x flex h-18 items-center justify-between py-3">
         <Logo />
 
