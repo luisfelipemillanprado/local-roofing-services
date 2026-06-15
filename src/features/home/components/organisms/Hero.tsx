@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Star, ArrowUpRight, ShieldCheck } from "lucide-react";
+import { Star, ShieldCheck } from "lucide-react";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
@@ -71,9 +71,18 @@ export async function Hero() {
             delay={0.37}
             className="mt-12 inline-flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-2 pr-5 backdrop-blur"
           >
-            <span className="grid size-12 place-items-center rounded-xl bg-primary text-white">
-              <ArrowUpRight className="size-6" />
-            </span>
+            <div className="flex -space-x-3">
+              {[1, 2, 3, 4].map((n) => (
+                <Image
+                  key={n}
+                  src={`/images/avatars/avatar${n}.webp`}
+                  alt=""
+                  width={40}
+                  height={40}
+                  className="size-10 rounded-full border-2 border-ink object-cover"
+                />
+              ))}
+            </div>
             <div>
               <div className="flex items-center gap-1 text-primary-light">
                 {Array.from({ length: 5 }).map((_, i) => (
