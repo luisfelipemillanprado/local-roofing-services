@@ -19,7 +19,8 @@
 
   /* Dark brand palette (default theme), from the mockup. */
   --color-night: oklch(0.243 0.014 239.25); /* dark base */
-  --color-amber: oklch(0.78 0.109 72.0); /* primary accent */
+  --color-amber: oklch(0.78 0.105 72.0); /* primary accent (mobile) */
+  --color-amber-desktop: oklch(0.7552 0.1253 80.01); /* primary accent (≥1024px) */
   --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
 
@@ -107,10 +108,10 @@
 }
 
 /* Base amber (above) is the mobile tone; from the lg/desktop breakpoint up
-   switch to the original, more saturated amber. */
+   switch to the more saturated desktop amber from the palette. */
 @media (min-width: 64rem) {
   :root {
-    --color-amber: oklch(0.7552 0.1253 80.01);
+    --color-amber: var(--color-amber-desktop);
   }
 }
 
