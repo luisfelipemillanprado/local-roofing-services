@@ -27,6 +27,7 @@ export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
                 </span>
               </>
             }
+            description={t("description")}
           />
           {exploreHref && (
             <Button href={exploreHref} variant="primary" withArrow className="shrink-0">

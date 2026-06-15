@@ -27,6 +27,7 @@ export async function Team({ limit }: TeamProps = {}) {
                 </span>
               </>
             }
+            description={t("description")}
           />
           <Button href="#contact" variant="dark" withArrow className="shrink-0">
             {t("explore")}

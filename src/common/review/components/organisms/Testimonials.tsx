@@ -49,6 +49,7 @@ export async function Testimonials({ limit }: TestimonialsProps = {}) {
                 </span>
               </>
             }
+            description={t("description")}
           />
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2 rounded-2xl border border-line bg-surface px-4 py-3">

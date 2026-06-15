@@ -13,6 +13,7 @@
     "eyebrow": "Cómo Trabajamos",
     "titleLead": "Un Proceso Simple y",
     "titleAccent": "Transparente en 4 Pasos",
+    "description": "Desde el primer contacto hasta la revisión final, mantenemos cada paso claro para que siempre sepas qué sigue.",
     "steps": {
       "inspection": {
         "title": "Inspección Gratuita",
@@ -36,6 +37,7 @@
     "eyebrow": "Preguntas Frecuentes",
     "titleLead": "¿Dudas?",
     "titleAccent": "Tenemos las Respuestas",
+    "description": "Respuestas a las preguntas que más nos hacen sobre plazos, garantías, seguros y qué esperar de tu proyecto de techado.",
     "items": [
       {
         "q": "¿Cuánto tarda un reemplazo de techo típico?",

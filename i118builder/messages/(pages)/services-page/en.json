@@ -13,6 +13,7 @@
     "eyebrow": "How We Work",
     "titleLead": "A Simple, Transparent",
     "titleAccent": "4-Step Process",
+    "description": "From first contact to final walkthrough, we keep every step clear so you always know what comes next.",
     "steps": {
       "inspection": {
         "title": "Free Inspection",
@@ -36,6 +37,7 @@
     "eyebrow": "FAQ",
     "titleLead": "Questions?",
     "titleAccent": "We've Got Answers",
+    "description": "Answers to the questions we hear most about timelines, warranties, insurance and what to expect from your roofing project.",
     "items": [
       {
         "q": "How long does a typical roof replacement take?",

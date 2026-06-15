@@ -19,6 +19,7 @@ export async function Faq() {
               <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
+          description={t("description")}
         />
 
         <div className="mx-auto mt-14 max-w-3xl space-y-4">

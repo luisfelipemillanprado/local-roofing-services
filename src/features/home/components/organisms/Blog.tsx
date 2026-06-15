@@ -25,6 +25,7 @@ export async function Blog() {
                 </span>
               </>
             }
+            description={t("description")}
           />
           <Button href="#blog" variant="dark" withArrow className="shrink-0">
             {t("explore")}

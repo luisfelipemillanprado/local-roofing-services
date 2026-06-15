@@ -29,6 +29,7 @@ export async function Services({ exploreHref, limit }: ServicesProps = {}) {
                 </span>
               </>
             }
+            description={t("description")}
           />
           {exploreHref && (
             <Button href={exploreHref} variant="primary" withArrow className="shrink-0">
