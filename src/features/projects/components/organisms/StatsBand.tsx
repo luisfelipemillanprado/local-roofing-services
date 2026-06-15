@@ -17,7 +17,7 @@ export async function StatsBand() {
           title={
             <>
               {t("titleLead")}{" "}
-              <span className="text-primary-light">{t("titleAccent")}</span>
+              <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
           description={t("description")}
