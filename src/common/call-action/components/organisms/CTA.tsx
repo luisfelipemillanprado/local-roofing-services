@@ -29,9 +29,7 @@ export function CTA() {
           <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink via-ink/90 to-primary/40" />
 
           <div className="max-w-2xl text-center lg:text-left">
-            <span className="eyebrow text-primary-light before:bg-primary-light">
-              {t("eyebrow")}
-            </span>
+            <span className="eyebrow">{t("eyebrow")}</span>
             <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl lg:text-5xl">
               {t("titleLead")}
               <span className="block text-primary">{t("titleAccent")}</span>
