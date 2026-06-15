@@ -7,13 +7,13 @@
     "eyebrow": "Our Services",
     "titleLead": "Roofing Done Right,",
     "titleAccent": "Start to Finish",
-    "description": "From storm-damage repairs to full installations and energy-efficient systems, our licensed crew delivers craftsmanship you can trust on every roof — residential and commercial alike."
+    "description": "From storm-damage repairs to full installations and energy-efficient systems, our licensed crew delivers craftsmanship you can trust on every roof, residential and commercial alike, backed by a solid workmanship warranty."
   },
   "process": {
     "eyebrow": "How We Work",
     "titleLead": "A Simple, Transparent",
     "titleAccent": "4-Step Process",
-    "description": "From first contact to final walkthrough, we keep every step clear so you always know what comes next.",
+    "description": "From the very first contact to the final on-site walkthrough, we keep every step clear, documented and predictable, so you always know exactly what is happening and what comes next.",
     "steps": {
       "inspection": {
         "title": "Free Inspection",
@@ -37,7 +37,7 @@
     "eyebrow": "FAQ",
     "titleLead": "Questions?",
     "titleAccent": "We've Got Answers",
-    "description": "Answers to the questions we hear most about timelines, warranties, insurance and what to expect from your project.",
+    "description": "Clear answers to the questions we hear most often about project timelines, material warranties, insurance claims and exactly what to expect from start to finish on your roofing project.",
     "items": [
       {
         "q": "How long does a typical roof replacement take?",

@@ -7,13 +7,13 @@
     "eyebrow": "Nuestros Servicios",
     "titleLead": "Techado Bien Hecho,",
     "titleAccent": "De Principio a Fin",
-    "description": "Desde reparaciones por tormenta hasta instalaciones completas y sistemas eficientes, nuestra cuadrilla licenciada entrega un oficio confiable en cada techo — residencial y comercial por igual."
+    "description": "Desde reparaciones por tormenta hasta instalaciones completas y sistemas eficientes, nuestro equipo certificado ofrece una calidad confiable en cada techo, residencial y comercial, con garantía de mano de obra."
   },
   "process": {
     "eyebrow": "Cómo Trabajamos",
     "titleLead": "Un Proceso Simple y",
     "titleAccent": "Transparente en 4 Pasos",
-    "description": "Desde el primer contacto hasta la revisión final, mantenemos cada paso claro para que siempre sepas qué viene después.",
+    "description": "Desde el primer contacto hasta la revisión final en obra, mantenemos cada paso claro, documentado y predecible, para que siempre sepas exactamente qué está pasando y qué viene después.",
     "steps": {
       "inspection": {
         "title": "Inspección Gratuita",
@@ -37,7 +37,7 @@
     "eyebrow": "Preguntas Frecuentes",
     "titleLead": "¿Dudas?",
     "titleAccent": "Tenemos las Respuestas",
-    "description": "Respuestas a las preguntas que más nos hacen sobre plazos, garantías, seguros y qué esperar de tu proyecto de techado.",
+    "description": "Respuestas claras a las preguntas que más nos hacen sobre plazos, garantías de materiales, reclamaciones al seguro y exactamente qué esperar de principio a fin en tu proyecto de techado.",
     "items": [
       {
         "q": "¿Cuánto tarda un reemplazo de techo típico?",
