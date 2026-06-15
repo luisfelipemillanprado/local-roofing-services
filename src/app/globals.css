@@ -19,10 +19,27 @@
 
   /* Dark brand palette (default theme), from the mockup. */
   --color-night: oklch(0.243 0.014 239.25); /* dark base */
-  --color-amber: oklch(0.78 0.105 72.0); /* primary accent (mobile) */
+  --color-amber: oklch(0.78 0.098 72.0); /* primary accent (mobile) */
   --color-amber-desktop: oklch(0.7552 0.1253 80.01); /* primary accent (≥1024px) */
   --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
+
+  /* Neutrals (primitives — every theme role below references these). */
+  --color-white: oklch(1 0 0);
+  --color-white-soft: oklch(0.97 0 0); /* less intense white */
+  --color-graphite: oklch(0.2047 0.0121 237.38); /* dark ink */
+  --color-graphite-soft: oklch(0.251 0.0162 240.71);
+  --color-navy: oklch(0.2024 0.0252 256.48); /* light ink */
+  --color-navy-soft: oklch(0.2627 0.0357 258.9);
+  --color-panel: oklch(0.2954 0.0237 246.15); /* dark surface */
+  --color-inset: oklch(0.2183 0.0133 243.53); /* dark inset / surface-2 */
+  --color-slate: oklch(0.7208 0.027 255.6); /* dark muted text */
+  --color-slate-grip: oklch(0.3262 0.024 243.72); /* dark scrollbar thumb */
+  --color-cream: oklch(0.9676 0.0057 84.57); /* light surface-2 */
+  --color-stone: oklch(0.5597 0.0276 259.8); /* light muted text */
+  --color-stone-line: oklch(0.9339 0.0071 268.55); /* light border */
+  --color-stone-track: oklch(0.9581 0 0); /* light scrollbar track */
+  --color-stone-grip: oklch(0.8545 0 0); /* light scrollbar thumb */
 
   /* Typography (--font-sans is applied to <html> by Preflight). */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
@@ -35,8 +52,8 @@
   --color-primary: var(--color-amber);
   --color-primary-light: var(--color-peach);
   --color-primary-dark: var(--color-tan);
-  --color-ink: oklch(0.2047 0.0121 237.38); /* darkest sections in dark */
-  --color-ink-soft: oklch(0.251 0.0162 240.71);
+  --color-ink: var(--color-graphite); /* darkest sections in dark */
+  --color-ink-soft: var(--color-graphite-soft);
 
   /* Shadows (default = dark, deeper). */
   --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0 0 0 / 0.6);
@@ -72,38 +89,38 @@
 :root {
   color-scheme: dark;
   --page-bg: var(--color-night);
-  --surface: oklch(0.2954 0.0237 246.15); /* panel */
-  --surface-2: oklch(0.2183 0.0133 243.53); /* darker inset */
-  --fg: oklch(1 0 0);
-  --fg-muted: oklch(0.7208 0.027 255.6);
-  --border: oklch(1 0 0 / 0.09);
-  --scrollbar-track: oklch(0.2183 0.0133 243.53);
-  --scrollbar-thumb: oklch(0.3262 0.024 243.72);
+  --surface: var(--color-panel);
+  --surface-2: var(--color-inset);
+  --fg: var(--color-white);
+  --fg-muted: var(--color-slate);
+  --border: color-mix(in oklab, var(--color-white) 9%, transparent);
+  --scrollbar-track: var(--surface-2);
+  --scrollbar-thumb: var(--color-slate-grip);
   --footer-bg: var(--color-tan);
   --footer-fg: var(--color-night);
-  --footer-border: oklch(0.243 0.014 239.25 / 0.16);
+  --footer-border: color-mix(in oklab, var(--color-night) 16%, transparent);
   --footer-accent: var(--color-night);
 }
 
 /* Light theme: light surfaces, same amber accent (inherits @theme defaults). */
 .light {
   color-scheme: light;
-  --color-ink: oklch(0.2024 0.0252 256.48);
-  --color-ink-soft: oklch(0.2627 0.0357 258.9);
-  --page-bg: oklch(1 0 0);
-  --surface: oklch(1 0 0);
-  --surface-2: oklch(0.9676 0.0057 84.57);
-  --fg: oklch(0.2024 0.0252 256.48);
-  --fg-muted: oklch(0.5597 0.0276 259.8);
-  --border: oklch(0.9339 0.0071 268.55);
-  --scrollbar-track: oklch(0.9581 0 0);
-  --scrollbar-thumb: oklch(0.8545 0 0);
-  --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0.2024 0.0252 256.48 / 0.25);
-  --shadow-card: 0 1.5rem 3.75rem -1.75rem oklch(0.2024 0.0252 256.48 / 0.35);
+  --color-ink: var(--color-navy);
+  --color-ink-soft: var(--color-navy-soft);
+  --page-bg: var(--color-white);
+  --surface: var(--color-white);
+  --surface-2: var(--color-cream);
+  --fg: var(--color-ink);
+  --fg-muted: var(--color-stone);
+  --border: var(--color-stone-line);
+  --scrollbar-track: var(--color-stone-track);
+  --scrollbar-thumb: var(--color-stone-grip);
+  --shadow-soft: 0 1.125rem 3.125rem -1.25rem color-mix(in oklab, var(--color-ink) 25%, transparent);
+  --shadow-card: 0 1.5rem 3.75rem -1.75rem color-mix(in oklab, var(--color-ink) 35%, transparent);
   /* Footer in light = dark ink, white text. */
   --footer-bg: var(--color-ink);
-  --footer-fg: oklch(1 0 0);
-  --footer-border: oklch(1 0 0 / 0.1);
+  --footer-fg: var(--color-white);
+  --footer-border: color-mix(in oklab, var(--color-white) 10%, transparent);
   --footer-accent: var(--color-primary-light);
 }
 
