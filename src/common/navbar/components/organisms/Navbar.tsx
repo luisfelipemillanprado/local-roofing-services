@@ -7,8 +7,7 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { ThemeToggle } from "@/common/navbar/components/atoms/ThemeToggle";
 import { LanguageSwitch } from "@/common/navbar/components/atoms/LanguageSwitch";
 import { MobileMenu } from "@/common/navbar/components/molecules/MobileMenu";
-
-type NavLink = { label: string; href: string };
+import type { NavLink } from "@/common/navbar/types";
 
 export async function Navbar() {
   const t = await getTranslations("navbar");
@@ -51,11 +50,7 @@ export async function Navbar() {
         <div className="flex items-center gap-2 lg:hidden">
           <LanguageSwitch />
           <ThemeToggle />
-          <MobileMenu
-            navLinks={navLinks}
-            toggleMenuLabel={t("toggleMenu")}
-            getQuoteLabel={t("getQuote")}
-          />
+          <MobileMenu navLinks={navLinks} toggleMenuLabel={t("toggleMenu")} />
         </div>
       </div>
     </header>
