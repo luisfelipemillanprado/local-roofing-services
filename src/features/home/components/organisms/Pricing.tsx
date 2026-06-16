@@ -34,7 +34,7 @@ export async function Pricing() {
                 delay={i * 0.08}
                 className={`relative flex flex-col rounded-card border p-8 transition-all duration-300 ${
                   plan.highlighted
-                    ? "border-transparent bg-ink text-white shadow-card"
+                    ? "border-transparent bg-ink text-white shadow-lg shadow-ink/40"
                     : "border-line bg-surface-2"
                 }`}
               >

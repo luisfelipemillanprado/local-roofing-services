@@ -58,10 +58,6 @@
   --color-primary-light: var(--color-peach);
   --color-primary-dark: var(--color-tan);
 
-  /* Shadows (default = dark, deeper). */
-  --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0 0 0 / 0.6);
-  --shadow-card: 0 1.5rem 3.75rem -1.75rem oklch(0 0 0 / 0.7);
-
   /* Marquee animation (utility: animate-marquee). */
   --animate-marquee: marquee 28s linear infinite;
   @keyframes marquee {
@@ -104,8 +100,6 @@
   --line: color-mix(in oklab, var(--color-white) 9%, transparent);
   --ink: var(--color-graphite);
   --ink-soft: var(--color-graphite-soft);
-  --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0 0 0 / 0.6);
-  --shadow-card: 0 1.5rem 3.75rem -1.75rem oklch(0 0 0 / 0.7);
   /* Footer: single style for both themes — dark navy ink, white text. */
   --footer-bg: var(--color-navy);
   --footer-fg: var(--color-white);
@@ -124,10 +118,6 @@
   --fg: var(--color-ink);
   --fg-muted: var(--color-stone);
   --line: var(--color-stone-line);
-  --shadow-soft: 0 1.125rem 3.125rem -1.25rem
-    color-mix(in oklab, var(--color-ink) 25%, transparent);
-  --shadow-card: 0 1.5rem 3.75rem -1.75rem
-    color-mix(in oklab, var(--color-ink) 35%, transparent);
 }
 
 /* Base element styles (cascade layer so utilities can override). */

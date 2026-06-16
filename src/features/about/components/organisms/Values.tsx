@@ -30,7 +30,7 @@ export async function Values() {
                 as="article"
                 key={value.key}
                 delay={i * 0.08}
-                className="group rounded-card border border-line bg-surface p-7 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-soft"
+                className="group rounded-card border border-line bg-surface p-7 shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-md"
               >
                 <span className="grid size-14 place-items-center rounded-2xl bg-surface-2 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                   <Icon className="size-7" />

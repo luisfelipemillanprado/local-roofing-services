@@ -48,7 +48,7 @@ export async function Services({ exploreHref, limit }: ServicesProps = {}) {
                 as="article"
                 key={service.key}
                 delay={i * 0.08}
-                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-[0_1.125rem_3.125rem_-1.875rem_rgba(15,23,34,0.4)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card"
+                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-md shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
               >
                 <div className="relative aspect-[16/11] overflow-hidden">
                   <Image
@@ -60,7 +60,7 @@ export async function Services({ exploreHref, limit }: ServicesProps = {}) {
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <span className="absolute left-4 top-4 grid size-12 place-items-center rounded-xl bg-primary text-white shadow-lg">
+                  <span className="absolute left-4 top-4 grid size-12 place-items-center rounded-xl bg-primary text-white shadow-lg shadow-ink/40">
                     <Icon className="size-6" />
                   </span>
                 </div>

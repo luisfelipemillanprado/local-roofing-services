@@ -63,10 +63,10 @@ export async function WhyChoose() {
               <Reveal
                 key={feature.key}
                 delay={i * 0.08}
-                className={`group rounded-card border p-7 transition-all duration-300 hover:-translate-y-1.5 ${
+                className={`group rounded-card border p-7 shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 ${
                   i === 1
-                    ? "border-transparent bg-ink text-white shadow-card"
-                    : "border-line bg-surface-2 hover:shadow-soft"
+                    ? "border-transparent bg-ink text-white shadow-lg"
+                    : "border-line bg-surface-2 hover:shadow-md"
                 }`}
               >
                 <span

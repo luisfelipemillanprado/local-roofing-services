@@ -81,7 +81,7 @@ export async function Testimonials({ limit }: TestimonialsProps = {}) {
               as="figure"
               key={item.key}
               delay={i * 0.08}
-              className="flex flex-col rounded-card border border-line bg-surface p-7 shadow-[0_1.125rem_3.125rem_-2.125rem_rgba(15,23,34,0.45)]"
+              className="flex flex-col rounded-card border border-line bg-surface p-7 shadow-md shadow-ink/40"
             >
               <div className="flex items-center justify-between">
                 <span className="flex text-primary">

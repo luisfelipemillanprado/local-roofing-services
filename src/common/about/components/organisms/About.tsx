@@ -19,7 +19,7 @@ export async function About() {
       <div className="container-x grid items-center gap-14 lg:grid-cols-2">
         {/* Image side */}
         <Reveal className="relative">
-          <div className="relative aspect-[4/4.4] overflow-hidden rounded-card shadow-card">
+          <div className="relative aspect-[4/4.4] overflow-hidden rounded-card shadow-lg shadow-ink/40">
             <Image
               src="/images/boss/boss.webp"
               alt="Roofpro company owner on site"
@@ -30,7 +30,7 @@ export async function About() {
           </div>
 
           {/* Years badge */}
-          <div className="absolute -right-3 top-8 grid size-28 place-items-center rounded-full bg-primary text-center text-white shadow-card sm:size-32">
+          <div className="absolute -right-3 top-8 grid size-28 place-items-center rounded-full bg-primary text-center text-white shadow-lg shadow-ink/40 sm:size-32">
             <div>
               <div className="text-3xl font-extrabold leading-none sm:text-4xl">
                 {company.yearsExperience}+
@@ -43,7 +43,7 @@ export async function About() {
           </div>
 
           {/* Floating contact card */}
-          <div className="absolute -bottom-6 left-6 flex items-center gap-3 rounded-2xl bg-ink px-5 py-4 text-white shadow-card">
+          <div className="absolute -bottom-6 left-6 flex items-center gap-3 rounded-2xl bg-ink px-5 py-4 text-white shadow-lg shadow-ink/40">
             <span className="grid size-11 place-items-center rounded-full bg-primary">
               <Phone className="size-5" />
             </span>

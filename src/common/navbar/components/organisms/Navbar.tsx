@@ -7,14 +7,21 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { ThemeToggle } from "@/common/navbar/components/atoms/ThemeToggle";
 import { LanguageSwitch } from "@/common/navbar/components/atoms/LanguageSwitch";
 import { MobileMenu } from "@/common/navbar/components/molecules/MobileMenu";
+import { navIconKeyFor, quoteHref } from "@/data/global/navbar";
 import type { NavLink } from "@/common/navbar/types";
 
 export async function Navbar() {
   const t = await getTranslations("navbar");
-  const navLinks = t.raw("links") as NavLink[];
+  // Messages carry label/href; enrich each with its semantic icon key.
+  const navLinks: NavLink[] = (t.raw("links") as Omit<NavLink, "icon">[]).map((link) => ({
+    ...link,
+    icon: navIconKeyFor(link.href),
+  }));
 
   return (
-    <header className="theme-dark fixed inset-x-0 top-0 z-50 bg-surface/90 text-fg shadow-[0_0.625rem_2.5rem_-1.5rem_rgba(15,23,34,0.45)] backdrop-blur-md">
+    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-fg shadow-sm shadow-ink/40">
+      {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
+      <div className="absolute inset-0 -z-10 bg-surface/90 backdrop-blur-md" />
       <div className="container-x flex h-18 items-center justify-between py-3">
         <Logo />
 
@@ -31,18 +38,15 @@ export async function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href={company.phoneHref}
-            className="flex items-center gap-2 text-sm font-semibold text-fg"
-          >
+          <div className="flex items-center gap-2 text-sm font-semibold text-fg">
             <span className="grid size-9 place-items-center rounded-full bg-surface-2 text-primary">
               <Phone className="size-4" />
             </span>
             {company.phone}
-          </a>
+          </div>
           <LanguageSwitch />
           <ThemeToggle />
-          <Button href="#contact" variant="primary">
+          <Button href={quoteHref} variant="primary">
             {t("getQuote")}
           </Button>
         </div>

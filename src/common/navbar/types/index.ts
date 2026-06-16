@@ -1,16 +1,30 @@
 /** Shared types and interfaces for the navbar and its components. */
 
-/** A single navigation entry (label + destination). */
-export type NavLink = { label: string; href: string };
+/** Semantic icon keys for nav destinations (resolved to an icon in the UI). */
+export type NavLinkIcon =
+  | "home"
+  | "about"
+  | "services"
+  | "projects"
+  | "pricing"
+  | "contact";
 
-/** Props for the mobile menu island (trigger + floating panel). */
-export type MobileMenuProps = {
-  navLinks: NavLink[];
+/** A navigation entry: label/href come from the messages, icon from the data layer. */
+export interface NavLink {
+  label: string;
+  href: string;
+  icon: NavLinkIcon;
+}
+
+export interface MobileMenuProps {
+  navLinks: readonly NavLink[];
   toggleMenuLabel: string;
-};
+}
 
-/** Props for the theme toggle button. */
-export type ThemeToggleProps = { className?: string };
+export interface ThemeToggleProps {
+  className?: string;
+}
 
-/** Props for the language switch button. */
-export type LanguageSwitchProps = { className?: string };
+export interface LanguageSwitchProps {
+  className?: string;
+}

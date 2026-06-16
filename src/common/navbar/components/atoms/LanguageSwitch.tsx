@@ -15,10 +15,7 @@ export function LanguageSwitch({ className = "" }: LanguageSwitchProps) {
   const [isPending, startTransition] = useTransition();
   const next: Locale = locale === "en" ? "es" : "en";
 
-  // Wrapping the navigation in a transition keeps the current UI (and its theme)
-  // mounted until the new locale tree is ready, then commits atomically. Without
-  // it, React commits an intermediate render where next-themes briefly falls back
-  // to the default theme — a quick flash of the opposite theme.
+  // Transition avoids a brief flash of the default theme while the new locale loads.
   const switchLocale = () => {
     startTransition(() => {
       router.replace(pathname, { locale: next });

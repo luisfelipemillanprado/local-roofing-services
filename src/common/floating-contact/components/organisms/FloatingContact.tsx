@@ -31,16 +31,14 @@ export async function FloatingContact() {
       href: whatsappHref,
       label: t("whatsapp"),
       icon: <WhatsAppIcon className="size-7" />,
-      className:
-        "bg-[#25D366] shadow-[0_0.75rem_1.875rem_-0.5rem_rgba(37,211,102,0.6)]",
+      className: "bg-[#25D366] shadow-lg shadow-ink/40",
       external: true,
     },
     {
       href: company.phoneHref,
       label: t("call"),
       icon: <Phone className="size-6" />,
-      className:
-        "bg-primary shadow-[0_0.75rem_1.875rem_-0.5rem_rgba(229,171,96,0.6)]",
+      className: "bg-primary shadow-lg shadow-ink/40",
     },
   ];
 
@@ -56,7 +54,7 @@ export async function FloatingContact() {
             : {})}
           className="group flex items-center"
         >
-          <span className="pointer-events-none mr-3 translate-x-2 rounded-full bg-surface px-3 py-1.5 text-sm font-semibold text-fg opacity-0 shadow-soft transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+          <span className="pointer-events-none mr-3 translate-x-2 rounded-full bg-surface px-3 py-1.5 text-sm font-semibold text-fg opacity-0 shadow-md shadow-ink/40 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
             {action.label}
           </span>
           <span
