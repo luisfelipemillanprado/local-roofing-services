@@ -38,7 +38,7 @@ export default async function AboutPage({ params }: Props) {
         <About />
         <Values />
         <Team />
-        <CTA />
+        <CTA tone="alt" />
       </main>
       <Footer />
     </>

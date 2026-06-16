@@ -1,28 +1,18 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { Phone } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
 import { Logo } from "@/common/logo/components/atoms/Logo";
 import { Button } from "@/common/button/components/atoms/Button";
 import { ThemeToggle } from "@/common/navbar/components/atoms/ThemeToggle";
 import { LanguageSwitch } from "@/common/navbar/components/atoms/LanguageSwitch";
+import { MobileMenu } from "@/common/navbar/components/molecules/MobileMenu";
 
 type NavLink = { label: string; href: string };
 
-export function Navbar() {
-  const t = useTranslations("navbar");
+export async function Navbar() {
+  const t = await getTranslations("navbar");
   const navLinks = t.raw("links") as NavLink[];
-  const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [open]);
 
   return (
     <header className="theme-dark fixed inset-x-0 top-0 z-50 bg-surface/90 text-fg shadow-[0_0.625rem_2.5rem_-1.5rem_rgba(15,23,34,0.45)] backdrop-blur-md">
@@ -61,55 +51,11 @@ export function Navbar() {
         <div className="flex items-center gap-2 lg:hidden">
           <LanguageSwitch />
           <ThemeToggle />
-          <button
-            type="button"
-            onClick={() => setOpen((v) => !v)}
-            aria-label={t("toggleMenu")}
-            aria-expanded={open}
-            className="grid size-11 place-items-center rounded-xl bg-ink text-white"
-          >
-            {open ? <X className="size-5" /> : <Menu className="size-5" />}
-          </button>
-        </div>
-      </div>
-
-      {/* Mobile menu: animated open/close with a pure-CSS grid-rows height transition. */}
-      <div
-        className={`grid overflow-hidden transition-all duration-300 ease-out lg:hidden ${
-          open
-            ? "grid-rows-[1fr] opacity-100"
-            : "pointer-events-none grid-rows-[0fr] opacity-0"
-        }`}
-      >
-        <div className="min-h-0">
-          <div className="container-x pb-6">
-            <div className="rounded-2xl border border-line bg-surface p-4 shadow-soft">
-              <nav className="flex flex-col">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    onClick={() => setOpen(false)}
-                    className="rounded-xl px-4 py-3 text-base font-medium text-fg transition-colors hover:bg-surface-2 hover:text-primary"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </nav>
-              <div className="mt-4 flex flex-col gap-3 border-t border-line pt-4">
-                <a
-                  href={company.phoneHref}
-                  className="flex items-center gap-2 px-1 text-sm font-semibold text-fg"
-                >
-                  <Phone className="size-4 text-primary" />
-                  {company.phone}
-                </a>
-                <Button href="#contact" variant="primary" className="w-full">
-                  {t("getQuote")}
-                </Button>
-              </div>
-            </div>
-          </div>
+          <MobileMenu
+            navLinks={navLinks}
+            toggleMenuLabel={t("toggleMenu")}
+            getQuoteLabel={t("getQuote")}
+          />
         </div>
       </div>
     </header>

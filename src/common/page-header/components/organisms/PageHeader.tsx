@@ -9,7 +9,7 @@ export function PageHeader({
   description,
 }: PageHeaderProps) {
   return (
-    <section className="bg-canvas pt-32 pb-12 lg:pt-40 lg:pb-16">
+    <section className="bg-surface-base pt-32 pb-12 lg:pt-40 lg:pb-16">
       <div className="container-x">
         <Reveal className="max-w-3xl">
           <span className="eyebrow">{eyebrow}</span>

@@ -8,7 +8,7 @@ export async function ProcessSteps() {
   const items = processSection.steps;
 
   return (
-    <section className="bg-canvas py-20 lg:py-28">
+    <section className="bg-surface-base py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}

@@ -14,7 +14,7 @@ export async function Team({ limit }: TeamProps = {}) {
   const team = teamSection.members.slice(0, limit);
 
   return (
-    <section className="bg-canvas py-20 lg:py-28">
+    <section className="bg-surface-base py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading

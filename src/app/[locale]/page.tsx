@@ -12,7 +12,6 @@ import { Projects } from "@/common/project/components/organisms/Projects";
 import { Team } from "@/common/team/components/organisms/Team";
 import { Testimonials } from "@/common/review/components/organisms/Testimonials";
 import { Pricing } from "@/features/home/components/organisms/Pricing";
-import { Blog } from "@/features/home/components/organisms/Blog";
 import { CTA } from "@/common/call-action/components/organisms/CTA";
 
 type Props = {
@@ -36,8 +35,7 @@ export default function Home({ params }: Props) {
         <Team limit={3} />
         <Testimonials limit={6} />
         <Pricing />
-        <Blog />
-        <CTA />
+        <CTA tone="alt" />
       </main>
       <Footer />
     </>

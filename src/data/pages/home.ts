@@ -11,14 +11,12 @@ import {
   Factory,
   type LucideIcon,
 } from "lucide-react";
-import { blurs } from "@/data/blurs";
 
 /* Keys map to the home-only message namespaces (literal unions → type-safe `t()`). */
 export type WhyChooseFeatureKey = "emergency" | "proactive" | "reliable" | "experience";
 export type WhyChooseStatKey = "years" | "projects" | "roofers";
 export type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
 export type PricingPlanKey = "residential" | "commercial" | "industrial";
-export type BlogPostKey = "defenseSystem" | "underAttack";
 
 export const whyChooseSection: {
   features: { key: WhyChooseFeatureKey; icon: LucideIcon }[];
@@ -54,20 +52,5 @@ export const pricingSection: {
     { key: "residential", icon: Home },
     { key: "commercial", icon: Building2, highlighted: true },
     { key: "industrial", icon: Factory },
-  ],
-};
-
-export const blogSection: { posts: { key: BlogPostKey; image: string; blur: string }[] } = {
-  posts: [
-    {
-      key: "defenseSystem",
-      image: "https://images.unsplash.com/photo-1635424710928-0544e8512eae?auto=format&fit=crop&w=800&q=80",
-      blur: blurs.image,
-    },
-    {
-      key: "underAttack",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80",
-      blur: blurs.image,
-    },
   ],
 };

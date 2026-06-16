@@ -15,7 +15,7 @@ export async function About() {
   const points = t.raw("points") as string[];
 
   return (
-    <section id="about" className="bg-canvas py-20 lg:py-28">
+    <section id="about" className="bg-surface-base py-20 lg:py-28">
       <div className="container-x grid items-center gap-14 lg:grid-cols-2">
         {/* Image side */}
         <Reveal className="relative">

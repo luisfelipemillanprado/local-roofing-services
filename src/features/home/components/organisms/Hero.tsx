@@ -4,12 +4,13 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
+import { blurs } from "@/data/blurs";
 
 export async function Hero() {
   const t = await getTranslations("home.hero");
 
   return (
-    <section id="home" className="relative isolate overflow-hidden bg-ink">
+    <section id="home" className="relative isolate overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 -z-10">
         <Image
@@ -18,6 +19,8 @@ export async function Hero() {
           fill
           priority
           sizes="100vw"
+          placeholder="blur"
+          blurDataURL={blurs.image}
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/40" />

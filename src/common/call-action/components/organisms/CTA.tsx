@@ -6,10 +6,16 @@ import { ArrowRight, Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 
-export function CTA() {
+type CTAProps = {
+  /** Section background, used to keep each page's section alternation correct. */
+  tone?: "base" | "alt";
+};
+
+export function CTA({ tone = "base" }: CTAProps) {
   const t = useTranslations("call-action");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
+  const bg = tone === "alt" ? "bg-surface-2" : "bg-surface-base";
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -20,7 +26,7 @@ export function CTA() {
   };
 
   return (
-    <section id="contact" className="bg-canvas py-20 lg:py-28">
+    <section id="contact" className={`${bg} py-20 lg:py-28`}>
       <div className="container-x">
         <Reveal className="relative isolate overflow-hidden rounded-4xl bg-ink px-6 py-16 sm:px-12 lg:px-16">
           <div className="absolute inset-0 -z-10 opacity-30">

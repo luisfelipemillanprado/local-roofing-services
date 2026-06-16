@@ -11,7 +11,7 @@ export async function WhyChoose() {
   const whyStats = whyChooseSection.stats;
 
   return (
-    <section className="bg-canvas py-20 lg:py-28">
+    <section className="bg-surface-base py-20 lg:py-28">
       <div className="container-x grid items-start gap-12 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="lg:sticky lg:top-28">
           <SectionHeading

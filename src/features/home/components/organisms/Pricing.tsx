@@ -10,7 +10,7 @@ export async function Pricing() {
   const pricingPlans = pricingSection.plans;
 
   return (
-    <section id="pricing" className="bg-canvas py-20 lg:py-28">
+    <section id="pricing" className="bg-surface-base py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}

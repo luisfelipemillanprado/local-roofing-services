@@ -52,12 +52,11 @@
   /* Radii. */
   --radius-card: 1.25rem;
 
-  /* Semantic roles (default = dark, overridden in .light). */
+  /* Semantic roles (theme-independent; theme-switching roles are aliased in
+     @theme inline below). */
   --color-primary: var(--color-amber);
   --color-primary-light: var(--color-peach);
   --color-primary-dark: var(--color-tan);
-  --color-ink: var(--color-graphite); /* darkest sections in dark */
-  --color-ink-soft: var(--color-graphite-soft);
 
   /* Shadows (default = dark, deeper). */
   --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0 0 0 / 0.6);
@@ -77,12 +76,14 @@
 
 /* Theme-aware roles aliased to runtime vars so utilities switch themes. */
 @theme inline {
-  --color-canvas: var(--page-bg);
+  --color-surface-base: var(--surface-base);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-fg: var(--fg);
   --color-fg-muted: var(--fg-muted);
-  --color-line: var(--border);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
   --color-footer: var(--footer-bg);
   --color-footer-fg: var(--footer-fg);
   --color-footer-line: var(--footer-border);
@@ -95,14 +96,14 @@
 :root,
 .theme-dark {
   color-scheme: dark;
-  --page-bg: var(--color-night);
+  --surface-base: var(--color-night);
   --surface: var(--color-panel);
   --surface-2: var(--color-inset);
   --fg: var(--color-white);
   --fg-muted: var(--color-slate);
-  --border: color-mix(in oklab, var(--color-white) 9%, transparent);
-  --color-ink: var(--color-graphite);
-  --color-ink-soft: var(--color-graphite-soft);
+  --line: color-mix(in oklab, var(--color-white) 9%, transparent);
+  --ink: var(--color-graphite);
+  --ink-soft: var(--color-graphite-soft);
   --shadow-soft: 0 1.125rem 3.125rem -1.25rem oklch(0 0 0 / 0.6);
   --shadow-card: 0 1.5rem 3.75rem -1.75rem oklch(0 0 0 / 0.7);
   /* Footer: single style for both themes — dark navy ink, white text. */
@@ -115,14 +116,14 @@
 /* Light theme: light surfaces, same amber accent (inherits @theme defaults). */
 .light {
   color-scheme: light;
-  --color-ink: var(--color-navy);
-  --color-ink-soft: var(--color-navy-soft);
-  --page-bg: var(--color-white);
+  --ink: var(--color-navy);
+  --ink-soft: var(--color-navy-soft);
+  --surface-base: var(--color-white);
   --surface: var(--color-white);
   --surface-2: var(--color-cream);
   --fg: var(--color-ink);
   --fg-muted: var(--color-stone);
-  --border: var(--color-stone-line);
+  --line: var(--color-stone-line);
   --shadow-soft: 0 1.125rem 3.125rem -1.25rem
     color-mix(in oklab, var(--color-ink) 25%, transparent);
   --shadow-card: 0 1.5rem 3.75rem -1.75rem
@@ -132,7 +133,7 @@
 /* Base element styles (cascade layer so utilities can override). */
 @layer base {
   * {
-    border-color: var(--border);
+    border-color: var(--line);
   }
 
   html {
@@ -140,7 +141,7 @@
   }
 
   body {
-    background-color: var(--page-bg);
+    background-color: var(--surface-base);
     color: var(--fg);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -156,11 +157,6 @@
   h5 {
     font-family: var(--font-display);
     letter-spacing: -0.05rem;
-  }
-
-  ::selection {
-    background: var(--color-primary);
-    color: oklch(1 0 0);
   }
 
   /* Custom scrollbar (single style for both themes; uses the dark default). */
