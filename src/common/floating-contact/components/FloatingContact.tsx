@@ -5,6 +5,7 @@ import clsx from "clsx";
 import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 import { layoutData } from "@/data/global/layout";
+import { PulseRing } from "@/common/animations/components/PulseRing";
 import type { FloatingActionKey } from "@/common/floating-contact/types";
 
 // The data holds a key string, so the icon component is resolved here.
@@ -29,23 +30,25 @@ export async function FloatingContact() {
   };
 
   return (
-    <div className="fixed bottom-5 right-5 z-50 flex flex-col gap-3">
+    <div className="fixed bottom-5 right-5 z-50 flex animate-float-y flex-col gap-4">
       {actions.map(({ key, external }) => {
         const Icon = ICONS[key];
+        const color = key === "whatsapp" ? "bg-whatsapp" : "bg-primary";
         return (
-          <a
-            key={key}
-            href={hrefs[key]}
-            aria-label={t(key)}
-            target={external ? "_blank" : undefined}
-            rel={external ? "noopener noreferrer" : undefined}
-            className={clsx(
-              "grid size-14 place-items-center rounded-full text-white shadow-md shadow-ink/40",
-              key === "whatsapp" ? "bg-whatsapp" : "bg-primary",
-            )}
-          >
-            <Icon className="size-6" aria-hidden />
-          </a>
+          <PulseRing key={key} color={color}>
+            <a
+              href={hrefs[key]}
+              aria-label={t(key)}
+              target={external ? "_blank" : undefined}
+              rel={external ? "noopener noreferrer" : undefined}
+              className={clsx(
+                "relative grid size-14 place-items-center rounded-2xl text-white shadow-sm shadow-ink/40",
+                color,
+              )}
+            >
+              <Icon className="size-7" aria-hidden />
+            </a>
+          </PulseRing>
         );
       })}
     </div>
