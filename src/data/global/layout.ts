@@ -1,6 +1,7 @@
 import type { NavLinkData } from "@/common/navbar/types";
+import type { FloatingActionData } from "@/common/floating-contact/types";
 
-/** Site-wide layout shell data (navbar, later footer/floating-contact); labels by key. */
+/** Site-wide layout shell data (navbar, floating-contact); labels by key. */
 export const layoutData = {
   navbar: {
     menuId: "mobile-menu",
@@ -22,5 +23,11 @@ export const layoutData = {
         ],
       },
     ] satisfies NavLinkData[],
+  },
+  floatingContact: {
+    actions: [
+      { key: "whatsapp", external: true },
+      { key: "call" },
+    ] satisfies FloatingActionData[],
   },
 };

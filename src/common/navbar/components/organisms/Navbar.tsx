@@ -17,8 +17,9 @@ import {
   type NavLinkKey,
 } from "@/common/navbar/types";
 
+const { navbar } = layoutData;
+
 export async function Navbar() {
-  const { navbar } = layoutData;
   const t = await getTranslations("navbar");
 
   // Attach the translated label to a link by its key.

@@ -26,6 +26,9 @@
   --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
 
+  /* Third-party brand colors. */
+  --color-whatsapp: #25d366;
+
   /* Neutrals — shared (primitives; theme roles below reference these). */
   --color-white: oklch(1 0 0);
   --color-white-soft: oklch(0.97 0 0); /* less intense white */
