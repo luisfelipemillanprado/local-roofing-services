@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 import { blurs } from "@/data/blurs";
 
-export async function Hero() {
+export const Hero = async () => {
   const t = await getTranslations("home.hero");
 
   return (

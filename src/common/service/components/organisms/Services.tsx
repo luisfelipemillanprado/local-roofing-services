@@ -8,7 +8,7 @@ import { getTranslations } from "next-intl/server";
 import { servicesSection } from "@/data/sections/services";
 import type { ServicesProps } from "@/common/service/types";
 
-export async function Services({ exploreHref, limit }: ServicesProps = {}) {
+export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
   const t = await getTranslations("service");
   const tc = await getTranslations("common");
   // Data drives order + icon/image/blur; text is resolved by key (no index merge).

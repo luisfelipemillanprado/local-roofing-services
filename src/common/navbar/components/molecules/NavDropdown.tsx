@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 import type { NavDropdownProps } from "@/common/navbar/types";
 
 // Desktop-only "See More" link: click toggles a dropdown of grouped links.
-export function NavDropdown({ label, links }: NavDropdownProps) {
+export const NavDropdown = ({ label, links }: NavDropdownProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 

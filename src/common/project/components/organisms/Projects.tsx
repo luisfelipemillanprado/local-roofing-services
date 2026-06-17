@@ -7,7 +7,7 @@ import { getTranslations } from "next-intl/server";
 import { projectsSection } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/common/project/types";
 
-export async function Projects({ exploreHref, limit }: ProjectsProps = {}) {
+export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
   const t = await getTranslations("project");
   // `limit` lets the home show a summary while /projects shows the full gallery.
   const projects = projectsSection.items.slice(0, limit);

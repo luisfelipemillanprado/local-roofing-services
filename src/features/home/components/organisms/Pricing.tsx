@@ -5,7 +5,7 @@ import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
 import { pricingSection } from "@/data/pages/home";
 
-export async function Pricing() {
+export const Pricing = async () => {
   const t = await getTranslations("home.pricing");
   const pricingPlans = pricingSection.plans;
 

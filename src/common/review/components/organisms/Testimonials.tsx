@@ -30,7 +30,7 @@ function GoogleMark() {
   );
 }
 
-export async function Testimonials({ limit }: TestimonialsProps = {}) {
+export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
   const t = await getTranslations("review");
   // `limit` lets the home show a subset while /projects shows them all.
   const testimonials = reviewsSection.items.slice(0, limit);

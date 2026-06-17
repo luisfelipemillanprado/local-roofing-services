@@ -5,7 +5,7 @@ import type { PulseRingProps } from "@/common/animations/types";
 const LAYERS = [0, 0.7, 1.4];
 
 // Renders expanding, fading rings behind its children to draw attention.
-export function PulseRing({ children, color, rounded }: PulseRingProps) {
+export const PulseRing = ({ children, color, rounded }: PulseRingProps) => {
   return (
     <div className="relative w-fit">
       {LAYERS.map((delay) => (

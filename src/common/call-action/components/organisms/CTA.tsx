@@ -11,7 +11,7 @@ type CTAProps = {
   tone?: "base" | "alt";
 };
 
-export function CTA({ tone = "base" }: CTAProps) {
+export const CTA = ({ tone = "base" }: CTAProps) => {
   const t = useTranslations("call-action");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);

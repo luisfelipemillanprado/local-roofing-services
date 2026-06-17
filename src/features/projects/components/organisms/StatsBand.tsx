@@ -3,7 +3,7 @@ import { SectionHeading } from "@/common/section-header/components/molecules/Sec
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { projectStatsSection } from "@/data/pages/projects";
 
-export async function StatsBand() {
+export const StatsBand = async () => {
   const t = await getTranslations("projects-page.stats");
   const items = projectStatsSection.items;
 

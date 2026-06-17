@@ -10,7 +10,7 @@ import { company } from "@/data/site";
 type FooterLink = { label: string; href: string };
 type Hours = { day: string; time: string };
 
-export function Footer() {
+export const Footer = () => {
   const t = useTranslations("footer");
   const topLinks = t.raw("topLinks") as FooterLink[];
   const services = t.raw("services") as FooterLink[];

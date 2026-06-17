@@ -1,14 +1,14 @@
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import type { SectionHeadingProps } from "@/common/section-header/types";
 
-export function SectionHeading({
+export const SectionHeading = ({
   eyebrow,
   title,
   description,
   align = "left",
   theme = "light",
   className = "",
-}: SectionHeadingProps) {
+}: SectionHeadingProps) => {
   const alignClass =
     align === "center"
       ? "items-center text-center mx-auto max-w-2xl"

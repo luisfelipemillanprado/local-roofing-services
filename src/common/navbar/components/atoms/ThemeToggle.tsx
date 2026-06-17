@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import type { ThemeToggleProps } from "@/common/navbar/types";
 
-export function ThemeToggle({ className = "" }: ThemeToggleProps) {
+export const ThemeToggle = ({ className = "" }: ThemeToggleProps) => {
   const { resolvedTheme, setTheme } = useTheme();
   const t = useTranslations("navbar");
   const [mounted, setMounted] = useState(false);

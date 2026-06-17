@@ -23,7 +23,7 @@ const socials = [
   },
 ];
 
-export function Socials({ className = "" }: SocialsProps) {
+export const Socials = ({ className = "" }: SocialsProps) => {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       {socials.map((s) => (

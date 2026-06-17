@@ -16,13 +16,13 @@ const variants: Record<ButtonVariant, string> = {
     "border border-white/30 bg-white/5 text-white backdrop-blur hover:bg-white/15",
 };
 
-export function Button({
+export const Button = ({
   href,
   children,
   variant = "primary",
   withArrow = false,
   className = "",
-}: ButtonProps) {
+}: ButtonProps) => {
   // Same-page anchors use a plain link; route links use next-intl Link to keep the locale.
   const Link = href.startsWith("#") ? NextLink : IntlLink;
   return (

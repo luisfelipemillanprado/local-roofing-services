@@ -30,7 +30,7 @@ export type NavGroupData = {
 export type NavLinkData = NavLeafData | NavGroupData;
 
 /** Narrow a raw data entry to a group. */
-export function isNavGroupData(link: NavLinkData): link is NavGroupData {
+export const isNavGroupData = (link: NavLinkData): link is NavGroupData => {
   return "children" in link;
 }
 
@@ -47,7 +47,7 @@ export type NavGroup = Omit<NavGroupData, "children"> & {
 export type NavLink = NavLeaf | NavGroup;
 
 /** Narrow a resolved nav entry to a group. */
-export function isNavGroup(link: NavLink): link is NavGroup {
+export const isNavGroup = (link: NavLink): link is NavGroup => {
   return "children" in link;
 }
 

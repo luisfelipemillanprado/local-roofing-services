@@ -2,7 +2,7 @@ import { company } from "@/data/site";
 import { Link } from "@/i18n/navigation";
 
 /** Wordmark inherits currentColor so the parent (navbar/footer) drives its color. */
-export function Logo() {
+export const Logo = () => {
   return (
     <Link
       href="/"

@@ -7,7 +7,7 @@ import { company } from "@/data/site";
 
 type Stat = { value: string; label: string };
 
-export async function About() {
+export const About = async () => {
   const t = await getTranslations("about");
   const tc = await getTranslations("common");
   const tHero = await getTranslations("home.hero");

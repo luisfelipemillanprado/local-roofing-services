@@ -19,7 +19,7 @@ const ICONS: Record<
 
 const { actions } = layoutData.floatingContact;
 
-export async function FloatingContact() {
+export const FloatingContact = async () => {
   const t = await getTranslations("floating-contact");
 
   // WhatsApp carries a localized prefilled message; the phone is a plain tel link.

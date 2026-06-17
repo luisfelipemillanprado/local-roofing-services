@@ -8,7 +8,7 @@ import { getTranslations } from "next-intl/server";
 import { teamSection } from "@/data/sections/team";
 import type { TeamProps } from "@/common/team/types";
 
-export async function Team({ limit }: TeamProps = {}) {
+export const Team = async ({ limit }: TeamProps = {}) => {
   const t = await getTranslations("team");
   // `limit` lets the home show a subset while /about shows the full team.
   const team = teamSection.members.slice(0, limit);

@@ -36,7 +36,7 @@ const ICONS: Record<NavLinkKey, LucideIcon> = {
 };
 
 // Mobile-only menu: trigger + full-screen overlay of link buttons.
-export function MobileMenu({ navLinks, menuId, toggleMenuLabel }: MobileMenuProps) {
+export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProps) => {
   const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);

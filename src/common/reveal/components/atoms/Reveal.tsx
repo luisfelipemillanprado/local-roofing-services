@@ -25,13 +25,13 @@ function getObserver(): IntersectionObserver {
 }
 
 /** Client scroll-reveal wrapper; children stay server-rendered, visibility in state to survive re-renders. */
-export function Reveal({
+export const Reveal = ({
   children,
   className,
   variant = "fade-up",
   delay = 0,
   as: Tag = "div",
-}: RevealProps) {
+}: RevealProps) => {
   const ref = useRef<HTMLElement>(null);
   const [shown, setShown] = useState(false);
 

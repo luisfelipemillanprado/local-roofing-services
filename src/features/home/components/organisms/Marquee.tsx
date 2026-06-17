@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { marqueeSection } from "@/data/pages/home";
 
-export async function Marquee() {
+export const Marquee = async () => {
   const t = await getTranslations("home.marquee");
   const rotator = marqueeSection.items;
   const items = [...rotator, ...rotator, ...rotator];

@@ -2,12 +2,12 @@ import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import type { PageHeaderProps } from "@/common/page-header/types";
 
 /** Intro band for the dedicated pages, with top padding to clear the fixed navbar. */
-export function PageHeader({
+export const PageHeader = ({
   eyebrow,
   titleLead,
   titleAccent,
   description,
-}: PageHeaderProps) {
+}: PageHeaderProps) => {
   return (
     <section className="bg-surface-base pt-32 pb-12 lg:pt-40 lg:pb-16">
       <div className="container-x">

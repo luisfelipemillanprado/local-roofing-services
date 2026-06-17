@@ -7,7 +7,7 @@ import { usePathname, useRouter } from "@/i18n/navigation";
 import { localeNames, type Locale } from "@/i18n/routing";
 import type { LanguageSwitchProps } from "@/common/navbar/types";
 
-export function LanguageSwitch({ className = "" }: LanguageSwitchProps) {
+export const LanguageSwitch = ({ className = "" }: LanguageSwitchProps) => {
   const locale = useLocale() as Locale;
   const t = useTranslations("navbar");
   const router = useRouter();

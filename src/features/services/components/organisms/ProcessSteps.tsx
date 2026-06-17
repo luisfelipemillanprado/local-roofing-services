@@ -3,7 +3,7 @@ import { SectionHeading } from "@/common/section-header/components/molecules/Sec
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { processSection } from "@/data/pages/services";
 
-export async function ProcessSteps() {
+export const ProcessSteps = async () => {
   const t = await getTranslations("services-page.process");
   const items = processSection.steps;
 

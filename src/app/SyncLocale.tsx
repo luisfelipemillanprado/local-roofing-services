@@ -3,7 +3,7 @@
 
 import { useEffect } from "react";
 
-export function SyncLocale({ locale }: { locale: string }) {
+export const SyncLocale = ({ locale }: { locale: string }) => {
   useEffect(() => {
     document.documentElement.lang = locale;
   }, [locale]);

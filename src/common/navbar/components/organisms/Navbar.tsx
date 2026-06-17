@@ -19,7 +19,7 @@ import {
 
 const { navbar } = layoutData;
 
-export async function Navbar() {
+export const Navbar = async () => {
   const t = await getTranslations("navbar");
 
   // Attach the translated label to a link by its key.
