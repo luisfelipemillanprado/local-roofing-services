@@ -1,32 +1,17 @@
 {
-  "getQuote": "Get a Quote",
+  "getFreeQuote": "Get Free Quote",
   "toggleMenu": "Toggle menu",
   "selectLanguage": "Select language",
   "toggleTheme": "Toggle theme",
-  "links": [
-    {
-      "label": "Home",
-      "href": "/"
-    },
-    {
-      "label": "About Us",
-      "href": "/about"
-    },
-    {
-      "label": "Services",
-      "href": "/services"
-    },
-    {
-      "label": "Projects",
-      "href": "/projects"
-    },
-    {
-      "label": "Pricing",
-      "href": "/#pricing"
-    },
-    {
-      "label": "Contact Us",
-      "href": "/#contact"
-    }
-  ]
+  "links": {
+    "home": "Home",
+    "services": "Services",
+    "products": "Shop",
+    "projects": "Projects",
+    "about": "About",
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "more": "See More"
+  }
 }

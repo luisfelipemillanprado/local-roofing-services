@@ -52,8 +52,7 @@
   /* Radii. */
   --radius-card: 1.25rem;
 
-  /* Semantic roles (theme-independent; theme-switching roles are aliased in
-     @theme inline below). */
+  /* Semantic roles (theme-independent; theme-switching ones aliased in @theme inline). */
   --color-primary: var(--color-amber);
   --color-primary-light: var(--color-peach);
   --color-primary-dark: var(--color-tan);
@@ -86,9 +85,7 @@
   --color-footer-accent: var(--footer-accent);
 }
 
-/* :root = dark theme (default). The same tokens are pinned on any .theme-dark
-   subtree so it ignores .light and stays dark (e.g. the navbar) — defined once,
-   no duplication. */
+/* :root = dark theme; also pinned on .theme-dark so that subtree stays dark (e.g. navbar). */
 :root,
 .theme-dark {
   color-scheme: dark;
@@ -242,13 +239,9 @@
   }
 }
 
-/* ──────────────────────────────────────────────────────────────────────────
-   Media queries (top-level overrides grouped here; nested ones stay in their
-   own rule, e.g. container-x).
-   ────────────────────────────────────────────────────────────────────────── */
+/* Media queries (top-level overrides; nested ones stay in their own rule). */
 
-/* Base amber (in @theme) is the mobile tone; from the lg/desktop breakpoint up
-   switch to the more saturated desktop amber from the palette. */
+/* Base amber is the mobile tone; switch to the saturated desktop amber at lg+. */
 @media (min-width: 64rem) {
   :root {
     --color-amber: var(--color-amber-desktop);

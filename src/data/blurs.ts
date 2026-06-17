@@ -1,10 +1,4 @@
-/**
- * Generic blur placeholders for `<Image placeholder="blur" blurDataURL={…}>`.
- *
- * Since the site references images by string `src` (`/images/…`), Next.js can't
- * auto-generate a blur, so we provide a small, generic one per image type
- * (a tiny solid-colour PNG that Next scales + blurs).
- */
+/** Generic blur placeholders per image type (string src can't auto-generate one). */
 export const blurs = {
   /** Dark blue-grey — content/section/project/service imagery. */
   image:

@@ -1,32 +1,17 @@
 {
-  "getQuote": "Cotización",
+  "getFreeQuote": "Cotización gratis",
   "toggleMenu": "Abrir menú",
   "selectLanguage": "Seleccionar idioma",
   "toggleTheme": "Cambiar tema",
-  "links": [
-    {
-      "label": "Inicio",
-      "href": "/"
-    },
-    {
-      "label": "Nosotros",
-      "href": "/about"
-    },
-    {
-      "label": "Servicios",
-      "href": "/services"
-    },
-    {
-      "label": "Proyectos",
-      "href": "/projects"
-    },
-    {
-      "label": "Precios",
-      "href": "/#pricing"
-    },
-    {
-      "label": "Contacto",
-      "href": "/#contact"
-    }
-  ]
+  "links": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "products": "Tienda",
+    "projects": "Proyectos",
+    "about": "Nosotros",
+    "pricing": "Precios",
+    "reviews": "Reseñas",
+    "contact": "Contacto",
+    "more": "Ver más"
+  }
 }

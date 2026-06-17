@@ -6,35 +6,58 @@ import { Logo } from "@/common/logo/components/atoms/Logo";
 import { Button } from "@/common/button/components/atoms/Button";
 import { ThemeToggle } from "@/common/navbar/components/atoms/ThemeToggle";
 import { LanguageSwitch } from "@/common/navbar/components/atoms/LanguageSwitch";
+import { NavDropdown } from "@/common/navbar/components/molecules/NavDropdown";
 import { MobileMenu } from "@/common/navbar/components/molecules/MobileMenu";
-import { navIconKeyFor, quoteHref } from "@/data/global/navbar";
-import type { NavLink } from "@/common/navbar/types";
+import { layoutData } from "@/data/global/layout";
+import {
+  isNavGroup,
+  isNavGroupData,
+  type NavLeaf,
+  type NavLink,
+  type NavLinkKey,
+} from "@/common/navbar/types";
 
 export async function Navbar() {
+  const { navbar } = layoutData;
   const t = await getTranslations("navbar");
-  // Messages carry label/href; enrich each with its semantic icon key.
-  const navLinks: NavLink[] = (t.raw("links") as Omit<NavLink, "icon">[]).map((link) => ({
+
+  // Attach the translated label to a link by its key.
+  const withLabel = <T extends { key: NavLinkKey }>(link: T) => ({
     ...link,
-    icon: navIconKeyFor(link.href),
-  }));
+    label: t(`links.${link.key}`),
+  });
+
+  // Desktop keeps the group; mobile flattens it into plain links.
+  const navLinks: NavLink[] = navbar.links.map((link) =>
+    isNavGroupData(link)
+      ? { ...withLabel(link), children: link.children.map(withLabel) }
+      : withLabel(link),
+  );
+  const mobileLinks: NavLeaf[] = navLinks.flatMap((link) =>
+    isNavGroup(link) ? link.children : [link],
+  );
 
   return (
-    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-fg shadow-sm shadow-ink/40">
+    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-fg shadow-xs shadow-ink/30">
       {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
       <div className="absolute inset-0 -z-10 bg-surface/90 backdrop-blur-md" />
       <div className="container-x flex h-18 items-center justify-between py-3">
         <Logo />
 
         <nav className="hidden items-center gap-1 lg:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="rounded-full px-3.5 py-2 text-sm font-medium text-fg/80 transition-colors hover:text-primary"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) =>
+            isNavGroup(link) ? (
+              <NavDropdown key={link.key} label={link.label} links={link.children} />
+            ) : (
+              <Link
+                key={link.key}
+                href={link.href}
+                className="rounded-full px-3.5 py-2 text-sm font-medium text-fg/80 transition-colors hover:text-primary"
+              >
+                {link.label}
+              </Link>
+            ),
+          )}
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
@@ -46,15 +69,19 @@ export async function Navbar() {
           </div>
           <LanguageSwitch />
           <ThemeToggle />
-          <Button href={quoteHref} variant="primary">
-            {t("getQuote")}
+          <Button href={navbar.getFreeQuoteHref} variant="primary">
+            {t("getFreeQuote")}
           </Button>
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
           <LanguageSwitch />
           <ThemeToggle />
-          <MobileMenu navLinks={navLinks} toggleMenuLabel={t("toggleMenu")} />
+          <MobileMenu
+            navLinks={mobileLinks}
+            menuId={navbar.menuId}
+            toggleMenuLabel={t("toggleMenu")}
+          />
         </div>
       </div>
     </header>

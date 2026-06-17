@@ -1,28 +1,42 @@
 "use client";
 
 import { useEffect, useRef, useState, type MouseEvent } from "react";
-import { Menu, X, Home, Info, Wrench, Hammer, Tag, Phone } from "lucide-react";
+import {
+  Menu,
+  X,
+  Home,
+  Info,
+  Wrench,
+  Hammer,
+  Tag,
+  Phone,
+  Star,
+  Package,
+  Ellipsis,
+} from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
-import type { MobileMenuProps, NavLinkIcon } from "@/common/navbar/types";
+import type { MobileMenuProps, NavLinkKey } from "@/common/navbar/types";
 
 // Exit animation duration (matches the panel's duration-500).
 const ANIMATION_MS = 500;
 
-// Semantic icon key → icon component.
-const ICONS: Record<NavLinkIcon, LucideIcon> = {
+// Semantic key → icon component.
+const ICONS: Record<NavLinkKey, LucideIcon> = {
   home: Home,
   about: Info,
   services: Wrench,
   projects: Hammer,
   pricing: Tag,
+  reviews: Star,
+  products: Package,
   contact: Phone,
+  more: Ellipsis,
 };
 
 // Mobile-only menu: trigger + full-screen overlay of link buttons.
-export function MobileMenu({ navLinks, toggleMenuLabel }: MobileMenuProps) {
-  const menuId = "mobile-menu";
+export function MobileMenu({ navLinks, menuId, toggleMenuLabel }: MobileMenuProps) {
   const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -88,12 +102,12 @@ export function MobileMenu({ navLinks, toggleMenuLabel }: MobileMenuProps) {
               isOpen ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0",
             )}
           >
-            <nav className="grid grid-cols-3 gap-3 px-4 pb-6 pt-4">
+            <nav className="grid grid-cols-3 gap-3 px-4 py-6">
               {navLinks.map((link) => {
                 const Icon = ICONS[link.icon];
                 return (
                   <Link
-                    key={link.href}
+                    key={link.key}
                     href={link.href}
                     onClick={handleCloseOptions}
                     className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-2 px-2 py-5 text-center text-sm font-semibold text-fg transition-colors hover:bg-primary hover:text-white"

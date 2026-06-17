@@ -18,10 +18,7 @@ export type ProjectItem = {
   blur: string;
 };
 
-/**
- * Shared "Projects" gallery. The ordered list (with image/blur) lives here;
- * the text is resolved by `key` from next-intl — no positional index merge.
- */
+/** Shared "Projects" gallery; ordered list (image/blur), text resolved by key. */
 export const projectsSection: { items: ProjectItem[] } = {
   items: [
     { key: "cedarHeights", image: "/images/projects/project1.webp", blur: blurs.image },

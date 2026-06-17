@@ -9,10 +9,7 @@ export type TeamMember = {
   blur: string;
 };
 
-/**
- * Shared "Team" section. The ordered list (with image/blur) lives here;
- * the text is resolved by `key` from next-intl — no positional index merge.
- */
+/** Shared "Team" section; ordered list (image/blur), text resolved by key. */
 export const teamSection: { members: TeamMember[] } = {
   members: [
     { key: "rodger", image: "/images/team/team1.webp", blur: blurs.image },

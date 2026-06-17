@@ -21,8 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    // lang="en" by default in (static) SSR; SyncLocale switches it to "es" on
-    // the client for /es. suppressHydrationWarning covers that and next-themes.
+    // lang="en" in SSR; SyncLocale switches to "es" client-side (suppressHydrationWarning covers it).
     <html
       lang="en"
       suppressHydrationWarning

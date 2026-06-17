@@ -10,10 +10,7 @@ export type ReviewItem = {
   rating: number;
 };
 
-/**
- * Shared "Testimonials" (reviews) section. The ordered list (with avatar/blur/rating)
- * lives here; the text is resolved by `key` from next-intl — no positional index merge.
- */
+/** Shared "Testimonials" section; ordered list (avatar/blur/rating), text resolved by key. */
 export const reviewsSection: { items: ReviewItem[] } = {
   items: [
     { key: "paula", avatar: "/images/avatars/avatar1.webp", blur: blurs.avatar, rating: 5 },

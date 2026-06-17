@@ -1,23 +1,64 @@
 /** Shared types and interfaces for the navbar and its components. */
 
-/** Semantic icon keys for nav destinations (resolved to an icon in the UI). */
-export type NavLinkIcon =
+/** Semantic keys for nav destinations (used for the i18n label and icon lookup). */
+export type NavLinkKey =
   | "home"
   | "about"
   | "services"
   | "projects"
   | "pricing"
-  | "contact";
+  | "contact"
+  | "reviews"
+  | "products"
+  | "more";
 
-/** A navigation entry: label/href come from the messages, icon from the data layer. */
-export interface NavLink {
-  label: string;
+/** Leaf nav entry from the data layer (route + icon, no translatable text). */
+export type NavLeafData = {
+  key: NavLinkKey;
   href: string;
-  icon: NavLinkIcon;
+  icon: NavLinkKey;
+};
+
+/** Group nav entry: opens a desktop dropdown, has no route of its own. */
+export type NavGroupData = {
+  key: NavLinkKey;
+  icon: NavLinkKey;
+  children: NavLeafData[];
+};
+
+/** A nav entry is either a leaf (navigates) or a group (dropdown). */
+export type NavLinkData = NavLeafData | NavGroupData;
+
+/** Narrow a raw data entry to a group. */
+export function isNavGroupData(link: NavLinkData): link is NavGroupData {
+  return "children" in link;
+}
+
+/** Leaf with its resolved (translated) label, passed to the components. */
+export type NavLeaf = NavLeafData & { label: string };
+
+/** Group with its resolved label and resolved leaf children. */
+export type NavGroup = Omit<NavGroupData, "children"> & {
+  label: string;
+  children: NavLeaf[];
+};
+
+/** Resolved nav entry passed to the components. */
+export type NavLink = NavLeaf | NavGroup;
+
+/** Narrow a resolved nav entry to a group. */
+export function isNavGroup(link: NavLink): link is NavGroup {
+  return "children" in link;
+}
+
+export interface NavDropdownProps {
+  label: string;
+  links: readonly NavLeaf[];
 }
 
 export interface MobileMenuProps {
-  navLinks: readonly NavLink[];
+  navLinks: readonly NavLeaf[];
+  menuId: string;
   toggleMenuLabel: string;
 }
 

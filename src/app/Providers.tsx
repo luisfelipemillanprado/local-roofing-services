@@ -12,11 +12,7 @@ export interface ProvidersProps {
   themeProps?: ThemeProviderProps;
 }
 
-/**
- * App-wide client providers. Mounted in the root layout (above the `[locale]`
- * segment) so next-themes never remounts on a locale change — which is what
- * prevents the brief flash of the opposite theme when switching languages.
- */
+/** App-wide client providers; mounted above [locale] so the theme survives locale changes. */
 export const Providers = ({ children, themeProps }: ProvidersProps) => {
   return <NextThemesProvider {...themeProps}>{children}</NextThemesProvider>;
 };

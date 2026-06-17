@@ -76,8 +76,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     notFound();
   }
 
-  // Required for SSG: write the locale into the internal cache so
-  // useTranslations() doesn't fall back to dynamic HTTP-header calls.
+  // Required for SSG: cache the locale so useTranslations() stays static.
   setRequestLocale(locale);
 
   return (

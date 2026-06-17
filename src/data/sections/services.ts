@@ -25,10 +25,7 @@ export type ServiceItem = {
   blur: string;
 };
 
-/**
- * Shared "Services" section. The ordered list (with icon/image/blur) lives here;
- * the text is resolved by `key` from next-intl — no positional index merge.
- */
+/** Shared "Services" section; ordered list (icon/image/blur), text resolved by key. */
 export const servicesSection: { items: ServiceItem[] } = {
   items: [
     { key: "gutters", icon: Droplets, image: "/images/services/service1.webp", blur: blurs.image },
