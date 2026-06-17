@@ -43,7 +43,7 @@ export const Team = async ({ limit }: TeamProps = {}) => {
               as="article"
               key={member.key}
               delay={i * 0.08}
-              className="group relative overflow-hidden rounded-card border border-line bg-surface-2"
+              className="group relative overflow-hidden rounded-card border border-line bg-surface-muted"
             >
               <div className="relative aspect-[4/4.6] w-full overflow-hidden">
                 <Image
@@ -65,10 +65,10 @@ export const Team = async ({ limit }: TeamProps = {}) => {
 
               <div className="flex items-center justify-between p-5">
                 <div>
-                  <h3 className="text-lg font-bold text-fg">
+                  <h3 className="text-lg font-bold text-foreground">
                     {name}
                   </h3>
-                  <p className="text-sm text-fg-muted">
+                  <p className="text-sm text-foreground-muted">
                     {t(`members.${member.key}.role`)}
                   </p>
                 </div>

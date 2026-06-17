@@ -36,7 +36,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
   const testimonials = reviewsSection.items.slice(0, limit);
 
   return (
-    <section className="bg-surface-2 py-20 lg:py-28">
+    <section className="bg-surface-muted py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
@@ -53,10 +53,10 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
             description={t("description")}
           />
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2 rounded-2xl border border-line bg-surface px-4 py-3">
+            <div className="flex items-center gap-2 rounded-2xl border border-line bg-surface-panel px-4 py-3">
               <GoogleMark />
               <div>
-                <div className="flex items-center gap-1.5 text-sm font-bold text-fg">
+                <div className="flex items-center gap-1.5 text-sm font-bold text-foreground">
                   4.9
                   <span className="flex text-primary">
                     {Array.from({ length: 5 }).map((_, i) => (
@@ -64,7 +64,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                     ))}
                   </span>
                 </div>
-                <p className="text-xs text-fg-muted">{t("reviews")}</p>
+                <p className="text-xs text-foreground-muted">{t("reviews")}</p>
               </div>
             </div>
             <Button href="#contact" variant="dark" className="hidden sm:inline-flex">
@@ -81,7 +81,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
               as="figure"
               key={item.key}
               delay={i * 0.08}
-              className="flex flex-col rounded-card border border-line bg-surface p-7 shadow-md shadow-ink/40"
+              className="flex flex-col rounded-card border border-line bg-surface-panel p-7 shadow-md shadow-ink/40"
             >
               <div className="flex items-center justify-between">
                 <span className="flex text-primary">
@@ -89,9 +89,9 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                     <Star key={i} className="size-4 fill-current" />
                   ))}
                 </span>
-                <Quote className="size-8 text-surface-2" fill="currentColor" />
+                <Quote className="size-8 text-surface-muted" fill="currentColor" />
               </div>
-              <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-fg/80">
+              <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-foreground/80">
                 &ldquo;{t(`items.${item.key}.quote`)}&rdquo;
               </blockquote>
               <figcaption className="mt-6 flex items-center gap-3 border-t border-line pt-5">
@@ -107,8 +107,8 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                   />
                 </span>
                 <div className="flex-1">
-                  <div className="text-sm font-bold text-fg">{name}</div>
-                  <div className="text-xs text-fg-muted">
+                  <div className="text-sm font-bold text-foreground">{name}</div>
+                  <div className="text-xs text-foreground-muted">
                     {t(`items.${item.key}.location`)}
                   </div>
                 </div>

@@ -20,14 +20,14 @@
   /* Dark brand palette (default theme), from the mockup. */
   --color-night: oklch(0.243 0.014 239.25); /* dark base */
   --color-amber: oklch(0.78 0.1 72); /* primary accent (mobile) */
-  --color-amber-desktop: oklch(
+  --color-amber-vivid: oklch(
     0.7552 0.1253 80.01
   ); /* primary accent (≥1024px) */
   --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
 
   /* Third-party brand colors. */
-  --color-whatsapp: #25d366;
+  --color-malachite: oklch(0.761 0.2015 149.74); /* whatsapp accent */
 
   /* Neutrals — shared (primitives; theme roles below reference these). */
   --color-white: oklch(1 0 0);
@@ -36,17 +36,23 @@
   /* Neutrals — dark theme. */
   --color-graphite: oklch(0.2047 0.0121 237.38); /* dark ink */
   --color-graphite-soft: oklch(0.251 0.0162 240.71);
-  --color-panel: oklch(0.2954 0.0237 246.15); /* dark surface */
-  --color-inset: oklch(0.2183 0.0133 243.53); /* dark inset / surface-2 */
+  --color-steel: oklch(0.2954 0.0237 246.15); /* dark surface-panel */
+  --color-charcoal: oklch(0.2183 0.0133 243.53); /* dark surface-muted */
   --color-slate: oklch(0.7208 0.027 255.6); /* dark muted text */
-  --color-slate-grip: oklch(0.3262 0.024 243.72); /* dark scrollbar thumb */
+  --color-slate-deep: oklch(0.3262 0.024 243.72); /* dark scrollbar thumb */
 
   /* Neutrals — light theme. */
   --color-navy: oklch(0.2024 0.0252 256.48); /* light ink */
   --color-navy-soft: oklch(0.2627 0.0357 258.9);
-  --color-cream: oklch(0.9676 0.0057 84.57); /* light surface-2 */
+  --color-cream: oklch(0.9676 0.0057 84.57); /* light surface-muted */
   --color-stone: oklch(0.5597 0.0276 259.8); /* light muted text */
-  --color-stone-line: oklch(0.9339 0.0071 268.55); /* light border */
+  --color-mist: oklch(0.9339 0.0071 268.55); /* light border */
+
+  /* Semantic roles (theme-independent; theme-switching ones aliased in @theme inline). */
+  --color-primary: var(--color-amber);
+  --color-primary-light: var(--color-peach);
+  --color-primary-dark: var(--color-tan);
+  --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
 
   /* Typography (--font-sans is applied to <html> by Preflight). */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
@@ -54,11 +60,6 @@
 
   /* Radii. */
   --radius-card: 1.25rem;
-
-  /* Semantic roles (theme-independent; theme-switching ones aliased in @theme inline). */
-  --color-primary: var(--color-amber);
-  --color-primary-light: var(--color-peach);
-  --color-primary-dark: var(--color-tan);
 
   /* Marquee animation (utility: animate-marquee). */
   --animate-marquee: marquee 28s linear infinite;
@@ -101,17 +102,13 @@
 /* Theme-aware roles aliased to runtime vars so utilities switch themes. */
 @theme inline {
   --color-surface-base: var(--surface-base);
-  --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
-  --color-fg: var(--fg);
-  --color-fg-muted: var(--fg-muted);
+  --color-surface-panel: var(--surface-panel);
+  --color-surface-muted: var(--surface-muted);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
   --color-line: var(--line);
   --color-ink: var(--ink);
   --color-ink-soft: var(--ink-soft);
-  --color-footer: var(--footer-bg);
-  --color-footer-fg: var(--footer-fg);
-  --color-footer-line: var(--footer-border);
-  --color-footer-accent: var(--footer-accent);
 }
 
 /* :root = dark theme; also pinned on .theme-dark so that subtree stays dark (e.g. navbar). */
@@ -119,51 +116,36 @@
 .theme-dark {
   color-scheme: dark;
   --surface-base: var(--color-night);
-  --surface: var(--color-panel);
-  --surface-2: var(--color-inset);
-  --fg: var(--color-white);
-  --fg-muted: var(--color-slate);
+  --surface-panel: var(--color-steel);
+  --surface-muted: var(--color-charcoal);
+  --foreground: var(--color-white);
+  --foreground-muted: var(--color-slate);
   --line: color-mix(in oklab, var(--color-white) 9%, transparent);
   --ink: var(--color-graphite);
   --ink-soft: var(--color-graphite-soft);
-  /* Footer: single style for both themes — dark navy ink, white text. */
-  --footer-bg: var(--color-navy);
-  --footer-fg: var(--color-white);
-  --footer-border: color-mix(in oklab, var(--color-white) 10%, transparent);
-  --footer-accent: var(--color-primary-light);
 }
 
-/* Light theme: light surfaces, same amber accent (inherits @theme defaults). */
+/* Light theme: light surface-panels, same amber accent (inherits @theme defaults). */
 .light {
   color-scheme: light;
+  --surface-base: var(--color-white);
+  --surface-panel: var(--color-white);
+  --surface-muted: var(--color-cream);
+  --foreground: var(--color-navy);
+  --foreground-muted: var(--color-stone);
+  --line: var(--color-mist);
   --ink: var(--color-navy);
   --ink-soft: var(--color-navy-soft);
-  --surface-base: var(--color-white);
-  --surface: var(--color-white);
-  --surface-2: var(--color-cream);
-  --fg: var(--color-ink);
-  --fg-muted: var(--color-stone);
-  --line: var(--color-stone-line);
 }
 
 /* Base element styles (cascade layer so utilities can override). */
 @layer base {
-  * {
-    border-color: var(--line);
-  }
-
   html {
     scroll-behavior: smooth;
   }
 
   body {
     background-color: var(--surface-base);
-    color: var(--fg);
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    transition:
-      background-color 0.3s ease,
-      color 0.3s ease;
   }
 
   h1,
@@ -180,10 +162,10 @@
     width: 0.625rem;
   }
   ::-webkit-scrollbar-track {
-    background: var(--color-inset);
+    background: var(--color-charcoal);
   }
   ::-webkit-scrollbar-thumb {
-    background: var(--color-slate-grip);
+    background: var(--color-slate-deep);
     border-radius: 999px;
   }
   ::-webkit-scrollbar-thumb:hover {
@@ -273,7 +255,7 @@
 /* Base amber is the mobile tone; switch to the saturated desktop amber at lg+. */
 @media (min-width: 64rem) {
   :root {
-    --color-amber: var(--color-amber-desktop);
+    --color-amber: var(--color-amber-vivid);
   }
 }
 

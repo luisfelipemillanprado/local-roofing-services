@@ -35,7 +35,7 @@ export const Pricing = async () => {
                 className={`relative flex flex-col rounded-card border p-8 transition-all duration-300 ${
                   plan.highlighted
                     ? "border-transparent bg-ink text-white shadow-lg shadow-ink/40"
-                    : "border-line bg-surface-2"
+                    : "border-line bg-surface-muted"
                 }`}
               >
                 {plan.highlighted && (
@@ -48,7 +48,7 @@ export const Pricing = async () => {
                   className={`grid size-14 place-items-center rounded-2xl ${
                     plan.highlighted
                       ? "bg-primary text-white"
-                      : "bg-surface text-primary"
+                      : "bg-surface-panel text-primary"
                   }`}
                 >
                   <Icon className="size-7" />
@@ -56,14 +56,14 @@ export const Pricing = async () => {
 
                 <h3
                   className={`mt-6 text-xl font-bold ${
-                    plan.highlighted ? "text-white" : "text-fg"
+                    plan.highlighted ? "text-white" : "text-foreground"
                   }`}
                 >
                   {t(`plans.${plan.key}.name`)}
                 </h3>
                 <p
                   className={`mt-2 text-sm ${
-                    plan.highlighted ? "text-white/70" : "text-fg-muted"
+                    plan.highlighted ? "text-white/70" : "text-foreground-muted"
                   }`}
                 >
                   {t(`plans.${plan.key}.blurb`)}
@@ -75,7 +75,7 @@ export const Pricing = async () => {
                   </span>
                   <span
                     className={`mb-1 text-sm ${
-                      plan.highlighted ? "text-white/60" : "text-fg-muted"
+                      plan.highlighted ? "text-white/60" : "text-foreground-muted"
                     }`}
                   >
                     {t(`plans.${plan.key}.period`)}
@@ -96,7 +96,7 @@ export const Pricing = async () => {
                       </span>
                       <span
                         className={
-                          plan.highlighted ? "text-white/85" : "text-fg/80"
+                          plan.highlighted ? "text-white/85" : "text-foreground/80"
                         }
                       >
                         {feature}

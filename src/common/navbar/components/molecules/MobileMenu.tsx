@@ -98,7 +98,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
             id={menuId}
             onClick={handlePropagateOptions}
             className={clsx(
-              "bg-surface/95 shadow-lg shadow-ink/40 transition-all duration-500 ease-in-out",
+              "bg-surface-panel/95 shadow-lg shadow-ink/40 transition-all duration-500 ease-in-out",
               isOpen ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0",
             )}
           >
@@ -110,7 +110,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
                     key={link.key}
                     href={link.href}
                     onClick={handleCloseOptions}
-                    className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-2 px-2 py-5 text-center text-sm font-semibold text-fg transition-colors hover:bg-primary hover:text-white"
+                    className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center text-sm font-semibold text-foreground transition-colors hover:bg-primary hover:text-white"
                   >
                     <Icon className="size-6 text-primary" aria-hidden />
                     {link.label}

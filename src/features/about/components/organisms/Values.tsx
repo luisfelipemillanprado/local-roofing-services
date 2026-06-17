@@ -8,7 +8,7 @@ export const Values = async () => {
   const items = valuesSection.items;
 
   return (
-    <section className="bg-surface-2 py-20 lg:py-28">
+    <section className="bg-surface-muted py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -30,15 +30,15 @@ export const Values = async () => {
                 as="article"
                 key={value.key}
                 delay={i * 0.08}
-                className="group rounded-card border border-line bg-surface p-7 shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-md"
+                className="group rounded-card border border-line bg-surface-panel p-7 shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-md"
               >
-                <span className="grid size-14 place-items-center rounded-2xl bg-surface-2 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+                <span className="grid size-14 place-items-center rounded-2xl bg-surface-muted text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                   <Icon className="size-7" />
                 </span>
-                <h3 className="mt-5 text-lg font-bold text-fg">
+                <h3 className="mt-5 text-lg font-bold text-foreground">
                   {t(`items.${value.key}.title`)}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-fg-muted">
+                <p className="mt-2 text-sm leading-relaxed text-foreground-muted">
                   {t(`items.${value.key}.description`)}
                 </p>
               </Reveal>

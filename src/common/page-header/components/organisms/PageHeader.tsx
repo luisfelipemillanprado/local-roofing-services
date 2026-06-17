@@ -13,11 +13,11 @@ export const PageHeader = ({
       <div className="container-x">
         <Reveal className="max-w-3xl">
           <span className="eyebrow">{eyebrow}</span>
-          <h1 className="mt-4 text-4xl font-extrabold leading-[1.05] text-fg sm:text-5xl lg:text-6xl">
+          <h1 className="mt-4 text-4xl font-extrabold leading-[1.05] text-foreground sm:text-5xl lg:text-6xl">
             {titleLead}{" "}
             <span className="text-primary">{titleAccent}</span>
           </h1>
-          <p className="mt-5 max-w-xl text-base leading-relaxed text-fg-muted">
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-foreground-muted">
             {description}
           </p>
         </Reveal>

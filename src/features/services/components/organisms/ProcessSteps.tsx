@@ -30,18 +30,18 @@ export const ProcessSteps = async () => {
                 as="article"
                 key={step.key}
                 delay={i * 0.08}
-                className="rounded-card border border-line bg-surface p-7"
+                className="rounded-card border border-line bg-surface-panel p-7"
               >
                 <span className="text-sm font-extrabold text-primary">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <span className="mt-4 grid size-14 place-items-center rounded-2xl bg-surface-2 text-primary">
+                <span className="mt-4 grid size-14 place-items-center rounded-2xl bg-surface-muted text-primary">
                   <Icon className="size-7" />
                 </span>
-                <h3 className="mt-5 text-lg font-bold text-fg">
+                <h3 className="mt-5 text-lg font-bold text-foreground">
                   {t(`steps.${step.key}.title`)}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-fg-muted">
+                <p className="mt-2 text-sm leading-relaxed text-foreground-muted">
                   {t(`steps.${step.key}.description`)}
                 </p>
               </Reveal>

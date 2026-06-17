@@ -15,7 +15,7 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
   const t = useTranslations("call-action");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
-  const bg = tone === "alt" ? "bg-surface-2" : "bg-surface-base";
+  const bg = tone === "alt" ? "bg-surface-muted" : "bg-surface-base";
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();

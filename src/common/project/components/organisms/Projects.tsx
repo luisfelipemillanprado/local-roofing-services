@@ -13,7 +13,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
   const projects = projectsSection.items.slice(0, limit);
 
   return (
-    <section id="projects" className="bg-surface-2 py-20 lg:py-28">
+    <section id="projects" className="bg-surface-muted py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading

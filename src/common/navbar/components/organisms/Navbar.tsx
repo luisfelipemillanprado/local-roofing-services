@@ -39,9 +39,9 @@ export const Navbar = async () => {
   );
 
   return (
-    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-fg shadow-xs shadow-ink/30">
+    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-foreground shadow-xs shadow-ink/30">
       {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
-      <div className="absolute inset-0 -z-10 bg-surface/90 backdrop-blur-md" />
+      <div className="absolute inset-0 -z-10 bg-surface-panel/90 backdrop-blur-md" />
       <div className="container-x flex h-18 items-center justify-between py-3">
         <Logo />
 
@@ -53,7 +53,7 @@ export const Navbar = async () => {
               <Link
                 key={link.key}
                 href={link.href}
-                className="rounded-full px-3.5 py-2 text-sm font-medium text-fg/80 transition-colors hover:text-primary"
+                className="rounded-full px-3.5 py-2 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
               >
                 {link.label}
               </Link>
@@ -62,8 +62,8 @@ export const Navbar = async () => {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <div className="flex items-center gap-2 text-sm font-semibold text-fg">
-            <span className="grid size-9 place-items-center rounded-full bg-surface-2 text-primary">
+          <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+            <span className="grid size-9 place-items-center rounded-full bg-surface-muted text-primary">
               <Phone className="size-4" />
             </span>
             {company.phone}

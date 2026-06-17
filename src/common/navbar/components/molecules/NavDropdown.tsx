@@ -34,7 +34,7 @@ export const NavDropdown = ({ label, links }: NavDropdownProps) => {
         type="button"
         aria-expanded={isOpen}
         onClick={() => setIsOpen((open) => !open)}
-        className="flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-medium text-fg/80 transition-colors hover:text-primary"
+        className="flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
       >
         {label}
         <ChevronDown
@@ -44,13 +44,13 @@ export const NavDropdown = ({ label, links }: NavDropdownProps) => {
       </button>
 
       {isOpen && (
-        <div className="absolute left-1/2 top-full mt-2 min-w-48 -translate-x-1/2 rounded-2xl border border-line bg-surface p-2 shadow-lg shadow-ink/40">
+        <div className="absolute left-1/2 top-full mt-2 min-w-48 -translate-x-1/2 rounded-2xl border border-line bg-surface-panel p-2 shadow-lg shadow-ink/40">
           {links.map((link) => (
             <Link
               key={link.key}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="block rounded-xl px-4 py-2.5 text-sm font-medium text-fg/80 transition-colors hover:bg-surface-2 hover:text-primary"
+              className="block rounded-xl px-4 py-2.5 text-sm font-medium text-foreground/80 transition-colors hover:bg-surface-muted hover:text-primary"
             >
               {link.label}
             </Link>

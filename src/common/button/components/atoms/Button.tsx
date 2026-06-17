@@ -8,10 +8,10 @@ const base =
 
 const variants: Record<ButtonVariant, string> = {
   primary:
-    "bg-primary text-white shadow-md shadow-ink/40 hover:bg-primary-dark hover:-translate-y-0.5",
+    "bg-primary text-primary-foreground shadow-md shadow-ink/40 hover:bg-primary-dark hover:-translate-y-0.5",
   dark: "bg-ink text-white hover:bg-ink-soft hover:-translate-y-0.5",
   outline:
-    "border border-line bg-surface text-fg hover:border-primary hover:text-primary",
+    "border border-line bg-surface-panel text-foreground hover:border-primary hover:text-primary",
   ghost:
     "border border-white/30 bg-white/5 text-white backdrop-blur hover:bg-white/15",
 };

@@ -16,7 +16,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
   const services = servicesSection.items.slice(0, limit);
 
   return (
-    <section id="services" className="bg-surface-2 py-20 lg:py-28">
+    <section id="services" className="bg-surface-muted py-20 lg:py-28">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
@@ -48,7 +48,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                 as="article"
                 key={service.key}
                 delay={i * 0.08}
-                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface shadow-md shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
+                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface-panel shadow-md shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
               >
                 <div className="relative aspect-[16/11] overflow-hidden">
                   <Image
@@ -65,8 +65,8 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <h3 className="text-xl font-bold text-fg">{title}</h3>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-fg-muted">
+                  <h3 className="text-xl font-bold text-foreground">{title}</h3>
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-foreground-muted">
                     {t(`items.${service.key}.description`)}
                   </p>
                   <Link

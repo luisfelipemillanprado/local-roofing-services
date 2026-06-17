@@ -22,7 +22,7 @@ export const ThemeToggle = ({ className = "" }: ThemeToggleProps) => {
       type="button"
       aria-label={t("toggleTheme")}
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className={`grid size-9 place-items-center rounded-full border border-line bg-surface-2 text-fg transition-colors hover:text-primary ${className}`}
+      className={`grid size-9 place-items-center rounded-full border border-line bg-surface-muted text-foreground transition-colors hover:text-primary ${className}`}
     >
       {mounted ? (
         isDark ? <Sun className="size-4" /> : <Moon className="size-4" />

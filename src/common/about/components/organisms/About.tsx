@@ -62,13 +62,13 @@ export const About = async () => {
         <div className="text-center lg:text-left">
           <Reveal>
             <span className="eyebrow">{t("eyebrow")}</span>
-            <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-fg sm:text-4xl lg:text-[2.75rem]">
+            <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-foreground sm:text-4xl lg:text-[2.75rem]">
               {t("titleLead")}
               <span className="block text-primary">
                 {t("titleAccent")}
               </span>
             </h2>
-            <p className="mt-5 max-w-lg text-base leading-relaxed text-fg-muted mx-auto lg:mx-0">
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-foreground-muted mx-auto lg:mx-0">
               {t("body", { name: company.name })}
             </p>
           </Reveal>
@@ -79,7 +79,7 @@ export const About = async () => {
                 <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-primary/10 text-primary">
                   <Check className="size-3.5" strokeWidth={3} />
                 </span>
-                <span className="text-sm font-medium text-fg">{p}</span>
+                <span className="text-sm font-medium text-foreground">{p}</span>
               </div>
             ))}
           </Reveal>
@@ -87,10 +87,10 @@ export const About = async () => {
           <Reveal className="mt-9 grid grid-cols-3 gap-4 border-y border-line py-6">
             {heroStats.map((stat) => (
               <div key={stat.label}>
-                <div className="text-2xl font-extrabold text-fg sm:text-3xl">
+                <div className="text-2xl font-extrabold text-foreground sm:text-3xl">
                   {stat.value}
                 </div>
-                <div className="mt-1 text-xs text-fg-muted">{stat.label}</div>
+                <div className="mt-1 text-xs text-foreground-muted">{stat.label}</div>
               </div>
             ))}
           </Reveal>

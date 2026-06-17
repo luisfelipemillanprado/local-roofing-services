@@ -29,7 +29,7 @@ export const LanguageSwitch = ({ className = "" }: LanguageSwitchProps) => {
       disabled={isPending}
       aria-label={t("selectLanguage")}
       title={localeNames[next]}
-      className={`inline-flex items-center gap-1.5 rounded-full border border-line bg-surface-2 px-3 py-2 text-xs font-bold uppercase tracking-wider text-fg transition-colors hover:text-primary disabled:opacity-60 ${className}`}
+      className={`inline-flex items-center gap-1.5 rounded-full border border-line bg-surface-muted px-3 py-2 text-xs font-bold uppercase tracking-wider text-foreground transition-colors hover:text-primary disabled:opacity-60 ${className}`}
     >
       <Globe className="size-4" />
       {locale}
