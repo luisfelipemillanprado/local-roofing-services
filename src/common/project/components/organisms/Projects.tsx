@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
 import { getTranslations } from "next-intl/server";
 import { projectsSection } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/common/project/types";
@@ -60,9 +61,13 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
 
                 <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-between p-5 opacity-90 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                   <div>
-                    <p className="text-xs font-semibold tracking-widest text-primary">
-                      {t(`items.${project.key}.category`)}
-                    </p>
+                    <Text
+                      as="p"
+                      size="label"
+                      tone="primary"
+                      weight="semibold"
+                      text={t(`items.${project.key}.category`)}
+                    />
                     <h3 className="mt-1 text-lg font-bold text-white">{title}</h3>
                   </div>
                   <span className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">

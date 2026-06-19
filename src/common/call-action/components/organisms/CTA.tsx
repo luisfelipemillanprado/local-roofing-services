@@ -68,15 +68,16 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
               />
               <button
                 type="submit"
-                className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5"
+                className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-4 text-white transition-all duration-300 hover:-translate-y-0.5"
               >
                 {sent ? (
                   <>
-                    {t("sent")} <Check className="size-4" />
+                    <Text as="span" size="body" weight="semibold" tone="white" text={t("sent")} />
+                    <Check className="size-4" />
                   </>
                 ) : (
                   <>
-                    {t("getQuote")}
+                    <Text as="span" size="body" weight="semibold" tone="white" text={t("getQuote")} />
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </>
                 )}

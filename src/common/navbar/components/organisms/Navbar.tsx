@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
 import { Logo } from "@/common/logo/components/atoms/Logo";
 import { Button } from "@/common/button/components/atoms/Button";
+import { Text } from "@/common/text/components/Text";
 import { ThemeToggle } from "@/common/navbar/components/atoms/ThemeToggle";
 import { LanguageSwitch } from "@/common/navbar/components/atoms/LanguageSwitch";
 import { NavDropdown } from "@/common/navbar/components/molecules/NavDropdown";
@@ -46,23 +47,19 @@ export const Navbar = async () => {
             isNavGroup(link) ? (
               <NavDropdown key={link.key} label={link.label} links={link.children} />
             ) : (
-              <Link
-                key={link.key}
-                href={link.href}
-                className="rounded-full px-3.5 py-2 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
-              >
-                {link.label}
+              <Link key={link.key} href={link.href} className="rounded-full px-3.5 py-2">
+                <Text as="span" size="body" tone="muted" weight="medium" text={link.label} />
               </Link>
             ),
           )}
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+          <div className="flex items-center gap-2">
             <span className="grid size-9 place-items-center rounded-full bg-surface-muted text-primary">
               <Phone className="size-4" />
             </span>
-            {company.phone}
+            <Text as="span" size="body" tone="default" weight="semibold" text={company.phone} />
           </div>
           <LanguageSwitch />
           <ThemeToggle />

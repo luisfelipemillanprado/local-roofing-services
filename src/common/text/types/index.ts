@@ -1,6 +1,6 @@
 export type TextSize = "lead" | "body" | "caption" | "note" | "label";
 export type TextTone = "default" | "muted" | "white" | "primary";
-export type TextWeight = "medium" | "semibold";
+export type TextWeight = "medium" | "semibold" | "bold";
 
 export interface TextProps {
   as?: "p" | "span";

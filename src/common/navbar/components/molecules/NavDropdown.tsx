@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronDown } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
+import { Text } from "@/common/text/components/Text";
 import type { NavDropdownProps } from "@/common/navbar/types";
 
 // Desktop-only "See More" link: click toggles a dropdown of grouped links.
@@ -34,9 +35,9 @@ export const NavDropdown = ({ label, links }: NavDropdownProps) => {
         type="button"
         aria-expanded={isOpen}
         onClick={() => setIsOpen((open) => !open)}
-        className="flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
+        className="flex items-center gap-1 rounded-full px-3.5 py-2"
       >
-        {label}
+        <Text as="span" size="body" tone="muted" weight="medium" text={label} />
         <ChevronDown className={clsx("size-4 transition-transform", isOpen && "rotate-180")} aria-hidden />
       </button>
 
@@ -47,9 +48,9 @@ export const NavDropdown = ({ label, links }: NavDropdownProps) => {
               key={link.key}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="block rounded-xl px-4 py-2.5 text-sm font-medium text-foreground/80 transition-colors hover:bg-surface-muted hover:text-primary"
+              className="block rounded-xl px-4 py-2.5 transition-colors hover:bg-surface-muted"
             >
-              {link.label}
+              <Text as="span" size="body" tone="muted" weight="medium" text={link.label} />
             </Link>
           ))}
         </div>

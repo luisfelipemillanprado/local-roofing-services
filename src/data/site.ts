@@ -6,6 +6,6 @@ export const company = {
   // WhatsApp link; placeholder number (international format, digits only).
   whatsappHref: "https://wa.me/1234567890",
   email: "hello@roofpro.com",
-  address: "1200 Cedar Ridge Ave, Denver, CO",
+  address: "1200 Biscayne Blvd, Miami, FL",
   yearsExperience: 25,
 };

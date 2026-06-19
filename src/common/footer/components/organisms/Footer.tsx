@@ -25,7 +25,7 @@ export const Footer = () => {
           <div>
             <Logo />
             <div className="mt-5 max-w-xs">
-              <Text size="caption" tone="muted" text={t("tagline", { name: company.name })} />
+              <Text size="lead" tone="muted" text={t("tagline", { name: company.name })} />
             </div>
             <Socials className="mt-6" />
           </div>
@@ -36,11 +36,8 @@ export const Footer = () => {
             <ul className="mt-5 space-y-3">
               {topLinks.map((link) => (
                 <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="group inline-flex items-center gap-1.5 text-sm text-foreground/65 transition-colors hover:text-foreground"
-                  >
-                    {link.label}
+                  <Link href={link.href} className="group inline-flex items-center gap-1.5">
+                    <Text as="span" size="body" tone="muted" text={link.label} />
                     <ArrowUpRight className="size-3.5 opacity-0 transition-opacity group-hover:opacity-100" />
                   </Link>
                 </li>
@@ -54,11 +51,8 @@ export const Footer = () => {
             <ul className="mt-5 space-y-3">
               {services.map((link) => (
                 <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="group inline-flex items-center gap-1.5 text-sm text-foreground/65 transition-colors hover:text-foreground"
-                  >
-                    {link.label}
+                  <Link href={link.href} className="group inline-flex items-center gap-1.5">
+                    <Text as="span" size="body" tone="muted" text={link.label} />
                     <ArrowUpRight className="size-3.5 opacity-0 transition-opacity group-hover:opacity-100" />
                   </Link>
                 </li>
@@ -69,21 +63,21 @@ export const Footer = () => {
           {/* Contact + hours */}
           <div>
             <h4 className="text-sm font-bold tracking-widest text-foreground/90">{t("getInTouch")}</h4>
-            <ul className="mt-5 space-y-4 text-sm text-foreground/65">
+            <ul className="mt-5 space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-primary-light" />
-                <Text as="span" size="caption" tone="muted" text={company.address} />
+                <Text as="span" size="body" tone="muted" text={company.address} />
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="size-4 shrink-0 text-primary-light" />
-                <a href={company.phoneHref} className="hover:text-foreground">
-                  {company.phone}
+                <a href={company.phoneHref}>
+                  <Text as="span" size="body" tone="muted" text={company.phone} />
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="size-4 shrink-0 text-primary-light" />
-                <a href={`mailto:${company.email}`} className="hover:text-foreground">
-                  {company.email}
+                <a href={`mailto:${company.email}`}>
+                  <Text as="span" size="body" tone="muted" text={company.email} />
                 </a>
               </li>
             </ul>
@@ -91,8 +85,8 @@ export const Footer = () => {
             <div className="mt-6 space-y-2 border-t border-line pt-5">
               {hours.map((row) => (
                 <div key={row.day} className="flex justify-between">
-                  <Text as="span" size="caption" tone="muted" text={row.day} />
-                  <Text as="span" size="caption" tone="muted" weight="medium" text={row.time} />
+                  <Text as="span" size="body" tone="muted" text={row.day} />
+                  <Text as="span" size="body" tone="muted" weight="medium" text={row.time} />
                 </div>
               ))}
             </div>
@@ -101,19 +95,19 @@ export const Footer = () => {
       </div>
 
       <div className="border-t border-line">
-        <div className="container-x flex flex-col items-center justify-between gap-3 py-6 text-sm text-foreground/50 sm:flex-row">
+        <div className="container-x flex flex-col items-center justify-between gap-3 py-6 sm:flex-row">
           <Text
             as="span"
-            size="caption"
+            size="body"
             tone="muted"
             text={`© ${new Date().getFullYear()} ${company.name}. ${t("rights")}`}
           />
           <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground">
-              {t("privacy")}
+            <a href="#">
+              <Text as="span" size="body" tone="muted" text={t("privacy")} />
             </a>
-            <a href="#" className="hover:text-foreground">
-              {t("terms")}
+            <a href="#">
+              <Text as="span" size="body" tone="muted" text={t("terms")} />
             </a>
           </div>
         </div>

@@ -32,13 +32,13 @@ export const Hero = async () => {
         <div className="max-w-3xl">
           <Reveal
             delay={0.05}
-            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs font-semibold tracking-[0.135rem] text-white/90 backdrop-blur"
+            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 backdrop-blur"
           >
             <span className="relative flex size-2">
               <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex size-2 rounded-full bg-primary" />
             </span>
-            {t("badge")}
+            <Text as="span" size="caption" tone="white" weight="semibold" text={t("badge")} />
           </Reveal>
 
           <Reveal as="div" delay={0.13} className="mt-6">

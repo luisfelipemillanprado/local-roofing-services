@@ -35,20 +35,20 @@ export const About = async () => {
           <div className="theme-dark absolute top-8 -right-3 grid size-28 place-items-center rounded-full bg-primary text-center text-white shadow-lg shadow-shade/40 sm:size-32">
             <div>
               <TextNumber as="p" size="display" text={`${company.yearsExperience}+`} />
-              <div className="mt-1 text-[0.6rem] font-semibold tracking-widest">
-                {t("yearsLine1")}
-                <br /> {t("yearsLine2")}
+              <div className="mt-1">
+                <Text as="p" size="label" tone="default" weight="semibold" text={t("yearsLine1")} />
+                <Text as="p" size="label" tone="default" weight="semibold" text={t("yearsLine2")} />
               </div>
             </div>
           </div>
 
           {/* Floating contact card */}
-          <div className="absolute -bottom-6 left-6 flex items-center gap-3 rounded-2xl bg-contrast px-5 py-4 text-white shadow-lg shadow-shade/40">
+          <div className="theme-dark absolute -bottom-6 left-6 flex items-center gap-3 rounded-2xl bg-contrast px-5 py-4 text-white shadow-lg shadow-shade/40">
             <span className="grid size-11 place-items-center rounded-full bg-primary">
               <Phone className="size-5" />
             </span>
             <div>
-              <p className="text-[0.65rem] tracking-widest text-white/60">{t("callAnytime")}</p>
+              <Text as="p" size="label" tone="muted" text={t("callAnytime")} />
               <a href={company.phoneHref} className="text-sm font-bold">
                 {company.phone}
               </a>

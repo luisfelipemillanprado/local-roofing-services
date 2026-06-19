@@ -40,8 +40,8 @@ export const Pricing = async () => {
                 }`}
               >
                 {plan.highlighted && (
-                  <span className="absolute top-6 right-6 rounded-full bg-primary px-3 py-1 text-xs font-bold tracking-wider text-white">
-                    {t("popular")}
+                  <span className="absolute top-6 right-6 rounded-full bg-primary px-3 py-1">
+                    <Text as="span" size="label" tone="white" weight="semibold" text={t("popular")} />
                   </span>
                 )}
 

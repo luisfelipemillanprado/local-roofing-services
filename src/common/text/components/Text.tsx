@@ -1,26 +1,24 @@
 import type { TextProps, TextSize, TextTone, TextWeight } from "@/common/text/types";
 
-/* Body size tiers (arbitrary rem only where Tailwind has no match). */
 const sizes: Record<TextSize, string> = {
-  lead: "text-base leading-relaxed", // 16px
-  body: "text-[0.9375rem] leading-relaxed", // 15px
-  caption: "text-sm", // 14px
-  note: "text-[0.8125rem]", // 13px
-  label: "text-xs", // 12px
+  lead: "text-base leading-relaxed" /* 16px — section/page descriptions, footer tagline */,
+  body: "text-[0.9375rem] leading-relaxed" /* 15px — card body, buttons, navbar, footer */,
+  caption: "text-sm leading-tight" /* 14px — hero rating, marquee, stat captions */,
+  note: "text-[0.8125rem] leading-tight" /* 13px — reserved tier, no usage yet */,
+  label: "text-xs leading-tight" /* 12px — eyebrows and badges */,
 };
 
-/* Colors owned here — never inherited. */
 const tones: Record<TextTone, string> = {
-  default: "text-foreground",
-  muted: "text-foreground-muted",
-  white: "text-white",
-  primary: "text-primary",
+  default: "text-foreground" /* navy/white per theme — phone, mobile menu */,
+  muted: "text-foreground-muted" /* slate/stone — descriptions (most common) */,
+  white: "text-white" /* badges over dark imagery (hero, marquee) */,
+  primary: "text-primary" /* accent labels — categories, eyebrows */,
 };
 
-/* Body weights only (bold display lives in the title component). */
 const weights: Record<TextWeight, string> = {
-  medium: "font-medium",
-  semibold: "font-semibold",
+  medium: "font-medium" /* navbar links */,
+  semibold: "font-semibold" /* buttons, badges, emphasized copy */,
+  bold: "font-bold" /* marquee strip labels */,
 };
 
 export const Text = ({ as: Tag = "p", size = "body", tone = "default", weight, text }: TextProps) => (

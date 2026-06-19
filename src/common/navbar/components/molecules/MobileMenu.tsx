@@ -5,6 +5,7 @@ import { Menu, X, Home, Info, Wrench, Hammer, Tag, Phone, Star, Package, Ellipsi
 import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
+import { Text } from "@/common/text/components/Text";
 import type { MobileMenuProps, NavLinkKey } from "@/common/navbar/types";
 
 // Exit animation duration (matches the panel's duration-500).
@@ -98,10 +99,10 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
                     key={link.key}
                     href={link.href}
                     onClick={handleCloseOptions}
-                    className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center text-sm font-semibold text-foreground transition-colors hover:bg-primary hover:text-white"
+                    className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary"
                   >
                     <Icon className="size-6 text-primary" aria-hidden />
-                    {link.label}
+                    <Text as="span" size="body" tone="default" weight="semibold" text={link.label} />
                   </Link>
                 );
               })}

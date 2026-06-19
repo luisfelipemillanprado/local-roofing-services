@@ -68,11 +68,8 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                   <div className="mt-3 flex-1">
                     <Text size="body" tone="muted" text={t(`items.${service.key}.description`)} />
                   </div>
-                  <Link
-                    href="#contact"
-                    className="mt-5 inline-flex items-center gap-2 font-semibold transition-colors hover:text-primary-dark"
-                  >
-                    <Text as="span" size="caption" tone="primary" text={tc("learnMore")} />
+                  <Link href="#contact" className="mt-5 inline-flex items-center gap-2">
+                    <Text as="span" size="caption" tone="primary" weight="semibold" text={tc("learnMore")} />
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
