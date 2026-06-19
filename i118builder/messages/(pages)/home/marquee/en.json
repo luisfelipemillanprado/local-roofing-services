@@ -1,19 +1,19 @@
 {
   "items": {
     "stormReady": {
-      "label": "Storm Ready"
+      "label": "STORM READY"
     },
     "licensed": {
-      "label": "Licensed & Insured"
+      "label": "LICENSED & INSURED"
     },
     "years": {
-      "label": "25+ Years"
+      "label": "25+ YEARS"
     },
     "builtStrong": {
-      "label": "Built Strong"
+      "label": "BUILT STRONG"
     },
     "fullService": {
-      "label": "Full Service"
+      "label": "FULL SERVICE"
     }
   }
 }

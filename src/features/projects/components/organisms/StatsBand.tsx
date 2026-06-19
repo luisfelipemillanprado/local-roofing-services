@@ -1,6 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
+import { TextNumber } from "@/common/text/components/TextNumber";
 import { projectStatsSection } from "@/data/pages/projects";
 
 export const StatsBand = async () => {
@@ -8,16 +10,14 @@ export const StatsBand = async () => {
   const items = projectStatsSection.items;
 
   return (
-    <section className="bg-ink py-20 lg:py-28">
+    <section className="theme-dark bg-contrast py-20 lg:py-28">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
-          theme="dark"
           align="center"
           title={
             <>
-              {t("titleLead")}{" "}
-              <span className="text-primary">{t("titleAccent")}</span>
+              {t("titleLead")} <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
           description={t("description")}
@@ -35,11 +35,11 @@ export const StatsBand = async () => {
                 <span className="mx-auto grid size-14 place-items-center rounded-2xl bg-primary text-white">
                   <Icon className="size-7" />
                 </span>
-                <div className="mt-5 text-4xl font-extrabold text-white">
-                  {t(`items.${stat.key}.value`)}
+                <div className="mt-5">
+                  <TextNumber as="p" size="display" text={t(`items.${stat.key}.value`)} />
                 </div>
-                <div className="mt-1 text-sm text-white/60">
-                  {t(`items.${stat.key}.label`)}
+                <div className="mt-1">
+                  <Text size="caption" tone="muted" text={t(`items.${stat.key}.label`)} />
                 </div>
               </Reveal>
             );
@@ -48,4 +48,4 @@ export const StatsBand = async () => {
       </div>
     </section>
   );
-}
+};

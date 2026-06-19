@@ -1,6 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
+import { TextNumber } from "@/common/text/components/TextNumber";
 import { processSection } from "@/data/pages/services";
 
 export const ProcessSteps = async () => {
@@ -15,8 +17,7 @@ export const ProcessSteps = async () => {
           align="center"
           title={
             <>
-              {t("titleLead")}{" "}
-              <span className="text-primary">{t("titleAccent")}</span>
+              {t("titleLead")} <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
           description={t("description")}
@@ -32,18 +33,14 @@ export const ProcessSteps = async () => {
                 delay={i * 0.08}
                 className="rounded-card border border-line bg-surface-panel p-7"
               >
-                <span className="text-sm font-extrabold text-primary">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
+                <TextNumber size="base" tone="primary" text={String(i + 1).padStart(2, "0")} />
                 <span className="mt-4 grid size-14 place-items-center rounded-2xl bg-surface-muted text-primary">
                   <Icon className="size-7" />
                 </span>
-                <h3 className="mt-5 text-lg font-bold text-foreground">
-                  {t(`steps.${step.key}.title`)}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-foreground-muted">
-                  {t(`steps.${step.key}.description`)}
-                </p>
+                <h3 className="mt-5 text-lg font-bold text-foreground">{t(`steps.${step.key}.title`)}</h3>
+                <div className="mt-2">
+                  <Text size="body" tone="muted" text={t(`steps.${step.key}.description`)} />
+                </div>
               </Reveal>
             );
           })}
@@ -51,4 +48,4 @@ export const ProcessSteps = async () => {
       </div>
     </section>
   );
-}
+};

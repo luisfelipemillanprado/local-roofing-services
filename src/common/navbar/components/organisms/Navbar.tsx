@@ -30,16 +30,12 @@ export const Navbar = async () => {
 
   // Desktop keeps the group; mobile flattens it into plain links.
   const navLinks: NavLink[] = navbar.links.map((link) =>
-    isNavGroupData(link)
-      ? { ...withLabel(link), children: link.children.map(withLabel) }
-      : withLabel(link),
+    isNavGroupData(link) ? { ...withLabel(link), children: link.children.map(withLabel) } : withLabel(link),
   );
-  const mobileLinks: NavLeaf[] = navLinks.flatMap((link) =>
-    isNavGroup(link) ? link.children : [link],
-  );
+  const mobileLinks: NavLeaf[] = navLinks.flatMap((link) => (isNavGroup(link) ? link.children : [link]));
 
   return (
-    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-foreground shadow-xs shadow-ink/30">
+    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-foreground shadow-xs shadow-shade/30">
       {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
       <div className="absolute inset-0 -z-10 bg-surface-panel/90 backdrop-blur-md" />
       <div className="container-x flex h-18 items-center justify-between py-3">
@@ -78,13 +74,9 @@ export const Navbar = async () => {
         <div className="flex items-center gap-2 lg:hidden">
           <LanguageSwitch />
           <ThemeToggle />
-          <MobileMenu
-            navLinks={mobileLinks}
-            menuId={navbar.menuId}
-            toggleMenuLabel={t("toggleMenu")}
-          />
+          <MobileMenu navLinks={mobileLinks} menuId={navbar.menuId} toggleMenuLabel={t("toggleMenu")} />
         </div>
       </div>
     </header>
   );
-}
+};

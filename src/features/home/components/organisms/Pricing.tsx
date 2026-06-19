@@ -1,7 +1,9 @@
 import { Check } from "lucide-react";
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
+import { TextNumber } from "@/common/text/components/TextNumber";
 import { getTranslations } from "next-intl/server";
 import { pricingSection } from "@/data/pages/home";
 
@@ -17,8 +19,7 @@ export const Pricing = async () => {
           align="center"
           title={
             <>
-              {t("titleLead")}{" "}
-              <span className="text-primary">{t("titleAccent")}</span>
+              {t("titleLead")} <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
           description={t("description")}
@@ -34,73 +35,51 @@ export const Pricing = async () => {
                 delay={i * 0.08}
                 className={`relative flex flex-col rounded-card border p-8 transition-all duration-300 ${
                   plan.highlighted
-                    ? "border-transparent bg-ink text-white shadow-lg shadow-ink/40"
+                    ? "theme-dark border-transparent bg-highlight text-white shadow-lg shadow-shade/40"
                     : "border-line bg-surface-muted"
                 }`}
               >
                 {plan.highlighted && (
-                  <span className="absolute right-6 top-6 rounded-full bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
+                  <span className="absolute top-6 right-6 rounded-full bg-primary px-3 py-1 text-xs font-bold tracking-wider text-white">
                     {t("popular")}
                   </span>
                 )}
 
                 <span
                   className={`grid size-14 place-items-center rounded-2xl ${
-                    plan.highlighted
-                      ? "bg-primary text-white"
-                      : "bg-surface-panel text-primary"
+                    plan.highlighted ? "bg-primary text-white" : "bg-surface-panel text-primary"
                   }`}
                 >
                   <Icon className="size-7" />
                 </span>
 
                 <h3
-                  className={`mt-6 text-xl font-bold ${
-                    plan.highlighted ? "text-white" : "text-foreground"
-                  }`}
+                  className={`mt-6 text-xl font-bold ${plan.highlighted ? "text-white" : "text-foreground"}`}
                 >
                   {t(`plans.${plan.key}.name`)}
                 </h3>
-                <p
-                  className={`mt-2 text-sm ${
-                    plan.highlighted ? "text-white/70" : "text-foreground-muted"
-                  }`}
-                >
-                  {t(`plans.${plan.key}.blurb`)}
-                </p>
+                <div className="mt-2">
+                  <Text size="body" tone="muted" text={t(`plans.${plan.key}.blurb`)} />
+                </div>
 
                 <div className="mt-6 flex items-end gap-2">
-                  <span className="text-4xl font-extrabold">
-                    {t(`plans.${plan.key}.price`)}
-                  </span>
-                  <span
-                    className={`mb-1 text-sm ${
-                      plan.highlighted ? "text-white/60" : "text-foreground-muted"
-                    }`}
-                  >
-                    {t(`plans.${plan.key}.period`)}
+                  <TextNumber size="display" text={t(`plans.${plan.key}.price`)} />
+                  <span className="mb-1">
+                    <Text as="span" size="body" tone="muted" text={t(`plans.${plan.key}.period`)} />
                   </span>
                 </div>
 
                 <ul className="mt-7 flex-1 space-y-3.5">
                   {features.map((feature) => (
-                    <li key={feature} className="flex items-center gap-3 text-sm">
+                    <li key={feature} className="flex items-center gap-3">
                       <span
                         className={`grid size-5 shrink-0 place-items-center rounded-full ${
-                          plan.highlighted
-                            ? "bg-primary text-white"
-                            : "bg-primary/10 text-primary"
+                          plan.highlighted ? "bg-primary text-white" : "bg-primary/10 text-primary"
                         }`}
                       >
                         <Check className="size-3" strokeWidth={3.5} />
                       </span>
-                      <span
-                        className={
-                          plan.highlighted ? "text-white/85" : "text-foreground/80"
-                        }
-                      >
-                        {feature}
-                      </span>
+                      <Text as="span" size="body" tone="muted" text={feature} />
                     </li>
                   ))}
                 </ul>
@@ -120,4 +99,4 @@ export const Pricing = async () => {
       </div>
     </section>
   );
-}
+};

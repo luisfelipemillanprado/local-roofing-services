@@ -1,10 +1,8 @@
-import type { ReactNode } from "react";
-
 export type ButtonVariant = "primary" | "dark" | "outline" | "ghost";
 
 export interface ButtonProps {
   href: string;
-  children: ReactNode;
+  children: string;
   variant?: ButtonVariant;
   withArrow?: boolean;
   className?: string;

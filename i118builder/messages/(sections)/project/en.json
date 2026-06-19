@@ -1,5 +1,5 @@
 {
-  "eyebrow": "Our Projects",
+  "eyebrow": "OUR PROJECTS",
   "titleLead": "Transformative Roofs",
   "titleAccent": "Exceptional Results",
   "description": "A curated selection of recent roofs we've designed, built and carefully restored, each delivered on schedule with durable, high-quality materials and meticulous craftsmanship our clients can always rely on.",
@@ -7,39 +7,39 @@
   "items": {
     "cedarHeights": {
       "title": "Cedar Heights Residence",
-      "category": "Shingle Re-Roof"
+      "category": "SHINGLE RE-ROOF"
     },
     "summitBungalow": {
       "title": "Summit Modern Bungalow",
-      "category": "Tile Roof Installation"
+      "category": "TILE ROOF INSTALLATION"
     },
     "lakeviewContemporary": {
       "title": "Lakeview Contemporary",
-      "category": "Roof & Skylight"
+      "category": "ROOF & SKYLIGHT"
     },
     "mapleGrove": {
       "title": "Maple Grove Residence",
-      "category": "Tile Re-Roof"
+      "category": "TILE RE-ROOF"
     },
     "northgateRanch": {
       "title": "Northgate Modern Ranch",
-      "category": "Metal Roof System"
+      "category": "METAL ROOF SYSTEM"
     },
     "stonebridge": {
       "title": "Stonebridge Family Home",
-      "category": "Hip Roof Installation"
+      "category": "HIP ROOF INSTALLATION"
     },
     "blackpineEstate": {
       "title": "Blackpine Modern Estate",
-      "category": "Standing-Seam Metal Roof"
+      "category": "STANDING-SEAM METAL ROOF"
     },
     "greystoneFarmhouse": {
       "title": "Greystone Farmhouse",
-      "category": "Slate Roof System"
+      "category": "SLATE ROOF SYSTEM"
     },
     "sunsetRidge": {
       "title": "Sunset Ridge Home",
-      "category": "Gable Tile Roof"
+      "category": "GABLE TILE ROOF"
     }
   }
 }

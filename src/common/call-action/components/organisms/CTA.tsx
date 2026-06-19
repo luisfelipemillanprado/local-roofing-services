@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ArrowRight, Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
 
 type CTAProps = {
   /** Section background, used to keep each page's section alternation correct. */
@@ -28,24 +29,31 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
   return (
     <section id="contact" className={`${bg} py-20 lg:py-28`}>
       <div className="container-x">
-        <Reveal className="relative isolate overflow-hidden rounded-4xl bg-ink px-6 py-16 sm:px-12 lg:px-16">
+        <Reveal className="theme-dark relative isolate overflow-hidden rounded-4xl bg-contrast px-6 py-16 sm:px-12 lg:px-16">
           <div className="absolute inset-0 -z-10 opacity-30">
-            <Image src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=80" alt="" fill sizes="100vw" className="object-cover" />
+            <Image
+              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=80"
+              alt=""
+              fill
+              sizes="100vw"
+              className="object-cover"
+            />
           </div>
-          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink via-ink/90 to-primary/40" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-contrast via-contrast/90 to-primary/40" />
 
           <div className="max-w-2xl text-center lg:text-left">
-            <span className="eyebrow">{t("eyebrow")}</span>
-            <h2 className="mt-4 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl lg:text-5xl">
+            <span className="eyebrow">
+              <Text as="span" size="label" tone="primary" text={t("eyebrow")} />
+            </span>
+            <h2 className="mt-4 text-3xl leading-[1.1] font-extrabold text-white sm:text-4xl lg:text-5xl">
               {t("titleLead")}
               <span className="block text-primary">{t("titleAccent")}</span>
             </h2>
-            <p className="mt-5 max-w-xl text-white/70 mx-auto lg:mx-0">{t("body")}</p>
+            <div className="mx-auto mt-5 max-w-xl lg:mx-0">
+              <Text size="lead" tone="muted" text={t("body")} />
+            </div>
 
-            <form
-              onSubmit={onSubmit}
-              className="mt-8 flex flex-col gap-3 sm:flex-row"
-            >
+            <form onSubmit={onSubmit} className="mt-8 flex flex-col gap-3 sm:flex-row">
               <label htmlFor="cta-email" className="sr-only">
                 {t("emailLabel")}
               </label>
@@ -56,11 +64,11 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={t("emailPlaceholder")}
-                className="w-full flex-1 rounded-full border border-white/15 bg-white/10 px-6 py-4 text-sm text-white placeholder:text-white/50 backdrop-blur focus:border-primary-light focus:outline-none"
+                className="w-full flex-1 rounded-full border border-white/15 bg-white/10 px-6 py-4 text-sm text-white backdrop-blur placeholder:text-white/50 focus:border-primary-light focus:outline-none"
               />
               <button
                 type="submit"
-                className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:bg-primary-dark"
+                className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5"
               >
                 {sent ? (
                   <>
@@ -79,4 +87,4 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
       </div>
     </section>
   );
-}
+};

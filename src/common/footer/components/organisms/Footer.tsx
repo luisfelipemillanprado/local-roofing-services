@@ -3,6 +3,7 @@
 import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
 import { Logo } from "@/common/logo/components/atoms/Logo";
 import { Socials } from "@/common/social/components/molecules/Socials";
+import { Text } from "@/common/text/components/Text";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
@@ -23,17 +24,15 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <Logo />
-            <p className="mt-5 max-w-xs text-sm leading-relaxed text-foreground/65">
-              {t("tagline", { name: company.name })}
-            </p>
+            <div className="mt-5 max-w-xs">
+              <Text size="caption" tone="muted" text={t("tagline", { name: company.name })} />
+            </div>
             <Socials className="mt-6" />
           </div>
 
           {/* Top links */}
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-foreground/90">
-              {t("topLinksTitle")}
-            </h4>
+            <h4 className="text-sm font-bold tracking-widest text-foreground/90">{t("topLinksTitle")}</h4>
             <ul className="mt-5 space-y-3">
               {topLinks.map((link) => (
                 <li key={link.label}>
@@ -51,9 +50,7 @@ export const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-foreground/90">
-              {t("servicesTitle")}
-            </h4>
+            <h4 className="text-sm font-bold tracking-widest text-foreground/90">{t("servicesTitle")}</h4>
             <ul className="mt-5 space-y-3">
               {services.map((link) => (
                 <li key={link.label}>
@@ -71,13 +68,11 @@ export const Footer = () => {
 
           {/* Contact + hours */}
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-foreground/90">
-              {t("getInTouch")}
-            </h4>
+            <h4 className="text-sm font-bold tracking-widest text-foreground/90">{t("getInTouch")}</h4>
             <ul className="mt-5 space-y-4 text-sm text-foreground/65">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-primary-light" />
-                {company.address}
+                <Text as="span" size="caption" tone="muted" text={company.address} />
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="size-4 shrink-0 text-primary-light" />
@@ -95,9 +90,9 @@ export const Footer = () => {
 
             <div className="mt-6 space-y-2 border-t border-line pt-5">
               {hours.map((row) => (
-                <div key={row.day} className="flex justify-between text-sm">
-                  <span className="text-foreground/65">{row.day}</span>
-                  <span className="font-medium text-foreground/90">{row.time}</span>
+                <div key={row.day} className="flex justify-between">
+                  <Text as="span" size="caption" tone="muted" text={row.day} />
+                  <Text as="span" size="caption" tone="muted" weight="medium" text={row.time} />
                 </div>
               ))}
             </div>
@@ -107,9 +102,12 @@ export const Footer = () => {
 
       <div className="border-t border-line">
         <div className="container-x flex flex-col items-center justify-between gap-3 py-6 text-sm text-foreground/50 sm:flex-row">
-          <p>
-            © {new Date().getFullYear()} {company.name}. {t("rights")}
-          </p>
+          <Text
+            as="span"
+            size="caption"
+            tone="muted"
+            text={`© ${new Date().getFullYear()} ${company.name}. ${t("rights")}`}
+          />
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground">
               {t("privacy")}
@@ -122,4 +120,4 @@ export const Footer = () => {
       </div>
     </footer>
   );
-}
+};

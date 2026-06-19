@@ -4,7 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/common/navbar/components/organisms/Navbar";
 import { Footer } from "@/common/footer/components/organisms/Footer";
 import { PageHeader } from "@/common/page-header/components/organisms/PageHeader";
-import { Services } from "@/common/service/components/organisms/Services";
+import { Services } from "@/common/service/components/Services";
 import { ProcessSteps } from "@/features/services/components/organisms/ProcessSteps";
 import { Faq } from "@/features/services/components/organisms/Faq";
 import { CTA } from "@/common/call-action/components/organisms/CTA";

@@ -1,7 +1,8 @@
 import { getTranslations } from "next-intl/server";
 import { ChevronDown } from "lucide-react";
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
 
 export const Faq = async () => {
   const t = await getTranslations("services-page.faq");
@@ -15,8 +16,7 @@ export const Faq = async () => {
           align="center"
           title={
             <>
-              {t("titleLead")}{" "}
-              <span className="text-primary">{t("titleAccent")}</span>
+              {t("titleLead")} <span className="text-primary">{t("titleAccent")}</span>
             </>
           }
           description={t("description")}
@@ -30,9 +30,9 @@ export const Faq = async () => {
                   {item.q}
                   <ChevronDown className="size-5 shrink-0 text-primary transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <p className="mt-4 text-sm leading-relaxed text-foreground-muted">
-                  {item.a}
-                </p>
+                <div className="mt-4">
+                  <Text size="body" tone="muted" text={item.a} />
+                </div>
               </details>
             </Reveal>
           ))}
@@ -40,4 +40,4 @@ export const Faq = async () => {
       </div>
     </section>
   );
-}
+};

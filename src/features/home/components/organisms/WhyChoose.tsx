@@ -1,6 +1,8 @@
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
+import { TextNumber } from "@/common/text/components/TextNumber";
 import { getTranslations } from "next-intl/server";
 import { whyChooseSection } from "@/data/pages/home";
 
@@ -20,9 +22,7 @@ export const WhyChoose = async () => {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-primary">
-                  {t("titleAccent")}
-                </span>
+                <span className="block text-primary">{t("titleAccent")}</span>
               </>
             }
             description={t("description")}
@@ -37,12 +37,8 @@ export const WhyChoose = async () => {
                     <Icon className="size-5" />
                   </span>
                   <div>
-                    <div className="text-xl font-extrabold text-foreground">
-                      {t(`stats.${stat.key}.value`)}
-                    </div>
-                    <div className="text-xs text-foreground-muted">
-                      {t(`stats.${stat.key}.label`)}
-                    </div>
+                    <TextNumber as="p" size="stat" text={t(`stats.${stat.key}.value`)} />
+                    <Text size="label" tone="muted" text={t(`stats.${stat.key}.label`)} />
                   </div>
                 </div>
               );
@@ -63,9 +59,9 @@ export const WhyChoose = async () => {
               <Reveal
                 key={feature.key}
                 delay={i * 0.08}
-                className={`group rounded-card border p-7 shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 ${
+                className={`group rounded-card border p-7 shadow-shade/40 transition-all duration-300 hover:-translate-y-1.5 ${
                   i === 1
-                    ? "border-transparent bg-ink text-white shadow-lg"
+                    ? "border-transparent bg-highlight text-white shadow-lg"
                     : "border-line bg-surface-muted hover:shadow-md"
                 }`}
               >
@@ -78,20 +74,12 @@ export const WhyChoose = async () => {
                 >
                   <Icon className="size-7" />
                 </span>
-                <h3
-                  className={`mt-6 text-lg font-bold ${
-                    i === 1 ? "text-white" : "text-foreground"
-                  }`}
-                >
+                <h3 className={`mt-6 text-lg font-bold ${i === 1 ? "text-white" : "text-foreground"}`}>
                   {t(`features.${feature.key}.title`)}
                 </h3>
-                <p
-                  className={`mt-3 text-sm leading-relaxed ${
-                    i === 1 ? "text-white/70" : "text-foreground-muted"
-                  }`}
-                >
-                  {t(`features.${feature.key}.description`)}
-                </p>
+                <div className="mt-3">
+                  <Text size="body" tone="muted" text={t(`features.${feature.key}.description`)} />
+                </div>
               </Reveal>
             );
           })}
@@ -99,4 +87,4 @@ export const WhyChoose = async () => {
       </div>
     </section>
   );
-}
+};

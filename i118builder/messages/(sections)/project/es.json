@@ -1,5 +1,5 @@
 {
-  "eyebrow": "Nuestros Proyectos",
+  "eyebrow": "NUESTROS PROYECTOS",
   "titleLead": "Techos Que Transforman",
   "titleAccent": "Resultados Excepcionales",
   "description": "Una selección cuidada de techos que hemos diseñado, construido y restaurado, cada uno entregado a tiempo con materiales duraderos de alta calidad y la ejecución meticulosa que nuestros clientes esperan.",
@@ -7,39 +7,39 @@
   "items": {
     "cedarHeights": {
       "title": "Residencia Cedar Heights",
-      "category": "Retecho de Tejas"
+      "category": "RETECHO DE TEJAS"
     },
     "summitBungalow": {
       "title": "Bungaló Moderno Summit",
-      "category": "Instalación de Tejas"
+      "category": "INSTALACIÓN DE TEJAS"
     },
     "lakeviewContemporary": {
       "title": "Contemporánea Lakeview",
-      "category": "Techo y Claraboya"
+      "category": "TECHO Y CLARABOYA"
     },
     "mapleGrove": {
       "title": "Residencia Maple Grove",
-      "category": "Retecho de Tejas"
+      "category": "RETECHO DE TEJAS"
     },
     "northgateRanch": {
       "title": "Rancho Moderno Northgate",
-      "category": "Sistema de Techo Metálico"
+      "category": "SISTEMA DE TECHO METÁLICO"
     },
     "stonebridge": {
       "title": "Casa Familiar Stonebridge",
-      "category": "Techo a Cuatro Aguas"
+      "category": "TECHO A CUATRO AGUAS"
     },
     "blackpineEstate": {
       "title": "Finca Moderna Blackpine",
-      "category": "Techo Metálico de Junta Alzada"
+      "category": "TECHO METÁLICO DE JUNTA ALZADA"
     },
     "greystoneFarmhouse": {
       "title": "Granja Greystone",
-      "category": "Sistema de Techo de Pizarra"
+      "category": "SISTEMA DE TECHO DE PIZARRA"
     },
     "sunsetRidge": {
       "title": "Casa Sunset Ridge",
-      "category": "Techo de Teja a Dos Aguas"
+      "category": "TECHO DE TEJA A DOS AGUAS"
     }
   }
 }

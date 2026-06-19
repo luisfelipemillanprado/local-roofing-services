@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
 import { getTranslations } from "next-intl/server";
 import { servicesSection } from "@/data/sections/services";
 import type { ServicesProps } from "@/common/service/types";
@@ -25,9 +26,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-primary">
-                  {t("titleAccent")}
-                </span>
+                <span className="block text-primary">{t("titleAccent")}</span>
               </>
             }
             description={t("description")}
@@ -48,7 +47,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                 as="article"
                 key={service.key}
                 delay={i * 0.08}
-                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface-panel shadow-md shadow-ink/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
+                className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface-panel shadow-md shadow-shade/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
               >
                 <div className="relative aspect-[16/11] overflow-hidden">
                   <Image
@@ -60,20 +59,20 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <span className="absolute left-4 top-4 grid size-12 place-items-center rounded-xl bg-primary text-white shadow-lg shadow-ink/40">
+                  <span className="absolute top-4 left-4 grid size-12 place-items-center rounded-xl bg-primary text-white shadow-lg shadow-shade/40">
                     <Icon className="size-6" />
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6">
                   <h3 className="text-xl font-bold text-foreground">{title}</h3>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-foreground-muted">
-                    {t(`items.${service.key}.description`)}
-                  </p>
+                  <div className="mt-3 flex-1">
+                    <Text size="body" tone="muted" text={t(`items.${service.key}.description`)} />
+                  </div>
                   <Link
                     href="#contact"
-                    className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-primary transition-colors hover:text-primary-dark"
+                    className="mt-5 inline-flex items-center gap-2 font-semibold transition-colors hover:text-primary-dark"
                   >
-                    {tc("learnMore")}
+                    <Text as="span" size="caption" tone="primary" text={tc("learnMore")} />
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
@@ -84,4 +83,4 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
       </div>
     </section>
   );
-}
+};

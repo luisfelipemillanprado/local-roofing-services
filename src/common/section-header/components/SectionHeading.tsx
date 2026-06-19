@@ -1,4 +1,5 @@
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
 import type { SectionHeadingProps } from "@/common/section-header/types";
 
 export const SectionHeading = ({
@@ -17,23 +18,23 @@ export const SectionHeading = ({
         : "items-start max-w-xl";
   return (
     <Reveal className={`flex flex-col gap-4 ${alignClass} ${className}`}>
-      <span className="eyebrow">{eyebrow}</span>
+      <span className="eyebrow">
+        <Text as="span" size="label" tone="primary" text={eyebrow} />
+      </span>
       <h2
-        className={`text-3xl font-extrabold leading-[1.1] sm:text-4xl lg:text-[2.75rem] ${
+        className={`text-3xl leading-[1.1] font-extrabold sm:text-4xl lg:text-[2.75rem] ${
           theme === "dark" ? "text-white" : "text-foreground"
         }`}
       >
         {title}
       </h2>
-      {description && (
-        <p
-          className={`text-base leading-relaxed ${
-            theme === "dark" ? "text-white/70" : "text-foreground-muted"
-          }`}
-        >
-          {description}
-        </p>
-      )}
+      {description &&
+        // Always-dark surfaces keep light text; theme-aware ones use foreground-muted.
+        (theme === "dark" ? (
+          <p className="text-base leading-relaxed text-white/70">{description}</p>
+        ) : (
+          <Text size="lead" tone="muted" text={description} />
+        ))}
     </Reveal>
   );
-}
+};

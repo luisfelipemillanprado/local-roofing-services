@@ -9,7 +9,7 @@ export const Logo = () => {
       className="inline-flex items-center gap-2.5 font-display text-xl font-extrabold tracking-tight"
       aria-label={`${company.name} home`}
     >
-      <span className="grid size-9 place-items-center rounded-xl bg-primary text-white shadow-sm shadow-ink/40">
+      <span className="grid size-9 place-items-center rounded-xl bg-primary text-white shadow-sm shadow-shade/40">
         <svg viewBox="0 0 24 24" className="size-5" fill="none" aria-hidden>
           <path
             d="M3 11.5 12 4l9 7.5"
@@ -30,4 +30,4 @@ export const Logo = () => {
       <span>{company.name}</span>
     </Link>
   );
-}
+};

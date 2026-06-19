@@ -13,7 +13,7 @@ export const Marquee = async () => {
           return (
             <div key={i} className="flex items-center gap-3 px-8 text-white">
               <Icon className="size-5 shrink-0 opacity-90" />
-              <span className="whitespace-nowrap text-sm font-bold uppercase tracking-[0.175rem]">
+              <span className="text-sm font-bold tracking-[0.175rem] whitespace-nowrap">
                 {t(`items.${item.key}.label`)}
               </span>
               <span className="ml-8 size-1.5 rounded-full bg-white/50" />
@@ -23,4 +23,4 @@ export const Marquee = async () => {
       </div>
     </div>
   );
-}
+};

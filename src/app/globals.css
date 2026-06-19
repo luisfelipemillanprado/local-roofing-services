@@ -17,42 +17,37 @@
   --breakpoint-xl: 80rem;
   --breakpoint-2xl: 96rem;
 
-  /* Dark brand palette (default theme), from the mockup. */
-  --color-night: oklch(0.243 0.014 239.25); /* dark base */
-  --color-amber: oklch(0.78 0.1 72); /* primary accent (mobile) */
-  --color-amber-vivid: oklch(
-    0.7552 0.1253 80.01
-  ); /* primary accent (≥1024px) */
-  --color-tan: oklch(0.6729 0.0913 61.35); /* deep accent (hover) */
-  --color-peach: oklch(0.8789 0.0479 51.54); /* soft accent */
-
-  /* Third-party brand colors. */
-  --color-malachite: oklch(0.761 0.2015 149.74); /* whatsapp accent */
-
-  /* Neutrals — shared (primitives; theme roles below reference these). */
-  --color-white: oklch(1 0 0);
-  --color-white-soft: oklch(0.97 0 0); /* less intense white */
+  /* Neutrals — shared (dark & light theme). */
+  --color-night: oklch(0.243 0.014 239.25); /* → --surface-base (dark) */
+  --color-tan: oklch(0.6729 0.0913 61.35); /* → --primary-dark: explore-link hover */
+  --color-amber-vivid: oklch(0.7552 0.1253 80.01); /* → --amber at ≥1024px (desktop) */
+  --color-amber: oklch(0.78 0.1 72); /* → --primary (accent, mobile base) */
+  --color-peach: oklch(0.8789 0.0479 51.54); /* → --primary-light (soft accent) */
+  --color-malachite: oklch(0.761 0.2015 149.74); /* WhatsApp FAB (bg-malachite) */
+  --color-onyx: oklch(0.2047 0.0121 237.38); /* → --shade (shadows) */
+  --color-gunmetal: oklch(0.25 0.015 237.38); /* → overlay-* (image scrims) */
+  --color-white: oklch(1 0 0); /* → --foreground (dark), --primary-foreground, --line */
 
   /* Neutrals — dark theme. */
-  --color-graphite: oklch(0.2047 0.0121 237.38); /* dark ink */
-  --color-graphite-soft: oklch(0.251 0.0162 240.71);
-  --color-steel: oklch(0.2954 0.0237 246.15); /* dark surface-panel */
-  --color-charcoal: oklch(0.2183 0.0133 243.53); /* dark surface-muted */
-  --color-slate: oklch(0.7208 0.027 255.6); /* dark muted text */
-  --color-slate-deep: oklch(0.3262 0.024 243.72); /* dark scrollbar thumb */
+  --color-graphite: oklch(0.2047 0.0121 237.38); /* → --contrast (dark fills) */
+  --color-charcoal: oklch(0.2183 0.0133 243.53); /* → --surface-muted (dark) + scrollbar track */
+  --color-steel: oklch(0.2954 0.0237 246.15); /* → --surface-panel (dark) + card --highlight */
+  --color-slate-deep: oklch(0.3262 0.024 243.72); /* → scrollbar thumb */
+  --color-slate: oklch(0.75 0.027 255.6); /* → --foreground-muted (dark) */
 
   /* Neutrals — light theme. */
-  --color-navy: oklch(0.2024 0.0252 256.48); /* light ink */
-  --color-navy-soft: oklch(0.2627 0.0357 258.9);
-  --color-cream: oklch(0.9676 0.0057 84.57); /* light surface-muted */
-  --color-stone: oklch(0.5597 0.0276 259.8); /* light muted text */
-  --color-mist: oklch(0.9339 0.0071 268.55); /* light border */
+  --color-navy: oklch(0.2024 0.0252 256.48); /* → --foreground (light text) */
+  --color-stone: oklch(0.5 0.0276 259.8); /* → --foreground-muted (light) */
+  --color-mist: oklch(0.9339 0.0071 268.55); /* → --line (light) */
+  --color-cream: oklch(0.9676 0.0057 84.57); /* → --surface-muted (light) */
 
   /* Semantic roles (theme-independent; theme-switching ones aliased in @theme inline). */
-  --color-primary: var(--color-amber);
-  --color-primary-light: var(--color-peach);
-  --color-primary-dark: var(--color-tan);
+  --color-primary: var(--color-amber); /* accent: buttons, links, eyebrow, icons */
+  --color-primary-light: var(--color-peach); /* footer icons, CTA input focus, Hero rating */
+  --color-primary-dark: var(--color-tan); /* hover: Services explore link */
   --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
+  --color-contrast: var(--color-graphite); /* dark fills: Button dark, CTA, StatsBand, gradients */
+  --color-highlight: var(--color-steel); /* featured/active cards: Pricing, WhyChoose */
 
   /* Typography (--font-sans is applied to <html> by Preflight). */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
@@ -83,6 +78,7 @@
       transform: translateY(-0.375rem);
     }
   }
+  /* Soft pulse animation (utility: animate-soft-pulse). */
   --animate-soft-pulse: soft-pulse 2.8s ease-in-out infinite;
   @keyframes soft-pulse {
     0% {
@@ -101,41 +97,38 @@
 
 /* Theme-aware roles aliased to runtime vars so utilities switch themes. */
 @theme inline {
-  --color-surface-base: var(--surface-base);
-  --color-surface-panel: var(--surface-panel);
-  --color-surface-muted: var(--surface-muted);
-  --color-foreground: var(--foreground);
-  --color-foreground-muted: var(--foreground-muted);
-  --color-line: var(--line);
-  --color-ink: var(--ink);
-  --color-ink-soft: var(--ink-soft);
+  --color-surface-base: var(--surface-base); /* page + section base background */
+  --color-surface-panel: var(--surface-panel); /* cards/panels: testimonials, navbar, dropdown, outline btn */
+  --color-surface-muted: var(--surface-muted); /* alternating sections, footer, muted chips */
+  --color-foreground: var(--foreground); /* main text */
+  --color-foreground-muted: var(--foreground-muted); /* secondary text */
+  --color-line: var(--line); /* borders & dividers */
+  --color-shade: var(--shade); /* shadow color (shadow-shade) */
 }
 
 /* :root = dark theme; also pinned on .theme-dark so that subtree stays dark (e.g. navbar). */
 :root,
 .theme-dark {
   color-scheme: dark;
-  --surface-base: var(--color-night);
-  --surface-panel: var(--color-steel);
-  --surface-muted: var(--color-charcoal);
-  --foreground: var(--color-white);
-  --foreground-muted: var(--color-slate);
-  --line: color-mix(in oklab, var(--color-white) 9%, transparent);
-  --ink: var(--color-graphite);
-  --ink-soft: var(--color-graphite-soft);
+  --surface-base: var(--color-night); /* page + section background */
+  --surface-panel: var(--color-steel); /* cards & panels */
+  --surface-muted: var(--color-charcoal); /* alternating sections, footer */
+  --foreground: var(--color-white); /* main text */
+  --foreground-muted: var(--color-slate); /* secondary text */
+  --line: color-mix(in oklab, var(--color-white) 9%, transparent); /* borders & dividers */
+  --shade: var(--color-onyx); /* shadows */
 }
 
 /* Light theme: light surface-panels, same amber accent (inherits @theme defaults). */
 .light {
   color-scheme: light;
-  --surface-base: var(--color-white);
-  --surface-panel: var(--color-white);
-  --surface-muted: var(--color-cream);
-  --foreground: var(--color-navy);
-  --foreground-muted: var(--color-stone);
-  --line: var(--color-mist);
-  --ink: var(--color-navy);
-  --ink-soft: var(--color-navy-soft);
+  --surface-base: var(--color-white); /* page + section background */
+  --surface-panel: var(--color-white); /* cards & panels */
+  --surface-muted: var(--color-cream); /* alternating sections, footer */
+  --foreground: var(--color-navy); /* main text */
+  --foreground-muted: var(--color-stone); /* secondary text */
+  --line: var(--color-mist); /* borders & dividers */
+  --shade: var(--color-onyx); /* shadows (same as dark for now; tune for light later) */
 }
 
 /* Base element styles (cascade layer so utilities can override). */
@@ -235,11 +228,8 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.126rem;
-  text-transform: uppercase;
-  color: var(--color-primary);
 
   &::before {
     content: "";
@@ -248,6 +238,31 @@
     background: var(--color-primary);
     display: inline-block;
   }
+}
+
+/* Image overlays (bottom-weighted gunmetal scrims; clear before the top so upper content stays bright). */
+@utility overlay-strong {
+  background-image: linear-gradient(
+    to top,
+    var(--color-gunmetal),
+    color-mix(in oklab, var(--color-gunmetal) 15%, transparent) 40%,
+    transparent 75%
+  );
+}
+@utility overlay-medium {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--color-gunmetal) 80%, transparent),
+    color-mix(in oklab, var(--color-gunmetal) 8%, transparent) 35%,
+    transparent 65%
+  );
+}
+@utility overlay-soft {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--color-gunmetal) 55%, transparent),
+    transparent 55%
+  );
 }
 
 /* Media queries (top-level overrides; nested ones stay in their own rule). */

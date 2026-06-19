@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { getTranslations } from "next-intl/server";
@@ -23,9 +23,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-primary">
-                  {t("titleAccent")}
-                </span>
+                <span className="block text-primary">{t("titleAccent")}</span>
               </>
             }
             description={t("description")}
@@ -41,43 +39,41 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
           {projects.map((project, i) => {
             const title = t(`items.${project.key}.title`);
             return (
-            <Reveal
-              as="article"
-              key={project.key}
-              delay={i * 0.08}
-              className={`group relative overflow-hidden rounded-card ${
-                i === 1 ? "sm:col-span-2" : ""
-              }`}
-            >
-              <div className="relative aspect-[4/3.4] w-full">
-                <Image
-                  src={project.image}
-                  alt={title}
-                  placeholder="blur"
-                  blurDataURL={project.blur}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/10 to-transparent" />
-              </div>
-
-              <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-between p-5 opacity-90 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest text-primary">
-                    {t(`items.${project.key}.category`)}
-                  </p>
-                  <h3 className="mt-1 text-lg font-bold text-white">{title}</h3>
+              <Reveal
+                as="article"
+                key={project.key}
+                delay={i * 0.08}
+                className={`group relative overflow-hidden rounded-card ${i === 1 ? "sm:col-span-2" : ""}`}
+              >
+                <div className="relative aspect-[4/3.4] w-full">
+                  <Image
+                    src={project.image}
+                    alt={title}
+                    placeholder="blur"
+                    blurDataURL={project.blur}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 overlay-strong" />
                 </div>
-                <span className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <ArrowUpRight className="size-5" />
-                </span>
-              </div>
-            </Reveal>
+
+                <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-between p-5 opacity-90 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                  <div>
+                    <p className="text-xs font-semibold tracking-widest text-primary">
+                      {t(`items.${project.key}.category`)}
+                    </p>
+                    <h3 className="mt-1 text-lg font-bold text-white">{title}</h3>
+                  </div>
+                  <span className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <ArrowUpRight className="size-5" />
+                  </span>
+                </div>
+              </Reveal>
             );
           })}
         </div>
       </div>
     </section>
   );
-}
+};

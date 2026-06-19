@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { Star, Quote } from "lucide-react";
-import { SectionHeading } from "@/common/section-header/components/molecules/SectionHeading";
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Text } from "@/common/text/components/Text";
+import { TextNumber } from "@/common/text/components/TextNumber";
 import { getTranslations } from "next-intl/server";
 import { reviewsSection } from "@/data/sections/reviews";
 import type { TestimonialsProps } from "@/common/review/types";
@@ -45,9 +47,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
             title={
               <>
                 {t("titleLead")}
-                <span className="block text-primary">
-                  {t("titleAccent")}
-                </span>
+                <span className="block text-primary">{t("titleAccent")}</span>
               </>
             }
             description={t("description")}
@@ -56,15 +56,15 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
             <div className="flex items-center gap-2 rounded-2xl border border-line bg-surface-panel px-4 py-3">
               <GoogleMark />
               <div>
-                <div className="flex items-center gap-1.5 text-sm font-bold text-foreground">
-                  4.9
+                <div className="flex items-center gap-1.5">
+                  <TextNumber size="base" text="4.9" />
                   <span className="flex text-primary">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} className="size-3.5 fill-current" />
                     ))}
                   </span>
                 </div>
-                <p className="text-xs text-foreground-muted">{t("reviews")}</p>
+                <Text size="label" tone="muted" text={t("reviews")} />
               </div>
             </div>
             <Button href="#contact" variant="dark" className="hidden sm:inline-flex">
@@ -77,48 +77,46 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
           {testimonials.map((item, i) => {
             const name = t(`items.${item.key}.name`);
             return (
-            <Reveal
-              as="figure"
-              key={item.key}
-              delay={i * 0.08}
-              className="flex flex-col rounded-card border border-line bg-surface-panel p-7 shadow-md shadow-ink/40"
-            >
-              <div className="flex items-center justify-between">
-                <span className="flex text-primary">
-                  {Array.from({ length: item.rating }).map((_, i) => (
-                    <Star key={i} className="size-4 fill-current" />
-                  ))}
-                </span>
-                <Quote className="size-8 text-surface-muted" fill="currentColor" />
-              </div>
-              <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-foreground/80">
-                &ldquo;{t(`items.${item.key}.quote`)}&rdquo;
-              </blockquote>
-              <figcaption className="mt-6 flex items-center gap-3 border-t border-line pt-5">
-                <span className="relative size-11 overflow-hidden rounded-full">
-                  <Image
-                    src={item.avatar}
-                    alt={name}
-                    placeholder="blur"
-                    blurDataURL={item.blur}
-                    fill
-                    sizes="44px"
-                    className="object-cover"
-                  />
-                </span>
-                <div className="flex-1">
-                  <div className="text-sm font-bold text-foreground">{name}</div>
-                  <div className="text-xs text-foreground-muted">
-                    {t(`items.${item.key}.location`)}
-                  </div>
+              <Reveal
+                as="figure"
+                key={item.key}
+                delay={i * 0.08}
+                className="flex flex-col rounded-card border border-line bg-surface-panel p-7 shadow-md shadow-shade/40"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="flex text-primary">
+                    {Array.from({ length: item.rating }).map((_, i) => (
+                      <Star key={i} className="size-4 fill-current" />
+                    ))}
+                  </span>
+                  <Quote className="size-8 text-surface-muted" fill="currentColor" />
                 </div>
-                <GoogleMark />
-              </figcaption>
-            </Reveal>
+                <blockquote className="mt-5 flex-1">
+                  <Text size="body" tone="muted" text={`“${t(`items.${item.key}.quote`)}”`} />
+                </blockquote>
+                <figcaption className="mt-6 flex items-center gap-3 border-t border-line pt-5">
+                  <span className="relative size-11 overflow-hidden rounded-full">
+                    <Image
+                      src={item.avatar}
+                      alt={name}
+                      placeholder="blur"
+                      blurDataURL={item.blur}
+                      fill
+                      sizes="44px"
+                      className="object-cover"
+                    />
+                  </span>
+                  <div className="flex-1">
+                    <div className="text-sm font-bold text-foreground">{name}</div>
+                    <Text size="body" tone="muted" text={t(`items.${item.key}.location`)} />
+                  </div>
+                  <GoogleMark />
+                </figcaption>
+              </Reveal>
             );
           })}
         </div>
       </div>
     </section>
   );
-}
+};

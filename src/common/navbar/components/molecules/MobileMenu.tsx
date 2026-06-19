@@ -1,19 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type MouseEvent } from "react";
-import {
-  Menu,
-  X,
-  Home,
-  Info,
-  Wrench,
-  Hammer,
-  Tag,
-  Phone,
-  Star,
-  Package,
-  Ellipsis,
-} from "lucide-react";
+import { Menu, X, Home, Info, Wrench, Hammer, Tag, Phone, Star, Package, Ellipsis } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
@@ -80,7 +68,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
         aria-controls={menuId}
         aria-label={toggleMenuLabel}
         onClick={isOpen ? handleCloseOptions : handleOpenOptions}
-        className="grid size-11 place-items-center rounded-xl bg-ink text-white lg:hidden"
+        className="grid size-11 place-items-center rounded-xl bg-contrast text-white lg:hidden"
       >
         {isOpen ? <X className="size-5" /> : <Menu className="size-5" />}
       </button>
@@ -90,7 +78,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
           onClick={handleCloseOptions}
           className={clsx(
             "fixed inset-x-0 top-18 z-50 h-dvh transition-colors duration-150 lg:hidden",
-            isOpen ? "bg-ink/70 backdrop-blur-md" : "bg-transparent",
+            isOpen ? "bg-contrast/70 backdrop-blur-md" : "bg-transparent",
           )}
         >
           <div
@@ -98,7 +86,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
             id={menuId}
             onClick={handlePropagateOptions}
             className={clsx(
-              "bg-surface-panel/95 shadow-lg shadow-ink/40 transition-all duration-500 ease-in-out",
+              "bg-surface-panel/95 shadow-lg shadow-shade/40 transition-all duration-500 ease-in-out",
               isOpen ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0",
             )}
           >
@@ -123,4 +111,4 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
       )}
     </>
   );
-}
+};

@@ -1,19 +1,19 @@
 {
   "items": {
     "stormReady": {
-      "label": "Listos Para Tormentas"
+      "label": "LISTOS PARA TORMENTAS"
     },
     "licensed": {
-      "label": "Licenciados y Asegurados"
+      "label": "LICENCIADOS Y ASEGURADOS"
     },
     "years": {
-      "label": "Más de 25 Años"
+      "label": "MÁS DE 25 AÑOS"
     },
     "builtStrong": {
-      "label": "Construido Fuerte"
+      "label": "CONSTRUIDO FUERTE"
     },
     "fullService": {
-      "label": "Servicio Completo"
+      "label": "SERVICIO COMPLETO"
     }
   }
 }

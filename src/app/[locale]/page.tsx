@@ -6,7 +6,7 @@ import { Footer } from "@/common/footer/components/organisms/Footer";
 import { Hero } from "@/features/home/components/organisms/Hero";
 import { Marquee } from "@/features/home/components/organisms/Marquee";
 import { About } from "@/common/about/components/organisms/About";
-import { Services } from "@/common/service/components/organisms/Services";
+import { Services } from "@/common/service/components/Services";
 import { WhyChoose } from "@/features/home/components/organisms/WhyChoose";
 import { Projects } from "@/common/project/components/organisms/Projects";
 import { Team } from "@/common/team/components/organisms/Team";
