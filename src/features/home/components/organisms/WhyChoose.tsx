@@ -3,6 +3,7 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
+import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { whyChooseSection } from "@/data/pages/home";
 
@@ -19,12 +20,8 @@ export const WhyChoose = async () => {
           <SectionHeading
             eyebrow={t("eyebrow")}
             align="center-mobile"
-            title={
-              <>
-                {t("titleLead")}
-                <span className="block text-primary">{t("titleAccent")}</span>
-              </>
-            }
+            title={t("titleLead")}
+            accent={t("titleAccent")}
             description={t("description")}
           />
 
@@ -74,9 +71,15 @@ export const WhyChoose = async () => {
                 >
                   <Icon className="size-7" />
                 </span>
-                <h3 className={`mt-6 text-lg font-bold ${i === 1 ? "text-white" : "text-foreground"}`}>
-                  {t(`features.${feature.key}.title`)}
-                </h3>
+                <div className="mt-6">
+                  <Title
+                    as="h3"
+                    size="card"
+                    weight="bold"
+                    tone={i === 1 ? "white" : "default"}
+                    text={t(`features.${feature.key}.title`)}
+                  />
+                </div>
                 <div className="mt-3">
                   <Text size="body" tone="muted" text={t(`features.${feature.key}.description`)} />
                 </div>

@@ -7,6 +7,7 @@ export interface TextProps {
   size?: TextSize;
   tone?: TextTone;
   weight?: TextWeight;
+  tracking?: boolean;
   text: string;
 }
 

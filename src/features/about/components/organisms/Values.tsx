@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
+import { Title } from "@/common/title/components/Title";
 import { valuesSection } from "@/data/pages/about";
 
 export const Values = async () => {
@@ -14,11 +15,8 @@ export const Values = async () => {
         <SectionHeading
           eyebrow={t("eyebrow")}
           align="center"
-          title={
-            <>
-              {t("titleLead")} <span className="text-primary">{t("titleAccent")}</span>
-            </>
-          }
+          title={t("titleLead")}
+          accent={t("titleAccent")}
           description={t("description")}
         />
 
@@ -35,7 +33,9 @@ export const Values = async () => {
                 <span className="grid size-14 place-items-center rounded-2xl bg-surface-muted text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                   <Icon className="size-7" />
                 </span>
-                <h3 className="mt-5 text-lg font-bold text-foreground">{t(`items.${value.key}.title`)}</h3>
+                <div className="mt-5">
+                  <Title as="h3" size="card" weight="bold" text={t(`items.${value.key}.title`)} />
+                </div>
                 <div className="mt-2">
                   <Text size="body" tone="muted" text={t(`items.${value.key}.description`)} />
                 </div>

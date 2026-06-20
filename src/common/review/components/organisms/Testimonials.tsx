@@ -1,10 +1,12 @@
 import Image from "next/image";
-import { Star, Quote } from "lucide-react";
+import { Quote } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
+import { Title } from "@/common/title/components/Title";
+import { Stars } from "@/common/stars/components/Stars";
 import { getTranslations } from "next-intl/server";
 import { reviewsSection } from "@/data/sections/reviews";
 import type { TestimonialsProps } from "@/common/review/types";
@@ -44,12 +46,8 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
           <SectionHeading
             eyebrow={t("eyebrow")}
             align="center"
-            title={
-              <>
-                {t("titleLead")}
-                <span className="block text-primary">{t("titleAccent")}</span>
-              </>
-            }
+            title={t("titleLead")}
+            accent={t("titleAccent")}
             description={t("description")}
           />
           <div className="flex items-center gap-4">
@@ -58,11 +56,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
               <div>
                 <div className="flex items-center gap-1.5">
                   <TextNumber size="base" text="4.9" />
-                  <span className="flex text-primary">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} className="size-3.5 fill-current" />
-                    ))}
-                  </span>
+                  <Stars />
                 </div>
                 <Text size="label" tone="muted" text={t("reviews")} />
               </div>
@@ -84,11 +78,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                 className="flex flex-col rounded-card border border-line bg-surface-panel p-7 shadow-md shadow-shade/40"
               >
                 <div className="flex items-center justify-between">
-                  <span className="flex text-primary">
-                    {Array.from({ length: item.rating }).map((_, i) => (
-                      <Star key={i} className="size-4 fill-current" />
-                    ))}
-                  </span>
+                  <Stars size="base" />
                   <Quote className="size-8 text-surface-muted" fill="currentColor" />
                 </div>
                 <blockquote className="mt-5 flex-1">
@@ -107,7 +97,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                     />
                   </span>
                   <div className="flex-1">
-                    <div className="text-sm font-bold text-foreground">{name}</div>
+                    <Title as="h4" size="micro" weight="bold" text={name} />
                     <Text size="body" tone="muted" text={t(`items.${item.key}.location`)} />
                   </div>
                   <GoogleMark />

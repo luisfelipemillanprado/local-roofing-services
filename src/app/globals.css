@@ -223,23 +223,6 @@
   }
 }
 
-/* Section eyebrow chip. */
-@utility eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-weight: 700;
-  letter-spacing: 0.126rem;
-
-  &::before {
-    content: "";
-    width: 1.5rem;
-    height: 0.125rem;
-    background: var(--color-primary);
-    display: inline-block;
-  }
-}
-
 /* Image overlays (bottom-weighted gunmetal scrims; clear before the top so upper content stays bright). */
 @utility overlay-strong {
   background-image: linear-gradient(

@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { Star } from "lucide-react";
 import { Button } from "@/common/button/components/atoms/Button";
+import { Stars } from "@/common/stars/components/Stars";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
+import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 import { blurs } from "@/data/blurs";
@@ -38,14 +39,18 @@ export const Hero = async () => {
               <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex size-2 rounded-full bg-primary" />
             </span>
-            <Text as="span" size="caption" tone="white" weight="semibold" text={t("badge")} />
+            <Text as="span" size="caption" tone="white" weight="semibold" tracking text={t("badge")} />
           </Reveal>
 
           <Reveal as="div" delay={0.13} className="mt-6">
-            <h1 className="text-5xl leading-[0.95] font-extrabold text-white sm:text-7xl lg:text-8xl">
-              {t("titleLead")}
-              <span className="block text-white/35">{t("titleAccent")}</span>
-            </h1>
+            <Title
+              as="h1"
+              size="display"
+              tone="white"
+              accentTone="faint"
+              text={t("titleLead")}
+              accent={t("titleAccent")}
+            />
           </Reveal>
 
           <Reveal as="div" delay={0.21} className="mt-6 max-w-xl">
@@ -85,11 +90,7 @@ export const Hero = async () => {
               ))}
             </div>
             <div>
-              <div className="flex items-center gap-1 text-primary-light">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="size-3.5 fill-current" />
-                ))}
-              </div>
+              <Stars />
               <Text size="caption" tone="default" weight="semibold" text={t("customers")} />
             </div>
           </Reveal>

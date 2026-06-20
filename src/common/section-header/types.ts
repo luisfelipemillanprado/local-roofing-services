@@ -1,10 +1,8 @@
-import type { ReactNode } from "react";
-
 export interface SectionHeadingProps {
   eyebrow: string;
-  title: ReactNode;
+  title: string;
+  accent?: string;
   description?: string;
   align?: "left" | "center" | "center-mobile";
-  theme?: "light" | "dark";
   className?: string;
 }

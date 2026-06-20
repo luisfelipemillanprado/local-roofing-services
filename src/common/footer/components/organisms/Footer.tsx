@@ -4,6 +4,7 @@ import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
 import { Logo } from "@/common/logo/components/atoms/Logo";
 import { Socials } from "@/common/social/components/molecules/Socials";
 import { Text } from "@/common/text/components/Text";
+import { Title } from "@/common/title/components/Title";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
@@ -32,7 +33,7 @@ export const Footer = () => {
 
           {/* Top links */}
           <div>
-            <h4 className="text-sm font-bold tracking-widest text-foreground/90">{t("topLinksTitle")}</h4>
+            <Title as="h4" size="micro" weight="bold" tracking text={t("topLinksTitle")} />
             <ul className="mt-5 space-y-3">
               {topLinks.map((link) => (
                 <li key={link.label}>
@@ -47,7 +48,7 @@ export const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-sm font-bold tracking-widest text-foreground/90">{t("servicesTitle")}</h4>
+            <Title as="h4" size="micro" weight="bold" tracking text={t("servicesTitle")} />
             <ul className="mt-5 space-y-3">
               {services.map((link) => (
                 <li key={link.label}>
@@ -62,7 +63,7 @@ export const Footer = () => {
 
           {/* Contact + hours */}
           <div>
-            <h4 className="text-sm font-bold tracking-widest text-foreground/90">{t("getInTouch")}</h4>
+            <Title as="h4" size="micro" weight="bold" tracking text={t("getInTouch")} />
             <ul className="mt-5 space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-primary-light" />

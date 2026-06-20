@@ -4,6 +4,8 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
+import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
+import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 
@@ -36,8 +38,8 @@ export const About = async () => {
             <div>
               <TextNumber as="p" size="display" text={`${company.yearsExperience}+`} />
               <div className="mt-1">
-                <Text as="p" size="label" tone="default" weight="semibold" text={t("yearsLine1")} />
-                <Text as="p" size="label" tone="default" weight="semibold" text={t("yearsLine2")} />
+                <Text as="p" size="label" tone="default" weight="semibold" tracking text={t("yearsLine1")} />
+                <Text as="p" size="label" tone="default" weight="semibold" tracking text={t("yearsLine2")} />
               </div>
             </div>
           </div>
@@ -48,7 +50,7 @@ export const About = async () => {
               <Phone className="size-5" />
             </span>
             <div>
-              <Text as="p" size="label" tone="muted" text={t("callAnytime")} />
+              <Text as="p" size="label" tone="muted" tracking text={t("callAnytime")} />
               <a href={company.phoneHref} className="text-sm font-bold">
                 {company.phone}
               </a>
@@ -59,13 +61,10 @@ export const About = async () => {
         {/* Copy side */}
         <div className="text-center lg:text-left">
           <Reveal>
-            <span className="eyebrow">
-              <Text as="span" size="label" tone="primary" text={t("eyebrow")} />
-            </span>
-            <h2 className="mt-4 text-3xl leading-[1.1] font-extrabold text-foreground sm:text-4xl lg:text-[2.75rem]">
-              {t("titleLead")}
-              <span className="block text-primary">{t("titleAccent")}</span>
-            </h2>
+            <Eyebrow text={t("eyebrow")} />
+            <div className="mt-4">
+              <Title as="h2" size="section" text={t("titleLead")} accent={t("titleAccent")} />
+            </div>
             <div className="mx-auto mt-5 max-w-lg lg:mx-0">
               <Text size="lead" tone="muted" text={t("body", { name: company.name })} />
             </div>

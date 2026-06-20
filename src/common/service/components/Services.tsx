@@ -5,6 +5,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
+import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { servicesSection } from "@/data/sections/services";
 import type { ServicesProps } from "@/common/service/types";
@@ -23,12 +24,8 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
           <SectionHeading
             eyebrow={t("eyebrow")}
             align="center"
-            title={
-              <>
-                {t("titleLead")}
-                <span className="block text-primary">{t("titleAccent")}</span>
-              </>
-            }
+            title={t("titleLead")}
+            accent={t("titleAccent")}
             description={t("description")}
           />
           {exploreHref && (
@@ -64,7 +61,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <h3 className="text-xl font-bold text-foreground">{title}</h3>
+                  <Title as="h3" size="feature" weight="bold" text={title} />
                   <div className="mt-3 flex-1">
                     <Text size="body" tone="muted" text={t(`items.${service.key}.description`)} />
                   </div>

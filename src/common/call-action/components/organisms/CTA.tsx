@@ -6,6 +6,8 @@ import { ArrowRight, Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
+import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
+import { Title } from "@/common/title/components/Title";
 
 type CTAProps = {
   /** Section background, used to keep each page's section alternation correct. */
@@ -42,13 +44,10 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
           <div className="absolute inset-0 -z-10 bg-gradient-to-r from-contrast via-contrast/90 to-primary/40" />
 
           <div className="max-w-2xl text-center lg:text-left">
-            <span className="eyebrow">
-              <Text as="span" size="label" tone="primary" text={t("eyebrow")} />
-            </span>
-            <h2 className="mt-4 text-3xl leading-[1.1] font-extrabold text-white sm:text-4xl lg:text-5xl">
-              {t("titleLead")}
-              <span className="block text-primary">{t("titleAccent")}</span>
-            </h2>
+            <Eyebrow text={t("eyebrow")} />
+            <div className="mt-4">
+              <Title as="h2" size="banner" text={t("titleLead")} accent={t("titleAccent")} />
+            </div>
             <div className="mx-auto mt-5 max-w-xl lg:mx-0">
               <Text size="lead" tone="muted" text={t("body")} />
             </div>

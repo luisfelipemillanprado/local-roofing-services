@@ -21,6 +21,19 @@ const weights: Record<TextWeight, string> = {
   bold: "font-bold" /* marquee strip labels */,
 };
 
-export const Text = ({ as: Tag = "p", size = "body", tone = "default", weight, text }: TextProps) => (
-  <Tag className={`${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}`}>{text}</Tag>
+const tracked = "tracking-[0.126rem]"; /* Opt-in letter-spacing eyebrows and badges */
+
+export const Text = ({
+  as: Tag = "p",
+  size = "body",
+  tone = "default",
+  weight,
+  tracking = false,
+  text,
+}: TextProps) => (
+  <Tag
+    className={`${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}${tracking ? ` ${tracked}` : ""}`}
+  >
+    {text}
+  </Tag>
 );

@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/common/navbar/components/organisms/Navbar";
 import { Footer } from "@/common/footer/components/organisms/Footer";
-import { PageHeader } from "@/common/page-header/components/organisms/PageHeader";
+import { PageHeader } from "@/common/page-header/components/PageHeader";
 import { Projects } from "@/common/project/components/organisms/Projects";
 import { StatsBand } from "@/features/projects/components/organisms/StatsBand";
 import { Testimonials } from "@/common/review/components/organisms/Testimonials";

@@ -4,6 +4,7 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
+import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { pricingSection } from "@/data/pages/home";
 
@@ -17,11 +18,8 @@ export const Pricing = async () => {
         <SectionHeading
           eyebrow={t("eyebrow")}
           align="center"
-          title={
-            <>
-              {t("titleLead")} <span className="text-primary">{t("titleAccent")}</span>
-            </>
-          }
+          title={t("titleLead")}
+          accent={t("titleAccent")}
           description={t("description")}
         />
 
@@ -41,7 +39,14 @@ export const Pricing = async () => {
               >
                 {plan.highlighted && (
                   <span className="absolute top-6 right-6 rounded-full bg-primary px-3 py-1">
-                    <Text as="span" size="label" tone="white" weight="semibold" text={t("popular")} />
+                    <Text
+                      as="span"
+                      size="label"
+                      tone="white"
+                      weight="semibold"
+                      tracking
+                      text={t("popular")}
+                    />
                   </span>
                 )}
 
@@ -53,11 +58,9 @@ export const Pricing = async () => {
                   <Icon className="size-7" />
                 </span>
 
-                <h3
-                  className={`mt-6 text-xl font-bold ${plan.highlighted ? "text-white" : "text-foreground"}`}
-                >
-                  {t(`plans.${plan.key}.name`)}
-                </h3>
+                <div className="mt-6">
+                  <Title as="h3" size="feature" weight="bold" text={t(`plans.${plan.key}.name`)} />
+                </div>
                 <div className="mt-2">
                   <Text size="body" tone="muted" text={t(`plans.${plan.key}.blurb`)} />
                 </div>

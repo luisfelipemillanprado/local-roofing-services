@@ -4,6 +4,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
+import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { projectsSection } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/common/project/types";
@@ -19,14 +20,9 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
             eyebrow={t("eyebrow")}
-            theme="dark"
             align="center"
-            title={
-              <>
-                {t("titleLead")}
-                <span className="block text-primary">{t("titleAccent")}</span>
-              </>
-            }
+            title={t("titleLead")}
+            accent={t("titleAccent")}
             description={t("description")}
           />
           {exploreHref && (
@@ -66,9 +62,12 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
                       size="label"
                       tone="primary"
                       weight="semibold"
+                      tracking
                       text={t(`items.${project.key}.category`)}
                     />
-                    <h3 className="mt-1 text-lg font-bold text-white">{title}</h3>
+                    <div className="mt-1">
+                      <Title as="h3" size="card" weight="bold" tone="white" text={title} />
+                    </div>
                   </div>
                   <span className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <ArrowUpRight className="size-5" />

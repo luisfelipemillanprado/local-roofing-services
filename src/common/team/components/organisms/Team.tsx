@@ -5,6 +5,7 @@ import { Button } from "@/common/button/components/atoms/Button";
 import { Socials } from "@/common/social/components/molecules/Socials";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
+import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { teamSection } from "@/data/sections/team";
 import type { TeamProps } from "@/common/team/types";
@@ -21,12 +22,8 @@ export const Team = async ({ limit }: TeamProps = {}) => {
           <SectionHeading
             eyebrow={t("eyebrow")}
             align="center"
-            title={
-              <>
-                {t("titleLead")}
-                <span className="block text-primary">{t("titleAccent")}</span>
-              </>
-            }
+            title={t("titleLead")}
+            accent={t("titleAccent")}
             description={t("description")}
           />
           <Button href="#contact" variant="dark" withArrow className="shrink-0">
@@ -64,7 +61,7 @@ export const Team = async ({ limit }: TeamProps = {}) => {
 
                 <div className="flex items-center justify-between p-5">
                   <div>
-                    <h3 className="text-lg font-bold text-foreground">{name}</h3>
+                    <Title as="h3" size="card" weight="bold" text={name} />
                     <Text size="body" tone="muted" text={t(`members.${member.key}.role`)} />
                   </div>
                   <span className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:rotate-90">

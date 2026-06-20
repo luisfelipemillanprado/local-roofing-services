@@ -14,11 +14,8 @@ export const Faq = async () => {
         <SectionHeading
           eyebrow={t("eyebrow")}
           align="center"
-          title={
-            <>
-              {t("titleLead")} <span className="text-primary">{t("titleAccent")}</span>
-            </>
-          }
+          title={t("titleLead")}
+          accent={t("titleAccent")}
           description={t("description")}
         />
 
