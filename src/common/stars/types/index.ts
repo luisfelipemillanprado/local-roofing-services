@@ -1,5 +1,5 @@
-export type StarsSize = "sm" | "base";
+export type StarsSize = "base" | "card";
 
 export interface StarsProps {
-  size?: StarsSize;
+  size: StarsSize;
 }

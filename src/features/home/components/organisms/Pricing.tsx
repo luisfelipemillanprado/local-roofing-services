@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -25,7 +26,6 @@ export const Pricing = async () => {
 
         <div className="mx-auto mt-14 grid max-w-6xl gap-6 md:grid-cols-3">
           {pricingPlans.map((plan, i) => {
-            const Icon = plan.icon;
             const features = t.raw(`plans.${plan.key}.features`) as string[];
             return (
               <Reveal
@@ -50,13 +50,7 @@ export const Pricing = async () => {
                   </span>
                 )}
 
-                <span
-                  className={`grid size-14 place-items-center rounded-2xl ${
-                    plan.highlighted ? "bg-primary text-white" : "bg-surface-panel text-primary"
-                  }`}
-                >
-                  <Icon className="size-7" />
-                </span>
+                <IconBadge icon={plan.icon} size="feature" tone={plan.highlighted ? "solid" : "panel"} />
 
                 <div className="mt-6">
                   <Title as="h3" size="feature" weight="bold" text={t(`plans.${plan.key}.name`)} />

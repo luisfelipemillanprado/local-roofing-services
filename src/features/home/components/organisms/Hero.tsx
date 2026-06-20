@@ -90,7 +90,7 @@ export const Hero = async () => {
               ))}
             </div>
             <div>
-              <Stars />
+              <Stars size="base" />
               <Text size="caption" tone="default" weight="semibold" text={t("customers")} />
             </div>
           </Reveal>

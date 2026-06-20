@@ -1,4 +1,5 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -27,12 +28,9 @@ export const WhyChoose = async () => {
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
             {whyStats.map((stat) => {
-              const Icon = stat.icon;
               return (
                 <div key={stat.key} className="flex items-center gap-3">
-                  <span className="grid size-11 place-items-center rounded-xl bg-surface-muted text-primary">
-                    <Icon className="size-5" />
-                  </span>
+                  <IconBadge icon={stat.icon} size="stat" tone="muted" />
                   <div>
                     <TextNumber as="p" size="stat" text={t(`stats.${stat.key}.value`)} />
                     <Text size="label" tone="muted" text={t(`stats.${stat.key}.label`)} />
@@ -51,7 +49,6 @@ export const WhyChoose = async () => {
 
         <div className="grid gap-5 sm:grid-cols-2">
           {features.map((feature, i) => {
-            const Icon = feature.icon;
             return (
               <Reveal
                 key={feature.key}
@@ -62,15 +59,12 @@ export const WhyChoose = async () => {
                     : "border-line bg-surface-muted hover:shadow-md"
                 }`}
               >
-                <span
-                  className={`grid size-14 place-items-center rounded-2xl transition-colors ${
-                    i === 1
-                      ? "bg-primary text-white"
-                      : "bg-surface-panel text-primary group-hover:bg-primary group-hover:text-white"
-                  }`}
-                >
-                  <Icon className="size-7" />
-                </span>
+                <IconBadge
+                  icon={feature.icon}
+                  size="feature"
+                  tone={i === 1 ? "solid" : "panel"}
+                  hover={i !== 1}
+                />
                 <div className="mt-6">
                   <Title
                     as="h3"

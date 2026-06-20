@@ -1,13 +1,13 @@
-import { Award, HardHat, Handshake, Users, type LucideIcon } from "lucide-react";
+import type { IconBadgeKey } from "@/common/icon-badge/types";
 
 /** Keys map to `about-page.values.items.<key>` (literal union → type-safe `t()`). */
 export type ValueKey = "quality" | "safety" | "honest" | "community";
 
-export const valuesSection: { items: { key: ValueKey; icon: LucideIcon }[] } = {
+export const valuesSection: { items: { key: ValueKey; icon: IconBadgeKey }[] } = {
   items: [
-    { key: "quality", icon: Award },
-    { key: "safety", icon: HardHat },
-    { key: "honest", icon: Handshake },
-    { key: "community", icon: Users },
+    { key: "quality", icon: "award" },
+    { key: "safety", icon: "hardhat" },
+    { key: "honest", icon: "handshake" },
+    { key: "community", icon: "users" },
   ],
 };

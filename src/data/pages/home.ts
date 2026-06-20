@@ -1,16 +1,5 @@
-import {
-  PhoneCall,
-  Lightbulb,
-  ShieldCheck,
-  Award,
-  Hammer,
-  Wrench,
-  CloudRain,
-  Home,
-  Building2,
-  Factory,
-  type LucideIcon,
-} from "lucide-react";
+import { ShieldCheck, Award, Hammer, Wrench, CloudRain, type LucideIcon } from "lucide-react";
+import type { IconBadgeKey } from "@/common/icon-badge/types";
 
 /* Keys map to the home-only message namespaces (literal unions → type-safe `t()`). */
 export type WhyChooseFeatureKey = "emergency" | "proactive" | "reliable" | "experience";
@@ -19,22 +8,23 @@ export type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "
 export type PricingPlanKey = "residential" | "commercial" | "industrial";
 
 export const whyChooseSection: {
-  features: { key: WhyChooseFeatureKey; icon: LucideIcon }[];
-  stats: { key: WhyChooseStatKey; icon: LucideIcon }[];
+  features: { key: WhyChooseFeatureKey; icon: IconBadgeKey }[];
+  stats: { key: WhyChooseStatKey; icon: IconBadgeKey }[];
 } = {
   features: [
-    { key: "emergency", icon: PhoneCall },
-    { key: "proactive", icon: Lightbulb },
-    { key: "reliable", icon: ShieldCheck },
-    { key: "experience", icon: Award },
+    { key: "emergency", icon: "phone" },
+    { key: "proactive", icon: "idea" },
+    { key: "reliable", icon: "shield" },
+    { key: "experience", icon: "award" },
   ],
   stats: [
-    { key: "years", icon: Award },
-    { key: "projects", icon: Hammer },
-    { key: "roofers", icon: Wrench },
+    { key: "years", icon: "award" },
+    { key: "projects", icon: "hammer" },
+    { key: "roofers", icon: "wrench" },
   ],
 };
 
+/* Marquee keeps the icon component directly (not an IconBadge). */
 export const marqueeSection: { items: { key: MarqueeKey; icon: LucideIcon }[] } = {
   items: [
     { key: "stormReady", icon: CloudRain },
@@ -46,11 +36,11 @@ export const marqueeSection: { items: { key: MarqueeKey; icon: LucideIcon }[] } 
 };
 
 export const pricingSection: {
-  plans: { key: PricingPlanKey; icon: LucideIcon; highlighted?: boolean }[];
+  plans: { key: PricingPlanKey; icon: IconBadgeKey; highlighted?: boolean }[];
 } = {
   plans: [
-    { key: "residential", icon: Home },
-    { key: "commercial", icon: Building2, highlighted: true },
-    { key: "industrial", icon: Factory },
+    { key: "residential", icon: "home" },
+    { key: "commercial", icon: "building", highlighted: true },
+    { key: "industrial", icon: "factory" },
   ],
 };

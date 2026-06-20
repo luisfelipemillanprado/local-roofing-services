@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -37,7 +38,6 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, i) => {
-            const Icon = service.icon;
             const title = t(`items.${service.key}.title`);
             return (
               <Reveal
@@ -56,8 +56,8 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <span className="absolute top-4 left-4 grid size-12 place-items-center rounded-xl bg-primary text-white shadow-lg shadow-shade/40">
-                    <Icon className="size-6" />
+                  <span className="absolute top-4 left-4">
+                    <IconBadge icon={service.icon} size="card" tone="solid" shadow />
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6">

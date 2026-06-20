@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
@@ -23,7 +24,6 @@ export const ProcessSteps = async () => {
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((step, i) => {
-            const Icon = step.icon;
             return (
               <Reveal
                 as="article"
@@ -32,9 +32,9 @@ export const ProcessSteps = async () => {
                 className="rounded-card border border-line bg-surface-panel p-7"
               >
                 <TextNumber size="base" tone="primary" text={String(i + 1).padStart(2, "0")} />
-                <span className="mt-4 grid size-14 place-items-center rounded-2xl bg-surface-muted text-primary">
-                  <Icon className="size-7" />
-                </span>
+                <div className="mt-4">
+                  <IconBadge icon={step.icon} size="feature" tone="muted" />
+                </div>
                 <div className="mt-5">
                   <Title as="h3" size="card" weight="bold" text={t(`steps.${step.key}.title`)} />
                 </div>
