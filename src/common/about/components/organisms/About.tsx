@@ -71,7 +71,7 @@ export const About = async () => {
             </div>
           </Reveal>
 
-          <Reveal className="mt-7 flex flex-col items-center gap-3 lg:items-start">
+          <Reveal className="mt-7 flex flex-col items-start gap-3">
             {points.map((p) => (
               <CheckItem key={p} as="div" tone="default" text={p} />
             ))}
