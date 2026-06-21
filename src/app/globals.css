@@ -47,7 +47,7 @@
   --color-primary-dark: var(--color-tan); /* hover: Services explore link */
   --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
   --color-contrast: var(--color-graphite); /* dark fills: Button dark, CTA, StatsBand, gradients */
-  --color-highlight: var(--color-steel); /* featured/active cards: Pricing, WhyChoose */
+  --color-highlight: var(--color-steel); /* highlighted card: Pricing */
 
   /* Typography (--font-sans is applied to <html> by Preflight). */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;

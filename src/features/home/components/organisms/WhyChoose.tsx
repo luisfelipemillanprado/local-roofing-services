@@ -1,10 +1,9 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
+import { IconCard } from "@/common/icon-card/components/IconCard";
 import { Button } from "@/common/button/components/atoms/Button";
-import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
-import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { whyChooseSection } from "@/data/pages/home";
 
@@ -48,38 +47,15 @@ export const WhyChoose = async () => {
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2">
-          {features.map((feature, i) => {
-            return (
-              <Reveal
-                key={feature.key}
-                delay={i * 0.08}
-                className={`group rounded-card border p-7 shadow-shade/40 transition-all duration-300 hover:-translate-y-1.5 ${
-                  i === 1
-                    ? "border-transparent bg-highlight text-white shadow-lg"
-                    : "border-line bg-surface-muted hover:shadow-md"
-                }`}
-              >
-                <IconBadge
-                  icon={feature.icon}
-                  size="feature"
-                  tone={i === 1 ? "solid" : "panel"}
-                  hover={i !== 1}
-                />
-                <div className="mt-6">
-                  <Title
-                    as="h3"
-                    size="card"
-                    weight="bold"
-                    tone={i === 1 ? "white" : "default"}
-                    text={t(`features.${feature.key}.title`)}
-                  />
-                </div>
-                <div className="mt-3">
-                  <Text size="body" tone="muted" text={t(`features.${feature.key}.description`)} />
-                </div>
-              </Reveal>
-            );
-          })}
+          {features.map((feature, i) => (
+            <IconCard
+              key={feature.key}
+              icon={feature.icon}
+              title={t(`features.${feature.key}.title`)}
+              description={t(`features.${feature.key}.description`)}
+              delay={i * 0.08}
+            />
+          ))}
         </div>
       </div>
     </section>
