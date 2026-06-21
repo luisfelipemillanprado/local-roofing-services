@@ -1,6 +1,6 @@
-import { Check } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
+import { CheckItem } from "@/common/check-item/components/CheckItem";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -68,16 +68,7 @@ export const Pricing = async () => {
 
                 <ul className="mt-7 flex-1 space-y-3.5">
                   {features.map((feature) => (
-                    <li key={feature} className="flex items-center gap-3">
-                      <span
-                        className={`grid size-5 shrink-0 place-items-center rounded-full ${
-                          plan.highlighted ? "bg-primary text-white" : "bg-primary/10 text-primary"
-                        }`}
-                      >
-                        <Check className="size-3" strokeWidth={3.5} />
-                      </span>
-                      <Text as="span" size="body" tone="muted" text={feature} />
-                    </li>
+                    <CheckItem key={feature} tone="muted" text={feature} />
                   ))}
                 </ul>
 

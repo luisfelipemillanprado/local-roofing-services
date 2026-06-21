@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { Phone, Check } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Button } from "@/common/button/components/atoms/Button";
+import { CheckItem } from "@/common/check-item/components/CheckItem";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
@@ -70,14 +71,9 @@ export const About = async () => {
             </div>
           </Reveal>
 
-          <Reveal className="mt-7 space-y-3">
+          <Reveal className="mt-7 flex flex-col items-center gap-3 lg:items-start">
             {points.map((p) => (
-              <div key={p} className="flex items-start justify-center gap-3 lg:justify-start">
-                <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-primary/10 text-primary">
-                  <Check className="size-3.5" strokeWidth={3} />
-                </span>
-                <Text as="span" size="caption" tone="default" weight="medium" text={p} />
-              </div>
+              <CheckItem key={p} as="div" tone="default" text={p} />
             ))}
           </Reveal>
 
