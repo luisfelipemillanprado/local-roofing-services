@@ -29,7 +29,7 @@ export const About = async () => {
             <Media
               src="/images/boss/boss.webp"
               alt="Roofpro company owner on site"
-              aspect="portrait"
+              shape="feature"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>

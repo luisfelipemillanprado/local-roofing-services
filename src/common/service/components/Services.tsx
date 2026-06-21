@@ -51,7 +51,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                   <Media
                     src={service.image}
                     alt={title}
-                    aspect="landscape"
+                    shape="wide"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <span className="absolute top-4 left-4">

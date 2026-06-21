@@ -46,7 +46,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
                 <Media
                   src={project.image}
                   alt={title}
-                  aspect="landscape"
+                  shape="gallery"
                   overlay="strong"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />

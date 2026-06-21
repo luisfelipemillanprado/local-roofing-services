@@ -46,7 +46,7 @@ export const Team = async ({ limit }: TeamProps = {}) => {
                   <Media
                     src={member.image}
                     alt={name}
-                    aspect="portrait"
+                    shape="portrait"
                     overlay="soft"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
