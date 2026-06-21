@@ -1,6 +1,7 @@
-import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
+import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -15,7 +16,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
   const projects = projectsSection.items.slice(0, limit);
 
   return (
-    <section id="projects" className="bg-surface-muted py-20 lg:py-28">
+    <Section id="projects" tone="muted">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
@@ -42,18 +43,13 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
                 delay={i * 0.08}
                 className={`group relative overflow-hidden rounded-card ${i === 1 ? "sm:col-span-2" : ""}`}
               >
-                <div className="relative aspect-[4/3.4] w-full">
-                  <Image
-                    src={project.image}
-                    alt={title}
-                    placeholder="blur"
-                    blurDataURL={project.blur}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 overlay-strong" />
-                </div>
+                <Media
+                  src={project.image}
+                  alt={title}
+                  aspect="landscape"
+                  overlay="strong"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                />
 
                 <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-between p-5 opacity-90 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                   <div>
@@ -78,6 +74,6 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
           })}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { ChevronDown } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 
@@ -9,7 +10,7 @@ export const Faq = async () => {
   const items = t.raw("items") as { q: string; a: string }[];
 
   return (
-    <section className="bg-surface-muted py-20 lg:py-28">
+    <Section tone="muted">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -35,6 +36,6 @@ export const Faq = async () => {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

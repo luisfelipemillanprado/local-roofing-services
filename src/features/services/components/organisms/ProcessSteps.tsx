@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
 import { IconCard } from "@/common/icon-card/components/IconCard";
 import { processSection } from "@/data/pages/services";
 
@@ -8,7 +9,7 @@ export const ProcessSteps = async () => {
   const items = processSection.steps;
 
   return (
-    <section className="bg-surface-base py-20 lg:py-28">
+    <Section>
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -32,6 +33,6 @@ export const ProcessSteps = async () => {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

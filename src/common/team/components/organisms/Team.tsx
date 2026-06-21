@@ -1,6 +1,7 @@
-import Image from "next/image";
 import { Plus } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
+import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Socials } from "@/common/social/components/molecules/Socials";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
@@ -16,7 +17,7 @@ export const Team = async ({ limit }: TeamProps = {}) => {
   const team = teamSection.members.slice(0, limit);
 
   return (
-    <section className="bg-surface-base py-20 lg:py-28">
+    <Section>
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
@@ -41,18 +42,14 @@ export const Team = async ({ limit }: TeamProps = {}) => {
                 delay={i * 0.08}
                 className="group relative overflow-hidden rounded-card border border-line bg-surface-muted"
               >
-                <div className="relative aspect-[4/4.6] w-full overflow-hidden">
-                  <Image
+                <div className="relative">
+                  <Media
                     src={member.image}
                     alt={name}
-                    placeholder="blur"
-                    blurDataURL={member.blur}
-                    fill
+                    aspect="portrait"
+                    overlay="soft"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 overlay-soft" />
-
                   {/* Socials reveal */}
                   <div className="absolute top-4 right-4 translate-x-4 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                     <Socials className="flex-col text-white" />
@@ -73,6 +70,6 @@ export const Team = async ({ limit }: TeamProps = {}) => {
           })}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

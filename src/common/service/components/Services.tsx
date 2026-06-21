@@ -1,8 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
+import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -19,7 +20,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
   const services = servicesSection.items.slice(0, limit);
 
   return (
-    <section id="services" className="bg-surface-muted py-20 lg:py-28">
+    <Section id="services" tone="muted">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
@@ -46,15 +47,12 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                 delay={i * 0.08}
                 className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface-panel shadow-md shadow-shade/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
               >
-                <div className="relative aspect-[16/11] overflow-hidden">
-                  <Image
+                <div className="relative">
+                  <Media
                     src={service.image}
                     alt={title}
-                    fill
-                    placeholder="blur"
-                    blurDataURL={service.blur}
+                    aspect="landscape"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <span className="absolute top-4 left-4">
                     <IconBadge icon={service.icon} size="card" tone="solid" shadow />
@@ -75,6 +73,6 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
           })}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

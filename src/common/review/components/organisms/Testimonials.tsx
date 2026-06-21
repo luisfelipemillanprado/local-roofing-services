@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Quote } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -40,7 +41,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
   const testimonials = reviewsSection.items.slice(0, limit);
 
   return (
-    <section className="bg-surface-muted py-20 lg:py-28">
+    <Section tone="muted">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
@@ -107,6 +108,6 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
           })}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

@@ -1,7 +1,8 @@
-import Image from "next/image";
 import { Phone } from "lucide-react";
 import { Button } from "@/common/button/components/atoms/Button";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
+import { Section } from "@/common/section/components/Section";
+import { Media } from "@/common/media/components/Media";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
@@ -20,17 +21,16 @@ export const About = async () => {
   const points = t.raw("points") as string[];
 
   return (
-    <section id="about" className="bg-surface-base py-20 lg:py-28">
+    <Section id="about">
       <div className="container-x grid items-center gap-14 lg:grid-cols-2">
         {/* Image side */}
         <Reveal className="relative">
-          <div className="relative aspect-[4/4.4] overflow-hidden rounded-card shadow-lg shadow-shade/40">
-            <Image
+          <div className="overflow-hidden rounded-card shadow-lg shadow-shade/40">
+            <Media
               src="/images/boss/boss.webp"
               alt="Roofpro company owner on site"
-              fill
+              aspect="portrait"
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
             />
           </div>
 
@@ -95,6 +95,6 @@ export const About = async () => {
           </Reveal>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

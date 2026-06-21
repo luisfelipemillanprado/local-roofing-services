@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -11,7 +12,7 @@ export const StatsBand = async () => {
   const items = projectStatsSection.items;
 
   return (
-    <section className="theme-dark bg-contrast py-20 lg:py-28">
+    <Section tone="dark">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -43,6 +44,6 @@ export const StatsBand = async () => {
           })}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

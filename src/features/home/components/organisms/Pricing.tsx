@@ -1,4 +1,5 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
 import { Button } from "@/common/button/components/atoms/Button";
@@ -14,7 +15,7 @@ export const Pricing = async () => {
   const pricingPlans = pricingSection.plans;
 
   return (
-    <section id="pricing" className="bg-surface-base py-20 lg:py-28">
+    <Section id="pricing">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -85,6 +86,6 @@ export const Pricing = async () => {
           })}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

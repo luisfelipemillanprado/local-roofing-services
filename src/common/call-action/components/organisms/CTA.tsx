@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ArrowRight, Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Section } from "@/common/section/components/Section";
 import { Text } from "@/common/text/components/Text";
 import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
 import { Title } from "@/common/title/components/Title";
@@ -18,8 +19,6 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
   const t = useTranslations("call-action");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
-  const bg = tone === "alt" ? "bg-surface-muted" : "bg-surface-base";
-
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
@@ -29,7 +28,7 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
   };
 
   return (
-    <section id="contact" className={`${bg} py-20 lg:py-28`}>
+    <Section id="contact" tone={tone === "alt" ? "muted" : "base"}>
       <div className="container-x">
         <Reveal className="theme-dark relative isolate overflow-hidden rounded-4xl bg-contrast px-6 py-16 sm:px-12 lg:px-16">
           <div className="absolute inset-0 -z-10 opacity-30">
@@ -85,6 +84,6 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
           </div>
         </Reveal>
       </div>
-    </section>
+    </Section>
   );
 };

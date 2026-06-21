@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
 import { IconCard } from "@/common/icon-card/components/IconCard";
 import { valuesSection } from "@/data/pages/about";
 
@@ -8,7 +9,7 @@ export const Values = async () => {
   const items = valuesSection.items;
 
   return (
-    <section className="bg-surface-muted py-20 lg:py-28">
+    <Section tone="muted">
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -30,6 +31,6 @@ export const Values = async () => {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
