@@ -23,13 +23,13 @@ const { navbar } = layoutData;
 export const Navbar = async () => {
   const t = await getTranslations("navbar");
 
-  // Attach the translated label to a link by its key.
+  /* Attach the translated label to a link by its key. */
   const withLabel = <T extends { key: NavLinkKey }>(link: T) => ({
     ...link,
     label: t(`links.${link.key}`),
   });
 
-  // Desktop keeps the group; mobile flattens it into plain links.
+  /* Desktop keeps the group; mobile flattens it into plain links. */
   const navLinks: NavLink[] = navbar.links.map((link) =>
     isNavGroupData(link) ? { ...withLabel(link), children: link.children.map(withLabel) } : withLabel(link),
   );
@@ -39,7 +39,7 @@ export const Navbar = async () => {
     <header className="theme-dark fixed inset-x-0 top-0 z-50 text-foreground shadow-xs shadow-shade/30">
       {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
       <div className="absolute inset-0 -z-10 bg-surface-panel/90 backdrop-blur-md" />
-      <div className="container-x flex h-18 items-center justify-between py-3">
+      <div className="container-x flex h-header items-center justify-between py-3">
         <Logo />
 
         <nav className="hidden items-center gap-1 lg:flex">
@@ -54,23 +54,24 @@ export const Navbar = async () => {
           )}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
-          <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 lg:gap-3">
+          {/* Phone — desktop only */}
+          <div className="hidden items-center gap-2 lg:flex">
             <span className="grid size-9 place-items-center rounded-full bg-surface-muted text-primary">
               <Phone className="size-4" />
             </span>
             <Text as="span" size="body" tone="default" weight="semibold" text={company.phone} />
           </div>
+
+          {/* Lang + theme — shared, always visible */}
           <LanguageSwitch />
           <ThemeToggle />
-          <Button href={navbar.getFreeQuoteHref} variant="primary">
+
+          <Button href={navbar.getFreeQuoteHref} variant="primary" className="hidden lg:inline-flex">
             {t("getFreeQuote")}
           </Button>
-        </div>
 
-        <div className="flex items-center gap-2 lg:hidden">
-          <LanguageSwitch />
-          <ThemeToggle />
+          {/* Hamburger — mobile only (lg:hidden lives on its trigger) */}
           <MobileMenu navLinks={mobileLinks} menuId={navbar.menuId} toggleMenuLabel={t("toggleMenu")} />
         </div>
       </div>

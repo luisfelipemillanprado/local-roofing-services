@@ -8,7 +8,7 @@ export const ThemeToggle = () => {
   const { resolvedTheme, setTheme } = useTheme();
   const t = useTranslations("navbar");
 
-  /* Default theme is dark (see layout.tsx), so unknown/pre-mount counts as dark → Sun. */
+  /* Default is dark → treat unknown/pre-mount as dark (show Sun). */
   const isDark = resolvedTheme !== "light";
 
   return (
@@ -18,7 +18,7 @@ export const ThemeToggle = () => {
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className="grid size-10 place-items-center rounded-2xl border border-line bg-surface-muted text-foreground transition-colors hover:text-primary"
     >
-      {isDark ? <Sun className="size-4.5" /> : <Moon className="size-4" />}
+      {isDark ? <Sun className="size-4.5" /> : <Moon className="size-4.5" />}
     </button>
   );
 };

@@ -5,6 +5,7 @@ import type { FloatingActionData } from "@/common/floating-contact/types";
 export const layoutData = {
   navbar: {
     menuId: "mobile-menu",
+    homeHref: "/" /* logo link target (site root) */,
     getFreeQuoteHref: "#contact",
     links: [
       { key: "home", href: "/", icon: "home" },
@@ -25,9 +26,6 @@ export const layoutData = {
     ] satisfies NavLinkData[],
   },
   floatingContact: {
-    actions: [
-      { key: "whatsapp", external: true },
-      { key: "call" },
-    ] satisfies FloatingActionData[],
+    actions: [{ key: "whatsapp", external: true }, { key: "call" }] satisfies FloatingActionData[],
   },
 };

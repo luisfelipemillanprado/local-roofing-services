@@ -17,6 +17,9 @@
   --breakpoint-xl: 80rem;
   --breakpoint-2xl: 96rem;
 
+  /* Header height — single source for the navbar and the mobile menu offset. */
+  --spacing-header: 4.5rem;
+
   /* Neutrals — shared (dark & light theme). */
   --color-night: oklch(0.243 0.014 239.25); /* → --surface-base (dark) */
   --color-tan: oklch(0.6729 0.0913 61.35); /* → --primary-dark: explore-link hover */

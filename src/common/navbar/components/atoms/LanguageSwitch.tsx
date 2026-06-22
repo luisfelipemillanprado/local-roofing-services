@@ -4,7 +4,7 @@ import { useTransition } from "react";
 import { Globe } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { localeNames, type Locale } from "@/i18n/routing";
+import { localeNames, routing, type Locale } from "@/i18n/routing";
 import { Text } from "@/common/text/components/Text";
 
 export const LanguageSwitch = () => {
@@ -13,9 +13,10 @@ export const LanguageSwitch = () => {
   const router = useRouter();
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();
-  const next: Locale = locale === "en" ? "es" : "en";
+  const { locales } = routing;
+  const next: Locale = locales[(locales.indexOf(locale) + 1) % locales.length];
 
-  // Transition avoids a brief flash of the default theme while the new locale loads.
+  /* Transition avoids a theme flash while the new locale loads. */
   const switchLocale = () => {
     startTransition(() => {
       router.replace(pathname, { locale: next });

@@ -7,12 +7,12 @@ import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
 import type { NavDropdownProps } from "@/common/navbar/types";
 
-// Desktop-only "See More" link: click toggles a dropdown of grouped links.
+/* Desktop "See More": toggles a dropdown of grouped links. */
 export const NavDropdown = ({ label, links }: NavDropdownProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  // Close on outside click or Escape.
+  /* Close on outside click or Escape. */
   useEffect(() => {
     if (!isOpen) return;
     const handleClick = (e: MouseEvent) => {

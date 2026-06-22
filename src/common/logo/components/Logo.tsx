@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { company } from "@/data/site";
+import { layoutData } from "@/data/global/layout";
 import { Link } from "@/i18n/navigation";
 
 /* Logo badge (image) + wordmark; the text inherits currentColor from the parent (navbar/footer). */
 export const Logo = () => {
   return (
     <Link
-      href="/"
+      href={layoutData.navbar.homeHref}
       className="inline-flex items-center gap-2.5 font-display text-xl font-extrabold tracking-tight"
       aria-label={`${company.name} home`}
     >

@@ -1,6 +1,6 @@
-/** Shared types and interfaces for the navbar and its components. */
+/* Shared types and interfaces for the navbar and its components. */
 
-/** Semantic keys for nav destinations (used for the i18n label and icon lookup). */
+/* Semantic keys for nav destinations (used for the i18n label and icon lookup). */
 export type NavLinkKey =
   | "home"
   | "about"
@@ -12,41 +12,41 @@ export type NavLinkKey =
   | "products"
   | "more";
 
-/** Leaf nav entry from the data layer (route + icon, no translatable text). */
+/* Leaf nav entry from the data layer (route + icon, no translatable text). */
 export type NavLeafData = {
   key: NavLinkKey;
   href: string;
   icon: NavLinkKey;
 };
 
-/** Group nav entry: opens a desktop dropdown, has no route of its own. */
+/* Group nav entry: opens a desktop dropdown, has no route of its own. */
 export type NavGroupData = {
   key: NavLinkKey;
   icon: NavLinkKey;
   children: NavLeafData[];
 };
 
-/** A nav entry is either a leaf (navigates) or a group (dropdown). */
+/* A nav entry is either a leaf (navigates) or a group (dropdown). */
 export type NavLinkData = NavLeafData | NavGroupData;
 
-/** Narrow a raw data entry to a group. */
+/* Narrow a raw data entry to a group. */
 export const isNavGroupData = (link: NavLinkData): link is NavGroupData => {
   return "children" in link;
 };
 
-/** Leaf with its resolved (translated) label, passed to the components. */
+/* Leaf with its resolved (translated) label, passed to the components. */
 export type NavLeaf = NavLeafData & { label: string };
 
-/** Group with its resolved label and resolved leaf children. */
+/* Group with its resolved label and resolved leaf children. */
 export type NavGroup = Omit<NavGroupData, "children"> & {
   label: string;
   children: NavLeaf[];
 };
 
-/** Resolved nav entry passed to the components. */
+/* Resolved nav entry passed to the components. */
 export type NavLink = NavLeaf | NavGroup;
 
-/** Narrow a resolved nav entry to a group. */
+/* Narrow a resolved nav entry to a group. */
 export const isNavGroup = (link: NavLink): link is NavGroup => {
   return "children" in link;
 };

@@ -8,10 +8,10 @@ import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
 import type { MobileMenuProps, NavLinkKey } from "@/common/navbar/types";
 
-// Exit animation duration (matches the panel's duration-500).
+/* Exit transition duration; drives the panel animation and the unmount delay. */
 const ANIMATION_MS = 500;
 
-// Semantic key → icon component.
+/* Semantic key → icon component. */
 const ICONS: Record<NavLinkKey, LucideIcon> = {
   home: Home,
   about: Info,
@@ -24,13 +24,13 @@ const ICONS: Record<NavLinkKey, LucideIcon> = {
   more: Ellipsis,
 };
 
-// Mobile-only menu: trigger + full-screen overlay of link buttons.
+/* Mobile menu: trigger + full-screen overlay of links. */
 export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProps) => {
   const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
-  // Mount, then open next frame so the enter transition runs.
+  /* Mount, then open next frame for the enter transition. */
   const handleOpenOptions = () => {
     if (isOpen) return;
     if (closeTimeoutRef.current) {
@@ -41,7 +41,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
     requestAnimationFrame(() => setIsOpen(true));
   };
 
-  // Play exit transition, then unmount after it finishes.
+  /* Play exit transition, then unmount. */
   const handleCloseOptions = () => {
     if (!isOpen) return;
     setIsOpen(false);
@@ -51,14 +51,14 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
     }, ANIMATION_MS);
   };
 
-  // Clear pending close timeout on unmount.
+  /* Clear pending close timeout on unmount. */
   useEffect(() => {
     return () => {
       if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
     };
   }, []);
 
-  // Keep clicks inside the panel from closing via the overlay.
+  /* Keep clicks inside the panel from closing via the overlay. */
   const handlePropagateOptions = (e: MouseEvent) => e.stopPropagation();
 
   return (
@@ -78,7 +78,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
         <div
           onClick={handleCloseOptions}
           className={clsx(
-            "fixed inset-x-0 top-18 z-50 h-dvh transition-colors duration-150 lg:hidden",
+            "fixed inset-x-0 top-header z-50 h-dvh transition-colors duration-150 lg:hidden",
             isOpen ? "bg-contrast/70 backdrop-blur-md" : "bg-transparent",
           )}
         >
@@ -86,8 +86,9 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
             role="dialog"
             id={menuId}
             onClick={handlePropagateOptions}
+            style={{ transitionDuration: `${ANIMATION_MS}ms` }}
             className={clsx(
-              "bg-surface-panel/95 shadow-lg shadow-shade/40 transition-all duration-500 ease-in-out",
+              "bg-surface-panel/95 shadow-lg shadow-shade/40 transition-all ease-in-out",
               isOpen ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0",
             )}
           >
