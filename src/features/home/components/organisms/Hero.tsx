@@ -30,7 +30,7 @@ export const Hero = async () => {
         <div className="absolute inset-0 bg-gradient-to-t from-contrast via-transparent to-transparent" />
       </div>
 
-      <div className="relative container-x flex min-h-[92vh] flex-col justify-center pt-36 pb-20">
+      <div className="relative container-x flex min-h-svh flex-col justify-center pt-36 pb-20">
         <div className="max-w-3xl">
           <Reveal
             delay={0.05}
