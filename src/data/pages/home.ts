@@ -7,6 +7,23 @@ export type WhyChooseStatKey = "years" | "projects" | "roofers";
 export type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
 export type PricingPlanKey = "residential" | "commercial" | "industrial";
 
+export const heroSection: {
+  image: string;
+  ctaPrimaryHref: string;
+  ctaSecondaryHref: string;
+  avatars: string[];
+} = {
+  image: "/images/hero/hero.webp",
+  ctaPrimaryHref: "#contact",
+  ctaSecondaryHref: "#projects",
+  avatars: [
+    "/images/avatars/avatar1.webp",
+    "/images/avatars/avatar2.webp",
+    "/images/avatars/avatar3.webp",
+    "/images/avatars/avatar4.webp",
+  ],
+};
+
 export const whyChooseSection: {
   features: { key: WhyChooseFeatureKey; icon: IconBadgeKey }[];
   stats: { key: WhyChooseStatKey; icon: IconBadgeKey }[];

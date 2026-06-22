@@ -7,6 +7,7 @@ import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 import { blurs } from "@/data/blurs";
+import { heroSection } from "@/data/pages/home";
 
 export const Hero = async () => {
   const t = await getTranslations("home.hero");
@@ -16,8 +17,8 @@ export const Hero = async () => {
       {/* Background */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero/hero.webp"
-          alt="Modern home with a durable standing-seam metal roof"
+          src={heroSection.image}
+          alt={t("imageAlt")}
           fill
           priority
           sizes="100vw"
@@ -65,10 +66,10 @@ export const Hero = async () => {
           </Reveal>
 
           <Reveal delay={0.29} className="mt-9 flex flex-wrap items-center gap-4">
-            <Button href="#contact" variant="primary" withArrow>
+            <Button href={heroSection.ctaPrimaryHref} variant="primary" withArrow>
               {t("ctaPrimary")}
             </Button>
-            <Button href="#projects" variant="ghost">
+            <Button href={heroSection.ctaSecondaryHref} variant="ghost">
               {t("ctaSecondary")}
             </Button>
           </Reveal>
@@ -78,15 +79,13 @@ export const Hero = async () => {
             className="mt-12 inline-flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-2 pr-5 backdrop-blur"
           >
             <div className="flex -space-x-3">
-              {[1, 2, 3, 4].map((n) => (
-                <Image
-                  key={n}
-                  src={`/images/avatars/avatar${n}.webp`}
-                  alt=""
-                  width={40}
-                  height={40}
-                  className="size-10 rounded-full border-2 border-contrast object-cover"
-                />
+              {heroSection.avatars.map((src) => (
+                <span
+                  key={src}
+                  className="relative size-10 shrink-0 overflow-hidden rounded-full border-2 border-contrast"
+                >
+                  <Image src={src} alt="" fill sizes="40px" className="object-cover" />
+                </span>
               ))}
             </div>
             <div>
