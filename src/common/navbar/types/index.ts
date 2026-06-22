@@ -32,7 +32,7 @@ export type NavLinkData = NavLeafData | NavGroupData;
 /** Narrow a raw data entry to a group. */
 export const isNavGroupData = (link: NavLinkData): link is NavGroupData => {
   return "children" in link;
-}
+};
 
 /** Leaf with its resolved (translated) label, passed to the components. */
 export type NavLeaf = NavLeafData & { label: string };
@@ -49,7 +49,7 @@ export type NavLink = NavLeaf | NavGroup;
 /** Narrow a resolved nav entry to a group. */
 export const isNavGroup = (link: NavLink): link is NavGroup => {
   return "children" in link;
-}
+};
 
 export interface NavDropdownProps {
   label: string;
@@ -60,12 +60,4 @@ export interface MobileMenuProps {
   navLinks: readonly NavLeaf[];
   menuId: string;
   toggleMenuLabel: string;
-}
-
-export interface ThemeToggleProps {
-  className?: string;
-}
-
-export interface LanguageSwitchProps {
-  className?: string;
 }

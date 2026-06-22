@@ -45,7 +45,7 @@ export const Pricing = async () => {
                       size="label"
                       tone="white"
                       weight="semibold"
-                      tracking
+                      tracking="wide"
                       text={t("popular")}
                     />
                   </span>

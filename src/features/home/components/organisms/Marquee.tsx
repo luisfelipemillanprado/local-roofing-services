@@ -20,7 +20,7 @@ export const Marquee = async () => {
                   size="caption"
                   tone="white"
                   weight="bold"
-                  tracking
+                  tracking="wide"
                   text={t(`items.${item.key}.label`)}
                 />
               </span>

@@ -91,7 +91,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
               isOpen ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0",
             )}
           >
-            <nav className="grid grid-cols-3 gap-3 px-4 py-6">
+            <nav className="grid grid-cols-3 gap-3 px-4 py-6 sm:grid-cols-4 md:grid-cols-5">
               {navLinks.map((link) => {
                 const Icon = ICONS[link.icon];
                 return (

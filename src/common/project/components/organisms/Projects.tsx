@@ -58,7 +58,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
                       size="label"
                       tone="primary"
                       weight="semibold"
-                      tracking
+                      tracking="wide"
                       text={t(`items.${project.key}.category`)}
                     />
                     <div className="mt-1">

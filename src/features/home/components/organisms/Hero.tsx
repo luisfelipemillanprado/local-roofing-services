@@ -39,7 +39,7 @@ export const Hero = async () => {
               <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex size-2 rounded-full bg-primary" />
             </span>
-            <Text as="span" size="caption" tone="white" weight="semibold" tracking text={t("badge")} />
+            <Text as="span" size="caption" tone="white" weight="semibold" tracking="wide" text={t("badge")} />
           </Reveal>
 
           <Reveal as="div" delay={0.13} className="mt-6">

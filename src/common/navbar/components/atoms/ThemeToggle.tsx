@@ -1,34 +1,24 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { Moon, Sun } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
-import type { ThemeToggleProps } from "@/common/navbar/types";
 
-export const ThemeToggle = ({ className = "" }: ThemeToggleProps) => {
+export const ThemeToggle = () => {
   const { resolvedTheme, setTheme } = useTheme();
   const t = useTranslations("navbar");
-  const [mounted, setMounted] = useState(false);
 
-  // Defer theme-dependent rendering until mounted to avoid hydration mismatch.
-  // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => setMounted(true), []);
-
-  const isDark = resolvedTheme === "dark";
+  /* Default theme is dark (see layout.tsx), so unknown/pre-mount counts as dark → Sun. */
+  const isDark = resolvedTheme !== "light";
 
   return (
     <button
       type="button"
       aria-label={t("toggleTheme")}
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className={`grid size-9 place-items-center rounded-full border border-line bg-surface-muted text-foreground transition-colors hover:text-primary ${className}`}
+      className="grid size-10 place-items-center rounded-2xl border border-line bg-surface-muted text-foreground transition-colors hover:text-primary"
     >
-      {mounted ? (
-        isDark ? <Sun className="size-4" /> : <Moon className="size-4" />
-      ) : (
-        <span className="size-4" />
-      )}
+      {isDark ? <Sun className="size-4.5" /> : <Moon className="size-4" />}
     </button>
   );
-}
+};

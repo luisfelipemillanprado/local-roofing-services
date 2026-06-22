@@ -1,4 +1,4 @@
-import type { TextProps, TextSize, TextTone, TextWeight } from "@/common/text/types";
+import type { TextProps, TextSize, TextTone, TextTracking, TextWeight } from "@/common/text/types";
 
 const sizes: Record<TextSize, string> = {
   lead: "text-base leading-relaxed" /* 16px — section/page descriptions, footer tagline */,
@@ -21,18 +21,21 @@ const weights: Record<TextWeight, string> = {
   bold: "font-bold" /* marquee strip labels */,
 };
 
-const tracked = "tracking-[0.126rem]"; /* Opt-in letter-spacing eyebrows and badges */
+const trackings: Record<TextTracking, string> = {
+  wide: "tracking-[0.126rem]" /* eyebrows and badges */,
+  subtle: "tracking-wider" /* short labels, e.g. the locale code */,
+};
 
 export const Text = ({
   as: Tag = "p",
   size = "body",
   tone = "default",
   weight,
-  tracking = false,
+  tracking,
   text,
 }: TextProps) => (
   <Tag
-    className={`${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}${tracking ? ` ${tracked}` : ""}`}
+    className={`${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}${tracking ? ` ${trackings[tracking]}` : ""}`}
   >
     {text}
   </Tag>

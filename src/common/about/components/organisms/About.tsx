@@ -39,8 +39,22 @@ export const About = async () => {
             <div>
               <TextNumber as="p" size="display" text={`${company.yearsExperience}+`} />
               <div className="mt-1">
-                <Text as="p" size="label" tone="default" weight="semibold" tracking text={t("yearsLine1")} />
-                <Text as="p" size="label" tone="default" weight="semibold" tracking text={t("yearsLine2")} />
+                <Text
+                  as="p"
+                  size="label"
+                  tone="default"
+                  weight="semibold"
+                  tracking="wide"
+                  text={t("yearsLine1")}
+                />
+                <Text
+                  as="p"
+                  size="label"
+                  tone="default"
+                  weight="semibold"
+                  tracking="wide"
+                  text={t("yearsLine2")}
+                />
               </div>
             </div>
           </div>
@@ -51,7 +65,7 @@ export const About = async () => {
               <Phone className="size-5" />
             </span>
             <div>
-              <Text as="p" size="label" tone="muted" tracking text={t("callAnytime")} />
+              <Text as="p" size="label" tone="muted" tracking="wide" text={t("callAnytime")} />
               <a href={company.phoneHref} className="text-sm font-bold">
                 {company.phone}
               </a>

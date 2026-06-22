@@ -1,13 +1,14 @@
 export type TextSize = "lead" | "body" | "caption" | "note" | "label";
 export type TextTone = "default" | "muted" | "white" | "primary";
 export type TextWeight = "medium" | "semibold" | "bold";
+export type TextTracking = "wide" | "subtle";
 
 export interface TextProps {
   as?: "p" | "span";
   size?: TextSize;
   tone?: TextTone;
   weight?: TextWeight;
-  tracking?: boolean;
+  tracking?: TextTracking;
   text: string;
 }
 
