@@ -6,4 +6,6 @@ export interface ButtonProps {
   variant?: ButtonVariant;
   withArrow?: boolean;
   className?: string;
+  /* Temporary: hide below lg (the base inline-flex blocks a passed `hidden`). */
+  desktopOnly?: boolean;
 }

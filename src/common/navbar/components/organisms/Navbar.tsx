@@ -67,7 +67,7 @@ export const Navbar = async () => {
           <LanguageSwitch />
           <ThemeToggle />
 
-          <Button href={navbar.getFreeQuoteHref} variant="primary" className="hidden lg:inline-flex">
+          <Button href={navbar.getFreeQuoteHref} variant="primary" desktopOnly>
             {t("getFreeQuote")}
           </Button>
 

@@ -29,11 +29,14 @@ export const Button = ({
   variant = "primary",
   withArrow = false,
   className = "",
+  desktopOnly = false,
 }: ButtonProps) => {
   // Same-page anchors use a plain link; route links use next-intl Link to keep the locale.
   const Link = href.startsWith("#") ? NextLink : IntlLink;
+  /* max-lg:hidden lives in a media query, so it overrides the base inline-flex below lg. */
+  const visibility = desktopOnly ? "max-lg:hidden" : "";
   return (
-    <Link href={href} className={`${base} ${variants[variant]} ${className}`}>
+    <Link href={href} className={`${base} ${variants[variant]} ${visibility} ${className}`}>
       <Text as="span" size="body" weight="semibold" tone={textTones[variant]} text={children} />
       {withArrow && (
         <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
