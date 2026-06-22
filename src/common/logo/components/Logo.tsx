@@ -3,7 +3,7 @@ import { company } from "@/data/site";
 import { layoutData } from "@/data/global/layout";
 import { Link } from "@/i18n/navigation";
 
-/* Logo badge (image) + wordmark; the text inherits currentColor from the parent (navbar/footer). */
+/* Logo badge + wordmark; the text inherits the parent's color. */
 export const Logo = () => {
   return (
     <Link
