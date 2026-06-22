@@ -1,7 +1,7 @@
 "use client";
 
 import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
-import { Logo } from "@/common/logo/components/atoms/Logo";
+import { Logo } from "@/common/logo/components/Logo";
 import { Socials } from "@/common/social/components/molecules/Socials";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";

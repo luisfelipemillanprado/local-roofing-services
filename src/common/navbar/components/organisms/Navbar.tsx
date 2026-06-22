@@ -2,7 +2,7 @@ import { Phone } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
-import { Logo } from "@/common/logo/components/atoms/Logo";
+import { Logo } from "@/common/logo/components/Logo";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Text } from "@/common/text/components/Text";
 import { ThemeToggle } from "@/common/navbar/components/atoms/ThemeToggle";

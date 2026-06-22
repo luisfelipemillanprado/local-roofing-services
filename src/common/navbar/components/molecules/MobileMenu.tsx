@@ -91,7 +91,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
               isOpen ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0",
             )}
           >
-            <nav className="grid grid-cols-3 gap-3 px-4 py-6 sm:grid-cols-4 md:grid-cols-5">
+            <nav className="grid grid-cols-3 gap-2.5 px-4 py-6 sm:grid-cols-4 md:grid-cols-5">
               {navLinks.map((link) => {
                 const Icon = ICONS[link.icon];
                 return (
@@ -101,7 +101,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
                     onClick={handleCloseOptions}
                     className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary"
                   >
-                    <Icon className="size-6 text-primary" aria-hidden />
+                    <Icon className="size-6.5 text-primary" aria-hidden />
                     <Text as="span" size="body" tone="default" weight="semibold" text={link.label} />
                   </Link>
                 );

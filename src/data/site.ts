@@ -1,6 +1,7 @@
 /** Locale-independent company details; translatable copy lives in messages. */
 export const company = {
   name: "Roofpro",
+  logo: "/images/logo/logo.webp" /* brand badge, rendered by the Logo component */,
   phone: "+123 456 7890",
   phoneHref: "tel:+1234567890",
   // WhatsApp link; placeholder number (international format, digits only).
