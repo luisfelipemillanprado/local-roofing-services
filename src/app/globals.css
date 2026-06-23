@@ -17,7 +17,7 @@
   --breakpoint-xl: 80rem;
   --breakpoint-2xl: 96rem;
 
-  /* Header height — single source for the navbar and the mobile menu offset. */
+  /* Header height — navbar + mobile-menu offset. */
   --spacing-header: 4.5rem;
 
   /* Neutrals — shared (dark & light theme). */
@@ -43,7 +43,7 @@
   --color-mist: oklch(0.9339 0.0071 268.55); /* → --line (light) */
   --color-cream: oklch(0.9676 0.0057 84.57); /* → --surface-muted (light) */
 
-  /* Semantic roles (theme-independent; theme-switching ones aliased in @theme inline). */
+  /* Semantic roles — static; theme-switching ones in @theme inline. */
   --color-primary: var(--color-amber); /* accent: buttons, links, eyebrow, icons */
   --color-primary-light: var(--color-peach); /* footer icons, CTA input focus */
   --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
@@ -96,7 +96,7 @@
   }
 }
 
-/* Theme-aware roles aliased to runtime vars so utilities switch themes. */
+/* Theme-switching roles aliased to runtime vars. */
 @theme inline {
   --color-surface-base: var(--surface-base); /* page + section base background */
   --color-surface-panel: var(--surface-panel); /* cards/panels: testimonials, navbar, dropdown, outline btn */
@@ -107,7 +107,7 @@
   --color-shade: var(--shade); /* shadow color (shadow-shade) */
 }
 
-/* :root = dark theme; also pinned on .theme-dark so that subtree stays dark (e.g. navbar). */
+/* Dark theme (default); .theme-dark pins it on a subtree, e.g. navbar. */
 :root,
 .theme-dark {
   color-scheme: dark;
@@ -120,7 +120,7 @@
   --shade: var(--color-onyx); /* shadows */
 }
 
-/* Light theme: light surface-panels, same amber accent (inherits @theme defaults). */
+/* Light theme (same amber accent). */
 .light {
   color-scheme: light;
   --surface-base: var(--color-white); /* page + section background */
@@ -129,7 +129,7 @@
   --foreground: var(--color-navy); /* main text */
   --foreground-muted: var(--color-stone); /* secondary text */
   --line: var(--color-mist); /* borders & dividers */
-  --shade: var(--color-onyx); /* shadows (same as dark for now; tune for light later) */
+  --shade: var(--color-onyx); /* shadows */
 }
 
 /* Base element styles (cascade layer so utilities can override). */
@@ -151,7 +151,7 @@
     letter-spacing: -0.05rem;
   }
 
-  /* Custom scrollbar (single style for both themes; uses the dark default). */
+  /* Custom scrollbar (single dark style for both themes). */
   ::-webkit-scrollbar {
     width: 0.625rem;
   }
@@ -224,7 +224,7 @@
   }
 }
 
-/* Image overlays (bottom-weighted gunmetal scrims; clear before the top so upper content stays bright). */
+/* Image overlays — bottom-weighted gunmetal scrims. */
 @utility overlay-strong {
   background-image: linear-gradient(
     to top,
@@ -241,7 +241,7 @@
   );
 }
 
-/* Hero scrims (contrast-based; side keeps left-aligned copy legible, bottom seats the section). */
+/* Hero scrims (contrast) — side for copy legibility, bottom to seat the section. */
 @utility overlay-hero-side {
   background-image: linear-gradient(
     to right,
@@ -254,16 +254,14 @@
   background-image: linear-gradient(to top, var(--color-contrast), transparent 50%);
 }
 
-/* Media queries (top-level overrides; nested ones stay in their own rule). */
-
-/* Base amber is the mobile tone; switch to the saturated desktop amber at lg+. */
+/* Mobile amber; switch to the desktop amber at lg+. */
 @media (min-width: 64rem) {
   :root {
     --color-amber: var(--color-amber-vivid);
   }
 }
 
-/* Outside any layer so it overrides components regardless of specificity. */
+/* Outside any layer so it overrides components. */
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] {
     opacity: 1;
