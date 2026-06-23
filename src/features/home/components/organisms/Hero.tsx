@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { LiveDot } from "@/common/animations/components/LiveDot";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -36,10 +37,7 @@ export const Hero = async () => {
             delay={0.05}
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 backdrop-blur"
           >
-            <span className="relative flex size-2">
-              <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75" />
-              <span className="relative inline-flex size-2 rounded-full bg-primary" />
-            </span>
+            <LiveDot />
             <Text as="span" size="caption" tone="white" weight="semibold" tracking="wide" text={t("badge")} />
           </Reveal>
 

@@ -268,7 +268,8 @@
   }
   .animate-marquee,
   .animate-float-y,
-  .animate-soft-pulse {
+  .animate-soft-pulse,
+  .animate-ping {
     animation: none;
   }
 }
