@@ -1,4 +1,3 @@
-// app/[locale]/layout.tsx
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -14,12 +13,12 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-// 1. Enable SSG at the Next.js 16 compiler level
+/* SSG: prerender each locale */
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-// 2. Generate metadata statically (async)
+/* Static metadata */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({
@@ -67,24 +66,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// 3. Locale layout (no <html>, <body> or theme providers here)
+/* Locale layout; <html>/theme live in root */
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
-  // Guard against invalid locale routes
+  /* Reject unknown locales */
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  // Required for SSG: cache the locale so useTranslations() stays static.
+  /* Cache locale for static rendering */
   setRequestLocale(locale);
 
   return (
     <NextIntlClientProvider>
-      {/* Client micro-component that injects lang="es/en" on the global <html> */}
+      {/* Syncs <html lang> client-side */}
       <SyncLocale locale={locale} />
       {children}
-      {/* Floating quick-contact (WhatsApp + call), visible site-wide */}
+      {/* Site-wide quick-contact */}
       <FloatingContact />
     </NextIntlClientProvider>
   );

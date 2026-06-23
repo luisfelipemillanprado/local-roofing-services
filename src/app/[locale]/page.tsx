@@ -19,7 +19,9 @@ type Props = {
 };
 
 export default function Home({ params }: Props) {
+  /* use() unwraps params without async */
   const { locale } = use(params);
+  /* Cache locale for static rendering */
   setRequestLocale(locale as Locale);
 
   return (

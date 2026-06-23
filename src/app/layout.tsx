@@ -17,7 +17,7 @@ const jakarta = Plus_Jakarta_Sans({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    /* lang is "en" in SSR (reading the locale here would break SSG); SyncLocale sets "es" client-side. */
+    /* lang "en" in SSR (locale here breaks SSG); fixed client-side */
     <html lang="en" suppressHydrationWarning className={`${inter.variable} ${jakarta.variable}`}>
       <body className="antialiased">
         <Providers
