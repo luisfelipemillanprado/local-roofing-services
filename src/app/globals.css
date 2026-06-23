@@ -22,7 +22,6 @@
 
   /* Neutrals — shared (dark & light theme). */
   --color-night: oklch(0.243 0.014 239.25); /* → --surface-base (dark) */
-  --color-tan: oklch(0.6729 0.0913 61.35); /* → --primary-dark: explore-link hover */
   --color-amber-vivid: oklch(0.7552 0.1253 80.01); /* → --amber at ≥1024px (desktop) */
   --color-amber: oklch(0.78 0.1 72); /* → --primary (accent, mobile base) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* → --primary-light (soft accent) */
@@ -46,8 +45,7 @@
 
   /* Semantic roles (theme-independent; theme-switching ones aliased in @theme inline). */
   --color-primary: var(--color-amber); /* accent: buttons, links, eyebrow, icons */
-  --color-primary-light: var(--color-peach); /* footer icons, CTA input focus, Hero rating */
-  --color-primary-dark: var(--color-tan); /* hover: Services explore link */
+  --color-primary-light: var(--color-peach); /* footer icons, CTA input focus */
   --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
   --color-contrast: var(--color-graphite); /* dark fills: Button dark, CTA, StatsBand, gradients */
   --color-highlight: var(--color-steel); /* highlighted card: Pricing */
@@ -235,20 +233,25 @@
     transparent 75%
   );
 }
-@utility overlay-medium {
-  background-image: linear-gradient(
-    to top,
-    color-mix(in oklab, var(--color-gunmetal) 80%, transparent),
-    color-mix(in oklab, var(--color-gunmetal) 8%, transparent) 35%,
-    transparent 65%
-  );
-}
 @utility overlay-soft {
   background-image: linear-gradient(
     to top,
     color-mix(in oklab, var(--color-gunmetal) 55%, transparent),
     transparent 55%
   );
+}
+
+/* Hero scrims (contrast-based; side keeps left-aligned copy legible, bottom seats the section). */
+@utility overlay-hero-side {
+  background-image: linear-gradient(
+    to right,
+    var(--color-contrast),
+    color-mix(in oklab, var(--color-contrast) 85%, transparent) 50%,
+    color-mix(in oklab, var(--color-contrast) 40%, transparent)
+  );
+}
+@utility overlay-hero-bottom {
+  background-image: linear-gradient(to top, var(--color-contrast), transparent 50%);
 }
 
 /* Media queries (top-level overrides; nested ones stay in their own rule). */

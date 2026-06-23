@@ -27,8 +27,8 @@ export const Hero = async () => {
           blurDataURL={blurs.image}
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-contrast via-contrast/85 to-contrast/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-contrast via-transparent to-transparent" />
+        <div className="absolute inset-0 overlay-hero-side" />
+        <div className="absolute inset-0 overlay-hero-bottom" />
       </div>
 
       <div className="relative container-x flex min-h-svh flex-col justify-center pt-36 pb-20 lg:min-h-[calc(100svh-3.5rem)]">
