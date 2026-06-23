@@ -2,8 +2,8 @@ import type { TextProps, TextSize, TextTone, TextTracking, TextWeight } from "@/
 
 const sizes: Record<TextSize, string> = {
   lead: "text-base leading-relaxed" /* 16px — section/page descriptions, footer tagline */,
-  body: "text-[0.9375rem] leading-relaxed" /* 15px — card body, buttons, navbar, footer */,
-  caption: "text-sm leading-tight" /* 14px — hero rating, marquee, stat captions */,
+  body: "text-[0.9375rem] leading-relaxed" /* 15px — card body, buttons, navbar, footer, hero rating */,
+  caption: "text-sm leading-tight" /* 14px — marquee, stat captions */,
   note: "text-[0.8125rem] leading-tight" /* 13px — reserved tier, no usage yet */,
   label: "text-xs leading-tight" /* 12px — eyebrows and badges */,
 };
@@ -32,10 +32,11 @@ export const Text = ({
   tone = "default",
   weight,
   tracking,
+  truncate = false,
   text,
 }: TextProps) => (
   <Tag
-    className={`${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}${tracking ? ` ${trackings[tracking]}` : ""}`}
+    className={`${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}${tracking ? ` ${trackings[tracking]}` : ""} ${truncate ? "truncate" : ""}`}
   >
     {text}
   </Tag>
