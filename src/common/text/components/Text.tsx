@@ -4,7 +4,7 @@ const sizes: Record<TextSize, string> = {
   lead: "text-base leading-relaxed" /* 16px — section/page descriptions, footer tagline */,
   body: "text-[0.9375rem] leading-relaxed" /* 15px — card body, buttons, navbar, footer, hero rating */,
   caption: "text-sm leading-tight" /* 14px — marquee, stat captions */,
-  note: "text-[0.8125rem] leading-tight" /* 13px — reserved tier, no usage yet */,
+  note: "text-[0.8125rem] leading-tight" /* 13px — hero availability badge */,
   label: "text-xs leading-tight" /* 12px — eyebrows and badges */,
 };
 

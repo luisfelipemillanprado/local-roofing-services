@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { LiveDot } from "@/common/animations/components/LiveDot";
 import { Button } from "@/common/button/components/atoms/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
+import { AvailabilityBadge } from "@/features/home/components/molecules/AvailabilityBadge";
 import { CustomerRating } from "@/features/home/components/molecules/CustomerRating";
 import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
@@ -33,12 +33,8 @@ export const Hero = async () => {
 
       <div className="relative container-x flex min-h-svh flex-col justify-center pt-36 pb-20 lg:min-h-[calc(100svh-3.5rem)]">
         <div className="max-w-3xl">
-          <Reveal
-            delay={0.05}
-            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-1.5 backdrop-blur"
-          >
-            <LiveDot />
-            <Text as="span" size="caption" tone="white" weight="semibold" tracking="wide" text={t("badge")} />
+          <Reveal delay={0.05}>
+            <AvailabilityBadge label={t("badge")} />
           </Reveal>
 
           <Reveal as="div" delay={0.13} className="mt-6">
