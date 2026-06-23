@@ -33,13 +33,13 @@ export const Hero = async () => {
         <div className="absolute inset-0 overlay-hero-bottom" />
       </div>
 
-      <div className="relative container-x flex min-h-svh flex-col justify-center pt-36 pb-20 lg:min-h-[calc(100svh-3.5rem)]">
-        <div className="max-w-3xl">
+      <div className="relative container-x flex min-h-svh flex-col justify-center pt-35 pb-19 lg:min-h-[calc(100svh-3.5rem)]">
+        <div className="grid max-w-3xl grid-cols-1 gap-6.5">
           <Reveal delay={0.05}>
             <AvailabilityBadge label={t("badge")} />
           </Reveal>
 
-          <Reveal as="div" delay={0.1} className="mt-6">
+          <Reveal delay={0.1}>
             <Title
               as="h1"
               size="display"
@@ -50,28 +50,34 @@ export const Hero = async () => {
             />
           </Reveal>
 
-          <Reveal as="div" delay={0.15} className="mt-6 max-w-xl">
-            <Text
-              size="lead"
-              tone="muted"
-              text={t("subtitle", {
-                name: company.name,
-                years: company.yearsExperience,
-              })}
-            />
+          <Reveal delay={0.15}>
+            <div className="max-w-xl">
+              <Text
+                size="lead"
+                tone="muted"
+                text={t("subtitle", {
+                  name: company.name,
+                  years: company.yearsExperience,
+                })}
+              />
+            </div>
           </Reveal>
 
-          <Reveal delay={0.2} className="mt-9">
-            <HeroActions
-              primaryHref={ctaPrimaryHref}
-              primaryLabel={t("ctaPrimary")}
-              secondaryHref={ctaSecondaryHref}
-              secondaryLabel={t("ctaSecondary")}
-            />
+          <Reveal delay={0.2}>
+            <div className="mt-1">
+              <HeroActions
+                primaryHref={ctaPrimaryHref}
+                primaryLabel={t("ctaPrimary")}
+                secondaryHref={ctaSecondaryHref}
+                secondaryLabel={t("ctaSecondary")}
+              />
+            </div>
           </Reveal>
 
-          <Reveal delay={0.25} className="mt-12">
-            <CustomerRating avatars={avatars} label={t("customers")} />
+          <Reveal delay={0.25}>
+            <div className="mt-2">
+              <CustomerRating avatars={avatars} label={t("customers")} />
+            </div>
           </Reveal>
         </div>
       </div>
