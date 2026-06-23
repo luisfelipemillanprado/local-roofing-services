@@ -212,12 +212,6 @@
   }
 }
 
-/* Trim half-leading so layout controls spacing */
-@utility text-trim {
-  text-box-trim: trim-both;
-  text-box-edge: cap alphabetic;
-}
-
 /* Page gutter container. */
 @utility container-x {
   width: 100%;

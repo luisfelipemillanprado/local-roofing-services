@@ -1,7 +1,7 @@
 import type { TitleProps, TitleSize, TitleTone, TitleWeight, TitleAccentTone } from "@/common/title/types";
 
 const sizes: Record<TitleSize, string> = {
-  display: "text-5xl leading-none sm:text-7xl lg:text-8xl" /* hero h1 */,
+  display: "text-[3.375rem] leading-none sm:text-7xl lg:text-8xl" /* hero h1 */,
   page: "text-4xl leading-none sm:text-5xl lg:text-6xl" /* page header h1 */,
   banner: "text-3xl leading-tight sm:text-4xl lg:text-5xl" /* CTA banner h2 */,
   section: "text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]" /* section h2 */,
@@ -38,9 +38,7 @@ export const Title = ({
   accent,
   accentTone = "primary",
 }: TitleProps) => (
-  <Tag
-    className={`text-trim ${sizes[size]} ${tones[tone]} ${weights[weight]}${tracking ? ` ${tracked}` : ""}`}
-  >
+  <Tag className={`${sizes[size]} ${tones[tone]} ${weights[weight]}${tracking ? ` ${tracked}` : ""}`}>
     {text}
     {accent && <span className={`block ${accentTones[accentTone]}`}>{accent}</span>}
   </Tag>

@@ -15,5 +15,5 @@ const tones: Record<TextNumberTone, string> = {
 };
 
 export const TextNumber = ({ as: Tag = "span", size = "stat", tone = "default", text }: TextNumberProps) => (
-  <Tag className={`font-extrabold text-trim ${sizes[size]} ${tones[tone]}`}>{text}</Tag>
+  <Tag className={`font-extrabold ${sizes[size]} ${tones[tone]}`}>{text}</Tag>
 );
