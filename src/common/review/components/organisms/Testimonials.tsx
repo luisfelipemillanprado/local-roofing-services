@@ -57,7 +57,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
               <div>
                 <div className="flex items-center gap-1.5">
                   <TextNumber size="base" text="4.9" />
-                  <Stars size="base" />
+                  <Stars />
                 </div>
                 <Text size="label" tone="muted" text={t("reviews")} />
               </div>
@@ -79,7 +79,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                 className="flex flex-col rounded-card border border-line bg-surface-panel p-7 shadow-md shadow-shade/40"
               >
                 <div className="flex items-center justify-between">
-                  <Stars size="card" />
+                  <Stars />
                   <Quote className="size-8 text-surface-muted" fill="currentColor" />
                 </div>
                 <blockquote className="mt-5 flex-1">

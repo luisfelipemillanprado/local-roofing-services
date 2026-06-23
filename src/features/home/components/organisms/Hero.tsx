@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { Button } from "@/common/button/components/atoms/Button";
-import { Stars } from "@/common/stars/components/Stars";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
+import { CustomerRating } from "@/features/home/components/molecules/CustomerRating";
 import { getTranslations } from "next-intl/server";
 import { company } from "@/data/site";
 import { blurs } from "@/data/blurs";
@@ -30,7 +30,7 @@ export const Hero = async () => {
         <div className="absolute inset-0 bg-gradient-to-t from-contrast via-transparent to-transparent" />
       </div>
 
-      <div className="relative container-x flex min-h-svh flex-col justify-center pt-36 pb-20">
+      <div className="relative container-x flex min-h-svh flex-col justify-center pt-36 pb-20 lg:min-h-[calc(100svh-3.5rem)]">
         <div className="max-w-3xl">
           <Reveal
             delay={0.05}
@@ -74,24 +74,8 @@ export const Hero = async () => {
             </Button>
           </Reveal>
 
-          <Reveal
-            delay={0.37}
-            className="mt-12 inline-flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-2 pr-5 backdrop-blur"
-          >
-            <div className="flex -space-x-3">
-              {heroSection.avatars.map((src) => (
-                <span
-                  key={src}
-                  className="relative size-10 shrink-0 overflow-hidden rounded-full border-2 border-contrast"
-                >
-                  <Image src={src} alt="" fill sizes="40px" className="object-cover" />
-                </span>
-              ))}
-            </div>
-            <div>
-              <Stars size="base" />
-              <Text size="caption" tone="default" weight="semibold" text={t("customers")} />
-            </div>
+          <Reveal delay={0.37} className="mt-12">
+            <CustomerRating avatars={heroSection.avatars} label={t("customers")} />
           </Reveal>
         </div>
       </div>
