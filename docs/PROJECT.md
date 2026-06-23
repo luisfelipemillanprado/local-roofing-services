@@ -1,22 +1,21 @@
 # Roofpro — Roofing Services Website
 
 A professional, high-performance marketing site for a roofing company, built with
-the Next.js App Router. Single-page landing experience with smooth scroll
-navigation, scroll-reveal animations, a fully responsive mobile-first layout, and
-full **English / Spanish internationalisation** via locale-prefixed routes.
-
-> The repository's root `README.md` is the owner's GitHub profile and is left
-> untouched. This file documents the Roofpro web project that lives in this branch.
+the Next.js App Router. Multi-page experience (Home, Services, Projects, About) with
+smooth in-page anchor navigation, scroll-reveal animations, a fully responsive
+mobile-first layout, and full **English / Spanish internationalisation** via
+locale-prefixed routes.
 
 ## Tech Stack
 
 - **Next.js 16** (App Router, React 19, TypeScript)
 - **next-intl** for i18n (locale-prefixed routing, server-rendered translations)
-- Custom **light/dark theme** provider (`src/components/ThemeProvider.tsx`) with a
-  server-rendered anti-flash script
+- **next-themes** for class-based light/dark theming (`src/app/Providers.tsx`),
+  configured in the root layout with `suppressHydrationWarning` to avoid flash
 - **Tailwind CSS v4** with a custom design-token theme (`src/app/globals.css`)
-- **Framer Motion** for scroll-reveal and entrance animations
-- **lucide-react** for icons
+- **Scroll-reveal** via one shared `IntersectionObserver` + CSS keyframes
+  (`src/common/reveal/components/atoms/Reveal.tsx`) — no JS animation library
+- **lucide-react** + **@icons-pack/react-simple-icons** for icons
 - **next/font** (Plus Jakarta Sans + Inter), `next/image` for optimized assets
 
 ## Getting Started
@@ -28,46 +27,63 @@ pnpm install
 pnpm dev      # http://localhost:3000
 ```
 
+`pnpm dev` runs the i18n builder in watch mode alongside `next dev`, so edits to the
+source copy are recompiled automatically.
+
 ### Scripts
 
-| Command       | Description                |
-| ------------- | ------------------------- |
-| `pnpm dev`    | Start the dev server       |
-| `pnpm build`  | Production build           |
-| `pnpm start`  | Serve the production build |
-| `pnpm lint`   | Lint the project           |
+| Command           | Description                                            |
+| ----------------- | ------------------------------------------------------ |
+| `pnpm dev`        | i18n builder (watch) + dev server                      |
+| `pnpm build`      | Compile i18n, then production build                    |
+| `pnpm start`      | Serve the production build                             |
+| `pnpm i18n:build` | Compile the modular copy into `messages/{locale}.json` |
+| `pnpm lint`       | Lint the project                                       |
+| `pnpm format`     | Format with Prettier                                   |
 
 ## Project Structure
 
 ```
+i118builder/
+  index.ts            # Compiles modular per-namespace JSON → messages/{locale}.json
+  messages/           # Source copy, split by (global)/(pages)/(sections) + locale
 messages/
-  en.json             # All English copy, by section namespace
-  es.json             # All Spanish copy (same shape as en.json)
+  en.json             # Generated — all English copy (do not edit by hand)
+  es.json             # Generated — all Spanish copy (same shape as en.json)
 src/
   proxy.ts            # next-intl middleware (locale routing) — Next.js 16 name
   app/
-    [locale]/
-      layout.tsx      # <html lang>, fonts, localized metadata, providers
-      page.tsx        # Page composition (section order)
+    layout.tsx        # Root: <html lang>, fonts, theme Providers
+    Providers.tsx     # next-themes wrapper (client)
+    SyncLocale.tsx    # Syncs <html lang> to the active locale (client)
     globals.css       # Design tokens (colors, fonts, radii) + utilities
+    [locale]/
+      layout.tsx      # Localized metadata, NextIntlClientProvider, FloatingContact
+      page.tsx        # Home page composition (section order)
+      about/page.tsx
+      services/page.tsx
+      projects/page.tsx
   i18n/
     routing.ts        # Locales, default locale, localePrefix config
     request.ts        # getRequestConfig — loads messages per request
     navigation.ts     # Locale-aware Link / useRouter / usePathname
-  components/
-    ThemeProvider.tsx # next-themes wrapper
-    layout/           # Navbar, Footer
-    sections/         # Hero, About, Services, WhyChoose, Projects, Team,
-                      # Testimonials, Coupons, Pricing, Blog, CTA, Marquee
-    ui/               # Button, SectionHeading, Reveal, Logo, Socials, etc.
-  config/
-    content.ts        # Non-translatable presentation data: icons, image URLs,
-                      # structural flags (merged by index with the translations)
-  data/
-    site.ts           # Locale-independent company details (name, phone, email)
-  lib/
-    motion.ts         # Shared Framer Motion variants
+  common/             # Shared primitives + shared sections (atoms/molecules/organisms):
+                      #   Button, Text, Title, Section, Media, Reveal, IconBadge, …
+                      #   Navbar, Footer, About, Services, Projects, Team,
+                      #   Testimonials, CTA, Logo, Socials, FloatingContact
+  features/           # Page-specific sections
+    home/             #   Hero, Marquee, Pricing, WhyChoose (+ hero molecules)
+    about/            #   Values
+    services/         #   ProcessSteps, Faq
+    projects/         #   StatsBand
+  data/               # Locale-independent presentation data (order, icons, images)
+    site.ts           #   Company details (name, phone, email, address)
+    blurs.ts          #   Base64 blur placeholders per image type
+    global/layout.ts  #   Navbar + floating-contact structure
+    pages/            #   Per-page data (home, about, services, projects)
+    sections/         #   Shared-section data (services, projects, team, reviews)
   global.d.ts         # next-intl type augmentation (Locale + Messages)
+  types/assets.d.ts   # Asset / CSS module declarations
 ```
 
 ### How i18n works
@@ -75,31 +91,43 @@ src/
 - Routes are locale-prefixed: English is served at `/` and Spanish at `/es`
   (`localePrefix: "as-needed"` in `src/i18n/routing.ts`). `src/proxy.ts` handles
   locale detection and redirects.
-- All translatable copy lives in `messages/{locale}.json`. Components read it with
-  `useTranslations("Namespace")`; lists use `t.raw("items")` and are merged by index
-  with the icons/images in `src/config/content.ts`.
+- Source copy is split per namespace under `i118builder/messages/`. The builder
+  (`pnpm i18n:build`, also run by `dev`/`build`) deep-merges those files into
+  `messages/{locale}.json`. **Do not edit `messages/*.json` by hand** — they are
+  generated output.
+- Components read copy with `getTranslations` (server) or `useTranslations` (client).
+  Ordered lists live in `src/data/` with a literal `key`; the text is resolved by
+  that key (e.g. `t(\`items.${key}.title\`)`) rather than merged by index. A few flat
+arrays (footer links, FAQ, pricing features) are read with `t.raw(...)`.
 - ICU placeholders like `{name}` / `{years}` are passed as `t("key", { name, years })`.
+- Type safety: `src/global.d.ts` augments next-intl with the generated `en.json`
+  shape, and the data keys are literal unions, so `t()` keys are checked at build time.
 
 ## Customizing for the Client
 
-- **Content & copy:** edit `messages/en.json` and `messages/es.json` — services,
-  team, testimonials, pricing, blog posts, footer links and every UI string live
-  here, keyed by section. Keep both files the same shape.
+- **Content & copy:** edit the per-namespace files under
+  `i118builder/messages/**/{en,es}.json`, then rebuild (`pnpm i18n:build`, or just run
+  `pnpm dev`). Keep both locales the same shape.
 - **Company details:** edit `src/data/site.ts` (name, phone, email, address).
-- **Icons / images:** edit `src/config/content.ts` — these are merged by index with
-  the translated lists, so the order must match the `messages/*.json` arrays.
-- **Add a language:** add the locale to `src/i18n/routing.ts`, create the matching
-  `messages/<locale>.json`, and the route is generated automatically.
+- **Order / icons / images:** edit the matching file in `src/data/` (e.g.
+  `sections/services.ts`). Each item's `key` must match the keys used in the copy.
+- **Add a language:** add the locale to `src/i18n/routing.ts`, add the matching
+  source JSON files, rebuild, and the route is generated automatically.
 - **Brand colors / fonts:** edit the `@theme` block in `src/app/globals.css`
-  (`--color-primary`, etc.) and the fonts in `src/app/[locale]/layout.tsx`.
+  (`--color-primary`, etc.) and the fonts in `src/app/layout.tsx`.
 - **Remote images:** add the host to `images.remotePatterns` in `next.config.ts`.
 
-## Sections
+## Pages & Sections
 
-Hero → marquee strip → About → Services → Why Choose Us → Projects →
-Team → Testimonials → Coupons → Pricing → Blog → Contact / CTA → Footer.
+- **Home (`/`):** Hero → marquee strip → About → Services → Why Choose Us →
+  Projects → Team → Testimonials → Pricing → Contact / CTA → Footer.
+- **Services (`/services`):** PageHeader → Services → Process Steps → FAQ → CTA.
+- **Projects (`/projects`):** PageHeader → Projects → StatsBand → Testimonials → CTA.
+- **About (`/about`):** PageHeader → About → Values → Team → CTA.
+
+Site-wide: a fixed Navbar, a floating quick-contact (WhatsApp + call), and the Footer.
 
 ## Deployment
 
 Optimized for Vercel (zero-config). Any Node host works via `pnpm build` +
-`pnpm start`. The page is statically prerendered for fast first load.
+`pnpm start`. Pages are statically prerendered per locale for a fast first load.
