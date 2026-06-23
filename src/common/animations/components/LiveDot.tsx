@@ -1,4 +1,4 @@
-/* Live-status indicator: a steady accent dot with an expanding ping ring behind it. */
+/* Live-status dot with ping ring. */
 export const LiveDot = () => (
   <span aria-hidden className="relative flex size-2">
     <span className="absolute size-full animate-ping rounded-full bg-primary opacity-75" />

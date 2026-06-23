@@ -1,10 +1,10 @@
 import clsx from "clsx";
 import type { PulseRingProps } from "@/common/animations/types";
 
-/* Staggered delays so the concentric rings ripple out continuously. */
+/* Staggered ring delays. */
 const LAYERS = [0, 0.7, 1.4];
 
-/* Renders expanding, fading rings behind its children to draw attention. */
+/* Expanding, fading rings behind children. */
 export const PulseRing = ({ children, color, rounded }: PulseRingProps) => (
   <div className="relative w-fit">
     {LAYERS.map((delay) => (

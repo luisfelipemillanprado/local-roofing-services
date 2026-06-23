@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { company } from "@/data/site";
+import { blurs } from "@/data/blurs";
 import { layoutData } from "@/data/global/layout";
 import { Link } from "@/i18n/navigation";
 
-/* Logo badge + wordmark; the text inherits the parent's color. */
+/* Logo badge + wordmark. */
 export const Logo = () => {
   return (
     <Link
@@ -12,7 +13,15 @@ export const Logo = () => {
       aria-label={`${company.name} home`}
     >
       <span className="relative size-10 shrink-0">
-        <Image src={company.logo} alt="" fill sizes="40px" className="object-contain" />
+        <Image
+          src={company.logo}
+          alt=""
+          fill
+          sizes="40px"
+          placeholder="blur"
+          blurDataURL={blurs.logo}
+          className="object-contain"
+        />
       </span>
       <span>{company.name}</span>
     </Link>
