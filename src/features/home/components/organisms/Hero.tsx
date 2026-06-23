@@ -10,6 +10,8 @@ import { company } from "@/data/site";
 import { blurs } from "@/data/blurs";
 import { heroSection } from "@/data/pages/home";
 
+const { image, avatars, ctaPrimaryHref, ctaSecondaryHref } = heroSection;
+
 export const Hero = async () => {
   const t = await getTranslations("home.hero");
 
@@ -18,7 +20,7 @@ export const Hero = async () => {
       {/* Background */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src={heroSection.image}
+          src={image}
           alt={t("imageAlt")}
           fill
           priority
@@ -60,16 +62,16 @@ export const Hero = async () => {
           </Reveal>
 
           <Reveal delay={0.29} className="mt-9 flex flex-wrap items-center gap-4">
-            <Button href={heroSection.ctaPrimaryHref} variant="primary" withArrow>
+            <Button href={ctaPrimaryHref} variant="primary" withArrow>
               {t("ctaPrimary")}
             </Button>
-            <Button href={heroSection.ctaSecondaryHref} variant="ghost">
+            <Button href={ctaSecondaryHref} variant="ghost">
               {t("ctaSecondary")}
             </Button>
           </Reveal>
 
           <Reveal delay={0.37} className="mt-12">
-            <CustomerRating avatars={heroSection.avatars} label={t("customers")} />
+            <CustomerRating avatars={avatars} label={t("customers")} />
           </Reveal>
         </div>
       </div>
