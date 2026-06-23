@@ -34,7 +34,7 @@ export const Hero = async () => {
       </div>
 
       <div className="relative container-x flex min-h-svh flex-col justify-center pt-35 pb-19 lg:min-h-[calc(100svh-3.5rem)]">
-        <div className="grid max-w-3xl grid-cols-1 gap-6.5">
+        <div className="grid max-w-87 grid-cols-1 gap-6.5 sm:max-w-3xl">
           <Reveal delay={0.05}>
             <AvailabilityBadge label={t("badge")} />
           </Reveal>
@@ -51,16 +51,14 @@ export const Hero = async () => {
           </Reveal>
 
           <Reveal delay={0.15}>
-            <div className="max-w-xl">
-              <Text
-                size="lead"
-                tone="muted"
-                text={t("subtitle", {
-                  name: company.name,
-                  years: company.yearsExperience,
-                })}
-              />
-            </div>
+            <Text
+              size="lead"
+              tone="muted"
+              text={t("subtitle", {
+                name: company.name,
+                years: company.yearsExperience,
+              })}
+            />
           </Reveal>
 
           <Reveal delay={0.2}>
