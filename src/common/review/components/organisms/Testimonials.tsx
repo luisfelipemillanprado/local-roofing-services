@@ -41,7 +41,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
   const testimonials = reviewsSection.items.slice(0, limit);
 
   return (
-    <Section tone="muted">
+    <Section id="reviews" tone="muted">
       <div className="container-x">
         <div className="flex flex-col items-center gap-6">
           <SectionHeading
