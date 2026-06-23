@@ -38,7 +38,9 @@ export const Title = ({
   accent,
   accentTone = "primary",
 }: TitleProps) => (
-  <Tag className={`${sizes[size]} ${tones[tone]} ${weights[weight]}${tracking ? ` ${tracked}` : ""}`}>
+  <Tag
+    className={`text-trim ${sizes[size]} ${tones[tone]} ${weights[weight]}${tracking ? ` ${tracked}` : ""}`}
+  >
     {text}
     {accent && <span className={`block ${accentTones[accentTone]}`}>{accent}</span>}
   </Tag>

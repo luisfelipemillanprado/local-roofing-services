@@ -36,7 +36,7 @@ export const Text = ({
   text,
 }: TextProps) => (
   <Tag
-    className={`${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}${tracking ? ` ${trackings[tracking]}` : ""} ${truncate ? "truncate" : ""}`}
+    className={`text-trim ${sizes[size]} ${tones[tone]}${weight ? ` ${weights[weight]}` : ""}${tracking ? ` ${trackings[tracking]}` : ""} ${truncate ? "truncate" : ""}`}
   >
     {text}
   </Tag>
