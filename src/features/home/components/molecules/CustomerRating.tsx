@@ -11,6 +11,7 @@ export const CustomerRating = ({ avatars, label }: CustomerRatingProps) => (
         <Avatar key={src} src={src} alt="" bordered />
       ))}
     </div>
+    {/* min-w-0 lets the flex child shrink so truncate works */}
     <div className="min-w-0">
       <Stars />
       <Text size="body" tone="default" weight="semibold" truncate text={label} />
