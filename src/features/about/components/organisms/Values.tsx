@@ -13,7 +13,6 @@ export const Values = async () => {
       <div className="container-x">
         <SectionHeading
           eyebrow={t("eyebrow")}
-          align="center"
           title={t("titleLead")}
           accent={t("titleAccent")}
           description={t("description")}

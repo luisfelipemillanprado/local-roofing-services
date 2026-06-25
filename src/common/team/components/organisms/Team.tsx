@@ -19,10 +19,9 @@ export const Team = async ({ limit }: TeamProps = {}) => {
   return (
     <Section>
       <div className="container-x">
-        <div className="flex flex-col items-center gap-6">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
           <SectionHeading
             eyebrow={t("eyebrow")}
-            align="center"
             title={t("titleLead")}
             accent={t("titleAccent")}
             description={t("description")}

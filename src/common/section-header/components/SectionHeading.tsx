@@ -1,28 +1,17 @@
-import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
 import type { SectionHeadingProps } from "@/common/section-header/types";
 
-export const SectionHeading = ({
-  eyebrow,
-  title,
-  accent,
-  description,
-  align = "left",
-  className = "",
-}: SectionHeadingProps) => {
-  const alignClass =
-    align === "center"
-      ? "items-center text-center mx-auto max-w-2xl"
-      : align === "center-mobile"
-        ? "items-center text-center mx-auto max-w-xl lg:items-start lg:text-left lg:mx-0"
-        : "items-start max-w-xl";
+/* centered on mobile, left-aligned from md */
+export const SectionHeading = ({ eyebrow, title, accent, description }: SectionHeadingProps) => {
   return (
-    <Reveal className={`flex flex-col gap-4 ${alignClass} ${className}`}>
+    <div className="flex flex-col items-center gap-4 text-center md:max-w-xl md:items-start md:text-left">
       <Eyebrow text={eyebrow} />
       <Title as="h2" size="section" text={title} accent={accent} />
-      {description && <Text size="lead" tone="muted" text={description} />}
-    </Reveal>
+      <div className="max-w-xs">
+        <Text size="lead" tone="muted" text={description} />
+      </div>
+    </div>
   );
 };

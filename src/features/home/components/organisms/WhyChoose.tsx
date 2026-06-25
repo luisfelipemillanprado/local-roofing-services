@@ -20,13 +20,12 @@ export const WhyChoose = async () => {
         <div className="lg:sticky lg:top-28">
           <SectionHeading
             eyebrow={t("eyebrow")}
-            align="center-mobile"
             title={t("titleLead")}
             accent={t("titleAccent")}
             description={t("description")}
           />
 
-          <div className="mt-9 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
+          <div className="mt-9 flex flex-wrap items-center justify-center gap-6 md:justify-start">
             {whyStats.map((stat) => {
               return (
                 <div key={stat.key} className="flex items-center gap-3">
@@ -40,7 +39,7 @@ export const WhyChoose = async () => {
             })}
           </div>
 
-          <div className="mt-9 flex justify-center lg:justify-start">
+          <div className="mt-9 flex justify-center md:justify-start">
             <Button href="#contact" variant="secondary">
               {tc("learnMore")}
             </Button>
