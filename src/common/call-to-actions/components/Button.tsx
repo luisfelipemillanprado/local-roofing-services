@@ -6,7 +6,7 @@ import type { ButtonProps, ButtonVariant } from "@/common/call-to-actions/types"
 
 const variants: Record<ButtonVariant, string> = {
   primary: "bg-primary shadow-md shadow-shade/40 hover:-translate-y-0.5",
-  dark: "bg-contrast hover:-translate-y-0.5",
+  secondary: "bg-secondary hover:-translate-y-0.5",
   ghost: "border border-white/30 bg-white/5 hover:bg-white/15",
 };
 

@@ -1,5 +1,5 @@
 /* Link button (renders <a>). */
-export type ButtonVariant = "primary" | "dark" | "ghost";
+export type ButtonVariant = "primary" | "secondary" | "ghost";
 
 export interface ButtonProps {
   href: string;

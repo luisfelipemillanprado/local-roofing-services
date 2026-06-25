@@ -64,7 +64,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
             </div>
             {/* Hidden below sm; the wrapper owns visibility so the link keeps its own display */}
             <div className="hidden sm:block">
-              <Button href="#contact" variant="dark">
+              <Button href="#contact" variant="secondary">
                 {t("viewAll")}
               </Button>
             </div>

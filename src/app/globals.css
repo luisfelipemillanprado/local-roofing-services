@@ -24,6 +24,7 @@
   --color-night: oklch(0.243 0.014 239.25); /* → --surface-base (dark) */
   --color-amber-vivid: oklch(0.7552 0.1253 80.01); /* → --amber at ≥1024px (desktop) */
   --color-amber: oklch(0.78 0.1 72); /* → --primary (accent, mobile base) */
+  --color-amber-deep: oklch(0.6864 0.0941 67.81); /* → --secondary (section button bg) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* → --primary-light (soft accent) */
   --color-malachite: oklch(0.761 0.2015 149.74); /* WhatsApp FAB (bg-malachite) */
   --color-onyx: oklch(0.2047 0.0121 237.38); /* → --shade (shadows) */
@@ -47,6 +48,7 @@
   --color-primary: var(--color-amber); /* accent: buttons, links, eyebrow, icons */
   --color-primary-light: var(--color-peach); /* footer icons, CTA input focus */
   --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
+  --color-secondary: var(--color-amber-deep); /* secondary button fill (section CTAs) */
   --color-contrast: var(--color-graphite); /* dark fills: Button dark, CTA, StatsBand, gradients */
   --color-highlight: var(--color-steel); /* highlighted card: Pricing */
 

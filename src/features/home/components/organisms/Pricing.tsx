@@ -74,7 +74,7 @@ export const Pricing = async () => {
                 </ul>
 
                 <div className="mt-8">
-                  <Button href="#contact" variant={plan.highlighted ? "primary" : "dark"} fullWidth>
+                  <Button href="#contact" variant={plan.highlighted ? "primary" : "secondary"} fullWidth>
                     {t("choose")}
                   </Button>
                 </div>
