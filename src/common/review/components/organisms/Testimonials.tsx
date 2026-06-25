@@ -51,7 +51,10 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col items-center gap-4 sm:flex-row">
+            <Button href="#contact" variant="secondary">
+              {t("viewAll")}
+            </Button>
             <div className="flex items-center gap-2 rounded-2xl border border-line bg-surface-panel px-4 py-3">
               <GoogleMark />
               <div>
@@ -61,12 +64,6 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                 </div>
                 <Text size="label" tone="muted" text={t("reviews")} />
               </div>
-            </div>
-            {/* Hidden below sm; the wrapper owns visibility so the link keeps its own display */}
-            <div className="hidden sm:block">
-              <Button href="#contact" variant="secondary">
-                {t("viewAll")}
-              </Button>
             </div>
           </div>
         </div>
