@@ -103,7 +103,7 @@ export const About = async () => {
           </Reveal>
 
           <Reveal className="mt-8">
-            <Button href="/services" variant="dark" withArrow>
+            <Button href="/services" variant="dark">
               {tc("learnMore")}
             </Button>
           </Reveal>

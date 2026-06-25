@@ -31,7 +31,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
             description={t("description")}
           />
           {exploreHref && (
-            <Button href={exploreHref} variant="primary" withArrow>
+            <Button href={exploreHref} variant="primary">
               {t("exploreAll")}
             </Button>
           )}

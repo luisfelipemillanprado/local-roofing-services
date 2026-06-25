@@ -27,7 +27,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
             description={t("description")}
           />
           {exploreHref && (
-            <Button href={exploreHref} variant="primary" withArrow>
+            <Button href={exploreHref} variant="primary">
               {t("explore")}
             </Button>
           )}

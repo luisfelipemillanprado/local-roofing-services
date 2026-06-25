@@ -41,7 +41,7 @@ export const WhyChoose = async () => {
           </div>
 
           <div className="mt-9 flex justify-center lg:justify-start">
-            <Button href="#contact" variant="primary" withArrow>
+            <Button href="#contact" variant="primary">
               {tc("learnMore")}
             </Button>
           </div>
