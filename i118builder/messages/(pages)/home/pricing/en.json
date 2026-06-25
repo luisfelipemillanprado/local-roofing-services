@@ -5,6 +5,7 @@
   "description": "Honest, upfront quotes with no hidden fees or surprises, so you can choose the plan that fits your property and budget, with every job backed by our workmanship guarantee.",
   "popular": "POPULAR",
   "choose": "Choose Plan",
+  "viewAll": "View All Details",
   "plans": {
     "residential": {
       "name": "Residential",

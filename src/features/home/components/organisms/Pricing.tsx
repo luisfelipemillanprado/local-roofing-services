@@ -17,13 +17,18 @@ export const Pricing = async () => {
   return (
     <Section id="pricing">
       <div className="container-x">
-        <SectionHeading
-          eyebrow={t("eyebrow")}
-          align="center"
-          title={t("titleLead")}
-          accent={t("titleAccent")}
-          description={t("description")}
-        />
+        <div className="flex flex-col items-center gap-6">
+          <SectionHeading
+            eyebrow={t("eyebrow")}
+            align="center"
+            title={t("titleLead")}
+            accent={t("titleAccent")}
+            description={t("description")}
+          />
+          <Button href="#contact" variant="secondary">
+            {t("viewAll")}
+          </Button>
+        </div>
 
         <div className="mx-auto mt-14 grid max-w-6xl gap-6 md:grid-cols-3">
           {pricingPlans.map((plan, i) => {
