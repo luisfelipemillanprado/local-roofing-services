@@ -28,7 +28,7 @@ export const Team = async ({ limit }: TeamProps = {}) => {
             description={t("description")}
           />
           <Button href="#contact" variant="secondary">
-            {t("explore")}
+            {t("viewAll")}
           </Button>
         </div>
 

@@ -32,7 +32,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
           />
           {exploreHref && (
             <Button href={exploreHref} variant="secondary">
-              {t("exploreAll")}
+              {t("viewAll")}
             </Button>
           )}
         </div>
