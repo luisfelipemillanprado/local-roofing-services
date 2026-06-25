@@ -2,21 +2,17 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ArrowRight, Check } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { ActionButton } from "@/common/call-to-actions/components/ActionButton";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Section } from "@/common/section/components/Section";
 import { Text } from "@/common/text/components/Text";
 import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
 import { Title } from "@/common/title/components/Title";
+import type { FormContactProps } from "@/common/form-contact/types";
 
-type CTAProps = {
-  /** Section background, used to keep each page's section alternation correct. */
-  tone?: "base" | "alt";
-};
-
-export const CTA = ({ tone = "base" }: CTAProps) => {
-  const t = useTranslations("call-action");
+export const FormContact = ({ tone = "base" }: FormContactProps) => {
+  const t = useTranslations("form-contact");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
   const onSubmit = (e: React.FormEvent) => {
@@ -64,22 +60,7 @@ export const CTA = ({ tone = "base" }: CTAProps) => {
                 placeholder={t("emailPlaceholder")}
                 className="w-full flex-1 rounded-full border border-white/15 bg-white/10 px-6 py-4 text-sm text-white backdrop-blur placeholder:text-white/50 focus:border-primary-light focus:outline-none"
               />
-              <button
-                type="submit"
-                className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-4 text-white transition-all duration-300 hover:-translate-y-0.5"
-              >
-                {sent ? (
-                  <>
-                    <Text as="span" size="body" weight="semibold" tone="white" text={t("sent")} />
-                    <Check className="size-4" />
-                  </>
-                ) : (
-                  <>
-                    <Text as="span" size="body" weight="semibold" tone="white" text={t("getQuote")} />
-                    <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-                  </>
-                )}
-              </button>
+              <ActionButton label={sent ? t("sent") : t("getQuote")} />
             </form>
           </div>
         </Reveal>

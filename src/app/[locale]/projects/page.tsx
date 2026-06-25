@@ -7,7 +7,7 @@ import { PageHeader } from "@/common/page-header/components/PageHeader";
 import { Projects } from "@/common/project/components/organisms/Projects";
 import { StatsBand } from "@/features/projects/components/organisms/StatsBand";
 import { Testimonials } from "@/common/review/components/organisms/Testimonials";
-import { CTA } from "@/common/call-action/components/organisms/CTA";
+import { FormContact } from "@/common/form-contact/components/organisms/FormContact";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -38,7 +38,7 @@ export default async function ProjectsPage({ params }: Props) {
         <Projects />
         <StatsBand />
         <Testimonials />
-        <CTA />
+        <FormContact />
       </main>
       <Footer />
     </>

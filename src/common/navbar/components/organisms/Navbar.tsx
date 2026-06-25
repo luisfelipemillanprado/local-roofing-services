@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { company } from "@/data/site";
 import { Logo } from "@/common/logo/components/Logo";
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { Text } from "@/common/text/components/Text";
 import { ThemeToggle } from "@/common/navbar/components/atoms/ThemeToggle";
 import { LanguageSwitch } from "@/common/navbar/components/atoms/LanguageSwitch";
@@ -67,9 +67,12 @@ export const Navbar = async () => {
           <LanguageSwitch />
           <ThemeToggle />
 
-          <Button href={navbar.getFreeQuoteHref} variant="primary" desktopOnly>
-            {t("getFreeQuote")}
-          </Button>
+          {/* Desktop only; the wrapper owns visibility so the link keeps its own display */}
+          <div className="max-lg:hidden">
+            <Button href={navbar.getFreeQuoteHref} variant="primary">
+              {t("getFreeQuote")}
+            </Button>
+          </div>
 
           {/* Hamburger — mobile only (lg:hidden lives on its trigger) */}
           <MobileMenu navLinks={mobileLinks} menuId={navbar.menuId} toggleMenuLabel={t("toggleMenu")} />

@@ -1,5 +1,5 @@
 import { Phone } from "lucide-react";
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
 import { Section } from "@/common/section/components/Section";
 import { Media } from "@/common/media/components/Media";

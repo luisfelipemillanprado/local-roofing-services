@@ -1,4 +1,4 @@
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import type { HeroActionsProps } from "@/features/home/types";
 
 /* Hero CTAs: primary + ghost actions. */

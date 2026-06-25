@@ -12,7 +12,7 @@ import { Projects } from "@/common/project/components/organisms/Projects";
 import { Team } from "@/common/team/components/organisms/Team";
 import { Testimonials } from "@/common/review/components/organisms/Testimonials";
 import { Pricing } from "@/features/home/components/organisms/Pricing";
-import { CTA } from "@/common/call-action/components/organisms/CTA";
+import { FormContact } from "@/common/form-contact/components/organisms/FormContact";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -37,7 +37,7 @@ export default function Home({ params }: Props) {
         <Team limit={3} />
         <Testimonials limit={6} />
         <Pricing />
-        <CTA tone="alt" />
+        <FormContact tone="alt" />
       </main>
       <Footer />
     </>

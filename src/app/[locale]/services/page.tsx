@@ -7,7 +7,7 @@ import { PageHeader } from "@/common/page-header/components/PageHeader";
 import { Services } from "@/common/service/components/Services";
 import { ProcessSteps } from "@/features/services/components/organisms/ProcessSteps";
 import { Faq } from "@/features/services/components/organisms/Faq";
-import { CTA } from "@/common/call-action/components/organisms/CTA";
+import { FormContact } from "@/common/form-contact/components/organisms/FormContact";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -38,7 +38,7 @@ export default async function ServicesPage({ params }: Props) {
         <Services />
         <ProcessSteps />
         <Faq />
-        <CTA />
+        <FormContact />
       </main>
       <Footer />
     </>

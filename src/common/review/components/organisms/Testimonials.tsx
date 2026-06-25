@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Quote } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Section } from "@/common/section/components/Section";
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
@@ -62,9 +62,12 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
                 <Text size="label" tone="muted" text={t("reviews")} />
               </div>
             </div>
-            <Button href="#contact" variant="dark" className="hidden sm:inline-flex">
-              {t("viewAll")}
-            </Button>
+            {/* Hidden below sm; the wrapper owns visibility so the link keeps its own display */}
+            <div className="hidden sm:block">
+              <Button href="#contact" variant="dark">
+                {t("viewAll")}
+              </Button>
+            </div>
           </div>
         </div>
 

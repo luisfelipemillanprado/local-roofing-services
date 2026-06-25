@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Section } from "@/common/section/components/Section";
 import { Media } from "@/common/media/components/Media";
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { Socials } from "@/common/social/components/molecules/Socials";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
@@ -27,7 +27,7 @@ export const Team = async ({ limit }: TeamProps = {}) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          <Button href="#contact" variant="dark" withArrow className="shrink-0">
+          <Button href="#contact" variant="dark" withArrow>
             {t("explore")}
           </Button>
         </div>

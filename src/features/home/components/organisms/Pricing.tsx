@@ -2,7 +2,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { Section } from "@/common/section/components/Section";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
@@ -73,14 +73,11 @@ export const Pricing = async () => {
                   ))}
                 </ul>
 
-                <Button
-                  href="#contact"
-                  variant={plan.highlighted ? "primary" : "dark"}
-                  withArrow
-                  className="mt-8 w-full"
-                >
-                  {t("choose")}
-                </Button>
+                <div className="mt-8">
+                  <Button href="#contact" variant={plan.highlighted ? "primary" : "dark"} withArrow fullWidth>
+                    {t("choose")}
+                  </Button>
+                </div>
               </Reveal>
             );
           })}

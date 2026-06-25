@@ -2,7 +2,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { Section } from "@/common/section/components/Section";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { IconCard } from "@/common/icon-card/components/IconCard";
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { getTranslations } from "next-intl/server";

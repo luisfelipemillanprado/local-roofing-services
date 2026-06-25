@@ -4,7 +4,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { Section } from "@/common/section/components/Section";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Media } from "@/common/media/components/Media";
-import { Button } from "@/common/button/components/atoms/Button";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { Reveal } from "@/common/reveal/components/atoms/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
@@ -31,7 +31,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
             description={t("description")}
           />
           {exploreHref && (
-            <Button href={exploreHref} variant="primary" withArrow className="shrink-0">
+            <Button href={exploreHref} variant="primary" withArrow>
               {t("exploreAll")}
             </Button>
           )}
