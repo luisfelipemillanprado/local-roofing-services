@@ -4,7 +4,7 @@ const sizes: Record<TitleSize, string> = {
   display: "text-[3.375rem] leading-none sm:text-7xl lg:text-8xl" /* hero h1 */,
   page: "text-4xl leading-none sm:text-5xl lg:text-6xl" /* page header h1 */,
   banner: "text-3xl leading-tight sm:text-4xl lg:text-5xl" /* CTA banner h2 */,
-  section: "text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]" /* section h2 */,
+  section: "text-[2rem] leading-tight sm:text-4xl lg:text-[2.75rem]" /* section h2 */,
   feature: "text-xl" /* services, pricing plan name */,
   card: "text-lg" /* why-choose, projects, team, process steps, values */,
   subtitle: "text-base" /* faq summary */,
