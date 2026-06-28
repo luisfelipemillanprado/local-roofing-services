@@ -2,7 +2,7 @@ import type { NavLinkData } from "@/common/navbar/types";
 import type { FloatingActionData } from "@/common/floating-contact/types";
 import { company } from "@/data/site";
 
-/** Site-wide layout shell data (logo, navbar, floating-contact); labels by key. */
+/* Site-wide layout shell data (logo, navbar, floating-contact); labels by key. */
 export const layoutData = {
   logo: {
     src: company.logo,
@@ -19,7 +19,7 @@ export const layoutData = {
       { key: "products", href: "/products", icon: "products" },
       { key: "projects", href: "/projects", icon: "projects" },
       { key: "about", href: "/about", icon: "about" },
-      // Desktop-only dropdown; flattened into individual links on mobile.
+      /* Desktop-only dropdown; flattened into individual links on mobile. */
       {
         key: "more",
         icon: "more",
