@@ -32,6 +32,9 @@ export const layoutData = {
     ] satisfies NavLinkData[],
   },
   floatingContact: {
+    name: company.name,
+    whatsappHref: company.whatsappHref,
+    phoneHref: company.phoneHref,
     actions: [{ key: "whatsapp", external: true }, { key: "call" }] satisfies FloatingActionData[],
   },
-};
+} as const;

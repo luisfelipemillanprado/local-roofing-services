@@ -3,7 +3,6 @@ import { Phone } from "lucide-react";
 import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 import clsx from "clsx";
 import { getTranslations } from "next-intl/server";
-import { company } from "@/data/site";
 import { layoutData } from "@/data/global/layout";
 import { PulseRing } from "@/common/animations/components/PulseRing";
 import type { FloatingActionKey } from "@/common/floating-contact/types";
@@ -14,16 +13,16 @@ const ICONS: Record<FloatingActionKey, ComponentType<SVGProps<SVGSVGElement>>> =
   call: Phone,
 };
 
-const { actions } = layoutData.floatingContact;
+const { name, whatsappHref, phoneHref, actions } = layoutData.floatingContact;
 
 export const FloatingContact = async () => {
   const t = await getTranslations("floating-contact");
 
   /* WhatsApp carries a localized prefilled message; the phone is a plain tel link. */
-  const message = t("whatsappMessage", { name: company.name });
+  const message = t("whatsappMessage", { name });
   const hrefs: Record<FloatingActionKey, string> = {
-    whatsapp: `${company.whatsappHref}?text=${encodeURIComponent(message)}`,
-    call: company.phoneHref,
+    whatsapp: `${whatsappHref}?text=${encodeURIComponent(message)}`,
+    call: phoneHref,
   };
 
   return (
