@@ -74,7 +74,7 @@ export const Hero = async () => {
           </Reveal>
 
           <Reveal delay={0.25}>
-            <div className="mt-2">
+            <div className="mt-2.5">
               <CustomerRating avatars={avatars} label={t("customers")} />
             </div>
           </Reveal>
