@@ -1,20 +1,21 @@
 import Image from "next/image";
-import { company } from "@/data/site";
 import { blurs } from "@/data/blurs";
 import { layoutData } from "@/data/global/layout";
 import { Link } from "@/i18n/navigation";
+
+const { logo } = layoutData;
 
 /* Logo badge + wordmark. */
 export const Logo = () => {
   return (
     <Link
-      href={layoutData.navbar.homeHref}
-      className="inline-flex items-center gap-2.5 font-display text-xl font-extrabold tracking-tight"
-      aria-label={`${company.name} home`}
+      href={logo.href}
+      className="inline-grid grid-flow-col items-center gap-2.5 font-display text-xl font-extrabold tracking-tight text-foreground"
+      aria-label={`${logo.name} home`}
     >
-      <span className="relative size-10 shrink-0">
+      <span className="relative size-10">
         <Image
-          src={company.logo}
+          src={logo.src}
           alt=""
           fill
           sizes="40px"
@@ -23,7 +24,7 @@ export const Logo = () => {
           className="object-contain"
         />
       </span>
-      <span>{company.name}</span>
+      <span>{logo.name}</span>
     </Link>
   );
 };

@@ -2,11 +2,15 @@ import type { NavLinkData } from "@/common/navbar/types";
 import type { FloatingActionData } from "@/common/floating-contact/types";
 import { company } from "@/data/site";
 
-/** Site-wide layout shell data (navbar, floating-contact); labels by key. */
+/** Site-wide layout shell data (logo, navbar, floating-contact); labels by key. */
 export const layoutData = {
+  logo: {
+    src: company.logo,
+    name: company.name,
+    href: "/" /* logo link target (site root) */,
+  },
   navbar: {
     menuId: "mobile-menu",
-    homeHref: "/" /* logo link target (site root) */,
     getFreeQuoteHref: "#contact",
     phone: company.phone,
     links: [
