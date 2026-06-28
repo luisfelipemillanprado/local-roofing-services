@@ -69,9 +69,9 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
         aria-controls={menuId}
         aria-label={toggleMenuLabel}
         onClick={isOpen ? handleCloseOptions : handleOpenOptions}
-        className="grid size-11 place-items-center rounded-xl bg-contrast text-white lg:hidden"
+        className="grid size-11 place-items-center rounded-xl bg-contrast lg:hidden"
       >
-        {isOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+        {isOpen ? <X className="size-5 text-white" /> : <Menu className="size-5 text-white" />}
       </button>
 
       {isVisible && (
@@ -100,9 +100,12 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
                     key={link.key}
                     href={link.href}
                     onClick={handleCloseOptions}
-                    className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary"
+                    className="group flex flex-col items-center justify-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary"
                   >
-                    <Icon className="size-6.5 text-primary" aria-hidden />
+                    <Icon
+                      className="size-6.5 text-primary transition-colors group-hover:text-white"
+                      aria-hidden
+                    />
                     <Text as="span" size="body" tone="default" weight="semibold" text={link.label} />
                   </Link>
                 );

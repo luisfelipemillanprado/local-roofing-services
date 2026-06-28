@@ -38,7 +38,10 @@ export const NavDropdown = ({ label, links }: NavDropdownProps) => {
         className="flex items-center gap-1 rounded-full px-3.5 py-2"
       >
         <Text as="span" size="body" tone="muted" weight="medium" text={label} />
-        <ChevronDown className={clsx("size-4 transition-transform", isOpen && "rotate-180")} aria-hidden />
+        <ChevronDown
+          className={clsx("size-4 text-foreground-muted transition-transform", isOpen && "rotate-180")}
+          aria-hidden
+        />
       </button>
 
       {isOpen && (

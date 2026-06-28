@@ -57,8 +57,8 @@ export const Navbar = async () => {
         <div className="flex items-center gap-2 lg:gap-3">
           {/* Phone — desktop only */}
           <div className="hidden items-center gap-2 lg:flex">
-            <span className="grid size-9 place-items-center rounded-full bg-surface-muted text-primary">
-              <Phone className="size-4" />
+            <span className="grid size-9 place-items-center rounded-full bg-surface-muted">
+              <Phone className="size-4 text-primary" />
             </span>
             <Text as="span" size="body" tone="default" weight="semibold" text={company.phone} />
           </div>

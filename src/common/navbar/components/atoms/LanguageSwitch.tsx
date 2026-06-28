@@ -30,9 +30,9 @@ export const LanguageSwitch = () => {
       disabled={isPending}
       aria-label={t("selectLanguage")}
       title={localeNames[next]}
-      className="inline-flex h-9 items-center gap-1.5 rounded-full border border-line bg-surface-muted px-3 text-foreground transition-colors hover:text-primary disabled:opacity-60"
+      className="group inline-flex h-9 items-center gap-1.5 rounded-full border border-line bg-surface-muted px-3 disabled:opacity-60"
     >
-      <Globe className="size-4.25" />
+      <Globe className="size-4.25 text-foreground transition-colors group-hover:text-primary" />
       <Text
         as="span"
         size="label"

@@ -16,9 +16,13 @@ export const ThemeToggle = () => {
       type="button"
       aria-label={t("toggleTheme")}
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="grid size-10 place-items-center rounded-2xl border border-line bg-surface-muted text-foreground transition-colors hover:text-primary"
+      className="group grid size-10 place-items-center rounded-2xl border border-line bg-surface-muted"
     >
-      {isDark ? <Sun className="size-4.5" /> : <Moon className="size-4.5" />}
+      {isDark ? (
+        <Sun className="size-4.5 text-foreground transition-colors group-hover:text-primary" />
+      ) : (
+        <Moon className="size-4.5 text-foreground transition-colors group-hover:text-primary" />
+      )}
     </button>
   );
 };
