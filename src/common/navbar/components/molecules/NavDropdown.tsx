@@ -35,7 +35,7 @@ export const NavDropdown = ({ label, links }: NavDropdownProps) => {
         type="button"
         aria-expanded={isOpen}
         onClick={() => setIsOpen((open) => !open)}
-        className="flex items-center gap-1 rounded-full px-3.5 py-2"
+        className="grid grid-flow-col items-center gap-1 rounded-full px-3.5 py-2"
       >
         <Text as="span" size="body" tone="muted" weight="medium" text={label} />
         <ChevronDown

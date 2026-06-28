@@ -39,10 +39,10 @@ export const Navbar = async () => {
     <header className="theme-dark fixed inset-x-0 top-0 z-50 text-foreground shadow-xs shadow-shade/30">
       {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
       <div className="absolute inset-0 -z-10 bg-surface-panel/90 backdrop-blur-md" />
-      <div className="container-x flex h-header items-center justify-between py-3">
+      <div className="container-x grid h-header grid-flow-col items-center justify-between py-3">
         <Logo />
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-1 lg:grid lg:grid-flow-col">
           {navLinks.map((link) =>
             isNavGroup(link) ? (
               <NavDropdown key={link.key} label={link.label} links={link.children} />
@@ -54,9 +54,9 @@ export const Navbar = async () => {
           )}
         </nav>
 
-        <div className="flex items-center gap-2 lg:gap-3">
+        <div className="grid grid-flow-col items-center gap-2 lg:gap-3">
           {/* Phone — desktop only */}
-          <div className="hidden items-center gap-2 lg:flex">
+          <div className="hidden items-center gap-2 lg:grid lg:grid-flow-col">
             <span className="grid size-9 place-items-center rounded-full bg-surface-muted">
               <Phone className="size-4 text-primary" />
             </span>
