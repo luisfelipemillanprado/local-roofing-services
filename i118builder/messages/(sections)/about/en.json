@@ -4,11 +4,11 @@
   "titleAccent": "Quality-Reliable Roofing",
   "description": "Roofpro was founded with a commitment to providing reliable roofing services while upholding the highest standards of integrity and professionalism. We believe trust is earned through quality work, transparency, and lasting customer relationships.",
   "learnMore": "Learn More",
-  "points": [
-    "Residential & commercial roofing experts",
-    "Premium materials with extended warranties",
-    "Transparent, upfront pricing — no surprises"
-  ],
+  "points": {
+    "residentialCommercial": "Residential & commercial roofing experts",
+    "warranties": "Premium materials with extended warranties",
+    "pricing": "Transparent, upfront pricing — no surprises"
+  },
   "years": {
     "experience": {
       "line1": "YEARS OF",

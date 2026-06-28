@@ -10,11 +10,10 @@ import { StatsRow } from "@/common/about/components/molecules/StatsRow";
 import { getTranslations } from "next-intl/server";
 import { aboutSection } from "@/data/sections/about";
 
-const { name, image, cta, years, call, stats } = aboutSection;
+const { name, image, cta, years, call, points, stats } = aboutSection;
 
 export const About = async () => {
   const t = await getTranslations("about");
-  const points = t.raw("points") as string[];
   const statItems = stats.map((stat) => ({
     key: stat.key,
     value: stat.value,
@@ -53,8 +52,8 @@ export const About = async () => {
           />
 
           <div className="mt-7 flex flex-col items-start gap-3">
-            {points.map((p) => (
-              <CheckItem key={p} as="div" tone="default" text={p} />
+            {points.map((point) => (
+              <CheckItem key={point.key} as="div" tone="default" text={t(`points.${point.key}`)} />
             ))}
           </div>
 

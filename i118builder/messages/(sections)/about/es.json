@@ -4,11 +4,11 @@
   "titleAccent": "De Calidad y Confiable",
   "description": "En {name} estamos comprometidos a ofrecer servicios de techado de primer nivel con un enfoque en la calidad y la confiabilidad. Nuestra cuadrilla experimentada entrega un oficio en el que puedes confiar, tanto en techos residenciales como comerciales.",
   "learnMore": "Saber Más",
-  "points": [
-    "Expertos en techado residencial y comercial",
-    "Materiales premium con garantías extendidas",
-    "Precios transparentes y claros — sin sorpresas"
-  ],
+  "points": {
+    "residentialCommercial": "Expertos en techado residencial y comercial",
+    "warranties": "Materiales premium con garantías extendidas",
+    "pricing": "Precios transparentes y claros — sin sorpresas"
+  },
   "years": {
     "experience": {
       "line1": "AÑOS DE",
