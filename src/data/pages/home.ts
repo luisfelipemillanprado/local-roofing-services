@@ -1,18 +1,16 @@
 import { ShieldCheck, Award, Hammer, Wrench, CloudRain, type LucideIcon } from "lucide-react";
 import type { IconBadgeKey } from "@/common/icon-badge/types";
+import { company } from "@/data/site";
 
 /* Keys map to the home-only message namespaces (literal unions → type-safe `t()`). */
-export type WhyChooseFeatureKey = "emergency" | "proactive" | "reliable" | "experience";
-export type WhyChooseStatKey = "years" | "projects" | "roofers";
-export type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
-export type PricingPlanKey = "residential" | "commercial" | "industrial";
+type WhyChooseFeatureKey = "emergency" | "proactive" | "reliable" | "experience";
+type WhyChooseStatKey = "years" | "projects" | "roofers";
+type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
+type PricingPlanKey = "residential" | "commercial" | "industrial";
 
-export const heroSection: {
-  image: string;
-  ctaPrimaryHref: string;
-  ctaSecondaryHref: string;
-  avatars: string[];
-} = {
+export const heroSection = {
+  name: company.name,
+  yearsExperience: company.yearsExperience,
   image: "/images/hero/hero.webp",
   ctaPrimaryHref: "#contact",
   ctaSecondaryHref: "#projects",
@@ -22,7 +20,7 @@ export const heroSection: {
     "/images/avatars/avatar3.webp",
     "/images/avatars/avatar4.webp",
   ],
-};
+} as const;
 
 export const whyChooseSection: {
   features: { key: WhyChooseFeatureKey; icon: IconBadgeKey }[];

@@ -6,11 +6,10 @@ import { AvailabilityBadge } from "@/features/home/components/molecules/Availabi
 import { HeroActions } from "@/features/home/components/molecules/HeroActions";
 import { CustomerRating } from "@/features/home/components/molecules/CustomerRating";
 import { getTranslations } from "next-intl/server";
-import { company } from "@/data/site";
 import { blurs } from "@/data/blurs";
 import { heroSection } from "@/data/pages/home";
 
-const { image, avatars, ctaPrimaryHref, ctaSecondaryHref } = heroSection;
+const { name, yearsExperience, image, avatars, ctaPrimaryHref, ctaSecondaryHref } = heroSection;
 
 export const Hero = async () => {
   const t = await getTranslations("home.hero");
@@ -34,7 +33,7 @@ export const Hero = async () => {
       </div>
 
       {/* lg height = viewport minus the marquee, so both fit one screen */}
-      <div className="container-x flex min-h-svh flex-col justify-center pt-35 pb-19 lg:min-h-[calc(100svh-3.5rem)]">
+      <div className="container-x grid min-h-svh content-center pt-35 pb-19 lg:min-h-[calc(100svh-3.5rem)]">
         {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
         <div className="grid max-w-90 grid-cols-1 gap-6.5 sm:max-w-3xl">
           <Reveal delay={0.05}>
@@ -57,8 +56,8 @@ export const Hero = async () => {
               size="lead"
               tone="muted"
               text={t("subtitle", {
-                name: company.name,
-                years: company.yearsExperience,
+                name,
+                years: yearsExperience,
               })}
             />
           </Reveal>

@@ -10,6 +10,6 @@ export interface HeroActionsProps {
 }
 
 export interface CustomerRatingProps {
-  avatars: string[];
+  avatars: readonly string[];
   label: string;
 }
