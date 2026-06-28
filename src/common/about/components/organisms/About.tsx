@@ -45,6 +45,7 @@ export const About = async () => {
 
         {/* Copy side */}
         <div className="grid gap-7 text-center md:text-left">
+          {/* Heading */}
           <SectionHeading
             eyebrow={t("eyebrow")}
             title={t("titleLead")}
@@ -52,16 +53,19 @@ export const About = async () => {
             description={t("description", { name })}
           />
 
+          {/* Selling points */}
           <div className="grid justify-items-start gap-3">
             {points.map((point) => (
               <CheckItem key={point.key} as="div" tone="default" text={t(`points.${point.key}`)} />
             ))}
           </div>
 
+          {/* Stats */}
           <div className="mt-2">
             <StatsRow items={statItems} />
           </div>
 
+          {/* CTA */}
           <div className="mt-2">
             <Button href={cta.href} variant="secondary">
               {t(cta.key)}
