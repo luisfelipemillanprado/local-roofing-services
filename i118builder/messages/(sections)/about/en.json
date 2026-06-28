@@ -2,13 +2,24 @@
   "eyebrow": "OUR COMPANY",
   "titleLead": "Your Partner For Durable",
   "titleAccent": "Quality-Reliable Roofing",
-  "body": "At {name} we are committed to providing top-notch roofing services with a focus on quality and reliability. Our seasoned crew delivers craftsmanship you can trust on residential and commercial roofs alike.",
+  "description": "Roofpro was founded with a commitment to providing reliable roofing services while upholding the highest standards of integrity and professionalism. We believe trust is earned through quality work, transparency, and lasting customer relationships.",
+  "learnMore": "Learn More",
   "points": [
     "Residential & commercial roofing experts",
     "Premium materials with extended warranties",
     "Transparent, upfront pricing — no surprises"
   ],
-  "yearsLine1": "YEARS OF",
-  "yearsLine2": "EXPERIENCE",
-  "callAnytime": "CALL US ANYTIME"
+  "years": {
+    "experience": {
+      "line1": "YEARS OF",
+      "line2": "EXPERIENCE"
+    }
+  },
+  "callAnytime": "CALL US ANYTIME",
+  "imageAlt": "Roofpro company owner on site",
+  "stats": {
+    "projects": "Projects Completed",
+    "customers": "Happy Customers",
+    "satisfaction": "Satisfied Customers"
+  }
 }

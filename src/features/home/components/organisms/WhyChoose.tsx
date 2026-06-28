@@ -10,7 +10,6 @@ import { whyChooseSection } from "@/data/pages/home";
 
 export const WhyChoose = async () => {
   const t = await getTranslations("home.why-choose");
-  const tc = await getTranslations("common");
   const features = whyChooseSection.features;
   const whyStats = whyChooseSection.stats;
 
@@ -41,7 +40,7 @@ export const WhyChoose = async () => {
 
           <div className="mt-9 flex justify-center md:justify-start">
             <Button href="#contact" variant="secondary">
-              {tc("learnMore")}
+              {t("learnMore")}
             </Button>
           </div>
         </div>

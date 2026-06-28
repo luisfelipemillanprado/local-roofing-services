@@ -14,9 +14,8 @@ import type { ServicesProps } from "@/common/service/types";
 
 export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
   const t = await getTranslations("service");
-  const tc = await getTranslations("common");
-  // Data drives order + icon/image/blur; text is resolved by key (no index merge).
-  // `limit` lets the home show a 3-card summary while /services shows all of them.
+  /* Data drives order + icon/image; text resolved by key. */
+  /* `limit` shows a short summary on home; full list on /services. */
   const services = servicesSection.items.slice(0, limit);
 
   return (
@@ -63,7 +62,7 @@ export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
                     <Text size="body" tone="muted" text={t(`items.${service.key}.description`)} />
                   </div>
                   <Link href="#contact" className="mt-5 inline-flex items-center gap-2">
-                    <Text as="span" size="caption" tone="primary" weight="semibold" text={tc("learnMore")} />
+                    <Text as="span" size="caption" tone="primary" weight="semibold" text={t("learnMore")} />
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>

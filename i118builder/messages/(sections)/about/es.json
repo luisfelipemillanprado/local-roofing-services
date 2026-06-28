@@ -2,13 +2,24 @@
   "eyebrow": "NUESTRA EMPRESA",
   "titleLead": "Tu Aliado Para Un Techado",
   "titleAccent": "De Calidad y Confiable",
-  "body": "En {name} estamos comprometidos a ofrecer servicios de techado de primer nivel con un enfoque en la calidad y la confiabilidad. Nuestra cuadrilla experimentada entrega un oficio en el que puedes confiar, tanto en techos residenciales como comerciales.",
+  "description": "En {name} estamos comprometidos a ofrecer servicios de techado de primer nivel con un enfoque en la calidad y la confiabilidad. Nuestra cuadrilla experimentada entrega un oficio en el que puedes confiar, tanto en techos residenciales como comerciales.",
+  "learnMore": "Saber Más",
   "points": [
     "Expertos en techado residencial y comercial",
     "Materiales premium con garantías extendidas",
     "Precios transparentes y claros — sin sorpresas"
   ],
-  "yearsLine1": "AÑOS DE",
-  "yearsLine2": "EXPERIENCIA",
-  "callAnytime": "LLÁMANOS CUANDO QUIERAS"
+  "years": {
+    "experience": {
+      "line1": "AÑOS DE",
+      "line2": "EXPERIENCIA"
+    }
+  },
+  "callAnytime": "LLÁMANOS CUANDO QUIERAS",
+  "imageAlt": "Dueño de Roofpro en obra",
+  "stats": {
+    "projects": "Proyectos Completados",
+    "customers": "Clientes Felices",
+    "satisfaction": "Clientes Satisfechos"
+  }
 }
