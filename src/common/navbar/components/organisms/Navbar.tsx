@@ -1,7 +1,6 @@
 import { Phone } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { company } from "@/data/site";
 import { Logo } from "@/common/logo/components/Logo";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { Text } from "@/common/text/components/Text";
@@ -36,7 +35,7 @@ export const Navbar = async () => {
   const mobileLinks: NavLeaf[] = navLinks.flatMap((link) => (isNavGroup(link) ? link.children : [link]));
 
   return (
-    <header className="theme-dark fixed inset-x-0 top-0 z-50 text-foreground shadow-xs shadow-shade/30">
+    <header className="theme-dark fixed inset-x-0 top-0 z-50 shadow-xs shadow-shade/30">
       {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
       <div className="absolute inset-0 -z-10 bg-surface-panel/90 backdrop-blur-md" />
       <div className="container-x grid h-header grid-flow-col items-center justify-between py-3">
@@ -60,7 +59,7 @@ export const Navbar = async () => {
             <span className="grid size-9 place-items-center rounded-full bg-surface-muted">
               <Phone className="size-4 text-primary" />
             </span>
-            <Text as="span" size="body" tone="default" weight="semibold" text={company.phone} />
+            <Text as="span" size="body" tone="default" weight="semibold" text={navbar.phone} />
           </div>
 
           {/* Lang + theme — shared, always visible */}
