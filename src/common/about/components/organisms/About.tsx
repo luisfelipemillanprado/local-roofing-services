@@ -25,7 +25,7 @@ export const About = async () => {
       <div className="container-x grid items-center gap-14 lg:grid-cols-2">
         {/* Image side */}
         <Reveal className="relative">
-          <div className="overflow-hidden rounded-card shadow-lg shadow-shade/40">
+          <div className="overflow-hidden rounded-card shadow-lg">
             <Media src={image} alt={t("imageAlt")} shape="feature" sizes="(max-width: 1024px) 100vw, 50vw" />
           </div>
 
