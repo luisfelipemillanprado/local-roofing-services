@@ -16,7 +16,7 @@ export const Button = ({ href, children, variant = "primary", fullWidth = false 
   return (
     <Link
       href={href}
-      className={`group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 transition-all duration-300 hover:-translate-y-0.5 ${variants[variant]} ${fullWidth ? "w-full" : ""}`}
+      className={`group inline-grid grid-flow-col items-center justify-center gap-2 rounded-full px-6 py-3 transition-all duration-300 hover:-translate-y-0.5 ${variants[variant]} ${fullWidth ? "w-full" : ""}`}
     >
       <Text as="span" size="body" weight="semibold" tone="white" text={children} />
       <ArrowRight className="size-4 text-white transition-transform duration-300 group-hover:translate-x-1" />
