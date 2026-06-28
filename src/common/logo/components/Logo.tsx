@@ -10,7 +10,7 @@ export const Logo = () => {
   return (
     <Link
       href={logo.href}
-      className="inline-grid grid-flow-col items-center gap-2.5 font-display text-xl font-extrabold tracking-tight text-foreground"
+      className="inline-grid grid-flow-col items-center gap-2.5 font-display text-xl font-extrabold text-foreground"
       aria-label={`${logo.name} home`}
     >
       <span className="relative size-10">
