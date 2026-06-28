@@ -8,7 +8,7 @@ export const HeroActions = ({
   secondaryHref,
   secondaryLabel,
 }: HeroActionsProps) => (
-  <div className="grid justify-items-start gap-5 sm:grid-flow-col sm:items-center">
+  <div className="grid justify-items-start gap-5 sm:grid-flow-col sm:items-center sm:justify-start">
     <Button href={primaryHref} variant="primary">
       {primaryLabel}
     </Button>
