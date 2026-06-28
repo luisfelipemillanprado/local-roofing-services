@@ -26,7 +26,7 @@ export const FloatingContact = async () => {
   };
 
   return (
-    <div className="fixed right-5 bottom-5 z-50 flex animate-float-y flex-col gap-4">
+    <div className="fixed right-5 bottom-5 z-50 grid animate-float-y gap-4">
       {actions.map(({ key, external }) => {
         const Icon = ICONS[key];
         const color = key === "whatsapp" ? "bg-malachite" : "bg-primary";
@@ -37,12 +37,9 @@ export const FloatingContact = async () => {
               aria-label={t(key)}
               target={external ? "_blank" : undefined}
               rel={external ? "noopener noreferrer" : undefined}
-              className={clsx(
-                "relative grid size-14 place-items-center rounded-2xl text-primary-foreground shadow-sm shadow-shade/40",
-                color,
-              )}
+              className={clsx("grid size-14 place-items-center rounded-2xl shadow-sm", color)}
             >
-              <Icon className="size-7" aria-hidden />
+              <Icon className="size-7 text-primary-foreground" aria-hidden />
             </a>
           </PulseRing>
         );
