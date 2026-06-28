@@ -5,13 +5,13 @@ import type { CustomerRatingProps } from "@/features/home/types";
 
 /* Hero social proof: avatars + stars + count. */
 export const CustomerRating = ({ avatars, label }: CustomerRatingProps) => (
-  <div className="inline-flex max-w-full items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-2">
+  <div className="inline-grid max-w-full grid-cols-[auto_minmax(0,1fr)] items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-2">
     <div className="flex -space-x-3">
       {avatars.map((src) => (
         <Avatar key={src} src={src} alt="" bordered />
       ))}
     </div>
-    {/* min-w-0 lets the flex child shrink so truncate works */}
+    {/* min-w-0 lets the grid child shrink so truncate works */}
     <div className="min-w-0">
       <Stars />
       <Text size="body" tone="default" weight="semibold" truncate text={label} />
