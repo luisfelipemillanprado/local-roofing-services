@@ -35,7 +35,7 @@ export const Navbar = async () => {
   const mobileLinks: NavLeaf[] = navLinks.flatMap((link) => (isNavGroup(link) ? link.children : [link]));
 
   return (
-    <header className="theme-dark fixed inset-x-0 top-0 z-50 shadow-xs shadow-shade/30">
+    <header className="theme-dark fixed inset-x-0 top-0 z-50 shadow-sm">
       {/* Blur as a sibling layer so the menu's own backdrop-blur isn't trapped. */}
       <div className="absolute inset-0 -z-10 bg-surface-panel/90 backdrop-blur-md" />
       <div className="container-x grid h-header grid-flow-col items-center justify-between py-3">
