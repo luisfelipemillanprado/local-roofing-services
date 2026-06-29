@@ -2,7 +2,7 @@ import type { TextProps, TextSize, TextTone, TextTracking, TextWeight } from "@/
 
 const sizes: Record<TextSize, string> = {
   lead: "text-[clamp(0.95625rem,0.43125rem+2.3333vw,1rem)] leading-relaxed" /* fluid 15.3→16px — section/page descriptions, footer tagline */,
-  body: "text-[0.9375rem] leading-relaxed" /* 15px — card body, buttons, navbar, footer, hero rating */,
+  body: "text-[clamp(0.9375rem,0.4875rem+2vw,0.96875rem)] leading-relaxed" /* fluid 15→15.5px — card body, buttons, navbar, footer, hero rating */,
   caption: "text-sm leading-tight" /* 14px — marquee, stat captions */,
   note: "text-[0.8125rem] leading-tight" /* 13px — hero availability badge */,
   label:
