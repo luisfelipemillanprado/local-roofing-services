@@ -1,6 +1,6 @@
 import type { TextNumberProps, TextNumberSize, TextNumberTone } from "@/common/text/types";
 
-/* Display scale for metrics (smallest tier shares Text's 14px). */
+/* number size per tier */
 const sizes: Record<TextNumberSize, string> = {
   base: "text-sm" /* 14px — inline numbers: testimonials rating, process steps */,
   stat: "text-xl" /* 20px — WhyChoose stats */,
@@ -8,7 +8,7 @@ const sizes: Record<TextNumberSize, string> = {
   display: "text-3xl sm:text-4xl" /* 30→36px — StatsBand, pricing, About years */,
 };
 
-/* Theme-aware tones; white comes from a theme-dark surface. */
+/* theme-aware tones */
 const tones: Record<TextNumberTone, string> = {
   default: "text-foreground" /* stats on light/dark sections */,
   primary: "text-primary" /* accent numbers — process steps */,
