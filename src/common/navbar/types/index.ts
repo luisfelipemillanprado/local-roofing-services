@@ -54,6 +54,10 @@ export interface NavDropdownProps {
   links: readonly NavLeaf[];
 }
 
+export interface DesktopNavProps {
+  navLinks: readonly NavLink[];
+}
+
 export interface MobileMenuProps {
   navLinks: readonly NavLeaf[];
   menuId: string;
