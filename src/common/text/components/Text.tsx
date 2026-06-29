@@ -5,7 +5,8 @@ const sizes: Record<TextSize, string> = {
   body: "text-[0.9375rem] leading-relaxed" /* 15px — card body, buttons, navbar, footer, hero rating */,
   caption: "text-sm leading-tight" /* 14px — marquee, stat captions */,
   note: "text-[0.8125rem] leading-tight" /* 13px — hero availability badge */,
-  label: "text-xs leading-tight" /* 12px — eyebrows and badges */,
+  label:
+    "text-[clamp(0.75rem,0.3rem+2vw,0.7875rem)] leading-tight" /* fluid 12→12.6px — eyebrows and badges */,
 };
 
 const tones: Record<TextTone, string> = {
