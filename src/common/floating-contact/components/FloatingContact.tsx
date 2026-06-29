@@ -7,7 +7,7 @@ import { layoutData } from "@/data/global/layout";
 import { PulseRing } from "@/common/animations/components/PulseRing";
 import type { FloatingActionKey } from "@/common/floating-contact/types";
 
-/* The data holds a key string, so the icon component is resolved here. */
+/* Semantic key → icon component. */
 const ICONS: Record<FloatingActionKey, ComponentType<SVGProps<SVGSVGElement>>> = {
   whatsapp: SiWhatsapp,
   call: Phone,

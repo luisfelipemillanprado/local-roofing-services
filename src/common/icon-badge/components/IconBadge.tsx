@@ -47,9 +47,9 @@ const ICONS: Record<IconBadgeKey, LucideIcon> = {
 
 /* Chip box + radius per tier. */
 const chips: Record<IconBadgeSize, string> = {
-  stat: "size-11 rounded-xl" /* why-choose stats */,
-  card: "size-12 rounded-2xl" /* service cards */,
-  feature: "size-14 rounded-2xl" /* process, values, stats, why-choose, pricing */,
+  stat: "size-11 rounded-xl" /* 44px — why-choose stats */,
+  card: "size-12 rounded-2xl" /* 48px — service cards */,
+  feature: "size-14 rounded-2xl" /* 56px — process, values, stats, why-choose, pricing */,
 };
 
 /* Inner icon size per tier. */
