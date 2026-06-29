@@ -18,3 +18,12 @@ export interface StatItem {
 export interface StatsRowProps {
   items: StatItem[];
 }
+
+export interface SellingPointItem {
+  key: string;
+  text: string;
+}
+
+export interface SellingPointsProps {
+  items: SellingPointItem[];
+}

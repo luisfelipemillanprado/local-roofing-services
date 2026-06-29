@@ -1,11 +1,11 @@
 import { Button } from "@/common/call-to-actions/components/Button";
-import { CheckItem } from "@/common/check-item/components/CheckItem";
 import { Section } from "@/common/section/components/Section";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Media } from "@/common/media/components/Media";
 import { YearsBadge } from "@/common/about/components/molecules/YearsBadge";
 import { ContactCard } from "@/common/about/components/molecules/ContactCard";
 import { StatsRow } from "@/common/about/components/molecules/StatsRow";
+import { SellingPoints } from "@/common/about/components/molecules/SellingPoints";
 import { getTranslations } from "next-intl/server";
 import { aboutSection } from "@/data/sections/about";
 
@@ -18,6 +18,7 @@ export const About = async () => {
     value: stat.value,
     label: t(`stats.${stat.key}`),
   }));
+  const pointItems = points.map((point) => ({ key: point.key, text: t(`points.${point.key}`) }));
 
   return (
     <Section id="about">
@@ -54,11 +55,7 @@ export const About = async () => {
           />
 
           {/* Selling points */}
-          <div className="grid justify-items-start gap-3">
-            {points.map((point) => (
-              <CheckItem key={point.key} as="div" tone="default" text={t(`points.${point.key}`)} />
-            ))}
-          </div>
+          <SellingPoints items={pointItems} />
 
           {/* Stats */}
           <div className="mt-2">
