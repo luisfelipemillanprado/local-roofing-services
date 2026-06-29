@@ -39,7 +39,7 @@ export const Title = ({
   <Tag
     className={`${sizes[size]} ${tones[tone]} ${weights[weight]} ${tracking ? "tracking-[0.126rem]" : ""}`}
   >
-    {text}
+    <span>{text}</span>
     {accent && <span className={`block ${accentTones[accentTone]}`}>{accent}</span>}
   </Tag>
 );
