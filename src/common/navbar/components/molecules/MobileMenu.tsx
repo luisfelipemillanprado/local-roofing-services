@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
 import type { MobileMenuProps, NavLinkKey } from "@/common/navbar/types";
 
-/* Exit transition duration; drives the panel animation and the unmount delay. */
+/* exit transition duration — drives animation + unmount delay */
 const ANIMATION_MS = 500;
 
 /* Semantic key → icon component. */

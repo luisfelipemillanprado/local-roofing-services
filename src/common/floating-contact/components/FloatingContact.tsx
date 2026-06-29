@@ -18,7 +18,7 @@ const { name, whatsappHref, phoneHref, actions } = layoutData.floatingContact;
 export const FloatingContact = async () => {
   const t = await getTranslations("floating-contact");
 
-  /* WhatsApp carries a localized prefilled message; the phone is a plain tel link. */
+  /* localized message for whatsapp, plain tel for phone */
   const message = t("whatsappMessage", { name });
   const hrefs: Record<FloatingActionKey, string> = {
     whatsapp: `${whatsappHref}?text=${encodeURIComponent(message)}`,

@@ -1,6 +1,6 @@
 import type { SectionProps, SectionTone } from "@/common/section/types";
 
-/* Uniform section shell: padding is fixed, only the surface tone varies */
+/* section shell — only the surface tone varies */
 const tones: Record<SectionTone, string> = {
   base: "bg-surface-base" /* white in light, night in dark */,
   muted: "bg-surface-muted" /* cream in light, charcoal in dark */,
