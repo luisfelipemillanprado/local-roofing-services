@@ -150,7 +150,7 @@
   h4,
   h5 {
     font-family: var(--font-display);
-    letter-spacing: -0.05rem;
+    letter-spacing: 0.025rem;
   }
 
   /* Custom scrollbar (single dark style for both themes). */
