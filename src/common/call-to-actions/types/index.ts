@@ -6,6 +6,7 @@ export interface ButtonProps {
   children: string;
   variant?: ButtonVariant;
   fullWidth?: boolean;
+  pulse?: boolean;
 }
 
 /* Action button (renders <button>); fixed submit style. */

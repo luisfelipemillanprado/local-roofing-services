@@ -51,7 +51,7 @@ export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
             description={t("description")}
           />
           <div className="flex flex-col items-center gap-4">
-            <Button href="#contact" variant="secondary">
+            <Button href="#contact" variant="secondary" pulse>
               {t("viewAll")}
             </Button>
             <div className="flex items-center gap-2 rounded-2xl border border-line bg-surface-panel px-4 py-3">

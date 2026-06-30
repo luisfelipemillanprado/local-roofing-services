@@ -24,7 +24,7 @@ export const Pricing = async () => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          <Button href="#contact" variant="secondary">
+          <Button href="#contact" variant="secondary" pulse>
             {t("viewAll")}
           </Button>
         </div>
@@ -78,7 +78,12 @@ export const Pricing = async () => {
                 </ul>
 
                 <div className="mt-8">
-                  <Button href="#contact" variant={plan.highlighted ? "primary" : "secondary"} fullWidth>
+                  <Button
+                    href="#contact"
+                    variant={plan.highlighted ? "primary" : "secondary"}
+                    fullWidth
+                    pulse
+                  >
                     {t("choose")}
                   </Button>
                 </div>

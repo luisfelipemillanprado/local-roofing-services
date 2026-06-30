@@ -1,12 +1,19 @@
 import clsx from "clsx";
-import type { PulseRingProps } from "@/common/animations/types";
+import type { PulseColor, PulseRingProps } from "@/common/animations/types";
 
-/* Staggered ring delays. */
+/* staggered ring delays */
 const LAYERS = [0, 0.7, 1.4];
 
-/* Expanding, fading rings behind children. */
-export const PulseRing = ({ children, color, rounded }: PulseRingProps) => (
-  <div className="relative w-fit">
+/* text color per key — box-shadow halo via currentColor */
+const glow: Record<PulseColor, string> = {
+  primary: "text-primary",
+  secondary: "text-secondary",
+  malachite: "text-malachite",
+};
+
+/* expanding, fading rings — host must be relative isolate (scopes the -z-10) */
+export const PulseRing = ({ color, rounded }: PulseRingProps) => (
+  <>
     {LAYERS.map((delay) => (
       <span
         key={delay}
@@ -15,10 +22,9 @@ export const PulseRing = ({ children, color, rounded }: PulseRingProps) => (
         className={clsx(
           "absolute inset-0 -z-10 animate-soft-pulse",
           rounded ? "rounded-full" : "rounded-2xl",
-          color,
+          glow[color],
         )}
       />
     ))}
-    {children}
-  </div>
+  </>
 );

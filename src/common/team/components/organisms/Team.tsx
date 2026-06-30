@@ -26,7 +26,7 @@ export const Team = async ({ limit }: TeamProps = {}) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          <Button href="#contact" variant="secondary">
+          <Button href="#contact" variant="secondary" pulse>
             {t("viewAll")}
           </Button>
         </div>

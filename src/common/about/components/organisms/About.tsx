@@ -64,7 +64,7 @@ export const About = async () => {
 
           {/* CTA */}
           <div className="mt-2">
-            <Button href={cta.href} variant="secondary">
+            <Button href={cta.href} variant="secondary" pulse>
               {t(cta.key)}
             </Button>
           </div>
