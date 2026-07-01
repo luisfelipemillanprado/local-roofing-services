@@ -8,27 +8,27 @@
   "items": {
     "gutters": {
       "title": "Canalones y Tapajuntas",
-      "description": "Instalación de canalones sin juntas y tapajuntas de precisión que desvían el agua y protegen cada borde de tu techo."
+      "description": "Protegiendo cada hogar del agua."
     },
     "energyEfficient": {
-      "title": "Techado Energéticamente Eficiente",
-      "description": "Sistemas de techo frío, listos para solar, con membranas reflectantes que reducen tus facturas y mantienen interiores cómodos todo el año."
+      "title": "Eficiencia Energética",
+      "description": "Menos gastos, mayor confort diario."
     },
     "shingle": {
-      "title": "Techos de Tejas",
-      "description": "Tejas asfálticas arquitectónicas duraderas, instaladas por expertos para una protección duradera y un atractivo atemporal en cualquier techo inclinado."
+      "title": "Tejas Asfálticas",
+      "description": "Hecho para un atractivo duradero."
     },
     "metal": {
-      "title": "Techos Metálicos",
-      "description": "Elegantes techos metálicos de junta alzada, construidos para resistir décadas de clima con mínimo mantenimiento y un acabado limpio y moderno."
+      "title": "Paneles Metálicos",
+      "description": "Diseñado para durar por décadas."
     },
     "dormers": {
-      "title": "Buhardillas y Ventanas de Techo",
-      "description": "Buhardillas a medida y ventanas de techo herméticas que aportan luz natural y espacio adicional sin comprometer la línea del tejado."
+      "title": "Buhardillas y Claraboyas",
+      "description": "Aportando luz, espacio y confort."
     },
     "inspection": {
       "title": "Inspección y Reparación",
-      "description": "Inspecciones minuciosas y reparaciones precisas que detectan problemas a tiempo y prolongan la vida de tu techo."
+      "description": "Detectando fallos antes de crecer."
     }
   }
 }
