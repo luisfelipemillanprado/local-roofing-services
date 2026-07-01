@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import clsx from "clsx";
 import type { RevealProps } from "@/common/reveal/types";
 
 /** One shared IntersectionObserver for all <Reveal>s; fires its callback once, then unobserves. */
@@ -58,7 +59,7 @@ export const Reveal = ({
       // @ts-expect-error — ref type varies across the allowed intrinsic tags.
       ref={ref}
       data-reveal={variant}
-      className={`${className ?? ""}${shown ? "is-visible" : ""}`}
+      className={clsx(className, shown && "is-visible")}
       style={delay ? { animationDelay: `${delay}s` } : undefined}
     >
       {children}
