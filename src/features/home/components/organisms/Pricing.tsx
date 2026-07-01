@@ -82,7 +82,7 @@ export const Pricing = async () => {
                     href="#contact"
                     variant={plan.highlighted ? "primary" : "secondary"}
                     fullWidth
-                    pulse
+                    pulse={plan.highlighted}
                   >
                     {t("choose")}
                   </Button>
