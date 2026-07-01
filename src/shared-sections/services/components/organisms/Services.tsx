@@ -8,8 +8,8 @@ import type { ServicesProps } from "@/shared-sections/services/types";
 
 export const Services = async ({ exploreHref, limit }: ServicesProps = {}) => {
   const t = await getTranslations("service");
-  /* Data drives order + icon/image; text resolved by key. */
-  /* `limit` shows a short summary on home; full list on /services. */
+  /* data drives order + icon/image; text by key */
+  /* limit: short summary on home, full list on /services */
   const cards = servicesSection.items.slice(0, limit).map((service, i) => ({
     key: service.key,
     icon: service.icon,
