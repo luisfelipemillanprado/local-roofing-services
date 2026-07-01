@@ -6,7 +6,7 @@ import { Footer } from "@/layout/footer/components/Footer";
 import { Hero } from "@/features/home/components/organisms/Hero";
 import { Marquee } from "@/features/home/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
-import { Services } from "@/shared-sections/services/components/Services";
+import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { WhyChoose } from "@/features/home/components/organisms/WhyChoose";
 import { Projects } from "@/shared-sections/projects/components/Projects";
 import { Team } from "@/shared-sections/team/components/Team";
