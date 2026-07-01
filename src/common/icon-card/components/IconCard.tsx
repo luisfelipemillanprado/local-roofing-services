@@ -1,5 +1,5 @@
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
-import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";

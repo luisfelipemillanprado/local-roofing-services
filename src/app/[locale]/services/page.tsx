@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { Navbar } from "@/common/navbar/components/organisms/Navbar";
-import { Footer } from "@/common/footer/components/organisms/Footer";
-import { PageHeader } from "@/common/page-header/components/PageHeader";
-import { Services } from "@/common/service/components/Services";
-import { ProcessSteps } from "@/features/services/components/organisms/ProcessSteps";
-import { Faq } from "@/features/services/components/organisms/Faq";
-import { FormContact } from "@/common/form-contact/components/organisms/FormContact";
+import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
+import { Footer } from "@/layout/footer/components/Footer";
+import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { Services } from "@/shared-sections/services/components/Services";
+import { ProcessSteps } from "@/features/services/components/ProcessSteps";
+import { Faq } from "@/features/services/components/Faq";
+import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -38,7 +38,7 @@ export default async function ServicesPage({ params }: Props) {
         <Services />
         <ProcessSteps />
         <Faq />
-        <FormContact />
+        <ContactForm />
       </main>
       <Footer />
     </>

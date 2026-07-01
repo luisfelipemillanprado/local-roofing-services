@@ -1,5 +1,5 @@
-import type { NavLinkData } from "@/common/navbar/types";
-import type { FloatingActionData } from "@/common/floating-contact/types";
+import type { NavLinkData } from "@/layout/navbar/types";
+import type { FloatingActionData } from "@/layout/floating-contact/types";
 import { company } from "@/data/site";
 
 /* Site-wide layout shell data (logo, navbar, floating-contact); labels by key. */

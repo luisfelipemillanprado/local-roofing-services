@@ -3,7 +3,7 @@ import { Section } from "@/common/section/components/Section";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";

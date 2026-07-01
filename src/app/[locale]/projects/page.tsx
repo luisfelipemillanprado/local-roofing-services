@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { Navbar } from "@/common/navbar/components/organisms/Navbar";
-import { Footer } from "@/common/footer/components/organisms/Footer";
-import { PageHeader } from "@/common/page-header/components/PageHeader";
-import { Projects } from "@/common/project/components/organisms/Projects";
-import { StatsBand } from "@/features/projects/components/organisms/StatsBand";
-import { Testimonials } from "@/common/review/components/organisms/Testimonials";
-import { FormContact } from "@/common/form-contact/components/organisms/FormContact";
+import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
+import { Footer } from "@/layout/footer/components/Footer";
+import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { Projects } from "@/shared-sections/projects/components/Projects";
+import { StatsBand } from "@/features/projects/components/StatsBand";
+import { Testimonials } from "@/shared-sections/testimonials/components/Testimonials";
+import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -38,7 +38,7 @@ export default async function ProjectsPage({ params }: Props) {
         <Projects />
         <StatsBand />
         <Testimonials />
-        <FormContact />
+        <ContactForm />
       </main>
       <Footer />
     </>

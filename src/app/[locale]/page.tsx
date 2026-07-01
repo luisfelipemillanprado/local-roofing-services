@@ -1,18 +1,18 @@
 import { use } from "react";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { Navbar } from "@/common/navbar/components/organisms/Navbar";
-import { Footer } from "@/common/footer/components/organisms/Footer";
+import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
+import { Footer } from "@/layout/footer/components/Footer";
 import { Hero } from "@/features/home/components/organisms/Hero";
 import { Marquee } from "@/features/home/components/organisms/Marquee";
-import { About } from "@/common/about/components/organisms/About";
-import { Services } from "@/common/service/components/Services";
+import { About } from "@/shared-sections/about/components/organisms/About";
+import { Services } from "@/shared-sections/services/components/Services";
 import { WhyChoose } from "@/features/home/components/organisms/WhyChoose";
-import { Projects } from "@/common/project/components/organisms/Projects";
-import { Team } from "@/common/team/components/organisms/Team";
-import { Testimonials } from "@/common/review/components/organisms/Testimonials";
+import { Projects } from "@/shared-sections/projects/components/Projects";
+import { Team } from "@/shared-sections/team/components/Team";
+import { Testimonials } from "@/shared-sections/testimonials/components/Testimonials";
 import { Pricing } from "@/features/home/components/organisms/Pricing";
-import { FormContact } from "@/common/form-contact/components/organisms/FormContact";
+import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -37,7 +37,7 @@ export default function Home({ params }: Props) {
         <Team limit={3} />
         <Testimonials limit={6} />
         <Pricing />
-        <FormContact tone="alt" />
+        <ContactForm tone="alt" />
       </main>
       <Footer />
     </>

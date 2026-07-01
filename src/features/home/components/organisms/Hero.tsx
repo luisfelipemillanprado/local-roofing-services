@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Reveal } from "@/common/reveal/components/atoms/Reveal";
+import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { AvailabilityBadge } from "@/features/home/components/molecules/AvailabilityBadge";
