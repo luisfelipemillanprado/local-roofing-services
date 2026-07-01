@@ -79,6 +79,10 @@ array index — this removes the positional-alignment fragility:
   same names. The builder strips the `(group)` folders and nests the rest, so
   `(pages)/home/hero/` → namespace `home.hero`, `(sections)/service/` → `service`.
 - Components iterate the data array and resolve text with `t(\`${item.key}.title\`)`.
+- Flat arrays (footer links, FAQ, pricing features) are read with `t.raw(...)`.
+- ICU placeholders (`{name}`, `{years}`) are passed as `t("key", { name, years })`.
+- `src/global.d.ts` augments next-intl with the generated `en.json` shape, so message
+  keys are type-checked at build time.
 
 ### Theming
 
@@ -89,6 +93,17 @@ utilities (`bg-surface-panel`, `text-foreground`, `border-line`…) track the ac
 theme. `:root` (and `.theme-dark`, pinning dark on a subtree) is
 the dark theme; `.light` overrides the runtime variables. Components style with the
 **generated utilities**, not arbitrary `bg-[var(--…)]` values.
+
+## Pages & sections
+
+- **Home (`/`):** Hero → marquee → About → Services → Why Choose Us → Projects →
+  Team → Testimonials → Pricing → Contact → Footer.
+- **Services (`/services`):** PageHeader → Services → Process Steps → FAQ → Contact.
+- **Projects (`/projects`):** PageHeader → Projects → StatsBand → Testimonials → Contact.
+- **About (`/about`):** PageHeader → About → Values → Team → Contact.
+
+Every page renders a fixed **Navbar** and **Footer**; the floating quick-contact
+(WhatsApp + call) is mounted once in the locale layout.
 
 ## Getting Started
 
