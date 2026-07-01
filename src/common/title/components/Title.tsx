@@ -32,12 +32,13 @@ export const Title = ({
   tone = "default",
   weight = "extrabold",
   tracking = false,
+  truncate = false,
   text,
   accent,
   accentTone = "primary",
 }: TitleProps) => (
   <Tag
-    className={`${sizes[size]} ${tones[tone]} ${weights[weight]} ${tracking ? "tracking-[0.126rem]" : ""}`}
+    className={`${sizes[size]} ${tones[tone]} ${weights[weight]} ${tracking ? "tracking-[0.126rem]" : ""} ${truncate ? "truncate" : ""}`}
   >
     <span>{text}</span>
     {accent && <span className={`block ${accentTones[accentTone]}`}>{accent}</span>}

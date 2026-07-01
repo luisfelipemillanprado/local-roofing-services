@@ -33,10 +33,10 @@ export const ServiceCard = ({
       </span>
     </div>
     <div className="flex items-center justify-between gap-4 p-6">
-      <div>
-        <Title as="h3" size="feature" weight="bold" text={title} />
+      <div className="min-w-0">
+        <Title as="h3" size="feature" weight="bold" truncate text={title} />
         <div className="mt-3">
-          <Text size="body" tone="muted" text={description} />
+          <Text size="body" tone="muted" truncate text={description} />
         </div>
       </div>
       <Link

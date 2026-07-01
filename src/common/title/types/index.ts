@@ -9,6 +9,7 @@ export interface TitleProps {
   tone?: TitleTone;
   weight?: TitleWeight;
   tracking?: boolean;
+  truncate?: boolean;
   text: string;
   accent?: string;
   accentTone?: TitleAccentTone;
