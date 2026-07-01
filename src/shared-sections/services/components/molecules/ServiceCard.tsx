@@ -32,14 +32,19 @@ export const ServiceCard = ({
         <IconBadge icon={icon} size="card" tone="solid" shadow />
       </span>
     </div>
-    <div className="flex flex-1 flex-col p-6">
-      <Title as="h3" size="feature" weight="bold" text={title} />
-      <div className="mt-3 flex-1">
-        <Text size="body" tone="muted" text={description} />
+    <div className="flex items-center justify-between gap-4 p-6">
+      <div>
+        <Title as="h3" size="feature" weight="bold" text={title} />
+        <div className="mt-3">
+          <Text size="body" tone="muted" text={description} />
+        </div>
       </div>
-      <Link href={href} className="mt-5 inline-flex items-center gap-2">
-        <Text as="span" size="caption" tone="primary" weight="semibold" text={learnMore} />
-        <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+      <Link
+        href={href}
+        aria-label={learnMore}
+        className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
+      >
+        <ArrowRight className="size-5" />
       </Link>
     </div>
   </Reveal>
