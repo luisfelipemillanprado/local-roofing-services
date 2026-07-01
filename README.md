@@ -13,21 +13,33 @@ responsive down to device-specific mobile breakpoints.
 - **next-intl v4** — locale routing (`/` for English, `/es` for Spanish),
   server/client translations, type-safe message keys.
 - **next-themes** — class-based light/dark with **dark as the default**.
-- **lucide-react** — icons. **next/font** (Plus Jakarta Sans + Inter), **next/image**.
+- **lucide-react** + **@icons-pack/react-simple-icons** — icons. **next/font**
+  (Plus Jakarta Sans + Inter), **next/image**.
 - **pnpm** — package manager. Custom i18n builder (`i118builder`) on `tsx`.
 
 ## Architecture
 
-The codebase is organized **page-first** (Feature-Sliced) with **Atomic Design**;
-anything reused by two or more routes lives in `common/`, everything route-specific
-lives under `features/<route>/`.
+The codebase is organized with **Feature-Sliced** + **Atomic Design** into
+role-based tiers. A component's **tier folder** (not an internal `organisms/`
+folder) tells you its role, and dependencies point inward
+(`features → shared-sections / layout → common`):
+
+- `common/` — primitives only (atoms + molecules), no domain data.
+- `shared-sections/` — organisms reused by **two or more** routes.
+- `layout/` — app-shell chrome (navbar, footer, floating-contact).
+- `features/<route>/` — organisms used by a **single** route.
+
+Atomic subfolders (`atoms/`/`molecules/`/`organisms/`) appear only when a slice
+genuinely has multiple tiers; a single-component slice stays flat at
+`components/X.tsx`. An organism born in a feature is promoted to `shared-sections/`
+the moment a second route needs it.
 
 ```
 i118builder/
   index.ts                       # builder: compiles split messages → messages/{en,es}.json
   messages/
-    (global)/                    # common, navbar, footer, metadata, floating-contact
-    (sections)/                  # shared sections: service, project, review, team, about, call-action
+    (global)/                    # navbar, footer, metadata, floating-contact
+    (sections)/                  # shared sections: service, project, review, team, about, form-contact
     (pages)/                     # route-specific: home/*, services-page, projects-page, about-page
 messages/{en,es}.json            # GENERATED (gitignored), consumed by next-intl
 
@@ -35,14 +47,16 @@ src/
   app/
     layout.tsx                   # ThemeProvider, fonts
     [locale]/
-      layout.tsx                 # locale guard, metadata, navbar, footer, floating contact
+      layout.tsx                 # locale guard, metadata, SyncLocale, floating contact
       page.tsx                   # Home          → /        (and /es)
       services/page.tsx          # Services      → /services
       projects/page.tsx          # Projects      → /projects
       about/page.tsx             # About         → /about
     globals.css                  # design tokens + base layer + custom utilities
-  common/<domain>/components/{atoms,molecules,organisms}/   # shared (button, navbar, footer, …)
-  features/<route>/components/organisms/                     # route-only sections
+  common/<slice>/components/            # primitives (Button, Text, Media, Reveal, …)
+  shared-sections/<slice>/components/   # organisms reused by ≥2 routes (services, team, …)
+  layout/<slice>/components/            # app-shell chrome (navbar, footer, floating-contact)
+  features/<route>/components/          # route-only organisms (Hero, Pricing, Faq, …)
   data/
     site.ts                      # locale-independent company details
     blurs.ts                     # generic blur placeholders for next/image
@@ -70,8 +84,9 @@ array index — this removes the positional-alignment fragility:
 
 Brand palette and semantic roles are declared in `globals.css`. Static tokens go in
 `@theme` (`--color-primary`, `--radius-card`, `--animate-marquee`, breakpoints); the
-theme-aware surface/footer roles are aliased in `@theme inline` so the generated
-utilities (`bg-surface`, `text-fg`, `bg-footer`…) track the active theme. `:root` is
+theme-aware surface/text roles are aliased in `@theme inline` so the generated
+utilities (`bg-surface-panel`, `text-foreground`, `border-line`…) track the active
+theme. `:root` (and `.theme-dark`, pinning dark on a subtree) is
 the dark theme; `.light` overrides the runtime variables. Components style with the
 **generated utilities**, not arbitrary `bg-[var(--…)]` values.
 
@@ -84,13 +99,13 @@ pnpm dev      # builds messages in watch mode + next dev → http://localhost:30
 
 ### Scripts
 
-| Command            | Description                                            |
-| ------------------ | ------------------------------------------------------ |
-| `pnpm dev`         | i18n builder (watch) + Next dev server, concurrently   |
-| `pnpm build`       | Compile messages, then production build                |
-| `pnpm start`       | Serve the production build                             |
-| `pnpm lint`        | Lint the project                                       |
-| `pnpm i18n:build`  | Compile `messages/{en,es}.json` from the split sources |
+| Command           | Description                                            |
+| ----------------- | ------------------------------------------------------ |
+| `pnpm dev`        | i18n builder (watch) + Next dev server, concurrently   |
+| `pnpm build`      | Compile messages, then production build                |
+| `pnpm start`      | Serve the production build                             |
+| `pnpm lint`       | Lint the project                                       |
+| `pnpm i18n:build` | Compile `messages/{en,es}.json` from the split sources |
 
 > Note: `messages/{en,es}.json` are generated and gitignored. The builder must run
 > before `next build`/typecheck — this is already wired into `dev` and `build`.
