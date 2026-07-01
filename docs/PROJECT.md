@@ -10,11 +10,14 @@ locale-prefixed routes.
 
 - **Next.js 16** (App Router, React 19, TypeScript)
 - **next-intl** for i18n (locale-prefixed routing, server-rendered translations)
-- **next-themes** for class-based light/dark theming (`src/app/Providers.tsx`),
-  configured in the root layout with `suppressHydrationWarning` to avoid flash
+- **next-themes** for class-based light/dark theming, dark by default
+  (`src/app/Providers.tsx`); `suppressHydrationWarning` on the root `<html>` lets
+  it set the theme class client-side without a hydration mismatch
 - **Tailwind CSS v4** with a custom design-token theme (`src/app/globals.css`)
 - **Scroll-reveal** via one shared `IntersectionObserver` + CSS keyframes
-  (`src/common/reveal/components/atoms/Reveal.tsx`) — no JS animation library
+  (`src/common/reveal/components/Reveal.tsx`) — no JS animation library
+- **CTA / status animations** — pulse-ring halos (`PulseRing`) and a live-status
+  ping (`LiveDot`) via shared CSS keyframes in `src/common/animations/`
 - **lucide-react** + **@icons-pack/react-simple-icons** for icons
 - **next/font** (Plus Jakarta Sans + Inter), `next/image` for optimized assets
 
@@ -67,11 +70,14 @@ src/
     routing.ts        # Locales, default locale, localePrefix config
     request.ts        # getRequestConfig — loads messages per request
     navigation.ts     # Locale-aware Link / useRouter / usePathname
-  common/             # Shared primitives + shared sections (atoms/molecules/organisms):
-                      #   Button, Text, Title, Section, Media, Reveal, IconBadge, …
-                      #   Navbar, Footer, About, Services, Projects, Team,
-                      #   Testimonials, CTA, Logo, Socials, FloatingContact
-  features/           # Page-specific sections
+  common/             # Primitives only (atoms + molecules): Button, ActionButton,
+                      #   Text, TextNumber, Title, Section, Media, Avatar, Logo,
+                      #   IconBadge, IconCard, Eyebrow, Stars, LiveDot, CheckItem,
+                      #   Socials, SectionHeading, Reveal, PulseRing
+  shared-sections/    # Organisms reused across ≥2 pages: about, services, projects,
+                      #   team, testimonials, contact-form, page-header
+  layout/             # App-shell chrome: navbar, footer, floating-contact
+  features/           # Organisms used by a single page
     home/             #   Hero, Marquee, Pricing, WhyChoose (+ hero molecules)
     about/            #   Values
     services/         #   ProcessSteps, Faq
@@ -81,10 +87,40 @@ src/
     blurs.ts          #   Base64 blur placeholders per image type
     global/layout.ts  #   Navbar + floating-contact structure
     pages/            #   Per-page data (home, about, services, projects)
-    sections/         #   Shared-section data (services, projects, team, reviews)
+    sections/         #   Shared-section data (about, services, projects, team, reviews)
   global.d.ts         # next-intl type augmentation (Locale + Messages)
   types/assets.d.ts   # Asset / CSS module declarations
 ```
+
+### Architecture
+
+Components are organised into **role-based tiers** under `src/`. The **tier
+folder** (not an internal `organisms/` folder) tells you a component's role;
+dependencies point inward (`features → shared-sections / layout → common`).
+
+- **`common/`** — primitives only (atoms + molecules): pure UI, no domain data.
+  `Button`, `ActionButton`, `Text`, `TextNumber`, `Title`, `Section`, `Media`,
+  `Avatar`, `Logo`, `IconBadge`, `IconCard`, `Eyebrow`, `Stars`, `LiveDot`,
+  `CheckItem`, `Socials`, `SectionHeading`, `Reveal`, `PulseRing`.
+- **`shared-sections/`** — organisms reused across ≥2 pages: `about`, `services`,
+  `projects`, `team`, `testimonials`, `contact-form`, `page-header`.
+- **`layout/`** — app-shell chrome mounted in `[locale]/layout.tsx`: `navbar`,
+  `footer`, `floating-contact`.
+- **`features/<page>/`** — organisms used by a single page: home (`Hero`,
+  `Marquee`, `Pricing`, `WhyChoose`), about (`Values`), services
+  (`ProcessSteps`, `Faq`), projects (`StatsBand`).
+
+Two rules keep it consistent:
+
+- **Flatten rule** — a slice uses atomic subfolders (`atoms/`, `molecules/`,
+  `organisms/`) **only when it genuinely has multiple tiers** (`about`, `navbar`,
+  `features/home`). A single-component slice stays flat at `components/X.tsx` —
+  the file _is_ the organism, no folder for its own sake.
+- **Promotion rule** — an organism is born in `features/<page>`; the moment a
+  **second** page needs it, promote it to `shared-sections/`.
+
+The split follows screaming architecture + feature architecture + atomic design.
+Each slice keeps its own `components/` (+ `types/`).
 
 ### How i18n works
 
@@ -120,10 +156,10 @@ arrays (footer links, FAQ, pricing features) are read with `t.raw(...)`.
 ## Pages & Sections
 
 - **Home (`/`):** Hero → marquee strip → About → Services → Why Choose Us →
-  Projects → Team → Testimonials → Pricing → Contact / CTA → Footer.
-- **Services (`/services`):** PageHeader → Services → Process Steps → FAQ → CTA.
-- **Projects (`/projects`):** PageHeader → Projects → StatsBand → Testimonials → CTA.
-- **About (`/about`):** PageHeader → About → Values → Team → CTA.
+  Projects → Team → Testimonials → Pricing → Contact → Footer.
+- **Services (`/services`):** PageHeader → Services → Process Steps → FAQ → Contact.
+- **Projects (`/projects`):** PageHeader → Projects → StatsBand → Testimonials → Contact.
+- **About (`/about`):** PageHeader → About → Values → Team → Contact.
 
 Site-wide: a fixed Navbar, a floating quick-contact (WhatsApp + call), and the Footer.
 
