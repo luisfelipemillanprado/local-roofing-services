@@ -8,13 +8,13 @@ import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
-import { teamSection } from "@/data/sections/team";
+import { teamData } from "@/data/sections/team";
 import type { TeamProps } from "@/shared-sections/team/types";
 
 export const Team = async ({ limit }: TeamProps = {}) => {
   const t = await getTranslations("team");
   // `limit` lets the home show a subset while /about shows the full team.
-  const team = teamSection.members.slice(0, limit);
+  const team = teamData.members.slice(0, limit);
 
   return (
     <Section>

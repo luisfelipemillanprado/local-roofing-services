@@ -7,13 +7,13 @@ import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
-import { projectsSection } from "@/data/sections/projects";
+import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
 
 export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
   const t = await getTranslations("project");
   // `limit` lets the home show a summary while /projects shows the full gallery.
-  const projects = projectsSection.items.slice(0, limit);
+  const projects = projectsData.items.slice(0, limit);
 
   return (
     <Section id="projects" tone="muted">

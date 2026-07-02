@@ -6,12 +6,12 @@ import { Button } from "@/common/call-to-actions/components/Button";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { getTranslations } from "next-intl/server";
-import { whyChooseSection } from "@/data/pages/home";
+import { whyChooseData } from "@/data/pages/home";
 
 export const WhyChoose = async () => {
   const t = await getTranslations("home.why-choose");
-  const features = whyChooseSection.features;
-  const whyStats = whyChooseSection.stats;
+  const features = whyChooseData.features;
+  const whyStats = whyChooseData.stats;
 
   return (
     <Section>

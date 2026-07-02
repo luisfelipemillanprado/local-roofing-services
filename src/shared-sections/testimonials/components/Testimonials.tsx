@@ -9,7 +9,7 @@ import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
 import { Stars } from "@/common/stars/components/Stars";
 import { getTranslations } from "next-intl/server";
-import { reviewsSection } from "@/data/sections/reviews";
+import { reviewsData } from "@/data/sections/reviews";
 import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
 
 function GoogleMark() {
@@ -38,7 +38,7 @@ function GoogleMark() {
 export const Testimonials = async ({ limit }: TestimonialsProps = {}) => {
   const t = await getTranslations("review");
   // `limit` lets the home show a subset while /projects shows them all.
-  const testimonials = reviewsSection.items.slice(0, limit);
+  const testimonials = reviewsData.items.slice(0, limit);
 
   return (
     <Section id="reviews" tone="muted">

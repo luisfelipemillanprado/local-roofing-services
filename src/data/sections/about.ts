@@ -1,7 +1,7 @@
 import { company } from "@/data/site";
 
 /* "About" section data; image, CTA, years, call, points + stats, text resolved by key. */
-export const aboutSection = {
+export const aboutData = {
   name: company.name,
   image: "/images/boss/boss.webp",
   ctaHref: { key: "action", href: "/services" },

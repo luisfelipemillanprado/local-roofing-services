@@ -10,7 +10,7 @@ export type ReviewItem = {
 };
 
 /** Shared "Testimonials" section; ordered list (avatar/blur), text resolved by key. */
-export const reviewsSection: { items: ReviewItem[] } = {
+export const reviewsData: { items: ReviewItem[] } = {
   items: [
     { key: "paula", avatar: "/images/avatars/avatar1.webp", blur: blurs.avatar },
     { key: "dennis", avatar: "/images/avatars/avatar2.webp", blur: blurs.avatar },

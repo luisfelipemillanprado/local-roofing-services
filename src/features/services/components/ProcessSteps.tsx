@@ -2,11 +2,11 @@ import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Section } from "@/common/section/components/Section";
 import { IconCard } from "@/common/icon-card/components/IconCard";
-import { processSection } from "@/data/pages/services";
+import { processData } from "@/data/pages/services";
 
 export const ProcessSteps = async () => {
   const t = await getTranslations("services-page.process");
-  const items = processSection.steps;
+  const items = processData.steps;
 
   return (
     <Section>

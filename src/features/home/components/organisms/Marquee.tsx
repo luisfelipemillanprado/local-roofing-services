@@ -1,10 +1,10 @@
 import { getTranslations } from "next-intl/server";
 import { Text } from "@/common/text/components/Text";
-import { marqueeSection } from "@/data/pages/home";
+import { marqueeData } from "@/data/pages/home";
 
 export const Marquee = async () => {
   const t = await getTranslations("home.marquee");
-  const rotator = marqueeSection.items;
+  const rotator = marqueeData.items;
   const items = [...rotator, ...rotator, ...rotator];
   return (
     <div className="overflow-hidden bg-primary py-4">

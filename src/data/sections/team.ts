@@ -7,7 +7,7 @@ export type TeamMember = {
 };
 
 /** Shared "Team" section; ordered list (image), text resolved by key. */
-export const teamSection: { members: TeamMember[] } = {
+export const teamData: { members: TeamMember[] } = {
   members: [
     { key: "rodger", image: "/images/team/team1.webp" },
     { key: "marcus", image: "/images/team/team2.webp" },

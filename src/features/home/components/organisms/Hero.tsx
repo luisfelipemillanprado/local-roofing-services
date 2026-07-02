@@ -7,9 +7,9 @@ import { HeroActions } from "@/features/home/components/molecules/HeroActions";
 import { CustomerRating } from "@/features/home/components/molecules/CustomerRating";
 import { getTranslations } from "next-intl/server";
 import { blurs } from "@/data/blurs";
-import { heroSection } from "@/data/pages/home";
+import { heroData } from "@/data/pages/home";
 
-const { name, yearsExperience, image, avatars, ctaPrimaryHref, ctaSecondaryHref } = heroSection;
+const { name, yearsExperience, image, avatars, ctaPrimaryHref, ctaSecondaryHref } = heroData;
 
 export const Hero = async () => {
   const t = await getTranslations("home.hero");

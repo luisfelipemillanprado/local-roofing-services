@@ -2,11 +2,11 @@ import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Section } from "@/common/section/components/Section";
 import { IconCard } from "@/common/icon-card/components/IconCard";
-import { valuesSection } from "@/data/pages/about";
+import { valuesData } from "@/data/pages/about";
 
 export const Values = async () => {
   const t = await getTranslations("about-page.values");
-  const items = valuesSection.items;
+  const items = valuesData.items;
 
   return (
     <Section tone="muted">

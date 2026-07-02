@@ -7,9 +7,9 @@ import { ContactCard } from "@/shared-sections/about/components/molecules/Contac
 import { StatsRow } from "@/shared-sections/about/components/molecules/StatsRow";
 import { SellingPoints } from "@/shared-sections/about/components/molecules/SellingPoints";
 import { getTranslations } from "next-intl/server";
-import { aboutSection } from "@/data/sections/about";
+import { aboutData } from "@/data/sections/about";
 
-const { name, image, ctaHref, years, call, points, stats } = aboutSection;
+const { name, image, ctaHref, years, call, points, stats } = aboutData;
 
 export const About = async () => {
   const t = await getTranslations("about");

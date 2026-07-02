@@ -8,7 +8,7 @@ type WhyChooseStatKey = "years" | "projects" | "roofers";
 type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
 type PricingPlanKey = "residential" | "commercial" | "industrial";
 
-export const heroSection = {
+export const heroData = {
   name: company.name,
   yearsExperience: company.yearsExperience,
   image: "/images/hero/hero.webp",
@@ -22,7 +22,7 @@ export const heroSection = {
   ],
 } as const;
 
-export const whyChooseSection: {
+export const whyChooseData: {
   features: { key: WhyChooseFeatureKey; icon: IconBadgeKey }[];
   stats: { key: WhyChooseStatKey; icon: IconBadgeKey }[];
 } = {
@@ -40,7 +40,7 @@ export const whyChooseSection: {
 };
 
 /* Marquee keeps the icon component directly (not an IconBadge). */
-export const marqueeSection: { items: { key: MarqueeKey; icon: LucideIcon }[] } = {
+export const marqueeData: { items: { key: MarqueeKey; icon: LucideIcon }[] } = {
   items: [
     { key: "stormReady", icon: CloudRain },
     { key: "licensed", icon: ShieldCheck },
@@ -50,7 +50,7 @@ export const marqueeSection: { items: { key: MarqueeKey; icon: LucideIcon }[] } 
   ],
 };
 
-export const pricingSection: {
+export const pricingData: {
   plans: { key: PricingPlanKey; icon: IconBadgeKey; highlighted?: boolean }[];
 } = {
   plans: [

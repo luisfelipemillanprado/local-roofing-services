@@ -8,11 +8,11 @@ import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
 import { getTranslations } from "next-intl/server";
-import { pricingSection } from "@/data/pages/home";
+import { pricingData } from "@/data/pages/home";
 
 export const Pricing = async () => {
   const t = await getTranslations("home.pricing");
-  const pricingPlans = pricingSection.plans;
+  const pricingPlans = pricingData.plans;
 
   return (
     <Section id="pricing">

@@ -16,7 +16,7 @@ export type ProjectItem = {
 };
 
 /** Shared "Projects" gallery; ordered list (image), text resolved by key. */
-export const projectsSection: { items: ProjectItem[] } = {
+export const projectsData: { items: ProjectItem[] } = {
   items: [
     { key: "cedarHeights", image: "/images/projects/project1.webp" },
     { key: "summitBungalow", image: "/images/projects/project2.webp" },
