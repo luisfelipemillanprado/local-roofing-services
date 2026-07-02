@@ -1,4 +1,4 @@
-/** Shared "Services" section; ordered list (icon/image), text resolved by key. */
+/* Services section: ordered items (icon/image), text by key */
 export const servicesSection = {
   /* CTA per variant: i18n key (text) + href (destination) */
   ctaHref: {

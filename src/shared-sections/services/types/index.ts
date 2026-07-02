@@ -15,7 +15,7 @@ export interface ServiceCardProps {
   delay?: number;
 }
 
-/* per-card resolved data the organism hands to the list */
+/* resolved per-card data for the list */
 export interface ServiceCardData extends Omit<ServiceCardProps, "learnMore"> {
   key: string;
 }
@@ -23,4 +23,6 @@ export interface ServiceCardData extends Omit<ServiceCardProps, "learnMore"> {
 export interface ServiceListProps {
   cards: ServiceCardData[];
   learnMore: string;
+  /* home: 4 below lg, all at lg */
+  collapseBelowLg?: boolean;
 }

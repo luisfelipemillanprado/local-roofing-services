@@ -10,8 +10,8 @@ const { items, ctaHref } = servicesSection;
 
 export const Services = async ({ variant, limit }: ServicesProps) => {
   const t = await getTranslations("service");
-  /* data drives order + icon/image; text by key */
-  /* limit: short summary on home, full list on /services */
+  /* data: order + icon/image; text by key */
+  /* limit: home summary, full on /services */
   const cards = items.slice(0, limit).map((service, i) => ({
     key: service.key,
     icon: service.icon,
@@ -32,12 +32,14 @@ export const Services = async ({ variant, limit }: ServicesProps) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          <Button href={ctaHref[variant].href} variant="secondary" pulse>
-            {t(ctaHref[variant].key)}
-          </Button>
+          <div className="mt-2">
+            <Button href={ctaHref[variant].href} variant="secondary" pulse>
+              {t(ctaHref[variant].key)}
+            </Button>
+          </div>
         </div>
 
-        <ServiceList cards={cards} learnMore={t("learnMore")} />
+        <ServiceList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "summary"} />
       </div>
     </Section>
   );
