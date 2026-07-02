@@ -1,7 +1,7 @@
 import type { IconBadgeKey } from "@/common/icon-badge/types";
 
 export interface ServicesProps {
-  variant: "summary" | "detail";
+  variant: "viewAll" | "contact";
   limit?: number;
 }
 

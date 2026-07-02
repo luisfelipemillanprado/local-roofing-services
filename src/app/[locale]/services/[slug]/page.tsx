@@ -8,9 +8,9 @@ import { PageHeader } from "@/shared-sections/page-header/components/PageHeader"
 import { Section } from "@/common/section/components/Section";
 import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { servicesSection } from "@/data/sections/services";
+import { servicesData } from "@/data/sections/services";
 
-const { items } = servicesSection;
+const { items } = servicesData;
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -58,7 +58,7 @@ export default async function ServiceDetailPage({ params }: Props) {
           <div className="container-x grid justify-items-start gap-10">
             <Media src={service.image} alt={title} shape="wide" sizes="100vw" />
             <Button href="/services" variant="secondary">
-              {t("action.summary")}
+              {t("action.viewAll")}
             </Button>
           </div>
         </Section>

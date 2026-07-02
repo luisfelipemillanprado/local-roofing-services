@@ -4,8 +4,8 @@
   "titleAccent": "For Every Property",
   "description": "We deliver exceptional craftsmanship utilizing premium materials to secure your property. Our dedicated specialists fully eliminate moisture threats while significantly upgrading safety, providing a beautiful, reliable, and lasting structural defense.",
   "action": {
-    "summary": "View All Services",
-    "detail": "Get a Free Quote"
+    "viewAll": "View All Services",
+    "contact": "Get a Free Quote"
   },
   "learnMore": "Learn More",
   "items": {

@@ -4,8 +4,8 @@
   "titleAccent": "Precisión y Cuidado",
   "description": "Roofpro ofrece servicios de techado integrales, diseñados para mantener tu propiedad segura y protegida. Desde inspecciones detalladas y reparación de goteras hasta instalaciones completas de techo, brindamos soluciones duraderas respaldadas por experiencia profesional.",
   "action": {
-    "summary": "Ver Todos los Servicios",
-    "detail": "Pedir Presupuesto Gratis"
+    "viewAll": "Ver Todos los Servicios",
+    "contact": "Pedir Presupuesto Gratis"
   },
   "learnMore": "Saber Más",
   "items": {

@@ -3,10 +3,10 @@ import { Section } from "@/common/section/components/Section";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { ServiceList } from "@/shared-sections/services/components/molecules/ServiceList";
 import { getTranslations } from "next-intl/server";
-import { servicesSection } from "@/data/sections/services";
+import { servicesData } from "@/data/sections/services";
 import type { ServicesProps } from "@/shared-sections/services/types";
 
-const { items, ctaHref } = servicesSection;
+const { items, ctaHref } = servicesData;
 
 export const Services = async ({ variant, limit }: ServicesProps) => {
   const t = await getTranslations("service");
@@ -39,7 +39,7 @@ export const Services = async ({ variant, limit }: ServicesProps) => {
           </div>
         </div>
 
-        <ServiceList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "summary"} />
+        <ServiceList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "viewAll"} />
       </div>
     </Section>
   );

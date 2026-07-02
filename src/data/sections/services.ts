@@ -1,9 +1,9 @@
 /* Services section: ordered items (icon/image), text by key */
-export const servicesSection = {
+export const servicesData = {
   /* CTA per variant: i18n key (text) + href (destination) */
   ctaHref: {
-    summary: { key: "action.summary", href: "/services" },
-    detail: { key: "action.detail", href: "#contact" },
+    viewAll: { key: "action.viewAll", href: "/services" },
+    contact: { key: "action.contact", href: "#contact" },
   },
   /* slug = detail-page route id (/services/[slug]) */
   items: [
