@@ -6,8 +6,9 @@ const sizes: Record<TitleSize, string> = {
   banner: "text-3xl leading-tight sm:text-4xl lg:text-5xl" /* 30 → 36 → 48px — CTA banner h2 */,
   section:
     "text-[clamp(1.875rem,0.375rem+6.6667vw,2.25rem)] leading-tight lg:text-[2.75rem]" /* fluid 30→36px, 44px (lg) — section h2 */,
-  feature: "text-xl" /* 20px — pricing plan name */,
-  card: "text-lg" /* 18px — why-choose, projects, team, process steps, values */,
+  feature:
+    "text-[clamp(1.1875rem,0.5057rem+3.0303vw,1.25rem)] leading-tight" /* 19→20px, 360→393vw — pricing plan name */,
+  card: "text-[clamp(1.125rem,0.4432rem+3.0303vw,1.1875rem)] leading-tight" /* 18→19px, 360→393vw — services, why-choose, projects, team, process steps, values */,
   micro: "text-sm" /* 14px — footer columns, person names */,
 };
 
