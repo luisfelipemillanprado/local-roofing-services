@@ -9,7 +9,7 @@ import { SellingPoints } from "@/shared-sections/about/components/molecules/Sell
 import { getTranslations } from "next-intl/server";
 import { aboutSection } from "@/data/sections/about";
 
-const { name, image, cta, years, call, points, stats } = aboutSection;
+const { name, image, ctaHref, years, call, points, stats } = aboutSection;
 
 export const About = async () => {
   const t = await getTranslations("about");
@@ -64,8 +64,8 @@ export const About = async () => {
 
           {/* CTA */}
           <div className="mt-2">
-            <Button href={cta.href} variant="secondary" pulse>
-              {t(cta.key)}
+            <Button href={ctaHref.href} variant="secondary" pulse>
+              {t(ctaHref.key)}
             </Button>
           </div>
         </div>

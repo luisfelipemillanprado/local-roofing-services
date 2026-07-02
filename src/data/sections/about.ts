@@ -4,7 +4,7 @@ import { company } from "@/data/site";
 export const aboutSection = {
   name: company.name,
   image: "/images/boss/boss.webp",
-  cta: { key: "learnMore", href: "/services" },
+  ctaHref: { key: "action", href: "/services" },
   years: { key: "experience", value: `${company.yearsExperience}+` },
   call: { key: "callAnytime", number: company.phone },
   points: [{ key: "residentialCommercial" }, { key: "warranties" }, { key: "pricing" }],
