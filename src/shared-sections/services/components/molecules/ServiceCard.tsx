@@ -33,7 +33,7 @@ export const ServiceCard = ({
       </span>
     </div>
     <div className="grid grid-cols-[1fr_auto] items-center gap-4 p-5.5">
-      <div className="grid min-w-0 gap-2.5">
+      <div className="grid min-w-0 gap-3">
         <Title as="h3" size="feature" weight="bold" truncate text={title} />
         <Text size="body" tone="muted" truncate text={description} />
       </div>
