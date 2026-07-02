@@ -19,7 +19,7 @@ export const ServiceCard = ({
   <Reveal
     as="article"
     delay={delay}
-    className="group flex flex-col overflow-hidden rounded-card border border-line bg-surface-panel shadow-md shadow-shade/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
+    className="group grid overflow-hidden rounded-card border border-line bg-surface-panel shadow-md shadow-shade/40 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
   >
     <div className="relative">
       <Media
@@ -32,17 +32,15 @@ export const ServiceCard = ({
         <IconBadge icon={icon} size="card" tone="solid" shadow />
       </span>
     </div>
-    <div className="flex items-center justify-between gap-4 p-6">
-      <div className="min-w-0">
+    <div className="grid grid-cols-[1fr_auto] items-center gap-4 p-6">
+      <div className="grid min-w-0 gap-3">
         <Title as="h3" size="feature" weight="bold" truncate text={title} />
-        <div className="mt-3">
-          <Text size="body" tone="muted" truncate text={description} />
-        </div>
+        <Text size="body" tone="muted" truncate text={description} />
       </div>
       <Link
         href={href}
         aria-label={learnMore}
-        className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
+        className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
       >
         <ArrowRight className="size-5" />
       </Link>
