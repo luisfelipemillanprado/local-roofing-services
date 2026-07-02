@@ -70,7 +70,7 @@ const tones: Record<IconBadgeTone, string> = {
 const hoverClass = "transition-colors group-hover:bg-primary group-hover:text-white";
 
 /* Optional drop shadow (badge floats over imagery). */
-const shadowClass = "shadow-md shadow-shade/40";
+const shadowClass = "shadow-lg";
 
 export const IconBadge = ({ icon, size, tone, hover = false, shadow = false }: IconBadgeProps) => {
   const Icon = ICONS[icon];
