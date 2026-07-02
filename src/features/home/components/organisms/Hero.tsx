@@ -65,10 +65,10 @@ export const Hero = async () => {
           <Reveal delay={0.2}>
             <div className="mt-1">
               <HeroActions
-                primaryHref={ctaPrimaryHref}
-                primaryLabel={t("ctaPrimary")}
-                secondaryHref={ctaSecondaryHref}
-                secondaryLabel={t("ctaSecondary")}
+                primaryHref={ctaPrimaryHref.href}
+                primaryLabel={t(ctaPrimaryHref.key)}
+                secondaryHref={ctaSecondaryHref.href}
+                secondaryLabel={t(ctaSecondaryHref.key)}
               />
             </div>
           </Reveal>

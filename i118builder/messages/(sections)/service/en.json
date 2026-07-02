@@ -3,7 +3,10 @@
   "titleLead": "Top Quality Roofing",
   "titleAccent": "For Every Property",
   "description": "We deliver exceptional craftsmanship utilizing premium materials to secure your property. Our dedicated specialists fully eliminate moisture threats while significantly upgrading safety, providing a beautiful, reliable, and lasting structural defense.",
-  "viewAll": "View All Services",
+  "action": {
+    "summary": "View All Services",
+    "detail": "Get a Free Quote"
+  },
   "learnMore": "Learn More",
   "items": {
     "gutters": {

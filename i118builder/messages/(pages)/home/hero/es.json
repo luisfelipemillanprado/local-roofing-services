@@ -4,8 +4,10 @@
   "titleLead": "Servicios de",
   "titleAccent": "Techado",
   "subtitle": "Tu aliado para un techado duradero, de calidad y confiable. Desde reparaciones por tormenta hasta instalaciones completas, {name} protege lo que más importa — desde hace más de {years} años.",
-  "ctaPrimary": "Renueva Tu Techo",
-  "ctaSecondary": "Ver Nuestro Trabajo",
+  "action": {
+    "primary": "Renueva Tu Techo",
+    "secondary": "Ver Nuestro Trabajo"
+  },
   "customers": "+1500 Clientes Satisfechos",
   "stats": [
     {

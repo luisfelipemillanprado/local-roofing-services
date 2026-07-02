@@ -12,8 +12,8 @@ export const heroSection = {
   name: company.name,
   yearsExperience: company.yearsExperience,
   image: "/images/hero/hero.webp",
-  ctaPrimaryHref: "#contact",
-  ctaSecondaryHref: "#projects",
+  ctaPrimaryHref: { key: "action.primary", href: "#contact" },
+  ctaSecondaryHref: { key: "action.secondary", href: "#projects" },
   avatars: [
     "/images/avatars/avatar1.webp",
     "/images/avatars/avatar2.webp",

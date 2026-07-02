@@ -35,7 +35,7 @@ export default async function ServicesPage({ params }: Props) {
           titleAccent={t("titleAccent")}
           description={t("description")}
         />
-        <Services />
+        <Services variant="detail" />
         <ProcessSteps />
         <Faq />
         <ContactForm />

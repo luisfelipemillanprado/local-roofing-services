@@ -13,7 +13,7 @@ const ICONS: Record<FloatingActionKey, ComponentType<SVGProps<SVGSVGElement>>> =
   call: Phone,
 };
 
-const { name, whatsappHref, phoneHref, actions } = layoutData.floatingContact;
+const { name, actions } = layoutData.floatingContact;
 
 export const FloatingContact = async () => {
   const t = await getTranslations("floating-contact");
@@ -23,13 +23,13 @@ export const FloatingContact = async () => {
 
   return (
     <div className="fixed right-5 bottom-5 z-50 grid animate-float-y gap-4">
-      {actions.map(({ key, external }) => {
+      {actions.map(({ key, href, external }) => {
         const Icon = ICONS[key];
-        /* color/bg/href inline by key — two fixed actions, a Record is overkill */
+        /* color/bg inline by key — two fixed actions, a Record is overkill */
         return (
           <a
             key={key}
-            href={key === "whatsapp" ? `${whatsappHref}?text=${encodeURIComponent(message)}` : phoneHref}
+            href={key === "whatsapp" ? `${href}?text=${encodeURIComponent(message)}` : href}
             aria-label={t(key)}
             target={external ? "_blank" : undefined}
             rel={external ? "noopener noreferrer" : undefined}

@@ -57,8 +57,8 @@ export const Navbar = async () => {
 
           {/* Desktop only; the wrapper owns visibility so the link keeps its own display */}
           <div className="max-lg:hidden">
-            <Button href={navbar.getFreeQuoteHref} variant="primary">
-              {t("getFreeQuote")}
+            <Button href={navbar.ctaHref.href} variant="primary">
+              {t(navbar.ctaHref.key)}
             </Button>
           </div>
 

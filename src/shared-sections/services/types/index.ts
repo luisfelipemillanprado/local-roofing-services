@@ -1,8 +1,7 @@
 import type { IconBadgeKey } from "@/common/icon-badge/types";
-import type { ServiceKey } from "@/data/sections/services";
 
 export interface ServicesProps {
-  exploreHref?: string;
+  variant: "summary" | "detail";
   limit?: number;
 }
 
@@ -18,7 +17,7 @@ export interface ServiceCardProps {
 
 /* per-card resolved data the organism hands to the list */
 export interface ServiceCardData extends Omit<ServiceCardProps, "learnMore" | "href"> {
-  key: ServiceKey;
+  key: string;
 }
 
 export interface ServiceListProps {

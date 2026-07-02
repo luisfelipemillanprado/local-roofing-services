@@ -11,7 +11,7 @@ export const layoutData = {
   },
   navbar: {
     menuId: "mobile-menu",
-    getFreeQuoteHref: "#contact",
+    ctaHref: { key: "action", href: "#contact" },
     phone: company.phone,
     links: [
       { key: "home", href: "/", icon: "home" },
@@ -33,8 +33,9 @@ export const layoutData = {
   },
   floatingContact: {
     name: company.name,
-    whatsappHref: company.whatsappHref,
-    phoneHref: company.phoneHref,
-    actions: [{ key: "whatsapp", external: true }, { key: "call" }] satisfies FloatingActionData[],
+    actions: [
+      { key: "whatsapp", href: company.whatsappHref, external: true },
+      { key: "call", href: company.phoneHref },
+    ] satisfies FloatingActionData[],
   },
 } as const;
