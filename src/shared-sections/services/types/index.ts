@@ -16,7 +16,7 @@ export interface ServiceCardProps {
 }
 
 /* per-card resolved data the organism hands to the list */
-export interface ServiceCardData extends Omit<ServiceCardProps, "learnMore" | "href"> {
+export interface ServiceCardData extends Omit<ServiceCardProps, "learnMore"> {
   key: string;
 }
 

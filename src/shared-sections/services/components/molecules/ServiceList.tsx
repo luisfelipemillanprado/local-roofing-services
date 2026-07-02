@@ -5,7 +5,7 @@ import type { ServiceListProps } from "@/shared-sections/services/types";
 export const ServiceList = ({ cards, learnMore }: ServiceListProps) => (
   <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     {cards.map(({ key, ...card }) => (
-      <ServiceCard key={key} {...card} learnMore={learnMore} href="#contact" />
+      <ServiceCard key={key} {...card} learnMore={learnMore} />
     ))}
   </div>
 );

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Media } from "@/common/media/components/Media";
@@ -32,8 +32,8 @@ export const ServiceCard = ({
         <IconBadge icon={icon} size="card" tone="solid" shadow />
       </span>
     </div>
-    <div className="grid grid-cols-[1fr_auto] items-center gap-4 p-6">
-      <div className="grid min-w-0 gap-3">
+    <div className="grid grid-cols-[1fr_auto] items-center gap-4 p-5.5">
+      <div className="grid min-w-0 gap-2.5">
         <Title as="h3" size="feature" weight="bold" truncate text={title} />
         <Text size="body" tone="muted" truncate text={description} />
       </div>
@@ -42,7 +42,7 @@ export const ServiceCard = ({
         aria-label={learnMore}
         className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
       >
-        <ArrowRight className="size-5" />
+        <ArrowRight className="size-5 -rotate-45" />
       </Link>
     </div>
   </Reveal>

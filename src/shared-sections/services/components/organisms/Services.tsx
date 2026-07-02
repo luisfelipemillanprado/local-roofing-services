@@ -6,20 +6,21 @@ import { getTranslations } from "next-intl/server";
 import { servicesSection } from "@/data/sections/services";
 import type { ServicesProps } from "@/shared-sections/services/types";
 
+const { items, ctaHref } = servicesSection;
+
 export const Services = async ({ variant, limit }: ServicesProps) => {
   const t = await getTranslations("service");
   /* data drives order + icon/image; text by key */
   /* limit: short summary on home, full list on /services */
-  const cards = servicesSection.items.slice(0, limit).map((service, i) => ({
+  const cards = items.slice(0, limit).map((service, i) => ({
     key: service.key,
     icon: service.icon,
     image: service.image,
+    href: `/services/${service.slug}`,
     title: t(`items.${service.key}.title`),
     description: t(`items.${service.key}.description`),
     delay: i * 0.08,
   }));
-
-  const cta = servicesSection.ctaHref[variant];
 
   return (
     <Section id="services" tone="muted">
@@ -31,8 +32,8 @@ export const Services = async ({ variant, limit }: ServicesProps) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          <Button href={cta.href} variant="secondary" pulse>
-            {t(cta.key)}
+          <Button href={ctaHref[variant].href} variant="secondary" pulse>
+            {t(ctaHref[variant].key)}
           </Button>
         </div>
 
