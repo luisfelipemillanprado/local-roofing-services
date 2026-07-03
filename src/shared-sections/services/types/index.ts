@@ -16,7 +16,10 @@ export interface ServiceCardProps {
 }
 
 /* resolved per-card data for the list */
-export interface ServiceCardData extends Omit<ServiceCardProps, "learnMore"> {
+export interface ServiceCardData extends Pick<
+  ServiceCardProps,
+  "icon" | "image" | "title" | "description" | "href" | "delay"
+> {
   key: string;
 }
 
