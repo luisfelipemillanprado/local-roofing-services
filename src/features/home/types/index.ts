@@ -17,8 +17,8 @@ export interface CustomerRatingProps {
   label: string;
 }
 
-/* resolved per-stat data for the list */
-export interface WhyStatData {
+/* resolved per-stat item for the list */
+interface WhyStatItem {
   key: string;
   icon: IconBadgeKey;
   value: string;
@@ -26,14 +26,14 @@ export interface WhyStatData {
 }
 
 export interface WhyStatsProps {
-  stats: WhyStatData[];
+  stats: WhyStatItem[];
 }
 
-/* resolved per-feature data for the list */
-export interface WhyFeatureData extends Pick<IconCardProps, "icon" | "title" | "description" | "delay"> {
+/* resolved per-feature item for the list */
+interface WhyFeatureItem extends Pick<IconCardProps, "icon" | "title" | "description" | "delay"> {
   key: string;
 }
 
 export interface WhyFeaturesProps {
-  features: WhyFeatureData[];
+  features: WhyFeatureItem[];
 }

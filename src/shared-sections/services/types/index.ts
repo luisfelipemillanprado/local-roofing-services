@@ -15,8 +15,8 @@ export interface ServiceCardProps {
   delay?: number;
 }
 
-/* resolved per-card data for the list */
-export interface ServiceCardData extends Pick<
+/* resolved per-card item for the list */
+interface ServiceCardItem extends Pick<
   ServiceCardProps,
   "icon" | "image" | "title" | "description" | "href" | "delay"
 > {
@@ -24,7 +24,7 @@ export interface ServiceCardData extends Pick<
 }
 
 export interface ServiceListProps {
-  cards: ServiceCardData[];
+  cards: ServiceCardItem[];
   learnMore: string;
   /* home: 4 below lg, all at lg */
   collapseBelowLg?: boolean;
