@@ -3,7 +3,9 @@
   "titleLead": "Our Roofing Fits You",
   "titleAccent": "Every Shingle Time",
   "description": "We approach every roofing project with extreme precision, unwavering professionalism, and true craftsmanship. By installing excellent materials with expert techniques, we secure your property while significantly enhancing its overall beauty.",
-  "learnMore": "Learn More",
+  "action": {
+    "learnMore": "Learn More"
+  },
   "features": {
     "emergency": {
       "title": "Emergency Services",

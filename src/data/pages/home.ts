@@ -21,6 +21,7 @@ export const heroData = {
 } as const;
 
 export const whyChooseData = {
+  ctaHref: { key: "action.learnMore", href: "/about" },
   features: [
     { key: "emergency", icon: "phone" },
     { key: "proactive", icon: "idea" },

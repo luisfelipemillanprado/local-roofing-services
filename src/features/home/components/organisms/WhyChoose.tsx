@@ -6,7 +6,7 @@ import { WhyFeatures } from "@/features/home/components/molecules/WhyFeatures";
 import { getTranslations } from "next-intl/server";
 import { whyChooseData } from "@/data/pages/home";
 
-const { features, stats } = whyChooseData;
+const { ctaHref, features, stats } = whyChooseData;
 
 export const WhyChoose = async () => {
   const t = await getTranslations("home.why-choose");
@@ -40,8 +40,8 @@ export const WhyChoose = async () => {
           <WhyStats stats={statItems} />
 
           <div className="mt-2 grid justify-center md:justify-start">
-            <Button href="#contact" variant="secondary" pulse>
-              {t("learnMore")}
+            <Button href={ctaHref.href} variant="secondary" pulse>
+              {t(ctaHref.key)}
             </Button>
           </div>
         </div>
