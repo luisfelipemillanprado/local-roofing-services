@@ -8,7 +8,7 @@ const tones: Record<SectionTone, string> = {
 };
 
 export const Section = ({ children, tone = "base", id }: SectionProps) => (
-  <section id={id} className={`${tones[tone]} py-20 lg:py-28`}>
+  <section id={id} className={`${tones[tone]} py-18 lg:py-28`}>
     {children}
   </section>
 );
