@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 import type { IconBadgeKey, IconBadgeProps, IconBadgeSize, IconBadgeTone } from "@/common/icon-badge/types";
 
-/* Semantic key → icon component (same pattern as the navbar). */
+/* Semantic key → icon component */
 const ICONS: Record<IconBadgeKey, LucideIcon> = {
   droplets: Droplets,
   energy: Zap,
@@ -45,11 +45,11 @@ const ICONS: Record<IconBadgeKey, LucideIcon> = {
   factory: Factory,
 };
 
-/* Chip box + radius per tier. */
+/* Chip box size per tier */
 const chips: Record<IconBadgeSize, string> = {
-  stat: "size-11 rounded-xl" /* 44px — why-choose stats */,
-  card: "size-12 rounded-2xl" /* 48px — service cards */,
-  feature: "size-14 rounded-2xl" /* 56px — process, values, stats, why-choose, pricing */,
+  stat: "size-11.5" /* 46px — why-choose stats */,
+  card: "size-12" /* 48px — service cards */,
+  feature: "size-14" /* 56px — process, values, stats band, why-choose, pricing */,
 };
 
 /* Inner icon size per tier. */
@@ -59,26 +59,20 @@ const iconSizes: Record<IconBadgeSize, string> = {
   feature: "size-7",
 };
 
-/* Background + foreground pairs. */
-const tones: Record<IconBadgeTone, string> = {
-  muted: "bg-surface-muted text-primary" /* default on light cards */,
-  solid: "bg-primary text-white" /* emphasis / highlighted */,
-  panel: "bg-surface-panel text-primary" /* resting state of group cards */,
+/* Chip background + icon color per tone. */
+const tones: Record<IconBadgeTone, { chip: string; icon: string }> = {
+  muted: { chip: "bg-surface-muted", icon: "text-primary" } /* default on light cards */,
+  solid: { chip: "bg-primary", icon: "text-white" } /* emphasis / highlighted */,
+  panel: { chip: "bg-surface-panel", icon: "text-primary" } /* non-highlighted pricing plans */,
 };
 
-/* Card-hover color shift (badge sits inside a group card). */
-const hoverClass = "transition-colors group-hover:bg-primary group-hover:text-white";
-
-/* Optional drop shadow (badge floats over imagery). */
-const shadowClass = "shadow-lg";
-
-export const IconBadge = ({ icon, size, tone, hover = false, shadow = false }: IconBadgeProps) => {
+export const IconBadge = ({ icon, size, tone, shadow = false }: IconBadgeProps) => {
   const Icon = ICONS[icon];
   return (
     <span
-      className={`grid place-items-center ${chips[size]} ${tones[tone]}${hover ? ` ${hoverClass}` : ""}${shadow ? ` ${shadowClass}` : ""}`}
+      className={`grid place-items-center rounded-2xl ${chips[size]} ${tones[tone].chip} ${shadow ? "shadow-lg" : ""}`}
     >
-      <Icon className={iconSizes[size]} />
+      <Icon className={`${iconSizes[size]} ${tones[tone].icon}`} />
     </span>
   );
 };

@@ -26,6 +26,5 @@ export interface IconBadgeProps {
   icon: IconBadgeKey;
   size: IconBadgeSize;
   tone: IconBadgeTone;
-  hover?: boolean;
   shadow?: boolean;
 }
