@@ -24,7 +24,7 @@ export const Services = async ({ variant, limit }: ServicesProps) => {
 
   return (
     <Section id="services" tone="muted">
-      <div className="container-x">
+      <div className="container-x grid gap-13">
         <div className="grid items-center justify-items-center gap-6 md:grid-cols-[1fr_auto] md:justify-items-start">
           <SectionHeading
             eyebrow={t("eyebrow")}

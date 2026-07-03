@@ -29,7 +29,7 @@ export const ServiceCard = ({
           <IconBadge icon={icon} size="card" tone="solid" shadow />
         </span>
       </div>
-      <div className="grid grid-cols-[1fr_auto] items-center gap-4 px-5.5 py-4">
+      <div className="grid grid-cols-[1fr_auto] items-center gap-4 px-5.5 py-4.5">
         <div className="grid min-w-0 gap-2.5">
           <Title as="h3" size="card" weight="bold" truncate text={title} />
           <Text size="body" tone="muted" truncate text={description} />
