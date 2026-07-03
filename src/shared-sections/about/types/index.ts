@@ -13,7 +13,7 @@ export interface ContactCardProps {
   phone: string;
 }
 
-export interface StatItem {
+interface StatItem {
   key: string;
   value: string;
   label: string;
@@ -23,7 +23,7 @@ export interface StatsRowProps {
   items: StatItem[];
 }
 
-export interface SellingPointItem {
+interface SellingPointItem {
   key: string;
   text: string;
 }

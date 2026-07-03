@@ -14,11 +14,13 @@ const { name, image, ctaHref, years, call, points, stats } = aboutData;
 
 export const About = async ({ variant }: AboutProps) => {
   const t = await getTranslations("about");
+  /* stats: value from data, label by key */
   const statItems = stats.map((stat) => ({
     key: stat.key,
     value: stat.value,
     label: t(`stats.${stat.key}`),
   }));
+  /* points: text by key */
   const pointItems = points.map((point) => ({ key: point.key, text: t(`points.${point.key}`) }));
 
   return (
