@@ -3,7 +3,10 @@
   "titleLead": "Tu Aliado De Confianza",
   "titleAccent": "Para Un Techado De Calidad",
   "description": "Desde 2001, {name} se ha dedicado a proteger hogares con servicios de techado excepcionales. Ofrecemos instalaciones profesionales, reparaciones confiables e inspecciones detalladas, garantizando una mano de obra superior y la plena satisfacción de cada cliente.",
-  "action": "Saber Más",
+  "action": {
+    "learnMore": "Saber Más",
+    "contact": "Contáctanos"
+  },
   "points": {
     "residentialCommercial": "Expertos en techado residencial y comercial.",
     "warranties": "Materiales premium con garantías extendidas.",

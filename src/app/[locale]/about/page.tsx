@@ -35,7 +35,7 @@ export default async function AboutPage({ params }: Props) {
           titleAccent={t("titleAccent")}
           description={t("description")}
         />
-        <About />
+        <About variant="contact" />
         <Values />
         <Team />
         <ContactForm tone="alt" />

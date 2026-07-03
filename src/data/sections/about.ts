@@ -4,7 +4,10 @@ import { company } from "@/data/site";
 export const aboutData = {
   name: company.name,
   image: "/images/boss/boss.webp",
-  ctaHref: { key: "action", href: "/services" },
+  ctaHref: {
+    learnMore: { key: "action.learnMore", href: "/about" },
+    contact: { key: "action.contact", href: "#contact" },
+  },
   years: { key: "experience", value: `${company.yearsExperience}+` },
   call: { key: "callAnytime", number: company.phone },
   points: [{ key: "residentialCommercial" }, { key: "warranties" }, { key: "pricing" }],

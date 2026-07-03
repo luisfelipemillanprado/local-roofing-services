@@ -1,3 +1,7 @@
+export interface AboutProps {
+  variant: "learnMore" | "contact";
+}
+
 export interface YearsBadgeProps {
   value: string;
   line1: string;

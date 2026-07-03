@@ -30,7 +30,7 @@ export default function Home({ params }: Props) {
       <main>
         <Hero />
         <Marquee />
-        <About />
+        <About variant="learnMore" />
         <Services variant="viewAll" limit={6} />
         <WhyChoose />
         <Projects exploreHref="/projects" limit={6} />

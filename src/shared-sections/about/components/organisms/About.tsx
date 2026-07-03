@@ -8,10 +8,11 @@ import { StatsRow } from "@/shared-sections/about/components/molecules/StatsRow"
 import { SellingPoints } from "@/shared-sections/about/components/molecules/SellingPoints";
 import { getTranslations } from "next-intl/server";
 import { aboutData } from "@/data/sections/about";
+import type { AboutProps } from "@/shared-sections/about/types";
 
 const { name, image, ctaHref, years, call, points, stats } = aboutData;
 
-export const About = async () => {
+export const About = async ({ variant }: AboutProps) => {
   const t = await getTranslations("about");
   const statItems = stats.map((stat) => ({
     key: stat.key,
@@ -64,8 +65,8 @@ export const About = async () => {
 
           {/* CTA */}
           <div className="mt-2">
-            <Button href={ctaHref.href} variant="secondary" pulse>
-              {t(ctaHref.key)}
+            <Button href={ctaHref[variant].href} variant="secondary" pulse>
+              {t(ctaHref[variant].key)}
             </Button>
           </div>
         </div>
