@@ -27,7 +27,6 @@ export const ProcessSteps = async () => {
               description={t(`steps.${step.key}.description`)}
               delay={i * 0.08}
               step={String(i + 1).padStart(2, "0")}
-              lift={false}
             />
           ))}
         </div>

@@ -5,6 +5,5 @@ export interface IconCardProps {
   title: string;
   description: string;
   delay?: number;
-  lift?: boolean;
   step?: string;
 }
