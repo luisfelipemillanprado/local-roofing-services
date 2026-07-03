@@ -35,7 +35,7 @@ export const whyChooseData: {
   stats: [
     { key: "years", icon: "award" },
     { key: "projects", icon: "hammer" },
-    { key: "roofers", icon: "wrench" },
+    { key: "roofers", icon: "hardhat" },
   ],
 };
 

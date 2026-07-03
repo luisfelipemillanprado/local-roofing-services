@@ -1,3 +1,6 @@
+import type { IconBadgeKey } from "@/common/icon-badge/types";
+import type { IconCardProps } from "@/common/icon-card/types";
+
 export interface AvailabilityBadgeProps {
   label: string;
 }
@@ -12,4 +15,23 @@ export interface HeroActionsProps {
 export interface CustomerRatingProps {
   avatars: readonly string[];
   label: string;
+}
+
+export interface WhyStatData {
+  key: string;
+  icon: IconBadgeKey;
+  value: string;
+  label: string;
+}
+
+export interface WhyStatsProps {
+  stats: WhyStatData[];
+}
+
+export interface WhyFeatureData extends Pick<IconCardProps, "icon" | "title" | "description" | "delay"> {
+  key: string;
+}
+
+export interface WhyFeaturesProps {
+  features: WhyFeatureData[];
 }
