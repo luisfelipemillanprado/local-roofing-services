@@ -11,6 +11,7 @@ const { ctaHref, features, stats } = whyChooseData;
 export const WhyChoose = async () => {
   const t = await getTranslations("home.why-choose");
 
+  /* stats: value from data, label by key */
   const statItems = stats.map((stat) => ({
     key: stat.key,
     icon: stat.icon,
@@ -18,7 +19,8 @@ export const WhyChoose = async () => {
     label: t(`stats.${stat.key}.label`),
   }));
 
-  const featureCards = features.map((feature, i) => ({
+  /* features: text by key, stagger delay */
+  const featureItems = features.map((feature, i) => ({
     key: feature.key,
     icon: feature.icon,
     title: t(`features.${feature.key}.title`),
@@ -46,7 +48,7 @@ export const WhyChoose = async () => {
           </div>
         </div>
 
-        <WhyFeatures features={featureCards} />
+        <WhyFeatures features={featureItems} />
       </div>
     </Section>
   );
