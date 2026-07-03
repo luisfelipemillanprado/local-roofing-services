@@ -24,15 +24,12 @@
   },
   "stats": {
     "years": {
-      "value": "25+",
       "label": "Years of Experience"
     },
     "projects": {
-      "value": "1.5k",
       "label": "Projects Delivered"
     },
     "roofers": {
-      "value": "40+",
       "label": "Expert Roofers"
     }
   }

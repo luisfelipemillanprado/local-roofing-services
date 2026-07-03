@@ -14,7 +14,7 @@ export const WhyChoose = async () => {
   const statItems = stats.map((stat) => ({
     key: stat.key,
     icon: stat.icon,
-    value: t(`stats.${stat.key}.value`),
+    value: stat.value,
     label: t(`stats.${stat.key}.label`),
   }));
 

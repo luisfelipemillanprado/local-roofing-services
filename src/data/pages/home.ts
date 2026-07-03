@@ -3,8 +3,6 @@ import type { IconBadgeKey } from "@/common/icon-badge/types";
 import { company } from "@/data/site";
 
 /* Keys map to the home-only message namespaces (literal unions → type-safe `t()`). */
-type WhyChooseFeatureKey = "emergency" | "proactive" | "reliable" | "experience";
-type WhyChooseStatKey = "years" | "projects" | "roofers";
 type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
 type PricingPlanKey = "residential" | "commercial" | "industrial";
 
@@ -22,10 +20,7 @@ export const heroData = {
   ],
 } as const;
 
-export const whyChooseData: {
-  features: { key: WhyChooseFeatureKey; icon: IconBadgeKey }[];
-  stats: { key: WhyChooseStatKey; icon: IconBadgeKey }[];
-} = {
+export const whyChooseData = {
   features: [
     { key: "emergency", icon: "phone" },
     { key: "proactive", icon: "idea" },
@@ -33,11 +28,11 @@ export const whyChooseData: {
     { key: "experience", icon: "award" },
   ],
   stats: [
-    { key: "years", icon: "award" },
-    { key: "projects", icon: "hammer" },
-    { key: "roofers", icon: "hardhat" },
+    { key: "years", icon: "award", value: `${company.yearsExperience}+` },
+    { key: "projects", icon: "hammer", value: "1.5k" },
+    { key: "roofers", icon: "hardhat", value: "40+" },
   ],
-};
+} as const;
 
 /* Marquee keeps the icon component directly (not an IconBadge). */
 export const marqueeData: { items: { key: MarqueeKey; icon: LucideIcon }[] } = {

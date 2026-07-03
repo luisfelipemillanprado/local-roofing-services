@@ -24,15 +24,12 @@
   },
   "stats": {
     "years": {
-      "value": "25+",
       "label": "Años de Experiencia"
     },
     "projects": {
-      "value": "1.5k",
       "label": "Proyectos Entregados"
     },
     "roofers": {
-      "value": "40+",
       "label": "Techadores Expertos"
     }
   }
