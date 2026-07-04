@@ -22,8 +22,8 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
 
   return (
     <Section id="projects" tone="muted">
-      <div className="container-x">
-        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
+      <div className="container-x grid gap-14">
+        <div className="grid items-center justify-items-center gap-6 md:grid-cols-[1fr_auto] md:justify-items-start">
           <SectionHeading
             eyebrow={t("eyebrow")}
             title={t("titleLead")}
@@ -31,9 +31,11 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
             description={t("description")}
           />
           {exploreHref && (
-            <Button href={exploreHref} variant="secondary" pulse>
-              {t("viewAll")}
-            </Button>
+            <div className="mt-2">
+              <Button href={exploreHref} variant="secondary" pulse>
+                {t("viewAll")}
+              </Button>
+            </div>
           )}
         </div>
 

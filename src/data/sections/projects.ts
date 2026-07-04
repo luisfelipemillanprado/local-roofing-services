@@ -1,5 +1,5 @@
-/** Keys must match `project.items.<key>` in the messages (literal union → type-safe `t()`). */
-export type ProjectKey =
+/* Keys must match project.items.<key> in the messages (literal union → type-safe t()) */
+type ProjectKey =
   | "cedarHeights"
   | "summitBungalow"
   | "lakeviewContemporary"
@@ -10,13 +10,13 @@ export type ProjectKey =
   | "greystoneFarmhouse"
   | "sunsetRidge";
 
-export type ProjectItem = {
+type ProjectItem = {
   key: ProjectKey;
   image: string;
   highlighted?: boolean;
 };
 
-/** Shared "Projects" gallery; ordered list (image), text resolved by key. */
+/* Shared "Projects" gallery: ordered list (image/highlighted), text resolved by key */
 export const projectsData: { items: ProjectItem[] } = {
   items: [
     { key: "cedarHeights", image: "/images/projects/project1.webp" },
