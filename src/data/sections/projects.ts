@@ -13,13 +13,14 @@ export type ProjectKey =
 export type ProjectItem = {
   key: ProjectKey;
   image: string;
+  highlighted?: boolean;
 };
 
 /** Shared "Projects" gallery; ordered list (image), text resolved by key. */
 export const projectsData: { items: ProjectItem[] } = {
   items: [
     { key: "cedarHeights", image: "/images/projects/project1.webp" },
-    { key: "summitBungalow", image: "/images/projects/project2.webp" },
+    { key: "summitBungalow", image: "/images/projects/project2.webp", highlighted: true },
     { key: "lakeviewContemporary", image: "/images/projects/project3.webp" },
     { key: "mapleGrove", image: "/images/projects/project4.webp" },
     { key: "northgateRanch", image: "/images/projects/project5.webp" },

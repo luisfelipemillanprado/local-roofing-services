@@ -8,7 +8,7 @@ import { Marquee } from "@/features/home/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { WhyChoose } from "@/features/home/components/organisms/WhyChoose";
-import { Projects } from "@/shared-sections/projects/components/Projects";
+import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
 import { Team } from "@/shared-sections/team/components/Team";
 import { Testimonials } from "@/shared-sections/testimonials/components/Testimonials";
 import { Pricing } from "@/features/home/components/organisms/Pricing";

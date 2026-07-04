@@ -1,0 +1,44 @@
+import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Section } from "@/common/section/components/Section";
+import { Button } from "@/common/call-to-actions/components/Button";
+import { ProjectsGallery } from "@/shared-sections/projects/components/molecules/ProjectsGallery";
+import { getTranslations } from "next-intl/server";
+import { projectsData } from "@/data/sections/projects";
+import type { ProjectsProps } from "@/shared-sections/projects/types";
+
+export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
+  const t = await getTranslations("project");
+  /* limit: home shows a summary, /projects the full gallery */
+  const projects = projectsData.items.slice(0, limit);
+  /* projects: image/highlighted from data, text by key, stagger delay */
+  const projectItems = projects.map((project, i) => ({
+    key: project.key,
+    image: project.image,
+    title: t(`items.${project.key}.title`),
+    category: t(`items.${project.key}.category`),
+    highlighted: project.highlighted,
+    delay: i * 0.08,
+  }));
+
+  return (
+    <Section id="projects" tone="muted">
+      <div className="container-x">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
+          <SectionHeading
+            eyebrow={t("eyebrow")}
+            title={t("titleLead")}
+            accent={t("titleAccent")}
+            description={t("description")}
+          />
+          {exploreHref && (
+            <Button href={exploreHref} variant="secondary" pulse>
+              {t("viewAll")}
+            </Button>
+          )}
+        </div>
+
+        <ProjectsGallery items={projectItems} />
+      </div>
+    </Section>
+  );
+};

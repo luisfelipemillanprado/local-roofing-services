@@ -4,7 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
-import { Projects } from "@/shared-sections/projects/components/Projects";
+import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
 import { StatsBand } from "@/features/projects/components/StatsBand";
 import { Testimonials } from "@/shared-sections/testimonials/components/Testimonials";
 import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
