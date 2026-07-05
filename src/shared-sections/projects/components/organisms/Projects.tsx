@@ -10,11 +10,12 @@ const { items } = projectsData;
 
 export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
   const t = await getTranslations("project");
-  /* image from data, text by key, stagger delay */
+  /* data: order + image + slug→href; text by key, stagger delay */
   /* limit: home summary, full on /projects */
   const projectItems = items.slice(0, limit).map((project, i) => ({
     key: project.key,
     image: project.image,
+    href: `/projects/${project.slug}`,
     title: t(`items.${project.key}.title`),
     category: t(`items.${project.key}.category`),
     delay: i * 0.08,
@@ -39,7 +40,11 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
           )}
         </div>
 
-        <ProjectsGallery items={projectItems} collapseBelowLg={Boolean(exploreHref)} />
+        <ProjectsGallery
+          items={projectItems}
+          learnMore={t("learnMore")}
+          collapseBelowLg={Boolean(exploreHref)}
+        />
       </div>
     </Section>
   );
