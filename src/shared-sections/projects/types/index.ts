@@ -8,7 +8,6 @@ export interface ProjectCardProps {
   image: string;
   title: string;
   category: string;
-  highlighted?: boolean;
   delay?: number;
 }
 
@@ -19,4 +18,6 @@ interface ProjectItem extends ProjectCardProps {
 
 export interface ProjectsGalleryProps {
   items: ProjectItem[];
+  /* home: 4 below lg, all at lg */
+  collapseBelowLg?: boolean;
 }

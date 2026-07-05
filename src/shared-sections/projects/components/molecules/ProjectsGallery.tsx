@@ -1,18 +1,15 @@
 import { ProjectCard } from "@/shared-sections/projects/components/molecules/ProjectCard";
 import type { ProjectsGalleryProps } from "@/shared-sections/projects/types";
 
-/* Projects gallery grid: highlighted card spans two columns */
-export const ProjectsGallery = ({ items }: ProjectsGalleryProps) => (
-  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-    {items.map(({ key, image, title, category, highlighted, delay }) => (
-      <ProjectCard
-        key={key}
-        image={image}
-        title={title}
-        category={category}
-        highlighted={highlighted}
-        delay={delay}
-      />
+/* Projects gallery grid; home collapses to 4 below lg */
+export const ProjectsGallery = ({ items, collapseBelowLg = false }: ProjectsGalleryProps) => (
+  <div
+    className={`grid gap-6 md:grid-cols-2 lg:grid-cols-3 ${
+      collapseBelowLg ? "[&>*:nth-child(n+5)]:hidden lg:[&>*:nth-child(n+5)]:grid" : ""
+    }`}
+  >
+    {items.map(({ key, image, title, category, delay }) => (
+      <ProjectCard key={key} image={image} title={title} category={category} delay={delay} />
     ))}
   </div>
 );

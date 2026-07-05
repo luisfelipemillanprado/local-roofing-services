@@ -1,26 +1,8 @@
-/* Keys must match project.items.<key> in the messages (literal union → type-safe t()) */
-type ProjectKey =
-  | "cedarHeights"
-  | "summitBungalow"
-  | "lakeviewContemporary"
-  | "mapleGrove"
-  | "northgateRanch"
-  | "stonebridge"
-  | "blackpineEstate"
-  | "greystoneFarmhouse"
-  | "sunsetRidge";
-
-type ProjectItem = {
-  key: ProjectKey;
-  image: string;
-  highlighted?: boolean;
-};
-
-/* Shared "Projects" gallery: ordered list (image/highlighted), text resolved by key */
-export const projectsData: { items: ProjectItem[] } = {
+/* Projects section: ordered items (image), text by key */
+export const projectsData = {
   items: [
     { key: "cedarHeights", image: "/images/projects/project1.webp" },
-    { key: "summitBungalow", image: "/images/projects/project2.webp", highlighted: true },
+    { key: "summitBungalow", image: "/images/projects/project2.webp" },
     { key: "lakeviewContemporary", image: "/images/projects/project3.webp" },
     { key: "mapleGrove", image: "/images/projects/project4.webp" },
     { key: "northgateRanch", image: "/images/projects/project5.webp" },
@@ -29,4 +11,4 @@ export const projectsData: { items: ProjectItem[] } = {
     { key: "greystoneFarmhouse", image: "/images/projects/project8.webp" },
     { key: "sunsetRidge", image: "/images/projects/project9.webp" },
   ],
-};
+} as const;

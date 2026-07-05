@@ -1,33 +1,23 @@
-import { ArrowUpRight } from "lucide-react";
 import { Media } from "@/common/media/components/Media";
 import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import type { ProjectCardProps } from "@/shared-sections/projects/types";
 
-/* Gallery card: photo + hover-revealed category/title overlay; highlighted spans wide */
-export const ProjectCard = ({ image, title, category, highlighted, delay = 0 }: ProjectCardProps) => (
-  <Reveal
-    as="article"
-    delay={delay}
-    className={`group relative overflow-hidden rounded-card ${highlighted ? "sm:col-span-2" : ""}`}
-  >
-    <Media
-      src={image}
-      alt={title}
-      shape="gallery"
-      overlay="strong"
-      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-    />
-
-    <div className="absolute inset-x-0 bottom-0 grid translate-y-2 grid-cols-[1fr_auto] items-end gap-4 p-5 opacity-90 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-      <div className="grid gap-1">
-        <Text as="p" size="label" tone="primary" weight="semibold" tracking="wide" text={category} />
-        <Title as="h3" size="card" weight="bold" tone="white" text={title} />
+/* Gallery card: image + category/title, Services-style panel */
+export const ProjectCard = ({ image, title, category, delay = 0 }: ProjectCardProps) => (
+  <Reveal delay={delay}>
+    <article className="group grid h-full overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
+      <Media
+        src={image}
+        alt={title}
+        shape="wide"
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+      />
+      <div className="grid gap-2.5 px-5.5 py-4.5">
+        <Text size="label" tone="primary" weight="semibold" tracking="wide" text={category} />
+        <Title as="h3" size="card" weight="bold" truncate text={title} />
       </div>
-      <span className="grid size-10 place-items-center rounded-full bg-primary text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-        <ArrowUpRight className="size-5" />
-      </span>
-    </div>
+    </article>
   </Reveal>
 );

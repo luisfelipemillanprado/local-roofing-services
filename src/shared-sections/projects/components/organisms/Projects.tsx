@@ -6,23 +6,23 @@ import { getTranslations } from "next-intl/server";
 import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
 
+const { items } = projectsData;
+
 export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
   const t = await getTranslations("project");
-  /* limit: home shows a summary, /projects the full gallery */
-  const projects = projectsData.items.slice(0, limit);
-  /* projects: image/highlighted from data, text by key, stagger delay */
-  const projectItems = projects.map((project, i) => ({
+  /* image from data, text by key, stagger delay */
+  /* limit: home summary, full on /projects */
+  const projectItems = items.slice(0, limit).map((project, i) => ({
     key: project.key,
     image: project.image,
     title: t(`items.${project.key}.title`),
     category: t(`items.${project.key}.category`),
-    highlighted: project.highlighted,
     delay: i * 0.08,
   }));
 
   return (
     <Section id="projects" tone="muted">
-      <div className="container-x grid gap-14">
+      <div className="container-x grid gap-13">
         <div className="grid items-center justify-items-center gap-6 md:grid-cols-[1fr_auto] md:justify-items-start">
           <SectionHeading
             eyebrow={t("eyebrow")}
@@ -39,7 +39,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
           )}
         </div>
 
-        <ProjectsGallery items={projectItems} />
+        <ProjectsGallery items={projectItems} collapseBelowLg={Boolean(exploreHref)} />
       </div>
     </Section>
   );
