@@ -7,40 +7,49 @@
   "learnMore": "Learn More",
   "items": {
     "cedarHeights": {
-      "title": "Cedar Heights Residence",
-      "category": "SHINGLE RE-ROOF"
+      "title": "Cedar Heights Shingles",
+      "category": "SHINGLE RE-ROOF",
+      "description": "New shingles for lasting protection."
     },
     "summitBungalow": {
-      "title": "Summit Modern Bungalow",
-      "category": "TILE ROOF INSTALLATION"
+      "title": "Summit Bungalow Tiles",
+      "category": "TILE ROOF INSTALLATION",
+      "description": "Tile roofing built to last."
     },
     "lakeviewContemporary": {
-      "title": "Lakeview Contemporary",
-      "category": "ROOF & SKYLIGHT"
+      "title": "Lakeview Skylights",
+      "category": "ROOF & SKYLIGHT",
+      "description": "Rooms filled with natural light."
     },
     "mapleGrove": {
-      "title": "Maple Grove Residence",
-      "category": "TILE RE-ROOF"
+      "title": "Maple Grove Tiles",
+      "category": "TILE RE-ROOF",
+      "description": "Fresh tiles, fully restored strength."
     },
     "northgateRanch": {
-      "title": "Northgate Modern Ranch",
-      "category": "METAL ROOF SYSTEM"
+      "title": "Northgate Panels",
+      "category": "METAL ROOF SYSTEM",
+      "description": "Sleek metal engineered for decades."
     },
     "stonebridge": {
-      "title": "Stonebridge Family Home",
-      "category": "HIP ROOF INSTALLATION"
+      "title": "Stonebridge Hip Design",
+      "category": "HIP ROOF INSTALLATION",
+      "description": "Balanced protection on every side."
     },
     "blackpineEstate": {
-      "title": "Blackpine Modern Estate",
-      "category": "STANDING-SEAM METAL ROOF"
+      "title": "Blackpine Standing Seam",
+      "category": "STANDING-SEAM METAL ROOF",
+      "description": "Standing seam metal, sleek and sealed."
     },
     "greystoneFarmhouse": {
-      "title": "Greystone Farmhouse",
-      "category": "SLATE ROOF SYSTEM"
+      "title": "Greystone Slate",
+      "category": "SLATE ROOF SYSTEM",
+      "description": "Premium slate with timeless charm."
     },
     "sunsetRidge": {
-      "title": "Sunset Ridge Home",
-      "category": "GABLE TILE ROOF"
+      "title": "Sunset Ridge Tiles",
+      "category": "GABLE TILE ROOF",
+      "description": "Classic gable tiles, lasting warmth."
     }
   }
 }

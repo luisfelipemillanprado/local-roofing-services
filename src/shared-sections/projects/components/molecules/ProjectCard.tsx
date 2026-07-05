@@ -6,8 +6,8 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import type { ProjectCardProps } from "@/shared-sections/projects/types";
 
-/* Gallery card: image + category/title with detail-page link, Services-style panel */
-export const ProjectCard = ({ image, title, category, learnMore, href, delay = 0 }: ProjectCardProps) => (
+/* Gallery card: image + title/description with detail-page link, Services-style panel */
+export const ProjectCard = ({ image, title, description, learnMore, href, delay = 0 }: ProjectCardProps) => (
   <Reveal delay={delay}>
     <article className="group grid h-full overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
       <Media
@@ -18,8 +18,8 @@ export const ProjectCard = ({ image, title, category, learnMore, href, delay = 0
       />
       <div className="grid grid-cols-[1fr_auto] items-center gap-4 px-5.5 py-4.5">
         <div className="grid min-w-0 gap-2.5">
-          <Text size="label" tone="primary" weight="semibold" tracking="wide" text={category} />
           <Title as="h3" size="card" weight="bold" truncate text={title} />
+          <Text size="body" tone="muted" truncate text={description} />
         </div>
         <Link
           href={href}

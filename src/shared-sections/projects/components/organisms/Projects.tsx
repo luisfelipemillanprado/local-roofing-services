@@ -17,7 +17,7 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
     image: project.image,
     href: `/projects/${project.slug}`,
     title: t(`items.${project.key}.title`),
-    category: t(`items.${project.key}.category`),
+    description: t(`items.${project.key}.description`),
     delay: i * 0.08,
   }));
 

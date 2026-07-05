@@ -7,14 +7,14 @@ export interface ProjectsProps {
 export interface ProjectCardProps {
   image: string;
   title: string;
-  category: string;
+  description: string;
   learnMore: string;
   href: string;
   delay?: number;
 }
 
 /* resolved per-project item for the list */
-interface ProjectItem extends Pick<ProjectCardProps, "image" | "title" | "category" | "href" | "delay"> {
+interface ProjectItem extends Pick<ProjectCardProps, "image" | "title" | "description" | "href" | "delay"> {
   key: string;
 }
 

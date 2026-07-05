@@ -7,40 +7,49 @@
   "learnMore": "Saber Más",
   "items": {
     "cedarHeights": {
-      "title": "Residencia Cedar Heights",
-      "category": "RETECHO DE TEJAS"
+      "title": "Techo Asfáltico Cedar Heights",
+      "category": "RETECHO DE TEJAS",
+      "description": "Tejas nuevas para mayor protección."
     },
     "summitBungalow": {
-      "title": "Bungaló Moderno Summit",
-      "category": "INSTALACIÓN DE TEJAS"
+      "title": "Tejas Bungaló Summit",
+      "category": "INSTALACIÓN DE TEJAS",
+      "description": "Tejas duraderas con estilo atemporal."
     },
     "lakeviewContemporary": {
-      "title": "Contemporánea Lakeview",
-      "category": "TECHO Y CLARABOYA"
+      "title": "Claraboyas Lakeview",
+      "category": "TECHO Y CLARABOYA",
+      "description": "Espacios llenos de luz natural."
     },
     "mapleGrove": {
-      "title": "Residencia Maple Grove",
-      "category": "RETECHO DE TEJAS"
+      "title": "Tejas Maple Grove",
+      "category": "RETECHO DE TEJAS",
+      "description": "Tejas nuevas, fuerza totalmente restaurada."
     },
     "northgateRanch": {
-      "title": "Rancho Moderno Northgate",
-      "category": "SISTEMA DE TECHO METÁLICO"
+      "title": "Paneles Northgate",
+      "category": "SISTEMA DE TECHO METÁLICO",
+      "description": "Metal elegante diseñado por décadas."
     },
     "stonebridge": {
-      "title": "Casa Familiar Stonebridge",
-      "category": "TECHO A CUATRO AGUAS"
+      "title": "Techo a Cuatro Aguas Stonebridge",
+      "category": "TECHO A CUATRO AGUAS",
+      "description": "Protección equilibrada por todos lados."
     },
     "blackpineEstate": {
-      "title": "Finca Moderna Blackpine",
-      "category": "TECHO METÁLICO DE JUNTA ALZADA"
+      "title": "Junta Alzada Blackpine",
+      "category": "TECHO METÁLICO DE JUNTA ALZADA",
+      "description": "Metal de junta alzada, impecable."
     },
     "greystoneFarmhouse": {
-      "title": "Granja Greystone",
-      "category": "SISTEMA DE TECHO DE PIZARRA"
+      "title": "Pizarra Greystone",
+      "category": "SISTEMA DE TECHO DE PIZARRA",
+      "description": "Pizarra premium con encanto atemporal."
     },
     "sunsetRidge": {
-      "title": "Casa Sunset Ridge",
-      "category": "TECHO DE TEJA A DOS AGUAS"
+      "title": "Tejas Sunset Ridge",
+      "category": "TECHO DE TEJA A DOS AGUAS",
+      "description": "Teja a dos aguas duradera."
     }
   }
 }
