@@ -1,5 +1,5 @@
 export interface ProjectsProps {
-  viewAll?: boolean;
+  variant: "viewAll" | "contact";
   limit?: number;
 }
 

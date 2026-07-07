@@ -33,7 +33,7 @@ export default function Home({ params }: Props) {
         <About variant="learnMore" />
         <Services variant="viewAll" limit={6} />
         <WhyChoose />
-        <Projects viewAll limit={6} />
+        <Projects variant="viewAll" limit={6} />
         <Team limit={3} />
         <Testimonials limit={6} />
         <Pricing />

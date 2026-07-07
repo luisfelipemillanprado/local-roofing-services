@@ -8,7 +8,7 @@ import type { ProjectsProps } from "@/shared-sections/projects/types";
 
 const { items, ctaHref } = projectsData;
 
-export const Projects = async ({ viewAll, limit }: ProjectsProps = {}) => {
+export const Projects = async ({ variant, limit }: ProjectsProps) => {
   const t = await getTranslations("project");
   /* data: order + image; text by key */
   /* limit: home summary, full on /projects */
@@ -31,16 +31,14 @@ export const Projects = async ({ viewAll, limit }: ProjectsProps = {}) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          {viewAll && (
-            <div className="mt-2">
-              <Button href={ctaHref.href} variant="secondary" pulse>
-                {t(ctaHref.key)}
-              </Button>
-            </div>
-          )}
+          <div className="mt-2">
+            <Button href={ctaHref[variant].href} variant="secondary" pulse>
+              {t(ctaHref[variant].key)}
+            </Button>
+          </div>
         </div>
 
-        <ProjectList cards={cards} learnMore={t("learnMore")} collapseBelowLg={viewAll} />
+        <ProjectList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "viewAll"} />
       </div>
     </Section>
   );
