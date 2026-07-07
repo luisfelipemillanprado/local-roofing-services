@@ -3,7 +3,6 @@ export interface ProjectsProps {
   limit?: number;
 }
 
-/* single gallery card */
 export interface ProjectCardProps {
   image: string;
   title: string;

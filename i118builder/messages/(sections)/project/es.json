@@ -3,7 +3,9 @@
   "titleLead": "Calidad Que Se Ve",
   "titleAccent": "Excelencia Comprobada",
   "description": "Cada proyecto de techado se completa con precisión, profesionalismo y una maestría inigualable. Con materiales de calidad e instalación experta, protegemos tu propiedad mientras mejoramos su apariencia, resistencia y valor duradero.",
-  "viewAll": "Ver Todos los Proyectos",
+  "action": {
+    "viewAll": "Ver Todos los Proyectos"
+  },
   "learnMore": "Saber Más",
   "items": {
     "cedarHeights": {

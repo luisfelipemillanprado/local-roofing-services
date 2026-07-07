@@ -10,7 +10,7 @@ const { items, ctaHref } = projectsData;
 
 export const Projects = async ({ viewAll, limit }: ProjectsProps = {}) => {
   const t = await getTranslations("project");
-  /* data: order + image + slug→href; text by key, stagger delay */
+  /* data: order + image; text by key */
   /* limit: home summary, full on /projects */
   const cards = items.slice(0, limit).map((project, i) => ({
     key: project.key,

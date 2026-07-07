@@ -1,7 +1,7 @@
 /* Projects section: ordered items (image), text by key */
 export const projectsData = {
   /* view-all CTA: i18n key (text) + href (destination) */
-  ctaHref: { key: "viewAll", href: "/projects" },
+  ctaHref: { key: "action.viewAll", href: "/projects" },
   /* slug = detail-page route id (/projects/[slug]) */
   items: [
     { key: "cedarHeights", slug: "cedar-heights", image: "/images/projects/project1.webp" },

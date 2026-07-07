@@ -3,7 +3,9 @@
   "titleLead": "Quality You Can See",
   "titleAccent": "Proven Excellence",
   "description": "Every single roofing project is completed with precision, professionalism, and unmatched craftsmanship. Through quality materials and expert installation, we safeguard your property while improving its appearance, resilience, and lasting value.",
-  "viewAll": "View All Projects",
+  "action": {
+    "viewAll": "View All Projects"
+  },
   "learnMore": "Learn More",
   "items": {
     "cedarHeights": {
