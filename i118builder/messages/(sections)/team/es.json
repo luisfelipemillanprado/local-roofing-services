@@ -2,9 +2,13 @@
   "eyebrow": "NUESTRO EQUIPO",
   "titleLead": "Nuestro Equipo De",
   "titleAccent": "Profesionales Del Techado",
-  "description": "Nuestros expertos certificados en techado trabajan juntos para brindar servicios fiables y resultados excepcionales. Con años de experiencia práctica y un compromiso con la excelencia, entregamos soluciones de techado basadas en calidad, confianza y precisión en todas partes.",
-  "viewAll": "Ver Todo el Equipo",
-  "members": {
+  "description": "Nuestro excepcional equipo combina un profundo conocimiento técnico con experiencia práctica en techado para brindar un servicio inigualable. Permanecemos completamente dedicados a proteger tu propiedad mediante precisión, integridad absoluta y calidad duradera.",
+  "action": {
+    "viewAll": "Ver Todo el Equipo",
+    "contact": "Pedir Presupuesto Gratis"
+  },
+  "learnMore": "Saber Más",
+  "items": {
     "rodger": {
       "name": "Rodger Struck",
       "role": "Contratista Principal de Techado"

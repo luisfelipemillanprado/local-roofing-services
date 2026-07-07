@@ -2,9 +2,13 @@
   "eyebrow": "OUR TEAM",
   "titleLead": "Our Skilled Team Of",
   "titleAccent": "Roofing Professionals",
-  "description": "Our certified roofing experts work together to provide reliable services and exceptional results. With years of practical experience and a commitment to excellence, we deliver roofing solutions built on quality, trust, and precision everywhere.",
-  "viewAll": "View All Team",
-  "members": {
+  "description": "Our exceptional team combines deep technical knowledge with practical roofing experience to deliver unparalleled service. We remain completely dedicated to protecting your property through precision, absolute integrity, and lasting quality.",
+  "action": {
+    "viewAll": "View All Team",
+    "contact": "Get a Free Quote"
+  },
+  "learnMore": "Learn More",
+  "items": {
     "rodger": {
       "name": "Rodger Struck",
       "role": "Lead Roofing Contractor"

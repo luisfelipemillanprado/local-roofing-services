@@ -6,7 +6,7 @@ import { Footer } from "@/layout/footer/components/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { About } from "@/shared-sections/about/components/organisms/About";
 import { Values } from "@/features/about/components/Values";
-import { Team } from "@/shared-sections/team/components/Team";
+import { Team } from "@/shared-sections/team/components/organisms/Team";
 import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -37,7 +37,7 @@ export default async function AboutPage({ params }: Props) {
         />
         <About variant="contact" />
         <Values />
-        <Team />
+        <Team variant="contact" />
         <ContactForm tone="alt" />
       </main>
       <Footer />
