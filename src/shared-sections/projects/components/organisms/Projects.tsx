@@ -1,18 +1,18 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Section } from "@/common/section/components/Section";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { ProjectsGallery } from "@/shared-sections/projects/components/molecules/ProjectsGallery";
+import { ProjectList } from "@/shared-sections/projects/components/molecules/ProjectList";
 import { getTranslations } from "next-intl/server";
 import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
 
-const { items } = projectsData;
+const { items, ctaHref } = projectsData;
 
-export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
+export const Projects = async ({ viewAll, limit }: ProjectsProps = {}) => {
   const t = await getTranslations("project");
   /* data: order + image + slug→href; text by key, stagger delay */
   /* limit: home summary, full on /projects */
-  const projectItems = items.slice(0, limit).map((project, i) => ({
+  const cards = items.slice(0, limit).map((project, i) => ({
     key: project.key,
     image: project.image,
     href: `/projects/${project.slug}`,
@@ -31,20 +31,16 @@ export const Projects = async ({ exploreHref, limit }: ProjectsProps = {}) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          {exploreHref && (
+          {viewAll && (
             <div className="mt-2">
-              <Button href={exploreHref} variant="secondary" pulse>
-                {t("viewAll")}
+              <Button href={ctaHref.href} variant="secondary" pulse>
+                {t(ctaHref.key)}
               </Button>
             </div>
           )}
         </div>
 
-        <ProjectsGallery
-          items={projectItems}
-          learnMore={t("learnMore")}
-          collapseBelowLg={Boolean(exploreHref)}
-        />
+        <ProjectList cards={cards} learnMore={t("learnMore")} collapseBelowLg={viewAll} />
       </div>
     </Section>
   );

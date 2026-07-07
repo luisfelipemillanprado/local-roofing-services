@@ -1,5 +1,5 @@
 export interface ProjectsProps {
-  exploreHref?: string;
+  viewAll?: boolean;
   limit?: number;
 }
 
@@ -13,13 +13,16 @@ export interface ProjectCardProps {
   delay?: number;
 }
 
-/* resolved per-project item for the list */
-interface ProjectItem extends Pick<ProjectCardProps, "image" | "title" | "description" | "href" | "delay"> {
+/* resolved per-card item for the list */
+interface ProjectCardItem extends Pick<
+  ProjectCardProps,
+  "image" | "title" | "description" | "href" | "delay"
+> {
   key: string;
 }
 
-export interface ProjectsGalleryProps {
-  items: ProjectItem[];
+export interface ProjectListProps {
+  cards: ProjectCardItem[];
   learnMore: string;
   /* home: 4 below lg, all at lg */
   collapseBelowLg?: boolean;

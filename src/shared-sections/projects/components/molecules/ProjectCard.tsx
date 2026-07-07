@@ -6,7 +6,6 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import type { ProjectCardProps } from "@/shared-sections/projects/types";
 
-/* Gallery card: image + title/description with detail-page link, Services-style panel */
 export const ProjectCard = ({ image, title, description, learnMore, href, delay = 0 }: ProjectCardProps) => (
   <Reveal delay={delay}>
     <article className="group grid h-full overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
