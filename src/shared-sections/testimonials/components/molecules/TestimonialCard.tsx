@@ -10,15 +10,15 @@ import type { TestimonialCardProps } from "@/shared-sections/testimonials/types"
 
 export const TestimonialCard = ({ avatar, quote, name, location, delay = 0 }: TestimonialCardProps) => (
   <Reveal delay={delay}>
-    <figure className="grid h-full grid-rows-[auto_1fr_auto] rounded-card border border-line bg-surface-panel p-7 shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
-      <div className="grid grid-cols-[1fr_auto] items-center">
+    <figure className="grid h-full grid-rows-[auto_1fr_auto] gap-5 rounded-card border border-line bg-surface-panel p-7 shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
+      <div className="grid grid-flow-col items-center justify-between">
         <Stars />
         <Quote className="size-8 text-surface-muted" fill="currentColor" />
       </div>
-      <blockquote className="mt-5">
+      <blockquote>
         <Text size="body" tone="muted" text={`“${quote}”`} />
       </blockquote>
-      <figcaption className="mt-6 grid grid-cols-[auto_1fr_auto] items-center gap-3 border-t border-line pt-5">
+      <figcaption className="grid grid-cols-[auto_1fr_auto] items-center gap-3 border-t border-line pt-5">
         <span className="relative size-11 overflow-hidden rounded-full">
           <Image
             src={avatar}
@@ -30,9 +30,9 @@ export const TestimonialCard = ({ avatar, quote, name, location, delay = 0 }: Te
             className="object-cover"
           />
         </span>
-        <div className="min-w-0">
-          <Title as="h4" size="micro" weight="bold" text={name} />
-          <Text size="body" tone="muted" text={location} />
+        <div className="grid min-w-0">
+          <Title as="h3" size="micro" weight="bold" truncate text={name} />
+          <Text size="body" tone="muted" truncate text={location} />
         </div>
         <GoogleMark />
       </figcaption>
