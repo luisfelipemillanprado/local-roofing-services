@@ -6,12 +6,12 @@ const { google } = testimonialsData;
 
 /* Google logo for the rating badge and card footer */
 export const GoogleMark = () => (
-  <span className="relative size-5">
+  <span className="relative size-6">
     <Image
       src={google}
       alt=""
       fill
-      sizes="20px"
+      sizes="24px"
       placeholder="blur"
       blurDataURL={blurs.logo}
       className="object-contain"
