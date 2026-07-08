@@ -1,11 +1,8 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Section } from "@/common/section/components/Section";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { GoogleMark } from "@/shared-sections/testimonials/components/atoms/GoogleMark";
+import { RatingBadge } from "@/shared-sections/testimonials/components/molecules/RatingBadge";
 import { TestimonialList } from "@/shared-sections/testimonials/components/molecules/TestimonialList";
-import { Stars } from "@/common/stars/components/Stars";
-import { Text } from "@/common/text/components/Text";
-import { TextNumber } from "@/common/text/components/TextNumber";
 import { getTranslations } from "next-intl/server";
 import { testimonialsData } from "@/data/sections/testimonials";
 import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
@@ -39,16 +36,7 @@ export const Testimonials = async ({ variant, limit }: TestimonialsProps) => {
             <Button href={ctaHref[variant].href} variant="secondary" pulse>
               {t(ctaHref[variant].key)}
             </Button>
-            <div className="grid grid-flow-col items-center gap-2 rounded-2xl border border-line bg-surface-panel px-4 py-3">
-              <GoogleMark />
-              <div>
-                <div className="grid grid-flow-col items-center justify-start gap-1.5">
-                  <TextNumber size="base" text={rating.score} />
-                  <Stars />
-                </div>
-                <Text size="label" tone="muted" text={`${rating.count} ${t("reviews")}`} />
-              </div>
-            </div>
+            <RatingBadge score={rating.score} count={rating.count} reviews={t("reviews")} />
           </div>
         </div>
 

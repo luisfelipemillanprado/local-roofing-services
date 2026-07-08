@@ -21,3 +21,9 @@ export interface TestimonialListProps {
   /* home: 4 below lg, all at lg */
   collapseBelowLg?: boolean;
 }
+
+export interface RatingBadgeProps {
+  score: string;
+  count: string;
+  reviews: string;
+}

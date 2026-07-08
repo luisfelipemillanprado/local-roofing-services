@@ -7,6 +7,8 @@ export const testimonialsData = {
   },
   /* Google badge numbers; the label text lives in i18n */
   rating: { score: "4.9", count: "820+" },
+  /* Google logo, rendered by the GoogleMark atom */
+  google: "/images/google/google.webp",
   items: [
     { key: "paula", avatar: "/images/avatars/avatar1.webp" },
     { key: "dennis", avatar: "/images/avatars/avatar2.webp" },
