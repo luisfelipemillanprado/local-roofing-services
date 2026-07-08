@@ -28,7 +28,6 @@
   --color-peach: oklch(0.8789 0.0479 51.54); /* → --primary-light (soft accent) */
   --color-malachite: oklch(0.761 0.2015 149.74); /* WhatsApp FAB (bg-malachite) */
   --color-onyx: oklch(0.2047 0.0121 237.38); /* → --shade (shadows) */
-  --color-gunmetal: oklch(0.25 0.015 237.38); /* → overlay-* (image scrims) */
   --color-white: oklch(1 0 0); /* → --foreground (dark), --primary-foreground, --line */
 
   /* Neutrals — dark theme. */
@@ -225,23 +224,6 @@
   @media (min-width: 64rem) {
     padding-inline: 2rem;
   }
-}
-
-/* Image overlays — bottom-weighted gunmetal scrims. */
-@utility overlay-strong {
-  background-image: linear-gradient(
-    to top,
-    var(--color-gunmetal),
-    color-mix(in oklab, var(--color-gunmetal) 15%, transparent) 40%,
-    transparent 75%
-  );
-}
-@utility overlay-soft {
-  background-image: linear-gradient(
-    to top,
-    color-mix(in oklab, var(--color-gunmetal) 55%, transparent),
-    transparent 55%
-  );
 }
 
 /* Hero scrims (contrast) — side for copy legibility, bottom to seat the section. */
