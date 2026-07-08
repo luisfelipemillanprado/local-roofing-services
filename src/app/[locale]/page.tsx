@@ -10,7 +10,7 @@ import { Services } from "@/shared-sections/services/components/organisms/Servic
 import { WhyChoose } from "@/features/home/components/organisms/WhyChoose";
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
 import { Team } from "@/shared-sections/team/components/organisms/Team";
-import { Testimonials } from "@/shared-sections/testimonials/components/Testimonials";
+import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Pricing } from "@/features/home/components/organisms/Pricing";
 import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
 
@@ -35,7 +35,7 @@ export default function Home({ params }: Props) {
         <WhyChoose />
         <Projects variant="viewAll" limit={6} />
         <Team variant="viewAll" limit={6} />
-        <Testimonials limit={6} />
+        <Testimonials variant="viewAll" limit={6} />
         <Pricing />
         <ContactForm tone="alt" />
       </main>

@@ -3,8 +3,11 @@
   "titleLead": "Historias de Clientes",
   "titleAccent": "De Los Techos Que Construimos",
   "description": "Cada reseña cuenta la historia de un proyecto de techado exitoso, realizado con cuidado y precisión. Descubre por qué los propietarios confían en nuestro equipo experimentado para un servicio fiable, una mano de obra experta y una protección y un confort duraderos.",
-  "reviews": "+820 reseñas",
-  "viewAll": "Ver Todas las Reseñas",
+  "action": {
+    "viewAll": "Ver Todas las Reseñas",
+    "contact": "Pedir Presupuesto Gratis"
+  },
+  "reviews": "reseñas",
   "items": {
     "paula": {
       "quote": "Desde la primera inspección hasta la limpieza final, el equipo fue profesional y transparente. Nuestro nuevo techo eficiente ya redujo notablemente los costos de enfriamiento.",

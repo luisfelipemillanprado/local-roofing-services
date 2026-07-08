@@ -25,7 +25,7 @@ export const layoutData = {
         icon: "more",
         children: [
           { key: "pricing", href: "/#pricing", icon: "pricing" },
-          { key: "reviews", href: "/#reviews", icon: "reviews" },
+          { key: "reviews", href: "/#testimonials", icon: "reviews" },
           { key: "contact", href: "/#contact", icon: "contact" },
         ],
       },
