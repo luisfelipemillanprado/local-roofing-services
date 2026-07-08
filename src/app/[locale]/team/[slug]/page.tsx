@@ -28,8 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!member) return {};
   const t = await getTranslations({ locale: locale as Locale, namespace: "team" });
   return {
-    title: t(`items.${member.key}.name`),
-    description: t(`items.${member.key}.role`),
+    title: t(`items.${member.key}.title`),
+    description: t(`items.${member.key}.description`),
   };
 }
 
@@ -42,7 +42,7 @@ export default async function TeamDetailPage({ params }: Props) {
   if (!member) notFound();
 
   const t = await getTranslations("team");
-  const name = t(`items.${member.key}.name`);
+  const title = t(`items.${member.key}.title`);
 
   return (
     <>
@@ -50,13 +50,13 @@ export default async function TeamDetailPage({ params }: Props) {
       <main>
         <PageHeader
           eyebrow={t("eyebrow")}
-          titleLead={name}
+          titleLead={title}
           titleAccent=""
-          description={t(`items.${member.key}.role`)}
+          description={t(`items.${member.key}.description`)}
         />
         <Section id="team-detail" tone="base">
           <div className="container-x grid justify-items-start gap-10">
-            <Media src={member.image} alt={name} shape="wide" sizes="100vw" />
+            <Media src={member.image} alt={title} shape="wide" sizes="100vw" />
             <Button href="/about" variant="secondary">
               {t("action.viewAll")}
             </Button>

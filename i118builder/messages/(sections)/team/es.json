@@ -10,28 +10,28 @@
   "learnMore": "Saber Más",
   "items": {
     "rodger": {
-      "name": "Rodger Struck",
-      "role": "Contratista Principal de Techado"
+      "title": "Rodger Struck",
+      "description": "Contratista Principal de Techado"
     },
     "marcus": {
-      "name": "Marcus Hale",
-      "role": "Superintendente de Proyecto"
+      "title": "Marcus Hale",
+      "description": "Superintendente de Proyecto"
     },
     "devin": {
-      "name": "Devin Cole",
-      "role": "Especialista en Inspección"
+      "title": "Devin Cole",
+      "description": "Especialista en Inspección"
     },
     "travis": {
-      "name": "Travis Boone",
-      "role": "Gerente de Seguridad"
+      "title": "Travis Boone",
+      "description": "Gerente de Seguridad"
     },
     "elena": {
-      "name": "Elena Vargas",
-      "role": "Gerente de Operaciones"
+      "title": "Elena Vargas",
+      "description": "Gerente de Operaciones"
     },
     "caleb": {
-      "name": "Caleb Foster",
-      "role": "Capataz de Cuadrilla"
+      "title": "Caleb Foster",
+      "description": "Capataz de Cuadrilla"
     }
   }
 }

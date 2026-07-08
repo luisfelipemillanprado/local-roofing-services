@@ -16,8 +16,8 @@ export const Team = async ({ variant, limit }: TeamProps) => {
     key: member.key,
     image: member.image,
     href: `/team/${member.slug}`,
-    title: t(`items.${member.key}.name`),
-    description: t(`items.${member.key}.role`),
+    title: t(`items.${member.key}.title`),
+    description: t(`items.${member.key}.description`),
     delay: i * 0.08,
   }));
 
