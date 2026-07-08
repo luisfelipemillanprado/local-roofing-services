@@ -9,7 +9,7 @@ const sizes: Record<TitleSize, string> = {
   feature:
     "text-[clamp(1.1875rem,0.5057rem+3.0303vw,1.25rem)] leading-tight" /* 19→20px, 360→393vw — pricing plan name */,
   card: "text-[clamp(1.125rem,0.4432rem+3.0303vw,1.1875rem)] leading-tight" /* 18→19px, 360→393vw — services, why-choose, projects, team, process steps, values */,
-  micro: "text-sm" /* 14px — footer columns, person names */,
+  micro: "text-sm" /* 14px — footer columns */,
 };
 
 const tones: Record<TitleTone, string> = {

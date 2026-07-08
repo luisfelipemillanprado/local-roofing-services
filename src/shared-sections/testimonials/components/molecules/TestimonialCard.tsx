@@ -4,7 +4,6 @@ import { GoogleMark } from "@/shared-sections/testimonials/components/atoms/Goog
 import { Reveal } from "@/common/reveal/components/Reveal";
 import { Stars } from "@/common/stars/components/Stars";
 import { Text } from "@/common/text/components/Text";
-import { Title } from "@/common/title/components/Title";
 import { blurs } from "@/data/blurs";
 import type { TestimonialCardProps } from "@/shared-sections/testimonials/types";
 
@@ -31,7 +30,7 @@ export const TestimonialCard = ({ avatar, quote, name, location, delay = 0 }: Te
           />
         </span>
         <div className="grid min-w-0">
-          <Title as="h3" size="micro" weight="bold" truncate text={name} />
+          <Text size="body" weight="bold" truncate text={name} />
           <Text size="body" tone="muted" truncate text={location} />
         </div>
         <GoogleMark />
