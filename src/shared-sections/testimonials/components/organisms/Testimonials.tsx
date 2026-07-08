@@ -32,7 +32,7 @@ export const Testimonials = async ({ variant, limit }: TestimonialsProps) => {
             accent={t("titleAccent")}
             description={t("description")}
           />
-          <div className="mt-2 grid justify-items-center gap-4">
+          <div className="mt-2 grid justify-items-center gap-6">
             <Button href={ctaHref[variant].href} variant="secondary" pulse>
               {t(ctaHref[variant].key)}
             </Button>
