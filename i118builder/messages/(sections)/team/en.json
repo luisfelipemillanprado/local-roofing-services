@@ -10,28 +10,28 @@
   "learnMore": "Learn More",
   "items": {
     "rodger": {
-      "title": "Rodger Struck",
-      "description": "Lead Roofing Contractor"
+      "title": "Rodger D. Struck",
+      "description": "Oversees every roof we build."
     },
     "marcus": {
-      "title": "Marcus Hale",
-      "description": "Project Superintendent"
+      "title": "Marcus J. Hale",
+      "description": "Runs each project on site."
     },
     "devin": {
-      "title": "Devin Cole",
-      "description": "Inspection Specialist"
+      "title": "Devin T. Cole",
+      "description": "Inspects every roof for defects."
     },
     "travis": {
-      "title": "Travis Boone",
-      "description": "Safety Manager"
+      "title": "Travis L. Boone",
+      "description": "Keeps every job site safe."
     },
     "elena": {
-      "title": "Elena Vargas",
-      "description": "Operations Manager"
+      "title": "Elena M. Vargas",
+      "description": "Manages operations across all projects."
     },
     "caleb": {
-      "title": "Caleb Foster",
-      "description": "Crew Foreman"
+      "title": "Caleb R. Foster",
+      "description": "Leads the crew on site."
     }
   }
 }

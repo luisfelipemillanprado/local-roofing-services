@@ -10,28 +10,28 @@
   "learnMore": "Saber Más",
   "items": {
     "rodger": {
-      "title": "Rodger Struck",
-      "description": "Contratista Principal de Techado"
+      "title": "Rodger D. Struck",
+      "description": "Supervisa cada techo que construimos."
     },
     "marcus": {
-      "title": "Marcus Hale",
-      "description": "Superintendente de Proyecto"
+      "title": "Marcus J. Hale",
+      "description": "Dirige cada proyecto en obra."
     },
     "devin": {
-      "title": "Devin Cole",
-      "description": "Especialista en Inspección"
+      "title": "Devin T. Cole",
+      "description": "Inspecciona cada techo por fallas."
     },
     "travis": {
-      "title": "Travis Boone",
-      "description": "Gerente de Seguridad"
+      "title": "Travis L. Boone",
+      "description": "Mantiene cada obra siempre segura."
     },
     "elena": {
-      "title": "Elena Vargas",
-      "description": "Gerente de Operaciones"
+      "title": "Elena M. Vargas",
+      "description": "Gestiona operaciones en cada proyecto."
     },
     "caleb": {
-      "title": "Caleb Foster",
-      "description": "Capataz de Cuadrilla"
+      "title": "Caleb R. Foster",
+      "description": "Lidera la cuadrilla en obra."
     }
   }
 }
