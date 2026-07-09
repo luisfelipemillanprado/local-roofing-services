@@ -7,6 +7,7 @@ import { PageHeader } from "@/shared-sections/page-header/components/PageHeader"
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { ProcessSteps } from "@/features/services/components/ProcessSteps";
 import { Faq } from "@/features/services/components/Faq";
+import { Pricing } from "@/shared-sections/pricing/components/organisms/Pricing";
 import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -38,7 +39,8 @@ export default async function ServicesPage({ params }: Props) {
         <Services variant="contact" />
         <ProcessSteps />
         <Faq />
-        <ContactForm />
+        <Pricing variant="contact" />
+        <ContactForm tone="alt" />
       </main>
       <Footer />
     </>
