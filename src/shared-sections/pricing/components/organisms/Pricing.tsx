@@ -15,10 +15,12 @@ export const Pricing = async ({ variant }: PricingProps) => {
     key: plan.key,
     icon: plan.icon,
     price: plan.price,
+    /* flag lives only on the featured plan */
     highlighted: "highlighted" in plan && plan.highlighted,
     title: t(`items.${plan.key}.title`),
     description: t(`items.${plan.key}.description`),
     period: t(`items.${plan.key}.period`),
+    /* t.raw: features is a list, plain t() only resolves strings */
     features: t.raw(`items.${plan.key}.features`) as string[],
     delay: i * 0.08,
   }));
