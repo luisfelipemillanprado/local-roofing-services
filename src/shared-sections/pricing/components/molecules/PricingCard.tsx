@@ -36,7 +36,7 @@ export const PricingCard = ({
 
       <IconBadge icon={icon} size="feature" tone={highlighted ? "solid" : "panel"} />
 
-      <div className="grid gap-2">
+      <div className="grid gap-4">
         <Title as="h3" size="feature" weight="bold" text={title} />
         <Text size="body" tone="muted" text={description} />
       </div>
@@ -54,9 +54,16 @@ export const PricingCard = ({
         ))}
       </ul>
 
-      <Button href={chooseHref} variant={highlighted ? "primary" : "secondary"} fullWidth pulse={highlighted}>
-        {chooseLabel}
-      </Button>
+      <div className="mt-1">
+        <Button
+          href={chooseHref}
+          variant={highlighted ? "primary" : "secondary"}
+          fullWidth
+          pulse={highlighted}
+        >
+          {chooseLabel}
+        </Button>
+      </div>
     </article>
   </Reveal>
 );
