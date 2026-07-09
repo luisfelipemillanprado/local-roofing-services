@@ -1,10 +1,8 @@
 import { ShieldCheck, Award, Hammer, Wrench, CloudRain, type LucideIcon } from "lucide-react";
-import type { IconBadgeKey } from "@/common/icon-badge/types";
 import { company } from "@/data/site";
 
 /* Keys map to the home-only message namespaces (literal unions → type-safe `t()`). */
 type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
-type PricingPlanKey = "residential" | "commercial" | "industrial";
 
 export const heroData = {
   name: company.name,
@@ -43,15 +41,5 @@ export const marqueeData: { items: { key: MarqueeKey; icon: LucideIcon }[] } = {
     { key: "years", icon: Award },
     { key: "builtStrong", icon: Hammer },
     { key: "fullService", icon: Wrench },
-  ],
-};
-
-export const pricingData: {
-  plans: { key: PricingPlanKey; icon: IconBadgeKey; highlighted?: boolean }[];
-} = {
-  plans: [
-    { key: "residential", icon: "home" },
-    { key: "commercial", icon: "building", highlighted: true },
-    { key: "industrial", icon: "factory" },
   ],
 };

@@ -1,0 +1,50 @@
+{
+  "eyebrow": "PRICING",
+  "titleLead": "Transparent Pricing",
+  "titleAccent": "With No Surprises",
+  "description": "Our transparent pricing ensures you know exactly what you're paying for before any work starts. Fair rates, honest recommendations, and quality craftsmanship combine to deliver exceptional value for every project.",
+  "action": {
+    "viewAll": "View All Details",
+    "contact": "Get a Free Quote",
+    "choose": "Choose Plan"
+  },
+  "popular": "POPULAR",
+  "items": {
+    "residential": {
+      "title": "Residential",
+      "description": "Ideal for family homes needing a full and reliable roofing solution.",
+      "period": "starting at",
+      "features": [
+        "Premium shingle installation",
+        "Full tear off & disposal",
+        "Underlayment & ice shield",
+        "Workmanship warranty",
+        "Free final roof inspection"
+      ]
+    },
+    "commercial": {
+      "title": "Commercial",
+      "description": "Flat and low slope maintenance plans for businesses and property managers.",
+      "period": "per visit",
+      "features": [
+        "TPO / EPDM membrane care",
+        "Quarterly inspections",
+        "Priority leak response",
+        "Drainage & flashing checks",
+        "Detailed condition reports"
+      ]
+    },
+    "industrial": {
+      "title": "Industrial",
+      "description": "Large scale metal and flat roof systems for warehouses and factories.",
+      "period": "starting at",
+      "features": [
+        "Standing seam metal systems",
+        "Structural load assessment",
+        "Heavy duty waterproofing",
+        "Dedicated project manager",
+        "Extended workmanship warranty"
+      ]
+    }
+  }
+}

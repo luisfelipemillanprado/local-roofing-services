@@ -1,0 +1,50 @@
+{
+  "eyebrow": "PRECIOS",
+  "titleLead": "Precios Honestos",
+  "titleAccent": "Sin Costos Escondidos",
+  "description": "Nuestros precios transparentes te aseguran saber exactamente por qué pagas antes de empezar cualquier trabajo. Tarifas justas, recomendaciones honestas y mano de obra experta se combinan para ofrecer un valor excepcional en cada proyecto.",
+  "action": {
+    "viewAll": "Ver Todos los Detalles",
+    "contact": "Pedir Presupuesto Gratis",
+    "choose": "Elegir Plan"
+  },
+  "popular": "POPULAR",
+  "items": {
+    "residential": {
+      "title": "Residencial",
+      "description": "Ideal para casas familiares que necesitan una solución de techado completa y confiable.",
+      "period": "desde",
+      "features": [
+        "Instalación de tejas premium",
+        "Retiro y desecho completo",
+        "Membrana base y escudo de hielo",
+        "Garantía de mano de obra",
+        "Inspección gratuita tras la instalación"
+      ]
+    },
+    "commercial": {
+      "title": "Comercial",
+      "description": "Planes de mantenimiento de techos planos y de baja pendiente para negocios locales.",
+      "period": "por visita",
+      "features": [
+        "Cuidado de membrana TPO / EPDM",
+        "Inspecciones trimestrales",
+        "Respuesta prioritaria a goteras",
+        "Revisión de drenaje y tapajuntas",
+        "Reportes detallados de condición"
+      ]
+    },
+    "industrial": {
+      "title": "Industrial",
+      "description": "Sistemas de metal y techo plano a gran escala para naves y fábricas.",
+      "period": "desde",
+      "features": [
+        "Sistemas de junta alzada",
+        "Evaluación de carga estructural",
+        "Impermeabilización de alta resistencia",
+        "Gerente de proyecto dedicado",
+        "Garantía de mano de obra extendida"
+      ]
+    }
+  }
+}
