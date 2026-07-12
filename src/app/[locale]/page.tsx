@@ -4,7 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/Footer";
 import { Hero } from "@/features/home/components/organisms/Hero";
-import { Marquee } from "@/features/home/components/organisms/Marquee";
+import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { WhyChoose } from "@/features/home/components/organisms/WhyChoose";

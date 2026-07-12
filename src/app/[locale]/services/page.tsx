@@ -4,6 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { ProcessSteps } from "@/features/services/components/ProcessSteps";
 import { Faq } from "@/features/services/components/Faq";
@@ -36,6 +37,7 @@ export default async function ServicesPage({ params }: Props) {
           titleAccent={t("titleAccent")}
           description={t("description")}
         />
+        <Marquee />
         <Services variant="contact" />
         <ProcessSteps />
         <Faq />

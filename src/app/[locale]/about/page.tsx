@@ -4,6 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
 import { Values } from "@/features/about/components/Values";
 import { Team } from "@/shared-sections/team/components/organisms/Team";
@@ -36,6 +37,7 @@ export default async function AboutPage({ params }: Props) {
           titleAccent={t("titleAccent")}
           description={t("description")}
         />
+        <Marquee />
         <About variant="contact" />
         <Values />
         <Team variant="contact" />

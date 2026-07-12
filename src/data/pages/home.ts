@@ -1,8 +1,4 @@
-import { ShieldCheck, Award, Hammer, Wrench, CloudRain, type LucideIcon } from "lucide-react";
 import { company } from "@/data/site";
-
-/* Keys map to the home-only message namespaces (literal unions → type-safe `t()`). */
-type MarqueeKey = "stormReady" | "licensed" | "years" | "builtStrong" | "fullService";
 
 export const heroData = {
   name: company.name,
@@ -32,14 +28,3 @@ export const whyChooseData = {
     { key: "roofers", icon: "hardhat", value: "40+" },
   ],
 } as const;
-
-/* Marquee keeps the icon component directly (not an IconBadge). */
-export const marqueeData: { items: { key: MarqueeKey; icon: LucideIcon }[] } = {
-  items: [
-    { key: "stormReady", icon: CloudRain },
-    { key: "licensed", icon: ShieldCheck },
-    { key: "years", icon: Award },
-    { key: "builtStrong", icon: Hammer },
-    { key: "fullService", icon: Wrench },
-  ],
-};
