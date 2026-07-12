@@ -7,7 +7,7 @@
       "label": "LICENCIADOS Y ASEGURADOS"
     },
     "years": {
-      "label": "MÁS DE 25 AÑOS"
+      "label": "MÁS DE {years} AÑOS"
     },
     "builtStrong": {
       "label": "CONSTRUIDO FUERTE"

@@ -7,7 +7,7 @@
       "label": "LICENSED & INSURED"
     },
     "years": {
-      "label": "25+ YEARS"
+      "label": "{years}+ YEARS"
     },
     "builtStrong": {
       "label": "BUILT STRONG"
