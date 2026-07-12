@@ -4,11 +4,17 @@ import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
 import type { SectionHeadingProps } from "@/common/section-header/types";
 
 /* centered on mobile, left-aligned from md */
-export const SectionHeading = ({ eyebrow, title, accent, description }: SectionHeadingProps) => {
+export const SectionHeading = ({
+  eyebrow,
+  title,
+  accent,
+  description,
+  size = "section",
+}: SectionHeadingProps) => {
   return (
     <div className="grid grid-cols-1 justify-items-center gap-5 text-center md:max-w-xl md:justify-items-start md:text-left">
       <Eyebrow text={eyebrow} />
-      <Title as="h2" size="section" text={title} accent={accent} />
+      <Title as="h2" size={size} text={title} accent={accent} />
       <div className="max-w-[clamp(19.125rem,8.625rem+46.6667vw,20rem)] md:max-w-none">
         <Text size="lead" tone="muted" text={description} />
       </div>
