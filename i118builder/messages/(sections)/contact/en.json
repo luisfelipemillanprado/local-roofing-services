@@ -1,0 +1,13 @@
+{
+  "eyebrow": "GET STARTED TODAY",
+  "titleLead": "Claim Your Free Quote",
+  "titleAccent": "We'll Contact You Soon",
+  "description": "Get a free inspection and quote with no obligation. Drop your email and our team will reach out within one business day.",
+  "action": {
+    "submit": "Get Free Quote",
+    "sent": "Request Sent"
+  },
+  "emailLabel": "Email address",
+  "emailPlaceholder": "Enter your email address",
+  "imageAlt": "Modern home with a dark metal roof and solar panels"
+}
