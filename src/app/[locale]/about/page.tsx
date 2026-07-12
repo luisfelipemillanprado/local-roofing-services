@@ -8,7 +8,7 @@ import { About } from "@/shared-sections/about/components/organisms/About";
 import { Values } from "@/features/about/components/Values";
 import { Team } from "@/shared-sections/team/components/organisms/Team";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
-import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
+import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -40,7 +40,7 @@ export default async function AboutPage({ params }: Props) {
         <Values />
         <Team variant="contact" />
         <Testimonials variant="contact" />
-        <ContactForm />
+        <Contact />
       </main>
       <Footer />
     </>

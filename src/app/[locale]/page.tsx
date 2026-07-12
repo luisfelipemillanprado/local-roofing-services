@@ -12,7 +12,7 @@ import { Projects } from "@/shared-sections/projects/components/organisms/Projec
 import { Team } from "@/shared-sections/team/components/organisms/Team";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Pricing } from "@/shared-sections/pricing/components/organisms/Pricing";
-import { ContactForm } from "@/shared-sections/contact-form/components/ContactForm";
+import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -37,7 +37,7 @@ export default function Home({ params }: Props) {
         <Team variant="viewAll" limit={6} />
         <Testimonials variant="viewAll" limit={6} />
         <Pricing variant="viewAll" />
-        <ContactForm tone="alt" />
+        <Contact tone="muted" />
       </main>
       <Footer />
     </>
