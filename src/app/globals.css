@@ -239,6 +239,16 @@
   background-image: linear-gradient(to top, var(--color-contrast), transparent 50%);
 }
 
+/* Contact banner scrim — contrast fading into the primary accent. */
+@utility overlay-banner {
+  background-image: linear-gradient(
+    to right,
+    var(--color-contrast),
+    color-mix(in oklab, var(--color-contrast) 90%, transparent) 50%,
+    color-mix(in oklab, var(--color-primary) 40%, transparent)
+  );
+}
+
 /* Mobile amber; switch to the desktop amber at lg+. */
 @media (min-width: 64rem) {
   :root {
