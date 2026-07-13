@@ -22,7 +22,7 @@ export const Socials = () => (
           key={key}
           href={href}
           aria-label={label}
-          className="group grid size-9 place-items-center rounded-full bg-current/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary"
+          className="group grid size-9 place-items-center rounded-full bg-foreground/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary"
         >
           <Icon className="size-4 text-foreground transition-colors group-hover:text-white" aria-hidden />
         </a>
