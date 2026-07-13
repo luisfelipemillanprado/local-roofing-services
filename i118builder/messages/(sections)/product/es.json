@@ -1,0 +1,37 @@
+{
+  "eyebrow": "NUESTROS PRODUCTOS",
+  "titleLead": "Materiales De Techo",
+  "titleAccent": "Hechos Para Durar",
+  "description": "Nuestros productos de techado más solicitados combinan una durabilidad comprobada con un rendimiento profesional. Cada teja, panel y tragaluz que instalamos proviene de marcas confiables que protegen tu hogar durante muchas décadas.",
+  "action": {
+    "shop": "Ver Todos los Productos",
+    "quote": "Solicitar Cotización"
+  },
+  "units": {
+    "bundle": "Paquete",
+    "panel": "Panel",
+    "roll": "Rollo",
+    "each": "Unidad",
+    "bucket": "Cubeta"
+  },
+  "items": {
+    "shingles": {
+      "title": "Tejas Timberline HDZ"
+    },
+    "metalPanel": {
+      "title": "Panel Metálico 5V"
+    },
+    "underlayment": {
+      "title": "Membrana Deck Defense"
+    },
+    "skylight": {
+      "title": "Tragaluz Fijo"
+    },
+    "atticFan": {
+      "title": "Ventilador Solar de Ático"
+    },
+    "coating": {
+      "title": "Recubrimiento de Silicona"
+    }
+  }
+}

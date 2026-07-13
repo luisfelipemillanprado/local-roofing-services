@@ -1,0 +1,37 @@
+{
+  "eyebrow": "OUR PRODUCTS",
+  "titleLead": "Roofing Materials",
+  "titleAccent": "Built To Endure",
+  "description": "Our most requested roofing products combine proven durability with professional performance. Every shingle, panel, and skylight we install comes from trusted brands that protect your home for decades.",
+  "action": {
+    "shop": "Shop All Products",
+    "quote": "Request a Quote"
+  },
+  "units": {
+    "bundle": "Bundle",
+    "panel": "Panel",
+    "roll": "Roll",
+    "each": "Each",
+    "bucket": "Bucket"
+  },
+  "items": {
+    "shingles": {
+      "title": "Timberline HDZ Shingles"
+    },
+    "metalPanel": {
+      "title": "5V Metal Roofing Panel"
+    },
+    "underlayment": {
+      "title": "Deck Defense Underlayment"
+    },
+    "skylight": {
+      "title": "Fixed Skylight"
+    },
+    "atticFan": {
+      "title": "Solar Attic Fan"
+    },
+    "coating": {
+      "title": "Silicone Roof Coating"
+    }
+  }
+}
