@@ -17,7 +17,8 @@ export const FooterLinks = ({ title, links }: FooterLinksProps) => (
             className="group grid grid-cols-[minmax(0,auto)_auto] items-center justify-center gap-1.5 lg:justify-start"
           >
             <Text as="span" size="body" tone="muted" truncate text={link.label} />
-            <ArrowUpRight className="size-3.5 text-foreground-muted opacity-0 transition-opacity group-hover:opacity-100" />
+            {/* hover affordance: pointless on touch, so it frees label width below lg */}
+            <ArrowUpRight className="hidden size-3.5 text-foreground-muted opacity-0 transition-opacity group-hover:opacity-100 lg:block" />
           </Link>
         </li>
       ))}

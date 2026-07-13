@@ -1,3 +1,21 @@
+export interface FooterBrandProps {
+  description: string;
+}
+
+/* resolved label + destination for the credits bar */
+interface CreditLink {
+  label: string;
+  href: string;
+}
+
+export interface FooterCreditsProps {
+  copyright: string;
+  builtByLabel: string;
+  builder: CreditLink;
+  privacy: CreditLink;
+  terms: CreditLink;
+}
+
 /* resolved link item for a footer column */
 interface FooterLinkItem {
   key: string;
