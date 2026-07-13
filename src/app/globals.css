@@ -96,6 +96,28 @@
       opacity: 0;
     }
   }
+
+  /* Floating-contact icon shake (utility: animate-tada). */
+  --animate-tada: tada 1.5s ease-in-out infinite;
+  @keyframes tada {
+    from,
+    to {
+      transform: rotate(0deg);
+    }
+    10%,
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: rotate(-10deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: rotate(10deg);
+    }
+  }
 }
 
 /* Theme-switching roles aliased to runtime vars. */
@@ -253,6 +275,7 @@
   .animate-marquee,
   .animate-float-y,
   .animate-soft-pulse,
+  .animate-tada,
   .animate-ping {
     animation: none;
   }
