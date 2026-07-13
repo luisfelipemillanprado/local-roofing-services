@@ -1,98 +1,66 @@
-"use client";
-
-import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { Logo } from "@/common/logo/components/Logo";
 import { Socials } from "@/common/social/components/Socials";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
-import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
-import { company } from "@/data/site";
 import { Container } from "@/common/container/components/Container";
+import { FooterLinks } from "@/layout/footer/components/molecules/FooterLinks";
+import { FooterContact } from "@/layout/footer/components/molecules/FooterContact";
+import { FooterHours } from "@/layout/footer/components/molecules/FooterHours";
+import { layoutData } from "@/data/global/layout";
+import { servicesData } from "@/data/sections/services";
+import { company } from "@/data/site";
 
-type FooterLink = { label: string; href: string };
-type Hours = { day: string; time: string };
+const { topLinks } = layoutData.footer;
 
-export const Footer = () => {
-  const t = useTranslations("footer");
-  const topLinks = t.raw("topLinks") as FooterLink[];
-  const services = t.raw("services") as FooterLink[];
-  const hours = t.raw("hours") as Hours[];
+export const Footer = async () => {
+  const t = await getTranslations("footer");
+  const tService = await getTranslations("service");
+
+  const top = topLinks.map((link) => ({ ...link, label: t(`topLinks.${link.key}`) }));
+  /* services column mirrors the real services (title + slug route) */
+  const services = servicesData.items.slice(0, 5).map((service) => ({
+    key: service.key,
+    href: `/services/${service.slug}`,
+    label: tService(`items.${service.key}.title`),
+  }));
+  /* hours: day label by key; a null time means closed */
+  const hours = company.hours.map((row) => ({
+    key: row.key,
+    day: t(`hours.${row.key}`),
+    time: row.time ?? t("closed"),
+  }));
 
   return (
     <footer className="theme-dark bg-surface-muted text-foreground">
       <Container>
-        <div className="py-16 lg:py-20">
-          <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
-            {/* Brand */}
-            <div>
-              <Logo />
-              <div className="mt-5 max-w-xs">
-                <Text size="lead" tone="muted" text={t("tagline", { name: company.name })} />
-              </div>
-              <Socials className="mt-6" />
+        <div className="grid grid-cols-2 gap-x-8 gap-y-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] lg:gap-12 lg:py-20">
+          {/* Brand */}
+          <div className="col-span-2 grid content-start justify-items-center gap-5 text-center lg:col-span-1 lg:justify-items-start lg:text-left">
+            <Logo />
+            <div className="max-w-xs">
+              <Text size="lead" tone="muted" text={t("tagline", { name: company.name })} />
             </div>
-
-            {/* Top links */}
-            <div>
-              <Title as="h4" size="micro" weight="bold" tracking text={t("topLinksTitle")} />
-              <ul className="mt-5 space-y-3">
-                {topLinks.map((link) => (
-                  <li key={link.label}>
-                    <Link href={link.href} className="group inline-flex items-center gap-1.5">
-                      <Text as="span" size="body" tone="muted" text={link.label} />
-                      <ArrowUpRight className="size-3.5 opacity-0 transition-opacity group-hover:opacity-100" />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <div className="mt-1">
+              <Socials />
             </div>
+          </div>
 
-            {/* Services */}
-            <div>
-              <Title as="h4" size="micro" weight="bold" tracking text={t("servicesTitle")} />
-              <ul className="mt-5 space-y-3">
-                {services.map((link) => (
-                  <li key={link.label}>
-                    <Link href={link.href} className="group inline-flex items-center gap-1.5">
-                      <Text as="span" size="body" tone="muted" text={link.label} />
-                      <ArrowUpRight className="size-3.5 opacity-0 transition-opacity group-hover:opacity-100" />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <FooterLinks title={t("topLinksTitle")} links={top} />
+          <FooterLinks title={t("servicesTitle")} links={services} />
 
-            {/* Contact + hours */}
-            <div>
-              <Title as="h4" size="micro" weight="bold" tracking text={t("getInTouch")} />
-              <ul className="mt-5 space-y-4">
-                <li className="flex items-start gap-3">
-                  <MapPin className="mt-0.5 size-4 shrink-0 text-primary-light" />
-                  <Text as="span" size="body" tone="muted" text={company.address} />
-                </li>
-                <li className="flex items-center gap-3">
-                  <Phone className="size-4 shrink-0 text-primary-light" />
-                  <a href={company.phoneHref}>
-                    <Text as="span" size="body" tone="muted" text={company.phone} />
-                  </a>
-                </li>
-                <li className="flex items-center gap-3">
-                  <Mail className="size-4 shrink-0 text-primary-light" />
-                  <a href={`mailto:${company.email}`}>
-                    <Text as="span" size="body" tone="muted" text={company.email} />
-                  </a>
-                </li>
-              </ul>
-
-              <div className="mt-6 space-y-2 border-t border-line pt-5">
-                {hours.map((row) => (
-                  <div key={row.day} className="flex justify-between">
-                    <Text as="span" size="body" tone="muted" text={row.day} />
-                    <Text as="span" size="body" tone="muted" weight="medium" text={row.time} />
-                  </div>
-                ))}
-              </div>
+          {/* Contact + hours */}
+          <div className="col-span-2 grid content-start justify-items-center gap-5 lg:col-span-1 lg:justify-items-start">
+            <Title as="h4" size="micro" weight="bold" tracking text={t("getInTouch")} />
+            <FooterContact
+              address={company.address}
+              phone={company.phone}
+              phoneHref={company.phoneHref}
+              email={company.email}
+              emailHref={company.emailHref}
+            />
+            <div className="mt-1 w-full border-t border-line pt-5">
+              <FooterHours rows={hours} />
             </div>
           </div>
         </div>
@@ -100,14 +68,25 @@ export const Footer = () => {
 
       <div className="border-t border-line">
         <Container>
-          <div className="flex flex-col items-center justify-between gap-3 py-6 sm:flex-row">
-            <Text
-              as="span"
-              size="body"
-              tone="muted"
-              text={`© ${new Date().getFullYear()} ${company.name}. ${t("rights")}`}
-            />
-            <div className="flex gap-6">
+          <div className="grid justify-items-center gap-3 py-6 lg:grid-flow-col lg:justify-between">
+            {/* stacked on mobile; one continued line from lg */}
+            <div className="grid justify-items-center gap-1 lg:grid-flow-col lg:items-center lg:justify-start lg:gap-1.5">
+              <Text
+                as="span"
+                size="body"
+                tone="muted"
+                text={t("copyright", { year: new Date().getFullYear(), name: company.name })}
+              />
+              {/* builder credit: brand + href live in data */}
+              <div className="grid grid-flow-col items-center justify-start gap-1.5">
+                <Text as="span" size="body" tone="muted" text={t("builtBy")} />
+                <a href={company.builder.href}>
+                  <Text as="span" size="body" tone="muted" weight="medium" text={company.builder.name} />
+                </a>
+              </div>
+            </div>
+            {/* placeholder routes until the legal pages exist */}
+            <div className="grid grid-flow-col gap-6">
               <a href="#">
                 <Text as="span" size="body" tone="muted" text={t("privacy")} />
               </a>

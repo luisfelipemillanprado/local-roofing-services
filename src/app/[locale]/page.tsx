@@ -2,7 +2,7 @@ import { use } from "react";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
-import { Footer } from "@/layout/footer/components/Footer";
+import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { Hero } from "@/features/home/components/organisms/Hero";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
