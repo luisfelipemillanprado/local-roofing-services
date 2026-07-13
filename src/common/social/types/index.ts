@@ -1,4 +1,5 @@
-export interface SocialsProps {
-  /** Extra classes; also use to set the icon color (glyphs inherit currentColor). */
-  className?: string;
-}
+/* Semantic keys for the social profiles (used for the ICONS lookup). */
+export type SocialKey = "facebook" | "x" | "instagram" | "youtube";
+
+/* social profile entry from the data layer */
+export type SocialData = { key: SocialKey; label: string; href: string };
