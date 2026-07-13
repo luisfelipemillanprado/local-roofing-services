@@ -12,6 +12,7 @@ import { Projects } from "@/shared-sections/projects/components/organisms/Projec
 import { Team } from "@/shared-sections/team/components/organisms/Team";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Pricing } from "@/shared-sections/pricing/components/organisms/Pricing";
+import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
 type Props = {
@@ -37,7 +38,8 @@ export default function Home({ params }: Props) {
         <Team variant="viewAll" limit={6} />
         <Testimonials variant="viewAll" limit={6} />
         <Pricing variant="viewAll" />
-        <Contact tone="muted" />
+        <Products tone="muted" limit={6} />
+        <Contact />
       </main>
       <Footer />
     </>

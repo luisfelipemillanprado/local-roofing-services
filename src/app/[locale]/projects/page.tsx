@@ -8,6 +8,7 @@ import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee"
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
 import { StatsBand } from "@/features/projects/components/StatsBand";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
+import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -40,7 +41,8 @@ export default async function ProjectsPage({ params }: Props) {
         <Projects variant="contact" />
         <StatsBand />
         <Testimonials variant="contact" />
-        <Contact />
+        <Products limit={6} />
+        <Contact tone="muted" />
       </main>
       <Footer />
     </>
