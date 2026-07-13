@@ -12,7 +12,7 @@ export const company = {
   address: "1200 Biscayne Blvd, Miami, FL",
   yearsExperience: 25,
   /* site credit: who built the site (placeholder href until the real domain) */
-  builder: { name: "Remiux LLC", href: "#" },
+  builder: { key: "builtBy", name: "Remiux LLC", href: "#" } as const,
   /* social profiles: placeholder hrefs until the real accounts exist */
   socials: [
     { key: "facebook", label: "Facebook", href: "#" },

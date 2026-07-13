@@ -31,15 +31,27 @@ export const layoutData = {
       },
     ] satisfies NavLinkData[],
   },
-  /* footer top links: label by key in the footer namespace */
+  /* footer columns: every label/title by key in the footer namespace */
   footer: {
-    topLinks: [
-      { key: "about", href: "/about" },
-      { key: "services", href: "/services" },
-      { key: "projects", href: "/projects" },
-      { key: "pricing", href: "/#pricing" },
-      { key: "contact", href: "/#contact" },
-    ],
+    topLinks: {
+      titleKey: "topLinksTitle",
+      items: [
+        { key: "about", href: "/about" },
+        { key: "services", href: "/services" },
+        { key: "projects", href: "/projects" },
+        { key: "pricing", href: "/#pricing" },
+        { key: "contact", href: "/#contact" },
+      ],
+    },
+    /* services column: items derive from servicesData */
+    services: { titleKey: "servicesTitle" },
+    /* contact column: closedKey labels the null-time hours row */
+    contact: { titleKey: "contactTitle", closedKey: "closed" },
+    /* legal links: placeholder routes until the pages exist */
+    legal: {
+      privacy: { key: "privacy", href: "#" },
+      terms: { key: "terms", href: "#" },
+    },
   },
   floatingContact: {
     name: company.name,
