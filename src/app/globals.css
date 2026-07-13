@@ -80,6 +80,7 @@
       transform: translateY(-0.375rem);
     }
   }
+
   /* Pulse ring — expanding box-shadow halo (utility: animate-soft-pulse). */
   --animate-soft-pulse: soft-pulse 3s ease-in-out infinite;
   @keyframes soft-pulse {
