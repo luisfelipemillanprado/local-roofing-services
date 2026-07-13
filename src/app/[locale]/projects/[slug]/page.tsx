@@ -5,10 +5,11 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { projectsData } from "@/data/sections/projects";
+import { Container } from "@/common/container/components/Container";
 
 const { items } = projectsData;
 
@@ -54,14 +55,16 @@ export default async function ProjectDetailPage({ params }: Props) {
           titleAccent=""
           description={t(`items.${project.key}.category`)}
         />
-        <Section id="project-detail" tone="base">
-          <div className="container-x grid justify-items-start gap-10">
-            <Media src={project.image} alt={title} shape="wide" sizes="100vw" />
-            <Button href="/projects" variant="secondary">
-              {t("action.viewAll")}
-            </Button>
-          </div>
-        </Section>
+        <SectionWrapper id="project-detail" tone="base">
+          <Container>
+            <div className="grid justify-items-start gap-10">
+              <Media src={project.image} alt={title} shape="wide" sizes="100vw" />
+              <Button href="/projects" variant="secondary">
+                {t("action.viewAll")}
+              </Button>
+            </div>
+          </Container>
+        </SectionWrapper>
       </main>
       <Footer />
     </>

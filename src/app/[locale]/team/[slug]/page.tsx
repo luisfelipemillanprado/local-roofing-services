@@ -5,10 +5,11 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { teamData } from "@/data/sections/team";
+import { Container } from "@/common/container/components/Container";
 
 const { items } = teamData;
 
@@ -54,14 +55,16 @@ export default async function TeamDetailPage({ params }: Props) {
           titleAccent=""
           description={t(`items.${member.key}.description`)}
         />
-        <Section id="team-detail" tone="base">
-          <div className="container-x grid justify-items-start gap-10">
-            <Media src={member.image} alt={title} shape="wide" sizes="100vw" />
-            <Button href="/about" variant="secondary">
-              {t("action.viewAll")}
-            </Button>
-          </div>
-        </Section>
+        <SectionWrapper id="team-detail" tone="base">
+          <Container>
+            <div className="grid justify-items-start gap-10">
+              <Media src={member.image} alt={title} shape="wide" sizes="100vw" />
+              <Button href="/about" variant="secondary">
+                {t("action.viewAll")}
+              </Button>
+            </div>
+          </Container>
+        </SectionWrapper>
       </main>
       <Footer />
     </>

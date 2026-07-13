@@ -1,10 +1,11 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { PricingList } from "@/shared-sections/pricing/components/molecules/PricingList";
 import { getTranslations } from "next-intl/server";
 import { pricingData } from "@/data/sections/pricing";
 import type { PricingProps } from "@/shared-sections/pricing/types";
+import { Container } from "@/common/container/components/Container";
 
 const { items, ctaHref, chooseHref } = pricingData;
 
@@ -26,29 +27,32 @@ export const Pricing = async ({ variant }: PricingProps) => {
   }));
 
   return (
-    <Section id="pricing">
-      <div className="container-x grid gap-13">
-        <div className="grid items-center justify-items-center gap-6 md:grid-cols-[1fr_auto] md:justify-items-start">
-          <SectionHeading
-            eyebrow={t("eyebrow")}
-            title={t("titleLead")}
-            accent={t("titleAccent")}
-            description={t("description")}
-          />
-          <div className="mt-2">
-            <Button href={ctaHref[variant].href} variant="secondary" pulse>
-              {t(ctaHref[variant].key)}
-            </Button>
+    <SectionWrapper id="pricing">
+      <Container>
+        <div className="grid gap-13">
+          <div className="grid justify-items-center gap-6">
+            <SectionHeading
+              align="center"
+              eyebrow={t("eyebrow")}
+              title={t("titleLead")}
+              accent={t("titleAccent")}
+              description={t("description")}
+            />
+            <div className="mt-2">
+              <Button href={ctaHref[variant].href} variant="secondary" pulse>
+                {t(ctaHref[variant].key)}
+              </Button>
+            </div>
           </div>
-        </div>
 
-        <PricingList
-          cards={cards}
-          chooseLabel={t(chooseHref.key)}
-          chooseHref={chooseHref.href}
-          popular={t("popular")}
-        />
-      </div>
-    </Section>
+          <PricingList
+            cards={cards}
+            chooseLabel={t(chooseHref.key)}
+            chooseHref={chooseHref.href}
+            popular={t("popular")}
+          />
+        </div>
+      </Container>
+    </SectionWrapper>
   );
 };

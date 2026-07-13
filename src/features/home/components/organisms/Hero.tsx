@@ -8,6 +8,7 @@ import { CustomerRating } from "@/features/home/components/molecules/CustomerRat
 import { getTranslations } from "next-intl/server";
 import { blurs } from "@/data/blurs";
 import { heroData } from "@/data/pages/home";
+import { Container } from "@/common/container/components/Container";
 
 const { name, yearsExperience, image, avatars, ctaPrimaryHref, ctaSecondaryHref } = heroData;
 
@@ -33,53 +34,55 @@ export const Hero = async () => {
       </div>
 
       {/* lg height = viewport minus the marquee, so both fit one screen */}
-      <div className="container-x grid min-h-svh content-center pt-35 pb-19 lg:min-h-[calc(100svh-3.5rem)]">
-        {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
-        <div className="grid max-w-90 grid-cols-1 gap-6.5 sm:max-w-3xl">
-          <Reveal delay={0.05}>
-            <AvailabilityBadge label={t("badge")} />
-          </Reveal>
+      <Container>
+        <div className="grid min-h-svh content-center pt-35 pb-19 lg:min-h-[calc(100svh-3.5rem)]">
+          {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
+          <div className="grid max-w-90 grid-cols-1 gap-6.5 sm:max-w-3xl">
+            <Reveal delay={0.05}>
+              <AvailabilityBadge label={t("badge")} />
+            </Reveal>
 
-          <Reveal delay={0.1}>
-            <Title
-              as="h1"
-              size="display"
-              tone="white"
-              accentTone="faint"
-              text={t("titleLead")}
-              accent={t("titleAccent")}
-            />
-          </Reveal>
-
-          <Reveal delay={0.15}>
-            <Text
-              size="lead"
-              tone="muted"
-              text={t("subtitle", {
-                name,
-                years: yearsExperience,
-              })}
-            />
-          </Reveal>
-
-          <Reveal delay={0.2}>
-            <div className="mt-1">
-              <HeroActions
-                primaryHref={ctaPrimaryHref.href}
-                primaryLabel={t(ctaPrimaryHref.key)}
-                secondaryHref={ctaSecondaryHref.href}
-                secondaryLabel={t(ctaSecondaryHref.key)}
+            <Reveal delay={0.1}>
+              <Title
+                as="h1"
+                size="display"
+                tone="white"
+                accentTone="faint"
+                text={t("titleLead")}
+                accent={t("titleAccent")}
               />
-            </div>
-          </Reveal>
+            </Reveal>
 
-          <Reveal delay={0.25}>
-            <div className="mt-2.5">
-              <CustomerRating avatars={avatars} label={t("customers")} />
-            </div>
-          </Reveal>
+            <Reveal delay={0.15}>
+              <Text
+                size="lead"
+                tone="muted"
+                text={t("subtitle", {
+                  name,
+                  years: yearsExperience,
+                })}
+              />
+            </Reveal>
+
+            <Reveal delay={0.2}>
+              <div className="mt-1">
+                <HeroActions
+                  primaryHref={ctaPrimaryHref.href}
+                  primaryLabel={t(ctaPrimaryHref.key)}
+                  secondaryHref={ctaSecondaryHref.href}
+                  secondaryLabel={t(ctaSecondaryHref.key)}
+                />
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.25}>
+              <div className="mt-2.5">
+                <CustomerRating avatars={avatars} label={t("customers")} />
+              </div>
+            </Reveal>
+          </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 };

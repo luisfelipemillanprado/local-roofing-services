@@ -1,19 +1,20 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { projectStatsSection } from "@/data/pages/projects";
+import { Container } from "@/common/container/components/Container";
 
 export const StatsBand = async () => {
   const t = await getTranslations("projects-page.stats");
   const items = projectStatsSection.items;
 
   return (
-    <Section tone="dark">
-      <div className="container-x">
+    <SectionWrapper tone="dark">
+      <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
           title={t("titleLead")}
@@ -42,7 +43,7 @@ export const StatsBand = async () => {
             );
           })}
         </div>
-      </div>
-    </Section>
+      </Container>
+    </SectionWrapper>
   );
 };

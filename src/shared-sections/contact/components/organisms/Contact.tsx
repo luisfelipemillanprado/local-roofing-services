@@ -3,10 +3,11 @@ import { getTranslations } from "next-intl/server";
 import { EmailForm } from "@/shared-sections/contact/components/molecules/EmailForm";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Reveal } from "@/common/reveal/components/Reveal";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { contactData } from "@/data/sections/contact";
 import { blurs } from "@/data/blurs";
 import type { ContactProps } from "@/shared-sections/contact/types";
+import { Container } from "@/common/container/components/Container";
 
 const { image, cta, input } = contactData;
 
@@ -14,8 +15,8 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
   const t = await getTranslations("contact");
 
   return (
-    <Section id="contact" tone={tone}>
-      <div className="container-x">
+    <SectionWrapper id="contact" tone={tone}>
+      <Container>
         <Reveal>
           <div className="theme-dark relative isolate overflow-hidden rounded-4xl bg-contrast px-6 py-16 sm:px-12 lg:px-16">
             {/* Background */}
@@ -49,7 +50,7 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
             </div>
           </div>
         </Reveal>
-      </div>
-    </Section>
+      </Container>
+    </SectionWrapper>
   );
 };

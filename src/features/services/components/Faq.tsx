@@ -1,17 +1,18 @@
 import { getTranslations } from "next-intl/server";
 import { ChevronDown } from "lucide-react";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
+import { Container } from "@/common/container/components/Container";
 
 export const Faq = async () => {
   const t = await getTranslations("services-page.faq");
   const items = t.raw("items") as { q: string; a: string }[];
 
   return (
-    <Section tone="muted">
-      <div className="container-x">
+    <SectionWrapper tone="muted">
+      <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
           title={t("titleLead")}
@@ -34,7 +35,7 @@ export const Faq = async () => {
             </Reveal>
           ))}
         </div>
-      </div>
-    </Section>
+      </Container>
+    </SectionWrapper>
   );
 };

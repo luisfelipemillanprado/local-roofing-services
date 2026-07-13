@@ -1,10 +1,11 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { ProjectList } from "@/shared-sections/projects/components/molecules/ProjectList";
 import { getTranslations } from "next-intl/server";
 import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
+import { Container } from "@/common/container/components/Container";
 
 const { items, ctaHref } = projectsData;
 
@@ -22,24 +23,27 @@ export const Projects = async ({ variant, limit }: ProjectsProps) => {
   }));
 
   return (
-    <Section id="projects" tone="muted">
-      <div className="container-x grid gap-13">
-        <div className="grid items-center justify-items-center gap-6 md:grid-cols-[1fr_auto] md:justify-items-start">
-          <SectionHeading
-            eyebrow={t("eyebrow")}
-            title={t("titleLead")}
-            accent={t("titleAccent")}
-            description={t("description")}
-          />
-          <div className="mt-2">
-            <Button href={ctaHref[variant].href} variant="secondary" pulse>
-              {t(ctaHref[variant].key)}
-            </Button>
+    <SectionWrapper id="projects" tone="muted">
+      <Container>
+        <div className="grid gap-13">
+          <div className="grid justify-items-center gap-6">
+            <SectionHeading
+              align="center"
+              eyebrow={t("eyebrow")}
+              title={t("titleLead")}
+              accent={t("titleAccent")}
+              description={t("description")}
+            />
+            <div className="mt-2">
+              <Button href={ctaHref[variant].href} variant="secondary" pulse>
+                {t(ctaHref[variant].key)}
+              </Button>
+            </div>
           </div>
-        </div>
 
-        <ProjectList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "viewAll"} />
-      </div>
-    </Section>
+          <ProjectList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "viewAll"} />
+        </div>
+      </Container>
+    </SectionWrapper>
   );
 };

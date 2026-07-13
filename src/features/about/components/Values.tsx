@@ -1,16 +1,17 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { IconCard } from "@/common/icon-card/components/IconCard";
 import { valuesData } from "@/data/pages/about";
+import { Container } from "@/common/container/components/Container";
 
 export const Values = async () => {
   const t = await getTranslations("about-page.values");
   const items = valuesData.items;
 
   return (
-    <Section tone="muted">
-      <div className="container-x">
+    <SectionWrapper tone="muted">
+      <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
           title={t("titleLead")}
@@ -29,7 +30,7 @@ export const Values = async () => {
             />
           ))}
         </div>
-      </div>
-    </Section>
+      </Container>
+    </SectionWrapper>
   );
 };

@@ -38,11 +38,16 @@ export const Title = ({
   text,
   accent,
   accentTone = "primary",
+  accentInline = false,
 }: TitleProps) => (
   <Tag
     className={`${sizes[size]} ${tones[tone]} ${weights[weight]} ${tracking ? "tracking-[0.126rem]" : ""} ${truncate ? "truncate" : ""}`}
   >
     <span>{text}</span>
-    {accent && <span className={`block ${accentTones[accentTone]}`}>{accent}</span>}
+    {/* the space separates lead and accent once they share a line */}
+    {accent && " "}
+    {accent && (
+      <span className={`block ${accentInline ? "lg:inline" : ""} ${accentTones[accentTone]}`}>{accent}</span>
+    )}
   </Tag>
 );

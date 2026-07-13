@@ -3,12 +3,13 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
 import type { PageHeaderProps } from "@/shared-sections/page-header/types";
+import { Container } from "@/common/container/components/Container";
 
 /** Always-dark intro band for the dedicated pages, with top padding to clear the fixed navbar. */
 export const PageHeader = ({ eyebrow, titleLead, titleAccent, description }: PageHeaderProps) => {
   return (
     <section className="theme-dark bg-surface-base pt-32 pb-12 lg:pt-40 lg:pb-16">
-      <div className="container-x">
+      <Container>
         <Reveal className="max-w-3xl">
           <Eyebrow text={eyebrow} />
           <div className="mt-4">
@@ -18,7 +19,7 @@ export const PageHeader = ({ eyebrow, titleLead, titleAccent, description }: Pag
             <Text size="lead" tone="muted" text={description} />
           </div>
         </Reveal>
-      </div>
+      </Container>
     </section>
   );
 };

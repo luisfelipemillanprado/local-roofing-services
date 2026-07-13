@@ -1,5 +1,5 @@
 import { Button } from "@/common/call-to-actions/components/Button";
-import { Section } from "@/common/section/components/Section";
+import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Media } from "@/common/media/components/Media";
 import { YearsBadge } from "@/shared-sections/about/components/molecules/YearsBadge";
@@ -9,6 +9,7 @@ import { SellingPoints } from "@/shared-sections/about/components/molecules/Sell
 import { getTranslations } from "next-intl/server";
 import { aboutData } from "@/data/sections/about";
 import type { AboutProps } from "@/shared-sections/about/types";
+import { Container } from "@/common/container/components/Container";
 
 const { name, image, ctaHref, years, call, points, stats } = aboutData;
 
@@ -24,55 +25,62 @@ export const About = async ({ variant }: AboutProps) => {
   const pointItems = points.map((point) => ({ key: point.key, text: t(`points.${point.key}`) }));
 
   return (
-    <Section id="about">
-      <div className="container-x grid items-center gap-19 lg:grid-cols-2">
-        {/* Image side */}
-        <div className="relative">
-          <div className="overflow-hidden rounded-card shadow-lg">
-            <Media src={image} alt={t("imageAlt")} shape="feature" sizes="(max-width: 1024px) 100vw, 50vw" />
+    <SectionWrapper id="about">
+      <Container>
+        <div className="grid items-center gap-19 lg:grid-cols-2">
+          {/* Image side */}
+          <div className="relative">
+            <div className="overflow-hidden rounded-card shadow-lg">
+              <Media
+                src={image}
+                alt={t("imageAlt")}
+                shape="feature"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+
+            {/* badge overhangs the top-right corner */}
+            <div className="absolute top-7 -right-3">
+              <YearsBadge
+                value={years.value}
+                line1={t(`years.${years.key}.line1`)}
+                line2={t(`years.${years.key}.line2`)}
+              />
+            </div>
+
+            {/* card straddles the image's bottom edge */}
+            <div className="absolute bottom-0 left-6 translate-y-1/2">
+              <ContactCard label={t(call.key)} phone={call.number} />
+            </div>
           </div>
 
-          {/* badge overhangs the top-right corner */}
-          <div className="absolute top-7 -right-3">
-            <YearsBadge
-              value={years.value}
-              line1={t(`years.${years.key}.line1`)}
-              line2={t(`years.${years.key}.line2`)}
+          {/* Copy side */}
+          <div className="grid gap-7 text-center lg:text-left">
+            {/* Heading */}
+            <SectionHeading
+              eyebrow={t("eyebrow")}
+              title={t("titleLead")}
+              accent={t("titleAccent")}
+              description={t("description", { name })}
             />
-          </div>
 
-          {/* card straddles the image's bottom edge */}
-          <div className="absolute bottom-0 left-6 translate-y-1/2">
-            <ContactCard label={t(call.key)} phone={call.number} />
-          </div>
-        </div>
+            {/* Selling points */}
+            <SellingPoints items={pointItems} />
 
-        {/* Copy side */}
-        <div className="grid gap-7 text-center md:text-left">
-          {/* Heading */}
-          <SectionHeading
-            eyebrow={t("eyebrow")}
-            title={t("titleLead")}
-            accent={t("titleAccent")}
-            description={t("description", { name })}
-          />
+            {/* Stats */}
+            <div className="mt-2">
+              <StatsRow items={statItems} />
+            </div>
 
-          {/* Selling points */}
-          <SellingPoints items={pointItems} />
-
-          {/* Stats */}
-          <div className="mt-2">
-            <StatsRow items={statItems} />
-          </div>
-
-          {/* CTA */}
-          <div className="mt-2">
-            <Button href={ctaHref[variant].href} variant="secondary" pulse>
-              {t(ctaHref[variant].key)}
-            </Button>
+            {/* CTA */}
+            <div className="mt-2">
+              <Button href={ctaHref[variant].href} variant="secondary" pulse>
+                {t(ctaHref[variant].key)}
+              </Button>
+            </div>
           </div>
         </div>
-      </div>
-    </Section>
+      </Container>
+    </SectionWrapper>
   );
 };
