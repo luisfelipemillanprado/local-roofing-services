@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import type { PulseColor, PulseRingProps } from "@/common/animations/types";
 
 /* staggered ring delays */
@@ -19,11 +18,9 @@ export const PulseRing = ({ color, rounded }: PulseRingProps) => (
         key={delay}
         aria-hidden
         style={{ animationDelay: `${delay}s` }}
-        className={clsx(
-          "absolute inset-0 -z-10 animate-soft-pulse",
-          rounded ? "rounded-full" : "rounded-2xl",
-          glow[color],
-        )}
+        className={`absolute inset-0 -z-10 animate-soft-pulse ${
+          rounded ? "rounded-full" : "rounded-2xl"
+        } ${glow[color]}`}
       />
     ))}
   </>
