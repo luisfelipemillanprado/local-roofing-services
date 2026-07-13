@@ -1,8 +1,8 @@
 {
-  "tagline": "{name} is committed to providing high quality, durable and reliable roofing solutions designed to protect and enhance your property.",
+  "description": "{name} is committed to providing high quality, durable and reliable roofing solutions designed to protect and enhance your property.",
   "topLinksTitle": "TOP LINKS",
   "servicesTitle": "OUR SERVICES",
-  "getInTouch": "GET IN TOUCH",
+  "contactTitle": "GET IN TOUCH",
   "copyright": "© {year} {name}. All rights reserved.",
   "builtBy": "Built by",
   "privacy": "Privacy Policy",
