@@ -9,3 +9,15 @@ export type FloatingActionData = {
   href: string;
   external?: boolean;
 };
+
+/* resolved floating action for the list */
+interface FloatingActionItem {
+  key: FloatingActionKey;
+  href: string;
+  label: string;
+  external?: boolean;
+}
+
+export interface FloatingActionsProps {
+  actions: FloatingActionItem[];
+}
