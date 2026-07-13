@@ -3,66 +3,21 @@
   "topLinksTitle": "ENLACES",
   "servicesTitle": "NUESTROS SERVICIOS",
   "getInTouch": "CONTÁCTANOS",
-  "callUs": "Llámanos cuando quieras",
-  "rights": "Todos los derechos reservados.",
+  "copyright": "© {year} {name}. Todos los derechos reservados.",
+  "builtBy": "Desarrollado por",
   "privacy": "Política de Privacidad",
   "terms": "Términos de Servicio",
-  "topLinks": [
-    {
-      "label": "Nosotros",
-      "href": "/about"
-    },
-    {
-      "label": "Nuestros Servicios",
-      "href": "/services"
-    },
-    {
-      "label": "Proyectos Recientes",
-      "href": "/projects"
-    },
-    {
-      "label": "Planes y Precios",
-      "href": "/#pricing"
-    },
-    {
-      "label": "Contacto",
-      "href": "/#contact"
-    }
-  ],
-  "services": [
-    {
-      "label": "Reparación por Tormenta",
-      "href": "/services"
-    },
-    {
-      "label": "Instalación de Techo",
-      "href": "/services"
-    },
-    {
-      "label": "Reparaciones de Emergencia",
-      "href": "/services"
-    },
-    {
-      "label": "Reemplazo de Techo",
-      "href": "/services"
-    },
-    {
-      "label": "Instalación de Canalones",
-      "href": "/services"
-    }
-  ],
-  "hours": [
-    {
-      "day": "Lun – Vie",
-      "time": "8:00 AM – 7:00 PM"
-    },
-    {
-      "day": "Sábado",
-      "time": "9:00 AM – 4:00 PM"
-    },
-    {
-      "day": "Domingo",
-      "time": "Cerrado"
-    }
-  ]
+  "topLinks": {
+    "about": "Nosotros",
+    "services": "Nuestros Servicios",
+    "projects": "Proyectos Recientes",
+    "pricing": "Planes y Precios",
+    "contact": "Contacto"
+  },
+  "hours": {
+    "weekdays": "Lun a Vie",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  },
+  "closed": "Cerrado"
 }

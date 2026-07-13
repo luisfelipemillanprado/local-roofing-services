@@ -1,68 +1,23 @@
 {
-  "tagline": "{name} is committed to providing high-quality, durable and reliable roofing solutions designed to protect and enhance your property.",
+  "tagline": "{name} is committed to providing high quality, durable and reliable roofing solutions designed to protect and enhance your property.",
   "topLinksTitle": "TOP LINKS",
   "servicesTitle": "OUR SERVICES",
   "getInTouch": "GET IN TOUCH",
-  "callUs": "Call us anytime",
-  "rights": "All rights reserved.",
+  "copyright": "© {year} {name}. All rights reserved.",
+  "builtBy": "Built by",
   "privacy": "Privacy Policy",
   "terms": "Terms of Service",
-  "topLinks": [
-    {
-      "label": "About Us",
-      "href": "/about"
-    },
-    {
-      "label": "Our Services",
-      "href": "/services"
-    },
-    {
-      "label": "Recent Projects",
-      "href": "/projects"
-    },
-    {
-      "label": "Pricing Plans",
-      "href": "/#pricing"
-    },
-    {
-      "label": "Contact Us",
-      "href": "/#contact"
-    }
-  ],
-  "services": [
-    {
-      "label": "Storm Damage Repair",
-      "href": "/services"
-    },
-    {
-      "label": "Roof Installation",
-      "href": "/services"
-    },
-    {
-      "label": "Emergency Repairs",
-      "href": "/services"
-    },
-    {
-      "label": "Roof Replacement",
-      "href": "/services"
-    },
-    {
-      "label": "Gutter Installation",
-      "href": "/services"
-    }
-  ],
-  "hours": [
-    {
-      "day": "Mon – Fri",
-      "time": "8:00 AM – 7:00 PM"
-    },
-    {
-      "day": "Saturday",
-      "time": "9:00 AM – 4:00 PM"
-    },
-    {
-      "day": "Sunday",
-      "time": "Closed"
-    }
-  ]
+  "topLinks": {
+    "about": "About Us",
+    "services": "Our Services",
+    "projects": "Recent Projects",
+    "pricing": "Pricing Plans",
+    "contact": "Contact Us"
+  },
+  "hours": {
+    "weekdays": "Mon to Fri",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "closed": "Closed"
 }
