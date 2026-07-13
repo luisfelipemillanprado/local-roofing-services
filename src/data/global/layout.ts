@@ -43,8 +43,17 @@ export const layoutData = {
         { key: "contact", href: "/#contact" },
       ],
     },
-    /* services column: items derive from servicesData */
-    services: { titleKey: "servicesTitle" },
+    /* services column: labels reuse the service namespace titles */
+    services: {
+      titleKey: "servicesTitle",
+      items: [
+        { key: "gutters", href: "/services/gutters" },
+        { key: "energyEfficient", href: "/services/energy-efficient" },
+        { key: "shingle", href: "/services/shingle" },
+        { key: "metal", href: "/services/metal" },
+        { key: "dormers", href: "/services/dormers" },
+      ],
+    },
     /* contact column: closedKey labels the null-time hours row */
     contact: { titleKey: "contactTitle", closedKey: "closed" },
     /* legal links: placeholder routes until the pages exist */
