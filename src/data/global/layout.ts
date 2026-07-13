@@ -31,6 +31,16 @@ export const layoutData = {
       },
     ] satisfies NavLinkData[],
   },
+  /* footer top links: label by key in the footer namespace */
+  footer: {
+    topLinks: [
+      { key: "about", href: "/about" },
+      { key: "services", href: "/services" },
+      { key: "projects", href: "/projects" },
+      { key: "pricing", href: "/#pricing" },
+      { key: "contact", href: "/#contact" },
+    ],
+  },
   floatingContact: {
     name: company.name,
     actions: [
