@@ -214,18 +214,6 @@
   }
 }
 
-/* Page gutter container. */
-@utility container-x {
-  width: 100%;
-  max-width: 80rem;
-  margin-inline: auto;
-  padding-inline: 1.25rem;
-
-  @media (min-width: 64rem) {
-    padding-inline: 2rem;
-  }
-}
-
 /* Hero scrims (contrast) — side for copy legibility, bottom to seat the section. */
 @utility overlay-hero-side {
   background-image: linear-gradient(
