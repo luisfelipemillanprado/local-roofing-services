@@ -5,7 +5,6 @@ export interface ProductsProps {
 
 export interface ProductCardProps {
   image: string;
-  brand: string;
   title: string;
   price: string;
   unit: string;
@@ -19,7 +18,7 @@ export interface ProductCardProps {
 /* resolved per-card item for the list */
 interface ProductCardItem extends Pick<
   ProductCardProps,
-  "image" | "brand" | "title" | "price" | "unit" | "rating" | "reviews" | "delay"
+  "image" | "title" | "price" | "unit" | "rating" | "reviews" | "delay"
 > {
   key: string;
 }

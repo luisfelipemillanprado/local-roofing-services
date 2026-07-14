@@ -16,7 +16,6 @@ export const Products = async ({ tone = "base", limit }: ProductsProps) => {
   const cards = items.slice(0, limit).map((product, i) => ({
     key: product.key,
     image: product.image,
-    brand: product.brand,
     price: product.price,
     rating: product.rating,
     reviews: product.reviews,
