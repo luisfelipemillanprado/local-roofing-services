@@ -16,7 +16,7 @@ export const layoutData = {
     links: [
       { key: "home", href: "/", icon: "home" },
       { key: "services", href: "/services", icon: "services" },
-      { key: "products", href: "/products", icon: "products" },
+      { key: "shop", href: "/shop", icon: "shop" },
       { key: "projects", href: "/projects", icon: "projects" },
       { key: "about", href: "/about", icon: "about" },
       /* Desktop-only dropdown; flattened into individual links on mobile. */

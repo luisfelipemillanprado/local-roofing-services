@@ -19,7 +19,7 @@ const ICONS: Record<NavLinkKey, LucideIcon> = {
   projects: Hammer,
   pricing: Tag,
   reviews: Star,
-  products: Package,
+  shop: Package,
   contact: Phone,
   more: Ellipsis,
 };

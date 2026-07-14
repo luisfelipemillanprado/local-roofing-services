@@ -7,7 +7,7 @@ export type NavLinkKey =
   | "pricing"
   | "contact"
   | "reviews"
-  | "products"
+  | "shop"
   | "more";
 
 /* Leaf nav entry from the data layer (route + icon, no translatable text). */
