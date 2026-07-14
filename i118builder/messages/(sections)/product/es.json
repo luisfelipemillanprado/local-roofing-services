@@ -12,7 +12,9 @@
     "panel": "Panel",
     "roll": "Rollo",
     "each": "Unidad",
-    "bucket": "Cubeta"
+    "bucket": "Cubeta",
+    "tube": "Tubo",
+    "kit": "Kit"
   },
   "items": {
     "shingles": {
@@ -27,11 +29,23 @@
     "skylight": {
       "title": "Tragaluz Fijo"
     },
-    "atticFan": {
-      "title": "Ventilador Solar de Ático"
+    "sealer": {
+      "title": "Sellador Vertible EverGuard"
     },
-    "coating": {
-      "title": "Recubrimiento de Silicona"
+    "nailer": {
+      "title": "Clavadora de Acabado"
+    },
+    "felt": {
+      "title": "Fieltro Para Techado"
+    },
+    "sealant": {
+      "title": "Sellador Quad Max"
+    },
+    "hammer": {
+      "title": "Martillo de Uña Pro"
+    },
+    "harness": {
+      "title": "Kit de Arnés de Seguridad"
     }
   }
 }
