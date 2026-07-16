@@ -3,12 +3,13 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { HeroWrapper } from "@/common/hero-wrapper/components/HeroWrapper";
 import { AvailabilityBadge } from "@/common/availability-badge/components/AvailabilityBadge";
-import { HeroActions } from "@/features/home/components/molecules/HeroActions";
+import { HeroActions } from "@/common/hero-actions/components/HeroActions";
 import { CustomerRating } from "@/common/customer-rating/components/CustomerRating";
 import { getTranslations } from "next-intl/server";
 import { heroData } from "@/data/pages/home";
 
-const { name, yearsExperience, image, avatars, ctaPrimaryHref, ctaSecondaryHref } = heroData;
+const { name, yearsExperience, image, badgeKey, avatars, customersKey, ctaPrimaryHref, ctaSecondaryHref } =
+  heroData;
 
 export const Hero = async () => {
   const t = await getTranslations("home.hero");
@@ -18,7 +19,7 @@ export const Hero = async () => {
       {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
       <div className="grid max-w-90 grid-cols-1 gap-6.5 sm:max-w-3xl">
         <Reveal delay={0.05}>
-          <AvailabilityBadge label={t("badge")} />
+          <AvailabilityBadge label={t(badgeKey)} />
         </Reveal>
 
         <Reveal delay={0.1}>
@@ -56,7 +57,7 @@ export const Hero = async () => {
 
         <Reveal delay={0.25}>
           <div className="mt-2.5">
-            <CustomerRating avatars={avatars} label={t("customers")} />
+            <CustomerRating avatars={avatars} label={t(customersKey)} />
           </div>
         </Reveal>
       </div>
