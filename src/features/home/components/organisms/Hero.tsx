@@ -2,7 +2,7 @@ import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { HeroWrapper } from "@/common/hero-wrapper/components/HeroWrapper";
-import { AvailabilityBadge } from "@/features/home/components/molecules/AvailabilityBadge";
+import { AvailabilityBadge } from "@/common/availability-badge/components/AvailabilityBadge";
 import { HeroActions } from "@/features/home/components/molecules/HeroActions";
 import { CustomerRating } from "@/common/customer-rating/components/CustomerRating";
 import { getTranslations } from "next-intl/server";
