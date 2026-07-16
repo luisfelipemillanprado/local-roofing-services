@@ -12,11 +12,6 @@ export interface HeroActionsProps {
   secondaryLabel: string;
 }
 
-export interface CustomerRatingProps {
-  avatars: readonly string[];
-  label: string;
-}
-
 /* resolved per-stat item for the list */
 interface WhyStatItem {
   key: string;

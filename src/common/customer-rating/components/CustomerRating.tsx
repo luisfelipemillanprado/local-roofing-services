@@ -1,9 +1,9 @@
 import { Avatar } from "@/common/avatar/components/Avatar";
 import { Stars } from "@/common/stars/components/Stars";
 import { Text } from "@/common/text/components/Text";
-import type { CustomerRatingProps } from "@/features/home/types";
+import type { CustomerRatingProps } from "@/common/customer-rating/types";
 
-/* Hero social proof: avatars + stars + count. */
+/* social proof: avatars + stars + count */
 export const CustomerRating = ({ avatars, label }: CustomerRatingProps) => (
   <div className="inline-grid max-w-full grid-cols-[auto_minmax(0,1fr)] items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-2">
     <div className="flex -space-x-3">
