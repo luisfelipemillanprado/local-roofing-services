@@ -44,16 +44,18 @@ export default async function TeamDetailPage({ params }: Props) {
 
   const t = await getTranslations("team");
   const title = t(`items.${member.key}.title`);
+  /* first word leads white, the rest carries the faint accent */
+  const [titleLead, ...accentWords] = title.split(" ");
 
   return (
     <>
       <Navbar />
       <main>
         <PageHeader
-          titleLead={title}
-          titleAccent=""
+          titleLead={titleLead}
+          titleAccent={accentWords.join(" ")}
           secondaryCta="team"
-          description={t(`items.${member.key}.description`)}
+          description={t(`items.${member.key}.intro`)}
         />
         <SectionWrapper id="team-detail" tone="base">
           <Container>

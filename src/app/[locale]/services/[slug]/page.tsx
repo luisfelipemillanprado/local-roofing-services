@@ -44,16 +44,18 @@ export default async function ServiceDetailPage({ params }: Props) {
 
   const t = await getTranslations("service");
   const title = t(`items.${service.key}.title`);
+  /* first word leads white, the rest carries the faint accent */
+  const [titleLead, ...accentWords] = title.split(" ");
 
   return (
     <>
       <Navbar />
       <main>
         <PageHeader
-          titleLead={title}
-          titleAccent=""
+          titleLead={titleLead}
+          titleAccent={accentWords.join(" ")}
           secondaryCta="services"
-          description={t(`items.${service.key}.description`)}
+          description={t(`items.${service.key}.intro`)}
         />
         <SectionWrapper id="service-detail" tone="base">
           <Container>
