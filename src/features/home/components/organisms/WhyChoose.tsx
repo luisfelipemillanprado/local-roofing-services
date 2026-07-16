@@ -1,8 +1,8 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { WhyStats } from "@/features/home/components/molecules/WhyStats";
-import { WhyFeatures } from "@/features/home/components/molecules/WhyFeatures";
+import { StatList } from "@/common/stat-list/components/StatList";
+import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
 import { getTranslations } from "next-intl/server";
 import { whyChooseData } from "@/data/pages/home";
 import { Container } from "@/common/container/components/Container";
@@ -41,7 +41,7 @@ export const WhyChoose = async () => {
               description={t("description")}
             />
 
-            <WhyStats stats={statItems} />
+            <StatList stats={statItems} />
 
             <div className="mt-2 grid justify-center md:justify-start">
               <Button href={ctaHref.href} variant="secondary" pulse>
@@ -50,7 +50,7 @@ export const WhyChoose = async () => {
             </div>
           </div>
 
-          <WhyFeatures features={featureItems} />
+          <IconCardList cards={featureItems} />
         </div>
       </Container>
     </SectionWrapper>
