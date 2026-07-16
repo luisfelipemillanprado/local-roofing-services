@@ -6,7 +6,7 @@ import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
-import { Values } from "@/features/about/components/Values";
+import { Values } from "@/features/about/components/organisms/Values";
 import { Team } from "@/shared-sections/team/components/organisms/Team";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
