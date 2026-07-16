@@ -13,7 +13,7 @@ export interface TextProps {
   text: string;
 }
 
-export type TextNumberSize = "base" | "stat" | "headline" | "display";
+export type TextNumberSize = "base" | "price" | "stat" | "headline" | "display";
 export type TextNumberTone = "default" | "primary";
 
 export interface TextNumberProps {
