@@ -2,17 +2,17 @@ import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { AvailabilityBadge } from "@/common/availability-badge/components/AvailabilityBadge";
-import { Button } from "@/common/call-to-actions/components/Button";
+import { HeroActions } from "@/common/hero-actions/components/HeroActions";
 import { HeroWrapper } from "@/common/hero-wrapper/components/HeroWrapper";
 import { CustomerRating } from "@/common/customer-rating/components/CustomerRating";
 import { getTranslations } from "next-intl/server";
 import { pageHeaderData } from "@/data/sections/page-header";
 import type { PageHeaderProps } from "@/shared-sections/page-header/types";
 
-const { image, avatars, ctaHref } = pageHeaderData;
+const { image, badgeKey, avatars, customersKey, ctaHref, secondaryCtaHref } = pageHeaderData;
 
 /* hero-sized intro band for the dedicated pages */
-export const PageHeader = async ({ titleLead, titleAccent, description }: PageHeaderProps) => {
+export const PageHeader = async ({ titleLead, titleAccent, description, secondaryCta }: PageHeaderProps) => {
   const t = await getTranslations("page-header");
 
   return (
@@ -20,7 +20,7 @@ export const PageHeader = async ({ titleLead, titleAccent, description }: PageHe
       {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
       <div className="grid max-w-90 grid-cols-1 gap-6.5 sm:max-w-3xl">
         <Reveal delay={0.05}>
-          <AvailabilityBadge label={t("badge")} />
+          <AvailabilityBadge label={t(badgeKey)} />
         </Reveal>
 
         <Reveal delay={0.1}>
@@ -40,15 +40,18 @@ export const PageHeader = async ({ titleLead, titleAccent, description }: PageHe
 
         <Reveal delay={0.2}>
           <div className="mt-1">
-            <Button href={ctaHref.href} variant="primary" pulse>
-              {t(ctaHref.key)}
-            </Button>
+            <HeroActions
+              primaryHref={ctaHref.href}
+              primaryLabel={t(ctaHref.key)}
+              secondaryHref={secondaryCtaHref[secondaryCta].href}
+              secondaryLabel={t(secondaryCtaHref[secondaryCta].key)}
+            />
           </div>
         </Reveal>
 
         <Reveal delay={0.25}>
           <div className="mt-2.5">
-            <CustomerRating avatars={avatars} label={t("customers")} />
+            <CustomerRating avatars={avatars} label={t(customersKey)} />
           </div>
         </Reveal>
       </div>

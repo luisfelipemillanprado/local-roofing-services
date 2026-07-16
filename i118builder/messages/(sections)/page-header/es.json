@@ -3,6 +3,9 @@
   "badge": "SERVICIO DISPONIBLE 24/7 · MIAMI, FL",
   "customers": "+1500 Clientes Satisfechos",
   "action": {
-    "upgrade": "Renueva Tu Techo"
+    "upgrade": "Renueva Tu Techo",
+    "viewServices": "Ver Nuestros Servicios",
+    "viewProjects": "Ver Nuestros Proyectos",
+    "viewTeam": "Conoce Al Equipo"
   }
 }

@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
-import { PageHeader } from "@/shared-sections/page-header/components/organisms/PageHeader";
+import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/call-to-actions/components/Button";
@@ -49,7 +49,12 @@ export default async function ProjectDetailPage({ params }: Props) {
     <>
       <Navbar />
       <main>
-        <PageHeader titleLead={title} titleAccent="" description={t(`items.${project.key}.category`)} />
+        <PageHeader
+          titleLead={title}
+          titleAccent=""
+          secondaryCta="projects"
+          description={t(`items.${project.key}.category`)}
+        />
         <SectionWrapper id="project-detail" tone="base">
           <Container>
             <div className="grid justify-items-start gap-10">

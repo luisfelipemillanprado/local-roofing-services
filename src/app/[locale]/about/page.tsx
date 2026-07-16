@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
-import { PageHeader } from "@/shared-sections/page-header/components/organisms/PageHeader";
+import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
 import { Values } from "@/features/about/components/Values";
@@ -36,6 +36,7 @@ export default async function AboutPage({ params }: Props) {
           titleLead={t("titleLead")}
           titleAccent={t("titleAccent")}
           description={t("description")}
+          secondaryCta="services"
         />
         <Marquee />
         <About variant="contact" />

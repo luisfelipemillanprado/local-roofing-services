@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
-import { PageHeader } from "@/shared-sections/page-header/components/organisms/PageHeader";
+import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Media } from "@/common/media/components/Media";
 import { Button } from "@/common/call-to-actions/components/Button";
@@ -49,7 +49,12 @@ export default async function TeamDetailPage({ params }: Props) {
     <>
       <Navbar />
       <main>
-        <PageHeader titleLead={title} titleAccent="" description={t(`items.${member.key}.description`)} />
+        <PageHeader
+          titleLead={title}
+          titleAccent=""
+          secondaryCta="team"
+          description={t(`items.${member.key}.description`)}
+        />
         <SectionWrapper id="team-detail" tone="base">
           <Container>
             <div className="grid justify-items-start gap-10">

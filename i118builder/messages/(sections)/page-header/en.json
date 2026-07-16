@@ -3,6 +3,9 @@
   "badge": "24/7 SERVICE AVAILABLE · MIAMI, FL",
   "customers": "1500+ Satisfied Customers",
   "action": {
-    "upgrade": "Upgrade Your Roof"
+    "upgrade": "Upgrade Your Roof",
+    "viewServices": "View Our Services",
+    "viewProjects": "View Our Projects",
+    "viewTeam": "Meet The Team"
   }
 }
