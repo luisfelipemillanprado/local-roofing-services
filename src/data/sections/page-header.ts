@@ -4,4 +4,6 @@ import { customerAvatars } from "@/data/avatars";
 export const pageHeaderData = {
   image: "/images/hero/hero2.webp",
   avatars: customerAvatars,
+  /* section CTA: i18n key (text) + href (destination) */
+  ctaHref: { key: "action.upgrade", href: "#contact" },
 } as const;

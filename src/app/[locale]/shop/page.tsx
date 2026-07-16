@@ -28,7 +28,6 @@ export default async function ShopPage({ params }: Props) {
       <Navbar />
       <main>
         <PageHeader
-          eyebrow={t("eyebrow")}
           titleLead={t("titleLead")}
           titleAccent={t("titleAccent")}
           description={t("description")}

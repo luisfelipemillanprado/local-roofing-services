@@ -1,4 +1,8 @@
 {
   "imageAlt": "Modern home with a standing seam metal roof at dusk",
-  "customers": "1500+ Satisfied Customers"
+  "badge": "24/7 SERVICE AVAILABLE · MIAMI, FL",
+  "customers": "1500+ Satisfied Customers",
+  "action": {
+    "upgrade": "Upgrade Your Roof"
+  }
 }

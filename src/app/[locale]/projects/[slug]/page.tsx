@@ -49,12 +49,7 @@ export default async function ProjectDetailPage({ params }: Props) {
     <>
       <Navbar />
       <main>
-        <PageHeader
-          eyebrow={t("eyebrow")}
-          titleLead={title}
-          titleAccent=""
-          description={t(`items.${project.key}.category`)}
-        />
+        <PageHeader titleLead={title} titleAccent="" description={t(`items.${project.key}.category`)} />
         <SectionWrapper id="project-detail" tone="base">
           <Container>
             <div className="grid justify-items-start gap-10">

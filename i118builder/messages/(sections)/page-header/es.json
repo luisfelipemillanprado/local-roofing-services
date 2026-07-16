@@ -1,4 +1,8 @@
 {
   "imageAlt": "Casa moderna con techo metálico de junta alzada al atardecer",
-  "customers": "+1500 Clientes Satisfechos"
+  "badge": "SERVICIO DISPONIBLE 24/7 · MIAMI, FL",
+  "customers": "+1500 Clientes Satisfechos",
+  "action": {
+    "upgrade": "Renueva Tu Techo"
+  }
 }
