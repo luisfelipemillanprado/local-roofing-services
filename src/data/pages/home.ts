@@ -1,17 +1,13 @@
 import { company } from "@/data/site";
+import { customerAvatars } from "@/data/avatars";
 
 export const heroData = {
   name: company.name,
   yearsExperience: company.yearsExperience,
-  image: "/images/hero/hero.webp",
+  image: "/images/hero/hero1.webp",
   ctaPrimaryHref: { key: "action.primary", href: "#contact" },
   ctaSecondaryHref: { key: "action.secondary", href: "#projects" },
-  avatars: [
-    "/images/avatars/avatar1.webp",
-    "/images/avatars/avatar2.webp",
-    "/images/avatars/avatar3.webp",
-    "/images/avatars/avatar4.webp",
-  ],
+  avatars: customerAvatars,
 } as const;
 
 export const whyChooseData = {
