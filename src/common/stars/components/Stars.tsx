@@ -1,12 +1,12 @@
 import { Star } from "lucide-react";
 
-/* Five-star rating row. */
+/* five filled stars, decorative */
+const STARS = [1, 2, 3, 4, 5];
+
 export const Stars = () => (
-  <span className="inline-grid grid-flow-col gap-0.5">
-    <Star className="size-4 fill-primary text-primary" />
-    <Star className="size-4 fill-primary text-primary" />
-    <Star className="size-4 fill-primary text-primary" />
-    <Star className="size-4 fill-primary text-primary" />
-    <Star className="size-4 fill-primary text-primary" />
+  <span aria-hidden className="inline-grid grid-flow-col gap-0.5">
+    {STARS.map((star) => (
+      <Star key={star} className="size-4 fill-primary text-primary" />
+    ))}
   </span>
 );

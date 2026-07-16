@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import clsx from "clsx";
 import type { RevealProps } from "@/common/reveal/types";
 
-/** One shared IntersectionObserver for all <Reveal>s; fires its callback once, then unobserves. */
+/* one shared IntersectionObserver for all <Reveal>s; fires its callback once, then unobserves */
 let observer: IntersectionObserver | null = null;
 const callbacks = new WeakMap<Element, () => void>();
 
@@ -25,7 +24,7 @@ function getObserver(): IntersectionObserver {
   return observer;
 }
 
-/** Client scroll-reveal wrapper; children stay server-rendered, visibility in state to survive re-renders. */
+/* client scroll reveal wrapper; children stay server rendered, visibility in state to survive re-renders */
 export const Reveal = ({
   children,
   className,
@@ -39,9 +38,9 @@ export const Reveal = ({
   useEffect(() => {
     const node = ref.current;
     if (!node || shown) return;
-    // No IntersectionObserver: reveal immediately so content isn't stuck hidden.
+    /* no IntersectionObserver: reveal immediately so content isn't stuck hidden */
     if (typeof IntersectionObserver === "undefined") {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
+      /* eslint-disable-next-line react-hooks/set-state-in-effect */
       setShown(true);
       return;
     }
@@ -56,10 +55,10 @@ export const Reveal = ({
 
   return (
     <Tag
-      // @ts-expect-error — ref type varies across the allowed intrinsic tags.
+      /* @ts-expect-error — ref type varies across the allowed intrinsic tags */
       ref={ref}
       data-reveal={variant}
-      className={clsx(className, shown && "is-visible")}
+      className={`${className ?? ""} ${shown ? "is-visible" : ""}`}
       style={delay ? { animationDelay: `${delay}s` } : undefined}
     >
       {children}
