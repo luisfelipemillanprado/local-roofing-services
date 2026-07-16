@@ -16,7 +16,7 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
   return (
     <SectionWrapper id="contact" tone={tone}>
       <Container>
-        <div className="theme-dark relative isolate overflow-hidden rounded-4xl bg-contrast px-6 py-16 sm:px-12 lg:px-16">
+        <div className="theme-dark relative isolate overflow-hidden rounded-4xl border border-line bg-contrast px-6 py-16 sm:px-12 lg:px-16">
           {/* Background */}
           <div className="absolute inset-0 -z-10">
             <Image
