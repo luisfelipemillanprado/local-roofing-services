@@ -11,27 +11,33 @@
   "items": {
     "rodger": {
       "title": "Rodger D. Struck",
-      "description": "Oversees every roof we build."
+      "description": "Oversees every roof we build.",
+      "intro": "Rodger oversees every roof we build, reviewing plans, materials and workmanship at each stage so the finished product always matches the standard that built our reputation."
     },
     "marcus": {
       "title": "Marcus J. Hale",
-      "description": "Runs each project on site."
+      "description": "Runs each project on site.",
+      "intro": "Marcus runs each project on site, coordinating crews, schedules and deliveries so every job moves smoothly from the first tear off to the final walkthrough."
     },
     "devin": {
       "title": "Devin T. Cole",
-      "description": "Inspects every roof for defects."
+      "description": "Inspects every roof for defects.",
+      "intro": "Devin inspects every roof for defects before we call it done, walking each slope and seam with a checklist that leaves no shingle, joint or seal unexamined."
     },
     "travis": {
       "title": "Travis L. Boone",
-      "description": "Keeps every job site safe."
+      "description": "Keeps every job site safe.",
+      "intro": "Travis keeps every job site safe, enforcing harness rules, ladder checks and clean work zones so our crews and your property stay protected from day one."
     },
     "elena": {
       "title": "Elena M. Vargas",
-      "description": "Manages operations across all projects."
+      "description": "Manages operations across all projects.",
+      "intro": "Elena manages operations across all projects, aligning permits, suppliers and timelines behind the scenes so every crew arrives with what it needs, exactly when it needs it."
     },
     "caleb": {
       "title": "Caleb R. Foster",
-      "description": "Leads the crew on site."
+      "description": "Leads the crew on site.",
+      "intro": "Caleb leads the crew on site, setting the pace and the standard, mentoring newer roofers and making sure every course of shingles goes down straight and sealed."
     }
   }
 }

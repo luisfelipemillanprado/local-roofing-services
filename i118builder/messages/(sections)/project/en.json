@@ -12,47 +12,56 @@
     "cedarHeights": {
       "title": "Cedar Heights Shingles",
       "category": "SHINGLE RE-ROOF",
-      "description": "New shingles for lasting protection."
+      "description": "New shingles for lasting protection.",
+      "intro": "A complete shingle replacement in Cedar Heights: aging layers came off, fresh underlayment went down and architectural shingles now give this family home decades of dependable protection."
     },
     "summitBungalow": {
       "title": "Summit Bungalow Tiles",
       "category": "TILE ROOF INSTALLATION",
-      "description": "Tile roofing built to last."
+      "description": "Tile roofing built to last.",
+      "intro": "This Summit bungalow received a brand new tile roof, hand set over reinforced framing, pairing old world charm with modern waterproofing that will outlast generations of weather."
     },
     "lakeviewContemporary": {
       "title": "Lakeview Skylights",
       "category": "ROOF & SKYLIGHT",
-      "description": "Rooms filled with natural light."
+      "description": "Rooms filled with natural light.",
+      "intro": "A contemporary lakeview home upgraded with a new roof system and generous skylights, flooding the interior with natural light while keeping every seam sealed against the elements."
     },
     "mapleGrove": {
       "title": "Maple Grove Tiles",
       "category": "TILE RE-ROOF",
-      "description": "Fresh tiles, fully restored strength."
+      "description": "Fresh tiles, fully restored strength.",
+      "intro": "The Maple Grove residence traded worn tiles for a fully restored roof: new battens, fresh membrane and premium tile that returned both strength and character to the home."
     },
     "northgateRanch": {
       "title": "Northgate Panels",
       "category": "METAL ROOF SYSTEM",
-      "description": "Sleek metal engineered for decades."
+      "description": "Sleek metal engineered for decades.",
+      "intro": "Northgate Ranch now wears a sleek metal roof system, panel by panel precision that stands up to storms and sun while giving the property a bold modern edge."
     },
     "stonebridge": {
       "title": "Stonebridge Hip Design",
       "category": "HIP ROOF INSTALLATION",
-      "description": "Balanced protection on every side."
+      "description": "Balanced protection on every side.",
+      "intro": "A full hip roof installation at Stonebridge, engineered with balanced slopes on every side for superior wind resistance, clean sightlines and protection that wraps the entire home."
     },
     "blackpineEstate": {
       "title": "Blackpine Standing Seam",
       "category": "STANDING-SEAM METAL ROOF",
-      "description": "Standing seam metal, sleek and sealed."
+      "description": "Standing seam metal, sleek and sealed.",
+      "intro": "Blackpine Estate chose standing seam metal for its clean vertical lines and concealed fasteners, a roof that seals out weather completely while aging gracefully for decades to come."
     },
     "greystoneFarmhouse": {
       "title": "Greystone Slate",
       "category": "SLATE ROOF SYSTEM",
-      "description": "Premium slate with timeless charm."
+      "description": "Premium slate with timeless charm.",
+      "intro": "Premium natural slate crowns the Greystone farmhouse, each piece set by hand for a roof with timeless character and a service life measured in generations, not years."
     },
     "sunsetRidge": {
       "title": "Sunset Ridge Tiles",
       "category": "GABLE TILE ROOF",
-      "description": "Classic gable tiles, lasting warmth."
+      "description": "Classic gable tiles, lasting warmth.",
+      "intro": "Classic gable lines and warm clay tiles give Sunset Ridge its signature look, a traditional profile rebuilt with modern underlayment for comfort, quiet and lasting weather protection."
     }
   }
 }

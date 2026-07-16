@@ -11,27 +11,33 @@
   "items": {
     "rodger": {
       "title": "Rodger D. Struck",
-      "description": "Supervisa cada techo que construimos."
+      "description": "Supervisa cada techo que construimos.",
+      "intro": "Rodger supervisa cada techo que construimos, revisando planos, materiales y mano de obra en cada etapa para que el resultado final siempre cumpla el estándar de nuestra reputación."
     },
     "marcus": {
       "title": "Marcus J. Hale",
-      "description": "Dirige cada proyecto en obra."
+      "description": "Dirige cada proyecto en obra.",
+      "intro": "Marcus dirige cada proyecto en obra, coordinando equipos, calendarios y entregas para que todo trabajo avance sin fricciones desde el primer desmontaje hasta el recorrido final."
     },
     "devin": {
       "title": "Devin T. Cole",
-      "description": "Inspecciona cada techo por fallas."
+      "description": "Inspecciona cada techo por fallas.",
+      "intro": "Devin inspecciona cada techo en busca de defectos antes de entregarlo, recorriendo cada pendiente y unión con una lista que no deja teja ni sello sin examinar."
     },
     "travis": {
       "title": "Travis L. Boone",
-      "description": "Mantiene cada obra siempre segura."
+      "description": "Mantiene cada obra siempre segura.",
+      "intro": "Travis mantiene segura cada obra, haciendo cumplir el uso de arnés, la revisión de escaleras y zonas de trabajo limpias para proteger a los equipos y tu propiedad."
     },
     "elena": {
       "title": "Elena M. Vargas",
-      "description": "Gestiona operaciones en cada proyecto."
+      "description": "Gestiona operaciones en cada proyecto.",
+      "intro": "Elena gestiona las operaciones de todos los proyectos, alineando permisos, proveedores y cronogramas tras bambalinas para que cada equipo llegue con lo que necesita, justo cuando lo necesita."
     },
     "caleb": {
       "title": "Caleb R. Foster",
-      "description": "Lidera la cuadrilla en obra."
+      "description": "Lidera la cuadrilla en obra.",
+      "intro": "Caleb lidera la cuadrilla en obra, marcando el ritmo y el estándar, formando a los techadores nuevos y cuidando que cada hilera de tejas quede recta y sellada."
     }
   }
 }

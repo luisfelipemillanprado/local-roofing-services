@@ -11,27 +11,33 @@
   "items": {
     "gutters": {
       "title": "Canalones y Tapajuntas",
-      "description": "Protegiendo cada hogar del agua."
+      "description": "Protegiendo cada hogar del agua.",
+      "intro": "Canaletas sin uniones y tapajuntas de precisión alejan el agua de tu hogar, protegiendo cimientos, fachada y techo de filtraciones, humedad y daños estructurales costosos año tras año."
     },
     "energyEfficient": {
       "title": "Eficiencia Energética",
-      "description": "Menos gastos, mayor confort diario."
+      "description": "Menos gastos, mayor confort diario.",
+      "intro": "Materiales reflectivos, ventilación inteligente y buen aislamiento trabajan juntos para mantener tu hogar confortable en cada estación, reduciendo las facturas de energía y alargando la vida del techo."
     },
     "shingle": {
       "title": "Tejas Asfálticas",
-      "description": "Hecho para un atractivo duradero."
+      "description": "Hecho para un atractivo duradero.",
+      "intro": "Tejas asfálticas arquitectónicas de marcas confiables ofrecen un atractivo clásico y protección firme contra el clima, instaladas por equipos certificados y respaldadas por garantías de fabricante y obra."
     },
     "metal": {
       "title": "Paneles Metálicos",
-      "description": "Diseñado para durar por décadas."
+      "description": "Diseñado para durar por décadas.",
+      "intro": "Sistemas metálicos de junta alzada y paneles acanalados diseñados para décadas de servicio, resistiendo tormentas, sol y nieve mientras dan a tu propiedad un perfil limpio y moderno."
     },
     "dormers": {
       "title": "Buhardillas y Claraboyas",
-      "description": "Aportando luz, espacio y confort."
+      "description": "Aportando luz, espacio y confort.",
+      "intro": "Buhardillas bien construidas y tragaluces sin filtraciones llenan tu hogar de luz natural, aire fresco y espacio útil, enmarcados y sellados con el mismo estándar del techo."
     },
     "inspection": {
       "title": "Inspección y Reparación",
-      "description": "Detectando fallos antes de crecer."
+      "description": "Detectando fallos antes de crecer.",
+      "intro": "Inspecciones detalladas detectan problemas pequeños antes de que crezcan, y nuestros equipos reparan tejas, tapajuntas y sellos, evitando que el desgaste menor termine en un reemplazo mayor."
     }
   }
 }

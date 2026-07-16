@@ -11,27 +11,33 @@
   "items": {
     "gutters": {
       "title": "Gutters & Flashing",
-      "description": "Protecting every home from water."
+      "description": "Protecting every home from water.",
+      "intro": "Seamless gutters and precision flashing keep water moving away from your home, protecting the foundation, siding and roofline from leaks, rot and costly structural damage year after year."
     },
     "energyEfficient": {
       "title": "Energy Efficiency",
-      "description": "Lower bills, greater home comfort."
+      "description": "Lower bills, greater home comfort.",
+      "intro": "Reflective materials, smart ventilation and quality insulation work together to keep your home comfortable in every season while trimming energy bills and extending the life of your roof."
     },
     "shingle": {
       "title": "Asphalt Shingles",
-      "description": "Built for lasting curb appeal."
+      "description": "Built for lasting curb appeal.",
+      "intro": "Architectural asphalt shingles from trusted brands deliver classic curb appeal and dependable weather protection, installed by certified crews and backed by strong manufacturer and workmanship warranties."
     },
     "metal": {
       "title": "Metal Panels",
-      "description": "Engineered to last for decades."
+      "description": "Engineered to last for decades.",
+      "intro": "Standing seam and ribbed metal systems engineered for decades of service, shrugging off storms, sun and snow while giving your property a clean, modern architectural profile."
     },
     "dormers": {
       "title": "Dormers & Skylights",
-      "description": "Adding light, space, and comfort."
+      "description": "Adding light, space, and comfort.",
+      "intro": "Thoughtfully built dormers and leak free skylights bring natural light, fresh air and usable space into your home, framed and sealed to the same standard as the roof."
     },
     "inspection": {
       "title": "Inspection & Repair",
-      "description": "Catching issues before they grow."
+      "description": "Catching issues before they grow.",
+      "intro": "Detailed inspections catch small problems before they spread, and our repair crews restore shingles, flashing and seals quickly, keeping minor wear from ever becoming a major replacement."
     }
   }
 }

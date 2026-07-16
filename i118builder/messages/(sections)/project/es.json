@@ -12,47 +12,56 @@
     "cedarHeights": {
       "title": "Techo Asfáltico Cedar Heights",
       "category": "RETECHO DE TEJAS",
-      "description": "Tejas nuevas para mayor protección."
+      "description": "Tejas nuevas para mayor protección.",
+      "intro": "Un reemplazo completo de tejas en Cedar Heights: las capas viejas salieron, entró membrana nueva y las tejas arquitectónicas dan a esta casa familiar décadas de protección confiable."
     },
     "summitBungalow": {
       "title": "Tejas Bungaló Summit",
       "category": "INSTALACIÓN DE TEJAS",
-      "description": "Tejas duraderas con estilo atemporal."
+      "description": "Tejas duraderas con estilo atemporal.",
+      "intro": "Este bungalow de Summit recibió un techo de teja completamente nuevo, colocado a mano sobre estructura reforzada, uniendo encanto clásico con impermeabilización moderna que durará por generaciones."
     },
     "lakeviewContemporary": {
       "title": "Claraboyas Lakeview",
       "category": "TECHO Y CLARABOYA",
-      "description": "Espacios llenos de luz natural."
+      "description": "Espacios llenos de luz natural.",
+      "intro": "Una casa contemporánea frente al lago renovada con sistema de techo nuevo y amplios tragaluces, llenando el interior de luz natural con cada unión sellada contra el clima."
     },
     "mapleGrove": {
       "title": "Tejas Maple Grove",
       "category": "RETECHO DE TEJAS",
-      "description": "Tejas nuevas, fuerza totalmente restaurada."
+      "description": "Tejas nuevas, fuerza totalmente restaurada.",
+      "intro": "La residencia Maple Grove cambió sus tejas gastadas por un techo restaurado por completo: listones nuevos, membrana fresca y teja premium que devolvieron fuerza y carácter al hogar."
     },
     "northgateRanch": {
       "title": "Paneles Northgate",
       "category": "SISTEMA DE TECHO METÁLICO",
-      "description": "Metal elegante diseñado por décadas."
+      "description": "Metal elegante diseñado por décadas.",
+      "intro": "Northgate Ranch luce ahora un elegante sistema de techo metálico, precisión panel por panel que resiste tormentas y sol mientras da a la propiedad un aire moderno."
     },
     "stonebridge": {
       "title": "Techo a Cuatro Aguas Stonebridge",
       "category": "TECHO A CUATRO AGUAS",
-      "description": "Protección equilibrada por todos lados."
+      "description": "Protección equilibrada por todos lados.",
+      "intro": "Una instalación completa de techo a cuatro aguas en Stonebridge, con pendientes equilibradas en cada lado para resistencia al viento, líneas limpias y protección en todo el hogar."
     },
     "blackpineEstate": {
       "title": "Junta Alzada Blackpine",
       "category": "TECHO METÁLICO DE JUNTA ALZADA",
-      "description": "Metal de junta alzada, impecable."
+      "description": "Metal de junta alzada, impecable.",
+      "intro": "Blackpine Estate eligió metal de junta alzada por sus líneas verticales limpias y fijaciones ocultas, un techo que sella el clima por completo y envejece con elegancia."
     },
     "greystoneFarmhouse": {
       "title": "Pizarra Greystone",
       "category": "SISTEMA DE TECHO DE PIZARRA",
-      "description": "Pizarra premium con encanto atemporal."
+      "description": "Pizarra premium con encanto atemporal.",
+      "intro": "Pizarra natural premium corona la granja Greystone, cada pieza colocada a mano para un techo con carácter atemporal y una vida útil medida en generaciones, no en años."
     },
     "sunsetRidge": {
       "title": "Tejas Sunset Ridge",
       "category": "TECHO DE TEJA A DOS AGUAS",
-      "description": "Teja a dos aguas duradera."
+      "description": "Teja a dos aguas duradera.",
+      "intro": "Las líneas clásicas a dos aguas y la teja cálida de arcilla dan a Sunset Ridge su sello, un perfil tradicional reconstruido con membrana moderna para confort duradero."
     }
   }
 }
