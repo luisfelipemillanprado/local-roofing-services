@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Nosotros",
-    "description": "Conoce Roofpro — más de 25 años de techado duradero y confiable, un equipo de profesionales licenciados, y los valores que guían cada proyecto que entregamos."
+    "description": "Conoce Roofpro: más de 25 años de techado duradero y confiable, un equipo de profesionales licenciados y los valores que guían cada proyecto que entregamos."
   },
   "header": {
     "titleLead": "Techadores",
@@ -12,11 +12,19 @@
     "eyebrow": "NUESTROS VALORES",
     "titleLead": "Lo Que Defendemos",
     "titleAccent": "En Cada Techo",
-    "description": "Los principios fundamentales que guían cómo trabajamos, cómo tratamos a nuestros clientes y cómo terminamos cada techo que tocamos: a tiempo, dentro del presupuesto y construido para durar de verdad.",
+    "description": "Los principios fundamentales que guían cómo trabajamos, cómo tratamos a nuestros clientes y cómo entregamos cada techo que tocamos: siempre a tiempo, dentro del presupuesto y construido para durar muchos años.",
+    "action": {
+      "quote": "Cotización Gratis"
+    },
+    "stats": {
+      "licensed": { "label": "Licencia y Seguro" },
+      "rating": { "label": "Calificación Promedio" },
+      "response": { "label": "Respuesta de Emergencia" }
+    },
     "items": {
       "quality": {
         "title": "Oficio de Calidad",
-        "description": "Materiales premium y mano de obra meticulosa en cada trabajo — sin atajos, nunca."
+        "description": "Materiales premium y mano de obra meticulosa en cada trabajo, sin ningún atajo, nunca."
       },
       "safety": {
         "title": "Seguridad Primero",
@@ -24,7 +32,7 @@
       },
       "honest": {
         "title": "Honestos y Transparentes",
-        "description": "Precios claros y detallados, y respuestas directas — siempre sabes exactamente lo que recibes."
+        "description": "Precios claros y detallados con respuestas directas, para que siempre sepas exactamente lo que recibes."
       },
       "community": {
         "title": "Enfoque en la Comunidad",

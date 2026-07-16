@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "About Us",
-    "description": "Learn about Roofpro — 25+ years of durable, reliable roofing, a team of licensed professionals, and the values that drive every project we deliver."
+    "description": "Learn about Roofpro: 25+ years of durable, reliable roofing, a team of licensed professionals, and the values that drive every project we deliver."
   },
   "header": {
     "titleLead": "Trusted",
@@ -10,25 +10,33 @@
   },
   "values": {
     "eyebrow": "OUR VALUES",
-    "titleLead": "What We Stand",
-    "titleAccent": "For On Every Roof",
-    "description": "The core principles that guide how we work, how we treat our clients and how we finish every single roof we touch: on time, on budget and built to last.",
+    "titleLead": "What We Stand For",
+    "titleAccent": "On Every Roof",
+    "description": "The principles that guide how we work, how we treat our clients, and how we deliver every roof we touch: on time, on budget, and built to last.",
+    "action": {
+      "quote": "Get Free Quote"
+    },
+    "stats": {
+      "licensed": { "label": "Licensed & Insured" },
+      "rating": { "label": "Average Customer Rating" },
+      "response": { "label": "Emergency Response" }
+    },
     "items": {
       "quality": {
         "title": "Quality Craftsmanship",
-        "description": "Premium materials and meticulous workmanship on every job — no shortcuts, ever."
+        "description": "Premium materials and meticulous workmanship on every single job, with no shortcuts ever."
       },
       "safety": {
         "title": "Safety First",
-        "description": "Certified, insured crews that follow strict safety standards to protect your property and our team."
+        "description": "Certified, insured crews follow strict safety standards to protect your property and our team."
       },
       "honest": {
         "title": "Honest & Transparent",
-        "description": "Upfront, itemised pricing and straight answers — you always know exactly what you're getting."
+        "description": "Upfront, itemized pricing and straight answers, so you always know exactly what you're getting."
       },
       "community": {
         "title": "Community Focused",
-        "description": "We're proud to protect the homes and businesses of the neighbourhoods we live and work in."
+        "description": "We proudly protect homes and businesses across the neighborhoods where we live and work."
       }
     }
   }
