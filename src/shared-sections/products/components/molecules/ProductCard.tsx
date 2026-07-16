@@ -1,13 +1,11 @@
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Media } from "@/common/media/components/Media";
 import { Reveal } from "@/common/reveal/components/Reveal";
+import { Stars } from "@/common/stars/components/Stars";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
 import type { ProductCardProps } from "@/shared-sections/products/types";
-
-/* five stars, filled up to the rounded rating */
-const STARS = [1, 2, 3, 4, 5];
 
 export const ProductCard = ({
   image,
@@ -33,21 +31,13 @@ export const ProductCard = ({
         <div className="grid grid-cols-[1fr_auto] items-center gap-4">
           <div className="grid gap-2">
             <div className="grid grid-flow-col items-center justify-start gap-1">
-              {STARS.map((star) => (
-                <Star
-                  key={star}
-                  aria-hidden
-                  className={`size-4 ${
-                    star <= Math.round(rating) ? "fill-primary text-primary" : "text-foreground-muted"
-                  }`}
-                />
-              ))}
+              <Stars rating={rating} />
               <span className="ml-1">
                 <Text as="span" size="caption" tone="muted" text={`(${reviews})`} />
               </span>
             </div>
             <div className="grid grid-flow-col items-end justify-start gap-1.5">
-              <TextNumber size="stat" text={price} />
+              <TextNumber size="price" text={price} />
               <span className="mb-0.5">
                 <Text as="span" size="caption" tone="muted" text={`/ ${unit}`} />
               </span>
