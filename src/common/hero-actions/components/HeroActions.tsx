@@ -1,7 +1,7 @@
 import { Button } from "@/common/call-to-actions/components/Button";
-import type { HeroActionsProps } from "@/features/home/types";
+import type { HeroActionsProps } from "@/common/hero-actions/types";
 
-/* Hero CTAs: primary + ghost actions. */
+/* hero band CTA pair: primary + ghost */
 export const HeroActions = ({
   primaryHref,
   primaryLabel,

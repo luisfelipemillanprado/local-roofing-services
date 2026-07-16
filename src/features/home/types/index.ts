@@ -1,13 +1,6 @@
 import type { IconBadgeKey } from "@/common/icon-badge/types";
 import type { IconCardProps } from "@/common/icon-card/types";
 
-export interface HeroActionsProps {
-  primaryHref: string;
-  primaryLabel: string;
-  secondaryHref: string;
-  secondaryLabel: string;
-}
-
 /* resolved per-stat item for the list */
 interface WhyStatItem {
   key: string;
