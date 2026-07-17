@@ -2,7 +2,7 @@
   "eyebrow": "OUR COMPANY",
   "titleLead": "Your Trusted Partner",
   "titleAccent": "For Quality Roofing",
-  "description": "Since 2001, {name} has specialized in protecting homes through reliable roofing services, expert installations, trusted repairs, comprehensive inspections, and quality workmanship built to last. Every time. Guaranteed. Always.",
+  "description": "Since 2001, {name} has specialized in protecting homes through reliable roofing services, expert installations, trusted repairs, comprehensive inspections, and quality workmanship that truly endures. Every time. Guaranteed. Always.",
   "action": {
     "learnMore": "Learn More",
     "contact": "Contact Us"
@@ -10,7 +10,7 @@
   "points": {
     "residentialCommercial": "Residential & commercial roofing experts.",
     "warranties": "Premium materials with extended warranties.",
-    "pricing": "Transparent, upfront pricing — no surprises."
+    "pricing": "Transparent, upfront pricing with no surprises."
   },
   "years": {
     "experience": {
@@ -23,6 +23,6 @@
   "stats": {
     "projects": "Projects Completed",
     "customers": "Happy Customers",
-    "satisfaction": "Satisfied Customers"
+    "satisfaction": "Satisfaction Rate"
   }
 }

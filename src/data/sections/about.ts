@@ -13,7 +13,7 @@ export const aboutData = {
   points: [{ key: "residentialCommercial" }, { key: "warranties" }, { key: "pricing" }],
   stats: [
     { key: "projects", value: "1500+" },
-    { key: "customers", value: "800+" },
+    { key: "customers", value: "1000+" },
     { key: "satisfaction", value: "98%" },
   ],
 } as const;
