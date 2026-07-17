@@ -41,7 +41,7 @@ export const Values = async () => {
               description={t("description")}
             />
 
-            <StatList stats={statItems} />
+            <StatList stats={statItems} tone="panel" />
 
             <div className="mt-2 grid justify-center md:justify-start">
               <Button href={ctaHref.href} variant="secondary" pulse>
