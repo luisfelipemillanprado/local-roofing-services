@@ -31,33 +31,5 @@
         "description": "Every job is backed by our workmanship warranty, plus a post-install inspection and ongoing support whenever you need it."
       }
     }
-  },
-  "faq": {
-    "eyebrow": "FAQ",
-    "titleLead": "Questions?",
-    "titleAccent": "We've Got Answers",
-    "description": "Clear answers to the questions we hear most often about project timelines, material warranties, insurance claims and exactly what to expect from start to finish on your roofing project.",
-    "items": [
-      {
-        "q": "How long does a typical roof replacement take?",
-        "a": "Most residential re-roofs are completed in 1–3 days, depending on the size, pitch and materials. We'll give you a precise timeline with your quote."
-      },
-      {
-        "q": "Do you handle insurance claims?",
-        "a": "Yes. We document storm damage thoroughly and work directly with your insurer to make the claims process as smooth as possible."
-      },
-      {
-        "q": "What roofing materials do you offer?",
-        "a": "Asphalt shingles, metal, TPO, EPDM and modified-bitumen systems for low-slope roofs — we'll recommend the best fit for your property and budget."
-      },
-      {
-        "q": "Is your work guaranteed?",
-        "a": "Every installation comes with our workmanship warranty, on top of the manufacturer's material warranty."
-      },
-      {
-        "q": "Do you offer emergency repairs?",
-        "a": "Absolutely. Our rapid-response crew handles storm damage and leaks, often tarping and securing your roof within hours."
-      }
-    ]
   }
 }

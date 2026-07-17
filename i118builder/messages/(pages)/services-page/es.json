@@ -31,33 +31,5 @@
         "description": "Cada trabajo está respaldado por nuestra garantía de mano de obra, más una inspección tras la instalación y soporte continuo cuando lo necesites."
       }
     }
-  },
-  "faq": {
-    "eyebrow": "PREGUNTAS FRECUENTES",
-    "titleLead": "¿Dudas?",
-    "titleAccent": "Tenemos las Respuestas",
-    "description": "Respuestas claras a las preguntas que más nos hacen sobre plazos, garantías de materiales, reclamaciones al seguro y exactamente qué esperar de principio a fin en tu proyecto de techado.",
-    "items": [
-      {
-        "q": "¿Cuánto tarda un reemplazo de techo típico?",
-        "a": "La mayoría de los retechos residenciales se completan en 1 a 3 días, según el tamaño, la pendiente y los materiales. Te damos un plazo preciso con tu cotización."
-      },
-      {
-        "q": "¿Gestionan reclamos al seguro?",
-        "a": "Sí. Documentamos a fondo los daños por tormenta y trabajamos directamente con tu aseguradora para que el proceso sea lo más sencillo posible."
-      },
-      {
-        "q": "¿Qué materiales de techado ofrecen?",
-        "a": "Tejas asfálticas, metal, TPO, EPDM y betún modificado para techos de baja pendiente — te recomendamos lo mejor para tu propiedad y presupuesto."
-      },
-      {
-        "q": "¿El trabajo tiene garantía?",
-        "a": "Cada instalación incluye nuestra garantía de mano de obra, además de la garantía del fabricante sobre los materiales."
-      },
-      {
-        "q": "¿Ofrecen reparaciones de emergencia?",
-        "a": "Por supuesto. Nuestra cuadrilla de respuesta rápida atiende daños por tormenta y goteras, a menudo cubriendo y asegurando tu techo en horas."
-      }
-    ]
   }
 }

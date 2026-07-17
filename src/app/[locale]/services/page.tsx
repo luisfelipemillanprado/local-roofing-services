@@ -7,7 +7,7 @@ import { PageHeader } from "@/shared-sections/page-header/components/PageHeader"
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { ProcessSteps } from "@/features/services/components/ProcessSteps";
-import { Faq } from "@/features/services/components/Faq";
+import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
 import { Pricing } from "@/shared-sections/pricing/components/organisms/Pricing";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";

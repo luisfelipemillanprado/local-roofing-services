@@ -1,0 +1,36 @@
+{
+  "eyebrow": "PREGUNTAS FRECUENTES",
+  "titleLead": "Lo Que Debes Saber",
+  "titleAccent": "Antes de Contratarnos",
+  "description": "Respuestas claras a las preguntas que más nos hacen sobre plazos de obra, garantías de materiales, reclamaciones al seguro y qué esperar de principio a fin en tu proyecto de techado.",
+  "items": {
+    "licensed": {
+      "q": "¿Son un contratista de techado con licencia y seguro en Florida?",
+      "a": "Por supuesto. Contamos con licencia y seguro completos para operar en toda Florida. Tenemos seguro de responsabilidad civil general y de compensación laboral, protegiéndote a ti y a tu propiedad durante todo el proyecto."
+    },
+    "hurricanes": {
+      "q": "¿Sus techos resisten los huracanes de Florida?",
+      "a": "Sí. Instalamos sistemas de techado avanzados que cumplen o superan el riguroso Código de Construcción de Florida, con materiales de alta calidad y métodos de instalación diseñados para brindar protección superior contra los vientos fuertes y el clima severo de Florida."
+    },
+    "insurance": {
+      "q": "¿Ayudan con los reclamos al seguro?",
+      "a": "Sí. Te ayudamos a navegar el proceso de reclamo al seguro con inspecciones minuciosas del techo, documentación precisa y acompañamiento profesional en cada paso."
+    },
+    "permits": {
+      "q": "¿Necesito un permiso para un techo nuevo en Florida?",
+      "a": "Sí. La mayoría de los reemplazos de techo requieren permisos locales. Nuestro equipo gestiona todo el proceso de permisos de principio a fin y agenda las inspecciones requeridas para que tu proyecto cumpla los códigos de construcción locales."
+    },
+    "warranty": {
+      "q": "¿Ofrecen garantías sobre su trabajo?",
+      "a": "Sí. Cada proyecto incluye nuestra garantía integral de mano de obra, y la mayoría de los sistemas de techado incluyen además garantías extendidas del fabricante para mayor protección a largo plazo y tranquilidad."
+    },
+    "replacement": {
+      "q": "¿Cuánto tarda un reemplazo de techo típico?",
+      "a": "La mayoría de los reemplazos residenciales se completan en 1 a 3 días, según el tamaño de tu casa, el material del techo, el clima y los requisitos de permisos. Te damos un cronograma detallado antes de comenzar tu proyecto."
+    },
+    "signs": {
+      "q": "¿Cómo sé si mi techo necesita reemplazo?",
+      "a": "Las señales comunes incluyen tejas faltantes o dañadas, goteras persistentes, áreas hundidas o manchas de agua en los cielos rasos. Brindamos inspecciones profesionales gratuitas para determinar si una reparación puntual o un reemplazo completo es la mejor opción para tu hogar."
+    }
+  }
+}

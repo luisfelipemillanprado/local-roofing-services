@@ -1,0 +1,36 @@
+{
+  "eyebrow": "FAQ",
+  "titleLead": "Things To Know First",
+  "titleAccent": "Before You Hire Us",
+  "description": "Clear answers to the questions we hear most often about project timelines, material warranties, insurance claims and what to expect from start to finish on your roofing project.",
+  "items": {
+    "licensed": {
+      "q": "Are you a licensed and insured roofing contractor in Florida?",
+      "a": "Absolutely. We are fully licensed and insured to operate across Florida. We carry comprehensive general liability and workers' compensation insurance, protecting you and your property throughout the entire project."
+    },
+    "hurricanes": {
+      "q": "Are your roofs built to withstand Florida hurricanes?",
+      "a": "Yes. We install advanced roofing systems that meet or exceed the rigorous Florida Building Code, utilizing high quality materials and installation methods designed to provide enhanced protection against Florida's high winds and severe weather conditions."
+    },
+    "insurance": {
+      "q": "Do you assist with insurance claims?",
+      "a": "Yes. We help you navigate the insurance claim process with thorough roof inspections, accurate documentation, and professional support at every step."
+    },
+    "permits": {
+      "q": "Do I need a permit for a new roof in Florida?",
+      "a": "Yes. Most roof replacements require local permits. Our team handles the entire permitting process from start to finish and schedules all required inspections to ensure your project complies with local building codes."
+    },
+    "warranty": {
+      "q": "Do you provide warranties on your work?",
+      "a": "Yes. Every project includes our comprehensive workmanship warranty, and most roofing systems also feature extended manufacturer warranties for added long term protection and peace of mind."
+    },
+    "replacement": {
+      "q": "How long does a typical roof replacement take?",
+      "a": "Most residential roof replacements are completed within 1 to 3 days, depending on the size of your home, roofing material, weather conditions, and permit requirements. We'll provide a detailed timeline before your project begins."
+    },
+    "signs": {
+      "q": "How can I tell if my roof needs to be replaced?",
+      "a": "Common signs include missing or damaged shingles, persistent leaks, sagging areas, or water stains on ceilings. We provide free professional inspections to determine whether a targeted repair or a full replacement is the best option for your home."
+    }
+  }
+}
