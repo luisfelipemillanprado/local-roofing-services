@@ -13,18 +13,3 @@ export const heroData = {
   avatars: customerAvatars,
   customersKey: "customers",
 } as const;
-
-export const whyChooseData = {
-  ctaHref: { key: "action.learnMore", href: "/about" },
-  features: [
-    { key: "emergency", icon: "phone" },
-    { key: "proactive", icon: "idea" },
-    { key: "reliable", icon: "shield" },
-    { key: "experience", icon: "award" },
-  ],
-  stats: [
-    { key: "years", icon: "award", value: `${company.yearsExperience}+` },
-    { key: "projects", icon: "hammer", value: "1.5k" },
-    { key: "roofers", icon: "hardhat", value: "40+" },
-  ],
-} as const;

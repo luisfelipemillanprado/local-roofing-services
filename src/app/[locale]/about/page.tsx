@@ -6,7 +6,7 @@ import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
-import { Values } from "@/features/about/components/organisms/Values";
+import { Pitch } from "@/shared-sections/pitch/components/Pitch";
 import { Team } from "@/shared-sections/team/components/organisms/Team";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
@@ -41,7 +41,7 @@ export default async function AboutPage({ params }: Props) {
         />
         <Marquee />
         <About variant="contact" />
-        <Values />
+        <Pitch variant="values" tone="muted" />
         <Team variant="contact" />
         <Testimonials variant="contact" />
         <Faq tone="base" />

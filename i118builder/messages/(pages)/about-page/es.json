@@ -7,37 +7,5 @@
     "titleLead": "Techadores",
     "titleAccent": "Confiables",
     "description": "Por más de 25 años, Roofpro ha protegido hogares y negocios en Miami con mano de obra experta, servicio honesto, precios justos y techos hechos para durar."
-  },
-  "values": {
-    "eyebrow": "NUESTROS VALORES",
-    "titleLead": "Lo Que Defendemos",
-    "titleAccent": "En Cada Techo",
-    "description": "Entregando máxima protección en cada techo construido, nuestros expertos mantienen una confiabilidad absoluta, disponibles día y noche para garantizar estabilidad estructural.",
-    "action": {
-      "quote": "Cotización Gratis"
-    },
-    "stats": {
-      "licensed": { "label": "Licencia y Seguro" },
-      "rating": { "label": "Calificación Promedio" },
-      "response": { "label": "Respuesta de Emergencia" }
-    },
-    "items": {
-      "quality": {
-        "title": "Oficio de Calidad",
-        "description": "Materiales premium y mano de obra meticulosa en cada trabajo, sin ningún atajo, nunca."
-      },
-      "safety": {
-        "title": "Seguridad Primero",
-        "description": "Cuadrillas certificadas y aseguradas que siguen estrictos estándares de seguridad para proteger tu propiedad y a nuestro equipo."
-      },
-      "honest": {
-        "title": "Honestos y Transparentes",
-        "description": "Precios claros y detallados con respuestas directas, para que siempre sepas exactamente lo que recibes."
-      },
-      "community": {
-        "title": "Enfoque en la Comunidad",
-        "description": "Nos enorgullece proteger los hogares y negocios de los vecindarios donde vivimos y trabajamos."
-      }
-    }
   }
 }

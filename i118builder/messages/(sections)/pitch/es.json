@@ -1,0 +1,78 @@
+{
+  "why-choose": {
+    "eyebrow": "POR QUÉ ELEGIRNOS",
+    "titleLead": "Un Techado En El Que",
+    "titleAccent": "Confiar Siempre",
+    "description": "Evaluando cada estructura, nuestros profesionales aplican estándares superiores para un techado en el que confiar siempre, garantizando resistencia y durabilidad inigualables.",
+    "action": {
+      "learnMore": "Saber Más"
+    },
+    "stats": {
+      "years": {
+        "label": "Años de Experiencia"
+      },
+      "projects": {
+        "label": "Proyectos Entregados"
+      },
+      "roofers": {
+        "label": "Techadores Expertos"
+      }
+    },
+    "items": {
+      "emergency": {
+        "title": "Servicios de Emergencia",
+        "description": "Una cuadrilla de guardia a toda hora para daños por tormenta, goteras y reparaciones urgentes."
+      },
+      "proactive": {
+        "title": "Enfoque Proactivo",
+        "description": "Inspecciones programadas y mantenimiento preventivo que detectan problemas pequeños mucho antes de que sean costosos."
+      },
+      "reliable": {
+        "title": "Confiabilidad Total",
+        "description": "Techadores licenciados, asegurados y certificados que instalan materiales premium respaldados por las garantías más sólidas."
+      },
+      "experience": {
+        "title": "Experiencia Comprobada",
+        "description": "Un cuarto de siglo de oficio en miles de techos, desde casas hasta construcciones comerciales."
+      }
+    }
+  },
+  "values": {
+    "eyebrow": "NUESTROS VALORES",
+    "titleLead": "Lo Que Defendemos",
+    "titleAccent": "En Cada Techo",
+    "description": "Entregando máxima protección en cada techo construido, nuestros expertos mantienen una confiabilidad absoluta, disponibles día y noche para garantizar estabilidad estructural.",
+    "action": {
+      "quote": "Cotización Gratis"
+    },
+    "stats": {
+      "licensed": {
+        "label": "Licencia y Seguro"
+      },
+      "rating": {
+        "label": "Calificación Promedio"
+      },
+      "response": {
+        "label": "Respuesta de Emergencia"
+      }
+    },
+    "items": {
+      "quality": {
+        "title": "Oficio de Calidad",
+        "description": "Materiales premium y mano de obra meticulosa en todos nuestros trabajos, sin ningún atajo, nunca."
+      },
+      "safety": {
+        "title": "Seguridad Primero",
+        "description": "Cuadrillas certificadas y aseguradas siguen estrictos protocolos de seguridad protegiendo tu propiedad y nuestro equipo."
+      },
+      "honest": {
+        "title": "Honestos y Transparentes",
+        "description": "Precios claros y detallados con respuestas directas, para que sepas siempre exactamente lo que recibes."
+      },
+      "community": {
+        "title": "Enfoque en la Comunidad",
+        "description": "Nos enorgullece proteger los hogares y los negocios de los vecindarios donde vivimos y trabajamos."
+      }
+    }
+  }
+}

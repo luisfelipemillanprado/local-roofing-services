@@ -1,0 +1,78 @@
+{
+  "why-choose": {
+    "eyebrow": "WHY CHOOSE US",
+    "titleLead": "Our Roofing Fits You",
+    "titleAccent": "Every Shingle Time",
+    "description": "Evaluating structural assessments every shingle time, our professionals apply superior standards so your roofing fits perfectly, guaranteeing unmatched resilience and longevity.",
+    "action": {
+      "learnMore": "Learn More"
+    },
+    "stats": {
+      "years": {
+        "label": "Years of Experience"
+      },
+      "projects": {
+        "label": "Projects Delivered"
+      },
+      "roofers": {
+        "label": "Expert Roofers"
+      }
+    },
+    "items": {
+      "emergency": {
+        "title": "Emergency Services",
+        "description": "A crew on call around the clock for storm damage, leaks and urgent roof repairs."
+      },
+      "proactive": {
+        "title": "Proactive Approach",
+        "description": "Scheduled inspections and preventative maintenance that catch small issues long before they ever become costly."
+      },
+      "reliable": {
+        "title": "Reliably Focused",
+        "description": "Licensed, insured and certified roofers installing premium materials backed by the strongest warranties in roofing."
+      },
+      "experience": {
+        "title": "Experience Focused",
+        "description": "A full quarter century of craftsmanship on thousands of roofs, from homes to commercial builds."
+      }
+    }
+  },
+  "values": {
+    "eyebrow": "OUR VALUES",
+    "titleLead": "Our Enduring Values",
+    "titleAccent": "On Every Roof Built",
+    "description": "Delivering maximum protection on every roof built, our experts uphold absolute reliability, remaining completely available day and night guaranteeing structural stability.",
+    "action": {
+      "quote": "Get Free Quote"
+    },
+    "stats": {
+      "licensed": {
+        "label": "Licensed & Insured"
+      },
+      "rating": {
+        "label": "Average Customer Rating"
+      },
+      "response": {
+        "label": "Emergency Response"
+      }
+    },
+    "items": {
+      "quality": {
+        "title": "Quality Craftsmanship",
+        "description": "Premium materials and meticulous workmanship on every single job we take, with no shortcuts ever."
+      },
+      "safety": {
+        "title": "Safety First",
+        "description": "Certified, insured crews follow strict safety standards to protect your property and our whole team."
+      },
+      "honest": {
+        "title": "Honest & Transparent",
+        "description": "Upfront, itemized pricing and straight answers, so you always know exactly what you are getting."
+      },
+      "community": {
+        "title": "Community Focused",
+        "description": "We proudly protect the homes and businesses across the neighborhoods where we live and work."
+      }
+    }
+  }
+}
