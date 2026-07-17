@@ -10,6 +10,4 @@ interface StatItem {
 
 export interface StatListProps {
   stats: StatItem[];
-  /* chip tone: panel when the section surface is muted */
-  tone?: "muted" | "panel";
 }
