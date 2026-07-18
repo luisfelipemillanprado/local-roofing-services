@@ -9,13 +9,16 @@
     },
     "stats": {
       "years": {
+        "value": "25+",
         "label": "Años de Experiencia"
       },
       "projects": {
-        "label": "Proyectos Entregados"
+        "value": "1.5k+",
+        "label": "Techos Completados"
       },
       "roofers": {
-        "label": "Techadores Expertos"
+        "value": "40+",
+        "label": "Techadores Certificados"
       }
     },
     "items": {
@@ -39,21 +42,24 @@
   },
   "process": {
     "eyebrow": "CÓMO TRABAJAMOS",
-    "titleLead": "Un Proceso Claro y Simple",
-    "titleAccent": "De Principio a Fin",
-    "description": "Seguimos un proceso claro y simple de principio a fin, documentando cada inspección, cotización e instalación para mantener cada etapa predecible.",
+    "titleLead": "Nuestro Proceso Confiable",
+    "titleAccent": "Diseñado Para Ti",
+    "description": "Siguiendo un proceso perfectamente claro y confiable diseñado para ti, documentamos cada inspección, cotización e instalación, haciendo cada proyecto increíblemente predecible.",
     "action": {
       "contact": "Contáctanos Ahora"
     },
     "stats": {
       "inspection": {
-        "label": "Inspección del Techo"
+        "value": "$0",
+        "label": "Inspección Gratuita"
       },
-      "quote": {
-        "label": "Entrega de Cotización"
+      "scheduling": {
+        "value": "48h",
+        "label": "Programación del Proyecto"
       },
-      "steps": {
-        "label": "Pasos Claros y Simples"
+      "warranty": {
+        "value": "10 años",
+        "label": "Garantía de Obra"
       }
     },
     "items": {
@@ -85,13 +91,16 @@
     },
     "stats": {
       "licensed": {
+        "value": "100%",
         "label": "Licencia y Seguro"
       },
       "rating": {
-        "label": "Calificación Promedio"
+        "value": "4.9",
+        "label": "Calificación de Clientes"
       },
-      "response": {
-        "label": "Respuesta de Emergencia"
+      "reviews": {
+        "value": "820+",
+        "label": "Reseñas Verificadas"
       }
     },
     "items": {

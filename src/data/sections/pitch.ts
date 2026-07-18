@@ -1,6 +1,4 @@
-import { company } from "@/data/site";
-
-/* Pitch section: per-variant bundles (icons/values/hrefs), text by full key */
+/* Pitch section: per-variant bundles (icons/hrefs), text and chip values by full key */
 export const pitchData = {
   "why-choose": {
     /* section CTA: i18n key (text) + href (destination) */
@@ -12,9 +10,9 @@ export const pitchData = {
       { key: "why-choose.items.experience", icon: "award" },
     ],
     stats: [
-      { key: "why-choose.stats.years", icon: "award", value: `${company.yearsExperience}+` },
-      { key: "why-choose.stats.projects", icon: "hammer", value: "1.5k" },
-      { key: "why-choose.stats.roofers", icon: "hardhat", value: "40+" },
+      { key: "why-choose.stats.years", icon: "award" },
+      { key: "why-choose.stats.projects", icon: "hammer" },
+      { key: "why-choose.stats.roofers", icon: "hardhat" },
     ],
   },
   process: {
@@ -27,9 +25,9 @@ export const pitchData = {
       { key: "process.items.warranty", icon: "shield" },
     ],
     stats: [
-      { key: "process.stats.inspection", icon: "clipboard", value: "$0" },
-      { key: "process.stats.quote", icon: "document", value: "24h" },
-      { key: "process.stats.steps", icon: "layers", value: "4" },
+      { key: "process.stats.inspection", icon: "clipboard" },
+      { key: "process.stats.scheduling", icon: "document" },
+      { key: "process.stats.warranty", icon: "shield" },
     ],
   },
   values: {
@@ -42,9 +40,9 @@ export const pitchData = {
       { key: "values.items.community", icon: "users" },
     ],
     stats: [
-      { key: "values.stats.licensed", icon: "shield", value: "100%" },
-      { key: "values.stats.rating", icon: "star", value: "4.9" },
-      { key: "values.stats.response", icon: "phone", value: "24/7" },
+      { key: "values.stats.licensed", icon: "shield" },
+      { key: "values.stats.rating", icon: "star" },
+      { key: "values.stats.reviews", icon: "users" },
     ],
   },
 } as const;

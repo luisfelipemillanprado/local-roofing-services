@@ -9,13 +9,16 @@
     },
     "stats": {
       "years": {
-        "label": "Years of Experience"
+        "value": "25+",
+        "label": "Years Experience"
       },
       "projects": {
-        "label": "Projects Delivered"
+        "value": "1.5k+",
+        "label": "Roofs Completed"
       },
       "roofers": {
-        "label": "Expert Roofers"
+        "value": "40+",
+        "label": "Certified Roofers"
       }
     },
     "items": {
@@ -39,21 +42,24 @@
   },
   "process": {
     "eyebrow": "HOW WE WORK",
-    "titleLead": "A Clear Simple Process",
-    "titleAccent": "From Start to Finish",
-    "description": "Following a clear simple process from start to finish, we document every inspection, quote and installation, keeping each project stage predictable.",
+    "titleLead": "Our Trusted Process",
+    "titleAccent": "Engineered For You",
+    "description": "Following a perfectly clear, simple process engineered for you, we document every inspection, quote, and installation, making each project incredibly predictable.",
     "action": {
       "contact": "Contact Us Now"
     },
     "stats": {
       "inspection": {
-        "label": "Roof Inspection"
+        "value": "$0",
+        "label": "Free Inspection"
       },
-      "quote": {
-        "label": "Quote Turnaround"
+      "scheduling": {
+        "value": "48h",
+        "label": "Project Scheduling"
       },
-      "steps": {
-        "label": "Clear Simple Steps"
+      "warranty": {
+        "value": "10yr",
+        "label": "Workmanship Warranty"
       }
     },
     "items": {
@@ -85,13 +91,16 @@
     },
     "stats": {
       "licensed": {
+        "value": "100%",
         "label": "Licensed & Insured"
       },
       "rating": {
-        "label": "Average Customer Rating"
+        "value": "4.9",
+        "label": "Customer Rating"
       },
-      "response": {
-        "label": "Emergency Response"
+      "reviews": {
+        "value": "820+",
+        "label": "Verified Reviews"
       }
     },
     "items": {
