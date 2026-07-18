@@ -5,9 +5,9 @@
   "description": "Entregamos una mano de obra excepcional con materiales premium para proteger tu propiedad. Nuestros especialistas en techado eliminan las amenazas de humedad y refuerzan la seguridad, logrando una defensa estructural hermosa, confiable y duradera.",
   "action": {
     "viewAll": "Ver Todos los Servicios",
-    "contact": "Pedir Presupuesto Gratis"
+    "contact": "Contáctanos Ahora",
+    "viewDetails": "Ver Detalles"
   },
-  "learnMore": "Saber Más",
   "items": {
     "gutters": {
       "title": "Canalones y Tapajuntas",

@@ -6,7 +6,7 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import type { TeamCardProps } from "@/shared-sections/team/types";
 
-export const TeamCard = ({ image, title, description, learnMore, href, delay = 0 }: TeamCardProps) => (
+export const TeamCard = ({ image, title, description, viewDetails, href, delay = 0 }: TeamCardProps) => (
   <Reveal delay={delay}>
     <article className="group grid h-full overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
       <Media
@@ -22,7 +22,7 @@ export const TeamCard = ({ image, title, description, learnMore, href, delay = 0
         </div>
         <Link
           href={href}
-          aria-label={learnMore}
+          aria-label={viewDetails}
           className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
         >
           <ArrowRight className="size-5 -rotate-45" />

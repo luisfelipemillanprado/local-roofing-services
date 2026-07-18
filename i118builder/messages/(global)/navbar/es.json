@@ -1,5 +1,7 @@
 {
-  "action": "Cotización gratis",
+  "action": {
+    "contact": "Contáctanos Ahora"
+  },
   "toggleMenu": "Abrir menú",
   "selectLanguage": "Seleccionar idioma",
   "toggleTheme": "Cambiar tema",

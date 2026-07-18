@@ -5,9 +5,9 @@
   "description": "Protegiendo cada hogar, nuestros profesionales del techado combinan conocimiento probado del sector y amplia experiencia residencial para entregar soluciones permanentes duraderas.",
   "action": {
     "viewAll": "Ver Todo el Equipo",
-    "contact": "Pedir Presupuesto Gratis"
+    "contact": "Contáctanos Ahora",
+    "viewDetails": "Ver Detalles"
   },
-  "learnMore": "Saber Más",
   "items": {
     "rodger": {
       "title": "Rodger D. Struck",

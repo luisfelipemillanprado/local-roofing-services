@@ -4,7 +4,7 @@ import { company } from "@/data/site";
 export const pitchData = {
   "why-choose": {
     /* section CTA: i18n key (text) + href (destination) */
-    ctaHref: { key: "why-choose.action.learnMore", href: "/about" },
+    ctaHref: { key: "why-choose.action.viewDetails", href: "/about" },
     items: [
       { key: "why-choose.items.emergency", icon: "phone" },
       { key: "why-choose.items.proactive", icon: "idea" },
@@ -19,7 +19,7 @@ export const pitchData = {
   },
   values: {
     /* section CTA: i18n key (text) + href (destination) */
-    ctaHref: { key: "values.action.quote", href: "#contact" },
+    ctaHref: { key: "values.action.contact", href: "#contact" },
     items: [
       { key: "values.items.quality", icon: "award" },
       { key: "values.items.safety", icon: "hardhat" },

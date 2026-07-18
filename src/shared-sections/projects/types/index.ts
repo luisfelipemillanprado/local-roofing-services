@@ -7,7 +7,7 @@ export interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
-  learnMore: string;
+  viewDetails: string;
   href: string;
   delay?: number;
 }
@@ -22,7 +22,7 @@ interface ProjectCardItem extends Pick<
 
 export interface ProjectListProps {
   cards: ProjectCardItem[];
-  learnMore: string;
+  viewDetails: string;
   /* home: 4 below lg, all at lg */
   collapseBelowLg?: boolean;
 }

@@ -5,7 +5,7 @@
     "titleAccent": "Confiar Siempre",
     "description": "Evaluando cada estructura, nuestros profesionales aplican estándares superiores para un techado en el que confiar siempre, garantizando resistencia y durabilidad inigualables.",
     "action": {
-      "learnMore": "Saber Más"
+      "viewDetails": "Ver Detalles"
     },
     "stats": {
       "years": {
@@ -39,11 +39,11 @@
   },
   "values": {
     "eyebrow": "NUESTROS VALORES",
-    "titleLead": "Lo Que Defendemos",
-    "titleAccent": "En Cada Techo",
+    "titleLead": "Valores Que Perduran",
+    "titleAccent": "En Cada Techo Construido",
     "description": "Entregando máxima protección en cada techo construido, nuestros expertos mantienen una confiabilidad absoluta, disponibles día y noche para garantizar estabilidad estructural.",
     "action": {
-      "quote": "Cotización Gratis"
+      "contact": "Contáctanos Ahora"
     },
     "stats": {
       "licensed": {

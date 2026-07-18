@@ -5,9 +5,9 @@
   "description": "Protecting every house, our elite techs combine proven industry knowledge and extensive residential roofing experience to deliver permanent, highly durable solutions.",
   "action": {
     "viewAll": "View All Team",
-    "contact": "Get a Free Quote"
+    "contact": "Contact Us Now",
+    "viewDetails": "View Details"
   },
-  "learnMore": "Learn More",
   "items": {
     "rodger": {
       "title": "Rodger D. Struck",

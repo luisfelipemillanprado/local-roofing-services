@@ -5,9 +5,9 @@
   "description": "Cada proyecto de techado se completa con precisión, cuidado y una maestría inigualable. Con materiales premium e instalación experta, protegemos tu propiedad mejorando su apariencia, su resistencia y su valor duradero.",
   "action": {
     "viewAll": "Ver Todos los Proyectos",
-    "contact": "Pedir Presupuesto Gratis"
+    "contact": "Contáctanos Ahora",
+    "viewDetails": "Ver Detalles"
   },
-  "learnMore": "Saber Más",
   "items": {
     "cedarHeights": {
       "title": "Techo Asfáltico Cedar Heights",

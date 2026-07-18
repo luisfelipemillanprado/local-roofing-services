@@ -5,8 +5,8 @@
   "titleAccent": "Services",
   "subtitle": "Your trusted partner for durable, reliable, quality roofing. From emergency storm repairs to complete roof installations and replacements, {name} protects what matters most, for {years}+ years.",
   "action": {
-    "primary": "Upgrade Your Roof",
-    "secondary": "View Our Work"
+    "upgrade": "Upgrade Your Roof",
+    "viewWork": "View Our Work"
   },
   "customers": "1500+ Satisfied Customers",
   "stats": [

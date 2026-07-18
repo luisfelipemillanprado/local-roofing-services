@@ -11,7 +11,7 @@ export const layoutData = {
   },
   navbar: {
     menuId: "mobile-menu",
-    ctaHref: { key: "action", href: "#contact" },
+    ctaHref: { key: "action.contact", href: "#contact" },
     phone: company.phone,
     links: [
       { key: "home", href: "/", icon: "home" },

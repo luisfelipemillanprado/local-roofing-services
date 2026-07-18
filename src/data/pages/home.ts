@@ -7,8 +7,8 @@ export const heroData = {
   image: "/images/hero/hero1.webp",
   /* availability badge: label by key */
   badgeKey: "badge",
-  ctaPrimaryHref: { key: "action.primary", href: "#contact" },
-  ctaSecondaryHref: { key: "action.secondary", href: "#projects" },
+  ctaPrimaryHref: { key: "action.upgrade", href: "#contact" },
+  ctaSecondaryHref: { key: "action.viewWork", href: "#projects" },
   /* social proof: avatars + rating label by key */
   avatars: customerAvatars,
   customersKey: "customers",

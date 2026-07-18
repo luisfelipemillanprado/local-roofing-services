@@ -7,7 +7,7 @@ export interface TeamCardProps {
   image: string;
   title: string;
   description: string;
-  learnMore: string;
+  viewDetails: string;
   href: string;
   delay?: number;
 }
@@ -19,7 +19,7 @@ interface TeamCardItem extends Pick<TeamCardProps, "image" | "title" | "descript
 
 export interface TeamListProps {
   cards: TeamCardItem[];
-  learnMore: string;
+  viewDetails: string;
   /* home: 4 below lg, all at lg */
   collapseBelowLg?: boolean;
 }

@@ -12,7 +12,7 @@ export const ServiceCard = ({
   image,
   title,
   description,
-  learnMore,
+  viewDetails,
   href,
   delay = 0,
 }: ServiceCardProps) => (
@@ -36,7 +36,7 @@ export const ServiceCard = ({
         </div>
         <Link
           href={href}
-          aria-label={learnMore}
+          aria-label={viewDetails}
           className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
         >
           <ArrowRight className="size-5 -rotate-45" />

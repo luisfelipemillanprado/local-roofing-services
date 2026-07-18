@@ -42,7 +42,11 @@ export const Services = async ({ variant, limit }: ServicesProps) => {
             </div>
           </div>
 
-          <ServiceList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "viewAll"} />
+          <ServiceList
+            cards={cards}
+            viewDetails={t("action.viewDetails")}
+            collapseBelowLg={variant === "viewAll"}
+          />
         </div>
       </Container>
     </SectionWrapper>

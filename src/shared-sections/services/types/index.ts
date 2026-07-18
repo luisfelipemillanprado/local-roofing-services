@@ -10,7 +10,7 @@ export interface ServiceCardProps {
   image: string;
   title: string;
   description: string;
-  learnMore: string;
+  viewDetails: string;
   href: string;
   delay?: number;
 }
@@ -25,7 +25,7 @@ interface ServiceCardItem extends Pick<
 
 export interface ServiceListProps {
   cards: ServiceCardItem[];
-  learnMore: string;
+  viewDetails: string;
   /* home: 4 below lg, all at lg */
   collapseBelowLg?: boolean;
 }

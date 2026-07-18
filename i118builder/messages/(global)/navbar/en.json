@@ -1,5 +1,7 @@
 {
-  "action": "Get Free Quote",
+  "action": {
+    "contact": "Contact Us Now"
+  },
   "toggleMenu": "Toggle menu",
   "selectLanguage": "Select language",
   "toggleTheme": "Toggle theme",

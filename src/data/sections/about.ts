@@ -5,7 +5,7 @@ export const aboutData = {
   name: company.name,
   image: "/images/boss/boss.webp",
   ctaHref: {
-    learnMore: { key: "action.learnMore", href: "/about" },
+    learnMore: { key: "action.viewDetails", href: "/about" },
     contact: { key: "action.contact", href: "#contact" },
   },
   years: { key: "experience", value: `${company.yearsExperience}+` },

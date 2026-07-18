@@ -41,7 +41,11 @@ export const Team = async ({ variant, limit }: TeamProps) => {
             </div>
           </div>
 
-          <TeamList cards={cards} learnMore={t("learnMore")} collapseBelowLg={variant === "viewAll"} />
+          <TeamList
+            cards={cards}
+            viewDetails={t("action.viewDetails")}
+            collapseBelowLg={variant === "viewAll"}
+          />
         </div>
       </Container>
     </SectionWrapper>
