@@ -3,6 +3,9 @@
   "titleLead": "Lo Que Debes Saber",
   "titleAccent": "Antes de Contratarnos",
   "description": "Descubre lo que debes saber sobre garantías de techado, permisos, reclamos al seguro, plazos y el proceso completo antes de comenzar.",
+  "action": {
+    "contact": "Contáctanos Ahora"
+  },
   "items": {
     "licensed": {
       "q": "¿Son un contratista de techado con licencia y seguro en Florida?",

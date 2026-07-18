@@ -3,6 +3,9 @@
   "titleLead": "Things To Know First",
   "titleAccent": "Before You Hire Us",
   "description": "Learn everything homeowners should know about roofing warranties, permits, insurance claims, project timelines, and the complete process before work officially begins.",
+  "action": {
+    "contact": "Contact Us Now"
+  },
   "items": {
     "licensed": {
       "q": "Are you a licensed and insured roofing contractor in Florida?",
