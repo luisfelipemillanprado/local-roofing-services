@@ -17,6 +17,21 @@ export const pitchData = {
       { key: "why-choose.stats.roofers", icon: "hardhat", value: "40+" },
     ],
   },
+  process: {
+    /* section CTA: i18n key (text) + href (destination) */
+    ctaHref: { key: "process.action.contact", href: "#contact" },
+    items: [
+      { key: "process.items.inspection", icon: "clipboard" },
+      { key: "process.items.quote", icon: "document" },
+      { key: "process.items.installation", icon: "hammer" },
+      { key: "process.items.warranty", icon: "shield" },
+    ],
+    stats: [
+      { key: "process.stats.inspection", icon: "clipboard", value: "$0" },
+      { key: "process.stats.quote", icon: "document", value: "24h" },
+      { key: "process.stats.steps", icon: "layers", value: "4" },
+    ],
+  },
   values: {
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "values.action.contact", href: "#contact" },

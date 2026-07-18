@@ -7,29 +7,5 @@
     "titleLead": "Techado",
     "titleAccent": "Experto",
     "description": "Ya sea una reparación de emergencia o un reemplazo completo del techo, Roofpro ofrece servicio confiable, mano de obra experta y resultados duraderos, siempre respaldados por garantía."
-  },
-  "process": {
-    "eyebrow": "CÓMO TRABAJAMOS",
-    "titleLead": "Un Proceso Simple y",
-    "titleAccent": "Transparente en 4 Pasos",
-    "description": "Desde el primer contacto hasta la revisión final en obra, mantenemos cada paso claro, documentado y predecible, para que siempre sepas exactamente qué está pasando y qué viene después.",
-    "steps": {
-      "inspection": {
-        "title": "Inspección Gratuita",
-        "description": "Evaluamos tu techo en sitio, documentamos su estado e identificamos exactamente qué necesita atención — sin costo."
-      },
-      "quote": {
-        "title": "Cotización Transparente",
-        "description": "Recibes una cotización clara y detallada, sin cargos ocultos, para que sepas con precisión qué pagas antes de empezar."
-      },
-      "installation": {
-        "title": "Instalación Experta",
-        "description": "Nuestros techadores certificados realizan el trabajo con materiales premium, a tiempo y con un sitio de trabajo limpio y respetuoso."
-      },
-      "warranty": {
-        "title": "Garantía y Postventa",
-        "description": "Cada trabajo está respaldado por nuestra garantía de mano de obra, más una inspección tras la instalación y soporte continuo cuando lo necesites."
-      }
-    }
   }
 }

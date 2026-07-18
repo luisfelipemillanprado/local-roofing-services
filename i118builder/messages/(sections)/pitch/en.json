@@ -37,6 +37,44 @@
       }
     }
   },
+  "process": {
+    "eyebrow": "HOW WE WORK",
+    "titleLead": "A Clear Simple Process",
+    "titleAccent": "From Start to Finish",
+    "description": "Following a clear simple process from start to finish, we document every inspection, quote and installation, keeping each project stage predictable.",
+    "action": {
+      "contact": "Contact Us Now"
+    },
+    "stats": {
+      "inspection": {
+        "label": "Roof Inspection"
+      },
+      "quote": {
+        "label": "Quote Turnaround"
+      },
+      "steps": {
+        "label": "Clear Simple Steps"
+      }
+    },
+    "items": {
+      "inspection": {
+        "title": "Free Inspection",
+        "description": "We assess your roof on site, document its condition and pinpoint exactly what needs attention."
+      },
+      "quote": {
+        "title": "Transparent Quote",
+        "description": "You receive a clear itemized quote with zero hidden fees before any work ever begins."
+      },
+      "installation": {
+        "title": "Expert Installation",
+        "description": "Our certified roofers install premium materials on schedule, leaving a tidy and respectful job site."
+      },
+      "warranty": {
+        "title": "Warranty & Aftercare",
+        "description": "Every job is backed by our workmanship warranty, a final walkthrough and ongoing support afterward."
+      }
+    }
+  },
   "values": {
     "eyebrow": "OUR VALUES",
     "titleLead": "Our Enduring Values",

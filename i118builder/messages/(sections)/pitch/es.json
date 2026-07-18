@@ -37,6 +37,44 @@
       }
     }
   },
+  "process": {
+    "eyebrow": "CÓMO TRABAJAMOS",
+    "titleLead": "Un Proceso Claro y Simple",
+    "titleAccent": "De Principio a Fin",
+    "description": "Seguimos un proceso claro y simple de principio a fin, documentando cada inspección, cotización e instalación para mantener cada etapa predecible.",
+    "action": {
+      "contact": "Contáctanos Ahora"
+    },
+    "stats": {
+      "inspection": {
+        "label": "Inspección del Techo"
+      },
+      "quote": {
+        "label": "Entrega de Cotización"
+      },
+      "steps": {
+        "label": "Pasos Claros y Simples"
+      }
+    },
+    "items": {
+      "inspection": {
+        "title": "Inspección Gratuita",
+        "description": "Evaluamos tu techo en sitio, documentamos su condición y detectamos exactamente lo que necesita atención."
+      },
+      "quote": {
+        "title": "Cotización Transparente",
+        "description": "Recibes una cotización clara y detallada, sin costos ocultos, antes de que comience el trabajo."
+      },
+      "installation": {
+        "title": "Instalación Experta",
+        "description": "Nuestros techadores certificados instalan materiales premium a tiempo, dejando siempre un sitio limpio y ordenado."
+      },
+      "warranty": {
+        "title": "Garantía y Postventa",
+        "description": "Cada trabajo está respaldado por nuestra garantía de obra, una revisión final y soporte continuo."
+      }
+    }
+  },
   "values": {
     "eyebrow": "NUESTROS VALORES",
     "titleLead": "Valores Que Perduran",
