@@ -9,35 +9,50 @@
     "viewDetails": "View Details"
   },
   "items": {
+    "replacement": {
+      "title": "Replacement & Repair",
+      "description": "Full replacements and expert repairs.",
+      "intro": "From full tear offs to targeted repairs, we rebuild aging roofs with premium materials and precise installation, backed by our comprehensive workmanship warranty on every single project."
+    },
+    "shingle": {
+      "title": "Shingle Roofing",
+      "description": "Built for lasting curb appeal.",
+      "intro": "Architectural asphalt shingles from trusted brands deliver classic curb appeal and dependable weather protection, installed by certified crews and backed by strong manufacturer and workmanship warranties."
+    },
+    "metal": {
+      "title": "Metal Roofing",
+      "description": "Engineered to last for decades.",
+      "intro": "Standing seam and ribbed metal systems engineered for decades of service, shrugging off storms, sun and snow while giving your property a clean, modern architectural profile."
+    },
+    "storm": {
+      "title": "Damage & Insurance",
+      "description": "Rapid response to storm damage.",
+      "intro": "When storms strike, our emergency crews tarp, secure and repair your roof fast, then document every detail to support your insurance claim from inspection to final approval."
+    },
+    "commercial": {
+      "title": "Commercial Roofing",
+      "description": "Flat roof systems for businesses.",
+      "intro": "From TPO and EPDM membranes to torch applied systems, we install and maintain flat and low slope roofs that keep offices, warehouses and storefronts protected year round."
+    },
+    "maintenance": {
+      "title": "Roof Maintenance",
+      "description": "Preventative care and inspection plans.",
+      "intro": "Seasonal inspections, gutter cleaning and minor tune ups on a set schedule keep small issues from growing, extending your roof's life and protecting your manufacturer warranty."
+    },
     "gutters": {
       "title": "Gutters & Flashing",
       "description": "Protecting every home from water.",
       "intro": "Seamless gutters and precision flashing keep water moving away from your home, protecting the foundation, siding and roofline from leaks, rot and costly structural damage year after year."
     },
-    "energyEfficient": {
-      "title": "Energy Efficiency",
-      "description": "Lower bills, greater home comfort.",
-      "intro": "Reflective materials, smart ventilation and quality insulation work together to keep your home comfortable in every season while trimming energy bills and extending the life of your roof."
+    "skylights": {
+      "title": "Skylight Installation",
+      "description": "Leak free skylights, expertly installed.",
+      "intro": "We cut, frame, flash and seal new skylights with leak proof precision, bringing natural light into your home while preserving the integrity of your existing roof."
     },
-    "shingle": {
-      "title": "Asphalt Shingles",
-      "description": "Built for lasting curb appeal.",
-      "intro": "Architectural asphalt shingles from trusted brands deliver classic curb appeal and dependable weather protection, installed by certified crews and backed by strong manufacturer and workmanship warranties."
-    },
-    "metal": {
-      "title": "Metal Panels",
-      "description": "Engineered to last for decades.",
-      "intro": "Standing seam and ribbed metal systems engineered for decades of service, shrugging off storms, sun and snow while giving your property a clean, modern architectural profile."
-    },
-    "dormers": {
-      "title": "Dormers & Skylights",
-      "description": "Adding light, space, and comfort.",
-      "intro": "Thoughtfully built dormers and leak free skylights bring natural light, fresh air and usable space into your home, framed and sealed to the same standard as the roof."
-    },
-    "inspection": {
-      "title": "Inspection & Repair",
-      "description": "Catching issues before they grow.",
-      "intro": "Detailed inspections catch small problems before they spread, and our repair crews restore shingles, flashing and seals quickly, keeping minor wear from ever becoming a major replacement."
+    "solar": {
+      "title": "Solar Roofing",
+      "description": "Solar ready roofs that save.",
+      "intro": "We integrate solar panels with your roofing system the right way, sealed mounts and smart layouts that cut energy bills without ever compromising your roof's protection."
     }
   }
 }

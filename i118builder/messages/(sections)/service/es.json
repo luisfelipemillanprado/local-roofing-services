@@ -9,35 +9,50 @@
     "viewDetails": "Ver Detalles"
   },
   "items": {
+    "replacement": {
+      "title": "Reemplazo y Reparación",
+      "description": "Reemplazos completos y reparaciones expertas.",
+      "intro": "Desde retiros completos hasta reparaciones puntuales, reconstruimos techos envejecidos con materiales premium e instalación precisa, respaldados por nuestra garantía integral de mano de obra en cada proyecto."
+    },
+    "shingle": {
+      "title": "Techado de Tejas",
+      "description": "Hecho para un atractivo duradero.",
+      "intro": "Tejas asfálticas arquitectónicas de marcas confiables ofrecen un atractivo clásico y protección firme contra el clima, instaladas por equipos certificados y respaldadas por garantías de fabricante y obra."
+    },
+    "metal": {
+      "title": "Techado Metálico",
+      "description": "Diseñado para durar por décadas.",
+      "intro": "Sistemas metálicos de junta alzada y paneles acanalados diseñados para décadas de servicio, resistiendo tormentas, sol y nieve mientras dan a tu propiedad un perfil limpio y moderno."
+    },
+    "storm": {
+      "title": "Daños y Seguros",
+      "description": "Respuesta rápida tras cada tormenta.",
+      "intro": "Cuando golpea una tormenta, nuestras cuadrillas de emergencia cubren, aseguran y reparan tu techo rápido, documentando cada detalle para respaldar tu reclamo al seguro hasta la aprobación final."
+    },
+    "commercial": {
+      "title": "Techado Comercial",
+      "description": "Techos planos para tu negocio.",
+      "intro": "Desde membranas TPO y EPDM hasta sistemas aplicados con soplete, instalamos y mantenemos techos planos y de baja pendiente que protegen oficinas, bodegas y comercios todo el año."
+    },
+    "maintenance": {
+      "title": "Mantenimiento de Techos",
+      "description": "Planes preventivos de inspección anual.",
+      "intro": "Inspecciones regulares, limpieza de canalones y ajustes menores con un calendario fijo evitan que los problemas pequeños crezcan, alargando la vida de tu techo y protegiendo tu garantía."
+    },
     "gutters": {
       "title": "Canalones y Tapajuntas",
       "description": "Protegiendo cada hogar del agua.",
       "intro": "Canaletas sin uniones y tapajuntas de precisión alejan el agua de tu hogar, protegiendo cimientos, fachada y techo de filtraciones, humedad y daños estructurales costosos año tras año."
     },
-    "energyEfficient": {
-      "title": "Eficiencia Energética",
-      "description": "Menos gastos, mayor confort diario.",
-      "intro": "Materiales reflectivos, ventilación inteligente y buen aislamiento trabajan juntos para mantener tu hogar confortable en cada estación, reduciendo las facturas de energía y alargando la vida del techo."
+    "skylights": {
+      "title": "Instalación de Claraboyas",
+      "description": "Luz natural sin filtraciones, garantizada.",
+      "intro": "Cortamos, enmarcamos, sellamos e impermeabilizamos claraboyas nuevas con precisión total, llevando luz natural a tu hogar mientras preservamos la integridad completa de todo tu techo existente."
     },
-    "shingle": {
-      "title": "Tejas Asfálticas",
-      "description": "Hecho para un atractivo duradero.",
-      "intro": "Tejas asfálticas arquitectónicas de marcas confiables ofrecen un atractivo clásico y protección firme contra el clima, instaladas por equipos certificados y respaldadas por garantías de fabricante y obra."
-    },
-    "metal": {
-      "title": "Paneles Metálicos",
-      "description": "Diseñado para durar por décadas.",
-      "intro": "Sistemas metálicos de junta alzada y paneles acanalados diseñados para décadas de servicio, resistiendo tormentas, sol y nieve mientras dan a tu propiedad un perfil limpio y moderno."
-    },
-    "dormers": {
-      "title": "Buhardillas y Claraboyas",
-      "description": "Aportando luz, espacio y confort.",
-      "intro": "Buhardillas bien construidas y tragaluces sin filtraciones llenan tu hogar de luz natural, aire fresco y espacio útil, enmarcados y sellados con el mismo estándar del techo."
-    },
-    "inspection": {
-      "title": "Inspección y Reparación",
-      "description": "Detectando fallos antes de crecer.",
-      "intro": "Inspecciones detalladas detectan problemas pequeños antes de que crezcan, y nuestros equipos reparan tejas, tapajuntas y sellos, evitando que el desgaste menor termine en un reemplazo mayor."
+    "solar": {
+      "title": "Techado Solar",
+      "description": "Techos solares que ahorran energía.",
+      "intro": "Integramos paneles solares con tu sistema de techado de la forma correcta, con anclajes sellados y diseños inteligentes que reducen tu factura sin comprometer la protección."
     }
   }
 }

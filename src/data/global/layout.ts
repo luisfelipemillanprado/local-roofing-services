@@ -47,11 +47,11 @@ export const layoutData = {
     services: {
       titleKey: "servicesTitle",
       items: [
-        { key: "gutters", href: "/services/gutters" },
-        { key: "energyEfficient", href: "/services/energy-efficient" },
+        { key: "replacement", href: "/services/roof-replacement" },
         { key: "shingle", href: "/services/shingle" },
         { key: "metal", href: "/services/metal" },
-        { key: "dormers", href: "/services/dormers" },
+        { key: "storm", href: "/services/storm-damage" },
+        { key: "commercial", href: "/services/commercial" },
       ],
     },
     /* contact column: closedKey labels the null-time hours row */
