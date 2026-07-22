@@ -44,7 +44,7 @@ export default async function AboutPage({ params }: Props) {
         <Pitch variant="values" tone="muted" />
         <Team variant="contact" />
         <Testimonials variant="contact" />
-        <Faq tone="base" />
+        <Faq variant="about" tone="base" />
         <Products tone="muted" limit={6} />
         <Contact />
       </main>

@@ -7,16 +7,16 @@ import { faqData } from "@/data/sections/faq";
 import type { FaqProps } from "@/shared-sections/faq/types";
 import { Container } from "@/common/container/components/Container";
 
-const { ctaHref, items } = faqData;
+const { ctaHref } = faqData;
 
-export const Faq = async ({ tone = "muted" }: FaqProps) => {
+export const Faq = async ({ variant, tone = "muted" }: FaqProps) => {
   const t = await getTranslations("faq");
 
-  /* questions: text by key */
-  const faqItems = items.map((item) => ({
+  /* questions: per-variant items, text by full key */
+  const faqItems = faqData[variant].items.map((item) => ({
     key: item.key,
-    question: t(`items.${item.key}.q`),
-    answer: t(`items.${item.key}.a`),
+    question: t(`${item.key}.q`),
+    answer: t(`${item.key}.a`),
   }));
 
   return (

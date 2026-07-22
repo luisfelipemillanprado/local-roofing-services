@@ -2,38 +2,104 @@
   "eyebrow": "FAQ",
   "titleLead": "Things To Know First",
   "titleAccent": "Before You Hire Us",
-  "description": "Learn everything homeowners should know about roofing warranties, permits, insurance claims, project timelines, and the complete process before work officially begins.",
+  "description": "Read these simple, straightforward answers to essential questions about warranties, permits, and timelines to make an informed decision with complete confidence.",
   "action": {
     "contact": "Contact Us Now"
   },
-  "items": {
-    "licensed": {
-      "q": "Are you a licensed and insured roofing contractor in Florida?",
-      "a": "Absolutely. We are fully licensed and insured to operate across Florida. We carry comprehensive general liability and workers' compensation insurance, protecting you and your property throughout the entire project."
-    },
-    "hurricanes": {
-      "q": "Are your roofs built to withstand Florida hurricanes?",
-      "a": "Yes. We install advanced roofing systems that meet or exceed the rigorous Florida Building Code, utilizing high quality materials and installation methods designed to provide enhanced protection against Florida's high winds and severe weather conditions."
-    },
-    "insurance": {
-      "q": "Do you assist with insurance claims?",
-      "a": "Yes. We help you navigate the insurance claim process with thorough roof inspections, accurate documentation, and professional support at every step."
-    },
-    "permits": {
-      "q": "Do I need a permit for a new roof in Florida?",
-      "a": "Yes. Most roof replacements require local permits. Our team handles the entire permitting process from start to finish and schedules all required inspections to ensure your project complies with local building codes."
-    },
-    "warranty": {
-      "q": "Do you provide warranties on your work?",
-      "a": "Yes. Every project includes our comprehensive workmanship warranty, and most roofing systems also feature extended manufacturer warranties for added long term protection and peace of mind."
-    },
-    "replacement": {
-      "q": "How long does a typical roof replacement take?",
-      "a": "Most residential roof replacements are completed within 1 to 3 days, depending on the size of your home, roofing material, weather conditions, and permit requirements. We'll provide a detailed timeline before your project begins."
-    },
-    "signs": {
-      "q": "How can I tell if my roof needs to be replaced?",
-      "a": "Common signs include missing or damaged shingles, persistent leaks, sagging areas, or water stains on ceilings. We provide free professional inspections to determine whether a targeted repair or a full replacement is the best option for your home."
+  "services": {
+    "items": {
+      "assessment": {
+        "q": "How do I know if my roof needs repair or replacement?",
+        "a": "Our free roof inspection helps determine whether a repair is enough or if a full replacement is the better long term solution. We evaluate the age of your roof, visible damage, leaks, and overall structural condition before making any recommendation."
+      },
+      "insurance": {
+        "q": "Will you help with my insurance claim?",
+        "a": "Yes. If your roof has been damaged by hail, wind, or severe weather, we can assist throughout the insurance claims process by documenting the damage and working directly with your insurance adjuster when needed."
+      },
+      "warranty": {
+        "q": "Do your roofing services include workmanship and manufacturer warranties?",
+        "a": "Absolutely. Our roofing projects include workmanship warranties, and many of the premium materials we install are backed by manufacturer warranties for added protection and long term peace of mind."
+      },
+      "presence": {
+        "q": "Do I need to be home during the roofing project?",
+        "a": "In most cases, no. As long as we have access to the property and have discussed all project details beforehand, our team can complete the work while you continue with your daily routine."
+      },
+      "protection": {
+        "q": "How do you protect my property during the installation?",
+        "a": "We take extra precautions to protect your landscaping, siding, windows, and outdoor areas. Once the project is complete, we perform a thorough cleanup, including magnetic sweeps to collect nails and debris."
+      },
+      "weather": {
+        "q": "What happens if bad weather delays my roofing project?",
+        "a": "Safety always comes first. If severe weather affects the schedule, we'll notify you immediately, secure your roof if necessary, and resume work as soon as conditions allow without compromising quality."
+      },
+      "scheduling": {
+        "q": "How soon can you schedule my roofing project?",
+        "a": "Scheduling depends on the scope of the project and current availability. After your inspection and estimate, we'll provide the earliest available start date and keep you informed throughout the entire process."
+      }
+    }
+  },
+  "projects": {
+    "items": {
+      "similar": {
+        "q": "Can you complete a project similar to one I've seen here?",
+        "a": "Absolutely. Every roofing project is customized to match your property's structure, architectural style, budget, and long term performance goals. If you see a project you like, we can create a solution tailored specifically to your home or business."
+      },
+      "duration": {
+        "q": "How long do roofing projects typically take to complete?",
+        "a": "Most residential roofing projects are completed within one to three days, while larger or more complex commercial projects may require additional time depending on the roofing system, weather conditions, and project scope."
+      },
+      "occupied": {
+        "q": "Can you work on occupied homes and commercial properties?",
+        "a": "Yes. Our crews regularly complete roofing projects while homes and businesses remain occupied. We follow strict safety procedures and work efficiently to minimize disruptions throughout the project."
+      },
+      "permits": {
+        "q": "Are permits required for roofing projects?",
+        "a": "Permit requirements vary depending on your location and the scope of the project. When permits are required, we handle the process and help ensure all work complies with local building codes."
+      },
+      "matching": {
+        "q": "Can you match the style and color of my existing roof?",
+        "a": "Yes. We offer a wide range of roofing materials, colors, and profiles to complement your property's architecture while meeting your durability, performance, and budget requirements."
+      },
+      "hidden": {
+        "q": "What happens if unexpected issues are discovered during the project?",
+        "a": "If hidden damage or structural issues are found, we'll explain the situation, provide clear recommendations, and discuss all available options before performing any additional work."
+      },
+      "start": {
+        "q": "How do I get started with a roofing project?",
+        "a": "Getting started is simple. Contact our team to schedule a roof inspection, and we'll evaluate your property, discuss your goals, and provide a detailed proposal with the best solution for your project."
+      }
+    }
+  },
+  "about": {
+    "items": {
+      "licensed": {
+        "q": "Are you a licensed and insured roofing contractor in Florida?",
+        "a": "Absolutely. We are fully licensed and insured to operate across Florida. We carry comprehensive general liability and workers' compensation insurance, protecting you and your property throughout the entire project."
+      },
+      "hurricanes": {
+        "q": "Are your roofs built to withstand Florida hurricanes?",
+        "a": "Yes. We install advanced roofing systems that meet or exceed the rigorous Florida Building Code, utilizing high quality materials and installation methods designed to provide enhanced protection against Florida's high winds and severe weather conditions."
+      },
+      "insurance": {
+        "q": "Do you assist with insurance claims?",
+        "a": "Yes. We help you navigate the insurance claim process with thorough roof inspections, accurate documentation, and professional support at every step."
+      },
+      "permits": {
+        "q": "Do I need a permit for a new roof in Florida?",
+        "a": "Yes. Most roof replacements require local permits. Our team handles the entire permitting process from start to finish and schedules all required inspections to ensure your project complies with local building codes."
+      },
+      "warranty": {
+        "q": "Do you provide warranties on your work?",
+        "a": "Yes. Every project includes our comprehensive workmanship warranty, and most roofing systems also feature extended manufacturer warranties for added long term protection and peace of mind."
+      },
+      "replacement": {
+        "q": "How long does a typical roof replacement take?",
+        "a": "Most residential roof replacements are completed within 1 to 3 days, depending on the size of your home, roofing material, weather conditions, and permit requirements. We'll provide a detailed timeline before your project begins."
+      },
+      "signs": {
+        "q": "How can I tell if my roof needs to be replaced?",
+        "a": "Common signs include missing or damaged shingles, persistent leaks, sagging areas, or water stains on ceilings. We provide free professional inspections to determine whether a targeted repair or a full replacement is the best option for your home."
+      }
     }
   }
 }
