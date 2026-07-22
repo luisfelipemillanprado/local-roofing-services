@@ -18,6 +18,7 @@ import {
   Star,
   Building2,
   Factory,
+  AlertTriangle,
   type LucideIcon,
 } from "lucide-react";
 import type { IconBadgeKey, IconBadgeProps, IconBadgeSize, IconBadgeTone } from "@/common/icon-badge/types";
@@ -43,13 +44,14 @@ const ICONS: Record<IconBadgeKey, LucideIcon> = {
   star: Star,
   building: Building2,
   factory: Factory,
+  alert: AlertTriangle,
 };
 
 /* Chip box size per tier */
 const chips: Record<IconBadgeSize, string> = {
   stat: "size-11.5" /* 46px — why-choose stats */,
   card: "size-12" /* 48px — service cards */,
-  feature: "size-14" /* 56px — process, values, stats band, why-choose, pricing */,
+  feature: "size-14" /* 56px — process, values, why-choose, pricing, case study */,
 };
 
 /* Inner icon size per tier. */
