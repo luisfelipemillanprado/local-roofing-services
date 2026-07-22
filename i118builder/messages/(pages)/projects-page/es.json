@@ -8,27 +8,34 @@
     "titleAccent": "Probados",
     "description": "Una mirada al trabajo reciente en propiedades residenciales y comerciales, cada una entregada con la misma precisión, atención al detalle y materiales duraderos que definen todo proyecto Roofpro."
   },
-  "stats": {
-    "eyebrow": "EN CIFRAS",
-    "titleLead": "Una Trayectoria",
-    "titleAccent": "En La Que Confiar",
-    "description": "Años de trabajo dedicado resumidos en las cifras que cuentan nuestra historia, reflejando un compromiso duradero con la calidad, la seguridad y resultados sólidos que nuestros clientes pueden comprobar.",
-    "items": {
-      "projects": {
-        "value": "1500+",
-        "label": "Proyectos Completados"
+  "caseStudy": {
+    "eyebrow": "CASO DE ESTUDIO DESTACADO",
+    "titleLead": "Del Daño A",
+    "titleAccent": "La Protección Total",
+    "description": "Explora una transformación real de techado, desde el daño y la inspección iniciales hasta la instalación experta y la protección duradera.",
+    "compareLabel": "Arrastra para comparar antes y después",
+    "images": {
+      "after": {
+        "label": "Después",
+        "alt": "La misma casa después del reemplazo completo de techo por Roofpro"
       },
-      "years": {
-        "value": "25+",
-        "label": "Años de Experiencia"
+      "before": {
+        "label": "Antes",
+        "alt": "La misma casa antes del proyecto, con un techo viejo y desgastado"
+      }
+    },
+    "cards": {
+      "challenge": {
+        "title": "El Desafío",
+        "description": "El techo estaba desgastado, con filtraciones en varias zonas y ya no protegía la casa."
       },
-      "satisfaction": {
-        "value": "98%",
-        "label": "Clientes Satisfechos"
+      "solution": {
+        "title": "Nuestra Solución",
+        "description": "Instalamos un techo nuevo y duradero con mejor subcapa y mayor ventilación del ático."
       },
-      "roofers": {
-        "value": "40+",
-        "label": "Techadores Expertos"
+      "result": {
+        "title": "Resultado Final",
+        "description": "Un techo duradero y eficiente que mejora el atractivo y protege la casa por años."
       }
     }
   }

@@ -48,7 +48,7 @@
   --color-primary-light: var(--color-peach); /* footer icons, CTA input focus */
   --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
   --color-secondary: var(--color-amber-deep); /* secondary button fill (section CTAs) */
-  --color-contrast: var(--color-graphite); /* dark fills: Button dark, CTA, StatsBand, gradients */
+  --color-contrast: var(--color-graphite); /* dark fills: Button dark, CTA, gradients */
   --color-highlight: var(--color-steel); /* highlighted card: Pricing */
 
   /* Typography (--font-sans is applied to <html> by Preflight). */

@@ -8,27 +8,34 @@
     "titleAccent": "Projects",
     "description": "A close look at recent work across residential and commercial properties, each delivered with the same precision, attention to detail and durable materials that define every Roofpro project."
   },
-  "stats": {
-    "eyebrow": "BY THE NUMBERS",
-    "titleLead": "A Track Record",
-    "titleAccent": "You Can Count On",
-    "description": "Years of dedicated work distilled into the numbers that tell our story, reflecting a lasting commitment to quality, safety and durable results our customers can see and genuinely count on.",
-    "items": {
-      "projects": {
-        "value": "1500+",
-        "label": "Projects Completed"
+  "caseStudy": {
+    "eyebrow": "FEATURED CASE STUDY",
+    "titleLead": "From Damage To",
+    "titleAccent": "Complete Protection",
+    "description": "Explore a real roofing transformation, from the initial damage and inspection through expert installation to the complete and lasting final protection.",
+    "compareLabel": "Drag to compare before and after",
+    "images": {
+      "after": {
+        "label": "After",
+        "alt": "The same home after a complete roof replacement by Roofpro"
       },
-      "years": {
-        "value": "25+",
-        "label": "Years of Experience"
+      "before": {
+        "label": "Before",
+        "alt": "The same home before the project, with a worn and aging roof"
+      }
+    },
+    "cards": {
+      "challenge": {
+        "title": "The Challenge",
+        "description": "The existing roof was worn, leaking in several areas, and no longer protecting the home."
       },
-      "satisfaction": {
-        "value": "98%",
-        "label": "Satisfied Customers"
+      "solution": {
+        "title": "Our Solution",
+        "description": "We installed a durable new roof system with upgraded underlayment and improved attic ventilation throughout."
       },
-      "roofers": {
-        "value": "40+",
-        "label": "Expert Roofers"
+      "result": {
+        "title": "Final Result",
+        "description": "A durable, energy efficient roof with enhanced curb appeal and lasting protection for many years."
       }
     }
   }

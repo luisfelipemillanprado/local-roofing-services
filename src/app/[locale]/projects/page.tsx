@@ -6,8 +6,9 @@ import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
-import { StatsBand } from "@/features/projects/components/StatsBand";
+import { CaseStudy } from "@/features/projects/components/CaseStudy";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
+import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
@@ -39,10 +40,11 @@ export default async function ProjectsPage({ params }: Props) {
         />
         <Marquee />
         <Projects variant="contact" />
-        <StatsBand />
+        <CaseStudy />
         <Testimonials variant="contact" />
-        <Products limit={6} />
-        <Contact tone="muted" />
+        <Faq variant="projects" tone="base" />
+        <Products tone="muted" limit={6} />
+        <Contact />
       </main>
       <Footer />
     </>

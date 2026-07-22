@@ -7,7 +7,7 @@ const sizes: Record<TextNumberSize, string> = {
     "text-[clamp(1.125rem,0.4432rem+3.0303vw,1.1875rem)] leading-tight" /* 18→19px, mirrors the card title — product card price */,
   stat: "text-xl" /* 20px — WhyChoose stats */,
   headline: "text-[clamp(1.5rem,6.6667vw,1.625rem)] sm:text-3xl" /* fluid 24→26px, 30px (sm) — About stats */,
-  display: "text-3xl sm:text-4xl" /* 30→36px — StatsBand, pricing, About years */,
+  display: "text-3xl sm:text-4xl" /* 30→36px — hero, page header, pricing, About years */,
 };
 
 /* theme-aware tones */
