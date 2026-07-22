@@ -10,57 +10,57 @@
   },
   "items": {
     "cedarHeights": {
-      "title": "Cedar Heights Shingles",
+      "title": "Cedar Heights",
       "category": "SHINGLE RE-ROOF",
-      "description": "New shingles for lasting protection.",
+      "description": "Durable asphalt shingle roof replacement.",
       "intro": "A complete shingle replacement in Cedar Heights: aging layers came off, fresh underlayment went down and architectural shingles now give this family home decades of dependable protection."
     },
     "summitBungalow": {
-      "title": "Summit Bungalow Tiles",
+      "title": "Summit Bungalow",
       "category": "TILE ROOF INSTALLATION",
-      "description": "Tile roofing built to last.",
+      "description": "Profiled tile roof with timeless appeal.",
       "intro": "This Summit bungalow received a brand new tile roof, hand set over reinforced framing, pairing old world charm with modern waterproofing that will outlast generations of weather."
     },
     "lakeviewContemporary": {
-      "title": "Lakeview Skylights",
+      "title": "Lakeview Contemporary",
       "category": "ROOF & SKYLIGHT",
-      "description": "Rooms filled with natural light.",
+      "description": "Modern roof with integrated skylight lighting.",
       "intro": "A contemporary lakeview home upgraded with a new roof system and generous skylights, flooding the interior with natural light while keeping every seam sealed against the elements."
     },
     "mapleGrove": {
-      "title": "Maple Grove Tiles",
+      "title": "Maple Grove",
       "category": "TILE RE-ROOF",
-      "description": "Fresh tiles, fully restored strength.",
+      "description": "Complete roofing upgrade for lasting protection.",
       "intro": "The Maple Grove residence traded worn tiles for a fully restored roof: new battens, fresh membrane and premium tile that returned both strength and character to the home."
     },
     "northgateRanch": {
-      "title": "Northgate Panels",
+      "title": "Northgate Ranch",
       "category": "METAL ROOF SYSTEM",
-      "description": "Sleek metal engineered for decades.",
+      "description": "Clean modern roofing with sharp lines.",
       "intro": "Northgate Ranch now wears a sleek metal roof system, panel by panel precision that stands up to storms and sun while giving the property a bold modern edge."
     },
     "stonebridge": {
-      "title": "Stonebridge Hip Design",
+      "title": "Stonebridge",
       "category": "HIP ROOF INSTALLATION",
-      "description": "Balanced protection on every side.",
+      "description": "Premium roofing with balanced curb appeal.",
       "intro": "A full hip roof installation at Stonebridge, engineered with balanced slopes on every side for superior wind resistance, clean sightlines and protection that wraps the entire home."
     },
     "blackpineEstate": {
-      "title": "Blackpine Standing Seam",
+      "title": "Blackpine Estate",
       "category": "STANDING-SEAM METAL ROOF",
-      "description": "Standing seam metal, sleek and sealed.",
+      "description": "Standing seam metal built to last.",
       "intro": "Blackpine Estate chose standing seam metal for its clean vertical lines and concealed fasteners, a roof that seals out weather completely while aging gracefully for decades to come."
     },
     "greystoneFarmhouse": {
-      "title": "Greystone Slate",
+      "title": "Greystone Farmhouse",
       "category": "SLATE ROOF SYSTEM",
-      "description": "Premium slate with timeless charm.",
+      "description": "Natural slate roof with refined character.",
       "intro": "Premium natural slate crowns the Greystone farmhouse, each piece set by hand for a roof with timeless character and a service life measured in generations, not years."
     },
     "sunsetRidge": {
-      "title": "Sunset Ridge Tiles",
+      "title": "Sunset Ridge",
       "category": "GABLE TILE ROOF",
-      "description": "Classic gable tiles, lasting warmth.",
+      "description": "New tile roof engineered for durability.",
       "intro": "Classic gable lines and warm clay tiles give Sunset Ridge its signature look, a traditional profile rebuilt with modern underlayment for comfort, quiet and lasting weather protection."
     }
   }
