@@ -9,7 +9,7 @@ import { Container } from "@/common/container/components/Container";
 
 const { items, ctaHref } = servicesData;
 
-export const Services = async ({ variant, limit }: ServicesProps) => {
+export const Services = async ({ variant, tone = "muted", limit }: ServicesProps) => {
   const t = await getTranslations("service");
   /* data: order + icon/image; text by key */
   /* limit: home summary, full on /services */
@@ -24,7 +24,7 @@ export const Services = async ({ variant, limit }: ServicesProps) => {
   }));
 
   return (
-    <SectionWrapper id="services" tone="muted">
+    <SectionWrapper id="services" tone={tone}>
       <Container>
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">

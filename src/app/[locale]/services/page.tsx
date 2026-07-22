@@ -7,8 +7,8 @@ import { PageHeader } from "@/shared-sections/page-header/components/PageHeader"
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { Pitch } from "@/shared-sections/pitch/components/Pitch";
+import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
-import { Pricing } from "@/shared-sections/pricing/components/organisms/Pricing";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
@@ -41,8 +41,8 @@ export default async function ServicesPage({ params }: Props) {
         <Marquee />
         <Services variant="contact" />
         <Pitch variant="process" />
-        <Faq />
-        <Pricing variant="contact" />
+        <Testimonials variant="contact" limit={6} />
+        <Faq variant="services" tone="base" />
         <Products tone="muted" limit={6} />
         <Contact />
       </main>
