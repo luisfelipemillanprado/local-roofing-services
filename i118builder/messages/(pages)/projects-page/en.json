@@ -10,10 +10,13 @@
   },
   "caseStudy": {
     "eyebrow": "FEATURED CASE STUDY",
-    "titleLead": "From Damage To",
-    "titleAccent": "Complete Protection",
-    "description": "Explore a real roofing transformation, from the initial damage and inspection through expert installation to the complete and lasting final protection.",
+    "titleLead": "Total Roof Makeover",
+    "titleAccent": "Crafted To Protect",
+    "description": "Discover how we restore roofs damaged by severe weather using expert craftsmanship and premium materials for lasting protection and durability.",
     "compareLabel": "Drag to compare before and after",
+    "action": {
+      "contact": "Contact Us Now"
+    },
     "images": {
       "after": {
         "label": "After",

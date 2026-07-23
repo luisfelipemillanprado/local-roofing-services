@@ -1,12 +1,13 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
+import { Button } from "@/common/call-to-actions/components/Button";
 import { BeforeAfterSlider } from "@/features/projects/components/BeforeAfterSlider";
 import { CaseStudyList } from "@/features/projects/components/CaseStudyList";
 import { caseStudyData } from "@/data/sections/case-study";
 import { Container } from "@/common/container/components/Container";
 
-const { images, cards } = caseStudyData;
+const { images, ctaHref, cards } = caseStudyData;
 
 export const CaseStudy = async () => {
   const t = await getTranslations("projects-page.caseStudy");
@@ -27,13 +28,20 @@ export const CaseStudy = async () => {
     <SectionWrapper>
       <Container>
         <div className="grid gap-13">
-          <SectionHeading
-            align="center"
-            eyebrow={t("eyebrow")}
-            title={t("titleLead")}
-            accent={t("titleAccent")}
-            description={t("description")}
-          />
+          <div className="grid justify-items-center gap-6">
+            <SectionHeading
+              align="center"
+              eyebrow={t("eyebrow")}
+              title={t("titleLead")}
+              accent={t("titleAccent")}
+              description={t("description")}
+            />
+            <div className="mt-2">
+              <Button href={ctaHref.href} variant="secondary" pulse>
+                {t(ctaHref.key)}
+              </Button>
+            </div>
+          </div>
 
           <div className="grid items-stretch gap-9 lg:grid-cols-[1.4fr_1fr]">
             <BeforeAfterSlider before={before} after={after} compareLabel={t("compareLabel")} />

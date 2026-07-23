@@ -14,6 +14,9 @@
     "titleAccent": "La Protección Total",
     "description": "Explora una transformación real de techado, desde el daño y la inspección iniciales hasta la instalación experta y la protección duradera.",
     "compareLabel": "Arrastra para comparar antes y después",
+    "action": {
+      "contact": "Contáctanos Ahora"
+    },
     "images": {
       "after": {
         "label": "Después",

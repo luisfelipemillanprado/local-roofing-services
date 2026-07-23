@@ -5,6 +5,8 @@ export const caseStudyData = {
     before: "/images/case/before.webp",
     after: "/images/case/after.webp",
   },
+  /* section cta: i18n key (text) + href (destination) */
+  ctaHref: { key: "action.contact", href: "#contact" },
   cards: [
     { key: "challenge", icon: "alert" },
     { key: "solution", icon: "wrench" },
