@@ -1,4 +1,4 @@
-import { CaseStudyCard } from "@/features/projects/components/CaseStudyCard";
+import { CaseStudyCard } from "@/features/projects/components/molecules/CaseStudyCard";
 import type { CaseStudyListProps } from "@/features/projects/types";
 
 /* stacked case-study narrative cards */

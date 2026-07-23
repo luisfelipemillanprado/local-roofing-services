@@ -6,7 +6,7 @@ import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
-import { CaseStudy } from "@/features/projects/components/CaseStudy";
+import { CaseStudy } from "@/features/projects/components/organisms/CaseStudy";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
 import { Products } from "@/shared-sections/products/components/organisms/Products";

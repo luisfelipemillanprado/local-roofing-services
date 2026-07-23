@@ -2,8 +2,8 @@ import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { BeforeAfterSlider } from "@/features/projects/components/BeforeAfterSlider";
-import { CaseStudyList } from "@/features/projects/components/CaseStudyList";
+import { BeforeAfterSlider } from "@/features/projects/components/molecules/BeforeAfterSlider";
+import { CaseStudyList } from "@/features/projects/components/molecules/CaseStudyList";
 import { caseStudyData } from "@/data/sections/case-study";
 import { Container } from "@/common/container/components/Container";
 
