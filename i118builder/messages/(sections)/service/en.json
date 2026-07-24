@@ -11,48 +11,39 @@
   "items": {
     "replacement": {
       "title": "Replacement & Repair",
-      "description": "Full replacements and expert repairs.",
-      "intro": "From full tear offs to targeted repairs, we rebuild aging roofs with premium materials and precise installation, backed by our comprehensive workmanship warranty on every single project."
+      "description": "Full replacements and expert repairs."
     },
     "shingle": {
       "title": "Shingle Roofing",
-      "description": "Built for lasting curb appeal.",
-      "intro": "Architectural asphalt shingles from trusted brands deliver classic curb appeal and dependable weather protection, installed by certified crews and backed by strong manufacturer and workmanship warranties."
+      "description": "Built for lasting curb appeal."
     },
     "metal": {
       "title": "Metal Roofing",
-      "description": "Engineered to last for decades.",
-      "intro": "Standing seam and ribbed metal systems engineered for decades of service, shrugging off storms, sun and snow while giving your property a clean, modern architectural profile."
+      "description": "Engineered to last for decades."
     },
     "storm": {
       "title": "Damage & Insurance",
-      "description": "Rapid response to storm damage.",
-      "intro": "When storms strike, our emergency crews tarp, secure and repair your roof fast, then document every detail to support your insurance claim from inspection to final approval."
+      "description": "Rapid response to storm damage."
     },
     "commercial": {
       "title": "Commercial Roofing",
-      "description": "Flat roof systems for businesses.",
-      "intro": "From TPO and EPDM membranes to torch applied systems, we install and maintain flat and low slope roofs that keep offices, warehouses and storefronts protected year round."
+      "description": "Flat roof systems for businesses."
     },
     "maintenance": {
       "title": "Roof Maintenance",
-      "description": "Preventative care and inspection plans.",
-      "intro": "Seasonal inspections, gutter cleaning and minor tune ups on a set schedule keep small issues from growing, extending your roof's life and protecting your manufacturer warranty."
+      "description": "Preventative care and inspection plans."
     },
     "gutters": {
       "title": "Gutters & Flashing",
-      "description": "Protecting every home from water.",
-      "intro": "Seamless gutters and precision flashing keep water moving away from your home, protecting the foundation, siding and roofline from leaks, rot and costly structural damage year after year."
+      "description": "Protecting every home from water."
     },
     "skylights": {
       "title": "Skylight Installation",
-      "description": "Leak free skylights, expertly installed.",
-      "intro": "We cut, frame, flash and seal new skylights with leak proof precision, bringing natural light into your home while preserving the integrity of your existing roof."
+      "description": "Leak free skylights, expertly installed."
     },
     "solar": {
       "title": "Solar Roofing",
-      "description": "Solar ready roofs that save.",
-      "intro": "We integrate solar panels with your roofing system the right way, sealed mounts and smart layouts that cut energy bills without ever compromising your roof's protection."
+      "description": "Solar ready roofs that save."
     }
   }
 }

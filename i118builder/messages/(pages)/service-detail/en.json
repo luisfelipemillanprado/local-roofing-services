@@ -1,0 +1,376 @@
+{
+  "includedTitle": "What's Included",
+  "idealTitle": "Ideal For",
+  "processEyebrow": "OUR PROCESS",
+  "items": {
+    "replacement": {
+      "intro": "From full tear offs to targeted repairs, we rebuild aging roofs with premium materials and precise installation, backed by our comprehensive workmanship warranty on every single project.",
+      "included": [
+        "Full inspection of the existing roof",
+        "Complete tear off to the deck",
+        "Deck repair and moisture correction",
+        "Fresh underlayment and premium materials",
+        "Full cleanup and magnetic nail sweep",
+        "Written workmanship warranty on completion"
+      ],
+      "ideal": [
+        "Roofs past fifteen years of age",
+        "Repeated leaks across multiple areas",
+        "Widespread storm or hail damage",
+        "Homes getting ready for resale",
+        "Older roofs wasting energy indoors"
+      ],
+      "process": {
+        "titleLead": "How A Full Replacement",
+        "titleAccent": "Project Goes",
+        "description": "A clear path from first inspection to final warranty, with a flat price and no surprises along the way.",
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We document the full roof condition and share a written report before any work begins."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+          },
+          "work": {
+            "title": "Tear Off And Install",
+            "description": "Crews strip the old roof, correct the deck and fit your new system with care."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We water test the finished roof and hand you a workmanship warranty in writing."
+          }
+        }
+      }
+    },
+    "shingle": {
+      "intro": "Architectural asphalt shingles from trusted brands deliver classic curb appeal and dependable weather protection, installed by certified crews and backed by strong manufacturer and workmanship warranties.",
+      "included": [
+        "Full inspection of the existing roof",
+        "Architectural asphalt shingle installation",
+        "Fresh underlayment and drip edge",
+        "New flashing at every roof penetration",
+        "Full cleanup and magnetic nail sweep",
+        "Manufacturer and workmanship warranty"
+      ],
+      "ideal": [
+        "Homes wanting classic curb appeal",
+        "Roofs due for a fresh look",
+        "Budget minded full replacements",
+        "Neighborhoods with strict style rules",
+        "Owners who value proven materials"
+      ],
+      "process": {
+        "titleLead": "How A Shingle Roof",
+        "titleAccent": "Project Goes",
+        "description": "From the first inspection to the last nail we keep every shingle job clean, scheduled and fully documented.",
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We document the roof condition and share a written report before any shingle goes down."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+          },
+          "work": {
+            "title": "Install And Seal",
+            "description": "Certified crews lay underlayment, shingles and flashing with tight seams built to shed water."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We inspect the finished roof and hand you manufacturer and workmanship warranties in writing."
+          }
+        }
+      }
+    },
+    "metal": {
+      "intro": "Standing seam and ribbed metal systems engineered for decades of service, shrugging off storms, sun and snow while giving your property a clean, modern architectural profile.",
+      "included": [
+        "Full inspection of the existing roof",
+        "Standing seam or ribbed metal panels",
+        "High temperature underlayment layer",
+        "Concealed fasteners and custom flashing",
+        "Full cleanup and magnetic nail sweep",
+        "Long term manufacturer warranty"
+      ],
+      "ideal": [
+        "Homes wanting decades of service",
+        "Areas with heavy sun or storms",
+        "Owners after a modern profile",
+        "Properties near salt or wildfire",
+        "Buyers focused on lasting value"
+      ],
+      "process": {
+        "titleLead": "How A Metal Roof",
+        "titleAccent": "Project Goes",
+        "description": "From panel layout to the final seam we plan every metal install for precision, weather resistance and clean lines.",
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We measure the roof, plan the panel layout and share a written report before we begin."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+          },
+          "work": {
+            "title": "Panel And Seam",
+            "description": "Crews set high temperature underlayment then lock each panel with concealed, weather tight fasteners."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We water test every seam and hand you a long term manufacturer and workmanship warranty."
+          }
+        }
+      }
+    },
+    "storm": {
+      "intro": "When storms strike, our emergency crews tarp, secure and repair your roof fast, then document every detail to support your insurance claim from inspection to final approval.",
+      "included": [
+        "Rapid emergency tarp and secure",
+        "Full storm damage inspection",
+        "Photo documentation for your claim",
+        "Direct coordination with your insurer",
+        "Permanent repairs or full replacement",
+        "Workmanship warranty on all repairs"
+      ],
+      "ideal": [
+        "Roofs hit by wind or hail",
+        "Sudden leaks after a storm",
+        "Homeowners filing an insurance claim",
+        "Missing or lifted shingles",
+        "Emergencies needing a fast response"
+      ],
+      "process": {
+        "titleLead": "How A Storm Claim",
+        "titleAccent": "Project Goes",
+        "description": "From the first emergency call to final approval we secure your roof and document every detail for your claim.",
+        "steps": {
+          "inspect": {
+            "title": "Secure And Photo",
+            "description": "We tarp the roof fast, then document all storm damage with photos for your insurer."
+          },
+          "quote": {
+            "title": "Claim Support",
+            "description": "We prepare a detailed scope and work directly with your insurance from filing to approval."
+          },
+          "work": {
+            "title": "Repair And Restore",
+            "description": "Once approved, our crews repair or replace the damaged roof with matching, code compliant materials."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We inspect the finished work and back every storm repair with our workmanship warranty."
+          }
+        }
+      }
+    },
+    "commercial": {
+      "intro": "From TPO and EPDM membranes to torch applied systems, we install and maintain flat and low slope roofs that keep offices, warehouses and storefronts protected year round.",
+      "included": [
+        "Full inspection of the existing roof",
+        "TPO EPDM or torch applied membrane",
+        "Tapered insulation for proper drainage",
+        "Reinforced seams and edge detailing",
+        "Minimal disruption to your operations",
+        "Workmanship warranty in writing"
+      ],
+      "ideal": [
+        "Offices warehouses and storefronts",
+        "Flat or low slope roofs",
+        "Buildings with ponding water",
+        "Properties needing quiet installs",
+        "Owners managing multiple locations"
+      ],
+      "process": {
+        "titleLead": "How A Commercial Roof",
+        "titleAccent": "Project Goes",
+        "description": "From site survey to final signoff we schedule every commercial job around your business and its hours.",
+        "steps": {
+          "inspect": {
+            "title": "Survey And Photo",
+            "description": "We survey the roof, check drainage and share a written report with zero disruption to work."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get a detailed written scope and price with clear terms and no hidden change orders."
+          },
+          "work": {
+            "title": "Membrane Install",
+            "description": "Crews set insulation and membrane with reinforced seams, working around your staff and business hours."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We flood test the seams and hand you a written manufacturer and workmanship warranty."
+          }
+        }
+      }
+    },
+    "maintenance": {
+      "intro": "Seasonal inspections, gutter cleaning and minor tune ups on a set schedule keep small issues from growing, extending your roof's life and protecting your manufacturer warranty.",
+      "included": [
+        "Scheduled seasonal roof inspections",
+        "Gutter and downspout cleaning",
+        "Minor flashing and sealant tune ups",
+        "Debris removal from the roof",
+        "Written condition report each visit",
+        "Priority scheduling for repairs"
+      ],
+      "ideal": [
+        "Roofs still under warranty",
+        "Owners who prefer prevention",
+        "Homes under heavy tree cover",
+        "Older roofs needing regular care",
+        "Anyone avoiding costly surprises"
+      ],
+      "process": {
+        "titleLead": "How A Maintenance Plan",
+        "titleAccent": "Works",
+        "description": "From the first visit onward we keep your roof on a simple schedule that catches small issues early.",
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We check the roof, flashing and gutters each season and photograph anything that needs attention."
+          },
+          "quote": {
+            "title": "Simple Plan",
+            "description": "You get a clear plan and price for the year with no surprise per visit billing."
+          },
+          "work": {
+            "title": "Clean And Tune",
+            "description": "We clear debris, clean gutters and handle minor sealant and flashing fixes on every visit."
+          },
+          "warranty": {
+            "title": "Report And Protect",
+            "description": "You receive a written report each visit that helps protect your existing roof warranty."
+          }
+        }
+      }
+    },
+    "gutters": {
+      "intro": "Seamless gutters and precision flashing keep water moving away from your home, protecting the foundation, siding and roofline from leaks, rot and costly structural damage year after year.",
+      "included": [
+        "Full inspection of gutters and roofline",
+        "Seamless aluminum gutter installation",
+        "New downspouts and water diversion",
+        "Precision flashing at every joint",
+        "Full cleanup and haul away",
+        "Workmanship warranty in writing"
+      ],
+      "ideal": [
+        "Homes with overflowing gutters",
+        "Foundations at risk from water",
+        "Roofs with worn or loose flashing",
+        "Properties under heavy rainfall",
+        "Owners tired of constant clogs"
+      ],
+      "process": {
+        "titleLead": "How A Gutter Project",
+        "titleAccent": "Goes",
+        "description": "From measuring the roofline to the final downspout we route every drop of water safely away from your home.",
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We measure the roofline, check the flashing and share a written report before any work."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+          },
+          "work": {
+            "title": "Form And Fit",
+            "description": "Crews form seamless gutters on site, then fit flashing and downspouts for clean, reliable drainage."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We run water through the system and back every gutter and flashing job with our warranty."
+          }
+        }
+      }
+    },
+    "skylights": {
+      "intro": "We cut, frame, flash and seal new skylights with leak proof precision, bringing natural light into your home while preserving the integrity of your existing roof.",
+      "included": [
+        "Full inspection of the roof deck",
+        "Precision cut and framed opening",
+        "Leak proof flashing kit installation",
+        "Energy efficient skylight unit",
+        "Interior finish around the shaft",
+        "Workmanship warranty in writing"
+      ],
+      "ideal": [
+        "Dark rooms needing natural light",
+        "Hallways and baths without windows",
+        "Homes wanting passive daylighting",
+        "Owners after a brighter interior",
+        "Remodels adding roof openings"
+      ],
+      "process": {
+        "titleLead": "How A Skylight Install",
+        "titleAccent": "Project Goes",
+        "description": "From the first measurement to the final seal we open your roof for light while keeping it fully watertight.",
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We check the deck and interior, plan the opening and share a written report before cutting."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+          },
+          "work": {
+            "title": "Cut And Flash",
+            "description": "Crews cut and frame the opening, set the unit and seal it with a leak proof kit."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We water test the skylight and back the install with our workmanship warranty in writing."
+          }
+        }
+      }
+    },
+    "solar": {
+      "intro": "We integrate solar panels with your roofing system the right way, sealed mounts and smart layouts that cut energy bills without ever compromising your roof's protection.",
+      "included": [
+        "Full inspection of the roof structure",
+        "Sealed and flashed mounting points",
+        "Smart panel layout for best output",
+        "Roof reinforcement where needed",
+        "Clean routing of all wiring",
+        "Workmanship warranty in writing"
+      ],
+      "ideal": [
+        "Homes with high energy bills",
+        "South facing unshaded roofs",
+        "Owners going solar the right way",
+        "New roofs ready for panels",
+        "Buyers focused on long savings"
+      ],
+      "process": {
+        "titleLead": "How A Solar Roof",
+        "titleAccent": "Project Goes",
+        "description": "From roof assessment to the last sealed mount we integrate solar without ever compromising your roof.",
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We assess the roof structure and sun exposure, then share a written report and layout."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+          },
+          "work": {
+            "title": "Mount And Seal",
+            "description": "Crews reinforce the deck as needed, set sealed mounts and route wiring cleanly under the panels."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We check every seal and connection and back the roof work with our workmanship warranty."
+          }
+        }
+      }
+    }
+  }
+}
