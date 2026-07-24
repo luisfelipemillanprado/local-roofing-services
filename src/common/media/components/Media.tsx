@@ -9,6 +9,8 @@ const shapes: Record<MediaShape, string> = {
   /* about hero: full-width 1 col → lg half column */
   feature:
     "h-[clamp(24rem,calc(3.5rem_+_87vw),28rem)] md:h-[clamp(42rem,calc(-5rem_+_97vw),46rem)] lg:h-[clamp(28rem,calc(-20rem_+_75vw),40rem)]",
+  /* detail showcase: centered, capped, framed — native 1024x572 ratio */
+  showcase: "mx-auto aspect-6/5 max-w-5xl rounded-card shadow-md md:aspect-1024/572",
 };
 
 export const Media = ({ src, alt, sizes, shape }: MediaProps) => (
