@@ -1,7 +1,10 @@
+import type { testimonialsData } from "@/data/sections/testimonials";
+
 export interface TestimonialsProps {
   variant: "viewAll" | "contact";
   tone?: "base" | "muted" /* section surface; keeps page section alternation correct */;
   limit?: number;
+  set?: keyof typeof testimonialsData.sets /* general reviews or a per-service collection */;
 }
 
 export interface TestimonialCardProps {

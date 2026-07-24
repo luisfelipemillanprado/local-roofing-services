@@ -8,18 +8,23 @@ import { testimonialsData } from "@/data/sections/testimonials";
 import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
 import { Container } from "@/common/container/components/Container";
 
-const { items, ctaHref, rating } = testimonialsData;
+const { sets, ctaHref, rating } = testimonialsData;
 
-export const Testimonials = async ({ variant, tone = "muted", limit }: TestimonialsProps) => {
+export const Testimonials = async ({
+  variant,
+  tone = "muted",
+  limit,
+  set = "general",
+}: TestimonialsProps) => {
   const t = await getTranslations("testimonial");
-  /* data: order + avatar; text by key */
+  /* set: general reviews or a per-service collection; text by full key */
   /* limit: home summary, full on /about and /projects */
-  const cards = items.slice(0, limit).map((testimonial, i) => ({
+  const cards = sets[set].items.slice(0, limit).map((testimonial, i) => ({
     key: testimonial.key,
     avatar: testimonial.avatar,
-    quote: t(`items.${testimonial.key}.quote`),
-    name: t(`items.${testimonial.key}.name`),
-    location: t(`items.${testimonial.key}.location`),
+    quote: t(`${testimonial.key}.quote`),
+    name: t(`${testimonial.key}.name`),
+    location: t(`${testimonial.key}.location`),
     delay: i * 0.08,
   }));
 

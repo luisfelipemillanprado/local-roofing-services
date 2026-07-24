@@ -8,36 +8,344 @@
     "contact": "Contact Us Now"
   },
   "reviews": "reviews",
-  "items": {
-    "paula": {
-      "quote": "From the first inspection to the final cleanup the team was professional and transparent. Our new energy efficient roof already cut our cooling costs noticeably.",
-      "name": "Paula R. Moss",
-      "location": "Brickell, FL"
-    },
-    "dennis": {
-      "quote": "Roofpro replaced our entire roof after a hailstorm and handled the insurance paperwork end to end. The crew was punctual, tidy and genuinely cared throughout.",
-      "name": "Dennis M. Collis",
-      "location": "Wynwood, FL"
-    },
-    "howard": {
-      "quote": "Fast emergency response when a storm tore off our shingles overnight. They tarped everything within hours and had the roof fully repaired by the weekend.",
-      "name": "Howard J. Tanner",
-      "location": "Downtown Miami, FL"
-    },
-    "grace": {
-      "quote": "They rebuilt our roof with standing seam metal and the difference is night and day. Professional, on time, and they treated our property with respect.",
-      "name": "Grace E. Holloway",
-      "location": "Coral Gables, FL"
-    },
-    "greg": {
-      "quote": "I got three quotes and Roofpro was by far the most transparent company. No hidden fees, quality workmanship, and they even finished ahead of schedule.",
-      "name": "Greg T. Walsh",
-      "location": "Coconut Grove, FL"
-    },
-    "tyler": {
-      "quote": "From the inspection to the warranty paperwork everything was completely clear and easy. Our new roof looks fantastic and the whole house feels cooler already.",
-      "name": "Tyler S. Brooks",
-      "location": "Little Havana, FL"
+  "general": {
+    "items": {
+      "paula": {
+        "quote": "From the first inspection to the final cleanup the team was professional and transparent. Our new energy efficient roof already cut our cooling costs noticeably.",
+        "name": "Paula R. Moss",
+        "location": "Brickell, FL"
+      },
+      "dennis": {
+        "quote": "Roofpro replaced our entire roof after a hailstorm and handled the insurance paperwork end to end. The crew was punctual, tidy and genuinely cared throughout.",
+        "name": "Dennis M. Collis",
+        "location": "Wynwood, FL"
+      },
+      "howard": {
+        "quote": "Fast emergency response when a storm tore off our shingles overnight. They tarped everything within hours and had the roof fully repaired by the weekend.",
+        "name": "Howard J. Tanner",
+        "location": "Downtown Miami, FL"
+      },
+      "grace": {
+        "quote": "They rebuilt our roof with standing seam metal and the difference is night and day. Professional, on time, and they treated our property with respect.",
+        "name": "Grace E. Holloway",
+        "location": "Coral Gables, FL"
+      },
+      "greg": {
+        "quote": "I got three quotes and Roofpro was by far the most transparent company. No hidden fees, quality workmanship, and they even finished ahead of schedule.",
+        "name": "Greg T. Walsh",
+        "location": "Coconut Grove, FL"
+      },
+      "tyler": {
+        "quote": "From the inspection to the warranty paperwork everything was completely clear and easy. Our new roof looks fantastic and the whole house feels cooler already.",
+        "name": "Tyler S. Brooks",
+        "location": "Little Havana, FL"
+      }
+    }
+  },
+  "replacement": {
+    "items": {
+      "r1": {
+        "quote": "They stripped our failing roof to the deck and rebuilt it in two days. The new system looks flawless and the house finally feels sealed again.",
+        "name": "Marcus D. Whitfield",
+        "location": "Cedar Heights, FL"
+      },
+      "r2": {
+        "quote": "After years of patching leaks we finally replaced the whole roof. The crew was spotless, right on schedule, and walked us through every material choice.",
+        "name": "Priscilla A. Vance",
+        "location": "Coral Gables, FL"
+      },
+      "r3": {
+        "quote": "Our old roof was past saving and they were honest about it. The full replacement came with a written warranty and a flat price that never moved.",
+        "name": "Douglas E. Marsh",
+        "location": "Wynwood, FL"
+      },
+      "r4": {
+        "quote": "From tear off to final inspection everything was documented with photos. Our new roof handled the very first storm without a single drip inside.",
+        "name": "Yolanda R. Prescott",
+        "location": "Brickell, FL"
+      },
+      "r5": {
+        "quote": "They replaced the entire roof and left the yard cleaner than they found it. The magnetic nail sweep told me these people truly care.",
+        "name": "Terrence J. Colton",
+        "location": "Coconut Grove, FL"
+      },
+      "r6": {
+        "quote": "Best decision we made for this house. The new roof cut our energy bills and the whole replacement finished a full day ahead of schedule.",
+        "name": "Bianca M. Ellison",
+        "location": "Little Havana, FL"
+      }
+    }
+  },
+  "shingle": {
+    "items": {
+      "r1": {
+        "quote": "Our new architectural shingles completely changed the look of the house. The crew was neat, fast, and every line came out perfectly straight.",
+        "name": "Nathan P. Ridley",
+        "location": "Kendall, FL"
+      },
+      "r2": {
+        "quote": "They matched our neighborhood style rules exactly and still finished under budget. The shingle roof looks premium and has not leaked once since.",
+        "name": "Carla J. Denton",
+        "location": "Pinecrest, FL"
+      },
+      "r3": {
+        "quote": "From the underlayment to the ridge caps everything was done by the book. You can tell these shingles were installed by real professionals.",
+        "name": "Owen R. Blackwell",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "We wanted classic curb appeal and got exactly that. The flashing work around our chimney is flawless and the whole roof feels solid.",
+        "name": "Meredith A. Vance",
+        "location": "Coral Gables, FL"
+      },
+      "r5": {
+        "quote": "Certified crew, clean site, and a clear warranty in writing. Our shingle roof survived hurricane season without losing a single tab.",
+        "name": "Bradley T. Hurst",
+        "location": "Westchester, FL"
+      },
+      "r6": {
+        "quote": "Three neighbors have already asked who did our roof. The shingle color and workmanship raised the whole look of our street.",
+        "name": "Simone L. Vega",
+        "location": "Cutler Bay, FL"
+      }
+    }
+  },
+  "metal": {
+    "items": {
+      "r1": {
+        "quote": "Our standing seam roof is stunning and dead quiet in the rain. The concealed fasteners give it a clean modern line we love.",
+        "name": "Grant M. Halloran",
+        "location": "Coral Way, FL"
+      },
+      "r2": {
+        "quote": "We chose metal for the long haul and have zero regrets. It shrugged off brutal sun all summer and still looks brand new.",
+        "name": "Denise K. Powers",
+        "location": "Palmetto Bay, FL"
+      },
+      "r3": {
+        "quote": "The panel layout they planned lined up perfectly with the house. Precise, weather tight, and clearly built to last for decades.",
+        "name": "Victor S. Almeida",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "Living near the coast we needed something that handles salt air. This metal system was sealed and flashed to survive anything.",
+        "name": "Rachel N. Foster",
+        "location": "Aventura, FL"
+      },
+      "r5": {
+        "quote": "The crew water tested every seam before leaving. That attention to detail is why our metal roof has stayed bone dry.",
+        "name": "Elliot G. Ramsey",
+        "location": "Midtown, FL"
+      },
+      "r6": {
+        "quote": "Modern profile, huge warranty, and a team that respected our property. Our metal roof is easily the best upgrade we made.",
+        "name": "Paula B. Cordero",
+        "location": "Edgewater, FL"
+      }
+    }
+  },
+  "storm": {
+    "items": {
+      "r1": {
+        "quote": "A storm ripped half our shingles off and they had us tarped within hours. The insurance paperwork was handled start to finish.",
+        "name": "Marcus T. Dillon",
+        "location": "Hialeah, FL"
+      },
+      "r2": {
+        "quote": "Hail wrecked our roof and I dreaded the claim. Their photo documentation got it approved fast with almost no stress for us.",
+        "name": "Gloria E. Nunez",
+        "location": "Westchester, FL"
+      },
+      "r3": {
+        "quote": "They responded the same night our roof started leaking. Emergency crew secured everything, then repaired it right once the claim cleared.",
+        "name": "Trevor A. Sallis",
+        "location": "Cutler Bay, FL"
+      },
+      "r4": {
+        "quote": "The adjuster was tough but their detailed scope backed us up. We got a full replacement covered and the work is excellent.",
+        "name": "Nadia R. Beckett",
+        "location": "Kendall, FL"
+      },
+      "r5": {
+        "quote": "Wind lifted our shingles overnight and they were out fast. Matching materials, code compliant, and a warranty on every repair.",
+        "name": "Curtis M. Vaughn",
+        "location": "Homestead, FL"
+      },
+      "r6": {
+        "quote": "From the emergency call to final approval they walked us through it all. Honest, quick, and our roof is stronger than before.",
+        "name": "Bianca S. Holt",
+        "location": "Sunset, FL"
+      }
+    }
+  },
+  "commercial": {
+    "items": {
+      "r1": {
+        "quote": "They replaced our warehouse roof around our shifts with zero downtime. The TPO membrane has kept the whole floor bone dry since.",
+        "name": "Gerald P. Winters",
+        "location": "Doral, FL"
+      },
+      "r2": {
+        "quote": "Our office had ponding water for years. Their tapered insulation fixed the drainage and the flood test proved every seam holds.",
+        "name": "Ana C. Restrepo",
+        "location": "Downtown Miami, FL"
+      },
+      "r3": {
+        "quote": "Managing three storefronts, I needed one reliable roofer. Their crews are quiet, clean, and always finish on the promised schedule.",
+        "name": "Leonard T. Osei",
+        "location": "Midtown, FL"
+      },
+      "r4": {
+        "quote": "The written scope was crystal clear with no surprise change orders. Our commercial roof came in on budget and on time.",
+        "name": "Priya D. Malhotra",
+        "location": "Brickell, FL"
+      },
+      "r5": {
+        "quote": "Reinforced seams and detailed edges, done right the first time. Our low slope roof finally stopped the leaks over the storeroom.",
+        "name": "Frank R. Colton",
+        "location": "Hialeah, FL"
+      },
+      "r6": {
+        "quote": "They understood a business cannot just close for a roof. Minimal disruption, solid membrane, and a warranty we can count on.",
+        "name": "Sandra L. Pike",
+        "location": "Doral, FL"
+      }
+    }
+  },
+  "maintenance": {
+    "items": {
+      "r1": {
+        "quote": "Their seasonal plan caught a small flashing issue before it became a leak. That one visit probably saved us thousands of dollars.",
+        "name": "Howard J. Meade",
+        "location": "Pinecrest, FL"
+      },
+      "r2": {
+        "quote": "Twice a year they clean the gutters and check everything. Simple price, clear report, and total peace of mind for us.",
+        "name": "Regina P. Alvarez",
+        "location": "Coral Gables, FL"
+      },
+      "r3": {
+        "quote": "We have big oaks dropping debris all year. Their regular visits keep the roof clear and our warranty fully protected.",
+        "name": "Danny R. Osborne",
+        "location": "Palmetto Bay, FL"
+      },
+      "r4": {
+        "quote": "The written report after each visit is genuinely useful. I finally understand my roof and never worry about surprise repairs.",
+        "name": "Lucia M. Ferrand",
+        "location": "Kendall, FL"
+      },
+      "r5": {
+        "quote": "Small tune ups on a schedule beat one huge repair bill. Our older roof is aging gracefully thanks to their care.",
+        "name": "Terrence B. Ward",
+        "location": "Westchester, FL"
+      },
+      "r6": {
+        "quote": "They spotted a lifted shingle and sealed it on the spot. Prevention done right, and priority scheduling when we do need help.",
+        "name": "Yvonne S. Crane",
+        "location": "Cutler Bay, FL"
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "r1": {
+        "quote": "Our old gutters overflowed every storm and soaked the foundation. The new seamless run finally sends the water where it belongs.",
+        "name": "Colin R. Baxter",
+        "location": "Kendall, FL"
+      },
+      "r2": {
+        "quote": "Precision flashing and clean downspouts made a night and day difference. No more clogs, no more water pooling by the door.",
+        "name": "Marisol T. Reyes",
+        "location": "Hialeah, FL"
+      },
+      "r3": {
+        "quote": "They measured the whole roofline and formed the gutters on site. Everything fits tight and drains beautifully even in heavy rain.",
+        "name": "Douglas E. Hartley",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "Water was creeping toward our siding for years. Their new system and flashing stopped it cold and the cleanup was spotless.",
+        "name": "Naomi K. Bright",
+        "location": "Coral Way, FL"
+      },
+      "r5": {
+        "quote": "Seamless aluminum, new downspouts, and they hauled the old ones away. The water test proved it moves fast and clean.",
+        "name": "Randy P. Sloan",
+        "location": "Homestead, FL"
+      },
+      "r6": {
+        "quote": "Tired of climbing up to clear clogs, we finally called them. Best decision, our roofline stays dry and the foundation is safe.",
+        "name": "Elena V. Marsh",
+        "location": "Sunset, FL"
+      }
+    }
+  },
+  "skylights": {
+    "items": {
+      "r1": {
+        "quote": "Our dark hallway is now full of natural light. They cut, framed and sealed the skylight without a hint of a leak.",
+        "name": "Peter J. Donnelly",
+        "location": "Pinecrest, FL"
+      },
+      "r2": {
+        "quote": "The bathroom had no window and always felt like a cave. One skylight later it is bright and the roof stayed watertight.",
+        "name": "Camila R. Ortega",
+        "location": "Coral Gables, FL"
+      },
+      "r3": {
+        "quote": "I worried about leaks but their flashing kit is bulletproof. First heavy rain came and not a single drop got through.",
+        "name": "Aaron M. Fielding",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "They planned the opening around our rafters perfectly. The interior finish around the shaft looks like it was always there.",
+        "name": "Delia S. Marchetti",
+        "location": "Kendall, FL"
+      },
+      "r5": {
+        "quote": "Natural daylight cut our lighting use and warmed up the whole room. Clean install, energy efficient unit, and a solid warranty.",
+        "name": "Grant P. Hollis",
+        "location": "Midtown, FL"
+      },
+      "r6": {
+        "quote": "From measurement to final seal everything was careful and precise. Our new skylight is the best part of the living room now.",
+        "name": "Vanessa L. Crowe",
+        "location": "Cutler Bay, FL"
+      }
+    }
+  },
+  "solar": {
+    "items": {
+      "r1": {
+        "quote": "They mounted the panels the right way with sealed and flashed points. Our energy bill dropped and the roof never leaked.",
+        "name": "Julian R. Prescott",
+        "location": "Doral, FL"
+      },
+      "r2": {
+        "quote": "Most installers ignore the roof. This team reinforced the deck and routed the wiring cleanly under every single panel.",
+        "name": "Sofia M. Delgado",
+        "location": "Kendall, FL"
+      },
+      "r3": {
+        "quote": "South facing and unshaded, our roof was perfect for solar. Their smart layout squeezed out the most output possible.",
+        "name": "Wesley T. Barron",
+        "location": "Palmetto Bay, FL"
+      },
+      "r4": {
+        "quote": "We put panels on a brand new roof and they protected it fully. Every mount is sealed and the savings are real.",
+        "name": "Harmony K. Lott",
+        "location": "Coral Way, FL"
+      },
+      "r5": {
+        "quote": "The sealed mounts give me total peace of mind. No leaks, clean wiring, and a warranty that covers the roof work too.",
+        "name": "Damian S. Fuentes",
+        "location": "Homestead, FL"
+      },
+      "r6": {
+        "quote": "Going solar the right way meant respecting the roof first. They did exactly that and our bills have never been lower.",
+        "name": "Renata P. Vasquez",
+        "location": "Sunset, FL"
+      }
     }
   }
 }
