@@ -1,15 +1,16 @@
-/* Case study section: before/after of the same home + narrative cards, text by key */
+/* Case study: before/after + narrative cards, text by key */
 export const caseStudyData = {
-  /* same home, compared in the before/after slider */
-  images: {
-    before: "/images/case/before.webp",
-    after: "/images/case/after.webp",
-  },
+  /* same home; before shown first */
+  images: [
+    { key: "before", src: "/images/case/before.webp" },
+    { key: "after", src: "/images/case/after.webp" },
+  ],
   /* section cta: i18n key (text) + href (destination) */
   ctaHref: { key: "action.contact", href: "#contact" },
   cards: [
     { key: "challenge", icon: "alert" },
     { key: "solution", icon: "wrench" },
     { key: "result", icon: "shield" },
+    { key: "guarantee", icon: "award" },
   ],
 } as const;

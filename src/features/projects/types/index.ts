@@ -1,6 +1,8 @@
-import type { IconBadgeKey } from "@/common/icon-badge/types";
+export interface CaseStudyProps {
+  tone?: "base" | "muted" /* section surface; keeps page section alternation correct */;
+}
 
-/* resolved before/after image: src from data, label + alt from i18n */
+/* resolved before/after image: src + label + alt */
 export interface CaseStudyImage {
   src: string;
   label: string;
@@ -11,19 +13,4 @@ export interface BeforeAfterSliderProps {
   before: CaseStudyImage;
   after: CaseStudyImage;
   compareLabel: string;
-}
-
-export interface CaseStudyCardProps {
-  icon: IconBadgeKey;
-  title: string;
-  description: string;
-}
-
-/* resolved per-card item for the list */
-interface CaseStudyCardItem extends CaseStudyCardProps {
-  key: string;
-}
-
-export interface CaseStudyListProps {
-  cards: CaseStudyCardItem[];
 }

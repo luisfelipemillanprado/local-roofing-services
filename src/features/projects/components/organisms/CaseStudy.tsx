@@ -3,29 +3,34 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { BeforeAfterSlider } from "@/features/projects/components/molecules/BeforeAfterSlider";
-import { CaseStudyList } from "@/features/projects/components/molecules/CaseStudyList";
-import { caseStudyData } from "@/data/sections/case-study";
+import { CaseStudyCardList } from "@/features/projects/components/molecules/CaseStudyCardList";
+import { caseStudyData } from "@/data/pages/projects";
 import { Container } from "@/common/container/components/Container";
+import type { CaseStudyProps } from "@/features/projects/types";
 
 const { images, ctaHref, cards } = caseStudyData;
 
-export const CaseStudy = async () => {
+export const CaseStudy = async ({ tone = "base" }: CaseStudyProps) => {
   const t = await getTranslations("projects-page.caseStudy");
 
-  /* before/after: src from data, label + alt from i18n */
-  const before = { src: images.before, label: t("images.before.label"), alt: t("images.before.alt") };
-  const after = { src: images.after, label: t("images.after.label"), alt: t("images.after.alt") };
+  /* before/after: src + key from data, label + alt by key */
+  const [before, after] = images.map((image) => ({
+    src: image.src,
+    label: t(`images.${image.key}.label`),
+    alt: t(`images.${image.key}.alt`),
+  }));
 
-  /* cards: icon from data, text by key */
-  const cardItems = cards.map((card) => ({
+  /* cards: icon from data, text by key, stagger delay */
+  const cardItems = cards.map((card, i) => ({
     key: card.key,
     icon: card.icon,
     title: t(`cards.${card.key}.title`),
     description: t(`cards.${card.key}.description`),
+    delay: i * 0.08,
   }));
 
   return (
-    <SectionWrapper>
+    <SectionWrapper tone={tone}>
       <Container>
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">
@@ -42,10 +47,9 @@ export const CaseStudy = async () => {
               </Button>
             </div>
           </div>
-
-          <div className="grid items-stretch gap-9 lg:grid-cols-[1.4fr_1fr]">
+          <div className="grid gap-13">
             <BeforeAfterSlider before={before} after={after} compareLabel={t("compareLabel")} />
-            <CaseStudyList cards={cardItems} />
+            <CaseStudyCardList cards={cardItems} />
           </div>
         </div>
       </Container>

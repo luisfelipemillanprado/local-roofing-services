@@ -40,7 +40,7 @@ export default async function ProjectsPage({ params }: Props) {
         />
         <Marquee />
         <Projects variant="contact" />
-        <CaseStudy />
+        <CaseStudy tone="base" />
         <Testimonials variant="contact" />
         <Faq variant="projects" tone="base" />
         <Products tone="muted" limit={6} />
