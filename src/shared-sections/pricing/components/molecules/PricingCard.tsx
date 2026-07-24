@@ -1,6 +1,7 @@
 import { IconBadge } from "@/common/icon-badge/components/IconBadge";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
 import { Button } from "@/common/call-to-actions/components/Button";
+import { Tag } from "@/common/tag/components/Tag";
 import { Reveal } from "@/common/reveal/components/Reveal";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
@@ -29,8 +30,8 @@ export const PricingCard = ({
       }`}
     >
       {highlighted && (
-        <span className="absolute top-6 right-6 rounded-full bg-primary px-3 py-1">
-          <Text as="span" size="label" tone="white" weight="semibold" tracking="wide" text={popular} />
+        <span className="absolute top-6 right-6">
+          <Tag text={popular} />
         </span>
       )}
 
