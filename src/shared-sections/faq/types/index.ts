@@ -1,5 +1,10 @@
+import type { faqData } from "@/data/sections/faq";
+
+/* page variants + per-service slugs; the ctaHref bundle is not a variant */
+type FaqVariant = Exclude<keyof typeof faqData, "ctaHref">;
+
 export interface FaqProps {
-  variant: "services" | "about" | "projects";
+  variant: FaqVariant;
   tone?: "base" | "muted" /* section surface; keeps page section alternation correct */;
 }
 

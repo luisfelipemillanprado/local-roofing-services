@@ -79,7 +79,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         <ServiceIncluded serviceKey={service.key} tone="base" />
         <ServiceProcess serviceKey={service.key} tone="muted" />
         <Testimonials variant="contact" set={service.key} limit={6} tone="base" />
-        <Faq variant="services" tone="muted" />
+        <Faq variant={service.key} tone="muted" />
         <Contact />
       </main>
       <Footer />

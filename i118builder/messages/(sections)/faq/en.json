@@ -101,5 +101,261 @@
         "a": "Common signs include missing or damaged shingles, persistent leaks, sagging areas, or water stains on ceilings. We provide free professional inspections to determine whether a targeted repair or a full replacement is the best option for your home."
       }
     }
+  },
+  "replacement": {
+    "items": {
+      "duration": {
+        "q": "How long does a full roof replacement take?",
+        "a": "Most single family replacements finish in one to two days. Tile reroofs and complex layouts can take three to five days."
+      },
+      "presence": {
+        "q": "Do I need to leave the house during a replacement?",
+        "a": "No. The crew works outside. You will hear hammering and tear off noise, so pets and small children may want to be away for the noisy hours."
+      },
+      "cost": {
+        "q": "What is the typical cost range for a residential replacement?",
+        "a": "Most Miami and Fort Lauderdale shingle reroofs land between $12,000 and $25,000 depending on size, slope, and material. Tile reroofs are typically $18,000 to $40,000. We give you a fixed line item quote, never a range."
+      },
+      "warranty": {
+        "q": "Is the warranty on materials or workmanship?",
+        "a": "Both. You get the manufacturer warranty on materials plus our written workmanship warranty on the install."
+      },
+      "leaks": {
+        "q": "Will a replacement stop my leaks for good?",
+        "a": "Yes. A full replacement removes every worn layer and installs fresh underlayment and flashing, so the leaks caused by an aging roof are gone."
+      },
+      "rain": {
+        "q": "What happens if it rains during my replacement?",
+        "a": "We only tear off what the crew can close the same day and tarp the rest, so your home stays protected until the new roof is on."
+      },
+      "permit": {
+        "q": "Do you handle the permit and inspection?",
+        "a": "Yes. We pull the permit, schedule the city inspection, and hand you the signed paperwork once the job passes."
+      }
+    }
+  },
+  "shingle": {
+    "items": {
+      "lifespan": {
+        "q": "How long does a shingle roof last?",
+        "a": "Quality architectural shingles last twenty five to thirty years in the Florida climate when installed correctly and inspected on a regular basis."
+      },
+      "wind": {
+        "q": "Will shingles hold up to Florida wind?",
+        "a": "Yes. We install shingles rated for high wind with proper nailing and starter strips, so they stay locked down through storm season."
+      },
+      "colors": {
+        "q": "Can I choose the shingle color and style?",
+        "a": "Absolutely. We bring samples so you can match your home and neighborhood, from classic dimensional looks to bold designer colors."
+      },
+      "cost": {
+        "q": "How much does a shingle roof cost?",
+        "a": "Most Miami and Fort Lauderdale shingle roofs land between $12,000 and $25,000 depending on size, slope, and material. You get a fixed line item quote."
+      },
+      "warranty": {
+        "q": "What warranty comes with a shingle roof?",
+        "a": "You get the manufacturer warranty on the shingles plus our written workmanship warranty on the installation."
+      },
+      "overlay": {
+        "q": "Can you install new shingles over the old ones?",
+        "a": "We do not recommend it. A full tear off lets us inspect the deck and start clean, which protects your warranty and your home."
+      }
+    }
+  },
+  "metal": {
+    "items": {
+      "lifespan": {
+        "q": "How long does a metal roof last?",
+        "a": "A properly installed standing seam metal roof can last forty to sixty years, far outlasting most other roofing systems in Florida."
+      },
+      "noise": {
+        "q": "Is a metal roof loud when it rains?",
+        "a": "No. With solid decking and underlayment beneath the panels, a modern metal roof is no louder than a shingle roof in the rain."
+      },
+      "heat": {
+        "q": "Does a metal roof make the house hotter?",
+        "a": "The opposite. Reflective metal finishes bounce back the Florida sun and can lower your cooling bills compared to dark shingles."
+      },
+      "cost": {
+        "q": "How much more does metal cost than shingles?",
+        "a": "Metal runs higher upfront, but the decades of service and energy savings make it a strong long term value. You get a fixed quote."
+      },
+      "storms": {
+        "q": "Does a metal roof hold up to hurricanes?",
+        "a": "Yes. Standing seam panels with concealed fasteners are among the most wind resistant systems available, ideal for coastal Florida."
+      },
+      "rust": {
+        "q": "Will a metal roof rust or corrode?",
+        "a": "Modern panels use coated steel or aluminum built to resist salt air and corrosion, so they stay sound for decades."
+      }
+    }
+  },
+  "storm": {
+    "items": {
+      "inspection": {
+        "q": "Do you offer free storm damage inspections?",
+        "a": "Yes. After any major storm we provide a free photo documented inspection so you know exactly what damage your roof took."
+      },
+      "claim": {
+        "q": "Will you work with my insurance company?",
+        "a": "We do. We document everything and coordinate directly with your insurer from the first claim through final approval."
+      },
+      "emergency": {
+        "q": "Can you tarp my roof right away?",
+        "a": "Yes. Our emergency crews secure and tarp damaged roofs fast to stop further water damage while your claim is processed."
+      },
+      "deductible": {
+        "q": "What will I pay out of pocket?",
+        "a": "Usually just your insurance deductible on covered claims. We give you a clear written scope so there are no surprises."
+      },
+      "timeline": {
+        "q": "How fast can repairs start?",
+        "a": "Emergency work happens immediately. Full repairs begin as soon as your claim is approved and materials are on hand."
+      },
+      "denied": {
+        "q": "What if my claim is denied?",
+        "a": "We help you understand the decision and document the damage thoroughly, which often supports an appeal or a fair repair plan."
+      }
+    }
+  },
+  "commercial": {
+    "items": {
+      "systems": {
+        "q": "What commercial roof systems do you install?",
+        "a": "We install TPO, EPDM, and torch applied modified bitumen, matching the system to your building and budget."
+      },
+      "disruption": {
+        "q": "Will the work disrupt my business?",
+        "a": "We schedule around your hours and work in sections, keeping noise and access issues to a minimum so you stay open."
+      },
+      "ponding": {
+        "q": "Can you fix ponding water on a flat roof?",
+        "a": "Yes. We add tapered insulation and correct the drainage so water flows off instead of pooling and wearing the membrane."
+      },
+      "maintenance": {
+        "q": "Do you offer maintenance for commercial roofs?",
+        "a": "We do. Scheduled inspections and minor repairs extend the life of the membrane and protect your warranty."
+      },
+      "warranty": {
+        "q": "What warranty comes with a commercial roof?",
+        "a": "You get the manufacturer membrane warranty plus our written workmanship warranty on the installation."
+      },
+      "cost": {
+        "q": "How is a commercial roof priced?",
+        "a": "By square footage, system, and access. You get a detailed written scope and price with clear terms and no hidden change orders."
+      }
+    }
+  },
+  "maintenance": {
+    "items": {
+      "frequency": {
+        "q": "How often should my roof be inspected?",
+        "a": "We recommend a professional inspection twice a year and after any major storm to catch small issues early."
+      },
+      "plan": {
+        "q": "What does a maintenance plan include?",
+        "a": "Seasonal inspections, gutter cleaning, minor sealant and flashing tune ups, and a written report after every visit."
+      },
+      "warranty": {
+        "q": "Does maintenance protect my warranty?",
+        "a": "Yes. Many manufacturer warranties require regular maintenance, and our reports document that your roof is being cared for."
+      },
+      "cost": {
+        "q": "How much does a maintenance plan cost?",
+        "a": "Plans are priced for the year based on roof size and access, with a clear flat price and no surprise per visit billing."
+      },
+      "worth": {
+        "q": "Is roof maintenance really worth it?",
+        "a": "Absolutely. Catching a small leak or lifted shingle early costs far less than a major repair down the road."
+      },
+      "repairs": {
+        "q": "Do you handle repairs found during maintenance?",
+        "a": "We do, and plan members get priority scheduling so small problems are fixed before they grow."
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "seamless": {
+        "q": "What are seamless gutters?",
+        "a": "Seamless gutters are formed on site to fit your roofline in one continuous piece, so there are far fewer joints to leak or clog."
+      },
+      "flashing": {
+        "q": "Why does flashing matter so much?",
+        "a": "Flashing seals the joints where the roof meets walls, valleys, and chimneys. Bad flashing is one of the most common causes of leaks."
+      },
+      "clogs": {
+        "q": "Can you help with constant gutter clogs?",
+        "a": "Yes. We size the gutters correctly, add proper downspouts, and can install guards to keep debris moving through."
+      },
+      "foundation": {
+        "q": "Do gutters really protect the foundation?",
+        "a": "They do. Moving water away from the house keeps it off the foundation and siding, preventing rot and costly structural damage."
+      },
+      "cost": {
+        "q": "How much do new gutters cost?",
+        "a": "Cost depends on the length of the roofline and the materials. You get a fixed line item quote before any work begins."
+      },
+      "warranty": {
+        "q": "Is there a warranty on gutter work?",
+        "a": "Yes. Every gutter and flashing job is backed by our written workmanship warranty."
+      }
+    }
+  },
+  "skylights": {
+    "items": {
+      "leak": {
+        "q": "Do skylights leak?",
+        "a": "Not when installed right. We use a leak proof flashing kit and seal every edge, and we water test the skylight before we leave."
+      },
+      "rooms": {
+        "q": "Which rooms work best for a skylight?",
+        "a": "Dark hallways, bathrooms without windows, kitchens, and living rooms all benefit from the natural light a skylight brings in."
+      },
+      "heat": {
+        "q": "Will a skylight make the room hot?",
+        "a": "We install energy efficient units with low emissivity glass that let in light while blocking much of the Florida heat."
+      },
+      "existing": {
+        "q": "Can you add a skylight to my existing roof?",
+        "a": "Yes. We plan the opening around your rafters, cut and frame it cleanly, and seal it into the existing roof."
+      },
+      "cost": {
+        "q": "How much does a skylight cost?",
+        "a": "Cost depends on the unit and the roof, but you get a fixed written quote covering the skylight, flashing, and interior finish."
+      },
+      "warranty": {
+        "q": "What warranty comes with a skylight?",
+        "a": "You get the manufacturer warranty on the unit plus our written workmanship warranty on the leak proof installation."
+      }
+    }
+  },
+  "solar": {
+    "items": {
+      "roof": {
+        "q": "Do you install the roof and the solar panels?",
+        "a": "Yes. We integrate the panels with your roofing system the right way, so the mounts are sealed and flashed and the roof stays protected."
+      },
+      "leaks": {
+        "q": "Will solar mounts cause leaks?",
+        "a": "Not with proper installation. Every mounting point is sealed and flashed, and we reinforce the deck where needed."
+      },
+      "new": {
+        "q": "Should I replace my roof before going solar?",
+        "a": "If your roof is aging, yes. Installing panels on a new roof avoids removing them later and protects your investment for decades."
+      },
+      "savings": {
+        "q": "How much can solar save me?",
+        "a": "Savings depend on your usage and layout, but a smart panel layout on a sunny Florida roof can cut energy bills significantly."
+      },
+      "output": {
+        "q": "How do you get the best output?",
+        "a": "We assess your roof for sun exposure and design the panel layout to capture the most energy across the day."
+      },
+      "warranty": {
+        "q": "Is the roof still under warranty with solar?",
+        "a": "Yes. Our workmanship warranty covers the roof work, and the panels carry their own manufacturer warranty."
+      }
+    }
   }
 }

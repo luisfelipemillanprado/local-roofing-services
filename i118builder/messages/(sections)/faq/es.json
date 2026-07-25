@@ -101,5 +101,261 @@
         "a": "Las señales comunes incluyen tejas faltantes o dañadas, goteras persistentes, áreas hundidas o manchas de agua en los cielos rasos. Brindamos inspecciones profesionales gratuitas para determinar si una reparación puntual o un reemplazo completo es la mejor opción para tu hogar."
       }
     }
+  },
+  "replacement": {
+    "items": {
+      "duration": {
+        "q": "¿Cuánto tarda un reemplazo completo de techo?",
+        "a": "La mayoría de los reemplazos en casas unifamiliares terminan en uno o dos días. Los retechados de teja y los diseños complejos pueden tomar de tres a cinco días."
+      },
+      "presence": {
+        "q": "¿Debo salir de la casa durante el reemplazo?",
+        "a": "No. La cuadrilla trabaja afuera. Escucharás martilleo y ruido de retiro, así que las mascotas y los niños pequeños quizá prefieran estar fuera durante las horas ruidosas."
+      },
+      "cost": {
+        "q": "¿Cuál es el rango de precio típico de un reemplazo residencial?",
+        "a": "La mayoría de los retechados de tejas en Miami y Fort Lauderdale rondan entre $12,000 y $25,000 según tamaño, pendiente y material. Los de teja suelen ir de $18,000 a $40,000. Te damos una cotización fija y detallada, nunca un rango."
+      },
+      "warranty": {
+        "q": "¿La garantía es sobre materiales o mano de obra?",
+        "a": "Ambas. Recibes la garantía del fabricante sobre los materiales más nuestra garantía de mano de obra por escrito sobre la instalación."
+      },
+      "leaks": {
+        "q": "¿El reemplazo detiene mis goteras para siempre?",
+        "a": "Sí. Un reemplazo completo retira cada capa gastada e instala membrana y tapajuntas nuevos, así que las goteras causadas por un techo viejo desaparecen."
+      },
+      "rain": {
+        "q": "¿Qué pasa si llueve durante el reemplazo?",
+        "a": "Solo retiramos lo que la cuadrilla puede cerrar el mismo día y cubrimos el resto con lona, así tu casa queda protegida hasta que el techo nuevo esté puesto."
+      },
+      "permit": {
+        "q": "¿Ustedes gestionan el permiso y la inspección?",
+        "a": "Sí. Tramitamos el permiso, agendamos la inspección de la ciudad y te entregamos el papeleo firmado una vez que el trabajo pasa."
+      }
+    }
+  },
+  "shingle": {
+    "items": {
+      "lifespan": {
+        "q": "¿Cuánto dura un techo de tejas?",
+        "a": "Las tejas arquitectónicas de calidad duran de veinticinco a treinta años en el clima de Florida cuando se instalan bien y se inspeccionan con regularidad."
+      },
+      "wind": {
+        "q": "¿Las tejas resisten el viento de Florida?",
+        "a": "Sí. Instalamos tejas clasificadas para viento fuerte con clavado y tiras de arranque correctas, así se mantienen fijas toda la temporada de tormentas."
+      },
+      "colors": {
+        "q": "¿Puedo elegir el color y estilo de la teja?",
+        "a": "Claro. Llevamos muestras para que combines con tu casa y vecindario, desde looks dimensionales clásicos hasta colores de diseñador."
+      },
+      "cost": {
+        "q": "¿Cuánto cuesta un techo de tejas?",
+        "a": "La mayoría de los techos de tejas en Miami y Fort Lauderdale van entre $12,000 y $25,000 según tamaño, pendiente y material. Recibes una cotización fija y detallada."
+      },
+      "warranty": {
+        "q": "¿Qué garantía trae un techo de tejas?",
+        "a": "Recibes la garantía del fabricante sobre las tejas más nuestra garantía de mano de obra por escrito sobre la instalación."
+      },
+      "overlay": {
+        "q": "¿Pueden instalar tejas nuevas sobre las viejas?",
+        "a": "No lo recomendamos. Un retiro total nos deja inspeccionar la base y empezar limpio, lo que protege tu garantía y tu casa."
+      }
+    }
+  },
+  "metal": {
+    "items": {
+      "lifespan": {
+        "q": "¿Cuánto dura un techo metálico?",
+        "a": "Un techo metálico de junta alzada bien instalado puede durar de cuarenta a sesenta años, superando por mucho a otros sistemas en Florida."
+      },
+      "noise": {
+        "q": "¿Un techo metálico es ruidoso con la lluvia?",
+        "a": "No. Con base sólida y membrana bajo los paneles, un techo metálico moderno no es más ruidoso que uno de tejas bajo la lluvia."
+      },
+      "heat": {
+        "q": "¿El metal calienta más la casa?",
+        "a": "Al contrario. Los acabados metálicos reflectivos rebotan el sol de Florida y pueden bajar tu factura de enfriamiento frente a las tejas oscuras."
+      },
+      "cost": {
+        "q": "¿Cuánto más cuesta el metal que las tejas?",
+        "a": "El metal cuesta más al inicio, pero sus décadas de servicio y el ahorro de energía lo hacen un gran valor a largo plazo. Recibes una cotización fija."
+      },
+      "storms": {
+        "q": "¿El techo metálico resiste huracanes?",
+        "a": "Sí. Los paneles de junta alzada con fijaciones ocultas están entre los sistemas más resistentes al viento, ideales para la costa de Florida."
+      },
+      "rust": {
+        "q": "¿Un techo metálico se oxida o corroe?",
+        "a": "Los paneles modernos usan acero o aluminio recubierto hecho para resistir el salitre y la corrosión, así se mantienen firmes por décadas."
+      }
+    }
+  },
+  "storm": {
+    "items": {
+      "inspection": {
+        "q": "¿Ofrecen inspecciones gratis por daño de tormenta?",
+        "a": "Sí. Tras cualquier tormenta fuerte damos una inspección gratuita documentada con fotos para que sepas exactamente qué daño sufrió tu techo."
+      },
+      "claim": {
+        "q": "¿Trabajan con mi compañía de seguros?",
+        "a": "Sí. Documentamos todo y coordinamos directo con tu aseguradora desde el primer reclamo hasta la aprobación final."
+      },
+      "emergency": {
+        "q": "¿Pueden cubrir mi techo con lona de inmediato?",
+        "a": "Sí. Nuestras cuadrillas de emergencia aseguran y cubren los techos dañados rápido para frenar más daño por agua mientras se procesa tu reclamo."
+      },
+      "deductible": {
+        "q": "¿Cuánto pagaré de mi bolsillo?",
+        "a": "Normalmente solo tu deducible del seguro en reclamos cubiertos. Te damos un alcance claro por escrito para que no haya sorpresas."
+      },
+      "timeline": {
+        "q": "¿Qué tan rápido pueden empezar las reparaciones?",
+        "a": "El trabajo de emergencia es inmediato. Las reparaciones completas empiezan apenas se aprueba tu reclamo y llegan los materiales."
+      },
+      "denied": {
+        "q": "¿Y si niegan mi reclamo?",
+        "a": "Te ayudamos a entender la decisión y documentamos el daño a fondo, lo que muchas veces apoya una apelación o un plan de reparación justo."
+      }
+    }
+  },
+  "commercial": {
+    "items": {
+      "systems": {
+        "q": "¿Qué sistemas de techo comercial instalan?",
+        "a": "Instalamos TPO, EPDM y bitumen modificado aplicado con soplete, ajustando el sistema a tu edificio y presupuesto."
+      },
+      "disruption": {
+        "q": "¿El trabajo interrumpirá mi negocio?",
+        "a": "Agendamos según tu horario y trabajamos por secciones, reduciendo el ruido y los problemas de acceso para que sigas abierto."
+      },
+      "ponding": {
+        "q": "¿Pueden arreglar el agua estancada en un techo plano?",
+        "a": "Sí. Agregamos aislamiento en pendiente y corregimos el drenaje para que el agua fluya en vez de acumularse y desgastar la membrana."
+      },
+      "maintenance": {
+        "q": "¿Ofrecen mantenimiento para techos comerciales?",
+        "a": "Sí. Las inspecciones programadas y las reparaciones menores alargan la vida de la membrana y protegen tu garantía."
+      },
+      "warranty": {
+        "q": "¿Qué garantía trae un techo comercial?",
+        "a": "Recibes la garantía del fabricante sobre la membrana más nuestra garantía de mano de obra por escrito sobre la instalación."
+      },
+      "cost": {
+        "q": "¿Cómo se cotiza un techo comercial?",
+        "a": "Por pies cuadrados, sistema y acceso. Recibes un alcance y precio detallados por escrito con términos claros y sin órdenes de cambio ocultas."
+      }
+    }
+  },
+  "maintenance": {
+    "items": {
+      "frequency": {
+        "q": "¿Cada cuánto debo inspeccionar mi techo?",
+        "a": "Recomendamos una inspección profesional dos veces al año y después de cualquier tormenta fuerte para detectar problemas pequeños a tiempo."
+      },
+      "plan": {
+        "q": "¿Qué incluye un plan de mantenimiento?",
+        "a": "Inspecciones estacionales, limpieza de canaletas, ajustes menores de sellador y tapajuntas, y un reporte escrito tras cada visita."
+      },
+      "warranty": {
+        "q": "¿El mantenimiento protege mi garantía?",
+        "a": "Sí. Muchas garantías de fabricante exigen mantenimiento regular, y nuestros reportes documentan que tu techo recibe cuidado."
+      },
+      "cost": {
+        "q": "¿Cuánto cuesta un plan de mantenimiento?",
+        "a": "Los planes se cotizan por el año según el tamaño y el acceso del techo, con un precio fijo claro y sin cobros sorpresa por visita."
+      },
+      "worth": {
+        "q": "¿De verdad vale la pena el mantenimiento?",
+        "a": "Totalmente. Detectar a tiempo una gotera pequeña o una teja levantada cuesta mucho menos que una reparación mayor más adelante."
+      },
+      "repairs": {
+        "q": "¿Atienden reparaciones halladas en el mantenimiento?",
+        "a": "Sí, y los miembros del plan reciben prioridad de agenda para que los problemas pequeños se arreglen antes de crecer."
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "seamless": {
+        "q": "¿Qué son las canaletas sin uniones?",
+        "a": "Las canaletas sin uniones se forman en sitio para ajustar tu techo en una sola pieza continua, así hay muchas menos juntas que goteen o se tapen."
+      },
+      "flashing": {
+        "q": "¿Por qué importa tanto el tapajuntas?",
+        "a": "El tapajuntas sella las juntas donde el techo se encuentra con paredes, valles y chimeneas. Un mal tapajuntas es una de las causas más comunes de goteras."
+      },
+      "clogs": {
+        "q": "¿Pueden ayudar con los tapones constantes?",
+        "a": "Sí. Dimensionamos bien las canaletas, agregamos bajantes adecuados y podemos instalar guardas para que los residuos sigan de largo."
+      },
+      "foundation": {
+        "q": "¿Las canaletas realmente protegen el cimiento?",
+        "a": "Sí. Alejar el agua de la casa la mantiene lejos del cimiento y la fachada, evitando pudrición y daños estructurales costosos."
+      },
+      "cost": {
+        "q": "¿Cuánto cuestan canaletas nuevas?",
+        "a": "El costo depende del largo del techo y los materiales. Recibes una cotización fija y detallada antes de empezar."
+      },
+      "warranty": {
+        "q": "¿Hay garantía en el trabajo de canaletas?",
+        "a": "Sí. Cada trabajo de canaletas y tapajuntas está respaldado por nuestra garantía de mano de obra por escrito."
+      }
+    }
+  },
+  "skylights": {
+    "items": {
+      "leak": {
+        "q": "¿Las claraboyas gotean?",
+        "a": "No cuando se instalan bien. Usamos un kit de tapajuntas a prueba de filtraciones y sellamos cada borde, y probamos la claraboya con agua antes de irnos."
+      },
+      "rooms": {
+        "q": "¿Qué cuartos son mejores para una claraboya?",
+        "a": "Pasillos oscuros, baños sin ventanas, cocinas y salas se benefician de la luz natural que aporta una claraboya."
+      },
+      "heat": {
+        "q": "¿Una claraboya calienta el cuarto?",
+        "a": "Instalamos unidades eficientes con vidrio de baja emisividad que dejan pasar la luz mientras bloquean gran parte del calor de Florida."
+      },
+      "existing": {
+        "q": "¿Pueden agregar una claraboya a mi techo actual?",
+        "a": "Sí. Planeamos la abertura alrededor de tus vigas, la cortamos y enmarcamos limpio, y la sellamos al techo existente."
+      },
+      "cost": {
+        "q": "¿Cuánto cuesta una claraboya?",
+        "a": "El costo depende de la unidad y el techo, pero recibes una cotización fija por escrito que cubre la claraboya, el tapajuntas y el acabado interior."
+      },
+      "warranty": {
+        "q": "¿Qué garantía trae una claraboya?",
+        "a": "Recibes la garantía del fabricante sobre la unidad más nuestra garantía de mano de obra por escrito sobre la instalación a prueba de filtraciones."
+      }
+    }
+  },
+  "solar": {
+    "items": {
+      "roof": {
+        "q": "¿Instalan el techo y los paneles solares?",
+        "a": "Sí. Integramos los paneles con tu sistema de techado de la forma correcta, así los montajes quedan sellados y con tapajuntas y el techo protegido."
+      },
+      "leaks": {
+        "q": "¿Los montajes solares causan goteras?",
+        "a": "No con una instalación adecuada. Cada punto de montaje se sella y se coloca con tapajuntas, y reforzamos la base donde se necesita."
+      },
+      "new": {
+        "q": "¿Debo reemplazar el techo antes de poner solar?",
+        "a": "Si tu techo está viejo, sí. Instalar paneles en un techo nuevo evita retirarlos después y protege tu inversión por décadas."
+      },
+      "savings": {
+        "q": "¿Cuánto puedo ahorrar con solar?",
+        "a": "El ahorro depende de tu consumo y del diseño, pero un trazado inteligente en un techo soleado de Florida puede bajar bastante la factura."
+      },
+      "output": {
+        "q": "¿Cómo logran la mejor salida de energía?",
+        "a": "Evaluamos la exposición al sol de tu techo y diseñamos el trazado de paneles para captar la mayor energía a lo largo del día."
+      },
+      "warranty": {
+        "q": "¿El techo sigue con garantía al poner solar?",
+        "a": "Sí. Nuestra garantía de mano de obra cubre el trabajo del techo, y los paneles traen su propia garantía de fabricante."
+      }
+    }
   }
 }
