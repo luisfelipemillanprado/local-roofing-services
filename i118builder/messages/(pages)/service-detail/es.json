@@ -2,44 +2,61 @@
   "includedTitle": "Qué Incluye",
   "idealTitle": "Ideal Para",
   "processEyebrow": "NUESTRO PROCESO",
+  "action": {
+    "contact": "Contáctanos Ahora"
+  },
+  "stats": {
+    "years": {
+      "value": "25+",
+      "label": "Años de Experiencia"
+    },
+    "projects": {
+      "value": "1.5k+",
+      "label": "Techos Completados"
+    },
+    "licensed": {
+      "value": "100%",
+      "label": "Licencia y Seguro"
+    }
+  },
   "items": {
     "replacement": {
       "intro": "Desde retiros completos hasta reparaciones puntuales, reconstruimos techos envejecidos con materiales premium e instalación precisa, respaldados por nuestra garantía integral de mano de obra en cada proyecto.",
       "included": [
-        "Inspección completa del techo actual",
-        "Retiro total hasta la base",
-        "Reparación de base y humedad",
-        "Membrana nueva y materiales premium",
-        "Limpieza total y barrido magnético",
-        "Garantía de mano de obra por escrito"
+        "Retiro total del techo e inspección de la base",
+        "Reemplazo de base podrida (cotizado aparte, nunca oculto)",
+        "Membrana sintética nueva de alta temperatura",
+        "Metal de valle, respiraderos de cumbrera y tapajuntas escalonado nuevos",
+        "Tejas asfálticas o de arcilla premium",
+        "Retiro total de escombros y barrido magnético de clavos",
+        "Garantía de mano de obra por escrito más garantía del fabricante"
       ],
       "ideal": [
-        "Techos con más de quince años",
-        "Filtraciones repetidas en varias zonas",
-        "Daño extenso por tormenta o granizo",
-        "Casas que se preparan para venta",
-        "Techos viejos que desperdician energía"
+        "Techos de más de 18 años (asfáltico) o 25 años (teja)",
+        "Daño extenso por huracán o granizo",
+        "Reemplazos por reclamo al seguro",
+        "Remediación de techo antes de la venta"
       ],
       "process": {
         "titleLead": "Cómo Va Un Reemplazo",
-        "titleAccent": "Completo Paso A Paso",
-        "description": "Un camino claro desde la primera inspección hasta la garantía final, con un precio fijo y sin sorpresas en el trayecto.",
+        "titleAccent": "De Techo Paso A Paso",
+        "description": "Un camino claro desde la primera inspección hasta el recorrido final, con un precio fijo por escrito y sin sorpresas.",
         "steps": {
           "inspect": {
-            "title": "Inspección Y Fotos",
-            "description": "Documentamos todo el estado del techo y te damos un reporte escrito antes de empezar."
+            "title": "Inspección + Estimado",
+            "description": "Fotografiamos el estado completo de tu techo y enviamos una cotización detallada por escrito en 24 horas."
           },
           "quote": {
-            "title": "Cotización Escrita",
-            "description": "Recibes un precio fijo por escrito válido por treinta días sin cobros por hora sorpresa."
+            "title": "Agenda + Permiso",
+            "description": "Tramitamos el permiso del condado, agendamos tu cuadrilla y confirmamos contigo la fecha de inicio por escrito."
           },
           "work": {
-            "title": "Retiro E Instalación",
-            "description": "El equipo retira el techo viejo, corrige la base e instala tu sistema nuevo con cuidado."
+            "title": "Retiro + Instalación",
+            "description": "Retiro total con revisión de base, luego membrana nueva, metal de valle, tapajuntas y tejas, todo fotografiado."
           },
           "warranty": {
-            "title": "Prueba Y Garantía",
-            "description": "Probamos el techo terminado con agua y te entregamos la garantía de mano de obra por escrito."
+            "title": "Limpieza + Recorrido",
+            "description": "Barrido magnético de clavos, retiro total de escombros, recorrido final juntos y garantía por escrito en mano."
           }
         }
       }
@@ -68,19 +85,19 @@
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
-            "description": "Documentamos el estado del techo y te damos un reporte escrito antes de colocar una teja."
+            "description": "Documentamos el estado completo del techo y te damos un reporte escrito antes de colocar una teja."
           },
           "quote": {
             "title": "Cotización Escrita",
-            "description": "Recibes un precio fijo por escrito válido por treinta días sin cobros por hora sorpresa."
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
           },
           "work": {
             "title": "Instalar Y Sellar",
-            "description": "Cuadrillas certificadas colocan membrana, tejas y tapajuntas con uniones firmes que expulsan el agua."
+            "description": "Cuadrillas certificadas colocan membrana nueva, tejas y tapajuntas con uniones firmes y rectas que expulsan el agua."
           },
           "warranty": {
             "title": "Prueba Y Garantía",
-            "description": "Inspeccionamos el techo terminado y te entregamos garantía de fabricante y mano de obra por escrito."
+            "description": "Inspeccionamos el techo terminado y te entregamos ambas garantías de fabricante y mano de obra por escrito."
           }
         }
       }
@@ -113,15 +130,15 @@
           },
           "quote": {
             "title": "Cotización Escrita",
-            "description": "Recibes un precio fijo por escrito válido por treinta días sin cobros por hora sorpresa."
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
           },
           "work": {
             "title": "Panel Y Junta",
-            "description": "Colocan la membrana de alta temperatura y fijan cada panel con sujeciones ocultas y herméticas."
+            "description": "Primero colocan la membrana de alta temperatura y luego fijan cada panel con sujeciones ocultas y herméticas."
           },
           "warranty": {
             "title": "Prueba Y Garantía",
-            "description": "Probamos cada junta con agua y te entregamos garantía de fabricante y mano de obra a largo plazo."
+            "description": "Probamos cada junta con agua y entregamos garantía de fabricante y mano de obra a largo plazo."
           }
         }
       }
@@ -154,7 +171,7 @@
           },
           "quote": {
             "title": "Apoyo Con El Reclamo",
-            "description": "Preparamos un alcance detallado y trabajamos directo con tu seguro desde la solicitud hasta la aprobación."
+            "description": "Preparamos un alcance detallado y trabajamos directo con tu aseguradora desde la primera solicitud hasta la aprobación."
           },
           "work": {
             "title": "Reparar Y Restaurar",
@@ -162,7 +179,7 @@
           },
           "warranty": {
             "title": "Prueba Y Garantía",
-            "description": "Inspeccionamos el trabajo terminado y respaldamos cada reparación con nuestra garantía de mano de obra."
+            "description": "Inspeccionamos el trabajo terminado y respaldamos cada reparación por tormenta con nuestra garantía de mano de obra."
           }
         }
       }
@@ -191,7 +208,7 @@
         "steps": {
           "inspect": {
             "title": "Estudio Y Fotos",
-            "description": "Estudiamos el techo, revisamos el drenaje y damos un reporte escrito sin interrumpir el trabajo."
+            "description": "Estudiamos el techo, revisamos el drenaje y damos un reporte escrito sin interrumpir para nada tu trabajo."
           },
           "quote": {
             "title": "Cotización Escrita",
@@ -199,7 +216,7 @@
           },
           "work": {
             "title": "Instalar Membrana",
-            "description": "Colocan aislamiento y membrana con uniones reforzadas, trabajando alrededor de tu personal y horario."
+            "description": "Colocan el aislamiento y la membrana con uniones reforzadas, trabajando en silencio junto a tu personal diario."
           },
           "warranty": {
             "title": "Prueba Y Garantía",
@@ -232,19 +249,19 @@
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
-            "description": "Revisamos techo, tapajuntas y canaletas cada temporada y fotografiamos todo lo que necesita atención."
+            "description": "Revisamos el techo, el tapajuntas y las canaletas cada temporada, y fotografiamos todo lo que necesita atención."
           },
           "quote": {
             "title": "Plan Simple",
-            "description": "Recibes un plan y precio claros para el año sin cobros sorpresa por visita."
+            "description": "Recibes un solo plan y precio claros para todo el año, sin ningún cobro sorpresa por visita."
           },
           "work": {
             "title": "Limpiar Y Ajustar",
-            "description": "Retiramos escombros, limpiamos canaletas y hacemos ajustes menores de sellador y tapajuntas cada visita."
+            "description": "Retiramos escombros, limpiamos bien las canaletas y hacemos ajustes menores de sellador y tapajuntas en cada visita."
           },
           "warranty": {
             "title": "Reporte Y Protección",
-            "description": "Recibes un reporte escrito en cada visita que ayuda a proteger la garantía de tu techo."
+            "description": "Recibes un reporte escrito cada visita que ayuda a proteger y extender la garantía de tu techo."
           }
         }
       }
@@ -273,19 +290,19 @@
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
-            "description": "Medimos la línea del techo, revisamos el tapajuntas y damos un reporte escrito antes de trabajar."
+            "description": "Medimos toda la línea del techo, revisamos el tapajuntas y damos un reporte escrito antes de trabajar."
           },
           "quote": {
             "title": "Cotización Escrita",
-            "description": "Recibes un precio fijo por escrito válido por treinta días sin cobros por hora sorpresa."
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
           },
           "work": {
             "title": "Formar Y Ajustar",
-            "description": "Las cuadrillas forman canaletas sin uniones en sitio y ajustan tapajuntas y bajantes para buen drenaje."
+            "description": "Las cuadrillas forman canaletas sin uniones en sitio y ajustan tapajuntas y bajantes para un buen drenaje."
           },
           "warranty": {
             "title": "Prueba Y Garantía",
-            "description": "Pasamos agua por el sistema y respaldamos cada trabajo de canaletas y tapajuntas con garantía."
+            "description": "Pasamos agua por todo el sistema y respaldamos cada trabajo de canaletas y tapajuntas con nuestra garantía."
           }
         }
       }
@@ -318,15 +335,15 @@
           },
           "quote": {
             "title": "Cotización Escrita",
-            "description": "Recibes un precio fijo por escrito válido por treinta días sin cobros por hora sorpresa."
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
           },
           "work": {
             "title": "Cortar Y Sellar",
-            "description": "Cortan y enmarcan la abertura, colocan la unidad y la sellan con un kit a prueba de filtraciones."
+            "description": "Cortan y enmarcan bien la abertura, colocan la unidad y la sellan con un kit totalmente impermeable."
           },
           "warranty": {
             "title": "Prueba Y Garantía",
-            "description": "Probamos la claraboya con agua y respaldamos la instalación con nuestra garantía por escrito."
+            "description": "Probamos la claraboya ya terminada con agua y respaldamos toda la instalación con nuestra garantía escrita completa."
           }
         }
       }
@@ -355,19 +372,19 @@
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
-            "description": "Evaluamos la estructura del techo y la exposición al sol, y damos un reporte escrito con el trazado."
+            "description": "Evaluamos la estructura del techo y la exposición al sol, y damos un reporte escrito con trazado."
           },
           "quote": {
             "title": "Cotización Escrita",
-            "description": "Recibes un precio fijo por escrito válido por treinta días sin cobros por hora sorpresa."
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
           },
           "work": {
             "title": "Montar Y Sellar",
-            "description": "Refuerzan la base si hace falta, colocan montajes sellados y ordenan el cableado bajo los paneles."
+            "description": "Refuerzan la base si hace falta, colocan los montajes sellados y ordenan el cableado bajo los paneles."
           },
           "warranty": {
             "title": "Prueba Y Garantía",
-            "description": "Revisamos cada sello y conexión y respaldamos el trabajo del techo con nuestra garantía de mano de obra."
+            "description": "Revisamos cada sello y conexión y respaldamos el trabajo del techo con garantía de mano de obra."
           }
         }
       }

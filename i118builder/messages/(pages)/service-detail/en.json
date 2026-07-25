@@ -2,44 +2,61 @@
   "includedTitle": "What's Included",
   "idealTitle": "Ideal For",
   "processEyebrow": "OUR PROCESS",
+  "action": {
+    "contact": "Contact Us Now"
+  },
+  "stats": {
+    "years": {
+      "value": "25+",
+      "label": "Years Experience"
+    },
+    "projects": {
+      "value": "1.5k+",
+      "label": "Roofs Completed"
+    },
+    "licensed": {
+      "value": "100%",
+      "label": "Licensed & Insured"
+    }
+  },
   "items": {
     "replacement": {
       "intro": "From full tear offs to targeted repairs, we rebuild aging roofs with premium materials and precise installation, backed by our comprehensive workmanship warranty on every single project.",
       "included": [
-        "Full inspection of the existing roof",
-        "Complete tear off to the deck",
-        "Deck repair and moisture correction",
-        "Fresh underlayment and premium materials",
-        "Full cleanup and magnetic nail sweep",
-        "Written workmanship warranty on completion"
+        "Full tear off and deck inspection",
+        "Rotted deck replacement (priced separately, never hidden)",
+        "New high temperature synthetic underlayment",
+        "New valley metal, ridge vents, and step flashing",
+        "Premium shingles or tiles",
+        "Full debris haul off and magnetic nail sweep",
+        "Written workmanship guarantee plus manufacturer warranty"
       ],
       "ideal": [
-        "Roofs past fifteen years of age",
-        "Repeated leaks across multiple areas",
-        "Widespread storm or hail damage",
-        "Homes getting ready for resale",
-        "Older roofs wasting energy indoors"
+        "Roofs over 18 years (shingle) or 25 years (tile)",
+        "Widespread hurricane or hail damage",
+        "Insurance claim replacements",
+        "Presale roof remediation"
       ],
       "process": {
-        "titleLead": "How A Full Replacement",
+        "titleLead": "How A Roof Replacement",
         "titleAccent": "Project Goes",
-        "description": "A clear path from first inspection to final warranty, with a flat price and no surprises along the way.",
+        "description": "A clear path from first inspection to final walkthrough, with a flat written price and no surprises along the way.",
         "steps": {
           "inspect": {
-            "title": "Inspect And Photo",
-            "description": "We document the full roof condition and share a written report before any work begins."
+            "title": "Inspect + Estimate",
+            "description": "We photograph your full roof condition, then send a written line item quote within twenty four hours."
           },
           "quote": {
-            "title": "Written Quote",
-            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+            "title": "Schedule + Permit",
+            "description": "We pull the county permit, schedule your crew, and confirm the start date with you in writing."
           },
           "work": {
-            "title": "Tear Off And Install",
-            "description": "Crews strip the old roof, correct the deck and fit your new system with care."
+            "title": "Tear Off + Install",
+            "description": "Full tear off with deck check, then new underlayment, valley metal, flashing, shingles or tiles, photographed throughout."
           },
           "warranty": {
-            "title": "Test And Warranty",
-            "description": "We water test the finished roof and hand you a workmanship warranty in writing."
+            "title": "Clean + Walkthrough",
+            "description": "Magnetic nail sweep, full debris haul off, a final walkthrough together, and your written guarantee in hand."
           }
         }
       }
@@ -68,19 +85,19 @@
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
-            "description": "We document the roof condition and share a written report before any shingle goes down."
+            "description": "We document the entire roof condition and share a written report before any new shingle goes down."
           },
           "quote": {
             "title": "Written Quote",
-            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+            "description": "You get one flat written price valid for thirty days, with no surprise per hour billing later."
           },
           "work": {
             "title": "Install And Seal",
-            "description": "Certified crews lay underlayment, shingles and flashing with tight seams built to shed water."
+            "description": "Certified crews lay fresh underlayment, shingles, and flashing with tight, straight seams built to shed heavy water."
           },
           "warranty": {
             "title": "Test And Warranty",
-            "description": "We inspect the finished roof and hand you manufacturer and workmanship warranties in writing."
+            "description": "We inspect the finished roof and hand you both manufacturer and workmanship warranties clearly stated in writing."
           }
         }
       }
@@ -109,19 +126,19 @@
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
-            "description": "We measure the roof, plan the panel layout and share a written report before we begin."
+            "description": "We measure the roof, plan the panel layout, and share a written report before we ever begin."
           },
           "quote": {
             "title": "Written Quote",
-            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+            "description": "You get one flat written price valid for thirty days, with no surprise per hour billing later."
           },
           "work": {
             "title": "Panel And Seam",
-            "description": "Crews set high temperature underlayment then lock each panel with concealed, weather tight fasteners."
+            "description": "Crews set high temperature underlayment first, then lock each metal panel with concealed, weather tight fasteners throughout."
           },
           "warranty": {
             "title": "Test And Warranty",
-            "description": "We water test every seam and hand you a long term manufacturer and workmanship warranty."
+            "description": "We water test every seam and hand you a long term manufacturer and workmanship warranty in writing."
           }
         }
       }
@@ -150,19 +167,19 @@
         "steps": {
           "inspect": {
             "title": "Secure And Photo",
-            "description": "We tarp the roof fast, then document all storm damage with photos for your insurer."
+            "description": "We tarp the roof fast, then document all the storm damage with detailed photos for your insurer."
           },
           "quote": {
             "title": "Claim Support",
-            "description": "We prepare a detailed scope and work directly with your insurance from filing to approval."
+            "description": "We prepare a detailed scope and work directly with your insurer from initial filing to final approval."
           },
           "work": {
             "title": "Repair And Restore",
-            "description": "Once approved, our crews repair or replace the damaged roof with matching, code compliant materials."
+            "description": "Once approved, our crews repair or replace the damaged roof with matching, code compliant, storm rated materials."
           },
           "warranty": {
             "title": "Test And Warranty",
-            "description": "We inspect the finished work and back every storm repair with our workmanship warranty."
+            "description": "We inspect the finished work and back every storm repair with our written, long term workmanship warranty."
           }
         }
       }
@@ -191,19 +208,19 @@
         "steps": {
           "inspect": {
             "title": "Survey And Photo",
-            "description": "We survey the roof, check drainage and share a written report with zero disruption to work."
+            "description": "We survey the roof, check drainage, and share a written report with zero disruption to your work."
           },
           "quote": {
             "title": "Written Quote",
-            "description": "You get a detailed written scope and price with clear terms and no hidden change orders."
+            "description": "You get a detailed written scope and price with clear terms and absolutely no hidden change orders."
           },
           "work": {
             "title": "Membrane Install",
-            "description": "Crews set insulation and membrane with reinforced seams, working around your staff and business hours."
+            "description": "Crews set tapered insulation and membrane with reinforced seams, working quietly around your staff and business hours."
           },
           "warranty": {
             "title": "Test And Warranty",
-            "description": "We flood test the seams and hand you a written manufacturer and workmanship warranty."
+            "description": "We flood test every seam and then hand you a written manufacturer and workmanship warranty on completion."
           }
         }
       }
@@ -232,19 +249,19 @@
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
-            "description": "We check the roof, flashing and gutters each season and photograph anything that needs attention."
+            "description": "We check the roof, flashing, and gutters each season, and photograph anything at all needing prompt attention."
           },
           "quote": {
             "title": "Simple Plan",
-            "description": "You get a clear plan and price for the year with no surprise per visit billing."
+            "description": "You get one clear plan and price for the whole year with no surprise per visit billing."
           },
           "work": {
             "title": "Clean And Tune",
-            "description": "We clear debris, clean gutters and handle minor sealant and flashing fixes on every visit."
+            "description": "We clear debris, clean the gutters, and handle minor sealant and flashing fixes on every single visit."
           },
           "warranty": {
             "title": "Report And Protect",
-            "description": "You receive a written report each visit that helps protect your existing roof warranty."
+            "description": "You receive a written condition report each visit that helps protect and extend your existing roof warranty."
           }
         }
       }
@@ -273,19 +290,19 @@
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
-            "description": "We measure the roofline, check the flashing and share a written report before any work."
+            "description": "We measure the entire roofline, check the flashing, and share a written report before any work begins."
           },
           "quote": {
             "title": "Written Quote",
-            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+            "description": "You get one flat written price valid for thirty days, with no surprise per hour billing later."
           },
           "work": {
             "title": "Form And Fit",
-            "description": "Crews form seamless gutters on site, then fit flashing and downspouts for clean, reliable drainage."
+            "description": "Crews form seamless aluminum gutters right on site, then fit flashing and downspouts for clean, reliable drainage."
           },
           "warranty": {
             "title": "Test And Warranty",
-            "description": "We run water through the system and back every gutter and flashing job with our warranty."
+            "description": "We run water through the whole system and back every gutter and flashing job with our warranty."
           }
         }
       }
@@ -314,11 +331,11 @@
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
-            "description": "We check the deck and interior, plan the opening and share a written report before cutting."
+            "description": "We check the deck and interior, plan the opening, and share a written report before any cutting."
           },
           "quote": {
             "title": "Written Quote",
-            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+            "description": "You get one flat written price valid for thirty days, with no surprise per hour billing later."
           },
           "work": {
             "title": "Cut And Flash",
@@ -326,7 +343,7 @@
           },
           "warranty": {
             "title": "Test And Warranty",
-            "description": "We water test the skylight and back the install with our workmanship warranty in writing."
+            "description": "We water test the finished skylight and back the whole install with our workmanship warranty in writing."
           }
         }
       }
@@ -355,19 +372,19 @@
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
-            "description": "We assess the roof structure and sun exposure, then share a written report and layout."
+            "description": "We assess the roof structure and full sun exposure, then share a written report and panel layout."
           },
           "quote": {
             "title": "Written Quote",
-            "description": "You get a flat written price valid for thirty days with no surprise per hour billing."
+            "description": "You get one flat written price valid for thirty days, with no surprise per hour billing later."
           },
           "work": {
             "title": "Mount And Seal",
-            "description": "Crews reinforce the deck as needed, set sealed mounts and route wiring cleanly under the panels."
+            "description": "Crews reinforce the deck as needed, set sealed mounts, and route the wiring cleanly under the panels."
           },
           "warranty": {
             "title": "Test And Warranty",
-            "description": "We check every seal and connection and back the roof work with our workmanship warranty."
+            "description": "We check every seal and connection, and back the roof work with our written workmanship warranty afterward."
           }
         }
       }

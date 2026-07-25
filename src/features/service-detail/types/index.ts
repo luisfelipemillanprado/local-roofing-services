@@ -1,4 +1,3 @@
-import type { IconBadgeKey } from "@/common/icon-badge/types";
 import type { servicesData } from "@/data/sections/services";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
@@ -22,18 +21,4 @@ export interface ServiceProcessProps {
 export interface IncludedPanelProps {
   title: string;
   items: string[];
-}
-
-/* resolved process step for the list */
-interface ProcessStepItem {
-  key: string;
-  icon: IconBadgeKey;
-  step: string;
-  title: string;
-  description: string;
-  delay: number;
-}
-
-export interface ProcessListProps {
-  steps: ProcessStepItem[];
 }
