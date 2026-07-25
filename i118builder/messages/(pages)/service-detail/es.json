@@ -1,7 +1,12 @@
 {
   "includedTitle": "Qué Incluye",
+  "includedDescription": "Qué cubre cada servicio de techado profesional.",
   "idealTitle": "Ideal Para",
+  "idealDescription": "Situaciones recomendadas donde este servicio rinde mejor.",
   "processEyebrow": "NUESTRO PROCESO",
+  "processTitleLead": "Proceso Rápido Y Probado",
+  "processTitleAccent": "De Principio A Fin",
+  "processDescription": "Desde la inspección inicial hasta el recorrido final, cada paso está cuidadosamente diseñado para garantizar una calidad excepcional sin sorpresas inesperadas.",
   "action": {
     "contact": "Contáctanos Ahora"
   },
@@ -21,7 +26,7 @@
   },
   "items": {
     "replacement": {
-      "intro": "Desde retiros completos hasta reparaciones puntuales, reconstruimos techos envejecidos con materiales premium e instalación precisa, respaldados por nuestra garantía integral de mano de obra en cada proyecto.",
+      "intro": "Desde reemplazos de techo hasta reparaciones puntuales, brindamos protección duradera con materiales premium, mano de obra experta y cobertura de garantía.",
       "included": [
         "Retiro total del techo e inspección de la base",
         "Reemplazo de base podrida (cotizado aparte, nunca oculto)",
@@ -35,27 +40,26 @@
         "Techos de más de 18 años (asfáltico) o 25 años (teja)",
         "Daño extenso por huracán o granizo",
         "Reemplazos por reclamo al seguro",
-        "Remediación de techo antes de la venta"
+        "Remediación de techo antes de la venta",
+        "Goteras visibles, tejas faltantes o zonas hundidas",
+        "Casas que preparan una instalación solar"
       ],
       "process": {
-        "titleLead": "Cómo Va Un Reemplazo",
-        "titleAccent": "De Techo Paso A Paso",
-        "description": "Un camino claro desde la primera inspección hasta el recorrido final, con un precio fijo por escrito y sin sorpresas.",
         "steps": {
           "inspect": {
-            "title": "Inspección + Estimado",
+            "title": "Inspección & Estimado",
             "description": "Fotografiamos el estado completo de tu techo y enviamos una cotización detallada por escrito en 24 horas."
           },
           "quote": {
-            "title": "Agenda + Permiso",
+            "title": "Agenda & Permiso",
             "description": "Tramitamos el permiso del condado, agendamos tu cuadrilla y confirmamos contigo la fecha de inicio por escrito."
           },
           "work": {
-            "title": "Retiro + Instalación",
+            "title": "Retiro & Instalación",
             "description": "Retiro total con revisión de base, luego membrana nueva, metal de valle, tapajuntas y tejas, todo fotografiado."
           },
           "warranty": {
-            "title": "Limpieza + Recorrido",
+            "title": "Limpieza & Recorrido",
             "description": "Barrido magnético de clavos, retiro total de escombros, recorrido final juntos y garantía por escrito en mano."
           }
         }
@@ -79,9 +83,6 @@
         "Dueños que valoran materiales probados"
       ],
       "process": {
-        "titleLead": "Cómo Va Un Techo De Tejas",
-        "titleAccent": "Paso A Paso",
-        "description": "Desde la primera inspección hasta el último clavo mantenemos cada trabajo de tejas limpio, puntual y documentado.",
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
@@ -120,9 +121,6 @@
         "Compradores enfocados en valor duradero"
       ],
       "process": {
-        "titleLead": "Cómo Va Un Techo Metálico",
-        "titleAccent": "Paso A Paso",
-        "description": "Desde el trazado de paneles hasta la junta final planeamos cada instalación metálica con precisión y resistencia.",
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
@@ -161,9 +159,6 @@
         "Emergencias que necesitan respuesta rápida"
       ],
       "process": {
-        "titleLead": "Cómo Va Un Reclamo De Seguro",
-        "titleAccent": "Paso A Paso",
-        "description": "Desde la primera llamada de emergencia hasta la aprobación final aseguramos tu techo y documentamos cada detalle.",
         "steps": {
           "inspect": {
             "title": "Asegurar Y Fotografiar",
@@ -202,9 +197,6 @@
         "Dueños con varias ubicaciones"
       ],
       "process": {
-        "titleLead": "Cómo Va Un Techo Comercial",
-        "titleAccent": "Paso A Paso",
-        "description": "Desde el estudio del sitio hasta la entrega final agendamos cada trabajo comercial alrededor de tu negocio.",
         "steps": {
           "inspect": {
             "title": "Estudio Y Fotos",
@@ -243,9 +235,6 @@
         "Quien quiere evitar sorpresas costosas"
       ],
       "process": {
-        "titleLead": "Cómo Funciona Un Plan",
-        "titleAccent": "De Mantenimiento",
-        "description": "Desde la primera visita mantenemos tu techo en una agenda simple que detecta los problemas pequeños a tiempo.",
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
@@ -284,9 +273,6 @@
         "Dueños cansados de tapones constantes"
       ],
       "process": {
-        "titleLead": "Cómo Va Un Proyecto",
-        "titleAccent": "De Canaletas",
-        "description": "Desde medir la línea del techo hasta el último bajante llevamos cada gota de agua lejos de tu casa.",
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
@@ -325,9 +311,6 @@
         "Remodelaciones que abren el techo"
       ],
       "process": {
-        "titleLead": "Cómo Va Una Instalación",
-        "titleAccent": "De Claraboya",
-        "description": "Desde la primera medición hasta el sello final abrimos tu techo a la luz manteniéndolo totalmente hermético.",
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
@@ -366,9 +349,6 @@
         "Compradores enfocados en ahorro largo"
       ],
       "process": {
-        "titleLead": "Cómo Va Un Techo Solar",
-        "titleAccent": "Paso A Paso",
-        "description": "Desde la evaluación del techo hasta el último montaje sellado integramos la energía solar sin comprometer tu techo.",
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",

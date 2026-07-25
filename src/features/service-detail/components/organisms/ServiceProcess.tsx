@@ -38,9 +38,9 @@ export const ServiceProcess = async ({ serviceKey, tone = "base" }: ServiceProce
           heading={
             <SectionHeading
               eyebrow={t("processEyebrow")}
-              title={t(`items.${serviceKey}.process.titleLead`)}
-              accent={t(`items.${serviceKey}.process.titleAccent`)}
-              description={t(`items.${serviceKey}.process.description`)}
+              title={t("processTitleLead")}
+              accent={t("processTitleAccent")}
+              description={t("processDescription")}
             />
           }
           stats={<StatList stats={statItems} />}

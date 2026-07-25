@@ -1,3 +1,4 @@
+import type { IconBadgeKey } from "@/common/icon-badge/types";
 import type { servicesData } from "@/data/sections/services";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
@@ -17,8 +18,10 @@ export interface ServiceProcessProps {
   tone?: SectionTone;
 }
 
-/* resolved checklist panel: title + text items */
+/* resolved checklist panel: icon + title + description over text items */
 export interface IncludedPanelProps {
+  icon: IconBadgeKey;
   title: string;
+  description: string;
   items: string[];
 }

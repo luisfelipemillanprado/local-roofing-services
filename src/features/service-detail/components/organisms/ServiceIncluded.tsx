@@ -15,8 +15,18 @@ export const ServiceIncluded = async ({ serviceKey, tone = "muted" }: ServiceInc
     <SectionWrapper tone={tone}>
       <Container>
         <div className="grid gap-6 lg:grid-cols-2">
-          <IncludedPanel title={t("includedTitle")} items={included} />
-          <IncludedPanel title={t("idealTitle")} items={ideal} />
+          <IncludedPanel
+            icon="hammer"
+            title={t("includedTitle")}
+            description={t("includedDescription")}
+            items={included}
+          />
+          <IncludedPanel
+            icon="target"
+            title={t("idealTitle")}
+            description={t("idealDescription")}
+            items={ideal}
+          />
         </div>
       </Container>
     </SectionWrapper>

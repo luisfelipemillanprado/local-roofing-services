@@ -1,7 +1,12 @@
 {
   "includedTitle": "What's Included",
+  "includedDescription": "What's covered with every professional roofing service.",
   "idealTitle": "Ideal For",
+  "idealDescription": "Recommended situations where this service delivers best.",
   "processEyebrow": "OUR PROCESS",
+  "processTitleLead": "Fast Proven Process",
+  "processTitleAccent": "Fair From The Start",
+  "processDescription": "From the initial inspection to the final walkthrough, every single step is carefully designed to guarantee outstanding quality without unexpected surprises.",
   "action": {
     "contact": "Contact Us Now"
   },
@@ -21,7 +26,7 @@
   },
   "items": {
     "replacement": {
-      "intro": "From full tear offs to targeted repairs, we rebuild aging roofs with premium materials and precise installation, backed by our comprehensive workmanship warranty on every single project.",
+      "intro": "From roof replacements to targeted repairs, we deliver lasting protection with premium materials, expert craftsmanship, and warranty coverage on every project.",
       "included": [
         "Full tear off and deck inspection",
         "Rotted deck replacement (priced separately, never hidden)",
@@ -35,27 +40,26 @@
         "Roofs over 18 years (shingle) or 25 years (tile)",
         "Widespread hurricane or hail damage",
         "Insurance claim replacements",
-        "Presale roof remediation"
+        "Presale roof remediation",
+        "Visible leaks, missing shingles, or sagging areas",
+        "Homes preparing for a solar install"
       ],
       "process": {
-        "titleLead": "How A Roof Replacement",
-        "titleAccent": "Project Goes",
-        "description": "A clear path from first inspection to final walkthrough, with a flat written price and no surprises along the way.",
         "steps": {
           "inspect": {
-            "title": "Inspect + Estimate",
+            "title": "Inspect & Estimate",
             "description": "We photograph your full roof condition, then send a written line item quote within twenty four hours."
           },
           "quote": {
-            "title": "Schedule + Permit",
+            "title": "Schedule & Permit",
             "description": "We pull the county permit, schedule your crew, and confirm the start date with you in writing."
           },
           "work": {
-            "title": "Tear Off + Install",
+            "title": "Tear Off & Install",
             "description": "Full tear off with deck check, then new underlayment, valley metal, flashing, shingles or tiles, photographed throughout."
           },
           "warranty": {
-            "title": "Clean + Walkthrough",
+            "title": "Clean & Walkthrough",
             "description": "Magnetic nail sweep, full debris haul off, a final walkthrough together, and your written guarantee in hand."
           }
         }
@@ -79,9 +83,6 @@
         "Owners who value proven materials"
       ],
       "process": {
-        "titleLead": "How A Shingle Roof",
-        "titleAccent": "Project Goes",
-        "description": "From the first inspection to the last nail we keep every shingle job clean, scheduled and fully documented.",
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
@@ -120,9 +121,6 @@
         "Buyers focused on lasting value"
       ],
       "process": {
-        "titleLead": "How A Metal Roof",
-        "titleAccent": "Project Goes",
-        "description": "From panel layout to the final seam we plan every metal install for precision, weather resistance and clean lines.",
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
@@ -161,9 +159,6 @@
         "Emergencies needing a fast response"
       ],
       "process": {
-        "titleLead": "How A Storm Claim",
-        "titleAccent": "Project Goes",
-        "description": "From the first emergency call to final approval we secure your roof and document every detail for your claim.",
         "steps": {
           "inspect": {
             "title": "Secure And Photo",
@@ -202,9 +197,6 @@
         "Owners managing multiple locations"
       ],
       "process": {
-        "titleLead": "How A Commercial Roof",
-        "titleAccent": "Project Goes",
-        "description": "From site survey to final signoff we schedule every commercial job around your business and its hours.",
         "steps": {
           "inspect": {
             "title": "Survey And Photo",
@@ -243,9 +235,6 @@
         "Anyone avoiding costly surprises"
       ],
       "process": {
-        "titleLead": "How A Maintenance Plan",
-        "titleAccent": "Works",
-        "description": "From the first visit onward we keep your roof on a simple schedule that catches small issues early.",
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
@@ -284,9 +273,6 @@
         "Owners tired of constant clogs"
       ],
       "process": {
-        "titleLead": "How A Gutter Project",
-        "titleAccent": "Goes",
-        "description": "From measuring the roofline to the final downspout we route every drop of water safely away from your home.",
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
@@ -325,9 +311,6 @@
         "Remodels adding roof openings"
       ],
       "process": {
-        "titleLead": "How A Skylight Install",
-        "titleAccent": "Project Goes",
-        "description": "From the first measurement to the final seal we open your roof for light while keeping it fully watertight.",
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
@@ -366,9 +349,6 @@
         "Buyers focused on long savings"
       ],
       "process": {
-        "titleLead": "How A Solar Roof",
-        "titleAccent": "Project Goes",
-        "description": "From roof assessment to the last sealed mount we integrate solar without ever compromising your roof.",
         "steps": {
           "inspect": {
             "title": "Inspect And Photo",
