@@ -10,8 +10,8 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Media } from "@/common/media/components/Media";
 import { ServiceIncluded } from "@/features/service-detail/components/organisms/ServiceIncluded";
 import { ServiceProcess } from "@/features/service-detail/components/organisms/ServiceProcess";
-import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
+import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 import { servicesData } from "@/data/sections/services";
 import { Container } from "@/common/container/components/Container";
@@ -78,8 +78,8 @@ export default async function ServiceDetailPage({ params }: Props) {
         </SectionWrapper>
         <ServiceIncluded serviceKey={service.key} tone="base" />
         <ServiceProcess serviceKey={service.key} tone="muted" />
-        <Testimonials variant="contact" set={service.key} limit={6} tone="base" />
-        <Faq variant={service.key} tone="muted" />
+        <Faq variant={service.key} tone="base" />
+        <Products tone="muted" limit={6} />
         <Contact />
       </main>
       <Footer />
