@@ -18,7 +18,8 @@ export type IconBadgeKey =
   | "star"
   | "building"
   | "factory"
-  | "alert";
+  | "alert"
+  | "target";
 
 export type IconBadgeSize = "stat" | "card" | "feature";
 export type IconBadgeTone = "muted" | "solid" | "panel";
