@@ -168,29 +168,33 @@
   },
   "gutters": {
     "items": {
-      "seamless": {
-        "q": "What are seamless gutters?",
-        "a": "Seamless gutters are formed on site to fit your roofline in one continuous piece, so there are far fewer joints to leak or clog."
+      "replace": {
+        "q": "How do I know if my gutters need to be replaced?",
+        "a": "Signs of failing gutters include frequent overflowing, sagging sections, visible cracks, rust, loose connections, water pooling near your foundation, or gutters that no longer move water away from your home properly."
       },
       "flashing": {
-        "q": "Why does flashing matter so much?",
-        "a": "Flashing seals the joints where the roof meets walls, valleys, and chimneys. Bad flashing is one of the most common causes of leaks."
+        "q": "Why is proper flashing important for my home?",
+        "a": "Flashing protects vulnerable areas where water can enter, including roof edges, walls, valleys, chimneys, and other roof penetrations. Properly installed flashing helps prevent leaks and long term moisture damage."
       },
-      "clogs": {
-        "q": "Can you help with constant gutter clogs?",
-        "a": "Yes. We size the gutters correctly, add proper downspouts, and can install guards to keep debris moving through."
+      "damage": {
+        "q": "Can damaged gutters cause problems beyond water overflow?",
+        "a": "Yes. Poorly functioning gutters can allow water to collect near your foundation, damage exterior surfaces, affect landscaping, and contribute to moisture issues around your home."
       },
-      "foundation": {
-        "q": "Do gutters really protect the foundation?",
-        "a": "They do. Moving water away from the house keeps it off the foundation and siding, preventing rot and costly structural damage."
+      "areas": {
+        "q": "What areas of my home need flashing protection?",
+        "a": "Flashing is commonly installed around areas where roofing materials meet walls, chimneys, vents, valleys, and other transitions. These areas require proper sealing to help prevent water intrusion."
       },
-      "cost": {
-        "q": "How much do new gutters cost?",
-        "a": "Cost depends on the length of the roofline and the materials. You get a fixed line item quote before any work begins."
+      "combined": {
+        "q": "Can you replace gutters and repair flashing at the same time?",
+        "a": "Yes. Combining gutter and flashing services allows us to address multiple water management issues at once and create better protection around your home's most vulnerable areas."
       },
-      "warranty": {
-        "q": "Is there a warranty on gutter work?",
-        "a": "Yes. Every gutter and flashing job is backed by our written workmanship warranty."
+      "drainage": {
+        "q": "How do you make sure new gutters drain correctly?",
+        "a": "We evaluate the roof water flow, gutter slope, downspout placement, and drainage points to ensure water is directed away from your home efficiently."
+      },
+      "lifespan": {
+        "q": "How long do new gutters and flashing systems last?",
+        "a": "The lifespan depends on the materials used, installation quality, weather exposure, and maintenance. Properly installed systems provide reliable water protection for many years."
       }
     }
   },
@@ -228,169 +232,193 @@
   },
   "repair": {
     "items": {
-      "cost": {
-        "q": "How much does a roof repair cost?",
-        "a": "It depends on the damage, but most repairs are a small fraction of a replacement. We give one flat written price before any work starts."
+      "assessment": {
+        "q": "How do I know if my roof needs a repair instead of a replacement?",
+        "a": "The answer depends on the age of your roof, the extent of the damage, and its overall condition. During our inspection, we determine whether a professional repair can safely restore your roof or if a full replacement is the better long term solution."
       },
-      "temporary": {
-        "q": "Is a repair just a temporary fix?",
-        "a": "No. We fix the real cause, not just the symptom, and back every repair with a written workmanship warranty so it lasts."
+      "damage": {
+        "q": "What types of roof damage can usually be repaired?",
+        "a": "Many roofing issues can be repaired, including roof leaks, missing shingles, cracked tiles, damaged flashing, loose ridge components, and storm related damage. Every repair begins with a thorough inspection to identify the source of the problem."
       },
-      "insurance": {
-        "q": "Will insurance cover my roof repair?",
-        "a": "Often yes, when storm damage is the cause. We document everything with photos and can work directly with your adjuster on the claim."
+      "leak": {
+        "q": "Can you repair an active roof leak without replacing the entire roof?",
+        "a": "Yes. In many cases, leaks are caused by damaged roofing materials, flashing, or roof penetrations rather than the entire roofing system. We identify the source of the leak and perform the necessary repairs whenever replacement is not required."
       },
-      "warranty": {
-        "q": "Do repairs come with a warranty?",
-        "a": "Yes. Every repair is backed by our written workmanship warranty, and any manufacturer warranty on the materials we install still applies."
+      "duration": {
+        "q": "How long does a typical roof repair take to complete?",
+        "a": "Most roof repairs can be completed within a single visit, depending on the type of damage, weather conditions, and material availability. Larger or more complex repairs may require additional time."
       },
-      "emergency": {
-        "q": "Can you handle emergency leaks fast?",
-        "a": "Yes. We offer same day tarping to stop active leaks, then return to complete a permanent repair as soon as possible."
+      "extend": {
+        "q": "Will a roof repair help extend the life of my existing roof?",
+        "a": "Yes. Addressing damage early helps prevent water intrusion and additional deterioration, allowing your existing roofing system to continue performing as intended for a longer period."
       },
       "matching": {
-        "q": "Will the repair match my existing roof?",
-        "a": "We match your shingle color and profile as closely as possible, so the repaired area blends in and looks like the rest."
+        "q": "Can you match my existing roofing materials and color?",
+        "a": "We make every effort to match your existing roofing materials, profile, and color as closely as possible. Availability depends on the age of your roof and the products currently offered by manufacturers."
+      },
+      "warranty": {
+        "q": "Is your roof repair work backed by a warranty?",
+        "a": "Yes. Our roof repairs include a written workmanship warranty covering the completed repair, giving you added confidence in the quality of the work performed."
       }
     }
   },
   "skylights": {
     "items": {
-      "leak": {
-        "q": "Do skylights leak?",
-        "a": "Not when installed right. We use a leak proof flashing kit and seal every edge, and we water test the skylight before we leave."
-      },
-      "rooms": {
-        "q": "Which rooms work best for a skylight?",
-        "a": "Dark hallways, bathrooms without windows, kitchens, and living rooms all benefit from the natural light a skylight brings in."
-      },
-      "heat": {
-        "q": "Will a skylight make the room hot?",
-        "a": "We install energy efficient units with low emissivity glass that let in light while blocking much of the Florida heat."
-      },
       "existing": {
-        "q": "Can you add a skylight to my existing roof?",
-        "a": "Yes. We plan the opening around your rafters, cut and frame it cleanly, and seal it into the existing roof."
+        "q": "Can a skylight be installed on my existing roofing system?",
+        "a": "Yes. In many cases, a skylight can be added to an existing roof without requiring a full replacement. We evaluate the roof structure, slope, framing, and roofing material to determine the safest and most effective installation method."
       },
-      "cost": {
-        "q": "How much does a skylight cost?",
-        "a": "Cost depends on the unit and the roof, but you get a fixed written quote covering the skylight, flashing, and interior finish."
+      "leak": {
+        "q": "Will a professionally installed skylight leak over time?",
+        "a": "A properly installed skylight should provide reliable long term performance without leaks. Correct flashing, weatherproof sealing, and manufacturer approved installation methods are essential to protecting your home from water intrusion."
+      },
+      "types": {
+        "q": "What skylight options are available for my home?",
+        "a": "We install a variety of skylight styles, including fixed and venting models, to match your home's design and lighting needs. During the consultation, we help you choose the right size, placement, and features for your space."
+      },
+      "duration": {
+        "q": "How long does a typical skylight installation take?",
+        "a": "Most residential skylight installations are completed within a single day. The exact timeline depends on roof accessibility, structural modifications, the skylight model selected, and the complexity of the installation."
+      },
+      "efficiency": {
+        "q": "Will installing a skylight improve my home's energy efficiency?",
+        "a": "Modern skylights allow more natural daylight into your home, reducing the need for artificial lighting during the day. Energy efficient glazing options can also help improve indoor comfort by reducing unwanted heat transfer."
+      },
+      "replace": {
+        "q": "Can you replace an old or leaking skylight with a new one?",
+        "a": "Yes. We remove aging or leaking skylights and replace them with modern units using updated flashing systems and weatherproof sealing. This helps restore reliable protection while improving appearance and natural lighting."
       },
       "warranty": {
-        "q": "What warranty comes with a skylight?",
-        "a": "You get the manufacturer warranty on the unit plus our written workmanship warranty on the leak proof installation."
+        "q": "Does my skylight installation include a workmanship warranty?",
+        "a": "Yes. Every skylight installation includes our written workmanship warranty covering the quality of the installation. The skylight unit is also backed by the applicable manufacturer warranty for the selected product."
       }
     }
   },
   "storm": {
     "items": {
-      "inspection": {
-        "q": "Do you offer free storm damage inspections?",
-        "a": "Yes. After any major storm we provide a free photo documented inspection so you know exactly what damage your roof took."
+      "signs": {
+        "q": "How can I tell if my roof has storm damage after severe weather?",
+        "a": "Storm damage is not always visible from the ground. Missing shingles, cracked tiles, lifted flashing, dents, water stains, or interior leaks are common warning signs. A professional inspection helps identify both visible and hidden damage before it leads to more expensive repairs."
       },
-      "claim": {
-        "q": "Will you work with my insurance company?",
-        "a": "We do. We document everything and coordinate directly with your insurer from the first claim through final approval."
+      "inspect": {
+        "q": "Should I schedule a roof inspection even if I don't see a leak?",
+        "a": "Yes. High winds, hail, and flying debris can weaken roofing materials without causing an immediate leak. An inspection allows us to identify hidden damage early and recommend repairs before moisture reaches the underlying roofing system."
       },
-      "emergency": {
-        "q": "Can you tarp my roof right away?",
-        "a": "Yes. Our emergency crews secure and tarp damaged roofs fast to stop further water damage while your claim is processed."
+      "insurance": {
+        "q": "Can you provide documentation for my insurance claim?",
+        "a": "Yes. We document storm related damage with detailed photos and a written assessment that clearly identifies the affected areas. This information can help support your insurance claim and provide a clear record of your roof's condition."
       },
-      "deductible": {
-        "q": "What will I pay out of pocket?",
-        "a": "Usually just your insurance deductible on covered claims. We give you a clear written scope so there are no surprises."
+      "leak": {
+        "q": "What should I do if my roof starts leaking after a storm?",
+        "a": "Contact us as soon as possible. We evaluate the damaged areas, recommend immediate protection when necessary, and perform the required repairs to help prevent additional water intrusion and further damage to your home."
       },
-      "timeline": {
-        "q": "How fast can repairs start?",
-        "a": "Emergency work happens immediately. Full repairs begin as soon as your claim is approved and materials are on hand."
+      "types": {
+        "q": "What types of storm damage can usually be repaired?",
+        "a": "We repair damage caused by hurricanes, tropical storms, hail, high winds, and wind driven debris. This includes replacing damaged roofing materials, repairing flashing, sealing vulnerable areas, and restoring the roof's protective performance."
       },
-      "denied": {
-        "q": "What if my claim is denied?",
-        "a": "We help you understand the decision and document the damage thoroughly, which often supports an appeal or a fair repair plan."
+      "urgency": {
+        "q": "How quickly should storm damage be repaired after the weather clears?",
+        "a": "Storm damage should be addressed as soon as conditions are safe. Prompt repairs help prevent leaks, structural deterioration, mold growth, and additional damage that can develop when water continues entering the roofing system."
+      },
+      "matching": {
+        "q": "Will the repaired areas match my existing roofing materials?",
+        "a": "We make every effort to match your existing roofing material, profile, and color as closely as possible. Material availability depends on the age of your roof and current manufacturer offerings, but our goal is always a consistent and professional appearance."
       }
     }
   },
   "commercial": {
     "items": {
       "systems": {
-        "q": "What commercial roof systems do you install?",
-        "a": "We install TPO, EPDM, and torch applied modified bitumen, matching the system to your building and budget."
+        "q": "What types of commercial roofing systems do you install and replace?",
+        "a": "We work with a variety of commercial roofing systems based on your building's design, performance requirements, and long term goals. During the evaluation, we recommend the most appropriate solution for your specific property."
       },
       "disruption": {
-        "q": "Will the work disrupt my business?",
-        "a": "We schedule around your hours and work in sections, keeping noise and access issues to a minimum so you stay open."
+        "q": "Can roofing work be completed without interrupting business operations?",
+        "a": "In many cases, yes. We carefully plan the project schedule and coordinate the work to minimize disruption whenever possible while maintaining a safe environment for employees, customers, and visitors."
       },
-      "ponding": {
-        "q": "Can you fix ponding water on a flat roof?",
-        "a": "Yes. We add tapered insulation and correct the drainage so water flows off instead of pooling and wearing the membrane."
+      "assessment": {
+        "q": "How do you determine whether a commercial roof needs repair or replacement?",
+        "a": "Our inspection evaluates the roof's overall condition, age, existing damage, drainage performance, and remaining service life. Based on those findings, we recommend the most practical and cost effective solution."
       },
-      "maintenance": {
-        "q": "Do you offer maintenance for commercial roofs?",
-        "a": "We do. Scheduled inspections and minor repairs extend the life of the membrane and protect your warranty."
+      "duration": {
+        "q": "How long does a commercial roofing project usually take?",
+        "a": "Project timelines vary depending on the building size, roofing system, weather conditions, and project complexity. We provide a detailed schedule before work begins so you know what to expect."
+      },
+      "managers": {
+        "q": "Can you work with property managers and HOA communities?",
+        "a": "Yes. We regularly coordinate with property managers, facility managers, and HOA representatives to help ensure projects meet scheduling requirements, property standards, and operational needs."
+      },
+      "inspection": {
+        "q": "Do you provide roof inspections before recommending a solution?",
+        "a": "Absolutely. Every commercial project begins with a comprehensive inspection to identify existing issues, evaluate the roofing system, and determine the most appropriate course of action."
       },
       "warranty": {
-        "q": "What warranty comes with a commercial roof?",
-        "a": "You get the manufacturer membrane warranty plus our written workmanship warranty on the installation."
-      },
-      "cost": {
-        "q": "How is a commercial roof priced?",
-        "a": "By square footage, system, and access. You get a detailed written scope and price with clear terms and no hidden change orders."
+        "q": "Does your commercial roofing work include a warranty?",
+        "a": "Yes. Our commercial roofing projects include a written workmanship warranty, and applicable manufacturer warranty coverage is provided for the roofing materials used during the installation."
       }
     }
   },
   "inspections": {
     "items": {
+      "includes": {
+        "q": "What does a professional roof inspection include?",
+        "a": "Our inspection evaluates the overall condition of your roofing system, including shingles or tiles, flashing, roof penetrations, and other vulnerable areas. We also document our findings with photos and provide a detailed written report."
+      },
       "frequency": {
-        "q": "How often should my roof be inspected?",
-        "a": "We recommend a professional inspection twice a year and after any major storm to catch small issues early."
+        "q": "How often should I have my roof professionally inspected?",
+        "a": "Most homeowners benefit from a professional roof inspection at least once a year and after major storms. Regular inspections help identify developing problems before they become costly repairs or shorten the life of your roofing system."
       },
-      "plan": {
-        "q": "What does a maintenance plan include?",
-        "a": "Seasonal inspections, gutter cleaning, minor sealant and flashing tune ups, and a written report after every visit."
+      "hidden": {
+        "q": "Can a roof inspection identify hidden leaks or damage?",
+        "a": "Yes. While some conditions are immediately visible, a professional inspection often identifies early signs of water intrusion, damaged flashing, deteriorated roofing materials, and other issues that may not be obvious from the ground."
       },
-      "warranty": {
-        "q": "Does maintenance protect my warranty?",
-        "a": "Yes. Many manufacturer warranties require regular maintenance, and our reports document that your roof is being cared for."
+      "report": {
+        "q": "Will I receive photos and a written inspection report?",
+        "a": "Yes. Every inspection includes photo documentation and a detailed written report explaining the roof's condition, any areas of concern, and our professional recommendations for repairs or future maintenance."
       },
-      "cost": {
-        "q": "How much does a maintenance plan cost?",
-        "a": "Plans are priced for the year based on roof size and access, with a clear flat price and no surprise per visit billing."
+      "insurance": {
+        "q": "Can a roof inspection help with an insurance claim?",
+        "a": "Yes. A documented inspection provides a clear record of your roof's condition and can help support insurance related discussions by identifying storm damage or other issues requiring professional attention."
       },
-      "worth": {
-        "q": "Is roof maintenance really worth it?",
-        "a": "Absolutely. Catching a small leak or lifted shingle early costs far less than a major repair down the road."
+      "buying": {
+        "q": "Do I need a roof inspection before buying or selling a home?",
+        "a": "A professional inspection helps buyers understand the condition of the roofing system before closing, while sellers can identify and address potential concerns that may arise during the transaction."
       },
-      "repairs": {
-        "q": "Do you handle repairs found during maintenance?",
-        "a": "We do, and plan members get priority scheduling so small problems are fixed before they grow."
+      "recommendations": {
+        "q": "Will the inspection include repair recommendations if problems are found?",
+        "a": "Absolutely. If we identify damage or areas of concern, we explain the findings, recommend the appropriate solution, and provide clear guidance so you can make an informed decision about your roof."
       }
     }
   },
   "solar": {
     "items": {
-      "roof": {
-        "q": "Do you install the roof and the solar panels?",
-        "a": "Yes. We integrate the panels with your roofing system the right way, so the mounts are sealed and flashed and the roof stays protected."
+      "replace": {
+        "q": "Should I replace my roof before installing solar panels?",
+        "a": "If your roof is nearing the end of its service life, replacing it before installing solar panels is often the most practical option. This helps avoid the cost of removing and reinstalling the panels when the roof eventually needs replacement."
       },
-      "leaks": {
-        "q": "Will solar mounts cause leaks?",
-        "a": "Not with proper installation. Every mounting point is sealed and flashed, and we reinforce the deck where needed."
+      "compatibility": {
+        "q": "Can solar panels be installed on any type of roof?",
+        "a": "Most residential roofing systems can support solar panels, but the roof's condition, age, structural integrity, and remaining lifespan should be evaluated before installation to ensure long term performance."
       },
-      "new": {
-        "q": "Should I replace my roof before going solar?",
-        "a": "If your roof is aging, yes. Installing panels on a new roof avoids removing them later and protects your investment for decades."
+      "readiness": {
+        "q": "How do you determine if my roof is ready for solar?",
+        "a": "We inspect the roofing materials, flashing, structural condition, and remaining service life. If repairs or upgrades are recommended, we complete that work before the solar installation to provide a dependable roofing system."
       },
-      "savings": {
-        "q": "How much can solar save me?",
-        "a": "Savings depend on your usage and layout, but a smart panel layout on a sunny Florida roof can cut energy bills significantly."
+      "damage": {
+        "q": "Will installing solar panels damage my roof?",
+        "a": "When installed correctly on a properly prepared roof, solar panels should not damage the roofing system. Proper flashing and professional installation methods help protect against water intrusion around mounting points."
       },
-      "output": {
-        "q": "How do you get the best output?",
-        "a": "We assess your roof for sun exposure and design the panel layout to capture the most energy across the day."
+      "repair": {
+        "q": "Can you repair my roof before my solar contractor begins work?",
+        "a": "Yes. We can complete the necessary roofing repairs or replacement before your solar installation, helping ensure the roof is ready for long term performance once the panels are installed."
+      },
+      "coordination": {
+        "q": "Do you coordinate with my solar installation company?",
+        "a": "Yes. We can coordinate the roofing work with your solar contractor to help streamline the installation process and reduce unnecessary delays between both phases of the project."
       },
       "warranty": {
-        "q": "Is the roof still under warranty with solar?",
-        "a": "Yes. Our workmanship warranty covers the roof work, and the panels carry their own manufacturer warranty."
+        "q": "Does the roofing work include a workmanship warranty?",
+        "a": "Yes. All roofing work completed as part of your solar ready project is backed by our written workmanship warranty, with applicable manufacturer warranties covering the roofing materials used."
       }
     }
   }

@@ -50,8 +50,8 @@ export const layoutData = {
         { key: "residential", href: "/services/residential-roofing" },
         { key: "replacement", href: "/services/roof-replacement" },
         { key: "metal", href: "/services/metal" },
-        { key: "storm", href: "/services/storm-damage" },
-        { key: "commercial", href: "/services/commercial" },
+        { key: "storm", href: "/services/storm-damage-repair" },
+        { key: "commercial", href: "/services/commercial-roofing" },
       ],
     },
     /* contact column: closedKey labels the null-time hours row */
