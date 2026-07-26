@@ -102,39 +102,7 @@
       }
     }
   },
-  "replacement": {
-    "items": {
-      "duration": {
-        "q": "¿Cuánto tarda un reemplazo completo de techo?",
-        "a": "La mayoría de los reemplazos en casas unifamiliares terminan en uno o dos días. Los retechados de teja y los diseños complejos pueden tomar de tres a cinco días."
-      },
-      "presence": {
-        "q": "¿Debo salir de la casa durante el reemplazo?",
-        "a": "No. La cuadrilla trabaja afuera. Escucharás martilleo y ruido de retiro, así que las mascotas y los niños pequeños quizá prefieran estar fuera durante las horas ruidosas."
-      },
-      "cost": {
-        "q": "¿Cuál es el rango de precio típico de un reemplazo residencial?",
-        "a": "La mayoría de los retechados de tejas en Miami y Fort Lauderdale rondan entre $12,000 y $25,000 según tamaño, pendiente y material. Los de teja suelen ir de $18,000 a $40,000. Te damos una cotización fija y detallada, nunca un rango."
-      },
-      "warranty": {
-        "q": "¿La garantía es sobre materiales o mano de obra?",
-        "a": "Ambas. Recibes la garantía del fabricante sobre los materiales más nuestra garantía de mano de obra por escrito sobre la instalación."
-      },
-      "leaks": {
-        "q": "¿El reemplazo detiene mis goteras para siempre?",
-        "a": "Sí. Un reemplazo completo retira cada capa gastada e instala membrana y tapajuntas nuevos, así que las goteras causadas por un techo viejo desaparecen."
-      },
-      "rain": {
-        "q": "¿Qué pasa si llueve durante el reemplazo?",
-        "a": "Solo retiramos lo que la cuadrilla puede cerrar el mismo día y cubrimos el resto con lona, así tu casa queda protegida hasta que el techo nuevo esté puesto."
-      },
-      "permit": {
-        "q": "¿Ustedes gestionan el permiso y la inspección?",
-        "a": "Sí. Tramitamos el permiso, agendamos la inspección de la ciudad y te entregamos el papeleo firmado una vez que el trabajo pasa."
-      }
-    }
-  },
-  "shingle": {
+  "residential": {
     "items": {
       "lifespan": {
         "q": "¿Cuánto dura un techo de tejas?",
@@ -187,6 +155,94 @@
       "rust": {
         "q": "¿Un techo metálico se oxida o corroe?",
         "a": "Los paneles modernos usan acero o aluminio recubierto hecho para resistir el salitre y la corrosión, así se mantienen firmes por décadas."
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "seamless": {
+        "q": "¿Qué son las canaletas sin uniones?",
+        "a": "Las canaletas sin uniones se forman en sitio para ajustar tu techo en una sola pieza continua, así hay muchas menos juntas que goteen o se tapen."
+      },
+      "flashing": {
+        "q": "¿Por qué importa tanto el tapajuntas?",
+        "a": "El tapajuntas sella las juntas donde el techo se encuentra con paredes, valles y chimeneas. Un mal tapajuntas es una de las causas más comunes de goteras."
+      },
+      "clogs": {
+        "q": "¿Pueden ayudar con los tapones constantes?",
+        "a": "Sí. Dimensionamos bien las canaletas, agregamos bajantes adecuados y podemos instalar guardas para que los residuos sigan de largo."
+      },
+      "foundation": {
+        "q": "¿Las canaletas realmente protegen el cimiento?",
+        "a": "Sí. Alejar el agua de la casa la mantiene lejos del cimiento y la fachada, evitando pudrición y daños estructurales costosos."
+      },
+      "cost": {
+        "q": "¿Cuánto cuestan canaletas nuevas?",
+        "a": "El costo depende del largo del techo y los materiales. Recibes una cotización fija y detallada antes de empezar."
+      },
+      "warranty": {
+        "q": "¿Hay garantía en el trabajo de canaletas?",
+        "a": "Sí. Cada trabajo de canaletas y tapajuntas está respaldado por nuestra garantía de mano de obra por escrito."
+      }
+    }
+  },
+  "replacement": {
+    "items": {
+      "duration": {
+        "q": "¿Cuánto tarda un reemplazo completo de techo?",
+        "a": "La mayoría de los reemplazos en casas unifamiliares terminan en uno o dos días. Los retechados de teja y los diseños complejos pueden tomar de tres a cinco días."
+      },
+      "presence": {
+        "q": "¿Debo salir de la casa durante el reemplazo?",
+        "a": "No. La cuadrilla trabaja afuera. Escucharás martilleo y ruido de retiro, así que las mascotas y los niños pequeños quizá prefieran estar fuera durante las horas ruidosas."
+      },
+      "cost": {
+        "q": "¿Cuál es el rango de precio típico de un reemplazo residencial?",
+        "a": "La mayoría de los retechados de tejas en Miami y Fort Lauderdale rondan entre $12,000 y $25,000 según tamaño, pendiente y material. Los de teja suelen ir de $18,000 a $40,000. Te damos una cotización fija y detallada, nunca un rango."
+      },
+      "warranty": {
+        "q": "¿La garantía es sobre materiales o mano de obra?",
+        "a": "Ambas. Recibes la garantía del fabricante sobre los materiales más nuestra garantía de mano de obra por escrito sobre la instalación."
+      },
+      "leaks": {
+        "q": "¿El reemplazo detiene mis goteras para siempre?",
+        "a": "Sí. Un reemplazo completo retira cada capa gastada e instala membrana y tapajuntas nuevos, así que las goteras causadas por un techo viejo desaparecen."
+      },
+      "rain": {
+        "q": "¿Qué pasa si llueve durante el reemplazo?",
+        "a": "Solo retiramos lo que la cuadrilla puede cerrar el mismo día y cubrimos el resto con lona, así tu casa queda protegida hasta que el techo nuevo esté puesto."
+      },
+      "permit": {
+        "q": "¿Ustedes gestionan el permiso y la inspección?",
+        "a": "Sí. Tramitamos el permiso, agendamos la inspección de la ciudad y te entregamos el papeleo firmado una vez que el trabajo pasa."
+      }
+    }
+  },
+  "skylights": {
+    "items": {
+      "leak": {
+        "q": "¿Las claraboyas gotean?",
+        "a": "No cuando se instalan bien. Usamos un kit de tapajuntas a prueba de filtraciones y sellamos cada borde, y probamos la claraboya con agua antes de irnos."
+      },
+      "rooms": {
+        "q": "¿Qué cuartos son mejores para una claraboya?",
+        "a": "Pasillos oscuros, baños sin ventanas, cocinas y salas se benefician de la luz natural que aporta una claraboya."
+      },
+      "heat": {
+        "q": "¿Una claraboya calienta el cuarto?",
+        "a": "Instalamos unidades eficientes con vidrio de baja emisividad que dejan pasar la luz mientras bloquean gran parte del calor de Florida."
+      },
+      "existing": {
+        "q": "¿Pueden agregar una claraboya a mi techo actual?",
+        "a": "Sí. Planeamos la abertura alrededor de tus vigas, la cortamos y enmarcamos limpio, y la sellamos al techo existente."
+      },
+      "cost": {
+        "q": "¿Cuánto cuesta una claraboya?",
+        "a": "El costo depende de la unidad y el techo, pero recibes una cotización fija por escrito que cubre la claraboya, el tapajuntas y el acabado interior."
+      },
+      "warranty": {
+        "q": "¿Qué garantía trae una claraboya?",
+        "a": "Recibes la garantía del fabricante sobre la unidad más nuestra garantía de mano de obra por escrito sobre la instalación a prueba de filtraciones."
       }
     }
   },
@@ -246,7 +302,7 @@
       }
     }
   },
-  "maintenance": {
+  "inspections": {
     "items": {
       "frequency": {
         "q": "¿Cada cuánto debo inspeccionar mi techo?",
@@ -271,62 +327,6 @@
       "repairs": {
         "q": "¿Atienden reparaciones halladas en el mantenimiento?",
         "a": "Sí, y los miembros del plan reciben prioridad de agenda para que los problemas pequeños se arreglen antes de crecer."
-      }
-    }
-  },
-  "gutters": {
-    "items": {
-      "seamless": {
-        "q": "¿Qué son las canaletas sin uniones?",
-        "a": "Las canaletas sin uniones se forman en sitio para ajustar tu techo en una sola pieza continua, así hay muchas menos juntas que goteen o se tapen."
-      },
-      "flashing": {
-        "q": "¿Por qué importa tanto el tapajuntas?",
-        "a": "El tapajuntas sella las juntas donde el techo se encuentra con paredes, valles y chimeneas. Un mal tapajuntas es una de las causas más comunes de goteras."
-      },
-      "clogs": {
-        "q": "¿Pueden ayudar con los tapones constantes?",
-        "a": "Sí. Dimensionamos bien las canaletas, agregamos bajantes adecuados y podemos instalar guardas para que los residuos sigan de largo."
-      },
-      "foundation": {
-        "q": "¿Las canaletas realmente protegen el cimiento?",
-        "a": "Sí. Alejar el agua de la casa la mantiene lejos del cimiento y la fachada, evitando pudrición y daños estructurales costosos."
-      },
-      "cost": {
-        "q": "¿Cuánto cuestan canaletas nuevas?",
-        "a": "El costo depende del largo del techo y los materiales. Recibes una cotización fija y detallada antes de empezar."
-      },
-      "warranty": {
-        "q": "¿Hay garantía en el trabajo de canaletas?",
-        "a": "Sí. Cada trabajo de canaletas y tapajuntas está respaldado por nuestra garantía de mano de obra por escrito."
-      }
-    }
-  },
-  "skylights": {
-    "items": {
-      "leak": {
-        "q": "¿Las claraboyas gotean?",
-        "a": "No cuando se instalan bien. Usamos un kit de tapajuntas a prueba de filtraciones y sellamos cada borde, y probamos la claraboya con agua antes de irnos."
-      },
-      "rooms": {
-        "q": "¿Qué cuartos son mejores para una claraboya?",
-        "a": "Pasillos oscuros, baños sin ventanas, cocinas y salas se benefician de la luz natural que aporta una claraboya."
-      },
-      "heat": {
-        "q": "¿Una claraboya calienta el cuarto?",
-        "a": "Instalamos unidades eficientes con vidrio de baja emisividad que dejan pasar la luz mientras bloquean gran parte del calor de Florida."
-      },
-      "existing": {
-        "q": "¿Pueden agregar una claraboya a mi techo actual?",
-        "a": "Sí. Planeamos la abertura alrededor de tus vigas, la cortamos y enmarcamos limpio, y la sellamos al techo existente."
-      },
-      "cost": {
-        "q": "¿Cuánto cuesta una claraboya?",
-        "a": "El costo depende de la unidad y el techo, pero recibes una cotización fija por escrito que cubre la claraboya, el tapajuntas y el acabado interior."
-      },
-      "warranty": {
-        "q": "¿Qué garantía trae una claraboya?",
-        "a": "Recibes la garantía del fabricante sobre la unidad más nuestra garantía de mano de obra por escrito sobre la instalación a prueba de filtraciones."
       }
     }
   },

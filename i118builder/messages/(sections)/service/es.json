@@ -9,37 +9,37 @@
     "viewDetails": "Ver Detalles"
   },
   "items": {
-    "replacement": {
-      "title": "Reemplazo y Reparación",
-      "description": "Reemplazos completos y reparaciones expertas."
-    },
-    "shingle": {
-      "title": "Techado de Tejas",
-      "description": "Hecho para un atractivo duradero."
+    "residential": {
+      "title": "Techado Residencial",
+      "description": "Techado confiable para cada hogar."
     },
     "metal": {
       "title": "Techado Metálico",
       "description": "Diseñado para durar por décadas."
     },
+    "gutters": {
+      "title": "Canaletas y Tapajuntas",
+      "description": "Protegiendo cada hogar del agua."
+    },
+    "replacement": {
+      "title": "Reemplazo de Techo",
+      "description": "Reemplazo completo hecho con calidad."
+    },
+    "skylights": {
+      "title": "Instalación de Claraboyas",
+      "description": "Luz natural sin filtraciones, garantizada."
+    },
     "storm": {
-      "title": "Daños y Seguros",
+      "title": "Reparación por Tormenta",
       "description": "Respuesta rápida tras cada tormenta."
     },
     "commercial": {
       "title": "Techado Comercial",
       "description": "Techos planos para tu negocio."
     },
-    "maintenance": {
-      "title": "Mantenimiento de Techos",
-      "description": "Planes preventivos de inspección anual."
-    },
-    "gutters": {
-      "title": "Canalones y Tapajuntas",
-      "description": "Protegiendo cada hogar del agua."
-    },
-    "skylights": {
-      "title": "Instalación de Claraboyas",
-      "description": "Luz natural sin filtraciones, garantizada."
+    "inspections": {
+      "title": "Inspección de Techos",
+      "description": "Inspecciones detalladas y reportes honestos."
     },
     "solar": {
       "title": "Techado Solar",

@@ -25,6 +25,120 @@
     }
   },
   "items": {
+    "residential": {
+      "intro": "Tejas asfálticas arquitectónicas de marcas confiables ofrecen un atractivo clásico y protección firme contra el clima, instaladas por equipos certificados y respaldadas por garantías de fabricante y obra.",
+      "included": [
+        "Inspección completa del techo actual",
+        "Instalación de tejas asfálticas arquitectónicas",
+        "Membrana nueva y borde de goteo",
+        "Tapajuntas nuevo en cada penetración",
+        "Limpieza total y barrido magnético",
+        "Garantía de fabricante y mano de obra"
+      ],
+      "ideal": [
+        "Casas que buscan atractivo clásico",
+        "Techos que piden un aspecto nuevo",
+        "Reemplazos completos con presupuesto ajustado",
+        "Vecindarios con reglas de estilo estrictas",
+        "Dueños que valoran materiales probados"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspección Y Fotos",
+            "description": "Documentamos el estado completo del techo y te damos un reporte escrito antes de colocar una teja."
+          },
+          "quote": {
+            "title": "Cotización Escrita",
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
+          },
+          "work": {
+            "title": "Instalar Y Sellar",
+            "description": "Cuadrillas certificadas colocan membrana nueva, tejas y tapajuntas con uniones firmes y rectas que expulsan el agua."
+          },
+          "warranty": {
+            "title": "Prueba Y Garantía",
+            "description": "Inspeccionamos el techo terminado y te entregamos ambas garantías de fabricante y mano de obra por escrito."
+          }
+        }
+      }
+    },
+    "metal": {
+      "intro": "Techos metálicos de junta alzada y acanalados diseñados para décadas de servicio, resistiendo tormentas, sol y sal, con un perfil moderno.",
+      "included": [
+        "Inspección completa del techo actual",
+        "Paneles metálicos de junta alzada o acanalados",
+        "Capa de membrana de alta temperatura",
+        "Fijaciones ocultas y tapajuntas a medida",
+        "Limpieza total y barrido magnético",
+        "Garantía de fabricante a largo plazo"
+      ],
+      "ideal": [
+        "Casas que buscan décadas de servicio",
+        "Zonas con mucho sol o tormentas",
+        "Dueños que quieren un perfil moderno",
+        "Propiedades cerca de sal o incendios",
+        "Compradores enfocados en valor duradero"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspección Y Fotos",
+            "description": "Medimos el techo, planeamos el trazado de paneles y te damos un reporte escrito antes de empezar."
+          },
+          "quote": {
+            "title": "Cotización Escrita",
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
+          },
+          "work": {
+            "title": "Panel Y Junta",
+            "description": "Primero colocan la membrana de alta temperatura y luego fijan cada panel con sujeciones ocultas y herméticas."
+          },
+          "warranty": {
+            "title": "Prueba Y Garantía",
+            "description": "Probamos cada junta con agua y entregamos garantía de fabricante y mano de obra a largo plazo."
+          }
+        }
+      }
+    },
+    "gutters": {
+      "intro": "Canaletas sin uniones y tapajuntas de precisión alejan el agua de tu hogar, protegiendo cimientos, fachada y techo de daños costosos.",
+      "included": [
+        "Inspección de canaletas y línea del techo",
+        "Instalación de canaletas de aluminio sin uniones",
+        "Bajantes nuevos y desvío del agua",
+        "Tapajuntas de precisión en cada junta",
+        "Limpieza total y retiro de escombros",
+        "Garantía de mano de obra por escrito"
+      ],
+      "ideal": [
+        "Casas con canaletas que se desbordan",
+        "Cimientos en riesgo por el agua",
+        "Techos con tapajuntas gastado o suelto",
+        "Propiedades bajo mucha lluvia",
+        "Dueños cansados de tapones constantes"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspección Y Fotos",
+            "description": "Medimos toda la línea del techo, revisamos el tapajuntas y damos un reporte escrito antes de trabajar."
+          },
+          "quote": {
+            "title": "Cotización Escrita",
+            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
+          },
+          "work": {
+            "title": "Formar Y Ajustar",
+            "description": "Las cuadrillas forman canaletas sin uniones en sitio y ajustan tapajuntas y bajantes para un buen drenaje."
+          },
+          "warranty": {
+            "title": "Prueba Y Garantía",
+            "description": "Pasamos agua por todo el sistema y respaldamos cada trabajo de canaletas y tapajuntas con nuestra garantía."
+          }
+        }
+      }
+    },
     "replacement": {
       "intro": "Desde reemplazos de techo hasta reparaciones puntuales, brindamos protección duradera con materiales premium, mano de obra experta y cobertura de garantía.",
       "included": [
@@ -65,78 +179,40 @@
         }
       }
     },
-    "shingle": {
-      "intro": "Tejas asfálticas arquitectónicas de marcas confiables ofrecen un atractivo clásico y protección firme contra el clima, instaladas por equipos certificados y respaldadas por garantías de fabricante y obra.",
+    "skylights": {
+      "intro": "Cortamos, enmarcamos, sellamos e impermeabilizamos claraboyas nuevas con precisión, llevando luz natural a tu hogar y manteniendo el techo hermético.",
       "included": [
-        "Inspección completa del techo actual",
-        "Instalación de tejas asfálticas arquitectónicas",
-        "Membrana nueva y borde de goteo",
-        "Tapajuntas nuevo en cada penetración",
-        "Limpieza total y barrido magnético",
-        "Garantía de fabricante y mano de obra"
+        "Inspección completa de la base del techo",
+        "Abertura cortada y enmarcada con precisión",
+        "Kit de tapajuntas a prueba de filtraciones",
+        "Unidad de claraboya eficiente",
+        "Acabado interior alrededor del túnel",
+        "Garantía de mano de obra por escrito"
       ],
       "ideal": [
-        "Casas que buscan atractivo clásico",
-        "Techos que piden un aspecto nuevo",
-        "Reemplazos completos con presupuesto ajustado",
-        "Vecindarios con reglas de estilo estrictas",
-        "Dueños que valoran materiales probados"
+        "Cuartos oscuros que piden luz natural",
+        "Pasillos y baños sin ventanas",
+        "Casas que buscan luz natural pasiva",
+        "Dueños que quieren un interior más luminoso",
+        "Remodelaciones que abren el techo"
       ],
       "process": {
         "steps": {
           "inspect": {
             "title": "Inspección Y Fotos",
-            "description": "Documentamos el estado completo del techo y te damos un reporte escrito antes de colocar una teja."
+            "description": "Revisamos la base y el interior, planeamos la abertura y damos un reporte escrito antes de cortar."
           },
           "quote": {
             "title": "Cotización Escrita",
             "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
           },
           "work": {
-            "title": "Instalar Y Sellar",
-            "description": "Cuadrillas certificadas colocan membrana nueva, tejas y tapajuntas con uniones firmes y rectas que expulsan el agua."
+            "title": "Cortar Y Sellar",
+            "description": "Cortan y enmarcan bien la abertura, colocan la unidad y la sellan con un kit totalmente impermeable."
           },
           "warranty": {
             "title": "Prueba Y Garantía",
-            "description": "Inspeccionamos el techo terminado y te entregamos ambas garantías de fabricante y mano de obra por escrito."
-          }
-        }
-      }
-    },
-    "metal": {
-      "intro": "Sistemas metálicos de junta alzada y paneles acanalados diseñados para décadas de servicio, resistiendo tormentas, sol y nieve mientras dan a tu propiedad un perfil limpio y moderno.",
-      "included": [
-        "Inspección completa del techo actual",
-        "Paneles metálicos de junta alzada o acanalados",
-        "Capa de membrana de alta temperatura",
-        "Fijaciones ocultas y tapajuntas a medida",
-        "Limpieza total y barrido magnético",
-        "Garantía de fabricante a largo plazo"
-      ],
-      "ideal": [
-        "Casas que buscan décadas de servicio",
-        "Zonas con mucho sol o tormentas",
-        "Dueños que quieren un perfil moderno",
-        "Propiedades cerca de sal o incendios",
-        "Compradores enfocados en valor duradero"
-      ],
-      "process": {
-        "steps": {
-          "inspect": {
-            "title": "Inspección Y Fotos",
-            "description": "Medimos el techo, planeamos el trazado de paneles y te damos un reporte escrito antes de empezar."
-          },
-          "quote": {
-            "title": "Cotización Escrita",
-            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
-          },
-          "work": {
-            "title": "Panel Y Junta",
-            "description": "Primero colocan la membrana de alta temperatura y luego fijan cada panel con sujeciones ocultas y herméticas."
-          },
-          "warranty": {
-            "title": "Prueba Y Garantía",
-            "description": "Probamos cada junta con agua y entregamos garantía de fabricante y mano de obra a largo plazo."
+            "description": "Probamos la claraboya ya terminada con agua y respaldamos toda la instalación con nuestra garantía escrita completa."
           }
         }
       }
@@ -217,7 +293,7 @@
         }
       }
     },
-    "maintenance": {
+    "inspections": {
       "intro": "Inspecciones regulares, limpieza de canalones y ajustes menores con un calendario fijo evitan que los problemas pequeños crezcan, alargando la vida de tu techo y protegiendo tu garantía.",
       "included": [
         "Inspecciones estacionales programadas",
@@ -255,84 +331,8 @@
         }
       }
     },
-    "gutters": {
-      "intro": "Canaletas sin uniones y tapajuntas de precisión alejan el agua de tu hogar, protegiendo cimientos, fachada y techo de filtraciones, humedad y daños estructurales costosos año tras año.",
-      "included": [
-        "Inspección de canaletas y línea del techo",
-        "Instalación de canaletas de aluminio sin uniones",
-        "Bajantes nuevos y desvío del agua",
-        "Tapajuntas de precisión en cada junta",
-        "Limpieza total y retiro de escombros",
-        "Garantía de mano de obra por escrito"
-      ],
-      "ideal": [
-        "Casas con canaletas que se desbordan",
-        "Cimientos en riesgo por el agua",
-        "Techos con tapajuntas gastado o suelto",
-        "Propiedades bajo mucha lluvia",
-        "Dueños cansados de tapones constantes"
-      ],
-      "process": {
-        "steps": {
-          "inspect": {
-            "title": "Inspección Y Fotos",
-            "description": "Medimos toda la línea del techo, revisamos el tapajuntas y damos un reporte escrito antes de trabajar."
-          },
-          "quote": {
-            "title": "Cotización Escrita",
-            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
-          },
-          "work": {
-            "title": "Formar Y Ajustar",
-            "description": "Las cuadrillas forman canaletas sin uniones en sitio y ajustan tapajuntas y bajantes para un buen drenaje."
-          },
-          "warranty": {
-            "title": "Prueba Y Garantía",
-            "description": "Pasamos agua por todo el sistema y respaldamos cada trabajo de canaletas y tapajuntas con nuestra garantía."
-          }
-        }
-      }
-    },
-    "skylights": {
-      "intro": "Cortamos, enmarcamos, sellamos e impermeabilizamos claraboyas nuevas con precisión total, llevando luz natural a tu hogar mientras preservamos la integridad completa de todo tu techo existente.",
-      "included": [
-        "Inspección completa de la base del techo",
-        "Abertura cortada y enmarcada con precisión",
-        "Kit de tapajuntas a prueba de filtraciones",
-        "Unidad de claraboya eficiente",
-        "Acabado interior alrededor del túnel",
-        "Garantía de mano de obra por escrito"
-      ],
-      "ideal": [
-        "Cuartos oscuros que piden luz natural",
-        "Pasillos y baños sin ventanas",
-        "Casas que buscan luz natural pasiva",
-        "Dueños que quieren un interior más luminoso",
-        "Remodelaciones que abren el techo"
-      ],
-      "process": {
-        "steps": {
-          "inspect": {
-            "title": "Inspección Y Fotos",
-            "description": "Revisamos la base y el interior, planeamos la abertura y damos un reporte escrito antes de cortar."
-          },
-          "quote": {
-            "title": "Cotización Escrita",
-            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
-          },
-          "work": {
-            "title": "Cortar Y Sellar",
-            "description": "Cortan y enmarcan bien la abertura, colocan la unidad y la sellan con un kit totalmente impermeable."
-          },
-          "warranty": {
-            "title": "Prueba Y Garantía",
-            "description": "Probamos la claraboya ya terminada con agua y respaldamos toda la instalación con nuestra garantía escrita completa."
-          }
-        }
-      }
-    },
     "solar": {
-      "intro": "Integramos paneles solares con tu sistema de techado de la forma correcta, con anclajes sellados y diseños inteligentes que reducen tu factura sin comprometer la protección.",
+      "intro": "Integramos paneles solares en tu techo con montajes sellados y diseños inteligentes que reducen tu factura de energía sin arriesgar filtraciones.",
       "included": [
         "Inspección completa de la estructura del techo",
         "Puntos de montaje sellados y con tapajuntas",

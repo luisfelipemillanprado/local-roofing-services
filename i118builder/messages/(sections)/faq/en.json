@@ -1,5 +1,5 @@
 {
-  "eyebrow": "FAQ",
+  "eyebrow": "COMMON QUESTIONS",
   "titleLead": "Things To Know First",
   "titleAccent": "Before You Hire Us",
   "description": "Browse helpful answers to important questions, providing the clarity you need before choosing roofing services for your home confidently today.",
@@ -102,39 +102,7 @@
       }
     }
   },
-  "replacement": {
-    "items": {
-      "duration": {
-        "q": "How long does a full roof replacement take?",
-        "a": "Most single family replacements finish in one to two days. Tile reroofs and complex layouts can take three to five days."
-      },
-      "presence": {
-        "q": "Do I need to leave the house during a replacement?",
-        "a": "No. The crew works outside. You will hear hammering and tear off noise, so pets and small children may want to be away for the noisy hours."
-      },
-      "cost": {
-        "q": "What is the typical cost range for a residential replacement?",
-        "a": "Most Miami and Fort Lauderdale shingle reroofs land between $12,000 and $25,000 depending on size, slope, and material. Tile reroofs are typically $18,000 to $40,000. We give you a fixed line item quote, never a range."
-      },
-      "warranty": {
-        "q": "Is the warranty on materials or workmanship?",
-        "a": "Both. You get the manufacturer warranty on materials plus our written workmanship warranty on the install."
-      },
-      "leaks": {
-        "q": "Will a replacement stop my leaks for good?",
-        "a": "Yes. A full replacement removes every worn layer and installs fresh underlayment and flashing, so the leaks caused by an aging roof are gone."
-      },
-      "rain": {
-        "q": "What happens if it rains during my replacement?",
-        "a": "We only tear off what the crew can close the same day and tarp the rest, so your home stays protected until the new roof is on."
-      },
-      "permit": {
-        "q": "Do you handle the permit and inspection?",
-        "a": "Yes. We pull the permit, schedule the city inspection, and hand you the signed paperwork once the job passes."
-      }
-    }
-  },
-  "shingle": {
+  "residential": {
     "items": {
       "lifespan": {
         "q": "How long does a shingle roof last?",
@@ -187,6 +155,94 @@
       "rust": {
         "q": "Will a metal roof rust or corrode?",
         "a": "Modern panels use coated steel or aluminum built to resist salt air and corrosion, so they stay sound for decades."
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "seamless": {
+        "q": "What are seamless gutters?",
+        "a": "Seamless gutters are formed on site to fit your roofline in one continuous piece, so there are far fewer joints to leak or clog."
+      },
+      "flashing": {
+        "q": "Why does flashing matter so much?",
+        "a": "Flashing seals the joints where the roof meets walls, valleys, and chimneys. Bad flashing is one of the most common causes of leaks."
+      },
+      "clogs": {
+        "q": "Can you help with constant gutter clogs?",
+        "a": "Yes. We size the gutters correctly, add proper downspouts, and can install guards to keep debris moving through."
+      },
+      "foundation": {
+        "q": "Do gutters really protect the foundation?",
+        "a": "They do. Moving water away from the house keeps it off the foundation and siding, preventing rot and costly structural damage."
+      },
+      "cost": {
+        "q": "How much do new gutters cost?",
+        "a": "Cost depends on the length of the roofline and the materials. You get a fixed line item quote before any work begins."
+      },
+      "warranty": {
+        "q": "Is there a warranty on gutter work?",
+        "a": "Yes. Every gutter and flashing job is backed by our written workmanship warranty."
+      }
+    }
+  },
+  "replacement": {
+    "items": {
+      "duration": {
+        "q": "How long does a full roof replacement take?",
+        "a": "Most single family replacements finish in one to two days. Tile reroofs and complex layouts can take three to five days."
+      },
+      "presence": {
+        "q": "Do I need to leave the house during a replacement?",
+        "a": "No. The crew works outside. You will hear hammering and tear off noise, so pets and small children may want to be away for the noisy hours."
+      },
+      "cost": {
+        "q": "What is the typical cost range for a residential replacement?",
+        "a": "Most Miami and Fort Lauderdale shingle reroofs land between $12,000 and $25,000 depending on size, slope, and material. Tile reroofs are typically $18,000 to $40,000. We give you a fixed line item quote, never a range."
+      },
+      "warranty": {
+        "q": "Is the warranty on materials or workmanship?",
+        "a": "Both. You get the manufacturer warranty on materials plus our written workmanship warranty on the install."
+      },
+      "leaks": {
+        "q": "Will a replacement stop my leaks for good?",
+        "a": "Yes. A full replacement removes every worn layer and installs fresh underlayment and flashing, so the leaks caused by an aging roof are gone."
+      },
+      "rain": {
+        "q": "What happens if it rains during my replacement?",
+        "a": "We only tear off what the crew can close the same day and tarp the rest, so your home stays protected until the new roof is on."
+      },
+      "permit": {
+        "q": "Do you handle the permit and inspection?",
+        "a": "Yes. We pull the permit, schedule the city inspection, and hand you the signed paperwork once the job passes."
+      }
+    }
+  },
+  "skylights": {
+    "items": {
+      "leak": {
+        "q": "Do skylights leak?",
+        "a": "Not when installed right. We use a leak proof flashing kit and seal every edge, and we water test the skylight before we leave."
+      },
+      "rooms": {
+        "q": "Which rooms work best for a skylight?",
+        "a": "Dark hallways, bathrooms without windows, kitchens, and living rooms all benefit from the natural light a skylight brings in."
+      },
+      "heat": {
+        "q": "Will a skylight make the room hot?",
+        "a": "We install energy efficient units with low emissivity glass that let in light while blocking much of the Florida heat."
+      },
+      "existing": {
+        "q": "Can you add a skylight to my existing roof?",
+        "a": "Yes. We plan the opening around your rafters, cut and frame it cleanly, and seal it into the existing roof."
+      },
+      "cost": {
+        "q": "How much does a skylight cost?",
+        "a": "Cost depends on the unit and the roof, but you get a fixed written quote covering the skylight, flashing, and interior finish."
+      },
+      "warranty": {
+        "q": "What warranty comes with a skylight?",
+        "a": "You get the manufacturer warranty on the unit plus our written workmanship warranty on the leak proof installation."
       }
     }
   },
@@ -246,7 +302,7 @@
       }
     }
   },
-  "maintenance": {
+  "inspections": {
     "items": {
       "frequency": {
         "q": "How often should my roof be inspected?",
@@ -271,62 +327,6 @@
       "repairs": {
         "q": "Do you handle repairs found during maintenance?",
         "a": "We do, and plan members get priority scheduling so small problems are fixed before they grow."
-      }
-    }
-  },
-  "gutters": {
-    "items": {
-      "seamless": {
-        "q": "What are seamless gutters?",
-        "a": "Seamless gutters are formed on site to fit your roofline in one continuous piece, so there are far fewer joints to leak or clog."
-      },
-      "flashing": {
-        "q": "Why does flashing matter so much?",
-        "a": "Flashing seals the joints where the roof meets walls, valleys, and chimneys. Bad flashing is one of the most common causes of leaks."
-      },
-      "clogs": {
-        "q": "Can you help with constant gutter clogs?",
-        "a": "Yes. We size the gutters correctly, add proper downspouts, and can install guards to keep debris moving through."
-      },
-      "foundation": {
-        "q": "Do gutters really protect the foundation?",
-        "a": "They do. Moving water away from the house keeps it off the foundation and siding, preventing rot and costly structural damage."
-      },
-      "cost": {
-        "q": "How much do new gutters cost?",
-        "a": "Cost depends on the length of the roofline and the materials. You get a fixed line item quote before any work begins."
-      },
-      "warranty": {
-        "q": "Is there a warranty on gutter work?",
-        "a": "Yes. Every gutter and flashing job is backed by our written workmanship warranty."
-      }
-    }
-  },
-  "skylights": {
-    "items": {
-      "leak": {
-        "q": "Do skylights leak?",
-        "a": "Not when installed right. We use a leak proof flashing kit and seal every edge, and we water test the skylight before we leave."
-      },
-      "rooms": {
-        "q": "Which rooms work best for a skylight?",
-        "a": "Dark hallways, bathrooms without windows, kitchens, and living rooms all benefit from the natural light a skylight brings in."
-      },
-      "heat": {
-        "q": "Will a skylight make the room hot?",
-        "a": "We install energy efficient units with low emissivity glass that let in light while blocking much of the Florida heat."
-      },
-      "existing": {
-        "q": "Can you add a skylight to my existing roof?",
-        "a": "Yes. We plan the opening around your rafters, cut and frame it cleanly, and seal it into the existing roof."
-      },
-      "cost": {
-        "q": "How much does a skylight cost?",
-        "a": "Cost depends on the unit and the roof, but you get a fixed written quote covering the skylight, flashing, and interior finish."
-      },
-      "warranty": {
-        "q": "What warranty comes with a skylight?",
-        "a": "You get the manufacturer warranty on the unit plus our written workmanship warranty on the leak proof installation."
       }
     }
   },

@@ -23,24 +23,14 @@ export const testimonialsData = {
       ],
     },
     /* per-service detail pages: same six avatars, quotes by service */
-    replacement: {
+    residential: {
       items: [
-        { key: "replacement.items.r1", avatar: "/images/avatars/avatar1.webp" },
-        { key: "replacement.items.r2", avatar: "/images/avatars/avatar2.webp" },
-        { key: "replacement.items.r3", avatar: "/images/avatars/avatar3.webp" },
-        { key: "replacement.items.r4", avatar: "/images/avatars/avatar4.webp" },
-        { key: "replacement.items.r5", avatar: "/images/avatars/avatar5.webp" },
-        { key: "replacement.items.r6", avatar: "/images/avatars/avatar6.webp" },
-      ],
-    },
-    shingle: {
-      items: [
-        { key: "shingle.items.r1", avatar: "/images/avatars/avatar1.webp" },
-        { key: "shingle.items.r2", avatar: "/images/avatars/avatar2.webp" },
-        { key: "shingle.items.r3", avatar: "/images/avatars/avatar3.webp" },
-        { key: "shingle.items.r4", avatar: "/images/avatars/avatar4.webp" },
-        { key: "shingle.items.r5", avatar: "/images/avatars/avatar5.webp" },
-        { key: "shingle.items.r6", avatar: "/images/avatars/avatar6.webp" },
+        { key: "residential.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "residential.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "residential.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "residential.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "residential.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "residential.items.r6", avatar: "/images/avatars/avatar6.webp" },
       ],
     },
     metal: {
@@ -51,6 +41,36 @@ export const testimonialsData = {
         { key: "metal.items.r4", avatar: "/images/avatars/avatar4.webp" },
         { key: "metal.items.r5", avatar: "/images/avatars/avatar5.webp" },
         { key: "metal.items.r6", avatar: "/images/avatars/avatar6.webp" },
+      ],
+    },
+    gutters: {
+      items: [
+        { key: "gutters.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "gutters.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "gutters.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "gutters.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "gutters.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "gutters.items.r6", avatar: "/images/avatars/avatar6.webp" },
+      ],
+    },
+    replacement: {
+      items: [
+        { key: "replacement.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "replacement.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "replacement.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "replacement.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "replacement.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "replacement.items.r6", avatar: "/images/avatars/avatar6.webp" },
+      ],
+    },
+    skylights: {
+      items: [
+        { key: "skylights.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "skylights.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "skylights.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "skylights.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "skylights.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "skylights.items.r6", avatar: "/images/avatars/avatar6.webp" },
       ],
     },
     storm: {
@@ -73,34 +93,14 @@ export const testimonialsData = {
         { key: "commercial.items.r6", avatar: "/images/avatars/avatar6.webp" },
       ],
     },
-    maintenance: {
+    inspections: {
       items: [
-        { key: "maintenance.items.r1", avatar: "/images/avatars/avatar1.webp" },
-        { key: "maintenance.items.r2", avatar: "/images/avatars/avatar2.webp" },
-        { key: "maintenance.items.r3", avatar: "/images/avatars/avatar3.webp" },
-        { key: "maintenance.items.r4", avatar: "/images/avatars/avatar4.webp" },
-        { key: "maintenance.items.r5", avatar: "/images/avatars/avatar5.webp" },
-        { key: "maintenance.items.r6", avatar: "/images/avatars/avatar6.webp" },
-      ],
-    },
-    gutters: {
-      items: [
-        { key: "gutters.items.r1", avatar: "/images/avatars/avatar1.webp" },
-        { key: "gutters.items.r2", avatar: "/images/avatars/avatar2.webp" },
-        { key: "gutters.items.r3", avatar: "/images/avatars/avatar3.webp" },
-        { key: "gutters.items.r4", avatar: "/images/avatars/avatar4.webp" },
-        { key: "gutters.items.r5", avatar: "/images/avatars/avatar5.webp" },
-        { key: "gutters.items.r6", avatar: "/images/avatars/avatar6.webp" },
-      ],
-    },
-    skylights: {
-      items: [
-        { key: "skylights.items.r1", avatar: "/images/avatars/avatar1.webp" },
-        { key: "skylights.items.r2", avatar: "/images/avatars/avatar2.webp" },
-        { key: "skylights.items.r3", avatar: "/images/avatars/avatar3.webp" },
-        { key: "skylights.items.r4", avatar: "/images/avatars/avatar4.webp" },
-        { key: "skylights.items.r5", avatar: "/images/avatars/avatar5.webp" },
-        { key: "skylights.items.r6", avatar: "/images/avatars/avatar6.webp" },
+        { key: "inspections.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "inspections.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "inspections.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "inspections.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "inspections.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "inspections.items.r6", avatar: "/images/avatars/avatar6.webp" },
       ],
     },
     solar: {

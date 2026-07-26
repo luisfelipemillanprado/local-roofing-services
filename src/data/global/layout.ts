@@ -47,8 +47,8 @@ export const layoutData = {
     services: {
       titleKey: "servicesTitle",
       items: [
+        { key: "residential", href: "/services/residential-roofing" },
         { key: "replacement", href: "/services/roof-replacement" },
-        { key: "shingle", href: "/services/shingle" },
         { key: "metal", href: "/services/metal" },
         { key: "storm", href: "/services/storm-damage" },
         { key: "commercial", href: "/services/commercial" },

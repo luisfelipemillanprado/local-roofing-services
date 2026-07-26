@@ -9,37 +9,37 @@
     "viewDetails": "View Details"
   },
   "items": {
-    "replacement": {
-      "title": "Replacement & Repair",
-      "description": "Full replacements and expert repairs."
-    },
-    "shingle": {
-      "title": "Shingle Roofing",
-      "description": "Built for lasting curb appeal."
+    "residential": {
+      "title": "Residential Roofing",
+      "description": "Trusted roofing for every home."
     },
     "metal": {
       "title": "Metal Roofing",
       "description": "Engineered to last for decades."
     },
+    "gutters": {
+      "title": "Gutters & Flashing",
+      "description": "Protecting every home from water."
+    },
+    "replacement": {
+      "title": "Roof Replacement",
+      "description": "Complete roof replacement done right."
+    },
+    "skylights": {
+      "title": "Skylight Installation",
+      "description": "Leak free skylights, expertly installed."
+    },
     "storm": {
-      "title": "Damage & Insurance",
+      "title": "Storm Damage Repair",
       "description": "Rapid response to storm damage."
     },
     "commercial": {
       "title": "Commercial Roofing",
       "description": "Flat roof systems for businesses."
     },
-    "maintenance": {
-      "title": "Roof Maintenance",
-      "description": "Preventative care and inspection plans."
-    },
-    "gutters": {
-      "title": "Gutters & Flashing",
-      "description": "Protecting every home from water."
-    },
-    "skylights": {
-      "title": "Skylight Installation",
-      "description": "Leak free skylights, expertly installed."
+    "inspections": {
+      "title": "Roof Inspections",
+      "description": "Detailed inspections and honest reports."
     },
     "solar": {
       "title": "Solar Roofing",

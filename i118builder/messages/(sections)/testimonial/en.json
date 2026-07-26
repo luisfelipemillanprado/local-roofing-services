@@ -42,41 +42,7 @@
       }
     }
   },
-  "replacement": {
-    "items": {
-      "r1": {
-        "quote": "They stripped our failing roof to the deck and rebuilt it in two days. The new system looks flawless and the house finally feels sealed again.",
-        "name": "Marcus D. Whitfield",
-        "location": "Cedar Heights, FL"
-      },
-      "r2": {
-        "quote": "After years of patching leaks we finally replaced the whole roof. The crew was spotless, right on schedule, and walked us through every material choice.",
-        "name": "Priscilla A. Vance",
-        "location": "Coral Gables, FL"
-      },
-      "r3": {
-        "quote": "Our old roof was past saving and they were honest about it. The full replacement came with a written warranty and a flat price that never moved.",
-        "name": "Douglas E. Marsh",
-        "location": "Wynwood, FL"
-      },
-      "r4": {
-        "quote": "From tear off to final inspection everything was documented with photos. Our new roof handled the very first storm without a single drip inside.",
-        "name": "Yolanda R. Prescott",
-        "location": "Brickell, FL"
-      },
-      "r5": {
-        "quote": "They replaced the entire roof and left the yard cleaner than they found it. The magnetic nail sweep told me these people truly care.",
-        "name": "Terrence J. Colton",
-        "location": "Coconut Grove, FL"
-      },
-      "r6": {
-        "quote": "Best decision we made for this house. The new roof cut our energy bills and the whole replacement finished a full day ahead of schedule.",
-        "name": "Bianca M. Ellison",
-        "location": "Little Havana, FL"
-      }
-    }
-  },
-  "shingle": {
+  "residential": {
     "items": {
       "r1": {
         "quote": "Our new architectural shingles completely changed the look of the house. The crew was neat, fast, and every line came out perfectly straight.",
@@ -141,6 +107,108 @@
         "quote": "Modern profile, huge warranty, and a team that respected our property. Our metal roof is easily the best upgrade we made.",
         "name": "Paula B. Cordero",
         "location": "Edgewater, FL"
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "r1": {
+        "quote": "Our old gutters overflowed every storm and soaked the foundation. The new seamless run finally sends the water where it belongs.",
+        "name": "Colin R. Baxter",
+        "location": "Kendall, FL"
+      },
+      "r2": {
+        "quote": "Precision flashing and clean downspouts made a night and day difference. No more clogs, no more water pooling by the door.",
+        "name": "Marisol T. Reyes",
+        "location": "Hialeah, FL"
+      },
+      "r3": {
+        "quote": "They measured the whole roofline and formed the gutters on site. Everything fits tight and drains beautifully even in heavy rain.",
+        "name": "Douglas E. Hartley",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "Water was creeping toward our siding for years. Their new system and flashing stopped it cold and the cleanup was spotless.",
+        "name": "Naomi K. Bright",
+        "location": "Coral Way, FL"
+      },
+      "r5": {
+        "quote": "Seamless aluminum, new downspouts, and they hauled the old ones away. The water test proved it moves fast and clean.",
+        "name": "Randy P. Sloan",
+        "location": "Homestead, FL"
+      },
+      "r6": {
+        "quote": "Tired of climbing up to clear clogs, we finally called them. Best decision, our roofline stays dry and the foundation is safe.",
+        "name": "Elena V. Marsh",
+        "location": "Sunset, FL"
+      }
+    }
+  },
+  "replacement": {
+    "items": {
+      "r1": {
+        "quote": "They stripped our failing roof to the deck and rebuilt it in two days. The new system looks flawless and the house finally feels sealed again.",
+        "name": "Marcus D. Whitfield",
+        "location": "Cedar Heights, FL"
+      },
+      "r2": {
+        "quote": "After years of patching leaks we finally replaced the whole roof. The crew was spotless, right on schedule, and walked us through every material choice.",
+        "name": "Priscilla A. Vance",
+        "location": "Coral Gables, FL"
+      },
+      "r3": {
+        "quote": "Our old roof was past saving and they were honest about it. The full replacement came with a written warranty and a flat price that never moved.",
+        "name": "Douglas E. Marsh",
+        "location": "Wynwood, FL"
+      },
+      "r4": {
+        "quote": "From tear off to final inspection everything was documented with photos. Our new roof handled the very first storm without a single drip inside.",
+        "name": "Yolanda R. Prescott",
+        "location": "Brickell, FL"
+      },
+      "r5": {
+        "quote": "They replaced the entire roof and left the yard cleaner than they found it. The magnetic nail sweep told me these people truly care.",
+        "name": "Terrence J. Colton",
+        "location": "Coconut Grove, FL"
+      },
+      "r6": {
+        "quote": "Best decision we made for this house. The new roof cut our energy bills and the whole replacement finished a full day ahead of schedule.",
+        "name": "Bianca M. Ellison",
+        "location": "Little Havana, FL"
+      }
+    }
+  },
+  "skylights": {
+    "items": {
+      "r1": {
+        "quote": "Our dark hallway is now full of natural light. They cut, framed and sealed the skylight without a hint of a leak.",
+        "name": "Peter J. Donnelly",
+        "location": "Pinecrest, FL"
+      },
+      "r2": {
+        "quote": "The bathroom had no window and always felt like a cave. One skylight later it is bright and the roof stayed watertight.",
+        "name": "Camila R. Ortega",
+        "location": "Coral Gables, FL"
+      },
+      "r3": {
+        "quote": "I worried about leaks but their flashing kit is bulletproof. First heavy rain came and not a single drop got through.",
+        "name": "Aaron M. Fielding",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "They planned the opening around our rafters perfectly. The interior finish around the shaft looks like it was always there.",
+        "name": "Delia S. Marchetti",
+        "location": "Kendall, FL"
+      },
+      "r5": {
+        "quote": "Natural daylight cut our lighting use and warmed up the whole room. Clean install, energy efficient unit, and a solid warranty.",
+        "name": "Grant P. Hollis",
+        "location": "Midtown, FL"
+      },
+      "r6": {
+        "quote": "From measurement to final seal everything was careful and precise. Our new skylight is the best part of the living room now.",
+        "name": "Vanessa L. Crowe",
+        "location": "Cutler Bay, FL"
       }
     }
   },
@@ -212,7 +280,7 @@
       }
     }
   },
-  "maintenance": {
+  "inspections": {
     "items": {
       "r1": {
         "quote": "Their seasonal plan caught a small flashing issue before it became a leak. That one visit probably saved us thousands of dollars.",
@@ -242,74 +310,6 @@
       "r6": {
         "quote": "They spotted a lifted shingle and sealed it on the spot. Prevention done right, and priority scheduling when we do need help.",
         "name": "Yvonne S. Crane",
-        "location": "Cutler Bay, FL"
-      }
-    }
-  },
-  "gutters": {
-    "items": {
-      "r1": {
-        "quote": "Our old gutters overflowed every storm and soaked the foundation. The new seamless run finally sends the water where it belongs.",
-        "name": "Colin R. Baxter",
-        "location": "Kendall, FL"
-      },
-      "r2": {
-        "quote": "Precision flashing and clean downspouts made a night and day difference. No more clogs, no more water pooling by the door.",
-        "name": "Marisol T. Reyes",
-        "location": "Hialeah, FL"
-      },
-      "r3": {
-        "quote": "They measured the whole roofline and formed the gutters on site. Everything fits tight and drains beautifully even in heavy rain.",
-        "name": "Douglas E. Hartley",
-        "location": "Doral, FL"
-      },
-      "r4": {
-        "quote": "Water was creeping toward our siding for years. Their new system and flashing stopped it cold and the cleanup was spotless.",
-        "name": "Naomi K. Bright",
-        "location": "Coral Way, FL"
-      },
-      "r5": {
-        "quote": "Seamless aluminum, new downspouts, and they hauled the old ones away. The water test proved it moves fast and clean.",
-        "name": "Randy P. Sloan",
-        "location": "Homestead, FL"
-      },
-      "r6": {
-        "quote": "Tired of climbing up to clear clogs, we finally called them. Best decision, our roofline stays dry and the foundation is safe.",
-        "name": "Elena V. Marsh",
-        "location": "Sunset, FL"
-      }
-    }
-  },
-  "skylights": {
-    "items": {
-      "r1": {
-        "quote": "Our dark hallway is now full of natural light. They cut, framed and sealed the skylight without a hint of a leak.",
-        "name": "Peter J. Donnelly",
-        "location": "Pinecrest, FL"
-      },
-      "r2": {
-        "quote": "The bathroom had no window and always felt like a cave. One skylight later it is bright and the roof stayed watertight.",
-        "name": "Camila R. Ortega",
-        "location": "Coral Gables, FL"
-      },
-      "r3": {
-        "quote": "I worried about leaks but their flashing kit is bulletproof. First heavy rain came and not a single drop got through.",
-        "name": "Aaron M. Fielding",
-        "location": "Doral, FL"
-      },
-      "r4": {
-        "quote": "They planned the opening around our rafters perfectly. The interior finish around the shaft looks like it was always there.",
-        "name": "Delia S. Marchetti",
-        "location": "Kendall, FL"
-      },
-      "r5": {
-        "quote": "Natural daylight cut our lighting use and warmed up the whole room. Clean install, energy efficient unit, and a solid warranty.",
-        "name": "Grant P. Hollis",
-        "location": "Midtown, FL"
-      },
-      "r6": {
-        "quote": "From measurement to final seal everything was careful and precise. Our new skylight is the best part of the living room now.",
-        "name": "Vanessa L. Crowe",
         "location": "Cutler Bay, FL"
       }
     }

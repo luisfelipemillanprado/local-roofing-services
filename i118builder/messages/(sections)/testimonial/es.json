@@ -42,41 +42,7 @@
       }
     }
   },
-  "replacement": {
-    "items": {
-      "r1": {
-        "quote": "Retiraron nuestro techo dañado hasta la base y lo reconstruyeron en dos días. El sistema nuevo se ve impecable y la casa por fin se siente sellada.",
-        "name": "Marcus D. Whitfield",
-        "location": "Cedar Heights, FL"
-      },
-      "r2": {
-        "quote": "Tras años parchando goteras por fin reemplazamos todo el techo. El equipo fue impecable, muy puntual, y nos explicó cada elección de material con calma.",
-        "name": "Priscilla A. Vance",
-        "location": "Coral Gables, FL"
-      },
-      "r3": {
-        "quote": "Nuestro techo viejo ya no daba más y fueron honestos al decirlo. El reemplazo completo vino con garantía escrita y un precio fijo que nunca cambió.",
-        "name": "Douglas E. Marsh",
-        "location": "Wynwood, FL"
-      },
-      "r4": {
-        "quote": "Desde el retiro hasta la inspección final todo quedó documentado con fotos. El techo nuevo aguantó la primera tormenta sin una sola gotera adentro.",
-        "name": "Yolanda R. Prescott",
-        "location": "Brickell, FL"
-      },
-      "r5": {
-        "quote": "Reemplazaron todo el techo y dejaron el patio más limpio de lo que estaba. El barrido magnético de clavos me mostró que de verdad les importa.",
-        "name": "Terrence J. Colton",
-        "location": "Coconut Grove, FL"
-      },
-      "r6": {
-        "quote": "La mejor decisión para esta casa. El techo nuevo bajó nuestras facturas de energía y todo el reemplazo terminó un día completo antes de lo previsto.",
-        "name": "Bianca M. Ellison",
-        "location": "Little Havana, FL"
-      }
-    }
-  },
-  "shingle": {
+  "residential": {
     "items": {
       "r1": {
         "quote": "Nuestras nuevas tejas arquitectónicas cambiaron por completo la casa. La cuadrilla fue ordenada, rápida y cada línea quedó perfectamente recta.",
@@ -141,6 +107,108 @@
         "quote": "Perfil moderno, gran garantía y un equipo que respetó la propiedad. El techo metálico es la mejor mejora que hicimos.",
         "name": "Paula B. Cordero",
         "location": "Edgewater, FL"
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "r1": {
+        "quote": "Nuestras canaletas viejas se desbordaban en cada tormenta y mojaban los cimientos. Las nuevas sin uniones por fin llevan el agua lejos.",
+        "name": "Colin R. Baxter",
+        "location": "Kendall, FL"
+      },
+      "r2": {
+        "quote": "El tapajuntas de precisión y los bajantes limpios hicieron una diferencia enorme. Sin tapones, sin agua acumulada junto a la puerta.",
+        "name": "Marisol T. Reyes",
+        "location": "Hialeah, FL"
+      },
+      "r3": {
+        "quote": "Midieron toda la línea del techo y formaron las canaletas en sitio. Todo calza firme y drena bien hasta con lluvia fuerte.",
+        "name": "Douglas E. Hartley",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "El agua se acercaba a la fachada hacía años. Su sistema nuevo y el tapajuntas la frenaron y la limpieza quedó impecable.",
+        "name": "Naomi K. Bright",
+        "location": "Coral Way, FL"
+      },
+      "r5": {
+        "quote": "Aluminio sin uniones, bajantes nuevos y se llevaron los viejos. La prueba de agua mostró que corre rápido y limpio.",
+        "name": "Randy P. Sloan",
+        "location": "Homestead, FL"
+      },
+      "r6": {
+        "quote": "Cansados de subir a destapar, por fin los llamamos. La mejor decisión: la línea del techo queda seca y el cimiento a salvo.",
+        "name": "Elena V. Marsh",
+        "location": "Sunset, FL"
+      }
+    }
+  },
+  "replacement": {
+    "items": {
+      "r1": {
+        "quote": "Retiraron nuestro techo dañado hasta la base y lo reconstruyeron en dos días. El sistema nuevo se ve impecable y la casa por fin se siente sellada.",
+        "name": "Marcus D. Whitfield",
+        "location": "Cedar Heights, FL"
+      },
+      "r2": {
+        "quote": "Tras años parchando goteras por fin reemplazamos todo el techo. El equipo fue impecable, muy puntual, y nos explicó cada elección de material con calma.",
+        "name": "Priscilla A. Vance",
+        "location": "Coral Gables, FL"
+      },
+      "r3": {
+        "quote": "Nuestro techo viejo ya no daba más y fueron honestos al decirlo. El reemplazo completo vino con garantía escrita y un precio fijo que nunca cambió.",
+        "name": "Douglas E. Marsh",
+        "location": "Wynwood, FL"
+      },
+      "r4": {
+        "quote": "Desde el retiro hasta la inspección final todo quedó documentado con fotos. El techo nuevo aguantó la primera tormenta sin una sola gotera adentro.",
+        "name": "Yolanda R. Prescott",
+        "location": "Brickell, FL"
+      },
+      "r5": {
+        "quote": "Reemplazaron todo el techo y dejaron el patio más limpio de lo que estaba. El barrido magnético de clavos me mostró que de verdad les importa.",
+        "name": "Terrence J. Colton",
+        "location": "Coconut Grove, FL"
+      },
+      "r6": {
+        "quote": "La mejor decisión para esta casa. El techo nuevo bajó nuestras facturas de energía y todo el reemplazo terminó un día completo antes de lo previsto.",
+        "name": "Bianca M. Ellison",
+        "location": "Little Havana, FL"
+      }
+    }
+  },
+  "skylights": {
+    "items": {
+      "r1": {
+        "quote": "Nuestro pasillo oscuro ahora está lleno de luz natural. Cortaron, enmarcaron y sellaron la claraboya sin el mínimo indicio de gotera.",
+        "name": "Peter J. Donnelly",
+        "location": "Pinecrest, FL"
+      },
+      "r2": {
+        "quote": "El baño no tenía ventana y parecía una cueva. Con una claraboya quedó luminoso y el techo siguió hermético.",
+        "name": "Camila R. Ortega",
+        "location": "Coral Gables, FL"
+      },
+      "r3": {
+        "quote": "Temía las goteras pero su kit de tapajuntas es a prueba de todo. Llegó la primera lluvia fuerte y no pasó una gota.",
+        "name": "Aaron M. Fielding",
+        "location": "Doral, FL"
+      },
+      "r4": {
+        "quote": "Planearon la abertura alrededor de las vigas a la perfección. El acabado interior del túnel parece que siempre estuvo ahí.",
+        "name": "Delia S. Marchetti",
+        "location": "Kendall, FL"
+      },
+      "r5": {
+        "quote": "La luz natural bajó el uso de lámparas y calentó todo el cuarto. Instalación limpia, unidad eficiente y garantía sólida.",
+        "name": "Grant P. Hollis",
+        "location": "Midtown, FL"
+      },
+      "r6": {
+        "quote": "Desde la medición hasta el sello final todo fue cuidadoso y preciso. La claraboya es ahora lo mejor de la sala.",
+        "name": "Vanessa L. Crowe",
+        "location": "Cutler Bay, FL"
       }
     }
   },
@@ -212,7 +280,7 @@
       }
     }
   },
-  "maintenance": {
+  "inspections": {
     "items": {
       "r1": {
         "quote": "Su plan estacional detectó un problema de tapajuntas antes de volverse gotera. Esa sola visita probablemente nos ahorró miles de dólares.",
@@ -242,74 +310,6 @@
       "r6": {
         "quote": "Vieron una teja levantada y la sellaron al momento. Prevención bien hecha, y prioridad de agenda cuando sí necesitamos ayuda.",
         "name": "Yvonne S. Crane",
-        "location": "Cutler Bay, FL"
-      }
-    }
-  },
-  "gutters": {
-    "items": {
-      "r1": {
-        "quote": "Nuestras canaletas viejas se desbordaban en cada tormenta y mojaban los cimientos. Las nuevas sin uniones por fin llevan el agua lejos.",
-        "name": "Colin R. Baxter",
-        "location": "Kendall, FL"
-      },
-      "r2": {
-        "quote": "El tapajuntas de precisión y los bajantes limpios hicieron una diferencia enorme. Sin tapones, sin agua acumulada junto a la puerta.",
-        "name": "Marisol T. Reyes",
-        "location": "Hialeah, FL"
-      },
-      "r3": {
-        "quote": "Midieron toda la línea del techo y formaron las canaletas en sitio. Todo calza firme y drena bien hasta con lluvia fuerte.",
-        "name": "Douglas E. Hartley",
-        "location": "Doral, FL"
-      },
-      "r4": {
-        "quote": "El agua se acercaba a la fachada hacía años. Su sistema nuevo y el tapajuntas la frenaron y la limpieza quedó impecable.",
-        "name": "Naomi K. Bright",
-        "location": "Coral Way, FL"
-      },
-      "r5": {
-        "quote": "Aluminio sin uniones, bajantes nuevos y se llevaron los viejos. La prueba de agua mostró que corre rápido y limpio.",
-        "name": "Randy P. Sloan",
-        "location": "Homestead, FL"
-      },
-      "r6": {
-        "quote": "Cansados de subir a destapar, por fin los llamamos. La mejor decisión: la línea del techo queda seca y el cimiento a salvo.",
-        "name": "Elena V. Marsh",
-        "location": "Sunset, FL"
-      }
-    }
-  },
-  "skylights": {
-    "items": {
-      "r1": {
-        "quote": "Nuestro pasillo oscuro ahora está lleno de luz natural. Cortaron, enmarcaron y sellaron la claraboya sin el mínimo indicio de gotera.",
-        "name": "Peter J. Donnelly",
-        "location": "Pinecrest, FL"
-      },
-      "r2": {
-        "quote": "El baño no tenía ventana y parecía una cueva. Con una claraboya quedó luminoso y el techo siguió hermético.",
-        "name": "Camila R. Ortega",
-        "location": "Coral Gables, FL"
-      },
-      "r3": {
-        "quote": "Temía las goteras pero su kit de tapajuntas es a prueba de todo. Llegó la primera lluvia fuerte y no pasó una gota.",
-        "name": "Aaron M. Fielding",
-        "location": "Doral, FL"
-      },
-      "r4": {
-        "quote": "Planearon la abertura alrededor de las vigas a la perfección. El acabado interior del túnel parece que siempre estuvo ahí.",
-        "name": "Delia S. Marchetti",
-        "location": "Kendall, FL"
-      },
-      "r5": {
-        "quote": "La luz natural bajó el uso de lámparas y calentó todo el cuarto. Instalación limpia, unidad eficiente y garantía sólida.",
-        "name": "Grant P. Hollis",
-        "location": "Midtown, FL"
-      },
-      "r6": {
-        "quote": "Desde la medición hasta el sello final todo fue cuidadoso y preciso. La claraboya es ahora lo mejor de la sala.",
-        "name": "Vanessa L. Crowe",
         "location": "Cutler Bay, FL"
       }
     }

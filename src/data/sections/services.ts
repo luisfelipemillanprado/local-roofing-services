@@ -8,13 +8,20 @@ export const servicesData = {
   /* slug = detail-page route id (/services/[slug]); star six lead, the home limit shows them */
   items: [
     {
+      key: "residential",
+      slug: "residential-roofing",
+      icon: "home",
+      image: "/images/services/service3.webp",
+    },
+    { key: "metal", slug: "metal", icon: "layers", image: "/images/services/service4.webp" },
+    { key: "gutters", slug: "gutters", icon: "droplets", image: "/images/services/service1.webp" },
+    {
       key: "replacement",
       slug: "roof-replacement",
       icon: "hammer",
       image: "/images/services/service9.webp",
     },
-    { key: "shingle", slug: "shingle", icon: "layers", image: "/images/services/service3.webp" },
-    { key: "metal", slug: "metal", icon: "home", image: "/images/services/service4.webp" },
+    { key: "skylights", slug: "skylights", icon: "sun", image: "/images/services/service5.webp" },
     { key: "storm", slug: "storm-damage", icon: "shield", image: "/images/services/service7.webp" },
     {
       key: "commercial",
@@ -23,13 +30,16 @@ export const servicesData = {
       image: "/images/services/service8.webp",
     },
     {
-      key: "maintenance",
-      slug: "maintenance",
-      icon: "wrench",
+      key: "inspections",
+      slug: "roof-inspections",
+      icon: "clipboard",
       image: "/images/services/service6.webp",
     },
-    { key: "gutters", slug: "gutters", icon: "droplets", image: "/images/services/service1.webp" },
-    { key: "skylights", slug: "skylights", icon: "sun", image: "/images/services/service5.webp" },
-    { key: "solar", slug: "solar", icon: "energy", image: "/images/services/service2.webp" },
+    {
+      key: "solar",
+      slug: "solar-roofing",
+      icon: "energy",
+      image: "/images/services/service2.webp",
+    },
   ],
 } as const;

@@ -36,6 +36,36 @@ export const faqData = {
     ],
   },
   /* per-service detail variants; selected by the service slug */
+  residential: {
+    items: [
+      { key: "residential.items.lifespan" },
+      { key: "residential.items.wind" },
+      { key: "residential.items.colors" },
+      { key: "residential.items.cost" },
+      { key: "residential.items.warranty" },
+      { key: "residential.items.overlay" },
+    ],
+  },
+  metal: {
+    items: [
+      { key: "metal.items.lifespan" },
+      { key: "metal.items.noise" },
+      { key: "metal.items.heat" },
+      { key: "metal.items.cost" },
+      { key: "metal.items.storms" },
+      { key: "metal.items.rust" },
+    ],
+  },
+  gutters: {
+    items: [
+      { key: "gutters.items.seamless" },
+      { key: "gutters.items.flashing" },
+      { key: "gutters.items.clogs" },
+      { key: "gutters.items.foundation" },
+      { key: "gutters.items.cost" },
+      { key: "gutters.items.warranty" },
+    ],
+  },
   replacement: {
     items: [
       { key: "replacement.items.duration" },
@@ -47,24 +77,14 @@ export const faqData = {
       { key: "replacement.items.permit" },
     ],
   },
-  shingle: {
+  skylights: {
     items: [
-      { key: "shingle.items.lifespan" },
-      { key: "shingle.items.wind" },
-      { key: "shingle.items.colors" },
-      { key: "shingle.items.cost" },
-      { key: "shingle.items.warranty" },
-      { key: "shingle.items.overlay" },
-    ],
-  },
-  metal: {
-    items: [
-      { key: "metal.items.lifespan" },
-      { key: "metal.items.noise" },
-      { key: "metal.items.heat" },
-      { key: "metal.items.cost" },
-      { key: "metal.items.storms" },
-      { key: "metal.items.rust" },
+      { key: "skylights.items.leak" },
+      { key: "skylights.items.rooms" },
+      { key: "skylights.items.heat" },
+      { key: "skylights.items.existing" },
+      { key: "skylights.items.cost" },
+      { key: "skylights.items.warranty" },
     ],
   },
   storm: {
@@ -87,34 +107,14 @@ export const faqData = {
       { key: "commercial.items.cost" },
     ],
   },
-  maintenance: {
+  inspections: {
     items: [
-      { key: "maintenance.items.frequency" },
-      { key: "maintenance.items.plan" },
-      { key: "maintenance.items.warranty" },
-      { key: "maintenance.items.cost" },
-      { key: "maintenance.items.worth" },
-      { key: "maintenance.items.repairs" },
-    ],
-  },
-  gutters: {
-    items: [
-      { key: "gutters.items.seamless" },
-      { key: "gutters.items.flashing" },
-      { key: "gutters.items.clogs" },
-      { key: "gutters.items.foundation" },
-      { key: "gutters.items.cost" },
-      { key: "gutters.items.warranty" },
-    ],
-  },
-  skylights: {
-    items: [
-      { key: "skylights.items.leak" },
-      { key: "skylights.items.rooms" },
-      { key: "skylights.items.heat" },
-      { key: "skylights.items.existing" },
-      { key: "skylights.items.cost" },
-      { key: "skylights.items.warranty" },
+      { key: "inspections.items.frequency" },
+      { key: "inspections.items.plan" },
+      { key: "inspections.items.warranty" },
+      { key: "inspections.items.cost" },
+      { key: "inspections.items.worth" },
+      { key: "inspections.items.repairs" },
     ],
   },
   solar: {
