@@ -104,57 +104,65 @@
   },
   "residential": {
     "items": {
-      "lifespan": {
-        "q": "¿Cuánto dura un techo de tejas?",
-        "a": "Las tejas arquitectónicas de calidad duran de veinticinco a treinta años en el clima de Florida cuando se instalan bien y se inspeccionan con regularidad."
+      "assessment": {
+        "q": "¿Cómo sé si mi techo necesita reemplazo en lugar de reparación?",
+        "a": "Nuestra inspección evalúa la edad del techo, su condición estructural, las filtraciones, los materiales faltantes y su desempeño general. Si una reparación sigue siendo una opción segura y rentable, la recomendaremos en lugar de un reemplazo."
       },
-      "wind": {
-        "q": "¿Las tejas resisten el viento de Florida?",
-        "a": "Sí. Instalamos tejas clasificadas para viento fuerte con clavado y tiras de arranque correctas, así se mantienen fijas toda la temporada de tormentas."
+      "materials": {
+        "q": "¿Qué materiales de techado hay disponibles para mi casa?",
+        "a": "Instalamos tejas de asfalto, teja de barro y concreto, techos de metal y sistemas de techo plano. Te ayudaremos a elegir la mejor opción según el estilo de tu casa, tu presupuesto y el desempeño a largo plazo."
       },
-      "colors": {
-        "q": "¿Puedo elegir el color y estilo de la teja?",
-        "a": "Claro. Llevamos muestras para que combines con tu casa y vecindario, desde looks dimensionales clásicos hasta colores de diseñador."
+      "permits": {
+        "q": "¿Se encargan de los permisos y requisitos de código?",
+        "a": "Sí. Obtenemos los permisos requeridos y completamos tu proyecto conforme a los códigos de construcción locales vigentes y los requisitos de inspección."
       },
-      "cost": {
-        "q": "¿Cuánto cuesta un techo de tejas?",
-        "a": "La mayoría de los techos de tejas en Miami y Fort Lauderdale van entre $12,000 y $25,000 según tamaño, pendiente y material. Recibes una cotización fija y detallada."
+      "duration": {
+        "q": "¿Cuánto tarda un reemplazo de techo residencial?",
+        "a": "La mayoría de los reemplazos residenciales se completan en uno o dos días. Casas más grandes, materiales especiales y el clima pueden extender el cronograma."
+      },
+      "weather": {
+        "q": "¿Qué pasa si llega mal clima durante la instalación?",
+        "a": "Nuestra cuadrilla vigila de cerca el clima y protege tu hogar durante todo el proyecto. Si es necesario, la instalación se pausa de forma segura hasta que mejoren las condiciones."
+      },
+      "property": {
+        "q": "¿Protegerán mi propiedad durante el proyecto?",
+        "a": "Sí. Protegemos el jardín, hacemos limpieza diaria, usamos barrido magnético de clavos, retiramos todos los escombros y completamos un recorrido final antes de terminar."
       },
       "warranty": {
-        "q": "¿Qué garantía trae un techo de tejas?",
-        "a": "Recibes la garantía del fabricante sobre las tejas más nuestra garantía de mano de obra por escrito sobre la instalación."
-      },
-      "overlay": {
-        "q": "¿Pueden instalar tejas nuevas sobre las viejas?",
-        "a": "No lo recomendamos. Un retiro total nos deja inspeccionar la base y empezar limpio, lo que protege tu garantía y tu casa."
+        "q": "¿Qué garantías incluye un techo nuevo?",
+        "a": "Cada proyecto incluye una garantía escrita de mano de obra junto con la garantía del fabricante sobre los materiales, brindándote protección y tranquilidad a largo plazo."
       }
     }
   },
   "metal": {
     "items": {
+      "suitable": {
+        "q": "¿El techo metálico es una buena opción para casas en Florida?",
+        "a": "Sí. El techo metálico está diseñado para soportar el calor, la lluvia intensa y el clima severo de Florida, brindando durabilidad y protección a largo plazo."
+      },
       "lifespan": {
-        "q": "¿Cuánto dura un techo metálico?",
-        "a": "Un techo metálico de junta alzada bien instalado puede durar de cuarenta a sesenta años, superando por mucho a otros sistemas en Florida."
+        "q": "¿Cuánto puede durar un techo metálico bien instalado?",
+        "a": "Un sistema de techo metálico bien instalado puede ofrecer décadas de desempeño con mínimo mantenimiento, comparado con muchos materiales de techado tradicionales."
+      },
+      "efficiency": {
+        "q": "¿Instalar un techo metálico ayudará a mejorar la eficiencia energética de mi casa?",
+        "a": "Sí. El techo metálico ayuda a reflejar el calor solar y mejora el desempeño energético cuando se combina con aislamiento y ventilación adecuados."
+      },
+      "overlay": {
+        "q": "¿Se puede instalar un sistema de techo metálico sobre mi techo actual?",
+        "a": "Depende del estado del techo actual, los requisitos locales y el sistema elegido. Evaluamos tu propiedad y recomendamos el método de instalación correcto."
+      },
+      "options": {
+        "q": "¿Qué estilos, acabados y colores de techo metálico hay disponibles?",
+        "a": "Ofrecemos distintos perfiles, acabados y colores de metal para combinar con el diseño de tu casa, brindando la durabilidad y el desempeño que esperas."
       },
       "noise": {
-        "q": "¿Un techo metálico es ruidoso con la lluvia?",
-        "a": "No. Con base sólida y membrana bajo los paneles, un techo metálico moderno no es más ruidoso que uno de tejas bajo la lluvia."
+        "q": "¿La lluvia y las tormentas harán ruidoso un techo metálico dentro de mi casa?",
+        "a": "Con el underlayment, el aislamiento y los métodos de instalación adecuados, el techo metálico ofrece niveles de sonido cómodos durante la lluvia y el clima severo."
       },
-      "heat": {
-        "q": "¿El metal calienta más la casa?",
-        "a": "Al contrario. Los acabados metálicos reflectivos rebotan el sol de Florida y pueden bajar tu factura de enfriamiento frente a las tejas oscuras."
-      },
-      "cost": {
-        "q": "¿Cuánto más cuesta el metal que las tejas?",
-        "a": "El metal cuesta más al inicio, pero sus décadas de servicio y el ahorro de energía lo hacen un gran valor a largo plazo. Recibes una cotización fija."
-      },
-      "storms": {
-        "q": "¿El techo metálico resiste huracanes?",
-        "a": "Sí. Los paneles de junta alzada con fijaciones ocultas están entre los sistemas más resistentes al viento, ideales para la costa de Florida."
-      },
-      "rust": {
-        "q": "¿Un techo metálico se oxida o corroe?",
-        "a": "Los paneles modernos usan acero o aluminio recubierto hecho para resistir el salitre y la corrosión, así se mantienen firmes por décadas."
+      "warranty": {
+        "q": "¿Qué protección de garantía incluye un techo metálico nuevo?",
+        "a": "Tu sistema de techo metálico incluye la cobertura del fabricante aplicable junto con nuestra garantía escrita de mano de obra por la calidad de instalación."
       }
     }
   },
@@ -190,31 +198,59 @@
     "items": {
       "duration": {
         "q": "¿Cuánto tarda un reemplazo completo de techo?",
-        "a": "La mayoría de los reemplazos en casas unifamiliares terminan en uno o dos días. Los retechados de teja y los diseños complejos pueden tomar de tres a cinco días."
+        "a": "La mayoría de los reemplazos residenciales se completan en uno o dos días. El tiempo puede variar según el tamaño de tu casa, el material del techo, los permisos, el clima y cualquier reparación adicional que se descubra durante el reemplazo."
       },
       "presence": {
-        "q": "¿Debo salir de la casa durante el reemplazo?",
-        "a": "No. La cuadrilla trabaja afuera. Escucharás martilleo y ruido de retiro, así que las mascotas y los niños pequeños quizá prefieran estar fuera durante las horas ruidosas."
+        "q": "¿Debo salir de casa durante el reemplazo del techo?",
+        "a": "No. La mayoría de los dueños puede quedarse en casa durante el proyecto. Nuestro equipo trabaja para minimizar las molestias manteniendo un área de trabajo segura, y recomendamos mantener a las mascotas y los niños lejos de las zonas de instalación activas."
       },
       "cost": {
-        "q": "¿Cuál es el rango de precio típico de un reemplazo residencial?",
-        "a": "La mayoría de los retechados de tejas en Miami y Fort Lauderdale rondan entre $12,000 y $25,000 según tamaño, pendiente y material. Los de teja suelen ir de $18,000 a $40,000. Te damos una cotización fija y detallada, nunca un rango."
+        "q": "¿Qué factores afectan el costo de un reemplazo de techo?",
+        "a": "La inversión total depende del tamaño del techo, los materiales elegidos, el estado actual del techo, las reparaciones del deck, los requisitos de tapajuntas y la complejidad del proyecto. Entregamos un estimado detallado por escrito que describe el alcance completo antes de empezar."
       },
       "warranty": {
-        "q": "¿La garantía es sobre materiales o mano de obra?",
-        "a": "Ambas. Recibes la garantía del fabricante sobre los materiales más nuestra garantía de mano de obra por escrito sobre la instalación."
+        "q": "¿La garantía es sobre los materiales o la mano de obra?",
+        "a": "Un reemplazo de techo incluye la garantía del fabricante para los materiales y nuestra garantía escrita de mano de obra por la instalación. Esto brinda protección tanto para los productos usados como para la calidad del trabajo realizado."
       },
       "leaks": {
-        "q": "¿El reemplazo detiene mis goteras para siempre?",
-        "a": "Sí. Un reemplazo completo retira cada capa gastada e instala membrana y tapajuntas nuevos, así que las goteras causadas por un techo viejo desaparecen."
+        "q": "¿Un reemplazo de techo arreglará mis filtraciones actuales?",
+        "a": "Un reemplazo completo retira el sistema de techo viejo y ataca los problemas de fondo que afectan la protección de tu hogar. Con una instalación correcta, tu nuevo sistema está diseñado para brindar un desempeño confiable y protección contra el clima a largo plazo."
       },
       "rain": {
-        "q": "¿Qué pasa si llueve durante el reemplazo?",
-        "a": "Solo retiramos lo que la cuadrilla puede cerrar el mismo día y cubrimos el resto con lona, así tu casa queda protegida hasta que el techo nuevo esté puesto."
+        "q": "¿Qué pasa si llueve durante el reemplazo de mi techo?",
+        "a": "Vigilamos el clima durante todo el proyecto y tomamos las precauciones necesarias para proteger tu hogar. Si el clima severo crea condiciones inseguras, la instalación se pausa temporalmente hasta poder continuar con seguridad."
       },
       "permit": {
-        "q": "¿Ustedes gestionan el permiso y la inspección?",
-        "a": "Sí. Tramitamos el permiso, agendamos la inspección de la ciudad y te entregamos el papeleo firmado una vez que el trabajo pasa."
+        "q": "¿Se encargan de los permisos e inspecciones?",
+        "a": "Sí. Gestionamos los permisos requeridos y coordinamos las inspecciones durante todo el reemplazo. Esto ayuda a asegurar que tu nuevo sistema de techo se instale conforme a los requisitos de construcción locales y los estándares del proyecto."
+      }
+    }
+  },
+  "repair": {
+    "items": {
+      "cost": {
+        "q": "¿Cuánto cuesta reparar un techo?",
+        "a": "Depende del daño, pero la mayoría de reparaciones cuestan una fracción de un reemplazo. Te damos un precio fijo por escrito antes de empezar."
+      },
+      "temporary": {
+        "q": "¿Una reparación es solo algo temporal?",
+        "a": "No. Arreglamos la causa real, no solo el síntoma, y respaldamos cada reparación con garantía de mano de obra por escrito para que dure."
+      },
+      "insurance": {
+        "q": "¿El seguro cubre la reparación del techo?",
+        "a": "A menudo sí, cuando el daño es por tormenta. Documentamos todo con fotos y podemos trabajar directamente con tu ajustador en el reclamo."
+      },
+      "warranty": {
+        "q": "¿Las reparaciones tienen garantía?",
+        "a": "Sí. Cada reparación está respaldada por nuestra garantía de mano de obra por escrito, y la garantía del fabricante de los materiales sigue vigente."
+      },
+      "emergency": {
+        "q": "¿Atienden fugas de emergencia rápido?",
+        "a": "Sí. Ofrecemos cubrimiento con lona el mismo día para detener fugas activas, y luego volvemos a completar la reparación permanente lo antes posible."
+      },
+      "matching": {
+        "q": "¿La reparación combinará con mi techo actual?",
+        "a": "Igualamos el color y perfil de tu teja lo más posible, para que la zona reparada se mezcle y luzca como el resto."
       }
     }
   },

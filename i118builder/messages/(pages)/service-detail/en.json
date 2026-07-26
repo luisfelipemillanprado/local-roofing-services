@@ -26,77 +26,81 @@
   },
   "items": {
     "residential": {
-      "intro": "Architectural asphalt shingles from trusted brands deliver classic curb appeal and dependable weather protection, installed by certified crews and backed by strong manufacturer and workmanship warranties.",
+      "intro": "Complete residential roofing solutions built for Florida homes, combining expert installation, durable roofing systems, and reliable protection backed by workmanship warranties.",
       "included": [
-        "Full inspection of the existing roof",
-        "Architectural asphalt shingle installation",
-        "Fresh underlayment and drip edge",
-        "New flashing at every roof penetration",
-        "Full cleanup and magnetic nail sweep",
-        "Manufacturer and workmanship warranty"
+        "Free roof inspection with documented photos",
+        "Detailed written estimate within 24 hours",
+        "Premium roofing materials rated for Florida",
+        "Dedicated in house installation crew",
+        "Daily cleanup with magnetic nail sweep",
+        "Wind mitigation documentation for insurance",
+        "Final walkthrough with workmanship warranty"
       ],
       "ideal": [
-        "Homes wanting classic curb appeal",
-        "Roofs due for a fresh look",
-        "Budget minded full replacements",
-        "Neighborhoods with strict style rules",
-        "Owners who value proven materials"
+        "Aging shingle or tile roofs",
+        "Storm or hurricane damage",
+        "Failed four point inspections",
+        "Insurance related roof replacements",
+        "Energy efficient roof upgrades",
+        "Homes preparing for hurricane season"
       ],
       "process": {
         "steps": {
           "inspect": {
-            "title": "Inspect And Photo",
-            "description": "We document the entire roof condition and share a written report before any new shingle goes down."
+            "title": "Inspect & Estimate",
+            "description": "We document every slope and flashing detail with photos, then send a written estimate within 24 hours."
           },
           "quote": {
-            "title": "Written Quote",
-            "description": "You get one flat written price valid for thirty days, with no surprise per hour billing later."
+            "title": "Material & Color",
+            "description": "You review real material samples on site and choose colors, with HOA approved matching handled where needed."
           },
           "work": {
-            "title": "Install And Seal",
-            "description": "Certified crews lay fresh underlayment, shingles, and flashing with tight, straight seams built to shed heavy water."
+            "title": "Schedule & Permit",
+            "description": "We pull every required permit, schedule the crew, and confirm your exact project start date in writing."
           },
           "warranty": {
-            "title": "Test And Warranty",
-            "description": "We inspect the finished roof and hand you both manufacturer and workmanship warranties clearly stated in writing."
+            "title": "Install & Walkthrough",
+            "description": "Most installs finish in one to two days, with photo updates, final walkthrough, and written workmanship warranty."
           }
         }
       }
     },
     "metal": {
-      "intro": "Standing seam and ribbed metal roofs engineered for decades of service, shrugging off storms, sun, and salt while looking sharply modern.",
+      "intro": "Metal roofing provides exceptional durability, energy efficiency, and long term performance with a sleek modern appearance, professionally installed for Florida weather.",
       "included": [
-        "Full inspection of the existing roof",
-        "Standing seam or ribbed metal panels",
-        "High temperature underlayment layer",
-        "Concealed fasteners and custom flashing",
-        "Full cleanup and magnetic nail sweep",
-        "Long term manufacturer warranty"
+        "Complete metal roof system inspection",
+        "Standing seam or metal panel selection guidance",
+        "Premium underlayment and corrosion resistant flashing",
+        "Professional panel installation and fastening",
+        "Thermal expansion and ventilation considerations",
+        "Jobsite protection and magnetic nail sweep",
+        "Final walkthrough with workmanship warranty"
       ],
       "ideal": [
-        "Homes wanting decades of service",
-        "Areas with heavy sun or storms",
-        "Owners after a modern profile",
-        "Properties near salt or wildfire",
-        "Buyers focused on lasting value"
+        "Homeowners seeking long term roof durability",
+        "Coastal properties exposed to salt air",
+        "Homes needing hurricane resistant roofing",
+        "Modern architectural home designs",
+        "Energy efficient roofing upgrades",
+        "Replacing aging shingle or tile roofs"
       ],
       "process": {
         "steps": {
           "inspect": {
-            "title": "Inspect And Photo",
-            "description": "We measure the roof, plan the panel layout, and share a written report before we ever begin."
+            "title": "Structure Evaluation",
+            "description": "We assess the deck, structure, and fastener layout to confirm your home can support a metal system."
           },
           "quote": {
-            "title": "Written Quote",
-            "description": "You get one flat written price valid for thirty days, with no surprise per hour billing later."
+            "title": "Panel Selection",
+            "description": "You choose the panel profile, color, and finish, and we detail everything in one clear written estimate."
           },
           "work": {
-            "title": "Panel And Seam",
-            "description": "Crews set high temperature underlayment first, then lock each metal panel with concealed, weather tight fasteners throughout."
+            "title": "System Preparation",
+            "description": "We lay high temperature underlayment and corrosion resistant flashing, prepping every edge and penetration for the panels."
           },
           "warranty": {
-            "title": "Test And Warranty",
-            "description": "We water test every seam and hand you a long term manufacturer and workmanship warranty in writing."
+            "title": "Installation & Review",
+            "description": "Crews lock each panel with concealed fasteners allowing thermal movement, then review the finished roof and warranty."
           }
         }
       }
@@ -162,19 +166,57 @@
         "steps": {
           "inspect": {
             "title": "Inspect & Estimate",
-            "description": "We photograph your full roof condition, then send a written line item quote within twenty four hours."
+            "description": "We photo document every slope and detail, then send a written line item estimate within 24 hours."
           },
           "quote": {
             "title": "Schedule & Permit",
-            "description": "We pull the county permit, schedule your crew, and confirm the start date with you in writing."
+            "description": "We pull permits, order your materials, schedule the crew, and confirm your exact start date in writing."
           },
           "work": {
             "title": "Tear Off & Install",
-            "description": "Full tear off with deck check, then new underlayment, valley metal, flashing, shingles or tiles, photographed throughout."
+            "description": "We tear off the existing roof, inspect and prepare the deck, then install your new roofing system."
           },
           "warranty": {
-            "title": "Clean & Walkthrough",
-            "description": "Magnetic nail sweep, full debris haul off, a final walkthrough together, and your written guarantee in hand."
+            "title": "Cleanup & Walkthrough",
+            "description": "We clear all debris, run a magnetic nail sweep, final inspection, then provide your written workmanship warranty."
+          }
+        }
+      }
+    },
+    "repair": {
+      "intro": "We track down leaks fast and fix damaged shingles, flashing, and worn seals with repairs that protect your roof for years.",
+      "included": [
+        "Full inspection to find every leak",
+        "Replacement of cracked or missing shingles",
+        "Resealed flashing around vents and chimneys",
+        "Repaired seams, valleys, and worn areas",
+        "Cleanup of all debris and nails",
+        "Workmanship warranty in writing"
+      ],
+      "ideal": [
+        "Roofs with active or recurring leaks",
+        "Storm damaged shingles and flashing",
+        "Homes not ready for full replacement",
+        "Aging roofs needing targeted fixes",
+        "Owners wanting fast dependable repairs"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspect And Photo",
+            "description": "We climb the roof, find every leak and weak spot, then share a written report with photos."
+          },
+          "quote": {
+            "title": "Written Quote",
+            "description": "You get one flat written price for the repair, valid thirty days, with no surprise hourly charges."
+          },
+          "work": {
+            "title": "Repair And Seal",
+            "description": "Our crew replaces damaged materials, reseals the flashing, and reinforces every weak point to keep it watertight."
+          },
+          "warranty": {
+            "title": "Test And Warranty",
+            "description": "We water test the repair, confirm it stays dry, then back the work with a written warranty."
           }
         }
       }

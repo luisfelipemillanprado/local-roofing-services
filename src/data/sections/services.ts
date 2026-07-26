@@ -21,6 +21,7 @@ export const servicesData = {
       icon: "hammer",
       image: "/images/services/service9.webp",
     },
+    { key: "repair", slug: "roof-repair", icon: "wrench", image: "/images/services/service10.webp" },
     { key: "skylights", slug: "skylights", icon: "sun", image: "/images/services/service5.webp" },
     { key: "storm", slug: "storm-damage", icon: "shield", image: "/images/services/service7.webp" },
     {

@@ -26,77 +26,81 @@
   },
   "items": {
     "residential": {
-      "intro": "Tejas asfálticas arquitectónicas de marcas confiables ofrecen un atractivo clásico y protección firme contra el clima, instaladas por equipos certificados y respaldadas por garantías de fabricante y obra.",
+      "intro": "Soluciones completas de techado residencial para casas de Florida, con instalación experta, sistemas duraderos y protección respaldada por garantía de obra.",
       "included": [
-        "Inspección completa del techo actual",
-        "Instalación de tejas asfálticas arquitectónicas",
-        "Membrana nueva y borde de goteo",
-        "Tapajuntas nuevo en cada penetración",
-        "Limpieza total y barrido magnético",
-        "Garantía de fabricante y mano de obra"
+        "Inspección gratuita del techo con fotos",
+        "Estimado detallado por escrito en 24 horas",
+        "Materiales premium certificados para Florida",
+        "Cuadrilla de instalación propia y dedicada",
+        "Limpieza diaria con barrido magnético de clavos",
+        "Documentación de mitigación de viento para seguro",
+        "Recorrido final con garantía de mano de obra"
       ],
       "ideal": [
-        "Casas que buscan atractivo clásico",
-        "Techos que piden un aspecto nuevo",
-        "Reemplazos completos con presupuesto ajustado",
-        "Vecindarios con reglas de estilo estrictas",
-        "Dueños que valoran materiales probados"
+        "Techos de asfalto o teja envejecidos",
+        "Daño por tormenta o huracán",
+        "Inspecciones de cuatro puntos reprobadas",
+        "Reemplazos relacionados con el seguro",
+        "Mejoras de eficiencia energética del techo",
+        "Casas que se preparan para huracanes"
       ],
       "process": {
         "steps": {
           "inspect": {
-            "title": "Inspección Y Fotos",
-            "description": "Documentamos el estado completo del techo y te damos un reporte escrito antes de colocar una teja."
+            "title": "Inspección & Estimado",
+            "description": "Documentamos cada pendiente y el tapajuntas con fotos, y enviamos un estimado por escrito en 24 horas."
           },
           "quote": {
-            "title": "Cotización Escrita",
-            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
+            "title": "Material & Color",
+            "description": "Revisas muestras de materiales en casa y eliges colores, con igualación aprobada por el HOA cuando aplique."
           },
           "work": {
-            "title": "Instalar Y Sellar",
-            "description": "Cuadrillas certificadas colocan membrana nueva, tejas y tapajuntas con uniones firmes y rectas que expulsan el agua."
+            "title": "Agenda & Permiso",
+            "description": "Sacamos todos los permisos requeridos, agendamos la cuadrilla y confirmamos por escrito la fecha exacta de inicio."
           },
           "warranty": {
-            "title": "Prueba Y Garantía",
-            "description": "Inspeccionamos el techo terminado y te entregamos ambas garantías de fabricante y mano de obra por escrito."
+            "title": "Instalación & Recorrido",
+            "description": "Instalamos en uno o dos días, con fotos del avance, un recorrido final y tu garantía escrita."
           }
         }
       }
     },
     "metal": {
-      "intro": "Techos metálicos de junta alzada y acanalados diseñados para décadas de servicio, resistiendo tormentas, sol y sal, con un perfil moderno.",
+      "intro": "El techo metálico ofrece durabilidad excepcional, eficiencia energética y desempeño duradero, con apariencia moderna, instalado profesionalmente para el clima de Florida.",
       "included": [
-        "Inspección completa del techo actual",
-        "Paneles metálicos de junta alzada o acanalados",
-        "Capa de membrana de alta temperatura",
-        "Fijaciones ocultas y tapajuntas a medida",
-        "Limpieza total y barrido magnético",
-        "Garantía de fabricante a largo plazo"
+        "Inspección completa del sistema de techo metálico",
+        "Asesoría para elegir paneles o junta alzada",
+        "Membrana premium y tapajuntas anticorrosivo",
+        "Instalación y fijación profesional de paneles",
+        "Consideraciones de expansión térmica y ventilación",
+        "Protección del sitio y barrido magnético",
+        "Recorrido final con garantía de obra"
       ],
       "ideal": [
-        "Casas que buscan décadas de servicio",
-        "Zonas con mucho sol o tormentas",
-        "Dueños que quieren un perfil moderno",
-        "Propiedades cerca de sal o incendios",
-        "Compradores enfocados en valor duradero"
+        "Dueños que buscan durabilidad a largo plazo",
+        "Propiedades costeras expuestas al salitre",
+        "Casas que necesitan techo resistente a huracanes",
+        "Diseños de casas modernas y arquitectónicas",
+        "Mejoras de techado energéticamente eficientes",
+        "Reemplazar techos viejos de asfalto o teja"
       ],
       "process": {
         "steps": {
           "inspect": {
-            "title": "Inspección Y Fotos",
-            "description": "Medimos el techo, planeamos el trazado de paneles y te damos un reporte escrito antes de empezar."
+            "title": "Evaluación Estructural",
+            "description": "Evaluamos la estructura, el deck y las sujeciones para confirmar que tu casa soporta un techo metálico."
           },
           "quote": {
-            "title": "Cotización Escrita",
-            "description": "Recibes un solo precio fijo por escrito, válido por treinta días, sin cobros por hora sorpresa después."
+            "title": "Selección de Paneles",
+            "description": "Eliges el perfil, color y acabado del panel, y detallamos todo en un estimado claro por escrito."
           },
           "work": {
-            "title": "Panel Y Junta",
-            "description": "Primero colocan la membrana de alta temperatura y luego fijan cada panel con sujeciones ocultas y herméticas."
+            "title": "Preparación del Sistema",
+            "description": "Colocamos membrana de alta temperatura y tapajuntas anticorrosivo, preparando cada borde y penetración para recibir los paneles."
           },
           "warranty": {
-            "title": "Prueba Y Garantía",
-            "description": "Probamos cada junta con agua y entregamos garantía de fabricante y mano de obra a largo plazo."
+            "title": "Instalación & Revisión",
+            "description": "La cuadrilla fija cada panel con sujeciones ocultas que permiten expansión térmica, luego revisa techo y garantía."
           }
         }
       }
@@ -162,19 +166,57 @@
         "steps": {
           "inspect": {
             "title": "Inspección & Estimado",
-            "description": "Fotografiamos el estado completo de tu techo y enviamos una cotización detallada por escrito en 24 horas."
+            "description": "Documentamos con fotos cada pendiente y detalle, y enviamos un estimado detallado por escrito en 24 horas."
           },
           "quote": {
             "title": "Agenda & Permiso",
-            "description": "Tramitamos el permiso del condado, agendamos tu cuadrilla y confirmamos contigo la fecha de inicio por escrito."
+            "description": "Sacamos los permisos, pedimos los materiales, agendamos la cuadrilla y confirmamos por escrito tu fecha de inicio."
           },
           "work": {
             "title": "Retiro & Instalación",
-            "description": "Retiro total con revisión de base, luego membrana nueva, metal de valle, tapajuntas y tejas, todo fotografiado."
+            "description": "Retiramos el techo existente, inspeccionamos y preparamos el deck, y luego instalamos tu nuevo sistema de techo."
           },
           "warranty": {
             "title": "Limpieza & Recorrido",
-            "description": "Barrido magnético de clavos, retiro total de escombros, recorrido final juntos y garantía por escrito en mano."
+            "description": "Retiramos todos los escombros, barrido magnético de clavos, inspección final y entregamos tu garantía escrita de obra."
+          }
+        }
+      }
+    },
+    "repair": {
+      "intro": "Localizamos filtraciones rápido y reparamos tejas, tapajuntas y sellos gastados con arreglos duraderos que protegen tu techo por muchos años.",
+      "included": [
+        "Inspección completa para hallar cada fuga",
+        "Reemplazo de tejas rotas o faltantes",
+        "Tapajuntas resellado en ductos y chimeneas",
+        "Reparación de uniones, limas y zonas gastadas",
+        "Limpieza de todos los escombros y clavos",
+        "Garantía de mano de obra por escrito"
+      ],
+      "ideal": [
+        "Techos con fugas activas o recurrentes",
+        "Tejas y tapajuntas dañados por tormentas",
+        "Casas que aún no necesitan reemplazo",
+        "Techos viejos que requieren arreglos puntuales",
+        "Dueños que buscan reparaciones rápidas y confiables"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspección Y Fotos",
+            "description": "Subimos al techo, hallamos cada fuga y punto débil, y luego entregamos un informe escrito con fotos."
+          },
+          "quote": {
+            "title": "Cotización Escrita",
+            "description": "Recibes un precio fijo por escrito para la reparación, válido treinta días, sin cargos por hora sorpresa."
+          },
+          "work": {
+            "title": "Reparar Y Sellar",
+            "description": "Nuestra cuadrilla reemplaza el material dañado, resella el tapajuntas y refuerza cada punto débil para mantenerlo hermético."
+          },
+          "warranty": {
+            "title": "Prueba Y Garantía",
+            "description": "Probamos la reparación con agua, confirmamos que quede seca y respaldamos el trabajo con garantía escrita después."
           }
         }
       }

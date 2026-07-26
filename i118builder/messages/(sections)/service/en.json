@@ -25,6 +25,10 @@
       "title": "Roof Replacement",
       "description": "Complete roof replacement done right."
     },
+    "repair": {
+      "title": "Roof Repair",
+      "description": "Fast lasting fixes done right."
+    },
     "skylights": {
       "title": "Skylight Installation",
       "description": "Leak free skylights, expertly installed."

@@ -104,57 +104,65 @@
   },
   "residential": {
     "items": {
-      "lifespan": {
-        "q": "How long does a shingle roof last?",
-        "a": "Quality architectural shingles last twenty five to thirty years in the Florida climate when installed correctly and inspected on a regular basis."
+      "assessment": {
+        "q": "How do I know if my roof needs replacement instead of repair?",
+        "a": "Our inspection looks at the roof's age, structural condition, leaks, missing materials, and overall performance. If a repair is still a safe and cost effective option, we'll recommend it instead of a replacement."
       },
-      "wind": {
-        "q": "Will shingles hold up to Florida wind?",
-        "a": "Yes. We install shingles rated for high wind with proper nailing and starter strips, so they stay locked down through storm season."
+      "materials": {
+        "q": "What roofing materials are available for my home?",
+        "a": "We install asphalt shingles, clay and concrete tile, metal roofing, and flat roofing systems. We'll help you choose the best option based on your home's style, budget, and long term performance."
       },
-      "colors": {
-        "q": "Can I choose the shingle color and style?",
-        "a": "Absolutely. We bring samples so you can match your home and neighborhood, from classic dimensional looks to bold designer colors."
+      "permits": {
+        "q": "Will you handle permits and code requirements?",
+        "a": "Yes. We obtain the required permits and complete your project according to current local building codes and inspection requirements."
       },
-      "cost": {
-        "q": "How much does a shingle roof cost?",
-        "a": "Most Miami and Fort Lauderdale shingle roofs land between $12,000 and $25,000 depending on size, slope, and material. You get a fixed line item quote."
+      "duration": {
+        "q": "How long does a residential roof replacement take?",
+        "a": "Most residential roof replacements are completed in one to two days. Larger homes, specialty materials, and weather conditions may extend the schedule."
+      },
+      "weather": {
+        "q": "What happens if bad weather arrives during installation?",
+        "a": "Our crew closely monitors weather conditions and protects your home throughout the project. If needed, installation is safely paused until conditions improve."
+      },
+      "property": {
+        "q": "Will my property be protected during the project?",
+        "a": "Yes. We protect landscaping, perform daily cleanup, use magnetic nail sweeps, remove all debris, and complete a final walkthrough before the project is finished."
       },
       "warranty": {
-        "q": "What warranty comes with a shingle roof?",
-        "a": "You get the manufacturer warranty on the shingles plus our written workmanship warranty on the installation."
-      },
-      "overlay": {
-        "q": "Can you install new shingles over the old ones?",
-        "a": "We do not recommend it. A full tear off lets us inspect the deck and start clean, which protects your warranty and your home."
+        "q": "What warranties are included with a new roof?",
+        "a": "Every project includes a written workmanship warranty along with the manufacturer's material warranty, giving you long term protection and peace of mind."
       }
     }
   },
   "metal": {
     "items": {
+      "suitable": {
+        "q": "Is metal roofing a good choice for homes in Florida?",
+        "a": "Yes. Metal roofing is designed to handle Florida's heat, heavy rain, and severe weather conditions while providing long term durability and protection."
+      },
       "lifespan": {
-        "q": "How long does a metal roof last?",
-        "a": "A properly installed standing seam metal roof can last forty to sixty years, far outlasting most other roofing systems in Florida."
+        "q": "How long can I expect a properly installed metal roof to last?",
+        "a": "A properly installed metal roofing system can provide decades of performance with minimal maintenance compared to many traditional roofing materials."
+      },
+      "efficiency": {
+        "q": "Will installing a metal roof help improve my home's energy efficiency?",
+        "a": "Yes. Metal roofing can help reflect solar heat and improve energy performance when combined with proper insulation and ventilation."
+      },
+      "overlay": {
+        "q": "Can a metal roofing system be installed over my existing roof?",
+        "a": "It depends on the current roof condition, local requirements, and the selected system. We evaluate your property and recommend the proper installation method."
+      },
+      "options": {
+        "q": "What metal roofing styles, finishes, and colors are available?",
+        "a": "We offer different metal profiles, finishes, and colors to match your home's design while providing the durability and performance you expect."
       },
       "noise": {
-        "q": "Is a metal roof loud when it rains?",
-        "a": "No. With solid decking and underlayment beneath the panels, a modern metal roof is no louder than a shingle roof in the rain."
+        "q": "Will rain and storms make a metal roof noisy inside my home?",
+        "a": "With proper underlayment, insulation, and installation methods, metal roofing provides comfortable sound levels during rain and severe weather."
       },
-      "heat": {
-        "q": "Does a metal roof make the house hotter?",
-        "a": "The opposite. Reflective metal finishes bounce back the Florida sun and can lower your cooling bills compared to dark shingles."
-      },
-      "cost": {
-        "q": "How much more does metal cost than shingles?",
-        "a": "Metal runs higher upfront, but the decades of service and energy savings make it a strong long term value. You get a fixed quote."
-      },
-      "storms": {
-        "q": "Does a metal roof hold up to hurricanes?",
-        "a": "Yes. Standing seam panels with concealed fasteners are among the most wind resistant systems available, ideal for coastal Florida."
-      },
-      "rust": {
-        "q": "Will a metal roof rust or corrode?",
-        "a": "Modern panels use coated steel or aluminum built to resist salt air and corrosion, so they stay sound for decades."
+      "warranty": {
+        "q": "What warranty protection comes with a new metal roof?",
+        "a": "Your metal roofing system includes applicable manufacturer coverage along with our written workmanship warranty for installation quality."
       }
     }
   },
@@ -190,31 +198,59 @@
     "items": {
       "duration": {
         "q": "How long does a full roof replacement take?",
-        "a": "Most single family replacements finish in one to two days. Tile reroofs and complex layouts can take three to five days."
+        "a": "Most residential roof replacements are completed within one to two days. The timeline can vary depending on the size of your home, roofing material, permit requirements, weather conditions, and any additional repairs discovered during the replacement process."
       },
       "presence": {
-        "q": "Do I need to leave the house during a replacement?",
-        "a": "No. The crew works outside. You will hear hammering and tear off noise, so pets and small children may want to be away for the noisy hours."
+        "q": "Do I need to leave the house during a roof replacement?",
+        "a": "No. Most homeowners can stay at home during the project. Our team works to minimize disruption while maintaining a safe work area, and we recommend keeping pets and children away from active installation zones."
       },
       "cost": {
-        "q": "What is the typical cost range for a residential replacement?",
-        "a": "Most Miami and Fort Lauderdale shingle reroofs land between $12,000 and $25,000 depending on size, slope, and material. Tile reroofs are typically $18,000 to $40,000. We give you a fixed line item quote, never a range."
+        "q": "What factors affect the cost of a roof replacement?",
+        "a": "The total investment depends on your roof size, selected materials, existing roof conditions, decking repairs, flashing requirements, and project complexity. We provide a detailed written estimate outlining the complete scope before installation begins."
       },
       "warranty": {
         "q": "Is the warranty on materials or workmanship?",
-        "a": "Both. You get the manufacturer warranty on materials plus our written workmanship warranty on the install."
+        "a": "A roof replacement includes manufacturer warranty coverage for the roofing materials and our written workmanship warranty for the installation. This provides protection for both the products used and the quality of the work performed."
       },
       "leaks": {
-        "q": "Will a replacement stop my leaks for good?",
-        "a": "Yes. A full replacement removes every worn layer and installs fresh underlayment and flashing, so the leaks caused by an aging roof are gone."
+        "q": "Will a roof replacement fix my existing leaks?",
+        "a": "A complete roof replacement removes the old roofing system and addresses the underlying issues affecting your home's protection. With proper installation, your new system is designed to provide reliable performance and long term weather protection."
       },
       "rain": {
-        "q": "What happens if it rains during my replacement?",
-        "a": "We only tear off what the crew can close the same day and tarp the rest, so your home stays protected until the new roof is on."
+        "q": "What happens if it rains during my roof replacement?",
+        "a": "We monitor weather conditions throughout the project and take the necessary precautions to protect your home. If severe weather creates unsafe conditions, installation is temporarily paused until work can continue safely."
       },
       "permit": {
-        "q": "Do you handle the permit and inspection?",
-        "a": "Yes. We pull the permit, schedule the city inspection, and hand you the signed paperwork once the job passes."
+        "q": "Do you handle permits and inspections?",
+        "a": "Yes. We manage the required permits and coordinate inspections throughout the replacement process. This helps ensure your new roofing system is installed according to local building requirements and project standards."
+      }
+    }
+  },
+  "repair": {
+    "items": {
+      "cost": {
+        "q": "How much does a roof repair cost?",
+        "a": "It depends on the damage, but most repairs are a small fraction of a replacement. We give one flat written price before any work starts."
+      },
+      "temporary": {
+        "q": "Is a repair just a temporary fix?",
+        "a": "No. We fix the real cause, not just the symptom, and back every repair with a written workmanship warranty so it lasts."
+      },
+      "insurance": {
+        "q": "Will insurance cover my roof repair?",
+        "a": "Often yes, when storm damage is the cause. We document everything with photos and can work directly with your adjuster on the claim."
+      },
+      "warranty": {
+        "q": "Do repairs come with a warranty?",
+        "a": "Yes. Every repair is backed by our written workmanship warranty, and any manufacturer warranty on the materials we install still applies."
+      },
+      "emergency": {
+        "q": "Can you handle emergency leaks fast?",
+        "a": "Yes. We offer same day tarping to stop active leaks, then return to complete a permanent repair as soon as possible."
+      },
+      "matching": {
+        "q": "Will the repair match my existing roof?",
+        "a": "We match your shingle color and profile as closely as possible, so the repaired area blends in and looks like the rest."
       }
     }
   },

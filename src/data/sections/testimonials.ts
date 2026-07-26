@@ -63,6 +63,16 @@ export const testimonialsData = {
         { key: "replacement.items.r6", avatar: "/images/avatars/avatar6.webp" },
       ],
     },
+    repair: {
+      items: [
+        { key: "repair.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "repair.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "repair.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "repair.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "repair.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "repair.items.r6", avatar: "/images/avatars/avatar6.webp" },
+      ],
+    },
     skylights: {
       items: [
         { key: "skylights.items.r1", avatar: "/images/avatars/avatar1.webp" },

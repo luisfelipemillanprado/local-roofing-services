@@ -178,6 +178,40 @@
       }
     }
   },
+  "repair": {
+    "items": {
+      "r1": {
+        "quote": "Una tormenta arrancó unas tejas y nos cubrieron con lona en horas. La reparación combinó perfecto y no ha habido ninguna fuga desde entonces.",
+        "name": "Trevor A. Sallis",
+        "location": "Cutler Bay, FL"
+      },
+      "r2": {
+        "quote": "Rastrearon una fuga difícil hasta el tapajuntas, no donde yo esperaba, y la arreglaron bien. Honestos, rápidos y mucho más baratos que un reemplazo.",
+        "name": "Gloria E. Nunez",
+        "location": "Westchester, FL"
+      },
+      "r3": {
+        "quote": "Trabajo pequeño con gran cuidado. Repararon las tejas agrietadas, sellaron todo bien y no dejaron nada de desorden. Mi techo se siente firme otra vez.",
+        "name": "Nathan P. Ridley",
+        "location": "Kendall, FL"
+      },
+      "r4": {
+        "quote": "Esperaba que me vendieran un techo nuevo y me dieron una reparación honesta. Ha aguantado perfecto ya a través de dos tormentas fuertes.",
+        "name": "Meredith A. Vance",
+        "location": "Coral Gables, FL"
+      },
+      "r5": {
+        "quote": "Respuesta el mismo día cuando entró agua por el techo. La detuvieron rápido y luego volvieron a repararla bien con garantía por escrito.",
+        "name": "Bradley T. Hurst",
+        "location": "Midtown, FL"
+      },
+      "r6": {
+        "quote": "Rápido, limpio y a buen precio. Arreglaron el tapajuntas gastado de la chimenea y la gotera persistente que otras dos compañías nunca resolvieron.",
+        "name": "Simone L. Vega",
+        "location": "Coconut Grove, FL"
+      }
+    }
+  },
   "skylights": {
     "items": {
       "r1": {

@@ -38,22 +38,24 @@ export const faqData = {
   /* per-service detail variants; selected by the service slug */
   residential: {
     items: [
-      { key: "residential.items.lifespan" },
-      { key: "residential.items.wind" },
-      { key: "residential.items.colors" },
-      { key: "residential.items.cost" },
+      { key: "residential.items.assessment" },
+      { key: "residential.items.materials" },
+      { key: "residential.items.permits" },
+      { key: "residential.items.duration" },
+      { key: "residential.items.weather" },
+      { key: "residential.items.property" },
       { key: "residential.items.warranty" },
-      { key: "residential.items.overlay" },
     ],
   },
   metal: {
     items: [
+      { key: "metal.items.suitable" },
       { key: "metal.items.lifespan" },
+      { key: "metal.items.efficiency" },
+      { key: "metal.items.overlay" },
+      { key: "metal.items.options" },
       { key: "metal.items.noise" },
-      { key: "metal.items.heat" },
-      { key: "metal.items.cost" },
-      { key: "metal.items.storms" },
-      { key: "metal.items.rust" },
+      { key: "metal.items.warranty" },
     ],
   },
   gutters: {
@@ -75,6 +77,16 @@ export const faqData = {
       { key: "replacement.items.leaks" },
       { key: "replacement.items.rain" },
       { key: "replacement.items.permit" },
+    ],
+  },
+  repair: {
+    items: [
+      { key: "repair.items.cost" },
+      { key: "repair.items.temporary" },
+      { key: "repair.items.insurance" },
+      { key: "repair.items.warranty" },
+      { key: "repair.items.emergency" },
+      { key: "repair.items.matching" },
     ],
   },
   skylights: {

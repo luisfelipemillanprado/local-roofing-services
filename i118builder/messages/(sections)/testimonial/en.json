@@ -178,6 +178,40 @@
       }
     }
   },
+  "repair": {
+    "items": {
+      "r1": {
+        "quote": "A storm tore a few shingles and they had us tarped within hours. The repair matched perfectly and there has been no leak since.",
+        "name": "Trevor A. Sallis",
+        "location": "Cutler Bay, FL"
+      },
+      "r2": {
+        "quote": "They traced a sneaky leak to the flashing, not where I expected, and fixed it right. Honest, fast, and far cheaper than a replacement.",
+        "name": "Gloria E. Nunez",
+        "location": "Westchester, FL"
+      },
+      "r3": {
+        "quote": "A small job with big care. They repaired the cracked tiles, sealed everything tight, and left no mess. My roof feels solid again.",
+        "name": "Nathan P. Ridley",
+        "location": "Kendall, FL"
+      },
+      "r4": {
+        "quote": "I expected a sales pitch for a new roof and got an honest repair instead. It has held perfectly through two heavy storms already.",
+        "name": "Meredith A. Vance",
+        "location": "Coral Gables, FL"
+      },
+      "r5": {
+        "quote": "Same day response when water came through the ceiling. They stopped it fast, then returned to repair it properly with a written warranty.",
+        "name": "Bradley T. Hurst",
+        "location": "Midtown, FL"
+      },
+      "r6": {
+        "quote": "Quick, clean, and fairly priced. They fixed the worn flashing around our chimney and the persistent drip that two other companies never solved.",
+        "name": "Simone L. Vega",
+        "location": "Coconut Grove, FL"
+      }
+    }
+  },
   "skylights": {
     "items": {
       "r1": {
