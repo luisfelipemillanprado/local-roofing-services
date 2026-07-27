@@ -110,6 +110,74 @@
       }
     }
   },
+  "tile": {
+    "items": {
+      "r1": {
+        "quote": "Nuestro techo de teja de arcilla transformó la casa por completo y la cuadrilla fue meticulosa todo el tiempo. Dos años después sigue impecable.",
+        "name": "Gabriel R. Ponce",
+        "location": "Coral Gables, FL"
+      },
+      "r2": {
+        "quote": "Revisaron la estructura antes de cotizar y reforzaron justo donde hacía falta. La teja de concreto luce increíble y aguantó la temporada de huracanes.",
+        "name": "Daniela M. Rios",
+        "location": "Coral Way, FL"
+      },
+      "r3": {
+        "quote": "Queríamos ese estilo mediterráneo y lo lograron. Cada línea de teja quedó recta, el tapajuntas impecable y la cuadrilla respetó nuestra propiedad siempre.",
+        "name": "Anthony J. Serrano",
+        "location": "Pinecrest, FL"
+      },
+      "r4": {
+        "quote": "El perfil de teja curva que nos ayudaron a elegir elevó toda la calle. Instalación limpia, precio honesto y ni una fuga en la lluvia.",
+        "name": "Marisol T. Vega",
+        "location": "Palmetto Bay, FL"
+      },
+      "r5": {
+        "quote": "Un techo de cincuenta años hecho bien a la primera. Probaron todo con agua y nos entregaron ambas garantías por escrito antes de irse.",
+        "name": "Roberto A. Nunez",
+        "location": "Doral, FL"
+      },
+      "r6": {
+        "quote": "La mejor inversión que hicimos para esta casa. La teja mantiene el interior más fresco y el proyecto terminó justo en la fecha prometida.",
+        "name": "Elena V. Marchetti",
+        "location": "Aventura, FL"
+      }
+    }
+  },
+  "flat": {
+    "items": {
+      "r1": {
+        "quote": "Nuestro techo plano acumuló agua por años hasta que añadieron aislamiento en pendiente. Ahora drena perfecto y todo el techo se ha mantenido seco.",
+        "name": "Douglas E. Hartley",
+        "location": "Doral, FL"
+      },
+      "r2": {
+        "quote": "Reemplazaron la membrana de nuestra ampliación sin ningún drama. Las uniones quedaron reforzadas, la prueba de agua pasó y aguantó la primera tormenta.",
+        "name": "Naomi K. Bright",
+        "location": "Kendall, FL"
+      },
+      "r3": {
+        "quote": "Una cuadrilla honesta que explicó cada opción para el techo del garaje. Precio justo, trabajo limpio y ni una gota de agua desde entonces.",
+        "name": "Curtis M. Vaughn",
+        "location": "Homestead, FL"
+      },
+      "r4": {
+        "quote": "El sistema TPO que instalaron se ve firme y sella bien. Trabajaron según nuestro horario y dejaron el sitio más limpio de como llegaron.",
+        "name": "Priya D. Malhotra",
+        "location": "Brickell, FL"
+      },
+      "r5": {
+        "quote": "Años de parches por fin terminaron. Su nueva membrana y el drenaje correcto arreglaron el agua estancada para siempre, y la garantía tranquiliza.",
+        "name": "Frank R. Colton",
+        "location": "Hialeah, FL"
+      },
+      "r6": {
+        "quote": "Profesionales desde el primer estudio hasta el recorrido final. Nuestro techo plano es hermético, las uniones firmes y el precio nunca se movió.",
+        "name": "Sandra L. Pike",
+        "location": "Sunset, FL"
+      }
+    }
+  },
   "gutters": {
     "items": {
       "r1": {

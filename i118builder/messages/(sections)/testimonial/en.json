@@ -110,6 +110,74 @@
       }
     }
   },
+  "tile": {
+    "items": {
+      "r1": {
+        "quote": "Our clay tile roof completely transformed the house and the crew stayed meticulous the entire time. Two years later it still looks absolutely brand new.",
+        "name": "Gabriel R. Ponce",
+        "location": "Coral Gables, FL"
+      },
+      "r2": {
+        "quote": "They checked our structure before quoting and reinforced exactly where needed. The concrete tile looks stunning and handled hurricane season without a single problem.",
+        "name": "Daniela M. Rios",
+        "location": "Coral Way, FL"
+      },
+      "r3": {
+        "quote": "We wanted that Mediterranean look and they nailed it. Every tile line is straight, the flashing is flawless, and the crew respected our property.",
+        "name": "Anthony J. Serrano",
+        "location": "Pinecrest, FL"
+      },
+      "r4": {
+        "quote": "The barrel tile profile they helped us choose elevated the whole street. Clean install, honest pricing, and not one leak through the rainy season.",
+        "name": "Marisol T. Vega",
+        "location": "Palmetto Bay, FL"
+      },
+      "r5": {
+        "quote": "A fifty year roof done right the first time. They water tested everything and handed us both warranties in writing before leaving the site.",
+        "name": "Roberto A. Nunez",
+        "location": "Doral, FL"
+      },
+      "r6": {
+        "quote": "Best investment we made for this house. The tile keeps the interior cooler and the whole project finished right on the schedule they promised.",
+        "name": "Elena V. Marchetti",
+        "location": "Aventura, FL"
+      }
+    }
+  },
+  "flat": {
+    "items": {
+      "r1": {
+        "quote": "Our flat roof pooled water for years until they added tapered insulation. Now it drains perfectly and the whole ceiling has stayed completely dry.",
+        "name": "Douglas E. Hartley",
+        "location": "Doral, FL"
+      },
+      "r2": {
+        "quote": "They replaced the membrane on our addition with zero drama. The seams are reinforced, the flood test passed, and it survived the first storm.",
+        "name": "Naomi K. Bright",
+        "location": "Kendall, FL"
+      },
+      "r3": {
+        "quote": "An honest crew that explained every option for our low slope garage roof. Fair price, clean work, and not a drop of water since.",
+        "name": "Curtis M. Vaughn",
+        "location": "Homestead, FL"
+      },
+      "r4": {
+        "quote": "The TPO system they installed looks sharp and holds tight. They worked around our schedule and left the site cleaner than they found it.",
+        "name": "Priya D. Malhotra",
+        "location": "Brickell, FL"
+      },
+      "r5": {
+        "quote": "Years of patching finally ended. Their new membrane and proper drainage fixed the standing water for good, and the warranty gives us real peace.",
+        "name": "Frank R. Colton",
+        "location": "Hialeah, FL"
+      },
+      "r6": {
+        "quote": "Professional from the first survey to the final walkthrough. Our flat roof is watertight, the seams are solid, and the price never moved once.",
+        "name": "Sandra L. Pike",
+        "location": "Sunset, FL"
+      }
+    }
+  },
   "gutters": {
     "items": {
       "r1": {

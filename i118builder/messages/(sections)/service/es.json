@@ -17,6 +17,14 @@
       "title": "Techado Metálico",
       "description": "Diseñado para durar por décadas."
     },
+    "tile": {
+      "title": "Techado de Teja",
+      "description": "Teja premium de concreto y arcilla."
+    },
+    "flat": {
+      "title": "Techado Plano",
+      "description": "Sistemas de techo plano impermeables."
+    },
     "gutters": {
       "title": "Canaletas y Tapajuntas",
       "description": "Protegiendo cada hogar del agua."

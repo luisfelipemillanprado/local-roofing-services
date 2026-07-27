@@ -58,6 +58,28 @@ export const faqData = {
       { key: "metal.items.warranty" },
     ],
   },
+  tile: {
+    items: [
+      { key: "tile.items.materials" },
+      { key: "tile.items.hurricane" },
+      { key: "tile.items.lifespan" },
+      { key: "tile.items.repair" },
+      { key: "tile.items.underlayment" },
+      { key: "tile.items.value" },
+      { key: "tile.items.warranty" },
+    ],
+  },
+  flat: {
+    items: [
+      { key: "flat.items.buildings" },
+      { key: "flat.items.drainage" },
+      { key: "flat.items.durability" },
+      { key: "flat.items.lifespan" },
+      { key: "flat.items.repair" },
+      { key: "flat.items.inspection" },
+      { key: "flat.items.warranty" },
+    ],
+  },
   gutters: {
     items: [
       { key: "gutters.items.replace" },

@@ -43,6 +43,26 @@ export const testimonialsData = {
         { key: "metal.items.r6", avatar: "/images/avatars/avatar6.webp" },
       ],
     },
+    tile: {
+      items: [
+        { key: "tile.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "tile.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "tile.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "tile.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "tile.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "tile.items.r6", avatar: "/images/avatars/avatar6.webp" },
+      ],
+    },
+    flat: {
+      items: [
+        { key: "flat.items.r1", avatar: "/images/avatars/avatar1.webp" },
+        { key: "flat.items.r2", avatar: "/images/avatars/avatar2.webp" },
+        { key: "flat.items.r3", avatar: "/images/avatars/avatar3.webp" },
+        { key: "flat.items.r4", avatar: "/images/avatars/avatar4.webp" },
+        { key: "flat.items.r5", avatar: "/images/avatars/avatar5.webp" },
+        { key: "flat.items.r6", avatar: "/images/avatars/avatar6.webp" },
+      ],
+    },
     gutters: {
       items: [
         { key: "gutters.items.r1", avatar: "/images/avatars/avatar1.webp" },

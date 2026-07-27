@@ -20,6 +20,7 @@ import {
   Factory,
   AlertTriangle,
   Target,
+  SquareStack,
   type LucideIcon,
 } from "lucide-react";
 import type { IconBadgeKey, IconBadgeProps, IconBadgeSize, IconBadgeTone } from "@/common/icon-badge/types";
@@ -47,6 +48,7 @@ const ICONS: Record<IconBadgeKey, LucideIcon> = {
   factory: Factory,
   alert: AlertTriangle,
   target: Target,
+  square: SquareStack,
 };
 
 /* Chip box size per tier */

@@ -17,6 +17,14 @@
       "title": "Metal Roofing",
       "description": "Engineered to last for decades."
     },
+    "tile": {
+      "title": "Tile Roofing",
+      "description": "Premium concrete and clay tiles."
+    },
+    "flat": {
+      "title": "Flat Roofing",
+      "description": "Waterproof low slope roofing systems."
+    },
     "gutters": {
       "title": "Gutters & Flashing",
       "description": "Protecting every home from water."

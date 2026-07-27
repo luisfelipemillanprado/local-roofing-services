@@ -14,6 +14,8 @@ export const servicesData = {
       image: "/images/services/service3.webp",
     },
     { key: "metal", slug: "metal", icon: "layers", image: "/images/services/service4.webp" },
+    { key: "tile", slug: "tile-roofing", icon: "star", image: "/images/services/service11.webp" },
+    { key: "flat", slug: "flat-roofing", icon: "square", image: "/images/services/service12.webp" },
     { key: "gutters", slug: "gutters", icon: "droplets", image: "/images/services/service1.webp" },
     {
       key: "replacement",

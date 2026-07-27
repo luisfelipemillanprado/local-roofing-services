@@ -166,6 +166,70 @@
       }
     }
   },
+  "tile": {
+    "items": {
+      "materials": {
+        "q": "¿Cuál es la diferencia entre teja de concreto y de arcilla?",
+        "a": "Tanto la teja de concreto como la de arcilla ofrecen una durabilidad y resistencia al clima excepcionales. La teja de arcilla es conocida por su apariencia tradicional y retención del color, mientras que la de concreto ofrece gran resistencia, una amplia variedad de perfiles y excelente valor para casas de Florida."
+      },
+      "hurricane": {
+        "q": "¿La teja es una buena opción para la temporada de huracanes de Florida?",
+        "a": "Sí. Los sistemas de teja bien instalados están diseñados para desempeñarse bien en el exigente clima de Florida. Usar los métodos de fijación, el underlayment y el tapajuntas correctos ayuda a mejorar la resistencia al viento y la protección a largo plazo."
+      },
+      "lifespan": {
+        "q": "¿Cuánto dura normalmente un techo de teja bien instalado?",
+        "a": "La teja es uno de los sistemas de techado residencial más duraderos disponibles. La vida útil real depende de la calidad de la instalación, el underlayment, el mantenimiento y las condiciones ambientales, pero puede brindar protección confiable por décadas."
+      },
+      "repair": {
+        "q": "¿Se pueden reemplazar tejas rotas o agrietadas de forma individual?",
+        "a": "Sí. A menudo se pueden reemplazar tejas dañadas individuales sin retirar todo el sistema de techo, siempre que el techo circundante esté en buen estado. Evaluamos el daño y recomendamos la solución de reparación más adecuada."
+      },
+      "underlayment": {
+        "q": "¿Un techo de teja requiere un sistema de underlayment especial?",
+        "a": "Sí. Como las tejas funcionan como la capa protectora exterior, un underlayment de alta calidad cumple un papel crítico para proteger tu hogar de la intrusión de agua. Instalamos sistemas de underlayment diseñados para el clima y los requisitos de Florida."
+      },
+      "value": {
+        "q": "¿Un techo de teja aumentará el valor y la apariencia de mi casa?",
+        "a": "Muchos dueños eligen la teja porque ofrece una apariencia arquitectónica distintiva, durabilidad excepcional y larga vida útil. Un techo de teja bien instalado puede mejorar significativamente el atractivo y el valor de la propiedad."
+      },
+      "warranty": {
+        "q": "¿La instalación de teja incluye garantía de mano de obra?",
+        "a": "Sí. Cada proyecto de teja incluye nuestra garantía escrita de mano de obra que cubre la calidad de la instalación, junto con la cobertura de garantía del fabricante aplicable para los materiales usados."
+      }
+    }
+  },
+  "flat": {
+    "items": {
+      "buildings": {
+        "q": "¿Qué tipos de edificios son ideales para sistemas de techo plano?",
+        "a": "Los sistemas de techo plano se instalan comúnmente en edificios comerciales, casas modernas, garajes, ampliaciones y estructuras de baja pendiente. El sistema adecuado depende del diseño del edificio, los requisitos de drenaje y las metas de desempeño a largo plazo."
+      },
+      "drainage": {
+        "q": "¿Cómo evitan los techos planos que el agua se acumule en la superficie?",
+        "a": "Aunque parecen nivelados, los techos planos se construyen con una ligera pendiente que dirige el agua hacia drenajes, escupidores o canaletas. Un buen diseño de drenaje y una instalación profesional son esenciales para evitar el agua estancada y prolongar la vida del techo."
+      },
+      "durability": {
+        "q": "¿Los sistemas de techo plano son lo bastante duraderos para el clima de Florida?",
+        "a": "Sí. Los sistemas de techo plano bien instalados están diseñados para resistir el sol intenso, la lluvia fuerte y el clima severo de Florida. Elegir el sistema adecuado y mantener un buen drenaje son clave para el desempeño a largo plazo."
+      },
+      "lifespan": {
+        "q": "¿Cuánto dura normalmente un sistema de techo plano?",
+        "a": "La vida útil depende del sistema elegido, la calidad de la instalación, la exposición al clima y el mantenimiento regular. Las inspecciones de rutina y las reparaciones oportunas ayudan a maximizar el desempeño y la longevidad del techo."
+      },
+      "repair": {
+        "q": "¿Se puede reparar un techo plano con fugas sin reemplazar todo el sistema?",
+        "a": "En muchos casos, sí. Las fugas localizadas por tapajuntas, uniones o materiales dañados a menudo se pueden reparar. Una inspección profesional nos permite determinar si una reparación o un reemplazo completo es la solución más adecuada."
+      },
+      "inspection": {
+        "q": "¿Con qué frecuencia debe inspeccionarse un techo plano profesionalmente?",
+        "a": "Recomendamos programar una inspección profesional al menos una vez al año y después de tormentas fuertes. Las inspecciones regulares ayudan a identificar problemas de drenaje, daño en la membrana y otras condiciones antes de que se vuelvan reparaciones costosas."
+      },
+      "warranty": {
+        "q": "¿La instalación de techo plano incluye garantía de mano de obra?",
+        "a": "Sí. Cada proyecto de techo plano incluye nuestra garantía escrita de mano de obra que cubre la calidad de la instalación, junto con la cobertura de garantía del fabricante aplicable para los materiales elegidos."
+      }
+    }
+  },
   "gutters": {
     "items": {
       "replace": {

@@ -166,6 +166,70 @@
       }
     }
   },
+  "tile": {
+    "items": {
+      "materials": {
+        "q": "What is the difference between concrete and clay roof tiles?",
+        "a": "Both concrete and clay tiles provide outstanding durability and weather resistance. Clay tiles are known for their traditional appearance and color retention, while concrete tiles offer excellent strength, a wide variety of profiles, and outstanding value for Florida homes."
+      },
+      "hurricane": {
+        "q": "Is tile roofing a good choice for Florida's hurricane season?",
+        "a": "Yes. Properly installed tile roofing systems are designed to perform well in Florida's demanding climate. Using the correct fastening methods, underlayment, and flashing helps improve wind resistance and long term weather protection."
+      },
+      "lifespan": {
+        "q": "How long does a professionally installed tile roof typically last?",
+        "a": "Tile roofing is one of the longest lasting residential roofing systems available. The actual lifespan depends on the quality of the installation, underlayment, maintenance, and environmental conditions, but it can provide reliable protection for decades."
+      },
+      "repair": {
+        "q": "Can individual broken or cracked roof tiles be replaced?",
+        "a": "Yes. Individual damaged tiles can often be replaced without removing the entire roofing system, provided the surrounding roof remains in good condition. We evaluate the damage and recommend the most appropriate repair solution."
+      },
+      "underlayment": {
+        "q": "Does a tile roof require a special underlayment system?",
+        "a": "Yes. Because roof tiles serve as the outer protective layer, a high quality underlayment plays a critical role in protecting your home from water intrusion. We install underlayment systems designed for Florida's climate and building requirements."
+      },
+      "value": {
+        "q": "Will a tile roof increase the value and appearance of my home?",
+        "a": "Many homeowners choose tile roofing because it offers a distinctive architectural appearance, exceptional durability, and long service life. A professionally installed tile roof can significantly enhance both curb appeal and overall property value."
+      },
+      "warranty": {
+        "q": "Does your tile roofing installation include a workmanship warranty?",
+        "a": "Yes. Every tile roofing project includes our written workmanship warranty covering the quality of the installation, along with applicable manufacturer warranty coverage for the roofing materials used."
+      }
+    }
+  },
+  "flat": {
+    "items": {
+      "buildings": {
+        "q": "What types of buildings are best suited for flat roofing systems?",
+        "a": "Flat roofing systems are commonly installed on commercial buildings, modern homes, garages, additions, and low slope structures. The right system depends on the building's design, drainage requirements, and long term performance goals."
+      },
+      "drainage": {
+        "q": "How do flat roofs prevent water from collecting on the surface?",
+        "a": "Although they appear level, flat roofs are built with a slight slope that directs water toward drains, scuppers, or gutters. Proper drainage design and professional installation are essential to preventing standing water and extending the roof's service life."
+      },
+      "durability": {
+        "q": "Are flat roofing systems durable enough for Florida's weather?",
+        "a": "Yes. Professionally installed flat roofing systems are designed to withstand Florida's intense sun, heavy rainfall, and severe weather. Selecting the appropriate roofing system and maintaining proper drainage are key to long term performance."
+      },
+      "lifespan": {
+        "q": "How long does a flat roofing system typically last?",
+        "a": "The lifespan depends on the roofing system selected, installation quality, weather exposure, and regular maintenance. Routine inspections and timely repairs help maximize the performance and longevity of the roof."
+      },
+      "repair": {
+        "q": "Can a leaking flat roof be repaired without replacing the entire system?",
+        "a": "In many cases, yes. Localized leaks caused by damaged flashing, seams, or roofing materials can often be repaired. A professional inspection allows us to determine whether a repair or a full replacement is the most appropriate solution."
+      },
+      "inspection": {
+        "q": "How often should a flat roof be professionally inspected?",
+        "a": "We recommend scheduling a professional inspection at least once a year and after major storms. Regular inspections help identify drainage issues, membrane damage, and other conditions before they become costly repairs."
+      },
+      "warranty": {
+        "q": "Does your flat roofing installation include a workmanship warranty?",
+        "a": "Yes. Every flat roofing project includes our written workmanship warranty covering the quality of the installation, along with applicable manufacturer warranty coverage for the roofing materials selected."
+      }
+    }
+  },
   "gutters": {
     "items": {
       "replace": {

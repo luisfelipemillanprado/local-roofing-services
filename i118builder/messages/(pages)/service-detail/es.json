@@ -26,7 +26,7 @@
   },
   "items": {
     "residential": {
-      "intro": "Soluciones completas de techado residencial para casas de Florida, con instalación experta, sistemas duraderos y protección respaldada por garantía de obra.",
+      "intro": "Soluciones completas de techado residencial con instalación experta, sistemas duraderos y protección respaldada por garantía escrita de mano de obra.",
       "included": [
         "Inspección gratuita del techo con fotos",
         "Estimado detallado por escrito en 24 horas",
@@ -66,7 +66,7 @@
       }
     },
     "metal": {
-      "intro": "El techo metálico ofrece durabilidad excepcional, eficiencia energética y desempeño duradero, con apariencia moderna, instalado profesionalmente para el clima de Florida.",
+      "intro": "El techo metálico ofrece durabilidad excepcional, eficiencia energética y desempeño duradero, con una apariencia moderna y elegante e instalación profesional.",
       "included": [
         "Inspección completa del sistema de techo metálico",
         "Asesoría para elegir paneles o junta alzada",
@@ -105,8 +105,88 @@
         }
       }
     },
+    "tile": {
+      "intro": "Techado experto de teja que combina sistemas premium de concreto y arcilla con instalación profesional para durabilidad y atractivo duraderos.",
+      "included": [
+        "Inspección completa del techo de teja",
+        "Teja premium de concreto o arcilla",
+        "Membrana sintética de alta temperatura",
+        "Tapajuntas nuevo y penetraciones impermeables",
+        "Fijación reforzada para el viento de Florida",
+        "Limpieza diaria y barrido magnético de clavos",
+        "Recorrido final y garantía de obra"
+      ],
+      "ideal": [
+        "Techos viejos de concreto o arcilla",
+        "Nuevas instalaciones de teja residencial",
+        "Mejoras de techo resistentes a huracanes",
+        "Casas que requieren protección duradera",
+        "Propiedades que buscan atractivo premium",
+        "Casas de Florida expuestas a clima severo"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspección & Evaluación",
+            "description": "Inspeccionamos el techo actual, evaluamos el deck y determinamos la mejor solución de teja para tu casa."
+          },
+          "quote": {
+            "title": "Selección & Preparación",
+            "description": "Elige el perfil y color de la teja mientras preparamos el techo con underlayment e impermeabilización adecuados."
+          },
+          "work": {
+            "title": "Instalación & Fijación",
+            "description": "Las tejas de concreto o arcilla se instalan profesionalmente con fijación que cumple el código de Florida."
+          },
+          "warranty": {
+            "title": "Revisión & Protección",
+            "description": "Revisamos la calidad, verificamos el tapajuntas y la instalación de teja, limpiamos y entregamos tu garantía escrita."
+          }
+        }
+      }
+    },
+    "flat": {
+      "intro": "Techado plano profesional para propiedades residenciales y comerciales, con protección impermeable confiable, drenaje eficiente y desempeño duradero de baja pendiente.",
+      "included": [
+        "Inspección y evaluación completa del techo plano",
+        "Evaluación del sistema de baja pendiente",
+        "Materiales impermeables de alto desempeño",
+        "Mejoras de tapajuntas y sistema de drenaje",
+        "Penetraciones y transiciones del techo selladas",
+        "Limpieza diaria y retiro de escombros",
+        "Inspección final y garantía de obra"
+      ],
+      "ideal": [
+        "Techos residenciales de baja pendiente",
+        "Edificios comerciales de techo plano",
+        "Problemas recurrentes de agua estancada",
+        "Sistemas de techo plano envejecidos",
+        "Techos de baja pendiente dañados por tormenta",
+        "Dueños que buscan protección impermeable duradera"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspección & Evaluación",
+            "description": "Inspeccionamos el sistema de techo, el drenaje, el tapajuntas y la superficie para identificar cualquier problema existente."
+          },
+          "quote": {
+            "title": "Planeación & Preparación",
+            "description": "Determinamos la solución de techo plano adecuada y preparamos la superficie para una instalación impermeable bien hecha."
+          },
+          "work": {
+            "title": "Instalación & Sellado",
+            "description": "El sistema se instala profesionalmente con uniones, tapajuntas y penetraciones bien selladas para maximizar la protección climática."
+          },
+          "warranty": {
+            "title": "Revisión & Cierre",
+            "description": "Verificamos el drenaje, inspeccionamos todo el trabajo terminado, limpiamos el área y entregamos tu garantía de obra."
+          }
+        }
+      }
+    },
     "gutters": {
-      "intro": "Sistemas profesionales de canaletas y tapajuntas que controlan el agua y protegen las zonas vulnerables de tu casa, duraderos en Florida.",
+      "intro": "Sistemas profesionales de canaletas y tapajuntas que controlan el agua y protegen las zonas vulnerables de tu casa con durabilidad.",
       "included": [
         "Inspección de canaletas y evaluación de drenaje",
         "Instalación de canaletas con pendiente adecuada",
@@ -146,7 +226,7 @@
       }
     },
     "replacement": {
-      "intro": "Desde reemplazos de techo hasta reparaciones puntuales, brindamos protección duradera con materiales premium, mano de obra experta y cobertura de garantía.",
+      "intro": "Desde reemplazos hasta reparaciones puntuales, brindamos protección duradera con materiales premium, mano de obra experta y cobertura de garantía completa.",
       "included": [
         "Retiro total del techo e inspección de la base",
         "Reemplazo de base podrida (cotizado aparte, nunca oculto)",
@@ -226,7 +306,7 @@
       }
     },
     "skylights": {
-      "intro": "Claraboyas instaladas profesionalmente que traen luz natural a tu hogar manteniendo el techo hermético, con tapajuntas y sellado para Florida.",
+      "intro": "Claraboyas instaladas profesionalmente que traen luz natural a tu hogar manteniendo un techo hermético, con el tapajuntas y sellado adecuados.",
       "included": [
         "Evaluación del techo para ubicar la claraboya",
         "Planeación de tamaño y ubicación de claraboya",
@@ -306,7 +386,7 @@
       }
     },
     "commercial": {
-      "intro": "Soluciones profesionales de techado comercial que protegen oficinas, locales, bodegas y propiedades multifamiliares con sistemas duraderos y mínima interrupción del negocio.",
+      "intro": "Soluciones de techado comercial que protegen oficinas, locales, bodegas y propiedades multifamiliares con sistemas duraderos y mínima interrupción del negocio.",
       "included": [
         "Evaluación completa del techo comercial",
         "Planeación detallada y propuesta por escrito",
@@ -346,7 +426,7 @@
       }
     },
     "inspections": {
-      "intro": "Las inspecciones profesionales identifican daños y evalúan tu sistema de techo, con documentación detallada para decisiones de reparación, reemplazo o seguro.",
+      "intro": "Las inspecciones identifican daños y evalúan tu sistema de techo, con documentación detallada para decisiones de reparación, reemplazo o seguro.",
       "included": [
         "Evaluación completa del estado del techo",
         "Inspección de tejas, tapajuntas y penetraciones",

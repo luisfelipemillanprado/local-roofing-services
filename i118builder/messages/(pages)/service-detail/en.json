@@ -26,7 +26,7 @@
   },
   "items": {
     "residential": {
-      "intro": "Complete residential roofing solutions built for Florida homes, combining expert installation, durable roofing systems, and reliable protection backed by workmanship warranties.",
+      "intro": "Complete residential roofing solutions combining expert installation, durable roofing systems, and reliable protection backed by written workmanship and manufacturer warranties.",
       "included": [
         "Free roof inspection with documented photos",
         "Detailed written estimate within 24 hours",
@@ -66,7 +66,7 @@
       }
     },
     "metal": {
-      "intro": "Metal roofing provides exceptional durability, energy efficiency, and long term performance with a sleek modern appearance, professionally installed for Florida weather.",
+      "intro": "Metal roofing delivers exceptional durability, energy efficiency, and long term performance, with a sleek modern appearance and expert professional installation.",
       "included": [
         "Complete metal roof system inspection",
         "Standing seam or metal panel selection guidance",
@@ -105,8 +105,88 @@
         }
       }
     },
+    "tile": {
+      "intro": "Expert tile roofing combining premium concrete and clay systems with professional installation for lasting durability, weather resistance, and curb appeal.",
+      "included": [
+        "Complete tile roof inspection and evaluation",
+        "Premium concrete or clay roof tiles",
+        "High temperature synthetic underlayment",
+        "New flashing and waterproof roof penetrations",
+        "Proper tile fastening for Florida wind requirements",
+        "Daily cleanup and magnetic nail sweep",
+        "Final walkthrough and workmanship warranty"
+      ],
+      "ideal": [
+        "Aging concrete or clay tile roofs",
+        "New residential tile roof installations",
+        "Hurricane resistant roofing upgrades",
+        "Homes requiring long lasting protection",
+        "Properties seeking premium curb appeal",
+        "Florida homes exposed to harsh weather conditions"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspect & Evaluate",
+            "description": "We inspect the existing roof, evaluate the deck, and determine the best tile roofing solution for you."
+          },
+          "quote": {
+            "title": "Select & Prepare",
+            "description": "Choose your tile profile and color while we prepare the roof with proper underlayment and waterproofing components."
+          },
+          "work": {
+            "title": "Install & Secure",
+            "description": "Concrete or clay tiles are professionally installed with fastening that meets Florida building code and wind requirements."
+          },
+          "warranty": {
+            "title": "Review & Protect",
+            "description": "We inspect quality, verify the flashing and tile work, clean the jobsite, and provide your workmanship warranty."
+          }
+        }
+      }
+    },
+    "flat": {
+      "intro": "Professional flat roofing for both residential and commercial properties, delivering dependable waterproof protection, efficient drainage, and lasting low slope performance.",
+      "included": [
+        "Comprehensive flat roof inspection and evaluation",
+        "Low slope roofing system assessment",
+        "High performance waterproof roofing materials",
+        "Flashing and drainage system improvements",
+        "Sealed roof penetrations and transition details",
+        "Daily jobsite cleanup and debris removal",
+        "Final inspection and workmanship warranty"
+      ],
+      "ideal": [
+        "Residential low slope roofs",
+        "Commercial flat roof buildings",
+        "Recurring ponding water issues",
+        "Aging flat roofing systems",
+        "Storm damaged low slope roofs",
+        "Property owners seeking long term waterproof protection"
+      ],
+      "process": {
+        "steps": {
+          "inspect": {
+            "title": "Inspect & Evaluate",
+            "description": "We inspect the roofing system, drainage performance, flashing, and surface condition to identify any existing problems clearly."
+          },
+          "quote": {
+            "title": "Plan & Prepare",
+            "description": "We determine the appropriate flat roofing solution and prepare the surface for a proper waterproof system installation."
+          },
+          "work": {
+            "title": "Install & Seal",
+            "description": "The roofing system is professionally installed with carefully sealed seams, flashing, and penetrations to maximize weather protection."
+          },
+          "warranty": {
+            "title": "Review & Finish",
+            "description": "We verify drainage performance, inspect all completed work, clean the project area, and provide your workmanship warranty."
+          }
+        }
+      }
+    },
     "gutters": {
-      "intro": "Professional gutter and flashing systems that manage water and protect your home's most vulnerable areas, fitted for lasting Florida performance.",
+      "intro": "Professional gutter and flashing systems that manage water and protect your home's most vulnerable areas, fitted for lasting reliable performance.",
       "included": [
         "Gutter inspection and drainage evaluation",
         "Gutter installation with proper slope alignment",
@@ -146,7 +226,7 @@
       }
     },
     "replacement": {
-      "intro": "From roof replacements to targeted repairs, we deliver lasting protection with premium materials, expert craftsmanship, and warranty coverage on every project.",
+      "intro": "From full roof replacements to targeted repairs, we deliver lasting protection with premium materials, expert craftsmanship, and complete warranty coverage.",
       "included": [
         "Full tear off and deck inspection",
         "Rotted deck replacement (priced separately, never hidden)",
@@ -226,7 +306,7 @@
       }
     },
     "skylights": {
-      "intro": "Professionally installed skylights bring natural light into your home while keeping a watertight roof, with flashing and sealing for Florida conditions.",
+      "intro": "Professionally installed skylights bring natural light into your home while keeping a watertight roof, with proper flashing and weatherproof sealing.",
       "included": [
         "Roof evaluation for skylight placement",
         "Skylight size and location planning",
@@ -266,7 +346,7 @@
       }
     },
     "storm": {
-      "intro": "Fast professional storm damage repairs restore your roof after hurricanes, high winds, and hail while preventing additional damage and water intrusion.",
+      "intro": "Fast professional storm damage repairs restore your roof after hurricanes, high winds, and hail while preventing further leaks and damage.",
       "included": [
         "Comprehensive storm damage inspection",
         "Photo documentation of affected areas",
@@ -306,7 +386,7 @@
       }
     },
     "commercial": {
-      "intro": "Professional commercial roofing solutions that protect office buildings, retail spaces, warehouses, and multi family properties with durable systems and minimal disruption.",
+      "intro": "Professional commercial roofing that protects office buildings, retail spaces, warehouses, and multi family properties with durable systems and minimal disruption.",
       "included": [
         "Comprehensive commercial roof assessment",
         "Detailed project planning and written proposal",
@@ -346,7 +426,7 @@
       }
     },
     "inspections": {
-      "intro": "Professional roof inspections identify existing damage and evaluate your roofing system, with detailed documentation to guide repair, replacement, or insurance decisions.",
+      "intro": "Professional roof inspections identify existing damage and evaluate your roofing system, with detailed documentation guiding repair, replacement, or insurance decisions.",
       "included": [
         "Comprehensive roof condition assessment",
         "Inspection of shingles, tiles, flashing, and penetrations",
@@ -386,7 +466,7 @@
       }
     },
     "solar": {
-      "intro": "Prepare your roof for solar with a durable system built to support long term panel performance and avoid costly roof work.",
+      "intro": "Prepare your roof for solar with a durable system built to support long term panel performance and avoid costly work.",
       "included": [
         "Roof condition evaluation before solar installation",
         "Assessment of remaining roof service life",
