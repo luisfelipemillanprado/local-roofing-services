@@ -15,5 +15,6 @@ export const pageHeaderData = {
     services: { key: "action.viewServices", href: "/services" },
     projects: { key: "action.viewProjects", href: "/projects" },
     team: { key: "action.viewTeam", href: "/about#team" },
+    shop: { key: "action.viewShop", href: "/shop" },
   },
 } as const;

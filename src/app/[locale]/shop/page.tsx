@@ -4,6 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ShopCatalog } from "@/features/shop/components/organisms/ShopCatalog";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
@@ -33,8 +34,9 @@ export default async function ShopPage({ params }: Props) {
           description={t("description")}
           secondaryCta="services"
         />
+        <Marquee />
         <ShopCatalog />
-        <Contact tone="muted" />
+        <Contact />
       </main>
       <Footer />
     </>

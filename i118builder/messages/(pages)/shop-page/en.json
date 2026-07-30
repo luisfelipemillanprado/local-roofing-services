@@ -7,5 +7,168 @@
     "titleLead": "Roofing",
     "titleAccent": "Supplies",
     "description": "Browse the roofing products our crews trust on every job. Order your materials directly, or pair them with professional installation and we handle the rest."
+  },
+  "action": {
+    "quote": "Request Quote",
+    "view": "View Product"
+  },
+  "units": {
+    "bundle": "Bundle",
+    "panel": "Panel",
+    "roll": "Roll",
+    "each": "Each",
+    "bucket": "Bucket",
+    "tube": "Tube",
+    "kit": "Kit"
+  },
+  "categories": {
+    "all": "All",
+    "shingles": "Shingles",
+    "metal": "Metal Roofing",
+    "underlayment": "Underlayment",
+    "sealants": "Sealants",
+    "tools": "Tools",
+    "accessories": "Accessories"
+  },
+  "availability": {
+    "in-stock": "In Stock",
+    "limited-stock": "Limited Stock",
+    "out-of-stock": "Out of Stock"
+  },
+  "filters": {
+    "title": "Filters",
+    "button": "Filter",
+    "apply": "Apply",
+    "search": "Search",
+    "searchPlaceholder": "Search products",
+    "brand": "Brand",
+    "price": "Price",
+    "rating": "Rating",
+    "availability": "Availability",
+    "priceAll": "Any price",
+    "priceUnder": "Under ${max}",
+    "priceRange": "${min} – ${max}",
+    "priceOver": "Over ${min}",
+    "ratingAny": "Any rating",
+    "ratingUp": "& up",
+    "clear": "Clear all"
+  },
+  "sort": {
+    "label": "Sort by",
+    "featured": "Featured",
+    "newest": "Newest",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "topRated": "Highest Rated"
+  },
+  "results": "{count, plural, =0 {No products} one {# product} other {# products}}",
+  "resultsFiltered": "{count} of {total} products",
+  "emptyTitle": "No products match your filters",
+  "emptyHint": "Try removing a filter or clearing them all.",
+  "related": {
+    "eyebrow": "Related Products",
+    "titleLead": "Explore Related",
+    "titleAccent": "Products",
+    "description": "More roofing products from the same category, ready to pair with your project or order on their own."
+  },
+  "detail": {
+    "reviewCount": "{rating} from {count} Reviews",
+    "color": "Available Color",
+    "quantity": "Quantity",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "size": "Available Size",
+    "sku": "SKU",
+    "tags": "Tags",
+    "tagList": "Roofing, Materials, Exterior, Pro",
+    "share": "Share",
+    "action": {
+      "buyNow": "Buy It Now",
+      "addToCart": "Add to Cart"
+    },
+    "tabs": {
+      "details": "Details",
+      "reviews": "Reviews",
+      "shipping": "Shipping"
+    },
+    "tabBody": {
+      "details": "Placeholder product details. Add full specifications, materials, coverage and warranty information here.",
+      "reviews": "Placeholder reviews. Customer ratings and feedback will be shown in this tab.",
+      "shipping": "Placeholder shipping information. Add delivery times, freight options and returns policy here."
+    }
+  },
+  "catalog": {
+    "gaf-timberline-hdz": {
+      "title": "Timberline HDZ",
+      "description": "Architectural laminate shingles with LayerLock technology for a tighter nail zone and lasting wind resistance."
+    },
+    "owens-corning-duration": {
+      "title": "Duration",
+      "description": "Durable architectural shingles with SureNail strips for stronger adhesion and dependable coverage."
+    },
+    "certainteed-landmark": {
+      "title": "Landmark",
+      "description": "Premium designer shingles with a dimensional wood shake look and a wide color range."
+    },
+    "union-r-panel": {
+      "title": "R-Panel Metal Roofing Panel",
+      "description": "Exposed fastener R-Panel metal roofing built for strength on residential and commercial roofs."
+    },
+    "mcelroy-standing-seam": {
+      "title": "Standing Seam Metal Panel",
+      "description": "Concealed fastener standing seam panels for a clean, weathertight modern roofline."
+    },
+    "decra-stone-coated-shingle": {
+      "title": "Stone Coated Metal Shingle",
+      "description": "Stone coated steel shingles that pair the look of tile with the strength of metal."
+    },
+    "certainteed-deck-defender": {
+      "title": "Deck Defender Underlayment",
+      "description": "High traction synthetic underlayment that shields the deck from moisture during and after install."
+    },
+    "owens-corning-30-felt": {
+      "title": "#30 Roofing Felt",
+      "description": "Heavy #30 asphalt saturated felt for a reliable secondary moisture barrier."
+    },
+    "interwrap-titanium-underlayment": {
+      "title": "Titanium Synthetic Underlayment",
+      "description": "Lightweight synthetic underlayment with excellent tear strength and confident walkability."
+    },
+    "henry-wet-patch": {
+      "title": "Wet Patch",
+      "description": "All weather roof cement that seals leaks and patches flashing on wet or dry surfaces."
+    },
+    "osi-quad-max": {
+      "title": "Quad Max",
+      "description": "High performance sealant with all season adhesion and long lasting flexibility."
+    },
+    "geocel-2300": {
+      "title": "Geocel 2300",
+      "description": "Tripolymer roof sealant that bonds to wet, dry and frozen surfaces without shrinking."
+    },
+    "bostitch-coil-nailer": {
+      "title": "Coil Roofing Nailer",
+      "description": "Coil roofing nailer built for fast, consistent fastening on demanding jobs."
+    },
+    "estwing-claw-hammer": {
+      "title": "Pro Claw Hammer",
+      "description": "Forged one piece claw hammer with a shock reduction grip for all day comfort."
+    },
+    "malco-hook-blade-knife": {
+      "title": "Hook Blade Roofing Knife",
+      "description": "Hook blade roofing knife for clean, controlled cuts through shingles and underlayment."
+    },
+    "velux-fixed-skylight": {
+      "title": "Fixed Skylight",
+      "description": "Fixed deck mounted skylight that brings natural daylight with a weathertight seal."
+    },
+    "gaf-cobra-ridge-vent": {
+      "title": "Cobra Ridge Vent",
+      "description": "Rolled ridge vent that promotes balanced attic airflow under the ridge cap."
+    },
+    "guardian-fall-protection-kit": {
+      "title": "Fall Protection Kit",
+      "description": "Complete roofer's fall protection kit with harness, lanyard and roof anchor."
+    }
   }
 }

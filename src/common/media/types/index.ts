@@ -1,4 +1,4 @@
-export type MediaShape = "wide" | "feature" | "showcase";
+export type MediaShape = "wide" | "feature" | "showcase" | "thumb";
 
 export interface MediaProps {
   src: string;

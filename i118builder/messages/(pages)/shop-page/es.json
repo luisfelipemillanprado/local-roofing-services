@@ -7,5 +7,168 @@
     "titleLead": "Nuestra",
     "titleAccent": "Tienda",
     "description": "Explora los productos de techado que nuestros equipos usan en cada obra. Ordena tus materiales directamente, o súmales instalación profesional y nosotros nos encargamos del resto."
+  },
+  "action": {
+    "quote": "Solicitar Cotización",
+    "view": "Ver Producto"
+  },
+  "units": {
+    "bundle": "Paquete",
+    "panel": "Panel",
+    "roll": "Rollo",
+    "each": "Unidad",
+    "bucket": "Cubeta",
+    "tube": "Tubo",
+    "kit": "Kit"
+  },
+  "categories": {
+    "all": "Todas",
+    "shingles": "Tejas",
+    "metal": "Techo Metálico",
+    "underlayment": "Membrana",
+    "sealants": "Selladores",
+    "tools": "Herramientas",
+    "accessories": "Accesorios"
+  },
+  "availability": {
+    "in-stock": "En Stock",
+    "limited-stock": "Pocas Unidades",
+    "out-of-stock": "Agotado"
+  },
+  "filters": {
+    "title": "Filtros",
+    "button": "Filtrar",
+    "apply": "Aplicar",
+    "search": "Buscar",
+    "searchPlaceholder": "Buscar productos",
+    "brand": "Marca",
+    "price": "Precio",
+    "rating": "Calificación",
+    "availability": "Disponibilidad",
+    "priceAll": "Cualquier precio",
+    "priceUnder": "Menos de ${max}",
+    "priceRange": "${min} – ${max}",
+    "priceOver": "Más de ${min}",
+    "ratingAny": "Cualquier calificación",
+    "ratingUp": "o más",
+    "clear": "Limpiar todo"
+  },
+  "sort": {
+    "label": "Ordenar por",
+    "featured": "Destacados",
+    "newest": "Más Nuevos",
+    "priceAsc": "Precio: Menor a Mayor",
+    "priceDesc": "Precio: Mayor a Menor",
+    "topRated": "Mejor Valorados"
+  },
+  "results": "{count, plural, =0 {Sin productos} one {# producto} other {# productos}}",
+  "resultsFiltered": "{count} de {total} productos",
+  "emptyTitle": "Ningún producto coincide con tus filtros",
+  "emptyHint": "Prueba quitar un filtro o límpialos todos.",
+  "related": {
+    "eyebrow": "Productos Relacionados",
+    "titleLead": "Explora Productos",
+    "titleAccent": "Relacionados",
+    "description": "Más productos de techado de la misma categoría, listos para tu proyecto o para pedirlos por separado."
+  },
+  "detail": {
+    "reviewCount": "{rating} de {count} Reseñas",
+    "color": "Color Disponible",
+    "quantity": "Cantidad",
+    "decrease": "Disminuir cantidad",
+    "increase": "Aumentar cantidad",
+    "size": "Tamaño Disponible",
+    "sku": "SKU",
+    "tags": "Etiquetas",
+    "tagList": "Techado, Materiales, Exterior, Pro",
+    "share": "Compartir",
+    "action": {
+      "buyNow": "Comprar Ahora",
+      "addToCart": "Agregar al Carrito"
+    },
+    "tabs": {
+      "details": "Detalles",
+      "reviews": "Reseñas",
+      "shipping": "Envío"
+    },
+    "tabBody": {
+      "details": "Detalles del producto de relleno. Agrega aquí las especificaciones completas, materiales, cobertura y garantía.",
+      "reviews": "Reseñas de relleno. Las calificaciones y comentarios de clientes se mostrarán en esta pestaña.",
+      "shipping": "Información de envío de relleno. Agrega aquí tiempos de entrega, opciones de flete y política de devoluciones."
+    }
+  },
+  "catalog": {
+    "gaf-timberline-hdz": {
+      "title": "Timberline HDZ",
+      "description": "Tejas laminadas arquitectónicas con tecnología LayerLock para una zona de clavado más firme y resistencia al viento."
+    },
+    "owens-corning-duration": {
+      "title": "Duration",
+      "description": "Tejas arquitectónicas duraderas con tiras SureNail para mayor adherencia y cobertura confiable."
+    },
+    "certainteed-landmark": {
+      "title": "Landmark",
+      "description": "Tejas de diseño premium con apariencia dimensional tipo madera y amplia gama de colores."
+    },
+    "union-r-panel": {
+      "title": "Panel Metálico R-Panel",
+      "description": "Panel metálico R-Panel de fijación expuesta, resistente para techos residenciales y comerciales."
+    },
+    "mcelroy-standing-seam": {
+      "title": "Panel de Costura Alzada",
+      "description": "Paneles de costura alzada con fijación oculta para una línea de techo moderna y hermética."
+    },
+    "decra-stone-coated-shingle": {
+      "title": "Teja Metálica con Recubrimiento de Piedra",
+      "description": "Tejas de acero recubierto de piedra que unen la apariencia de la teja con la fuerza del metal."
+    },
+    "certainteed-deck-defender": {
+      "title": "Membrana Deck Defender",
+      "description": "Membrana sintética antideslizante que protege el entablado de la humedad durante y después de la instalación."
+    },
+    "owens-corning-30-felt": {
+      "title": "Fieltro Para Techado #30",
+      "description": "Fieltro asfáltico #30 de alto gramaje como barrera secundaria de humedad confiable."
+    },
+    "interwrap-titanium-underlayment": {
+      "title": "Membrana Sintética Titanium",
+      "description": "Membrana sintética ligera con excelente resistencia al desgarre y buena pisada."
+    },
+    "henry-wet-patch": {
+      "title": "Wet Patch",
+      "description": "Cemento para techos para todo clima que sella filtraciones y parcha tapajuntas en superficies húmedas o secas."
+    },
+    "osi-quad-max": {
+      "title": "Quad Max",
+      "description": "Sellador de alto desempeño con adherencia en toda estación y flexibilidad duradera."
+    },
+    "geocel-2300": {
+      "title": "Geocel 2300",
+      "description": "Sellador tripolímero que se adhiere a superficies húmedas, secas y congeladas sin encogerse."
+    },
+    "bostitch-coil-nailer": {
+      "title": "Clavadora de Bobina Para Techos",
+      "description": "Clavadora de bobina para techos, diseñada para fijar rápido y parejo en trabajos exigentes."
+    },
+    "estwing-claw-hammer": {
+      "title": "Martillo de Uña Profesional",
+      "description": "Martillo de uña forjado de una sola pieza con mango que reduce el impacto para comodidad todo el día."
+    },
+    "malco-hook-blade-knife": {
+      "title": "Cuchillo Para Techos de Hoja Curva",
+      "description": "Cuchillo para techos de hoja curva para cortes limpios y controlados en tejas y membranas."
+    },
+    "velux-fixed-skylight": {
+      "title": "Tragaluz Fijo",
+      "description": "Tragaluz fijo montado en techo que aporta luz natural con un sellado hermético."
+    },
+    "gaf-cobra-ridge-vent": {
+      "title": "Ventila de Cumbrera Cobra",
+      "description": "Ventila de cumbrera en rollo que favorece el flujo de aire balanceado bajo la cumbrera."
+    },
+    "guardian-fall-protection-kit": {
+      "title": "Kit de Protección Contra Caídas",
+      "description": "Kit completo de protección contra caídas con arnés, línea de vida y anclaje."
+    }
   }
 }

@@ -3,5 +3,5 @@ export interface PageHeaderProps {
   titleAccent: string;
   description: string;
   /* rotating ghost CTA target per page */
-  secondaryCta: "services" | "projects" | "team";
+  secondaryCta: "services" | "projects" | "team" | "shop";
 }
