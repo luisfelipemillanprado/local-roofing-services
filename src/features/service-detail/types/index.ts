@@ -6,10 +6,12 @@ type SectionTone = "base" | "muted" /* section surface; keeps page section alter
 /* every service slug key */
 export type ServiceDetailKey = (typeof servicesData.items)[number]["key"];
 
-/* what's included + ideal for: two checklist panels */
-export interface ServiceIncludedProps {
-  serviceKey: ServiceDetailKey;
-  tone?: SectionTone;
+/* resolved checklist panel: icon + title + description over text items */
+export interface IncludedPanelProps {
+  icon: IconBadgeKey;
+  title: string;
+  description: string;
+  items: string[];
 }
 
 /* numbered process: heading + shared four steps */
@@ -18,10 +20,8 @@ export interface ServiceProcessProps {
   tone?: SectionTone;
 }
 
-/* resolved checklist panel: icon + title + description over text items */
-export interface IncludedPanelProps {
-  icon: IconBadgeKey;
-  title: string;
-  description: string;
-  items: string[];
+/* service overview: per-service image + checklist, heading/stats/chrome from about */
+export interface ServiceOverviewProps {
+  serviceKey: ServiceDetailKey;
+  tone?: SectionTone;
 }

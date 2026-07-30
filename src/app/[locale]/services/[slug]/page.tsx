@@ -6,15 +6,13 @@ import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
-import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
-import { Media } from "@/common/media/components/Media";
-import { ServiceIncluded } from "@/features/service-detail/components/organisms/ServiceIncluded";
+import { ServiceOverview } from "@/features/service-detail/components/organisms/ServiceOverview";
 import { ServiceProcess } from "@/features/service-detail/components/organisms/ServiceProcess";
 import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
+import { ServiceAreas } from "@/shared-sections/service-areas/components/organisms/ServiceAreas";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 import { servicesData } from "@/data/sections/services";
-import { Container } from "@/common/container/components/Container";
 
 const { items } = servicesData;
 
@@ -65,20 +63,11 @@ export default async function ServiceDetailPage({ params }: Props) {
           description={td(`items.${service.key}.intro`)}
         />
         <Marquee />
-        {/* service showcase: framed image only, like the case study */}
-        <SectionWrapper id="service-detail" tone="muted">
-          <Container>
-            <Media
-              src={service.image}
-              alt={title}
-              shape="showcase"
-              sizes="(max-width: 1024px) 100vw, 1024px"
-            />
-          </Container>
-        </SectionWrapper>
-        <ServiceIncluded serviceKey={service.key} tone="base" />
-        <ServiceProcess serviceKey={service.key} tone="muted" />
-        <Faq variant={service.key} tone="base" />
+        {/* service overview: per-service image + checklist, chrome shared from about */}
+        <ServiceOverview serviceKey={service.key} tone="muted" />
+        <ServiceProcess serviceKey={service.key} tone="base" />
+        <Faq variant={service.key} tone="muted" />
+        <ServiceAreas tone="base" />
         <Products tone="muted" limit={6} />
         <Contact />
       </main>
