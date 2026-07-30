@@ -1,17 +1,18 @@
+import { getTranslations } from "next-intl/server";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Media } from "@/common/media/components/Media";
+import { ProfileSplit } from "@/common/profile-split/components/ProfileSplit";
 import { YearsBadge } from "@/shared-sections/about/components/molecules/YearsBadge";
 import { ContactCard } from "@/shared-sections/about/components/molecules/ContactCard";
 import { StatsRow } from "@/shared-sections/about/components/molecules/StatsRow";
 import { SellingPoints } from "@/shared-sections/about/components/molecules/SellingPoints";
-import { getTranslations } from "next-intl/server";
 import { aboutData } from "@/data/sections/about";
-import type { AboutProps } from "@/shared-sections/about/types";
 import { Container } from "@/common/container/components/Container";
+import type { AboutProps } from "@/shared-sections/about/types";
 
-const { name, image, ctaHref, years, call, points, stats } = aboutData;
+const { name, image, heading, ctaHref, years, call, points, stats } = aboutData;
 
 export const About = async ({ variant }: AboutProps) => {
   const t = await getTranslations("about");
@@ -27,59 +28,34 @@ export const About = async ({ variant }: AboutProps) => {
   return (
     <SectionWrapper id="about">
       <Container>
-        <div className="grid items-center gap-19 lg:grid-cols-2">
-          {/* Image side */}
-          <div className="relative">
-            <div className="overflow-hidden rounded-card shadow-lg">
-              <Media
-                src={image}
-                alt={t("imageAlt")}
-                shape="feature"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-
-            {/* badge overhangs the top-right corner */}
-            <div className="absolute top-7 -right-3">
-              <YearsBadge
-                value={years.value}
-                line1={t(`years.${years.key}.line1`)}
-                line2={t(`years.${years.key}.line2`)}
-              />
-            </div>
-
-            {/* card straddles the image's bottom edge */}
-            <div className="absolute bottom-0 left-6 translate-y-1/2">
-              <ContactCard label={t(call.key)} phone={call.number} />
-            </div>
-          </div>
-
-          {/* Copy side */}
-          <div className="grid gap-7 text-center lg:text-left">
-            {/* Heading */}
-            <SectionHeading
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description", { name })}
+        <ProfileSplit
+          media={
+            <Media src={image} alt={t("imageAlt")} shape="feature" sizes="(max-width: 1024px) 100vw, 50vw" />
+          }
+          badge={
+            <YearsBadge
+              value={years.value}
+              line1={t(`years.${years.key}.line1`)}
+              line2={t(`years.${years.key}.line2`)}
             />
-
-            {/* Selling points */}
-            <SellingPoints items={pointItems} />
-
-            {/* Stats */}
-            <div className="mt-2">
-              <StatsRow items={statItems} />
-            </div>
-
-            {/* CTA */}
-            <div className="mt-2">
-              <Button href={ctaHref[variant].href} variant="secondary" pulse>
-                {t(ctaHref[variant].key)}
-              </Button>
-            </div>
-          </div>
-        </div>
+          }
+          contact={<ContactCard label={t(call.key)} phone={call.number} />}
+          heading={
+            <SectionHeading
+              eyebrow={t(heading.eyebrow)}
+              title={t(heading.titleLead)}
+              accent={t(heading.titleAccent)}
+              description={t(heading.description, { name })}
+            />
+          }
+          points={<SellingPoints items={pointItems} />}
+          stats={<StatsRow items={statItems} />}
+          action={
+            <Button href={ctaHref[variant].href} variant="secondary" pulse>
+              {t(ctaHref[variant].key)}
+            </Button>
+          }
+        />
       </Container>
     </SectionWrapper>
   );

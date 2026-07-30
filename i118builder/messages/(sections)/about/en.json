@@ -12,6 +12,11 @@
     "warranties": "Premium materials with extended warranties.",
     "pricing": "Transparent, upfront pricing with no surprises."
   },
+  "stats": {
+    "projects": "Projects Completed",
+    "customers": "Happy Customers",
+    "satisfaction": "Satisfaction Rate"
+  },
   "years": {
     "experience": {
       "line1": "YEARS OF",
@@ -19,10 +24,5 @@
     }
   },
   "callAnytime": "CALL US ANYTIME",
-  "imageAlt": "Roofpro company owner on site",
-  "stats": {
-    "projects": "Projects Completed",
-    "customers": "Happy Customers",
-    "satisfaction": "Satisfaction Rate"
-  }
+  "imageAlt": "Roofpro company owner on site"
 }

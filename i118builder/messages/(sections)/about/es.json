@@ -12,6 +12,11 @@
     "warranties": "Materiales premium con garantías extendidas.",
     "pricing": "Precios transparentes y claros, sin sorpresas."
   },
+  "stats": {
+    "projects": "Proyectos Completados",
+    "customers": "Clientes Felices",
+    "satisfaction": "Tasa de Satisfacción"
+  },
   "years": {
     "experience": {
       "line1": "AÑOS DE",
@@ -19,10 +24,5 @@
     }
   },
   "callAnytime": "LLÁMANOS CUANDO QUIERAS",
-  "imageAlt": "Dueño de Roofpro en obra",
-  "stats": {
-    "projects": "Proyectos Completados",
-    "customers": "Clientes Felices",
-    "satisfaction": "Tasa de Satisfacción"
-  }
+  "imageAlt": "Dueño de Roofpro en obra"
 }
