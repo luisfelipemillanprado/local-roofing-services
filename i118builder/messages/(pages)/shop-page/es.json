@@ -98,77 +98,113 @@
     }
   },
   "catalog": {
-    "gaf-timberline-hdz": {
-      "title": "Timberline HDZ",
+    "timberline-hdz": {
+      "title": "Tejas Timberline HDZ",
       "description": "Tejas laminadas arquitectónicas con tecnología LayerLock para una zona de clavado más firme y resistencia al viento."
     },
-    "owens-corning-duration": {
-      "title": "Duration",
-      "description": "Tejas arquitectónicas duraderas con tiras SureNail para mayor adherencia y cobertura confiable."
+    "brakki-19pc": {
+      "title": "Paneles Metálicos Corrugados 19 Piezas",
+      "description": "Paneles de acero corrugado con acabado duradero para una protección fuerte en todo clima."
     },
-    "certainteed-landmark": {
-      "title": "Landmark",
-      "description": "Tejas de diseño premium con apariencia dimensional tipo madera y amplia gama de colores."
+    "brakki-20pc": {
+      "title": "Paneles Metálicos Tipo Teja 20 Piezas",
+      "description": "Paneles metálicos con estilo de teja clásica y la resistencia del acero."
     },
-    "union-r-panel": {
-      "title": "Panel Metálico R-Panel",
-      "description": "Panel metálico R-Panel de fijación expuesta, resistente para techos residenciales y comerciales."
+    "brakki-21pc": {
+      "title": "Paneles Metálicos Tipo Teja 21 Piezas",
+      "description": "Paneles tipo teja de mayor cobertura para instalaciones más rápidas en techos residenciales y comerciales."
     },
-    "mcelroy-standing-seam": {
-      "title": "Panel de Costura Alzada",
-      "description": "Paneles de costura alzada con fijación oculta para una línea de techo moderna y hermética."
+    "dupont-tyvek-120": {
+      "title": "Underlayment Tyvek Protec 120",
+      "description": "Underlayment sintético de alta tracción que protege el entablado de la humedad con paso seguro."
     },
-    "decra-stone-coated-shingle": {
-      "title": "Teja Metálica con Recubrimiento de Piedra",
-      "description": "Tejas de acero recubierto de piedra que unen la apariencia de la teja con la fuerza del metal."
+    "gcp-5003000": {
+      "title": "Underlayment Sintético Grace",
+      "description": "Underlayment sintético ligero con excelente resistencia al desgarre y una barrera secundaria confiable."
     },
-    "certainteed-deck-defender": {
-      "title": "Membrana Deck Defender",
-      "description": "Membrana sintética antideslizante que protege el entablado de la humedad durante y después de la instalación."
+    "gaf-everguard-wb181": {
+      "title": "Adhesivo EverGuard WB181",
+      "description": "Adhesivo base agua para membranas monocapa con buen agarre y fácil aplicación con rodillo."
     },
-    "owens-corning-30-felt": {
-      "title": "Fieltro Para Techado #30",
-      "description": "Fieltro asfáltico #30 de alto gramaje como barrera secundaria de humedad confiable."
+    "gaf-778c": {
+      "title": "Adhesivo PVC Quick Lay EverGuard",
+      "description": "Adhesivo PVC de agarre rápido que une membranas EverGuard al entablado con una sujeción fuerte y duradera."
     },
-    "interwrap-titanium-underlayment": {
-      "title": "Membrana Sintética Titanium",
-      "description": "Membrana sintética ligera con excelente resistencia al desgarre y buena pisada."
+    "titebond-61001": {
+      "title": "Sellador WeatherMaster para Metal",
+      "description": "Sellador para todo clima que se adhiere a metal, tapajuntas y molduras sin encoger ni agrietarse."
     },
-    "henry-wet-patch": {
-      "title": "Wet Patch",
-      "description": "Cemento para techos para todo clima que sella filtraciones y parcha tapajuntas en superficies húmedas o secas."
+    "dewalt-dcs391": {
+      "title": "Sierra Circular Inalámbrica 20V",
+      "description": "Sierra circular inalámbrica compacta para cortes rápidos y precisos en entablado, molduras y paneles."
     },
-    "osi-quad-max": {
-      "title": "Quad Max",
-      "description": "Sellador de alto desempeño con adherencia en toda estación y flexibilidad duradera."
+    "dewalt-dwht51002": {
+      "title": "Martillo de Uña 16 oz",
+      "description": "Martillo de uña forjado de una pieza con mango antivibración para comodidad todo el día."
     },
-    "geocel-2300": {
-      "title": "Geocel 2300",
-      "description": "Sellador tripolímero que se adhiere a superficies húmedas, secas y congeladas sin encogerse."
+    "dewalt-dcm849": {
+      "title": "Pulidora Rotativa Inalámbrica 20V",
+      "description": "Pulidora inalámbrica de velocidad variable para acabado y pulido de techado metálico y molduras."
     },
-    "bostitch-coil-nailer": {
-      "title": "Clavadora de Bobina Para Techos",
-      "description": "Clavadora de bobina para techos, diseñada para fijar rápido y parejo en trabajos exigentes."
+    "dewalt-dcn681": {
+      "title": "Clavadora Inalámbrica 20V",
+      "description": "Clavadora a batería para fijación rápida y constante sin manguera ni compresor."
     },
-    "estwing-claw-hammer": {
-      "title": "Martillo de Uña Profesional",
-      "description": "Martillo de uña forjado de una sola pieza con mango que reduce el impacto para comodidad todo el día."
+    "tolsen-25012": {
+      "title": "Mazo con Mango de Fibra",
+      "description": "Mazo pesado con mango de fibra de vidrio para demolición y trabajos de arranque."
     },
-    "malco-hook-blade-knife": {
-      "title": "Cuchillo Para Techos de Hoja Curva",
-      "description": "Cuchillo para techos de hoja curva para cortes limpios y controlados en tejas y membranas."
+    "tolsen-10243": {
+      "title": "Tijeras para Metal",
+      "description": "Tijeras de aviación afiladas para cortes limpios y controlados en paneles metálicos y tapajuntas."
     },
-    "velux-fixed-skylight": {
-      "title": "Tragaluz Fijo",
-      "description": "Tragaluz fijo montado en techo que aporta luz natural con un sellado hermético."
+    "supatool-20in": {
+      "title": "Serrucho de 20 Pulgadas",
+      "description": "Serrucho de dientes templados para cortes rápidos en madera, entablado y molduras."
     },
-    "gaf-cobra-ridge-vent": {
-      "title": "Ventila de Cumbrera Cobra",
-      "description": "Ventila de cumbrera en rollo que favorece el flujo de aire balanceado bajo la cumbrera."
+    "qualcraft-2560p": {
+      "title": "Pala para Arranque de Techo",
+      "description": "Pala dentada de arranque que levanta tejas y clavos rápido en trabajos de retiro."
     },
-    "guardian-fall-protection-kit": {
-      "title": "Kit de Protección Contra Caídas",
-      "description": "Kit completo de protección contra caídas con arnés, línea de vida y anclaje."
+    "dewalt-dcpr320": {
+      "title": "Podadora Inalámbrica 20V",
+      "description": "Podadora a batería que hace cortes limpios y sin esfuerzo en ramas alrededor de la obra."
+    },
+    "dewalt-dwht36225": {
+      "title": "Cinta Métrica de 25 pies",
+      "description": "Cinta métrica resistente de 25 pies con hoja de largo alcance y carcasa duradera ante impactos."
+    },
+    "dewalt-dccs620": {
+      "title": "Motosierra 20V de 12 Pulgadas",
+      "description": "Motosierra inalámbrica de 12 pulgadas para desrame y limpieza rápida en la obra."
+    },
+    "hxoutdoors-ft16c": {
+      "title": "Hacha Táctica de Campo",
+      "description": "Hacha táctica compacta con hoja de espiga completa y funda moldeada para cortar y partir."
+    },
+    "dewalt-dwht10998": {
+      "title": "Cúter Retráctil",
+      "description": "Cúter retráctil con almacenamiento de hojas integrado para cortes limpios y rápidos en el techo."
+    },
+    "dewalt-dxst11000": {
+      "title": "Escalera de Marco Apilable",
+      "description": "Escalera de marco resistente para acceso seguro y apoyo estable en la obra."
+    },
+    "masterplug-ose15104g": {
+      "title": "Carrete de Extensión Eléctrica",
+      "description": "Carrete de cable de alto rendimiento con varias salidas para energía en cualquier punto del techo."
+    },
+    "dewalt-dpg737": {
+      "title": "Guantes de Trabajo",
+      "description": "Guantes transpirables con palmas reforzadas para agarre y protección en jornadas largas."
+    },
+    "palmer-k111115": {
+      "title": "Kit de Protección contra Caídas",
+      "description": "Kit completo de protección contra caídas con arnés, línea de vida y anclaje para trabajo en altura."
+    },
+    "werner-6206": {
+      "title": "Tragaluz Fijo de Montaje",
+      "description": "Tragaluz fijo de montaje en entablado que aporta luz natural con sellado hermético."
     }
   }
 }

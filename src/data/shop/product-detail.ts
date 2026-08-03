@@ -4,13 +4,6 @@ export const productDetailData = {
   /* CTAs (placeholder targets) */
   buyNowHref: { key: "detail.action.buyNow", href: "#contact" },
   addToCartHref: { key: "detail.action.addToCart", href: "#contact" },
-  /* extra thumbnails appended after the product's own image (recycled) — 4 here + the product image = 5 */
-  gallery: [
-    "/images/products/product2.webp",
-    "/images/products/product5.webp",
-    "/images/products/product8.webp",
-    "/images/products/product3.webp",
-  ],
   /* swatches: hex only (placeholder) */
   colors: [
     { key: "natural", hex: "#d9d4c7" },

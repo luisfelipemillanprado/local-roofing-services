@@ -16,7 +16,7 @@ import { shopProductsData } from "@/data/shop/products";
 import { productDetailData } from "@/data/shop/product-detail";
 import type { ProductDetailProps } from "@/features/shop/types";
 
-const { colors, sizes, tabs, sku, gallery, buyNowHref, addToCartHref } = productDetailData;
+const { colors, sizes, tabs, sku, buyNowHref, addToCartHref } = productDetailData;
 
 export const ProductDetail = ({ slug }: ProductDetailProps) => {
   const t = useTranslations("shop-page");
@@ -31,7 +31,7 @@ export const ProductDetail = ({ slug }: ProductDetailProps) => {
   if (!product) return null;
 
   const title = t(`catalog.${product.slug}.title`);
-  const images = [product.image, ...gallery];
+  const images = [product.image, ...product.gallery];
   /* placeholder discounted "was" price */
   const originalPriceLabel = `$${(product.price * 1.15).toFixed(2)}`;
   const tabItems = tabs.map((key) => ({
