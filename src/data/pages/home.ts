@@ -4,7 +4,7 @@ import { customerAvatars } from "@/data/avatars";
 export const heroData = {
   name: company.name,
   yearsExperience: company.yearsExperience,
-  image: "/images/hero/hero1.webp",
+  image: "/images/hero/hero-1.webp",
   /* availability badge: label by key */
   badgeKey: "badge",
   ctaPrimaryHref: { key: "action.upgrade", href: "#contact" },
