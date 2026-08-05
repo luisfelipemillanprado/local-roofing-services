@@ -7,27 +7,27 @@
     "home": {
       "titleLead": "Techado",
       "titleAccent": "Profesional.",
-      "description": "Protegemos tu hogar con soluciones profesionales de techado, materiales duraderos, excelente instalación y servicio confiable para tu comunidad siempre cerca."
+      "description": "Protegemos tu hogar con soluciones profesionales de techado, materiales duraderos, instalación y servicio confiable para tu comunidad siempre cerca."
     },
     "about": {
       "titleLead": "Techeros",
       "titleAccent": "Expertos.",
-      "description": "Comprometidos con proteger hogares mediante trabajo especializado, materiales premium, servicio confiable y soluciones integrales de techado para cada propiedad atendida."
+      "description": "Comprometidos con proteger hogares mediante trabajo especializado, materiales premium, servicio confiable y soluciones integrales de techado para cada propiedad."
     },
     "services": {
-      "titleLead": "Soluciones",
-      "titleAccent": "Expertas.",
-      "description": "Desde reparaciones de emergencia hasta reemplazos completos, ofrecemos un servicio confiable, instalación experta y resultados duraderos respaldados por garantías sólidas."
+      "titleLead": "Servicios",
+      "titleAccent": "Expertos.",
+      "description": "Desde reparaciones de emergencia hasta reemplazos completos, ofrecemos servicio confiable, instalación experta y resultados duraderos respaldados por garantías sólidas."
     },
     "projects": {
       "titleLead": "Proyectos",
       "titleAccent": "Destacados.",
-      "description": "Explora nuestros proyectos residenciales y comerciales que reflejan calidad superior, experiencia, materiales duraderos y resultados excepcionales en cada trabajo realizado."
+      "description": "Explora nuestros proyectos residenciales y comerciales que reflejan calidad superior, experiencia, materiales duraderos y resultados excepcionales en cada trabajo."
     },
     "shop": {
       "titleLead": "Materiales",
       "titleAccent": "Techado.",
-      "description": "Descubre materiales premium, marcas confiables, precios competitivos y productos listos para proyectos residenciales, comerciales y profesionales siempre disponibles aquí mismo."
+      "description": "Descubre materiales premium, marcas confiables, precios competitivos y productos listos para proyectos residenciales, comerciales y profesionales siempre disponibles aquí."
     }
   },
   "action": {
