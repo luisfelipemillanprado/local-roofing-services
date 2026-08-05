@@ -1,9 +1,8 @@
-import { use } from "react";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
-import { Hero } from "@/features/home/components/Hero";
+import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
@@ -14,22 +13,31 @@ import { Testimonials } from "@/shared-sections/testimonials/components/organism
 import { Pricing } from "@/shared-sections/pricing/components/organisms/Pricing";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
+import { pageHeaderData } from "@/data/sections/page-header";
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export default function Home({ params }: Props) {
-  /* use() unwraps params without async */
-  const { locale } = use(params);
+export default async function Home({ params }: Props) {
+  const { locale } = await params;
   /* Cache locale for static rendering */
   setRequestLocale(locale as Locale);
+  const t = await getTranslations("page-header.pages.home");
 
   return (
     <>
       <Navbar />
       <main>
-        <Hero />
+        {/* shared hero band with the home's own copy, image and anchor */}
+        <PageHeader
+          id="home"
+          image="home"
+          titleLead={t(pageHeaderData.titleLeadKey)}
+          titleAccent={t(pageHeaderData.titleAccentKey)}
+          description={t(pageHeaderData.descriptionKey)}
+          secondaryCta="work"
+        />
         <Marquee />
         <About variant="learnMore" />
         <Services variant="viewAll" limit={6} />

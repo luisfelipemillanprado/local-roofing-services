@@ -3,11 +3,6 @@
     "title": "Shop",
     "description": "Shop the roofing products our crews trust every day — shingles, panels, underlayment, skylights, sealants and pro tools from the industry's leading brands."
   },
-  "header": {
-    "titleLead": "Roofing",
-    "titleAccent": "Supplies",
-    "description": "Browse the roofing products our crews trust on every job. Order your materials directly, or pair them with professional installation and we handle the rest."
-  },
   "action": {
     "quote": "Request Quote",
     "view": "View Product"
@@ -100,110 +95,164 @@
   "catalog": {
     "timberline-hdz": {
       "title": "Timberline HDZ Shingles",
+      "titleLead": "Timberline HDZ",
+      "titleAccent": "Shingles",
       "description": "Architectural laminate shingles with LayerLock technology for a tighter nail zone and lasting wind resistance."
     },
     "brakki-19pc": {
       "title": "Corrugated Metal Panels 19 Pack",
+      "titleLead": "Corrugated Metal Panels",
+      "titleAccent": "19 Pack",
       "description": "Corrugated steel roofing panels with a durable finish built for strong all weather protection."
     },
     "brakki-20pc": {
       "title": "Metal Tile Panels 20 Pack",
+      "titleLead": "Metal Tile Panels",
+      "titleAccent": "20 Pack",
       "description": "Metal tile look panels that pair classic tile styling with the strength of steel."
     },
     "brakki-21pc": {
       "title": "Metal Tile Panels 21 Pack",
+      "titleLead": "Metal Tile Panels",
+      "titleAccent": "21 Pack",
       "description": "Larger coverage metal tile panels for faster installs on residential and commercial roofs."
     },
     "dupont-tyvek-120": {
       "title": "Tyvek Protec 120 Underlayment",
+      "titleLead": "Tyvek Protec 120",
+      "titleAccent": "Underlayment",
       "description": "High traction synthetic underlayment that shields the deck from moisture with confident walkability."
     },
     "gcp-5003000": {
       "title": "Grace Synthetic Underlayment",
+      "titleLead": "Grace Synthetic",
+      "titleAccent": "Underlayment",
       "description": "Lightweight synthetic underlayment with excellent tear strength and a secure secondary moisture barrier."
     },
     "gaf-everguard-wb181": {
       "title": "EverGuard WB181 Adhesive",
+      "titleLead": "EverGuard WB181",
+      "titleAccent": "Adhesive",
       "description": "Water based bonding adhesive for single ply membranes with strong grab and easy roller application."
     },
     "gaf-778c": {
       "title": "EverGuard PVC Quick Lay Adhesive",
+      "titleLead": "EverGuard PVC Quick Lay",
+      "titleAccent": "Adhesive",
       "description": "Fast grab PVC adhesive that bonds EverGuard membranes to the deck with strong lasting hold."
     },
     "titebond-61001": {
       "title": "WeatherMaster Metal Roof Sealant",
+      "titleLead": "WeatherMaster Metal Roof",
+      "titleAccent": "Sealant",
       "description": "All weather sealant that bonds to metal, flashing and trim without shrinking or cracking."
     },
     "dewalt-dcs391": {
       "title": "20V Cordless Circular Saw",
+      "titleLead": "20V Cordless",
+      "titleAccent": "Circular Saw",
       "description": "Compact cordless circular saw for fast, accurate cuts on decking, trim and panels."
     },
     "dewalt-dwht51002": {
       "title": "16 oz Rip Claw Hammer",
+      "titleLead": "16 oz Rip Claw",
+      "titleAccent": "Hammer",
       "description": "Forged one piece claw hammer with a shock reduction grip for all day comfort."
     },
     "dewalt-dcm849": {
       "title": "20V Cordless Rotary Polisher",
+      "titleLead": "20V Cordless Rotary",
+      "titleAccent": "Polisher",
       "description": "Variable speed cordless polisher for finishing and buffing metal roofing and trim."
     },
     "dewalt-dcn681": {
       "title": "20V Cordless Nailer",
+      "titleLead": "20V Cordless",
+      "titleAccent": "Nailer",
       "description": "Battery powered nailer built for fast, consistent fastening without a hose or compressor."
     },
     "tolsen-25012": {
       "title": "Fiberglass Sledge Hammer",
+      "titleLead": "Fiberglass Sledge",
+      "titleAccent": "Hammer",
       "description": "Heavy sledge hammer with a fiberglass handle for demolition and tear off work."
     },
     "tolsen-10243": {
       "title": "Aviation Tin Snips",
+      "titleLead": "Aviation Tin",
+      "titleAccent": "Snips",
       "description": "Sharp aviation snips for clean, controlled cuts through metal panels and flashing."
     },
     "supatool-20in": {
       "title": "20 Inch Hand Saw",
+      "titleLead": "20 Inch",
+      "titleAccent": "Hand Saw",
       "description": "Hardened tooth hand saw for quick cuts on lumber, decking and trim."
     },
     "qualcraft-2560p": {
       "title": "Roof Tear Off Shovel",
+      "titleLead": "Roof Tear Off",
+      "titleAccent": "Shovel",
       "description": "Serrated tear off shovel that lifts shingles and nails fast on strip outs."
     },
     "dewalt-dcpr320": {
       "title": "20V Cordless Pruner",
+      "titleLead": "20V Cordless",
+      "titleAccent": "Pruner",
       "description": "Battery powered pruner that makes clean, effortless cuts on branches around the job site."
     },
     "dewalt-dwht36225": {
       "title": "25 ft Tape Measure",
+      "titleLead": "25 ft",
+      "titleAccent": "Tape Measure",
       "description": "Rugged 25 foot tape measure with a long standout blade and durable impact housing."
     },
     "dewalt-dccs620": {
       "title": "20V 12 Inch Chainsaw",
+      "titleLead": "20V 12 Inch",
+      "titleAccent": "Chainsaw",
       "description": "Cordless 12 inch chainsaw for fast limbing and cleanup around the job site."
     },
     "hxoutdoors-ft16c": {
       "title": "Tactical Camp Axe",
+      "titleLead": "Tactical Camp",
+      "titleAccent": "Axe",
       "description": "Compact tactical axe with a full tang blade and molded sheath for chopping and splitting."
     },
     "dewalt-dwht10998": {
       "title": "Retractable Utility Knife",
+      "titleLead": "Retractable Utility",
+      "titleAccent": "Knife",
       "description": "Retractable utility knife with onboard blade storage for clean, fast cuts on the roof."
     },
     "dewalt-dxst11000": {
       "title": "Stackable Frame Ladder",
+      "titleLead": "Stackable Frame",
+      "titleAccent": "Ladder",
       "description": "Sturdy frame ladder built for safe access and stable footing on the job."
     },
     "masterplug-ose15104g": {
       "title": "Extension Cord Reel",
+      "titleLead": "Extension Cord",
+      "titleAccent": "Reel",
       "description": "Heavy duty cord reel with multiple outlets for power anywhere on the roof."
     },
     "dewalt-dpg737": {
       "title": "Work Gloves",
+      "titleLead": "Work",
+      "titleAccent": "Gloves",
       "description": "Breathable work gloves with reinforced palms for grip and protection during long shifts."
     },
     "palmer-k111115": {
       "title": "Roofer Fall Protection Kit",
+      "titleLead": "Roofer Fall Protection",
+      "titleAccent": "Kit",
       "description": "Complete fall protection kit with harness, lanyard and roof anchor for safe work at height."
     },
     "werner-6206": {
       "title": "Fixed Deck Skylight",
+      "titleLead": "Fixed Deck",
+      "titleAccent": "Skylight",
       "description": "Fixed deck mounted skylight that brings natural daylight in with a weathertight seal."
     }
   }

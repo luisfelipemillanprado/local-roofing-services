@@ -1,12 +1,42 @@
 {
   "imageAlt": "Casa moderna con techo metálico de junta alzada al atardecer",
+  "imageAltHome": "Casa moderna con un techo metálico de costura alzada duradero",
+  "imageAltShop": "Almacén de materiales de techado con tejas, rollos de membrana y cubetas de sellador",
   "badge": "SERVICIO DISPONIBLE 24/7 · MIAMI, FL",
-  "customers": "+1500 Clientes Satisfechos",
+  "pages": {
+    "home": {
+      "titleLead": "Techado",
+      "titleAccent": "Profesional.",
+      "description": "Protegemos tu hogar con soluciones profesionales de techado, materiales duraderos, excelente instalación y servicio confiable para tu comunidad siempre cerca."
+    },
+    "about": {
+      "titleLead": "Techeros",
+      "titleAccent": "Expertos.",
+      "description": "Comprometidos con proteger hogares mediante trabajo especializado, materiales premium, servicio confiable y soluciones integrales de techado para cada propiedad atendida."
+    },
+    "services": {
+      "titleLead": "Soluciones",
+      "titleAccent": "Expertas.",
+      "description": "Desde reparaciones de emergencia hasta reemplazos completos, ofrecemos un servicio confiable, instalación experta y resultados duraderos respaldados por garantías sólidas."
+    },
+    "projects": {
+      "titleLead": "Proyectos",
+      "titleAccent": "Destacados.",
+      "description": "Explora nuestros proyectos residenciales y comerciales que reflejan calidad superior, experiencia, materiales duraderos y resultados excepcionales en cada trabajo realizado."
+    },
+    "shop": {
+      "titleLead": "Materiales",
+      "titleAccent": "Techado.",
+      "description": "Descubre materiales premium, marcas confiables, precios competitivos y productos listos para proyectos residenciales, comerciales y profesionales siempre disponibles aquí mismo."
+    }
+  },
   "action": {
     "upgrade": "Renueva Tu Techo",
-    "viewServices": "Ver Nuestros Servicios",
-    "viewProjects": "Ver Nuestros Proyectos",
+    "viewServices": "Nuestros Servicios",
+    "viewProjects": "Nuestros Proyectos",
     "viewTeam": "Conoce Al Equipo",
-    "viewShop": "Ver la Tienda"
-  }
+    "viewShop": "Ver La Tienda",
+    "viewWork": "Nuestros Trabajos"
+  },
+  "customers": "+1500 Clientes Satisfechos"
 }

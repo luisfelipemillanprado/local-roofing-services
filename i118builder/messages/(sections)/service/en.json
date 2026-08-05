@@ -11,50 +11,74 @@
   "items": {
     "residential": {
       "title": "Residential Roofing",
+      "titleLead": "Residential",
+      "titleAccent": "Roofing",
       "description": "Trusted roofing for every home."
     },
     "metal": {
       "title": "Metal Roofing",
+      "titleLead": "Metal",
+      "titleAccent": "Roofing",
       "description": "Engineered to last for decades."
     },
     "tile": {
       "title": "Tile Roofing",
+      "titleLead": "Tile",
+      "titleAccent": "Roofing",
       "description": "Premium concrete and clay tiles."
     },
     "flat": {
       "title": "Flat Roofing",
+      "titleLead": "Flat",
+      "titleAccent": "Roofing",
       "description": "Waterproof low slope roofing systems."
     },
     "gutters": {
       "title": "Gutters & Flashing",
+      "titleLead": "Gutters &",
+      "titleAccent": "Flashing",
       "description": "Protecting every home from water."
     },
     "replacement": {
       "title": "Roof Replacement",
+      "titleLead": "Roof",
+      "titleAccent": "Replacement",
       "description": "Complete roof replacement done right."
     },
     "repair": {
       "title": "Roof Repair",
+      "titleLead": "Roof",
+      "titleAccent": "Repair",
       "description": "Fast lasting fixes done right."
     },
     "skylights": {
       "title": "Skylight Installation",
+      "titleLead": "Skylight",
+      "titleAccent": "Installation",
       "description": "Leak free skylights, expertly installed."
     },
     "storm": {
       "title": "Storm Damage Repair",
+      "titleLead": "Storm Damage",
+      "titleAccent": "Repair",
       "description": "Rapid response to storm damage."
     },
     "commercial": {
       "title": "Commercial Roofing",
+      "titleLead": "Commercial",
+      "titleAccent": "Roofing",
       "description": "Flat roof systems for businesses."
     },
     "inspections": {
       "title": "Roof Inspections",
+      "titleLead": "Roof",
+      "titleAccent": "Inspections",
       "description": "Detailed inspections and honest reports."
     },
     "solar": {
       "title": "Solar Roofing",
+      "titleLead": "Solar",
+      "titleAccent": "Roofing",
       "description": "Solar ready roofs that save."
     }
   }

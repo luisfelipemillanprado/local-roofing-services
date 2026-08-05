@@ -43,17 +43,15 @@ export default async function ProductDetailPage({ params }: Props) {
   if (!product) notFound();
 
   const t = await getTranslations("shop-page");
-  const title = t(`catalog.${product.slug}.title`);
-  /* first word leads white, the rest carries the faint accent */
-  const [titleLead, ...accentWords] = title.split(" ");
 
   return (
     <>
       <Navbar />
       <main>
         <PageHeader
-          titleLead={titleLead}
-          titleAccent={accentWords.join(" ")}
+          image="shop"
+          titleLead={t(`catalog.${product.slug}.titleLead`)}
+          titleAccent={t(`catalog.${product.slug}.titleAccent`)}
           secondaryCta="shop"
           description={t(`catalog.${product.slug}.description`)}
         />

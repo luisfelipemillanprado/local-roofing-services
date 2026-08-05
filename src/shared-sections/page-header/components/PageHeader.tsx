@@ -9,16 +9,25 @@ import { getTranslations } from "next-intl/server";
 import { pageHeaderData } from "@/data/sections/page-header";
 import type { PageHeaderProps } from "@/shared-sections/page-header/types";
 
-const { image, badgeKey, avatars, customersKey, ctaHref, secondaryCtaHref } = pageHeaderData;
+const { images, badgeKey, avatars, customersKey, ctaHref, secondaryCtaHref } = pageHeaderData;
 
-/* hero-sized intro band for the dedicated pages */
-export const PageHeader = async ({ titleLead, titleAccent, description, secondaryCta }: PageHeaderProps) => {
+/* shared hero band for the home and every dedicated page */
+export const PageHeader = async ({
+  titleLead,
+  titleAccent,
+  description,
+  secondaryCta,
+  image = "default",
+  id,
+}: PageHeaderProps) => {
   const t = await getTranslations("page-header");
+  /* variant pairs the background with its own alt */
+  const { src, altKey } = images[image];
 
   return (
-    <HeroWrapper image={image} imageAlt={t("imageAlt")}>
+    <HeroWrapper id={id} image={src} imageAlt={t(altKey)}>
       {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
-      <div className="grid max-w-90 grid-cols-1 gap-6.5 sm:max-w-3xl">
+      <div className="grid grid-cols-1 gap-6.5 sm:max-w-3xl">
         <Reveal delay={0.05}>
           <AvailabilityBadge label={t(badgeKey)} />
         </Reveal>

@@ -43,17 +43,16 @@ export default async function TeamDetailPage({ params }: Props) {
   if (!member) notFound();
 
   const t = await getTranslations("team");
+  /* full title still feeds the media alt below */
   const title = t(`items.${member.key}.title`);
-  /* first word leads white, the rest carries the faint accent */
-  const [titleLead, ...accentWords] = title.split(" ");
 
   return (
     <>
       <Navbar />
       <main>
         <PageHeader
-          titleLead={titleLead}
-          titleAccent={accentWords.join(" ")}
+          titleLead={t(`items.${member.key}.titleLead`)}
+          titleAccent={t(`items.${member.key}.titleAccent`)}
           secondaryCta="team"
           description={t(`items.${member.key}.intro`)}
         />

@@ -43,17 +43,16 @@ export default async function ProjectDetailPage({ params }: Props) {
   if (!project) notFound();
 
   const t = await getTranslations("project");
+  /* full title still feeds the media alt below */
   const title = t(`items.${project.key}.title`);
-  /* first word leads white, the rest carries the faint accent */
-  const [titleLead, ...accentWords] = title.split(" ");
 
   return (
     <>
       <Navbar />
       <main>
         <PageHeader
-          titleLead={titleLead}
-          titleAccent={accentWords.join(" ")}
+          titleLead={t(`items.${project.key}.titleLead`)}
+          titleAccent={t(`items.${project.key}.titleAccent`)}
           secondaryCta="projects"
           description={t(`items.${project.key}.intro`)}
         />

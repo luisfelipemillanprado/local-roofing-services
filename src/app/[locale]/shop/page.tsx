@@ -4,6 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { pageHeaderData } from "@/data/sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ShopCatalog } from "@/features/shop/components/organisms/ShopCatalog";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
@@ -22,16 +23,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ShopPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale as Locale);
-  const t = await getTranslations("shop-page.header");
+  const t = await getTranslations("page-header.pages.shop");
 
   return (
     <>
       <Navbar />
       <main>
         <PageHeader
-          titleLead={t("titleLead")}
-          titleAccent={t("titleAccent")}
-          description={t("description")}
+          image="shop"
+          titleLead={t(pageHeaderData.titleLeadKey)}
+          titleAccent={t(pageHeaderData.titleAccentKey)}
+          description={t(pageHeaderData.descriptionKey)}
           secondaryCta="services"
         />
         <Marquee />

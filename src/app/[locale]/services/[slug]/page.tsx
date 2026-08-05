@@ -45,20 +45,17 @@ export default async function ServiceDetailPage({ params }: Props) {
   const service = items.find((item) => item.slug === slug);
   if (!service) notFound();
 
-  /* name from the shared section, detail copy from the page namespace */
+  /* title split from the shared section, detail copy from the page namespace */
   const t = await getTranslations("service");
   const td = await getTranslations("service-detail");
-  const title = t(`items.${service.key}.title`);
-  /* first word leads white, the rest carries the faint accent */
-  const [titleLead, ...accentWords] = title.split(" ");
 
   return (
     <>
       <Navbar />
       <main>
         <PageHeader
-          titleLead={titleLead}
-          titleAccent={accentWords.join(" ")}
+          titleLead={t(`items.${service.key}.titleLead`)}
+          titleAccent={t(`items.${service.key}.titleAccent`)}
           secondaryCta="services"
           description={td(`items.${service.key}.intro`)}
         />

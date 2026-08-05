@@ -1,12 +1,42 @@
 {
   "imageAlt": "Modern home with a standing seam metal roof at dusk",
+  "imageAltHome": "Modern home with a durable standing-seam metal roof",
+  "imageAltShop": "Roofing supply warehouse stocked with shingles, underlayment rolls and sealant buckets",
   "badge": "24/7 SERVICE AVAILABLE · MIAMI, FL",
-  "customers": "1500+ Satisfied Customers",
+  "pages": {
+    "home": {
+      "titleLead": "Roofing",
+      "titleAccent": "Services.",
+      "description": "Protect your home with trusted roofing solutions, expert craftsmanship, durable materials, and dependable service tailored to your neighborhood needs today."
+    },
+    "about": {
+      "titleLead": "Trusted",
+      "titleAccent": "Roofers.",
+      "description": "Committed to protecting homes through skilled craftsmanship, dependable service, premium materials, and roofing solutions tailored for every property we serve."
+    },
+    "services": {
+      "titleLead": "Expert",
+      "titleAccent": "Solutions.",
+      "description": "From emergency repairs to complete roof replacements, we deliver reliable service, expert craftsmanship, and durable results backed by solid warranties."
+    },
+    "projects": {
+      "titleLead": "Featured",
+      "titleAccent": "Projects.",
+      "description": "Explore our residential and commercial roofing projects showcasing quality craftsmanship, durable materials, trusted expertise, and exceptional results every single time."
+    },
+    "shop": {
+      "titleLead": "Roofing",
+      "titleAccent": "Supplies.",
+      "description": "Discover premium roofing materials, trusted brands, competitive prices, and dependable products ready for residential and commercial projects alike today online."
+    }
+  },
   "action": {
     "upgrade": "Upgrade Your Roof",
     "viewServices": "View Our Services",
     "viewProjects": "View Our Projects",
     "viewTeam": "Meet The Team",
-    "viewShop": "Browse the Shop"
-  }
+    "viewShop": "Browse the Shop",
+    "viewWork": "View Our Work"
+  },
+  "customers": "1500+ Satisfied Customers"
 }
