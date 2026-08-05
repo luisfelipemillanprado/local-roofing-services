@@ -1,5 +1,5 @@
-/* Semantic keys for the badge icons (used for the ICONS lookup). */
-export type MarqueeIconKey = "storm" | "shield" | "award" | "hammer" | "wrench";
+/* semantic keys for the badge icons (ICONS lookup) */
+export type MarqueeIconKey = "storm" | "shield" | "award" | "strong" | "wrench";
 
 /* resolved per-badge item for the track */
 interface MarqueeItem {
@@ -10,4 +10,5 @@ interface MarqueeItem {
 
 export interface MarqueeListProps {
   items: MarqueeItem[];
+  copies: number;
 }

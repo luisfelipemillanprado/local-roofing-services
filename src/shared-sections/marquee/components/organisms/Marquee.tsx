@@ -2,11 +2,11 @@ import { getTranslations } from "next-intl/server";
 import { MarqueeList } from "@/shared-sections/marquee/components/molecules/MarqueeList";
 import { marqueeData } from "@/data/sections/marquee";
 
-const { items, yearsExperience } = marqueeData;
+const { items, yearsExperience, trackCopies } = marqueeData;
 
 export const Marquee = async () => {
   const t = await getTranslations("marquee");
-  /* data: order + icon; text by key ({years} only used by the years badge) */
+  /* resolve each badge: order + icon, label by key */
   const badges = items.map((item) => ({
     key: item.key,
     icon: item.icon,
@@ -15,7 +15,7 @@ export const Marquee = async () => {
 
   return (
     <div className="overflow-hidden bg-primary py-4">
-      <MarqueeList items={badges} />
+      <MarqueeList items={badges} copies={trackCopies} />
     </div>
   );
 };

@@ -1,16 +1,16 @@
 {
   "items": {
     "stormReady": {
-      "label": "LISTOS PARA TORMENTAS"
+      "label": "RESISTENTE A TORMENTAS"
     },
     "licensed": {
-      "label": "LICENCIADOS Y ASEGURADOS"
+      "label": "CON LICENCIA Y SEGURO"
     },
     "years": {
       "label": "MÁS DE {years} AÑOS"
     },
     "builtStrong": {
-      "label": "CONSTRUIDO FUERTE"
+      "label": "MÁXIMA RESISTENCIA"
     },
     "fullService": {
       "label": "SERVICIO COMPLETO"
