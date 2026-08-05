@@ -9,7 +9,8 @@ import { getTranslations } from "next-intl/server";
 import { pageHeaderData } from "@/data/sections/page-header";
 import type { PageHeaderProps } from "@/shared-sections/page-header/types";
 
-const { images, badgeKey, avatars, customersKey, ctaHref, secondaryCtaHref } = pageHeaderData;
+const { images, badgeKey, badgeCity, avatars, customersKey, customersCount, ctaHref, secondaryCtaHref } =
+  pageHeaderData;
 
 /* shared hero band for the home and every dedicated page */
 export const PageHeader = async ({
@@ -29,7 +30,7 @@ export const PageHeader = async ({
       {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
       <div className="grid grid-cols-1 gap-6.5 sm:max-w-3xl">
         <Reveal delay={0.05}>
-          <AvailabilityBadge label={t(badgeKey)} />
+          <AvailabilityBadge label={t(badgeKey, { city: badgeCity })} />
         </Reveal>
 
         <Reveal delay={0.1}>
@@ -60,7 +61,7 @@ export const PageHeader = async ({
 
         <Reveal delay={0.25}>
           <div className="mt-2.5">
-            <CustomerRating avatars={avatars} label={t(customersKey)} />
+            <CustomerRating avatars={avatars} label={t(customersKey, { count: customersCount })} />
           </div>
         </Reveal>
       </div>

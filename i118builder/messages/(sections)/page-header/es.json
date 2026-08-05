@@ -2,7 +2,7 @@
   "imageAlt": "Casa moderna con techo metálico de junta alzada al atardecer",
   "imageAltHome": "Casa moderna con un techo metálico de costura alzada duradero",
   "imageAltShop": "Almacén de materiales de techado con tejas, rollos de membrana y cubetas de sellador",
-  "badge": "SERVICIO DISPONIBLE 24/7 · MIAMI, FL",
+  "badge": "24/7 SERVICIO DISPONIBLE · {city}",
   "pages": {
     "home": {
       "titleLead": "Techado",
@@ -38,5 +38,5 @@
     "viewShop": "Ver La Tienda",
     "viewWork": "Nuestros Trabajos"
   },
-  "customers": "+1500 Clientes Satisfechos"
+  "customers": "+{count} Clientes Satisfechos"
 }

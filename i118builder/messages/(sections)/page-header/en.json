@@ -2,7 +2,7 @@
   "imageAlt": "Modern home with a standing seam metal roof at dusk",
   "imageAltHome": "Modern home with a durable standing-seam metal roof",
   "imageAltShop": "Roofing supply warehouse stocked with shingles, underlayment rolls and sealant buckets",
-  "badge": "24/7 SERVICE AVAILABLE · MIAMI, FL",
+  "badge": "24/7 SERVICE AVAILABLE · {city}",
   "pages": {
     "home": {
       "titleLead": "Roofing",
@@ -38,5 +38,5 @@
     "viewShop": "Browse the Shop",
     "viewWork": "View Our Work"
   },
-  "customers": "1500+ Satisfied Customers"
+  "customers": "{count}+ Satisfied Customers"
 }

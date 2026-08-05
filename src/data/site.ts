@@ -1,29 +1,36 @@
 import type { SocialData } from "@/common/social/types";
 
-/* Locale-independent company details; translatable copy lives in messages. */
+/* Locale-independent company facts, ordered by render top to bottom */
 export const company = {
+  /* navbar: brand badge, name, contact phone */
+  logo: "/images/logo/logo.webp",
   name: "Roofpro",
-  logo: "/images/logo/logo.webp" /* brand badge, rendered by the Logo component */,
   phone: "+123 456 7890",
-  phoneHref: "tel:+1234567890",
-  whatsappHref: "https://wa.me/1234567890" /* placeholder number, digits only */,
-  email: "hello@roofpro.com",
-  emailHref: "mailto:hello@roofpro.com",
-  address: "1200 Biscayne Blvd, Miami, FL",
+  /* hero: availability badge city + social-proof rating count */
+  city: "MIAMI, FL" /* hand-cased uppercase for the badge */,
+  customersServed: 1500,
+  /* marquee: years-in-business figure */
   yearsExperience: 25,
-  /* site credit: who built the site (placeholder href until the real domain) */
-  builder: { key: "builtBy", name: "Remiux LLC", href: "#" } as const,
-  /* social profiles: placeholder hrefs until the real accounts exist */
+  /* footer brand: social profiles (placeholder hrefs until the real accounts exist) */
   socials: [
     { key: "facebook", label: "Facebook", href: "#" },
     { key: "x", label: "X", href: "#" },
     { key: "instagram", label: "Instagram", href: "#" },
     { key: "youtube", label: "YouTube", href: "#" },
   ] satisfies SocialData[],
-  /* opening hours: day label by key; a null time means closed */
+  /* footer contact: address + linked phone + linked email */
+  address: "1200 Biscayne Blvd, Miami, FL",
+  phoneHref: "tel:+1234567890",
+  email: "hello@roofpro.com",
+  emailHref: "mailto:hello@roofpro.com",
+  /* footer hours: day label by key; a null time means closed */
   hours: [
     { key: "weekdays", time: "8:00 AM – 7:00 PM" },
     { key: "saturday", time: "9:00 AM – 4:00 PM" },
     { key: "sunday", time: null },
   ] as const,
+  /* footer credit: who built the site (placeholder href until the real domain) */
+  builder: { key: "builtBy", name: "Remiux LLC", href: "#" } as const,
+  /* floating contact: whatsapp deep link */
+  whatsappHref: "https://wa.me/1234567890" /* placeholder number, digits only */,
 };
