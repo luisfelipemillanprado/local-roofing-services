@@ -30,7 +30,7 @@ export const Products = async ({ tone = "base", limit }: ProductsProps) => {
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">
             <SectionHeading
-              align="center"
+              align="leftToCenter"
               eyebrow={t("eyebrow")}
               title={t("titleLead")}
               accent={t("titleAccent")}

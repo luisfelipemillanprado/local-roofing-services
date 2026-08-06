@@ -6,5 +6,8 @@ export interface SectionHeadingProps {
   accent: string;
   description: string;
   size?: TitleSize; /* forwarded to Title */
-  align?: "left" | "center"; /* md+ alignment; center keeps the mobile centering everywhere */
+  align?:
+    | "left"
+    | "center"
+    | "leftToCenter"; /* body alignment; leftToCenter flips title/desc to left on mobile then centered, eyebrow keeps left mode */
 }

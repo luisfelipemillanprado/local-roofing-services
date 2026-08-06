@@ -14,18 +14,22 @@ export const SectionHeading = ({
 }: SectionHeadingProps) => {
   return (
     <div
-      className={`grid grid-cols-1 justify-items-center gap-5 text-center ${
-        align === "left" ? "lg:max-w-xl lg:justify-items-start lg:text-left" : ""
+      className={`grid grid-cols-1 justify-items-center gap-5.5 text-center ${
+        align !== "center" ? "lg:justify-items-start lg:text-left" : ""
       }`}
     >
       <Eyebrow text={eyebrow} />
-      {/* centered headings run lead + accent as one line on desktop */}
-      <div className="md:max-w-xl lg:max-w-none">
+      {/* title sets the width; description wraps within it, never wider */}
+      <div
+        className={`grid w-fit max-w-xl gap-5.5 ${
+          align === "leftToCenter" ? "justify-self-center text-left lg:text-center" : ""
+        }`}
+      >
         <Title as="h2" size={size} text={title} accent={accent} accentInline={align === "center"} />
-      </div>
-      {/* the description caps its own reading width; the title runs free */}
-      <div className="max-w-[clamp(19.125rem,8.625rem+46.6667vw,20rem)] md:max-w-xl">
-        <Text size="lead" tone="muted" text={description} />
+        {/* w-0 keeps the title as the sole width driver; min-w-full then fills it */}
+        <div className="w-0 min-w-full">
+          <Text size="lead" tone="muted" text={description} />
+        </div>
       </div>
     </div>
   );
