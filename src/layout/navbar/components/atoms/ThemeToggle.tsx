@@ -8,7 +8,7 @@ export const ThemeToggle = () => {
   const { resolvedTheme, setTheme } = useTheme();
   const t = useTranslations("navbar");
 
-  /* Default is dark → treat unknown/pre-mount as dark (show Sun). */
+  /* default is dark → treat unknown/pre-mount as dark (show Sun) */
   const isDark = resolvedTheme !== "light";
 
   return (

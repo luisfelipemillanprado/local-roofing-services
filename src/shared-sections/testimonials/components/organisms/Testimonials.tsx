@@ -18,7 +18,7 @@ export const Testimonials = async ({
 }: TestimonialsProps) => {
   const t = await getTranslations("testimonial");
   /* set: general reviews or a per-service collection; text by full key */
-  /* limit: home summary, full on /about and /projects */
+  /* limit: home summary, full on /about and /gallery */
   const cards = sets[set].items.slice(0, limit).map((testimonial, i) => ({
     key: testimonial.key,
     avatar: testimonial.avatar,

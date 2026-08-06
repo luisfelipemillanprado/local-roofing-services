@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type MouseEvent } from "react";
-import { Menu, X, Home, Info, Wrench, Hammer, Tag, Phone, Star, Package, Ellipsis } from "lucide-react";
+import { Menu, X, Home, Info, Wrench, Images, Package, MapPin } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
@@ -11,26 +11,23 @@ import type { MobileMenuProps, NavLinkKey } from "@/layout/navbar/types";
 /* exit transition duration — drives animation + unmount delay */
 const ANIMATION_MS = 500;
 
-/* Semantic key → icon component. */
+/* semantic key → icon component */
 const ICONS: Record<NavLinkKey, LucideIcon> = {
   home: Home,
-  about: Info,
   services: Wrench,
-  projects: Hammer,
-  pricing: Tag,
-  reviews: Star,
   shop: Package,
-  contact: Phone,
-  more: Ellipsis,
+  gallery: Images,
+  about: Info,
+  areas: MapPin,
 };
 
-/* Mobile menu: trigger + full-screen overlay of links. */
+/* mobile menu: trigger + full-screen overlay of links */
 export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProps) => {
   const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
-  /* Mount, then open next frame for the enter transition. */
+  /* mount, then open next frame for the enter transition */
   const handleOpenOptions = () => {
     if (isOpen) return;
     if (closeTimeoutRef.current) {
@@ -41,7 +38,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
     requestAnimationFrame(() => setIsOpen(true));
   };
 
-  /* Play exit transition, then unmount. */
+  /* play exit transition, then unmount */
   const handleCloseOptions = () => {
     if (!isOpen) return;
     setIsOpen(false);
@@ -51,14 +48,14 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
     }, ANIMATION_MS);
   };
 
-  /* Clear pending close timeout on unmount. */
+  /* clear pending close timeout on unmount */
   useEffect(() => {
     return () => {
       if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
     };
   }, []);
 
-  /* Keep clicks inside the panel from closing via the overlay. */
+  /* keep clicks inside the panel from closing via the overlay */
   const handlePropagateOptions = (e: MouseEvent) => e.stopPropagation();
 
   return (

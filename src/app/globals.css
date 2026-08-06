@@ -124,7 +124,7 @@
 /* Theme-switching roles aliased to runtime vars. */
 @theme inline {
   --color-surface-base: var(--surface-base); /* page + section base background */
-  --color-surface-panel: var(--surface-panel); /* cards/panels: testimonials, navbar, dropdown, outline btn */
+  --color-surface-panel: var(--surface-panel); /* cards/panels: testimonials, navbar, outline btn */
   --color-surface-muted: var(--surface-muted); /* alternating sections, footer, muted chips */
   --color-foreground: var(--foreground); /* main text */
   --color-foreground-muted: var(--foreground-muted); /* secondary text */

@@ -17,18 +17,9 @@ export const layoutData = {
       { key: "home", href: "/", icon: "home" },
       { key: "services", href: "/services", icon: "services" },
       { key: "shop", href: "/shop", icon: "shop" },
-      { key: "projects", href: "/projects", icon: "projects" },
+      { key: "gallery", href: "/gallery", icon: "gallery" },
       { key: "about", href: "/about", icon: "about" },
-      /* Desktop-only dropdown; flattened into individual links on mobile. */
-      {
-        key: "more",
-        icon: "more",
-        children: [
-          { key: "pricing", href: "/#pricing", icon: "pricing" },
-          { key: "reviews", href: "/#testimonials", icon: "reviews" },
-          { key: "contact", href: "/#contact", icon: "contact" },
-        ],
-      },
+      { key: "areas", href: "/areas", icon: "areas" },
     ] satisfies NavLinkData[],
   },
   /* footer columns: every label/title by key in the footer namespace */
@@ -38,7 +29,7 @@ export const layoutData = {
       items: [
         { key: "about", href: "/about" },
         { key: "services", href: "/services" },
-        { key: "projects", href: "/projects" },
+        { key: "projects", href: "/gallery" },
         { key: "pricing", href: "/#pricing" },
         { key: "contact", href: "/#contact" },
       ],

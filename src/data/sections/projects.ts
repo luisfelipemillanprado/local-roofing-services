@@ -2,10 +2,10 @@
 export const projectsData = {
   /* CTA per variant: i18n key (text) + href (destination) */
   ctaHref: {
-    viewAll: { key: "action.viewAll", href: "/projects" },
+    viewAll: { key: "action.viewAll", href: "/gallery" },
     contact: { key: "action.contact", href: "#contact" },
   },
-  /* slug = detail-page route id (/projects/[slug]) */
+  /* slug = detail-page route id (/gallery/[slug]) */
   items: [
     { key: "cedarHeights", slug: "cedar-heights", image: "/images/projects/project2.webp" },
     { key: "summitBungalow", slug: "summit-bungalow", image: "/images/projects/project1.webp" },

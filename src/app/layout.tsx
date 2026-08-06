@@ -1,3 +1,4 @@
+import type { Viewport } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { Providers } from "@/app/Providers";
 import "./globals.css";
@@ -14,6 +15,12 @@ const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
   display: "swap",
 });
+
+/* Server-rendered <meta>: dark browser chrome + color-scheme hint */
+export const viewport: Viewport = {
+  colorScheme: "dark",
+  themeColor: "#1a2126",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

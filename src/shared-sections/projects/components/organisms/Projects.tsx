@@ -12,11 +12,11 @@ const { items, ctaHref } = projectsData;
 export const Projects = async ({ variant, limit }: ProjectsProps) => {
   const t = await getTranslations("project");
   /* data: order + image; text by key */
-  /* limit: home summary, full on /projects */
+  /* limit: home summary, full on /gallery */
   const cards = items.slice(0, limit).map((project, i) => ({
     key: project.key,
     image: project.image,
-    href: `/projects/${project.slug}`,
+    href: `/gallery/${project.slug}`,
     title: t(`items.${project.key}.title`),
     description: t(`items.${project.key}.description`),
     delay: i * 0.08,

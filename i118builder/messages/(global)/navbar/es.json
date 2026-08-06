@@ -1,6 +1,6 @@
 {
   "action": {
-    "contact": "Contactar Ahora"
+    "contact": "Contactar"
   },
   "toggleMenu": "Abrir menú",
   "selectLanguage": "Seleccionar idioma",
@@ -9,11 +9,8 @@
     "home": "Inicio",
     "services": "Servicios",
     "shop": "Tienda",
-    "projects": "Proyectos",
+    "gallery": "Galería",
     "about": "Nosotros",
-    "pricing": "Precios",
-    "reviews": "Reseñas",
-    "contact": "Contacto",
-    "more": "Ver más"
+    "areas": "Áreas"
   }
 }

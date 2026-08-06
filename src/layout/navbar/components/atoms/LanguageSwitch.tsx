@@ -16,7 +16,7 @@ export const LanguageSwitch = () => {
   const { locales } = routing;
   const next: Locale = locales[(locales.indexOf(locale) + 1) % locales.length];
 
-  /* Transition avoids a theme flash while the new locale loads. */
+  /* transition avoids a theme flash while the new locale loads */
   const switchLocale = () => {
     startTransition(() => {
       router.replace(pathname, { locale: next });

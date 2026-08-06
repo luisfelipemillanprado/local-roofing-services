@@ -1,19 +1,16 @@
 {
   "action": {
-    "contact": "Contact Us Now"
+    "contact": "Contact Us"
   },
-  "toggleMenu": "Toggle menu",
+  "toggleMenu": "Open menu",
   "selectLanguage": "Select language",
-  "toggleTheme": "Toggle theme",
+  "toggleTheme": "Change theme",
   "links": {
     "home": "Home",
     "services": "Services",
     "shop": "Shop",
-    "projects": "Projects",
+    "gallery": "Gallery",
     "about": "About",
-    "pricing": "Pricing",
-    "reviews": "Reviews",
-    "contact": "Contact",
-    "more": "See More"
+    "areas": "Areas"
   }
 }

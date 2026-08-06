@@ -60,7 +60,7 @@ export default async function ProjectDetailPage({ params }: Props) {
           <Container>
             <div className="grid justify-items-start gap-10">
               <Media src={project.image} alt={title} shape="wide" sizes="100vw" />
-              <Button href="/projects" variant="secondary">
+              <Button href="/gallery" variant="secondary">
                 {t("action.viewAll")}
               </Button>
             </div>
