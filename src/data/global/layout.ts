@@ -2,7 +2,7 @@ import type { NavLinkData } from "@/layout/navbar/types";
 import type { FloatingActionData } from "@/layout/floating-contact/types";
 import { company } from "@/data/site";
 
-/* Site-wide layout shell data (logo, navbar, floating-contact); labels by key. */
+/* Site-wide layout shell data (logo, navbar, floating-contact); labels by key */
 export const layoutData = {
   logo: {
     src: company.logo,

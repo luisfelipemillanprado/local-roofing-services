@@ -1,6 +1,6 @@
 import { company } from "@/data/site";
 
-/* "About" section data; firm-level, text resolved by key. */
+/* About section data; firm-level, text resolved by key */
 export const aboutData = {
   name: company.name,
   image: "/images/boss/boss.webp",
