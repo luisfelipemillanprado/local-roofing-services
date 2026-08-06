@@ -2,15 +2,15 @@
   "eyebrow": "OUR COMPANY",
   "titleLead": "Your Trusted Partner",
   "titleAccent": "For Quality Roofing",
-  "description": "To provide quality roofing, your trusted partner has protected homes since 2001 through reliable services, expert installations, and guaranteed enduring workmanship.",
+  "description": "We are a roofing company built on integrity, craftsmanship, trust, and lasting relationships with local homeowners and commercial businesses alike.",
   "action": {
-    "viewDetails": "View Details",
+    "viewDetails": "View More Details",
     "contact": "Contact Us Now"
   },
   "points": {
-    "residentialCommercial": "Residential & commercial roofing experts.",
-    "warranties": "Premium materials with extended warranties.",
-    "pricing": "Transparent, upfront pricing with no surprises."
+    "residentialCommercial": "Residential and commercial roofing specialists.",
+    "certified": "Certified professionals with proven experience.",
+    "materials": "Premium materials from trusted manufacturers."
   },
   "stats": {
     "projects": "Projects Completed",
@@ -23,6 +23,6 @@
       "line2": "EXPERIENCE"
     }
   },
-  "callAnytime": "CALL US ANYTIME",
+  "callAnytime": "CONNECT WITH US.",
   "imageAlt": "Roofpro company owner on site"
 }

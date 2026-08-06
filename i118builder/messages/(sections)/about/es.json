@@ -1,16 +1,16 @@
 {
-  "eyebrow": "NUESTRA EMPRESA",
-  "titleLead": "Tu Aliado De Confianza",
-  "titleAccent": "Para Un Techado De Calidad",
-  "description": "Tu aliado de confianza para un techado de calidad protege hogares desde 2001 con servicios confiables, instalaciones expertas y garantía duradera.",
+  "eyebrow": "LA COMPAÑÍA",
+  "titleLead": "Compañía Confiable",
+  "titleAccent": "Para El Mejor Techo",
+  "description": "Somos una compañía de techado comprometida con la total transparencia, confiabilidad, excelencia profesional y el respeto hacia nuestros clientes.",
   "action": {
-    "viewDetails": "Ver Detalles",
-    "contact": "Contáctanos Ahora"
+    "viewDetails": "Ver Más Detalles",
+    "contact": "Contactar Ahora"
   },
   "points": {
-    "residentialCommercial": "Expertos en techado residencial y comercial.",
-    "warranties": "Materiales premium con garantías extendidas.",
-    "pricing": "Precios transparentes y claros, sin sorpresas."
+    "residentialCommercial": "Especialistas en techado residencial y comercial.",
+    "certified": "Profesionales certificados con amplia experiencia.",
+    "materials": "Materiales premium de fabricantes reconocidos."
   },
   "stats": {
     "projects": "Proyectos Completados",
@@ -23,6 +23,6 @@
       "line2": "EXPERIENCIA"
     }
   },
-  "callAnytime": "LLÁMANOS CUANDO QUIERAS",
+  "callAnytime": "PONTE EN CONTACTO.",
   "imageAlt": "Dueño de Roofpro en obra"
 }

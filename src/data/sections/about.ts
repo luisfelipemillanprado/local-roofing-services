@@ -17,7 +17,7 @@ export const aboutData = {
   /* badge + contact card: value from company, label by key */
   years: { key: "experience", value: `${company.yearsExperience}+` },
   call: { key: "callAnytime", number: company.phone },
-  points: [{ key: "residentialCommercial" }, { key: "warranties" }, { key: "pricing" }],
+  points: [{ key: "residentialCommercial" }, { key: "certified" }, { key: "materials" }],
   stats: [
     { key: "projects", value: "1500+" },
     { key: "customers", value: "1000+" },
