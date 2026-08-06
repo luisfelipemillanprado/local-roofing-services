@@ -5,14 +5,11 @@ import { company } from "@/data/site";
 /* Site-wide layout shell data (logo, navbar, floating-contact); labels by key */
 export const layoutData = {
   logo: {
+    href: "/" /* logo link target (site root) */,
     src: company.logo,
     name: company.name,
-    href: "/" /* logo link target (site root) */,
   },
   navbar: {
-    menuId: "mobile-menu",
-    ctaHref: { key: "action.contact", href: "#contact" },
-    phone: company.phone,
     links: [
       { key: "home", href: "/", icon: "home" },
       { key: "services", href: "/services", icon: "services" },
@@ -21,6 +18,9 @@ export const layoutData = {
       { key: "about", href: "/about", icon: "about" },
       { key: "areas", href: "/areas", icon: "areas" },
     ] satisfies NavLinkData[],
+    phone: company.phone,
+    ctaHref: { key: "action.contact", href: "#contact" },
+    menuId: "mobile-menu",
   },
   /* footer columns: every label/title by key in the footer namespace */
   footer: {
