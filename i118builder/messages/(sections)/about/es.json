@@ -1,5 +1,5 @@
 {
-  "eyebrow": "LA EMPRESA",
+  "eyebrow": "SOBRE LA EMPRESA",
   "titleLead": "Compañía Confiable",
   "titleAccent": "Para El Mejor Techo",
   "description": "Somos una compañía de techado comprometida con la total transparencia, confiabilidad, excelencia profesional y el respeto hacia nuestros clientes.",
@@ -8,9 +8,9 @@
     "contact": "Contactar Ahora"
   },
   "points": {
-    "residentialCommercial": "Especialistas en techado residencial y comercial.",
+    "residentialCommercial": "Expertos en techado residencial y comercial.",
     "certified": "Profesionales certificados con amplia experiencia.",
-    "materials": "Materiales premium de fabricantes reconocidos."
+    "materials": "Materiales premium de marcas reconocidas."
   },
   "stats": {
     "projects": "Proyectos Completados",
@@ -24,5 +24,5 @@
     }
   },
   "callAnytime": "PONTE EN CONTACTO.",
-  "imageAlt": "Dueño de Roofpro en obra"
+  "imageAlt": "Dueño de Roofpro frente a las camionetas de la empresa"
 }
