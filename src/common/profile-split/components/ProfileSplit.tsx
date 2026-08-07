@@ -10,8 +10,8 @@ export const ProfileSplit = ({
   stats,
   action,
 }: ProfileSplitProps) => (
-  <div className="grid items-center gap-19 lg:grid-cols-2">
-    {/* Image side */}
+  <div className="grid items-center gap-19 lg:grid-cols-2 lg:gap-13">
+    {/* image side */}
     <div className="relative">
       <div className="overflow-hidden rounded-card shadow-lg">{media}</div>
 
@@ -21,13 +21,12 @@ export const ProfileSplit = ({
       {/* card straddles the image's bottom edge */}
       <div className="absolute bottom-0 left-6 translate-y-1/2">{contact}</div>
     </div>
-
-    {/* Copy side */}
+    {/* copy side */}
     <div className="grid gap-7 text-center lg:text-left">
       {heading}
       {points}
       <div className="mt-2">{stats}</div>
-      <div className="mt-2">{action}</div>
+      <div className="mt-2.5">{action}</div>
     </div>
   </div>
 );
