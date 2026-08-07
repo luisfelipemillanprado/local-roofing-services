@@ -3,7 +3,7 @@ import { Title } from "@/common/title/components/Title";
 import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
 import type { SectionHeadingProps } from "@/common/section-header/types";
 
-/* centered until lg; lg+ follows align (left by default) */
+/* mobile: body centered (left for leftFromMobile), text left; lg follows align */
 export const SectionHeading = ({
   eyebrow,
   title,
@@ -21,8 +21,8 @@ export const SectionHeading = ({
       <Eyebrow text={eyebrow} />
       {/* title sets the width; description wraps within it, never wider */}
       <div
-        className={`grid w-fit max-w-xl gap-5.5 ${
-          align === "leftToCenter" ? "justify-self-center text-left lg:text-center" : ""
+        className={`grid w-fit gap-5.5 text-left ${
+          align === "center" ? "lg:text-center" : align === "leftFromMobile" ? "justify-self-start" : ""
         }`}
       >
         <Title as="h2" size={size} text={title} accent={accent} accentInline={align === "center"} />

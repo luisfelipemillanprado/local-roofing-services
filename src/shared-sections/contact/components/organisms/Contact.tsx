@@ -38,7 +38,7 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
               title={t("titleLead")}
               accent={t("titleAccent")}
               description={t("description")}
-              align="leftToCenter"
+              align="left"
             />
             <EmailForm
               emailLabel={t(input.labelKey)}

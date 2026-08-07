@@ -32,7 +32,7 @@ export const Pricing = async ({ variant }: PricingProps) => {
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">
             <SectionHeading
-              align="leftToCenter"
+              align="center"
               eyebrow={t("eyebrow")}
               title={t("titleLead")}
               accent={t("titleAccent")}

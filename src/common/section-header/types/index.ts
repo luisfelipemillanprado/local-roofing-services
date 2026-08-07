@@ -9,5 +9,5 @@ export interface SectionHeadingProps {
   align?:
     | "left"
     | "center"
-    | "leftToCenter"; /* body alignment; leftToCenter flips title/desc to left on mobile then centered, eyebrow keeps left mode */
+    | "leftFromMobile"; /* lg alignment; leftFromMobile also lefts the body on mobile, eyebrow stays centered there */
 }

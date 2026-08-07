@@ -40,7 +40,7 @@ export const Pitch = async ({ variant, tone = "base" }: PitchProps) => {
               title={t(`${variant}.titleLead`)}
               accent={t(`${variant}.titleAccent`)}
               description={t(`${variant}.description`)}
-              align="leftToCenter"
+              align="left"
             />
           }
           stats={<StatList stats={statItems} />}
