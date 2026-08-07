@@ -11,6 +11,10 @@ export const company = {
   customersServed: 1500,
   /* marquee: years-in-business figure */
   yearsExperience: 25,
+  /* about: stat figures */
+  projectsCompleted: 1500,
+  homesProtected: 1000,
+  satisfaction: 98,
   /* footer brand: social profiles (placeholder hrefs until the real accounts exist) */
   socials: [
     { key: "facebook", label: "Facebook", href: "#" },

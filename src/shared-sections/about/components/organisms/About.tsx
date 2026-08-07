@@ -30,7 +30,12 @@ export const About = async ({ variant }: AboutProps) => {
       <Container>
         <ProfileSplit
           media={
-            <Media src={image} alt={t("imageAlt")} shape="feature" sizes="(max-width: 1024px) 100vw, 50vw" />
+            <Media
+              src={image.src}
+              alt={t(image.altKey, { name })}
+              shape="feature"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
           }
           badge={
             <YearsBadge
