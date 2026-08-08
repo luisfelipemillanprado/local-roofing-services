@@ -1,41 +1,38 @@
 {
   "why-choose": {
-    "eyebrow": "POR QUÉ ELEGIRNOS",
-    "titleLead": "Un Techado En El Que",
-    "titleAccent": "Confiar Siempre",
-    "description": "Adaptamos cada solución de techado a tu propiedad, entregando mano de obra experta, protección duradera y calidad confiable desde el primer momento.",
+    "eyebrow": "HECHO PARA TI.",
+    "titleLead": "Estructura A Medida",
+    "titleAccent": "Para Techos Únicos",
+    "description": "Adaptamos cada solución de techado a tu propiedad, brindando trabajo profesional, protección duradera y calidad confiable desde el principio.",
     "action": {
-      "viewDetails": "Ver Detalles"
+      "viewDetails": "Ver Mas Detalles"
     },
     "stats": {
       "years": {
-        "value": "25+",
         "label": "Años de Experiencia"
       },
       "projects": {
-        "value": "1.5k+",
         "label": "Techos Completados"
       },
       "roofers": {
-        "value": "40+",
         "label": "Techadores Certificados"
       }
     },
     "items": {
       "emergency": {
-        "title": "Servicios de Emergencia",
+        "title": "Servicios de Emergencia.",
         "description": "Una cuadrilla de guardia a toda hora para daños por tormenta, goteras y reparaciones urgentes."
       },
       "proactive": {
-        "title": "Enfoque Proactivo",
+        "title": "Enfoque Proactivo.",
         "description": "Inspecciones programadas y mantenimiento preventivo que detectan problemas pequeños mucho antes de que sean costosos."
       },
       "reliable": {
-        "title": "Confiabilidad Total",
+        "title": "Totalmente Certificados.",
         "description": "Techadores licenciados, asegurados y certificados que instalan materiales premium respaldados por las garantías más sólidas."
       },
       "experience": {
-        "title": "Experiencia Comprobada",
+        "title": "Experiencia Comprobada.",
         "description": "Un cuarto de siglo de oficio en miles de techos, desde casas hasta construcciones comerciales."
       }
     }
@@ -50,11 +47,9 @@
     },
     "stats": {
       "inspection": {
-        "value": "$0",
         "label": "Inspección Gratuita"
       },
       "scheduling": {
-        "value": "48h",
         "label": "Programación del Proyecto"
       },
       "warranty": {
@@ -91,15 +86,12 @@
     },
     "stats": {
       "licensed": {
-        "value": "100%",
         "label": "Licencia y Seguro"
       },
       "rating": {
-        "value": "4.9",
         "label": "Calificación de Clientes"
       },
       "reviews": {
-        "value": "820+",
         "label": "Reseñas Verificadas"
       }
     },

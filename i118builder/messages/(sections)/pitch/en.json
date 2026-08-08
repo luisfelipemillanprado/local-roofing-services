@@ -1,41 +1,38 @@
 {
   "why-choose": {
-    "eyebrow": "WHY CHOOSE US",
+    "eyebrow": "MADE FOR YOU.",
     "titleLead": "Our Roofing Fits You",
     "titleAccent": "Every Shingle Time",
     "description": "We tailor every roofing solution to your property, delivering expert craftsmanship, lasting protection, and dependable quality from the beginning always.",
     "action": {
-      "viewDetails": "View Details"
+      "viewDetails": "View More Details"
     },
     "stats": {
       "years": {
-        "value": "25+",
         "label": "Years Experience"
       },
       "projects": {
-        "value": "1.5k+",
         "label": "Roofs Completed"
       },
       "roofers": {
-        "value": "40+",
         "label": "Certified Roofers"
       }
     },
     "items": {
       "emergency": {
-        "title": "Emergency Services",
+        "title": "Emergency Services.",
         "description": "A crew on call around the clock for storm damage, leaks and urgent roof repairs."
       },
       "proactive": {
-        "title": "Proactive Approach",
+        "title": "Proactive Approach.",
         "description": "Scheduled inspections and preventative maintenance that catch small issues long before they ever become costly."
       },
       "reliable": {
-        "title": "Reliably Focused",
+        "title": "Fully Certified.",
         "description": "Licensed, insured and certified roofers installing premium materials backed by the strongest warranties in roofing."
       },
       "experience": {
-        "title": "Experience Focused",
+        "title": "Proven Experience.",
         "description": "A full quarter century of craftsmanship on thousands of roofs, from homes to commercial builds."
       }
     }
@@ -50,11 +47,9 @@
     },
     "stats": {
       "inspection": {
-        "value": "$0",
         "label": "Free Inspection"
       },
       "scheduling": {
-        "value": "48h",
         "label": "Project Scheduling"
       },
       "warranty": {
@@ -91,15 +86,12 @@
     },
     "stats": {
       "licensed": {
-        "value": "100%",
         "label": "Licensed & Insured"
       },
       "rating": {
-        "value": "4.9",
         "label": "Customer Rating"
       },
       "reviews": {
-        "value": "820+",
         "label": "Verified Reviews"
       }
     },
