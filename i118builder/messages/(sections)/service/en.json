@@ -1,82 +1,82 @@
 {
-  "eyebrow": "OUR SERVICES",
-  "titleLead": "Top Quality Roofing",
+  "eyebrow": "WHAT WE DO.",
+  "titleLead": "High Quality Roofing",
   "titleAccent": "For Every Property",
-  "description": "Discover our trusted roofing services featuring premium materials, expert care, strict quality, and secure solutions made just for every property.",
+  "description": "Discover our trusted roofing services featuring premium materials, expert craftsmanship, strict quality, and secure solutions made just for every property.",
   "action": {
     "viewAll": "View All Services",
     "contact": "Contact Us Now",
-    "viewDetails": "View Details"
+    "viewDetails": "View More Details"
   },
   "items": {
+    "repair": {
+      "title": "Roof Repair.",
+      "titleLead": "Roof",
+      "titleAccent": "Repair",
+      "description": "Fast lasting fixes done right."
+    },
+    "replacement": {
+      "title": "Roof Replacement.",
+      "titleLead": "Roof",
+      "titleAccent": "Replacement",
+      "description": "Complete roof replacement done right."
+    },
+    "storm": {
+      "title": "Storm Damage Repair.",
+      "titleLead": "Storm Damage",
+      "titleAccent": "Repair",
+      "description": "Rapid response to storm damage."
+    },
+    "inspections": {
+      "title": "Roof Inspections.",
+      "titleLead": "Roof",
+      "titleAccent": "Inspections",
+      "description": "Detailed inspections and honest reports."
+    },
+    "gutters": {
+      "title": "Gutters & Flashing.",
+      "titleLead": "Gutters &",
+      "titleAccent": "Flashing",
+      "description": "Protecting every home from water."
+    },
+    "commercial": {
+      "title": "Commercial Roofing.",
+      "titleLead": "Commercial",
+      "titleAccent": "Roofing",
+      "description": "Flat roof systems for businesses."
+    },
     "residential": {
-      "title": "Residential Roofing",
+      "title": "Residential Roofing.",
       "titleLead": "Residential",
       "titleAccent": "Roofing",
       "description": "Trusted roofing for every home."
     },
     "metal": {
-      "title": "Metal Roofing",
+      "title": "Metal Roofing.",
       "titleLead": "Metal",
       "titleAccent": "Roofing",
       "description": "Engineered to last for decades."
     },
     "tile": {
-      "title": "Tile Roofing",
+      "title": "Tile Roofing.",
       "titleLead": "Tile",
       "titleAccent": "Roofing",
       "description": "Premium concrete and clay tiles."
     },
     "flat": {
-      "title": "Flat Roofing",
+      "title": "Flat Roofing.",
       "titleLead": "Flat",
       "titleAccent": "Roofing",
       "description": "Waterproof low slope roofing systems."
     },
-    "gutters": {
-      "title": "Gutters & Flashing",
-      "titleLead": "Gutters &",
-      "titleAccent": "Flashing",
-      "description": "Protecting every home from water."
-    },
-    "replacement": {
-      "title": "Roof Replacement",
-      "titleLead": "Roof",
-      "titleAccent": "Replacement",
-      "description": "Complete roof replacement done right."
-    },
-    "repair": {
-      "title": "Roof Repair",
-      "titleLead": "Roof",
-      "titleAccent": "Repair",
-      "description": "Fast lasting fixes done right."
-    },
     "skylights": {
-      "title": "Skylight Installation",
+      "title": "Skylight Installation.",
       "titleLead": "Skylight",
       "titleAccent": "Installation",
-      "description": "Leak free skylights, expertly installed."
-    },
-    "storm": {
-      "title": "Storm Damage Repair",
-      "titleLead": "Storm Damage",
-      "titleAccent": "Repair",
-      "description": "Rapid response to storm damage."
-    },
-    "commercial": {
-      "title": "Commercial Roofing",
-      "titleLead": "Commercial",
-      "titleAccent": "Roofing",
-      "description": "Flat roof systems for businesses."
-    },
-    "inspections": {
-      "title": "Roof Inspections",
-      "titleLead": "Roof",
-      "titleAccent": "Inspections",
-      "description": "Detailed inspections and honest reports."
+      "description": "Leak free skylights expertly installed."
     },
     "solar": {
-      "title": "Solar Roofing",
+      "title": "Solar Roofing.",
       "titleLead": "Solar",
       "titleAccent": "Roofing",
       "description": "Solar ready roofs that save."
