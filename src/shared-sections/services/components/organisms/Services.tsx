@@ -7,20 +7,18 @@ import { servicesData } from "@/data/sections/services";
 import type { ServicesProps } from "@/shared-sections/services/types";
 import { Container } from "@/common/container/components/Container";
 
-const { items, ctaHref } = servicesData;
+const { heading, ctaHref, items } = servicesData;
 
 export const Services = async ({ variant, tone = "muted", limit }: ServicesProps) => {
   const t = await getTranslations("service");
-  /* data: order + icon/image; text by key */
+  /* data: order + image; text by key */
   /* limit: home summary, full on /services */
-  const cards = items.slice(0, limit).map((service, i) => ({
+  const cards = items.slice(0, limit).map((service) => ({
     key: service.key,
-    icon: service.icon,
     image: service.image,
     href: `/services/${service.slug}`,
     title: t(`items.${service.key}.title`),
     description: t(`items.${service.key}.description`),
-    delay: i * 0.08,
   }));
 
   return (
@@ -30,10 +28,10 @@ export const Services = async ({ variant, tone = "muted", limit }: ServicesProps
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description")}
+              eyebrow={t(heading.eyebrow)}
+              title={t(heading.titleLead)}
+              accent={t(heading.titleAccent)}
+              description={t(heading.description)}
             />
             <div className="mt-2">
               <Button href={ctaHref[variant].href} variant="secondary" pulse>
@@ -42,11 +40,7 @@ export const Services = async ({ variant, tone = "muted", limit }: ServicesProps
             </div>
           </div>
 
-          <ServiceList
-            cards={cards}
-            viewDetails={t("action.viewDetails")}
-            collapseBelowLg={variant === "viewAll"}
-          />
+          <ServiceList cards={cards} viewDetails={t("action.viewDetails")} />
         </div>
       </Container>
     </SectionWrapper>
