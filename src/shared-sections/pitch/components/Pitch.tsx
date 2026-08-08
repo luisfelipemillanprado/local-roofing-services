@@ -13,11 +13,11 @@ export const Pitch = async ({ variant, tone = "base" }: PitchProps) => {
   const t = await getTranslations("pitch");
   const { ctaHref, items, stats } = pitchData[variant];
 
-  /* stats: value and label by key (chip values are marketing copy, some translatable) */
+  /* stats: value from data, label by key; process warranty value stays in i18n */
   const statItems = stats.map((stat) => ({
     key: stat.key,
     icon: stat.icon,
-    value: t(`${stat.key}.value`),
+    value: "value" in stat ? stat.value : t(`${stat.key}.value`),
     label: t(`${stat.key}.label`),
   }));
 
