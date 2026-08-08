@@ -25,7 +25,12 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     /* lang "en" in SSR (locale here breaks SSG); fixed client-side */
-    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${jakarta.variable}`}>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      data-scroll-behavior="smooth"
+      className={`${inter.variable} ${jakarta.variable}`}
+    >
       <body className="antialiased">
         <Providers
           themeProps={{
