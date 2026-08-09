@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export type RevealVariant = "fade-up" | "fade-in" | "scale-in";
+type RevealVariant = "fade-up" | "fade-in" | "scale-in";
 
 export interface RevealProps {
   children: ReactNode;

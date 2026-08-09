@@ -3,7 +3,7 @@ export interface CaseStudyProps {
 }
 
 /* resolved before/after image: src + label + alt */
-export interface CaseStudyImage {
+interface CaseStudyImage {
   src: string;
   label: string;
   alt: string;

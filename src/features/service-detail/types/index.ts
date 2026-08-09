@@ -4,7 +4,7 @@ import type { servicesData } from "@/data/sections/services";
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
 /* every service slug key */
-export type ServiceDetailKey = (typeof servicesData.items)[number]["key"];
+type ServiceDetailKey = (typeof servicesData.items)[number]["key"];
 
 /* resolved checklist panel: icon + title + description over text items */
 export interface IncludedPanelProps {

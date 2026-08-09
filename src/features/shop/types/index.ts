@@ -1,6 +1,6 @@
 import type { LucideIcon } from "lucide-react";
 
-export type ShopCategory = "shingles" | "metal" | "underlayment" | "sealants" | "tools" | "accessories";
+type ShopCategory = "shingles" | "metal" | "underlayment" | "sealants" | "tools" | "accessories";
 export type ShopAvailability = "in-stock" | "limited-stock" | "out-of-stock";
 export type ShopSort = "featured" | "newest" | "priceAsc" | "priceDesc" | "topRated";
 
@@ -37,7 +37,7 @@ export interface CategoryPillsProps {
 }
 
 /* one selectable filter row */
-export interface FilterOption {
+interface FilterOption {
   value: string;
   label: string;
   count?: number;
