@@ -1,39 +1,58 @@
 {
   "why-choose": {
-    "eyebrow": "MADE FOR YOU.",
+    "eyebrow": "WHY CHOOSE US.",
     "titleLead": "Our Roofing Fits You",
     "titleAccent": "Every Shingle Time",
     "description": "We tailor every roofing solution to your property, delivering expert craftsmanship, lasting protection, and dependable quality from the beginning always.",
+    "stats": {
+      "years": {
+        "label": "Years Experience."
+      },
+      "projects": {
+        "label": "Roofs Completed."
+      },
+      "roofers": {
+        "label": "Certified Roofers."
+      },
+      "rating": {
+        "label": "Customer Rating."
+      }
+    },
     "action": {
       "viewDetails": "View More Details"
     },
-    "stats": {
-      "years": {
-        "label": "Years Experience"
-      },
-      "projects": {
-        "label": "Roofs Completed"
-      },
-      "roofers": {
-        "label": "Certified Roofers"
-      }
-    },
     "items": {
       "emergency": {
-        "title": "Emergency Services.",
-        "description": "A crew on call around the clock for storm damage, leaks and urgent roof repairs."
+        "title": "Emergency Service.",
+        "description": "Our crews respond around the clock to storm damage, leaks, and urgent repairs.",
+        "highlights": {
+          "label": "READY",
+          "accent": "ANYTIME"
+        }
       },
-      "proactive": {
-        "title": "Proactive Approach.",
-        "description": "Scheduled inspections and preventative maintenance that catch small issues long before they ever become costly."
+      "materials": {
+        "title": "Premium Materials.",
+        "description": "We install premium materials from trusted brands, backed by warranties for lasting protection.",
+        "highlights": {
+          "label": "TRUSTED",
+          "accent": "QUALITY"
+        }
       },
-      "reliable": {
-        "title": "Fully Certified.",
-        "description": "Licensed, insured and certified roofers installing premium materials backed by the strongest warranties in roofing."
+      "pricing": {
+        "title": "Transparent Pricing.",
+        "description": "You get a clear, detailed estimate upfront, with no hidden fees or surprises.",
+        "highlights": {
+          "label": "DETAILED",
+          "accent": "UPFRONT"
+        }
       },
-      "experience": {
-        "title": "Proven Experience.",
-        "description": "A full quarter century of craftsmanship on thousands of roofs, from homes to commercial builds."
+      "licensed": {
+        "title": "Licensed & Insured.",
+        "description": "Our team is fully licensed and insured, with liability and workers' compensation coverage.",
+        "highlights": {
+          "label": "LIABILITY",
+          "accent": "COVERAGE"
+        }
       }
     }
   },

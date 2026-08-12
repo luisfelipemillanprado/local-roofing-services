@@ -13,7 +13,7 @@ export const Pitch = async ({ variant, tone = "base" }: PitchProps) => {
   const t = await getTranslations("pitch");
   const { ctaHref, items, stats } = pitchData[variant];
 
-  /* stats: value from data, label by key; process warranty value stays in i18n */
+  /* stats: value from data (warranty from i18n), label by key */
   const statItems = stats.map((stat) => ({
     key: stat.key,
     icon: stat.icon,
@@ -21,13 +21,16 @@ export const Pitch = async ({ variant, tone = "base" }: PitchProps) => {
     label: t(`${stat.key}.label`),
   }));
 
-  /* cards: text by key, stagger delay */
-  const cardItems = items.map((item, i) => ({
+  /* cards: text by key, optional highlight tags */
+  const cardItems = items.map((item) => ({
     key: item.key,
     icon: item.icon,
     title: t(`${item.key}.title`),
     description: t(`${item.key}.description`),
-    delay: i * 0.08,
+    highlights:
+      "highlights" in item
+        ? { label: t(`${item.key}.highlights.label`), accent: t(`${item.key}.highlights.accent`) }
+        : undefined,
   }));
 
   return (

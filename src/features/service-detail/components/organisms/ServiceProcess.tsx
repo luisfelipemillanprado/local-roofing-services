@@ -23,12 +23,11 @@ export const ServiceProcess = async ({ serviceKey, tone = "base" }: ServiceProce
   }));
 
   /* cards: per-service steps, icon from data, text by key */
-  const cardItems = process.map((item, i) => ({
+  const cardItems = process.map((item) => ({
     key: item.key,
     icon: item.icon,
     title: t(`items.${serviceKey}.process.steps.${item.key}.title`),
     description: t(`items.${serviceKey}.process.steps.${item.key}.description`),
-    delay: i * 0.08,
   }));
 
   return (

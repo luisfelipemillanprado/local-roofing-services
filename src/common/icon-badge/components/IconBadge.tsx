@@ -1,9 +1,4 @@
 import {
-  Droplets,
-  Zap,
-  Layers,
-  Home,
-  Sun,
   Wrench,
   ClipboardCheck,
   FileText,
@@ -14,24 +9,18 @@ import {
   Handshake,
   Users,
   PhoneCall,
-  Lightbulb,
   Star,
-  Building2,
-  Factory,
   AlertTriangle,
   Target,
-  SquareStack,
+  CalendarPlus,
+  Gem,
+  BadgeDollarSign,
   type LucideIcon,
 } from "lucide-react";
 import type { IconBadgeKey, IconBadgeProps, IconBadgeSize, IconBadgeTone } from "@/common/icon-badge/types";
 
-/* Semantic key → icon component */
+/* semantic key → icon component */
 const ICONS: Record<IconBadgeKey, LucideIcon> = {
-  droplets: Droplets,
-  energy: Zap,
-  layers: Layers,
-  home: Home,
-  sun: Sun,
   wrench: Wrench,
   clipboard: ClipboardCheck,
   document: FileText,
@@ -42,43 +31,37 @@ const ICONS: Record<IconBadgeKey, LucideIcon> = {
   handshake: Handshake,
   users: Users,
   phone: PhoneCall,
-  idea: Lightbulb,
   star: Star,
-  building: Building2,
-  factory: Factory,
   alert: AlertTriangle,
   target: Target,
-  square: SquareStack,
+  calendar: CalendarPlus,
+  gem: Gem,
+  dollar: BadgeDollarSign,
 };
 
-/* Chip box size per tier */
+/* chip box size per tier */
 const chips: Record<IconBadgeSize, string> = {
-  stat: "size-11.5" /* 46px — why-choose stats */,
-  card: "size-12" /* 48px — service cards */,
-  feature: "size-14" /* 56px — process, values, why-choose, pricing, case study */,
+  stat: "size-12" /* 48px — why-choose stats */,
+  feature: "size-14" /* 56px — process, values, why-choose, case study */,
 };
 
-/* Inner icon size per tier. */
+/* inner icon size per tier */
 const iconSizes: Record<IconBadgeSize, string> = {
   stat: "size-5",
-  card: "size-6",
   feature: "size-7",
 };
 
-/* Chip background + icon color per tone. */
-const tones: Record<IconBadgeTone, { chip: string; icon: string }> = {
-  muted: { chip: "bg-surface-muted", icon: "text-primary" } /* default on light cards */,
-  solid: { chip: "bg-primary", icon: "text-white" } /* emphasis / highlighted */,
-  panel: { chip: "bg-surface-panel", icon: "text-primary" } /* non-highlighted pricing plans */,
+/* chip background per tone */
+const tones: Record<IconBadgeTone, string> = {
+  muted: "bg-surface-muted" /* default on light cards */,
+  panel: "bg-surface-panel" /* stat rows */,
 };
 
-export const IconBadge = ({ icon, size, tone, shadow = false }: IconBadgeProps) => {
+export const IconBadge = ({ icon, size, tone }: IconBadgeProps) => {
   const Icon = ICONS[icon];
   return (
-    <span
-      className={`grid place-items-center rounded-2xl ${chips[size]} ${tones[tone].chip} ${shadow ? "shadow-lg" : ""}`}
-    >
-      <Icon className={`${iconSizes[size]} ${tones[tone].icon}`} />
+    <span className={`grid place-items-center rounded-2xl ${chips[size]} ${tones[tone]}`}>
+      <Icon className={`${iconSizes[size]} text-primary`} />
     </span>
   );
 };

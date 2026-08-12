@@ -1,39 +1,58 @@
 {
   "why-choose": {
-    "eyebrow": "HECHO PARA TI.",
+    "eyebrow": "POR QUÉ NOSOTROS.",
     "titleLead": "Estructura A Medida",
     "titleAccent": "Para Techos Únicos",
     "description": "Adaptamos cada solución de techado a tu propiedad, brindando trabajo profesional, protección duradera y calidad confiable desde el principio.",
-    "action": {
-      "viewDetails": "Ver Mas Detalles"
-    },
     "stats": {
       "years": {
-        "label": "Años de Experiencia"
+        "label": "Años de Experiencia."
       },
       "projects": {
-        "label": "Techos Completados"
+        "label": "Techos Completados."
       },
       "roofers": {
-        "label": "Techadores Certificados"
+        "label": "Techeros Certificados."
+      },
+      "rating": {
+        "label": "Calificación de Clientes."
       }
+    },
+    "action": {
+      "viewDetails": "Ver Más Detalles"
     },
     "items": {
       "emergency": {
-        "title": "Servicios de Emergencia.",
-        "description": "Una cuadrilla de guardia a toda hora para daños por tormenta, goteras y reparaciones urgentes."
+        "title": "Servicio de Emergencia.",
+        "description": "Atendemos daños por tormentas, goteras y reparaciones de urgencia a toda hora.",
+        "highlights": {
+          "label": "LISTOS",
+          "accent": "SIEMPRE"
+        }
       },
-      "proactive": {
-        "title": "Enfoque Proactivo.",
-        "description": "Inspecciones programadas y mantenimiento preventivo que detectan problemas pequeños mucho antes de que sean costosos."
+      "materials": {
+        "title": "Materiales Premium.",
+        "description": "Usamos materiales de alta gama y marcas confiables, con protección duradera garantizada.",
+        "highlights": {
+          "label": "CONFIANZA",
+          "accent": "CALIDAD"
+        }
       },
-      "reliable": {
-        "title": "Totalmente Certificados.",
-        "description": "Techadores licenciados, asegurados y certificados que instalan materiales premium respaldados por las garantías más sólidas."
+      "pricing": {
+        "title": "Precios Transparentes.",
+        "description": "Entregamos un presupuesto claro y detallado por adelantado, sin sorpresas ni sobrecostos.",
+        "highlights": {
+          "label": "DETALLADO",
+          "accent": "ANTICIPADO"
+        }
       },
-      "experience": {
-        "title": "Experiencia Comprobada.",
-        "description": "Un cuarto de siglo de oficio en miles de techos, desde casas hasta construcciones comerciales."
+      "licensed": {
+        "title": "Licencia y Seguro.",
+        "description": "Cada trabajo cuenta con licencia, seguro de responsabilidad civil y accidentes laborales.",
+        "highlights": {
+          "label": "RESPALDO",
+          "accent": "COBERTURA"
+        }
       }
     }
   },

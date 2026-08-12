@@ -4,6 +4,5 @@ export interface IconCardProps {
   icon: IconBadgeKey;
   title: string;
   description: string;
-  delay?: number;
-  step?: string;
+  highlights?: { label: string; accent: string };
 }

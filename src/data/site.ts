@@ -15,6 +15,8 @@ export const company = {
   projectsCompleted: 1500,
   homesProtected: 1000,
   satisfaction: 98,
+  /* why-choose: certified roofers stat figure */
+  certifiedRoofers: 40,
   /* footer brand: social profiles (placeholder hrefs until the real accounts exist) */
   socials: [
     { key: "facebook", label: "Facebook", href: "#" },

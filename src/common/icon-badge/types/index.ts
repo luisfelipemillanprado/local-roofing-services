@@ -1,9 +1,4 @@
 export type IconBadgeKey =
-  | "droplets"
-  | "energy"
-  | "layers"
-  | "home"
-  | "sun"
   | "wrench"
   | "clipboard"
   | "document"
@@ -14,20 +9,18 @@ export type IconBadgeKey =
   | "handshake"
   | "users"
   | "phone"
-  | "idea"
   | "star"
-  | "building"
-  | "factory"
   | "alert"
   | "target"
-  | "square";
+  | "calendar"
+  | "gem"
+  | "dollar";
 
-export type IconBadgeSize = "stat" | "card" | "feature";
-export type IconBadgeTone = "muted" | "solid" | "panel";
+export type IconBadgeSize = "stat" | "feature";
+export type IconBadgeTone = "muted" | "panel";
 
 export interface IconBadgeProps {
   icon: IconBadgeKey;
   size: IconBadgeSize;
   tone: IconBadgeTone;
-  shadow?: boolean;
 }
