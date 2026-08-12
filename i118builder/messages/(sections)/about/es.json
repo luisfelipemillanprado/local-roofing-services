@@ -1,22 +1,5 @@
 {
-  "eyebrow": "SOBRE LA EMPRESA.",
-  "titleLead": "Compañía Confiable",
-  "titleAccent": "Para El Mejor Techo",
-  "description": "Somos una compañía de techado comprometida con la total transparencia, confiabilidad, excelencia profesional y el respeto hacia nuestros clientes.",
-  "action": {
-    "viewDetails": "Ver Más Detalles",
-    "contact": "Contactar Ahora"
-  },
-  "points": {
-    "residentialCommercial": "Expertos en techado residencial y comercial.",
-    "certified": "Profesionales certificados con amplia experiencia.",
-    "materials": "Materiales premium de marcas reconocidas."
-  },
-  "stats": {
-    "projects": "Proyectos Completados",
-    "homes": "Hogares Protegidos",
-    "satisfaction": "Satisfacción del Cliente"
-  },
+  "imageAlt": "Dueño de {name} frente a las camionetas de la empresa",
   "years": {
     "experience": {
       "line1": "AÑOS DE",
@@ -24,5 +7,22 @@
     }
   },
   "callAnytime": "PONTE EN CONTACTO.",
-  "imageAlt": "Dueño de {name} frente a las camionetas de la empresa"
+  "eyebrow": "QUIÉNES SOMOS.",
+  "titleLead": "Compañía Confiable",
+  "titleAccent": "Para Un Techo Ideal",
+  "description": "Somos un equipo experto en techado comprometido con total transparencia, excelencia profesional, materiales premium y respeto hacia los clientes.",
+  "points": {
+    "residentialCommercial": "Techado residencial y comercial experto.",
+    "certified": "Profesionales certificados con amplia experiencia.",
+    "materials": "Materiales premium de marcas reconocidas."
+  },
+  "stats": {
+    "projects": "Proyectos Completados.",
+    "homes": "Hogares Protegidos.",
+    "satisfaction": "Satisfacción del Cliente."
+  },
+  "action": {
+    "viewDetails": "Ver Más Detalles",
+    "contact": "Contactar Ahora"
+  }
 }

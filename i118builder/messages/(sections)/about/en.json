@@ -1,22 +1,5 @@
 {
-  "eyebrow": "OUR COMPANY.",
-  "titleLead": "Your Trusted Partner",
-  "titleAccent": "For Quality Roofing",
-  "description": "We are a roofing company built on integrity, craftsmanship, trust, and lasting relationships with local homeowners and commercial businesses alike.",
-  "action": {
-    "viewDetails": "View More Details",
-    "contact": "Contact Us Now"
-  },
-  "points": {
-    "residentialCommercial": "Residential and commercial roofing experts.",
-    "certified": "Certified professionals with trusted experience.",
-    "materials": "Premium materials from leading manufacturers."
-  },
-  "stats": {
-    "projects": "Projects Completed",
-    "homes": "Homes Protected",
-    "satisfaction": "Customer Satisfaction"
-  },
+  "imageAlt": "{name} owner in front of the company work vans",
   "years": {
     "experience": {
       "line1": "YEARS OF",
@@ -24,5 +7,22 @@
     }
   },
   "callAnytime": "CONNECT WITH US.",
-  "imageAlt": "{name} owner in front of the company work vans"
+  "eyebrow": "WHO WE ARE.",
+  "titleLead": "Your Trusted Partner",
+  "titleAccent": "For Quality Roofing",
+  "description": "We are a dedicated roofing company committed to total transparency, expert craftsmanship, premium materials, and absolute respect for our clients.",
+  "points": {
+    "residentialCommercial": "Residential and commercial roofing experts.",
+    "certified": "Certified professionals with trusted experience.",
+    "materials": "Premium materials from leading manufacturers."
+  },
+  "stats": {
+    "projects": "Projects Completed.",
+    "homes": "Homes Protected.",
+    "satisfaction": "Customer Satisfaction."
+  },
+  "action": {
+    "viewDetails": "View More Details",
+    "contact": "Contact Us Now"
+  }
 }
