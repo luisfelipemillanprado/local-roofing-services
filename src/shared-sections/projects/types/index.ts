@@ -23,6 +23,4 @@ interface ProjectCardItem extends Pick<
 export interface ProjectListProps {
   cards: ProjectCardItem[];
   viewDetails: string;
-  /* home: 4 below lg, all at lg */
-  collapseBelowLg?: boolean;
 }

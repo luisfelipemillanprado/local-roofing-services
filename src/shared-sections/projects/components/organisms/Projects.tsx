@@ -41,11 +41,7 @@ export const Projects = async ({ variant, limit }: ProjectsProps) => {
             </div>
           </div>
 
-          <ProjectList
-            cards={cards}
-            viewDetails={t("action.viewDetails")}
-            collapseBelowLg={variant === "viewAll"}
-          />
+          <ProjectList cards={cards} viewDetails={t("action.viewDetails")} />
         </div>
       </Container>
     </SectionWrapper>
