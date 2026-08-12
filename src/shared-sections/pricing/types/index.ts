@@ -1,11 +1,11 @@
-import type { IconBadgeKey } from "@/common/icon-badge/types";
+export type PricingIconKey = "home" | "building" | "factory";
 
 export interface PricingProps {
   variant: "viewAll" | "contact";
 }
 
 export interface PricingCardProps {
-  icon: IconBadgeKey;
+  icon: PricingIconKey;
   title: string;
   description: string;
   price: string;
