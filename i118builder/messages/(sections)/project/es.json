@@ -6,176 +6,92 @@
   "action": {
     "viewAll": "Ver Más Proyectos",
     "contact": "Contactar Ahora",
-    "viewDetails": "Ver Más Detalles"
+    "viewImage": "Ver imagen"
   },
   "items": {
     "cedarHeights": {
       "title": "Techado Metálico.",
-      "titleLead": "Cedar",
-      "titleAccent": "Heights",
-      "category": "RETECHO DE TEJAS",
-      "description": "Techo de junta alzada plateado.",
-      "intro": "Un reemplazo completo de tejas en Cedar Heights: las capas viejas salieron, entró membrana nueva y las tejas arquitectónicas dan a esta casa familiar décadas de protección confiable."
+      "description": "Techo de junta alzada plateado."
     },
     "sunsetRidge": {
       "title": "Techado de Tejas.",
-      "titleLead": "Sunset",
-      "titleAccent": "Ridge",
-      "category": "TECHO DE TEJA A DOS AGUAS",
-      "description": "Techo de teja gris tipo pizarra.",
-      "intro": "Las líneas clásicas a dos aguas y la teja cálida de arcilla dan a Sunset Ridge su sello, un perfil tradicional reconstruido con membrana moderna para confort duradero."
+      "description": "Techo de teja gris tipo pizarra."
     },
     "summitBungalow": {
       "title": "Techado Residencial.",
-      "titleLead": "Summit",
-      "titleAccent": "Bungalow",
-      "category": "INSTALACIÓN DE TEJAS",
-      "description": "Techo de shingle asfáltico gris.",
-      "intro": "Este bungalow de Summit recibió un techo de teja completamente nuevo, colocado a mano sobre estructura reforzada, uniendo encanto clásico con impermeabilización moderna que durará por generaciones."
+      "description": "Techo de shingle asfáltico gris."
     },
     "condoComplex": {
       "title": "Techado Comercial.",
-      "titleLead": "Techado",
-      "titleAccent": "Comercial",
-      "category": "TECHADO COMERCIAL",
-      "description": "Techo metálico mansarda y plano.",
-      "intro": "Mansarda metálica y techo plano en un edificio comercial de altura."
+      "description": "Techo metálico mansarda y plano."
     },
     "solarResidence": {
       "title": "Techado Solar.",
-      "titleLead": "Techado",
-      "titleAccent": "Solar",
-      "category": "TECHADO SOLAR",
-      "description": "Techo metálico con paneles solares.",
-      "intro": "Techo metálico azul con un arreglo completo de paneles solares instalados."
+      "description": "Techo metálico con paneles solares."
     },
     "coastalMetal": {
       "title": "Instalación de Tragaluz.",
-      "titleLead": "Techado",
-      "titleAccent": "Metálico",
-      "category": "TECHADO METÁLICO",
-      "description": "Tragaluces en techo plano de membrana.",
-      "intro": "Techo metálico gris de junta alzada en una amplia propiedad baja."
+      "description": "Tragaluces en techo plano de membrana."
     },
     "lakeviewContemporary": {
       "title": "Techado Metálico.",
-      "titleLead": "Lakeview",
-      "titleAccent": "Contemporary",
-      "category": "TECHO Y CLARABOYA",
-      "description": "Techo de junta alzada bronce.",
-      "intro": "Una casa contemporánea frente al lago renovada con sistema de techo nuevo y amplios tragaluces, llenando el interior de luz natural con cada unión sellada contra el clima."
+      "description": "Techo de junta alzada bronce."
     },
     "northgateRanch": {
       "title": "Techado Metálico.",
-      "titleLead": "Northgate",
-      "titleAccent": "Ranch",
-      "category": "SISTEMA DE TECHO METÁLICO",
-      "description": "Techo de junta alzada terracota.",
-      "intro": "Northgate Ranch luce ahora un elegante sistema de techo metálico, precisión panel por panel que resiste tormentas y sol mientras da a la propiedad un aire moderno."
+      "description": "Techo de junta alzada terracota."
     },
     "stonebridge": {
       "title": "Techado Metálico.",
-      "titleLead": "Stonebridge",
-      "titleAccent": "",
-      "category": "TECHO A CUATRO AGUAS",
-      "description": "Techo de junta alzada galvanizado.",
-      "intro": "Una instalación completa de techo a cuatro aguas en Stonebridge, con pendientes equilibradas en cada lado para resistencia al viento, líneas limpias y protección en todo el hogar."
+      "description": "Techo de junta alzada galvanizado."
     },
     "greystoneFarmhouse": {
       "title": "Techado Metálico.",
-      "titleLead": "Greystone",
-      "titleAccent": "Farmhouse",
-      "category": "SISTEMA DE TECHO DE PIZARRA",
-      "description": "Techo de junta alzada carbón.",
-      "intro": "Pizarra natural premium corona la granja Greystone, cada pieza colocada a mano para un techo con carácter atemporal y una vida útil medida en generaciones, no en años."
+      "description": "Techo de junta alzada carbón."
     },
     "blackpineEstate": {
       "title": "Techado Metálico.",
-      "titleLead": "Blackpine",
-      "titleAccent": "Estate",
-      "category": "TECHO METÁLICO DE JUNTA ALZADA",
-      "description": "Techo de teja metálica negra.",
-      "intro": "Blackpine Estate eligió metal de junta alzada por sus líneas verticales limpias y fijaciones ocultas, un techo que sella el clima por completo y envejece con elegancia."
+      "description": "Techo de teja metálica negra."
     },
     "modernBlueMetal": {
       "title": "Techado Metálico.",
-      "titleLead": "Techado",
-      "titleAccent": "Metálico",
-      "category": "TECHADO METÁLICO",
-      "description": "Techo de junta alzada azul marino.",
-      "intro": "Techo metálico azul de junta alzada en una casa moderna compacta."
+      "description": "Techo de junta alzada azul marino."
     },
     "estateMetal": {
       "title": "Techado Metálico.",
-      "titleLead": "Techado",
-      "titleAccent": "Metálico",
-      "category": "TECHADO METÁLICO",
-      "description": "Techo de junta alzada grafito.",
-      "intro": "Techo metálico carbón de junta alzada en una gran finca moderna."
+      "description": "Techo de junta alzada grafito."
     },
     "maroonMetal": {
       "title": "Techado Metálico.",
-      "titleLead": "Techado",
-      "titleAccent": "Metálico",
-      "category": "TECHADO METÁLICO",
-      "description": "Techo de teja metálica granate.",
-      "intro": "Techo de metal granate en una casa de planta con piscina."
+      "description": "Techo de teja metálica granate."
     },
     "harborMetal": {
       "title": "Techado Metálico.",
-      "titleLead": "Techado",
-      "titleAccent": "Metálico",
-      "category": "TECHADO METÁLICO",
-      "description": "Techo de teja metálica gris acero.",
-      "intro": "Techo metálico gris de junta alzada en una casa costera baja."
+      "description": "Techo de teja metálica gris acero."
     },
     "ranchMetal": {
       "title": "Techado Metálico.",
-      "titleLead": "Techado",
-      "titleAccent": "Metálico",
-      "category": "TECHADO METÁLICO",
-      "description": "Techo de junta alzada peltre.",
-      "intro": "Techo metálico gris de junta alzada en una casa tipo rancho."
+      "description": "Techo de junta alzada peltre."
     },
     "mapleGrove": {
       "title": "Techado de Tejas.",
-      "titleLead": "Maple",
-      "titleAccent": "Grove",
-      "category": "RETECHO DE TEJAS",
-      "description": "Techo de teja barril terracota.",
-      "intro": "La residencia Maple Grove cambió sus tejas gastadas por un techo restaurado por completo: listones nuevos, membrana fresca y teja premium que devolvieron fuerza y carácter al hogar."
+      "description": "Techo de teja barril terracota."
     },
     "tilePlaza": {
       "title": "Techado de Tejas.",
-      "titleLead": "Techado de",
-      "titleAccent": "Tejas",
-      "category": "TECHADO DE TEJAS",
-      "description": "Techo de teja barril coral cálido.",
-      "intro": "Techo de teja de barril terracota en edificio de varias unidades."
+      "description": "Techo de teja barril coral cálido."
     },
     "gardenResidences": {
       "title": "Techado Residencial.",
-      "titleLead": "Techado",
-      "titleAccent": "Residencial",
-      "category": "TECHADO RESIDENCIAL",
-      "description": "Techo de shingle gris envejecido.",
-      "intro": "Techos de shingle gris en un complejo residencial de dos plantas."
+      "description": "Techo de shingle gris envejecido."
     },
     "skylightHome": {
       "title": "Instalación de Tragaluz.",
-      "titleLead": "Instalación de",
-      "titleAccent": "Tragaluz",
-      "category": "INSTALACIÓN DE TRAGALUZ",
-      "description": "Tragaluz en techo de shingle gris.",
-      "intro": "Techo de teja con dos tragaluces en una casa de planta."
+      "description": "Tragaluz en techo de shingle gris."
     },
     "carportMetal": {
       "title": "Instalación de Tragaluz.",
-      "titleLead": "Techado",
-      "titleAccent": "Metálico",
-      "category": "TECHADO METÁLICO",
-      "description": "Tragaluz de vidrio en techo plano.",
-      "intro": "Techo metálico bronce de junta alzada en casa de una planta."
+      "description": "Tragaluz de vidrio en techo plano."
     }
   }
 }

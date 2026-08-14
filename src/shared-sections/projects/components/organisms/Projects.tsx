@@ -16,7 +16,6 @@ export const Projects = async ({ variant, limit }: ProjectsProps) => {
   const cards = items.slice(0, limit).map((project) => ({
     key: project.key,
     image: project.image,
-    href: `/gallery/${project.slug}`,
     title: t(`items.${project.key}.title`),
     description: t(`items.${project.key}.description`),
   }));
@@ -40,7 +39,11 @@ export const Projects = async ({ variant, limit }: ProjectsProps) => {
             </div>
           </div>
 
-          <ProjectList cards={cards} viewDetails={t("action.viewDetails")} />
+          <ProjectList
+            cards={cards}
+            href={variant === "viewAll" ? ctaHref.viewAll.href : undefined}
+            actionLabel={variant === "viewAll" ? t(ctaHref.viewAll.key) : t("action.viewImage")}
+          />
         </div>
       </Container>
     </SectionWrapper>

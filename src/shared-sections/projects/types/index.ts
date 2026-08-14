@@ -7,16 +7,17 @@ export interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
-  viewDetails: string;
-  href: string;
+  href?: string;
+  actionLabel: string;
 }
 
 /* resolved per-card item for the list */
-interface ProjectCardItem extends Pick<ProjectCardProps, "image" | "title" | "description" | "href"> {
+interface ProjectCardItem extends Pick<ProjectCardProps, "image" | "title" | "description"> {
   key: string;
 }
 
 export interface ProjectListProps {
   cards: ProjectCardItem[];
-  viewDetails: string;
+  href?: string;
+  actionLabel: string;
 }
