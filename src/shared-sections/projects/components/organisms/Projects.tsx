@@ -7,19 +7,18 @@ import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
 import { Container } from "@/common/container/components/Container";
 
-const { items, ctaHref } = projectsData;
+const { heading, ctaHref, items } = projectsData;
 
 export const Projects = async ({ variant, limit }: ProjectsProps) => {
   const t = await getTranslations("project");
   /* data: order + image; text by key */
   /* limit: home summary, full on /gallery */
-  const cards = items.slice(0, limit).map((project, i) => ({
+  const cards = items.slice(0, limit).map((project) => ({
     key: project.key,
     image: project.image,
     href: `/gallery/${project.slug}`,
     title: t(`items.${project.key}.title`),
     description: t(`items.${project.key}.description`),
-    delay: i * 0.08,
   }));
 
   return (
@@ -29,10 +28,10 @@ export const Projects = async ({ variant, limit }: ProjectsProps) => {
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description")}
+              eyebrow={t(heading.eyebrow)}
+              title={t(heading.titleLead)}
+              accent={t(heading.titleAccent)}
+              description={t(heading.description)}
             />
             <div className="mt-2">
               <Button href={ctaHref[variant].href} variant="secondary" pulse>

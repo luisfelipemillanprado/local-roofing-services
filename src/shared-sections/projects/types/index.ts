@@ -9,14 +9,10 @@ export interface ProjectCardProps {
   description: string;
   viewDetails: string;
   href: string;
-  delay?: number;
 }
 
 /* resolved per-card item for the list */
-interface ProjectCardItem extends Pick<
-  ProjectCardProps,
-  "image" | "title" | "description" | "href" | "delay"
-> {
+interface ProjectCardItem extends Pick<ProjectCardProps, "image" | "title" | "description" | "href"> {
   key: string;
 }
 
