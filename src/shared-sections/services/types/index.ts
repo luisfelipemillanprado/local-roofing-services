@@ -13,12 +13,8 @@ export interface ServiceCardProps {
 }
 
 /* resolved per-card item for the list */
-interface ServiceCardItem {
+interface ServiceCardItem extends Pick<ServiceCardProps, "image" | "title" | "description" | "href"> {
   key: string;
-  image: string;
-  title: string;
-  description: string;
-  href: string;
 }
 
 export interface ServiceListProps {
