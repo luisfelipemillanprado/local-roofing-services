@@ -39,6 +39,7 @@ export const Projects = async ({ variant, limit }: ProjectsProps) => {
             </div>
           </div>
 
+          {/* home: arrow to /gallery; gallery: zoom button */}
           <ProjectList
             cards={cards}
             href={variant === "viewAll" ? ctaHref.viewAll.href : undefined}
