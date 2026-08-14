@@ -102,15 +102,15 @@
       "titleLead": "Instalación de",
       "titleAccent": "Tragaluz",
       "category": "INSTALACIÓN DE TRAGALUZ",
-      "description": "Techo de teja con tragaluces.",
+      "description": "Tragaluz en techo de shingle gris.",
       "intro": "Techo de teja con dos tragaluces en una casa de planta."
     },
     "coastalMetal": {
-      "title": "Techado Metálico.",
+      "title": "Instalación de Tragaluz.",
       "titleLead": "Techado",
       "titleAccent": "Metálico",
       "category": "TECHADO METÁLICO",
-      "description": "Techo de junta alzada gris acero.",
+      "description": "Tragaluces en techo plano de membrana.",
       "intro": "Techo metálico gris de junta alzada en una amplia propiedad baja."
     },
     "modernBlueMetal": {
@@ -154,11 +154,11 @@
       "intro": "Techo metálico gris de junta alzada en una casa tipo rancho."
     },
     "carportMetal": {
-      "title": "Techado Metálico.",
+      "title": "Instalación de Tragaluz.",
       "titleLead": "Techado",
       "titleAccent": "Metálico",
       "category": "TECHADO METÁLICO",
-      "description": "Techo bronce oscuro junta alzada.",
+      "description": "Tragaluz de vidrio en techo plano.",
       "intro": "Techo metálico bronce de junta alzada en casa de una planta."
     },
     "condoComplex": {

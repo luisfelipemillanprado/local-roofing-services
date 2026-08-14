@@ -102,15 +102,15 @@
       "titleLead": "Skylight",
       "titleAccent": "Installation",
       "category": "SKYLIGHT INSTALLATION",
-      "description": "Charcoal tile roof with skylights.",
+      "description": "Skylight set in grey shingle roof.",
       "intro": "Charcoal tile roof with twin skylights on a single story home."
     },
     "coastalMetal": {
-      "title": "Metal Roofing.",
+      "title": "Skylight Installation.",
       "titleLead": "Metal",
       "titleAccent": "Roofing",
       "category": "METAL ROOFING",
-      "description": "Grey standing seam metal roof.",
+      "description": "Glass skylights on flat membrane roof.",
       "intro": "Grey standing seam metal roof on a large low slope property."
     },
     "modernBlueMetal": {
@@ -154,11 +154,11 @@
       "intro": "Grey standing seam metal roof on a single story ranch home."
     },
     "carportMetal": {
-      "title": "Metal Roofing.",
+      "title": "Skylight Installation.",
       "titleLead": "Metal",
       "titleAccent": "Roofing",
       "category": "METAL ROOFING",
-      "description": "Dark bronze standing seam roof.",
+      "description": "Glass roof lantern on flat roof.",
       "intro": "Bronze standing seam metal roof on a single story carport home."
     },
     "condoComplex": {
