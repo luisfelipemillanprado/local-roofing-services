@@ -1,4 +1,3 @@
-import { customerAvatars } from "@/data/avatars";
 import { company } from "@/data/site";
 
 /* Shared hero band data: image variants, social proof, and the i18n key contract */
@@ -27,7 +26,12 @@ export const pageHeaderData = {
     work: { key: "action.viewWork", href: "#projects" },
   },
   /* social proof: avatars + rating label by key + the count it names (from site) */
-  avatars: customerAvatars,
+  avatars: [
+    "/images/avatars/avatar-1.webp",
+    "/images/avatars/avatar-7.webp",
+    "/images/avatars/avatar-3.webp",
+    "/images/avatars/avatar-8.webp",
+  ],
   customersKey: "customers",
   customersCount: company.customersServed,
 } as const;
