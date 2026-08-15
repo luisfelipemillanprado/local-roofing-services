@@ -1,5 +1,6 @@
 export interface AboutProps {
   variant: "learnMore" | "contact";
+  tone?: "base" | "muted"; /* section surface; keeps page section alternation correct */
 }
 
 export interface YearsBadgeProps {

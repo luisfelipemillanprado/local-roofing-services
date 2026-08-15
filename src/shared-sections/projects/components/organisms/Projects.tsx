@@ -9,7 +9,7 @@ import { Container } from "@/common/container/components/Container";
 
 const { heading, ctaHref, items } = projectsData;
 
-export const Projects = async ({ variant, limit }: ProjectsProps) => {
+export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps) => {
   const t = await getTranslations("project");
   /* data: order + image; text by key */
   /* limit: home summary, full on /gallery */
@@ -21,7 +21,7 @@ export const Projects = async ({ variant, limit }: ProjectsProps) => {
   }));
 
   return (
-    <SectionWrapper id="projects" tone="muted">
+    <SectionWrapper id="projects" tone={tone}>
       <Container>
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">

@@ -14,7 +14,7 @@ import type { AboutProps } from "@/shared-sections/about/types";
 
 const { name, image, heading, ctaHref, years, call, points, stats } = aboutData;
 
-export const About = async ({ variant }: AboutProps) => {
+export const About = async ({ variant, tone = "base" }: AboutProps) => {
   const t = await getTranslations("about");
   /* stats: value from data, label by key */
   const statItems = stats.map((stat) => ({
@@ -26,7 +26,7 @@ export const About = async ({ variant }: AboutProps) => {
   const pointItems = points.map((point) => ({ key: point.key, text: t(`points.${point.key}`) }));
 
   return (
-    <SectionWrapper id="about">
+    <SectionWrapper id="about" tone={tone}>
       <Container>
         <ProfileSplit
           media={
