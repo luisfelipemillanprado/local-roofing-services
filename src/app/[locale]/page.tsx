@@ -41,7 +41,7 @@ export default async function Home({ params }: Props) {
         <Services variant="viewAll" limit={6} />
         <Pitch variant="why-choose" />
         <Projects variant="viewAll" limit={6} />
-        <Testimonials variant="viewAll" limit={6} />
+        <Testimonials variant="viewAll" tone="base" limit={6} />
         <Products tone="muted" limit={6} />
         <Contact />
       </main>

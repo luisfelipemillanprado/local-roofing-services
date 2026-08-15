@@ -10,7 +10,7 @@ import { Container } from "@/common/container/components/Container";
 
 const { heading, ctaHref, rating, google, items } = testimonialsData;
 
-export const Testimonials = async ({ variant, limit }: TestimonialsProps) => {
+export const Testimonials = async ({ variant, tone = "muted", limit }: TestimonialsProps) => {
   const t = await getTranslations("testimonial");
   /* data: order + avatar; text by key */
   /* limit: summary on home and services, full on about and gallery */
@@ -23,7 +23,7 @@ export const Testimonials = async ({ variant, limit }: TestimonialsProps) => {
   }));
 
   return (
-    <SectionWrapper id="testimonials" tone="muted">
+    <SectionWrapper id="testimonials" tone={tone}>
       <Container>
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">
