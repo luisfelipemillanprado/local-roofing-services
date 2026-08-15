@@ -8,7 +8,6 @@ import { About } from "@/shared-sections/about/components/organisms/About";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { Pitch } from "@/shared-sections/pitch/components/Pitch";
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
-import { Team } from "@/shared-sections/team/components/organisms/Team";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Pricing } from "@/shared-sections/pricing/components/organisms/Pricing";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
@@ -43,7 +42,6 @@ export default async function Home({ params }: Props) {
         <Services variant="viewAll" limit={6} />
         <Pitch variant="why-choose" />
         <Projects variant="viewAll" limit={6} />
-        <Team variant="viewAll" limit={6} />
         <Testimonials variant="viewAll" limit={6} />
         <Pricing variant="viewAll" />
         <Products tone="muted" limit={6} />
