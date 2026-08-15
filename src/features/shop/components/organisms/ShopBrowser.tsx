@@ -8,7 +8,7 @@ import { CategoryPills } from "@/features/shop/components/molecules/CategoryPill
 import { FilterPanel } from "@/features/shop/components/molecules/FilterPanel";
 import { SearchBox } from "@/features/shop/components/molecules/SearchBox";
 import { SortSelect } from "@/features/shop/components/molecules/SortSelect";
-import { ResultsList } from "@/features/shop/components/molecules/ResultsList";
+import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
 import { shopProductsData } from "@/data/shop/products";
 import type { CategoryPill, ShopFilters, ShopProduct, ShopSort } from "@/features/shop/types";
 
@@ -197,7 +197,7 @@ export const ShopBrowser = () => {
           </button>
         </div>
       ) : (
-        <ResultsList products={results} viewLabel={t("action.view")} />
+        <ProductList products={results} viewLabel={t("action.view")} />
       )}
     </div>
   );

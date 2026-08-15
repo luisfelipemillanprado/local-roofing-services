@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
-import { ResultsList } from "@/features/shop/components/molecules/ResultsList";
+import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
 import { shopProductsData } from "@/data/shop/products";
 import type { RelatedProductsProps, ShopProduct } from "@/features/shop/types";
 
@@ -51,7 +51,7 @@ export const RelatedProducts = async ({ slug, tone = "muted" }: RelatedProductsP
             accent={t("related.titleAccent")}
             description={t("related.description")}
           />
-          <ResultsList products={products} viewLabel={t("action.view")} />
+          <ProductList products={products} viewLabel={t("action.view")} />
         </div>
       </Container>
     </SectionWrapper>

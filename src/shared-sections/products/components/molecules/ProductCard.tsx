@@ -1,57 +1,69 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { Media } from "@/common/media/components/Media";
-import { Reveal } from "@/common/reveal/components/Reveal";
 import { Stars } from "@/common/stars/components/Stars";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
-import type { ProductCardProps } from "@/shared-sections/products/types";
+import type { ProductCardProps, ProductAvailability } from "@/shared-sections/products/types";
+
+/* availability dot color per state */
+const dots: Record<ProductAvailability, string> = {
+  "in-stock": "bg-malachite",
+  "limited-stock": "bg-primary",
+  "out-of-stock": "bg-foreground-muted",
+};
 
 export const ProductCard = ({
-  image,
   title,
-  price,
+  brand,
+  image,
+  priceLabel,
   unit,
   rating,
   reviews,
-  quoteLabel,
-  quoteHref,
-  delay = 0,
+  availability,
+  availabilityLabel,
+  viewLabel,
+  href,
 }: ProductCardProps) => (
-  <Reveal delay={delay}>
-    <article className="group grid h-full grid-rows-[auto_1fr] overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
-      <Media
-        src={image}
-        alt={title}
-        shape="wide"
-        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-      />
-      <div className="grid content-start gap-3 px-5.5 py-4.5">
+  <article className="group grid h-full overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
+    <Media
+      src={image}
+      alt={title}
+      shape="wide"
+      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+    />
+
+    <div className="grid grid-cols-[1fr_auto] items-center gap-4 px-5.5 py-4.5">
+      <div className="grid min-w-0 gap-2">
         <Title as="h3" size="card" weight="bold" truncate text={title} />
-        <div className="grid grid-cols-[1fr_auto] items-center gap-4">
-          <div className="grid gap-2">
-            <div className="grid grid-flow-col items-center justify-start gap-1">
-              <Stars rating={rating} />
-              <span className="ml-1">
-                <Text as="span" size="caption" tone="muted" text={`(${reviews})`} />
-              </span>
-            </div>
-            <div className="grid grid-flow-col items-end justify-start gap-1.5">
-              <TextNumber size="price" text={price} />
-              <span className="mb-0.5">
-                <Text as="span" size="caption" tone="muted" text={`/ ${unit}`} />
-              </span>
-            </div>
+        <div className="grid grid-flow-col items-center justify-start gap-3">
+          <Text as="span" size="note" tone="muted" text={brand} />
+          <div className="inline-grid grid-flow-col items-center gap-2">
+            <span className={`size-2 rounded-full ${dots[availability]}`} />
+            <Text as="span" size="note" tone="muted" text={availabilityLabel} />
           </div>
-          <a
-            href={quoteHref}
-            aria-label={quoteLabel}
-            className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
-          >
-            <ArrowRight className="size-5 -rotate-45" />
-          </a>
+        </div>
+        <div className="grid grid-flow-col items-center justify-start gap-2">
+          <Stars rating={rating} />
+          <Text as="span" size="caption" tone="muted" text={`${rating} (${reviews})`} />
+        </div>
+        <div className="grid grid-flow-col items-end justify-start gap-1.5">
+          <TextNumber size="price" text={priceLabel} />
+          <span className="mb-0.5">
+            <Text as="span" size="caption" tone="muted" text={`/ ${unit}`} />
+          </span>
         </div>
       </div>
-    </article>
-  </Reveal>
+
+      <Link
+        href={href}
+        aria-label={viewLabel}
+        className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
+      >
+        <ArrowRight className="size-5 -rotate-45" />
+      </Link>
+    </div>
+  </article>
 );

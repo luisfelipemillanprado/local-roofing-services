@@ -7,6 +7,13 @@
     "quote": "Solicitar Cotización",
     "view": "Ver Producto"
   },
+  "teaser": {
+    "eyebrow": "NUESTROS PRODUCTOS",
+    "titleLead": "Suministros De Techo",
+    "titleAccent": "Diseñados Para Durar",
+    "description": "Explora productos de techado premium con tejas manufacturadas hechas para la durabilidad, la resistencia al clima y la calidad que protege tu inversión.",
+    "shopAll": "Ver Todos los Productos"
+  },
   "units": {
     "bundle": "Paquete",
     "panel": "Panel",

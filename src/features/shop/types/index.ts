@@ -1,7 +1,7 @@
 import type { LucideIcon } from "lucide-react";
+import type { ProductAvailability } from "@/shared-sections/products/types";
 
 type ShopCategory = "shingles" | "metal" | "underlayment" | "sealants" | "tools" | "accessories";
-export type ShopAvailability = "in-stock" | "limited-stock" | "out-of-stock";
 export type ShopSort = "featured" | "newest" | "priceAsc" | "priceDesc" | "topRated";
 
 /* resolved product for the browser: data literals + i18n labels */
@@ -15,7 +15,7 @@ export interface ShopProduct {
   unit: string;
   rating: number;
   reviews: number;
-  availability: ShopAvailability;
+  availability: ProductAvailability;
   availabilityLabel: string;
   addedAt: string;
   featured: boolean;
@@ -87,26 +87,6 @@ export interface SortSelectProps {
   value: ShopSort;
   options: { value: ShopSort; label: string }[];
   onChange: (value: ShopSort) => void;
-}
-
-/* product row: resolved fields + shared quote CTA */
-export interface ProductRowProps {
-  title: string;
-  brand: string;
-  image: string;
-  priceLabel: string;
-  unit: string;
-  rating: number;
-  reviews: number;
-  availability: ShopAvailability;
-  availabilityLabel: string;
-  viewLabel: string;
-  href: string;
-}
-
-export interface ResultsListProps {
-  products: ShopProduct[];
-  viewLabel: string;
 }
 
 export interface ProductDetailProps {

@@ -3,25 +3,26 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Button } from "@/common/call-to-actions/components/Button";
 import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
 import { getTranslations } from "next-intl/server";
-import { productsData } from "@/data/sections/products";
+import { shopProductsData } from "@/data/shop/products";
 import type { ProductsProps } from "@/shared-sections/products/types";
 import { Container } from "@/common/container/components/Container";
 
-const { items, ctaHref, quoteHref } = productsData;
+const { items } = shopProductsData;
 
-export const Products = async ({ tone = "base", limit }: ProductsProps) => {
-  const t = await getTranslations("product");
-  /* data: order + image/brand/price/rating; text by key */
-  /* limit: the section is a summary on every page */
-  const cards = items.slice(0, limit).map((product, i) => ({
-    key: product.key,
+export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
+  const t = await getTranslations("shop-page");
+  /* teaser: first N of the real catalog; text by slug */
+  const products = items.slice(0, limit).map((product) => ({
+    slug: product.slug,
+    title: t(`catalog.${product.slug}.title`),
+    brand: product.brand,
     image: product.image,
-    price: product.price,
+    priceLabel: `$${product.price.toFixed(2)}`,
+    unit: t(product.unitKey),
     rating: product.rating,
     reviews: product.reviews,
-    title: t(`items.${product.key}.title`),
-    unit: t(product.unitKey),
-    delay: i * 0.08,
+    availability: product.availability,
+    availabilityLabel: t(`availability.${product.availability}`),
   }));
 
   return (
@@ -31,24 +32,19 @@ export const Products = async ({ tone = "base", limit }: ProductsProps) => {
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description")}
+              eyebrow={t("teaser.eyebrow")}
+              title={t("teaser.titleLead")}
+              accent={t("teaser.titleAccent")}
+              description={t("teaser.description")}
             />
             <div className="mt-2">
-              <Button href={ctaHref.href} variant="secondary" pulse>
-                {t(ctaHref.key)}
+              <Button href="/shop" variant="secondary" pulse>
+                {t("teaser.shopAll")}
               </Button>
             </div>
           </div>
 
-          <ProductList
-            cards={cards}
-            quoteLabel={t(quoteHref.key)}
-            quoteHref={quoteHref.href}
-            collapseBelowLg
-          />
+          <ProductList products={products} viewLabel={t("action.view")} />
         </div>
       </Container>
     </SectionWrapper>

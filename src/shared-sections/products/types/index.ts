@@ -3,30 +3,29 @@ export interface ProductsProps {
   limit?: number;
 }
 
+export type ProductAvailability = "in-stock" | "limited-stock" | "out-of-stock";
+
+/* product card: resolved fields + view CTA */
 export interface ProductCardProps {
-  image: string;
   title: string;
-  price: string;
+  brand: string;
+  image: string;
+  priceLabel: string;
   unit: string;
   rating: number;
   reviews: number;
-  quoteLabel: string;
-  quoteHref: string;
-  delay?: number;
+  availability: ProductAvailability;
+  availabilityLabel: string;
+  viewLabel: string;
+  href: string;
 }
 
 /* resolved per-card item for the list */
-interface ProductCardItem extends Pick<
-  ProductCardProps,
-  "image" | "title" | "price" | "unit" | "rating" | "reviews" | "delay"
-> {
-  key: string;
+interface ProductCardItem extends Omit<ProductCardProps, "viewLabel" | "href"> {
+  slug: string;
 }
 
 export interface ProductListProps {
-  cards: ProductCardItem[];
-  quoteLabel: string;
-  quoteHref: string;
-  /* 4 below lg, all at lg */
-  collapseBelowLg?: boolean;
+  products: ProductCardItem[];
+  viewLabel: string;
 }
