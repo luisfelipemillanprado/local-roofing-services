@@ -8,24 +8,18 @@ import { testimonialsData } from "@/data/sections/testimonials";
 import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
 import { Container } from "@/common/container/components/Container";
 
-const { sets, ctaHref, rating } = testimonialsData;
+const { heading, ctaHref, rating, items } = testimonialsData;
 
-export const Testimonials = async ({
-  variant,
-  tone = "muted",
-  limit,
-  set = "general",
-}: TestimonialsProps) => {
+export const Testimonials = async ({ variant, tone = "muted", limit }: TestimonialsProps) => {
   const t = await getTranslations("testimonial");
-  /* set: general reviews or a per-service collection; text by full key */
-  /* limit: home summary, full on /about and /gallery */
-  const cards = sets[set].items.slice(0, limit).map((testimonial, i) => ({
+  /* data: order + avatar; text by key */
+  /* limit: summary on home and services, full on about and gallery */
+  const cards = items.slice(0, limit).map((testimonial) => ({
     key: testimonial.key,
     avatar: testimonial.avatar,
-    quote: t(`${testimonial.key}.quote`),
-    name: t(`${testimonial.key}.name`),
-    location: t(`${testimonial.key}.location`),
-    delay: i * 0.08,
+    quote: t(`items.${testimonial.key}.quote`),
+    name: t(`items.${testimonial.key}.name`),
+    location: t(`items.${testimonial.key}.location`),
   }));
 
   return (
@@ -35,10 +29,10 @@ export const Testimonials = async ({
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description")}
+              eyebrow={t(heading.eyebrow)}
+              title={t(heading.titleLead)}
+              accent={t(heading.titleAccent)}
+              description={t(heading.description)}
             />
             <div className="mt-2 grid justify-items-center gap-6">
               <Button href={ctaHref[variant].href} variant="secondary" pulse>
@@ -48,7 +42,7 @@ export const Testimonials = async ({
             </div>
           </div>
 
-          <TestimonialList cards={cards} collapseBelowLg={variant === "viewAll"} />
+          <TestimonialList cards={cards} />
         </div>
       </Container>
     </SectionWrapper>
