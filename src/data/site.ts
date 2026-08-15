@@ -17,6 +17,9 @@ export const company = {
   satisfaction: 98,
   /* why-choose: certified roofers stat figure */
   certifiedRoofers: 40,
+  /* pitch stats + testimonials badge: Google rating score and review count */
+  googleScore: 4.9,
+  googleReviews: 820,
   /* footer brand: social profiles (placeholder hrefs until the real accounts exist) */
   socials: [
     { key: "facebook", label: "Facebook", href: "#" },

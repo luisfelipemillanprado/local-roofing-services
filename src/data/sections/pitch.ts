@@ -8,7 +8,7 @@ export const pitchData = {
       { key: "why-choose.stats.projects", icon: "hammer", value: `${company.projectsCompleted}+` },
       { key: "why-choose.stats.roofers", icon: "hardhat", value: `${company.certifiedRoofers}+` },
       /* 4th stat: fills the 2x2 on desktop, hidden on mobile */
-      { key: "why-choose.stats.rating", icon: "star", value: "4.9" },
+      { key: "why-choose.stats.rating", icon: "star", value: `${company.googleScore}` },
     ],
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "why-choose.action.viewDetails", href: "/about" },
@@ -38,8 +38,8 @@ export const pitchData = {
   values: {
     stats: [
       { key: "values.stats.licensed", icon: "shield", value: "100%" },
-      { key: "values.stats.rating", icon: "star", value: "4.9" },
-      { key: "values.stats.reviews", icon: "users", value: "820+" },
+      { key: "values.stats.rating", icon: "star", value: `${company.googleScore}` },
+      { key: "values.stats.reviews", icon: "users", value: `${company.googleReviews}+` },
     ],
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "values.action.contact", href: "#contact" },
