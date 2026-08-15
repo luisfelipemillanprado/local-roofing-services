@@ -2,10 +2,10 @@ import { TestimonialCard } from "@/shared-sections/testimonials/components/molec
 import type { TestimonialListProps } from "@/shared-sections/testimonials/types";
 
 /* render loop: cards → TestimonialCard grid */
-export const TestimonialList = ({ cards }: TestimonialListProps) => (
+export const TestimonialList = ({ cards, logo }: TestimonialListProps) => (
   <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     {cards.map(({ key, ...card }) => (
-      <TestimonialCard key={key} {...card} />
+      <TestimonialCard key={key} {...card} logo={logo} />
     ))}
   </div>
 );

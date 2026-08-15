@@ -8,9 +8,9 @@ import { testimonialsData } from "@/data/sections/testimonials";
 import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
 import { Container } from "@/common/container/components/Container";
 
-const { heading, ctaHref, rating, items } = testimonialsData;
+const { heading, ctaHref, rating, google, items } = testimonialsData;
 
-export const Testimonials = async ({ variant, tone = "muted", limit }: TestimonialsProps) => {
+export const Testimonials = async ({ variant, limit }: TestimonialsProps) => {
   const t = await getTranslations("testimonial");
   /* data: order + avatar; text by key */
   /* limit: summary on home and services, full on about and gallery */
@@ -23,7 +23,7 @@ export const Testimonials = async ({ variant, tone = "muted", limit }: Testimoni
   }));
 
   return (
-    <SectionWrapper id="testimonials" tone={tone}>
+    <SectionWrapper id="testimonials" tone="muted">
       <Container>
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">
@@ -38,11 +38,11 @@ export const Testimonials = async ({ variant, tone = "muted", limit }: Testimoni
               <Button href={ctaHref[variant].href} variant="secondary" pulse>
                 {t(ctaHref[variant].key)}
               </Button>
-              <RatingBadge score={rating.score} count={rating.count} reviews={t("reviews")} />
+              <RatingBadge score={rating.score} count={rating.count} reviews={t("reviews")} logo={google} />
             </div>
           </div>
 
-          <TestimonialList cards={cards} />
+          <TestimonialList cards={cards} logo={google} />
         </div>
       </Container>
     </SectionWrapper>
