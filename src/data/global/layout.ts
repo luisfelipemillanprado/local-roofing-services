@@ -30,7 +30,6 @@ export const layoutData = {
         { key: "about", href: "/about" },
         { key: "services", href: "/services" },
         { key: "projects", href: "/gallery" },
-        { key: "pricing", href: "/#pricing" },
         { key: "contact", href: "/#contact" },
       ],
     },
