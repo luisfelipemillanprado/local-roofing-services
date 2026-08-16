@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import type { ProductAvailability } from "@/shared-sections/products/types";
+import type { ProductAvailability } from "@/common/product-card/types";
 
 type ShopCategory = "shingles" | "metal" | "underlayment" | "sealants" | "tools" | "accessories";
 export type ShopSort = "featured" | "newest" | "priceAsc" | "priceDesc" | "topRated";

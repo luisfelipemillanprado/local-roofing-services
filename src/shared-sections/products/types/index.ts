@@ -1,23 +1,8 @@
+import type { ProductCardProps } from "@/common/product-card/types";
+
 export interface ProductsProps {
   tone?: "base" | "muted"; /* section surface; keeps page section alternation correct */
   limit?: number;
-}
-
-export type ProductAvailability = "in-stock" | "limited-stock" | "out-of-stock";
-
-/* product card: resolved fields + view CTA */
-export interface ProductCardProps {
-  title: string;
-  brand: string;
-  image: string;
-  priceLabel: string;
-  unit: string;
-  rating: number;
-  reviews: number;
-  availability: ProductAvailability;
-  availabilityLabel: string;
-  viewLabel: string;
-  href: string;
 }
 
 /* resolved per-card item for the list */

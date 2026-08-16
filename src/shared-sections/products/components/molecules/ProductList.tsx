@@ -1,4 +1,4 @@
-import { ProductCard } from "@/shared-sections/products/components/molecules/ProductCard";
+import { ProductCard } from "@/common/product-card/components/ProductCard";
 import type { ProductListProps } from "@/shared-sections/products/types";
 
 /* render loop: products → ProductCard grid */

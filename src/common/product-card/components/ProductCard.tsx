@@ -5,7 +5,7 @@ import { Stars } from "@/common/stars/components/Stars";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
-import type { ProductCardProps, ProductAvailability } from "@/shared-sections/products/types";
+import type { ProductCardProps, ProductAvailability } from "@/common/product-card/types";
 
 /* availability dot color per state */
 const dots: Record<ProductAvailability, string> = {
