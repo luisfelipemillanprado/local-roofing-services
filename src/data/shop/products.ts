@@ -1,4 +1,4 @@
-/* Shop catalog: standalone from the corporate teaser (products.ts).
+/* Shop catalog: single source for the shop and the products teaser section.
    slug = brand-model, stable id · /shop/[slug] route · i18n key · React key.
    image = folder main shot; gallery = extra shots in the same folder (variants). */
 export const shopProductsData = {

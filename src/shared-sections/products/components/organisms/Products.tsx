@@ -10,19 +10,20 @@ import { Container } from "@/common/container/components/Container";
 const { items } = shopProductsData;
 
 export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
-  const t = await getTranslations("shop-page");
-  /* teaser: first N of the real catalog; text by slug */
+  const t = await getTranslations("products");
+  const tShop = await getTranslations("shop-page");
+  /* teaser: first N of the shop catalog; product copy from the shop namespace */
   const products = items.slice(0, limit).map((product) => ({
     slug: product.slug,
-    title: t(`catalog.${product.slug}.title`),
+    title: tShop(`catalog.${product.slug}.title`),
     brand: product.brand,
     image: product.image,
     priceLabel: `$${product.price.toFixed(2)}`,
-    unit: t(product.unitKey),
+    unit: tShop(product.unitKey),
     rating: product.rating,
     reviews: product.reviews,
     availability: product.availability,
-    availabilityLabel: t(`availability.${product.availability}`),
+    availabilityLabel: tShop(`availability.${product.availability}`),
   }));
 
   return (
@@ -32,19 +33,19 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
-              eyebrow={t("teaser.eyebrow")}
-              title={t("teaser.titleLead")}
-              accent={t("teaser.titleAccent")}
-              description={t("teaser.description")}
+              eyebrow={t("eyebrow")}
+              title={t("titleLead")}
+              accent={t("titleAccent")}
+              description={t("description")}
             />
             <div className="mt-2">
               <Button href="/shop" variant="secondary" pulse>
-                {t("teaser.shopAll")}
+                {t("action.shop")}
               </Button>
             </div>
           </div>
 
-          <ProductList products={products} viewLabel={t("action.view")} />
+          <ProductList products={products} viewLabel={tShop("action.view")} />
         </div>
       </Container>
     </SectionWrapper>
