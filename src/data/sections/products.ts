@@ -1,4 +1,4 @@
-/* Products section: heading + CTA; product cards come from the shop catalog */
+/* Products section: heading + CTA; cards from the shop catalog */
 export const productsData = {
   heading: {
     eyebrow: "eyebrow",
@@ -7,5 +7,5 @@ export const productsData = {
     description: "description",
   },
   /* section CTA: i18n key (text) + href (destination) */
-  ctaHref: { key: "action.shop", href: "/shop" },
+  ctaHref: { key: "action.viewAll", href: "/shop" },
 } as const;

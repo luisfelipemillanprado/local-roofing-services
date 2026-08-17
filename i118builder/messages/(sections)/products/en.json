@@ -4,6 +4,6 @@
   "titleAccent": "Engineered To Last",
   "description": "Explore premium roofing materials like durable shingles engineered to withstand severe weather, guarantee lasting quality, and protect your home investment.",
   "action": {
-    "shop": "View All Products"
+    "viewAll": "View All Products"
   }
 }
