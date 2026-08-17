@@ -13,7 +13,7 @@ export const ProfileSplit = ({
   <div className="grid items-center gap-19 lg:grid-cols-2 lg:gap-13">
     {/* image side */}
     <div className="relative">
-      <div className="overflow-hidden rounded-card shadow-lg">{media}</div>
+      <div className="overflow-hidden rounded-2xl shadow-lg">{media}</div>
 
       {/* badge overhangs the top-right corner */}
       <div className="absolute top-7 -right-3">{badge}</div>

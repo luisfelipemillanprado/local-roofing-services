@@ -45,7 +45,7 @@ export const BeforeAfterSlider = ({ before, after, compareLabel }: BeforeAfterSl
   return (
     <div
       ref={containerRef}
-      className="relative mx-auto aspect-6/5 w-full max-w-5xl overflow-hidden rounded-card shadow-md select-none md:aspect-1024/572"
+      className="relative mx-auto aspect-6/5 w-full max-w-5xl overflow-hidden rounded-2xl shadow-md select-none md:aspect-1024/572"
     >
       {/* after: full base layer */}
       <Image

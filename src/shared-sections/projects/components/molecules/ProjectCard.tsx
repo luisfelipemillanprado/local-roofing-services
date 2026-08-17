@@ -6,7 +6,7 @@ import { Title } from "@/common/title/components/Title";
 import type { ProjectCardProps } from "@/shared-sections/projects/types";
 
 export const ProjectCard = ({ image, title, description, href, actionLabel }: ProjectCardProps) => (
-  <article className="group grid overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
+  <article className="group grid overflow-hidden rounded-2xl border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
     <Media
       src={image}
       alt={title}

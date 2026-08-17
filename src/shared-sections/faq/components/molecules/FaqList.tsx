@@ -8,7 +8,7 @@ export const FaqList = ({ items }: FaqListProps) => (
     {items.map(({ key, question, answer }) => (
       <details
         key={key}
-        className="group rounded-card border border-line bg-surface-panel p-6 transition-colors open:border-primary/40"
+        className="group rounded-2xl border border-line bg-surface-panel p-6 transition-colors open:border-primary/40"
       >
         <summary className="grid cursor-pointer list-none grid-cols-[1fr_auto] items-center gap-4">
           <Text as="span" size="body" weight="bold" text={question} />

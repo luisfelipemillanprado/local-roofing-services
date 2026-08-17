@@ -55,9 +55,6 @@
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
 
-  /* Radii. */
-  --radius-card: 1.25rem;
-
   /* Marquee animation (utility: animate-marquee). */
   --animate-marquee: marquee 28s linear infinite;
   @keyframes marquee {

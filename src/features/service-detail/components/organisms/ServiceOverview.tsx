@@ -29,7 +29,7 @@ export const ServiceOverview = async ({ serviceKey, tone = "base" }: ServiceOver
         <div className="grid gap-19">
           {/* Image side with badge + contact overlays */}
           <div className="relative">
-            <div className="overflow-hidden rounded-card shadow-lg">
+            <div className="overflow-hidden rounded-2xl shadow-lg">
               <Media
                 src={item.image}
                 alt={ts(`items.${item.key}.title`)}

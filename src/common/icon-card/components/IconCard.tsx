@@ -5,7 +5,7 @@ import type { IconCardProps } from "@/common/icon-card/types";
 
 /* same card everywhere: white in light, steel in dark */
 export const IconCard = ({ icon, title, description, highlights }: IconCardProps) => (
-  <article className="flex h-full flex-col gap-4.75 rounded-card border border-line bg-surface-panel p-6 shadow-md transition duration-300 hover:-translate-y-1.5 hover:shadow-lg">
+  <article className="flex h-full flex-col gap-4.75 rounded-2xl border border-line bg-surface-panel p-6 shadow-md transition duration-300 hover:-translate-y-1.5 hover:shadow-lg">
     <IconBadge icon={icon} size="feature" tone="muted" />
     <div className="grid gap-4.5">
       <Title as="h3" size="card" weight="bold" text={title} />

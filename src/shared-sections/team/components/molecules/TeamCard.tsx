@@ -8,7 +8,7 @@ import type { TeamCardProps } from "@/shared-sections/team/types";
 
 export const TeamCard = ({ image, title, description, viewDetails, href, delay = 0 }: TeamCardProps) => (
   <Reveal delay={delay}>
-    <article className="group grid h-full overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
+    <article className="group grid h-full overflow-hidden rounded-2xl border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
       <Media
         src={image}
         alt={title}

@@ -6,7 +6,7 @@ import type { IncludedPanelProps } from "@/features/service-detail/types";
 
 /* checklist panel: icon header with title and description over a divided checked list */
 export const IncludedPanel = ({ icon, title, description, items }: IncludedPanelProps) => (
-  <div className="grid content-start gap-6 rounded-card border border-line bg-surface-panel px-6 pt-6 pb-6.5 shadow-md">
+  <div className="grid content-start gap-6 rounded-2xl border border-line bg-surface-panel px-6 pt-6 pb-6.5 shadow-md">
     <div className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-4">
       <IconBadge icon={icon} size="feature" tone="muted" />
       <div className="grid gap-1.5">

@@ -81,7 +81,7 @@ export const FilterPanel = ({
       </button>
 
       {open && (
-        <div className="absolute top-full left-0 z-30 mt-2 grid w-80 gap-5 rounded-card border border-line bg-surface-panel p-5 shadow-lg">
+        <div className="absolute top-full left-0 z-30 mt-2 grid w-80 gap-5 rounded-2xl border border-line bg-surface-panel p-5 shadow-lg">
           <FilterGroup
             title={brandTitle}
             options={brandOptions}

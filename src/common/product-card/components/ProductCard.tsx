@@ -27,7 +27,7 @@ export const ProductCard = ({
   viewLabel,
   href,
 }: ProductCardProps) => (
-  <article className="group grid h-full overflow-hidden rounded-card border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
+  <article className="group grid h-full overflow-hidden rounded-2xl border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
     <Media
       src={image}
       alt={title}
@@ -60,9 +60,9 @@ export const ProductCard = ({
       <Link
         href={href}
         aria-label={viewLabel}
-        className="grid size-10 place-items-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:translate-x-1"
+        className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
       >
-        <ArrowRight className="size-5 -rotate-45" />
+        <ArrowRight className="size-5 -rotate-45 text-white" />
       </Link>
     </div>
   </article>
