@@ -11,6 +11,6 @@ interface ProductCardItem extends Omit<ProductCardProps, "viewLabel" | "href"> {
 }
 
 export interface ProductListProps {
-  products: ProductCardItem[];
+  cards: ProductCardItem[];
   viewLabel: string;
 }

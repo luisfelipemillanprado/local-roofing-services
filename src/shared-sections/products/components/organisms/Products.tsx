@@ -14,7 +14,8 @@ const { items } = shopProductsData;
 export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
   const t = await getTranslations("products");
   const tShop = await getTranslations("shop-page");
-  /* cards: first N of the shop catalog; product copy from the shop namespace */
+  /* data: brand/image/price; text by key (shop namespace) */
+  /* limit: teaser slice on every route */
   const products = items.slice(0, limit).map((product) => ({
     slug: product.slug,
     title: tShop(`catalog.${product.slug}.title`),
@@ -47,7 +48,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
             </div>
           </div>
 
-          <ProductList products={products} viewLabel={tShop("action.view")} />
+          <ProductList cards={products} viewLabel={tShop("action.view")} />
         </div>
       </Container>
     </SectionWrapper>

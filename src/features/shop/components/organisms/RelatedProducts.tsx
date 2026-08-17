@@ -51,7 +51,7 @@ export const RelatedProducts = async ({ slug, tone = "muted" }: RelatedProductsP
             accent={t("related.titleAccent")}
             description={t("related.description")}
           />
-          <ProductList products={products} viewLabel={t("action.view")} />
+          <ProductList cards={products} viewLabel={t("action.view")} />
         </div>
       </Container>
     </SectionWrapper>
