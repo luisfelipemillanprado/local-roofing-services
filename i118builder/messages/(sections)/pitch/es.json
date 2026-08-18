@@ -96,40 +96,59 @@
     }
   },
   "values": {
-    "eyebrow": "NUESTROS VALORES",
-    "titleLead": "Valores Que Perduran",
-    "titleAccent": "En Cada Techo Construido",
+    "eyebrow": "VALORES.",
+    "titleLead": "Valores Perdurables",
+    "titleAccent": "En Cada Estructura",
     "description": "Nuestros valores sólidos guían cada decisión, entregando soluciones de techado confiables con integridad, calidad, responsabilidad y una atención al cliente excepcional.",
     "action": {
-      "contact": "Contáctanos Ahora"
+      "contact": "Contactar Ahora"
     },
     "stats": {
-      "licensed": {
-        "label": "Licencia y Seguro"
+      "years": {
+        "label": "Años de Experiencia."
       },
-      "rating": {
-        "label": "Calificación de Clientes"
+      "bbb": {
+        "label": "Acreditados BBB."
       },
       "reviews": {
-        "label": "Reseñas Verificadas"
+        "label": "Reseñas Verificadas."
+      },
+      "warranty": {
+        "label": "Años de Garantía."
       }
     },
     "items": {
       "quality": {
-        "title": "Oficio de Calidad",
-        "description": "Materiales premium y mano de obra meticulosa en todos nuestros trabajos, sin ningún atajo, nunca."
+        "title": "Oficio de Calidad.",
+        "description": "Expertos dedicados entregan mano de obra meticulosa en cada proyecto, sin atajos.",
+        "highlights": {
+          "label": "OFICIO",
+          "accent": "MAESTRO"
+        }
       },
       "safety": {
-        "title": "Seguridad Primero",
-        "description": "Cuadrillas certificadas y aseguradas siguen estrictos protocolos de seguridad protegiendo tu propiedad y nuestro equipo."
+        "title": "Seguridad Primero.",
+        "description": "Ponemos primero a las personas, con hábitos de seguridad que protegen familias.",
+        "highlights": {
+          "label": "SITIOS",
+          "accent": "SEGUROS"
+        }
       },
-      "honest": {
-        "title": "Honestos y Transparentes",
-        "description": "Precios claros y detallados con respuestas directas, para que sepas siempre exactamente lo que recibes."
+      "integrity": {
+        "title": "Integridad Inquebrantable.",
+        "description": "Mantenemos altos estándares éticos, tratando tu hogar con respeto y cuidado genuino.",
+        "highlights": {
+          "label": "ÉTICA",
+          "accent": "SÓLIDA"
+        }
       },
       "community": {
-        "title": "Enfoque en la Comunidad",
-        "description": "Nos enorgullece proteger los hogares y los negocios de los vecindarios donde vivimos y trabajamos."
+        "title": "Enfoque Comunitario.",
+        "description": "Protegemos los hogares y negocios de los vecindarios donde vivimos y trabajamos.",
+        "highlights": {
+          "label": "RAÍCES",
+          "accent": "LOCALES"
+        }
       }
     }
   }

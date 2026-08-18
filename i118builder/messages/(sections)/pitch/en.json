@@ -96,40 +96,59 @@
     }
   },
   "values": {
-    "eyebrow": "OUR VALUES",
+    "eyebrow": "OUR VALUES.",
     "titleLead": "Our Enduring Values",
     "titleAccent": "On Every Roof Built",
-    "description": "Our enduring values guide every decision, delivering trusted roofing solutions through integrity, quality, reliability, and exceptional customer care every day.",
+    "description": "Our shared values inspire excellent results, offering secure roofing solutions through true integrity, flawless execution, and attentive customer care daily.",
     "action": {
       "contact": "Contact Us Now"
     },
     "stats": {
-      "licensed": {
-        "label": "Licensed & Insured"
+      "years": {
+        "label": "Years Experience."
       },
-      "rating": {
-        "label": "Customer Rating"
+      "bbb": {
+        "label": "BBB Accredited."
       },
       "reviews": {
-        "label": "Verified Reviews"
+        "label": "Verified Reviews."
+      },
+      "warranty": {
+        "label": "Years Warranty."
       }
     },
     "items": {
       "quality": {
-        "title": "Quality Craftsmanship",
-        "description": "Premium materials and meticulous workmanship on every single job we take, with no shortcuts ever."
+        "title": "Quality Craftsmanship.",
+        "description": "Dedicated experts deliver meticulous workmanship on every roofing project, with no shortcuts taken.",
+        "highlights": {
+          "label": "MASTER",
+          "accent": "CRAFT"
+        }
       },
       "safety": {
-        "title": "Safety First",
-        "description": "Certified, insured crews follow strict safety standards to protect your property and our whole team."
+        "title": "Safety First.",
+        "description": "We put people first, with strict safety habits protecting your family and crew.",
+        "highlights": {
+          "label": "SECURE",
+          "accent": "SITES"
+        }
       },
-      "honest": {
-        "title": "Honest & Transparent",
-        "description": "Upfront, itemized pricing and straight answers, so you always know exactly what you are getting."
+      "integrity": {
+        "title": "Unwavering Integrity.",
+        "description": "We uphold the highest ethical standards, treating your home with respect and care.",
+        "highlights": {
+          "label": "SOLID",
+          "accent": "ETHICS"
+        }
       },
       "community": {
-        "title": "Community Focused",
-        "description": "We proudly protect the homes and businesses across the neighborhoods where we live and work."
+        "title": "Community Focused.",
+        "description": "We protect the homes and businesses across neighborhoods where we live and work.",
+        "highlights": {
+          "label": "LOCAL",
+          "accent": "ROOTS"
+        }
       }
     }
   }
