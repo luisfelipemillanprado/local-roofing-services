@@ -4,7 +4,7 @@ import { useState, type SubmitEvent } from "react";
 import { ActionButton } from "@/common/call-to-actions/components/ActionButton";
 import type { EmailFormProps } from "@/shared-sections/contact/types";
 
-/* client island: only the form needs state, the section stays server-rendered */
+/* client island: only the form needs state, keeping the section server-rendered */
 export const EmailForm = ({ emailLabel, emailPlaceholder, submitLabel, sentLabel }: EmailFormProps) => {
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
@@ -19,11 +19,11 @@ export const EmailForm = ({ emailLabel, emailPlaceholder, submitLabel, sentLabel
 
   return (
     <form onSubmit={onSubmit} className="grid gap-3 sm:grid-cols-[1fr_auto]">
-      <label htmlFor="cta-email" className="sr-only">
+      <label htmlFor="contact-email" className="sr-only">
         {emailLabel}
       </label>
       <input
-        id="cta-email"
+        id="contact-email"
         type="email"
         required
         value={email}

@@ -8,7 +8,7 @@ import { blurs } from "@/data/blurs";
 import type { ContactProps } from "@/shared-sections/contact/types";
 import { Container } from "@/common/container/components/Container";
 
-const { image, cta, input } = contactData;
+const { heading, image, cta, input } = contactData;
 
 export const Contact = async ({ tone = "base" }: ContactProps) => {
   const t = await getTranslations("contact");
@@ -17,7 +17,7 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
     <SectionWrapper id="contact" tone={tone}>
       <Container>
         <div className="theme-dark relative isolate overflow-hidden rounded-4xl border border-line bg-contrast px-6 py-16 sm:px-12 lg:px-16">
-          {/* Background */}
+          {/* background: image + banner scrim */}
           <div className="absolute inset-0 -z-10">
             <Image
               src={image}
@@ -34,17 +34,16 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
           <div className="grid max-w-2xl gap-8">
             <SectionHeading
               size="banner"
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description")}
-              align="left"
+              eyebrow={t(heading.eyebrow)}
+              title={t(heading.titleLead)}
+              accent={t(heading.titleAccent)}
+              description={t(heading.description)}
             />
             <EmailForm
-              emailLabel={t(input.labelKey)}
-              emailPlaceholder={t(input.placeholderKey)}
+              emailLabel={t(input.label)}
+              emailPlaceholder={t(input.placeholder)}
               submitLabel={t(cta.key)}
-              sentLabel={t("action.sent")}
+              sentLabel={t(cta.sentKey)}
             />
           </div>
         </div>
