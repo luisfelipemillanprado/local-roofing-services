@@ -37,19 +37,19 @@ export const pitchData = {
   },
   values: {
     stats: [
-      { key: "values.stats.warranty", icon: "document", value: "10+" },
+      { key: "values.stats.years", icon: "calendar", value: `${company.yearsExperience}+` },
       { key: "values.stats.bbb", icon: "award", value: "A+" },
       { key: "values.stats.reviews", icon: "users", value: `${company.googleReviews}+` },
       /* 4th stat: fills the 2x2 on desktop, hidden on mobile */
-      { key: "values.stats.years", icon: "calendar", value: `${company.yearsExperience}+` },
+      { key: "values.stats.warranty", icon: "document", value: "10+" },
     ],
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "values.action.contact", href: "#contact" },
     items: [
-      { key: "values.items.quality", icon: "award", highlights: true },
+      { key: "values.items.quality", icon: "gem", highlights: true },
       { key: "values.items.safety", icon: "hardhat", highlights: true },
       { key: "values.items.integrity", icon: "handshake", highlights: true },
-      { key: "values.items.community", icon: "users", highlights: true },
+      { key: "values.items.community", icon: "target", highlights: true },
     ],
   },
 } as const;
