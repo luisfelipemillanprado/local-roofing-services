@@ -9,12 +9,15 @@ import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
 import { Container } from "@/common/container/components/Container";
 
 const { heading, ctaHref, rating, google, items } = testimonialsData;
+/* about's curated pick set (widened for includes) */
+const aboutPicks: readonly string[] = testimonialsData.aboutPicks;
 
-export const Testimonials = async ({ variant, tone = "muted", limit }: TestimonialsProps) => {
+export const Testimonials = async ({ variant, tone = "muted", limit, curated }: TestimonialsProps) => {
   const t = await getTranslations("testimonial");
   /* data: order + avatar; text by key */
-  /* limit: summary on home and services, full on about and gallery */
-  const cards = items.slice(0, limit).map((testimonial) => ({
+  /* curated: about's aboutPicks set; else leading slice by limit */
+  const source = curated ? items.filter((item) => aboutPicks.includes(item.key)) : items.slice(0, limit);
+  const cards = source.map((testimonial) => ({
     key: testimonial.key,
     avatar: testimonial.avatar,
     quote: t(`items.${testimonial.key}.quote`),

@@ -41,4 +41,6 @@ export const testimonialsData = {
     { key: "elliot", avatar: "/images/avatars/avatar-13.webp" },
     { key: "tyler", avatar: "/images/avatars/avatar-10.webp" },
   ],
+  /* about: curated 3-type mix (2 company, 2 services, 2 projects) */
+  aboutPicks: ["greg", "marcus", "dennis", "howard", "diana", "grace"],
 } as const;
