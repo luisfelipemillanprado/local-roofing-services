@@ -21,7 +21,6 @@ export const pageHeaderData = {
   secondaryCtaHref: {
     services: { key: "action.viewServices", href: "/services" },
     projects: { key: "action.viewProjects", href: "/gallery" },
-    team: { key: "action.viewTeam", href: "/about#team" },
     shop: { key: "action.viewShop", href: "/shop" },
     work: { key: "action.viewWork", href: "#projects" },
   },
