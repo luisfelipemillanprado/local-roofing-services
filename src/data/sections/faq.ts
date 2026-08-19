@@ -1,5 +1,11 @@
 /* Faq section: per-variant items, text by full key; header + cta shared */
 export const faqData = {
+  heading: {
+    eyebrow: "eyebrow",
+    titleLead: "titleLead",
+    titleAccent: "titleAccent",
+    description: "description",
+  },
   /* section CTA: i18n key (text) + href (destination) */
   ctaHref: { key: "action.contact", href: "#contact" },
   services: {

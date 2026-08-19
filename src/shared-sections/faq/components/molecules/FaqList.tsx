@@ -12,7 +12,7 @@ export const FaqList = ({ items }: FaqListProps) => (
       >
         <summary className="grid cursor-pointer list-none grid-cols-[1fr_auto] items-center gap-4">
           <Text as="span" size="body" weight="bold" text={question} />
-          <ChevronDown className="size-5 shrink-0 text-primary transition-transform duration-300 group-open:rotate-180" />
+          <ChevronDown className="size-5 text-primary transition-transform duration-300 group-open:rotate-180" />
         </summary>
         <div className="mt-4">
           <Text size="body" tone="muted" text={answer} />

@@ -1,7 +1,7 @@
 import type { faqData } from "@/data/sections/faq";
 
-/* page variants + per-service slugs; the ctaHref bundle is not a variant */
-type FaqVariant = Exclude<keyof typeof faqData, "ctaHref">;
+/* page variants + per-service slugs; the heading and ctaHref bundles are not variants */
+type FaqVariant = Exclude<keyof typeof faqData, "ctaHref" | "heading">;
 
 export interface FaqProps {
   variant: FaqVariant;

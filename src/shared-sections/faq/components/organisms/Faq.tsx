@@ -7,7 +7,7 @@ import { faqData } from "@/data/sections/faq";
 import type { FaqProps } from "@/shared-sections/faq/types";
 import { Container } from "@/common/container/components/Container";
 
-const { ctaHref } = faqData;
+const { heading, ctaHref } = faqData;
 
 export const Faq = async ({ variant, tone = "muted" }: FaqProps) => {
   const t = await getTranslations("faq");
@@ -26,10 +26,10 @@ export const Faq = async ({ variant, tone = "muted" }: FaqProps) => {
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description")}
+              eyebrow={t(heading.eyebrow)}
+              title={t(heading.titleLead)}
+              accent={t(heading.titleAccent)}
+              description={t(heading.description)}
             />
             <div className="mt-2">
               <Button href={ctaHref.href} variant="secondary" pulse>
