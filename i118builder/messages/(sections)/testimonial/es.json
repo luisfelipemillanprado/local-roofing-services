@@ -4,100 +4,100 @@
   "titleAccent": "Para Techos Firmes",
   "description": "Conoce por qué nuestros clientes confían en nuestro trabajo experto, comunicación constante y servicio altamente confiable para techos duraderos.",
   "action": {
-    "viewAll": "Ver Todas las Reseñas",
-    "contact": "Contáctanos Ahora"
+    "viewAll": "Ver Más Reseñas",
+    "contact": "Contactar Ahora"
   },
-  "reviews": "reseñas",
+  "reviews": "reseñas.",
   "items": {
     "paula": {
       "quote": "Desde el primer presupuesto hasta la limpieza final el equipo fue profesional y cumplido. Contestaron cada pregunta con franqueza y jamás tomaron un solo atajo.",
       "name": "Paula R. Moss",
-      "location": "Brickell, FL"
+      "location": "Brickell, FL."
     },
     "greg": {
       "quote": "Pedí tres cotizaciones y Roofpro fue de lejos la empresa más transparente. Sin cargos ocultos, trabajo de gran calidad, y terminaron antes de lo previsto.",
       "name": "Greg T. Walsh",
-      "location": "Coconut Grove, FL"
+      "location": "Coconut Grove, FL."
     },
     "vanessa": {
       "quote": "Comparamos varios techadores locales y este equipo fue la opción más obvia. El trabajo fue impecable y terminaron un día completo antes de lo previsto.",
       "name": "Vanessa M. Crowe",
-      "location": "Aventura, FL"
+      "location": "Aventura, FL."
     },
     "curtis": {
       "quote": "Una cuadrilla honesta y paciente que explicó cada paso sin intentar venderte de más. Precio justo, trabajo impecable, y ni una gotera desde que terminaron.",
       "name": "Curtis M. Vaughn",
-      "location": "Homestead, FL"
+      "location": "Homestead, FL."
     },
     "owen": {
       "quote": "Desde el primer estudio hasta el último clavo documentaron todo con fotos. Precisos, profesionales, y nuestro techo salió justo en el presupuesto y a tiempo.",
       "name": "Owen R. Blackwell",
-      "location": "Coral Way, FL"
+      "location": "Coral Way, FL."
     },
     "marcus": {
       "quote": "Llevaron todo el proyecto desde los permisos hasta la limpieza sin ningún tropiezo. Su comunicación clara y la garantía escrita nos dieron una tranquilidad total.",
       "name": "Marcus D. Whitfield",
-      "location": "Cedar Heights, FL"
+      "location": "Cedar Heights, FL."
     },
     "carmen": {
       "quote": "Su inspección de temporada detectó un problema de tapajuntas antes de volverse gotera. Dos veces al año limpian las canaletas y revisan cada punto vulnerable.",
       "name": "Carmen L. Ortega",
-      "location": "Palmetto Bay, FL"
+      "location": "Palmetto Bay, FL."
     },
     "dennis": {
       "quote": "Roofpro reemplazó todo nuestro techo tras una granizada y gestionó el papeleo del seguro. La cuadrilla fue puntual, ordenada y se preocupó por el resultado.",
       "name": "Dennis M. Collis",
-      "location": "Wynwood, FL"
+      "location": "Wynwood, FL."
     },
     "sofia": {
       "quote": "Nuestras canaletas se desbordaban en cada tormenta y empapaban por completo los cimientos. Su nuevo sistema sin uniones por fin aleja el agua de casa.",
       "name": "Sofia R. Delgado",
-      "location": "Kendall, FL"
+      "location": "Kendall, FL."
     },
     "howard": {
       "quote": "Una tormenta nocturna arrancó nuestras tejas y respondieron de inmediato. Cubrieron todo con lona en horas y repararon el techo antes del fin de semana.",
       "name": "Howard J. Tanner",
-      "location": "Downtown Miami, FL"
+      "location": "Downtown Miami, FL."
     },
     "bradley": {
       "quote": "Después de que dos compañías no hallaran el problema, este equipo lo resolvió. Honestos, rápidos, y mucho más baratos que el reemplazo que todos proponían.",
       "name": "Bradley T. Hurst",
-      "location": "Westchester, FL"
+      "location": "Westchester, FL."
     },
     "frank": {
       "quote": "Años de parches constantes terminaron cuando rehicieron el techo como se debe. El nuevo sistema aguantó la primera gran tormenta sin una sola gotera adentro.",
       "name": "Frank R. Colton",
-      "location": "Hialeah, FL"
+      "location": "Hialeah, FL."
     },
     "diana": {
       "quote": "Nuestro nuevo techo de shingle transformó por completo la fachada de la casa. Cada línea quedó recta y los vecinos siguen preguntando quién lo hizo.",
       "name": "Diana K. Prescott",
-      "location": "Pinecrest, FL"
+      "location": "Pinecrest, FL."
     },
     "victor": {
       "quote": "Cada detalle se planificó antes de comenzar y de verdad se notó en el resultado. La instalación es precisa, hermética, y claramente construida para durar.",
       "name": "Victor S. Almeida",
-      "location": "Doral, FL"
+      "location": "Doral, FL."
     },
     "grace": {
       "quote": "Rehicieron nuestro techo con metal de junta alzada y el cambio fue de día y noche. Profesionales, siempre puntuales, y trataron la propiedad con respeto.",
       "name": "Grace E. Holloway",
-      "location": "Coral Gables, FL"
+      "location": "Coral Gables, FL."
     },
     "nathan": {
       "quote": "Respetaron el estilo del vecindario con precisión y aun así terminaron bajo presupuesto. El techo nuevo luce premium y no goteó en toda la temporada.",
       "name": "Nathan P. Ridley",
-      "location": "Cutler Bay, FL"
+      "location": "Cutler Bay, FL."
     },
     "elliot": {
       "quote": "El techo terminado en teja de arcilla parece sacado de una revista de arquitectura. Cada hilera quedó impecable y toda la calle luce mucho mejor.",
       "name": "Elliot G. Ramsey",
-      "location": "Midtown, FL"
+      "location": "Midtown, FL."
     },
     "tyler": {
       "quote": "Nuestro techo nuevo luce realmente espectacular y toda la casa se siente mucho más fresca. El color que eligieron realzó todo el aspecto del hogar.",
       "name": "Tyler S. Brooks",
-      "location": "Little Havana, FL"
+      "location": "Little Havana, FL."
     }
   }
 }
