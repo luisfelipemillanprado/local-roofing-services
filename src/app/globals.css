@@ -158,6 +158,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    interpolate-size: allow-keywords; /* enables height transitions to/from auto */
   }
 
   body {
@@ -234,6 +235,20 @@
   }
 }
 
+/* FAQ accordion: interpolate the native details height for a fluid open/close. */
+@layer components {
+  .faq-accordion::details-content {
+    block-size: 0;
+    overflow: hidden;
+    transition:
+      block-size 0.3s ease,
+      content-visibility 0.3s allow-discrete;
+  }
+  .faq-accordion[open]::details-content {
+    block-size: auto;
+  }
+}
+
 /* Hero scrims (contrast) — side for copy legibility, bottom to seat the section. */
 @utility overlay-hero-side {
   background-image: linear-gradient(
@@ -276,5 +291,8 @@
   .animate-tada,
   .animate-ping {
     animation: none;
+  }
+  .faq-accordion::details-content {
+    transition: none;
   }
 }
