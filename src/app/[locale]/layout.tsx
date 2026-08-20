@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
+import { routeMetadata } from "@/i18n/metadata";
 import { SyncLocale } from "@/app/SyncLocale";
 import { FloatingContact } from "@/layout/floating-contact/components/organisms/FloatingContact";
 
@@ -42,27 +43,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "energy efficient roofing",
     ],
     authors: [{ name: "Roofpro" }],
-    alternates: {
-      canonical: locale === routing.defaultLocale ? "/" : `/${locale}`,
-      languages: {
-        en: "/",
-        es: "/es",
-      },
-    },
-    openGraph: {
-      type: "website",
-      url: siteUrl,
-      title: t("ogTitle"),
-      description: t("ogDescription"),
-      siteName: "Roofpro",
-      locale,
-    },
     twitter: {
       card: "summary_large_image",
       title: t("ogTitle"),
       description: t("ogDescription"),
     },
     robots: { index: true, follow: true },
+    /* home canonical/alternates/og:url; pages override with their own route */
+    ...(await routeMetadata(locale as Locale, "/")),
   };
 }
 

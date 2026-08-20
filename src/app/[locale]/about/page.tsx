@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
+import { routeMetadata } from "@/i18n/metadata";
 import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
 import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
@@ -22,7 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale: locale as Locale,
     namespace: "metadata.pages.about",
   });
-  return { title: t("title"), description: t("description") };
+  return {
+    title: t("title"),
+    description: t("description"),
+    ...(await routeMetadata(locale as Locale, "/about")),
+  };
 }
 
 export default async function AboutPage({ params }: Props) {
