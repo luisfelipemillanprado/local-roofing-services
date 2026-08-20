@@ -1,10 +1,10 @@
 {
-  "eyebrow": "PREGUNTAS FRECUENTES.",
+  "eyebrow": "RESPUESTAS.",
   "titleLead": "Puntos A Considerar",
-  "titleAccent": "Antes De Elegirnos",
-  "description": "Explora respuestas útiles a preguntas importantes, dándote la claridad que necesitas antes de elegir servicios de techado para tu hogar con confianza.",
+  "titleAccent": "Antes De Contratar",
+  "description": "Analiza respuestas claras a preguntas fundamentales, ganando la confianza que necesitas antes de elegir hoy nuestros servicios de techado.",
   "action": {
-    "contact": "Contáctanos Ahora"
+    "contact": "Contactar Ahora"
   },
   "services": {
     "items": {
@@ -73,32 +73,224 @@
   "about": {
     "items": {
       "licensed": {
-        "q": "¿Son un contratista de techado con licencia y seguro en Florida?",
+        "q": "¿Cuentan con las licencias y seguros para operar en Florida?",
         "a": "Por supuesto. Contamos con licencia y seguro completos para operar en toda Florida. Tenemos seguro de responsabilidad civil general y de compensación laboral, protegiéndote a ti y a tu propiedad durante todo el proyecto."
       },
       "hurricanes": {
-        "q": "¿Sus techos resisten los huracanes de Florida?",
+        "q": "¿Están todos sus techos construidos para resistir los huracanes?",
         "a": "Sí. Instalamos sistemas de techado avanzados que cumplen o superan el riguroso Código de Construcción de Florida, con materiales de alta calidad y métodos de instalación diseñados para brindar protección superior contra los vientos fuertes y el clima severo de Florida."
       },
       "insurance": {
-        "q": "¿Ayudan con los reclamos al seguro?",
+        "q": "¿Su equipo me acompañará durante todo el proceso de reclamo?",
         "a": "Sí. Te ayudamos a navegar el proceso de reclamo al seguro con inspecciones minuciosas del techo, documentación precisa y acompañamiento profesional en cada paso."
       },
       "permits": {
-        "q": "¿Necesito un permiso para un techo nuevo en Florida?",
+        "q": "¿Se encargan ustedes de gestionar todos los permisos de construcción?",
         "a": "Sí. La mayoría de los reemplazos de techo requieren permisos locales. Nuestro equipo gestiona todo el proceso de permisos de principio a fin y agenda las inspecciones requeridas para que tu proyecto cumpla los códigos de construcción locales."
       },
       "warranty": {
-        "q": "¿Ofrecen garantías sobre su trabajo?",
+        "q": "¿Ustedes ofrecen garantías completas sobre todo su trabajo de techado?",
         "a": "Sí. Cada proyecto incluye nuestra garantía integral de mano de obra, y la mayoría de los sistemas de techado incluyen además garantías extendidas del fabricante para mayor protección a largo plazo y tranquilidad."
       },
       "replacement": {
-        "q": "¿Cuánto tarda un reemplazo de techo típico?",
+        "q": "¿Exactamente cuánto tiempo tarda un proceso de reemplazo de techo?",
         "a": "La mayoría de los reemplazos residenciales se completan en 1 a 3 días, según el tamaño de tu casa, el material del techo, el clima y los requisitos de permisos. Te damos un cronograma detallado antes de comenzar tu proyecto."
       },
       "signs": {
-        "q": "¿Cómo sé si mi techo necesita reemplazo?",
+        "q": "¿Cómo puedo saber si mi techo necesita un reemplazo completo?",
         "a": "Las señales comunes incluyen tejas faltantes o dañadas, goteras persistentes, áreas hundidas o manchas de agua en los cielos rasos. Brindamos inspecciones profesionales gratuitas para determinar si una reparación puntual o un reemplazo completo es la mejor opción para tu hogar."
+      }
+    }
+  },
+  "repair": {
+    "items": {
+      "assessment": {
+        "q": "¿Cómo sé si mi techo necesita reparación en lugar de reemplazo?",
+        "a": "La respuesta depende de la edad de tu techo, la magnitud del daño y su estado general. Durante la inspección determinamos si una reparación profesional puede restaurar tu techo de forma segura o si un reemplazo completo es la mejor solución a largo plazo."
+      },
+      "damage": {
+        "q": "¿Qué tipos de daño en el techo suelen poder repararse?",
+        "a": "Muchos problemas se pueden reparar, como fugas, tejas faltantes, tejas agrietadas, tapajuntas dañado, componentes de la cumbrera sueltos y daño por tormenta. Cada reparación comienza con una inspección minuciosa para identificar el origen del problema."
+      },
+      "leak": {
+        "q": "¿Pueden reparar una fuga activa sin reemplazar todo el techo?",
+        "a": "Sí. En muchos casos, las fugas se deben a materiales, tapajuntas o penetraciones dañados y no a todo el sistema de techo. Identificamos el origen de la fuga y hacemos las reparaciones necesarias cuando no se requiere reemplazo."
+      },
+      "duration": {
+        "q": "¿Cuánto tarda en completarse una reparación típica de techo?",
+        "a": "La mayoría de las reparaciones se completan en una sola visita, según el tipo de daño, el clima y la disponibilidad de materiales. Las reparaciones más grandes o complejas pueden requerir tiempo adicional."
+      },
+      "extend": {
+        "q": "¿Una reparación ayudará a extender la vida de mi techo actual?",
+        "a": "Sí. Atender el daño a tiempo ayuda a prevenir la intrusión de agua y el deterioro adicional, permitiendo que tu sistema de techo actual siga funcionando como debe por más tiempo."
+      },
+      "matching": {
+        "q": "¿Pueden igualar los materiales y el color de mi techo actual?",
+        "a": "Hacemos todo lo posible por igualar los materiales, el perfil y el color de tu techo actual lo más posible. La disponibilidad depende de la edad de tu techo y de los productos que ofrecen actualmente los fabricantes."
+      },
+      "warranty": {
+        "q": "¿Su trabajo de reparación tiene garantía?",
+        "a": "Sí. Nuestras reparaciones incluyen una garantía escrita de mano de obra que cubre la reparación realizada, dándote mayor confianza en la calidad del trabajo."
+      }
+    }
+  },
+  "replacement": {
+    "items": {
+      "duration": {
+        "q": "¿Cuánto tarda un reemplazo completo de techo?",
+        "a": "La mayoría de los reemplazos residenciales se completan en uno o dos días. El tiempo puede variar según el tamaño de tu casa, el material del techo, los permisos, el clima y cualquier reparación adicional que se descubra durante el reemplazo."
+      },
+      "presence": {
+        "q": "¿Debo salir de casa durante el reemplazo del techo?",
+        "a": "No. La mayoría de los dueños puede quedarse en casa durante el proyecto. Nuestro equipo trabaja para minimizar las molestias manteniendo un área de trabajo segura, y recomendamos mantener a las mascotas y los niños lejos de las zonas de instalación activas."
+      },
+      "cost": {
+        "q": "¿Qué factores afectan el costo de un reemplazo de techo?",
+        "a": "La inversión total depende del tamaño del techo, los materiales elegidos, el estado actual del techo, las reparaciones del deck, los requisitos de tapajuntas y la complejidad del proyecto. Entregamos un estimado detallado por escrito que describe el alcance completo antes de empezar."
+      },
+      "warranty": {
+        "q": "¿La garantía es sobre los materiales o la mano de obra?",
+        "a": "Un reemplazo de techo incluye la garantía del fabricante para los materiales y nuestra garantía escrita de mano de obra por la instalación. Esto brinda protección tanto para los productos usados como para la calidad del trabajo realizado."
+      },
+      "leaks": {
+        "q": "¿Un reemplazo de techo arreglará mis filtraciones actuales?",
+        "a": "Un reemplazo completo retira el sistema de techo viejo y ataca los problemas de fondo que afectan la protección de tu hogar. Con una instalación correcta, tu nuevo sistema está diseñado para brindar un desempeño confiable y protección contra el clima a largo plazo."
+      },
+      "rain": {
+        "q": "¿Qué pasa si llueve durante el reemplazo de mi techo?",
+        "a": "Vigilamos el clima durante todo el proyecto y tomamos las precauciones necesarias para proteger tu hogar. Si el clima severo crea condiciones inseguras, la instalación se pausa temporalmente hasta poder continuar con seguridad."
+      },
+      "permit": {
+        "q": "¿Se encargan de los permisos e inspecciones?",
+        "a": "Sí. Gestionamos los permisos requeridos y coordinamos las inspecciones durante todo el reemplazo. Esto ayuda a asegurar que tu nuevo sistema de techo se instale conforme a los requisitos de construcción locales y los estándares del proyecto."
+      }
+    }
+  },
+  "storm": {
+    "items": {
+      "signs": {
+        "q": "¿Cómo sé si mi techo tiene daño por tormenta tras un clima severo?",
+        "a": "El daño por tormenta no siempre es visible desde el suelo. Tejas faltantes, tejas agrietadas, tapajuntas levantado, abolladuras, manchas de agua o fugas interiores son señales comunes. Una inspección profesional ayuda a identificar el daño visible y oculto antes de que genere reparaciones más costosas."
+      },
+      "inspect": {
+        "q": "¿Debo agendar una inspección aunque no vea una fuga?",
+        "a": "Sí. Los vientos fuertes, el granizo y los escombros voladores pueden debilitar los materiales del techo sin causar una fuga inmediata. Una inspección nos permite identificar el daño oculto a tiempo y recomendar reparaciones antes de que la humedad llegue al sistema de techo."
+      },
+      "insurance": {
+        "q": "¿Pueden proporcionar documentación para mi reclamo de seguro?",
+        "a": "Sí. Documentamos el daño por tormenta con fotos detalladas y una evaluación escrita que identifica claramente las áreas afectadas. Esta información puede ayudar a respaldar tu reclamo de seguro y ofrecer un registro claro del estado de tu techo."
+      },
+      "leak": {
+        "q": "¿Qué debo hacer si mi techo empieza a filtrar tras una tormenta?",
+        "a": "Contáctanos lo antes posible. Evaluamos las áreas dañadas, recomendamos protección inmediata cuando es necesario y realizamos las reparaciones requeridas para ayudar a prevenir más intrusión de agua y daños adicionales a tu hogar."
+      },
+      "types": {
+        "q": "¿Qué tipos de daño por tormenta suelen poder repararse?",
+        "a": "Reparamos daños causados por huracanes, tormentas tropicales, granizo, vientos fuertes y escombros arrastrados por el viento. Esto incluye reemplazar materiales dañados, reparar tapajuntas, sellar áreas vulnerables y restaurar el desempeño protector del techo."
+      },
+      "urgency": {
+        "q": "¿Con qué rapidez debe repararse el daño una vez que pasa el clima?",
+        "a": "El daño por tormenta debe atenderse tan pronto como las condiciones sean seguras. Las reparaciones rápidas ayudan a prevenir fugas, deterioro estructural, moho y daños adicionales que pueden desarrollarse cuando el agua sigue entrando al sistema de techo."
+      },
+      "matching": {
+        "q": "¿Las áreas reparadas combinarán con mis materiales de techo actuales?",
+        "a": "Hacemos todo lo posible por igualar el material, el perfil y el color de tu techo actual lo más posible. La disponibilidad depende de la edad de tu techo y de la oferta actual del fabricante, pero nuestra meta siempre es una apariencia consistente y profesional."
+      }
+    }
+  },
+  "inspections": {
+    "items": {
+      "includes": {
+        "q": "¿Qué incluye una inspección profesional de techo?",
+        "a": "Nuestra inspección evalúa el estado general de tu sistema de techo, incluyendo tejas, tapajuntas, penetraciones y otras áreas vulnerables. También documentamos los hallazgos con fotos y entregamos un informe escrito detallado."
+      },
+      "frequency": {
+        "q": "¿Con qué frecuencia debo inspeccionar mi techo profesionalmente?",
+        "a": "La mayoría de los dueños se benefician de una inspección profesional al menos una vez al año y después de tormentas fuertes. Las inspecciones regulares ayudan a identificar problemas en desarrollo antes de que se vuelvan reparaciones costosas o acorten la vida del techo."
+      },
+      "hidden": {
+        "q": "¿Una inspección puede identificar fugas o daños ocultos?",
+        "a": "Sí. Aunque algunas condiciones son visibles de inmediato, una inspección profesional a menudo identifica señales tempranas de intrusión de agua, tapajuntas dañado, materiales deteriorados y otros problemas que no son obvios desde el suelo."
+      },
+      "report": {
+        "q": "¿Recibiré fotos y un informe de inspección escrito?",
+        "a": "Sí. Cada inspección incluye documentación con fotos y un informe escrito detallado que explica el estado del techo, cualquier área de preocupación y nuestras recomendaciones profesionales para reparaciones o mantenimiento futuro."
+      },
+      "insurance": {
+        "q": "¿Una inspección puede ayudar con un reclamo de seguro?",
+        "a": "Sí. Una inspección documentada ofrece un registro claro del estado de tu techo y puede ayudar a respaldar las conversaciones con el seguro al identificar daño por tormenta u otros problemas que requieren atención profesional."
+      },
+      "buying": {
+        "q": "¿Necesito una inspección antes de comprar o vender una casa?",
+        "a": "Una inspección profesional ayuda a los compradores a entender el estado del techo antes del cierre, mientras que los vendedores pueden identificar y atender posibles problemas que puedan surgir durante la transacción."
+      },
+      "recommendations": {
+        "q": "¿La inspección incluye recomendaciones de reparación si se encuentran problemas?",
+        "a": "Por supuesto. Si identificamos daños o áreas de preocupación, explicamos los hallazgos, recomendamos la solución adecuada y ofrecemos una guía clara para que tomes una decisión informada sobre tu techo."
+      }
+    }
+  },
+  "gutters": {
+    "items": {
+      "replace": {
+        "q": "¿Cómo sé si mis canaletas necesitan reemplazo?",
+        "a": "Señales de canaletas en mal estado incluyen desbordes frecuentes, secciones caídas, grietas visibles, óxido, conexiones flojas, agua acumulada cerca de los cimientos, o canaletas que ya no alejan bien el agua de tu casa."
+      },
+      "flashing": {
+        "q": "¿Por qué es importante un buen tapajuntas para mi casa?",
+        "a": "El tapajuntas protege las áreas vulnerables por donde puede entrar el agua, como bordes del techo, paredes, limas, chimeneas y otras penetraciones. Bien instalado, ayuda a prevenir filtraciones y daños por humedad a largo plazo."
+      },
+      "damage": {
+        "q": "¿Las canaletas dañadas pueden causar más problemas que el desborde?",
+        "a": "Sí. Las canaletas que funcionan mal pueden dejar que el agua se acumule cerca de los cimientos, dañar superficies exteriores, afectar el jardín y contribuir a problemas de humedad alrededor de tu casa."
+      },
+      "areas": {
+        "q": "¿Qué áreas de mi casa necesitan protección con tapajuntas?",
+        "a": "El tapajuntas se instala comúnmente donde los materiales del techo se encuentran con paredes, chimeneas, ductos, limas y otras transiciones. Estas áreas requieren un sellado adecuado para ayudar a prevenir filtraciones."
+      },
+      "combined": {
+        "q": "¿Pueden reemplazar canaletas y reparar tapajuntas al mismo tiempo?",
+        "a": "Sí. Combinar los servicios de canaletas y tapajuntas nos permite atender varios problemas de manejo de agua a la vez y crear mejor protección en las áreas más vulnerables de tu casa."
+      },
+      "drainage": {
+        "q": "¿Cómo se aseguran de que las canaletas nuevas drenen correctamente?",
+        "a": "Evaluamos el flujo del agua del techo, la pendiente de las canaletas, la ubicación de las bajantes y los puntos de drenaje para dirigir el agua lejos de tu casa de forma eficiente."
+      },
+      "lifespan": {
+        "q": "¿Cuánto duran las canaletas y los tapajuntas nuevos?",
+        "a": "La vida útil depende de los materiales, la calidad de la instalación, la exposición al clima y el mantenimiento. Los sistemas bien instalados brindan protección confiable contra el agua por muchos años."
+      }
+    }
+  },
+  "commercial": {
+    "items": {
+      "systems": {
+        "q": "¿Qué tipos de sistemas de techado comercial instalan y reemplazan?",
+        "a": "Trabajamos con una variedad de sistemas de techado comercial según el diseño de tu edificio, los requisitos de desempeño y tus metas a largo plazo. Durante la evaluación recomendamos la solución más adecuada para tu propiedad específica."
+      },
+      "disruption": {
+        "q": "¿El trabajo se puede completar sin interrumpir las operaciones del negocio?",
+        "a": "En muchos casos, sí. Planeamos cuidadosamente el cronograma y coordinamos el trabajo para minimizar la interrupción siempre que sea posible, manteniendo un entorno seguro para empleados, clientes y visitantes."
+      },
+      "assessment": {
+        "q": "¿Cómo determinan si un techo comercial necesita reparación o reemplazo?",
+        "a": "Nuestra inspección evalúa el estado general del techo, su edad, el daño existente, el desempeño del drenaje y la vida útil restante. Con base en esos hallazgos, recomendamos la solución más práctica y rentable."
+      },
+      "duration": {
+        "q": "¿Cuánto suele tardar un proyecto de techado comercial?",
+        "a": "Los tiempos varían según el tamaño del edificio, el sistema de techo, el clima y la complejidad del proyecto. Entregamos un cronograma detallado antes de empezar para que sepas qué esperar."
+      },
+      "managers": {
+        "q": "¿Pueden trabajar con administradores de propiedades y comunidades HOA?",
+        "a": "Sí. Coordinamos regularmente con administradores de propiedades, gerentes de instalaciones y representantes de HOA para ayudar a que los proyectos cumplan con los requisitos de horario, los estándares de la propiedad y las necesidades operativas."
+      },
+      "inspection": {
+        "q": "¿Realizan inspecciones del techo antes de recomendar una solución?",
+        "a": "Por supuesto. Cada proyecto comercial comienza con una inspección completa para identificar problemas existentes, evaluar el sistema de techo y determinar el mejor curso de acción."
+      },
+      "warranty": {
+        "q": "¿Su trabajo de techado comercial incluye garantía?",
+        "a": "Sí. Nuestros proyectos de techado comercial incluyen una garantía escrita de mano de obra, y se proporciona la cobertura de garantía del fabricante aplicable para los materiales usados en la instalación."
       }
     }
   },
@@ -230,102 +422,6 @@
       }
     }
   },
-  "gutters": {
-    "items": {
-      "replace": {
-        "q": "¿Cómo sé si mis canaletas necesitan reemplazo?",
-        "a": "Señales de canaletas en mal estado incluyen desbordes frecuentes, secciones caídas, grietas visibles, óxido, conexiones flojas, agua acumulada cerca de los cimientos, o canaletas que ya no alejan bien el agua de tu casa."
-      },
-      "flashing": {
-        "q": "¿Por qué es importante un buen tapajuntas para mi casa?",
-        "a": "El tapajuntas protege las áreas vulnerables por donde puede entrar el agua, como bordes del techo, paredes, limas, chimeneas y otras penetraciones. Bien instalado, ayuda a prevenir filtraciones y daños por humedad a largo plazo."
-      },
-      "damage": {
-        "q": "¿Las canaletas dañadas pueden causar más problemas que el desborde?",
-        "a": "Sí. Las canaletas que funcionan mal pueden dejar que el agua se acumule cerca de los cimientos, dañar superficies exteriores, afectar el jardín y contribuir a problemas de humedad alrededor de tu casa."
-      },
-      "areas": {
-        "q": "¿Qué áreas de mi casa necesitan protección con tapajuntas?",
-        "a": "El tapajuntas se instala comúnmente donde los materiales del techo se encuentran con paredes, chimeneas, ductos, limas y otras transiciones. Estas áreas requieren un sellado adecuado para ayudar a prevenir filtraciones."
-      },
-      "combined": {
-        "q": "¿Pueden reemplazar canaletas y reparar tapajuntas al mismo tiempo?",
-        "a": "Sí. Combinar los servicios de canaletas y tapajuntas nos permite atender varios problemas de manejo de agua a la vez y crear mejor protección en las áreas más vulnerables de tu casa."
-      },
-      "drainage": {
-        "q": "¿Cómo se aseguran de que las canaletas nuevas drenen correctamente?",
-        "a": "Evaluamos el flujo del agua del techo, la pendiente de las canaletas, la ubicación de las bajantes y los puntos de drenaje para dirigir el agua lejos de tu casa de forma eficiente."
-      },
-      "lifespan": {
-        "q": "¿Cuánto duran las canaletas y los tapajuntas nuevos?",
-        "a": "La vida útil depende de los materiales, la calidad de la instalación, la exposición al clima y el mantenimiento. Los sistemas bien instalados brindan protección confiable contra el agua por muchos años."
-      }
-    }
-  },
-  "replacement": {
-    "items": {
-      "duration": {
-        "q": "¿Cuánto tarda un reemplazo completo de techo?",
-        "a": "La mayoría de los reemplazos residenciales se completan en uno o dos días. El tiempo puede variar según el tamaño de tu casa, el material del techo, los permisos, el clima y cualquier reparación adicional que se descubra durante el reemplazo."
-      },
-      "presence": {
-        "q": "¿Debo salir de casa durante el reemplazo del techo?",
-        "a": "No. La mayoría de los dueños puede quedarse en casa durante el proyecto. Nuestro equipo trabaja para minimizar las molestias manteniendo un área de trabajo segura, y recomendamos mantener a las mascotas y los niños lejos de las zonas de instalación activas."
-      },
-      "cost": {
-        "q": "¿Qué factores afectan el costo de un reemplazo de techo?",
-        "a": "La inversión total depende del tamaño del techo, los materiales elegidos, el estado actual del techo, las reparaciones del deck, los requisitos de tapajuntas y la complejidad del proyecto. Entregamos un estimado detallado por escrito que describe el alcance completo antes de empezar."
-      },
-      "warranty": {
-        "q": "¿La garantía es sobre los materiales o la mano de obra?",
-        "a": "Un reemplazo de techo incluye la garantía del fabricante para los materiales y nuestra garantía escrita de mano de obra por la instalación. Esto brinda protección tanto para los productos usados como para la calidad del trabajo realizado."
-      },
-      "leaks": {
-        "q": "¿Un reemplazo de techo arreglará mis filtraciones actuales?",
-        "a": "Un reemplazo completo retira el sistema de techo viejo y ataca los problemas de fondo que afectan la protección de tu hogar. Con una instalación correcta, tu nuevo sistema está diseñado para brindar un desempeño confiable y protección contra el clima a largo plazo."
-      },
-      "rain": {
-        "q": "¿Qué pasa si llueve durante el reemplazo de mi techo?",
-        "a": "Vigilamos el clima durante todo el proyecto y tomamos las precauciones necesarias para proteger tu hogar. Si el clima severo crea condiciones inseguras, la instalación se pausa temporalmente hasta poder continuar con seguridad."
-      },
-      "permit": {
-        "q": "¿Se encargan de los permisos e inspecciones?",
-        "a": "Sí. Gestionamos los permisos requeridos y coordinamos las inspecciones durante todo el reemplazo. Esto ayuda a asegurar que tu nuevo sistema de techo se instale conforme a los requisitos de construcción locales y los estándares del proyecto."
-      }
-    }
-  },
-  "repair": {
-    "items": {
-      "assessment": {
-        "q": "¿Cómo sé si mi techo necesita reparación en lugar de reemplazo?",
-        "a": "La respuesta depende de la edad de tu techo, la magnitud del daño y su estado general. Durante la inspección determinamos si una reparación profesional puede restaurar tu techo de forma segura o si un reemplazo completo es la mejor solución a largo plazo."
-      },
-      "damage": {
-        "q": "¿Qué tipos de daño en el techo suelen poder repararse?",
-        "a": "Muchos problemas se pueden reparar, como fugas, tejas faltantes, tejas agrietadas, tapajuntas dañado, componentes de la cumbrera sueltos y daño por tormenta. Cada reparación comienza con una inspección minuciosa para identificar el origen del problema."
-      },
-      "leak": {
-        "q": "¿Pueden reparar una fuga activa sin reemplazar todo el techo?",
-        "a": "Sí. En muchos casos, las fugas se deben a materiales, tapajuntas o penetraciones dañados y no a todo el sistema de techo. Identificamos el origen de la fuga y hacemos las reparaciones necesarias cuando no se requiere reemplazo."
-      },
-      "duration": {
-        "q": "¿Cuánto tarda en completarse una reparación típica de techo?",
-        "a": "La mayoría de las reparaciones se completan en una sola visita, según el tipo de daño, el clima y la disponibilidad de materiales. Las reparaciones más grandes o complejas pueden requerir tiempo adicional."
-      },
-      "extend": {
-        "q": "¿Una reparación ayudará a extender la vida de mi techo actual?",
-        "a": "Sí. Atender el daño a tiempo ayuda a prevenir la intrusión de agua y el deterioro adicional, permitiendo que tu sistema de techo actual siga funcionando como debe por más tiempo."
-      },
-      "matching": {
-        "q": "¿Pueden igualar los materiales y el color de mi techo actual?",
-        "a": "Hacemos todo lo posible por igualar los materiales, el perfil y el color de tu techo actual lo más posible. La disponibilidad depende de la edad de tu techo y de los productos que ofrecen actualmente los fabricantes."
-      },
-      "warranty": {
-        "q": "¿Su trabajo de reparación tiene garantía?",
-        "a": "Sí. Nuestras reparaciones incluyen una garantía escrita de mano de obra que cubre la reparación realizada, dándote mayor confianza en la calidad del trabajo."
-      }
-    }
-  },
   "skylights": {
     "items": {
       "existing": {
@@ -355,102 +451,6 @@
       "warranty": {
         "q": "¿Mi instalación de claraboya incluye garantía de mano de obra?",
         "a": "Sí. Cada instalación de claraboya incluye nuestra garantía escrita de mano de obra que cubre la calidad de la instalación. La unidad de claraboya también está respaldada por la garantía del fabricante correspondiente al producto elegido."
-      }
-    }
-  },
-  "storm": {
-    "items": {
-      "signs": {
-        "q": "¿Cómo sé si mi techo tiene daño por tormenta tras un clima severo?",
-        "a": "El daño por tormenta no siempre es visible desde el suelo. Tejas faltantes, tejas agrietadas, tapajuntas levantado, abolladuras, manchas de agua o fugas interiores son señales comunes. Una inspección profesional ayuda a identificar el daño visible y oculto antes de que genere reparaciones más costosas."
-      },
-      "inspect": {
-        "q": "¿Debo agendar una inspección aunque no vea una fuga?",
-        "a": "Sí. Los vientos fuertes, el granizo y los escombros voladores pueden debilitar los materiales del techo sin causar una fuga inmediata. Una inspección nos permite identificar el daño oculto a tiempo y recomendar reparaciones antes de que la humedad llegue al sistema de techo."
-      },
-      "insurance": {
-        "q": "¿Pueden proporcionar documentación para mi reclamo de seguro?",
-        "a": "Sí. Documentamos el daño por tormenta con fotos detalladas y una evaluación escrita que identifica claramente las áreas afectadas. Esta información puede ayudar a respaldar tu reclamo de seguro y ofrecer un registro claro del estado de tu techo."
-      },
-      "leak": {
-        "q": "¿Qué debo hacer si mi techo empieza a filtrar tras una tormenta?",
-        "a": "Contáctanos lo antes posible. Evaluamos las áreas dañadas, recomendamos protección inmediata cuando es necesario y realizamos las reparaciones requeridas para ayudar a prevenir más intrusión de agua y daños adicionales a tu hogar."
-      },
-      "types": {
-        "q": "¿Qué tipos de daño por tormenta suelen poder repararse?",
-        "a": "Reparamos daños causados por huracanes, tormentas tropicales, granizo, vientos fuertes y escombros arrastrados por el viento. Esto incluye reemplazar materiales dañados, reparar tapajuntas, sellar áreas vulnerables y restaurar el desempeño protector del techo."
-      },
-      "urgency": {
-        "q": "¿Con qué rapidez debe repararse el daño una vez que pasa el clima?",
-        "a": "El daño por tormenta debe atenderse tan pronto como las condiciones sean seguras. Las reparaciones rápidas ayudan a prevenir fugas, deterioro estructural, moho y daños adicionales que pueden desarrollarse cuando el agua sigue entrando al sistema de techo."
-      },
-      "matching": {
-        "q": "¿Las áreas reparadas combinarán con mis materiales de techo actuales?",
-        "a": "Hacemos todo lo posible por igualar el material, el perfil y el color de tu techo actual lo más posible. La disponibilidad depende de la edad de tu techo y de la oferta actual del fabricante, pero nuestra meta siempre es una apariencia consistente y profesional."
-      }
-    }
-  },
-  "commercial": {
-    "items": {
-      "systems": {
-        "q": "¿Qué tipos de sistemas de techado comercial instalan y reemplazan?",
-        "a": "Trabajamos con una variedad de sistemas de techado comercial según el diseño de tu edificio, los requisitos de desempeño y tus metas a largo plazo. Durante la evaluación recomendamos la solución más adecuada para tu propiedad específica."
-      },
-      "disruption": {
-        "q": "¿El trabajo se puede completar sin interrumpir las operaciones del negocio?",
-        "a": "En muchos casos, sí. Planeamos cuidadosamente el cronograma y coordinamos el trabajo para minimizar la interrupción siempre que sea posible, manteniendo un entorno seguro para empleados, clientes y visitantes."
-      },
-      "assessment": {
-        "q": "¿Cómo determinan si un techo comercial necesita reparación o reemplazo?",
-        "a": "Nuestra inspección evalúa el estado general del techo, su edad, el daño existente, el desempeño del drenaje y la vida útil restante. Con base en esos hallazgos, recomendamos la solución más práctica y rentable."
-      },
-      "duration": {
-        "q": "¿Cuánto suele tardar un proyecto de techado comercial?",
-        "a": "Los tiempos varían según el tamaño del edificio, el sistema de techo, el clima y la complejidad del proyecto. Entregamos un cronograma detallado antes de empezar para que sepas qué esperar."
-      },
-      "managers": {
-        "q": "¿Pueden trabajar con administradores de propiedades y comunidades HOA?",
-        "a": "Sí. Coordinamos regularmente con administradores de propiedades, gerentes de instalaciones y representantes de HOA para ayudar a que los proyectos cumplan con los requisitos de horario, los estándares de la propiedad y las necesidades operativas."
-      },
-      "inspection": {
-        "q": "¿Realizan inspecciones del techo antes de recomendar una solución?",
-        "a": "Por supuesto. Cada proyecto comercial comienza con una inspección completa para identificar problemas existentes, evaluar el sistema de techo y determinar el mejor curso de acción."
-      },
-      "warranty": {
-        "q": "¿Su trabajo de techado comercial incluye garantía?",
-        "a": "Sí. Nuestros proyectos de techado comercial incluyen una garantía escrita de mano de obra, y se proporciona la cobertura de garantía del fabricante aplicable para los materiales usados en la instalación."
-      }
-    }
-  },
-  "inspections": {
-    "items": {
-      "includes": {
-        "q": "¿Qué incluye una inspección profesional de techo?",
-        "a": "Nuestra inspección evalúa el estado general de tu sistema de techo, incluyendo tejas, tapajuntas, penetraciones y otras áreas vulnerables. También documentamos los hallazgos con fotos y entregamos un informe escrito detallado."
-      },
-      "frequency": {
-        "q": "¿Con qué frecuencia debo inspeccionar mi techo profesionalmente?",
-        "a": "La mayoría de los dueños se benefician de una inspección profesional al menos una vez al año y después de tormentas fuertes. Las inspecciones regulares ayudan a identificar problemas en desarrollo antes de que se vuelvan reparaciones costosas o acorten la vida del techo."
-      },
-      "hidden": {
-        "q": "¿Una inspección puede identificar fugas o daños ocultos?",
-        "a": "Sí. Aunque algunas condiciones son visibles de inmediato, una inspección profesional a menudo identifica señales tempranas de intrusión de agua, tapajuntas dañado, materiales deteriorados y otros problemas que no son obvios desde el suelo."
-      },
-      "report": {
-        "q": "¿Recibiré fotos y un informe de inspección escrito?",
-        "a": "Sí. Cada inspección incluye documentación con fotos y un informe escrito detallado que explica el estado del techo, cualquier área de preocupación y nuestras recomendaciones profesionales para reparaciones o mantenimiento futuro."
-      },
-      "insurance": {
-        "q": "¿Una inspección puede ayudar con un reclamo de seguro?",
-        "a": "Sí. Una inspección documentada ofrece un registro claro del estado de tu techo y puede ayudar a respaldar las conversaciones con el seguro al identificar daño por tormenta u otros problemas que requieren atención profesional."
-      },
-      "buying": {
-        "q": "¿Necesito una inspección antes de comprar o vender una casa?",
-        "a": "Una inspección profesional ayuda a los compradores a entender el estado del techo antes del cierre, mientras que los vendedores pueden identificar y atender posibles problemas que puedan surgir durante la transacción."
-      },
-      "recommendations": {
-        "q": "¿La inspección incluye recomendaciones de reparación si se encuentran problemas?",
-        "a": "Por supuesto. Si identificamos daños o áreas de preocupación, explicamos los hallazgos, recomendamos la solución adecuada y ofrecemos una guía clara para que tomes una decisión informada sobre tu techo."
       }
     }
   },
