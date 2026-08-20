@@ -12,15 +12,15 @@ const { heading, ctaHref } = faqData;
 export const Faq = async ({ variant, tone = "muted" }: FaqProps) => {
   const t = await getTranslations("faq");
 
-  /* questions: per-variant items, text by full key */
-  const faqItems = faqData[variant].items.map((item) => ({
+  /* data: per-variant items; text by full key */
+  const cards = faqData[variant].items.map((item) => ({
     key: item.key,
     question: t(`${item.key}.q`),
     answer: t(`${item.key}.a`),
   }));
 
   return (
-    <SectionWrapper tone={tone}>
+    <SectionWrapper id="faq" tone={tone}>
       <Container>
         <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">
@@ -39,7 +39,7 @@ export const Faq = async ({ variant, tone = "muted" }: FaqProps) => {
           </div>
 
           <div className="mx-auto w-full max-w-3xl">
-            <FaqList items={faqItems} />
+            <FaqList cards={cards} />
           </div>
         </div>
       </Container>

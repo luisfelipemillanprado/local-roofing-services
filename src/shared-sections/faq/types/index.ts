@@ -1,20 +1,36 @@
-import type { faqData } from "@/data/sections/faq";
-
-/* page variants + per-service slugs; the heading and ctaHref bundles are not variants */
-type FaqVariant = Exclude<keyof typeof faqData, "ctaHref" | "heading">;
+/* page variants + per-service slugs; selects the faqData bundle */
+type FaqVariant =
+  | "services"
+  | "projects"
+  | "about"
+  | "repair"
+  | "replacement"
+  | "storm"
+  | "inspections"
+  | "gutters"
+  | "commercial"
+  | "residential"
+  | "metal"
+  | "tile"
+  | "flat"
+  | "skylights"
+  | "solar";
 
 export interface FaqProps {
   variant: FaqVariant;
-  tone?: "base" | "muted" /* section surface; keeps page section alternation correct */;
+  tone?: "base" | "muted"; /* section surface; keeps page section alternation correct */
 }
 
-/* resolved per-question item for the list */
-interface FaqItem {
-  key: string;
+export interface FaqCardProps {
   question: string;
   answer: string;
 }
 
+/* resolved per-question item for the list */
+interface FaqCardItem extends Pick<FaqCardProps, "question" | "answer"> {
+  key: string;
+}
+
 export interface FaqListProps {
-  items: FaqItem[];
+  cards: FaqCardItem[];
 }

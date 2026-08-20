@@ -41,7 +41,73 @@ export const faqData = {
       { key: "about.items.signs" },
     ],
   },
-  /* per-service detail variants; selected by the service slug */
+  /* per-service detail variants; selected by the service slug (services.ts order) */
+  repair: {
+    items: [
+      { key: "repair.items.assessment" },
+      { key: "repair.items.damage" },
+      { key: "repair.items.leak" },
+      { key: "repair.items.duration" },
+      { key: "repair.items.extend" },
+      { key: "repair.items.matching" },
+      { key: "repair.items.warranty" },
+    ],
+  },
+  replacement: {
+    items: [
+      { key: "replacement.items.duration" },
+      { key: "replacement.items.presence" },
+      { key: "replacement.items.cost" },
+      { key: "replacement.items.warranty" },
+      { key: "replacement.items.leaks" },
+      { key: "replacement.items.rain" },
+      { key: "replacement.items.permit" },
+    ],
+  },
+  storm: {
+    items: [
+      { key: "storm.items.signs" },
+      { key: "storm.items.inspect" },
+      { key: "storm.items.insurance" },
+      { key: "storm.items.leak" },
+      { key: "storm.items.types" },
+      { key: "storm.items.urgency" },
+      { key: "storm.items.matching" },
+    ],
+  },
+  inspections: {
+    items: [
+      { key: "inspections.items.includes" },
+      { key: "inspections.items.frequency" },
+      { key: "inspections.items.hidden" },
+      { key: "inspections.items.report" },
+      { key: "inspections.items.insurance" },
+      { key: "inspections.items.buying" },
+      { key: "inspections.items.recommendations" },
+    ],
+  },
+  gutters: {
+    items: [
+      { key: "gutters.items.replace" },
+      { key: "gutters.items.flashing" },
+      { key: "gutters.items.damage" },
+      { key: "gutters.items.areas" },
+      { key: "gutters.items.combined" },
+      { key: "gutters.items.drainage" },
+      { key: "gutters.items.lifespan" },
+    ],
+  },
+  commercial: {
+    items: [
+      { key: "commercial.items.systems" },
+      { key: "commercial.items.disruption" },
+      { key: "commercial.items.assessment" },
+      { key: "commercial.items.duration" },
+      { key: "commercial.items.managers" },
+      { key: "commercial.items.inspection" },
+      { key: "commercial.items.warranty" },
+    ],
+  },
   residential: {
     items: [
       { key: "residential.items.assessment" },
@@ -86,39 +152,6 @@ export const faqData = {
       { key: "flat.items.warranty" },
     ],
   },
-  gutters: {
-    items: [
-      { key: "gutters.items.replace" },
-      { key: "gutters.items.flashing" },
-      { key: "gutters.items.damage" },
-      { key: "gutters.items.areas" },
-      { key: "gutters.items.combined" },
-      { key: "gutters.items.drainage" },
-      { key: "gutters.items.lifespan" },
-    ],
-  },
-  replacement: {
-    items: [
-      { key: "replacement.items.duration" },
-      { key: "replacement.items.presence" },
-      { key: "replacement.items.cost" },
-      { key: "replacement.items.warranty" },
-      { key: "replacement.items.leaks" },
-      { key: "replacement.items.rain" },
-      { key: "replacement.items.permit" },
-    ],
-  },
-  repair: {
-    items: [
-      { key: "repair.items.assessment" },
-      { key: "repair.items.damage" },
-      { key: "repair.items.leak" },
-      { key: "repair.items.duration" },
-      { key: "repair.items.extend" },
-      { key: "repair.items.matching" },
-      { key: "repair.items.warranty" },
-    ],
-  },
   skylights: {
     items: [
       { key: "skylights.items.existing" },
@@ -128,39 +161,6 @@ export const faqData = {
       { key: "skylights.items.efficiency" },
       { key: "skylights.items.replace" },
       { key: "skylights.items.warranty" },
-    ],
-  },
-  storm: {
-    items: [
-      { key: "storm.items.signs" },
-      { key: "storm.items.inspect" },
-      { key: "storm.items.insurance" },
-      { key: "storm.items.leak" },
-      { key: "storm.items.types" },
-      { key: "storm.items.urgency" },
-      { key: "storm.items.matching" },
-    ],
-  },
-  commercial: {
-    items: [
-      { key: "commercial.items.systems" },
-      { key: "commercial.items.disruption" },
-      { key: "commercial.items.assessment" },
-      { key: "commercial.items.duration" },
-      { key: "commercial.items.managers" },
-      { key: "commercial.items.inspection" },
-      { key: "commercial.items.warranty" },
-    ],
-  },
-  inspections: {
-    items: [
-      { key: "inspections.items.includes" },
-      { key: "inspections.items.frequency" },
-      { key: "inspections.items.hidden" },
-      { key: "inspections.items.report" },
-      { key: "inspections.items.insurance" },
-      { key: "inspections.items.buying" },
-      { key: "inspections.items.recommendations" },
     ],
   },
   solar: {
