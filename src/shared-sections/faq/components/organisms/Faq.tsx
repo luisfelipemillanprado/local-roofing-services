@@ -11,7 +11,6 @@ const { heading, ctaHref } = faqData;
 
 export const Faq = async ({ variant, tone = "muted" }: FaqProps) => {
   const t = await getTranslations("faq");
-
   /* data: per-variant items; text by full key */
   const cards = faqData[variant].items.map((item) => ({
     key: item.key,
