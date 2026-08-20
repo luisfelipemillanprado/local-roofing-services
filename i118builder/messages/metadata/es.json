@@ -1,0 +1,25 @@
+{
+  "title": "Roofpro — Servicios de Techado de Calidad, Duraderos y Confiables",
+  "titleTemplate": "%s | Roofpro",
+  "description": "Roofpro ofrece soluciones de techado duraderas, energéticamente eficientes y confiables para propiedades residenciales y comerciales, respaldadas por más de 25 años de experiencia y más de 1,500 proyectos completados.",
+  "ogTitle": "Roofpro — Servicios de Techado de Calidad, Duraderos y Confiables",
+  "ogDescription": "Creamos techos con precisión y cuidado. Más de 25 años de experiencia protegiendo hogares y negocios.",
+  "pages": {
+    "about": {
+      "title": "Nosotros",
+      "description": "Conoce Roofpro: más de 25 años de experiencia en techado confiable y duradero, un equipo de profesionales licenciados y valores que guían cada proyecto que realizamos."
+    },
+    "services": {
+      "title": "Servicios de Techado",
+      "description": "Descubre la gama completa de servicios de techado residencial y comercial de Roofpro: reparaciones, instalaciones, sistemas de alta eficiencia, canaletas y más, todos respaldados por garantía de mano de obra."
+    },
+    "projects": {
+      "title": "Nuestros Proyectos",
+      "description": "Explora los proyectos de techado residencial y comercial más recientes de Roofpro: retechados, sistemas de techo plano, reemplazos de tejas y techos metálicos en toda la región."
+    },
+    "shop": {
+      "title": "Tienda",
+      "description": "Compra los productos de techado que nuestros equipos usan cada día: tejas, paneles, membranas, tragaluces, selladores y herramientas profesionales de las marcas líderes de la industria."
+    }
+  }
+}

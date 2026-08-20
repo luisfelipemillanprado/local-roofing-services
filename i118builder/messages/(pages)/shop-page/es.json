@@ -1,8 +1,4 @@
 {
-  "meta": {
-    "title": "Tienda",
-    "description": "Compra los productos de techado que nuestros equipos usan cada día: tejas, paneles, membranas, tragaluces, selladores y herramientas de las marcas líderes."
-  },
   "action": {
     "quote": "Solicitar Cotización",
     "view": "Ver Producto"

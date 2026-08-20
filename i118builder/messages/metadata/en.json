@@ -1,0 +1,25 @@
+{
+  "title": "Roofpro — Durable, Quality & Reliable Roofing Services",
+  "titleTemplate": "%s | Roofpro",
+  "description": "Roofpro delivers durable, energy-efficient and reliable roofing services for residential and commercial properties, backed by 25+ years of experience and 1,500+ completed projects.",
+  "ogTitle": "Roofpro — Durable, Quality & Reliable Roofing Services",
+  "ogDescription": "Crafting roofs with precision and care. 25+ years of experience protecting homes and businesses.",
+  "pages": {
+    "about": {
+      "title": "About Us",
+      "description": "Learn about Roofpro: 25+ years of reliable roofing experience, a team of licensed professionals, and the values that guide every project we deliver."
+    },
+    "services": {
+      "title": "Roofing Services",
+      "description": "Explore Roofpro's full range of residential and commercial roofing services: repairs, installation, energy-efficient systems, gutters and more, backed by a workmanship warranty."
+    },
+    "projects": {
+      "title": "Our Projects",
+      "description": "Browse Roofpro's recent residential and commercial roofing projects: re-roofs, flat-roof systems, shingle replacements and metal roofing across the region."
+    },
+    "shop": {
+      "title": "Shop",
+      "description": "Shop the roofing products our crews trust every day — shingles, panels, underlayment, skylights, sealants and pro tools from the industry's leading brands."
+    }
+  }
+}

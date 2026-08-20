@@ -1,8 +1,4 @@
 {
-  "meta": {
-    "title": "Shop",
-    "description": "Shop the roofing products our crews trust every day — shingles, panels, underlayment, skylights, sealants and pro tools from the industry's leading brands."
-  },
   "action": {
     "quote": "Request Quote",
     "view": "View Product"
