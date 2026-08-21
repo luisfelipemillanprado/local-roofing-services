@@ -17,7 +17,7 @@ export const ProjectViewerGrid = ({ cards, actionLabel }: ProjectViewerGridProps
         renderAction={(card, index) => (
           <button
             type="button"
-            aria-label={`${card.title} ${actionLabel}`}
+            aria-label={`${card.description} ${actionLabel}`}
             onClick={() => setOpenIndex(index)}
             className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
           >

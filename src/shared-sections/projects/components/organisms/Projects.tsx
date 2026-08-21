@@ -49,7 +49,7 @@ export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps
               renderAction={(card) => (
                 <Link
                   href={ctaHref.viewAll.href}
-                  aria-label={`${card.title} ${t(ctaHref.viewAll.key)}`}
+                  aria-label={`${card.description} ${t(ctaHref.viewAll.key)}`}
                   className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
                 >
                   <ArrowRight className="size-5 -rotate-45 text-white" />
