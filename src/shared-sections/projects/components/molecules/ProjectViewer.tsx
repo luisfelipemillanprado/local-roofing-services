@@ -7,10 +7,10 @@ import { ViewerControl } from "@/shared-sections/projects/components/atoms/Viewe
 import type { ProjectViewerProps } from "@/shared-sections/projects/types";
 
 /* modal image viewer: backdrop, prev/next, caption; portaled above the app shell */
-export const ProjectViewer = ({ images, startIndex, onClose }: ProjectViewerProps) => {
+export const ProjectViewer = ({ cards, startIndex, onClose }: ProjectViewerProps) => {
   const [current, setCurrent] = useState(startIndex);
   const closeRef = useRef<HTMLButtonElement>(null);
-  const count = images.length;
+  const count = cards.length;
 
   const prev = useCallback(() => setCurrent((c) => (c - 1 + count) % count), [count]);
   const next = useCallback(() => setCurrent((c) => (c + 1) % count), [count]);
@@ -36,7 +36,7 @@ export const ProjectViewer = ({ images, startIndex, onClose }: ProjectViewerProp
   }, [onClose, prev, next]);
 
   if (typeof document === "undefined") return null;
-  const project = images[current];
+  const project = cards[current];
 
   return createPortal(
     <div
@@ -66,19 +66,19 @@ export const ProjectViewer = ({ images, startIndex, onClose }: ProjectViewerProp
         ref={closeRef}
         placement="close"
         label="Close"
-        icon={<X className="size-5" />}
+        icon={<X className="size-5 text-white" />}
         onClick={onClose}
       />
       <ViewerControl
         placement="prev"
         label="Previous project"
-        icon={<ChevronLeft className="size-6" />}
+        icon={<ChevronLeft className="size-6 text-white" />}
         onClick={prev}
       />
       <ViewerControl
         placement="next"
         label="Next project"
-        icon={<ChevronRight className="size-6" />}
+        icon={<ChevronRight className="size-6 text-white" />}
         onClick={next}
       />
     </div>,

@@ -26,7 +26,7 @@ export const ProjectViewerGrid = ({ cards, actionLabel }: ProjectViewerGridProps
         )}
       />
       {openIndex !== null && (
-        <ProjectViewer images={cards} startIndex={openIndex} onClose={() => setOpenIndex(null)} />
+        <ProjectViewer cards={cards} startIndex={openIndex} onClose={() => setOpenIndex(null)} />
       )}
     </>
   );

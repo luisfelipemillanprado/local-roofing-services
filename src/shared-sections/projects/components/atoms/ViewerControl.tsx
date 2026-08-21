@@ -16,7 +16,7 @@ export const ViewerControl = ({ ref, placement, label, icon, onClick }: ViewerCo
     aria-label={label}
     onClick={onClick}
     className={clsx(
-      "absolute grid size-11 place-items-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20",
+      "absolute grid size-11 place-items-center rounded-full bg-white/10 transition-colors hover:bg-white/20",
       placementClass[placement],
     )}
   >

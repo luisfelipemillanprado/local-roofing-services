@@ -29,7 +29,7 @@ export interface ProjectViewerGridProps {
 }
 
 export interface ProjectViewerProps {
-  images: ProjectCardItem[];
+  cards: ProjectCardItem[];
   startIndex: number;
   onClose: () => void;
 }
