@@ -1,7 +1,10 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { ProjectList } from "@/shared-sections/projects/components/molecules/ProjectList";
+import { ProjectGrid } from "@/shared-sections/projects/components/molecules/ProjectGrid";
+import { ProjectViewerGrid } from "@/shared-sections/projects/components/molecules/ProjectViewerGrid";
+import { Link } from "@/i18n/navigation";
+import { ArrowRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
@@ -39,12 +42,23 @@ export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps
             </div>
           </div>
 
-          {/* home: arrow to /gallery; gallery: zoom button */}
-          <ProjectList
-            cards={cards}
-            href={variant === "viewAll" ? ctaHref.viewAll.href : undefined}
-            actionLabel={variant === "viewAll" ? t(ctaHref.viewAll.key) : t("action.viewImage")}
-          />
+          {/* home: arrow link to the gallery; gallery: zoom button opens the viewer */}
+          {variant === "viewAll" ? (
+            <ProjectGrid
+              cards={cards}
+              renderAction={(card) => (
+                <Link
+                  href={ctaHref.viewAll.href}
+                  aria-label={`${card.title} ${t(ctaHref.viewAll.key)}`}
+                  className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  <ArrowRight className="size-5 -rotate-45 text-white" />
+                </Link>
+              )}
+            />
+          ) : (
+            <ProjectViewerGrid cards={cards} actionLabel={t("action.viewImage")} />
+          )}
         </div>
       </Container>
     </SectionWrapper>
