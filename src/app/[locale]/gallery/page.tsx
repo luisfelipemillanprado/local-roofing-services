@@ -8,7 +8,6 @@ import { PageHeader } from "@/shared-sections/page-header/components/PageHeader"
 import { pageHeaderData } from "@/data/sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
-import { CaseStudy } from "@/features/projects/components/organisms/CaseStudy";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
 import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
@@ -45,9 +44,9 @@ export default async function ProjectsPage({ params }: Props) {
           secondaryCta="services"
         />
         <Marquee />
-        <Projects variant="contact" />
-        <CaseStudy tone="base" />
-        <Testimonials variant="contact" />
+        {/* content sections alternate base/muted surfaces */}
+        <Projects variant="contact" tone="base" />
+        <Testimonials variant="contact" tone="muted" group="projects" />
         <Faq variant="projects" tone="base" />
         <Products tone="muted" limit={6} />
         <Contact />

@@ -9,15 +9,11 @@ import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
 import { Container } from "@/common/container/components/Container";
 
 const { heading, ctaHref, rating, google, items } = testimonialsData;
-/* about's curated pick set (widened for includes) */
-const aboutPicks: readonly string[] = testimonialsData.aboutPicks;
 
-export const Testimonials = async ({ variant, tone = "muted", limit, curated }: TestimonialsProps) => {
+export const Testimonials = async ({ variant, tone = "muted", group }: TestimonialsProps) => {
   const t = await getTranslations("testimonial");
-  /* data: order + avatar; text by key */
-  /* curated: about's aboutPicks set; else leading slice by limit */
-  const source = curated ? items.filter((item) => aboutPicks.includes(item.key)) : items.slice(0, limit);
-  const cards = source.map((testimonial) => ({
+  /* data: the page's group set (avatar + order); text by key */
+  const cards = items[group].map((testimonial) => ({
     key: testimonial.key,
     avatar: testimonial.avatar,
     quote: t(`items.${testimonial.key}.quote`),

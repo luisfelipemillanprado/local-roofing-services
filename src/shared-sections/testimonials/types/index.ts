@@ -1,8 +1,9 @@
+type TestimonialGroup = "company" | "services" | "projects" | "about";
+
 export interface TestimonialsProps {
   variant: "viewAll" | "contact";
   tone?: "base" | "muted"; /* section surface; keeps page section alternation correct */
-  limit?: number;
-  curated?: boolean; /* about: render the curated aboutPicks set instead of a limit slice */
+  group: TestimonialGroup; /* which testimonial set this page renders */
 }
 
 export interface TestimonialCardProps {

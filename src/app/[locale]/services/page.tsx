@@ -47,7 +47,7 @@ export default async function ServicesPage({ params }: Props) {
         <Marquee />
         <Services variant="contact" />
         <Pitch variant="process" />
-        <Testimonials variant="contact" limit={6} />
+        <Testimonials variant="contact" group="services" />
         <Faq variant="services" tone="base" />
         <Products tone="muted" limit={6} />
         <Contact />
