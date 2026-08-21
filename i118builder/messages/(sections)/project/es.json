@@ -6,7 +6,10 @@
   "action": {
     "viewAll": "Ver Más Proyectos",
     "contact": "Contactar Ahora",
-    "viewImage": "Ver imagen"
+    "viewImage": "Ver imagen",
+    "close": "Cerrar",
+    "previous": "Proyecto anterior",
+    "next": "Proyecto siguiente"
   },
   "items": {
     "cedarHeights": {

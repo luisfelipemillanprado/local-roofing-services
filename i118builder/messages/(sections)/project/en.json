@@ -6,7 +6,10 @@
   "action": {
     "viewAll": "View All Projects",
     "contact": "Contact Us Now",
-    "viewImage": "View image"
+    "viewImage": "View image",
+    "close": "Close",
+    "previous": "Previous project",
+    "next": "Next project"
   },
   "items": {
     "cedarHeights": {

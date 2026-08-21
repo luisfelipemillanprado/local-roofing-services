@@ -7,7 +7,13 @@ import { ProjectViewer } from "@/shared-sections/projects/components/molecules/P
 import type { ProjectViewerGridProps } from "@/shared-sections/projects/types";
 
 /* gallery variant: each card opens the project viewer */
-export const ProjectViewerGrid = ({ cards, actionLabel }: ProjectViewerGridProps) => {
+export const ProjectViewerGrid = ({
+  cards,
+  actionLabel,
+  closeLabel,
+  previousLabel,
+  nextLabel,
+}: ProjectViewerGridProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
@@ -26,7 +32,14 @@ export const ProjectViewerGrid = ({ cards, actionLabel }: ProjectViewerGridProps
         )}
       />
       {openIndex !== null && (
-        <ProjectViewer cards={cards} startIndex={openIndex} onClose={() => setOpenIndex(null)} />
+        <ProjectViewer
+          cards={cards}
+          startIndex={openIndex}
+          onClose={() => setOpenIndex(null)}
+          closeLabel={closeLabel}
+          previousLabel={previousLabel}
+          nextLabel={nextLabel}
+        />
       )}
     </>
   );

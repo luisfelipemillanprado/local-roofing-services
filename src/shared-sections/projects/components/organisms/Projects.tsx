@@ -10,7 +10,7 @@ import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
 import { Container } from "@/common/container/components/Container";
 
-const { heading, ctaHref, items } = projectsData;
+const { heading, ctaHref, items, viewer } = projectsData;
 
 export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps) => {
   const t = await getTranslations("project");
@@ -57,7 +57,13 @@ export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps
               )}
             />
           ) : (
-            <ProjectViewerGrid cards={cards} actionLabel={t("action.viewImage")} />
+            <ProjectViewerGrid
+              cards={cards}
+              actionLabel={t("action.viewImage")}
+              closeLabel={t(viewer.close)}
+              previousLabel={t(viewer.previous)}
+              nextLabel={t(viewer.next)}
+            />
           )}
         </div>
       </Container>

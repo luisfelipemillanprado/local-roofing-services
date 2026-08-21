@@ -7,7 +7,14 @@ import { ViewerControl } from "@/shared-sections/projects/components/atoms/Viewe
 import type { ProjectViewerProps } from "@/shared-sections/projects/types";
 
 /* modal image viewer: backdrop, prev/next, caption; portaled above the app shell */
-export const ProjectViewer = ({ cards, startIndex, onClose }: ProjectViewerProps) => {
+export const ProjectViewer = ({
+  cards,
+  startIndex,
+  onClose,
+  closeLabel,
+  previousLabel,
+  nextLabel,
+}: ProjectViewerProps) => {
   const [current, setCurrent] = useState(startIndex);
   const closeRef = useRef<HTMLButtonElement>(null);
   const count = cards.length;
@@ -65,19 +72,19 @@ export const ProjectViewer = ({ cards, startIndex, onClose }: ProjectViewerProps
       <ViewerControl
         ref={closeRef}
         placement="close"
-        label="Close"
+        label={closeLabel}
         icon={<X className="size-5 text-white" />}
         onClick={onClose}
       />
       <ViewerControl
         placement="prev"
-        label="Previous project"
+        label={previousLabel}
         icon={<ChevronLeft className="size-6 text-white" />}
         onClick={prev}
       />
       <ViewerControl
         placement="next"
-        label="Next project"
+        label={nextLabel}
         icon={<ChevronRight className="size-6 text-white" />}
         onClick={next}
       />

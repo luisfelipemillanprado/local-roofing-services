@@ -11,6 +11,8 @@ export const projectsData = {
     viewAll: { key: "action.viewAll", href: "/gallery" },
     contact: { key: "action.contact", href: "#contact" },
   },
+  /* image viewer controls: labels by key */
+  viewer: { close: "action.close", previous: "action.previous", next: "action.next" },
   /* first six on the home (one per service), rest grouped by type */
   items: [
     { key: "cedarHeights", image: "/images/projects/project-1.webp" },

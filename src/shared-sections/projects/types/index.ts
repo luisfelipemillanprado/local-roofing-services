@@ -26,12 +26,18 @@ export interface ProjectGridProps {
 export interface ProjectViewerGridProps {
   cards: ProjectCardItem[];
   actionLabel: string;
+  closeLabel: string;
+  previousLabel: string;
+  nextLabel: string;
 }
 
 export interface ProjectViewerProps {
   cards: ProjectCardItem[];
   startIndex: number;
   onClose: () => void;
+  closeLabel: string;
+  previousLabel: string;
+  nextLabel: string;
 }
 
 export interface ViewerControlProps {
