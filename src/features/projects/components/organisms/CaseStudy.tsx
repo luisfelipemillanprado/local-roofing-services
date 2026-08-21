@@ -20,13 +20,12 @@ export const CaseStudy = async ({ tone = "base" }: CaseStudyProps) => {
     alt: t(`images.${image.key}.alt`),
   }));
 
-  /* cards: icon from data, text by key, stagger delay */
-  const cardItems = cards.map((card, i) => ({
+  /* cards: icon from data, text by key */
+  const cardItems = cards.map((card) => ({
     key: card.key,
     icon: card.icon,
     title: t(`cards.${card.key}.title`),
     description: t(`cards.${card.key}.description`),
-    delay: i * 0.08,
   }));
 
   return (

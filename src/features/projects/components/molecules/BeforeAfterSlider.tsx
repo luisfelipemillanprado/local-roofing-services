@@ -5,6 +5,7 @@ import { ChevronsLeftRight } from "lucide-react";
 import { useCallback, useRef, useState } from "react";
 import type { KeyboardEvent, PointerEvent } from "react";
 import { Tag } from "@/common/tag/components/Tag";
+import { blurs } from "@/data/blurs";
 import type { BeforeAfterSliderProps } from "@/features/projects/types";
 
 /* draggable before/after: after base, before clipped left */
@@ -52,6 +53,8 @@ export const BeforeAfterSlider = ({ before, after, compareLabel }: BeforeAfterSl
         src={after.src}
         alt={after.alt}
         fill
+        placeholder="blur"
+        blurDataURL={blurs.image}
         draggable={false}
         className="pointer-events-none object-cover"
         sizes="(max-width: 1024px) 100vw, 1024px"
@@ -63,6 +66,8 @@ export const BeforeAfterSlider = ({ before, after, compareLabel }: BeforeAfterSl
           src={before.src}
           alt={before.alt}
           fill
+          placeholder="blur"
+          blurDataURL={blurs.image}
           draggable={false}
           className="pointer-events-none object-cover"
           sizes="(max-width: 1024px) 100vw, 1024px"
