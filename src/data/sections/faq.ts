@@ -23,9 +23,9 @@ export const faqData = {
     items: [
       { key: "projects.items.similar" },
       { key: "projects.items.duration" },
-      { key: "projects.items.occupied" },
-      { key: "projects.items.permits" },
+      { key: "projects.items.materials" },
       { key: "projects.items.matching" },
+      { key: "projects.items.florida" },
       { key: "projects.items.hidden" },
       { key: "projects.items.start" },
     ],

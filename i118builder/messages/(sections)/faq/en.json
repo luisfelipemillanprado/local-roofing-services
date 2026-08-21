@@ -41,31 +41,31 @@
   "projects": {
     "items": {
       "similar": {
-        "q": "Can you complete a project similar to one I've seen here?",
+        "q": "Can you complete a roofing project similar to one shown here?",
         "a": "Absolutely. Every roofing project is customized to match your property's structure, architectural style, budget, and long term performance goals. If you see a project you like, we can create a solution tailored specifically to your home or business."
       },
       "duration": {
-        "q": "How long do roofing projects typically take to complete?",
-        "a": "Most residential roofing projects are completed within one to three days, while larger or more complex commercial projects may require additional time depending on the roofing system, weather conditions, and project scope."
+        "q": "How long do most residential roofing projects take to complete?",
+        "a": "Most residential roofing projects are completed in one to three days, while larger or more complex commercial projects may require additional time depending on the roofing system, weather conditions, and project scope."
       },
-      "occupied": {
-        "q": "Can you work on occupied homes and commercial properties?",
-        "a": "Yes. Our crews regularly complete roofing projects while homes and businesses remain occupied. We follow strict safety procedures and work efficiently to minimize disruptions throughout the project."
-      },
-      "permits": {
-        "q": "Are permits required for roofing projects?",
-        "a": "Permit requirements vary depending on your location and the scope of the project. When permits are required, we handle the process and help ensure all work complies with local building codes."
+      "materials": {
+        "q": "What roofing materials do you use for projects like these?",
+        "a": "We work with a variety of roofing materials, including shingles, metal, and flat roof systems. We recommend the right option based on your property's design, performance needs, budget, and local conditions."
       },
       "matching": {
         "q": "Can you match the style and color of my existing roof?",
         "a": "Yes. We offer a wide range of roofing materials, colors, and profiles to complement your property's architecture while meeting your durability, performance, and budget requirements."
       },
+      "florida": {
+        "q": "Are these roofing systems suited to South Florida's tough weather?",
+        "a": "Yes. We select roofing systems and installation methods suited to South Florida's heat, heavy rain, strong winds, and demanding weather conditions all year."
+      },
       "hidden": {
-        "q": "What happens if unexpected issues are discovered during the project?",
+        "q": "What happens if unexpected issues come up during the project?",
         "a": "If hidden damage or structural issues are found, we'll explain the situation, provide clear recommendations, and discuss all available options before performing any additional work."
       },
       "start": {
-        "q": "How do I get started with a roofing project?",
+        "q": "How do I get started with a new roofing project with your team?",
         "a": "Getting started is simple. Contact our team to schedule a roof inspection, and we'll evaluate your property, discuss your goals, and provide a detailed proposal with the best solution for your project."
       }
     }

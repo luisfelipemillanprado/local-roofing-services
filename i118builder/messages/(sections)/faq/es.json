@@ -41,31 +41,31 @@
   "projects": {
     "items": {
       "similar": {
-        "q": "¿Pueden hacer un proyecto similar a alguno que vi aquí?",
+        "q": "¿Pueden hacer un proyecto de techado similar a alguno visto aquí?",
         "a": "Por supuesto. Cada proyecto de techado se personaliza según la estructura de tu propiedad, el estilo arquitectónico, el presupuesto y tus metas de rendimiento a largo plazo. Si ves un proyecto que te gusta, podemos crear una solución hecha a la medida de tu casa o negocio."
       },
       "duration": {
-        "q": "¿Cuánto tardan normalmente los proyectos de techado?",
+        "q": "¿Cuánto tardan normalmente los proyectos residenciales de techado?",
         "a": "La mayoría de los proyectos residenciales se completan en uno a tres días, mientras que los proyectos comerciales más grandes o complejos pueden requerir tiempo adicional según el sistema de techado, el clima y el alcance del proyecto."
       },
-      "occupied": {
-        "q": "¿Pueden trabajar en casas y propiedades comerciales ocupadas?",
-        "a": "Sí. Nuestras cuadrillas completan proyectos con frecuencia mientras las casas y los negocios siguen ocupados. Seguimos procedimientos de seguridad estrictos y trabajamos con eficiencia para minimizar las molestias durante todo el proyecto."
-      },
-      "permits": {
-        "q": "¿Se requieren permisos para los proyectos de techado?",
-        "a": "Los requisitos de permisos varían según tu ubicación y el alcance del proyecto. Cuando se necesitan permisos, gestionamos el proceso y ayudamos a asegurar que todo el trabajo cumpla los códigos de construcción locales."
+      "materials": {
+        "q": "¿Qué materiales de techado usan para proyectos similares a estos?",
+        "a": "Trabajamos con una variedad de materiales de techado, incluyendo shingles, metal y sistemas de techo plano. Recomendamos la mejor opción según el diseño de tu propiedad, las necesidades de desempeño, el presupuesto y las condiciones locales."
       },
       "matching": {
-        "q": "¿Pueden igualar el estilo y el color de mi techo actual?",
+        "q": "¿Pueden igualar bien el estilo y el color de mi techo actual?",
         "a": "Sí. Ofrecemos una amplia gama de materiales, colores y perfiles de techado para complementar la arquitectura de tu propiedad, cumpliendo con tus requisitos de durabilidad, rendimiento y presupuesto."
       },
+      "florida": {
+        "q": "¿Estos sistemas resisten el clima fuerte del sur de Florida?",
+        "a": "Sí. Elegimos sistemas de techado y métodos de instalación adecuados para el calor, la lluvia intensa, los vientos fuertes y el clima exigente del sur de Florida durante todo el año."
+      },
       "hidden": {
-        "q": "¿Qué pasa si se descubren problemas inesperados durante el proyecto?",
+        "q": "¿Qué pasa si surgen problemas inesperados durante el proyecto?",
         "a": "Si se encuentran daños ocultos o problemas estructurales, te explicamos la situación, te damos recomendaciones claras y conversamos todas las opciones disponibles antes de realizar cualquier trabajo adicional."
       },
       "start": {
-        "q": "¿Cómo empiezo un proyecto de techado?",
+        "q": "¿Cómo comienzo mi nuevo proyecto de techado junto a ustedes?",
         "a": "Empezar es sencillo. Contacta a nuestro equipo para agendar una inspección, y evaluaremos tu propiedad, conversaremos tus metas y te daremos una propuesta detallada con la mejor solución para tu proyecto."
       }
     }
