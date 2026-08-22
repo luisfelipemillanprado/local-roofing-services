@@ -5,6 +5,7 @@
   "description": "Nuestros proyectos destacan techados superiores, construidos con experiencia y precisión para ofrecer mayor durabilidad, protección total y valor duradero.",
   "action": {
     "viewAll": "Ver Más Proyectos",
+    "viewGallery": "Ver galería",
     "contact": "Contactar Ahora",
     "viewImage": "Ver imagen",
     "close": "Cerrar",

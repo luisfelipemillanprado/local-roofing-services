@@ -13,3 +13,9 @@ export interface ButtonProps {
 export interface ActionButtonProps {
   label: string;
 }
+
+/* Circular icon link (renders <a>); a card's trailing arrow affordance. */
+export interface ArrowLinkProps {
+  href: string;
+  label: string;
+}

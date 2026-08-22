@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ZoomIn } from "lucide-react";
+import { ViewImageButton } from "@/shared-sections/projects/components/atoms/ViewImageButton";
 import { ProjectGrid } from "@/shared-sections/projects/components/molecules/ProjectGrid";
 import { ProjectViewer } from "@/shared-sections/projects/components/molecules/ProjectViewer";
 import type { ProjectViewerGridProps } from "@/shared-sections/projects/types";
@@ -21,14 +21,7 @@ export const ProjectViewerGrid = ({
       <ProjectGrid
         cards={cards}
         renderAction={(card, index) => (
-          <button
-            type="button"
-            aria-label={`${card.description} ${actionLabel}`}
-            onClick={() => setOpenIndex(index)}
-            className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
-          >
-            <ZoomIn className="size-5 text-white" />
-          </button>
+          <ViewImageButton label={`${card.description} ${actionLabel}`} onClick={() => setOpenIndex(index)} />
         )}
       />
       {openIndex !== null && (

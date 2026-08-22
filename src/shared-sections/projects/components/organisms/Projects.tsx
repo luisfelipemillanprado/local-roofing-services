@@ -3,8 +3,7 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Button } from "@/common/call-to-actions/components/Button";
 import { ProjectGrid } from "@/shared-sections/projects/components/molecules/ProjectGrid";
 import { ProjectViewerGrid } from "@/shared-sections/projects/components/molecules/ProjectViewerGrid";
-import { Link } from "@/i18n/navigation";
-import { ArrowRight } from "lucide-react";
+import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
 import { getTranslations } from "next-intl/server";
 import { projectsData } from "@/data/sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
@@ -47,13 +46,10 @@ export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps
             <ProjectGrid
               cards={cards}
               renderAction={(card) => (
-                <Link
+                <ArrowLink
                   href={ctaHref.viewAll.href}
-                  aria-label={`${card.description} ${t(ctaHref.viewAll.key)}`}
-                  className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
-                >
-                  <ArrowRight className="size-5 -rotate-45 text-white" />
-                </Link>
+                  label={`${card.description} ${t("action.viewGallery")}`}
+                />
               )}
             />
           ) : (

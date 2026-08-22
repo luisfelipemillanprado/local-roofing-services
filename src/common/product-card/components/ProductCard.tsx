@@ -1,5 +1,4 @@
-import { ArrowRight } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
 import { Media } from "@/common/media/components/Media";
 import { Stars } from "@/common/stars/components/Stars";
 import { Text } from "@/common/text/components/Text";
@@ -57,13 +56,7 @@ export const ProductCard = ({
         </div>
       </div>
 
-      <Link
-        href={href}
-        aria-label={viewLabel}
-        className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
-      >
-        <ArrowRight className="size-5 -rotate-45 text-white" />
-      </Link>
+      <ArrowLink href={href} label={viewLabel} />
     </div>
   </article>
 );

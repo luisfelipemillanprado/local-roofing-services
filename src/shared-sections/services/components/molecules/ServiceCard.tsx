@@ -1,5 +1,4 @@
-import { Link } from "@/i18n/navigation";
-import { ArrowRight } from "lucide-react";
+import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
@@ -18,13 +17,7 @@ export const ServiceCard = ({ image, title, description, viewDetails, href }: Se
         <Title as="h3" size="card" weight="bold" truncate text={title} />
         <Text size="body" tone="muted" truncate text={description} />
       </div>
-      <Link
-        href={href}
-        aria-label={`${title} ${viewDetails}`}
-        className="grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
-      >
-        <ArrowRight className="size-5 -rotate-45 text-white" />
-      </Link>
+      <ArrowLink href={href} label={`${title} ${viewDetails}`} />
     </div>
   </article>
 );

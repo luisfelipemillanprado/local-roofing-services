@@ -47,3 +47,8 @@ export interface ViewerControlProps {
   onClick: () => void;
   ref?: Ref<HTMLButtonElement>; /* focus target for the close control */
 }
+
+export interface ViewImageButtonProps {
+  label: string;
+  onClick: () => void;
+}
