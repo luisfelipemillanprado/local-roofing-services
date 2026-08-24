@@ -43,7 +43,7 @@ export const Services = async ({ variant, tone = "muted", limit, mobileCarousel 
         </Container>
 
         {mobileCarousel ? (
-          <Container bleed>
+          <Container>
             {/* desktop: the usual services grid */}
             <div className="hidden md:block">
               <ServiceList cards={cards} viewDetails={t("action.viewDetails")} />

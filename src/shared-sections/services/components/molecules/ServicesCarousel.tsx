@@ -20,13 +20,10 @@ export const ServicesCarousel = ({ cards, viewDetails }: ServiceListProps) => {
             ready ? "opacity-100" : "opacity-0",
           )}
         >
-          {/* slide px is the inter-card gap; no negative margins */}
+          {/* one card in view; slide px is the inter-card gap, no negative margins */}
           <div className="flex [touch-action:pan-y_pinch-zoom]">
             {cards.map(({ key, ...card }) => (
-              <div
-                key={key}
-                className="min-w-0 flex-[0_0_calc(100%-1.75rem)] px-1.5 min-[412px]:flex-[0_0_calc(100%-2rem)] min-[428px]:flex-[0_0_calc(100%-2.25rem)]"
-              >
+              <div key={key} className="min-w-0 flex-[0_0_100%] px-1.5">
                 <ServiceCard {...card} viewDetails={viewDetails} />
               </div>
             ))}
