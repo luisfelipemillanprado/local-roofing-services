@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { useCarouselDots } from "@/carousel/useCarouselDots";
+import { useCarouselDots } from "@/carousel/hooks/useCarouselDots";
 import type { Carousel } from "@/carousel/types";
 
 /* looped autoplay carousel: dot state + load fade */

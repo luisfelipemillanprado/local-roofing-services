@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { ServiceCard } from "@/shared-sections/services/components/molecules/ServiceCard";
-import { useCarousel } from "@/carousel/useCarousel";
+import { useCarousel } from "@/carousel/hooks/useCarousel";
 import type { ServiceListProps } from "@/shared-sections/services/types";
 
 /* mobile-only carousel of the shared ServiceCard */
