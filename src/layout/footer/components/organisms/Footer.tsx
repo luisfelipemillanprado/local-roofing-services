@@ -10,7 +10,7 @@ import { layoutData } from "@/data/global/layout";
 import { company } from "@/data/site";
 
 const { topLinks, services, contact, legal } = layoutData.footer;
-const { name, address, phone, phoneHref, email, emailHref, hours, builder } = company;
+const { name, address, phone, phoneHref, email, emailHref, hours, socials, builder } = company;
 
 export const Footer = async () => {
   const t = await getTranslations("footer");
@@ -41,7 +41,7 @@ export const Footer = async () => {
         <div className="grid grid-cols-2 gap-x-8 gap-y-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] lg:gap-12 lg:py-20">
           {/* Brand */}
           <div className="col-span-2 lg:col-span-1">
-            <FooterBrand description={t("description", { name })} />
+            <FooterBrand description={t("description", { name })} socials={socials} />
           </div>
 
           <FooterLinks title={t(topLinks.titleKey)} links={topLinkItems} />

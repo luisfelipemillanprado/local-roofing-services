@@ -5,7 +5,7 @@ import { ProjectGrid } from "@/shared-sections/projects/components/molecules/Pro
 import { ProjectViewerGrid } from "@/shared-sections/projects/components/molecules/ProjectViewerGrid";
 import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
 import { getTranslations } from "next-intl/server";
-import { projectsData } from "@/data/sections/projects";
+import { projectsData } from "@/data/shared-sections/projects";
 import type { ProjectsProps } from "@/shared-sections/projects/types";
 import { Container } from "@/common/container/components/Container";
 

@@ -6,7 +6,7 @@ import { HeroActions } from "@/common/hero-actions/components/HeroActions";
 import { HeroWrapper } from "@/common/hero-wrapper/components/HeroWrapper";
 import { CustomerRating } from "@/common/customer-rating/components/CustomerRating";
 import { getTranslations } from "next-intl/server";
-import { pageHeaderData } from "@/data/sections/page-header";
+import { pageHeaderData } from "@/data/shared-sections/page-header";
 import type { PageHeaderProps } from "@/shared-sections/page-header/types";
 
 const { images, badgeKey, badgeCity, avatars, customersKey, customersCount, ctaHref, secondaryCtaHref } =

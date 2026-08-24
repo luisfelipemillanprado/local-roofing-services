@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
-import { Footer } from "@/layout/footer/components/organisms/Footer";
+import { routeMetadata } from "@/i18n/metadata";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ProductDetail } from "@/features/shop/components/organisms/ProductDetail";
@@ -31,6 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t(`catalog.${product.slug}.title`),
     description: t(`catalog.${product.slug}.description`),
+    ...(await routeMetadata(locale as Locale, `/shop/${slug}`)),
   };
 }
 
@@ -46,21 +46,17 @@ export default async function ProductDetailPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
-      <main>
-        <PageHeader
-          image="shop"
-          titleLead={t(`catalog.${product.slug}.titleLead`)}
-          titleAccent={t(`catalog.${product.slug}.titleAccent`)}
-          secondaryCta="shop"
-          description={t(`catalog.${product.slug}.description`)}
-        />
-        <Marquee />
-        <ProductDetail slug={slug} />
-        <RelatedProducts slug={slug} tone="muted" />
-        <Contact tone="base" />
-      </main>
-      <Footer />
+      <PageHeader
+        image="shop"
+        titleLead={t(`catalog.${product.slug}.titleLead`)}
+        titleAccent={t(`catalog.${product.slug}.titleAccent`)}
+        secondaryCta="shop"
+        description={t(`catalog.${product.slug}.description`)}
+      />
+      <Marquee />
+      <ProductDetail slug={slug} />
+      <RelatedProducts slug={slug} tone="muted" />
+      <Contact tone="base" />
     </>
   );
 }

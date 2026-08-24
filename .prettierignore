@@ -11,3 +11,6 @@ messages/*.json
 
 # Lockfiles
 pnpm-lock.yaml
+
+# Local, per-user tool settings (untracked)
+.claude/settings.local.json

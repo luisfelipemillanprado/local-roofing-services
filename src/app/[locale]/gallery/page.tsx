@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { routeMetadata } from "@/i18n/metadata";
-import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
-import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
-import { pageHeaderData } from "@/data/sections/page-header";
+import { pageHeaderData } from "@/data/shared-sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
@@ -35,23 +33,19 @@ export default async function ProjectsPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
-      <main>
-        <PageHeader
-          titleLead={t(pageHeaderData.titleLeadKey)}
-          titleAccent={t(pageHeaderData.titleAccentKey)}
-          description={t(pageHeaderData.descriptionKey)}
-          secondaryCta="services"
-        />
-        <Marquee />
-        {/* content sections alternate base/muted surfaces */}
-        <Projects variant="contact" tone="base" />
-        <Testimonials variant="contact" tone="muted" group="projects" />
-        <Faq variant="projects" tone="base" />
-        <Products tone="muted" limit={6} />
-        <Contact />
-      </main>
-      <Footer />
+      <PageHeader
+        titleLead={t(pageHeaderData.titleLeadKey)}
+        titleAccent={t(pageHeaderData.titleAccentKey)}
+        description={t(pageHeaderData.descriptionKey)}
+        secondaryCta="services"
+      />
+      <Marquee />
+      {/* content sections alternate base/muted surfaces */}
+      <Projects variant="contact" tone="base" />
+      <Testimonials variant="contact" tone="muted" group="projects" />
+      <Faq variant="projects" tone="base" />
+      <Products tone="muted" limit={6} />
+      <Contact />
     </>
   );
 }

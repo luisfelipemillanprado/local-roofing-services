@@ -1,7 +1,6 @@
 import type { ComponentType, SVGProps } from "react";
 import { SiFacebook, SiX, SiInstagram, SiYoutube } from "@icons-pack/react-simple-icons";
-import { company } from "@/data/site";
-import type { SocialKey } from "@/common/social/types";
+import type { SocialKey, SocialsProps } from "@/common/social/types";
 
 /* semantic key → icon component */
 const ICONS: Record<SocialKey, ComponentType<SVGProps<SVGSVGElement>>> = {
@@ -11,11 +10,9 @@ const ICONS: Record<SocialKey, ComponentType<SVGProps<SVGSVGElement>>> = {
   youtube: SiYoutube,
 };
 
-const { socials } = company;
-
-export const Socials = () => (
+export const Socials = ({ items }: SocialsProps) => (
   <div className="grid grid-flow-col justify-start gap-2.5">
-    {socials.map(({ key, label, href }) => {
+    {items.map(({ key, label, href }) => {
       const Icon = ICONS[key];
       return (
         <a

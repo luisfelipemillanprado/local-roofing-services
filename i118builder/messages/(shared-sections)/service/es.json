@@ -1,0 +1,89 @@
+{
+  "eyebrow": "SERVICIOS.",
+  "titleLead": "Techos De Alto Nivel",
+  "titleAccent": "Sobre Tu Propiedad",
+  "description": "Descubre nuestros servicios de techado con materiales premium, instalación experta, calidad garantizada y soluciones confiables diseñadas para tu propiedad.",
+  "action": {
+    "viewAll": "Ver Más Servicios",
+    "contact": "Contactar Ahora",
+    "viewDetails": "Ver Más Detalles"
+  },
+  "controls": {
+    "previous": "Servicio Anterior",
+    "next": "Servicio Siguiente"
+  },
+  "items": {
+    "repair": {
+      "title": "Reparación de Techos.",
+      "titleLead": "Reparación de",
+      "titleAccent": "Techos",
+      "description": "Arreglos rápidos y duraderos garantizados."
+    },
+    "replacement": {
+      "title": "Reemplazo de Techo.",
+      "titleLead": "Reemplazo de",
+      "titleAccent": "Techo",
+      "description": "Reemplazo completo hecho con calidad."
+    },
+    "storm": {
+      "title": "Reparación por Tormenta.",
+      "titleLead": "Reparación por",
+      "titleAccent": "Tormenta",
+      "description": "Respuesta rápida tras cada tormenta."
+    },
+    "inspections": {
+      "title": "Inspección de Techos.",
+      "titleLead": "Inspección de",
+      "titleAccent": "Techos",
+      "description": "Inspecciones detalladas y reportes honestos."
+    },
+    "gutters": {
+      "title": "Canaletas y Tapajuntas.",
+      "titleLead": "Canaletas y",
+      "titleAccent": "Tapajuntas",
+      "description": "Protegiendo cada hogar del agua."
+    },
+    "commercial": {
+      "title": "Techado Comercial.",
+      "titleLead": "Techado",
+      "titleAccent": "Comercial",
+      "description": "Techos planos para tu negocio."
+    },
+    "residential": {
+      "title": "Techado Residencial.",
+      "titleLead": "Techado",
+      "titleAccent": "Residencial",
+      "description": "Techado confiable para cada hogar."
+    },
+    "metal": {
+      "title": "Techado Metálico.",
+      "titleLead": "Techado",
+      "titleAccent": "Metálico",
+      "description": "Diseñado para durar por décadas."
+    },
+    "tile": {
+      "title": "Techado de Tejas.",
+      "titleLead": "Techado de",
+      "titleAccent": "Tejas",
+      "description": "Tejas de concreto y arcilla."
+    },
+    "flat": {
+      "title": "Techado Plano.",
+      "titleLead": "Techado",
+      "titleAccent": "Plano",
+      "description": "Sistemas de techo plano impermeables."
+    },
+    "skylights": {
+      "title": "Instalación de Tragaluz.",
+      "titleLead": "Instalación de",
+      "titleAccent": "Tragaluz",
+      "description": "Luz natural garantizada sin filtraciones."
+    },
+    "solar": {
+      "title": "Techado Solar.",
+      "titleLead": "Techado",
+      "titleAccent": "Solar",
+      "description": "Techos solares que ahorran energía."
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import type { IconBadgeKey } from "@/common/icon-badge/types";
-import type { servicesData } from "@/data/sections/services";
+import type { servicesData } from "@/data/shared-sections/services";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 

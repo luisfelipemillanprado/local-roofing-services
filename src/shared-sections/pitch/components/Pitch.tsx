@@ -5,7 +5,7 @@ import { Button } from "@/common/call-to-actions/components/Button";
 import { StatList } from "@/common/stat-list/components/StatList";
 import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
 import { getTranslations } from "next-intl/server";
-import { pitchData } from "@/data/sections/pitch";
+import { pitchData } from "@/data/shared-sections/pitch";
 import type { PitchProps } from "@/shared-sections/pitch/types";
 import { Container } from "@/common/container/components/Container";
 

@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
-import { Footer } from "@/layout/footer/components/organisms/Footer";
+import { routeMetadata } from "@/i18n/metadata";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ServiceOverview } from "@/features/service-detail/components/organisms/ServiceOverview";
@@ -12,7 +11,7 @@ import { Faq } from "@/shared-sections/faq/components/organisms/Faq";
 import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { ServiceAreas } from "@/shared-sections/service-areas/components/organisms/ServiceAreas";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
-import { servicesData } from "@/data/sections/services";
+import { servicesData } from "@/data/shared-sections/services";
 
 const { items } = servicesData;
 
@@ -34,6 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t(`items.${service.key}.title`),
     description: t(`items.${service.key}.description`),
+    ...(await routeMetadata(locale as Locale, `/services/${slug}`)),
   };
 }
 
@@ -51,24 +51,20 @@ export default async function ServiceDetailPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
-      <main>
-        <PageHeader
-          titleLead={t(`items.${service.key}.titleLead`)}
-          titleAccent={t(`items.${service.key}.titleAccent`)}
-          secondaryCta="services"
-          description={td(`items.${service.key}.intro`)}
-        />
-        <Marquee />
-        {/* service overview: per-service image + checklist, chrome shared from about */}
-        <ServiceOverview serviceKey={service.key} tone="muted" />
-        <ServiceProcess serviceKey={service.key} tone="base" />
-        <Faq variant={service.key} tone="muted" />
-        <ServiceAreas tone="base" />
-        <Products tone="muted" limit={6} />
-        <Contact />
-      </main>
-      <Footer />
+      <PageHeader
+        titleLead={t(`items.${service.key}.titleLead`)}
+        titleAccent={t(`items.${service.key}.titleAccent`)}
+        secondaryCta="services"
+        description={td(`items.${service.key}.intro`)}
+      />
+      <Marquee />
+      {/* service overview: per-service image + checklist, chrome shared from about */}
+      <ServiceOverview serviceKey={service.key} tone="muted" />
+      <ServiceProcess serviceKey={service.key} tone="base" />
+      <Faq variant={service.key} tone="muted" />
+      <ServiceAreas tone="base" />
+      <Products tone="muted" limit={6} />
+      <Contact />
     </>
   );
 }

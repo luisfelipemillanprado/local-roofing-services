@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { MarqueeList } from "@/shared-sections/marquee/components/molecules/MarqueeList";
-import { marqueeData } from "@/data/sections/marquee";
+import { marqueeData } from "@/data/shared-sections/marquee";
 
 const { items, yearsExperience, trackCopies } = marqueeData;
 

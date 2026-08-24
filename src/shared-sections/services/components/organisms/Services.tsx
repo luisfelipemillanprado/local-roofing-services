@@ -3,7 +3,7 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Button } from "@/common/call-to-actions/components/Button";
 import { ServiceList } from "@/shared-sections/services/components/molecules/ServiceList";
 import { getTranslations } from "next-intl/server";
-import { servicesData } from "@/data/sections/services";
+import { servicesData } from "@/data/shared-sections/services";
 import type { ServicesProps } from "@/shared-sections/services/types";
 import { Container } from "@/common/container/components/Container";
 

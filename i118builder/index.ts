@@ -1,11 +1,4 @@
-import {
-  mkdirSync,
-  readdirSync,
-  readFileSync,
-  statSync,
-  watch,
-  writeFileSync,
-} from "fs";
+import { mkdirSync, readdirSync, readFileSync, statSync, watch, writeFileSync } from "fs";
 import { basename, dirname, join, relative, sep } from "path";
 
 const BUILDER_MESSAGES_DIR = join(import.meta.dirname, "messages");
@@ -22,10 +15,7 @@ function deepMerge(target: JsonObject, source: JsonObject): JsonObject {
   const result = { ...target };
   for (const key of Object.keys(source)) {
     if (isJsonObject(result[key]) && isJsonObject(source[key])) {
-      result[key] = deepMerge(
-        result[key] as JsonObject,
-        source[key] as JsonObject,
-      );
+      result[key] = deepMerge(result[key] as JsonObject, source[key] as JsonObject);
     } else {
       result[key] = source[key];
     }
@@ -59,10 +49,7 @@ function getRouteSegments(filePath: string): string[] {
     .filter((segment) => !(segment.startsWith("(") && segment.endsWith(")")));
 }
 
-function buildNestedObject(
-  routeSegments: string[],
-  content: JsonObject,
-): JsonObject {
+function buildNestedObject(routeSegments: string[], content: JsonObject): JsonObject {
   return routeSegments.reduceRight<JsonObject>(
     (accumulator, segment) => ({
       [segment]: accumulator,
@@ -87,18 +74,14 @@ function build() {
 
       if (!isJsonObject(parsedContent)) {
         const relativePath = relative(BUILDER_MESSAGES_DIR, filePath);
-        console.error(
-          `[i18n-build] ✘ JSON root must be an object in ${relativePath} — skipping build`,
-        );
+        console.error(`[i18n-build] ✘ JSON root must be an object in ${relativePath} — skipping build`);
         return;
       }
 
       content = parsedContent;
     } catch {
       const relativePath = relative(BUILDER_MESSAGES_DIR, filePath);
-      console.error(
-        `[i18n-build] ✘ JSON parse error in ${relativePath} — skipping build`,
-      );
+      console.error(`[i18n-build] ✘ JSON parse error in ${relativePath} — skipping build`);
       return;
     }
 
@@ -114,9 +97,7 @@ function build() {
   for (const [locale, messages] of localeMap) {
     const outputPath = join(OUTPUT_DIR, `${locale}.json`);
     writeFileSync(outputPath, JSON.stringify(messages, null, 2) + "\n", "utf-8");
-    console.log(
-      `[i18n-build] ✔ ${locale}.json (${Object.keys(messages).length} namespaces)`,
-    );
+    console.log(`[i18n-build] ✔ ${locale}.json (${Object.keys(messages).length} namespaces)`);
   }
 }
 

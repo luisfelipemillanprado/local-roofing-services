@@ -4,7 +4,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { Button } from "@/common/call-to-actions/components/Button";
 import { Container } from "@/common/container/components/Container";
 import { AreaList } from "@/shared-sections/service-areas/components/molecules/AreaList";
-import { serviceAreasData } from "@/data/sections/service-areas";
+import { serviceAreasData } from "@/data/shared-sections/service-areas";
 import type { ServiceAreasProps } from "@/shared-sections/service-areas/types";
 
 const { ctaHref, areas } = serviceAreasData;

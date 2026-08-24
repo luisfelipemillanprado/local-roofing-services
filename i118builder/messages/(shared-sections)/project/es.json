@@ -1,0 +1,101 @@
+{
+  "eyebrow": "PROYECTOS.",
+  "titleLead": "Calidad Garantizada",
+  "titleAccent": "En Su Techo Nuevo",
+  "description": "Nuestros proyectos destacan techados superiores, construidos con experiencia y precisión para ofrecer mayor durabilidad, protección total y valor duradero.",
+  "action": {
+    "viewAll": "Ver Más Proyectos",
+    "viewGallery": "Ver Galería",
+    "contact": "Contactar Ahora",
+    "viewImage": "Ver Imagen",
+    "close": "Cerrar",
+    "previous": "Proyecto Anterior",
+    "next": "Proyecto Siguiente"
+  },
+  "items": {
+    "cedarHeights": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada plateado."
+    },
+    "sunsetRidge": {
+      "title": "Techado de Tejas.",
+      "description": "Techo de teja gris tipo pizarra."
+    },
+    "summitBungalow": {
+      "title": "Techado Residencial.",
+      "description": "Techo de shingle asfáltico gris."
+    },
+    "condoComplex": {
+      "title": "Techado Comercial.",
+      "description": "Techo metálico mansarda y plano."
+    },
+    "solarResidence": {
+      "title": "Techado Solar.",
+      "description": "Techo metálico con paneles solares."
+    },
+    "coastalMetal": {
+      "title": "Instalación de Tragaluz.",
+      "description": "Tragaluces en techo plano de membrana."
+    },
+    "lakeviewContemporary": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada bronce."
+    },
+    "northgateRanch": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada terracota."
+    },
+    "stonebridge": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada galvanizado."
+    },
+    "greystoneFarmhouse": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada carbón."
+    },
+    "blackpineEstate": {
+      "title": "Techado Metálico.",
+      "description": "Techo de teja metálica negra."
+    },
+    "modernBlueMetal": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada azul marino."
+    },
+    "estateMetal": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada grafito."
+    },
+    "maroonMetal": {
+      "title": "Techado Metálico.",
+      "description": "Techo de teja metálica granate."
+    },
+    "harborMetal": {
+      "title": "Techado Metálico.",
+      "description": "Techo de teja metálica gris acero."
+    },
+    "ranchMetal": {
+      "title": "Techado Metálico.",
+      "description": "Techo de junta alzada peltre."
+    },
+    "mapleGrove": {
+      "title": "Techado de Tejas.",
+      "description": "Techo de teja barril terracota."
+    },
+    "tilePlaza": {
+      "title": "Techado de Tejas.",
+      "description": "Techo de teja barril coral cálido."
+    },
+    "gardenResidences": {
+      "title": "Techado Residencial.",
+      "description": "Techo de shingle gris envejecido."
+    },
+    "skylightHome": {
+      "title": "Instalación de Tragaluz.",
+      "description": "Tragaluz en techo de shingle gris."
+    },
+    "carportMetal": {
+      "title": "Instalación de Tragaluz.",
+      "description": "Tragaluz de vidrio en techo plano."
+    }
+  }
+}

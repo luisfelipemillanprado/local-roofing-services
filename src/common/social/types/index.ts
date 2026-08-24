@@ -3,3 +3,7 @@ export type SocialKey = "facebook" | "x" | "instagram" | "youtube";
 
 /* social profile entry from the data layer */
 export type SocialData = { key: SocialKey; label: string; href: string };
+
+export interface SocialsProps {
+  items: SocialData[];
+}

@@ -4,7 +4,7 @@ import { Button } from "@/common/call-to-actions/components/Button";
 import { RatingBadge } from "@/shared-sections/testimonials/components/molecules/RatingBadge";
 import { TestimonialList } from "@/shared-sections/testimonials/components/molecules/TestimonialList";
 import { getTranslations } from "next-intl/server";
-import { testimonialsData } from "@/data/sections/testimonials";
+import { testimonialsData } from "@/data/shared-sections/testimonials";
 import type { TestimonialsProps } from "@/shared-sections/testimonials/types";
 import { Container } from "@/common/container/components/Container";
 

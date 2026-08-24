@@ -1,0 +1,255 @@
+{
+  "action": {
+    "quote": "Solicitar Cotización",
+    "view": "Ver Producto"
+  },
+  "units": {
+    "bundle": "Paquete",
+    "panel": "Panel",
+    "roll": "Rollo",
+    "each": "Unidad",
+    "bucket": "Cubeta",
+    "tube": "Tubo",
+    "kit": "Kit"
+  },
+  "categories": {
+    "all": "Todas",
+    "shingles": "Tejas",
+    "metal": "Techo Metálico",
+    "underlayment": "Membrana",
+    "sealants": "Selladores",
+    "tools": "Herramientas",
+    "accessories": "Accesorios"
+  },
+  "availability": {
+    "in-stock": "En Stock",
+    "limited-stock": "Pocas Unidades",
+    "out-of-stock": "Agotado"
+  },
+  "filters": {
+    "title": "Filtros",
+    "button": "Filtrar",
+    "apply": "Aplicar",
+    "search": "Buscar",
+    "searchPlaceholder": "Buscar productos",
+    "brand": "Marca",
+    "price": "Precio",
+    "rating": "Calificación",
+    "availability": "Disponibilidad",
+    "priceAll": "Cualquier precio",
+    "priceUnder": "Menos de ${max}",
+    "priceRange": "${min} – ${max}",
+    "priceOver": "Más de ${min}",
+    "ratingAny": "Cualquier calificación",
+    "ratingUp": "o más",
+    "clear": "Limpiar todo"
+  },
+  "sort": {
+    "label": "Ordenar por",
+    "featured": "Destacados",
+    "newest": "Más Nuevos",
+    "priceAsc": "Precio: Menor a Mayor",
+    "priceDesc": "Precio: Mayor a Menor",
+    "topRated": "Mejor Valorados"
+  },
+  "results": "{count, plural, =0 {Sin productos} one {# producto} other {# productos}}",
+  "resultsFiltered": "{count} de {total} productos",
+  "emptyTitle": "Ningún producto coincide con tus filtros",
+  "emptyHint": "Prueba quitar un filtro o límpialos todos.",
+  "related": {
+    "eyebrow": "Productos Relacionados",
+    "titleLead": "Explora Productos",
+    "titleAccent": "Relacionados",
+    "description": "Más productos de techado de la misma categoría, listos para tu proyecto o para pedirlos por separado."
+  },
+  "detail": {
+    "reviewCount": "{rating} de {count} Reseñas",
+    "color": "Color Disponible",
+    "quantity": "Cantidad",
+    "decrease": "Disminuir cantidad",
+    "increase": "Aumentar cantidad",
+    "size": "Tamaño Disponible",
+    "sku": "SKU",
+    "tags": "Etiquetas",
+    "tagList": "Techado, Materiales, Exterior, Pro",
+    "share": "Compartir",
+    "action": {
+      "buyNow": "Comprar Ahora",
+      "addToCart": "Agregar Al Carrito"
+    },
+    "tabs": {
+      "details": "Detalles",
+      "reviews": "Reseñas",
+      "shipping": "Envío"
+    },
+    "tabBody": {
+      "details": "Detalles del producto de relleno. Agrega aquí las especificaciones completas, materiales, cobertura y garantía.",
+      "reviews": "Reseñas de relleno. Las calificaciones y comentarios de clientes se mostrarán en esta pestaña.",
+      "shipping": "Información de envío de relleno. Agrega aquí tiempos de entrega, opciones de flete y política de devoluciones."
+    }
+  },
+  "catalog": {
+    "timberline-hdz": {
+      "title": "Tejas Timberline HDZ",
+      "titleLead": "Tejas",
+      "titleAccent": "Timberline HDZ",
+      "description": "Tejas laminadas arquitectónicas con tecnología LayerLock para una zona de clavado más firme y resistencia al viento."
+    },
+    "brakki-19pc": {
+      "title": "Paneles Metálicos Corrugados 19 Piezas",
+      "titleLead": "Paneles Metálicos Corrugados",
+      "titleAccent": "19 Piezas",
+      "description": "Paneles de acero corrugado con acabado duradero para una protección fuerte en todo clima."
+    },
+    "brakki-20pc": {
+      "title": "Paneles Metálicos Tipo Teja 20 Piezas",
+      "titleLead": "Paneles Metálicos Tipo Teja",
+      "titleAccent": "20 Piezas",
+      "description": "Paneles metálicos con estilo de teja clásica y la resistencia del acero."
+    },
+    "brakki-21pc": {
+      "title": "Paneles Metálicos Tipo Teja 21 Piezas",
+      "titleLead": "Paneles Metálicos Tipo Teja",
+      "titleAccent": "21 Piezas",
+      "description": "Paneles tipo teja de mayor cobertura para instalaciones más rápidas en techos residenciales y comerciales."
+    },
+    "dupont-tyvek-120": {
+      "title": "Underlayment Tyvek Protec 120",
+      "titleLead": "Underlayment",
+      "titleAccent": "Tyvek Protec 120",
+      "description": "Underlayment sintético de alta tracción que protege el entablado de la humedad con paso seguro."
+    },
+    "gcp-5003000": {
+      "title": "Underlayment Sintético Grace",
+      "titleLead": "Underlayment Sintético",
+      "titleAccent": "Grace",
+      "description": "Underlayment sintético ligero con excelente resistencia al desgarre y una barrera secundaria confiable."
+    },
+    "gaf-everguard-wb181": {
+      "title": "Adhesivo EverGuard WB181",
+      "titleLead": "Adhesivo",
+      "titleAccent": "EverGuard WB181",
+      "description": "Adhesivo base agua para membranas monocapa con buen agarre y fácil aplicación con rodillo."
+    },
+    "gaf-778c": {
+      "title": "Adhesivo PVC Quick Lay EverGuard",
+      "titleLead": "Adhesivo PVC Quick Lay",
+      "titleAccent": "EverGuard",
+      "description": "Adhesivo PVC de agarre rápido que une membranas EverGuard al entablado con una sujeción fuerte y duradera."
+    },
+    "titebond-61001": {
+      "title": "Sellador WeatherMaster para Metal",
+      "titleLead": "Sellador WeatherMaster",
+      "titleAccent": "para Metal",
+      "description": "Sellador para todo clima que se adhiere a metal, tapajuntas y molduras sin encoger ni agrietarse."
+    },
+    "dewalt-dcs391": {
+      "title": "Sierra Circular Inalámbrica 20V",
+      "titleLead": "Sierra Circular Inalámbrica",
+      "titleAccent": "20V",
+      "description": "Sierra circular inalámbrica compacta para cortes rápidos y precisos en entablado, molduras y paneles."
+    },
+    "dewalt-dwht51002": {
+      "title": "Martillo de Uña 16 oz",
+      "titleLead": "Martillo de Uña",
+      "titleAccent": "16 oz",
+      "description": "Martillo de uña forjado de una pieza con mango antivibración para comodidad todo el día."
+    },
+    "dewalt-dcm849": {
+      "title": "Pulidora Rotativa Inalámbrica 20V",
+      "titleLead": "Pulidora Rotativa Inalámbrica",
+      "titleAccent": "20V",
+      "description": "Pulidora inalámbrica de velocidad variable para acabado y pulido de techado metálico y molduras."
+    },
+    "dewalt-dcn681": {
+      "title": "Clavadora Inalámbrica 20V",
+      "titleLead": "Clavadora Inalámbrica",
+      "titleAccent": "20V",
+      "description": "Clavadora a batería para fijación rápida y constante sin manguera ni compresor."
+    },
+    "tolsen-25012": {
+      "title": "Mazo con Mango de Fibra",
+      "titleLead": "Mazo con Mango",
+      "titleAccent": "de Fibra",
+      "description": "Mazo pesado con mango de fibra de vidrio para demolición y trabajos de arranque."
+    },
+    "tolsen-10243": {
+      "title": "Tijeras para Metal",
+      "titleLead": "Tijeras",
+      "titleAccent": "para Metal",
+      "description": "Tijeras de aviación afiladas para cortes limpios y controlados en paneles metálicos y tapajuntas."
+    },
+    "supatool-20in": {
+      "title": "Serrucho de 20 Pulgadas",
+      "titleLead": "Serrucho",
+      "titleAccent": "de 20 Pulgadas",
+      "description": "Serrucho de dientes templados para cortes rápidos en madera, entablado y molduras."
+    },
+    "qualcraft-2560p": {
+      "title": "Pala para Arranque de Techo",
+      "titleLead": "Pala para Arranque",
+      "titleAccent": "de Techo",
+      "description": "Pala dentada de arranque que levanta tejas y clavos rápido en trabajos de retiro."
+    },
+    "dewalt-dcpr320": {
+      "title": "Podadora Inalámbrica 20V",
+      "titleLead": "Podadora Inalámbrica",
+      "titleAccent": "20V",
+      "description": "Podadora a batería que hace cortes limpios y sin esfuerzo en ramas alrededor de la obra."
+    },
+    "dewalt-dwht36225": {
+      "title": "Cinta Métrica de 25 pies",
+      "titleLead": "Cinta Métrica",
+      "titleAccent": "de 25 pies",
+      "description": "Cinta métrica resistente de 25 pies con hoja de largo alcance y carcasa duradera ante impactos."
+    },
+    "dewalt-dccs620": {
+      "title": "Motosierra 20V de 12 Pulgadas",
+      "titleLead": "Motosierra 20V",
+      "titleAccent": "de 12 Pulgadas",
+      "description": "Motosierra inalámbrica de 12 pulgadas para desrame y limpieza rápida en la obra."
+    },
+    "hxoutdoors-ft16c": {
+      "title": "Hacha Táctica de Campo",
+      "titleLead": "Hacha Táctica",
+      "titleAccent": "de Campo",
+      "description": "Hacha táctica compacta con hoja de espiga completa y funda moldeada para cortar y partir."
+    },
+    "dewalt-dwht10998": {
+      "title": "Cúter Retráctil",
+      "titleLead": "Cúter",
+      "titleAccent": "Retráctil",
+      "description": "Cúter retráctil con almacenamiento de hojas integrado para cortes limpios y rápidos en el techo."
+    },
+    "dewalt-dxst11000": {
+      "title": "Escalera de Marco Apilable",
+      "titleLead": "Escalera de Marco",
+      "titleAccent": "Apilable",
+      "description": "Escalera de marco resistente para acceso seguro y apoyo estable en la obra."
+    },
+    "masterplug-ose15104g": {
+      "title": "Carrete de Extensión Eléctrica",
+      "titleLead": "Carrete de Extensión",
+      "titleAccent": "Eléctrica",
+      "description": "Carrete de cable de alto rendimiento con varias salidas para energía en cualquier punto del techo."
+    },
+    "dewalt-dpg737": {
+      "title": "Guantes de Trabajo",
+      "titleLead": "Guantes",
+      "titleAccent": "de Trabajo",
+      "description": "Guantes transpirables con palmas reforzadas para agarre y protección en jornadas largas."
+    },
+    "palmer-k111115": {
+      "title": "Kit de Protección contra Caídas",
+      "titleLead": "Kit de Protección",
+      "titleAccent": "contra Caídas",
+      "description": "Kit completo de protección contra caídas con arnés, línea de vida y anclaje para trabajo en altura."
+    },
+    "werner-6206": {
+      "title": "Tragaluz Fijo de Montaje",
+      "titleLead": "Tragaluz Fijo",
+      "titleAccent": "de Montaje",
+      "description": "Tragaluz fijo de montaje en entablado que aporta luz natural con sellado hermético."
+    }
+  }
+}

@@ -1,5 +1,8 @@
+import type { SocialData } from "@/common/social/types";
+
 export interface FooterBrandProps {
   description: string;
+  socials: SocialData[];
 }
 
 /* resolved label + destination for the credits bar */

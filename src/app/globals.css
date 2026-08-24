@@ -250,16 +250,32 @@
 }
 
 /* Hero scrims (contrast) — side for copy legibility, bottom to seat the section. */
+/* Balanced for centered hero text — photo still breathes, text stays legible. */
 @utility overlay-hero-side {
   background-image: linear-gradient(
     to right,
-    var(--color-contrast),
-    color-mix(in oklab, var(--color-contrast) 85%, transparent) 50%,
-    color-mix(in oklab, var(--color-contrast) 40%, transparent)
+    color-mix(in oklab, var(--color-contrast) 85%, transparent),
+    color-mix(in oklab, var(--color-contrast) 69%, transparent) 50%,
+    color-mix(in oklab, var(--color-contrast) 46%, transparent)
   );
 }
 @utility overlay-hero-bottom {
-  background-image: linear-gradient(to top, var(--color-contrast), transparent 50%);
+  background-image: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--color-contrast) 70%, transparent),
+    transparent 50%
+  );
+}
+
+/* Slider card scrim — light top+bottom bands for copy, clear middle so the photo breathes. */
+@utility overlay-card {
+  background-image: linear-gradient(
+    to bottom,
+    color-mix(in oklab, var(--color-contrast) 58%, transparent),
+    transparent 35%,
+    transparent 62%,
+    color-mix(in oklab, var(--color-contrast) 58%, transparent)
+  );
 }
 
 /* Contact banner scrim — contrast fading into the primary accent. */

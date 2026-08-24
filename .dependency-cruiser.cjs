@@ -9,6 +9,13 @@ module.exports = {
       to: { path: "^src/(shared-sections|features|layout|app)/" },
     },
     {
+      name: "carousel-stays-pure",
+      comment: "carousel/ is a self-contained engine; it must not import from any app tier",
+      severity: "error",
+      from: { path: "^src/carousel/" },
+      to: { path: "^src/(common|shared-sections|features|layout|app|data|i18n)/" },
+    },
+    {
       name: "shared-sections-no-features",
       comment: "shared-sections must not depend on features or app",
       severity: "error",

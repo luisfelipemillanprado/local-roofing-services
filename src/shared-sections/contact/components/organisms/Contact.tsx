@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { EmailForm } from "@/shared-sections/contact/components/molecules/EmailForm";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
-import { contactData } from "@/data/sections/contact";
+import { contactData } from "@/data/shared-sections/contact";
 import { blurs } from "@/data/blurs";
 import type { ContactProps } from "@/shared-sections/contact/types";
 import { Container } from "@/common/container/components/Container";

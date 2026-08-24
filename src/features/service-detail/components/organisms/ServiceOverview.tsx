@@ -4,8 +4,8 @@ import { Media } from "@/common/media/components/Media";
 import { YearsBadge } from "@/shared-sections/about/components/molecules/YearsBadge";
 import { ContactCard } from "@/shared-sections/about/components/molecules/ContactCard";
 import { IncludedPanel } from "@/features/service-detail/components/molecules/IncludedPanel";
-import { aboutData } from "@/data/sections/about";
-import { servicesData } from "@/data/sections/services";
+import { aboutData } from "@/data/shared-sections/about";
+import { servicesData } from "@/data/shared-sections/services";
 import { Container } from "@/common/container/components/Container";
 import type { ServiceOverviewProps } from "@/features/service-detail/types";
 

@@ -5,6 +5,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
 import { routeMetadata } from "@/i18n/metadata";
 import { SyncLocale } from "@/app/SyncLocale";
+import { Navbar } from "@/layout/navbar/components/organisms/Navbar";
+import { Footer } from "@/layout/footer/components/organisms/Footer";
 import { FloatingContact } from "@/layout/floating-contact/components/organisms/FloatingContact";
 
 const siteUrl = "https://roofpro.example.com";
@@ -70,7 +72,10 @@ export default async function LocaleLayout({ children, params }: Props) {
     <NextIntlClientProvider>
       {/* Syncs <html lang> client-side */}
       <SyncLocale locale={locale} />
-      {children}
+      {/* Site-wide chrome: shared across every locale route */}
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
       {/* Site-wide quick-contact */}
       <FloatingContact />
     </NextIntlClientProvider>

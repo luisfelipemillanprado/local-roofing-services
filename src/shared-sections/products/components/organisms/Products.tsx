@@ -3,7 +3,7 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Button } from "@/common/call-to-actions/components/Button";
 import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
 import { getTranslations } from "next-intl/server";
-import { productsData } from "@/data/sections/products";
+import { productsData } from "@/data/shared-sections/products";
 import { shopProductsData } from "@/data/shop/products";
 import type { ProductsProps } from "@/shared-sections/products/types";
 import { Container } from "@/common/container/components/Container";

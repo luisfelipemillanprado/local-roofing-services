@@ -9,6 +9,7 @@ import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
 import { Socials } from "@/common/social/components/Socials";
+import { company } from "@/data/site";
 import { ProductGallery } from "@/features/shop/components/molecules/ProductGallery";
 import { QuantityStepper } from "@/features/shop/components/molecules/QuantityStepper";
 import { ProductTabs } from "@/features/shop/components/molecules/ProductTabs";
@@ -175,7 +176,7 @@ export const ProductDetail = ({ slug }: ProductDetailProps) => {
                 </div>
                 <div className="grid grid-flow-col items-center justify-start gap-3">
                   <Text as="span" size="caption" weight="semibold" text={`${t("detail.share")}:`} />
-                  <Socials />
+                  <Socials items={company.socials} />
                 </div>
               </div>
             </div>

@@ -2,17 +2,17 @@ import { getTranslations } from "next-intl/server";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
-import { Media } from "@/common/media/components/Media";
+import { MediaVideo } from "@/common/media-video/components/MediaVideo";
 import { ProfileSplit } from "@/common/profile-split/components/ProfileSplit";
 import { YearsBadge } from "@/shared-sections/about/components/molecules/YearsBadge";
 import { ContactCard } from "@/shared-sections/about/components/molecules/ContactCard";
 import { StatsRow } from "@/shared-sections/about/components/molecules/StatsRow";
 import { SellingPoints } from "@/shared-sections/about/components/molecules/SellingPoints";
-import { aboutData } from "@/data/sections/about";
+import { aboutData } from "@/data/shared-sections/about";
 import { Container } from "@/common/container/components/Container";
 import type { AboutProps } from "@/shared-sections/about/types";
 
-const { name, image, heading, ctaHref, years, call, points, stats } = aboutData;
+const { name, video, heading, ctaHref, years, call, points, stats } = aboutData;
 
 export const About = async ({ variant, tone = "base" }: AboutProps) => {
   const t = await getTranslations("about");
@@ -30,11 +30,11 @@ export const About = async ({ variant, tone = "base" }: AboutProps) => {
       <Container>
         <ProfileSplit
           media={
-            <Media
-              src={image.src}
-              alt={t(image.altKey, { name })}
-              shape="feature"
-              sizes="(max-width: 1024px) 100vw, 50vw"
+            <MediaVideo
+              src={video.src}
+              poster={video.poster}
+              alt={t(video.altKey, { name })}
+              shape="square"
             />
           }
           badge={

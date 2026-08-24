@@ -1,0 +1,101 @@
+{
+  "eyebrow": "OUR PROJECTS.",
+  "titleLead": "Proven Quality Work",
+  "titleAccent": "For Every New Roof",
+  "description": "Our projects highlight premium quality roofing systems securely built with expert craftsmanship for extraordinary durability, total protection, and lasting value.",
+  "action": {
+    "viewAll": "View All Projects",
+    "viewGallery": "View Gallery",
+    "contact": "Contact Us Now",
+    "viewImage": "View Image",
+    "close": "Close",
+    "previous": "Previous Project",
+    "next": "Next Project"
+  },
+  "items": {
+    "cedarHeights": {
+      "title": "Metal Roofing.",
+      "description": "Silver standing seam metal roof."
+    },
+    "sunsetRidge": {
+      "title": "Tile Roofing.",
+      "description": "Grey slate look concrete tile roof."
+    },
+    "summitBungalow": {
+      "title": "Residential Roofing.",
+      "description": "Grey asphalt shingle estate roof."
+    },
+    "condoComplex": {
+      "title": "Commercial Roofing.",
+      "description": "Metal mansard with flat membrane roof."
+    },
+    "solarResidence": {
+      "title": "Solar Roofing.",
+      "description": "Solar panels on blue metal roof."
+    },
+    "coastalMetal": {
+      "title": "Skylight Installation.",
+      "description": "Glass skylights on flat membrane roof."
+    },
+    "lakeviewContemporary": {
+      "title": "Metal Roofing.",
+      "description": "Bronze standing seam metal roof."
+    },
+    "northgateRanch": {
+      "title": "Metal Roofing.",
+      "description": "Terracotta standing seam metal roof."
+    },
+    "stonebridge": {
+      "title": "Metal Roofing.",
+      "description": "Bright silver standing seam roof."
+    },
+    "greystoneFarmhouse": {
+      "title": "Metal Roofing.",
+      "description": "Charcoal standing seam metal roof."
+    },
+    "blackpineEstate": {
+      "title": "Metal Roofing.",
+      "description": "Black stone coated metal tile roof."
+    },
+    "modernBlueMetal": {
+      "title": "Metal Roofing.",
+      "description": "Blue standing seam metal roof."
+    },
+    "estateMetal": {
+      "title": "Metal Roofing.",
+      "description": "Graphite standing seam metal roof."
+    },
+    "maroonMetal": {
+      "title": "Metal Roofing.",
+      "description": "Maroon stone coated metal tile roof."
+    },
+    "harborMetal": {
+      "title": "Metal Roofing.",
+      "description": "Grey stone coated metal tile roof."
+    },
+    "ranchMetal": {
+      "title": "Metal Roofing.",
+      "description": "Pewter standing seam metal roof."
+    },
+    "mapleGrove": {
+      "title": "Tile Roofing.",
+      "description": "Terracotta clay barrel tile roof."
+    },
+    "tilePlaza": {
+      "title": "Tile Roofing.",
+      "description": "Warm coral clay barrel tile roof."
+    },
+    "gardenResidences": {
+      "title": "Residential Roofing.",
+      "description": "Weathered grey asphalt shingle roof."
+    },
+    "skylightHome": {
+      "title": "Skylight Installation.",
+      "description": "Skylight set in grey shingle roof."
+    },
+    "carportMetal": {
+      "title": "Skylight Installation.",
+      "description": "Glass roof lantern on flat roof."
+    }
+  }
+}
