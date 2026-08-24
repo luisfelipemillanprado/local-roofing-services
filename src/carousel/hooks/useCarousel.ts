@@ -14,14 +14,24 @@ export const useCarousel = (): Carousel => {
 
   useEffect(() => {
     if (!emblaApi) return;
-    const raf = requestAnimationFrame(() => {
-      setReady(true);
-      /* v9 autoplay needs a manual start; skip when hidden or reduced-motion */
-      const hidden = emblaApi.rootNode().offsetParent === null;
-      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      if (!hidden && !reducedMotion) emblaApi.plugins().autoplay?.play();
-    });
-    return () => cancelAnimationFrame(raf);
+    /* defer ready a frame (lint bans sync set-state in effects) */
+    const raf = requestAnimationFrame(() => setReady(true));
+
+    const autoplay = emblaApi.plugins().autoplay;
+    const hidden = emblaApi.rootNode().offsetParent === null;
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    /* resume after a touch; default interaction stops autoplay on pointerdown */
+    const resume = () => autoplay?.play();
+    /* v9 autoplay needs a manual start; skip when hidden or reduced-motion */
+    if (autoplay && !hidden && !reducedMotion) {
+      autoplay.play();
+      emblaApi.on("pointerup", resume);
+    }
+
+    return () => {
+      cancelAnimationFrame(raf);
+      emblaApi.off("pointerup", resume);
+    };
   }, [emblaApi]);
 
   return { emblaRef, ready, ...dots };
