@@ -8,10 +8,6 @@
     "contact": "Contactar Ahora",
     "viewDetails": "Ver Más Detalles"
   },
-  "controls": {
-    "previous": "Servicio Anterior",
-    "next": "Servicio Siguiente"
-  },
   "items": {
     "repair": {
       "title": "Reparación de Techos.",

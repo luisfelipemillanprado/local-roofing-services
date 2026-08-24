@@ -3,7 +3,7 @@ import type { Locale } from "@/i18n/routing";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
-import { ServicesSlider } from "@/shared-sections/services-slider/components/organisms/ServicesSlider";
+import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { Pitch } from "@/shared-sections/pitch/components/Pitch";
 import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
@@ -34,7 +34,7 @@ export default async function Home({ params }: Props) {
       />
       <Marquee />
       <About variant="learnMore" />
-      <ServicesSlider variant="viewAll" tone="muted" limit={6} />
+      <Services variant="viewAll" tone="muted" limit={6} mobileCarousel />
       <Pitch variant="why-choose" />
       <Projects variant="viewAll" limit={6} />
       <Testimonials variant="viewAll" tone="base" group="company" />

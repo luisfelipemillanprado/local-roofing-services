@@ -2,6 +2,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { ServiceList } from "@/shared-sections/services/components/molecules/ServiceList";
+import { ServicesCarousel } from "@/shared-sections/services/components/molecules/ServicesCarousel";
 import { getTranslations } from "next-intl/server";
 import { servicesData } from "@/data/shared-sections/services";
 import type { ServicesProps } from "@/shared-sections/services/types";
@@ -9,7 +10,7 @@ import { Container } from "@/common/container/components/Container";
 
 const { heading, ctaHref, items } = servicesData;
 
-export const Services = async ({ variant, tone = "muted", limit }: ServicesProps) => {
+export const Services = async ({ variant, tone = "muted", limit, mobileCarousel = false }: ServicesProps) => {
   const t = await getTranslations("service");
   /* data: order + image; text by key */
   /* limit: home summary, full on /services */
@@ -23,8 +24,8 @@ export const Services = async ({ variant, tone = "muted", limit }: ServicesProps
 
   return (
     <SectionWrapper id="services" tone={tone}>
-      <Container>
-        <div className="grid gap-13">
+      <div className="grid grid-cols-1 gap-13">
+        <Container>
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
@@ -39,10 +40,25 @@ export const Services = async ({ variant, tone = "muted", limit }: ServicesProps
               </Button>
             </div>
           </div>
+        </Container>
 
-          <ServiceList cards={cards} viewDetails={t("action.viewDetails")} />
-        </div>
-      </Container>
+        {mobileCarousel ? (
+          <Container bleed>
+            {/* desktop: the usual services grid */}
+            <div className="hidden md:block">
+              <ServiceList cards={cards} viewDetails={t("action.viewDetails")} />
+            </div>
+            {/* mobile: a carousel of the same cards */}
+            <div className="md:hidden">
+              <ServicesCarousel cards={cards} viewDetails={t("action.viewDetails")} />
+            </div>
+          </Container>
+        ) : (
+          <Container>
+            <ServiceList cards={cards} viewDetails={t("action.viewDetails")} />
+          </Container>
+        )}
+      </div>
     </SectionWrapper>
   );
 };

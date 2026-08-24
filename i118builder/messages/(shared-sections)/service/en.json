@@ -8,10 +8,6 @@
     "contact": "Contact Us Now",
     "viewDetails": "View More Details"
   },
-  "controls": {
-    "previous": "Previous Service",
-    "next": "Next Service"
-  },
   "items": {
     "repair": {
       "title": "Roof Repair.",
