@@ -14,3 +14,7 @@ pnpm-lock.yaml
 
 # Local, per-user tool settings (untracked)
 .claude/settings.local.json
+
+# Playwright Test output
+test-results/
+playwright-report/

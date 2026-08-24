@@ -36,3 +36,7 @@ messages/*.d.json.ts
 
 # playwright mcp (local browser artifacts: screenshots, snapshots, logs)
 .playwright-mcp/
+
+# playwright test output (baselines under e2e/__screenshots__ are committed)
+/test-results/
+/playwright-report/
