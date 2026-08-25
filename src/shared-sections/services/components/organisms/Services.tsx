@@ -21,10 +21,11 @@ export const Services = async ({ variant, tone = "muted", limit, mobileCarousel 
     title: t(`items.${service.key}.title`),
     description: t(`items.${service.key}.description`),
   }));
+  const viewDetails = t("action.viewDetails");
 
   return (
     <SectionWrapper id="services" tone={tone}>
-      <div className="grid grid-cols-1 gap-13">
+      <div className="grid gap-13">
         <Container>
           <div className="grid justify-items-center gap-6">
             <SectionHeading
@@ -42,22 +43,22 @@ export const Services = async ({ variant, tone = "muted", limit, mobileCarousel 
           </div>
         </Container>
 
-        {mobileCarousel ? (
-          <Container>
-            {/* desktop: the usual services grid */}
-            <div className="hidden md:block">
-              <ServiceList cards={cards} viewDetails={t("action.viewDetails")} />
-            </div>
-            {/* mobile: a carousel of the same cards */}
-            <div className="md:hidden">
-              <ServicesCarousel cards={cards} viewDetails={t("action.viewDetails")} />
-            </div>
-          </Container>
-        ) : (
-          <Container>
-            <ServiceList cards={cards} viewDetails={t("action.viewDetails")} />
-          </Container>
-        )}
+        <Container>
+          {mobileCarousel ? (
+            <>
+              {/* desktop: the usual services grid */}
+              <div className="hidden md:block">
+                <ServiceList cards={cards} viewDetails={viewDetails} />
+              </div>
+              {/* mobile: a carousel of the same cards */}
+              <div className="md:hidden">
+                <ServicesCarousel cards={cards} viewDetails={viewDetails} />
+              </div>
+            </>
+          ) : (
+            <ServiceList cards={cards} viewDetails={viewDetails} />
+          )}
+        </Container>
       </div>
     </SectionWrapper>
   );
