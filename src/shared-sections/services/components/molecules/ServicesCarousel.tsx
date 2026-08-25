@@ -20,10 +20,10 @@ export const ServicesCarousel = ({ cards, viewDetails }: ServiceListProps) => {
             ready ? "opacity-100" : "opacity-0",
           )}
         >
-          {/* one card in view; slide px is the inter-card gap, no negative margins */}
+          {/* one full-width card in view; mr is the inter-card gap Embla measures, no negative margins */}
           <div className="flex [touch-action:pan-y_pinch-zoom]">
             {cards.map(({ key, ...card }) => (
-              <div key={key} className="min-w-0 flex-[0_0_100%] px-1.5">
+              <div key={key} className="mr-3 min-w-0 flex-[0_0_100%]">
                 <ServiceCard {...card} viewDetails={viewDetails} />
               </div>
             ))}
@@ -32,7 +32,7 @@ export const ServicesCarousel = ({ cards, viewDetails }: ServiceListProps) => {
 
         {/* SSR-visible placeholder until ready; no blank gap */}
         {!ready && (
-          <div className="col-start-1 row-start-1 grid px-1.5">
+          <div className="col-start-1 row-start-1 grid">
             <div className="grid grid-rows-[1fr_auto] overflow-hidden rounded-2xl border border-line bg-surface-panel shadow-md">
               <div className="min-h-56 animate-pulse bg-foreground-muted/10" />
               <div className="grid gap-2.5 px-5.5 py-4.5">
