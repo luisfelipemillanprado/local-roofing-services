@@ -10,7 +10,7 @@ export const ServicesCarousel = ({ cards, viewDetails }: ServiceListProps) => {
   const { emblaRef, ready, selectedIndex, scrollSnaps } = useCarousel();
 
   return (
-    <div className="grid gap-6">
+    <div className="grid gap-8">
       {/* stack carousel + skeleton in one cell to crossfade */}
       <div className="grid grid-cols-1">
         <div
@@ -20,7 +20,7 @@ export const ServicesCarousel = ({ cards, viewDetails }: ServiceListProps) => {
             ready ? "opacity-100" : "opacity-0",
           )}
         >
-          {/* one full-width card in view; mr is the inter-card gap Embla measures, no negative margins */}
+          {/* mr = inter-card gap; Embla measures margins (CSS gap breaks the loop) */}
           <div className="flex [touch-action:pan-y_pinch-zoom]">
             {cards.map(({ key, ...card }) => (
               <div key={key} className="mr-3 min-w-0 flex-[0_0_100%]">
@@ -45,13 +45,13 @@ export const ServicesCarousel = ({ cards, viewDetails }: ServiceListProps) => {
       </div>
 
       {/* non-interactive progress indicator, centered */}
-      <div aria-hidden="true" className="grid grid-flow-col justify-center gap-2">
+      <div aria-hidden="true" className="grid grid-flow-col justify-center gap-3">
         {scrollSnaps.map((_, i) => (
           <span
             key={i}
             className={clsx(
-              "h-2 rounded-full transition-all duration-300",
-              i === selectedIndex ? "w-6 bg-primary" : "w-2 bg-foreground-muted/40",
+              "h-3 rounded-full transition-all duration-300",
+              i === selectedIndex ? "w-7 bg-primary" : "w-3 bg-foreground-muted/40",
             )}
           />
         ))}

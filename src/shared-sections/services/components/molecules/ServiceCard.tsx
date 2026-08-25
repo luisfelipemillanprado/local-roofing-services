@@ -4,6 +4,7 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import type { ServiceCardProps } from "@/shared-sections/services/types";
 
+/* service card: media + title + description + arrow */
 export const ServiceCard = ({ image, title, description, viewDetails, href }: ServiceCardProps) => (
   <article className="group grid overflow-hidden rounded-2xl border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
     <Media
@@ -17,7 +18,7 @@ export const ServiceCard = ({ image, title, description, viewDetails, href }: Se
         <Title as="h3" size="card" weight="bold" truncate text={title} />
         <Text size="body" tone="muted" truncate text={description} />
       </div>
-      <ArrowLink href={href} label={`${title} ${viewDetails}`} />
+      <ArrowLink href={href} label={`${title} ${viewDetails}`} pulse />
     </div>
   </article>
 );

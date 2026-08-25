@@ -18,4 +18,5 @@ export interface ActionButtonProps {
 export interface ArrowLinkProps {
   href: string;
   label: string;
+  pulse?: boolean;
 }
