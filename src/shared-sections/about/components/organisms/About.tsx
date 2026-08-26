@@ -51,7 +51,6 @@ export const About = async ({ variant, tone = "base" }: AboutProps) => {
               title={t(heading.titleLead)}
               accent={t(heading.titleAccent)}
               description={t(heading.description, { name })}
-              align="leftFromMobile"
             />
           }
           points={<SellingPoints items={pointItems} />}
