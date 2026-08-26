@@ -8,7 +8,7 @@ export const StatsRow = ({ items }: StatsRowProps) => (
     {items.map((item) => (
       <div key={item.key} className="grid gap-1.5 px-4">
         <TextNumber as="p" size="headline" text={item.value} />
-        <Text size="note" tone="muted" weight="bold" text={item.label} />
+        <Text size="caption" tone="muted" weight="bold" text={item.label} />
       </div>
     ))}
   </div>

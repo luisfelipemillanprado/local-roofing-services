@@ -5,7 +5,7 @@ const sizes: Record<TextSize, string> = {
   body: "text-[clamp(0.95rem,0.6773rem+1.2121vw,0.975rem)] leading-relaxed" /* fluid 15.2→15.6px, 360→393vw — card body, buttons, navbar, footer, hero rating, contact phone */,
   caption:
     "text-[clamp(0.84375rem,0.5028rem+1.5152vw,0.875rem)] leading-relaxed" /* fluid 13.5→14px, 360→393vw — marquee, stat captions, contact card label, years badge */,
-  note: "text-[clamp(0.825rem,0.5523rem+1.2121vw,0.85rem)] leading-relaxed" /* fluid 13.2→13.6px, 360→393vw — hero availability badge, why-choose stat labels */,
+  note: "text-[clamp(0.825rem,0.5523rem+1.2121vw,0.85rem)] leading-relaxed" /* fluid 13.2→13.6px, 360→393vw — hero availability badge, shop product meta, review count */,
   label:
     "text-[clamp(0.7625rem,0.4898rem+1.2121vw,0.7875rem)] leading-relaxed" /* fluid 12.2→12.6px, 360→393vw — eyebrows and badges */,
 };
