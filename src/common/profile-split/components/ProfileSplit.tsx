@@ -1,6 +1,6 @@
 import type { ProfileSplitProps } from "@/common/profile-split/types";
 
-/* split band: framed media with floating badge + contact left, heading/points/stats/cta right */
+/* split band: framed media with floating badge + contact left, heading/points/stats/action right */
 export const ProfileSplit = ({
   media,
   badge,
@@ -10,7 +10,7 @@ export const ProfileSplit = ({
   stats,
   action,
 }: ProfileSplitProps) => (
-  <div className="grid items-center gap-19 lg:grid-cols-2 lg:gap-13">
+  <div className="grid items-center gap-20 lg:grid-cols-2 lg:gap-13">
     {/* image side */}
     <div className="relative">
       <div className="overflow-hidden rounded-2xl shadow-lg">{media}</div>
@@ -25,6 +25,7 @@ export const ProfileSplit = ({
     <div className="grid gap-7 text-center lg:text-left">
       {heading}
       {points}
+      {/* stats and action take extra top margin beyond the gap for progressive spacing */}
       <div className="mt-2">{stats}</div>
       <div className="mt-2.5">{action}</div>
     </div>
