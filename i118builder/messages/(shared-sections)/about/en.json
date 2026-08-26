@@ -17,9 +17,9 @@
     "materials": "Premium materials from leading manufacturers."
   },
   "stats": {
-    "projects": "Projects Completed.",
-    "homes": "Homes Protected.",
-    "satisfaction": "Customer Satisfaction."
+    "projects": "Projects Completed",
+    "homes": "Homes Protected",
+    "satisfaction": "Customer Satisfaction"
   },
   "action": {
     "viewDetails": "View More Details",

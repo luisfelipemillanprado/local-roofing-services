@@ -17,9 +17,9 @@
     "materials": "Materiales premium de marcas reconocidas."
   },
   "stats": {
-    "projects": "Proyectos Completados.",
-    "homes": "Hogares Protegidos.",
-    "satisfaction": "Satisfacción del Cliente."
+    "projects": "Proyectos Completados",
+    "homes": "Hogares Protegidos",
+    "satisfaction": "Satisfacción del Cliente"
   },
   "action": {
     "viewDetails": "Ver Más Detalles",
