@@ -8,7 +8,7 @@ const mobileAvatars = 3;
 
 /* social proof: avatars + stars + count */
 export const CustomerRating = ({ avatars, label }: CustomerRatingProps) => (
-  <div className="inline-grid max-w-full grid-cols-[auto_minmax(0,1fr)] items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-2">
+  <div className="inline-grid max-w-full grid-cols-[auto_minmax(0,1fr)] items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-3">
     {/* decorative: the label carries the meaning, so alt stays empty */}
     {/* pr-3 offsets the -space-x-3 overflow on mobile; tablet+ sizes to content */}
     <div className="flex -space-x-3 pr-3 sm:pr-0">
