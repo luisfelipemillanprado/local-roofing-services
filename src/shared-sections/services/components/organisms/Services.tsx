@@ -24,8 +24,8 @@ export const Services = async ({ variant, tone = "muted", limit }: ServicesProps
 
   return (
     <SectionWrapper id="services" tone={tone}>
-      <div className="grid gap-13">
-        <Container>
+      <Container>
+        <div className="grid gap-13">
           <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
@@ -40,12 +40,10 @@ export const Services = async ({ variant, tone = "muted", limit }: ServicesProps
               </Button>
             </div>
           </div>
-        </Container>
 
-        <Container>
           <ServiceList cards={cards} viewDetails={viewDetails} />
-        </Container>
-      </div>
+        </div>
+      </Container>
     </SectionWrapper>
   );
 };
