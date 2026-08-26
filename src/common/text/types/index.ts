@@ -14,11 +14,9 @@ export interface TextProps {
 }
 
 export type TextNumberSize = "base" | "price" | "stat" | "headline" | "display";
-export type TextNumberTone = "default" | "primary";
 
 export interface TextNumberProps {
   as?: "p" | "span";
   size?: TextNumberSize;
-  tone?: TextNumberTone;
   text: string;
 }
