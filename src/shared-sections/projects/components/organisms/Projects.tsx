@@ -49,6 +49,7 @@ export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps
                 <ArrowLink
                   href={ctaHref.viewAll.href}
                   label={`${card.description} ${t("action.viewGallery")}`}
+                  pulse
                 />
               )}
             />

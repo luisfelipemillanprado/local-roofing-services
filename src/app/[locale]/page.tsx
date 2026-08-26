@@ -34,7 +34,7 @@ export default async function Home({ params }: Props) {
       />
       <Marquee />
       <About variant="learnMore" />
-      <Services variant="viewAll" tone="muted" limit={6} mobileCarousel />
+      <Services variant="viewAll" tone="muted" limit={6} />
       <Pitch variant="why-choose" />
       <Projects variant="viewAll" limit={6} />
       <Testimonials variant="viewAll" tone="base" group="company" />

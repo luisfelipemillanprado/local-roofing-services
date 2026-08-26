@@ -56,7 +56,7 @@ export const ProductCard = ({
         </div>
       </div>
 
-      <ArrowLink href={href} label={viewLabel} />
+      <ArrowLink href={href} label={viewLabel} pulse />
     </div>
   </article>
 );
