@@ -7,6 +7,7 @@ export const aboutData = {
   /* badge + contact card: value from company, label by key */
   years: { key: "experience", value: `${company.yearsExperience}+` },
   call: { key: "callAnytime", number: company.phone },
+  /* company name — ICU arg for videoAlt + description */
   name: company.name,
   heading: {
     eyebrow: "eyebrow",
