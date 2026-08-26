@@ -5,10 +5,13 @@ import type { YearsBadgeProps } from "@/shared-sections/about/types";
 /* About experience badge: years number + two label lines */
 export const YearsBadge = ({ value, line1, line2 }: YearsBadgeProps) => (
   <div className="theme-dark grid rounded-2xl bg-primary p-3 shadow-lg sm:p-4">
-    <div className="grid gap-1.5 text-center">
+    <div className="grid gap-1 text-center">
       <TextNumber as="p" size="display" text={value} />
-      <Text as="p" size="caption" tone="default" weight="bold" tracking="subtle" text={line1} />
-      <Text as="p" size="caption" tone="default" weight="bold" tracking="subtle" text={line2} />
+      {/* label lines grouped so the number↔label gap tunes apart from the line↔line gap */}
+      <div className="grid gap-1.25">
+        <Text as="p" size="caption" tone="default" weight="bold" tracking="subtle" text={line1} />
+        <Text as="p" size="caption" tone="default" weight="bold" tracking="subtle" text={line2} />
+      </div>
     </div>
   </div>
 );
