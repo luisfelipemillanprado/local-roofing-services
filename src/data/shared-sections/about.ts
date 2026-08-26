@@ -1,13 +1,13 @@
 import { company } from "@/data/site";
 
-/* About section data; firm-level, text resolved by key */
+/* About section: video + badge/contact + stats/points; text by key */
 export const aboutData = {
   /* video: ambient loop + poster still + its alt key */
   video: { src: "/videos/video1/video1.webm", poster: "/videos/video1/poster.webp", altKey: "videoAlt" },
   /* badge + contact card: value from company, label by key */
   years: { key: "experience", value: `${company.yearsExperience}+` },
   call: { key: "callAnytime", number: company.phone },
-  /* company name — ICU arg for videoAlt + description */
+  /* company name: ICU arg for videoAlt + description */
   name: company.name,
   heading: {
     eyebrow: "eyebrow",
