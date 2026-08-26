@@ -22,10 +22,12 @@ export const MarqueeList = ({ items, copies }: MarqueeListProps) => (
           const Icon = ICONS[icon];
           return (
             <div key={key} className="grid grid-flow-col items-center justify-start gap-3 px-6">
-              <Icon className="size-5 text-white" />
+              <Icon className="size-5 text-white" aria-hidden />
+              {/* wrapper carries nowrap: Text exposes no className */}
               <span className="whitespace-nowrap">
                 <Text as="span" size="caption" tone="white" weight="bold" tracking="wide" text={label} />
               </span>
+              {/* dot separator between badges */}
               <span className="ml-7 size-1.5 rounded-full bg-white/50" />
             </div>
           );
