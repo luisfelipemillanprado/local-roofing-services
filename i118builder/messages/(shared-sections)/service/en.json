@@ -13,37 +13,37 @@
       "title": "Roof Repair.",
       "titleLead": "Roof",
       "titleAccent": "Repair",
-      "description": "Fast lasting fixes done right."
+      "description": "Fast, lasting repairs done right."
     },
     "replacement": {
       "title": "Roof Replacement.",
       "titleLead": "Roof",
       "titleAccent": "Replacement",
-      "description": "Complete roof replacement done right."
+      "description": "Full roof replacements that last."
     },
     "storm": {
       "title": "Storm Damage Repair.",
       "titleLead": "Storm Damage",
       "titleAccent": "Repair",
-      "description": "Rapid response to storm damage."
+      "description": "Rapid help after storm damage."
     },
     "inspections": {
       "title": "Roof Inspections.",
       "titleLead": "Roof",
       "titleAccent": "Inspections",
-      "description": "Detailed inspections and honest reports."
+      "description": "Thorough reports you can trust."
     },
     "gutters": {
       "title": "Gutters & Flashing.",
       "titleLead": "Gutters &",
       "titleAccent": "Flashing",
-      "description": "Protecting every home from water."
+      "description": "Directing rain safely off homes."
     },
     "commercial": {
       "title": "Commercial Roofing.",
       "titleLead": "Commercial",
       "titleAccent": "Roofing",
-      "description": "Flat roof systems for businesses."
+      "description": "Strong flat roofs for businesses."
     },
     "residential": {
       "title": "Residential Roofing.",
@@ -61,25 +61,25 @@
       "title": "Tile Roofing.",
       "titleLead": "Tile",
       "titleAccent": "Roofing",
-      "description": "Premium concrete and clay tiles."
+      "description": "Durable concrete and clay tiles."
     },
     "flat": {
       "title": "Flat Roofing.",
       "titleLead": "Flat",
       "titleAccent": "Roofing",
-      "description": "Waterproof low slope roofing systems."
+      "description": "Sealed low slope roof systems."
     },
     "skylights": {
       "title": "Skylight Installation.",
       "titleLead": "Skylight",
       "titleAccent": "Installation",
-      "description": "Leak free skylights expertly installed."
+      "description": "Bright, leak free natural light."
     },
     "solar": {
       "title": "Solar Roofing.",
       "titleLead": "Solar",
       "titleAccent": "Roofing",
-      "description": "Solar ready roofs that save."
+      "description": "Money saving solar ready roofs."
     }
   }
 }

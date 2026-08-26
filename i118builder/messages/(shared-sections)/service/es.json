@@ -13,31 +13,31 @@
       "title": "Reparación de Techos.",
       "titleLead": "Reparación de",
       "titleAccent": "Techos",
-      "description": "Arreglos rápidos y duraderos garantizados."
+      "description": "Arreglos rápidos y bien hechos."
     },
     "replacement": {
       "title": "Reemplazo de Techo.",
       "titleLead": "Reemplazo de",
       "titleAccent": "Techo",
-      "description": "Reemplazo completo hecho con calidad."
+      "description": "Techos nuevos que sí duran."
     },
     "storm": {
       "title": "Reparación por Tormenta.",
       "titleLead": "Reparación por",
       "titleAccent": "Tormenta",
-      "description": "Respuesta rápida tras cada tormenta."
+      "description": "Ayuda rápida tras la tormenta."
     },
     "inspections": {
       "title": "Inspección de Techos.",
       "titleLead": "Inspección de",
       "titleAccent": "Techos",
-      "description": "Inspecciones detalladas y reportes honestos."
+      "description": "Reportes en los que confiar."
     },
     "gutters": {
       "title": "Canaletas y Tapajuntas.",
       "titleLead": "Canaletas y",
       "titleAccent": "Tapajuntas",
-      "description": "Protegiendo cada hogar del agua."
+      "description": "Protegiendo tu hogar del agua."
     },
     "commercial": {
       "title": "Techado Comercial.",
@@ -49,13 +49,13 @@
       "title": "Techado Residencial.",
       "titleLead": "Techado",
       "titleAccent": "Residencial",
-      "description": "Techado confiable para cada hogar."
+      "description": "Techado seguro para tu hogar."
     },
     "metal": {
       "title": "Techado Metálico.",
       "titleLead": "Techado",
       "titleAccent": "Metálico",
-      "description": "Diseñado para durar por décadas."
+      "description": "Hecho para durar por décadas."
     },
     "tile": {
       "title": "Techado de Tejas.",
@@ -67,19 +67,19 @@
       "title": "Techado Plano.",
       "titleLead": "Techado",
       "titleAccent": "Plano",
-      "description": "Sistemas de techo plano impermeables."
+      "description": "Techo plano sellado y seguro."
     },
     "skylights": {
       "title": "Instalación de Tragaluz.",
       "titleLead": "Instalación de",
       "titleAccent": "Tragaluz",
-      "description": "Luz natural garantizada sin filtraciones."
+      "description": "Luz natural sellada, sin goteras."
     },
     "solar": {
       "title": "Techado Solar.",
       "titleLead": "Techado",
       "titleAccent": "Solar",
-      "description": "Techos solares que ahorran energía."
+      "description": "Techos solares de gran ahorro."
     }
   }
 }
