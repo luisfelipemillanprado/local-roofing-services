@@ -5,7 +5,6 @@ export interface ButtonProps {
   href: string;
   children: string;
   variant?: ButtonVariant;
-  fullWidth?: boolean;
   pulse?: boolean;
 }
 
