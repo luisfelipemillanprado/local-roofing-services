@@ -14,6 +14,7 @@ import type { AboutProps } from "@/shared-sections/about/types";
 
 const { name, video, heading, ctaHref, years, call, points, stats } = aboutData;
 
+/* About section: media + heading, selling points, stats, and CTA */
 export const About = async ({ variant, tone = "base" }: AboutProps) => {
   const t = await getTranslations("about");
   /* stats: value from data, label by key */
