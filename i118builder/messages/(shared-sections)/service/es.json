@@ -10,73 +10,73 @@
   },
   "items": {
     "repair": {
-      "title": "Reparación de Techos.",
+      "title": "Reparación de Techos",
       "titleLead": "Reparación de",
       "titleAccent": "Techos",
       "description": "Arreglos rápidos y bien hechos."
     },
     "replacement": {
-      "title": "Reemplazo de Techo.",
+      "title": "Reemplazo de Techo",
       "titleLead": "Reemplazo de",
       "titleAccent": "Techo",
       "description": "Techos nuevos que sí duran."
     },
     "storm": {
-      "title": "Reparación por Tormenta.",
+      "title": "Reparación por Tormenta",
       "titleLead": "Reparación por",
       "titleAccent": "Tormenta",
       "description": "Ayuda rápida tras la tormenta."
     },
     "inspections": {
-      "title": "Inspección de Techos.",
+      "title": "Inspección de Techos",
       "titleLead": "Inspección de",
       "titleAccent": "Techos",
       "description": "Reportes en los que confiar."
     },
     "gutters": {
-      "title": "Canaletas y Tapajuntas.",
+      "title": "Canaletas y Tapajuntas",
       "titleLead": "Canaletas y",
       "titleAccent": "Tapajuntas",
       "description": "Protegiendo tu hogar del agua."
     },
     "commercial": {
-      "title": "Techado Comercial.",
+      "title": "Techado Comercial",
       "titleLead": "Techado",
       "titleAccent": "Comercial",
       "description": "Techos planos para tu negocio."
     },
     "residential": {
-      "title": "Techado Residencial.",
+      "title": "Techado Residencial",
       "titleLead": "Techado",
       "titleAccent": "Residencial",
       "description": "Techado seguro para tu hogar."
     },
     "metal": {
-      "title": "Techado Metálico.",
+      "title": "Techado Metálico",
       "titleLead": "Techado",
       "titleAccent": "Metálico",
       "description": "Hecho para durar por décadas."
     },
     "tile": {
-      "title": "Techado de Tejas.",
+      "title": "Techado de Tejas",
       "titleLead": "Techado de",
       "titleAccent": "Tejas",
       "description": "Tejas de concreto y arcilla."
     },
     "flat": {
-      "title": "Techado Plano.",
+      "title": "Techado Plano",
       "titleLead": "Techado",
       "titleAccent": "Plano",
       "description": "Techo plano sellado y seguro."
     },
     "skylights": {
-      "title": "Instalación de Tragaluz.",
+      "title": "Instalación de Tragaluz",
       "titleLead": "Instalación de",
       "titleAccent": "Tragaluz",
       "description": "Luz natural sellada, sin goteras."
     },
     "solar": {
-      "title": "Techado Solar.",
+      "title": "Techado Solar",
       "titleLead": "Techado",
       "titleAccent": "Solar",
       "description": "Techos solares de gran ahorro."

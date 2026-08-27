@@ -10,73 +10,73 @@
   },
   "items": {
     "repair": {
-      "title": "Roof Repair.",
+      "title": "Roof Repair",
       "titleLead": "Roof",
       "titleAccent": "Repair",
       "description": "Fast, lasting repairs done right."
     },
     "replacement": {
-      "title": "Roof Replacement.",
+      "title": "Roof Replacement",
       "titleLead": "Roof",
       "titleAccent": "Replacement",
       "description": "Full roof replacements that last."
     },
     "storm": {
-      "title": "Storm Damage Repair.",
+      "title": "Storm Damage Repair",
       "titleLead": "Storm Damage",
       "titleAccent": "Repair",
       "description": "Rapid help after storm damage."
     },
     "inspections": {
-      "title": "Roof Inspections.",
+      "title": "Roof Inspections",
       "titleLead": "Roof",
       "titleAccent": "Inspections",
       "description": "Thorough reports you can trust."
     },
     "gutters": {
-      "title": "Gutters & Flashing.",
+      "title": "Gutters & Flashing",
       "titleLead": "Gutters &",
       "titleAccent": "Flashing",
       "description": "Directing rain safely off homes."
     },
     "commercial": {
-      "title": "Commercial Roofing.",
+      "title": "Commercial Roofing",
       "titleLead": "Commercial",
       "titleAccent": "Roofing",
       "description": "Strong flat roofs for businesses."
     },
     "residential": {
-      "title": "Residential Roofing.",
+      "title": "Residential Roofing",
       "titleLead": "Residential",
       "titleAccent": "Roofing",
       "description": "Trusted roofing for every home."
     },
     "metal": {
-      "title": "Metal Roofing.",
+      "title": "Metal Roofing",
       "titleLead": "Metal",
       "titleAccent": "Roofing",
       "description": "Engineered to last for decades."
     },
     "tile": {
-      "title": "Tile Roofing.",
+      "title": "Tile Roofing",
       "titleLead": "Tile",
       "titleAccent": "Roofing",
       "description": "Durable concrete and clay tiles."
     },
     "flat": {
-      "title": "Flat Roofing.",
+      "title": "Flat Roofing",
       "titleLead": "Flat",
       "titleAccent": "Roofing",
       "description": "Sealed low slope roof systems."
     },
     "skylights": {
-      "title": "Skylight Installation.",
+      "title": "Skylight Installation",
       "titleLead": "Skylight",
       "titleAccent": "Installation",
       "description": "Bright, leak free natural light."
     },
     "solar": {
-      "title": "Solar Roofing.",
+      "title": "Solar Roofing",
       "titleLead": "Solar",
       "titleAccent": "Roofing",
       "description": "Money saving solar ready roofs."
