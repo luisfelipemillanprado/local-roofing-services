@@ -48,7 +48,11 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
             </div>
           </div>
 
-          <ProductList cards={products} viewLabel={tShop("action.view")} />
+          <ProductList
+            cards={products}
+            viewLabel={tShop("action.view")}
+            trimLastOnMobile={products.length === 6}
+          />
         </div>
       </Container>
     </SectionWrapper>
