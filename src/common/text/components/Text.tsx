@@ -1,13 +1,13 @@
 import type { TextProps, TextSize, TextTone, TextTracking, TextWeight } from "@/common/text/types";
 
 const sizes: Record<TextSize, string> = {
-  lead: "text-[clamp(0.95625rem,0.43125rem+2.3333vw,1rem)] leading-relaxed" /* fluid 15.3→16px, 360→393vw — section/page descriptions, footer tagline */,
-  body: "text-[clamp(0.95rem,0.6773rem+1.2121vw,0.975rem)] leading-relaxed" /* fluid 15.2→15.6px, 360→393vw — card body, buttons, navbar, footer, hero rating, contact phone */,
+  lead: "text-[clamp(0.95625rem,0.74625rem+0.9333vw,1rem)] leading-relaxed" /* fluid 15.3→16px, 360→435vw — section/page descriptions, footer tagline, shop tabs & empty state */,
+  body: "text-[clamp(0.95rem,0.83rem+0.5333vw,0.975rem)] leading-relaxed" /* fluid 15.2→15.6px, 360→435vw — card body, buttons, navbar, footer, hero rating, contact phone */,
   caption:
-    "text-[clamp(0.84375rem,0.5028rem+1.5152vw,0.875rem)] leading-relaxed" /* fluid 13.5→14px, 360→393vw — marquee, stat captions, contact card label, years badge */,
-  note: "text-[clamp(0.825rem,0.5523rem+1.2121vw,0.85rem)] leading-relaxed" /* fluid 13.2→13.6px, 360→393vw — hero availability badge, shop product meta, review count */,
+    "text-[clamp(0.84375rem,0.69375rem+0.6667vw,0.875rem)] leading-relaxed" /* fluid 13.5→14px, 360→435vw — marquee, stat captions, contact/years labels, product meta, filter counts, icon highlights */,
+  note: "text-[clamp(0.825rem,0.705rem+0.5333vw,0.85rem)] leading-relaxed" /* fluid 13.2→13.6px, 360→435vw — hero availability badge, shop product meta, filter titles, review count, area counties */,
   label:
-    "text-[clamp(0.7625rem,0.4898rem+1.2121vw,0.7875rem)] leading-relaxed" /* fluid 12.2→12.6px, 360→393vw — eyebrows and badges */,
+    "text-[clamp(0.7625rem,0.6425rem+0.5333vw,0.7875rem)] leading-relaxed" /* fluid 12.2→12.6px, 360→435vw — eyebrows, navbar locale code */,
 };
 
 const tones: Record<TextTone, string> = {
