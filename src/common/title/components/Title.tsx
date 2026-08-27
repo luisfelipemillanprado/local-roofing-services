@@ -1,12 +1,12 @@
 import type { TitleProps, TitleSize, TitleTone, TitleWeight, TitleAccentTone } from "@/common/title/types";
 
 const sizes: Record<TitleSize, string> = {
-  display: "text-[3.375rem] leading-none sm:text-7xl lg:text-8xl" /* 54 → 72 → 96px — hero h1 */,
-  page: "text-4xl leading-none sm:text-5xl lg:text-6xl" /* 36 → 48 → 60px — product detail h1 */,
+  display: "text-[3.375rem] leading-none sm:text-7xl lg:text-8xl" /* 54px, 72px (sm), 96px (lg) — hero h1 */,
+  page: "text-4xl leading-none sm:text-5xl lg:text-6xl" /* 36px, 48px (sm), 60px (lg) — product detail h1 */,
   banner:
-    "text-[clamp(1.875rem,0.375rem+6.6667vw,2.25rem)] leading-tight lg:text-5xl" /* fluid 30→36px (like section), 48px (lg) — CTA banner h2 */,
+    "text-[clamp(1.875rem,0.375rem+6.6667vw,2.25rem)] leading-tight lg:text-5xl" /* fluid 30→36px, 360→450vw, 48px (lg) — CTA banner h2 */,
   section:
-    "text-[clamp(1.875rem,0.375rem+6.6667vw,2.1875rem)] leading-tight lg:text-[2.75rem]" /* fluid 30→35px, 44px (lg) — section h2 */,
+    "text-[clamp(1.875rem,0.375rem+6.6667vw,2.1875rem)] leading-tight lg:text-[2.75rem]" /* fluid 30→35px, 360→435vw, 44px (lg) — section h2 */,
   feature:
     "text-[clamp(1.1875rem,0.5057rem+3.0303vw,1.25rem)] leading-tight" /* fluid 19→20px, 360→393vw — service detail included panel */,
   card: "text-[clamp(1.1375rem,0.592rem+2.4242vw,1.1875rem)] leading-tight" /* fluid 18.2→19px, 360→393vw — service, product, project and icon card titles */,
