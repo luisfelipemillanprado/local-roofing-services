@@ -9,7 +9,7 @@ const sizes: Record<TitleSize, string> = {
     "text-[clamp(1.875rem,0.375rem+6.6667vw,2.1875rem)] leading-tight lg:text-[2.75rem]" /* fluid 30→35px, 360→435vw, 44px (lg) — section h2 */,
   feature:
     "text-[clamp(1.1875rem,0.5057rem+3.0303vw,1.25rem)] leading-tight" /* fluid 19→20px, 360→393vw — service detail included panel */,
-  card: "text-[clamp(1.1375rem,0.8375rem+1.3333vw,1.2rem)] leading-tight" /* fluid 18.2→19.2px, 360→435vw — service, product, project and icon card titles */,
+  card: "text-[clamp(1.15rem,0.91rem+1.0667vw,1.2rem)] leading-tight" /* fluid 18.4→19.2px, 360→435vw — service, product, project and icon card titles */,
   micro: "text-sm" /* 14px — footer columns */,
 };
 
