@@ -4,19 +4,6 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  /* Device-targeted breakpoints (reset Tailwind defaults first). */
-  --breakpoint-*: initial;
-  --breakpoint-m390: 24.375rem; /* iPhone 12–16 Pro, Pixel 8, S24 */
-  --breakpoint-m412: 25.75rem; /* Galaxy Ultra, Pixel Pro */
-  --breakpoint-m428: 26.75rem; /* Pro Max, Plus */
-  --breakpoint-m440: 27.5rem; /* iPhone 16/17 Pro Max */
-  --breakpoint-m480: 30rem; /* mobile safety cap */
-  --breakpoint-sm: 40rem; /* tablet */
-  --breakpoint-md: 48rem;
-  --breakpoint-lg: 64rem;
-  --breakpoint-xl: 80rem;
-  --breakpoint-2xl: 96rem;
-
   /* Header height — navbar + mobile-menu offset. */
   --spacing-header: 4.5rem;
 
