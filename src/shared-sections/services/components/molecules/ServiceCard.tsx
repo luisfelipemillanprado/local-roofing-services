@@ -4,7 +4,7 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import type { ServiceCardProps } from "@/shared-sections/services/types";
 
-/* service card: media + title + description + arrow */
+/* Service card: media + title + description + arrow */
 export const ServiceCard = ({ image, title, description, viewDetails, href }: ServiceCardProps) => (
   <article className="group grid h-full overflow-hidden rounded-2xl border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
     <Media
