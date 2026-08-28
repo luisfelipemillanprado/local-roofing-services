@@ -205,6 +205,24 @@ Theming is CSS-first in [`src/app/globals.css`](src/app/globals.css):
 Style components with the existing semantic utilities/tokens; do not hand-roll
 `bg-[var(--…)]` / `text-[var(--…)]` when a matching utility already exists.
 
+## Accessibility
+
+The UI follows a consistent set of accessibility conventions (the enforced list lives in
+[`.claude/rules/accessibility.md`](.claude/rules/accessibility.md)):
+
+- **Semantic landmarks** throughout — `<header>`, `<nav>`, `<main>`, `<footer>`, `<section>`,
+  `<article>` for cards, and `<figure>`/`<blockquote>` for testimonials and the viewer.
+- **Heading hierarchy** via the `Title` component's `as` prop: one `h1` per page, `h2` for
+  section headings, `h3` for card and panel titles (size is a separate prop).
+- **Icon-only controls** carry an i18n `aria-label`; purely decorative icons are
+  `aria-hidden`.
+- **Reduced motion** is honored in both CSS (the `prefers-reduced-motion` block in
+  `globals.css`) and JS (carousel autoplay guards on `matchMedia`).
+- **`<html lang>`** tracks the active locale, and forms label inputs via `htmlFor`/`id`.
+
+Known gaps still open (focus-visible rings, dialog focus trapping, `aria-current`, a skip
+link) are tracked in the `accessibility-review` skill and in `.claude/MEMORY.md`.
+
 ## Getting Started
 
 Requires Node.js and pnpm (`corepack enable` picks up the pinned `pnpm@10.33.0`). Manage
@@ -281,6 +299,19 @@ If you invoke `tsc` directly, run `pnpm i18n:build` first so the generated `mess
   `src/data/`. Output formats (AVIF/WebP) are configured in
   [`next.config.ts`](next.config.ts).
 
+### Before launch
+
+The template ships with placeholder data that must be replaced with the client's real
+values:
+
+- **Placeholder links (`#`) in [`src/data/site.ts`](src/data/site.ts):** social profiles,
+  the builder credit, and the WhatsApp number (`whatsappHref`).
+- **Sample company facts** (name, phone, email, address, figures) in the same file.
+- **Mock contact form:** `EmailForm` only shows a UI confirmation — wire a real backend
+  before going live.
+- **Shop product detail** is scaffolding: `src/data/shop/product-detail.ts` shares one set
+  of placeholder values across every product, and `ProductTabs` renders placeholder bodies.
+
 ## Deployment
 
 Optimized for Vercel (zero-config); any Node host works via `pnpm build` + `pnpm start`.
@@ -289,7 +320,10 @@ prerendered for the supported locales (`en`, `es`).
 
 ## Development notes
 
-Development is assisted by Claude Code (project conventions in [`CLAUDE.md`](CLAUDE.md)).
-Browser-facing checks use MCP servers as development-time tooling — Playwright for
-navigation, interaction and responsive checks, and Chrome DevTools for debugging,
-inspection and performance. These are not project dependencies.
+Development is assisted by Claude Code. [`CLAUDE.md`](CLAUDE.md) is the entry point; coding
+conventions live in [`.claude/rules/`](.claude/rules/) (architecture, code style,
+components, styling, images, data & i18n, copy, accessibility) and repeatable workflows in
+[`.claude/skills/`](.claude/skills/) (verifying-changes, updating-copy, responsive-review,
+accessibility-review). Browser-facing checks use MCP servers as development-time tooling —
+Playwright for navigation, interaction and responsive checks, and Chrome DevTools for
+debugging, inspection and performance. These are not project dependencies.
