@@ -12,7 +12,7 @@ content-wiring model, theming, and scripts** — do not duplicate the README.
 - `.claude/rules/` — coding conventions and implementation rules (architecture, code
   style, components, styling, images, data & i18n, copy, accessibility).
 - `.claude/skills/` — repeatable project workflows (verifying-changes, updating-copy,
-  responsive-review, accessibility-review).
+  responsive-review, accessibility-review, reviewing-comments).
 - `.claude/MEMORY.md` — project decisions, historical context, and pending work.
 - `.dependency-cruiser.cjs` — executable authority on architecture/import boundaries,
   verified by `pnpm arch`.
