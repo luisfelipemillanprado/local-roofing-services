@@ -8,13 +8,25 @@ Project decisions, historical context, and pending work. Conventions live in
 - The navbar `Areas` entry is still a placeholder until the `/areas` page exists.
 - Footer privacy and terms links are still placeholders until those pages exist.
 - `ServiceAreas` currently exists as a section on service detail pages.
+- The contact `EmailForm` is a mock: it shows UI confirmation only, with no backend wired
+  yet.
+- Shop product detail is scaffolding — `src/data/shop/product-detail.ts` shares one set of
+  placeholder values across every product (placeholder CTAs, swatch hex, a "was" price),
+  and `ProductTabs` renders placeholder bodies.
 
-## Browser Tooling
+## Placeholder client data (needs real values before launch)
 
-- Playwright and Chrome DevTools MCP are development time tools only.
-- They are used for browser navigation, interaction, responsive validation, debugging,
-  inspection, and performance checks.
-- They are not application dependencies.
+- Social profile hrefs (`facebook`, `x`, `instagram`, `youtube`), the `builder` credit
+  href, and the WhatsApp number (`whatsappHref`) are all `#`/sample placeholders.
+- Company facts in `src/data/site.ts` (name, phone, email, address, figures) are template
+  sample values. See the README "Customizing for the Client" section for where to edit.
+
+## Pending work
+
+- Known accessibility gaps are tracked in the `accessibility-review` skill: `MobileMenu`
+  dialog semantics (`aria-modal`/`aria-label`/`Escape`/focus move), `focus:outline-none`
+  without a visible focus ring, no focus trap or focus restore in `ProjectViewer`, no
+  `aria-current` on nav, and no skip-to-content link.
 
 ## Important Decisions
 
