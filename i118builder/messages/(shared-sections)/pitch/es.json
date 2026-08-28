@@ -23,7 +23,7 @@
     },
     "items": {
       "emergency": {
-        "title": "Servicio de Emergencia.",
+        "title": "Servicio de Emergencia",
         "description": "Atendemos daños por tormentas, goteras y reparaciones de urgencia a toda hora.",
         "highlights": {
           "label": "LISTOS",
@@ -31,7 +31,7 @@
         }
       },
       "materials": {
-        "title": "Materiales Premium.",
+        "title": "Materiales Premium",
         "description": "Usamos materiales de alta gama y marcas confiables, con protección duradera garantizada.",
         "highlights": {
           "label": "CONFIANZA",
@@ -39,7 +39,7 @@
         }
       },
       "pricing": {
-        "title": "Precios Transparentes.",
+        "title": "Precios Transparentes",
         "description": "Entregamos un presupuesto claro y detallado por adelantado, sin sorpresas ni sobrecostos.",
         "highlights": {
           "label": "DETALLADO",
@@ -47,7 +47,7 @@
         }
       },
       "licensed": {
-        "title": "Licencia y Seguro.",
+        "title": "Licencia y Seguro",
         "description": "Cada trabajo cuenta con licencia, seguro de responsabilidad civil y accidentes laborales.",
         "highlights": {
           "label": "RESPALDO",
@@ -135,7 +135,7 @@
     },
     "items": {
       "quality": {
-        "title": "Oficio de Calidad.",
+        "title": "Oficio de Calidad",
         "description": "Expertos dedicados entregan mano de obra meticulosa en cada proyecto, sin atajos.",
         "highlights": {
           "label": "OFICIO",
@@ -143,7 +143,7 @@
         }
       },
       "safety": {
-        "title": "Seguridad Primero.",
+        "title": "Seguridad Primero",
         "description": "Ponemos primero a las personas, con hábitos de seguridad que protegen familias.",
         "highlights": {
           "label": "SITIOS",
@@ -151,7 +151,7 @@
         }
       },
       "integrity": {
-        "title": "Integridad Inquebrantable.",
+        "title": "Integridad Inquebrantable",
         "description": "Mantenemos altos estándares éticos, tratando tu hogar con respeto y cuidado genuino.",
         "highlights": {
           "label": "ÉTICA",
@@ -159,7 +159,7 @@
         }
       },
       "community": {
-        "title": "Enfoque Comunitario.",
+        "title": "Enfoque Comunitario",
         "description": "Protegemos los hogares y negocios de los vecindarios donde vivimos y trabajamos.",
         "highlights": {
           "label": "RAÍCES",

@@ -23,7 +23,7 @@
     },
     "items": {
       "emergency": {
-        "title": "Emergency Service.",
+        "title": "Emergency Service",
         "description": "Our crews respond around the clock to storm damage, leaks, and urgent repairs.",
         "highlights": {
           "label": "READY",
@@ -31,7 +31,7 @@
         }
       },
       "materials": {
-        "title": "Premium Materials.",
+        "title": "Premium Materials",
         "description": "We install premium materials from trusted brands, backed by warranties for lasting protection.",
         "highlights": {
           "label": "TRUSTED",
@@ -39,7 +39,7 @@
         }
       },
       "pricing": {
-        "title": "Transparent Pricing.",
+        "title": "Transparent Pricing",
         "description": "You get a clear, detailed estimate upfront, with no hidden fees or surprises.",
         "highlights": {
           "label": "DETAILED",
@@ -47,7 +47,7 @@
         }
       },
       "licensed": {
-        "title": "Licensed & Insured.",
+        "title": "Licensed & Insured",
         "description": "Our team is fully licensed and insured, with liability and workers' compensation coverage.",
         "highlights": {
           "label": "LIABILITY",
@@ -135,7 +135,7 @@
     },
     "items": {
       "quality": {
-        "title": "Quality Craftsmanship.",
+        "title": "Quality Craftsmanship",
         "description": "Dedicated experts deliver meticulous workmanship on every roofing project, with no shortcuts taken.",
         "highlights": {
           "label": "MASTER",
@@ -143,7 +143,7 @@
         }
       },
       "safety": {
-        "title": "Safety First.",
+        "title": "Safety First",
         "description": "We put people first, with strict safety habits protecting your family and crew.",
         "highlights": {
           "label": "SECURE",
@@ -151,7 +151,7 @@
         }
       },
       "integrity": {
-        "title": "Unwavering Integrity.",
+        "title": "Unwavering Integrity",
         "description": "We uphold the highest ethical standards, treating your home with respect and care.",
         "highlights": {
           "label": "SOLID",
@@ -159,7 +159,7 @@
         }
       },
       "community": {
-        "title": "Community Focused.",
+        "title": "Community Focused",
         "description": "We protect the homes and businesses across neighborhoods where we live and work.",
         "highlights": {
           "label": "LOCAL",
