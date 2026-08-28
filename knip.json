@@ -1,5 +1,5 @@
 {
   "$schema": "https://unpkg.com/knip@6/schema.json",
-  "ignore": ["src/carousel/**"],
+  "ignore": ["src/carousel/**", ".claude/**"],
   "ignoreDependencies": ["embla-carousel-react", "embla-carousel-autoplay"]
 }
