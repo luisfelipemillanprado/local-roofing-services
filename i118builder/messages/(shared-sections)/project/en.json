@@ -14,87 +14,87 @@
   },
   "items": {
     "cedarHeights": {
-      "title": "Metal Roofing.",
-      "description": "Silver standing seam metal roof."
+      "title": "Metal Roofing",
+      "description": "Silver standing seam roof."
     },
     "sunsetRidge": {
-      "title": "Tile Roofing.",
-      "description": "Grey slate look concrete tile roof."
+      "title": "Tile Roofing",
+      "description": "Grey slate look concrete roof."
     },
     "summitBungalow": {
-      "title": "Residential Roofing.",
+      "title": "Residential Roofing",
       "description": "Grey asphalt shingle estate roof."
     },
     "condoComplex": {
-      "title": "Commercial Roofing.",
-      "description": "Metal mansard with flat membrane roof."
+      "title": "Commercial Roofing",
+      "description": "Metal mansard on flat roof."
     },
     "solarResidence": {
-      "title": "Solar Roofing.",
+      "title": "Solar Roofing",
       "description": "Solar panels on blue metal roof."
     },
     "coastalMetal": {
-      "title": "Skylight Installation.",
-      "description": "Glass skylights on flat membrane roof."
+      "title": "Skylight Installation",
+      "description": "Glass skylights on grey flat roof."
     },
     "lakeviewContemporary": {
-      "title": "Metal Roofing.",
-      "description": "Bronze standing seam metal roof."
+      "title": "Metal Roofing",
+      "description": "Bronze standing seam roof."
     },
     "northgateRanch": {
-      "title": "Metal Roofing.",
-      "description": "Terracotta standing seam metal roof."
+      "title": "Metal Roofing",
+      "description": "Terracotta standing seam roof."
     },
     "stonebridge": {
-      "title": "Metal Roofing.",
+      "title": "Metal Roofing",
       "description": "Bright silver standing seam roof."
     },
     "greystoneFarmhouse": {
-      "title": "Metal Roofing.",
-      "description": "Charcoal standing seam metal roof."
+      "title": "Metal Roofing",
+      "description": "Charcoal standing seam roof."
     },
     "blackpineEstate": {
-      "title": "Metal Roofing.",
-      "description": "Black stone coated metal tile roof."
+      "title": "Metal Roofing",
+      "description": "Black stone coated tile roof."
     },
     "modernBlueMetal": {
-      "title": "Metal Roofing.",
-      "description": "Blue standing seam metal roof."
+      "title": "Metal Roofing",
+      "description": "Navy blue standing seam roof."
     },
     "estateMetal": {
-      "title": "Metal Roofing.",
-      "description": "Graphite standing seam metal roof."
+      "title": "Metal Roofing",
+      "description": "Graphite standing seam roof."
     },
     "maroonMetal": {
-      "title": "Metal Roofing.",
-      "description": "Maroon stone coated metal tile roof."
+      "title": "Metal Roofing",
+      "description": "Maroon stone coated tile roof."
     },
     "harborMetal": {
-      "title": "Metal Roofing.",
-      "description": "Grey stone coated metal tile roof."
+      "title": "Metal Roofing",
+      "description": "Grey stone coated tile roof."
     },
     "ranchMetal": {
-      "title": "Metal Roofing.",
-      "description": "Pewter standing seam metal roof."
+      "title": "Metal Roofing",
+      "description": "Pewter standing seam roof."
     },
     "mapleGrove": {
-      "title": "Tile Roofing.",
+      "title": "Tile Roofing",
       "description": "Terracotta clay barrel tile roof."
     },
     "tilePlaza": {
-      "title": "Tile Roofing.",
+      "title": "Tile Roofing",
       "description": "Warm coral clay barrel tile roof."
     },
     "gardenResidences": {
-      "title": "Residential Roofing.",
-      "description": "Weathered grey asphalt shingle roof."
+      "title": "Residential Roofing",
+      "description": "Aged grey asphalt shingle roof."
     },
     "skylightHome": {
-      "title": "Skylight Installation.",
+      "title": "Skylight Installation",
       "description": "Skylight set in grey shingle roof."
     },
     "carportMetal": {
-      "title": "Skylight Installation.",
+      "title": "Skylight Installation",
       "description": "Glass roof lantern on flat roof."
     }
   }
