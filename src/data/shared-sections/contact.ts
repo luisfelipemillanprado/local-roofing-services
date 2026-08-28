@@ -6,8 +6,13 @@ export const contactData = {
     titleAccent: "titleAccent",
     description: "description",
   },
-  /* submit button: idle + sent labels, no navigating href */
-  cta: { key: "action.submit", sentKey: "action.sent" },
+  /* submit button + status labels, no navigating href */
+  cta: {
+    key: "action.submit",
+    sendingKey: "action.sending",
+    sentKey: "action.sent",
+    errorKey: "action.error",
+  },
   image: "/images/contact/contact.webp",
   /* email input: sr label + placeholder text by key */
   input: { label: "emailLabel", placeholder: "emailPlaceholder" },

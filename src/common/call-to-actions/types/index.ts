@@ -11,6 +11,7 @@ export interface ButtonProps {
 /* Action button (renders <button>); fixed submit style. */
 export interface ActionButtonProps {
   label: string;
+  disabled?: boolean;
 }
 
 /* Circular icon link (renders <a>); a card's trailing arrow affordance. */

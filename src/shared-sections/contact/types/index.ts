@@ -6,5 +6,7 @@ export interface EmailFormProps {
   emailLabel: string;
   emailPlaceholder: string;
   submitLabel: string;
-  sentLabel: string; /* button label while the mock confirmation shows */
+  sendingLabel: string; /* button label while the request is in flight */
+  sentLabel: string; /* confirmation shown after a successful send */
+  errorLabel: string; /* message shown if the request fails */
 }
