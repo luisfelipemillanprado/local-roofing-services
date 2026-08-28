@@ -5,7 +5,9 @@
   "description": "Get a free inspection and quote with zero obligation. Leave your email and our team contacts you within one day.",
   "action": {
     "submit": "Get Free Quote",
-    "sent": "Request Sent"
+    "sending": "Sending…",
+    "sent": "Request Sent",
+    "error": "Something went wrong. Please try again."
   },
   "emailLabel": "Email address",
   "emailPlaceholder": "john.doe@email.com",

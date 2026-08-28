@@ -8,8 +8,10 @@ Project decisions, historical context, and pending work. Conventions live in
 - The navbar `Areas` entry is still a placeholder until the `/areas` page exists.
 - Footer privacy and terms links are still placeholders until those pages exist.
 - `ServiceAreas` currently exists as a section on service detail pages.
-- The contact `EmailForm` is a mock: it shows UI confirmation only, with no backend wired
-  yet.
+- The contact `EmailForm` posts to `src/app/api/contact/route.ts` (Node.js runtime), which
+  sends via Amazon SES and is bot-hardened (honeypot, time-trap, origin check, in-memory
+  rate limit). It is a dev no-op until `AWS_REGION`/`SES_FROM`/`CONTACT_TO` are set and an
+  SES identity is verified; the rate limit should move to Upstash/Vercel KV for production.
 - Shop product detail is scaffolding — `src/data/shop/product-detail.ts` shares one set of
   placeholder values across every product (placeholder CTAs, swatch hex, a "was" price),
   and `ProductTabs` renders placeholder bodies.

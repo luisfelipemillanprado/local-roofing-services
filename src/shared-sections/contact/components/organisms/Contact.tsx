@@ -43,7 +43,9 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
               emailLabel={t(input.label)}
               emailPlaceholder={t(input.placeholder)}
               submitLabel={t(cta.key)}
+              sendingLabel={t(cta.sendingKey)}
               sentLabel={t(cta.sentKey)}
+              errorLabel={t(cta.errorKey)}
             />
           </div>
         </div>

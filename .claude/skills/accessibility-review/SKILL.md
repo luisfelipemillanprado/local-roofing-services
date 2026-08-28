@@ -38,8 +38,9 @@ consistently).
 These are not yet consistent in the codebase — always verify them on interactive UI:
 
 - **Focus visibility:** flag any `focus:outline-none` that has no visible replacement
-  (`SearchBox`, `SortSelect`, `EmailForm` swap only a border color). Keyboard focus must be
-  clearly visible; a color-only border change on a dark surface is weak.
+  (`SearchBox`, `SortSelect` swap only a border color). Keyboard focus must be clearly
+  visible; a color-only border change on a dark surface is weak. `EmailForm` is the reference
+  fix — a `focus-visible:outline-2 outline-offset-2` ring.
 - **Dialog keyboard completeness:** `ProjectViewer` moves focus in and handles `Escape` but
   does **not** trap `Tab` inside or restore focus to the trigger on close. `MobileMenu` uses
   `role="dialog"` but has **no** `aria-modal`, no `aria-label`, no focus move, and no

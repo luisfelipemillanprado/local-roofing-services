@@ -25,6 +25,7 @@
     ]
   },
   "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.1121.0",
     "@icons-pack/react-simple-icons": "^13.13.0",
     "clsx": "^2.1.1",
     "embla-carousel-autoplay": "9.0.0-rc03",

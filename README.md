@@ -307,8 +307,11 @@ values:
 - **Placeholder links (`#`) in [`src/data/site.ts`](src/data/site.ts):** social profiles,
   the builder credit, and the WhatsApp number (`whatsappHref`).
 - **Sample company facts** (name, phone, email, address, figures) in the same file.
-- **Mock contact form:** `EmailForm` only shows a UI confirmation — wire a real backend
-  before going live.
+- **Contact form email:** the form posts to `src/app/api/contact/route.ts` (Node.js
+  runtime) which sends through Amazon SES. It works in dev without config; set `AWS_REGION`,
+  `SES_FROM`, and `CONTACT_TO` (see [`.env.example`](.env.example)) and verify an SES
+  identity to activate real delivery. Hardening: honeypot, time-trap, origin check, and an
+  in-memory rate limit (swap for Upstash/Vercel KV in production).
 - **Shop product detail** is scaffolding: `src/data/shop/product-detail.ts` shares one set
   of placeholder values across every product, and `ProductTabs` renders placeholder bodies.
 
