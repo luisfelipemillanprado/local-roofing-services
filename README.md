@@ -33,6 +33,7 @@ tiers. A slice's **tier folder** (not an inner `organisms/` folder) determines t
 - `shared-sections/` — organisms reused by **two or more** routes.
 - `layout/` — app-shell chrome (navbar, footer, floating-contact).
 - `features/<route>/` — organisms specific to a **single** route.
+- `carousel/` — self-contained carousel engine (hooks + types).
 - `data/` — non-translatable data and metadata (company facts, image paths, icons, keys).
 - `i18n/` — internationalization config and helpers.
 - `app/` — Next.js routing and page composition.
@@ -44,6 +45,8 @@ Architectural boundaries are defined and verified by
 (which cruises `src` and `i118builder`). The rules currently enforced are:
 
 - `common/` must not import from `shared-sections/`, `layout/`, `features/`, or `app/`.
+- `carousel/` must not import from any app tier (`common/`, `shared-sections/`,
+  `features/`, `layout/`, `app/`, `data/`, `i18n/`).
 - `shared-sections/` must not import from `features/` or `app/`.
 - `layout/` must not import from `features/` or `app/`.
 - A `features/<a>/` slice must not import from another `features/<b>/`.
@@ -98,18 +101,19 @@ src/
   shared-sections/<slice>/components/   # organisms reused by ≥2 routes (services, pitch, …)
   layout/<slice>/components/            # app-shell chrome (navbar, footer, floating-contact)
   features/<route>/components/          # route-only organisms (shop, service-detail, projects)
+  carousel/                      # self-contained carousel engine (hooks + types)
   data/
     site.ts                      # company facts (company)
     blurs.ts                     # blur placeholders for next/image
-    avatars.ts                   # avatar image paths
     global/layout.ts             # navbar / footer / floating-contact shell data
-    sections/<section>.ts        # per-section metadata (icons, image paths, keys)
-    pages/<route>.ts             # route-specific section data (projects, service-detail)
+    shared-sections/<section>.ts # per-section metadata (icons, image paths, keys)
+    pages/<route>.ts             # route-specific section data (service-detail)
     shop/<file>.ts               # shop catalog + product-detail data
   i18n/
     routing.ts                   # locales, defaultLocale, localePrefix: "as-needed"
     request.ts                   # getRequestConfig (loads the generated messages)
     navigation.ts                # locale-aware Link / usePathname / useRouter
+    metadata.ts                  # locale-aware page metadata helpers
   proxy.ts                       # Next.js 16 middleware (next-intl routing)
   global.d.ts                    # augments next-intl with the generated en.json shape
 ```
@@ -232,18 +236,25 @@ i18n builder first, so a clean clone works without a separate build step.
 ## Quality gates
 
 - **`pnpm knip`** flags unused files, dependencies and exports. Entry points (Next.js
-  pages, `src/proxy.ts`, `src/i18n/request.ts`, the `i118builder`) are auto-detected, so no
-  `knip.json` is needed.
+  pages, `src/proxy.ts`, `src/i18n/request.ts`, the `i118builder`) are auto-detected;
+  [`knip.json`](knip.json) only adds ignores for `src/carousel/**`, `.claude/**`
+  (Claude Code tooling) and the embla dependencies.
 - **`pnpm arch`** ([`.dependency-cruiser.cjs`](.dependency-cruiser.cjs)) validates the tier
   boundaries listed above plus no-circular and no-unresolvable, resolving `@/*` through
   `tsconfig.json`.
 - **`pnpm check`** runs Knip and dependency-cruiser together.
+- **`pnpm exec playwright test`** runs full-page visual regression
+  ([`playwright.config.ts`](playwright.config.ts), specs in `e2e/`): 5 routes × EN/ES ×
+  desktop/mobile against a production build on port 3100, with baselines in
+  `e2e/__screenshots__/`. Update intentional changes with `--update-snapshots`.
 - **`pnpm lint`** uses the ESLint flat config
   ([`eslint.config.mjs`](eslint.config.mjs)): `eslint-config-next` plus
   `eslint-config-prettier` last.
-- **`pnpm format` / `format:check`** run Prettier (no dedicated config file — defaults);
-  `prettier-plugin-tailwindcss` is loaded and sorts class lists. `.prettierignore` excludes
-  build output, `node_modules`, the generated `messages/*.json`, and the lockfile.
+- **`pnpm format` / `format:check`** run Prettier, configured by
+  [`.prettierrc.mjs`](.prettierrc.mjs) (printWidth 110, double quotes, semicolons, trailing
+  commas) with `prettier-plugin-tailwindcss` sorting class lists against
+  `src/app/globals.css`. `.prettierignore` excludes build output, `node_modules`, the
+  generated `messages/*.json`, and the lockfile.
 - **Git hooks (Husky,** bootstrapped by the `prepare` script**):** `pre-commit` runs
   **lint-staged** (Prettier on `*.{css,json,md}`; Prettier + `eslint --fix` on
   `*.{js,jsx,ts,tsx,mjs,cjs}`); `commit-msg` runs **commitlint**
@@ -259,7 +270,7 @@ If you invoke `tsc` directly, run `pnpm i18n:build` first so the generated `mess
   see [Content model & i18n](#content-model--i18n).
 - **Company details:** edit `company` in [`src/data/site.ts`](src/data/site.ts) (name,
   phone, WhatsApp, email, address, figures).
-- **Section content (icons / images / keys):** edit `src/data/sections/*`,
+- **Section content (icons / images / keys):** edit `src/data/shared-sections/*`,
   `src/data/pages/*` and `src/data/shop/*`.
 - **Navigation & shell:** edit [`src/data/global/layout.ts`](src/data/global/layout.ts)
   (navbar links, footer columns, floating-contact actions).
