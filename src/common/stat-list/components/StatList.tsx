@@ -21,6 +21,7 @@ export const StatList = ({ stats }: StatListProps) => (
         <IconBadge icon={icon} size="stat" tone="panel" />
         <div className="grid min-w-0">
           <TextNumber as="p" size="stat" text={value} />
+          {/* exception: label kept truncating in the narrow mobile columns, by choice */}
           <Text size="caption" tone="muted" text={label} truncate />
         </div>
       </div>
