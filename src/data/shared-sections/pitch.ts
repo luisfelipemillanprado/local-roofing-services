@@ -13,10 +13,10 @@ export const pitchData = {
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "why-choose.action.viewDetails", href: "/about" },
     items: [
-      { key: "why-choose.items.emergency", icon: "phone", highlights: true },
-      { key: "why-choose.items.materials", icon: "gem", highlights: true },
-      { key: "why-choose.items.pricing", icon: "dollar", highlights: true },
-      { key: "why-choose.items.licensed", icon: "shield", highlights: true },
+      { key: "why-choose.items.emergency", icon: "phone" },
+      { key: "why-choose.items.materials", icon: "gem" },
+      { key: "why-choose.items.pricing", icon: "dollar" },
+      { key: "why-choose.items.licensed", icon: "shield" },
     ],
   },
   process: {
@@ -46,10 +46,10 @@ export const pitchData = {
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "values.action.contact", href: "#contact" },
     items: [
-      { key: "values.items.quality", icon: "gem", highlights: true },
-      { key: "values.items.safety", icon: "hardhat", highlights: true },
-      { key: "values.items.integrity", icon: "handshake", highlights: true },
-      { key: "values.items.community", icon: "target", highlights: true },
+      { key: "values.items.quality", icon: "gem" },
+      { key: "values.items.safety", icon: "hardhat" },
+      { key: "values.items.integrity", icon: "handshake" },
+      { key: "values.items.community", icon: "target" },
     ],
   },
 } as const;

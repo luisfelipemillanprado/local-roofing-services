@@ -21,16 +21,13 @@ export const Pitch = async ({ variant, tone = "base" }: PitchProps) => {
     label: t(`${stat.key}.label`),
   }));
 
-  /* cards: text by key, optional highlight tags */
+  /* cards: text by key + highlight tags */
   const cardItems = items.map((item) => ({
     key: item.key,
     icon: item.icon,
     title: t(`${item.key}.title`),
     description: t(`${item.key}.description`),
-    highlights:
-      "highlights" in item
-        ? { label: t(`${item.key}.highlights.label`), accent: t(`${item.key}.highlights.accent`) }
-        : undefined,
+    highlights: { label: t(`${item.key}.highlights.label`), accent: t(`${item.key}.highlights.accent`) },
   }));
 
   return (
