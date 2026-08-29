@@ -253,6 +253,14 @@
     transparent 50%
   );
 }
+/* masonry caption scrim: a touch denser than the hero bottom wash */
+@utility overlay-card-bottom {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--color-contrast) 78%, transparent),
+    transparent 55%
+  );
+}
 
 /* Mobile amber; switch to the desktop amber at lg+. */
 @media (min-width: 64rem) {

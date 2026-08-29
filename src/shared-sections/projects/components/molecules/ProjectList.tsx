@@ -20,7 +20,7 @@ export const ProjectList = ({ cards, renderAction }: ProjectListProps) => (
         <div
           key={card.key}
           className={clsx(
-            "h-[clamp(16rem,48vw,18rem)] min-h-0 w-full lg:h-full",
+            "h-[clamp(17rem,48vw,19rem)] min-h-0 w-full lg:h-full",
             placementByPattern[index % 6],
             /* home/about summary (6): last card hidden on mobile, shown from md up */
             cards.length === 6 && index === 5 && "hidden md:block",

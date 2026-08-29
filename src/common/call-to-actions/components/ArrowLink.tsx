@@ -8,7 +8,7 @@ export const ArrowLink = ({ href, label, pulse = false }: ArrowLinkProps) => (
   <Link
     href={href}
     aria-label={label}
-    className="relative isolate grid size-10 place-items-center rounded-full bg-primary transition-transform duration-300 group-hover:translate-x-1"
+    className="relative isolate grid size-10 place-items-center rounded-full bg-primary shadow-md transition-transform duration-300 group-hover:translate-x-1"
   >
     {pulse && <PulseRing color="primary" rounded />}
     <ArrowRight className="size-5 -rotate-45 text-white" />
