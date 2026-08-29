@@ -1,37 +1,57 @@
 import { SESv2Client, SendEmailCommand } from "@aws-sdk/client-sesv2";
+import { buildContactLeadEmail, type ContactLead } from "@/app/api/contact/templates/contact-lead";
 
 /*
- * Lead delivery through Amazon SES. Config comes from env so the form works end
- * to end the moment SES is provisioned — no code change needed:
+ * SES transport for the contact lead. Config is read and validated per call:
  *   AWS_REGION   — SES region
  *   SES_FROM     — verified sender identity
  *   CONTACT_TO   — inbox that receives the lead
  * AWS credentials resolve via the standard chain (env vars, IAM role, ...).
+ * The email content itself lives in ./templates/contact-lead.
  */
-const region = process.env.AWS_REGION;
-const from = process.env.SES_FROM;
-const to = process.env.CONTACT_TO;
+const CONNECTION_TIMEOUT_MS = 3_000;
+const REQUEST_TIMEOUT_MS = 5_000;
+const MAX_ATTEMPTS = 3;
 
-export async function sendContactEmail(email: string): Promise<void> {
+type SesConfig = { region: string; from: string; to: string };
+
+function readConfig(): SesConfig {
+  const region = process.env.AWS_REGION;
+  const from = process.env.SES_FROM;
+  const to = process.env.CONTACT_TO;
   if (!region || !from || !to) {
-    /* not provisioned yet: no-op in dev so the demo flows, fail loudly in prod */
-    if (process.env.NODE_ENV === "production") {
-      throw new Error("SES is not configured");
-    }
-    console.info(`[contact] SES not configured — skipping send for ${email}`);
-    return;
+    throw new Error("SES is not configured: AWS_REGION, SES_FROM and CONTACT_TO are required");
   }
+  return { region, from, to };
+}
 
-  const client = new SESv2Client({ region });
-  await client.send(
+/* one client per warm instance; created lazily on first send */
+let client: SESv2Client | null = null;
+function getClient(region: string): SESv2Client {
+  client ??= new SESv2Client({
+    region,
+    maxAttempts: MAX_ATTEMPTS,
+    requestHandler: {
+      connectionTimeout: CONNECTION_TIMEOUT_MS,
+      requestTimeout: REQUEST_TIMEOUT_MS,
+    },
+  });
+  return client;
+}
+
+export async function sendContactEmail(lead: ContactLead): Promise<void> {
+  const { region, from, to } = readConfig();
+  const { subject, text } = buildContactLeadEmail(lead);
+
+  await getClient(region).send(
     new SendEmailCommand({
-      FromEmailAddress: from,
+      FromEmailAddress: `Roofpro Leads <${from}>`,
       Destination: { ToAddresses: [to] },
-      ReplyToAddresses: [email],
+      ReplyToAddresses: [lead.email],
       Content: {
         Simple: {
-          Subject: { Data: "New quote request" },
-          Body: { Text: { Data: `New quote request from ${email}` } },
+          Subject: { Data: subject },
+          Body: { Text: { Data: text } },
         },
       },
     }),

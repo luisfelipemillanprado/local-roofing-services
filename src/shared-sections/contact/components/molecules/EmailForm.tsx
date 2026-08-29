@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type SubmitEvent } from "react";
+import { useEffect, useRef, useState, type SubmitEvent } from "react";
 import { ActionButton } from "@/common/call-to-actions/components/ActionButton";
 import type { EmailFormProps } from "@/shared-sections/contact/types";
 
@@ -18,9 +18,21 @@ export const EmailForm = ({
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   /* render time: the server flags submissions faster than a human could type */
-  const [renderedAt] = useState(() => Date.now());
+  const renderedAt = useRef(0);
   /* honeypot mirror: bots fill hidden fields, humans leave it empty */
-  const [website, setWebsite] = useState("");
+  const [contactTime, setContactTime] = useState("");
+
+  /* stamp the mount time once, off the render path to stay pure */
+  useEffect(() => {
+    renderedAt.current = Date.now();
+  }, []);
+
+  /* clear the confirmation after a pause; auto-cleans on unmount or status change */
+  useEffect(() => {
+    if (status !== "sent") return;
+    const timer = setTimeout(() => setStatus("idle"), 4000);
+    return () => clearTimeout(timer);
+  }, [status]);
 
   const onSubmit = async (e: SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -30,12 +42,15 @@ export const EmailForm = ({
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, website, elapsedMs: Date.now() - renderedAt }),
+        body: JSON.stringify({
+          email,
+          contact_time: contactTime,
+          elapsedMs: Date.now() - renderedAt.current,
+        }),
       });
       if (!res.ok) throw new Error("request failed");
       setStatus("sent");
       setEmail("");
-      setTimeout(() => setStatus("idle"), 4000);
     } catch {
       setStatus("error");
     }
@@ -60,12 +75,12 @@ export const EmailForm = ({
       {/* honeypot: hidden from users and assistive tech, a lure for bots */}
       <input
         type="text"
-        name="website"
+        name="contact_time"
         tabIndex={-1}
         autoComplete="off"
         aria-hidden="true"
-        value={website}
-        onChange={(e) => setWebsite(e.target.value)}
+        value={contactTime}
+        onChange={(e) => setContactTime(e.target.value)}
         className="sr-only"
       />
       <ActionButton
