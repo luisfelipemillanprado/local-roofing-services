@@ -18,7 +18,7 @@ export const FooterLinks = ({ title, links }: FooterLinksProps) => (
           >
             <Text as="span" size="body" tone="muted" truncate text={link.label} />
             {/* hover affordance: pointless on touch, so it frees label width below lg */}
-            <ArrowUpRight className="hidden size-3.5 text-foreground-muted opacity-0 transition-opacity group-hover:opacity-100 lg:block" />
+            <ArrowUpRight className="hidden size-4 text-foreground-muted opacity-0 transition-opacity group-hover:opacity-100 lg:block" />
           </Link>
         </li>
       ))}
