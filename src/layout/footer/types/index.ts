@@ -2,7 +2,7 @@ import type { SocialData } from "@/common/social/types";
 
 export interface FooterBrandProps {
   description: string;
-  socials: SocialData[];
+  socials: readonly SocialData[];
 }
 
 /* resolved label + destination for the credits bar */

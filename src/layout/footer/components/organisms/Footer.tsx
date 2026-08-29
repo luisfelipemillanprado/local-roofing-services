@@ -9,8 +9,9 @@ import { FooterCredits } from "@/layout/footer/components/molecules/FooterCredit
 import { layoutData } from "@/data/global/layout";
 import { company } from "@/data/site";
 
-const { topLinks, services, contact, legal } = layoutData.footer;
-const { name, address, phone, phoneHref, email, emailHref, hours, socials, builder } = company;
+const { socials } = layoutData;
+const { topLinks, services, contact, hours, legal, builder } = layoutData.footer;
+const { name, address, phone, phoneHref, email, emailHref } = company;
 
 export const Footer = async () => {
   const t = await getTranslations("footer");

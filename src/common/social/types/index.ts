@@ -5,5 +5,5 @@ export type SocialKey = "facebook" | "x" | "instagram" | "youtube";
 export type SocialData = { key: SocialKey; label: string; href: string };
 
 export interface SocialsProps {
-  items: SocialData[];
+  items: readonly SocialData[];
 }
