@@ -304,9 +304,11 @@ If you invoke `tsc` directly, run `pnpm i18n:build` first so the generated `mess
 The template ships with placeholder data that must be replaced with the client's real
 values:
 
-- **Placeholder links (`#`) in [`src/data/site.ts`](src/data/site.ts):** social profiles,
-  the builder credit, and the WhatsApp number (`whatsappHref`).
+- **Placeholder links (`#`) in [`src/data/site.ts`](src/data/site.ts):** social profiles and
+  the WhatsApp number (`whatsappHref`).
 - **Sample company facts** (name, phone, email, address, figures) in the same file.
+- **Builder credit (`#`)** in [`src/data/global/layout.ts`](src/data/global/layout.ts)
+  (`footer.builder`).
 - **Contact form email:** the form posts to `src/app/api/contact/route.ts` (Node.js
   runtime) which sends through Amazon SES. It works in dev without config; set `AWS_REGION`,
   `SES_FROM`, and `CONTACT_TO` (see [`.env.example`](.env.example)) and verify an SES
