@@ -13,7 +13,7 @@ const placementByPattern: Record<number, string> = {
 };
 
 export const ServiceList = ({ cards, viewDetails }: ServiceListProps) => (
-  <div className="grid gap-6 md:grid-cols-2 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-3">
+  <div className="grid gap-7 md:grid-cols-2 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-3 lg:gap-6">
     {cards.map((card, index) => {
       const featured = index % 6 === 2 || index % 6 === 3;
       return (
