@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { ProjectCard } from "@/shared-sections/projects/components/molecules/ProjectCard";
-import type { ProjectGridProps } from "@/shared-sections/projects/types";
+import type { ProjectListProps } from "@/shared-sections/projects/types";
 
 /* lg bento slot: large left + two stacked, then two stacked + large right */
 const placementByPattern: Record<number, string> = {
@@ -12,7 +12,7 @@ const placementByPattern: Record<number, string> = {
   5: "lg:col-start-2 lg:col-span-2 lg:row-span-2",
 };
 
-export const ProjectGrid = ({ cards, renderAction }: ProjectGridProps) => (
+export const ProjectList = ({ cards, renderAction }: ProjectListProps) => (
   <div className="grid gap-6 md:grid-cols-2 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-3">
     {cards.map((card, index) => {
       const featured = index % 6 === 0 || index % 6 === 5;
