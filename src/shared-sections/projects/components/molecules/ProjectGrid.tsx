@@ -20,7 +20,7 @@ export const ProjectGrid = ({ cards, renderAction }: ProjectGridProps) => (
         <div
           key={card.key}
           className={clsx(
-            "h-[clamp(14rem,48vw,18rem)] min-h-0 w-full lg:h-full",
+            "h-[clamp(16rem,48vw,18rem)] min-h-0 w-full lg:h-full",
             placementByPattern[index % 6],
             /* home/about summary (6): last card hidden on mobile, shown from md up */
             cards.length === 6 && index === 5 && "hidden md:block",
