@@ -11,11 +11,11 @@ import { Container } from "@/common/container/components/Container";
 
 const { heading, ctaHref, items, viewer } = projectsData;
 
-export const Projects = async ({ variant, tone = "muted", limit }: ProjectsProps) => {
+export const Projects = async ({ variant, tone = "muted", limit, offset = 0 }: ProjectsProps) => {
   const t = await getTranslations("project");
   /* data: order + image; text by key */
-  /* limit: home summary, full on /gallery */
-  const cards = items.slice(0, limit).map((project) => ({
+  /* limit+offset: home first six, about next six, full on /gallery */
+  const cards = items.slice(offset, limit == null ? undefined : offset + limit).map((project) => ({
     key: project.key,
     image: project.image,
     title: t(`items.${project.key}.title`),

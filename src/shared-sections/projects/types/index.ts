@@ -4,16 +4,14 @@ export interface ProjectsProps {
   variant: "viewAll" | "contact";
   tone?: "base" | "muted"; /* section surface; keeps page section alternation correct */
   limit?: number;
+  offset?: number; /* skip items so about can show a different six than home */
 }
 
 export interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
-  action: ReactNode; /* trailing control: arrow link (home) or zoom button (gallery) */
-}
-
-export interface ProjectTileProps extends ProjectCardProps {
+  action: ReactNode; /* trailing control: arrow link (home/about) or zoom button (gallery) */
   sizes: string; /* next/image sizes; featured vs stacked cells differ from lg up */
 }
 

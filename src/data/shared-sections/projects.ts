@@ -13,7 +13,7 @@ export const projectsData = {
   },
   /* image viewer controls: labels by key */
   viewer: { close: "action.close", previous: "action.previous", next: "action.next" },
-  /* first six on the home (one per service), rest grouped by type */
+  /* first six on the home, next six on about, rest on /gallery */
   items: [
     { key: "cedarHeights", image: "/images/projects/project-1.webp" },
     { key: "sunsetRidge", image: "/images/projects/project-9.webp" },
