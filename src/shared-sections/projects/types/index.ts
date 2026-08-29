@@ -20,7 +20,7 @@ interface ProjectCardItem extends Pick<ProjectCardProps, "image" | "title" | "de
   key: string;
 }
 
-export interface ProjectGridProps {
+export interface ProjectListProps {
   cards: ProjectCardItem[];
   renderAction: (card: ProjectCardItem, index: number) => ReactNode; /* per-card trailing control */
 }

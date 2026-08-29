@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ViewImageButton } from "@/shared-sections/projects/components/atoms/ViewImageButton";
-import { ProjectGrid } from "@/shared-sections/projects/components/molecules/ProjectGrid";
+import { ProjectList } from "@/shared-sections/projects/components/molecules/ProjectList";
 import { ProjectViewer } from "@/shared-sections/projects/components/molecules/ProjectViewer";
 import type { ProjectViewerGridProps } from "@/shared-sections/projects/types";
 
@@ -18,7 +18,7 @@ export const ProjectViewerGrid = ({
 
   return (
     <>
-      <ProjectGrid
+      <ProjectList
         cards={cards}
         renderAction={(card, index) => (
           <ViewImageButton label={`${card.description} ${actionLabel}`} onClick={() => setOpenIndex(index)} />

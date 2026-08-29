@@ -1,7 +1,7 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { ProjectGrid } from "@/shared-sections/projects/components/molecules/ProjectGrid";
+import { ProjectList } from "@/shared-sections/projects/components/molecules/ProjectList";
 import { ProjectViewerGrid } from "@/shared-sections/projects/components/molecules/ProjectViewerGrid";
 import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
 import { getTranslations } from "next-intl/server";
@@ -43,7 +43,7 @@ export const Projects = async ({ variant, tone = "muted", limit, offset = 0 }: P
 
           {/* home: arrow link to the gallery; gallery: zoom button opens the viewer */}
           {variant === "viewAll" ? (
-            <ProjectGrid
+            <ProjectList
               cards={cards}
               renderAction={(card) => (
                 <ArrowLink
