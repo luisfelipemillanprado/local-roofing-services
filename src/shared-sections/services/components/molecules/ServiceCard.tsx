@@ -4,19 +4,15 @@ import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import type { ServiceCardProps } from "@/shared-sections/services/types";
 
-/* Service card: media + title + description + arrow */
-export const ServiceCard = ({ image, title, description, viewDetails, href }: ServiceCardProps) => (
-  <article className="group grid h-full overflow-hidden rounded-2xl border border-line bg-surface-panel shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg">
-    <Media
-      src={image}
-      alt={title}
-      shape="wide"
-      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-    />
-    <div className="grid grid-cols-[1fr_auto] items-center gap-4 px-5.5 py-4.5">
+/* full-bleed tile: image fills the cell, caption sits on the bottom scrim */
+export const ServiceCard = ({ image, title, description, viewDetails, href, sizes }: ServiceCardProps) => (
+  <article className="group relative h-full overflow-hidden rounded-2xl border border-line shadow-md">
+    <Media src={image} alt={title} shape="fill" sizes={sizes} />
+    <div className="pointer-events-none absolute inset-0 overlay-hero-bottom" />
+    <div className="absolute inset-x-0 bottom-0 grid grid-cols-[1fr_auto] items-end gap-4 px-5.5 py-4.5">
       <div className="grid min-w-0 gap-2.5">
-        <Title as="h3" size="card" weight="bold" truncate text={title} />
-        <Text size="body" tone="muted" text={description} />
+        <Title as="h3" size="card" tone="white" weight="bold" truncate text={title} />
+        <Text size="body" tone="white" truncate text={description} />
       </div>
       <ArrowLink href={href} label={`${title} ${viewDetails}`} pulse />
     </div>
