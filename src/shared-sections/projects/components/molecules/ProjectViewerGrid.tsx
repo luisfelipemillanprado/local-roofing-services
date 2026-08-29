@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { ViewImageButton } from "@/shared-sections/projects/components/atoms/ViewImageButton";
-import { ProjectGrid } from "@/shared-sections/projects/components/molecules/ProjectGrid";
+import { ProjectMasonryGrid } from "@/shared-sections/projects/components/molecules/ProjectMasonryGrid";
 import { ProjectViewer } from "@/shared-sections/projects/components/molecules/ProjectViewer";
 import type { ProjectViewerGridProps } from "@/shared-sections/projects/types";
 
-/* gallery variant: each card opens the project viewer */
+/* gallery variant: masonry grid; each tile opens the project viewer */
 export const ProjectViewerGrid = ({
   cards,
   actionLabel,
@@ -18,7 +18,7 @@ export const ProjectViewerGrid = ({
 
   return (
     <>
-      <ProjectGrid
+      <ProjectMasonryGrid
         cards={cards}
         renderAction={(card, index) => (
           <ViewImageButton label={`${card.description} ${actionLabel}`} onClick={() => setOpenIndex(index)} />

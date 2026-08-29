@@ -13,6 +13,10 @@ export interface ProjectCardProps {
   action: ReactNode; /* trailing control: arrow link (home) or zoom button (gallery) */
 }
 
+export interface ProjectTileProps extends ProjectCardProps {
+  sizes: string; /* next/image sizes; featured vs stacked cells differ from lg up */
+}
+
 /* resolved per-card item for the list */
 interface ProjectCardItem extends Pick<ProjectCardProps, "image" | "title" | "description"> {
   key: string;
