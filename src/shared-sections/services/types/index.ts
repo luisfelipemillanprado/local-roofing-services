@@ -10,6 +10,7 @@ export interface ServiceCardProps {
   description: string;
   viewDetails: string;
   href: string;
+  sizes: string; /* next/image sizes; featured vs stacked cells differ from lg up */
 }
 
 /* resolved per-card item for the list */
