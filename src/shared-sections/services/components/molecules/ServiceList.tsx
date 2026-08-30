@@ -13,31 +13,46 @@ const placementByPattern: Record<number, string> = {
 };
 
 export const ServiceList = ({ cards, viewDetails }: ServiceListProps) => (
-  <div className="grid gap-7 md:grid-cols-2 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-3 lg:gap-6">
-    {cards.map((card, index) => {
-      const featured = index % 6 === 2 || index % 6 === 3;
+  <div className="grid gap-7 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-3 lg:gap-6">
+    {Array.from({ length: Math.ceil(cards.length / 3) }, (_, groupIndex) => {
+      const group = cards.slice(groupIndex * 3, groupIndex * 3 + 3);
+      const lastIndex = groupIndex * 3 + group.length - 1;
+      const largeLastInGroup = lastIndex % 6 === 2 || lastIndex % 6 === 3;
+
       return (
-        <div
-          key={card.key}
-          className={clsx(
-            "h-[clamp(17.375rem,48vw,19.375rem)] min-h-0 w-full lg:h-full",
-            placementByPattern[index % 6],
-            /* home summary (6): last card hidden on mobile, shown from md up */
-            cards.length === 6 && index === 5 && "hidden md:block",
-          )}
-        >
-          <ServiceCard
-            image={card.image}
-            title={card.title}
-            description={card.description}
-            href={card.href}
-            viewDetails={viewDetails}
-            sizes={
-              featured
-                ? "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 66vw"
-                : "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            }
-          />
+        <div key={group[0].key} className="contents sm:grid sm:grid-cols-2 sm:gap-7 lg:contents">
+          {group.map((card, slot) => {
+            const index = groupIndex * 3 + slot;
+            const featured = index % 6 === 2 || index % 6 === 3;
+
+            return (
+              <div
+                key={card.key}
+                className={clsx(
+                  "h-[clamp(17.375rem,48vw,19.375rem)] min-h-0 w-full lg:h-full",
+                  featured && "sm:col-span-2",
+                  largeLastInGroup &&
+                    (featured ? "sm:row-start-1 lg:row-start-auto" : "sm:row-start-2 lg:row-start-auto"),
+                  placementByPattern[index % 6],
+                  /* home summary (6): last card hidden on mobile, shown from sm up */
+                  cards.length === 6 && index === 5 && "hidden sm:block",
+                )}
+              >
+                <ServiceCard
+                  image={card.image}
+                  title={card.title}
+                  description={card.description}
+                  href={card.href}
+                  viewDetails={viewDetails}
+                  sizes={
+                    featured
+                      ? "(max-width: 1024px) 100vw, 66vw"
+                      : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  }
+                />
+              </div>
+            );
+          })}
         </div>
       );
     })}
