@@ -8,7 +8,7 @@ import type { StatListProps } from "@/common/stat-list/types";
 export const StatList = ({ stats }: StatListProps) => (
   <div
     className={clsx(
-      "grid grid-cols-2 justify-items-center gap-5 sm:gap-y-7 lg:gap-5",
+      "grid grid-cols-2 justify-items-center gap-5 sm:gap-y-7 lg:gap-y-5",
       stats.length === 4
         ? "sm:justify-items-start [&>*:first-child]:col-span-2 sm:[&>*:first-child]:col-span-1 [&>*:last-child]:hidden sm:[&>*:last-child]:grid"
         : "lg:justify-items-start [&>*:first-child]:col-span-2 lg:[&>*:first-child]:col-span-1 lg:[&>*:last-child]:col-span-2",
