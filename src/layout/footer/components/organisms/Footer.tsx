@@ -39,17 +39,17 @@ export const Footer = async () => {
   return (
     <footer className="theme-dark bg-surface-muted text-foreground">
       <Container>
-        <div className="grid grid-cols-2 gap-x-8 gap-y-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] lg:gap-12 lg:py-20">
-          {/* Brand */}
-          <div className="col-span-2 lg:col-span-1">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-12 py-16 sm:grid-cols-3 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] lg:gap-12 lg:py-20">
+          {/* Brand stays a full-width row until the 4-col desktop grid */}
+          <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <FooterBrand description={t("description", { name })} socials={socials} />
           </div>
 
           <FooterLinks title={t(topLinks.titleKey)} links={topLinkItems} />
           <FooterLinks title={t(services.titleKey)} links={serviceItems} />
 
-          {/* Contact + hours */}
-          <div className="col-span-2 grid content-start justify-items-center gap-5 lg:col-span-1 lg:justify-items-start">
+          {/* Contact + hours: full-width under the two link cols until sm */}
+          <div className="col-span-2 grid content-start justify-items-center gap-5 sm:col-span-1 sm:justify-items-start">
             <Title as="h4" size="micro" weight="bold" tracking text={t(contact.titleKey)} />
             <FooterContact
               address={address}

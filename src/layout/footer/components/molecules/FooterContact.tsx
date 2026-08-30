@@ -4,7 +4,7 @@ import type { FooterContactProps } from "@/layout/footer/types";
 
 /* address, phone and email rows with their icons */
 export const FooterContact = ({ address, phone, phoneHref, email, emailHref }: FooterContactProps) => (
-  <ul className="grid justify-items-center gap-4 lg:justify-items-start">
+  <ul className="grid justify-items-center gap-4 sm:justify-items-start">
     <li className="grid grid-cols-[auto_1fr] items-start gap-3">
       <MapPin className="mt-0.5 size-4 text-primary" />
       <Text as="span" size="body" tone="muted" text={address} />
