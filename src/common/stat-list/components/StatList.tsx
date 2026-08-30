@@ -4,16 +4,14 @@ import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import type { StatListProps } from "@/common/stat-list/types";
 
-/* stats: 2-col grid, first full-width below lg */
+/* stats: 2-col grid; 4-up uses the desktop 2x2 from sm */
 export const StatList = ({ stats }: StatListProps) => (
   <div
     className={clsx(
-      "grid grid-cols-2 justify-items-center gap-5 lg:justify-items-start",
-      "[&>*:first-child]:col-span-2 lg:[&>*:first-child]:col-span-1",
-      /* 4 stats form a 2x2 (last hidden on mobile), else the last spans */
+      "grid grid-cols-2 justify-items-center gap-5",
       stats.length === 4
-        ? "[&>*:last-child]:hidden lg:[&>*:last-child]:grid"
-        : "lg:[&>*:last-child]:col-span-2",
+        ? "sm:justify-items-start [&>*:first-child]:col-span-2 sm:[&>*:first-child]:col-span-1 [&>*:last-child]:hidden sm:[&>*:last-child]:grid"
+        : "lg:justify-items-start [&>*:first-child]:col-span-2 lg:[&>*:first-child]:col-span-1 lg:[&>*:last-child]:col-span-2",
     )}
   >
     {stats.map(({ key, icon, value, label }) => (
