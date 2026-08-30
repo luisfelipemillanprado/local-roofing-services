@@ -253,12 +253,13 @@
     transparent 50%
   );
 }
-/* masonry caption scrim: a touch denser than the hero bottom wash */
+/* masonry caption scrim: hold density under the text, then fade */
 @utility overlay-card-bottom {
   background-image: linear-gradient(
     to top,
-    color-mix(in oklab, var(--color-contrast) 78%, transparent),
-    transparent 55%
+    color-mix(in oklab, var(--color-contrast) 86%, transparent),
+    color-mix(in oklab, var(--color-contrast) 52%, transparent) 36%,
+    transparent 60%
   );
 }
 
