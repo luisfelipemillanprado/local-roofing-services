@@ -8,9 +8,11 @@
   "privacy": "Política de Privacidad",
   "terms": "Términos de Servicio",
   "topLinks": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "shop": "Tienda",
+    "gallery": "Galería",
     "about": "Nosotros",
-    "services": "Nuestros Servicios",
-    "projects": "Proyectos Recientes",
     "contact": "Contacto"
   },
   "hours": {

@@ -36,6 +36,7 @@ export const ServiceProcess = async ({ serviceKey, tone = "base" }: ServiceProce
         <PitchWrapper
           heading={
             <SectionHeading
+              align="left"
               eyebrow={t("processEyebrow")}
               title={t("processTitleLead")}
               accent={t("processTitleAccent")}

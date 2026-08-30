@@ -36,11 +36,11 @@ export const Pitch = async ({ variant, tone = "base" }: PitchProps) => {
         <PitchWrapper
           heading={
             <SectionHeading
+              align="left"
               eyebrow={t(`${variant}.eyebrow`)}
               title={t(`${variant}.titleLead`)}
               accent={t(`${variant}.titleAccent`)}
               description={t(`${variant}.description`)}
-              align="left"
             />
           }
           stats={<StatList stats={statItems} />}

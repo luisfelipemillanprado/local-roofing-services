@@ -8,10 +8,12 @@
   "privacy": "Privacy Policy",
   "terms": "Terms of Service",
   "topLinks": {
-    "about": "About Us",
-    "services": "Our Services",
-    "projects": "Recent Projects",
-    "contact": "Contact Us"
+    "home": "Home",
+    "services": "Services",
+    "shop": "Shop",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact"
   },
   "hours": {
     "weekdays": "Mon to Fri",

@@ -35,9 +35,11 @@ export const layoutData = {
     topLinks: {
       titleKey: "topLinksTitle",
       items: [
-        { key: "about", href: "/about" },
+        { key: "home", href: "/" },
         { key: "services", href: "/services" },
-        { key: "projects", href: "/gallery" },
+        { key: "shop", href: "/shop" },
+        { key: "gallery", href: "/gallery" },
+        { key: "about", href: "/about" },
         { key: "contact", href: "/#contact" },
       ],
     },
@@ -45,11 +47,13 @@ export const layoutData = {
     services: {
       titleKey: "servicesTitle",
       items: [
-        { key: "residential", href: "/services/residential-roofing" },
+        { key: "repair", href: "/services/roof-repair" },
         { key: "replacement", href: "/services/roof-replacement" },
-        { key: "metal", href: "/services/metal" },
         { key: "storm", href: "/services/storm-damage-repair" },
+        { key: "inspections", href: "/services/roof-inspections" },
+        { key: "gutters", href: "/services/gutters" },
         { key: "commercial", href: "/services/commercial-roofing" },
+        { key: "residential", href: "/services/residential-roofing" },
       ],
     },
     /* contact column: closedKey labels the null-time hours row */
