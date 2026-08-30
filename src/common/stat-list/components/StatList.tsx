@@ -4,7 +4,7 @@ import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import type { StatListProps } from "@/common/stat-list/types";
 
-/* stats: 2-col grid; row contents centered below lg, start-aligned on desktop */
+/* stats: 2-col grid; row contents centered on mobile, start-aligned from sm */
 export const StatList = ({ stats }: StatListProps) => (
   <div
     className={clsx(
@@ -17,7 +17,7 @@ export const StatList = ({ stats }: StatListProps) => (
     {stats.map(({ key, icon, value, label }) => (
       <div
         key={key}
-        className="grid grid-cols-[auto_auto] items-center justify-center gap-3 lg:grid-cols-[auto_minmax(0,1fr)] lg:justify-start"
+        className="grid grid-cols-[auto_auto] items-center justify-center gap-3 sm:grid-cols-[auto_minmax(0,1fr)] sm:justify-start"
       >
         <IconBadge icon={icon} size="stat" tone="panel" />
         <div className="grid min-w-0">

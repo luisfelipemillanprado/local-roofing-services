@@ -6,5 +6,5 @@ export interface SectionHeadingProps {
   accent: string;
   description: string;
   size?: TitleSize; /* forwarded to Title */
-  align?: "left" | "center"; /* lg alignment; both centered on mobile */
+  align?: "left" | "center"; /* center: left on tablet; left: cluster from sm; omit: About */
 }

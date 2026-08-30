@@ -13,5 +13,5 @@ export interface TitleProps {
   text: string;
   accent?: string;
   accentTone?: TitleAccentTone;
-  accentInline?: boolean; /* accent joins the lead on one line from lg */
+  accentInline?: boolean | "until-lg"; /* true: joins from sm; until-lg: joins only on tablet */
 }

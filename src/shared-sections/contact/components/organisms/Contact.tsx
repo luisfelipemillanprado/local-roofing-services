@@ -35,6 +35,7 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
           <div className="grid max-w-2xl gap-8">
             <SectionHeading
               size="banner"
+              align="left"
               eyebrow={t(heading.eyebrow)}
               title={t(heading.titleLead)}
               accent={t(heading.titleAccent)}

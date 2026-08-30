@@ -16,7 +16,7 @@ export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
     <SectionWrapper id="service-areas" tone={tone}>
       <Container>
         <div className="grid gap-13">
-          <div className="grid justify-items-center gap-6">
+          <div className="grid justify-items-center gap-6 sm:ml-5 sm:justify-items-start lg:ml-0 lg:justify-items-center">
             <SectionHeading
               align="center"
               eyebrow={t("eyebrow")}
