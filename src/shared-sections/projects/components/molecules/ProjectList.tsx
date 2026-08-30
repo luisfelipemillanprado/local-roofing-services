@@ -20,7 +20,7 @@ export const ProjectList = ({ cards, renderAction }: ProjectListProps) => (
       const largeLastInGroup = lastIndex % 6 === 0 || lastIndex % 6 === 5;
 
       return (
-        <div key={group[0].key} className="contents sm:grid sm:grid-cols-2 sm:gap-7 lg:contents">
+        <div key={group[0].key} className="contents sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-7 lg:contents">
           {group.map((card, slot) => {
             const index = groupIndex * 3 + slot;
             const featured = index % 6 === 0 || index % 6 === 5;
