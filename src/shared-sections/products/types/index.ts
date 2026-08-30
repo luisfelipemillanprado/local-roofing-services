@@ -13,5 +13,5 @@ interface ProductCardItem extends Omit<ProductCardProps, "viewLabel" | "href"> {
 export interface ProductListProps {
   cards: ProductCardItem[];
   viewLabel: string;
-  trimLastOnMobile?: boolean; /* teaser (6): hide the last card on mobile, show from md */
+  trimLastOnMobile?: boolean; /* teaser (6): hide the last card on mobile, show from sm */
 }

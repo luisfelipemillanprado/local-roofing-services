@@ -6,9 +6,9 @@ import type { ProductListProps } from "@/shared-sections/products/types";
 export const ProductList = ({ cards, viewLabel, trimLastOnMobile = false }: ProductListProps) => (
   <div
     className={clsx(
-      "grid gap-7 md:grid-cols-2 lg:grid-cols-3 lg:gap-6",
-      /* teaser (6): last card hidden on mobile, shown from md up */
-      trimLastOnMobile && "[&>*:last-child]:hidden md:[&>*:last-child]:grid",
+      "grid gap-7 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6",
+      /* teaser (6): last card hidden on mobile, shown from sm up */
+      trimLastOnMobile && "[&>*:last-child]:hidden sm:[&>*:last-child]:grid",
     )}
   >
     {cards.map(({ slug, ...card }) => (
