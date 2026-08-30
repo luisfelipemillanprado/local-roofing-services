@@ -32,7 +32,7 @@ export const Navbar = async () => {
 
           <DesktopNav navLinks={navLinks} />
 
-          <div className="grid grid-flow-col items-center gap-2 lg:gap-3">
+          <div className="grid grid-flow-col items-center gap-2 sm:gap-2.5 lg:gap-3">
             {/* phone — desktop only */}
             <div className="hidden items-center gap-2 lg:grid lg:grid-flow-col">
               <span className="grid size-9 place-items-center rounded-full bg-surface-muted">
@@ -45,15 +45,15 @@ export const Navbar = async () => {
             <LanguageSwitch />
             <ThemeToggle />
 
-            {/* desktop only; the wrapper owns visibility so the link keeps its own display */}
-            <div className="max-lg:hidden">
-              <Button href={navbar.ctaHref.href} variant="primary">
+            {/* hamburger — mobile only (lg:hidden lives on its trigger) */}
+            <MobileMenu navLinks={navLinks} menuId={navbar.menuId} toggleMenuLabel={t("toggleMenu")} />
+
+            {/* from sm; wrapper owns visibility so the link keeps its own display */}
+            <div className="max-sm:hidden">
+              <Button href={navbar.ctaHref.href} variant="primary" pulse>
                 {t(navbar.ctaHref.key)}
               </Button>
             </div>
-
-            {/* hamburger — mobile only (lg:hidden lives on its trigger) */}
-            <MobileMenu navLinks={navLinks} menuId={navbar.menuId} toggleMenuLabel={t("toggleMenu")} />
           </div>
         </div>
       </Container>
