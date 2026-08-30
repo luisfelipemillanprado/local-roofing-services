@@ -97,10 +97,10 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
                     key={link.key}
                     href={link.href}
                     onClick={handleCloseOptions}
-                    className="group grid justify-items-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary"
+                    className="group grid justify-items-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary sm:gap-3 sm:py-6"
                   >
                     <Icon
-                      className="size-6.5 text-primary transition-colors group-hover:text-white"
+                      className="size-6.5 text-primary transition-colors group-hover:text-white sm:size-7"
                       aria-hidden
                     />
                     <Text as="span" size="body" tone="default" weight="semibold" text={link.label} />

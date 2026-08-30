@@ -35,7 +35,7 @@ export const LanguageSwitch = () => {
       <Globe className="size-4.25 text-foreground transition-colors group-hover:text-primary" />
       <Text
         as="span"
-        size="label"
+        size="note"
         tone="default"
         weight="bold"
         tracking="subtle"
