@@ -3,9 +3,9 @@ import type { FooterCreditsProps } from "@/layout/footer/types";
 
 /* credits bar: copyright + builder credit left, legal links right */
 export const FooterCredits = ({ copyright, builtByLabel, builder, privacy, terms }: FooterCreditsProps) => (
-  <div className="grid justify-items-center gap-3 py-6 lg:grid-flow-col lg:justify-between">
-    {/* stacked on mobile; one continued line from lg */}
-    <div className="grid justify-items-center gap-1 lg:grid-flow-col lg:items-center lg:justify-start lg:gap-1.5">
+  <div className="grid justify-items-center gap-3 py-6 sm:grid-flow-col sm:justify-between">
+    {/* stacked below lg; one continued line from lg */}
+    <div className="grid justify-items-center gap-1 sm:justify-items-start lg:grid-flow-col lg:items-center lg:justify-start lg:justify-items-center lg:gap-1.5">
       <Text as="span" size="body" tone="muted" text={copyright} />
       <div className="grid grid-flow-col items-center justify-start gap-1.5">
         <Text as="span" size="body" tone="muted" text={builtByLabel} />
