@@ -22,7 +22,7 @@ export const SectionHeading = ({
       <Eyebrow text={eyebrow} />
       {/* title sets the width; description wraps within it, never wider */}
       <div
-        className={`grid w-fit gap-5.5 text-left sm:max-w-130 lg:max-w-fit ${isCenter ? "lg:text-center" : !isFlush ? "sm:ml-5 sm:justify-self-start lg:ml-0" : ""}`}
+        className={`grid w-fit gap-5.5 text-left sm:max-w-125 md:max-w-130 lg:max-w-fit ${isCenter ? "lg:text-center" : !isFlush ? "sm:ml-5 sm:justify-self-start lg:ml-0" : ""}`}
       >
         <Title
           size={size}

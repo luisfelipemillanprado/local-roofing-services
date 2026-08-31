@@ -3,8 +3,8 @@ import type { MediaVideoProps, MediaVideoShape } from "@/common/media-video/type
 
 /* full-width per-shape framed video; muted autoplay loop with controls */
 const shapes: Record<MediaVideoShape, string> = {
-  /* about feature: square 1:1, no crop */
-  square: "aspect-square",
+  /* about feature: square 1:1; 4:3 on tablet so height does not follow full width */
+  square: "aspect-square sm:aspect-[4/3] lg:aspect-square",
 };
 
 export const MediaVideo = ({ src, poster, alt, shape }: MediaVideoProps) => (

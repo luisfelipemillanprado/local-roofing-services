@@ -33,8 +33,8 @@ export const Navbar = async () => {
           <DesktopNav navLinks={navLinks} />
 
           <div className="grid grid-flow-col items-center gap-2 sm:gap-2.5 lg:gap-3">
-            {/* phone — desktop only */}
-            <div className="hidden items-center gap-2 lg:grid lg:grid-flow-col">
+            {/* phone — xl only */}
+            <div className="hidden items-center gap-2 xl:grid xl:grid-flow-col">
               <span className="grid size-9 place-items-center rounded-full bg-surface-muted">
                 <Phone className="size-4 text-primary" />
               </span>
