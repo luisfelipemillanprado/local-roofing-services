@@ -30,8 +30,12 @@ export const SectionHeading = ({
       {/* title sets the width; description wraps within it, never wider */}
       <div
         className={clsx(
-          "grid w-fit gap-5.25 text-left sm:max-w-113 md:max-w-130 lg:max-w-fit",
-          isCenter && "sm:text-center",
+          "grid w-fit gap-5.25 sm:max-w-113 md:max-w-130 lg:max-w-fit",
+          isCenter
+            ? "text-left sm:text-center"
+            : size === "banner"
+              ? "text-center sm:text-left"
+              : "text-left",
         )}
       >
         <Title size={size} text={title} accent={accent} accentInline={accentInline} />
