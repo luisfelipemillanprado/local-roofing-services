@@ -33,7 +33,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
     <SectionWrapper id="products" tone={tone}>
       <Container>
         <div className="grid gap-13">
-          <div className="grid justify-items-center gap-6 sm:ml-5 sm:justify-items-start lg:ml-0 lg:justify-items-center">
+          <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
               eyebrow={t(heading.eyebrow)}

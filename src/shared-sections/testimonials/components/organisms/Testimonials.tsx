@@ -25,7 +25,7 @@ export const Testimonials = async ({ variant, tone = "muted", group }: Testimoni
     <SectionWrapper id="testimonials" tone={tone}>
       <Container>
         <div className="grid gap-13">
-          <div className="grid justify-items-center gap-6 sm:ml-5 sm:justify-items-start lg:ml-0 lg:justify-items-center">
+          <div className="grid justify-items-center gap-6">
             <SectionHeading
               align="center"
               eyebrow={t(heading.eyebrow)}
@@ -33,7 +33,7 @@ export const Testimonials = async ({ variant, tone = "muted", group }: Testimoni
               accent={t(heading.titleAccent)}
               description={t(heading.description)}
             />
-            <div className="mt-2 grid justify-items-center gap-6 sm:grid-flow-col sm:items-center sm:justify-start sm:*:first:order-2 sm:*:last:order-1 lg:justify-center">
+            <div className="mt-2 grid justify-items-center gap-6 sm:grid-flow-col sm:items-center sm:justify-center sm:*:first:order-2 sm:*:last:order-1">
               <Button href={ctaHref[variant].href} variant="secondary" pulse>
                 {t(ctaHref[variant].key)}
               </Button>
