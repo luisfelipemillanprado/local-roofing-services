@@ -5,7 +5,7 @@ import type { FooterBrandProps } from "@/layout/footer/types";
 
 /* brand column: logo, description and social profiles */
 export const FooterBrand = ({ description, socials }: FooterBrandProps) => (
-  <div className="grid content-start justify-items-center gap-5 text-center lg:justify-items-start lg:text-left">
+  <div className="grid content-start justify-items-center gap-5 text-center sm:justify-items-start sm:text-left">
     <Logo />
     <div className="max-w-xs">
       <Text size="lead" tone="muted" text={description} />

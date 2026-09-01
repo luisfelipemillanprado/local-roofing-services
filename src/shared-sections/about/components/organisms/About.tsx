@@ -47,12 +47,15 @@ export const About = async ({ variant, tone = "base" }: AboutProps) => {
           }
           contact={<ContactCard label={t(call.key)} phone={call.number} />}
           heading={
-            <SectionHeading
-              eyebrow={t(heading.eyebrow)}
-              title={t(heading.titleLead)}
-              accent={t(heading.titleAccent)}
-              description={t(heading.description, { name })}
-            />
+            /* 20px tablet indent for the left-aligned about heading; flush again from lg */
+            <div className="sm:ml-5 lg:ml-0">
+              <SectionHeading
+                eyebrow={t(heading.eyebrow)}
+                title={t(heading.titleLead)}
+                accent={t(heading.titleAccent)}
+                description={t(heading.description, { name })}
+              />
+            </div>
           }
           points={<SellingPoints items={pointItems} />}
           stats={<StatsRow items={statItems} />}
