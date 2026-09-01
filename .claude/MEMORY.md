@@ -25,10 +25,10 @@ Project decisions, historical context, and pending work. Conventions live in
 
 ## Pending work
 
-- Known accessibility gaps are tracked in the `accessibility-review` skill: `MobileMenu`
-  dialog semantics (`aria-modal`/`aria-label`/`Escape`/focus move), `focus:outline-none`
-  without a visible focus ring, no focus trap or focus restore in `ProjectViewer`, no
-  `aria-current` on nav, and no skip-to-content link.
+- Known accessibility gaps live in the `accessibility-review` skill's "Known gaps to check"
+  section (the source of truth) — MobileMenu dialog semantics, focus-visible rings,
+  ProjectViewer focus trap/restore, nav `aria-current`, skip-to-content link. Don't restate
+  the detail here; update the skill.
 
 ## Important Decisions
 
