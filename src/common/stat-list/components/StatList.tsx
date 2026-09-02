@@ -4,20 +4,20 @@ import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import type { StatListProps } from "@/common/stat-list/types";
 
-/* stats: 2-col grid; row contents centered on mobile, start-aligned from sm */
+/* stats: original mobile grid; three columns on tablet, two from lg, all content-width */
 export const StatList = ({ stats }: StatListProps) => (
   <div
     className={clsx(
-      "grid grid-cols-2 gap-x-3 gap-y-7 sm:gap-x-0 lg:justify-items-start",
+      "grid grid-cols-2 gap-x-3 gap-y-7 sm:w-fit sm:grid-cols-[auto_auto_auto] md:gap-x-6 lg:grid-cols-[auto_auto]",
       stats.length === 4
         ? "[&>*:first-child]:col-span-2 sm:[&>*:first-child]:col-span-1 [&>*:last-child]:hidden sm:[&>*:last-child]:grid"
-        : "[&>*:first-child]:col-span-2 lg:[&>*:first-child]:col-span-1 lg:[&>*:last-child]:col-span-2",
+        : "[&>*:first-child]:col-span-2 sm:[&>*:first-child]:col-span-1 lg:[&>*:last-child]:col-span-2",
     )}
   >
     {stats.map(({ key, icon, value, label }) => (
       <div
         key={key}
-        className="grid grid-cols-[auto_auto] items-center justify-center gap-3 sm:grid-cols-[auto_minmax(0,1fr)] sm:justify-start"
+        className="grid grid-cols-[auto_auto] items-center justify-center gap-3 sm:justify-start"
       >
         <IconBadge icon={icon} size="stat" tone="panel" />
         <div className="grid min-w-0">
