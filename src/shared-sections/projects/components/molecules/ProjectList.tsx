@@ -13,7 +13,7 @@ const placementByPattern: Record<number, string> = {
 };
 
 export const ProjectList = ({ cards, renderAction }: ProjectListProps) => (
-  <div className="grid gap-7 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-3 lg:gap-6">
+  <div className="grid gap-7 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-[1.15fr_0.7fr_1.15fr] lg:gap-6">
     {Array.from({ length: Math.ceil(cards.length / 3) }, (_, groupIndex) => {
       const group = cards.slice(groupIndex * 3, groupIndex * 3 + 3);
       const lastIndex = groupIndex * 3 + group.length - 1;

@@ -22,15 +22,16 @@ export const Faq = async ({ variant, tone = "muted" }: FaqProps) => {
     <SectionWrapper id="faq" tone={tone}>
       <Container>
         <div className="grid gap-13">
-          <div className="grid justify-items-center gap-6">
+          <div className="grid justify-items-center gap-6 md:mr-5 md:grid-cols-[1fr_auto] md:items-center md:justify-items-stretch md:gap-x-6">
             <SectionHeading
               align="center"
+              flushFrom="md"
               eyebrow={t(heading.eyebrow)}
               title={t(heading.titleLead)}
               accent={t(heading.titleAccent)}
               description={t(heading.description)}
             />
-            <div className="mt-2">
+            <div className="mt-2 md:mt-0">
               <Button href={ctaHref.href} variant="secondary" pulse>
                 {t(ctaHref.key)}
               </Button>
