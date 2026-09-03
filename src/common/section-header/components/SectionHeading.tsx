@@ -4,9 +4,9 @@ import { Title } from "@/common/title/components/Title";
 import { Eyebrow } from "@/common/eyebrow/components/Eyebrow";
 import type { SectionHeadingProps } from "@/common/section-header/types";
 
-/* flushFrom heading turns left-flush at its breakpoint (row layout) */
-const flushJustify = { md: "md:justify-items-start", lg: "lg:justify-items-start" } as const;
-const flushText = { md: "md:text-left", lg: "lg:text-left" } as const;
+/* flushFrom heading turns left-flush for the row layout; the md row recenters again from xl */
+const flushJustify = { md: "md:max-xl:justify-items-start", lg: "lg:justify-items-start" } as const;
+const flushText = { md: "md:max-xl:text-left", lg: "lg:text-left" } as const;
 
 /* center: centered from sm; otherwise left-flush from sm (banner keeps its accent on its own line) */
 export const SectionHeading = ({
@@ -48,6 +48,8 @@ export const SectionHeading = ({
               ? "text-center sm:text-left"
               : "text-left",
           flushFrom && flushText[flushFrom],
+          /* md-flush headings recenter at xl: drop the cap so the title spans a single line */
+          flushFrom === "md" && "xl:max-w-none",
         )}
       >
         <Title size={size} text={title} accent={accent} accentInline={accentInline} />
