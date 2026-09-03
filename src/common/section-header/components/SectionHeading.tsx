@@ -41,7 +41,7 @@ export const SectionHeading = ({
       {/* title sets the width; description wraps within it, never wider */}
       <div
         className={clsx(
-          "grid w-fit gap-5.25 sm:max-w-113 lg:max-w-fit",
+          "grid w-fit gap-5.25 sm:max-w-113 lg:max-w-126",
           isCenter
             ? "text-left sm:text-center"
             : size === "banner"

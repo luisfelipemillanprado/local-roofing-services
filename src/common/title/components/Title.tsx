@@ -60,7 +60,7 @@ export const Title = ({
           className={clsx(
             "block",
             accentInline && "sm:inline",
-            accentInline === "until-lg" && "md:block",
+            accentInline === "until-lg" && "md:block lg:inline",
             accentTones[accentTone],
           )}
         >
