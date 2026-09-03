@@ -25,7 +25,7 @@ export const Testimonials = async ({ variant, tone = "muted", group }: Testimoni
     <SectionWrapper id="testimonials" tone={tone}>
       <Container>
         <div className="grid gap-13">
-          <div className="grid justify-items-center gap-6 md:mr-5 md:grid-cols-[1fr_auto] md:items-center md:justify-items-stretch md:gap-x-6">
+          <div className="grid justify-items-center gap-6 md:max-xl:mr-5 md:max-xl:grid-cols-[1fr_auto] md:max-xl:items-center md:max-xl:justify-items-stretch md:max-xl:gap-x-6">
             <SectionHeading
               align="center"
               flushFrom="md"
@@ -35,7 +35,7 @@ export const Testimonials = async ({ variant, tone = "muted", group }: Testimoni
               description={t(heading.description)}
             />
             {/* below md sits under the heading (row badge|button); beside it from md stacks vertically */}
-            <div className="mt-2 grid justify-items-center gap-6 sm:grid-flow-col sm:items-center sm:justify-center sm:*:first:order-2 sm:*:last:order-1 md:mt-0 md:grid-flow-row md:justify-items-start">
+            <div className="mt-2 grid justify-items-center gap-6 sm:grid-flow-col sm:items-center sm:justify-center sm:*:first:order-2 sm:*:last:order-1 md:max-xl:mt-0 md:max-xl:grid-flow-row md:max-xl:justify-items-start">
               <Button href={ctaHref[variant].href} variant="secondary" pulse>
                 {t(ctaHref[variant].key)}
               </Button>
