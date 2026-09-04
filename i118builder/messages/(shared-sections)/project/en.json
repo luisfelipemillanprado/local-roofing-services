@@ -5,7 +5,7 @@
   "description": "Our projects highlight premium quality roofing systems securely built with expert craftsmanship for extraordinary durability, total protection, and lasting value.",
   "action": {
     "viewAll": "View All Projects",
-    "viewGallery": "View Gallery",
+    "viewProjects": "View Projects",
     "contact": "Contact Us Now",
     "viewImage": "View Image",
     "close": "Close",

@@ -1,5 +1,5 @@
 /* semantic keys for nav destinations (i18n label + icon lookup) */
-export type NavLinkKey = "home" | "services" | "shop" | "gallery" | "about" | "areas";
+export type NavLinkKey = "home" | "services" | "shop" | "projects" | "about" | "areas";
 
 /* nav entry from data (route + icon, no translatable text) */
 export type NavLinkData = {

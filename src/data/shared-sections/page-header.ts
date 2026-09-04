@@ -20,7 +20,7 @@ export const pageHeaderData = {
   /* rotating ghost CTA per page: i18n key (text) + href (destination) */
   secondaryCtaHref: {
     services: { key: "action.viewServices", href: "/services" },
-    projects: { key: "action.viewProjects", href: "/gallery" },
+    projects: { key: "action.viewProjects", href: "/projects" },
     shop: { key: "action.viewShop", href: "/shop" },
     work: { key: "action.viewWork", href: "#projects" },
   },

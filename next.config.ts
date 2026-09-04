@@ -13,6 +13,13 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  // /gallery was renamed to /projects; keep old URLs working.
+  async redirects() {
+    return [
+      { source: "/gallery", destination: "/projects", permanent: true },
+      { source: "/es/gallery", destination: "/es/projects", permanent: true },
+    ];
+  },
 };
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");

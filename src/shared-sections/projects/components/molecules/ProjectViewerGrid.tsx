@@ -6,7 +6,7 @@ import { ProjectList } from "@/shared-sections/projects/components/molecules/Pro
 import { ProjectViewer } from "@/shared-sections/projects/components/molecules/ProjectViewer";
 import type { ProjectViewerGridProps } from "@/shared-sections/projects/types";
 
-/* gallery variant: masonry grid; each tile opens the project viewer */
+/* projects page variant: masonry grid; each tile opens the project viewer */
 export const ProjectViewerGrid = ({
   cards,
   actionLabel,

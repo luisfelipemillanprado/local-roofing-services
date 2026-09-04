@@ -6,7 +6,7 @@ export const routes = [
   ["services", "/services"],
   ["about", "/about"],
   ["shop", "/shop"],
-  ["gallery", "/gallery"],
+  ["projects", "/projects"],
 ] as const;
 
 /* localePrefix "as-needed": EN at /, ES under /es */

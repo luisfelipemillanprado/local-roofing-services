@@ -14,7 +14,7 @@ const { heading, ctaHref, items, viewer } = projectsData;
 export const Projects = async ({ variant, tone = "muted", limit, offset = 0 }: ProjectsProps) => {
   const t = await getTranslations("project");
   /* data: order + image; text by key */
-  /* limit+offset: home first six, about next six, full on /gallery */
+  /* limit+offset: home first six, about next six, full on /projects */
   const cards = items.slice(offset, limit == null ? undefined : offset + limit).map((project) => ({
     key: project.key,
     image: project.image,
@@ -42,14 +42,14 @@ export const Projects = async ({ variant, tone = "muted", limit, offset = 0 }: P
             </div>
           </div>
 
-          {/* home: arrow link to the gallery; gallery: zoom button opens the viewer */}
+          {/* home/about: arrow link to the projects page; projects page: zoom button opens the viewer */}
           {variant === "viewAll" ? (
             <ProjectList
               cards={cards}
               renderAction={(card) => (
                 <ArrowLink
                   href={ctaHref.viewAll.href}
-                  label={`${card.description} ${t("action.viewGallery")}`}
+                  label={`${card.description} ${t("action.viewProjects")}`}
                   pulse
                 />
               )}
