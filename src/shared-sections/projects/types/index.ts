@@ -11,7 +11,7 @@ export interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
-  action: ReactNode; /* trailing control: arrow link (home/about) or zoom button (gallery) */
+  action: ReactNode; /* trailing control: arrow link (home/about) or zoom button (projects page) */
   sizes: string; /* next/image sizes; featured vs stacked cells differ from lg up */
 }
 

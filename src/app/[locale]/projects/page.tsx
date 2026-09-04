@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("description"),
-    ...(await routeMetadata(locale as Locale, "/gallery")),
+    ...(await routeMetadata(locale as Locale, "/projects")),
   };
 }
 

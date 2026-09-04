@@ -8,12 +8,12 @@ export const projectsData = {
   },
   /* CTA per variant: i18n key (text) + href (destination) */
   ctaHref: {
-    viewAll: { key: "action.viewAll", href: "/gallery" },
+    viewAll: { key: "action.viewAll", href: "/projects" },
     contact: { key: "action.contact", href: "#contact" },
   },
   /* image viewer controls: labels by key */
   viewer: { close: "action.close", previous: "action.previous", next: "action.next" },
-  /* first six on the home, next six on about, rest on /gallery */
+  /* first six on the home, next six on about, rest on /projects */
   items: [
     { key: "cedarHeights", image: "/images/projects/project-1.webp" },
     { key: "sunsetRidge", image: "/images/projects/project-9.webp" },

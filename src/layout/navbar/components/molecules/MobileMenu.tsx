@@ -16,7 +16,7 @@ const ICONS: Record<NavLinkKey, LucideIcon> = {
   home: Home,
   services: Wrench,
   shop: Package,
-  gallery: Images,
+  projects: Images,
   about: Info,
   areas: MapPin,
 };
