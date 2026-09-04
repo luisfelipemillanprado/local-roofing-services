@@ -60,7 +60,7 @@ const tones: Record<IconBadgeTone, string> = {
 export const IconBadge = ({ icon, size, tone }: IconBadgeProps) => {
   const Icon = ICONS[icon];
   return (
-    <span className={`grid place-items-center rounded-2xl ${chips[size]} ${tones[tone]}`}>
+    <span className={`grid place-items-center rounded-badge ${chips[size]} ${tones[tone]}`}>
       <Icon className={`${iconSizes[size]} text-primary`} />
     </span>
   );

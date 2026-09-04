@@ -4,7 +4,7 @@ import type { YearsBadgeProps } from "@/shared-sections/about/types";
 
 /* About experience badge: years number + two label lines */
 export const YearsBadge = ({ value, line1, line2 }: YearsBadgeProps) => (
-  <div className="theme-dark grid rounded-2xl bg-primary p-3 shadow-lg sm:p-4">
+  <div className="theme-dark grid rounded-badge bg-primary p-3 shadow-lg sm:p-4">
     <div className="grid gap-1 text-center">
       <TextNumber as="p" size="display" text={value} />
       {/* label lines grouped so the number↔label gap tunes apart from the line↔line gap */}

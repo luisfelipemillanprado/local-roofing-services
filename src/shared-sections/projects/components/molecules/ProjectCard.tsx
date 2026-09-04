@@ -5,7 +5,7 @@ import type { ProjectCardProps } from "@/shared-sections/projects/types";
 
 /* full-bleed tile: image fills the cell, caption sits on the bottom scrim */
 export const ProjectCard = ({ image, title, description, action, sizes }: ProjectCardProps) => (
-  <article className="group relative h-full overflow-hidden rounded-2xl border border-line shadow-md">
+  <article className="group relative h-full overflow-hidden rounded-card border border-line shadow-md">
     <Media src={image} alt={title} shape="fill" sizes={sizes} />
     <div className="pointer-events-none absolute inset-0 overlay-card-bottom" />
     <div className="absolute inset-x-0 bottom-0 grid grid-cols-[1fr_auto] items-center gap-4 px-5.5 py-4.5">

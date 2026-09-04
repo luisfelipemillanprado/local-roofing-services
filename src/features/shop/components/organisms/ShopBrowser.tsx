@@ -189,7 +189,7 @@ export const ShopBrowser = () => {
       </div>
 
       {results.length === 0 ? (
-        <div className="grid justify-items-center gap-3 rounded-2xl border border-dashed border-line py-16 text-center">
+        <div className="grid justify-items-center gap-3 rounded-panel border border-dashed border-line py-16 text-center">
           <Text as="p" size="lead" weight="bold" text={t("emptyTitle")} />
           <Text tone="muted" text={t("emptyHint")} />
           <button type="button" onClick={reset} className="mt-1">

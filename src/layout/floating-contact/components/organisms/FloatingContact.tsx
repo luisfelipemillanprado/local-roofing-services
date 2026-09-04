@@ -17,7 +17,7 @@ export const FloatingContact = async () => {
   }));
 
   return (
-    <div className="fixed right-5 bottom-5 z-50 animate-float-y">
+    <div className="fixed right-5 bottom-5 z-(--z-overlay) animate-float-y">
       <FloatingActions actions={actionItems} />
     </div>
   );

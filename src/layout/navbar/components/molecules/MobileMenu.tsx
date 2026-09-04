@@ -75,7 +75,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
         <div
           onClick={handleCloseOptions}
           className={clsx(
-            "fixed inset-x-0 top-header z-50 h-dvh transition-colors duration-150 lg:hidden",
+            "fixed inset-x-0 top-header z-(--z-overlay) h-dvh transition-colors duration-150 lg:hidden",
             isOpen ? "bg-contrast/70 backdrop-blur-md" : "bg-transparent",
           )}
         >
@@ -97,7 +97,7 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
                     key={link.key}
                     href={link.href}
                     onClick={handleCloseOptions}
-                    className="group grid justify-items-center gap-2 rounded-2xl border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary sm:gap-3 sm:py-6"
+                    className="group grid justify-items-center gap-2 rounded-panel border border-line bg-surface-muted px-2 py-5 text-center transition-colors hover:bg-primary sm:gap-3 sm:py-6"
                   >
                     <Icon
                       className="size-6.5 text-primary transition-colors group-hover:text-white sm:size-7"

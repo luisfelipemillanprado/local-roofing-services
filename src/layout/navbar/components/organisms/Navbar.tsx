@@ -23,9 +23,9 @@ export const Navbar = async () => {
   }));
 
   return (
-    <header className="theme-dark fixed inset-x-0 top-0 z-50 shadow-sm">
+    <header className="theme-dark fixed inset-x-0 top-0 z-(--z-overlay) shadow-sm">
       {/* blur as a sibling layer so the menu's own backdrop-blur isn't trapped */}
-      <div className="absolute inset-0 -z-10 bg-surface-panel/90 backdrop-blur-md" />
+      <div className="absolute inset-0 z-(--z-behind) bg-surface-panel/90 backdrop-blur-md" />
       <Container>
         <div className="grid h-header grid-flow-col items-center justify-between py-3">
           <Logo />

@@ -50,7 +50,7 @@ export const ProjectViewer = ({
       role="dialog"
       aria-modal="true"
       aria-label={project.title}
-      className="theme-dark fixed inset-0 z-60 grid place-items-center p-4"
+      className="theme-dark fixed inset-0 z-(--z-modal) grid place-items-center p-4"
     >
       {/* backdrop: click to close */}
       <div onClick={onClose} className="absolute inset-0 bg-contrast/70 backdrop-blur-md" />

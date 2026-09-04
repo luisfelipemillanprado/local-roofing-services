@@ -18,7 +18,7 @@ export const Contact = async ({ tone = "base" }: ContactProps) => {
       <Container>
         <div className="theme-dark relative isolate overflow-hidden rounded-4xl border border-line bg-contrast px-5 py-12 sm:p-10">
           {/* background: image + hero scrims (side + bottom) */}
-          <div className="absolute inset-0 -z-10">
+          <div className="absolute inset-0 z-(--z-behind)">
             <Image
               src={image}
               alt={t("imageAlt")}

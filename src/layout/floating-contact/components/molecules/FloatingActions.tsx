@@ -22,7 +22,7 @@ export const FloatingActions = ({ actions }: FloatingActionsProps) => (
           aria-label={label}
           target={external ? "_blank" : undefined}
           rel={external ? "noopener noreferrer" : undefined}
-          className={`relative isolate grid size-14 place-items-center rounded-2xl shadow-sm ${
+          className={`relative isolate grid size-14 place-items-center rounded-control shadow-sm ${
             key === "whatsapp" ? "bg-malachite" : "bg-primary"
           }`}
         >
