@@ -1,13 +1,7 @@
 @import "tailwindcss";
 
-/* Class-based theming: next-themes toggles .dark/.light on <html>. */
-@custom-variant dark (&:where(.dark, .dark *));
-
 @theme {
-  /* Header height — navbar + mobile-menu offset. */
-  --spacing-header: 4.5rem;
-
-  /* Neutrals — shared (dark & light theme). */
+  /* Neutrals — shared (dark & light theme) */
   --color-night: oklch(0.243 0.014 239.25); /* → --surface-base (dark) */
   --color-amber-vivid: oklch(0.7552 0.1253 80.01); /* → --amber at ≥1024px (desktop) */
   --color-amber: oklch(0.78 0.1 72); /* → --primary (accent, mobile base) */
@@ -17,32 +11,35 @@
   --color-onyx: oklch(0.2047 0.0121 237.38); /* → --shade (shadows) */
   --color-white: oklch(1 0 0); /* → --foreground (dark), --primary-foreground, --line */
 
-  /* Neutrals — dark theme. */
+  /* Neutrals — dark theme */
+  /* graphite == onyx today; unify later */
   --color-graphite: oklch(0.2047 0.0121 237.38); /* → --contrast (dark fills) */
   --color-charcoal: oklch(0.2183 0.0133 243.53); /* → --surface-muted (dark) + scrollbar track */
-  --color-steel: oklch(0.2954 0.0237 246.15); /* → --surface-panel (dark) + card --highlight */
+  --color-steel: oklch(0.2954 0.0237 246.15); /* → --surface-panel (dark) */
   --color-slate-deep: oklch(0.3262 0.024 243.72); /* → scrollbar thumb */
   --color-slate: oklch(0.8 0.027 255.6); /* → --foreground-muted (dark) */
 
-  /* Neutrals — light theme. */
+  /* Neutrals — light theme */
   --color-navy: oklch(0.2024 0.0252 256.48); /* → --foreground (light text) */
   --color-stone: oklch(0.5 0.0276 259.8); /* → --foreground-muted (light) */
   --color-mist: oklch(0.9339 0.0071 268.55); /* → --line (light) */
   --color-cream: oklch(0.9676 0.0057 84.57); /* → --surface-muted (light) */
 
-  /* Semantic roles — static; theme-switching ones in @theme inline. */
+  /* Static semantic roles — theme-switching ones in @theme inline */
   --color-primary: var(--color-amber); /* accent: buttons, links, eyebrow, icons */
-  --color-primary-light: var(--color-peach); /* footer icons, CTA input focus */
+  --color-primary-light: var(--color-peach); /* CTA input focus (EmailForm) */
   --color-primary-foreground: var(--color-white); /* text on primary/accent fills */
   --color-secondary: var(--color-amber-deep); /* secondary button fill (section CTAs) */
-  --color-contrast: var(--color-graphite); /* dark fills: Button dark, CTA, gradients */
-  --color-highlight: var(--color-steel); /* highlighted card: Pricing */
+  --color-contrast: var(--color-graphite); /* dark fills: CTA, viewer, gradient scrims */
 
-  /* Typography (--font-sans is applied to <html> by Preflight). */
+  /* Typography — --font-sans applied to <html> by Preflight */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
 
-  /* Marquee animation (utility: animate-marquee). */
+  /* Header height — navbar + mobile-menu offset */
+  --spacing-header: 4.5rem;
+
+  /* Marquee (utility: animate-marquee) */
   --animate-marquee: marquee 28s linear infinite;
   @keyframes marquee {
     from {
@@ -53,7 +50,7 @@
     }
   }
 
-  /* Floating-contact bob (utility: animate-float-y). */
+  /* Floating-contact bob (utility: animate-float-y) */
   --animate-float-y: float-y 4s ease-in-out infinite;
   @keyframes float-y {
     0%,
@@ -65,7 +62,7 @@
     }
   }
 
-  /* Pulse ring — expanding box-shadow halo (utility: animate-soft-pulse). */
+  /* Pulse ring — expanding box-shadow halo (utility: animate-soft-pulse) */
   --animate-soft-pulse: soft-pulse 3s ease-in-out infinite;
   @keyframes soft-pulse {
     0% {
@@ -82,7 +79,7 @@
     }
   }
 
-  /* Floating-contact icon shake (utility: animate-tada). */
+  /* Floating-contact icon shake (utility: animate-tada) */
   --animate-tada: tada 1.5s ease-in-out infinite;
   @keyframes tada {
     from,
@@ -105,18 +102,25 @@
   }
 }
 
-/* Theme-switching roles aliased to runtime vars. */
+/* Inline roles (var() references) — theme-switching colors, then per-role radius */
 @theme inline {
   --color-surface-base: var(--surface-base); /* page + section base background */
-  --color-surface-panel: var(--surface-panel); /* cards/panels: testimonials, navbar, outline btn */
+  --color-surface-panel: var(--surface-panel); /* cards/panels: testimonials, navbar, form controls */
   --color-surface-muted: var(--surface-muted); /* alternating sections, footer, muted chips */
   --color-foreground: var(--foreground); /* main text */
   --color-foreground-muted: var(--foreground-muted); /* secondary text */
   --color-line: var(--line); /* borders & dividers */
   --color-shade: var(--shade); /* shadow color (shadow-shade) */
+
+  /* Radius per role — large surfaces 3xl (24px), small & interior 2xl (16px) */
+  --radius-card: var(--radius-3xl); /* content cards */
+  --radius-badge: var(--radius-2xl); /* small info chips & badges */
+  --radius-panel: var(--radius-2xl); /* panels, menus, stat rows, empty states */
+  --radius-media: var(--radius-3xl); /* image & media containers */
+  --radius-control: var(--radius-2xl); /* interactive square controls (toggle, FAB) */
 }
 
-/* Dark theme (default); .theme-dark pins it on a subtree, e.g. navbar. */
+/* Dark theme (default); .theme-dark pins it on a subtree (navbar) */
 :root,
 .theme-dark {
   color-scheme: dark;
@@ -129,7 +133,7 @@
   --shade: var(--color-onyx); /* shadows */
 }
 
-/* Light theme (same amber accent). */
+/* Light theme (same amber accent) */
 .light {
   color-scheme: light;
   --surface-base: var(--color-white); /* page + section background */
@@ -141,7 +145,22 @@
   --shade: var(--color-onyx); /* shadows */
 }
 
-/* Base element styles (cascade layer so utilities can override). */
+/* Mobile amber; the desktop amber from lg+ */
+@media (min-width: 64rem) {
+  :root {
+    --color-amber: var(--color-amber-vivid);
+  }
+}
+
+/* Layering scale (theme-independent) — use via z-(--z-*) */
+:root {
+  --z-behind: -10; /* decorative/scrim layer behind content in an isolate context */
+  --z-dropdown: 30; /* popovers & dropdown panels */
+  --z-overlay: 50; /* fixed chrome: navbar, mobile menu, floating contact */
+  --z-modal: 60; /* dialogs above everything (image viewer) */
+}
+
+/* Base element styles (cascade layer so utilities can override) */
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -161,7 +180,7 @@
     letter-spacing: 0.025rem;
   }
 
-  /* Custom scrollbar (single dark style for both themes). */
+  /* Custom scrollbar (single dark style for both themes) */
   ::-webkit-scrollbar {
     width: 0.625rem;
   }
@@ -177,7 +196,7 @@
   }
 }
 
-/* Scroll-reveal: <Reveal> adds .is-visible via IntersectionObserver. */
+/* Scroll-reveal — <Reveal> adds .is-visible via IntersectionObserver */
 @layer components {
   @keyframes reveal-fade-up {
     from {
@@ -220,10 +239,8 @@
   [data-reveal="scale-in"].is-visible {
     animation-name: reveal-scale-in;
   }
-}
 
-/* FAQ accordion: interpolate the native details height for a fluid open/close. */
-@layer components {
+  /* FAQ accordion — interpolate native details height for a fluid open/close */
   .faq-accordion::details-content {
     block-size: 0;
     overflow: hidden;
@@ -236,8 +253,7 @@
   }
 }
 
-/* Hero scrims (contrast) — side for copy legibility, bottom to seat the section. */
-/* Balanced for centered hero text — photo still breathes, text stays legible. */
+/* Hero scrims (contrast) — side for copy legibility, bottom seats the section */
 @utility overlay-hero-side {
   background-image: linear-gradient(
     to right,
@@ -263,14 +279,7 @@
   );
 }
 
-/* Mobile amber; switch to the desktop amber at lg+. */
-@media (min-width: 64rem) {
-  :root {
-    --color-amber: var(--color-amber-vivid);
-  }
-}
-
-/* Outside any layer so it overrides components. */
+/* Outside any layer so it overrides components */
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] {
     opacity: 1;

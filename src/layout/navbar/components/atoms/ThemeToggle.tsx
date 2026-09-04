@@ -16,7 +16,7 @@ export const ThemeToggle = () => {
       type="button"
       aria-label={t("toggleTheme")}
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="group grid size-10 place-items-center rounded-2xl border border-line bg-surface-muted"
+      className="group grid size-10 place-items-center rounded-control border border-line bg-surface-muted"
     >
       {isDark ? (
         <Sun className="size-4.5 text-foreground transition-colors group-hover:text-primary" />
