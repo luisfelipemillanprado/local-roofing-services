@@ -112,11 +112,11 @@
   --color-line: var(--line); /* borders & dividers */
   --color-shade: var(--shade); /* shadow color (shadow-shade) */
 
-  /* Radius per role — large surfaces 3xl (24px), small & interior 2xl (16px) */
-  --radius-card: var(--radius-3xl); /* content cards */
+  /* Radius per role — large surfaces 20px (off-scale), small & interior 2xl (16px) */
+  --radius-card: 1.25rem; /* content cards */
   --radius-badge: var(--radius-2xl); /* small info chips & badges */
   --radius-panel: var(--radius-2xl); /* panels, menus, stat rows, empty states */
-  --radius-media: var(--radius-3xl); /* image & media containers */
+  --radius-media: 1.25rem; /* image & media containers */
   --radius-control: var(--radius-2xl); /* interactive square controls (toggle, FAB) */
 }
 
