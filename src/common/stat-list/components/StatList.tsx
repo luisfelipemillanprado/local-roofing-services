@@ -4,11 +4,11 @@ import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import type { StatListProps } from "@/common/stat-list/types";
 
-/* stats: mobile grid; three columns at sm, a single column at md, two from lg, all content-width */
+/* stats: mobile grid; a single column from sm, two from lg, all content-width */
 export const StatList = ({ stats }: StatListProps) => (
   <div
     className={clsx(
-      "grid grid-cols-2 gap-x-3 gap-y-7 sm:w-fit sm:grid-cols-[auto_auto_auto] md:grid-cols-1 md:gap-x-6 lg:grid-cols-[auto_auto]",
+      "grid grid-cols-2 gap-x-3 gap-y-7 sm:w-fit sm:grid-cols-1 md:gap-x-6 lg:grid-cols-[auto_auto]",
       stats.length === 4
         ? "[&>*:first-child]:col-span-2 sm:[&>*:first-child]:col-span-1 [&>*:last-child]:hidden sm:[&>*:last-child]:grid"
         : "[&>*:first-child]:col-span-2 sm:[&>*:first-child]:col-span-1 lg:[&>*:last-child]:col-span-2",
