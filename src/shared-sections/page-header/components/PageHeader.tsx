@@ -28,7 +28,7 @@ export const PageHeader = async ({
   return (
     <HeroWrapper id={id} image={src} imageAlt={t(altKey)}>
       {/* grid-cols-1 (minmax(0,1fr)) keeps nowrap text from widening the column */}
-      <div className="grid grid-cols-1 gap-6.5 sm:max-w-md md:max-[1440px]:ml-5">
+      <div className="grid grid-cols-1 gap-6.5 sm:max-w-120 md:max-[1440px]:ml-5">
         <Reveal delay={0.05}>
           <AvailabilityBadge label={t(badgeKey, { city: badgeCity })} />
         </Reveal>
