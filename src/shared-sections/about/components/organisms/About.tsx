@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
+import { Media } from "@/common/media/components/Media";
 import { MediaVideo } from "@/common/media-video/components/MediaVideo";
 import { ProfileSplit } from "@/common/profile-split/components/ProfileSplit";
 import { YearsBadge } from "@/shared-sections/about/components/molecules/YearsBadge";
@@ -12,7 +13,7 @@ import { aboutData } from "@/data/shared-sections/about";
 import { Container } from "@/common/container/components/Container";
 import type { AboutProps } from "@/shared-sections/about/types";
 
-const { name, video, heading, ctaHref, years, call, points, stats } = aboutData;
+const { name, video, image, heading, ctaHref, years, call, points, stats } = aboutData;
 
 /* About section: media + heading, selling points, stats, and CTA */
 export const About = async ({ variant, tone = "base" }: AboutProps) => {
@@ -31,12 +32,17 @@ export const About = async ({ variant, tone = "base" }: AboutProps) => {
       <Container>
         <ProfileSplit
           media={
-            <MediaVideo
-              src={video.src}
-              poster={video.poster}
-              alt={t(video.altKey, { name })}
-              shape="square"
-            />
+            /* /about shows the owner portrait; every other page keeps the ambient video */
+            variant === "contact" ? (
+              <Media
+                src={image.src}
+                alt={t(image.altKey, { name })}
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                shape="fill"
+              />
+            ) : (
+              <MediaVideo src={video.src} poster={video.poster} alt={t(video.altKey, { name })} />
+            )
           }
           badge={
             <YearsBadge

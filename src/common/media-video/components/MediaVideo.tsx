@@ -1,14 +1,9 @@
 import { blurs } from "@/data/blurs";
-import type { MediaVideoProps, MediaVideoShape } from "@/common/media-video/types";
+import type { MediaVideoProps } from "@/common/media-video/types";
 
-/* full-width per-shape framed video; muted autoplay loop with controls */
-const shapes: Record<MediaVideoShape, string> = {
-  /* about feature: square 1:1; 4:3 on tablet so height does not follow full width */
-  square: "aspect-square sm:aspect-[4/3] lg:aspect-square",
-};
-
-export const MediaVideo = ({ src, poster, alt, shape }: MediaVideoProps) => (
-  <div className={`relative w-full overflow-hidden ${shapes[shape]}`}>
+/* muted autoplay loop that fills its frame; the parent owns the box */
+export const MediaVideo = ({ src, poster, alt }: MediaVideoProps) => (
+  <div className="relative size-full overflow-hidden">
     {/* blurred placeholder until the poster and video paint over it */}
     <div
       aria-hidden
