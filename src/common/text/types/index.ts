@@ -1,4 +1,4 @@
-export type TextSize = "lead" | "body" | "caption" | "note" | "label";
+export type TextSize = "subhead" | "lead" | "body" | "caption" | "note" | "label";
 export type TextTone = "default" | "muted" | "white" | "primary";
 export type TextWeight = "medium" | "semibold" | "bold";
 export type TextTracking = "wide" | "subtle";
