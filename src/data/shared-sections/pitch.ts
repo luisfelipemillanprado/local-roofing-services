@@ -25,6 +25,8 @@ export const pitchData = {
       { key: "process.stats.scheduling", icon: "document", value: "48h" },
       /* value stays in i18n: the unit is translatable (yr / años) */
       { key: "process.stats.warranty", icon: "shield" },
+      /* 4th stat: fills the 2x2 on desktop, hidden on mobile */
+      { key: "process.stats.completion", icon: "calendar", value: "98%" },
     ],
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "process.action.contact", href: "#contact" },

@@ -74,6 +74,9 @@
       "warranty": {
         "value": "10 años",
         "label": "Garantía de Obra"
+      },
+      "completion": {
+        "label": "Entrega Puntual"
       }
     },
     "items": {
