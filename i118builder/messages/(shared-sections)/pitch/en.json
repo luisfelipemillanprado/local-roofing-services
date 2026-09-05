@@ -69,11 +69,11 @@
         "label": "Free Inspection"
       },
       "scheduling": {
-        "label": "Project Scheduling"
+        "label": "Scheduling"
       },
       "warranty": {
         "value": "10 years",
-        "label": "Workmanship Warranty"
+        "label": "Warranty"
       },
       "completion": {
         "label": "Timely Completion"
