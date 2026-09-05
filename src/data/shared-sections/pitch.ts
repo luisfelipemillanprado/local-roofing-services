@@ -14,7 +14,7 @@ export const pitchData = {
     ctaHref: { key: "why-choose.action.viewDetails", href: "/about" },
     items: [
       { key: "why-choose.items.emergency", icon: "phone" },
-      { key: "why-choose.items.materials", icon: "gem" },
+      { key: "why-choose.items.materials", icon: "layers" },
       { key: "why-choose.items.pricing", icon: "dollar" },
       { key: "why-choose.items.licensed", icon: "shield" },
     ],

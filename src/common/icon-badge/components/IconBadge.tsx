@@ -17,6 +17,7 @@ import {
   CircleCheck,
   BadgeCheck,
   BanknoteCheck,
+  Layers,
   Gem,
   BadgeDollarSign,
   type LucideIcon,
@@ -43,6 +44,7 @@ const ICONS: Record<IconBadgeKey, LucideIcon> = {
   check: CircleCheck,
   badgeCheck: BadgeCheck,
   banknote: BanknoteCheck,
+  layers: Layers,
   gem: Gem,
   dollar: BadgeDollarSign,
 };
