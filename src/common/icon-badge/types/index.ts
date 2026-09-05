@@ -17,6 +17,7 @@ export type IconBadgeKey =
   | "check"
   | "badgeCheck"
   | "banknote"
+  | "layers"
   | "gem"
   | "dollar";
 
