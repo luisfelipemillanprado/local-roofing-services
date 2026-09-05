@@ -41,12 +41,12 @@ export default async function ServicesPage({ params }: Props) {
         secondaryCta="projects"
       />
       <Marquee />
-      <Services variant="contact" />
-      <Pitch variant="process" />
-      <Testimonials variant="contact" group="services" />
-      <Faq variant="services" tone="base" />
-      <Products tone="muted" limit={6} />
-      <Contact />
+      <Services variant="contact" tone="base" />
+      <Pitch variant="process" tone="muted" />
+      <Testimonials variant="contact" tone="base" group="services" />
+      <Faq variant="services" />
+      <Products tone="base" limit={6} />
+      <Contact tone="muted" />
     </>
   );
 }
