@@ -69,11 +69,11 @@
         "label": "Inspección Gratuita"
       },
       "scheduling": {
-        "label": "Programación del Proyecto"
+        "label": "Programación"
       },
       "warranty": {
         "value": "10 años",
-        "label": "Garantía de Obra"
+        "label": "Garantía"
       },
       "completion": {
         "label": "Entrega Puntual"
