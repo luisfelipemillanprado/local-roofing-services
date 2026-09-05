@@ -9,7 +9,7 @@
   "services": {
     "items": {
       "estimate": {
-        "q": "¿Ofrecen inspección de techo gratuita y presupuesto por escrito?",
+        "q": "¿Ofrecen inspección gratuita y presupuesto por escrito?",
         "a": "Sí. Cada proyecto comienza con una inspección de techo gratuita y un presupuesto claro por escrito. Evaluamos el estado del techo, te explicamos lo que encontramos y detallamos el alcance recomendado antes de que decidas."
       },
       "materials": {
@@ -33,7 +33,7 @@
         "a": "La seguridad siempre es lo primero. Si el clima severo afecta el cronograma, te avisamos de inmediato, aseguramos tu techo cuando hace falta y retomamos el trabajo apenas las condiciones lo permitan, sin comprometer la calidad."
       },
       "scheduling": {
-        "q": "¿Qué tan pronto pueden comenzar mi proyecto tras la aprobación?",
+        "q": "¿Qué tan pronto pueden comenzar tras la aprobación?",
         "a": "Depende del alcance del proyecto y de nuestra disponibilidad actual. Tras la inspección y el presupuesto, te damos la fecha de inicio más próxima posible y te mantenemos informado hasta el recorrido final."
       }
     }
