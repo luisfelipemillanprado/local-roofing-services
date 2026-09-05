@@ -8,21 +8,21 @@
   },
   "services": {
     "items": {
-      "estimate": {
-        "q": "Do you provide a free roof inspection and written estimate?",
-        "a": "Yes. Every project starts with a free roof inspection and a clear written estimate. We assess the roof's condition, explain what we find, and outline the recommended scope before you commit to anything."
-      },
-      "materials": {
-        "q": "What roofing materials and systems do you work with?",
-        "a": "We install asphalt shingles, metal panels, tile, and flat roofing systems. During your inspection we recommend the option that best fits your home's style, budget, performance goals, and the demands of the local climate."
-      },
       "assessment": {
         "q": "How do you decide between a repair and full replacement?",
         "a": "It depends on your roof's age, the extent of the damage, and its overall condition. During the inspection we determine whether a targeted repair restores it safely or a full replacement is the smarter investment."
       },
+      "crew": {
+        "q": "Who will be working on my roof during the project?",
+        "a": "Your roof is installed by our own trained and experienced crew, not day labor. A project lead oversees the work from start to finish, keeps the site organized, and makes sure every detail meets our standards."
+      },
       "presence": {
         "q": "Do I need to be home during my roofing project?",
         "a": "In most cases, no. As long as we have access to the property and have reviewed the project details beforehand, our crew can complete the work while you continue with your daily routine."
+      },
+      "preparation": {
+        "q": "How should I prepare my home before the project starts?",
+        "a": "Very little is needed on your part. We ask that you move vehicles from the driveway, take down fragile items from interior walls, and keep pets and children indoors while the crew is actively working."
       },
       "protection": {
         "q": "How do you protect my property during the roof installation?",
@@ -72,33 +72,33 @@
   },
   "about": {
     "items": {
+      "experience": {
+        "q": "How long has your company been in the roofing business?",
+        "a": "We have proudly served local homeowners for many years, earning a strong reputation for dependable workmanship. Our experienced team brings deep knowledge of roofing systems and the demands of our local climate to every project."
+      },
+      "areas": {
+        "q": "What areas and communities do you currently serve?",
+        "a": "We serve homeowners and businesses across the region, including the surrounding cities and nearby communities. If you are unsure whether your property falls within our service area, contact us and our team will gladly confirm."
+      },
       "licensed": {
-        "q": "Are you a fully licensed and insured Florida roofing contractor?",
-        "a": "Absolutely. We are fully licensed and insured to operate across Florida. We carry comprehensive general liability and workers' compensation insurance, protecting you and your property throughout the entire project."
+        "q": "Are you a licensed and insured Florida contractor?",
+        "a": "Yes. We are fully licensed and insured to operate across Florida, carrying comprehensive general liability and workers compensation coverage. This protects you, your property, and our crew throughout every stage of the project."
       },
-      "hurricanes": {
-        "q": "Are all your new roofs specifically built to withstand hurricanes?",
-        "a": "Yes. We install advanced roofing systems that meet or exceed the rigorous Florida Building Code, utilizing high quality materials and installation methods designed to provide enhanced protection against Florida's high winds and severe weather conditions."
+      "brands": {
+        "q": "What roofing brands do you work with?",
+        "a": "We partner with leading roofing brands and trusted manufacturers. Working with proven products lets us match the right materials to your home and back the installation with strong manufacturer warranties for lasting protection."
       },
-      "insurance": {
-        "q": "Will your team help me navigate the insurance claim process?",
-        "a": "Yes. We help you navigate the insurance claim process with thorough roof inspections, accurate documentation, and professional support at every step."
-      },
-      "permits": {
-        "q": "Do you handle all the required building permits for me?",
-        "a": "Yes. Most roof replacements require local permits. Our team handles the entire permitting process from start to finish and schedules all required inspections to ensure your project complies with local building codes."
+      "estimates": {
+        "q": "Do you offer free estimates before starting any project?",
+        "a": "Yes. Every project begins with a free, no obligation estimate. After inspecting your roof we explain our findings and provide a clear, written breakdown of the recommended work before you decide to move forward."
       },
       "warranty": {
-        "q": "Do you offer comprehensive warranties on all your roofing work?",
-        "a": "Yes. Every project includes our comprehensive workmanship warranty, and most roofing systems also feature extended manufacturer warranties for added long term protection and peace of mind."
+        "q": "What warranties do you provide on your roofing work?",
+        "a": "Every project includes our written workmanship warranty, and most roofing systems also carry extended manufacturer warranties on the materials. Together they protect both the quality of our installation and the products for years."
       },
-      "replacement": {
-        "q": "Exactly how long does a typical roof replacement process take?",
-        "a": "Most residential roof replacements are completed within 1 to 3 days, depending on the size of your home, roofing material, weather conditions, and permit requirements. We'll provide a detailed timeline before your project begins."
-      },
-      "signs": {
-        "q": "How do I actually know if my roof needs replacing?",
-        "a": "Common signs include missing or damaged shingles, persistent leaks, sagging areas, or water stains on ceilings. We provide free professional inspections to determine whether a targeted repair or a full replacement is the best option for your home."
+      "financing": {
+        "q": "Do you offer financing or flexible monthly payment options?",
+        "a": "Yes. We offer flexible financing and payment options to help make your roofing project more manageable. Our team will walk you through the available plans so you can choose what best fits your budget."
       }
     }
   },

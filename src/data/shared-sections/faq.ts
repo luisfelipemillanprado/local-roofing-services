@@ -10,10 +10,10 @@ export const faqData = {
   ctaHref: { key: "action.contact", href: "#contact" },
   services: {
     items: [
-      { key: "services.items.estimate" },
-      { key: "services.items.materials" },
       { key: "services.items.assessment" },
+      { key: "services.items.crew" },
       { key: "services.items.presence" },
+      { key: "services.items.preparation" },
       { key: "services.items.protection" },
       { key: "services.items.weather" },
       { key: "services.items.scheduling" },
@@ -32,13 +32,13 @@ export const faqData = {
   },
   about: {
     items: [
+      { key: "about.items.experience" },
+      { key: "about.items.areas" },
       { key: "about.items.licensed" },
-      { key: "about.items.hurricanes" },
-      { key: "about.items.insurance" },
-      { key: "about.items.permits" },
+      { key: "about.items.brands" },
+      { key: "about.items.estimates" },
       { key: "about.items.warranty" },
-      { key: "about.items.replacement" },
-      { key: "about.items.signs" },
+      { key: "about.items.financing" },
     ],
   },
   /* per-service detail variants; selected by the service slug (services.ts order) */

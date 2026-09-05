@@ -8,21 +8,21 @@
   },
   "services": {
     "items": {
-      "estimate": {
-        "q": "¿Ofrecen inspección gratuita y presupuesto por escrito?",
-        "a": "Sí. Cada proyecto comienza con una inspección de techo gratuita y un presupuesto claro por escrito. Evaluamos el estado del techo, te explicamos lo que encontramos y detallamos el alcance recomendado antes de que decidas."
-      },
-      "materials": {
-        "q": "¿Con qué materiales y sistemas de techado trabajan ustedes?",
-        "a": "Instalamos tejas asfálticas, paneles de metal, teja y sistemas de techo plano. Durante la inspección recomendamos la opción que mejor se ajusta al estilo de tu hogar, tu presupuesto y las exigencias del clima local."
-      },
       "assessment": {
         "q": "¿Cómo deciden entre reparar o reemplazar el techo?",
         "a": "Depende de la edad del techo, la magnitud del daño y su estado general. Durante la inspección determinamos si una reparación puntual lo restaura con seguridad o si un reemplazo completo es la mejor inversión."
       },
+      "crew": {
+        "q": "¿Quién trabajará en mi techo durante el proyecto?",
+        "a": "Tu techo lo instala nuestro propio equipo capacitado y con experiencia, no mano de obra temporal. Un líder de proyecto supervisa el trabajo de principio a fin, mantiene el sitio ordenado y cuida cada detalle."
+      },
       "presence": {
         "q": "¿Necesito estar en casa durante mi proyecto de techado?",
         "a": "En la mayoría de los casos, no. Mientras tengamos acceso a la propiedad y hayamos revisado los detalles del proyecto de antemano, nuestro equipo completa el trabajo mientras sigues con tu rutina diaria."
+      },
+      "preparation": {
+        "q": "¿Cómo debo preparar mi casa antes de que comience?",
+        "a": "Se necesita muy poco de tu parte. Te pedimos retirar los autos de la entrada, bajar objetos frágiles de las paredes interiores y mantener a mascotas y niños adentro mientras el equipo trabaja activamente."
       },
       "protection": {
         "q": "¿Cómo protegen mi propiedad durante la instalación del techo?",
@@ -72,33 +72,33 @@
   },
   "about": {
     "items": {
+      "experience": {
+        "q": "¿Cuántos años lleva su empresa en el negocio del techado?",
+        "a": "Llevamos muchos años sirviendo con orgullo a los propietarios locales, ganándonos una sólida reputación por nuestro trabajo confiable. Nuestro equipo aporta un profundo conocimiento de los sistemas de techado y del clima local en cada proyecto."
+      },
+      "areas": {
+        "q": "¿En qué zonas y comunidades prestan servicio?",
+        "a": "Atendemos a propietarios y negocios en toda la región, incluidas las ciudades y comunidades cercanas. Si no estás seguro de si tu propiedad entra en nuestra zona de servicio, contáctanos y con gusto lo confirmamos."
+      },
       "licensed": {
-        "q": "¿Cuentan con las licencias y seguros para operar en Florida?",
-        "a": "Por supuesto. Contamos con licencia y seguro completos para operar en toda Florida. Tenemos seguro de responsabilidad civil general y de compensación laboral, protegiéndote a ti y a tu propiedad durante todo el proyecto."
+        "q": "¿Están licenciados y asegurados en Florida?",
+        "a": "Sí. Contamos con licencia y seguro completos para operar en toda Florida, con cobertura de responsabilidad civil y de accidentes laborales. Eso te protege a ti, a tu propiedad y a nuestro equipo en cada etapa."
       },
-      "hurricanes": {
-        "q": "¿Están todos sus techos construidos para resistir los huracanes?",
-        "a": "Sí. Instalamos sistemas de techado avanzados que cumplen o superan el riguroso Código de Construcción de Florida, con materiales de alta calidad y métodos de instalación diseñados para brindar protección superior contra los vientos fuertes y el clima severo de Florida."
+      "brands": {
+        "q": "¿Con qué marcas y fabricantes de techado trabajan ustedes?",
+        "a": "Trabajamos con marcas de techado reconocidas y fabricantes de confianza. Usar productos probados nos permite elegir los materiales correctos para tu hogar y respaldar la instalación con sólidas garantías del fabricante."
       },
-      "insurance": {
-        "q": "¿Su equipo me acompañará durante todo el proceso de reclamo?",
-        "a": "Sí. Te ayudamos a navegar el proceso de reclamo al seguro con inspecciones minuciosas del techo, documentación precisa y acompañamiento profesional en cada paso."
-      },
-      "permits": {
-        "q": "¿Se encargan ustedes de gestionar todos los permisos de construcción?",
-        "a": "Sí. La mayoría de los reemplazos de techo requieren permisos locales. Nuestro equipo gestiona todo el proceso de permisos de principio a fin y agenda las inspecciones requeridas para que tu proyecto cumpla los códigos de construcción locales."
+      "estimates": {
+        "q": "¿Ofrecen estimados gratis antes de comenzar?",
+        "a": "Sí. Cada proyecto comienza con un estimado gratuito y sin compromiso. Tras inspeccionar tu techo, te explicamos lo que encontramos y te damos un desglose claro por escrito antes de que decidas avanzar."
       },
       "warranty": {
-        "q": "¿Ustedes ofrecen garantías completas sobre todo su trabajo de techado?",
-        "a": "Sí. Cada proyecto incluye nuestra garantía integral de mano de obra, y la mayoría de los sistemas de techado incluyen además garantías extendidas del fabricante para mayor protección a largo plazo y tranquilidad."
+        "q": "¿Qué garantías ofrecen sobre sus trabajos de techado?",
+        "a": "Cada proyecto incluye nuestra garantía de mano de obra por escrito, y la mayoría de los sistemas de techado también traen garantías extendidas del fabricante sobre los materiales, protegiendo la instalación y los productos por años."
       },
-      "replacement": {
-        "q": "¿Exactamente cuánto tiempo tarda un proceso de reemplazo de techo?",
-        "a": "La mayoría de los reemplazos residenciales se completan en 1 a 3 días, según el tamaño de tu casa, el material del techo, el clima y los requisitos de permisos. Te damos un cronograma detallado antes de comenzar tu proyecto."
-      },
-      "signs": {
-        "q": "¿Cómo puedo saber si mi techo necesita un reemplazo completo?",
-        "a": "Las señales comunes incluyen tejas faltantes o dañadas, goteras persistentes, áreas hundidas o manchas de agua en los cielos rasos. Brindamos inspecciones profesionales gratuitas para determinar si una reparación puntual o un reemplazo completo es la mejor opción para tu hogar."
+      "financing": {
+        "q": "¿Ofrecen financiamiento u opciones de pago?",
+        "a": "Sí. Ofrecemos opciones de financiamiento y pago flexibles para que tu proyecto de techado sea más manejable. Nuestro equipo te explica los planes disponibles para que elijas el que mejor se ajuste a tu presupuesto."
       }
     }
   },
