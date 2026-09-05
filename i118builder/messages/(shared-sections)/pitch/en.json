@@ -74,6 +74,9 @@
       "warranty": {
         "value": "10yr",
         "label": "Workmanship Warranty"
+      },
+      "completion": {
+        "label": "Timely Completion"
       }
     },
     "items": {
