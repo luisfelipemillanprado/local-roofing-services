@@ -13,6 +13,10 @@ export type IconBadgeKey =
   | "alert"
   | "target"
   | "calendar"
+  | "clockRotate"
+  | "check"
+  | "badgeCheck"
+  | "banknote"
   | "gem"
   | "dollar";
 
