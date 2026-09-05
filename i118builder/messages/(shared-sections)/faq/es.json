@@ -8,33 +8,33 @@
   },
   "services": {
     "items": {
+      "estimate": {
+        "q": "¿Ofrecen inspección de techo gratuita y presupuesto por escrito?",
+        "a": "Sí. Cada proyecto comienza con una inspección de techo gratuita y un presupuesto claro por escrito. Evaluamos el estado del techo, te explicamos lo que encontramos y detallamos el alcance recomendado antes de que decidas."
+      },
+      "materials": {
+        "q": "¿Con qué materiales y sistemas de techado trabajan ustedes?",
+        "a": "Instalamos tejas asfálticas, paneles de metal, teja y sistemas de techo plano. Durante la inspección recomendamos la opción que mejor se ajusta al estilo de tu hogar, tu presupuesto y las exigencias del clima local."
+      },
       "assessment": {
-        "q": "¿Cómo sé si mi techo necesita reparación o reemplazo?",
-        "a": "Nuestra inspección gratuita ayuda a determinar si basta con una reparación o si un reemplazo completo es la mejor solución a largo plazo. Evaluamos la edad del techo, los daños visibles, las goteras y el estado estructural general antes de hacer cualquier recomendación."
-      },
-      "insurance": {
-        "q": "¿Me ayudan con mi reclamo al seguro?",
-        "a": "Sí. Si tu techo sufrió daños por granizo, viento o clima severo, podemos acompañarte durante todo el proceso de reclamo, documentando los daños y tratando directamente con el ajustador de tu seguro cuando sea necesario."
-      },
-      "warranty": {
-        "q": "¿Sus servicios incluyen garantías de mano de obra y de fabricante?",
-        "a": "Por supuesto. Nuestros proyectos incluyen garantías de mano de obra, y muchos de los materiales premium que instalamos están respaldados por garantías del fabricante para mayor protección y tranquilidad a largo plazo."
+        "q": "¿Cómo deciden entre reparar o reemplazar el techo?",
+        "a": "Depende de la edad del techo, la magnitud del daño y su estado general. Durante la inspección determinamos si una reparación puntual lo restaura con seguridad o si un reemplazo completo es la mejor inversión."
       },
       "presence": {
-        "q": "¿Necesito estar en casa durante el proyecto de techado?",
-        "a": "En la mayoría de los casos, no. Mientras tengamos acceso a la propiedad y hayamos acordado todos los detalles del proyecto de antemano, nuestro equipo puede completar el trabajo mientras sigues con tu rutina diaria."
+        "q": "¿Necesito estar en casa durante mi proyecto de techado?",
+        "a": "En la mayoría de los casos, no. Mientras tengamos acceso a la propiedad y hayamos revisado los detalles del proyecto de antemano, nuestro equipo completa el trabajo mientras sigues con tu rutina diaria."
       },
       "protection": {
-        "q": "¿Cómo protegen mi propiedad durante la instalación?",
-        "a": "Tomamos precauciones adicionales para proteger tu jardín, la fachada, las ventanas y las áreas exteriores. Al terminar el proyecto, hacemos una limpieza minuciosa, incluyendo barridos magnéticos para recoger clavos y residuos."
+        "q": "¿Cómo protegen mi propiedad durante la instalación del techo?",
+        "a": "Tomamos precauciones adicionales para proteger tu jardín, la fachada, las ventanas y las áreas exteriores durante todo el trabajo. Al terminar, hacemos una limpieza minuciosa con barridos magnéticos para recoger los clavos y residuos."
       },
       "weather": {
-        "q": "¿Qué pasa si el mal clima retrasa mi proyecto?",
-        "a": "La seguridad siempre es lo primero. Si el clima severo afecta el cronograma, te avisamos de inmediato, aseguramos tu techo si es necesario y retomamos el trabajo apenas las condiciones lo permitan, sin comprometer la calidad."
+        "q": "¿Qué pasa si el mal clima retrasa mi proyecto de techado?",
+        "a": "La seguridad siempre es lo primero. Si el clima severo afecta el cronograma, te avisamos de inmediato, aseguramos tu techo cuando hace falta y retomamos el trabajo apenas las condiciones lo permitan, sin comprometer la calidad."
       },
       "scheduling": {
-        "q": "¿Qué tan pronto pueden agendar mi proyecto?",
-        "a": "El agendado depende del alcance del proyecto y la disponibilidad actual. Después de tu inspección y presupuesto, te damos la fecha de inicio más próxima disponible y te mantenemos informado durante todo el proceso."
+        "q": "¿Qué tan pronto pueden comenzar mi proyecto tras la aprobación?",
+        "a": "Depende del alcance del proyecto y de nuestra disponibilidad actual. Tras la inspección y el presupuesto, te damos la fecha de inicio más próxima posible y te mantenemos informado hasta el recorrido final."
       }
     }
   },

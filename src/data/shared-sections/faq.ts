@@ -10,9 +10,9 @@ export const faqData = {
   ctaHref: { key: "action.contact", href: "#contact" },
   services: {
     items: [
+      { key: "services.items.estimate" },
+      { key: "services.items.materials" },
       { key: "services.items.assessment" },
-      { key: "services.items.insurance" },
-      { key: "services.items.warranty" },
       { key: "services.items.presence" },
       { key: "services.items.protection" },
       { key: "services.items.weather" },

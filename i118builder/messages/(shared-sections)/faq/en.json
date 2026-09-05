@@ -8,33 +8,33 @@
   },
   "services": {
     "items": {
+      "estimate": {
+        "q": "Do you provide a free roof inspection and written estimate?",
+        "a": "Yes. Every project starts with a free roof inspection and a clear written estimate. We assess the roof's condition, explain what we find, and outline the recommended scope before you commit to anything."
+      },
+      "materials": {
+        "q": "What roofing materials and systems do you work with?",
+        "a": "We install asphalt shingles, metal panels, tile, and flat roofing systems. During your inspection we recommend the option that best fits your home's style, budget, performance goals, and the demands of the local climate."
+      },
       "assessment": {
-        "q": "How do I know if my roof needs repair or replacement?",
-        "a": "Our free roof inspection helps determine whether a repair is enough or if a full replacement is the better long term solution. We evaluate the age of your roof, visible damage, leaks, and overall structural condition before making any recommendation."
-      },
-      "insurance": {
-        "q": "Will you help with my insurance claim?",
-        "a": "Yes. If your roof has been damaged by hail, wind, or severe weather, we can assist throughout the insurance claims process by documenting the damage and working directly with your insurance adjuster when needed."
-      },
-      "warranty": {
-        "q": "Do your roofing services include workmanship and manufacturer warranties?",
-        "a": "Absolutely. Our roofing projects include workmanship warranties, and many of the premium materials we install are backed by manufacturer warranties for added protection and long term peace of mind."
+        "q": "How do you decide between a repair and full replacement?",
+        "a": "It depends on your roof's age, the extent of the damage, and its overall condition. During the inspection we determine whether a targeted repair restores it safely or a full replacement is the smarter investment."
       },
       "presence": {
-        "q": "Do I need to be home during the roofing project?",
-        "a": "In most cases, no. As long as we have access to the property and have discussed all project details beforehand, our team can complete the work while you continue with your daily routine."
+        "q": "Do I need to be home during my roofing project?",
+        "a": "In most cases, no. As long as we have access to the property and have reviewed the project details beforehand, our crew can complete the work while you continue with your daily routine."
       },
       "protection": {
-        "q": "How do you protect my property during the installation?",
-        "a": "We take extra precautions to protect your landscaping, siding, windows, and outdoor areas. Once the project is complete, we perform a thorough cleanup, including magnetic sweeps to collect nails and debris."
+        "q": "How do you protect my property during the roof installation?",
+        "a": "We take extra precautions to shield your landscaping, siding, windows, and outdoor areas throughout the job. Once the work is complete, we perform a thorough cleanup with magnetic sweeps to collect nails and debris."
       },
       "weather": {
         "q": "What happens if bad weather delays my roofing project?",
-        "a": "Safety always comes first. If severe weather affects the schedule, we'll notify you immediately, secure your roof if necessary, and resume work as soon as conditions allow without compromising quality."
+        "a": "Safety always comes first. If severe weather affects the schedule, we notify you right away, secure your roof when needed, and resume the work as soon as conditions allow without compromising quality."
       },
       "scheduling": {
-        "q": "How soon can you schedule my roofing project?",
-        "a": "Scheduling depends on the scope of the project and current availability. After your inspection and estimate, we'll provide the earliest available start date and keep you informed throughout the entire process."
+        "q": "How soon can you start my roofing project after approval?",
+        "a": "It depends on the project scope and our current availability. After your inspection and estimate, we provide the earliest possible start date and keep you informed at every stage through to the final walkthrough."
       }
     }
   },
