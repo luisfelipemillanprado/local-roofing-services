@@ -2,6 +2,8 @@ export type IconBadgeKey =
   | "wrench"
   | "clipboard"
   | "document"
+  | "notebookPen"
+  | "listTodo"
   | "hammer"
   | "shield"
   | "award"

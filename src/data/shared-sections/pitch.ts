@@ -30,8 +30,8 @@ export const pitchData = {
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "process.action.contact", href: "#contact" },
     items: [
-      { key: "process.items.inspection", icon: "clipboard" },
-      { key: "process.items.quote", icon: "document" },
+      { key: "process.items.inspection", icon: "notebookPen" },
+      { key: "process.items.quote", icon: "listTodo" },
       { key: "process.items.installation", icon: "hammer" },
       { key: "process.items.warranty", icon: "shield" },
     ],
