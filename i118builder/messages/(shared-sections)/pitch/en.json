@@ -72,8 +72,7 @@
         "label": "Scheduling"
       },
       "warranty": {
-        "value": "10 years",
-        "label": "Full Warranty"
+        "label": "Years Warranty"
       },
       "completion": {
         "label": "Timely Completion"

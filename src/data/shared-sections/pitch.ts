@@ -23,8 +23,7 @@ export const pitchData = {
     stats: [
       { key: "process.stats.inspection", icon: "banknote", value: "$0" },
       { key: "process.stats.scheduling", icon: "clockRotate", value: "48h" },
-      /* value stays in i18n: the unit is translatable (yr / años) */
-      { key: "process.stats.warranty", icon: "badgeCheck" },
+      { key: "process.stats.warranty", icon: "badgeCheck", value: "10+" },
       /* 4th stat: fills the 2x2 on desktop, hidden on mobile */
       { key: "process.stats.completion", icon: "check", value: "98%" },
     ],
