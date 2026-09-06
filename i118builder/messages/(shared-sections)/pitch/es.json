@@ -82,7 +82,7 @@
     "items": {
       "inspection": {
         "title": "Inspección Gratuita",
-        "description": "Evaluamos tu techo en sitio, documentamos su condición y detectamos exactamente lo que necesita atención.",
+        "description": "Evaluamos tu techo en sitio, documentamos su condición y necesidades de atención.",
         "highlights": {
           "label": "GRATIS",
           "accent": "EN SITIO"
@@ -90,7 +90,7 @@
       },
       "quote": {
         "title": "Cotización Transparente",
-        "description": "Recibes una cotización clara y detallada, sin costos ocultos, antes de que comience el trabajo.",
+        "description": "Recibes una cotización clara y detallada, sin costos ocultos, antes del trabajo.",
         "highlights": {
           "label": "CERO",
           "accent": "SORPRESAS"
@@ -98,7 +98,7 @@
       },
       "installation": {
         "title": "Instalación Experta",
-        "description": "Nuestros techadores certificados instalan materiales premium a tiempo, dejando siempre un sitio limpio y ordenado.",
+        "description": "Techadores certificados instalan materiales premium a tiempo, dejando todo limpio y ordenado.",
         "highlights": {
           "label": "EQUIPO",
           "accent": "EXPERTO"
@@ -106,7 +106,7 @@
       },
       "warranty": {
         "title": "Garantía y Postventa",
-        "description": "Cada trabajo está respaldado por nuestra garantía de obra, una revisión final y soporte continuo.",
+        "description": "Cada trabajo incluye garantía de obra, una revisión final y soporte continuo.",
         "highlights": {
           "label": "GARANTÍA",
           "accent": "TOTAL"
