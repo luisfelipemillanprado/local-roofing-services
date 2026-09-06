@@ -82,7 +82,7 @@
     "items": {
       "inspection": {
         "title": "Free Inspection",
-        "description": "We assess your roof on site, document its condition and pinpoint exactly what needs attention.",
+        "description": "We assess your roof on site, documenting its condition and what needs attention.",
         "highlights": {
           "label": "FREE",
           "accent": "ONSITE"
@@ -90,7 +90,7 @@
       },
       "quote": {
         "title": "Transparent Quote",
-        "description": "You receive a clear itemized quote with zero hidden fees before any work ever begins.",
+        "description": "You receive a clear itemized quote with zero hidden fees before work begins.",
         "highlights": {
           "label": "ZERO",
           "accent": "SURPRISES"
@@ -98,7 +98,7 @@
       },
       "installation": {
         "title": "Expert Installation",
-        "description": "Our certified roofers install premium materials on schedule, leaving a tidy and respectful job site.",
+        "description": "Our certified roofers install premium materials on schedule, leaving a tidy job site.",
         "highlights": {
           "label": "EXPERT",
           "accent": "CREW"
@@ -106,7 +106,7 @@
       },
       "warranty": {
         "title": "Warranty & Aftercare",
-        "description": "Every job is backed by our workmanship warranty, a final walkthrough and ongoing support afterward.",
+        "description": "Every job includes our full workmanship warranty, a final walkthrough and ongoing support.",
         "highlights": {
           "label": "FULL",
           "accent": "WARRANTY"
