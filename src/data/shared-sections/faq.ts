@@ -11,21 +11,21 @@ export const faqData = {
   services: {
     items: [
       { key: "services.items.assessment" },
-      { key: "services.items.crew" },
-      { key: "services.items.presence" },
+      { key: "services.items.scheduling" },
       { key: "services.items.preparation" },
+      { key: "services.items.presence" },
+      { key: "services.items.crew" },
       { key: "services.items.protection" },
       { key: "services.items.weather" },
-      { key: "services.items.scheduling" },
     ],
   },
   projects: {
     items: [
       { key: "projects.items.similar" },
-      { key: "projects.items.duration" },
       { key: "projects.items.materials" },
       { key: "projects.items.matching" },
       { key: "projects.items.florida" },
+      { key: "projects.items.duration" },
       { key: "projects.items.hidden" },
       { key: "projects.items.start" },
     ],
@@ -33,11 +33,11 @@ export const faqData = {
   about: {
     items: [
       { key: "about.items.experience" },
-      { key: "about.items.areas" },
       { key: "about.items.licensed" },
+      { key: "about.items.areas" },
       { key: "about.items.brands" },
-      { key: "about.items.estimates" },
       { key: "about.items.warranty" },
+      { key: "about.items.estimates" },
       { key: "about.items.financing" },
     ],
   },
