@@ -41,11 +41,11 @@
   "projects": {
     "items": {
       "similar": {
-        "q": "Can you complete a roofing project similar to one shown here?",
+        "q": "Can you build a roofing project like one shown here?",
         "a": "Absolutely. Every roofing project is fully customized to your property's structure, architectural style, and budget. If you see one you like here, we can tailor a similar solution for your home or business."
       },
       "duration": {
-        "q": "How long do most residential roofing projects take to complete?",
+        "q": "How long does a roofing project usually take?",
         "a": "Most residential roofing projects are completed in one to three days, while larger or more complex commercial projects may require additional time depending on the roofing system, weather conditions, and project scope."
       },
       "materials": {
@@ -57,11 +57,11 @@
         "a": "Yes. We offer a wide range of roofing materials, colors, and profiles to complement your property's architecture while meeting your durability, performance, and budget requirements."
       },
       "florida": {
-        "q": "Are these roofing systems suited to South Florida's tough weather?",
+        "q": "Are these roofs suited to South Florida's weather?",
         "a": "Yes. We select roofing systems and installation methods suited to South Florida's heat, heavy rain, and strong winds. Each roof is built to withstand our toughest weather and perform reliably throughout the year."
       },
       "hidden": {
-        "q": "What happens if unexpected issues come up during the project?",
+        "q": "What if unexpected issues come up during the job?",
         "a": "If hidden damage or structural issues are found, we'll explain the situation, provide clear recommendations, and discuss all available options before performing any additional work."
       },
       "start": {
