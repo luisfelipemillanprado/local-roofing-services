@@ -42,7 +42,7 @@ export const pitchData = {
       { key: "values.stats.bbb", icon: "award", value: "A+" },
       { key: "values.stats.reviews", icon: "users", value: `${company.googleReviews}+` },
       /* 4th stat: fills the 2x2 on desktop, hidden on mobile */
-      { key: "values.stats.warranty", icon: "document", value: "10+" },
+      { key: "values.stats.referrals", icon: "thumbsUp", value: "90%" },
     ],
     /* section CTA: i18n key (text) + href (destination) */
     ctaHref: { key: "values.action.contact", href: "#contact" },

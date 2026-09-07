@@ -9,6 +9,7 @@ export type IconBadgeKey =
   | "award"
   | "hardhat"
   | "handshake"
+  | "thumbsUp"
   | "users"
   | "phone"
   | "star"
