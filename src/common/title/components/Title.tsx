@@ -3,7 +3,7 @@ import type { TitleProps, TitleSize, TitleTone, TitleWeight, TitleAccentTone } f
 
 const sizes: Record<TitleSize, string> = {
   display:
-    "text-[3.375rem] sm:text-[clamp(4.5rem,3.25rem+3.125vw,6rem)] leading-none" /* 54px, then fluid 72px (sm) → 84px (lg) → 96px (2xl) — hero h1 */,
+    "text-[3.375rem] sm:text-[clamp(4.5625rem,3.5rem+2.734375vw,6rem)] leading-none" /* 54px, then fluid 73px (sm) → 77px (md) → 84px (lg) → 91px (xl), 96px cap (~1463px) — hero h1 */,
   page: "text-4xl sm:text-5xl lg:text-6xl leading-none" /* 36px, 48px (sm), 60px (lg) — product detail h1 */,
   banner:
     "text-[clamp(1.875rem,0.375rem+6.6667vw,2.25rem)] lg:text-5xl leading-[1.3]" /* fluid 30→36px, 360→450vw, 48px (lg) — CTA banner h2 */,
