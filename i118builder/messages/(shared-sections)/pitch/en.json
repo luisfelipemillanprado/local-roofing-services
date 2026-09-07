@@ -131,8 +131,8 @@
       "reviews": {
         "label": "Verified Reviews."
       },
-      "warranty": {
-        "label": "Years Warranty."
+      "referrals": {
+        "label": "By Referral."
       }
     },
     "items": {
