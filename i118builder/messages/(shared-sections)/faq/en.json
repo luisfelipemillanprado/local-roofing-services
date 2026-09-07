@@ -42,7 +42,7 @@
     "items": {
       "similar": {
         "q": "Can you complete a roofing project similar to one shown here?",
-        "a": "Absolutely. Every roofing project is customized to match your property's structure, architectural style, budget, and long term performance goals. If you see a project you like, we can create a solution tailored specifically to your home or business."
+        "a": "Absolutely. Every roofing project is fully customized to your property's structure, architectural style, and budget. If you see one you like here, we can tailor a similar solution for your home or business."
       },
       "duration": {
         "q": "How long do most residential roofing projects take to complete?",
