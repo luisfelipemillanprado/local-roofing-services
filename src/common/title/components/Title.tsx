@@ -8,7 +8,7 @@ const sizes: Record<TitleSize, string> = {
   banner:
     "text-[clamp(1.875rem,0.375rem+6.6667vw,2.25rem)] lg:text-5xl leading-[1.3]" /* fluid 30→36px, 360→450vw, 48px (lg) — CTA banner h2 */,
   section:
-    "text-[clamp(1.875rem,0.675rem+5.3333vw,2.125rem)] sm:text-[clamp(2.2rem,1.86875rem+0.828125vw,2.625rem)] leading-[1.3]" /* fluid 30→34px (360→435vw), 35.2→40.5px from sm (640→1280vw), 42px cap by 2xl */,
+    "text-[clamp(1.875rem,0.675rem+5.3333vw,2.125rem)] sm:text-[clamp(2.2rem,1.99375rem+0.73vw,2.6875rem)] leading-[1.3]" /* fluid 30→34px (360→435vw), then 36.57px (sm) → 37.51px (md) → 39.38px (lg) → 41.24px (xl), 43px cap (~1521px) */,
   feature:
     "text-[clamp(1.1875rem,0.5057rem+3.0303vw,1.25rem)] leading-[1.3]" /* fluid 19→20px, 360→393vw — service detail included panel */,
   card: "text-[clamp(1.15rem,0.91rem+1.0667vw,1.2rem)] leading-[1.3]" /* fluid 18.4→19.2px, 360→435vw — service, product, project and icon card titles */,
