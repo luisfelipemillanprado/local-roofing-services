@@ -4,7 +4,7 @@ import { company } from "@/data/site";
 export const pageHeaderData = {
   /* hero backgrounds by variant: image path + its alt key */
   images: {
-    default: { src: "/images/hero/hero-2.webp", altKey: "imageAlt" },
+    default: { src: "/images/hero/hero-1.webp", altKey: "imageAlt" },
     home: { src: "/images/hero/hero-1.webp", altKey: "imageAltHome" },
     shop: { src: "/images/hero/hero-3.webp", altKey: "imageAltShop" },
   },
