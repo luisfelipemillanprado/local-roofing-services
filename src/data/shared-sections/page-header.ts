@@ -24,6 +24,29 @@ export const pageHeaderData = {
     shop: { key: "action.viewShop", href: "/shop" },
     work: { key: "action.viewWork", href: "#projects" },
   },
+  /* hero-side material teaser: three cards (central one links out) + a shop banner; images reuse shop product shots */
+  showcase: {
+    materials: [
+      {
+        key: "showcase.shingles",
+        image: "/images/products/asphalt-shingles/timberline-hdz/timberline-hdz-3.webp",
+      },
+      {
+        key: "showcase.metal",
+        image: "/images/products/corrugated-metal-panels/brakki-19pc/brakki-19pc-1.webp",
+        linked: true,
+      },
+      {
+        key: "showcase.underlayment",
+        image: "/images/products/synthetic-underlayment/dupont-tyvek-120/dupont-tyvek-120-1.webp",
+      },
+    ],
+    bannerKey: "showcase.banner",
+    linkAriaKey: "showcase.linkAria",
+    /* route-aware CTA: the shop hero funnels to contact, every other hero to the shop */
+    shopCta: { key: "action.shopNow", href: "/shop" },
+    contactCta: { key: "action.getQuote", href: "#contact" },
+  },
   /* social proof: avatars + rating label by key + the count it names (from site) */
   avatars: [
     "/images/avatars/avatar-1.webp",

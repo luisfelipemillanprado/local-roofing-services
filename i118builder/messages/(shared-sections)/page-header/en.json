@@ -35,7 +35,31 @@
     "viewServices": "View Our Services",
     "viewProjects": "View Our Projects",
     "viewShop": "Browse the Shop",
-    "viewWork": "View Our Work"
+    "viewWork": "View Our Work",
+    "shopNow": "Shop Now",
+    "getQuote": "Get a Quote"
+  },
+  "showcase": {
+    "shingles": {
+      "eyebrow": "SHINGLES",
+      "title": "Premium Shingles",
+      "specs": "Weather Resistant · Lasting Finish"
+    },
+    "metal": {
+      "eyebrow": "METAL",
+      "title": "Metal Panels",
+      "specs": "Highly Durable · Energy Efficient"
+    },
+    "underlayment": {
+      "eyebrow": "UNDERLAYMENT",
+      "title": "Synthetic Underlayment",
+      "specs": "Moisture Protection · High Performance"
+    },
+    "banner": {
+      "title": "Roofing Materials",
+      "description": "Quality materials for every project."
+    },
+    "linkAria": "View roofing materials"
   },
   "customers": "{count}+ Satisfied Customers"
 }

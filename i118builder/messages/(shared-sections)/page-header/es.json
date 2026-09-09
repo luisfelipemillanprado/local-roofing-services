@@ -35,7 +35,31 @@
     "viewServices": "Nuestros Servicios",
     "viewProjects": "Nuestros Proyectos",
     "viewShop": "Ver La Tienda",
-    "viewWork": "Nuestros Trabajos"
+    "viewWork": "Nuestros Trabajos",
+    "shopNow": "Ver Tienda",
+    "getQuote": "Cotizar Ahora"
+  },
+  "showcase": {
+    "shingles": {
+      "eyebrow": "TEJAS",
+      "title": "Tejas Premium",
+      "specs": "Muy Resistentes · Acabado Duradero"
+    },
+    "metal": {
+      "eyebrow": "METAL",
+      "title": "Paneles Metálicos",
+      "specs": "Muy Duraderos · Bajo Consumo"
+    },
+    "underlayment": {
+      "eyebrow": "MEMBRANA",
+      "title": "Membrana Sintética",
+      "specs": "Protección Antihumedad · Alto Rendimiento"
+    },
+    "banner": {
+      "title": "Materiales de Techado",
+      "description": "Materiales de calidad para cada proyecto."
+    },
+    "linkAria": "Ver materiales de techado"
   },
   "customers": "+{count} Clientes Satisfechos"
 }
