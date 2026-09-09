@@ -40,7 +40,8 @@ const scrollThroughPage = async (page: Page) => {
           y += window.innerHeight;
           if (y < document.body.scrollHeight) requestAnimationFrame(step);
           else {
-            window.scrollTo(0, 0);
+            /* land on the true bottom so footer images trigger their lazy load */
+            window.scrollTo(0, document.body.scrollHeight);
             resolve();
           }
         };

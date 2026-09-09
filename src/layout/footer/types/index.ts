@@ -1,8 +1,20 @@
 import type { SocialData } from "@/common/social/types";
 
+/* certification trust badge from the data layer; label is the image alt */
+export interface CertificationData {
+  key: string;
+  label: string;
+  image: string;
+}
+
 export interface FooterBrandProps {
   description: string;
   socials: readonly SocialData[];
+  certifications: readonly CertificationData[];
+}
+
+export interface FooterCertificationsProps {
+  items: readonly CertificationData[];
 }
 
 /* resolved label + destination for the credits bar */

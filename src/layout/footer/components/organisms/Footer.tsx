@@ -9,7 +9,7 @@ import { FooterCredits } from "@/layout/footer/components/molecules/FooterCredit
 import { layoutData } from "@/data/global/layout";
 import { company } from "@/data/site";
 
-const { socials } = layoutData;
+const { socials, certifications } = layoutData;
 const { topLinks, services, contact, hours, legal, builder } = layoutData.footer;
 const { name, address, phone, phoneHref, email, emailHref } = company;
 
@@ -42,7 +42,11 @@ export const Footer = async () => {
         <div className="grid grid-cols-2 gap-x-8 gap-y-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] lg:gap-12 lg:py-20">
           {/* brand full-width on mobile; shares the first row with links from sm */}
           <div className="col-span-2 sm:col-span-1">
-            <FooterBrand description={t("description", { name })} socials={socials} />
+            <FooterBrand
+              description={t("description", { name })}
+              socials={socials}
+              certifications={certifications}
+            />
           </div>
 
           <FooterLinks title={t(topLinks.titleKey)} links={topLinkItems} />

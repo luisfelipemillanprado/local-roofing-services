@@ -1,5 +1,6 @@
 import type { NavLinkData } from "@/layout/navbar/types";
 import type { FloatingActionData } from "@/layout/floating-contact/types";
+import type { CertificationData } from "@/layout/footer/types";
 import type { SocialData } from "@/common/social/types";
 import { company } from "@/data/site";
 
@@ -17,6 +18,25 @@ export const layoutData = {
     { key: "instagram", label: "Instagram", href: company.instagramHref },
     { key: "youtube", label: "YouTube", href: company.youtubeHref },
   ] satisfies SocialData[],
+  /* brand certification badges (footer brand): image only, label is the alt */
+  certifications: [
+    {
+      key: "rcasf",
+      label: "Roofing Contractors Association of South Florida",
+      image: "/images/certifications/certification-1.webp",
+    },
+    {
+      key: "gaf",
+      label: "GAF Master Elite Certified Contractor",
+      image: "/images/certifications/certification-2.webp",
+    },
+    { key: "google", label: "Google 5-Star Rating", image: "/images/certifications/certification-3.webp" },
+    {
+      key: "homeAdvisor",
+      label: "HomeAdvisor Screened & Approved",
+      image: "/images/certifications/certification-4.webp",
+    },
+  ] satisfies CertificationData[],
   navbar: {
     links: [
       { key: "home", href: "/", icon: "home" },
