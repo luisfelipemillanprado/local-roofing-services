@@ -7,6 +7,7 @@ export const pageHeaderData = {
     default: { src: "/images/hero/hero-1.webp", altKey: "imageAlt" },
     home: { src: "/images/hero/hero-1.webp", altKey: "imageAltHome" },
     shop: { src: "/images/hero/hero-2.webp", altKey: "imageAltShop" },
+    areas: { src: "/images/hero/hero-3.webp", altKey: "imageAltAreas" },
   },
   /* availability badge: label by key + the city it names (from site) */
   badgeKey: "badge",

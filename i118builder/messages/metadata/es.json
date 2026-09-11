@@ -20,6 +20,10 @@
     "shop": {
       "title": "Tienda",
       "description": "Compra los productos de techado que nuestros equipos usan cada día: tejas, paneles, membranas, tragaluces, selladores y herramientas profesionales de las marcas líderes de la industria."
+    },
+    "areas": {
+      "title": "Áreas de Servicio",
+      "description": "Descubre las comunidades del sur de Florida que Roofpro atiende, desde Miami y Fort Lauderdale hasta West Palm Beach, con techado residencial y comercial confiable en cada vecindario."
     }
   }
 }

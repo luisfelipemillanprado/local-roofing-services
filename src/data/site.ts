@@ -28,6 +28,38 @@ export const company = {
   phoneHref: "tel:+1234567890",
   email: "hello@roofpro.com",
   emailHref: "mailto:hello@roofpro.com",
+  /* areas: physical branch offices in the Miami metro (name, street address, local phone; temporary placeholders) */
+  /* address tokens tuned so the four read at an even length (~30-33 chars) like service/project cards */
+  offices: [
+    {
+      key: "northMiami",
+      name: "North Miami",
+      address: "1250 NE 125th St, North Miami, FL",
+      phone: "(305) 555 0142",
+      phoneHref: "tel:+13055550142",
+    },
+    {
+      key: "downtownMiami",
+      name: "Downtown Miami",
+      address: "100 NE 1st Ave, Miami, FL 33132",
+      phone: "(305) 555 0168",
+      phoneHref: "tel:+13055550168",
+    },
+    {
+      key: "coralGables",
+      name: "Coral Gables",
+      address: "1200 Ponce de Leon Blvd, FL 33134",
+      phone: "(305) 555 0173",
+      phoneHref: "tel:+13055550173",
+    },
+    {
+      key: "miamiBeach",
+      name: "Miami Beach",
+      address: "1688 Alton Rd, Miami Beach, FL",
+      phone: "(305) 555 0129",
+      phoneHref: "tel:+13055550129",
+    },
+  ],
   /* footer hours: opening times (a null value means closed) */
   weekdayHours: "8:00 AM – 7:00 PM",
   saturdayHours: "9:00 AM – 4:00 PM",

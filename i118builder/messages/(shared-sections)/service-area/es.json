@@ -3,7 +3,12 @@
   "titleLead": "Expertos En Techado",
   "titleAccent": "Justo Aquí Cerca De Ti",
   "description": "De la costa a los suburbios, nuestros techadores licenciados atienden con orgullo a los propietarios del sur de Florida, rápido y confiable en cada comunidad.",
+  "mapAlt": "Mapa de las oficinas de Roofpro en el sur de Florida",
   "action": {
-    "contact": "Contáctanos Ahora"
+    "contact": "Contáctanos Ahora",
+    "viewImage": "Ver Imagen",
+    "close": "Cerrar",
+    "previous": "Oficina Anterior",
+    "next": "Oficina Siguiente"
   }
 }

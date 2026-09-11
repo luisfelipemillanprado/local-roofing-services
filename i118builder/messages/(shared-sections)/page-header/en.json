@@ -2,6 +2,7 @@
   "imageAlt": "Modern home with a standing seam metal roof at dusk",
   "imageAltHome": "Modern home with a durable standing seam metal roof",
   "imageAltShop": "Roofing supply warehouse stocked with shingles, underlayment rolls and sealant buckets",
+  "imageAltAreas": "Modern two story home with a dark standing seam metal roof at dusk",
   "badge": "24/7 SERVICE AVAILABLE · {city}",
   "pages": {
     "home": {
@@ -28,6 +29,11 @@
       "titleLead": "Roofing",
       "titleAccent": "Supplies.",
       "description": "Discover premium roofing materials, trusted brands, competitive prices, and dependable products ready for residential and commercial projects alike today online."
+    },
+    "areas": {
+      "titleLead": "Service",
+      "titleAccent": "Areas.",
+      "description": "Serving homes and businesses across South Florida with trusted roofing, expert craftsmanship, durable materials, and dependable service in every community."
     }
   },
   "action": {

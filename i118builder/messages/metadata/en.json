@@ -20,6 +20,10 @@
     "shop": {
       "title": "Shop",
       "description": "Shop the roofing products our crews trust every day — shingles, panels, underlayment, skylights, sealants and pro tools from the industry's leading brands."
+    },
+    "areas": {
+      "title": "Service Areas",
+      "description": "Discover the South Florida communities Roofpro serves, from Miami and Fort Lauderdale to West Palm Beach, with reliable residential and commercial roofing in every neighborhood."
     }
   }
 }

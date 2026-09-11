@@ -3,14 +3,24 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { Container } from "@/common/container/components/Container";
+import { Media } from "@/common/media/components/Media";
 import { AreaList } from "@/shared-sections/service-areas/components/molecules/AreaList";
+import { OfficeViewerGrid } from "@/shared-sections/service-areas/components/molecules/OfficeViewerGrid";
 import { serviceAreasData } from "@/data/shared-sections/service-areas";
+import { company } from "@/data/site";
 import type { ServiceAreasProps } from "@/shared-sections/service-areas/types";
 
-const { ctaHref, areas } = serviceAreasData;
+const { ctaHref, areas, officeImages, mapImage } = serviceAreasData;
 
-export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
+export const ServiceAreas = async ({ tone = "base", variant = "coverage" }: ServiceAreasProps) => {
   const t = await getTranslations("service-area");
+  /* office facts from company; name over address on the tile, photo linked by key */
+  const officeCards = company.offices.map((office) => ({
+    key: office.key,
+    image: officeImages.find((item) => item.key === office.key)!.image,
+    title: office.name,
+    description: office.address,
+  }));
 
   return (
     <SectionWrapper id="service-areas" tone={tone}>
@@ -31,6 +41,22 @@ export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
               </Button>
             </div>
           </div>
+
+          {/* /areas only: branch offices + a locations map above the coverage list */}
+          {variant === "full" && (
+            <div className="grid gap-6">
+              <OfficeViewerGrid
+                cards={officeCards}
+                actionLabel={t("action.viewImage")}
+                closeLabel={t("action.close")}
+                previousLabel={t("action.previous")}
+                nextLabel={t("action.next")}
+              />
+              <div className="relative aspect-2/1 w-full overflow-hidden rounded-panel border border-line shadow-md">
+                <Media src={mapImage} alt={t("mapAlt")} shape="fill" sizes="100vw" />
+              </div>
+            </div>
+          )}
 
           <AreaList areas={areas} />
         </div>

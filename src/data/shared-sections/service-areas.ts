@@ -2,6 +2,15 @@
 export const serviceAreasData = {
   /* section CTA: i18n key (text) + href (destination) */
   ctaHref: { key: "action.contact", href: "#contact" },
+  /* office card photos linked to company.offices by key */
+  officeImages: [
+    { key: "northMiami", image: "/images/offices/office-1.webp" },
+    { key: "downtownMiami", image: "/images/offices/office-2.webp" },
+    { key: "coralGables", image: "/images/offices/office-3.webp" },
+    { key: "miamiBeach", image: "/images/offices/office-4.webp" },
+  ],
+  /* office locations map (South Florida coverage with pinned offices) */
+  mapImage: "/images/map/map.webp",
   /* 21 cities (7 rows x 3 cols), grouped by county in order */
   areas: [
     { key: "miami", name: "Miami", county: "Miami-Dade County" },

@@ -2,6 +2,7 @@
   "imageAlt": "Casa moderna con techo metálico de junta alzada al atardecer",
   "imageAltHome": "Casa moderna con un techo metálico de costura alzada duradero",
   "imageAltShop": "Almacén de materiales de techado con tejas, rollos de membrana y cubetas de sellador",
+  "imageAltAreas": "Casa moderna de dos plantas con techo metálico oscuro de junta alzada al atardecer",
   "badge": "24/7 SERVICIO DISPONIBLE · {city}",
   "pages": {
     "home": {
@@ -28,6 +29,11 @@
       "titleLead": "Materiales",
       "titleAccent": "Techado.",
       "description": "Descubre materiales premium, marcas confiables, precios competitivos y productos listos para proyectos residenciales, comerciales y profesionales siempre disponibles aquí."
+    },
+    "areas": {
+      "titleLead": "Áreas De",
+      "titleAccent": "Servicio.",
+      "description": "Servimos a hogares y negocios del sur de Florida con techado confiable, trabajo experto, materiales duraderos y atención cercana."
     }
   },
   "action": {
