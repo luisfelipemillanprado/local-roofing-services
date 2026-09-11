@@ -5,7 +5,7 @@ import type { ProductGalleryProps } from "@/features/shop/types";
 export const ProductGallery = ({ images, active, onSelect, alt }: ProductGalleryProps) => (
   <div className="grid content-start gap-4">
     <div className="overflow-hidden rounded-media border border-line">
-      <Media src={images[active]} alt={alt} shape="thumb" sizes="(max-width: 1024px) 100vw, 45vw" />
+      <Media src={images[active]!} alt={alt} shape="thumb" sizes="(max-width: 1024px) 100vw, 45vw" />
     </div>
     <div className="grid grid-cols-5 gap-3">
       {images.map((src, index) => (

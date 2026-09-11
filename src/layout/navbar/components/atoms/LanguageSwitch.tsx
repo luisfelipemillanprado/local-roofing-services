@@ -14,7 +14,7 @@ export const LanguageSwitch = () => {
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();
   const { locales } = routing;
-  const next: Locale = locales[(locales.indexOf(locale) + 1) % locales.length];
+  const next: Locale = locales[(locales.indexOf(locale) + 1) % locales.length]!;
 
   /* transition avoids a theme flash while the new locale loads */
   const switchLocale = () => {

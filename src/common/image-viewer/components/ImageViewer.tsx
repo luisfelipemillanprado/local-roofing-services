@@ -44,6 +44,7 @@ export const ImageViewer = ({
 
   if (typeof document === "undefined") return null;
   const card = cards[current];
+  if (!card) return null;
 
   return createPortal(
     <div

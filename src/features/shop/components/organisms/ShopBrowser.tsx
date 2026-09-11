@@ -126,7 +126,7 @@ export const ShopBrowser = () => {
 
   const results = useMemo(() => {
     const query = search.trim().toLowerCase();
-    const [min, max] = PRICE_BOUNDS[filters.price];
+    const [min, max] = PRICE_BOUNDS[filters.price] ?? [0, Infinity];
     const minRating = Number(filters.rating);
     return products
       .filter(
