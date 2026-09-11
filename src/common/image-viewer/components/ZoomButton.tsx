@@ -1,8 +1,8 @@
 import { ZoomIn } from "lucide-react";
-import type { ViewImageButtonProps } from "@/shared-sections/projects/types";
+import type { ZoomButtonProps } from "@/common/image-viewer/types";
 
-/* card control: opens the project image viewer (needs a group parent for hover) */
-export const ViewImageButton = ({ label, onClick }: ViewImageButtonProps) => (
+/* card control: opens the image viewer (needs a group parent for hover) */
+export const ZoomButton = ({ label, onClick }: ZoomButtonProps) => (
   <button
     type="button"
     aria-label={label}

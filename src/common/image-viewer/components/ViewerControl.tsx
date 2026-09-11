@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import type { ViewerControlProps } from "@/shared-sections/projects/types";
+import type { ViewerControlProps } from "@/common/image-viewer/types";
 
 /* placement within the viewer overlay */
 const placementClass: Record<ViewerControlProps["placement"], string> = {

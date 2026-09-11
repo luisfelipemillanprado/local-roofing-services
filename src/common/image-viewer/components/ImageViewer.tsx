@@ -3,18 +3,18 @@ import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
-import { ViewerControl } from "@/shared-sections/projects/components/atoms/ViewerControl";
-import type { ProjectViewerProps } from "@/shared-sections/projects/types";
+import { ViewerControl } from "@/common/image-viewer/components/ViewerControl";
+import type { ImageViewerProps } from "@/common/image-viewer/types";
 
 /* modal image viewer: backdrop, prev/next, caption; portaled above the app shell */
-export const ProjectViewer = ({
+export const ImageViewer = ({
   cards,
   startIndex,
   onClose,
   closeLabel,
   previousLabel,
   nextLabel,
-}: ProjectViewerProps) => {
+}: ImageViewerProps) => {
   const [current, setCurrent] = useState(startIndex);
   const closeRef = useRef<HTMLButtonElement>(null);
   const count = cards.length;
@@ -43,28 +43,23 @@ export const ProjectViewer = ({
   }, [onClose, prev, next]);
 
   if (typeof document === "undefined") return null;
-  const project = cards[current];
+  const card = cards[current];
 
   return createPortal(
     <div
       role="dialog"
       aria-modal="true"
-      aria-label={project.title}
+      aria-label={card.title}
       className="theme-dark fixed inset-0 z-(--z-modal) grid place-items-center p-4"
     >
       {/* backdrop: click to close */}
       <div onClick={onClose} className="absolute inset-0 bg-contrast/70 backdrop-blur-md" />
 
       <figure className="relative grid w-full max-w-5xl justify-items-center gap-4">
-        <Media
-          src={project.image}
-          alt={project.title}
-          shape="showcase"
-          sizes="(max-width: 1024px) 90vw, 1024px"
-        />
+        <Media src={card.image} alt={card.title} shape="showcase" sizes="(max-width: 1024px) 90vw, 1024px" />
         <figcaption className="grid justify-items-center gap-1 text-center">
-          <Text as="span" size="body" weight="bold" text={project.title} />
-          <Text as="span" size="body" tone="muted" text={project.description} />
+          <Text as="span" size="body" weight="bold" text={card.title} />
+          <Text as="span" size="body" tone="muted" text={card.description} />
         </figcaption>
       </figure>
 

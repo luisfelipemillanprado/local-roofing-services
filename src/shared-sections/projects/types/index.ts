@@ -1,4 +1,4 @@
-import type { ReactNode, Ref } from "react";
+import type { ReactNode } from "react";
 
 export interface ProjectsProps {
   variant: "viewAll" | "contact";
@@ -31,26 +31,4 @@ export interface ProjectViewerGridProps {
   closeLabel: string;
   previousLabel: string;
   nextLabel: string;
-}
-
-export interface ProjectViewerProps {
-  cards: ProjectCardItem[];
-  startIndex: number;
-  onClose: () => void;
-  closeLabel: string;
-  previousLabel: string;
-  nextLabel: string;
-}
-
-export interface ViewerControlProps {
-  placement: "close" | "prev" | "next";
-  label: string;
-  icon: ReactNode;
-  onClick: () => void;
-  ref?: Ref<HTMLButtonElement>; /* focus target for the close control */
-}
-
-export interface ViewImageButtonProps {
-  label: string;
-  onClick: () => void;
 }

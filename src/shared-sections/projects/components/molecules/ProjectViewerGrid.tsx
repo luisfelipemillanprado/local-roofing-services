@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { ViewImageButton } from "@/shared-sections/projects/components/atoms/ViewImageButton";
+import { ZoomButton } from "@/common/image-viewer/components/ZoomButton";
+import { ImageViewer } from "@/common/image-viewer/components/ImageViewer";
 import { ProjectList } from "@/shared-sections/projects/components/molecules/ProjectList";
-import { ProjectViewer } from "@/shared-sections/projects/components/molecules/ProjectViewer";
 import type { ProjectViewerGridProps } from "@/shared-sections/projects/types";
 
 /* projects page variant: masonry grid; each tile opens the project viewer */
@@ -21,11 +21,11 @@ export const ProjectViewerGrid = ({
       <ProjectList
         cards={cards}
         renderAction={(card, index) => (
-          <ViewImageButton label={`${card.description} ${actionLabel}`} onClick={() => setOpenIndex(index)} />
+          <ZoomButton label={`${card.description} ${actionLabel}`} onClick={() => setOpenIndex(index)} />
         )}
       />
       {openIndex !== null && (
-        <ProjectViewer
+        <ImageViewer
           cards={cards}
           startIndex={openIndex}
           onClose={() => setOpenIndex(null)}
