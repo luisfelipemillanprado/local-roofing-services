@@ -1,3 +1,6 @@
+/* office map pin as [latitude, longitude]; null renders no pin */
+type OfficePosition = readonly [lat: number, lng: number] | null;
+
 /* Locale-independent company facts, ordered by render top to bottom */
 export const company = {
   /* navbar: brand badge, name, contact phone */
@@ -28,36 +31,33 @@ export const company = {
   phoneHref: "tel:+1234567890",
   email: "hello@roofpro.com",
   emailHref: "mailto:hello@roofpro.com",
-  /* areas: physical branch offices in the Miami metro (name, street address, local phone; temporary placeholders) */
+  /* areas: physical branch offices in the Miami metro (name + street address; temporary placeholders) */
   /* address tokens tuned so the four read at an even length (~30-33 chars) like service/project cards */
+  /* positions geocoded from those addresses (Nominatim); illustrative until real offices exist */
   offices: [
     {
       key: "northMiami",
       name: "North Miami",
       address: "1250 NE 125th St, North Miami, FL",
-      phone: "(305) 555 0142",
-      phoneHref: "tel:+13055550142",
+      position: [25.8905, -80.1733] as OfficePosition,
     },
     {
       key: "downtownMiami",
       name: "Downtown Miami",
       address: "100 NE 1st Ave, Miami, FL 33132",
-      phone: "(305) 555 0168",
-      phoneHref: "tel:+13055550168",
+      position: [25.7754, -80.1922] as OfficePosition,
     },
     {
       key: "coralGables",
       name: "Coral Gables",
       address: "1200 Ponce de Leon Blvd, FL 33134",
-      phone: "(305) 555 0173",
-      phoneHref: "tel:+13055550173",
+      position: [25.7603, -80.2594] as OfficePosition,
     },
     {
       key: "miamiBeach",
       name: "Miami Beach",
       address: "1688 Alton Rd, Miami Beach, FL",
-      phone: "(305) 555 0129",
-      phoneHref: "tel:+13055550129",
+      position: [25.7916, -80.1414] as OfficePosition,
     },
   ],
   /* footer hours: opening times (a null value means closed) */

@@ -39,7 +39,7 @@ export default async function AreasPage({ params }: Props) {
         secondaryCta="services"
       />
       <Marquee />
-      <ServiceAreas tone="base" variant="full" />
+      <ServiceAreas tone="base" />
       <Products tone="muted" limit={6} />
       <Contact tone="base" />
     </>

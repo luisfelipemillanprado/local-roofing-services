@@ -279,6 +279,46 @@
   );
 }
 
+/* Offices map (MapLibre DOM): branded popup; two-class selectors beat the library CSS */
+.office-popup .maplibregl-popup-content {
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  background-color: var(--surface-panel);
+  color: var(--foreground);
+  font-size: 0.9375rem;
+  box-shadow: 0 12px 28px -12px color-mix(in oklab, var(--shade) 55%, transparent);
+}
+.office-popup .maplibregl-popup-close-button {
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: 1.25rem;
+  color: var(--foreground-muted);
+}
+.office-popup.maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+.office-popup.maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+.office-popup.maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip {
+  border-top-color: var(--surface-panel);
+}
+.office-popup.maplibregl-popup-anchor-top .maplibregl-popup-tip,
+.office-popup.maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+.office-popup.maplibregl-popup-anchor-top-right .maplibregl-popup-tip {
+  border-bottom-color: var(--surface-panel);
+}
+.office-popup.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--surface-panel);
+}
+.office-popup.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--surface-panel);
+}
+/* touch: zoom controls at a 44px target (library default is 29px) */
+@media (pointer: coarse) {
+  [data-office-map] .maplibregl-ctrl-group button {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+
 /* Outside any layer so it overrides components */
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] {

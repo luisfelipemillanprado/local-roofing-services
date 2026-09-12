@@ -1,9 +1,18 @@
 {
   "eyebrow": "SERVICE AREAS",
   "titleLead": "Top Roofing Experts",
-  "titleAccent": "Right Here Near You",
+  "titleAccent": "Right Here For You",
   "description": "We are ready when you need us, providing dependable roofing service and excellent quality workmanship you can always rely upon.",
-  "mapAlt": "Map of Roofpro office locations across South Florida",
+  "mapAlt": "Map of Roofpro office locations in Miami",
+  "map": {
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "closePopup": "Close",
+    "toggleAttribution": "Map credits",
+    "gestureMobile": "Use two fingers to move the map",
+    "gestureWindows": "Use Ctrl + scroll to zoom the map",
+    "gestureMac": "Use ⌘ + scroll to zoom the map"
+  },
   "action": {
     "contact": "Contact Us Now",
     "viewImage": "View Image",

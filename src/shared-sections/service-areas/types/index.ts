@@ -2,10 +2,9 @@ import type { ReactNode } from "react";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
-/* shared section: coverage list everywhere; full adds branch offices + map on /areas */
+/* branch offices over an interactive Miami map */
 export interface ServiceAreasProps {
   tone?: SectionTone;
-  variant?: "coverage" | "full";
 }
 
 /* one branch office: full-bleed tile with city over address and a zoom control */
@@ -35,17 +34,39 @@ export interface OfficeViewerGridProps {
   nextLabel: string;
 }
 
-/* one covered place: city over county, both literal data */
-export interface AreaCardProps {
-  name: string;
-  county: string;
-}
-
-/* resolved list item: card fields plus the React key */
-interface AreaItem extends AreaCardProps {
+/* one office pin: [latitude, longitude]; null until real coordinates are approved (no pin drawn) */
+interface OfficePin {
   key: string;
+  name: string;
+  address: string;
+  position: readonly [lat: number, lng: number] | null;
 }
 
-export interface AreaListProps {
-  areas: readonly AreaItem[];
+/* geographic box in degrees */
+interface GeoBox {
+  west: number;
+  south: number;
+  east: number;
+  north: number;
+}
+
+/* map UI strings (MapLibre locale + region label) */
+interface OfficeMapLabels {
+  region: string;
+  zoomIn: string;
+  zoomOut: string;
+  closePopup: string;
+  toggleAttribution: string;
+  gestureMobile: string;
+  gestureWindows: string;
+  gestureMac: string;
+}
+
+/* rendering only: style url (provider), initial view, pan limit, pins; services plug in elsewhere */
+export interface OfficeMapProps {
+  styleUrl: string;
+  view: GeoBox;
+  limit: GeoBox;
+  offices: readonly OfficePin[];
+  labels: OfficeMapLabels;
 }

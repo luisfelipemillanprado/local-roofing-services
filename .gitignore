@@ -34,6 +34,9 @@ yarn-error.log*
 messages/*.json
 messages/*.d.json.ts
 
+# maplibre worker + shared chunk (copied from node_modules by scripts/copy-maplibre-worker.mjs)
+/public/maplibre/
+
 # playwright mcp (local browser artifacts: screenshots, snapshots, logs)
 .playwright-mcp/
 

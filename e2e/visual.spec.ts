@@ -6,7 +6,11 @@ for (const [name, path] of routes) {
   for (const [loc, prefix] of locales) {
     test(`${name}-${loc}`, async ({ page }) => {
       await visit(page, localizedPath(prefix, path));
-      await expect(page).toHaveScreenshot(`${name}-${loc}.png`, fullPageShot);
+      /* live map tiles are network-driven: masked here, covered functionally by areas-map.spec */
+      await expect(page).toHaveScreenshot(`${name}-${loc}.png`, {
+        ...fullPageShot,
+        mask: [page.locator("[data-office-map]")],
+      });
     });
   }
 }
