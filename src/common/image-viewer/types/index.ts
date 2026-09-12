@@ -27,4 +27,5 @@ export interface ViewerControlProps {
 export interface ZoomButtonProps {
   label: string;
   onClick: () => void;
+  pulse?: boolean;
 }

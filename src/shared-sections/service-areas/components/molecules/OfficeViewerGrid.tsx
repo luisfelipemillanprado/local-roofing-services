@@ -21,7 +21,7 @@ export const OfficeViewerGrid = ({
       <OfficeList
         cards={cards}
         renderAction={(card, index) => (
-          <ZoomButton label={`${card.title} ${actionLabel}`} onClick={() => setOpenIndex(index)} />
+          <ZoomButton label={`${card.title} ${actionLabel}`} onClick={() => setOpenIndex(index)} pulse />
         )}
       />
       {openIndex !== null && (

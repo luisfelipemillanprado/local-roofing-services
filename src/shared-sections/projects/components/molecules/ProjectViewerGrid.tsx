@@ -21,7 +21,11 @@ export const ProjectViewerGrid = ({
       <ProjectList
         cards={cards}
         renderAction={(card, index) => (
-          <ZoomButton label={`${card.description} ${actionLabel}`} onClick={() => setOpenIndex(index)} />
+          <ZoomButton
+            label={`${card.description} ${actionLabel}`}
+            onClick={() => setOpenIndex(index)}
+            pulse
+          />
         )}
       />
       {openIndex !== null && (
