@@ -6,8 +6,8 @@
   "badge": "24/7 SERVICIO DISPONIBLE · {city}",
   "pages": {
     "home": {
-      "titleLead": "Techado",
-      "titleAccent": "Profesional.",
+      "titleLead": "Techos",
+      "titleAccent": "Seguros.",
       "description": "Protegemos tu hogar con soluciones profesionales de techado, materiales duraderos, instalación y servicio confiable para tu comunidad siempre cerca."
     },
     "about": {
@@ -16,22 +16,22 @@
       "description": "Comprometidos con proteger hogares mediante trabajo especializado, materiales premium, servicio confiable y soluciones integrales de techado para cada propiedad."
     },
     "services": {
-      "titleLead": "Servicios",
-      "titleAccent": "Expertos.",
+      "titleLead": "Servicio",
+      "titleAccent": "Premium.",
       "description": "Desde reparaciones de emergencia hasta reemplazos completos, ofrecemos servicio confiable, instalación experta y resultados duraderos respaldados por garantías sólidas."
     },
     "projects": {
-      "titleLead": "Proyectos",
-      "titleAccent": "Destacados.",
+      "titleLead": "Techos",
+      "titleAccent": "Premium.",
       "description": "Explora nuestros proyectos residenciales y comerciales que reflejan calidad superior, experiencia, materiales duraderos y resultados excepcionales en cada trabajo."
     },
     "shop": {
-      "titleLead": "Materiales",
-      "titleAccent": "Techado.",
+      "titleLead": "Tienda",
+      "titleAccent": "Premium.",
       "description": "Descubre materiales premium, marcas confiables, precios competitivos y productos listos para proyectos residenciales, comerciales y profesionales siempre disponibles aquí."
     },
     "areas": {
-      "titleLead": "Áreas De",
+      "titleLead": "Zonas De",
       "titleAccent": "Servicio.",
       "description": "Servimos a hogares y negocios del sur de Florida con techado confiable, trabajo experto, materiales duraderos y atención cercana."
     }

@@ -6,33 +6,33 @@
   "badge": "24/7 SERVICE AVAILABLE · {city}",
   "pages": {
     "home": {
-      "titleLead": "Roofing",
-      "titleAccent": "Services.",
+      "titleLead": "Secure",
+      "titleAccent": "Roofing.",
       "description": "Protect your home with trusted roofing solutions, expert craftsmanship, durable materials, and dependable service tailored to your neighborhood needs today."
     },
     "about": {
-      "titleLead": "Trusted",
+      "titleLead": "Expert",
       "titleAccent": "Roofers.",
       "description": "Committed to protecting homes through skilled craftsmanship, dependable service, premium materials, and roofing solutions tailored for every property we serve."
     },
     "services": {
-      "titleLead": "Expert",
-      "titleAccent": "Solutions.",
+      "titleLead": "Premium",
+      "titleAccent": "Service.",
       "description": "From emergency repairs to complete roof replacements, we deliver reliable service, expert craftsmanship, and durable results backed by solid warranties."
     },
     "projects": {
-      "titleLead": "Featured",
-      "titleAccent": "Projects.",
+      "titleLead": "Premium",
+      "titleAccent": "Roofs.",
       "description": "Explore our residential and commercial roofing projects showcasing quality craftsmanship, durable materials, trusted expertise, and exceptional results every single time."
     },
     "shop": {
-      "titleLead": "Roofing",
-      "titleAccent": "Supplies.",
+      "titleLead": "Premium",
+      "titleAccent": "Shop.",
       "description": "Discover premium roofing materials, trusted brands, competitive prices, and dependable products ready for residential and commercial projects alike today online."
     },
     "areas": {
       "titleLead": "Service",
-      "titleAccent": "Areas.",
+      "titleAccent": "Zones.",
       "description": "Serving homes and businesses across South Florida with trusted roofing, expert craftsmanship, durable materials, and dependable service in every community."
     }
   },
