@@ -5,7 +5,6 @@ export const pageHeaderData = {
   /* hero backgrounds by variant: image path + its alt key */
   images: {
     default: { src: "/images/hero/hero-1.webp", altKey: "imageAlt" },
-    home: { src: "/images/hero/hero-1.webp", altKey: "imageAltHome" },
     shop: { src: "/images/hero/hero-2.webp", altKey: "imageAltShop" },
     areas: { src: "/images/hero/hero-3.webp", altKey: "imageAltAreas" },
   },
@@ -43,7 +42,6 @@ export const pageHeaderData = {
       },
     ],
     bannerKey: "showcase.banner",
-    linkAriaKey: "showcase.linkAria",
     /* route-aware CTA: the shop hero funnels to contact, every other hero to the shop */
     shopCta: { key: "action.shopNow", href: "/shop" },
     contactCta: { key: "action.getQuote", href: "#contact" },

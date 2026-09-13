@@ -1,8 +1,7 @@
 {
-  "imageAlt": "Modern home with a standing seam metal roof at dusk",
-  "imageAltHome": "Modern home with a durable standing seam metal roof",
-  "imageAltShop": "Roofing supply warehouse stocked with shingles, underlayment rolls and sealant buckets",
-  "imageAltAreas": "Modern two story home with a dark standing seam metal roof at dusk",
+  "imageAlt": "Modern two story home with a dark standing seam metal roof above a reflecting pool at dusk",
+  "imageAltShop": "Roofing supply warehouse with stacked shingles, underlayment rolls, sealant buckets and tool cases",
+  "imageAltAreas": "Modern two story home with a dark standing seam metal roof, balcony and garage at dusk",
   "badge": "24/7 SERVICE AVAILABLE · {city}",
   "pages": {
     "home": {
@@ -33,7 +32,7 @@
     "areas": {
       "titleLead": "Service",
       "titleAccent": "Zones.",
-      "description": "Serving homes and businesses across South Florida with trusted roofing, expert craftsmanship, durable materials, and dependable service in every community."
+      "description": "Serving homes and businesses across Miami from our local offices with trusted roofing, expert craftsmanship, durable materials, and dependable service."
     }
   },
   "action": {
@@ -48,24 +47,23 @@
   "showcase": {
     "shingles": {
       "eyebrow": "SHINGLES",
-      "title": "Premium Shingles",
+      "imageAlt": "Gray architectural shingles on a hip roof with a Timberline HDZ bundle",
       "specs": "Weather Resistant · Lasting Finish"
     },
     "metal": {
       "eyebrow": "METAL",
-      "title": "Metal Panels",
-      "specs": "Highly Durable · Energy Efficient"
+      "imageAlt": "Stack of dark gray corrugated metal roofing panels on a warehouse floor",
+      "specs": "Highly Durable · All Weather"
     },
     "underlayment": {
       "eyebrow": "UNDERLAYMENT",
-      "title": "Synthetic Underlayment",
-      "specs": "Moisture Protection · High Performance"
+      "imageAlt": "DuPont Tyvek Protec synthetic underlayment rolled out on a warehouse floor",
+      "specs": "Moisture Protection · High Traction"
     },
     "banner": {
       "title": "Roofing Materials",
       "description": "Quality materials for every project."
-    },
-    "linkAria": "View roofing materials"
+    }
   },
   "customers": "{count}+ Satisfied Customers"
 }

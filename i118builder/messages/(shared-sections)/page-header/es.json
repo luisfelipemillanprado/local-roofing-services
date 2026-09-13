@@ -1,8 +1,7 @@
 {
-  "imageAlt": "Casa moderna con techo metálico de junta alzada al atardecer",
-  "imageAltHome": "Casa moderna con un techo metálico de costura alzada duradero",
-  "imageAltShop": "Almacén de materiales de techado con tejas, rollos de membrana y cubetas de sellador",
-  "imageAltAreas": "Casa moderna de dos plantas con techo metálico oscuro de junta alzada al atardecer",
+  "imageAlt": "Casa moderna de dos plantas con techo metálico oscuro de junta alzada sobre una piscina al atardecer",
+  "imageAltShop": "Almacén de materiales de techado con tejas apiladas, rollos de membrana, cubetas de sellador y cajas de herramientas",
+  "imageAltAreas": "Casa moderna de dos plantas con techo metálico oscuro de junta alzada, balcón y garaje al atardecer",
   "badge": "24/7 SERVICIO DISPONIBLE · {city}",
   "pages": {
     "home": {
@@ -33,7 +32,7 @@
     "areas": {
       "titleLead": "Zonas De",
       "titleAccent": "Servicio.",
-      "description": "Servimos a hogares y negocios del sur de Florida con techado confiable, trabajo experto, materiales duraderos y atención cercana."
+      "description": "Atendemos hogares y negocios de Miami desde oficinas locales, con techado confiable, instalación experta, materiales duraderos y atención cercana."
     }
   },
   "action": {
@@ -48,24 +47,23 @@
   "showcase": {
     "shingles": {
       "eyebrow": "TEJAS",
-      "title": "Tejas Premium",
-      "specs": "Muy Resistentes · Acabado Duradero"
+      "imageAlt": "Tejas arquitectónicas grises en un techo a cuatro aguas con un paquete Timberline HDZ",
+      "specs": "Resistentes Al Clima · Acabado Duradero"
     },
     "metal": {
       "eyebrow": "METAL",
-      "title": "Paneles Metálicos",
-      "specs": "Muy Duraderos · Bajo Consumo"
+      "imageAlt": "Pila de paneles metálicos corrugados gris oscuro sobre el piso de un almacén",
+      "specs": "Muy Duraderos · Todo Clima"
     },
     "underlayment": {
       "eyebrow": "MEMBRANA",
-      "title": "Membrana Sintética",
-      "specs": "Protección Antihumedad · Alto Rendimiento"
+      "imageAlt": "Membrana sintética DuPont Tyvek Protec desenrollada sobre el piso de un almacén",
+      "specs": "Protección Antihumedad · Alta Tracción"
     },
     "banner": {
       "title": "Materiales de Techado",
       "description": "Materiales de calidad para cada proyecto."
-    },
-    "linkAria": "Ver materiales de techado"
+    }
   },
   "customers": "+{count} Clientes Satisfechos"
 }

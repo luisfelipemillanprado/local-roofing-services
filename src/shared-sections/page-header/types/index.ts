@@ -9,7 +9,7 @@ interface HeroMaterialItem {
   image: string;
   linked: boolean;
   eyebrow: string;
-  title: string;
+  imageAlt: string;
   specs: string;
 }
 
@@ -34,6 +34,6 @@ export interface PageHeaderProps {
   /* rotating ghost CTA target per page */
   secondaryCta: "services" | "projects" | "shop" | "work";
   /* background variant (paired src + alt); defaults to the shared image */
-  image?: "default" | "home" | "shop" | "areas";
+  image?: "default" | "shop" | "areas";
   id?: string;
 }

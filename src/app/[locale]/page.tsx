@@ -23,10 +23,9 @@ export default async function Home({ params }: Props) {
 
   return (
     <>
-      {/* shared hero band with the home's own copy, image and anchor */}
+      {/* shared hero band with the home's own copy and anchor */}
       <PageHeader
         id="home"
-        image="home"
         titleLead={t(pageHeaderData.titleLeadKey)}
         titleAccent={t(pageHeaderData.titleAccentKey)}
         description={t(pageHeaderData.descriptionKey)}
