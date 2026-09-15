@@ -9,6 +9,7 @@ import type { OfficeViewerGridProps } from "@/shared-sections/service-areas/type
 /* offices bento; each tile opens the shared image viewer */
 export const OfficeViewerGrid = ({
   cards,
+  map,
   actionLabel,
   closeLabel,
   previousLabel,
@@ -20,6 +21,7 @@ export const OfficeViewerGrid = ({
     <>
       <OfficeList
         cards={cards}
+        map={map}
         renderAction={(card, index) => (
           <ZoomButton label={`${card.title} ${actionLabel}`} onClick={() => setOpenIndex(index)} pulse />
         )}

@@ -1,17 +1,14 @@
 {
-  "eyebrow": "SERVICE AREAS",
-  "titleLead": "Top Roofing Masters",
+  "eyebrow": "OUR AREAS.",
+  "titleLead": "Modern Roof Builder",
   "titleAccent": "Always In Your Area",
-  "description": "Locate the office closest to your property on our interactive Miami map, where experienced roofing specialists deliver dependable local service.",
-  "mapAlt": "Map of Roofpro office locations in Miami",
+  "description": "Explore office locations near you and connect with dependable roofing experts who truly understand your community, needs, and property requirements.",
+  "mapAlt": "Map of {name} office locations in Miami",
   "map": {
-    "zoomIn": "Zoom in",
-    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
     "closePopup": "Close",
-    "toggleAttribution": "Map credits",
-    "gestureMobile": "Use two fingers to move the map",
-    "gestureWindows": "Use Ctrl + scroll to zoom the map",
-    "gestureMac": "Use ⌘ + scroll to zoom the map"
+    "toggleAttribution": "Map Credits"
   },
   "action": {
     "contact": "Contact Us Now",

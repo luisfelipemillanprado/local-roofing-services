@@ -34,18 +34,18 @@ test.describe("areas map", () => {
   test("zoom control zooms in", async ({ page }) => {
     const { frame, canvas } = await openMap(page);
     const before = Number(await canvas.getAttribute("data-zoom"));
-    await frame.getByRole("button", { name: "Zoom in" }).click();
+    await frame.getByRole("button", { name: "Zoom In" }).click();
     await expect.poll(async () => Number(await canvas.getAttribute("data-zoom"))).toBeGreaterThan(before);
   });
 
   test("opens at the zoom floor, so it can only zoom in", async ({ page }) => {
     const { frame, canvas } = await openMap(page);
     const floor = Number(await canvas.getAttribute("data-zoom"));
-    const zoomOut = frame.getByRole("button", { name: "Zoom out" });
+    const zoomOut = frame.getByRole("button", { name: "Zoom Out" });
     await expect(zoomOut).toBeDisabled();
 
     /* zooming in re-enables it, and zooming back out stops at the same floor */
-    await frame.getByRole("button", { name: "Zoom in" }).click();
+    await frame.getByRole("button", { name: "Zoom In" }).click();
     await expect(zoomOut).toBeEnabled();
     await zoomOut.click();
     await expect(zoomOut).toBeDisabled();
@@ -64,44 +64,34 @@ test.describe("areas map", () => {
     await expect.poll(() => canvas.getAttribute("data-center")).not.toBe(before);
   });
 
-  test("one finger keeps the page scrolling (cooperative gestures)", async ({ page, isMobile }) => {
+  test("one finger drag pans the map", async ({ page, isMobile }) => {
     test.skip(!isMobile, "touch behavior");
     const { canvas } = await openMap(page);
     const before = await canvas.getAttribute("data-center");
-    const result = await page.evaluate(async () => {
+    await page.evaluate(async () => {
       const target = document.querySelector<HTMLCanvasElement>("[data-office-map] canvas")!;
-      /* the hint flashes briefly, so record whether it ever showed */
-      const hint = document.querySelector("[data-office-map] .maplibregl-cooperative-gesture-screen")!;
-      let hintShown = false;
-      const watcher = new MutationObserver(() => {
-        if (hint.classList.contains("maplibregl-show")) hintShown = true;
-      });
-      watcher.observe(hint, { attributes: true, attributeFilter: ["class"] });
       const rect = target.getBoundingClientRect();
       const x = rect.left + rect.width / 2;
       const y = rect.top + rect.height / 2;
-      const touch = (dy: number) =>
-        new Touch({ identifier: 1, target, clientX: x, clientY: y + dy, pageX: x, pageY: y + dy + scrollY });
-      const fire = (type: string, list: Touch[], changed: Touch[]) => {
-        const event = new TouchEvent(type, {
-          bubbles: true,
-          cancelable: true,
-          touches: list,
-          targetTouches: list,
-          changedTouches: changed,
-        });
-        target.dispatchEvent(event);
-        return event.defaultPrevented;
-      };
+      const touch = (dx: number) =>
+        new Touch({ identifier: 1, target, clientX: x + dx, clientY: y, pageX: x + dx, pageY: y + scrollY });
+      const fire = (type: string, list: Touch[], changed: Touch[]) =>
+        target.dispatchEvent(
+          new TouchEvent(type, {
+            bubbles: true,
+            cancelable: true,
+            touches: list,
+            targetTouches: list,
+            changedTouches: changed,
+          }),
+        );
       fire("touchstart", [touch(0)], [touch(0)]);
-      const blockedScroll = fire("touchmove", [touch(-80)], [touch(-80)]);
-      fire("touchend", [], [touch(-80)]);
-      await new Promise((resolve) => setTimeout(resolve, 300));
-      watcher.disconnect();
-      return { blockedScroll, hintShown };
+      for (let dx = -20; dx >= -120; dx -= 20) {
+        fire("touchmove", [touch(dx)], [touch(dx)]);
+        await new Promise((resolve) => setTimeout(resolve, 16));
+      }
+      fire("touchend", [], [touch(-120)]);
     });
-    expect(result.blockedScroll).toBe(false);
-    expect(result.hintShown).toBe(true);
-    expect(await canvas.getAttribute("data-center")).toBe(before);
+    await expect.poll(() => canvas.getAttribute("data-center")).not.toBe(before);
   });
 });

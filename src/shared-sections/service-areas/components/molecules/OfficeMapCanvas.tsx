@@ -64,8 +64,6 @@ export const OfficeMapCanvas = ({ styleUrl, view, limit, offices, labels }: Offi
       fitBoundsOptions: { padding: FIT_PADDING },
       maxBounds: new LngLatBounds([limit.west, limit.south], [limit.east, limit.north]),
       maxZoom: 17,
-      /* page scroll with one finger / plain wheel; map with two fingers / ctrl+wheel */
-      cooperativeGestures: true,
       dragRotate: false,
       pitchWithRotate: false,
       touchPitch: false,
@@ -75,9 +73,6 @@ export const OfficeMapCanvas = ({ styleUrl, view, limit, offices, labels }: Offi
         "NavigationControl.ZoomOut": labels.zoomOut,
         "Popup.Close": labels.closePopup,
         "AttributionControl.ToggleAttribution": labels.toggleAttribution,
-        "CooperativeGesturesHandler.MobileHelpText": labels.gestureMobile,
-        "CooperativeGesturesHandler.WindowsHelpText": labels.gestureWindows,
-        "CooperativeGesturesHandler.MacHelpText": labels.gestureMac,
       },
     });
     map.touchZoomRotate.disableRotation();
@@ -117,7 +112,7 @@ export const OfficeMapCanvas = ({ styleUrl, view, limit, offices, labels }: Offi
     });
     map.on("moveend", syncCamera);
 
-    /* narrow maps: fold the attribution to its (i) after 5s, as OSM allows (one finger never drags) */
+    /* narrow maps: fold the attribution to its (i) after 5s, as OSM allows */
     const foldAttribution = window.setTimeout(() => {
       const attribution = container.querySelector(".maplibregl-compact-show");
       attribution?.classList.remove("maplibregl-compact-show");

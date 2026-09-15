@@ -1,20 +1,17 @@
 {
-  "eyebrow": "ÁREAS DE SERVICIO",
-  "titleLead": "Líderes Del Techado",
+  "eyebrow": "ÁREAS.",
+  "titleLead": "Techadores Modernos",
   "titleAccent": "Siempre En Tu Zona",
-  "description": "Encuentra la oficina más cercana en nuestro mapa interactivo de Miami, con especialistas en techados que proporcionan servicio confiable.",
-  "mapAlt": "Mapa de las oficinas de Roofpro en Miami",
+  "description": "Descubre las oficinas cercanas y conecta con especialistas confiables en techos que conocen tu comunidad, necesidades y requisitos específicos.",
+  "mapAlt": "Mapa de las oficinas de {name} en Miami",
   "map": {
     "zoomIn": "Acercar",
     "zoomOut": "Alejar",
     "closePopup": "Cerrar",
-    "toggleAttribution": "Créditos del mapa",
-    "gestureMobile": "Usa dos dedos para mover el mapa",
-    "gestureWindows": "Usa Ctrl + rueda para hacer zoom en el mapa",
-    "gestureMac": "Usa ⌘ + rueda para hacer zoom en el mapa"
+    "toggleAttribution": "Créditos Del Mapa"
   },
   "action": {
-    "contact": "Contáctanos Ahora",
+    "contact": "Contactar Ahora",
     "viewImage": "Ver Imagen",
     "close": "Cerrar",
     "previous": "Oficina Anterior",

@@ -24,10 +24,12 @@ interface OfficeCardItem extends Pick<OfficeCardProps, "image" | "title" | "desc
 export interface OfficeListProps {
   cards: OfficeCardItem[];
   renderAction: (card: OfficeCardItem, index: number) => ReactNode; /* per-card trailing control */
+  map: ReactNode; /* full-width cell between the two card groups */
 }
 
 export interface OfficeViewerGridProps {
   cards: OfficeCardItem[];
+  map: ReactNode;
   actionLabel: string;
   closeLabel: string;
   previousLabel: string;
@@ -57,9 +59,6 @@ interface OfficeMapLabels {
   zoomOut: string;
   closePopup: string;
   toggleAttribution: string;
-  gestureMobile: string;
-  gestureWindows: string;
-  gestureMac: string;
 }
 
 /* rendering only: style url (provider), initial view, pan limit, pins; services plug in elsewhere */

@@ -9,7 +9,7 @@ import { serviceAreasData } from "@/data/shared-sections/service-areas";
 import { company } from "@/data/site";
 import type { ServiceAreasProps } from "@/shared-sections/service-areas/types";
 
-const { ctaHref, officeImages, map } = serviceAreasData;
+const { heading, ctaHref, viewer, officeImages, map } = serviceAreasData;
 
 export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
   const t = await getTranslations("service-area");
@@ -29,10 +29,10 @@ export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
             <SectionHeading
               align="center"
               flushFrom="md"
-              eyebrow={t("eyebrow")}
-              title={t("titleLead")}
-              accent={t("titleAccent")}
-              description={t("description")}
+              eyebrow={t(heading.eyebrow)}
+              title={t(heading.titleLead)}
+              accent={t(heading.titleAccent)}
+              description={t(heading.description)}
             />
             <div className="mt-2 md:max-xl:mt-0">
               <Button href={ctaHref.href} variant="secondary" pulse>
@@ -41,32 +41,29 @@ export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
             </div>
           </div>
 
-          {/* branch offices over an interactive Miami map */}
-          <div className="grid gap-6">
-            <OfficeViewerGrid
-              cards={officeCards}
-              actionLabel={t("action.viewImage")}
-              closeLabel={t("action.close")}
-              previousLabel={t("action.previous")}
-              nextLabel={t("action.next")}
-            />
-            <OfficeMap
-              styleUrl={map.styleUrl}
-              view={map.view}
-              limit={map.limit}
-              offices={company.offices}
-              labels={{
-                region: t("mapAlt"),
-                zoomIn: t("map.zoomIn"),
-                zoomOut: t("map.zoomOut"),
-                closePopup: t("map.closePopup"),
-                toggleAttribution: t("map.toggleAttribution"),
-                gestureMobile: t("map.gestureMobile"),
-                gestureWindows: t("map.gestureWindows"),
-                gestureMac: t("map.gestureMac"),
-              }}
-            />
-          </div>
+          {/* branch offices bento with the interactive Miami map between its two groups */}
+          <OfficeViewerGrid
+            cards={officeCards}
+            map={
+              <OfficeMap
+                styleUrl={map.styleUrl}
+                view={map.view}
+                limit={map.limit}
+                offices={company.offices}
+                labels={{
+                  region: t(map.labels.region, { name: company.name }),
+                  zoomIn: t(map.labels.zoomIn),
+                  zoomOut: t(map.labels.zoomOut),
+                  closePopup: t(map.labels.closePopup),
+                  toggleAttribution: t(map.labels.toggleAttribution),
+                }}
+              />
+            }
+            actionLabel={t("action.viewImage")}
+            closeLabel={t(viewer.close)}
+            previousLabel={t(viewer.previous)}
+            nextLabel={t(viewer.next)}
+          />
         </div>
       </Container>
     </SectionWrapper>

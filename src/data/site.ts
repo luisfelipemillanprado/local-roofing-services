@@ -32,7 +32,7 @@ export const company = {
   email: "hello@roofpro.com",
   emailHref: "mailto:hello@roofpro.com",
   /* areas: physical branch offices in the Miami metro (name + street address; temporary placeholders) */
-  /* address tokens tuned so the four read at an even length (~30-33 chars) like service/project cards */
+  /* address tokens tuned so the six read at an even length (~30-33 chars) like service/project cards */
   /* positions geocoded from those addresses (Nominatim); illustrative until real offices exist */
   offices: [
     {
@@ -58,6 +58,18 @@ export const company = {
       name: "Miami Beach",
       address: "1688 Alton Rd, Miami Beach, FL",
       position: [25.7916, -80.1414] as OfficePosition,
+    },
+    {
+      key: "hialeah",
+      name: "Hialeah",
+      address: "1350 W 49th St, Hialeah, FL 33012",
+      position: [25.8665, -80.3102] as OfficePosition,
+    },
+    {
+      key: "westchester",
+      name: "Westchester",
+      address: "8900 SW 38th St, Miami, FL 33165",
+      position: [25.7347, -80.3398] as OfficePosition,
     },
   ],
   /* footer hours: opening times (a null value means closed) */
