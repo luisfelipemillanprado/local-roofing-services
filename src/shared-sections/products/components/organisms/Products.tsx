@@ -4,7 +4,7 @@ import { Button } from "@/common/call-to-actions/components/Button";
 import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
 import { getTranslations } from "next-intl/server";
 import { productsData } from "@/data/shared-sections/products";
-import { shopProductsData } from "@/data/shop/products";
+import { shopProductsData } from "@/data/features/shop/products";
 import type { ProductsProps } from "@/shared-sections/products/types";
 import { Container } from "@/common/container/components/Container";
 
@@ -14,7 +14,7 @@ const { items } = shopProductsData;
 export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
   const t = await getTranslations("products");
   const tShop = await getTranslations("shop-page");
-  /* data: brand/image/price; text by key (shop namespace) */
+  /* teaser of the shop catalog: product data and labels read from the shop on purpose */
   /* limit: teaser slice on every route */
   const products = items.slice(0, limit).map((product) => ({
     slug: product.slug,

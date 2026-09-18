@@ -29,16 +29,16 @@ export const pageHeaderData = {
     materials: [
       {
         key: "showcase.shingles",
-        image: "/images/products/asphalt-shingles/timberline-hdz/timberline-hdz-3.webp",
+        image: "/images/products/shingles/timberline-hdz-pewter-gray/timberline-hdz-pewter-gray-1.webp",
       },
       {
         key: "showcase.metal",
-        image: "/images/products/corrugated-metal-panels/brakki-19pc/brakki-19pc-1.webp",
+        image: "/images/products/metal-roofing/brakki-19pc/brakki-19pc-1.webp",
         linked: true,
       },
       {
         key: "showcase.underlayment",
-        image: "/images/products/synthetic-underlayment/dupont-tyvek-120/dupont-tyvek-120-1.webp",
+        image: "/images/products/underlayment/dupont-tyvek-120/dupont-tyvek-120-1.webp",
       },
     ],
     bannerKey: "showcase.banner",

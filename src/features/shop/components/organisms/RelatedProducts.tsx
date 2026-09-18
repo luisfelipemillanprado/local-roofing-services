@@ -2,8 +2,8 @@ import { getTranslations } from "next-intl/server";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
-import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
-import { shopProductsData } from "@/data/shop/products";
+import { ShopProductList } from "@/features/shop/components/molecules/ShopProductList";
+import { shopProductsData } from "@/data/features/shop/products";
 import type { RelatedProductsProps, ShopProduct } from "@/features/shop/types";
 
 const { items } = shopProductsData;
@@ -22,21 +22,16 @@ export const RelatedProducts = async ({ slug, tone = "muted" }: RelatedProductsP
   ].slice(0, 4);
 
   /* resolve: data literals + i18n labels (same shape the catalog cards use) */
-  const products: ShopProduct[] = related.map((p, i) => ({
+  const products: ShopProduct[] = related.map((p) => ({
     slug: p.slug,
     title: t(`catalog.${p.slug}.title`),
     brand: p.brand,
-    category: p.category,
-    price: p.price,
     priceLabel: `$${p.price.toFixed(2)}`,
     unit: t(p.unitKey),
     rating: p.rating,
     reviews: p.reviews,
     availability: p.availability,
     availabilityLabel: t(`availability.${p.availability}`),
-    addedAt: p.addedAt,
-    featured: p.featured,
-    order: i,
     image: p.image,
   }));
 
@@ -51,7 +46,7 @@ export const RelatedProducts = async ({ slug, tone = "muted" }: RelatedProductsP
             accent={t("related.titleAccent")}
             description={t("related.description")}
           />
-          <ProductList cards={products} viewLabel={t("action.view")} />
+          <ShopProductList cards={products} viewLabel={t("action.view")} />
         </div>
       </Container>
     </SectionWrapper>

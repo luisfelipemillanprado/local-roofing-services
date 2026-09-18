@@ -289,7 +289,7 @@ If you invoke `tsc` directly, run `pnpm i18n:build` first so the generated `mess
 - **Company details:** edit `company` in [`src/data/site.ts`](src/data/site.ts) (name,
   phone, WhatsApp, email, address, figures).
 - **Section content (icons / images / keys):** edit `src/data/shared-sections/*`,
-  `src/data/pages/*` and `src/data/shop/*`.
+  `src/data/pages/*` and `src/data/features/shop/*`.
 - **Navigation & shell:** edit [`src/data/global/layout.ts`](src/data/global/layout.ts)
   (navbar links, footer columns, floating-contact actions).
 - **Brand colors / fonts:** edit the `@theme` block in
@@ -314,7 +314,7 @@ values:
   `SES_FROM`, and `CONTACT_TO` (see [`.env.example`](.env.example)) and verify an SES
   identity to activate real delivery. Hardening: honeypot, time-trap, origin check, and an
   in-memory rate limit (swap for Upstash/Vercel KV in production).
-- **Shop product detail** is scaffolding: `src/data/shop/product-detail.ts` shares one set
+- **Shop product detail** is scaffolding: `src/data/features/shop/product-detail.ts` shares one set
   of placeholder values across every product, and `ProductTabs` renders placeholder bodies.
 
 ## Deployment

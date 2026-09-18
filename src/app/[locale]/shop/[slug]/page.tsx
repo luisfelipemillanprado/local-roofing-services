@@ -8,7 +8,7 @@ import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee"
 import { ProductDetail } from "@/features/shop/components/organisms/ProductDetail";
 import { RelatedProducts } from "@/features/shop/components/organisms/RelatedProducts";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
-import { shopProductsData } from "@/data/shop/products";
+import { shopProductsData } from "@/data/features/shop/products";
 
 const { items } = shopProductsData;
 

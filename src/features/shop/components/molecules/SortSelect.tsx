@@ -4,7 +4,9 @@ import type { ShopSort, SortSelectProps } from "@/features/shop/types";
 /* results sort: native select styled to the site */
 export const SortSelect = ({ label, value, options, onChange }: SortSelectProps) => (
   <label className="inline-grid grid-flow-col items-center justify-start gap-2.5">
-    <Text as="span" size="body" tone="muted" text={label} />
+    <span className="whitespace-nowrap">
+      <Text as="span" size="body" tone="muted" text={label} />
+    </span>
     <select
       value={value}
       onChange={(event) => onChange(event.target.value as ShopSort)}

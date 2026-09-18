@@ -1,85 +1,52 @@
-import type { LucideIcon } from "lucide-react";
-import type { ProductAvailability } from "@/common/product-card/types";
+import type { ProductCardProps } from "@/common/product-card/types";
 
-type ShopCategory = "shingles" | "metal" | "underlayment" | "sealants" | "tools" | "accessories";
-export type ShopSort = "featured" | "newest" | "priceAsc" | "priceDesc" | "topRated";
-
-/* resolved product for the browser: data literals + i18n labels */
-export interface ShopProduct {
+/* resolved product card: data literals + i18n labels, keyed by slug */
+export interface ShopProduct extends Omit<ProductCardProps, "viewLabel" | "href"> {
   slug: string;
-  title: string;
-  brand: string;
-  category: ShopCategory;
+}
+
+export interface ShopProductListProps {
+  cards: ShopProduct[];
+  viewLabel: string;
+}
+
+/* catalog entry: card fields plus what the browser filters and sorts on */
+export interface ShopCatalogItem extends ShopProduct {
+  category: string;
   price: number;
-  priceLabel: string;
-  unit: string;
-  rating: number;
-  reviews: number;
-  availability: ProductAvailability;
-  availabilityLabel: string;
-  addedAt: string;
-  featured: boolean;
-  order: number /* original catalog index; drives the Featured sort */;
+}
+
+/* one category chip: photo over its label */
+interface ShopCategoryItem {
+  key: string;
+  label: string;
   image: string;
 }
 
-/* top category chip */
-export interface CategoryPill {
-  value: string /* "all" | ShopCategory */;
-  label: string;
-  icon: LucideIcon;
+export type ShopSort = "best" | "priceAsc" | "priceDesc" | "topRated";
+
+/* account row icons; no logic behind them yet */
+interface ShopAccountLabels {
+  saved: string;
+  account: string;
+  orders: string;
+  cart: string;
 }
 
-export interface CategoryPillsProps {
-  pills: CategoryPill[];
-  active: string;
-  onSelect: (value: string) => void;
-}
-
-/* one selectable filter row */
-interface FilterOption {
-  value: string;
-  label: string;
-  count?: number;
-}
-
-export interface FilterGroupProps {
-  title: string;
-  options: FilterOption[];
-  selected: string[];
-  onToggle: (value: string) => void;
-  variant: "check" | "radio";
-}
-
-/* committed filter set (search, category, sort all live outside the panel) */
-export interface ShopFilters {
-  brands: string[];
-  price: string;
-  rating: string;
-  availability: string[];
-}
-
-export interface SearchBoxProps {
+export interface ShopSearchBarProps {
   value: string;
   onChange: (value: string) => void;
-  placeholder: string;
   label: string;
+  placeholder: string;
+  accountLabels: ShopAccountLabels;
 }
 
-export interface FilterPanelProps {
-  label: string;
-  clearLabel: string;
-  applyLabel: string;
-  brandTitle: string;
-  brandOptions: FilterOption[];
-  priceTitle: string;
-  priceOptions: FilterOption[];
-  ratingTitle: string;
-  ratingOptions: FilterOption[];
-  availabilityTitle: string;
-  availabilityOptions: FilterOption[];
-  value: ShopFilters;
-  onApply: (next: ShopFilters) => void;
+export interface CategoryStripProps {
+  categories: ShopCategoryItem[];
+  active: string;
+  onSelect: (key: string) => void;
+  previousLabel: string;
+  nextLabel: string;
 }
 
 export interface SortSelectProps {
@@ -87,6 +54,19 @@ export interface SortSelectProps {
   value: ShopSort;
   options: { value: ShopSort; label: string }[];
   onChange: (value: ShopSort) => void;
+}
+
+export interface ShopBrowserProps {
+  items: ShopCatalogItem[];
+  categories: ShopCategoryItem[];
+  viewLabel: string;
+  searchLabel: string;
+  searchPlaceholder: string;
+  accountLabels: ShopAccountLabels;
+  sortLabel: string;
+  sortOptions: { value: ShopSort; label: string }[];
+  previousLabel: string;
+  nextLabel: string;
 }
 
 export interface ProductDetailProps {

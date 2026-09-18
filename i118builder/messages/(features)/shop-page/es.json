@@ -3,6 +3,27 @@
     "quote": "Solicitar Cotización",
     "view": "Ver Producto"
   },
+  "search": {
+    "label": "Buscar Productos",
+    "placeholder": "Busca productos, marcas y más"
+  },
+  "account": {
+    "saved": "Guardados",
+    "account": "Cuenta",
+    "orders": "Pedidos",
+    "cart": "Carrito"
+  },
+  "sort": {
+    "label": "Ordenar por",
+    "best": "Mejor Coincidencia",
+    "priceAsc": "Precio: De Menor A Mayor",
+    "priceDesc": "Precio: De Mayor A Menor",
+    "topRated": "Mejor Valorados"
+  },
+  "strip": {
+    "previous": "Categorías Anteriores",
+    "next": "Categorías Siguientes"
+  },
   "units": {
     "bundle": "Paquete",
     "panel": "Panel",
@@ -10,15 +31,17 @@
     "each": "Unidad",
     "bucket": "Cubeta",
     "tube": "Tubo",
-    "kit": "Kit"
+    "kit": "Kit",
+    "canister": "Cilindro",
+    "foot": "Pie Lineal"
   },
   "categories": {
-    "all": "Todas",
     "shingles": "Tejas",
     "metal": "Techo Metálico",
     "underlayment": "Membrana",
-    "sealants": "Selladores",
+    "flashing": "Tapajuntas",
     "tools": "Herramientas",
+    "supplies": "Suministros",
     "accessories": "Accesorios"
   },
   "availability": {
@@ -26,36 +49,6 @@
     "limited-stock": "Pocas Unidades",
     "out-of-stock": "Agotado"
   },
-  "filters": {
-    "title": "Filtros",
-    "button": "Filtrar",
-    "apply": "Aplicar",
-    "search": "Buscar",
-    "searchPlaceholder": "Buscar productos",
-    "brand": "Marca",
-    "price": "Precio",
-    "rating": "Calificación",
-    "availability": "Disponibilidad",
-    "priceAll": "Cualquier precio",
-    "priceUnder": "Menos de ${max}",
-    "priceRange": "${min} – ${max}",
-    "priceOver": "Más de ${min}",
-    "ratingAny": "Cualquier calificación",
-    "ratingUp": "o más",
-    "clear": "Limpiar todo"
-  },
-  "sort": {
-    "label": "Ordenar por",
-    "featured": "Destacados",
-    "newest": "Más Nuevos",
-    "priceAsc": "Precio: Menor a Mayor",
-    "priceDesc": "Precio: Mayor a Menor",
-    "topRated": "Mejor Valorados"
-  },
-  "results": "{count, plural, =0 {Sin productos} one {# producto} other {# productos}}",
-  "resultsFiltered": "{count} de {total} productos",
-  "emptyTitle": "Ningún producto coincide con tus filtros",
-  "emptyHint": "Prueba quitar un filtro o límpialos todos.",
   "related": {
     "eyebrow": "Productos Relacionados",
     "titleLead": "Explora Productos",
@@ -89,11 +82,119 @@
     }
   },
   "catalog": {
-    "timberline-hdz": {
-      "title": "Tejas Timberline HDZ",
-      "titleLead": "Tejas",
-      "titleAccent": "Timberline HDZ",
-      "description": "Tejas laminadas arquitectónicas con tecnología LayerLock para una zona de clavado más firme y resistencia al viento."
+    "timberline-hdz-charcoal": {
+      "title": "Tejas Timberline HDZ Carbón",
+      "titleLead": "Tejas Timberline HDZ",
+      "titleAccent": "Carbón",
+      "description": "Tejas laminadas arquitectónicas en carbón profundo, con tecnología LayerLock para una zona de clavado más amplia."
+    },
+    "timberline-hdz-pewter-gray": {
+      "title": "Tejas Timberline HDZ Gris Peltre",
+      "titleLead": "Tejas Timberline HDZ",
+      "titleAccent": "Gris Peltre",
+      "description": "Tejas laminadas arquitectónicas en gris peltre suave, hechas para resistir el viento y el clima."
+    },
+    "timberline-hdz-barkwood": {
+      "title": "Tejas Timberline HDZ Corteza",
+      "titleLead": "Tejas Timberline HDZ",
+      "titleAccent": "Corteza",
+      "description": "Tejas laminadas arquitectónicas en tono corteza cálido, con la profundidad de la madera natural."
+    },
+    "timberline-hdz-hunter-green": {
+      "title": "Tejas Timberline HDZ Verde Bosque",
+      "titleLead": "Tejas Timberline HDZ",
+      "titleAccent": "Verde Bosque",
+      "description": "Tejas laminadas arquitectónicas en verde bosque intenso, un color audaz para entornos con arboleda."
+    },
+    "timberline-hdz-shakewood": {
+      "title": "Tejas Timberline HDZ Arena",
+      "titleLead": "Tejas Timberline HDZ",
+      "titleAccent": "Arena",
+      "description": "Tejas laminadas arquitectónicas en tono arena claro, una mezcla que ilumina cualquier línea de techo."
+    },
+    "brakki-10pc": {
+      "title": "Paneles Metálicos Corrugados Pack 10",
+      "titleLead": "Paneles Metálicos Corrugados",
+      "titleAccent": "Pack 10",
+      "description": "Diez paneles de acero corrugado que cubren 75.3 pies cuadrados, con cincuenta tornillos incluidos."
+    },
+    "brakki-stone-tiles": {
+      "title": "Tejas Metálicas con Granulado",
+      "titleLead": "Tejas Metálicas",
+      "titleAccent": "con Granulado",
+      "description": "Tejas de acero acabadas con granulado pétreo adherido, en cinco tonos del mismo perfil."
+    },
+    "brakki-insulated-panel": {
+      "title": "Panel de Teja Metálica Aislado",
+      "titleLead": "Panel de Teja Metálica",
+      "titleAccent": "Aislado",
+      "description": "Panel de acero con perfil de teja y núcleo de espuma rígida que aísla sobre estructura abierta."
+    },
+    "certainteed-roofrunner": {
+      "title": "Underlayment Sintético RoofRunner",
+      "titleLead": "Underlayment Sintético",
+      "titleAccent": "RoofRunner",
+      "description": "Rollo sintético reforzado que cubre diez cuadros, con superficie antideslizante para caminar seguro."
+    },
+    "protect-a1": {
+      "title": "Membrana de Techo Protect A1",
+      "titleLead": "Membrana de Techo",
+      "titleAccent": "Protect A1",
+      "description": "Membrana transpirable que deja secar el entablado mientras detiene la lluvia empujada por el viento."
+    },
+    "exoperm-mono": {
+      "title": "Membrana Transpirable Exoperm Mono 150",
+      "titleLead": "Membrana Transpirable",
+      "titleAccent": "Exoperm Mono 150",
+      "description": "Membrana monolítica muy abierta al vapor, con alta resistencia al desgarro y barrera hermética al aire."
+    },
+    "bmi-chova": {
+      "title": "Membrana Autoprotegida Chova Politaber",
+      "titleLead": "Membrana Autoprotegida",
+      "titleAccent": "Chova Politaber",
+      "description": "Membrana SBS de aplicación con soplete y acabado mineral, en rollos que cubren diez metros cuadrados."
+    },
+    "kovertech-gold": {
+      "title": "Membrana de Aluminio KoverTech Gold",
+      "titleLead": "Membrana de Aluminio",
+      "titleAccent": "KoverTech Gold",
+      "description": "Membrana asfáltica con aluminio gofrado que refleja el calor y resiste el agrietamiento por frío."
+    },
+    "ormiflex-profesional": {
+      "title": "Membrana de Aluminio Ormiflex Profesional",
+      "titleLead": "Membrana de Aluminio",
+      "titleAccent": "Ormiflex Profesional",
+      "description": "Membrana asfáltica reforzada con cara de aluminio, que se extiende y sella con soplete en cubiertas planas."
+    },
+    "gaf-everguard-tpo-quick-spray-7792": {
+      "title": "Adhesivo en Spray EverGuard TPO",
+      "titleLead": "Adhesivo en Spray",
+      "titleAccent": "EverGuard TPO",
+      "description": "Cilindro a presión que adhiere diez cuadros de membrana TPO, rociado directamente desde el tanque."
+    },
+    "gaf-olybond-500": {
+      "title": "Kit de Adhesivo para Aislamiento OlyBond500",
+      "titleLead": "Kit de Adhesivo",
+      "titleAccent": "OlyBond500",
+      "description": "Adhesivo de poliuretano de dos partes que pega los paneles de aislamiento al entablado sin tornillos."
+    },
+    "matrix-101": {
+      "title": "Adhesivo SBS Premium Matrix 101",
+      "titleLead": "Adhesivo SBS Premium",
+      "titleAccent": "Matrix 101",
+      "description": "Adhesivo en frío de bajo olor para membranas modificadas, que cubre dos cuadros por cubeta."
+    },
+    "tac-203-premium-spray": {
+      "title": "Adhesivo de Contacto en Spray TAC 203",
+      "titleLead": "Adhesivo de Contacto",
+      "titleAccent": "TAC 203",
+      "description": "Adhesivo de contacto resistente al calor y de tiempo abierto largo, para tableros, metal y espuma."
+    },
+    "wpc-cladding-slats": {
+      "title": "Listones de Revestimiento WPC",
+      "titleLead": "Listones de Revestimiento",
+      "titleAccent": "WPC",
+      "description": "Paneles compuestos de listones con cámaras huecas, montados sobre muros y aleros sin necesidad de pintura."
     },
     "brakki-19pc": {
       "title": "Paneles Metálicos Corrugados 19 Piezas",
@@ -250,6 +351,36 @@
       "titleLead": "Tragaluz Fijo",
       "titleAccent": "de Montaje",
       "description": "Tragaluz fijo de montaje en entablado que aporta luz natural con sellado hermético."
+    },
+    "duration-designer-slatestone-grey": {
+      "title": "Tejas Duration Designer Gris Pizarra",
+      "titleLead": "Tejas Duration Designer",
+      "titleAccent": "Gris Pizarra",
+      "description": "Tejas arquitectónicas con banda SureNail que refuerza la zona de clavado frente al viento fuerte."
+    },
+    "steeldash-snap-lock-slate-gray": {
+      "title": "Panel de Junta Alzada Snap Lock",
+      "titleLead": "Panel de Junta Alzada",
+      "titleAccent": "Snap Lock",
+      "description": "Panel de acero con clips ocultos, dieciséis pulgadas de cubrición y junta alzada a presión."
+    },
+    "gibraltar-cf5g-26": {
+      "title": "Contrababero de Acero Galvanizado",
+      "titleLead": "Contrababero",
+      "titleAccent": "de Acero Galvanizado",
+      "description": "Tira galvanizada de diez pies que remata el babero escalonado de chimeneas y muros laterales."
+    },
+    "drexel-econo-coping": {
+      "title": "Remate de Peto Econo Coping",
+      "titleLead": "Remate de Peto",
+      "titleAccent": "Econo Coping",
+      "description": "Albardilla de dos piezas que une una grapa continua con una tapa de fascia encajada."
+    },
+    "steeldash-tube-14ga-2in": {
+      "title": "Tubo Cuadrado Galvanizado",
+      "titleLead": "Tubo Cuadrado",
+      "titleAccent": "Galvanizado",
+      "description": "Perfil cuadrado de acero grueso en tramos largos, para estructuras de cubierta y soportes metálicos."
     }
   }
 }

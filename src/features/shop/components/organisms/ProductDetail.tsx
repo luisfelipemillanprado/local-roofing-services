@@ -13,8 +13,8 @@ import { layoutData } from "@/data/global/layout";
 import { ProductGallery } from "@/features/shop/components/molecules/ProductGallery";
 import { QuantityStepper } from "@/features/shop/components/molecules/QuantityStepper";
 import { ProductTabs } from "@/features/shop/components/molecules/ProductTabs";
-import { shopProductsData } from "@/data/shop/products";
-import { productDetailData } from "@/data/shop/product-detail";
+import { shopProductsData } from "@/data/features/shop/products";
+import { productDetailData } from "@/data/features/shop/product-detail";
 import type { ProductDetailProps } from "@/features/shop/types";
 
 const { colors, sizes, tabs, sku, buyNowHref, addToCartHref } = productDetailData;

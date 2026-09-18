@@ -3,6 +3,27 @@
     "quote": "Request Quote",
     "view": "View Product"
   },
+  "search": {
+    "label": "Search Products",
+    "placeholder": "Search products, brands and more"
+  },
+  "account": {
+    "saved": "Saved",
+    "account": "Account",
+    "orders": "Orders",
+    "cart": "Cart"
+  },
+  "sort": {
+    "label": "Sort by",
+    "best": "Best Match",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "topRated": "Highest Rated"
+  },
+  "strip": {
+    "previous": "Previous Categories",
+    "next": "Next Categories"
+  },
   "units": {
     "bundle": "Bundle",
     "panel": "Panel",
@@ -10,15 +31,17 @@
     "each": "Each",
     "bucket": "Bucket",
     "tube": "Tube",
-    "kit": "Kit"
+    "kit": "Kit",
+    "canister": "Canister",
+    "foot": "Linear Foot"
   },
   "categories": {
-    "all": "All",
     "shingles": "Shingles",
     "metal": "Metal Roofing",
     "underlayment": "Underlayment",
-    "sealants": "Sealants",
+    "flashing": "Flashing",
     "tools": "Tools",
+    "supplies": "Supplies",
     "accessories": "Accessories"
   },
   "availability": {
@@ -26,36 +49,6 @@
     "limited-stock": "Limited Stock",
     "out-of-stock": "Out of Stock"
   },
-  "filters": {
-    "title": "Filters",
-    "button": "Filter",
-    "apply": "Apply",
-    "search": "Search",
-    "searchPlaceholder": "Search products",
-    "brand": "Brand",
-    "price": "Price",
-    "rating": "Rating",
-    "availability": "Availability",
-    "priceAll": "Any price",
-    "priceUnder": "Under ${max}",
-    "priceRange": "${min} – ${max}",
-    "priceOver": "Over ${min}",
-    "ratingAny": "Any rating",
-    "ratingUp": "& up",
-    "clear": "Clear all"
-  },
-  "sort": {
-    "label": "Sort by",
-    "featured": "Featured",
-    "newest": "Newest",
-    "priceAsc": "Price: Low to High",
-    "priceDesc": "Price: High to Low",
-    "topRated": "Highest Rated"
-  },
-  "results": "{count, plural, =0 {No products} one {# product} other {# products}}",
-  "resultsFiltered": "{count} of {total} products",
-  "emptyTitle": "No products match your filters",
-  "emptyHint": "Try removing a filter or clearing them all.",
   "related": {
     "eyebrow": "Related Products",
     "titleLead": "Explore Related",
@@ -89,11 +82,119 @@
     }
   },
   "catalog": {
-    "timberline-hdz": {
-      "title": "Timberline HDZ Shingles",
+    "timberline-hdz-charcoal": {
+      "title": "Timberline HDZ Charcoal Shingles",
       "titleLead": "Timberline HDZ",
-      "titleAccent": "Shingles",
-      "description": "Architectural laminate shingles with LayerLock technology for a tighter nail zone and lasting wind resistance."
+      "titleAccent": "Charcoal Shingles",
+      "description": "Architectural laminate shingles in deep charcoal, with LayerLock technology for a wider nail zone."
+    },
+    "timberline-hdz-pewter-gray": {
+      "title": "Timberline HDZ Pewter Gray Shingles",
+      "titleLead": "Timberline HDZ",
+      "titleAccent": "Pewter Gray Shingles",
+      "description": "Architectural laminate shingles in soft pewter gray, built for lasting wind and weather resistance."
+    },
+    "timberline-hdz-barkwood": {
+      "title": "Timberline HDZ Barkwood Shingles",
+      "titleLead": "Timberline HDZ",
+      "titleAccent": "Barkwood Shingles",
+      "description": "Architectural laminate shingles in warm barkwood, with the shadow depth of natural wood shakes."
+    },
+    "timberline-hdz-hunter-green": {
+      "title": "Timberline HDZ Hunter Green Shingles",
+      "titleLead": "Timberline HDZ",
+      "titleAccent": "Hunter Green Shingles",
+      "description": "Architectural laminate shingles in rich hunter green, a bold roof color for wooded settings."
+    },
+    "timberline-hdz-shakewood": {
+      "title": "Timberline HDZ Shakewood Shingles",
+      "titleLead": "Timberline HDZ",
+      "titleAccent": "Shakewood Shingles",
+      "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline."
+    },
+    "brakki-10pc": {
+      "title": "Corrugated Metal Panels 10 Pack",
+      "titleLead": "Corrugated Metal Panels",
+      "titleAccent": "10 Pack",
+      "description": "Ten corrugated steel panels covering 75.3 square feet, with fifty matching screws included."
+    },
+    "brakki-stone-tiles": {
+      "title": "Stone Coated Metal Tiles",
+      "titleLead": "Stone Coated",
+      "titleAccent": "Metal Tiles",
+      "description": "Steel tiles finished with bonded stone granules, sold in five shades of the same profile."
+    },
+    "brakki-insulated-panel": {
+      "title": "Insulated Metal Tile Panel",
+      "titleLead": "Insulated Metal",
+      "titleAccent": "Tile Panel",
+      "description": "Tile profile steel panel with a rigid foam core that adds insulation over open framing."
+    },
+    "certainteed-roofrunner": {
+      "title": "RoofRunner Synthetic Underlayment",
+      "titleLead": "RoofRunner Synthetic",
+      "titleAccent": "Underlayment",
+      "description": "Scrim reinforced synthetic roll covering ten squares, with a slip resistant walking surface."
+    },
+    "protect-a1": {
+      "title": "Protect A1 Roofing Membrane",
+      "titleLead": "Protect A1",
+      "titleAccent": "Roofing Membrane",
+      "description": "Breathable roofing membrane that lets the deck dry while it holds out wind driven rain."
+    },
+    "exoperm-mono": {
+      "title": "Exoperm Mono 150 Breather Membrane",
+      "titleLead": "Exoperm Mono 150",
+      "titleAccent": "Breather Membrane",
+      "description": "Monolithic breather membrane with high vapor openness, strong tear strength and an airtight barrier."
+    },
+    "bmi-chova": {
+      "title": "Chova Politaber Self Protected Membrane",
+      "titleLead": "Chova Politaber",
+      "titleAccent": "Self Protected Membrane",
+      "description": "Torch applied SBS membrane with mineral finish, supplied in rolls covering ten square meters."
+    },
+    "kovertech-gold": {
+      "title": "KoverTech Gold Aluminum Membrane",
+      "titleLead": "KoverTech Gold",
+      "titleAccent": "Aluminum Membrane",
+      "description": "Asphalt membrane topped with embossed aluminum that reflects heat and resists cracking in cold."
+    },
+    "ormiflex-profesional": {
+      "title": "Ormiflex Profesional Aluminum Membrane",
+      "titleLead": "Ormiflex Profesional",
+      "titleAccent": "Aluminum Membrane",
+      "description": "Reinforced asphalt membrane with an aluminum face, rolled out and torched over flat decks."
+    },
+    "gaf-everguard-tpo-quick-spray-7792": {
+      "title": "EverGuard TPO Quick Spray Adhesive",
+      "titleLead": "EverGuard TPO",
+      "titleAccent": "Quick Spray Adhesive",
+      "description": "Pressurized canister that bonds ten squares of TPO membrane, sprayed straight from the cylinder."
+    },
+    "gaf-olybond-500": {
+      "title": "OlyBond500 Insulation Adhesive Kit",
+      "titleLead": "OlyBond500",
+      "titleAccent": "Insulation Adhesive Kit",
+      "description": "Two part polyurethane adhesive that beads insulation boards to the deck without any fasteners."
+    },
+    "matrix-101": {
+      "title": "Matrix 101 Premium SBS Adhesive",
+      "titleLead": "Matrix 101 Premium",
+      "titleAccent": "SBS Adhesive",
+      "description": "Low odor cold adhesive for modified bitumen membranes, covering two squares per five gallon pail."
+    },
+    "tac-203-premium-spray": {
+      "title": "TAC 203 Premium Spray Contact Adhesive",
+      "titleLead": "TAC 203 Premium",
+      "titleAccent": "Spray Contact Adhesive",
+      "description": "High heat contact adhesive with long open time, sprayed onto boards, metal and foam."
+    },
+    "wpc-cladding-slats": {
+      "title": "WPC Fluted Cladding Slats",
+      "titleLead": "WPC Fluted",
+      "titleAccent": "Cladding Slats",
+      "description": "Composite slat panels with hollow chambers, fitted over walls and soffits without any painting."
     },
     "brakki-19pc": {
       "title": "Corrugated Metal Panels 19 Pack",
@@ -250,6 +351,36 @@
       "titleLead": "Fixed Deck",
       "titleAccent": "Skylight",
       "description": "Fixed deck mounted skylight that brings natural daylight in with a weathertight seal."
+    },
+    "duration-designer-slatestone-grey": {
+      "title": "Duration Designer Slatestone Grey Shingles",
+      "titleLead": "Duration Designer",
+      "titleAccent": "Slatestone Grey Shingles",
+      "description": "Architectural shingles with a SureNail fabric strip reinforcing the nail zone against high wind."
+    },
+    "steeldash-snap-lock-slate-gray": {
+      "title": "Snap Lock Standing Seam Panel",
+      "titleLead": "Snap Lock",
+      "titleAccent": "Standing Seam Panel",
+      "description": "Steel panel with concealed clips, sixteen inches of coverage and a raised snap seam."
+    },
+    "gibraltar-cf5g-26": {
+      "title": "Galvanized Steel Counter Flashing",
+      "titleLead": "Galvanized Steel",
+      "titleAccent": "Counter Flashing",
+      "description": "Ten foot galvanized strip that caps the step flashing along a chimney or sidewall."
+    },
+    "drexel-econo-coping": {
+      "title": "Econo Coping Edge System",
+      "titleLead": "Econo Coping",
+      "titleAccent": "Edge System",
+      "description": "Two part parapet cap joining a continuous cleat with a snap on fascia cover."
+    },
+    "steeldash-tube-14ga-2in": {
+      "title": "Galvanized Square Tube",
+      "titleLead": "Galvanized",
+      "titleAccent": "Square Tube",
+      "description": "Heavy gauge square steel section in long lengths, for roof frameworks and supporting structures."
     }
   }
 }

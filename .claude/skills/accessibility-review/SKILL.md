@@ -38,7 +38,7 @@ consistently).
 These are not yet consistent in the codebase — always verify them on interactive UI:
 
 - **Focus visibility:** flag any `focus:outline-none` that has no visible replacement
-  (`SearchBox`, `SortSelect` swap only a border color). Keyboard focus must be clearly
+  (a swap of only a border color). Keyboard focus must be clearly
   visible; a color-only border change on a dark surface is weak. `EmailForm` is the reference
   fix — a `focus-visible:outline-2 outline-offset-2` ring.
 - **Dialog keyboard completeness:** `ProjectViewer` moves focus in and handles `Escape` but

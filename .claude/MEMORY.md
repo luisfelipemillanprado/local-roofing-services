@@ -12,7 +12,7 @@ Project decisions, historical context, and pending work. Conventions live in
   sends via Amazon SES and is bot-hardened (honeypot, time-trap, origin check, in-memory
   rate limit). It is a dev no-op until `AWS_REGION`/`SES_FROM`/`CONTACT_TO` are set and an
   SES identity is verified; the rate limit should move to Upstash/Vercel KV for production.
-- Shop product detail is scaffolding — `src/data/shop/product-detail.ts` shares one set of
+- Shop product detail is scaffolding — `src/data/features/shop/product-detail.ts` shares one set of
   placeholder values across every product (placeholder CTAs, swatch hex, a "was" price),
   and `ProductTabs` renders placeholder bodies.
 
