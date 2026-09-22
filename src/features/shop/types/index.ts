@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { ProductCardProps } from "@/common/product-card/types";
 
 /* resolved product card: data literals + i18n labels, keyed by slug */
@@ -80,20 +81,58 @@ export interface RelatedProductsProps {
 
 export interface ProductGalleryProps {
   images: string[];
-  active: number;
-  onSelect: (index: number) => void;
-  alt: string;
+  title: string;
+  description: string;
+  zoomLabel: string;
+  closeLabel: string;
+  previousLabel: string;
+  nextLabel: string;
 }
 
-export interface QuantityStepperProps {
-  value: number;
-  onChange: (value: number) => void;
-  decreaseLabel: string;
-  increaseLabel: string;
+/* resolved spec row: data value + its i18n label */
+interface ProductSpecRow {
+  key: string;
+  label: string;
+  value: string;
 }
 
+export interface ProductSpecStripProps {
+  rows: ProductSpecRow[];
+}
+
+export interface ProductSpecTableProps {
+  rows: ProductSpecRow[];
+}
+
+export interface ProductHighlightsProps {
+  items: string[];
+}
+
+export interface ProductAboutProps {
+  paragraphs: string[];
+}
+
+/* official manufacturer PDFs; each opens in a new tab */
+export interface ProductDocumentsProps {
+  items: { key: string; label: string; href: string }[];
+  newTabLabel: string;
+}
+
+/* one tab: its label plus the already-built panel content */
 export interface ProductTabsProps {
-  tabs: { key: string; label: string; body: string }[];
-  active: string;
-  onSelect: (key: string) => void;
+  tabs: { key: string; label: string; panel: ReactNode }[];
+}
+
+/* trust rows; the panel keys its icon map off this union */
+export type ProductTrustKey = "materials" | "brands" | "installation" | "warranty";
+
+export interface ProductTrustPanelProps {
+  items: { key: ProductTrustKey; title: string; description: string }[];
+}
+
+export interface InstallCalloutProps {
+  title: string;
+  description: string;
+  ctaLabel: string;
+  ctaHref: string;
 }

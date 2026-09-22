@@ -1,7 +1,8 @@
 {
   "action": {
     "quote": "Solicitar Cotización",
-    "view": "Ver Producto"
+    "view": "Ver Producto",
+    "call": "Llámanos"
   },
   "search": {
     "label": "Buscar Productos",
@@ -57,28 +58,154 @@
   },
   "detail": {
     "reviewCount": "{rating} de {count} Reseñas",
-    "color": "Color Disponible",
-    "quantity": "Cantidad",
-    "decrease": "Disminuir cantidad",
-    "increase": "Aumentar cantidad",
-    "size": "Tamaño Disponible",
-    "sku": "SKU",
-    "tags": "Etiquetas",
-    "tagList": "Techado, Materiales, Exterior, Pro",
+    "category": "Categoría",
+    "unit": "Unidad",
+    "sku": "Referencia",
+    "none": "No disponible",
     "share": "Compartir",
-    "action": {
-      "buyNow": "Comprar Ahora",
-      "addToCart": "Agregar Al Carrito"
+    "viewImage": "Ver Imagen",
+    "close": "Cerrar",
+    "previous": "Imagen Anterior",
+    "next": "Imagen Siguiente",
+    "breadcrumb": {
+      "label": "Ruta de navegación",
+      "home": "Inicio",
+      "shop": "Tienda"
     },
-    "tabs": {
-      "details": "Detalles",
-      "reviews": "Reseñas",
-      "shipping": "Envío"
+    "install": {
+      "title": "¿Necesitas Instalación Profesional?",
+      "description": "Nuestro equipo certificado puede montarlo dentro de tu proyecto de cubierta.",
+      "cta": "Presupuestar Instalación"
     },
-    "tabBody": {
-      "details": "Detalles del producto de relleno. Agrega aquí las especificaciones completas, materiales, cobertura y garantía.",
-      "reviews": "Reseñas de relleno. Las calificaciones y comentarios de clientes se mostrarán en esta pestaña.",
-      "shipping": "Información de envío de relleno. Agrega aquí tiempos de entrega, opciones de flete y política de devoluciones."
+    "trust": {
+      "materials": {
+        "title": "Materiales Profesionales",
+        "description": "Elegidos por su durabilidad y rendimiento real"
+      },
+      "brands": {
+        "title": "Marcas Confiables",
+        "description": "Solo trabajamos marcas líderes del sector techado"
+      },
+      "installation": {
+        "title": "Instalación Experta",
+        "description": "Equipos certificados y listos para montarlo correctamente"
+      },
+      "warranty": {
+        "title": "Garantía de Fábrica",
+        "description": "Cada artículo respaldado por su propio fabricante"
+      }
+    },
+    "spec": {
+      "size": "Medidas",
+      "exposure": "Exposición",
+      "coverage": "Rendimiento",
+      "wind": "Resistencia al Viento",
+      "fire": "Clasificación al Fuego",
+      "gauge": "Calibre",
+      "width": "Ancho Útil",
+      "rib": "Altura de Nervio",
+      "length": "Largo",
+      "slope": "Pendiente Mínima",
+      "weight": "Peso",
+      "thickness": "Espesor",
+      "heat": "Resistencia al Calor",
+      "mass": "Gramaje",
+      "vapor": "Resistencia al Vapor",
+      "foil": "Lámina de Aluminio",
+      "cleat": "Clip",
+      "face": "Frente Máximo",
+      "wall": "Ancho Máximo de Muro",
+      "volume": "Volumen",
+      "voc": "COV",
+      "temp": "Temp. Mínima de Aplicación",
+      "tempRange": "Rango de Aplicación",
+      "rate": "Tasa de Aplicación",
+      "hose": "Manguera",
+      "openTime": "Tiempo Abierto",
+      "standard": "Norma",
+      "voltage": "Voltaje",
+      "blade": "Hoja",
+      "speed": "Velocidad",
+      "bevel": "Bisel",
+      "pad": "Plato",
+      "crown": "Corona",
+      "staple": "Largo de Grapa",
+      "capacity": "Capacidad de Corte",
+      "standout": "Alcance de Cinta",
+      "bar": "Largo de Espada",
+      "pitch": "Paso de Cadena",
+      "steel": "Acero de Hoja",
+      "storage": "Cuchillas de Repuesto",
+      "teeth": "Dentado",
+      "layers": "Capas",
+      "nfa": "Área Libre de Ventilación",
+      "cfm": "Caudal",
+      "atticArea": "Área de Ático",
+      "panel": "Panel Solar",
+      "opening": "Abertura",
+      "duct": "Conducto",
+      "curb": "Altura del Bastidor",
+      "load": "Carga Viva",
+      "insulation": "Aislamiento",
+      "diameter": "Diámetro",
+      "intake": "Entrada Mínima",
+      "perSquare": "Placas por Cuadro",
+      "ribSpacing": "Separación de Nervios",
+      "maxLength": "Largo Máximo",
+      "pipe": "Diámetro de Tubo",
+      "base": "Tamaño de Base",
+      "height": "Altura",
+      "duty": "Clasificación",
+      "loadCapacity": "Capacidad de Carga",
+      "amperage": "Amperaje",
+      "outlets": "Tomas",
+      "pieceSize": "Tamaño de Pieza de Arranque",
+      "bundlesPerSquare": "Paquetes por Square",
+      "piecesPerSquare": "Piezas por Square",
+      "piecesPerBundle": "Piezas por Paquete",
+      "bundlesPerPallet": "Paquetes por Palé",
+      "windClass": "Clase de Viento",
+      "impact": "Resistencia al Impacto",
+      "algae": "Garantía contra Algas (Años)",
+      "nailsPerShingle": "Clavos por Teja",
+      "shingleWidth": "Ancho",
+      "bundleCoverage": "Cobertura por Paquete",
+      "color": "Color",
+      "material": "Material",
+      "productType": "Tipo de Producto",
+      "warranty": "Garantía",
+      "headlap": "Solape Superior",
+      "squareWeight": "Peso por Square"
+    },
+    "specValue": {
+      "fiberglassAsphalt": "Asfalto con Fibra de Vidrio",
+      "polymerAsphalt": "Asfalto Modificado con Polímero",
+      "laminated": "Teja Arquitectónica Laminada",
+      "starter": "Teja de Arranque",
+      "noWindLimit": "Sin Límite (WindProven)",
+      "notPublished": "No Publicado"
+    },
+    "warranty": {
+      "lifetime": "Limitada de por Vida",
+      "years": "{years} Años",
+      "limitedYears": "Limitada de {years} Años",
+      "paintYears": "Pintura de {years} Años"
+    },
+    "section": {
+      "description": "Descripción",
+      "specifications": "Especificaciones",
+      "warranty": "Garantía",
+      "documents": "Documentos"
+    },
+    "document": {
+      "dataSheet": "Ficha Técnica",
+      "specification": "Especificación de Proyecto",
+      "drawing": "Plano del Producto",
+      "sds": "Hoja de Seguridad",
+      "install": "Guía de Instalación",
+      "floridaApproval": "Aprobación de Producto de Florida",
+      "miamiDade": "NOA de Miami Dade",
+      "newTab": "se abre en una pestaña nueva"
     }
   },
   "catalog": {
@@ -86,301 +213,916 @@
       "title": "Tejas Timberline HDZ Carbón",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Carbón",
-      "description": "Tejas laminadas arquitectónicas en carbón profundo, con tecnología LayerLock para una zona de clavado más amplia."
+      "description": "Tejas laminadas arquitectónicas en carbón profundo, con tecnología LayerLock para una zona de clavado más amplia.",
+      "about": [
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Charcoal de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
+        "Cada teja mide aproximadamente 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con las tejas de cumbrera premium TimberTex o TimberCrest y con las tiras de arranque Pro Start, QuickStart o WeatherBlocker en aleros y bordes laterales.",
+        "Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero se cubre con dos capas de GAF Roof Deck Protection; desde 4:12 basta una capa. Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
+        "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
+        "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
+      ],
+      "highlights": [
+        "La tecnología LayerLock une las capas y amplía el clavado",
+        "Resisten vientos de ciento treinta millas por hora",
+        "Los gránulos StainGuard frenan las manchas de alga",
+        "Clasificación al fuego Clase A, la más alta"
+      ]
     },
     "timberline-hdz-pewter-gray": {
       "title": "Tejas Timberline HDZ Gris Peltre",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Gris Peltre",
-      "description": "Tejas laminadas arquitectónicas en gris peltre suave, hechas para resistir el viento y el clima."
+      "description": "Tejas laminadas arquitectónicas en gris peltre suave, hechas para resistir el viento y el clima.",
+      "about": [
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Pewter Gray de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
+        "Cada teja mide aproximadamente 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con las tejas de cumbrera premium TimberTex o TimberCrest y con las tiras de arranque Pro Start, QuickStart o WeatherBlocker en aleros y bordes laterales.",
+        "Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero se cubre con dos capas de GAF Roof Deck Protection; desde 4:12 basta una capa. Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
+        "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
+        "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
+      ],
+      "highlights": [
+        "La tecnología LayerLock une las capas y amplía el clavado",
+        "Resisten vientos de ciento treinta millas por hora",
+        "Los gránulos StainGuard frenan las manchas de alga",
+        "Clasificación al fuego Clase A, la más alta"
+      ]
     },
     "timberline-hdz-barkwood": {
       "title": "Tejas Timberline HDZ Corteza",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Corteza",
-      "description": "Tejas laminadas arquitectónicas en tono corteza cálido, con la profundidad de la madera natural."
+      "description": "Tejas laminadas arquitectónicas en tono corteza cálido, con la profundidad de la madera natural.",
+      "about": [
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Barkwood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
+        "Cada teja mide aproximadamente 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con las tejas de cumbrera premium TimberTex o TimberCrest y con las tiras de arranque Pro Start, QuickStart o WeatherBlocker en aleros y bordes laterales.",
+        "Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero se cubre con dos capas de GAF Roof Deck Protection; desde 4:12 basta una capa. Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
+        "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
+        "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
+      ],
+      "highlights": [
+        "La tecnología LayerLock une las capas y amplía el clavado",
+        "Resisten vientos de ciento treinta millas por hora",
+        "Los gránulos StainGuard frenan las manchas de alga",
+        "Clasificación al fuego Clase A, la más alta"
+      ]
     },
     "timberline-hdz-hunter-green": {
       "title": "Tejas Timberline HDZ Verde Bosque",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Verde Bosque",
-      "description": "Tejas laminadas arquitectónicas en verde bosque intenso, un color audaz para entornos con arboleda."
+      "description": "Tejas laminadas arquitectónicas en verde bosque intenso, un color audaz para entornos con arboleda.",
+      "about": [
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Hunter Green de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
+        "Cada teja mide aproximadamente 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con las tejas de cumbrera premium TimberTex o TimberCrest y con las tiras de arranque Pro Start, QuickStart o WeatherBlocker en aleros y bordes laterales.",
+        "Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero se cubre con dos capas de GAF Roof Deck Protection; desde 4:12 basta una capa. Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
+        "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
+        "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
+      ],
+      "highlights": [
+        "La tecnología LayerLock une las capas y amplía el clavado",
+        "Resisten vientos de ciento treinta millas por hora",
+        "Los gránulos StainGuard frenan las manchas de alga",
+        "Clasificación al fuego Clase A, la más alta"
+      ]
     },
     "timberline-hdz-shakewood": {
       "title": "Tejas Timberline HDZ Arena",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Arena",
-      "description": "Tejas laminadas arquitectónicas en tono arena claro, una mezcla que ilumina cualquier línea de techo."
+      "description": "Tejas laminadas arquitectónicas en tono arena claro, una mezcla que ilumina cualquier línea de techo.",
+      "about": [
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Shakewood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
+        "Cada teja mide aproximadamente 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con las tejas de cumbrera premium TimberTex o TimberCrest y con las tiras de arranque Pro Start, QuickStart o WeatherBlocker en aleros y bordes laterales.",
+        "Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero se cubre con dos capas de GAF Roof Deck Protection; desde 4:12 basta una capa. Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
+        "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
+        "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
+      ],
+      "highlights": [
+        "La tecnología LayerLock une las capas y amplía el clavado",
+        "Resisten vientos de ciento treinta millas por hora",
+        "Los gránulos StainGuard frenan las manchas de alga",
+        "Clasificación al fuego Clase A, la más alta"
+      ]
     },
     "brakki-10pc": {
-      "title": "Paneles Metálicos Corrugados Pack 10",
-      "titleLead": "Paneles Metálicos Corrugados",
-      "titleAccent": "Pack 10",
-      "description": "Diez paneles de acero corrugado que cubren 75.3 pies cuadrados, con cincuenta tornillos incluidos."
+      "title": "Panel Max Rib Calibre 26",
+      "titleLead": "Panel Max Rib",
+      "titleAccent": "Calibre 26",
+      "description": "Paneles de acero nervado para techo y muro, de treinta y seis pulgadas de ancho y hasta cincuenta pies.",
+      "highlights": [
+        "Treinta y seis pulgadas de ancho útil con nervios de tres cuartos",
+        "Cortados a medida hasta cincuenta pies",
+        "Clasificación al fuego UL 263 clase A",
+        "Acabado Kynar 500 con garantía de pintura de cuarenta años"
+      ]
     },
     "brakki-stone-tiles": {
-      "title": "Tejas Metálicas con Granulado",
-      "titleLead": "Tejas Metálicas",
-      "titleAccent": "con Granulado",
-      "description": "Tejas de acero acabadas con granulado pétreo adherido, en cinco tonos del mismo perfil."
+      "title": "Teja DECRA",
+      "titleLead": "Teja",
+      "titleAccent": "DECRA",
+      "description": "Placa de acero con recubrimiento pétreo, veinte por cuadro, con garantía de viento de ciento veinte mph.",
+      "highlights": [
+        "Placa de acero con recubrimiento pétreo",
+        "Veinte placas cubren un cuadro",
+        "Garantía de viento de ciento veinte mph",
+        "Garantía limitada de por vida en viviendas unifamiliares"
+      ]
     },
     "brakki-insulated-panel": {
-      "title": "Panel de Teja Metálica Aislado",
-      "titleLead": "Panel de Teja Metálica",
-      "titleAccent": "Aislado",
-      "description": "Panel de acero con perfil de teja y núcleo de espuma rígida que aísla sobre estructura abierta."
+      "title": "Panel Aislado Isodomus",
+      "titleLead": "Panel Aislado",
+      "titleAccent": "Isodomus",
+      "description": "Panel sándwich aislante con cara prensada tipo teja y núcleo de poliuretano, de un metro de ancho.",
+      "highlights": [
+        "Cara de acero prensada con aspecto de teja",
+        "Núcleo de espuma de poliuretano aislante",
+        "Un metro de ancho útil",
+        "Para techos con pendiente mínima del siete por ciento"
+      ]
     },
     "certainteed-roofrunner": {
       "title": "Underlayment Sintético RoofRunner",
       "titleLead": "Underlayment Sintético",
       "titleAccent": "RoofRunner",
-      "description": "Rollo sintético reforzado que cubre diez cuadros, con superficie antideslizante para caminar seguro."
+      "description": "Rollo sintético reforzado que cubre diez cuadros, con superficie antideslizante para caminar seguro.",
+      "highlights": [
+        "Superficie antideslizante, incluso cuando está mojada",
+        "Rollo grande de cuatro por doscientos cincuenta pies",
+        "Resiste noventa días de exposición a los rayos UV",
+        "Cumple los requisitos físicos de ASTM D226 y D4869"
+      ]
     },
     "protect-a1": {
       "title": "Membrana de Techo Protect A1",
       "titleLead": "Membrana de Techo",
       "titleAccent": "Protect A1",
-      "description": "Membrana transpirable que deja secar el entablado mientras detiene la lluvia empujada por el viento."
+      "description": "Subcapa impermeable al vapor que mantiene el techo hermético y estanco bajo las tejas.",
+      "highlights": [
+        "Subcapa tipo HR con alta resistencia al vapor",
+        "No tejido de polipropileno recubierto con film de PP y PE",
+        "Estanqueidad clase W1 y uso sin límite ante succión del viento",
+        "Fabricada en Reino Unido y aprobada por BM TRADA"
+      ]
     },
     "exoperm-mono": {
       "title": "Membrana Transpirable Exoperm Mono 150",
       "titleLead": "Membrana Transpirable",
       "titleAccent": "Exoperm Mono 150",
-      "description": "Membrana monolítica muy abierta al vapor, con alta resistencia al desgarro y barrera hermética al aire."
+      "description": "Membrana monolítica muy abierta al vapor, con alta resistencia al desgarro y barrera hermética al aire.",
+      "highlights": [
+        "Tres capas con una capa funcional monolítica",
+        "Muy abierta al vapor y totalmente hermética al aire",
+        "Cuatro meses de resistencia UV en cubiertas",
+        "Trabaja de menos cuarenta a ochenta grados Celsius"
+      ]
     },
     "bmi-chova": {
       "title": "Membrana Autoprotegida Chova Politaber",
       "titleLead": "Membrana Autoprotegida",
       "titleAccent": "Chova Politaber",
-      "description": "Membrana SBS de aplicación con soplete y acabado mineral, en rollos que cubren diez metros cuadrados."
+      "description": "Membrana SBS de aplicación con soplete y acabado mineral, en rollos que cubren diez metros cuadrados.",
+      "highlights": [
+        "Armadura de fieltro de poliéster con cara superior de gránulo mineral",
+        "Lámina superior para sistemas bicapa expuestos a la intemperie",
+        "Cuatro kilos de betún modificado por metro cuadrado",
+        "Se mantiene flexible hasta quince grados bajo cero"
+      ]
     },
     "kovertech-gold": {
       "title": "Membrana de Aluminio KoverTech Gold",
       "titleLead": "Membrana de Aluminio",
       "titleAccent": "KoverTech Gold",
-      "description": "Membrana asfáltica con aluminio gofrado que refleja el calor y resiste el agrietamiento por frío."
+      "description": "Membrana asfáltica con aluminio gofrado que refleja el calor y resiste el agrietamiento por frío.",
+      "highlights": [
+        "Asfalto modificado con polímeros y alma de polietileno de alta densidad",
+        "Cara de aluminio gofrado que reduce la absorción solar",
+        "No se quiebra con las bajas temperaturas",
+        "Pensada para techos expuestos y no transitables"
+      ]
     },
     "ormiflex-profesional": {
       "title": "Membrana de Aluminio Ormiflex Profesional",
       "titleLead": "Membrana de Aluminio",
       "titleAccent": "Ormiflex Profesional",
-      "description": "Membrana asfáltica reforzada con cara de aluminio, que se extiende y sella con soplete en cubiertas planas."
+      "description": "Membrana asfáltica reforzada con cara de aluminio, que se extiende y sella con soplete en cubiertas planas.",
+      "highlights": [
+        "Foil de aluminio superior resistente a los rayos UV",
+        "Refuerzo central e inferior de polietileno",
+        "Apta para techos planos, curvos y de chapa",
+        "También sirve como barrera de vapor"
+      ]
     },
     "gaf-everguard-tpo-quick-spray-7792": {
       "title": "Adhesivo en Spray EverGuard TPO",
       "titleLead": "Adhesivo en Spray",
       "titleAccent": "EverGuard TPO",
-      "description": "Cilindro a presión que adhiere diez cuadros de membrana TPO, rociado directamente desde el tanque."
+      "description": "Cilindro a presión que adhiere diez cuadros de membrana TPO, rociado directamente desde el tanque.",
+      "highlights": [
+        "Adhesivo de contacto en spray a base de disolvente para TPO liso",
+        "Hasta diez cuadros de cobertura por cilindro",
+        "Se aplica desde veinte grados Fahrenheit en ascenso",
+        "Vida útil de dos años desde su fabricación"
+      ]
     },
     "gaf-olybond-500": {
       "title": "Kit de Adhesivo para Aislamiento OlyBond500",
-      "titleLead": "Kit de Adhesivo",
+      "titleLead": "Kit de Adhesivo para Aislamiento",
       "titleAccent": "OlyBond500",
-      "description": "Adhesivo de poliuretano de dos partes que pega los paneles de aislamiento al entablado sin tornillos."
+      "description": "Adhesivo de poliuretano de dos partes que pega los paneles de aislamiento al entablado sin tornillos.",
+      "highlights": [
+        "Cubre hasta treinta y cinco cuadros por juego",
+        "Se aplica de cuarenta a cien grados Fahrenheit",
+        "Incluye manguera de veinticinco pies y pistola",
+        "Adhiere poliiso, EPS, fibra de madera y la mayoría de tableros"
+      ]
     },
     "matrix-101": {
       "title": "Adhesivo SBS Premium Matrix 101",
       "titleLead": "Adhesivo SBS Premium",
       "titleAccent": "Matrix 101",
-      "description": "Adhesivo en frío de bajo olor para membranas modificadas, que cubre dos cuadros por cubeta."
+      "description": "Adhesivo en frío de bajo olor para membranas modificadas, que cubre de 2.4 a 3.2 cuadros por cubeta de 4.75 galones.",
+      "highlights": [
+        "Adhesivo en frío premium para asfalto modificado SBS",
+        "Pensado para zonas con fuerte succión del viento",
+        "Bajo olor y fácil de extender",
+        "Se aplica con pulverizador o llana dentada"
+      ]
+    },
+    "matrix-102": {
+      "title": "Adhesivo SBS para Membranas Matrix 102",
+      "titleLead": "Adhesivo SBS para Membranas",
+      "titleAccent": "Matrix 102",
+      "description": "Adhesivo reforzado con fibra que pega membranas modificadas en frío, sin necesidad de soplete.",
+      "highlights": [
+        "Adhesivo en frío para sistemas de asfalto modificado SBS",
+        "Reforzado con fibra y cauchutado",
+        "Fórmula de bajo olor",
+        "Se aplica con pulverizador o llana dentada"
+      ]
+    },
+    "gaf-everguard-1121": {
+      "title": "Adhesivo de Contacto EverGuard 1121",
+      "titleLead": "Adhesivo de Contacto",
+      "titleAccent": "EverGuard 1121",
+      "description": "Adhesivo con disolvente para membranas TPO lisas, con rendimiento de setenta pies cuadrados por galón.",
+      "highlights": [
+        "Adhesivo de contacto de uso general para membranas TPO",
+        "Adhiere de cincuenta a setenta pies cuadrados por galón",
+        "Aprobado por FM en los sistemas listados",
+        "Vida útil de un año desde su fabricación"
+      ]
     },
     "tac-203-premium-spray": {
       "title": "Adhesivo de Contacto en Spray TAC 203",
-      "titleLead": "Adhesivo de Contacto",
+      "titleLead": "Adhesivo de Contacto en Spray",
       "titleAccent": "TAC 203",
-      "description": "Adhesivo de contacto resistente al calor y de tiempo abierto largo, para tableros, metal y espuma."
-    },
-    "wpc-cladding-slats": {
-      "title": "Listones de Revestimiento WPC",
-      "titleLead": "Listones de Revestimiento",
-      "titleAccent": "WPC",
-      "description": "Paneles compuestos de listones con cámaras huecas, montados sobre muros y aleros sin necesidad de pintura."
+      "description": "Adhesivo de contacto resistente al calor y de tiempo abierto largo, para tableros, metal y espuma.",
+      "highlights": [
+        "Base de policloropreno con alta resistencia al calor",
+        "Pega metal, hormigón, madera, vidrio y espuma de uretano",
+        "Se pulveriza en ambas superficies para un pegado uniforme",
+        "Disponible en versión transparente y roja"
+      ]
     },
     "brakki-19pc": {
-      "title": "Paneles Metálicos Corrugados 19 Piezas",
-      "titleLead": "Paneles Metálicos Corrugados",
-      "titleAccent": "19 Piezas",
-      "description": "Paneles de acero corrugado con acabado duradero para una protección fuerte en todo clima."
+      "title": "Panel Max Rib Calibre 29",
+      "titleLead": "Panel Max Rib",
+      "titleAccent": "Calibre 29",
+      "description": "Panel de acero nervado de fijación vista, de treinta y seis pulgadas de ancho con nervios de tres cuartos.",
+      "highlights": [
+        "Treinta y seis pulgadas de ancho útil con nervios de tres cuartos",
+        "Hasta pendiente 1:12 con traslapes sellados",
+        "Clasificación UL 580 clase 90 y UL 2218 clase 4",
+        "Acabado Kynar 500 con garantía de pintura de cuarenta años"
+      ]
     },
     "brakki-20pc": {
-      "title": "Paneles Metálicos Tipo Teja 20 Piezas",
-      "titleLead": "Paneles Metálicos Tipo Teja",
+      "title": "Panel Met Tile 20 Piezas",
+      "titleLead": "Panel Met Tile",
       "titleAccent": "20 Piezas",
-      "description": "Paneles metálicos con estilo de teja clásica y la resistencia del acero."
+      "description": "Panel de acero Galvalume prensado con aspecto de teja de barro, acabado en Kynar 500 mate.",
+      "highlights": [
+        "Imita la teja de barro sin su peso",
+        "Acero Galvalume calibre veintiséis",
+        "Kynar 500 mate con acabado texturizado tipo estuco",
+        "Cortado de dos a veinte pies en pasos de un pie"
+      ]
     },
     "brakki-21pc": {
-      "title": "Paneles Metálicos Tipo Teja 21 Piezas",
-      "titleLead": "Paneles Metálicos Tipo Teja",
+      "title": "Panel Met Tile 21 Piezas",
+      "titleLead": "Panel Met Tile",
       "titleAccent": "21 Piezas",
-      "description": "Paneles tipo teja de mayor cobertura para instalaciones más rápidas en techos residenciales y comerciales."
+      "description": "Panel Met Tile con aspecto de teja, de treinta y seis pulgadas, que se instala rápido como sistema de paneles.",
+      "highlights": [
+        "Imita la teja de barro sin su peso",
+        "Se instala más rápido que las tejas sueltas",
+        "Kynar 500 mate con acabado texturizado tipo estuco",
+        "Hasta pendiente 1.5:12 con sellador"
+      ]
     },
     "dupont-tyvek-120": {
       "title": "Underlayment Tyvek Protec 120",
       "titleLead": "Underlayment",
       "titleAccent": "Tyvek Protec 120",
-      "description": "Underlayment sintético de alta tracción que protege el entablado de la humedad con paso seguro."
+      "description": "Underlayment sintético de alta tracción que protege el entablado de la humedad con paso seguro.",
+      "highlights": [
+        "Cuatro capas con una pisada líder en el sector",
+        "Admite hasta tres meses de exposición antes de cubrir",
+        "Clasificación al fuego Clase A según ASTM E108",
+        "Aprobado para la zona HVHZ de Florida y Miami Dade"
+      ]
     },
     "gcp-5003000": {
-      "title": "Underlayment Sintético Grace",
-      "titleLead": "Underlayment Sintético",
-      "titleAccent": "Grace",
-      "description": "Underlayment sintético ligero con excelente resistencia al desgarre y una barrera secundaria confiable."
+      "title": "Underlayment Autoadhesivo Grace Ultra",
+      "titleLead": "Underlayment Autoadhesivo",
+      "titleAccent": "Grace Ultra",
+      "description": "Underlayment autoadhesivo de butilo que se pega al tablero y resiste calor de hasta trescientos grados.",
+      "highlights": [
+        "Adhesivo de butilo puro sobre film laminado cruzado",
+        "Resiste temperaturas de hasta trescientos grados Fahrenheit",
+        "Apto bajo techos de cobre, zinc y acero corten",
+        "No dejar expuesto más de sesenta días"
+      ]
     },
     "gaf-everguard-wb181": {
       "title": "Adhesivo EverGuard WB181",
       "titleLead": "Adhesivo",
       "titleAccent": "EverGuard WB181",
-      "description": "Adhesivo base agua para membranas monocapa con buen agarre y fácil aplicación con rodillo."
+      "description": "Adhesivo base agua para membranas monocapa con buen agarre y fácil aplicación con rodillo.",
+      "highlights": [
+        "Acrílico al agua con muy bajo contenido de COV",
+        "Adhiere membranas TPO lisas y con respaldo de vellón",
+        "También adhiere membranas PVC con respaldo de vellón",
+        "Unos seiscientos pies cuadrados adheridos por cubeta"
+      ]
     },
     "gaf-778c": {
       "title": "Adhesivo PVC Quick Lay EverGuard",
       "titleLead": "Adhesivo PVC Quick Lay",
       "titleAccent": "EverGuard",
-      "description": "Adhesivo PVC de agarre rápido que une membranas EverGuard al entablado con una sujeción fuerte y duradera."
+      "description": "Adhesivo PVC de agarre rápido que une membranas EverGuard al entablado con una sujeción fuerte y duradera.",
+      "highlights": [
+        "Adhesivo al agua de una cara y colocación en húmedo",
+        "Hasta un cincuenta por ciento más rápido que los sistemas adheridos",
+        "Bajo COV y prácticamente sin olor",
+        "No apto para membranas EverGuard PVC KEE ni XK"
+      ]
     },
     "titebond-61001": {
       "title": "Sellador WeatherMaster para Metal",
       "titleLead": "Sellador WeatherMaster",
       "titleAccent": "para Metal",
-      "description": "Sellador para todo clima que se adhiere a metal, tapajuntas y molduras sin encoger ni agrietarse."
+      "description": "Sellador para todo clima que se adhiere a metal, tapajuntas y molduras sin encoger ni agrietarse.",
+      "highlights": [
+        "Adhiere a todos los metales, incluso los pintados con Kynar",
+        "Se adhiere a superficies mojadas y húmedas",
+        "Se puede pintar una hora después de aplicarlo",
+        "Cumple ASTM C920 tipo S, clase 50"
+      ]
     },
     "dewalt-dcs391": {
       "title": "Sierra Circular Inalámbrica 20V",
       "titleLead": "Sierra Circular Inalámbrica",
       "titleAccent": "20V",
-      "description": "Sierra circular inalámbrica compacta para cortes rápidos y precisos en entablado, molduras y paneles."
+      "description": "Sierra circular inalámbrica compacta para cortes rápidos y precisos en entablado, molduras y paneles.",
+      "highlights": [
+        "Incluye disco de seis pulgadas y media con punta de carburo",
+        "Motor de alta velocidad por encima de cinco mil RPM",
+        "Bisel de cero a cincuenta grados",
+        "Funciona con el sistema de baterías 20V MAX de DeWalt"
+      ]
     },
     "dewalt-dwht51002": {
-      "title": "Martillo de Uña 16 oz",
-      "titleLead": "Martillo de Uña",
+      "title": "Martillo de Uña Curva 16 oz",
+      "titleLead": "Martillo de Uña Curva",
       "titleAccent": "16 oz",
-      "description": "Martillo de uña forjado de una pieza con mango antivibración para comodidad todo el día."
+      "description": "Martillo de uña curva de acero en una pieza, con iniciador magnético y empuñadura antideslizante.",
+      "highlights": [
+        "Acero en una sola pieza con mango templado",
+        "Iniciador magnético para clavar con una mano",
+        "Empuñadura antideslizante cinco veces más duradera",
+        "Garantía limitada de por vida de DeWalt"
+      ]
     },
     "dewalt-dcm849": {
       "title": "Pulidora Rotativa Inalámbrica 20V",
       "titleLead": "Pulidora Rotativa Inalámbrica",
       "titleAccent": "20V",
-      "description": "Pulidora inalámbrica de velocidad variable para acabado y pulido de techado metálico y molduras."
+      "description": "Pulidora inalámbrica de velocidad variable para acabado y pulido de techado metálico y molduras.",
+      "highlights": [
+        "Motor sin escobillas para más autonomía",
+        "Gatillo de velocidad variable para un control total",
+        "Recubrimiento de goma que protege superficies y mejora el agarre",
+        "Se sujeta por la empuñadura frontal o el mango lateral"
+      ]
     },
     "dewalt-dcn681": {
-      "title": "Clavadora Inalámbrica 20V",
-      "titleLead": "Clavadora Inalámbrica",
+      "title": "Grapadora Inalámbrica 20V",
+      "titleLead": "Grapadora Inalámbrica",
       "titleAccent": "20V",
-      "description": "Clavadora a batería para fijación rápida y constante sin manguera ni compresor."
+      "description": "Grapadora a batería de corona estrecha calibre 18 para muebles, paneles y bajo piso, sin manguera.",
+      "highlights": [
+        "Motor sin escobillas que alarga la autonomía y la vida útil",
+        "Ajuste de profundidad sin herramientas para un avellanado preciso",
+        "Luces LED de iluminación y diagnóstico",
+        "Cargador inferior que facilita retirar atascos"
+      ]
     },
     "tolsen-25012": {
       "title": "Mazo con Mango de Fibra",
       "titleLead": "Mazo con Mango",
       "titleAccent": "de Fibra",
-      "description": "Mazo pesado con mango de fibra de vidrio para demolición y trabajos de arranque."
+      "description": "Mazo de mil quinientos gramos con mango de fibra de vidrio para demolición y trabajo con cincel.",
+      "highlights": [
+        "Cabeza templada de mil quinientos gramos",
+        "Cabeza con acabado pintado en negro",
+        "Mango de fibra de vidrio",
+        "Apto para demolición y trabajo con cincel"
+      ]
     },
     "tolsen-10243": {
-      "title": "Tijeras para Metal",
-      "titleLead": "Tijeras",
-      "titleAccent": "para Metal",
-      "description": "Tijeras de aviación afiladas para cortes limpios y controlados en paneles metálicos y tapajuntas."
+      "title": "Cortapernos de 18 Pulgadas",
+      "titleLead": "Cortapernos",
+      "titleAccent": "de 18 Pulgadas",
+      "description": "Cortapernos de acero al carbono con hoja pulida y mangos engomados para varillas y alambre.",
+      "highlights": [
+        "Hoja de acero al carbono con acabado pulido",
+        "Dieciocho pulgadas de largo total",
+        "Corta material de hasta siete milímetros",
+        "Mangos engomados"
+      ]
     },
     "supatool-20in": {
       "title": "Serrucho de 20 Pulgadas",
       "titleLead": "Serrucho",
       "titleAccent": "de 20 Pulgadas",
-      "description": "Serrucho de dientes templados para cortes rápidos en madera, entablado y molduras."
+      "description": "Serrucho de dientes templados para cortes rápidos en madera, entablado y molduras.",
+      "highlights": [
+        "Dentado universal de siete TPI para madera seca o húmeda",
+        "Corta tanto al empujar como al tirar",
+        "Hoja endurecida y templada",
+        "Garantía de dos años"
+      ]
     },
     "qualcraft-2560p": {
       "title": "Pala para Arranque de Techo",
       "titleLead": "Pala para Arranque",
       "titleAccent": "de Techo",
-      "description": "Pala dentada de arranque que levanta tejas y clavos rápido en trabajos de retiro."
+      "description": "Pala dentada de arranque que levanta tejas y clavos rápido en trabajos de retiro.",
+      "highlights": [
+        "Construcción de acero de cincuenta y cuatro pulgadas",
+        "Hoja inclinada con sacaclavos integrado",
+        "Arranca clavos de hasta 16d",
+        "Borde de trabajo templado"
+      ]
     },
     "dewalt-dcpr320": {
       "title": "Podadora Inalámbrica 20V",
       "titleLead": "Podadora Inalámbrica",
       "titleAccent": "20V",
-      "description": "Podadora a batería que hace cortes limpios y sin esfuerzo en ramas alrededor de la obra."
+      "description": "Podadora a batería que hace cortes limpios y sin esfuerzo en ramas alrededor de la obra.",
+      "highlights": [
+        "Hasta mil cien cortes por carga",
+        "Dieciséis veces menos esfuerzo que una podadora manual",
+        "LED integrado que ilumina las zonas oscuras",
+        "Hojas antiadherentes que se cambian con la llave incluida"
+      ]
     },
     "dewalt-dwht36225": {
       "title": "Cinta Métrica de 25 pies",
       "titleLead": "Cinta Métrica",
       "titleAccent": "de 25 pies",
-      "description": "Cinta métrica resistente de 25 pies con hoja de largo alcance y carcasa duradera ante impactos."
+      "description": "Cinta métrica resistente de 25 pies con hoja de largo alcance y carcasa duradera ante impactos.",
+      "highlights": [
+        "Trece pies de cinta recta sin doblarse",
+        "Nueve pulgadas de recubrimiento junto al gancho",
+        "Sigue funcionando tras una caída de sesenta pies",
+        "Protección integrada del botón de bloqueo ante caídas"
+      ]
     },
     "dewalt-dccs620": {
       "title": "Motosierra 20V de 12 Pulgadas",
       "titleLead": "Motosierra 20V",
       "titleAccent": "de 12 Pulgadas",
-      "description": "Motosierra inalámbrica de 12 pulgadas para desrame y limpieza rápida en la obra."
+      "description": "Motosierra inalámbrica de 12 pulgadas para desrame y limpieza rápida en la obra.",
+      "highlights": [
+        "Nueve libras con la batería puesta",
+        "Motor sin escobillas para más autonomía",
+        "Espada y cadena Oregon de bajo rebote",
+        "Tensado de cadena y ajuste de espada sin herramientas"
+      ]
     },
     "hxoutdoors-ft16c": {
       "title": "Hacha Táctica de Campo",
       "titleLead": "Hacha Táctica",
       "titleAccent": "de Campo",
-      "description": "Hacha táctica compacta con hoja de espiga completa y funda moldeada para cortar y partir."
+      "description": "Hacha táctica compacta con hoja de espiga completa y funda moldeada para cortar y partir.",
+      "highlights": [
+        "Espiga completa hasta la palanca",
+        "Cara de martillo y sacaclavos integrados",
+        "Mango de G10 que resiste la humedad",
+        "Incluye funda de Kydex"
+      ]
     },
     "dewalt-dwht10998": {
       "title": "Cúter Retráctil",
       "titleLead": "Cúter",
       "titleAccent": "Retráctil",
-      "description": "Cúter retráctil con almacenamiento de hojas integrado para cortes limpios y rápidos en el techo."
+      "description": "Cúter retráctil con almacenamiento de hojas integrado para cortes limpios y rápidos en el techo.",
+      "highlights": [
+        "Guarda hasta cinco cuchillas de repuesto en el mango",
+        "Cambio rápido de cuchilla",
+        "Cuchilla retráctil",
+        "Incluye dos cuchillas"
+      ]
     },
     "dewalt-dxst11000": {
-      "title": "Escalera de Marco Apilable",
-      "titleLead": "Escalera de Marco",
-      "titleAccent": "Apilable",
-      "description": "Escalera de marco resistente para acceso seguro y apoyo estable en la obra."
+      "title": "Escalera de Tijera de Aluminio",
+      "titleLead": "Escalera de Tijera",
+      "titleAccent": "de Aluminio",
+      "description": "Escalera de tijera de aluminio de cuatro pies, Tipo IA para trescientas libras.",
+      "highlights": [
+        "Tapa superior con imán y ranuras para herramientas",
+        "Bandeja para cubeta de cierre automático",
+        "Zapatas de aluminio antideslizantes",
+        "Peldaños con veinticinco por ciento más de superficie"
+      ]
     },
     "masterplug-ose15104g": {
       "title": "Carrete de Extensión Eléctrica",
       "titleLead": "Carrete de Extensión",
       "titleAccent": "Eléctrica",
-      "description": "Carrete de cable de alto rendimiento con varias salidas para energía en cualquier punto del techo."
+      "description": "Carrete de cable tipo casete con cuatro tomas con tierra, interruptor y protector de sobrecarga.",
+      "highlights": [
+        "Treinta pies de cable de alta visibilidad",
+        "Cuatro tomas con tierra y obturador",
+        "Protector de sobrecarga e interruptor",
+        "Manivela que recoge el cable en el carrete"
+      ]
     },
     "dewalt-dpg737": {
-      "title": "Guantes de Trabajo",
-      "titleLead": "Guantes",
+      "title": "Guantes Térmicos de Trabajo",
+      "titleLead": "Guantes Térmicos",
       "titleAccent": "de Trabajo",
-      "description": "Guantes transpirables con palmas reforzadas para agarre y protección en jornadas largas."
+      "description": "Guantes térmicos de doble capa, con forro cálido dentro de una carcasa de nailon para el frío.",
+      "highlights": [
+        "Sistema térmico de guante dentro de guante para el frío",
+        "Forro térmico dentro de una carcasa de nailon",
+        "Guante multiuso para tareas de obra",
+        "Se vende por par"
+      ]
     },
     "palmer-k111115": {
       "title": "Kit de Protección contra Caídas",
       "titleLead": "Kit de Protección",
       "titleAccent": "contra Caídas",
-      "description": "Kit completo de protección contra caídas con arnés, línea de vida y anclaje para trabajo en altura."
+      "description": "Kit anticaídas en bolsa con arnés de cinco puntos, línea de vida de cincuenta pies y anclaje.",
+      "highlights": [
+        "Arnés de cuerpo entero con cinco puntos de ajuste",
+        "Línea de vida vertical de cincuenta pies con mosquetón de seguro",
+        "Incluye anclaje reutilizable, gafas y guantes",
+        "Cumple las normas OSHA y ANSI Z359"
+      ]
     },
     "werner-6206": {
-      "title": "Tragaluz Fijo de Montaje",
-      "titleLead": "Tragaluz Fijo",
-      "titleAccent": "de Montaje",
-      "description": "Tragaluz fijo de montaje en entablado que aporta luz natural con sellado hermético."
+      "title": "Escotilla de Techo Type S",
+      "titleLead": "Escotilla de Techo",
+      "titleAccent": "Type S",
+      "description": "Escotilla de acceso por escalera de una hoja, con tapa aislada en fibra de vidrio sobre bastidor de doce pulgadas.",
+      "highlights": [
+        "Escotilla de una hoja para acceso por escalera",
+        "Tapa calculada para una carga viva de cuarenta psf",
+        "Tapa aislada con una pulgada de fibra de vidrio",
+        "Esquinas totalmente soldadas y estancas"
+      ]
     },
     "duration-designer-slatestone-grey": {
       "title": "Tejas Duration Designer Gris Pizarra",
       "titleLead": "Tejas Duration Designer",
       "titleAccent": "Gris Pizarra",
-      "description": "Tejas arquitectónicas con banda SureNail que refuerza la zona de clavado frente al viento fuerte."
+      "description": "Tejas arquitectónicas con banda SureNail que refuerza la zona de clavado frente al viento fuerte.",
+      "about": [
+        "Duration Designer (Owens Corning) es una teja arquitectónica de la serie TruDefinition Duration, aquí en el color Slatestone Grey. Su tecnología patentada SureNail es la única zona de clavado reforzada en la cara de una teja: una banda de tejido técnico que cubre sus dos capas y da triple capa de protección frente al arranque de clavos y una unión entre capas hasta un 200% más ancha en la zona de clavado que en las tejas comunes. El sellador asfáltico exclusivo Tru Bond fija cada hilada.",
+        "Cada teja tiene un tamaño nominal de 13 1/4 x 39 3/8 in y una exposición de 5 5/8 in. Un square lleva 64 tejas en 3 paquetes y cubre 98.4 sq ft. La protección StreakGuard incorpora gránulos con recubrimiento de cobre desarrollados por 3M para ayudar a frenar las algas verdiazules, y las tejas de limatesa y cumbrera de Owens Corning vienen en los mismos colores Designer.",
+        "Se usan clavos de acero galvanizado, acero inoxidable o aluminio con caña mínima de calibre 12 y cabeza de 3/8 in, colocados dentro de la zona de clavado SureNail y hundidos al menos 3/4 in en el tablero de madera o atravesándolo 1/4 in, preferiblemente conformes a ASTM F1667. El tablero puede ser de tablas de 6 in, contrachapado de 3/8 in u OSB de 7/16 in. En pendientes de 4:12 o más se usa el underlayment sintético de Owens Corning o uno que cumpla ASTM D8257; en pendientes bajas de 2:12 a menos de 4:12 se requieren dos capas.",
+        "Con pendientes de más de 60 grados (21 in por pie) cada teja lleva seis clavos y cuatro puntos de cemento asfáltico. Los paquetes se almacenan planos, bajo techo y ventilados a menos de 110°F, con especial cuidado por debajo de 40°F. Normas: ASTM D228, ASTM D3018 Tipo I, viento ASTM D3161 Clase F, ASTM D3462, ASTM D7158, fuego Clase A según ASTM E108 y UL 790, impacto Clase 3 según UL 2218 y FM 4473, ICC ES AC438, CSA A123.5, Aprobación de Producto de Florida y aprobación de producto de Miami Dade.",
+        "Garantía: limitada de por vida. La cobertura de viento llega hasta 160 mph cuando se cumplen los requisitos de componentes de Owens Corning y se instalan tejas de arranque tanto en aleros como en bordes laterales. La cobertura de 25 años contra algas, vigente desde el 1 de enero de 2024, requiere un producto de limatesa y cumbrera aprobado de Owens Corning. La clasificación de impacto Clase 3 proviene de ensayos de laboratorio; los daños por granizo quedan excluidos de la garantía."
+      ],
+      "highlights": [
+        "La banda SureNail refuerza toda la zona de clavado",
+        "Resisten vientos de ciento treinta millas por hora",
+        "Los gránulos StreakGuard frenan el alga de la cubierta",
+        "Triple capa de protección justo donde entra el clavo"
+      ]
     },
     "steeldash-snap-lock-slate-gray": {
       "title": "Panel de Junta Alzada Snap Lock",
       "titleLead": "Panel de Junta Alzada",
       "titleAccent": "Snap Lock",
-      "description": "Panel de acero con clips ocultos, dieciséis pulgadas de cubrición y junta alzada a presión."
+      "description": "Panel de acero con clips ocultos, dieciséis pulgadas de cubrición y junta alzada a presión.",
+      "highlights": [
+        "Acero calibre veinticuatro con fijaciones ocultas",
+        "Dieciséis pulgadas de ancho útil y junta de una pulgada",
+        "Cortado a medida desde uno hasta cuarenta pies",
+        "Pintura con cuarenta años contra pelado y treinta contra decoloración"
+      ]
     },
     "gibraltar-cf5g-26": {
       "title": "Contrababero de Acero Galvanizado",
       "titleLead": "Contrababero",
       "titleAccent": "de Acero Galvanizado",
-      "description": "Tira galvanizada de diez pies que remata el babero escalonado de chimeneas y muros laterales."
+      "description": "Tira galvanizada de diez pies que remata el babero escalonado de chimeneas y muros laterales.",
+      "highlights": [
+        "Acero galvanizado desnudo calibre veintiséis",
+        "Protege los tapajuntas escalonados en la base de la chimenea",
+        "El borde superior entra en una roza cortada en la mampostería",
+        "No apto en contacto directo con madera tratada"
+      ]
     },
     "drexel-econo-coping": {
       "title": "Remate de Peto Econo Coping",
       "titleLead": "Remate de Peto",
       "titleAccent": "Econo Coping",
-      "description": "Albardilla de dos piezas que une una grapa continua con una tapa de fascia encajada."
+      "description": "Albardilla de dos piezas que une una grapa continua con una tapa de fascia encajada.",
+      "highlights": [
+        "Sistema de dos piezas con clip continuo preperforado",
+        "Certificado según la norma de bordes ANSI SPRI ES-1",
+        "Garantía de viento de noventa mph durante veinte años",
+        "Tapa de aluminio Kynar 500 o de acero Galvalume"
+      ]
+    },
+    "broan-634": {
+      "title": "Sombrerete de Cubierta en Acero Negro",
+      "titleLead": "Sombrerete de Cubierta",
+      "titleAccent": "en Acero Negro",
+      "description": "Sombrerete de acero con compuerta antirretorno y malla antiaves, para conducto de 3 1/4 x 10 in o redondo de hasta 8 in.",
+      "highlights": [
+        "Compuerta antirretorno integrada",
+        "Malla que impide el paso de aves y animales pequeños",
+        "Acero con acabado en pintura en polvo negra",
+        "Para conductos rectangulares o redondos de hasta ocho pulgadas"
+      ]
+    },
+    "master-flow-egv6ht": {
+      "title": "Extractor de Ático para Hastial",
+      "titleLead": "Extractor de Ático",
+      "titleAccent": "para Hastial",
+      "description": "Mil seiscientos pies cúbicos por minuto tras la celosía del hastial, con termostato regulable.",
+      "highlights": [
+        "Control combinado de humedad y temperatura",
+        "Motor PSC de bajo consumo",
+        "Construcción metálica resistente al óxido",
+        "Certificación UL en Estados Unidos y Canadá"
+      ]
+    },
+    "master-flow-prsolar2": {
+      "title": "Extractor Solar de Perfil Bajo",
+      "titleLead": "Extractor Solar",
+      "titleAccent": "de Perfil Bajo",
+      "description": "Panel de treinta y cinco vatios que mueve la extracción sin tirar cable hasta la cubierta.",
+      "highlights": [
+        "Motor sin escobillas que no necesita mantenimiento",
+        "Supera el ensayo climático TAS 100(A)",
+        "Aprobación de producto del condado de Miami Dade",
+        "Para pendientes de 2:12 a 12:12"
+      ]
+    },
+    "master-flow-ssb960a": {
+      "title": "Celosía Estática de Cubierta",
+      "titleLead": "Celosía Estática",
+      "titleAccent": "de Cubierta",
+      "description": "Sesenta pulgadas cuadradas de área libre en capota de aluminio, pensada para pendientes fuertes.",
+      "highlights": [
+        "Sesenta pulgadas cuadradas de área libre",
+        "Malla interna contra intemperie y brasas",
+        "Supera el ensayo de lluvia con viento de 110 mph",
+        "Campana cerrada contra roedores, insectos y hojas"
+      ]
+    },
+    "suntek-cma1919": {
+      "title": "Lucernario de Cúpula CMA sobre Zócalo de Aluminio",
+      "titleLead": "Lucernario de Cúpula CMA",
+      "titleAccent": "sobre Zócalo de Aluminio",
+      "description": "Lucernario de doble cúpula de policarbonato con remate de aluminio, sobre bastidor hecho en obra.",
+      "highlights": [
+        "Cubre un bastidor de obra con un sellado estanco",
+        "Aislamiento de doble cúpula con esquinas soldadas TIG",
+        "Policarbonato coextruido con protección UV",
+        "Apto para cualquier techo, incluso metálico"
+      ]
     },
     "steeldash-tube-14ga-2in": {
       "title": "Tubo Cuadrado Galvanizado",
       "titleLead": "Tubo Cuadrado",
       "titleAccent": "Galvanizado",
-      "description": "Perfil cuadrado de acero grueso en tramos largos, para estructuras de cubierta y soportes metálicos."
+      "description": "Perfil cuadrado de acero grueso en tramos largos, para estructuras de cubierta y soportes metálicos.",
+      "highlights": [
+        "Sección cuadrada de dos por dos pulgadas",
+        "Pared de acero calibre catorce",
+        "Recubrimiento galvanizado contra el óxido",
+        "Se suministra en tramos de veinticuatro pies"
+      ]
+    },
+    "gibraltar-08328": {
+      "title": "Goterón Blanco Gofrado",
+      "titleLead": "Goterón Blanco",
+      "titleAccent": "Gofrado",
+      "description": "Tira de borde blanca gofrada que aleja el agua de la fascia y el entablado.",
+      "highlights": [
+        "Acero galvanizado con acabado blanco gofrado",
+        "Alas de una pulgada y siete octavos cada una",
+        "Se vende en tramos de diez pies",
+        "Aleja el agua de la fascia y del entablado"
+      ]
+    },
+    "amerimax-5612400120": {
+      "title": "Limahoya en W Galvanizada",
+      "titleLead": "Limahoya en W",
+      "titleAccent": "Galvanizada",
+      "description": "Canal de acero con nervio central y bordes engatillados, para las limahoyas de la cubierta.",
+      "highlights": [
+        "Perfil en W con nervio central para limahoyas",
+        "Acero galvanizado de acabado natural que resiste el óxido",
+        "Bordes rebordeados para más resistencia y manejo seguro",
+        "Dieciocho pulgadas de ancho y diez pies de largo"
+      ]
+    },
+    "oatey-11872": {
+      "title": "Pasatubos de Ventilación No Calk",
+      "titleLead": "Pasatubos de Ventilación",
+      "titleAccent": "No Calk",
+      "description": "Collarín autosellante sobre base de acero galvanizado para tubo de ventilación de tres pulgadas.",
+      "highlights": [
+        "El collarín sella el tubo sin necesidad de masilla",
+        "Base de acero galvanizado resistente al óxido",
+        "Sella ventilaciones en techos residenciales y comerciales",
+        "Se desliza sobre el tubo y va bajo las tejas"
+      ]
+    },
+    "gibraltar-987641": {
+      "title": "Remate de Aguilón Galvalume",
+      "titleLead": "Remate de Aguilón",
+      "titleAccent": "Galvalume",
+      "description": "Remate de galvalume en tono pizarra que cierra el borde de aguilón de la cubierta.",
+      "highlights": [
+        "Remate de acero Galvalume en acabado pizarra",
+        "Cierra el borde del hastial sobre paneles metálicos",
+        "Perfil de dos pulgadas en tramos de diez pies",
+        "Combina con los remates de alero y cumbrera pizarra"
+      ]
+    },
+    "master-flow-gic12": {
+      "title": "Extractor Eólico de Cubierta",
+      "titleLead": "Extractor Eólico",
+      "titleAccent": "de Cubierta",
+      "description": "Cabezal de doble rodamiento con refuerzo interno que extrae el aire caliente del ático.",
+      "highlights": [
+        "Cabezal de turbina galvanizado de doce pulgadas",
+        "Sistema de doble rodamiento de acero inoxidable",
+        "Refuerzo interno para mayor resistencia",
+        "Base ajustable para pendientes de 2:12 a 12:12"
+      ]
+    },
+    "trapezoidal-panel-closure": {
+      "title": "Cierre para Panel Trapezoidal",
+      "titleLead": "Cierre para Panel",
+      "titleAccent": "Trapezoidal",
+      "description": "Tira de espuma con el perfil MasterRib que impide el paso de insectos y agua por las ondas.",
+      "highlights": [
+        "Reverso autoadhesivo que se pega a la onda del panel",
+        "Sigue las ondas interiores del panel MasterRib",
+        "Treinta y seis pulgadas de largo y una de ancho",
+        "Espuma gris que frena insectos y agua"
+      ]
+    },
+    "malarkey-smart-start": {
+      "title": "Tejas de Arranque Smart Start",
+      "titleLead": "Tejas de Arranque",
+      "titleAccent": "Smart Start",
+      "description": "Teja de arranque de asfalto modificado NEX, perforada en dos tiras, que sella la primera hilada.",
+      "about": [
+        "Smart Start (código Malarkey 210) es una teja de arranque de asfalto modificado con polímero NEX para techos residenciales de pendiente pronunciada. Se fabrica sobre un manto de fibra de vidrio no tejido, recubierto por ambas caras con betún modificado con polímero NEX mezclado con un estabilizador mineral ignífugo, y con acabado de gránulo mineral. Malarkey exige Smart Start, o un equivalente conforme a ASTM D3462, bajo todas sus tejas, incluida Windsor, y la recomienda también en los bordes laterales.",
+        "Cada teja completa mide 16 3/8 x 38 1/4 in (416 x 972 mm). Una perforación central, a 8 3/16 in (208 mm) de cada borde, la divide a lo largo en dos piezas de arranque conformes al código de 8 3/16 x 38 1/4 in (208 x 972 mm), cada una con su propia banda sellante de fábrica, para exposiciones de hasta 6 3/16 in. Un paquete trae 18 tejas completas (36 piezas) y cubre 114 ft 9 in (35 m); un palé lleva 21 paquetes. La adherencia típica del gránulo es de 0.3 g.",
+        "El arranque se coloca con la banda sellante junto al borde del techo, sobresaliendo del alero y del borde lateral entre 1/4 y 3/4 in (6 a 19 mm); en techos de teja 3 tab o laminada se cortan 6 in (152 mm) del lado izquierdo de la primera pieza para desfasar las juntas. Cada pieza se fija con cuatro clavos a 1 1/2 a 3 in (38 a 76 mm) del alero, uno a 1 in (25 mm) de cada extremo y dos repartidos entre ellos, nunca sobre la banda sellante. Con pendientes de más de 21 in por cada 12 in se usan seis clavos. Las piezas se juntan sin forzar para evitar abombamientos.",
+        "Los clavos deben tener una cabeza de al menos 3/8 in (10 mm) y quedar al ras, sin hundirse de más, quedarse cortos ni entrar inclinados; no se permiten grapas. No debe usarse en pendientes menores de 2:12 (2 in por cada 12 in). Se almacena en un lugar fresco, seco y ventilado, sin apilar palés. Está probada según ASTM D3462, ASTM D3161 Clase F de resistencia al viento y ASTM E108 Clase A de fuego.",
+        "Smart Start entra en la cobertura de la garantía limitada de por vida cuando se instala con tejas Malarkey y otro accesorio Malarkey; las condiciones completas y cualquier requisito adicional para coberturas específicas están en la garantía de tejas y accesorios de Malarkey."
+      ],
+      "highlights": [
+        "Perforada para separarse en dos tiras de arranque",
+        "La banda de sellado fija la primera hilada",
+        "Obligatoria en el alero bajo las tejas Malarkey",
+        "Cobertura de por vida con tejas Malarkey y otro accesorio"
+      ]
+    },
+    "landmark-weathered-wood": {
+      "title": "Tejas Landmark Madera Envejecida",
+      "titleLead": "Tejas Landmark",
+      "titleAccent": "Madera Envejecida",
+      "description": "Laminada de doble capa con faldón en rombo, que cubre treinta y tres pies cuadrados.",
+      "about": [
+        "Landmark (CertainTeed) es una teja arquitectónica laminada, aquí en el color Weathered Wood. Se construye sobre una base de manto de fibra de vidrio con gránulos minerales con recubrimiento cerámico incrustados en asfalto refinado resistente al agua; dos piezas se laminan con un cemento asfáltico resistente, y cada teja lleva bandas autoadhesivas y la guía de clavado NailTrak. La versión resistente a algas (AR) ayuda a evitar las manchas oscuras de las algas verdiazules (Gloeocapsa magma); la versión AR no está disponible en todas las regiones.",
+        "Cada teja mide 13 1/4 x 38 3/4 in con una exposición de 5 5/8 in. Un square lleva 65 tejas en 3 paquetes, cubre aproximadamente 98.4 sq ft y pesa de 211 a 225 lb según la planta de fabricación.",
+        "Se usa en pendientes mayores de 2 in por pie; en pendiente baja, de 2:12 a menos de 4:12, requiere underlayment adicional, y donde el hielo puede acumularse en el alero CertainTeed indica el underlayment impermeable WinterGuard o uno equivalente. Las instrucciones de instalación vienen impresas en cada paquete. Las limatesas y cumbreras se rematan con Shadow Ridge, Cedar Crest o Mountain Ridge del mismo color. No requiere mantenimiento si se instala según CertainTeed, aunque conviene inspeccionar el techo al menos una vez al año.",
+        "Normas: ASTM D3018 Tipo I, ASTM D3462, viento ASTM D3161 Clase F y ASTM D7158 Clase H, fuego Clase A según ASTM E108 y UL 790, impacto UL 2218 Clase 3, informes ICC Evaluation Service ESR 1389 y ESR 3537, CSA A123.5 (regional), Aprobación de Producto de Florida FL5444, aprobación del Control de Productos de Miami Dade (regional) y requisitos de viento del Departamento de Seguros de Texas.",
+        "Garantía: limitada de por vida y transferible contra defectos de fabricación, con hasta 10 años de protección SureStart; las tejas AR suman 25 años de garantía contra algas si se instalan con las cumbreras CertainTeed indicadas. La cobertura estándar de viento es de 110 mph durante 15 años, ampliable a 160 mph con cumbreras CertainTeed y arranque SwiftStart, SwiftStart SA o High Performance Starter en aleros y bordes laterales; no se permite instalar sobre tejas existentes. En Florida se puede omitir el arranque del borde lateral si las tejas se asientan en un cordón de cemento asfáltico de 4 in de ancho según el código de construcción. Instalado como parte de un Integrity Roof System, el techo accede a cobertura de viento sin límite de velocidad."
+      ],
+      "highlights": [
+        "Dos capas de fibra de vidrio dan profundidad real",
+        "Cubiertas ante vientos de ciento diez millas por hora",
+        "Gránulos antialga que mantienen el color limpio más tiempo",
+        "Garantía limitada de por vida con diez años SureStart"
+      ]
+    },
+    "dynasty-emerald-green": {
+      "title": "Tejas Dynasty Verde Esmeralda",
+      "titleLead": "Tejas Dynasty",
+      "titleAccent": "Verde Esmeralda",
+      "description": "Tejas laminadas con banda de clavado ArmourZone reforzada, resistentes al viento fuerte.",
+      "about": [
+        "Dynasty (IKO) es una teja laminada de alto peso, aquí en el color Emerald Green, fabricada sobre un manto de fibra de vidrio no tejido y dimensionalmente estable, totalmente impregnado con betún impermeabilizante estabilizado. Tiene aspecto de tablilla irregular con sombreado de doble banda de alto contraste, gránulos cerámicos de color en la cara superior de ambas capas para proteger el asfalto de la radiación ultravioleta, cinta antiadherente y polvo mineral en la cara inferior, y gránulos inhibidores de algas para una resistencia duradera.",
+        "Cada teja mide 40 7/8 x 13 3/4 in (1,038 x 349 mm) con una exposición de 5 7/8 in (149 mm) y un solape superior de 2 in (50 mm). Un paquete trae 20 tejas y cubre 33.3 sq ft (3.1 m²); un palé de 40 x 53 in lleva 56 paquetes. La zona de clavado ArmourZone es más ancha para instalar más rápido y va reforzada con cinta ArmourZone en el reverso para proteger mejor frente al viento, y un sellador activado por calor une cada hilada.",
+        "Es apta para pendientes mayores de 4:12, con underlayment muy recomendado por debajo de 6:12. También puede aplicarse en pendientes bajas de 2:12 a 4:12 si el tablero se cubre con dos capas de fieltro o una capa de IKO Ice and Water Protector. Se instala con clavos de techar, nunca con grapas, tal como indica el envoltorio del paquete, con tejas de arranque IKO en los aleros; en Dynasty no se exige arranque en los bordes laterales. Las limatesas y cumbreras se rematan con una teja de cumbrera aprobada por IKO, como Marathon Plus AR o IKO UltraHP.",
+        "Resultados de ensayo: resistencia al desgarro conforme a ASTM D1922 (mínimo 1,700 g); peso de betún estabilizado conforme a ASTM D228 (mínimo 41 lb por 100 sq ft, o 2,000 g/m²); retención de gránulos conforme a ASTM D4977 (mínimo 86%); resistencia al calor sin deslizamiento ni goteo tras 2 horas a 192°F (90°C). Cumple CSA A123.5, ASTM D3018, ASTM E108 Clase A, ASTM D3462, ASTM D3161 Clase F y ASTM D7158 Clase H y tiene clasificación de impacto Clase 3.",
+        "Garantía: limitada de por vida, con protección Iron Clad sin prorrateo durante los primeros 180 meses (15 años) y cobertura prorrateada después. En esos mismos 15 años cubre la voladura por ráfagas de viento de hasta 130 mph, siempre que se haya clavado según el envoltorio y la teja haya sellado o se haya sellado a mano; en Florida no se exige el sellado manual. La garantía contra algas es de 120 meses (10 años)."
+      ],
+      "highlights": [
+        "La banda ArmourZone da una zona de clavado más ancha",
+        "Clasificación de impacto clase tres que aguanta el granizo",
+        "Resisten vientos de ciento treinta millas por hora",
+        "Cobertura limitada de por vida con quince años Iron Clad"
+      ]
+    },
+    "brakki-22pc": {
+      "title": "Panel Max Rib Galvalume sin Pintar",
+      "titleLead": "Panel Max Rib",
+      "titleAccent": "Galvalume sin Pintar",
+      "description": "Panel Max Rib en Galvalume sin pintar, de treinta y seis pulgadas, para techos y muros sobre tablero o estructura abierta.",
+      "highlights": [
+        "Treinta y seis pulgadas de ancho útil con nervios de tres cuartos",
+        "Hasta pendiente 1:12 con traslapes sellados",
+        "Clasificación UL 580 clase 90 y UL 2218 clase 4",
+        "Se instala sobre tablero o estructura abierta"
+      ]
+    },
+    "steeldash-snap-lock-ash-gray": {
+      "title": "Panel Estriado Gris Ceniza",
+      "titleLead": "Panel Estriado",
+      "titleAccent": "Gris Ceniza",
+      "description": "Panel de junta a presión con faldón estriado que disimula el abombado en tramos largos.",
+      "highlights": [
+        "Acero calibre veinticuatro con fijaciones ocultas",
+        "Dieciséis pulgadas de ancho útil y junta de una pulgada",
+        "Bandeja lisa de serie, estriada bajo pedido",
+        "Pintura con cuarenta años contra pelado y treinta contra decoloración"
+      ]
+    },
+    "gibraltar-987642": {
+      "title": "Cumbrera RC2 Pizarra",
+      "titleLead": "Cumbrera RC2",
+      "titleAccent": "Pizarra",
+      "description": "Remate angular de galvalume que cierra el caballete donde se juntan dos faldones metálicos.",
+      "highlights": [
+        "Cubre las limatesas y la cumbrera del techo",
+        "Sirve para techos de tejas o metálicos",
+        "Perfil de dos pulgadas en tramos de diez pies",
+        "Acabado pizarra a juego con los remates de alero y hastial"
+      ]
+    },
+    "grip-rite-rrp1010hem": {
+      "title": "Cumbrera Redonda Engatillada",
+      "titleLead": "Cumbrera Redonda",
+      "titleAccent": "Engatillada",
+      "description": "Cumbrera semicircular galvanizada con bordes engatillados, de diez pies para techos metálicos.",
+      "highlights": [
+        "Acero galvanizado resistente a la corrosión",
+        "Diez pies de largo y doce pulgadas de ancho",
+        "La parte redonda desvía el agua de la cumbrera",
+        "Pensada para cumbreras de techos metálicos"
+      ]
+    },
+    "vevor-chimney-cap-6in": {
+      "title": "Caperuza de Chimenea Inoxidable",
+      "titleLead": "Caperuza de Chimenea",
+      "titleAccent": "Inoxidable",
+      "description": "Sombrerete con lamas que impide la entrada de lluvia sin cortar el tiro del conducto.",
+      "highlights": [
+        "Fabricado en acero inoxidable 304",
+        "Resiste el óxido mejor que el acero galvanizado",
+        "Tapa superior de casi doce pulgadas",
+        "Para chimenea redonda de seis pulgadas"
+      ]
+    },
+    "bp-suredeck": {
+      "title": "Underlayment Sintético SureDeck",
+      "titleLead": "Underlayment Sintético",
+      "titleAccent": "SureDeck",
+      "description": "Rollo de polipropileno tejido y recubierto que cubre mil pies cuadrados, con cara antideslizante.",
+      "highlights": [
+        "Polipropileno tejido recubierto por ambas caras",
+        "Superficie texturizada antideslizante para pisar seguro",
+        "Puede quedar expuesto hasta seis meses",
+        "Apto para pendientes desde tres en doce"
+      ]
     }
   }
 }
