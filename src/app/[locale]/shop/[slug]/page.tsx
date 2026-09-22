@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { routeMetadata } from "@/i18n/metadata";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { pageHeaderData } from "@/data/shared-sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ProductDetail } from "@/features/shop/components/organisms/ProductDetail";
 import { RelatedProducts } from "@/features/shop/components/organisms/RelatedProducts";
@@ -42,16 +43,17 @@ export default async function ProductDetailPage({ params }: Props) {
   const product = items.find((item) => item.slug === slug);
   if (!product) notFound();
 
-  const t = await getTranslations("shop-page");
+  const t = await getTranslations("page-header.pages.shop");
 
   return (
     <>
+      {/* shop hero verbatim, only the ghost CTA swaps to a way back to the catalog */}
       <PageHeader
         image="shop"
-        titleLead={t(`catalog.${product.slug}.titleLead`)}
-        titleAccent={t(`catalog.${product.slug}.titleAccent`)}
+        titleLead={t(pageHeaderData.titleLeadKey)}
+        titleAccent={t(pageHeaderData.titleAccentKey)}
+        description={t(pageHeaderData.descriptionKey)}
         secondaryCta="shop"
-        description={t(`catalog.${product.slug}.description`)}
       />
       <Marquee />
       <ProductDetail slug={slug} />

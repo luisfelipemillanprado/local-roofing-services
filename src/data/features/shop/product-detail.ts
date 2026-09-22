@@ -1,16 +1,20 @@
-/* Shop product-detail scaffold: PLACEHOLDER values shared by every product.
-   Replace with real per-product data later (gallery/colors/sizes/sku/tags). */
+import { company } from "@/data/site";
+
+/* Shop product-detail scaffold: shared CTAs and panels.
+   Per-product specs, SKU, warranty and extra gallery shots are still pending. */
 export const productDetailData = {
-  /* CTAs (placeholder targets) */
-  buyNowHref: { key: "detail.action.buyNow", href: "#contact" },
-  addToCartHref: { key: "detail.action.addToCart", href: "#contact" },
-  /* swatches: hex only (placeholder) */
-  colors: [
-    { key: "natural", hex: "#d9d4c7" },
-    { key: "slate", hex: "#5b6470" },
-    { key: "charcoal", hex: "#2f3338" },
-  ],
-  sizes: ["XS", "S", "M", "L", "XL", "XLL"],
-  sku: "GHF19S245AAA",
-  tabs: ["details", "reviews", "shipping"],
+  /* quote lands on the contact form; call dials the listed number */
+  quoteCta: { key: "action.quote", href: "#contact" },
+  callCta: { key: "action.call", href: company.phoneHref },
+  /* installation upsell routes into the same contact form */
+  installCta: { key: "detail.install.cta", href: "#contact" },
+  /* trust rows: one copy group per key, icons live in the panel */
+  trust: ["materials", "brands", "installation", "warranty"],
+  /* image viewer control labels by key */
+  viewer: {
+    zoom: "detail.viewImage",
+    close: "detail.close",
+    previous: "detail.previous",
+    next: "detail.next",
+  },
 } as const;
