@@ -23,6 +23,10 @@ import {
   Layers,
   Gem,
   BadgeDollarSign,
+  PackageCheck,
+  Stamp,
+  Drill,
+  FileCheck,
   type LucideIcon,
 } from "lucide-react";
 import type { IconBadgeKey, IconBadgeProps, IconBadgeSize, IconBadgeTone } from "@/common/icon-badge/types";
@@ -53,6 +57,10 @@ const ICONS: Record<IconBadgeKey, LucideIcon> = {
   layers: Layers,
   gem: Gem,
   dollar: BadgeDollarSign,
+  package: PackageCheck,
+  stamp: Stamp,
+  drill: Drill,
+  fileCheck: FileCheck,
 };
 
 /* chip box size per tier */

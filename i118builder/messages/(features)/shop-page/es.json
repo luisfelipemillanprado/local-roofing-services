@@ -1,8 +1,7 @@
 {
   "action": {
     "quote": "Solicitar Cotización",
-    "view": "Ver Producto",
-    "call": "Llámanos"
+    "view": "Ver Producto"
   },
   "search": {
     "label": "Buscar Productos",
@@ -67,32 +66,38 @@
     "close": "Cerrar",
     "previous": "Imagen Anterior",
     "next": "Imagen Siguiente",
-    "breadcrumb": {
-      "label": "Ruta de navegación",
-      "home": "Inicio",
-      "shop": "Tienda"
-    },
-    "install": {
-      "title": "¿Necesitas Instalación Profesional?",
-      "description": "Nuestro equipo certificado puede montarlo dentro de tu proyecto de cubierta.",
-      "cta": "Presupuestar Instalación"
-    },
     "trust": {
       "materials": {
         "title": "Materiales Profesionales",
-        "description": "Elegidos por su durabilidad y rendimiento real"
+        "description": "Elegimos cada artículo por cómo aguanta en un techo real y exigente.",
+        "highlights": {
+          "label": "ELEGIDOS",
+          "accent": "UNO A UNO"
+        }
       },
       "brands": {
         "title": "Marcas Confiables",
-        "description": "Solo trabajamos marcas líderes del sector techado"
+        "description": "Trabajamos cinco fabricantes: GAF, CertainTeed, Owens Corning, IKO y Malarkey, todos reconocidos.",
+        "highlights": {
+          "label": "CINCO",
+          "accent": "FABRICANTES"
+        }
       },
       "installation": {
         "title": "Instalación Experta",
-        "description": "Equipos certificados y listos para montarlo correctamente"
+        "description": "Equipos certificados instalan lo que compras siguiendo las instrucciones exactas del fabricante.",
+        "highlights": {
+          "label": "EQUIPOS",
+          "accent": "CERTIFICADOS"
+        }
       },
       "warranty": {
         "title": "Garantía de Fábrica",
-        "description": "Cada artículo respaldado por su propio fabricante"
+        "description": "Cada producto lleva la cobertura que publica su fabricante, y la explicamos.",
+        "highlights": {
+          "label": "RESPALDO",
+          "accent": "FÁBRICA"
+        }
       }
     },
     "spec": {
@@ -216,12 +221,6 @@
         "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
       ],
-      "highlights": [
-        "La tecnología LayerLock une las capas y amplía el clavado",
-        "Resisten vientos de ciento treinta millas por hora",
-        "Los gránulos StainGuard frenan las manchas de alga",
-        "Clasificación al fuego Clase A, la más alta"
-      ],
       "features": {
         "install": [
           "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
@@ -251,12 +250,6 @@
         "Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero se cubre con dos capas de GAF Roof Deck Protection; desde 4:12 basta una capa. Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
         "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
-      ],
-      "highlights": [
-        "La tecnología LayerLock une las capas y amplía el clavado",
-        "Resisten vientos de ciento treinta millas por hora",
-        "Los gránulos StainGuard frenan las manchas de alga",
-        "Clasificación al fuego Clase A, la más alta"
       ],
       "features": {
         "install": [
@@ -288,12 +281,6 @@
         "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
       ],
-      "highlights": [
-        "La tecnología LayerLock une las capas y amplía el clavado",
-        "Resisten vientos de ciento treinta millas por hora",
-        "Los gránulos StainGuard frenan las manchas de alga",
-        "Clasificación al fuego Clase A, la más alta"
-      ],
       "features": {
         "install": [
           "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
@@ -324,12 +311,6 @@
         "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
       ],
-      "highlights": [
-        "La tecnología LayerLock une las capas y amplía el clavado",
-        "Resisten vientos de ciento treinta millas por hora",
-        "Los gránulos StainGuard frenan las manchas de alga",
-        "Clasificación al fuego Clase A, la más alta"
-      ],
       "features": {
         "install": [
           "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
@@ -359,12 +340,6 @@
         "Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero se cubre con dos capas de GAF Roof Deck Protection; desde 4:12 basta una capa. Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
         "Normas: impacto UL 2218 Clase 3, listada por UL según ANSI UL 790 Clase A, clasificada por UL conforme a ICC ES AC438, ASTM D7158 Clase H, ASTM D3161 Clase F, ASTM D3018 Tipo 1 y ASTM D3462, informes de evaluación ICC ES ESR 1475 y ESR 3267, aprobación del Estado de Florida, aprobación del Control de Productos del Condado de Miami Dade y requisitos del Departamento de Seguros de Texas. Algunos colores están clasificados por el CRRC y sirven para cumplir los requisitos de techo frío de Title 24.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas gracias a su tecnología de liberación gradual."
-      ],
-      "highlights": [
-        "La tecnología LayerLock une las capas y amplía el clavado",
-        "Resisten vientos de ciento treinta millas por hora",
-        "Los gránulos StainGuard frenan las manchas de alga",
-        "Clasificación al fuego Clase A, la más alta"
       ],
       "features": {
         "install": [
@@ -888,12 +863,6 @@
         "Con pendientes de más de 60 grados (21 in por pie) cada teja lleva seis clavos y cuatro puntos de cemento asfáltico. Los paquetes se almacenan planos, bajo techo y ventilados a menos de 110°F, con especial cuidado por debajo de 40°F. Normas: ASTM D228, ASTM D3018 Tipo I, viento ASTM D3161 Clase F, ASTM D3462, ASTM D7158, fuego Clase A según ASTM E108 y UL 790, impacto Clase 3 según UL 2218 y FM 4473, ICC ES AC438, CSA A123.5, Aprobación de Producto de Florida y aprobación de producto de Miami Dade.",
         "Garantía: limitada de por vida. La cobertura de viento llega hasta 160 mph cuando se cumplen los requisitos de componentes de Owens Corning y se instalan tejas de arranque tanto en aleros como en bordes laterales. La cobertura de 25 años contra algas, vigente desde el 1 de enero de 2024, requiere un producto de limatesa y cumbrera aprobado de Owens Corning. La clasificación de impacto Clase 3 proviene de ensayos de laboratorio; los daños por granizo quedan excluidos de la garantía."
       ],
-      "highlights": [
-        "La banda SureNail refuerza toda la zona de clavado",
-        "Resisten vientos de ciento treinta millas por hora",
-        "Los gránulos StreakGuard frenan el alga de la cubierta",
-        "Triple capa de protección justo donde entra el clavo"
-      ],
       "features": {
         "install": [
           "Clavos de calibre 12 como mínimo y cabeza de 3/8 in, dentro de la zona SureNail",
@@ -1105,12 +1074,6 @@
         "Los clavos deben tener una cabeza de al menos 3/8 in (10 mm) y quedar al ras, sin hundirse de más, quedarse cortos ni entrar inclinados; no se permiten grapas. No debe usarse en pendientes menores de 2:12 (2 in por cada 12 in). Se almacena en un lugar fresco, seco y ventilado, sin apilar palés. Está probada según ASTM D3462, ASTM D3161 Clase F de resistencia al viento y ASTM E108 Clase A de fuego.",
         "Smart Start entra en la cobertura de la garantía limitada de por vida cuando se instala con tejas Malarkey y otro accesorio Malarkey; las condiciones completas y cualquier requisito adicional para coberturas específicas están en la garantía de tejas y accesorios de Malarkey."
       ],
-      "highlights": [
-        "Perforada para separarse en dos tiras de arranque",
-        "La banda de sellado fija la primera hilada",
-        "Obligatoria en el alero bajo las tejas Malarkey",
-        "Cobertura de por vida con tejas Malarkey y otro accesorio"
-      ],
       "features": {
         "install": [
           "Va bajo la primera hilada en el alero y también se recomienda en los bordes laterales",
@@ -1141,12 +1104,6 @@
         "Normas: ASTM D3018 Tipo I, ASTM D3462, viento ASTM D3161 Clase F y ASTM D7158 Clase H, fuego Clase A según ASTM E108 y UL 790, impacto UL 2218 Clase 3, informes ICC Evaluation Service ESR 1389 y ESR 3537, CSA A123.5 (regional), Aprobación de Producto de Florida FL5444, aprobación del Control de Productos de Miami Dade (regional) y requisitos de viento del Departamento de Seguros de Texas.",
         "Garantía: limitada de por vida y transferible contra defectos de fabricación, con hasta 10 años de protección SureStart; las tejas AR suman 25 años de garantía contra algas si se instalan con las cumbreras CertainTeed indicadas. La cobertura estándar de viento es de 110 mph durante 15 años, ampliable a 160 mph con cumbreras CertainTeed y arranque SwiftStart, SwiftStart SA o High Performance Starter en aleros y bordes laterales; no se permite instalar sobre tejas existentes. En Florida se puede omitir el arranque del borde lateral si las tejas se asientan en un cordón de cemento asfáltico de 4 in de ancho según el código de construcción. Instalado como parte de un Integrity Roof System, el techo accede a cobertura de viento sin límite de velocidad."
       ],
-      "highlights": [
-        "Dos capas de fibra de vidrio dan profundidad real",
-        "Cubiertas ante vientos de ciento diez millas por hora",
-        "Gránulos antialga que mantienen el color limpio más tiempo",
-        "Garantía limitada de por vida con diez años SureStart"
-      ],
       "features": {
         "install": [
           "Pendientes de más de 2 in por pie; de 2:12 a menos de 4:12, WinterGuard o un equivalente ASTM D1970 sobre todo el tablero",
@@ -1176,12 +1133,6 @@
         "Es apta para pendientes mayores de 4:12, con underlayment muy recomendado por debajo de 6:12. También puede aplicarse en pendientes bajas de 2:12 a 4:12 si el tablero se cubre con dos capas de fieltro o una capa de IKO Ice and Water Protector. Se instala con clavos de techar, nunca con grapas, tal como indica el envoltorio del paquete, con tejas de arranque IKO en los aleros; en Dynasty no se exige arranque en los bordes laterales. Las limatesas y cumbreras se rematan con una teja de cumbrera aprobada por IKO, como Marathon Plus AR o IKO UltraHP.",
         "Resultados de ensayo: resistencia al desgarro conforme a ASTM D1922 (mínimo 1,700 g); peso de betún estabilizado conforme a ASTM D228 (mínimo 41 lb por 100 sq ft, o 2,000 g/m²); retención de gránulos conforme a ASTM D4977 (mínimo 86%); resistencia al calor sin deslizamiento ni goteo tras 2 horas a 192°F (90°C). Cumple CSA A123.5, ASTM D3018, ASTM E108 Clase A, ASTM D3462, ASTM D3161 Clase F y ASTM D7158 Clase H y tiene clasificación de impacto Clase 3.",
         "Garantía: limitada de por vida, con protección Iron Clad sin prorrateo durante los primeros 180 meses (15 años) y cobertura prorrateada después. En esos mismos 15 años cubre la voladura por ráfagas de viento de hasta 130 mph, siempre que se haya clavado según el envoltorio y la teja haya sellado o se haya sellado a mano; en Florida no se exige el sellado manual. La garantía contra algas es de 120 meses (10 años)."
-      ],
-      "highlights": [
-        "La banda ArmourZone da una zona de clavado más ancha",
-        "Clasificación de impacto clase tres que aguanta el granizo",
-        "Resisten vientos de ciento treinta millas por hora",
-        "Cobertura limitada de por vida con quince años Iron Clad"
       ],
       "features": {
         "install": [

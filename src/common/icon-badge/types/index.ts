@@ -22,7 +22,11 @@ export type IconBadgeKey =
   | "banknote"
   | "layers"
   | "gem"
-  | "dollar";
+  | "dollar"
+  | "package"
+  | "stamp"
+  | "drill"
+  | "fileCheck";
 
 export type IconBadgeSize = "stat" | "feature";
 export type IconBadgeTone = "muted" | "panel";

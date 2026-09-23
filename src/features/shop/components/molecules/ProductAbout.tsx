@@ -5,7 +5,7 @@ import type { ProductAboutProps } from "@/features/shop/types";
 export const ProductAbout = ({ paragraphs }: ProductAboutProps) => (
   <div className="grid gap-4">
     {paragraphs.map((paragraph) => (
-      <Text key={paragraph} size="caption" tone="muted" text={paragraph} />
+      <Text key={paragraph} size="body" tone="muted" text={paragraph} />
     ))}
   </div>
 );

@@ -59,12 +59,12 @@ export default async function ServiceDetailPage({ params }: Props) {
       />
       <Marquee />
       {/* service overview: per-service image + checklist, chrome shared from about */}
-      <ServiceOverview serviceKey={service.key} tone="muted" />
-      <ServiceProcess serviceKey={service.key} tone="base" />
-      <Faq variant={service.key} tone="muted" />
-      <ServiceAreas tone="base" />
-      <Products tone="muted" limit={6} />
-      <Contact />
+      <ServiceOverview serviceKey={service.key} />
+      <ServiceProcess serviceKey={service.key} tone="muted" />
+      <Faq variant={service.key} tone="base" />
+      <ServiceAreas tone="muted" />
+      <Products tone="base" limit={6} />
+      <Contact tone="muted" />
     </>
   );
 }

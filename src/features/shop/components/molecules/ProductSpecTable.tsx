@@ -7,10 +7,10 @@ export const ProductSpecTable = ({ rows }: ProductSpecTableProps) => (
     {rows.map(({ key, label, value }) => (
       <div key={key} className="grid grid-cols-[1fr_auto] items-baseline gap-4 border-b border-line py-3">
         <dt>
-          <Text as="span" size="caption" tone="muted" text={label} />
+          <Text as="span" size="body" tone="muted" text={label} />
         </dt>
         <dd>
-          <Text as="span" size="caption" weight="semibold" text={value} />
+          <Text as="span" size="body" weight="semibold" text={value} />
         </dd>
       </div>
     ))}

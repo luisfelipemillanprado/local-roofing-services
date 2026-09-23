@@ -6,7 +6,7 @@ import { ZoomButton } from "@/common/image-viewer/components/ZoomButton";
 import { ImageViewer } from "@/common/image-viewer/components/ImageViewer";
 import type { ProductGalleryProps } from "@/features/shop/types";
 
-/* main shot with a zoom control; the thumb strip only shows once a real gallery exists */
+/* main shot with a zoom control over a thumb strip that swaps it */
 export const ProductGallery = ({
   images,
   title,
@@ -28,23 +28,21 @@ export const ProductGallery = ({
         </div>
       </div>
 
-      {images.length > 1 && (
-        <div className="grid grid-cols-5 gap-3">
-          {images.map((src, index) => (
-            <button
-              key={src}
-              type="button"
-              onClick={() => setActive(index)}
-              aria-label={`${title} ${index + 1}`}
-              className={`overflow-hidden rounded-media border-2 transition-colors ${
-                index === active ? "border-primary" : "border-line hover:border-primary"
-              }`}
-            >
-              <Media src={src} alt={title} shape="thumb" sizes="(max-width: 1024px) 18vw, 9vw" />
-            </button>
-          ))}
-        </div>
-      )}
+      <div className="grid grid-cols-5 gap-3">
+        {images.map((src, index) => (
+          <button
+            key={src}
+            type="button"
+            onClick={() => setActive(index)}
+            aria-label={`${title} ${index + 1}`}
+            className={`overflow-hidden rounded-media border-2 transition-colors ${
+              index === active ? "border-primary" : "border-line hover:border-primary"
+            }`}
+          >
+            <Media src={src} alt={title} shape="thumb" sizes="(max-width: 1024px) 18vw, 9vw" />
+          </button>
+        ))}
+      </div>
 
       {open && (
         <ImageViewer

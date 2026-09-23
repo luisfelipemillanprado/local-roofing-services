@@ -11,6 +11,8 @@ const sizes: Record<TitleSize, string> = {
   feature:
     "text-[clamp(1.1875rem,0.5057rem+3.0303vw,1.25rem)] leading-[1.3]" /* fluid 19→20px, 360→393vw — service detail included panel */,
   card: "text-[clamp(1.15rem,0.91rem+1.0667vw,1.2rem)] leading-[1.3]" /* fluid 18.4→19.2px, 360→435vw — service, product, project and icon card titles */,
+  panel:
+    "text-[clamp(1rem,0.7rem+1.3333vw,1.0625rem)] leading-[1.3]" /* fluid 16→17px, 360→435vw — block headings inside the shop tabs */,
   micro:
     "text-[clamp(0.95625rem,0.83625rem+0.5333vw,0.98125rem)] leading-[1.3]" /* fluid 15.3→15.7px, 360→435vw — footer columns */,
 };

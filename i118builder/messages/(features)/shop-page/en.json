@@ -1,8 +1,7 @@
 {
   "action": {
     "quote": "Request Quote",
-    "view": "View Product",
-    "call": "Call Us"
+    "view": "View Product"
   },
   "search": {
     "label": "Search Products",
@@ -67,32 +66,38 @@
     "close": "Close",
     "previous": "Previous Image",
     "next": "Next Image",
-    "breadcrumb": {
-      "label": "Breadcrumb",
-      "home": "Home",
-      "shop": "Shop"
-    },
-    "install": {
-      "title": "Need Professional Installation?",
-      "description": "Our certified crew can fit this product as part of your roof project.",
-      "cta": "Get Installation Quote"
-    },
     "trust": {
       "materials": {
         "title": "Professional Materials",
-        "description": "Curated for durability and real jobsite performance"
+        "description": "Every item is chosen for how it holds up on a real roof.",
+        "highlights": {
+          "label": "PICKED",
+          "accent": "CAREFULLY"
+        }
       },
       "brands": {
         "title": "Trusted Brands",
-        "description": "We stock only industry leading roofing names"
+        "description": "We stock five makers: GAF, CertainTeed, Owens Corning, IKO and Malarkey, all recognized.",
+        "highlights": {
+          "label": "FIVE",
+          "accent": "MAKERS"
+        }
       },
       "installation": {
         "title": "Expert Installation",
-        "description": "Certified crews ready to fit it properly"
+        "description": "Certified crews install what you buy, following the manufacturer instructions to the letter.",
+        "highlights": {
+          "label": "CREWS",
+          "accent": "CERTIFIED"
+        }
       },
       "warranty": {
-        "title": "Manufacturer Warranty",
-        "description": "Every item backed by its factory warranty"
+        "title": "Factory Warranty",
+        "description": "Each product carries the coverage its own manufacturer publishes, and we explain it.",
+        "highlights": {
+          "label": "FACTORY",
+          "accent": "BACKED"
+        }
       }
     },
     "spec": {
@@ -216,12 +221,6 @@
         "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
       ],
-      "highlights": [
-        "LayerLock technology locks the layers and widens nailing",
-        "Rated for winds of one hundred thirty miles",
-        "StainGuard granules hold off blue green algae streaks",
-        "Class A fire rating, the highest one available"
-      ],
       "features": {
         "install": [
           "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
@@ -251,12 +250,6 @@
         "Install it on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 cover the deck with two layers of GAF Roof Deck Protection; at 4:12 and above one layer is enough. Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
         "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
-      ],
-      "highlights": [
-        "LayerLock technology locks the layers and widens nailing",
-        "Rated for winds of one hundred thirty miles",
-        "StainGuard granules hold off blue green algae streaks",
-        "Class A fire rating, the highest one available"
       ],
       "features": {
         "install": [
@@ -288,12 +281,6 @@
         "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
       ],
-      "highlights": [
-        "LayerLock technology locks the layers and widens nailing",
-        "Rated for winds of one hundred thirty miles",
-        "StainGuard granules hold off blue green algae streaks",
-        "Class A fire rating, the highest one available"
-      ],
       "features": {
         "install": [
           "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
@@ -324,12 +311,6 @@
         "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
       ],
-      "highlights": [
-        "LayerLock technology locks the layers and widens nailing",
-        "Rated for winds of one hundred thirty miles",
-        "StainGuard granules hold off blue green algae streaks",
-        "Class A fire rating, the highest one available"
-      ],
       "features": {
         "install": [
           "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
@@ -359,12 +340,6 @@
         "Install it on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 cover the deck with two layers of GAF Roof Deck Protection; at 4:12 and above one layer is enough. Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
         "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
-      ],
-      "highlights": [
-        "LayerLock technology locks the layers and widens nailing",
-        "Rated for winds of one hundred thirty miles",
-        "StainGuard granules hold off blue green algae streaks",
-        "Class A fire rating, the highest one available"
       ],
       "features": {
         "install": [
@@ -888,12 +863,6 @@
         "Slopes over 60 degrees (21 in per foot) require six nails and four spots of asphalt roofing cement per shingle. Store bundles flat in a covered, ventilated area below 110°F, and handle them with extra care below 40°F. Standards: ASTM D228, ASTM D3018 Type I, ASTM D3161 Class F wind, ASTM D3462, ASTM D7158, ASTM E108 and UL 790 Class A fire, UL 2218 and FM 4473 Class 3 impact, ICC ES AC438, CSA A123.5, Florida Product Approval and Miami Dade Product Approval.",
         "Warranty: Limited Lifetime. Wind coverage reaches up to 160 mph when the Owens Corning component requirements are met and starter shingles are installed on both the eaves and the rakes. The 25 year algae resistance coverage, effective January 1, 2024, requires an approved Owens Corning Hip and Ridge product. The Class 3 impact rating comes from laboratory testing and does not guarantee resistance to all weather; hail damage is specifically excluded from the warranty."
       ],
-      "highlights": [
-        "SureNail fabric strip reinforces the whole nailing zone",
-        "Rated for winds of one hundred thirty miles",
-        "StreakGuard granules slow the growth of roof algae",
-        "Triple layer protection right where the nail goes"
-      ],
       "features": {
         "install": [
           "Nails of 12 gauge minimum with 3/8 in heads, placed inside the SureNail area",
@@ -1105,12 +1074,6 @@
         "Nails must have a head of at least 3/8 in (10 mm) and be driven flush, not overdriven, underdriven or at an angle; staples are not allowed. Do not use it on slopes under 2:12 (2 in per 12 in). Store it in a cool, dry, well ventilated area and do not double stack pallets. It is tested to ASTM D3462, ASTM D3161 Class F wind resistance and ASTM E108 Class A fire.",
         "Smart Start qualifies for Limited Lifetime Warranty coverage when it is installed with Malarkey shingles and one other Malarkey accessory; the full terms and any extra requirements for specific coverages are in the Malarkey Shingle and Accessory Warranty."
       ],
-      "highlights": [
-        "Perforated to split into two starter strips",
-        "Seal down strip holds the first course",
-        "Required at the eave under Malarkey shingles",
-        "Lifetime coverage with Malarkey shingles and one more accessory"
-      ],
       "features": {
         "install": [
           "Goes under the first course at the eaves and is recommended on the rakes too",
@@ -1141,12 +1104,6 @@
         "Standards: ASTM D3018 Type I, ASTM D3462, ASTM D3161 Class F and ASTM D7158 Class H wind, ASTM E108 and UL 790 Class A fire, UL 2218 Class 3 impact, ICC Evaluation Service reports ESR 1389 and ESR 3537, CSA A123.5 (regional), Florida Product Approval FL5444, Miami Dade Product Control approval (regional) and Texas Department of Insurance windstorm requirements.",
         "Warranty: lifetime limited and transferable against manufacturing defects, with up to 10 years of SureStart protection; AR shingles add a 25 year algae resistance warranty when installed with the CertainTeed hip and ridge caps above. Standard wind coverage is 110 mph for 15 years, upgradeable to 160 mph with CertainTeed hip and ridge caps plus SwiftStart, SwiftStart SA or High Performance Starter at the eaves and rakes; roof overs are not permitted. In Florida the rake starter can be waived when the shingles are set in a 4 in wide bed of asphalt roofing cement per the building code. Installed as part of an Integrity Roof System, the roof qualifies for unlimited wind velocity coverage."
       ],
-      "highlights": [
-        "Two layers of fiberglass mat build real depth",
-        "Covered against winds of one hundred ten miles",
-        "Algae resistant granules keep the color clean longer",
-        "Lifetime limited warranty with ten year SureStart protection"
-      ],
       "features": {
         "install": [
           "Slopes greater than 2 in per foot; from 2:12 to under 4:12, WinterGuard or an ASTM D1970 equivalent over the whole deck",
@@ -1176,12 +1133,6 @@
         "Suitable for slopes greater than 4:12, with underlayment strongly recommended below 6:12. It can also be applied on low slopes from 2:12 to 4:12 when the deck is covered with two plies of felt or one ply of IKO Ice and Water Protector. Install it with roofing nails, never staples, exactly as printed on the bundle wrapper, with IKO starter strip shingles at the eaves; rake starters are not required for Dynasty. Cap hips and ridges with an IKO approved hip and ridge shingle such as Marathon Plus AR or IKO UltraHP.",
         "Test results: tear strength passes ASTM D1922 (minimum 1,700 g); stabilized bitumen weight passes ASTM D228 (minimum 41 lb per 100 sq ft, or 2,000 g/m²); granule retention passes ASTM D4977 (minimum 86%); heat resistance passes with no sliding or dripping after 2 hours at 192°F (90°C). It conforms to CSA A123.5, ASTM D3018, ASTM E108 Class A, ASTM D3462, ASTM D3161 Class F and ASTM D7158 Class H and carries a Class 3 impact rating.",
         "Warranty: Limited Lifetime, with non prorated Iron Clad Protection for the first 180 months (15 years) and prorated coverage after that. For the same 15 years it is covered against wind blow off for gusts up to 130 mph, provided it was nailed as the wrapper instructs and has sealed down or been hand sealed; manual sealing is not required in Florida. The algae resistance warranty runs 120 months (10 years)."
-      ],
-      "highlights": [
-        "ArmourZone band gives a wider stronger nailing area",
-        "Class three impact rating stands up to hail",
-        "Rated for winds of one hundred thirty miles",
-        "Limited lifetime cover with fifteen year Iron Clad"
       ],
       "features": {
         "install": [

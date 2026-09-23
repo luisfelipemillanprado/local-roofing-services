@@ -7,6 +7,7 @@ import { PageHeader } from "@/shared-sections/page-header/components/PageHeader"
 import { pageHeaderData } from "@/data/shared-sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ProductDetail } from "@/features/shop/components/organisms/ProductDetail";
+import { ProductInfo } from "@/features/shop/components/organisms/ProductInfo";
 import { RelatedProducts } from "@/features/shop/components/organisms/RelatedProducts";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 import { shopProductsData } from "@/data/features/shop/products";
@@ -57,8 +58,9 @@ export default async function ProductDetailPage({ params }: Props) {
       />
       <Marquee />
       <ProductDetail slug={slug} />
-      <RelatedProducts slug={slug} tone="muted" />
-      <Contact tone="base" />
+      <ProductInfo slug={slug} tone="muted" />
+      <RelatedProducts slug={slug} tone="base" />
+      <Contact tone="muted" />
     </>
   );
 }

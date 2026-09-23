@@ -1,15 +1,15 @@
-import { company } from "@/data/site";
-
 /* Shop product-detail scaffold: shared CTAs and panels.
    Per-product specs, SKU, warranty and extra gallery shots are still pending. */
 export const productDetailData = {
-  /* quote lands on the contact form; call dials the listed number */
+  /* quote lands on the contact form */
   quoteCta: { key: "action.quote", href: "#contact" },
-  callCta: { key: "action.call", href: company.phoneHref },
-  /* installation upsell routes into the same contact form */
-  installCta: { key: "detail.install.cta", href: "#contact" },
-  /* trust rows: one copy group per key, icons live in the panel */
-  trust: ["materials", "brands", "installation", "warranty"],
+  /* trust cards: icon by key, never reusing a pitch icon */
+  trust: [
+    { key: "materials", icon: "package" },
+    { key: "brands", icon: "stamp" },
+    { key: "installation", icon: "drill" },
+    { key: "warranty", icon: "fileCheck" },
+  ],
   /* image viewer control labels by key */
   viewer: {
     zoom: "detail.viewImage",

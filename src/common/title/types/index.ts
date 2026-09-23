@@ -1,4 +1,4 @@
-export type TitleSize = "display" | "banner" | "section" | "feature" | "card" | "micro";
+export type TitleSize = "display" | "banner" | "section" | "feature" | "card" | "panel" | "micro";
 export type TitleTone = "default" | "white";
 export type TitleWeight = "bold" | "extrabold";
 export type TitleAccentTone = "primary" | "faint";

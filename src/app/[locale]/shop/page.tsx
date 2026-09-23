@@ -39,7 +39,7 @@ export default async function ShopPage({ params }: Props) {
       />
       <Marquee />
       <ShopCatalog />
-      <Contact />
+      <Contact tone="muted" />
     </>
   );
 }

@@ -15,12 +15,12 @@ export const ProductFeatures = ({
 }: ProductFeaturesProps) => (
   <div className="grid gap-7">
     <div className="grid gap-3">
-      <Title as="h3" size="micro" weight="bold" text={compatibleLabel} />
+      <Title as="h3" size="panel" weight="bold" text={compatibleLabel} />
       <ul className="grid">
         {compatible.map((item) => (
           <li key={item.key} className="border-b border-line">
             <Link href={item.href} className="group grid grid-cols-[1fr_auto] items-center gap-3 py-2.5">
-              <Text as="span" size="caption" tone="muted" text={item.title} />
+              <Text as="span" size="body" tone="muted" text={item.title} />
               <ArrowUpRight
                 aria-hidden
                 className="size-4 text-foreground-muted transition-colors group-hover:text-primary"
@@ -32,24 +32,24 @@ export const ProductFeatures = ({
     </div>
 
     <div className="grid gap-3">
-      <Title as="h3" size="micro" weight="bold" text={installLabel} />
+      <Title as="h3" size="panel" weight="bold" text={installLabel} />
       <ul className="grid gap-3">
         {install.map((item) => (
           <li key={item} className="grid grid-cols-[auto_1fr] items-start gap-2.5">
             <CircleCheck aria-hidden className="mt-0.5 size-4.5 text-primary" />
-            <Text as="span" size="caption" tone="muted" text={item} />
+            <Text as="span" size="body" tone="muted" text={item} />
           </li>
         ))}
       </ul>
     </div>
 
     <div className="grid gap-3">
-      <Title as="h3" size="micro" weight="bold" text={coverageLabel} />
+      <Title as="h3" size="panel" weight="bold" text={coverageLabel} />
       <ul className="grid gap-3">
         {coverage.map((item) => (
           <li key={item} className="grid grid-cols-[auto_1fr] items-start gap-2.5">
             <ShieldCheck aria-hidden className="mt-0.5 size-4.5 text-primary" />
-            <Text as="span" size="caption" tone="muted" text={item} />
+            <Text as="span" size="body" tone="muted" text={item} />
           </li>
         ))}
       </ul>
