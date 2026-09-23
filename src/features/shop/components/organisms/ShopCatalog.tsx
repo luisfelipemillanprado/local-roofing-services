@@ -3,13 +3,13 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Container } from "@/common/container/components/Container";
 import { ShopBrowser } from "@/features/shop/components/organisms/ShopBrowser";
 import { shopProductsData } from "@/data/features/shop/products";
-import type { ShopSort } from "@/features/shop/types";
+import type { ShopCatalogProps, ShopSort } from "@/features/shop/types";
 
 const { categories, categoryImages, items } = shopProductsData;
 const sortOrder: ShopSort[] = ["best", "priceAsc", "priceDesc", "topRated"];
 
 /* shop catalog: search and category chips over the product grid */
-export const ShopCatalog = async () => {
+export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
   const t = await getTranslations("shop-page");
   /* resolve: data literals + i18n labels */
   const products = items.map((product) => ({
@@ -28,7 +28,7 @@ export const ShopCatalog = async () => {
   }));
 
   return (
-    <SectionWrapper id="catalog" tone="muted">
+    <SectionWrapper id="catalog" tone={tone}>
       <Container>
         <ShopBrowser
           items={products}

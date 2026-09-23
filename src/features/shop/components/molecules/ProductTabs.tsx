@@ -40,7 +40,7 @@ export const ProductTabs = ({ tabs }: ProductTabsProps) => {
           >
             <Text
               as="span"
-              size="body"
+              size="subhead"
               weight="semibold"
               tone={active === key ? "default" : "muted"}
               text={label}

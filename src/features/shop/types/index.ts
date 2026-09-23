@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import type { ProductCardProps } from "@/common/product-card/types";
 
+type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
+
 /* resolved product card: data literals + i18n labels, keyed by slug */
 export interface ShopProduct extends Omit<ProductCardProps, "viewLabel" | "href"> {
   slug: string;
@@ -70,13 +72,23 @@ export interface ShopBrowserProps {
   nextLabel: string;
 }
 
+export interface ShopCatalogProps {
+  tone?: SectionTone;
+}
+
 export interface ProductDetailProps {
   slug: string;
+  tone?: SectionTone;
+}
+
+export interface ProductInfoProps {
+  slug: string;
+  tone?: SectionTone;
 }
 
 export interface RelatedProductsProps {
   slug: string;
-  tone?: "base" | "muted";
+  tone?: SectionTone;
 }
 
 export interface ProductGalleryProps {
@@ -112,27 +124,17 @@ export interface ProductAboutProps {
   paragraphs: string[];
 }
 
-/* official manufacturer PDFs; each opens in a new tab */
-export interface ProductDocumentsProps {
-  items: { key: string; label: string; href: string }[];
-  newTabLabel: string;
+/* what it pairs with in the catalog, then how it goes on and what is covered */
+export interface ProductFeaturesProps {
+  compatibleLabel: string;
+  compatible: { key: string; title: string; href: string }[];
+  installLabel: string;
+  install: string[];
+  coverageLabel: string;
+  coverage: string[];
 }
 
 /* one tab: its label plus the already-built panel content */
 export interface ProductTabsProps {
   tabs: { key: string; label: string; panel: ReactNode }[];
-}
-
-/* trust rows; the panel keys its icon map off this union */
-export type ProductTrustKey = "materials" | "brands" | "installation" | "warranty";
-
-export interface ProductTrustPanelProps {
-  items: { key: ProductTrustKey; title: string; description: string }[];
-}
-
-export interface InstallCalloutProps {
-  title: string;
-  description: string;
-  ctaLabel: string;
-  ctaHref: string;
 }
