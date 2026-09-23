@@ -16,7 +16,7 @@ import { ProductSpecStrip } from "@/features/shop/components/molecules/ProductSp
 import { ProductSpecTable } from "@/features/shop/components/molecules/ProductSpecTable";
 import { ProductAbout } from "@/features/shop/components/molecules/ProductAbout";
 import { ProductHighlights } from "@/features/shop/components/molecules/ProductHighlights";
-import { ProductDocuments } from "@/features/shop/components/molecules/ProductDocuments";
+import { ProductFeatures } from "@/features/shop/components/molecules/ProductFeatures";
 import { ProductTabs } from "@/features/shop/components/molecules/ProductTabs";
 import { InstallCallout } from "@/features/shop/components/molecules/InstallCallout";
 import { ProductTrustPanel } from "@/features/shop/components/molecules/ProductTrustPanel";
@@ -202,21 +202,25 @@ export const ProductDetail = ({ slug }: ProductDetailProps) => {
                       },
                     ]
                   : []),
-                /* only a product with verified manufacturer PDFs gets the tab */
-                ...("documents" in product
+                /* only a product with researched pairings and copy gets the tab */
+                ...("compatible" in product
                   ? [
                       {
-                        key: "documents",
-                        label: t("detail.section.documents"),
+                        key: "features",
+                        label: t("detail.section.features"),
                         panel: (
                           <div className="max-w-3xl">
-                            <ProductDocuments
-                              items={product.documents.map(({ key, href }) => ({
-                                key,
-                                label: t(key),
-                                href,
+                            <ProductFeatures
+                              compatibleLabel={t("detail.features.compatible")}
+                              compatible={product.compatible.map((slug) => ({
+                                key: slug,
+                                title: t(`catalog.${slug}.title`),
+                                href: `/shop/${slug}`,
                               }))}
-                              newTabLabel={t("detail.document.newTab")}
+                              installLabel={t("detail.features.install")}
+                              install={t.raw(`catalog.${product.slug}.features.install`) as string[]}
+                              coverageLabel={t("detail.features.coverage")}
+                              coverage={t.raw(`catalog.${product.slug}.features.coverage`) as string[]}
                             />
                           </div>
                         ),

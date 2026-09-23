@@ -182,8 +182,8 @@
       "polymerAsphalt": "Polymer Modified Asphalt",
       "laminated": "Laminated Architectural Shingle",
       "starter": "Starter Shingle",
-      "noWindLimit": "No Limit (WindProven)",
-      "notPublished": "Not Published"
+      "notPublished": "Not Published",
+      "windStandard": "110 mph, or 130 mph with special installation"
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
@@ -195,17 +195,12 @@
       "description": "Description",
       "specifications": "Specifications",
       "warranty": "Warranty",
-      "documents": "Documents"
+      "features": "Features"
     },
-    "document": {
-      "dataSheet": "Technical Data Sheet",
-      "specification": "Guide Specification",
-      "drawing": "Product Drawing",
-      "sds": "Safety Data Sheet",
-      "install": "Installation Guide",
-      "floridaApproval": "Florida Product Approval",
-      "miamiDade": "Miami Dade NOA",
-      "newTab": "opens in a new tab"
+    "features": {
+      "compatible": "Compatible With",
+      "install": "Installation",
+      "coverage": "Warranty Coverage"
     }
   },
   "catalog": {
@@ -226,7 +221,24 @@
         "Rated for winds of one hundred thirty miles",
         "StainGuard granules hold off blue green algae streaks",
         "Class A fire rating, the highest one available"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
+          "4 nails per shingle inside the StrikeZone area, 6 where the code asks for them",
+          "Two layers of roof deck protection from 2:12 to under 4:12, one layer above that",
+          "Hand seal with 4 dabs of asphalt cement on mansards of 21:12 and above",
+          "The 130 mph wind coverage needs special installation: 4 nails per shingle and GAF starter strips at the eaves and the rakes"
+        ],
+        "coverage": [
+          "Lifetime coverage against manufacturing defects for the original owner of a single family home, transferable once",
+          "Smart Choice covers 100% of a material defect, with no proration, in the first 10 years",
+          "15 years of wind coverage: 110 mph, or 130 mph with special installation",
+          "WindProven, 15 years with no maximum wind speed, with 4 GAF accessories: starter, roof deck protection, ridge cap and leak barrier or ventilation",
+          "25 years of StainGuard Plus coverage against blue green algae",
+          "Hail damage is not covered by the limited warranty"
+        ]
+      }
     },
     "timberline-hdz-pewter-gray": {
       "title": "Timberline HDZ Pewter Gray Shingles",
@@ -245,7 +257,24 @@
         "Rated for winds of one hundred thirty miles",
         "StainGuard granules hold off blue green algae streaks",
         "Class A fire rating, the highest one available"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
+          "4 nails per shingle inside the StrikeZone area, 6 where the code asks for them",
+          "Two layers of roof deck protection from 2:12 to under 4:12, one layer above that",
+          "Hand seal with 4 dabs of asphalt cement on mansards of 21:12 and above",
+          "The 130 mph wind coverage needs special installation: 4 nails per shingle and GAF starter strips at the eaves and the rakes"
+        ],
+        "coverage": [
+          "Lifetime coverage against manufacturing defects for the original owner of a single family home, transferable once",
+          "Smart Choice covers 100% of a material defect, with no proration, in the first 10 years",
+          "15 years of wind coverage: 110 mph, or 130 mph with special installation",
+          "WindProven, 15 years with no maximum wind speed, with 4 GAF accessories: starter, roof deck protection, ridge cap and leak barrier or ventilation",
+          "25 years of StainGuard Plus coverage against blue green algae",
+          "Hail damage is not covered by the limited warranty"
+        ]
+      }
     },
     "timberline-hdz-barkwood": {
       "title": "Timberline HDZ Barkwood Shingles",
@@ -264,7 +293,24 @@
         "Rated for winds of one hundred thirty miles",
         "StainGuard granules hold off blue green algae streaks",
         "Class A fire rating, the highest one available"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
+          "4 nails per shingle inside the StrikeZone area, 6 where the code asks for them",
+          "Two layers of roof deck protection from 2:12 to under 4:12, one layer above that",
+          "Hand seal with 4 dabs of asphalt cement on mansards of 21:12 and above",
+          "The 130 mph wind coverage needs special installation: 4 nails per shingle and GAF starter strips at the eaves and the rakes"
+        ],
+        "coverage": [
+          "Lifetime coverage against manufacturing defects for the original owner of a single family home, transferable once",
+          "Smart Choice covers 100% of a material defect, with no proration, in the first 10 years",
+          "15 years of wind coverage: 110 mph, or 130 mph with special installation",
+          "WindProven, 15 years with no maximum wind speed, with 4 GAF accessories: starter, roof deck protection, ridge cap and leak barrier or ventilation",
+          "25 years of StainGuard Plus coverage against blue green algae",
+          "Hail damage is not covered by the limited warranty"
+        ]
+      }
     },
     "timberline-hdz-hunter-green": {
       "title": "Timberline HDZ Hunter Green Shingles",
@@ -283,7 +329,24 @@
         "Rated for winds of one hundred thirty miles",
         "StainGuard granules hold off blue green algae streaks",
         "Class A fire rating, the highest one available"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
+          "4 nails per shingle inside the StrikeZone area, 6 where the code asks for them",
+          "Two layers of roof deck protection from 2:12 to under 4:12, one layer above that",
+          "Hand seal with 4 dabs of asphalt cement on mansards of 21:12 and above",
+          "The 130 mph wind coverage needs special installation: 4 nails per shingle and GAF starter strips at the eaves and the rakes"
+        ],
+        "coverage": [
+          "Lifetime coverage against manufacturing defects for the original owner of a single family home, transferable once",
+          "Smart Choice covers 100% of a material defect, with no proration, in the first 10 years",
+          "15 years of wind coverage: 110 mph, or 130 mph with special installation",
+          "WindProven, 15 years with no maximum wind speed, with 4 GAF accessories: starter, roof deck protection, ridge cap and leak barrier or ventilation",
+          "25 years of StainGuard Plus coverage against blue green algae",
+          "Hail damage is not covered by the limited warranty"
+        ]
+      }
     },
     "timberline-hdz-shakewood": {
       "title": "Timberline HDZ Shakewood Shingles",
@@ -302,7 +365,24 @@
         "Rated for winds of one hundred thirty miles",
         "StainGuard granules hold off blue green algae streaks",
         "Class A fire rating, the highest one available"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Deck of at least 3/8 in plywood or OSB, on slopes of 2:12 and greater",
+          "4 nails per shingle inside the StrikeZone area, 6 where the code asks for them",
+          "Two layers of roof deck protection from 2:12 to under 4:12, one layer above that",
+          "Hand seal with 4 dabs of asphalt cement on mansards of 21:12 and above",
+          "The 130 mph wind coverage needs special installation: 4 nails per shingle and GAF starter strips at the eaves and the rakes"
+        ],
+        "coverage": [
+          "Lifetime coverage against manufacturing defects for the original owner of a single family home, transferable once",
+          "Smart Choice covers 100% of a material defect, with no proration, in the first 10 years",
+          "15 years of wind coverage: 110 mph, or 130 mph with special installation",
+          "WindProven, 15 years with no maximum wind speed, with 4 GAF accessories: starter, roof deck protection, ridge cap and leak barrier or ventilation",
+          "25 years of StainGuard Plus coverage against blue green algae",
+          "Hail damage is not covered by the limited warranty"
+        ]
+      }
     },
     "brakki-10pc": {
       "title": "Max Rib Panel 26 Gauge",
@@ -813,7 +893,25 @@
         "Rated for winds of one hundred thirty miles",
         "StreakGuard granules slow the growth of roof algae",
         "Triple layer protection right where the nail goes"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Nails of 12 gauge minimum with 3/8 in heads, placed inside the SureNail area",
+          "Deck of 6 in boards, 3/8 in plywood or 7/16 in OSB",
+          "Synthetic underlayment at 4:12 and above; two layers from 2:12 to under 4:12",
+          "Six nails and 4 spots of asphalt cement on slopes over 21 in per foot",
+          "The sealant needs several days of direct warm sunlight; in cool weather it may not seal until the weather warms",
+          "Bundles are stored flat, under cover and ventilated, below 110°F"
+        ],
+        "coverage": [
+          "Limited lifetime coverage against manufacturing defects, transferable",
+          "TRU PROtection covers material and labor in the first 10 years; the prorated period after that covers material only",
+          "15 years of coverage against wind blow off, up to 160 mph with starter shingles at the eaves and the rakes",
+          "25 years of StreakGuard algae coverage, the first 10 with no proration, with an approved Hip and Ridge product",
+          "With 3 of the 5 Owens Corning component types, those components match the coverage of the shingles",
+          "Hail damage is not covered by the limited warranty"
+        ]
+      }
     },
     "steeldash-snap-lock-slate-gray": {
       "title": "Snap Lock Standing Seam Panel",
@@ -1012,7 +1110,24 @@
         "Seal down strip holds the first course",
         "Required at the eave under Malarkey shingles",
         "Lifetime coverage with Malarkey shingles and one more accessory"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Goes under the first course at the eaves and is recommended on the rakes too",
+          "Overhangs the edge 1/4 to 3/4 in, with the seal down strip next to the edge",
+          "4 nails per starter, 1 1/2 to 3 in up from the eave, never through the sealant",
+          "Cut 6 in off the first piece so the end joints are offset",
+          "Required under Malarkey shingles for the eave to seal properly",
+          "Applied at both the eaves and the rakes when the Enhanced Wind Warranty is wanted",
+          "The wind warranty asks for shingles that are properly adhered, by their own sealant or by hand with ASTM D4586 cement"
+        ],
+        "coverage": [
+          "Limited Lifetime coverage with Malarkey lifetime shingles and at least one more Malarkey accessory",
+          "With a single Malarkey accessory: 20 years against manufacturing defects and 5 years of Right Start",
+          "Installed inside another brand roof system: 10 years against manufacturing defects",
+          "Required, with Malarkey hip and ridge, for the 15 year Enhanced Wind Warranty of up to 130 mph"
+        ]
+      }
     },
     "landmark-weathered-wood": {
       "title": "Landmark Weathered Wood Shingles",
@@ -1031,7 +1146,24 @@
         "Covered against winds of one hundred ten miles",
         "Algae resistant granules keep the color clean longer",
         "Lifetime limited warranty with ten year SureStart protection"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Slopes greater than 2 in per foot; from 2:12 to under 4:12, WinterGuard or an ASTM D1970 equivalent over the whole deck",
+          "Underlayment meeting ASTM D4869 Type I or ASTM D226 Type I, such as DiamondDeck or RoofRunner",
+          "4 nails per shingle in the NailTrak area, 6 with 4 spots of cement on steep slopes",
+          "WinterGuard waterproofing underlayment where ice can back up at the eaves",
+          "Ventilation that meets or exceeds HUD standards, ridge venting plus soffit intake",
+          "Hips and ridges capped with Shadow Ridge, Cedar Crest or Mountain Ridge"
+        ],
+        "coverage": [
+          "Lifetime limited and transferable coverage against manufacturing defects",
+          "SureStart covers 100% of labor and material for defective shingles in the first 10 years",
+          "15 years of wind coverage at 110 mph, upgradeable to 160 mph with CertainTeed starter and hip and ridge",
+          "25 years of StreakFighter algae coverage on AR shingles",
+          "Unlimited wind velocity coverage as part of an Integrity Roof System"
+        ]
+      }
     },
     "dynasty-emerald-green": {
       "title": "Dynasty Emerald Green Shingles",
@@ -1050,7 +1182,25 @@
         "Class three impact rating stands up to hail",
         "Rated for winds of one hundred thirty miles",
         "Limited lifetime cover with fifteen year Iron Clad"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Slopes greater than 4:12; 2:12 to 4:12 with two plies of felt or IKO Ice and Water Protector",
+          "4 nails per shingle in the ArmourZone, 6 on slopes of 21:12 and above",
+          "Nails only, never staples, and rake starters are not required",
+          "Hips and ridges capped with Marathon Plus AR or IKO UltraHP",
+          "One layer of asphalt saturated felt or synthetic underlayment over the whole deck",
+          "Ventilation has to meet the local building code, since IKO does not answer for leaks without it"
+        ],
+        "coverage": [
+          "Limited lifetime coverage with 15 years of Iron Clad protection",
+          "130 mph limited wind warranty during the first 15 years",
+          "10 years of coverage against blue green algae",
+          "Slopes of 3:12 and above carry the full term; from 2:12 to under 3:12 coverage drops to 12 years",
+          "Applying them over insulation, gypsum or nailable concrete without IKO approval voids the warranty",
+          "Transferable within the first 15 years, with the balance capped at 120 months from installation"
+        ]
+      }
     },
     "brakki-22pc": {
       "title": "Max Rib Panel Bare Galvalume",

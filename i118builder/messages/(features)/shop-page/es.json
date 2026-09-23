@@ -182,8 +182,8 @@
       "polymerAsphalt": "Asfalto Modificado con Polímero",
       "laminated": "Teja Arquitectónica Laminada",
       "starter": "Teja de Arranque",
-      "noWindLimit": "Sin Límite (WindProven)",
-      "notPublished": "No Publicado"
+      "notPublished": "No Publicado",
+      "windStandard": "110 mph, o 130 mph con instalación especial"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -195,17 +195,12 @@
       "description": "Descripción",
       "specifications": "Especificaciones",
       "warranty": "Garantía",
-      "documents": "Documentos"
+      "features": "Características"
     },
-    "document": {
-      "dataSheet": "Ficha Técnica",
-      "specification": "Especificación de Proyecto",
-      "drawing": "Plano del Producto",
-      "sds": "Hoja de Seguridad",
-      "install": "Guía de Instalación",
-      "floridaApproval": "Aprobación de Producto de Florida",
-      "miamiDade": "NOA de Miami Dade",
-      "newTab": "se abre en una pestaña nueva"
+    "features": {
+      "compatible": "Compatible Con",
+      "install": "Instalación",
+      "coverage": "Cobertura de Garantía"
     }
   },
   "catalog": {
@@ -226,7 +221,24 @@
         "Resisten vientos de ciento treinta millas por hora",
         "Los gránulos StainGuard frenan las manchas de alga",
         "Clasificación al fuego Clase A, la más alta"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
+          "4 clavos por teja dentro de la zona StrikeZone, 6 donde el código los exija",
+          "Dos capas de protección de tablero de 2:12 a menos de 4:12, y una capa por encima",
+          "Sellado a mano con 4 puntos de cemento asfáltico en mansardas de 21:12 o más",
+          "La cobertura de 130 mph exige instalación especial: 4 clavos por teja y tiras de arranque GAF en aleros y bordes laterales"
+        ],
+        "coverage": [
+          "Cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, transferible una vez",
+          "Smart Choice cubre el 100% del defecto de material, sin prorrateo, los primeros 10 años",
+          "15 años de cobertura de viento: 110 mph, o 130 mph con instalación especial",
+          "WindProven, 15 años sin velocidad máxima, con 4 accesorios GAF: arranque, protección de tablero, cumbrera y barrera antifiltración o ventilación",
+          "25 años de cobertura StainGuard Plus contra las algas verdiazules",
+          "Los daños por granizo quedan excluidos de la garantía limitada"
+        ]
+      }
     },
     "timberline-hdz-pewter-gray": {
       "title": "Tejas Timberline HDZ Gris Peltre",
@@ -245,7 +257,24 @@
         "Resisten vientos de ciento treinta millas por hora",
         "Los gránulos StainGuard frenan las manchas de alga",
         "Clasificación al fuego Clase A, la más alta"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
+          "4 clavos por teja dentro de la zona StrikeZone, 6 donde el código los exija",
+          "Dos capas de protección de tablero de 2:12 a menos de 4:12, y una capa por encima",
+          "Sellado a mano con 4 puntos de cemento asfáltico en mansardas de 21:12 o más",
+          "La cobertura de 130 mph exige instalación especial: 4 clavos por teja y tiras de arranque GAF en aleros y bordes laterales"
+        ],
+        "coverage": [
+          "Cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, transferible una vez",
+          "Smart Choice cubre el 100% del defecto de material, sin prorrateo, los primeros 10 años",
+          "15 años de cobertura de viento: 110 mph, o 130 mph con instalación especial",
+          "WindProven, 15 años sin velocidad máxima, con 4 accesorios GAF: arranque, protección de tablero, cumbrera y barrera antifiltración o ventilación",
+          "25 años de cobertura StainGuard Plus contra las algas verdiazules",
+          "Los daños por granizo quedan excluidos de la garantía limitada"
+        ]
+      }
     },
     "timberline-hdz-barkwood": {
       "title": "Tejas Timberline HDZ Corteza",
@@ -264,7 +293,24 @@
         "Resisten vientos de ciento treinta millas por hora",
         "Los gránulos StainGuard frenan las manchas de alga",
         "Clasificación al fuego Clase A, la más alta"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
+          "4 clavos por teja dentro de la zona StrikeZone, 6 donde el código los exija",
+          "Dos capas de protección de tablero de 2:12 a menos de 4:12, y una capa por encima",
+          "Sellado a mano con 4 puntos de cemento asfáltico en mansardas de 21:12 o más",
+          "La cobertura de 130 mph exige instalación especial: 4 clavos por teja y tiras de arranque GAF en aleros y bordes laterales"
+        ],
+        "coverage": [
+          "Cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, transferible una vez",
+          "Smart Choice cubre el 100% del defecto de material, sin prorrateo, los primeros 10 años",
+          "15 años de cobertura de viento: 110 mph, o 130 mph con instalación especial",
+          "WindProven, 15 años sin velocidad máxima, con 4 accesorios GAF: arranque, protección de tablero, cumbrera y barrera antifiltración o ventilación",
+          "25 años de cobertura StainGuard Plus contra las algas verdiazules",
+          "Los daños por granizo quedan excluidos de la garantía limitada"
+        ]
+      }
     },
     "timberline-hdz-hunter-green": {
       "title": "Tejas Timberline HDZ Verde Bosque",
@@ -283,7 +329,24 @@
         "Resisten vientos de ciento treinta millas por hora",
         "Los gránulos StainGuard frenan las manchas de alga",
         "Clasificación al fuego Clase A, la más alta"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
+          "4 clavos por teja dentro de la zona StrikeZone, 6 donde el código los exija",
+          "Dos capas de protección de tablero de 2:12 a menos de 4:12, y una capa por encima",
+          "Sellado a mano con 4 puntos de cemento asfáltico en mansardas de 21:12 o más",
+          "La cobertura de 130 mph exige instalación especial: 4 clavos por teja y tiras de arranque GAF en aleros y bordes laterales"
+        ],
+        "coverage": [
+          "Cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, transferible una vez",
+          "Smart Choice cubre el 100% del defecto de material, sin prorrateo, los primeros 10 años",
+          "15 años de cobertura de viento: 110 mph, o 130 mph con instalación especial",
+          "WindProven, 15 años sin velocidad máxima, con 4 accesorios GAF: arranque, protección de tablero, cumbrera y barrera antifiltración o ventilación",
+          "25 años de cobertura StainGuard Plus contra las algas verdiazules",
+          "Los daños por granizo quedan excluidos de la garantía limitada"
+        ]
+      }
     },
     "timberline-hdz-shakewood": {
       "title": "Tejas Timberline HDZ Arena",
@@ -302,7 +365,24 @@
         "Resisten vientos de ciento treinta millas por hora",
         "Los gránulos StainGuard frenan las manchas de alga",
         "Clasificación al fuego Clase A, la más alta"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Tablero de contrachapado u OSB de 3/8 in como mínimo, en pendientes de 2:12 o más",
+          "4 clavos por teja dentro de la zona StrikeZone, 6 donde el código los exija",
+          "Dos capas de protección de tablero de 2:12 a menos de 4:12, y una capa por encima",
+          "Sellado a mano con 4 puntos de cemento asfáltico en mansardas de 21:12 o más",
+          "La cobertura de 130 mph exige instalación especial: 4 clavos por teja y tiras de arranque GAF en aleros y bordes laterales"
+        ],
+        "coverage": [
+          "Cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, transferible una vez",
+          "Smart Choice cubre el 100% del defecto de material, sin prorrateo, los primeros 10 años",
+          "15 años de cobertura de viento: 110 mph, o 130 mph con instalación especial",
+          "WindProven, 15 años sin velocidad máxima, con 4 accesorios GAF: arranque, protección de tablero, cumbrera y barrera antifiltración o ventilación",
+          "25 años de cobertura StainGuard Plus contra las algas verdiazules",
+          "Los daños por granizo quedan excluidos de la garantía limitada"
+        ]
+      }
     },
     "brakki-10pc": {
       "title": "Panel Max Rib Calibre 26",
@@ -813,7 +893,25 @@
         "Resisten vientos de ciento treinta millas por hora",
         "Los gránulos StreakGuard frenan el alga de la cubierta",
         "Triple capa de protección justo donde entra el clavo"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Clavos de calibre 12 como mínimo y cabeza de 3/8 in, dentro de la zona SureNail",
+          "Tablero de tablas de 6 in, contrachapado de 3/8 in u OSB de 7/16 in",
+          "Underlayment sintético en 4:12 o más; dos capas de 2:12 a menos de 4:12",
+          "Seis clavos y 4 puntos de cemento asfáltico en pendientes de más de 21 in por pie",
+          "El sellador necesita varios días de sol directo; en tiempo frío puede no sellar hasta que el clima se temple",
+          "Los paquetes se almacenan planos, bajo techo y ventilados a menos de 110°F"
+        ],
+        "coverage": [
+          "Cobertura limitada de por vida contra defectos de fabricación, transferible",
+          "TRU PROtection cubre material y mano de obra los primeros 10 años; después el periodo prorrateado cubre solo material",
+          "15 años de cobertura contra arranque por viento, de hasta 160 mph con tejas de arranque en aleros y bordes laterales",
+          "25 años de cobertura StreakGuard contra algas, los primeros 10 sin prorrateo y con limatesa y cumbrera aprobadas",
+          "Con 3 de los 5 tipos de componentes Owens Corning, esos componentes igualan la cobertura de las tejas",
+          "Los daños por granizo quedan excluidos de la garantía limitada"
+        ]
+      }
     },
     "steeldash-snap-lock-slate-gray": {
       "title": "Panel de Junta Alzada Snap Lock",
@@ -1012,7 +1110,24 @@
         "La banda de sellado fija la primera hilada",
         "Obligatoria en el alero bajo las tejas Malarkey",
         "Cobertura de por vida con tejas Malarkey y otro accesorio"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Va bajo la primera hilada en el alero y también se recomienda en los bordes laterales",
+          "Sobresale del borde 1/4 a 3/4 in, con la tira adhesiva junto al borde",
+          "4 clavos por pieza, de 1 1/2 a 3 in sobre el alero, nunca a través del sellador",
+          "Se cortan 6 in de la primera pieza para desfasar las juntas",
+          "Es obligatoria bajo las tejas Malarkey para que el alero selle bien",
+          "Se aplica en aleros y bordes laterales cuando se busca la garantía de viento mejorada",
+          "La garantía de viento exige tejas bien adheridas, por su propio sellador o a mano con cemento ASTM D4586"
+        ],
+        "coverage": [
+          "Garantía limitada de por vida con tejas Malarkey de por vida y al menos otro accesorio Malarkey",
+          "Con un solo accesorio Malarkey: 20 años contra defectos de fabricación y 5 años de Right Start",
+          "Instalado dentro del sistema de otra marca: 10 años contra defectos de fabricación",
+          "Requisito, junto con limatesa y cumbrera Malarkey, de la garantía de viento mejorada de 15 años hasta 130 mph"
+        ]
+      }
     },
     "landmark-weathered-wood": {
       "title": "Tejas Landmark Madera Envejecida",
@@ -1031,7 +1146,24 @@
         "Cubiertas ante vientos de ciento diez millas por hora",
         "Gránulos antialga que mantienen el color limpio más tiempo",
         "Garantía limitada de por vida con diez años SureStart"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Pendientes de más de 2 in por pie; de 2:12 a menos de 4:12, WinterGuard o un equivalente ASTM D1970 sobre todo el tablero",
+          "Underlayment conforme a ASTM D4869 Tipo I o ASTM D226 Tipo I, como DiamondDeck o RoofRunner",
+          "4 clavos por teja en la zona NailTrak, 6 y 4 puntos de cemento en pendientes fuertes",
+          "Underlayment impermeabilizante WinterGuard donde el hielo se acumula en el alero",
+          "Ventilación igual o superior a las normas HUD, con cumbrera ventilada y entrada por alero",
+          "Limatesas y cumbreras se rematan con Shadow Ridge, Cedar Crest o Mountain Ridge"
+        ],
+        "coverage": [
+          "Cobertura limitada de por vida y transferible contra defectos de fabricación",
+          "SureStart cubre el 100% de mano de obra y materiales los primeros 10 años",
+          "15 años de cobertura de viento a 110 mph, ampliable a 160 mph con arranque y cumbrera CertainTeed",
+          "25 años de cobertura StreakFighter contra algas en las tejas AR",
+          "Cobertura de viento sin límite de velocidad dentro de un Integrity Roof System"
+        ]
+      }
     },
     "dynasty-emerald-green": {
       "title": "Tejas Dynasty Verde Esmeralda",
@@ -1050,7 +1182,25 @@
         "Clasificación de impacto clase tres que aguanta el granizo",
         "Resisten vientos de ciento treinta millas por hora",
         "Cobertura limitada de por vida con quince años Iron Clad"
-      ]
+      ],
+      "features": {
+        "install": [
+          "Pendientes de más de 4:12; de 2:12 a 4:12 con dos capas de fieltro o IKO Ice and Water Protector",
+          "4 clavos por teja en la zona ArmourZone, 6 en pendientes de 21:12 o más",
+          "Solo clavos, nunca grapas, y no se requiere arranque en los bordes laterales",
+          "Limatesas y cumbreras se rematan con Marathon Plus AR o IKO UltraHP",
+          "Una capa de underlayment de fieltro asfáltico o sintético sobre todo el tablero",
+          "La ventilación debe cumplir el código local, porque IKO no responde por filtraciones sin ella"
+        ],
+        "coverage": [
+          "Cobertura limitada de por vida con 15 años de protección Iron Clad",
+          "Garantía limitada de viento de 130 mph durante los primeros 15 años",
+          "10 años de cobertura contra las algas verdiazules",
+          "De 3:12 en adelante vale el plazo completo; de 2:12 a menos de 3:12 la cobertura baja a 12 años",
+          "Aplicarlas sobre aislamiento, yeso u hormigón clavable sin aprobación de IKO anula la garantía",
+          "Transferible dentro de los 15 primeros años, con el saldo limitado a 120 meses desde la instalación"
+        ]
+      }
     },
     "brakki-22pc": {
       "title": "Panel Max Rib Galvalume sin Pintar",

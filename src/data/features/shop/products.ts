@@ -30,6 +30,7 @@ export const shopProductsData = {
       reviews: 47,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: ["dupont-tyvek-120", "gcp-5003000", "gibraltar-08328", "oatey-11872"],
       specs: [
         { key: "length", value: "38 1/4 in" },
         { key: "shingleWidth", value: "16 3/8 in" },
@@ -46,16 +47,6 @@ export const shopProductsData = {
         { key: "standard", value: "ASTM D3462" },
         { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.malarkeyroofing.com/app/uploads/2021/04/210-smart-start-tech-data-sheet-malarkey.pdf",
-        },
-        {
-          key: "detail.document.install",
-          href: "https://www.malarkeyroofing.com/app/uploads/2021/05/starter-shingles-installation-guide-malarkey.pdf",
-        },
-      ],
     },
     {
       slug: "landmark-weathered-wood",
@@ -69,6 +60,13 @@ export const shopProductsData = {
       reviews: 156,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "certainteed-roofrunner",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "38 3/4 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -107,6 +105,13 @@ export const shopProductsData = {
       reviews: 87,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "dupont-tyvek-120",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -144,6 +149,13 @@ export const shopProductsData = {
       reviews: 124,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "dupont-tyvek-120",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -160,31 +172,13 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.laminated" },
         { key: "slope", value: "2:12" },
         { key: "nailsPerShingle", value: "4" },
-        { key: "wind", valueKey: "detail.specValue.noWindLimit" },
+        { key: "wind", valueKey: "detail.specValue.windStandard" },
         { key: "windClass", value: "D3161 Class F, D7158 Class H" },
         { key: "fire", value: "Class A" },
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
         { key: "warranty", valueKey: "detail.warranty.lifetime" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
-        },
-        {
-          key: "detail.document.sds",
-          href: "https://www.gaf.com/en-us/document-library/documents/safety-data-sheets/laminated-shingles-sds-2093.pdf",
-        },
-        {
-          key: "detail.document.floridaApproval",
-          href: "https://www.gaf.com/en-us/document-library/documents/codes/timberline-shingles-florida-building-codes-hvhz-fl39780.pdf",
-        },
-        {
-          key: "detail.document.miamiDade",
-          href: "https://www.miamidade.gov/building/library/productcontrol/noa/22122104.pdf",
-        },
       ],
     },
     {
@@ -199,6 +193,13 @@ export const shopProductsData = {
       reviews: 96,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "dupont-tyvek-120",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -215,31 +216,13 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.laminated" },
         { key: "slope", value: "2:12" },
         { key: "nailsPerShingle", value: "4" },
-        { key: "wind", valueKey: "detail.specValue.noWindLimit" },
+        { key: "wind", valueKey: "detail.specValue.windStandard" },
         { key: "windClass", value: "D3161 Class F, D7158 Class H" },
         { key: "fire", value: "Class A" },
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
         { key: "warranty", valueKey: "detail.warranty.lifetime" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
-        },
-        {
-          key: "detail.document.sds",
-          href: "https://www.gaf.com/en-us/document-library/documents/safety-data-sheets/laminated-shingles-sds-2093.pdf",
-        },
-        {
-          key: "detail.document.floridaApproval",
-          href: "https://www.gaf.com/en-us/document-library/documents/codes/timberline-shingles-florida-building-codes-hvhz-fl39780.pdf",
-        },
-        {
-          key: "detail.document.miamiDade",
-          href: "https://www.miamidade.gov/building/library/productcontrol/noa/22122104.pdf",
-        },
       ],
     },
     {
@@ -254,6 +237,13 @@ export const shopProductsData = {
       reviews: 78,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "dupont-tyvek-120",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -270,31 +260,13 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.laminated" },
         { key: "slope", value: "2:12" },
         { key: "nailsPerShingle", value: "4" },
-        { key: "wind", valueKey: "detail.specValue.noWindLimit" },
+        { key: "wind", valueKey: "detail.specValue.windStandard" },
         { key: "windClass", value: "D3161 Class F, D7158 Class H" },
         { key: "fire", value: "Class A" },
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
         { key: "warranty", valueKey: "detail.warranty.lifetime" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
-        },
-        {
-          key: "detail.document.sds",
-          href: "https://www.gaf.com/en-us/document-library/documents/safety-data-sheets/laminated-shingles-sds-2093.pdf",
-        },
-        {
-          key: "detail.document.floridaApproval",
-          href: "https://www.gaf.com/en-us/document-library/documents/codes/timberline-shingles-florida-building-codes-hvhz-fl39780.pdf",
-        },
-        {
-          key: "detail.document.miamiDade",
-          href: "https://www.miamidade.gov/building/library/productcontrol/noa/22122104.pdf",
-        },
       ],
     },
     {
@@ -309,6 +281,13 @@ export const shopProductsData = {
       reviews: 41,
       availability: "limited-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "dupont-tyvek-120",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -325,31 +304,13 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.laminated" },
         { key: "slope", value: "2:12" },
         { key: "nailsPerShingle", value: "4" },
-        { key: "wind", valueKey: "detail.specValue.noWindLimit" },
+        { key: "wind", valueKey: "detail.specValue.windStandard" },
         { key: "windClass", value: "D3161 Class F, D7158 Class H" },
         { key: "fire", value: "Class A" },
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
         { key: "warranty", valueKey: "detail.warranty.lifetime" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
-        },
-        {
-          key: "detail.document.sds",
-          href: "https://www.gaf.com/en-us/document-library/documents/safety-data-sheets/laminated-shingles-sds-2093.pdf",
-        },
-        {
-          key: "detail.document.floridaApproval",
-          href: "https://www.gaf.com/en-us/document-library/documents/codes/timberline-shingles-florida-building-codes-hvhz-fl39780.pdf",
-        },
-        {
-          key: "detail.document.miamiDade",
-          href: "https://www.miamidade.gov/building/library/productcontrol/noa/22122104.pdf",
-        },
       ],
     },
     {
@@ -364,6 +325,13 @@ export const shopProductsData = {
       reviews: 63,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "dupont-tyvek-120",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -380,31 +348,13 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.laminated" },
         { key: "slope", value: "2:12" },
         { key: "nailsPerShingle", value: "4" },
-        { key: "wind", valueKey: "detail.specValue.noWindLimit" },
+        { key: "wind", valueKey: "detail.specValue.windStandard" },
         { key: "windClass", value: "D3161 Class F, D7158 Class H" },
         { key: "fire", value: "Class A" },
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
         { key: "warranty", valueKey: "detail.warranty.lifetime" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
-        },
-        {
-          key: "detail.document.sds",
-          href: "https://www.gaf.com/en-us/document-library/documents/safety-data-sheets/laminated-shingles-sds-2093.pdf",
-        },
-        {
-          key: "detail.document.floridaApproval",
-          href: "https://www.gaf.com/en-us/document-library/documents/codes/timberline-shingles-florida-building-codes-hvhz-fl39780.pdf",
-        },
-        {
-          key: "detail.document.miamiDade",
-          href: "https://www.miamidade.gov/building/library/productcontrol/noa/22122104.pdf",
-        },
       ],
     },
     {
@@ -419,6 +369,13 @@ export const shopProductsData = {
       reviews: 98,
       availability: "in-stock",
       warrantyKey: "detail.warranty.lifetime",
+      compatible: [
+        "dupont-tyvek-120",
+        "gcp-5003000",
+        "gibraltar-08328",
+        "oatey-11872",
+        "master-flow-ssb960a",
+      ],
       specs: [
         { key: "length", value: "40 7/8 in" },
         { key: "shingleWidth", value: "13 3/4 in" },
@@ -575,16 +532,6 @@ export const shopProductsData = {
         { key: "weight", value: "150 lb/sq" },
         { key: "wind", value: "120 mph" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://decra.com/hubfs/DECRA%20Roofing%20Spec%20Sheet_17x11_2023.pdf",
-        },
-        {
-          key: "detail.document.specification",
-          href: "https://www.decra.com/hubfs/FINAL%20--%20DECRA%20Tile%20Roof%20Panels%20-%20Guide%20Specification%2014aug2018%20-%20EDIT%20march2024.pdf",
-        },
-      ],
     },
     {
       slug: "brakki-insulated-panel",
@@ -602,9 +549,6 @@ export const shopProductsData = {
         { key: "length", value: "1,050–13,300 mm" },
         { key: "thickness", value: "30–80 mm" },
         { key: "slope", value: "7%" },
-      ],
-      documents: [
-        { key: "detail.document.dataSheet", href: "https://mannigroup.b-cdn.net/2021/05/Isodomus-ENG.pdf" },
       ],
     },
     {
@@ -671,16 +615,6 @@ export const shopProductsData = {
         { key: "slope", value: "2/12" },
         { key: "fire", value: "Class A" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.dupont.com/content/dam/dupont/amer/us/en/performance-building-solutions/public/documents/en/tyvek-protec-120-roofing-underlayment-pis-43-D100055-enNA.pdf",
-        },
-        {
-          key: "detail.document.install",
-          href: "https://www.dupont.com/content/dam/dupont/amer/us/en/performance-building-solutions/public/documents/en/tyvek-protec-install-guide-43-d100784-enna.pdf",
-        },
-      ],
     },
     {
       slug: "gcp-5003000",
@@ -734,12 +668,6 @@ export const shopProductsData = {
         { key: "mass", value: "145 g/m²" },
         { key: "thickness", value: "0.6 mm" },
         { key: "vapor", value: "Sd 22 m" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://glidevaleprotect.com/app/uploads/2021/09/Protect-A1-ISSUE-3.pdf",
-        },
       ],
     },
     {
@@ -837,12 +765,6 @@ export const shopProductsData = {
         { key: "coverage", value: "1,000 sq ft" },
         { key: "slope", value: "3/12" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://bpcan.com/wp-content/uploads/2017/02/tds-ru600-suredeck-2014-11-25-.pdf",
-        },
-      ],
     },
     {
       slug: "gibraltar-cf5g-26",
@@ -881,12 +803,6 @@ export const shopProductsData = {
         { key: "face", value: "6 in" },
         { key: "wall", value: "20 in" },
         { key: "length", value: "10 ft" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.drexmet.com/wp-content/uploads/2023/06/DM-16277-Econo-Coping-Technical-Data-Sheet_10-29-25.pdf",
-        },
       ],
     },
     {
@@ -1020,12 +936,6 @@ export const shopProductsData = {
         { key: "voc", value: "<20 g/L" },
         { key: "temp", value: "40°F" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/data-sheets/everguard-wb181-bonding-adhesive-data-sheet-comeg525.pdf",
-        },
-      ],
     },
     {
       slug: "gaf-778c",
@@ -1044,12 +954,6 @@ export const shopProductsData = {
         { key: "voc", value: "<50 g/L" },
         { key: "temp", value: "40°F" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/data-sheets/everguard-pvc-quicklay-adhesive-data-sheet-comeg987.pdf",
-        },
-      ],
     },
     {
       slug: "titebond-61001",
@@ -1067,12 +971,6 @@ export const shopProductsData = {
         { key: "volume", value: "9.5 oz" },
         { key: "voc", value: "<50 g/L" },
         { key: "temp", value: "0°F" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.titebond.com/downloads/literature/sealants/FF1248_WMMR_TDS.pdf",
-        },
       ],
     },
     {
@@ -1094,12 +992,6 @@ export const shopProductsData = {
         { key: "voc", value: "489 g/L" },
         { key: "temp", value: "20°F" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/data-sheets/everguard-tpo-quick-spray-adhesive-data-sheet-comeg835.pdf",
-        },
-      ],
     },
     {
       slug: "gaf-olybond-500",
@@ -1116,12 +1008,6 @@ export const shopProductsData = {
         { key: "coverage", value: "3,500 sq ft" },
         { key: "tempRange", value: "40–100°F" },
         { key: "hose", value: "25 ft" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/data-sheets/olybond500-canister-insulation-adhesive-comgn729.pdf",
-        },
       ],
     },
     {
@@ -1141,16 +1027,6 @@ export const shopProductsData = {
         { key: "voc", value: "<250 g/L" },
         { key: "temp", value: "45°F" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/data-sheets/matrix-101-premium-sbs-membrane-adhesive-data-sheet-comcc506.pdf",
-        },
-        {
-          key: "detail.document.sds",
-          href: "https://www.gaf.com/en-us/document-library/documents/safety-data-sheets/matrix-101-premium-sbs-membrane-adhesive-sds-2182.pdf",
-        },
-      ],
     },
     {
       slug: "matrix-102",
@@ -1166,12 +1042,6 @@ export const shopProductsData = {
       specs: [
         { key: "volume", value: "4.75 gal" },
         { key: "standard", value: "ASTM D3019 Type III" },
-      ],
-      documents: [
-        {
-          key: "detail.document.sds",
-          href: "https://www.gaf.com/en-us/document-library/documents/safety-data-sheets/matrix-102-sbs-membrane-adhesive-sds-2219.pdf",
-        },
       ],
     },
     {
@@ -1191,12 +1061,6 @@ export const shopProductsData = {
         { key: "rate", value: "50–70 sq ft/gal" },
         { key: "voc", value: "<650 g/L" },
         { key: "temp", value: "40°F" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/data-sheets/everguard-tpo-1121-bonding-adhesive-data-sheet-comeg142.pdf",
-        },
       ],
     },
     {
@@ -1538,12 +1402,6 @@ export const shopProductsData = {
         { key: "load", value: "40 psf" },
         { key: "insulation", value: "1 in" },
       ],
-      documents: [
-        {
-          key: "detail.document.drawing",
-          href: "https://www.bilco.com/Content/BILCO/DownloadCenter/Documents/S.pdf",
-        },
-      ],
     },
     {
       slug: "vevor-chimney-cap-6in",
@@ -1613,12 +1471,6 @@ export const shopProductsData = {
         { key: "atticArea", value: "3,000 sq ft" },
         { key: "intake", value: "768 sq in" },
       ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/specifications/spec-sheet-master-flow-power-attic-vent---gable-mount.pdf",
-        },
-      ],
     },
     {
       slug: "master-flow-prsolar2",
@@ -1640,16 +1492,6 @@ export const shopProductsData = {
         { key: "atticArea", value: "1,070 sq ft" },
         { key: "opening", value: "15 in" },
         { key: "slope", value: "2/12" },
-      ],
-      documents: [
-        {
-          key: "detail.document.dataSheet",
-          href: "https://www.gaf.com/en-us/document-library/documents/data-sheets/master-flow-greenmachine-high-power-solar-roof-vent-sell-sheet-resmf163.pdf",
-        },
-        {
-          key: "detail.document.miamiDade",
-          href: "https://www.gaf.com/en-us/document-library/documents/codes/master-flow-static-and-power-roof-ventilators-miami-dade.pdf",
-        },
       ],
     },
     {

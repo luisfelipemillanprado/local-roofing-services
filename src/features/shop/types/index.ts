@@ -112,10 +112,14 @@ export interface ProductAboutProps {
   paragraphs: string[];
 }
 
-/* official manufacturer PDFs; each opens in a new tab */
-export interface ProductDocumentsProps {
-  items: { key: string; label: string; href: string }[];
-  newTabLabel: string;
+/* what it pairs with in the catalog, then how it goes on and what is covered */
+export interface ProductFeaturesProps {
+  compatibleLabel: string;
+  compatible: { key: string; title: string; href: string }[];
+  installLabel: string;
+  install: string[];
+  coverageLabel: string;
+  coverage: string[];
 }
 
 /* one tab: its label plus the already-built panel content */
