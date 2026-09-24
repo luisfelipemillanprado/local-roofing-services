@@ -1,8 +1,8 @@
 /* Shop product-detail scaffold: shared CTAs and panels.
    Per-product specs, SKU, warranty and extra gallery shots are still pending. */
 export const productDetailData = {
-  /* quote lands on the contact form */
-  quoteCta: { key: "action.quote", href: "#contact" },
+  /* the detail cta lands on the contact form, same wording as every other section */
+  ctaHref: { key: "action.contact", href: "#contact" },
   /* trust cards: icon by key, never reusing a pitch icon */
   trust: [
     { key: "materials", icon: "package" },

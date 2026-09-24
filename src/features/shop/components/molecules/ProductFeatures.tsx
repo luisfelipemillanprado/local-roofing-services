@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { ArrowUpRight, CircleCheck, ShieldCheck } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
+import { CheckItem } from "@/common/check-item/components/CheckItem";
 import type { ProductFeaturesProps } from "@/features/shop/types";
 
 /* practical side of the product: what it pairs with, how it goes on, what is covered */
@@ -33,24 +34,19 @@ export const ProductFeatures = ({
 
     <div className="grid gap-3">
       <Title as="h3" size="panel" weight="bold" text={installLabel} />
-      <ul className="grid gap-3">
+      {/* same check list as the about selling points */}
+      <ul className="grid gap-4">
         {install.map((item) => (
-          <li key={item} className="grid grid-cols-[auto_1fr] items-start gap-2.5">
-            <CircleCheck aria-hidden className="mt-0.5 size-4.5 text-primary" />
-            <Text as="span" size="body" tone="muted" text={item} />
-          </li>
+          <CheckItem key={item} tone="default" text={item} />
         ))}
       </ul>
     </div>
 
     <div className="grid gap-3">
       <Title as="h3" size="panel" weight="bold" text={coverageLabel} />
-      <ul className="grid gap-3">
+      <ul className="grid gap-4">
         {coverage.map((item) => (
-          <li key={item} className="grid grid-cols-[auto_1fr] items-start gap-2.5">
-            <ShieldCheck aria-hidden className="mt-0.5 size-4.5 text-primary" />
-            <Text as="span" size="body" tone="muted" text={item} />
-          </li>
+          <CheckItem key={item} tone="default" text={item} />
         ))}
       </ul>
     </div>

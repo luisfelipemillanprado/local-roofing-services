@@ -17,7 +17,7 @@ import { productDetailData } from "@/data/features/shop/product-detail";
 import type { ProductAvailability } from "@/common/product-card/types";
 import type { ProductDetailProps } from "@/features/shop/types";
 
-const { quoteCta, viewer } = productDetailData;
+const { ctaHref, viewer } = productDetailData;
 
 /* availability dot color per state */
 const dots: Record<ProductAvailability, string> = {
@@ -39,7 +39,8 @@ export const ProductDetail = ({ slug, tone = "base" }: ProductDetailProps) => {
   return (
     <SectionWrapper id="product" tone={tone}>
       <Container>
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-14">
+        {/* same split gutter as the about band: 80px stacked, 52px side by side */}
+        <div className="grid gap-20 lg:grid-cols-2 lg:gap-13">
           <ProductGallery
             images={[product.image, ...product.gallery]}
             title={title}
@@ -64,23 +65,22 @@ export const ProductDetail = ({ slug, tone = "base" }: ProductDetailProps) => {
               <Stars rating={product.rating} />
               <Text
                 as="span"
-                size="caption"
+                size="body"
                 tone="muted"
                 text={t("detail.reviewCount", { rating: product.rating, count: product.reviews })}
               />
             </div>
 
-            {/* the unit rides with the price; availability is its own row in the column rhythm */}
+            {/* price, unit and stock state share one row, all seated on the price baseline */}
             <div className="grid grid-flow-col items-end justify-start gap-2">
               <TextNumber size="display" text={`$${product.price.toFixed(2)}`} />
               <span className="mb-1">
                 <Text as="span" size="body" tone="muted" text={`/ ${t(product.unitKey)}`} />
               </span>
-            </div>
-
-            <div className="grid grid-flow-col items-center justify-start gap-2">
-              <span className={`size-2 rounded-full ${dots[product.availability]}`} />
-              <Text as="span" size="caption" tone="muted" text={t(`availability.${product.availability}`)} />
+              <span className="mb-1 ml-3 grid grid-flow-col items-center justify-start gap-2">
+                <span className={`size-2 rounded-full ${dots[product.availability]}`} />
+                <Text as="span" size="body" tone="muted" text={t(`availability.${product.availability}`)} />
+              </span>
             </div>
 
             {/* the fact card and the cta take extra top margin beyond the gap, as in about */}
@@ -113,8 +113,8 @@ export const ProductDetail = ({ slug, tone = "base" }: ProductDetailProps) => {
 
             {/* calling is covered by the floating contact, so the quote stands alone */}
             <div className="mt-2.5 justify-self-start">
-              <Button href={quoteCta.href} pulse>
-                {t(quoteCta.key)}
+              <Button href={ctaHref.href} pulse>
+                {t(ctaHref.key)}
               </Button>
             </div>
 
