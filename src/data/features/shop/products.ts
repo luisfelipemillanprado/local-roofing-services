@@ -2,8 +2,6 @@
    slug = brand-model, stable id · /shop/[slug] route · i18n key · React key.
    image = folder main shot; gallery = extra shots in the same folder (variants). */
 export const shopProductsData = {
-  /* per-product card button: i18n key (text) + href (destination) */
-  quoteHref: { key: "action.quote", href: "#contact" },
   /* /shop category strip: chips render in this order, first one selected by default */
   categories: ["shingles", "metal", "underlayment", "flashing", "accessories", "tools", "supplies"],
   /* category strip photos, linked by category key */
