@@ -19,10 +19,11 @@ export const ProductTabs = ({ tabs }: ProductTabsProps) => {
 
   return (
     <div className="grid content-start gap-6">
+      {/* scrolls only when the labels outgrow the column; overflow-y guards the active underline */}
       <div
         role="tablist"
         onKeyDown={onKeyDown}
-        className="grid grid-flow-col justify-start gap-8 border-b border-line"
+        className="grid scrollbar-none grid-flow-col justify-start gap-8 overflow-x-auto overflow-y-hidden border-b border-line"
       >
         {tabs.map(({ key, label }) => (
           <button
