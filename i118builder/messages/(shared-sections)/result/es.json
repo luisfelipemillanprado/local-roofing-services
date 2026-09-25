@@ -1,0 +1,99 @@
+{
+  "eyebrow": "RESULTADOS.",
+  "titleLead": "Mira El Acabado",
+  "titleAccent": "De Cada Material",
+  "description": "Cada teja, panel y membrana que instalamos termina en un techo real, así que aquí ves exactamente cómo queda.",
+  "action": {
+    "contact": "Contactar Ahora",
+    "viewImage": "Ver Imagen",
+    "close": "Cerrar",
+    "previous": "Imagen Anterior",
+    "next": "Imagen Siguiente"
+  },
+  "items": {
+    "silverSeam": {
+      "title": "Acabado Plateado",
+      "description": "Junta alzada plateada bien alineada."
+    },
+    "slateConcrete": {
+      "title": "Aspecto Pizarra",
+      "description": "Teja de hormigón imitando pizarra."
+    },
+    "greyAsphalt": {
+      "title": "Shingle Gris",
+      "description": "Shingle asfáltico gris en finca."
+    },
+    "metalMansard": {
+      "title": "Mansarda Metálica",
+      "description": "Mansarda metálica gris sobre plana."
+    },
+    "solarPanels": {
+      "title": "Paneles Solares",
+      "description": "Paneles solares sobre metal azul."
+    },
+    "flatSkylights": {
+      "title": "Tragaluces Acristalados",
+      "description": "Tragaluces de vidrio en plana."
+    },
+    "bronzeSeam": {
+      "title": "Acabado Bronce",
+      "description": "Junta alzada bronce al sol."
+    },
+    "terracottaSeam": {
+      "title": "Acabado Terracota",
+      "description": "Junta alzada terracota en hastiales."
+    },
+    "brightSeam": {
+      "title": "Plateado Brillante",
+      "description": "Junta alzada plateada muy luminosa."
+    },
+    "charcoalSeam": {
+      "title": "Acabado Carbón",
+      "description": "Junta alzada carbón sobre aleros."
+    },
+    "blackStoneTile": {
+      "title": "Teja Negra",
+      "description": "Teja metálica negra con granulado."
+    },
+    "navySeam": {
+      "title": "Acabado Marino",
+      "description": "Junta alzada azul marino intensa."
+    },
+    "graphiteSeam": {
+      "title": "Acabado Grafito",
+      "description": "Junta alzada grafito muy limpia."
+    },
+    "maroonStoneTile": {
+      "title": "Teja Granate",
+      "description": "Teja metálica granate con granulado."
+    },
+    "greyStoneTile": {
+      "title": "Teja Gris",
+      "description": "Teja metálica gris con granulado."
+    },
+    "pewterSeam": {
+      "title": "Acabado Peltre",
+      "description": "Junta alzada peltre sobre rancho."
+    },
+    "clayBarrel": {
+      "title": "Barril Terracota",
+      "description": "Teja de barro barril terracota."
+    },
+    "coralBarrel": {
+      "title": "Barril Coral",
+      "description": "Teja de barro barril coral."
+    },
+    "agedAsphalt": {
+      "title": "Shingle Envejecido",
+      "description": "Shingle gris envejecido aún firme."
+    },
+    "shingleSkylight": {
+      "title": "Tragaluz Integrado",
+      "description": "Tragaluz encajado en shingle gris."
+    },
+    "roofLantern": {
+      "title": "Linterna Acristalada",
+      "description": "Linterna de vidrio sobre plana."
+    }
+  }
+}

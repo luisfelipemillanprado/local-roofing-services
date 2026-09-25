@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import { ProjectCard } from "@/shared-sections/projects/components/molecules/ProjectCard";
-import type { ProjectListProps } from "@/shared-sections/projects/types";
+import { MosaicCard } from "@/common/mosaic/components/MosaicCard";
+import type { MosaicListProps } from "@/common/mosaic/types";
 
 /* lg bento slot: large left + two stacked, then two stacked + large right */
 const placementByPattern: Record<number, string> = {
@@ -12,7 +12,7 @@ const placementByPattern: Record<number, string> = {
   5: "lg:col-start-2 lg:col-span-2 lg:row-span-2",
 };
 
-export const ProjectList = ({ cards, renderAction }: ProjectListProps) => (
+export const MosaicList = ({ cards, renderAction }: MosaicListProps) => (
   <div className="grid gap-7 lg:grid-flow-dense lg:auto-rows-[clamp(11rem,20vw,16rem)] lg:grid-cols-[1.15fr_0.7fr_1.15fr] lg:gap-6">
     {Array.from({ length: Math.ceil(cards.length / 3) }, (_, groupIndex) => {
       const group = cards.slice(groupIndex * 3, groupIndex * 3 + 3);
@@ -37,11 +37,11 @@ export const ProjectList = ({ cards, renderAction }: ProjectListProps) => (
                   largeLastInGroup &&
                     (featured ? "sm:row-start-1 lg:row-start-auto" : "sm:row-start-2 lg:row-start-auto"),
                   placementByPattern[index % 6],
-                  /* home/about summary (6): last card hidden on mobile, shown from sm up */
+                  /* a six card set hides its last tile on mobile, shown from sm up */
                   cards.length === 6 && index === 5 && "hidden sm:block",
                 )}
               >
-                <ProjectCard
+                <MosaicCard
                   image={card.image}
                   title={card.title}
                   description={card.description}
