@@ -1,25 +1,30 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { useCarouselDots } from "@/carousel/hooks/useCarouselDots";
 import type { Carousel, CarouselOptions } from "@/carousel/types";
 
-/* carousel state: dots, load fade, manual navigation; looped autoplay by default */
-export const useCarousel = ({ loop = true, autoplay = true }: CarouselOptions = {}): Carousel => {
-  /* start-aligned so multi-card views line up with the page column */
+/* carousel state: dots and manual navigation; looped autoplay by default */
+export const useCarousel = ({
+  loop = true,
+  autoplay = true,
+  startSnap = 0,
+  align = "start",
+}: CarouselOptions = {}): Carousel => {
+  /* reduced motion keeps the snapping but drops the travel */
+  const instant =
+    typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  /* start-aligned by default so multi-card views line up with the page column */
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop, align: "start" },
+    { loop, align, startSnap, ...(instant ? { duration: 0 } : {}) },
     autoplay ? [Autoplay({ delay: 5000 })] : [],
   );
-  /* gate visibility until slides are positioned */
-  const [ready, setReady] = useState(false);
 
-  const dots = useCarouselDots(emblaApi);
+  /* seeded so the caption matches the opening slide on the first frame */
+  const dots = useCarouselDots(emblaApi, startSnap);
 
   useEffect(() => {
     if (!emblaApi) return;
-    /* defer ready a frame (lint bans sync set-state in effects) */
-    const raf = requestAnimationFrame(() => setReady(true));
 
     const autoplay = emblaApi.plugins().autoplay;
     const hidden = emblaApi.rootNode().offsetParent === null;
@@ -35,7 +40,6 @@ export const useCarousel = ({ loop = true, autoplay = true }: CarouselOptions = 
     }
 
     return () => {
-      cancelAnimationFrame(raf);
       emblaApi.off("pointerup", play).off("reinit", play);
     };
   }, [emblaApi]);
@@ -49,13 +53,6 @@ export const useCarousel = ({ loop = true, autoplay = true }: CarouselOptions = 
     emblaApi?.goToNext();
     emblaApi?.plugins().autoplay?.reset();
   }, [emblaApi]);
-  const goTo = useCallback(
-    (index: number) => {
-      emblaApi?.goTo(index);
-      emblaApi?.plugins().autoplay?.reset();
-    },
-    [emblaApi],
-  );
 
-  return { emblaRef, ready, goToPrev, goToNext, goTo, ...dots };
+  return { emblaRef, goToPrev, goToNext, ...dots };
 };

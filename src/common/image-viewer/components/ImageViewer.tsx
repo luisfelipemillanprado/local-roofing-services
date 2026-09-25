@@ -1,12 +1,14 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import clsx from "clsx";
+import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { ViewerControl } from "@/common/image-viewer/components/ViewerControl";
+import { useCarousel } from "@/carousel/hooks/useCarousel";
 import type { ImageViewerProps } from "@/common/image-viewer/types";
 
-/* modal image viewer: backdrop, prev/next, caption; portaled above the app shell */
+/* modal image viewer: backdrop, swipeable track, caption; portaled above the app shell */
 export const ImageViewer = ({
   cards,
   startIndex,
@@ -15,12 +17,13 @@ export const ImageViewer = ({
   previousLabel,
   nextLabel,
 }: ImageViewerProps) => {
-  const [current, setCurrent] = useState(startIndex);
   const closeRef = useRef<HTMLButtonElement>(null);
-  const count = cards.length;
-
-  const prev = useCallback(() => setCurrent((c) => (c - 1 + count) % count), [count]);
-  const next = useCallback(() => setCurrent((c) => (c + 1) % count), [count]);
+  /* a lightbox never advances on its own, and it opens on the tile that was clicked */
+  const { emblaRef, selectedIndex, goToPrev, goToNext } = useCarousel({
+    autoplay: false,
+    startSnap: startIndex,
+    align: "center",
+  });
 
   /* on open: lock scroll and move focus into the dialog */
   useEffect(() => {
@@ -35,15 +38,15 @@ export const ImageViewer = ({
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.key === "Escape") onClose();
-      else if (event.key === "ArrowLeft") prev();
-      else if (event.key === "ArrowRight") next();
+      else if (event.key === "ArrowLeft") goToPrev();
+      else if (event.key === "ArrowRight") goToNext();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [onClose, prev, next]);
+  }, [onClose, goToPrev, goToNext]);
 
   if (typeof document === "undefined") return null;
-  const card = cards[current];
+  const card = cards[selectedIndex];
   if (!card) return null;
 
   return createPortal(
@@ -57,7 +60,28 @@ export const ImageViewer = ({
       <div onClick={onClose} className="absolute inset-0 bg-contrast/70 backdrop-blur-md" />
 
       <figure className="relative grid w-full max-w-5xl justify-items-center gap-4">
-        <Media src={card.image} alt={card.title} shape="showcase" sizes="(max-width: 1024px) 90vw, 1024px" />
+        <div ref={emblaRef} className="w-full overflow-hidden">
+          {/* embla's required shape; the gap is slide padding, which its resize observer can measure */}
+          <div className="-ml-4 flex [touch-action:pan-y_pinch-zoom]">
+            {cards.map((slide, index) => (
+              <div
+                key={index}
+                className={clsx(
+                  /* 70% leaves the neighbours peeking at both edges, as the class names example does */
+                  "min-w-0 flex-[0_0_70%] pl-4 transition-opacity duration-200",
+                  index !== selectedIndex && "opacity-60",
+                )}
+              >
+                <Media
+                  src={slide.image}
+                  alt={slide.title}
+                  shape="showcase"
+                  sizes="(max-width: 1024px) 70vw, 717px"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
         <figcaption className="grid justify-items-center gap-1 text-center">
           <Text as="span" size="body" weight="bold" text={card.title} />
           <Text as="span" size="body" tone="muted" text={card.description} />
@@ -76,13 +100,13 @@ export const ImageViewer = ({
         placement="prev"
         label={previousLabel}
         icon={<ChevronLeft className="size-6 text-white" />}
-        onClick={prev}
+        onClick={goToPrev}
       />
       <ViewerControl
         placement="next"
         label={nextLabel}
         icon={<ChevronRight className="size-6 text-white" />}
-        onClick={next}
+        onClick={goToNext}
       />
     </div>,
     document.body,
