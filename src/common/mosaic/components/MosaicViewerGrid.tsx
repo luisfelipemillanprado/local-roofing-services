@@ -13,6 +13,8 @@ export const MosaicViewerGrid = ({
   closeLabel,
   previousLabel,
   nextLabel,
+  pattern,
+  insert,
 }: MosaicViewerGridProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -20,6 +22,8 @@ export const MosaicViewerGrid = ({
     <>
       <MosaicList
         cards={cards}
+        pattern={pattern}
+        insert={insert}
         renderAction={(card, index) => (
           <ZoomButton
             label={`${card.description} ${actionLabel}`}

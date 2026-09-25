@@ -1,7 +1,8 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { ServiceList } from "@/shared-sections/services/components/molecules/ServiceList";
+import { MosaicList } from "@/common/mosaic/components/MosaicList";
+import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
 import { getTranslations } from "next-intl/server";
 import { servicesData } from "@/data/shared-sections/services";
 import type { ServicesProps } from "@/shared-sections/services/types";
@@ -42,7 +43,14 @@ export const Services = async ({ variant, tone = "muted", limit }: ServicesProps
             </div>
           </div>
 
-          <ServiceList cards={cards} viewDetails={viewDetails} />
+          {/* the arrow opens the service detail, so the href comes from the card behind the index */}
+          <MosaicList
+            cards={cards}
+            pattern="centered"
+            renderAction={(card, index) => (
+              <ArrowLink href={cards[index]!.href} label={`${card.title} ${viewDetails}`} pulse />
+            )}
+          />
         </div>
       </Container>
     </SectionWrapper>
