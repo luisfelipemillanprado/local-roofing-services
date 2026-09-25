@@ -2,7 +2,7 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { MosaicList } from "@/common/mosaic/components/MosaicList";
-import { MosaicViewerGrid } from "@/common/mosaic/components/MosaicViewerGrid";
+import { ViewerProvider, ViewerZoomButton } from "@/common/image-viewer/components/ViewerProvider";
 import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
 import { getTranslations } from "next-intl/server";
 import { projectsData } from "@/data/shared-sections/projects";
@@ -55,13 +55,19 @@ export const Projects = async ({ variant, tone = "muted", limit, offset = 0 }: P
               )}
             />
           ) : (
-            <MosaicViewerGrid
+            <ViewerProvider
               cards={cards}
-              actionLabel={t("action.viewImage")}
               closeLabel={t(viewer.close)}
               previousLabel={t(viewer.previous)}
               nextLabel={t(viewer.next)}
-            />
+            >
+              <MosaicList
+                cards={cards}
+                renderAction={(card, index) => (
+                  <ViewerZoomButton index={index} label={`${card.description} ${t("action.viewImage")}`} />
+                )}
+              />
+            </ViewerProvider>
           )}
         </div>
       </Container>

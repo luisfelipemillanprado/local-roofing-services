@@ -29,3 +29,18 @@ export interface ZoomButtonProps {
   onClick: () => void;
   pulse?: boolean;
 }
+
+/* holds the open index for a grid whose tiles are rendered on the server */
+export interface ViewerProviderProps {
+  cards: ViewerCard[];
+  children: ReactNode;
+  closeLabel: string;
+  previousLabel: string;
+  nextLabel: string;
+}
+
+/* tile control wired to the provider: only the index and the label cross */
+export interface ViewerZoomButtonProps {
+  index: number;
+  label: string;
+}
