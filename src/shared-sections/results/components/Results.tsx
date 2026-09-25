@@ -3,7 +3,8 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { MosaicViewerGrid } from "@/common/mosaic/components/MosaicViewerGrid";
+import { MosaicList } from "@/common/mosaic/components/MosaicList";
+import { ViewerProvider, ViewerZoomButton } from "@/common/image-viewer/components/ViewerProvider";
 import { resultsData } from "@/data/shared-sections/results";
 import type { ResultsProps } from "@/shared-sections/results/types";
 
@@ -41,13 +42,19 @@ export const Results = async ({ category, tone = "base", limit }: ResultsProps) 
             </div>
           </div>
 
-          <MosaicViewerGrid
+          <ViewerProvider
             cards={cards}
-            actionLabel={t("action.viewImage")}
             closeLabel={t(viewer.close)}
             previousLabel={t(viewer.previous)}
             nextLabel={t(viewer.next)}
-          />
+          >
+            <MosaicList
+              cards={cards}
+              renderAction={(card, index) => (
+                <ViewerZoomButton index={index} label={`${card.description} ${t("action.viewImage")}`} />
+              )}
+            />
+          </ViewerProvider>
         </div>
       </Container>
     </SectionWrapper>

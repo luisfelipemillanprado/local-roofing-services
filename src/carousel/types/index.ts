@@ -6,6 +6,8 @@ type EmblaRef = ReturnType<typeof import("embla-carousel-react").default>[0];
 export interface CarouselOptions {
   loop?: boolean;
   autoplay?: boolean;
+  startSnap?: number; /* opens on a given slide, e.g. the tile that launched a viewer */
+  align?: "start" | "center"; /* center lets the neighbouring slides peek at both edges */
 }
 
 /* dot indicator state: active snap + snap list */
@@ -17,8 +19,6 @@ export interface CarouselDots {
 /* all a carousel view needs; logic lives in the hook */
 export interface Carousel extends CarouselDots {
   emblaRef: EmblaRef;
-  ready: boolean;
   goToPrev: () => void;
   goToNext: () => void;
-  goTo: (index: number) => void;
 }

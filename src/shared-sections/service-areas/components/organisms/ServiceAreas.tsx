@@ -3,7 +3,8 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { Container } from "@/common/container/components/Container";
-import { MosaicViewerGrid } from "@/common/mosaic/components/MosaicViewerGrid";
+import { MosaicList } from "@/common/mosaic/components/MosaicList";
+import { ViewerProvider, ViewerZoomButton } from "@/common/image-viewer/components/ViewerProvider";
 import { OfficeMap } from "@/shared-sections/service-areas/components/molecules/OfficeMap";
 import { serviceAreasData } from "@/data/shared-sections/service-areas";
 import { company } from "@/data/site";
@@ -42,29 +43,35 @@ export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
           </div>
 
           {/* branch offices bento with the interactive Miami map between its two groups */}
-          <MosaicViewerGrid
+          <ViewerProvider
             cards={officeCards}
-            pattern="centered"
-            insert={
-              <OfficeMap
-                styleUrl={map.styleUrl}
-                view={map.view}
-                limit={map.limit}
-                offices={company.offices}
-                labels={{
-                  region: t(map.labels.region, { name: company.name }),
-                  zoomIn: t(map.labels.zoomIn),
-                  zoomOut: t(map.labels.zoomOut),
-                  closePopup: t(map.labels.closePopup),
-                  toggleAttribution: t(map.labels.toggleAttribution),
-                }}
-              />
-            }
-            actionLabel={t("action.viewImage")}
             closeLabel={t(viewer.close)}
             previousLabel={t(viewer.previous)}
             nextLabel={t(viewer.next)}
-          />
+          >
+            <MosaicList
+              cards={officeCards}
+              pattern="centered"
+              insert={
+                <OfficeMap
+                  styleUrl={map.styleUrl}
+                  view={map.view}
+                  limit={map.limit}
+                  offices={company.offices}
+                  labels={{
+                    region: t(map.labels.region, { name: company.name }),
+                    zoomIn: t(map.labels.zoomIn),
+                    zoomOut: t(map.labels.zoomOut),
+                    closePopup: t(map.labels.closePopup),
+                    toggleAttribution: t(map.labels.toggleAttribution),
+                  }}
+                />
+              }
+              renderAction={(card, index) => (
+                <ViewerZoomButton index={index} label={`${card.description} ${t("action.viewImage")}`} />
+              )}
+            />
+          </ViewerProvider>
         </div>
       </Container>
     </SectionWrapper>

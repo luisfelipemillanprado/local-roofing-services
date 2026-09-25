@@ -2,8 +2,8 @@ import { useCallback, useEffect, useState } from "react";
 import type { EmblaApi, CarouselDots } from "@/carousel/types";
 
 /* active snap + snap list for the dot indicator */
-export const useCarouselDots = (emblaApi: EmblaApi | undefined): CarouselDots => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+export const useCarouselDots = (emblaApi: EmblaApi | undefined, startSnap = 0): CarouselDots => {
+  const [selectedIndex, setSelectedIndex] = useState(startSnap);
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
 
   const onInit = useCallback((api: EmblaApi) => setScrollSnaps(api.snapList()), []);
