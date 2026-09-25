@@ -1,0 +1,99 @@
+{
+  "eyebrow": "REAL RESULTS.",
+  "titleLead": "See The Finish",
+  "titleAccent": "On Every Roof Material",
+  "description": "Every tile, panel and membrane we fit ends up on a real roof, so here is exactly how it looks.",
+  "action": {
+    "contact": "Contact Us Now",
+    "viewImage": "View Image",
+    "close": "Close",
+    "previous": "Previous Image",
+    "next": "Next Image"
+  },
+  "items": {
+    "silverSeam": {
+      "title": "Silver Finish",
+      "description": "Silver standing seam laid straight."
+    },
+    "slateConcrete": {
+      "title": "Slate Look",
+      "description": "Concrete tile with slate texture."
+    },
+    "greyAsphalt": {
+      "title": "Grey Shingle",
+      "description": "Grey asphalt shingle across estate."
+    },
+    "metalMansard": {
+      "title": "Metal Mansard",
+      "description": "Grey metal mansard over flat."
+    },
+    "solarPanels": {
+      "title": "Solar Array",
+      "description": "Solar panels over blue metal."
+    },
+    "flatSkylights": {
+      "title": "Glass Skylights",
+      "description": "Glass skylights on grey flat."
+    },
+    "bronzeSeam": {
+      "title": "Bronze Finish",
+      "description": "Bronze standing seam under sun."
+    },
+    "terracottaSeam": {
+      "title": "Terracotta Finish",
+      "description": "Terracotta standing seam on gables."
+    },
+    "brightSeam": {
+      "title": "Bright Silver",
+      "description": "Bright silver seam catching light."
+    },
+    "charcoalSeam": {
+      "title": "Charcoal Finish",
+      "description": "Charcoal standing seam over eaves."
+    },
+    "blackStoneTile": {
+      "title": "Black Tile",
+      "description": "Black stone coated tile roof."
+    },
+    "navySeam": {
+      "title": "Navy Finish",
+      "description": "Navy standing seam across ridges."
+    },
+    "graphiteSeam": {
+      "title": "Graphite Finish",
+      "description": "Graphite standing seam very clean."
+    },
+    "maroonStoneTile": {
+      "title": "Maroon Tile",
+      "description": "Maroon stone coated tile roof."
+    },
+    "greyStoneTile": {
+      "title": "Grey Tile",
+      "description": "Grey stone coated tile roof."
+    },
+    "pewterSeam": {
+      "title": "Pewter Finish",
+      "description": "Pewter standing seam over ranch."
+    },
+    "clayBarrel": {
+      "title": "Clay Barrel",
+      "description": "Terracotta clay barrel tile roof."
+    },
+    "coralBarrel": {
+      "title": "Coral Barrel",
+      "description": "Warm coral clay barrel tile."
+    },
+    "agedAsphalt": {
+      "title": "Aged Shingle",
+      "description": "Aged grey shingle still sound."
+    },
+    "shingleSkylight": {
+      "title": "Shingle Skylight",
+      "description": "Skylight framed into grey shingle."
+    },
+    "roofLantern": {
+      "title": "Roof Lantern",
+      "description": "Glass lantern over flat roof."
+    }
+  }
+}

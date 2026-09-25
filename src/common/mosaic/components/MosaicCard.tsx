@@ -1,10 +1,10 @@
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
-import type { ProjectCardProps } from "@/shared-sections/projects/types";
+import type { MosaicCardProps } from "@/common/mosaic/types";
 
 /* full-bleed tile: image fills the cell, caption sits on the bottom scrim */
-export const ProjectCard = ({ image, title, description, action, sizes }: ProjectCardProps) => (
+export const MosaicCard = ({ image, title, description, action, sizes }: MosaicCardProps) => (
   <article className="group relative h-full overflow-hidden rounded-card border border-line shadow-md">
     <Media src={image} alt={title} shape="fill" sizes={sizes} />
     <div className="pointer-events-none absolute inset-0 overlay-card-bottom" />

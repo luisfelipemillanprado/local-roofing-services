@@ -3,22 +3,22 @@
 import { useState } from "react";
 import { ZoomButton } from "@/common/image-viewer/components/ZoomButton";
 import { ImageViewer } from "@/common/image-viewer/components/ImageViewer";
-import { ProjectList } from "@/shared-sections/projects/components/molecules/ProjectList";
-import type { ProjectViewerGridProps } from "@/shared-sections/projects/types";
+import { MosaicList } from "@/common/mosaic/components/MosaicList";
+import type { MosaicViewerGridProps } from "@/common/mosaic/types";
 
-/* projects page variant: masonry grid; each tile opens the project viewer */
-export const ProjectViewerGrid = ({
+/* mosaic whose tiles open the full screen viewer */
+export const MosaicViewerGrid = ({
   cards,
   actionLabel,
   closeLabel,
   previousLabel,
   nextLabel,
-}: ProjectViewerGridProps) => {
+}: MosaicViewerGridProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <>
-      <ProjectList
+      <MosaicList
         cards={cards}
         renderAction={(card, index) => (
           <ZoomButton
