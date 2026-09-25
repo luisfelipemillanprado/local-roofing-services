@@ -3,7 +3,7 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { Container } from "@/common/container/components/Container";
-import { OfficeViewerGrid } from "@/shared-sections/service-areas/components/molecules/OfficeViewerGrid";
+import { MosaicViewerGrid } from "@/common/mosaic/components/MosaicViewerGrid";
 import { OfficeMap } from "@/shared-sections/service-areas/components/molecules/OfficeMap";
 import { serviceAreasData } from "@/data/shared-sections/service-areas";
 import { company } from "@/data/site";
@@ -42,9 +42,10 @@ export const ServiceAreas = async ({ tone = "base" }: ServiceAreasProps) => {
           </div>
 
           {/* branch offices bento with the interactive Miami map between its two groups */}
-          <OfficeViewerGrid
+          <MosaicViewerGrid
             cards={officeCards}
-            map={
+            pattern="centered"
+            insert={
               <OfficeMap
                 styleUrl={map.styleUrl}
                 view={map.view}
