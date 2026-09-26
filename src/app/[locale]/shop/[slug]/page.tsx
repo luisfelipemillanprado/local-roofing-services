@@ -9,7 +9,7 @@ import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee"
 import { ProductDetail } from "@/features/shop/components/organisms/ProductDetail";
 import { ProductInfo } from "@/features/shop/components/organisms/ProductInfo";
 import { Results } from "@/shared-sections/results/components/Results";
-import { RelatedProducts } from "@/features/shop/components/organisms/RelatedProducts";
+import { Products } from "@/shared-sections/products/components/organisms/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 import { shopProductsData } from "@/data/features/shop/products";
 
@@ -61,7 +61,7 @@ export default async function ProductDetailPage({ params }: Props) {
       <ProductDetail slug={slug} />
       <ProductInfo slug={slug} tone="muted" />
       <Results category={product.category} limit={6} />
-      <RelatedProducts slug={slug} tone="muted" />
+      <Products tone="muted" limit={6} />
       <Contact />
     </>
   );

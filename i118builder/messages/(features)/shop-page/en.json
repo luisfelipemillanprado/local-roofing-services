@@ -49,17 +49,11 @@
     "limited-stock": "Limited Stock",
     "out-of-stock": "Out of Stock"
   },
-  "related": {
-    "eyebrow": "Related Products",
-    "titleLead": "Explore Related",
-    "titleAccent": "Products",
-    "description": "More roofing products from the same category, ready to pair with your project or order on their own."
-  },
   "detail": {
     "reviewCount": "{rating} from {count} Reviews",
     "category": "Category",
-    "unit": "Unit",
-    "sku": "SKU",
+    "unit": "Sale Unit",
+    "sku": "Item Code",
     "none": "None",
     "share": "Share",
     "viewImage": "View Image",
@@ -213,13 +207,12 @@
       "title": "Timberline HDZ Charcoal Shingles",
       "titleLead": "Timberline HDZ",
       "titleAccent": "Charcoal Shingles",
-      "description": "Architectural laminate shingles in deep charcoal, with LayerLock technology for a wider nail zone.",
+      "description": "Architectural laminate shingles in deep charcoal, with LayerLock technology that widens the nail zone for a faster and surer fastening.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Charcoal, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
-        "Each shingle measures approximately 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest premium ridge cap shingles and with Pro Start, QuickStart or WeatherBlocker starter strips along the eaves and rakes.",
-        "Install it on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 cover the deck with two layers of GAF Roof Deck Protection; at 4:12 and above one layer is enough. Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
-        "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
-        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
+        "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
+        "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
+        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
       ],
       "features": {
         "install": [
@@ -243,13 +236,12 @@
       "title": "Timberline HDZ Pewter Gray Shingles",
       "titleLead": "Timberline HDZ",
       "titleAccent": "Pewter Gray Shingles",
-      "description": "Architectural laminate shingles in soft pewter gray, built for lasting wind and weather resistance.",
+      "description": "Architectural laminate shingles in soft pewter gray, built for lasting wind and weather resistance on any pitched roof for decades.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Pewter Gray, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
-        "Each shingle measures approximately 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest premium ridge cap shingles and with Pro Start, QuickStart or WeatherBlocker starter strips along the eaves and rakes.",
-        "Install it on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 cover the deck with two layers of GAF Roof Deck Protection; at 4:12 and above one layer is enough. Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
-        "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
-        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
+        "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
+        "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
+        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
       ],
       "features": {
         "install": [
@@ -273,13 +265,12 @@
       "title": "Timberline HDZ Barkwood Shingles",
       "titleLead": "Timberline HDZ",
       "titleAccent": "Barkwood Shingles",
-      "description": "Architectural laminate shingles in warm barkwood, with the shadow depth of natural wood shakes.",
+      "description": "Architectural laminate shingles in warm barkwood, with all the shadow depth of natural wood shakes and none of their upkeep.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Barkwood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
-        "Each shingle measures approximately 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest premium ridge cap shingles and with Pro Start, QuickStart or WeatherBlocker starter strips along the eaves and rakes.",
-        "Install it on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 cover the deck with two layers of GAF Roof Deck Protection; at 4:12 and above one layer is enough. Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
-        "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
-        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
+        "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
+        "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
+        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
       ],
       "features": {
         "install": [
@@ -303,13 +294,12 @@
       "title": "Timberline HDZ Hunter Green Shingles",
       "titleLead": "Timberline HDZ",
       "titleAccent": "Hunter Green Shingles",
-      "description": "Architectural laminate shingles in rich hunter green, a bold roof color for wooded settings.",
+      "description": "Architectural laminate shingles in rich hunter green, a bold roof color that settles into wooded lots and heavily shaded settings.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Hunter Green, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
-        "Each shingle measures approximately 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest premium ridge cap shingles and with Pro Start, QuickStart or WeatherBlocker starter strips along the eaves and rakes.",
-        "Install it on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 cover the deck with two layers of GAF Roof Deck Protection; at 4:12 and above one layer is enough. Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
-        "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
-        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
+        "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
+        "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
+        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
       ],
       "features": {
         "install": [
@@ -333,13 +323,12 @@
       "title": "Timberline HDZ Shakewood Shingles",
       "titleLead": "Timberline HDZ",
       "titleAccent": "Shakewood Shingles",
-      "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline.",
+      "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline without washing out the walls below it.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Shakewood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
-        "Each shingle measures approximately 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest premium ridge cap shingles and with Pro Start, QuickStart or WeatherBlocker starter strips along the eaves and rakes.",
-        "Install it on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 cover the deck with two layers of GAF Roof Deck Protection; at 4:12 and above one layer is enough. Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
-        "Standards: UL 2218 Class 3 impact resistance, UL listed to ANSI UL 790 Class A, classified by UL in accordance with ICC ES AC438, ASTM D7158 Class H, ASTM D3161 Class F, ASTM D3018 Type 1 and ASTM D3462, ICC ES Evaluation Reports ESR 1475 and ESR 3267, State of Florida approval, Miami Dade County Product Control approval and Texas Department of Insurance requirements. Some colors are rated by the CRRC and can be used for Title 24 cool roof compliance.",
-        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year algae protection limited warranty powered by time release algae fighting technology."
+        "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
+        "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
+        "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
       ],
       "features": {
         "install": [
@@ -375,7 +364,7 @@
       "title": "DECRA Tile",
       "titleLead": "DECRA",
       "titleAccent": "Tile",
-      "description": "Stone coated steel tile panel, twenty to a square, with a one hundred twenty mph wind warranty.",
+      "description": "Stone coated steel tile panel, twenty to a square, backed by a one hundred twenty mile per hour wind warranty.",
       "highlights": [
         "Stone coated steel tile panel",
         "Twenty panels cover one square",
@@ -387,7 +376,7 @@
       "title": "Isodomus Insulated Panel",
       "titleLead": "Isodomus",
       "titleAccent": "Insulated Panel",
-      "description": "Insulated sandwich panel with a pressed tile face and a polyurethane core, one meter wide.",
+      "description": "Insulated sandwich panel with a pressed tile face and a polyurethane core, one meter wide in thicknesses to eighty millimeters.",
       "highlights": [
         "Pressed steel face that looks like roof tile",
         "Polyurethane foam core for insulation",
@@ -399,7 +388,7 @@
       "title": "RoofRunner Synthetic Underlayment",
       "titleLead": "RoofRunner Synthetic",
       "titleAccent": "Underlayment",
-      "description": "Scrim reinforced synthetic roll covering ten squares, with a slip resistant walking surface.",
+      "description": "Scrim reinforced synthetic roll covering ten squares, with a slip resistant walking surface for safer work on steep wet decks.",
       "highlights": [
         "Slip resistant surface, even when wet",
         "Large roll, four feet by two hundred fifty",
@@ -411,7 +400,7 @@
       "title": "Protect A1 Roofing Membrane",
       "titleLead": "Protect A1",
       "titleAccent": "Roofing Membrane",
-      "description": "Vapor impermeable roof underlay that keeps the roof airtight and watertight beneath the tiles.",
+      "description": "Vapor impermeable roof underlay that keeps the roof airtight and watertight beneath the tiles, in rolls forty five meters long.",
       "highlights": [
         "Type HR underlay with high vapor resistance",
         "Polypropylene nonwoven coated with a PP and PE film",
@@ -423,7 +412,7 @@
       "title": "Exoperm Mono 150 Breather Membrane",
       "titleLead": "Exoperm Mono 150",
       "titleAccent": "Breather Membrane",
-      "description": "Monolithic breather membrane with high vapor openness, strong tear strength and an airtight barrier.",
+      "description": "Monolithic breather membrane with high vapor openness, strong tear strength and an airtight seal, covering seventy five square meters each.",
       "highlights": [
         "Three ply build with a monolithic functional layer",
         "Highly vapor open yet fully airtight",
@@ -435,7 +424,7 @@
       "title": "Chova Politaber Self Protected Membrane",
       "titleLead": "Chova Politaber",
       "titleAccent": "Self Protected Membrane",
-      "description": "Torch applied SBS membrane with mineral finish, supplied in rolls covering ten square meters.",
+      "description": "Torch applied SBS membrane with a mineral finish, supplied in rolls that each cover ten square meters of flat roof.",
       "highlights": [
         "Polyester felt reinforcement with a mineral granule top face",
         "Top sheet for exposed two layer roofing systems",
@@ -447,7 +436,7 @@
       "title": "KoverTech Gold Aluminum Membrane",
       "titleLead": "KoverTech Gold",
       "titleAccent": "Aluminum Membrane",
-      "description": "Asphalt membrane topped with embossed aluminum that reflects heat and resists cracking in cold.",
+      "description": "Asphalt membrane topped with embossed aluminum that reflects heat and resists cracking in cold, covering ten square meters per roll.",
       "highlights": [
         "Polymer modified asphalt on a high density polyethylene core",
         "Embossed aluminum face cuts heat absorbed from sunlight",
@@ -459,7 +448,7 @@
       "title": "Ormiflex Profesional Aluminum Membrane",
       "titleLead": "Ormiflex Profesional",
       "titleAccent": "Aluminum Membrane",
-      "description": "Reinforced asphalt membrane with an aluminum face, rolled out and torched over flat decks.",
+      "description": "Reinforced asphalt membrane with an aluminum face, rolled out and torched over flat decks, ten square meters to the roll.",
       "highlights": [
         "Aluminum foil top resists ultraviolet rays",
         "Central and lower polyethylene reinforcement",
@@ -471,7 +460,7 @@
       "title": "EverGuard TPO Quick Spray Adhesive",
       "titleLead": "EverGuard TPO",
       "titleAccent": "Quick Spray Adhesive",
-      "description": "Pressurized canister that bonds ten squares of TPO membrane, sprayed straight from the cylinder.",
+      "description": "Pressurized canister that bonds ten squares of TPO membrane, sprayed straight from the cylinder with no adhesive bucket or roller.",
       "highlights": [
         "Sprayable solvent based contact adhesive for smooth TPO",
         "Up to ten squares of coverage per canister",
@@ -483,7 +472,7 @@
       "title": "OlyBond500 Insulation Adhesive Kit",
       "titleLead": "OlyBond500",
       "titleAccent": "Insulation Adhesive Kit",
-      "description": "Two part polyurethane adhesive that beads insulation boards to the deck without any fasteners.",
+      "description": "Two part polyurethane adhesive that beads insulation boards to the deck without any fasteners, covering thirty five hundred square feet.",
       "highlights": [
         "Covers up to thirty five squares per set",
         "Applies from forty to one hundred degrees Fahrenheit",
@@ -495,7 +484,7 @@
       "title": "Matrix 101 Premium SBS Adhesive",
       "titleLead": "Matrix 101 Premium",
       "titleAccent": "SBS Adhesive",
-      "description": "Low odor cold adhesive for modified bitumen membranes, covering 2.4 to 3.2 squares per 4.75 gallon pail.",
+      "description": "Low odor cold adhesive for modified bitumen membranes, covering 2.4 to 3.2 squares per 4.75 gallon pail, without torch work.",
       "highlights": [
         "Premium cold adhesive for SBS modified bitumen",
         "Built for high wind uplift areas",
@@ -507,7 +496,7 @@
       "title": "Matrix 102 SBS Membrane Adhesive",
       "titleLead": "Matrix 102",
       "titleAccent": "SBS Membrane Adhesive",
-      "description": "Fiber reinforced rubberized adhesive that beds modified bitumen membranes cold without any torch work.",
+      "description": "Fiber reinforced rubberized adhesive that beds modified bitumen membranes cold without any torch work, and meets ASTM D3019 Type III.",
       "highlights": [
         "Cold adhesive for SBS modified bitumen systems",
         "Fiber reinforced and rubberized",
@@ -519,7 +508,7 @@
       "title": "EverGuard 1121 Bonding Adhesive",
       "titleLead": "EverGuard 1121",
       "titleAccent": "Bonding Adhesive",
-      "description": "Solvent based contact adhesive for smooth back TPO membranes, covering seventy square feet per gallon.",
+      "description": "Solvent based contact adhesive for smooth back TPO membranes, covering seventy square feet per gallon, from a five gallon pail.",
       "highlights": [
         "General purpose contact adhesive for TPO membranes",
         "Bonds fifty to seventy square feet per gallon",
@@ -531,7 +520,7 @@
       "title": "TAC 203 Premium Spray Contact Adhesive",
       "titleLead": "TAC 203 Premium",
       "titleAccent": "Spray Contact Adhesive",
-      "description": "High heat contact adhesive with long open time, sprayed onto boards, metal and foam.",
+      "description": "High heat contact adhesive sprayed straight onto boards, metal and foam, with an open time of ten to fifteen minutes.",
       "highlights": [
         "Polychloroprene base with high heat resistance",
         "Bonds metal, concrete, timber, glass and urethane foam",
@@ -543,7 +532,7 @@
       "title": "Max Rib Panel 29 Gauge",
       "titleLead": "Max Rib Panel",
       "titleAccent": "29 Gauge",
-      "description": "Exposed fastener ribbed steel panel, thirty six inches wide with three quarter inch ribs.",
+      "description": "Exposed fastener ribbed steel panel, thirty six inches wide with three quarter inch ribs spaced every nine inches across it.",
       "highlights": [
         "Thirty six inch cover width with three quarter inch ribs",
         "Down to a 1:12 slope with sealed sidelaps",
@@ -555,7 +544,7 @@
       "title": "Met Tile Panel 20 Pack",
       "titleLead": "Met Tile Panel",
       "titleAccent": "20 Pack",
-      "description": "Galvalume steel panel pressed to look like clay tile, finished in low gloss Kynar 500.",
+      "description": "Galvalume steel panel pressed to look like clay tile, finished in low gloss Kynar 500 and cut to twenty feet.",
       "highlights": [
         "Replicates clay tile without the weight",
         "Twenty six gauge Galvalume steel",
@@ -567,7 +556,7 @@
       "title": "Met Tile Panel 21 Pack",
       "titleLead": "Met Tile Panel",
       "titleAccent": "21 Pack",
-      "description": "Tile look Met Tile panel, thirty six inches wide, installed quickly as a panelized system.",
+      "description": "Tile look Met Tile panel, thirty six inches wide, installed quickly as a panelized system in lengths to twenty feet.",
       "highlights": [
         "Replicates clay tile without the weight",
         "Installs faster than individual tiles",
@@ -579,7 +568,7 @@
       "title": "Tyvek Protec 120 Underlayment",
       "titleLead": "Tyvek Protec 120",
       "titleAccent": "Underlayment",
-      "description": "High traction synthetic underlayment that shields the deck from moisture with confident walkability.",
+      "description": "High traction synthetic underlayment that shields the deck from moisture with confident walkability, covering one thousand square feet per roll.",
       "highlights": [
         "Four layer build with industry leading walkability",
         "Stays exposed up to three months before cladding",
@@ -591,7 +580,7 @@
       "title": "Grace Ultra Self Adhered Underlayment",
       "titleLead": "Grace Ultra",
       "titleAccent": "Self Adhered Underlayment",
-      "description": "Self adhered butyl underlayment that bonds to the deck and resists heat up to three hundred degrees.",
+      "description": "Self adhered butyl underlayment that bonds directly to the deck and resists heat up to a full three hundred degrees.",
       "highlights": [
         "Pure butyl adhesive on a cross laminated film",
         "Withstands heat up to three hundred degrees Fahrenheit",
@@ -603,7 +592,7 @@
       "title": "EverGuard WB181 Adhesive",
       "titleLead": "EverGuard WB181",
       "titleAccent": "Adhesive",
-      "description": "Water based bonding adhesive for single ply membranes with strong grab and easy roller application.",
+      "description": "Water based bonding adhesive for single ply membranes with strong grab and easy roller application, covering six hundred square feet.",
       "highlights": [
         "Water based acrylic with a very low VOC",
         "Bonds smooth and fleece back TPO membranes",
@@ -615,7 +604,7 @@
       "title": "EverGuard PVC Quick Lay Adhesive",
       "titleLead": "EverGuard PVC Quick Lay",
       "titleAccent": "Adhesive",
-      "description": "Fast grab PVC adhesive that bonds EverGuard membranes to the deck with strong lasting hold.",
+      "description": "Fast grab PVC adhesive that bonds EverGuard membranes to the deck with strong lasting hold, covering six hundred square feet.",
       "highlights": [
         "One sided, wet lay in water based adhesive",
         "Up to fifty percent faster than standard adhered systems",
@@ -627,7 +616,7 @@
       "title": "WeatherMaster Metal Roof Sealant",
       "titleLead": "WeatherMaster Metal Roof",
       "titleAccent": "Sealant",
-      "description": "All weather sealant that bonds to metal, flashing and trim without shrinking or cracking.",
+      "description": "All weather sealant that bonds to metal, flashing and trim without shrinking or cracking, even down at zero degrees Fahrenheit.",
       "highlights": [
         "Bonds to all metals, including Kynar coated panels",
         "Adheres to wet and damp surfaces",
@@ -639,7 +628,7 @@
       "title": "20V Cordless Circular Saw",
       "titleLead": "20V Cordless",
       "titleAccent": "Circular Saw",
-      "description": "Compact cordless circular saw for fast, accurate cuts on decking, trim and panels.",
+      "description": "Compact cordless circular saw for accurate cuts on decking, trim and panels, with a six and a half inch blade.",
       "highlights": [
         "Carbide tipped six and a half inch blade included",
         "High speed motor above five thousand RPM",
@@ -651,7 +640,7 @@
       "title": "16 oz Curved Claw Hammer",
       "titleLead": "16 oz Curved Claw",
       "titleAccent": "Hammer",
-      "description": "One piece steel curved claw hammer with a magnetic nail starter and an anti slip grip.",
+      "description": "One piece forged steel curved claw hammer with a magnetic nail starter and an anti slip grip, at sixteen ounces.",
       "highlights": [
         "One piece steel with a heat treated shaft",
         "Magnetic nail starter for one handed placement",
@@ -663,7 +652,7 @@
       "title": "20V Cordless Rotary Polisher",
       "titleLead": "20V Cordless Rotary",
       "titleAccent": "Polisher",
-      "description": "Variable speed cordless polisher for finishing and buffing metal roofing and trim.",
+      "description": "Variable speed cordless polisher for finishing and buffing metal roofing and trim, from eight hundred to twenty two hundred revolutions.",
       "highlights": [
         "Brushless motor for efficient runtime",
         "Variable speed trigger for full control",
@@ -675,7 +664,7 @@
       "title": "20V Cordless Stapler",
       "titleLead": "20V Cordless",
       "titleAccent": "Stapler",
-      "description": "Battery powered 18 gauge narrow crown stapler for cabinetry, paneling and underlayment, with no hose.",
+      "description": "Battery powered 18 gauge narrow crown stapler for cabinetry, paneling and underlayment, with no hose and no compressor to drag.",
       "highlights": [
         "Brushless motor maximizes runtime and durability",
         "Tool free depth adjustment for precise countersinking",
@@ -687,7 +676,7 @@
       "title": "Fiberglass Stoning Hammer",
       "titleLead": "Fiberglass Stoning",
       "titleAccent": "Hammer",
-      "description": "Fifteen hundred gram stoning hammer with a fiberglass handle for demolition and chisel work.",
+      "description": "Fifteen hundred gram stoning hammer with a fiberglass handle for demolition, chisel work and breaking out old masonry on site.",
       "highlights": [
         "Fifteen hundred gram heat treated head",
         "Black painted finish on the head",
@@ -699,7 +688,7 @@
       "title": "18 Inch Bolt Cutter",
       "titleLead": "18 Inch",
       "titleAccent": "Bolt Cutter",
-      "description": "Carbon steel bolt cutter with a polished blade and rubberized handles for rods and wire.",
+      "description": "Carbon steel bolt cutter with a polished blade and rubberized handles for rods and wire, cutting up to seven millimeters.",
       "highlights": [
         "Carbon steel blade with a polished finish",
         "Eighteen inch overall length",
@@ -711,7 +700,7 @@
       "title": "20 Inch Hand Saw",
       "titleLead": "20 Inch",
       "titleAccent": "Hand Saw",
-      "description": "Hardened tooth hand saw for quick cuts on lumber, decking and trim.",
+      "description": "Hardened tooth hand saw for quick cuts on lumber, decking and trim, twenty inches long at seven teeth per inch.",
       "highlights": [
         "Universal seven TPI teeth for wet or dry timber",
         "Cuts on both the push and pull strokes",
@@ -723,7 +712,7 @@
       "title": "Roof Tear Off Shovel",
       "titleLead": "Roof Tear Off",
       "titleAccent": "Shovel",
-      "description": "Serrated tear off shovel that lifts shingles and nails fast on strip outs.",
+      "description": "Serrated tear off shovel that lifts shingles and nails fast on strip outs, on a long fifty four inch handle.",
       "highlights": [
         "Fifty four inch all steel construction",
         "Angled blade with a built in nail puller",
@@ -735,7 +724,7 @@
       "title": "20V Cordless Pruner",
       "titleLead": "20V Cordless",
       "titleAccent": "Pruner",
-      "description": "Battery powered pruner that makes clean, effortless cuts on branches around the job site.",
+      "description": "Battery powered pruner making clean, effortless cuts on branches up to an inch and a half thick, weighing three pounds.",
       "highlights": [
         "Up to one thousand one hundred cuts per charge",
         "Sixteen times less effort than a manual pruner",
@@ -747,7 +736,7 @@
       "title": "25 ft Tape Measure",
       "titleLead": "25 ft",
       "titleAccent": "Tape Measure",
-      "description": "Rugged 25 foot tape measure with a long standout blade and durable impact housing.",
+      "description": "Rugged 25 foot tape measure with a long standout blade and durable impact housing, holding thirteen feet of blade unsupported.",
       "highlights": [
         "Thirteen feet of straight blade standout",
         "Nine inches of coating near the hook",
@@ -759,7 +748,7 @@
       "title": "20V 12 Inch Chainsaw",
       "titleLead": "20V 12 Inch",
       "titleAccent": "Chainsaw",
-      "description": "Cordless 12 inch chainsaw for fast limbing and cleanup around the job site.",
+      "description": "Cordless 12 inch chainsaw for fast limbing and cleanup around the job site, at nine pounds with the battery in.",
       "highlights": [
         "Nine pounds with the battery fitted",
         "Brushless motor for longer runtime",
@@ -771,7 +760,7 @@
       "title": "Tactical Camp Axe",
       "titleLead": "Tactical Camp",
       "titleAccent": "Axe",
-      "description": "Compact tactical axe with a full tang blade and molded sheath for chopping and splitting.",
+      "description": "Compact tactical axe with a full tang blade and molded sheath for chopping and splitting, forged from 420 stainless steel.",
       "highlights": [
         "Full tang build through to the pry bar",
         "Hammer face and nail puller built in",
@@ -783,7 +772,7 @@
       "title": "Retractable Utility Knife",
       "titleLead": "Retractable Utility",
       "titleAccent": "Knife",
-      "description": "Retractable utility knife with onboard blade storage for clean, fast cuts on the roof.",
+      "description": "Retractable utility knife that keeps five spare blades in the handle, for clean and fast cuts up on the roof.",
       "highlights": [
         "Stores up to five spare blades in the handle",
         "Rapid load blade changes",
@@ -795,7 +784,7 @@
       "title": "Aluminum Step Ladder",
       "titleLead": "Aluminum Step",
       "titleAccent": "Ladder",
-      "description": "Four foot aluminum step ladder rated Type IA for three hundred pounds.",
+      "description": "Four foot aluminum step ladder rated Type IA for three hundred pounds, built to the ANSI standard for jobsite use.",
       "highlights": [
         "Top with a magnet and tool slots",
         "Pail shelf closes automatically",
@@ -807,7 +796,7 @@
       "title": "Extension Cord Reel",
       "titleLead": "Extension Cord",
       "titleAccent": "Reel",
-      "description": "Cassette cord reel with four grounded outlets, a power switch and an overload breaker.",
+      "description": "Cassette cord reel with four grounded outlets, a power switch and overload breaker, on a full thirty feet of cable.",
       "highlights": [
         "Thirty feet of high visibility cord",
         "Four shuttered grounded outlets",
@@ -819,7 +808,7 @@
       "title": "Thermal Work Gloves",
       "titleLead": "Thermal Work",
       "titleAccent": "Gloves",
-      "description": "Glove in glove thermal work gloves, with a warm liner inside a nylon shell for cold shifts.",
+      "description": "Glove in glove thermal work gloves, with a warm liner inside a nylon shell for cold shifts on the roof.",
       "highlights": [
         "Glove in glove thermal system for cold weather",
         "Thermal liner inside a nylon outer shell",
@@ -831,7 +820,7 @@
       "title": "Roofer Fall Protection Kit",
       "titleLead": "Roofer Fall Protection",
       "titleAccent": "Kit",
-      "description": "Duffle bag fall arrest kit with a five point harness, fifty foot lifeline and roof anchor.",
+      "description": "Duffle bag fall arrest kit with a five point harness, fifty foot lifeline and roof anchor, all meeting ANSI Z359.11.",
       "highlights": [
         "Full body harness with five adjustment points",
         "Fifty foot vertical lifeline with a locking snap hook",
@@ -843,7 +832,7 @@
       "title": "Type S Roof Hatch",
       "titleLead": "Type S",
       "titleAccent": "Roof Hatch",
-      "description": "Single leaf ladder access roof hatch with a fiberglass insulated cover on a twelve inch curb.",
+      "description": "Single leaf ladder access roof hatch with a fiberglass insulated cover on a twelve inch curb, thirty six inches wide.",
       "highlights": [
         "Single leaf hatch for ladder access",
         "Cover rated for a forty psf live load",
@@ -855,13 +844,12 @@
       "title": "Duration Designer Slatestone Grey Shingles",
       "titleLead": "Duration Designer",
       "titleAccent": "Slatestone Grey Shingles",
-      "description": "Architectural shingles with a SureNail fabric strip reinforcing the nail zone against high wind.",
+      "description": "Architectural shingles with a SureNail fabric strip reinforcing the nail zone against high wind on the most exposed coastal roofs.",
       "about": [
-        "Duration Designer (Owens Corning) is an architectural shingle from the TruDefinition Duration series, shown here in Slatestone Grey. Its patented SureNail Technology is the first and only reinforced nailing zone on the face of a shingle: a tough engineered woven fabric strip embedded in the shingle that overlays both shingle layers, giving Triple Layer Protection against nail pull, and up to 200% wider bond between the layers in the nailing zone than standard shingles. Proprietary Tru Bond weathering grade asphalt sealant holds each course down.",
-        "Each shingle has a nominal size of 13 1/4 x 39 3/8 in and a 5 5/8 in exposure. A square takes 64 shingles in 3 bundles and covers 98.4 sq ft. StreakGuard protection blends copper lined granules developed by 3M into the surface to help inhibit blue green algae, and Owens Corning Hip and Ridge shingles are color matched to the Designer colors.",
-        "Use galvanized steel, stainless steel or aluminum nails with a minimum 12 gauge shank and 3/8 in head, placed inside the SureNail fastening area and driven at least 3/4 in into the wood deck or through it by 1/4 in, preferably meeting ASTM F1667. The deck can be 6 in boards, 3/8 in plywood or 7/16 in OSB. On slopes of 4:12 and greater use Owens Corning synthetic underlayment or one meeting ASTM D8257; low slopes from 2:12 to under 4:12 need two layers.",
-        "Slopes over 60 degrees (21 in per foot) require six nails and four spots of asphalt roofing cement per shingle. Store bundles flat in a covered, ventilated area below 110°F, and handle them with extra care below 40°F. Standards: ASTM D228, ASTM D3018 Type I, ASTM D3161 Class F wind, ASTM D3462, ASTM D7158, ASTM E108 and UL 790 Class A fire, UL 2218 and FM 4473 Class 3 impact, ICC ES AC438, CSA A123.5, Florida Product Approval and Miami Dade Product Approval.",
-        "Warranty: Limited Lifetime. Wind coverage reaches up to 160 mph when the Owens Corning component requirements are met and starter shingles are installed on both the eaves and the rakes. The 25 year algae resistance coverage, effective January 1, 2024, requires an approved Owens Corning Hip and Ridge product. The Class 3 impact rating comes from laboratory testing and does not guarantee resistance to all weather; hail damage is specifically excluded from the warranty."
+        "Duration Designer (Owens Corning) is an architectural shingle from the TruDefinition Duration series, in Slatestone Grey. Its patented SureNail Technology is the only reinforced nailing zone on the face of a shingle: a woven fabric strip embedded across both layers, giving Triple Layer Protection against nail pull and up to 200% wider bond between the layers than standard shingles. Tru Bond weathering grade asphalt sealant holds each course down.",
+        "Each shingle is nominally 13 1/4 x 39 3/8 in with a 5 5/8 in exposure. A square takes 64 shingles in 3 bundles, covering 98.4 sq ft. StreakGuard blends copper lined 3M granules into the surface against blue green algae; Owens Corning Hip and Ridge shingles match the Designer colors. The deck can be 6 in boards, 3/8 in plywood or 7/16 in OSB. From 4:12 up, Owens Corning synthetic underlayment or one meeting ASTM D8257; from 2:12 to under 4:12, two layers.",
+        "Use galvanized steel, stainless steel or aluminum nails with a minimum 12 gauge shank and 3/8 in head, placed inside the SureNail fastening area and driven at least 3/4 in into the wood deck or through it by 1/4 in, preferably meeting ASTM F1667. Slopes over 60 degrees (21 in per foot) require six nails and four spots of asphalt roofing cement per shingle. Store bundles flat in a covered, ventilated area below 110°F, handling them with care below 40°F.",
+        "Warranty: Limited Lifetime. Wind coverage reaches up to 160 mph when the Owens Corning component requirements are met and starter shingles are installed on both the eaves and the rakes. The 25 year algae resistance coverage, effective January 1, 2024, requires an approved Owens Corning Hip and Ridge product. The Class 3 impact rating comes from laboratory testing and does not guarantee all weather resistance; hail damage is excluded."
       ],
       "features": {
         "install": [
@@ -886,7 +874,7 @@
       "title": "Snap Lock Standing Seam Panel",
       "titleLead": "Snap Lock",
       "titleAccent": "Standing Seam Panel",
-      "description": "Steel panel with concealed clips, sixteen inches of coverage and a raised snap seam.",
+      "description": "Steel panel with concealed clips, sixteen inches of coverage and a raised snap seam, in runs up to forty feet.",
       "highlights": [
         "Twenty four gauge steel with concealed fasteners",
         "Sixteen inch coverage with a one inch seam",
@@ -898,7 +886,7 @@
       "title": "Galvanized Steel Counter Flashing",
       "titleLead": "Galvanized Steel",
       "titleAccent": "Counter Flashing",
-      "description": "Ten foot galvanized strip that caps the step flashing along a chimney or sidewall.",
+      "description": "Ten foot galvanized strip that caps the step flashing along a chimney or sidewall, folded from twenty six gauge steel.",
       "highlights": [
         "Twenty six gauge bare galvanized steel",
         "Protects the step flashing at a chimney base",
@@ -910,7 +898,7 @@
       "title": "Econo Coping Edge System",
       "titleLead": "Econo Coping",
       "titleAccent": "Edge System",
-      "description": "Two part parapet cap joining a continuous cleat with a snap on fascia cover.",
+      "description": "Two part parapet cap joining a continuous cleat with a snap on fascia cover, for walls up to twenty inches.",
       "highlights": [
         "Two part system with a pre punched continuous cleat",
         "Certified to the ANSI SPRI ES-1 edge standard",
@@ -922,7 +910,7 @@
       "title": "Black Steel Roof Cap",
       "titleLead": "Black Steel",
       "titleAccent": "Roof Cap",
-      "description": "Steel roof cap with a backdraft damper and bird screen, for 3 1/4 x 10 in or round ducts up to 8 in.",
+      "description": "Steel roof cap with a backdraft damper and bird screen, for rectangular or round ducts of up to eight inches.",
       "highlights": [
         "Built in backdraft damper",
         "Bird screen keeps small animals out",
@@ -934,7 +922,7 @@
       "title": "Gable Mount Attic Fan",
       "titleLead": "Gable Mount",
       "titleAccent": "Attic Fan",
-      "description": "Sixteen hundred cubic feet a minute behind the gable louver, with adjustable thermostat.",
+      "description": "Sixteen hundred cubic feet a minute behind the gable louver, with a thermostat, for attics to three thousand square feet.",
       "highlights": [
         "Combo humidistat and thermostat control",
         "Energy efficient PSC motor",
@@ -946,7 +934,7 @@
       "title": "Low Profile Solar Attic Fan",
       "titleLead": "Low Profile",
       "titleAccent": "Solar Attic Fan",
-      "description": "Thirty five watt panel drives the extraction with no wiring run up to the roof.",
+      "description": "A thirty five watt panel drives the extraction with no wiring run, at seven hundred fifty cubic feet a minute.",
       "highlights": [
         "Brushless motor that needs no maintenance",
         "Passes TAS 100(A) weather testing",
@@ -958,7 +946,7 @@
       "title": "Slant Back Roof Louver",
       "titleLead": "Slant Back",
       "titleAccent": "Roof Louver",
-      "description": "Sixty square inches of free area in a mill aluminum hood for steep pitches.",
+      "description": "Sixty square inches of net free area in a mill finish aluminum hood, eighteen inches wide, for steep roof pitches.",
       "highlights": [
         "Sixty square inches of net free area",
         "Internal weather and ember resistant screen",
@@ -970,7 +958,7 @@
       "title": "CMA Curb Mount Aluminum Dome Skylight",
       "titleLead": "CMA Curb Mount",
       "titleAccent": "Aluminum Dome Skylight",
-      "description": "Double dome polycarbonate skylight in an aluminum trim that caps a site built curb.",
+      "description": "Double dome polycarbonate skylight in an aluminum trim that caps a site built curb, roughly twenty inches on each side.",
       "highlights": [
         "Caps a site built curb with a leak proof seal",
         "Double dome insulation with TIG welded corners",
@@ -982,7 +970,7 @@
       "title": "Galvanized Square Tube",
       "titleLead": "Galvanized",
       "titleAccent": "Square Tube",
-      "description": "Heavy gauge square steel section in long lengths, for roof frameworks and supporting structures.",
+      "description": "Heavy gauge square steel section, two inches across, in twenty four foot lengths for roof frameworks and other supporting structures.",
       "highlights": [
         "Two by two inch square section",
         "Fourteen gauge steel wall",
@@ -994,7 +982,7 @@
       "title": "White Embossed Drip Edge",
       "titleLead": "White Embossed",
       "titleAccent": "Drip Edge",
-      "description": "Embossed white edge strip that carries runoff clear of the fascia and the decking.",
+      "description": "Embossed white edge strip that carries runoff clear of the fascia and the decking, supplied in straight ten foot lengths.",
       "highlights": [
         "Galvanized steel with an embossed white finish",
         "Legs of one and seven eighths inches each",
@@ -1006,7 +994,7 @@
       "title": "Galvanized W Valley Flashing",
       "titleLead": "Galvanized W",
       "titleAccent": "Valley Flashing",
-      "description": "Mill finish steel channel with a centre rib and hemmed edges, for roof valleys.",
+      "description": "Mill finish steel channel with a centre rib and hemmed edges, for roof valleys, eighteen inches wide by ten feet.",
       "highlights": [
         "W profile with a center rib for roof valleys",
         "Mill finish galvanized steel that resists rust",
@@ -1018,7 +1006,7 @@
       "title": "No Calk Vent Pipe Flashing",
       "titleLead": "No Calk",
       "titleAccent": "Vent Pipe Flashing",
-      "description": "Self sealing collar on a galvanized steel base that fits a three inch vent pipe.",
+      "description": "Self sealing collar on a galvanized steel base that fits a three inch vent pipe through the finished roof deck.",
       "highlights": [
         "Collar seals around the pipe without caulking",
         "Galvanized steel base resists rust",
@@ -1030,7 +1018,7 @@
       "title": "Galvalume Gable Rake Trim",
       "titleLead": "Galvalume Gable",
       "titleAccent": "Rake Trim",
-      "description": "Slate coloured galvalume trim that closes off the gable edge of a metal roof.",
+      "description": "Slate coloured galvalume trim that closes off the gable edge of a metal roof, supplied in straight ten foot lengths.",
       "highlights": [
         "Galvalume steel trim in a slate finish",
         "Closes the gable edge over metal roof panels",
@@ -1042,7 +1030,7 @@
       "title": "Wind Turbine Roof Vent",
       "titleLead": "Wind Turbine",
       "titleAccent": "Roof Vent",
-      "description": "Internally braced dual bearing head that draws hot air out of the attic space.",
+      "description": "Internally braced dual bearing turbine head, twelve inches across, that draws the hot air out of the attic space below.",
       "highlights": [
         "Twelve inch galvanized turbine head",
         "Stainless dual bearing system",
@@ -1054,7 +1042,7 @@
       "title": "Trapezoidal Panel Closure Strip",
       "titleLead": "Trapezoidal Panel",
       "titleAccent": "Closure Strip",
-      "description": "Foam strip cut to the MasterRib profile that keeps insects and weather out of the ribs.",
+      "description": "Foam strip cut to the MasterRib profile that keeps insects and weather out of the ribs, thirty six inches long.",
       "highlights": [
         "Self adhesive back sticks to the panel rib",
         "Matches the inside ribs of MasterRib panels",
@@ -1066,13 +1054,12 @@
       "title": "Smart Start Starter Shingles",
       "titleLead": "Smart Start",
       "titleAccent": "Starter Shingles",
-      "description": "Perforated NEX polymer modified starter that splits into two strips and seals the first course.",
+      "description": "Perforated NEX polymer modified starter that splits into two strips and seals the first course along both eaves and rakes.",
       "about": [
         "Smart Start (Malarkey SKU 210) is a NEX polymer modified starter shingle for steep slope residential roofs. It is manufactured on a non woven fiberglass mat, coated on both sides with NEX polymer modified bitumen compounded with a fire retardant mineral stabilizer, and mineral surfaced. Malarkey requires Smart Start, or an equivalent conforming to ASTM D3462, under all of its shingles, including Windsor, and recommends it on the rake edges too.",
         "Each full size shingle measures 16 3/8 x 38 1/4 in (416 x 972 mm). A perforation in the middle, 8 3/16 in (208 mm) from each edge, splits it lengthwise into two code compliant starter pieces of 8 3/16 x 38 1/4 in (208 x 972 mm), each with its own factory applied seal down strip, for exposures up to 6 3/16 in. A bundle holds 18 full size shingles (36 pieces) and covers 114 ft 9 in (35 m); a pallet carries 21 bundles. Typical granule adhesion is 0.3 g.",
-        "Lay the starter with the seal down strip next to the roof edge, overhanging the eave and rake by 1/4 to 3/4 in (6 to 19 mm); on 3 tab and laminate roofs, cut 6 in (152 mm) from the left side of the first piece to offset the end joints. Fasten each starter with four nails set 1 1/2 to 3 in (38 to 76 mm) up from the eave, one 1 in (25 mm) from each end and two evenly spaced between them, never through the seal down strip. Slopes over 21 in per 12 in need six nails. Butt pieces loosely to prevent buckling.",
-        "Nails must have a head of at least 3/8 in (10 mm) and be driven flush, not overdriven, underdriven or at an angle; staples are not allowed. Do not use it on slopes under 2:12 (2 in per 12 in). Store it in a cool, dry, well ventilated area and do not double stack pallets. It is tested to ASTM D3462, ASTM D3161 Class F wind resistance and ASTM E108 Class A fire.",
-        "Smart Start qualifies for Limited Lifetime Warranty coverage when it is installed with Malarkey shingles and one other Malarkey accessory; the full terms and any extra requirements for specific coverages are in the Malarkey Shingle and Accessory Warranty."
+        "Lay the starter with the seal down strip at the roof edge, overhanging eave and rake by 1/4 to 3/4 in (6 to 19 mm); on 3 tab and laminate roofs, cut 6 in (152 mm) off the first piece to offset the end joints. Fasten each with four nails 1 1/2 to 3 in (38 to 76 mm) up from the eave, one 1 in (25 mm) from each end and two between them, never through the seal down strip. Slopes over 21 in per 12 in need six nails. Butt pieces loosely to prevent buckling.",
+        "Nail heads must be at least 3/8 in (10 mm) and driven flush, not over or under driven or angled; staples are not allowed. Do not use it on slopes under 2:12. Store it cool, dry and well ventilated; do not double stack pallets. Smart Start qualifies for Limited Lifetime Warranty coverage when installed with Malarkey shingles and one other Malarkey accessory; full terms and any extra requirements are in the Malarkey Shingle and Accessory Warranty."
       ],
       "features": {
         "install": [
@@ -1096,13 +1083,12 @@
       "title": "Landmark Weathered Wood Shingles",
       "titleLead": "Landmark Weathered",
       "titleAccent": "Wood Shingles",
-      "description": "Dual layer laminate cut to a diamond tab, covering thirty three square feet.",
+      "description": "Dual layer laminate cut to a diamond tab, covering thirty three square feet per bundle at three bundles per square.",
       "about": [
-        "Landmark (CertainTeed) is a laminated architectural shingle, shown here in Weathered Wood. It is built on a fiberglass mat base with ceramic coated mineral granules embedded in refined, water resistant asphalt; two pieces are laminated together with a tough asphaltic cement, and every shingle carries self sealing adhesive strips and the NailTrak nailing feature. The Algae Resistant (AR) version helps prevent the dark streaks caused by blue green algae (Gloeocapsa magma); AR is not available in every region.",
-        "Each shingle measures 13 1/4 x 38 3/4 in with a 5 5/8 in weather exposure. A square takes 65 shingles in 3 bundles, covers approximately 98.4 sq ft and weighs 211 to 225 lb, depending on the manufacturing plant.",
-        "Use it on slopes greater than 2 in per foot; low slope applications from 2:12 to under 4:12 need additional underlayment, and where ice can back up at the eaves CertainTeed specifies WinterGuard waterproofing underlayment or an equivalent. Installation instructions are printed on every bundle. Hips and ridges are capped with Shadow Ridge, Cedar Crest or Mountain Ridge in a matching color. No maintenance is required when installed to CertainTeed instructions, but the roof should be inspected at least once a year.",
-        "Standards: ASTM D3018 Type I, ASTM D3462, ASTM D3161 Class F and ASTM D7158 Class H wind, ASTM E108 and UL 790 Class A fire, UL 2218 Class 3 impact, ICC Evaluation Service reports ESR 1389 and ESR 3537, CSA A123.5 (regional), Florida Product Approval FL5444, Miami Dade Product Control approval (regional) and Texas Department of Insurance windstorm requirements.",
-        "Warranty: lifetime limited and transferable against manufacturing defects, with up to 10 years of SureStart protection; AR shingles add a 25 year algae resistance warranty when installed with the CertainTeed hip and ridge caps above. Standard wind coverage is 110 mph for 15 years, upgradeable to 160 mph with CertainTeed hip and ridge caps plus SwiftStart, SwiftStart SA or High Performance Starter at the eaves and rakes; roof overs are not permitted. In Florida the rake starter can be waived when the shingles are set in a 4 in wide bed of asphalt roofing cement per the building code. Installed as part of an Integrity Roof System, the roof qualifies for unlimited wind velocity coverage."
+        "Landmark (CertainTeed) is a laminated architectural shingle, in Weathered Wood. It is built on a fiberglass mat with ceramic coated mineral granules in refined, water resistant asphalt; two pieces are laminated with a tough asphaltic cement, and every shingle carries self sealing adhesive strips and NailTrak. The Algae Resistant (AR) version prevents the dark streaks caused by blue green algae (Gloeocapsa magma); AR is not available in every region.",
+        "Each shingle measures 13 1/4 x 38 3/4 in with a 5 5/8 in weather exposure. A square takes 65 shingles in 3 bundles, covers approximately 98.4 sq ft and weighs 211 to 225 lb, depending on the manufacturing plant. Use it on slopes greater than 2 in per foot; low slope applications from 2:12 to under 4:12 need additional underlayment, and where ice can back up at the eaves CertainTeed specifies WinterGuard waterproofing underlayment or an equivalent.",
+        "Installation instructions are printed on every bundle. Hips and ridges take Shadow Ridge, Cedar Crest or Mountain Ridge in a matching color. No maintenance is required when installed to CertainTeed instructions, but inspect the roof yearly. In Florida the rake starter can be waived when shingles are set in a 4 in bed of asphalt roofing cement per code. As part of an Integrity Roof System, the roof qualifies for unlimited wind velocity coverage.",
+        "Warranty: lifetime limited and transferable against manufacturing defects, with up to 10 years of SureStart protection; AR shingles add a 25 year algae resistance warranty when installed with the CertainTeed hip and ridge caps above. Standard wind coverage is 110 mph for 15 years, upgradeable to 160 mph with CertainTeed hip and ridge caps plus SwiftStart, SwiftStart SA or High Performance Starter at the eaves and rakes; roof overs are not permitted."
       ],
       "features": {
         "install": [
@@ -1126,12 +1112,11 @@
       "title": "Dynasty Emerald Green Shingles",
       "titleLead": "Dynasty Emerald",
       "titleAccent": "Green Shingles",
-      "description": "Laminate shingles with a reinforced ArmourZone nailing band, rated for high wind.",
+      "description": "Architectural laminate shingles with a reinforced ArmourZone nailing band, rated for high wind and backed by a limited lifetime warranty.",
       "about": [
-        "Dynasty (IKO) is a heavyweight laminated shingle, shown here in Emerald Green, made on a dimensionally stable non woven glass fiber mat thoroughly impregnated with stabilized waterproofing bitumen. It has a random shake look with high contrast dual band shadow coloring, colored ceramic granules on the top of both layers to protect the asphalt from ultraviolet radiation, release tape and mineral powder on the underside, and algae inhibiting granules for long lasting algae resistance.",
+        "Dynasty (IKO) is a heavyweight laminated shingle, shown here in Emerald Green, made on a dimensionally stable non woven glass fiber mat impregnated with stabilized waterproofing bitumen. It has a random shake look with high contrast dual band shadow coloring, colored ceramic granules on both layers to protect the asphalt from ultraviolet radiation, release tape and mineral powder on the underside, and algae inhibiting granules for lasting resistance.",
         "Each shingle measures 40 7/8 x 13 3/4 in (1,038 x 349 mm) with a 5 7/8 in (149 mm) exposure and a 2 in (50 mm) headlap. A bundle holds 20 shingles and covers 33.3 sq ft (3.1 m²); a pallet of 40 x 53 in carries 56 bundles. The ArmourZone nailing area is wider for faster installation and is backed by ArmourZone tape on the reverse side for added protection against wind loss, and a thermally activated sealant bonds each course.",
-        "Suitable for slopes greater than 4:12, with underlayment strongly recommended below 6:12. It can also be applied on low slopes from 2:12 to 4:12 when the deck is covered with two plies of felt or one ply of IKO Ice and Water Protector. Install it with roofing nails, never staples, exactly as printed on the bundle wrapper, with IKO starter strip shingles at the eaves; rake starters are not required for Dynasty. Cap hips and ridges with an IKO approved hip and ridge shingle such as Marathon Plus AR or IKO UltraHP.",
-        "Test results: tear strength passes ASTM D1922 (minimum 1,700 g); stabilized bitumen weight passes ASTM D228 (minimum 41 lb per 100 sq ft, or 2,000 g/m²); granule retention passes ASTM D4977 (minimum 86%); heat resistance passes with no sliding or dripping after 2 hours at 192°F (90°C). It conforms to CSA A123.5, ASTM D3018, ASTM E108 Class A, ASTM D3462, ASTM D3161 Class F and ASTM D7158 Class H and carries a Class 3 impact rating.",
+        "Suitable for slopes greater than 4:12, with underlayment strongly recommended below 6:12. Low slopes from 2:12 to 4:12 need two plies of felt or one of IKO Ice and Water Protector. Install it with roofing nails, never staples, exactly as printed on the bundle wrapper, with IKO starter strip shingles at the eaves; rake starters are not required for Dynasty. Cap hips and ridges with an IKO approved shingle such as Marathon Plus AR or IKO UltraHP.",
         "Warranty: Limited Lifetime, with non prorated Iron Clad Protection for the first 180 months (15 years) and prorated coverage after that. For the same 15 years it is covered against wind blow off for gusts up to 130 mph, provided it was nailed as the wrapper instructs and has sealed down or been hand sealed; manual sealing is not required in Florida. The algae resistance warranty runs 120 months (10 years)."
       ],
       "features": {
@@ -1157,7 +1142,7 @@
       "title": "Max Rib Panel Bare Galvalume",
       "titleLead": "Max Rib Panel",
       "titleAccent": "Bare Galvalume",
-      "description": "Max Rib panel in bare Galvalume, thirty six inches wide, for roofs and walls over deck or open framing.",
+      "description": "Max Rib panel in bare Galvalume, thirty six inches wide, for roofs and walls over solid deck or open framing.",
       "highlights": [
         "Thirty six inch cover width with three quarter inch ribs",
         "Down to a 1:12 slope with sealed sidelaps",
@@ -1169,7 +1154,7 @@
       "title": "Ash Gray Striated Panel",
       "titleLead": "Ash Gray",
       "titleAccent": "Striated Panel",
-      "description": "Snap lock panel with a striated pan that hides oil canning across wide runs.",
+      "description": "Snap lock panel with a striated pan that hides oil canning across the wide runs of a standing seam roof.",
       "highlights": [
         "Twenty four gauge steel with concealed fasteners",
         "Sixteen inch coverage with a one inch seam",
@@ -1181,7 +1166,7 @@
       "title": "Slate RC2 Ridge Cap",
       "titleLead": "Slate RC2",
       "titleAccent": "Ridge Cap",
-      "description": "Galvalume angle cap that closes the peak where two metal roof slopes meet.",
+      "description": "Galvalume angle cap that closes off the peak where two metal roof slopes meet, supplied in straight ten foot lengths.",
       "highlights": [
         "Caps the hip and ridge sections of a roof",
         "Works on shingle or metal roofs",
@@ -1193,7 +1178,7 @@
       "title": "Hemmed Round Ridge Roll",
       "titleLead": "Hemmed Round",
       "titleAccent": "Ridge Roll",
-      "description": "Half round galvanized ridge cap with hemmed edges, ten feet long for metal roofs.",
+      "description": "Half round galvanized ridge cap with hemmed edges, ten feet long for metal roofs, and twelve inches across the cover.",
       "highlights": [
         "Galvanized steel resists corrosion",
         "Ten feet long and twelve inches wide",
@@ -1205,7 +1190,7 @@
       "title": "Stainless Chimney Rain Cap",
       "titleLead": "Stainless Chimney",
       "titleAccent": "Rain Cap",
-      "description": "Louvred cap that keeps rain out of the flue while the draught stays open.",
+      "description": "Louvred cap that keeps rain out of the flue while the draught stays open, sized for a six inch flue.",
       "highlights": [
         "Made from 304 stainless steel",
         "Resists rust better than galvanized steel",
@@ -1217,7 +1202,7 @@
       "title": "SureDeck Synthetic Underlayment",
       "titleLead": "SureDeck Synthetic",
       "titleAccent": "Underlayment",
-      "description": "Coated woven polypropylene roll covering one thousand square feet, with a slip resistant face.",
+      "description": "Coated woven polypropylene roll covering ten squares, with a slip resistant face for roofs pitched three in twelve and steeper.",
       "highlights": [
         "Woven polypropylene coated on both sides",
         "Textured anti slip surface for sure footing",
