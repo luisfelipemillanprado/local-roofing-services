@@ -33,7 +33,8 @@
     "tube": "Tubo",
     "kit": "Kit",
     "canister": "Cilindro",
-    "foot": "Pie Lineal"
+    "foot": "Pie Lineal",
+    "pack": "Paquete"
   },
   "categories": {
     "shingles": "Tejas",
@@ -174,7 +175,27 @@
       "productType": "Tipo de Producto",
       "warranty": "Garantía",
       "headlap": "Solape Superior",
-      "squareWeight": "Peso por Square"
+      "squareWeight": "Peso por Square",
+      "panels": "Paneles por Paquete",
+      "screws": "Tornillos Incluidos",
+      "finish": "Acabado",
+      "gloves": "Guantes Incluidos",
+      "panelCoverage": "Cobertura por Panel",
+      "seam": "Junta Lateral",
+      "use": "Uso Previsto",
+      "exposureSize": "Exposición Instalada",
+      "impactClass": "Clase de Impacto",
+      "hail": "Límite de Granizo",
+      "module": "Módulo de Teja",
+      "coreThickness": "Espesor de Núcleo",
+      "outerSheet": "Chapa Exterior",
+      "innerSheet": "Chapa Interior",
+      "uValue": "Transmitancia Térmica",
+      "lengthRange": "Rango de Largo",
+      "paintWarranty": "Garantía de Pintura",
+      "pan": "Tipo de Faldón",
+      "fastening": "Fijación",
+      "approval": "Aprobaciones"
     },
     "specValue": {
       "fiberglassAsphalt": "Asfalto con Fibra de Vidrio",
@@ -182,7 +203,24 @@
       "laminated": "Teja Arquitectónica Laminada",
       "starter": "Teja de Arranque",
       "notPublished": "No Publicado",
-      "windStandard": "110 mph, o 130 mph con instalación especial"
+      "windStandard": "110 mph, o 130 mph con instalación especial",
+      "galvanizedSteel": "Acero Galvanizado",
+      "ribbedPanel": "Panel Nervado",
+      "corrugatedPanel": "Panel Ondulado",
+      "tilePanel": "Panel Tipo Teja",
+      "galvanized": "Galvanizado",
+      "groovedInterlock": "Ranurada Encajable",
+      "outbuildings": "Garajes, Cobertizos y Gallineros",
+      "onePair": "1 par",
+      "grey": "Gris",
+      "terracotta": "Terracota",
+      "stoneChip": "Gravilla Pétrea Cerámica",
+      "battenFix": "Sobre Rastrel, Clavado",
+      "concealedClip": "Clips Ocultos",
+      "penetrating": "Pasante, Tapas Vistas",
+      "flatPan": "Liso",
+      "striatedPan": "Estriado",
+      "polyurethaneCore": "Núcleo de Poliuretano"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -207,7 +245,7 @@
       "title": "Tejas Timberline HDZ Carbón",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Carbón",
-      "description": "Tejas laminadas arquitectónicas en carbón profundo, con tecnología LayerLock que amplía la zona de clavado y agiliza la instalación.",
+      "description": "Tejas laminadas arquitectónicas en carbón profundo, con tecnología LayerLock que amplía considerablemente la zona de clavado durante la instalación.",
       "about": [
         "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Charcoal de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
         "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
@@ -233,10 +271,10 @@
       }
     },
     "timberline-hdz-pewter-gray": {
-      "title": "Tejas Timberline HDZ Gris Peltre",
+      "title": "Tejas Timberline HDZ Peltre",
       "titleLead": "Tejas Timberline HDZ",
-      "titleAccent": "Gris Peltre",
-      "description": "Tejas laminadas arquitectónicas en gris peltre suave, hechas para resistir el viento y el clima en cualquier techo inclinado.",
+      "titleAccent": "Peltre",
+      "description": "Tejas laminadas arquitectónicas en gris peltre suave, desarrolladas para resistir vientos fuertes y climatología adversa durante muchas décadas seguidas.",
       "about": [
         "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Pewter Gray de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
         "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
@@ -265,7 +303,7 @@
       "title": "Tejas Timberline HDZ Corteza",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Corteza",
-      "description": "Tejas laminadas arquitectónicas en tono corteza cálido, con toda la profundidad de la madera natural y sin su mantenimiento.",
+      "description": "Tejas laminadas arquitectónicas en tono corteza cálido, que reproducen la profundidad de la madera natural sin mantenimiento prácticamente alguno.",
       "about": [
         "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Barkwood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
         "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
@@ -294,7 +332,7 @@
       "title": "Tejas Timberline HDZ Verde Bosque",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Verde Bosque",
-      "description": "Tejas laminadas arquitectónicas en verde bosque intenso, un color audaz que encaja en entornos con arboleda y mucha sombra.",
+      "description": "Tejas laminadas arquitectónicas en verde bosque intenso, un color distintivo que encaja naturalmente en entornos muy arbolados y sombreados.",
       "about": [
         "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Hunter Green de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
         "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
@@ -323,7 +361,7 @@
       "title": "Tejas Timberline HDZ Arena",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Arena",
-      "description": "Tejas laminadas arquitectónicas en tono arena claro, una mezcla que ilumina cualquier línea de techo sin apagar los muros.",
+      "description": "Tejas laminadas arquitectónicas en tono arena claro, mezcla luminosa que realza cualquier línea de techo sin desdibujar paredes circundantes.",
       "about": [
         "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Shakewood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
         "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
@@ -349,40 +387,91 @@
       }
     },
     "brakki-10pc": {
-      "title": "Panel Max Rib Calibre 26",
-      "titleLead": "Panel Max Rib",
-      "titleAccent": "Calibre 26",
-      "description": "Paneles de acero nervado para techo y muro, de treinta y seis pulgadas de ancho y hasta cincuenta pies.",
-      "highlights": [
-        "Treinta y seis pulgadas de ancho útil con nervios de tres cuartos",
-        "Cortados a medida hasta cincuenta pies",
-        "Clasificación al fuego UL 263 clase A",
-        "Acabado Kynar 500 con garantía de pintura de cuarenta años"
-      ]
+      "title": "Paneles de Acero Nervados 10 Piezas",
+      "titleLead": "Paneles de Acero",
+      "titleAccent": "Nervados 10 Piezas",
+      "description": "Paneles nervados grises de acero galvanizado, suministrados en paquetes de diez unidades que proporcionan aproximadamente setenta y cinco pies.",
+      "about": [
+        "Brakki vende estos paneles como paquete listo para colocar y no como tramo de fábrica cortado a tu techo, así que una construcción pequeña llega completa en una sola entrega. Son láminas nervadas de acero galvanizado en gris, cada una de 61.02 x 17.72 in (1,550 x 450 mm), y en la caja vienen diez. Los bordes ranurados encajan entre sí, lo que cierra la junta y agiliza la alineación. Nada hay que cortar ni conformar en obra, en absoluto.",
+        "El paquete de diez piezas cubre 75.3 sq ft en total, que es la superficie bruta de la lámina y no la neta una vez solapadas, así que hay que contar los solapes laterales y de testa al calcular cuántos paquetes lleva el techo. El espesor del acero es 0.01 in (0.25 mm). En la caja van cincuenta tornillos, cinco por lámina, y un par de guantes para manejar los bordes cortados. Brakki ofrece el mismo perfil en paquete de diez piezas para trabajos mayores.",
+        "Brakki indica estos paneles para garajes, gallineros, cobertizos, establos y cubiertas de patio, que es el trabajo para el que sirve una lámina de calibre ligero. Se fijan atravesando el valle del perfil sobre correas de madera o de acero con los tornillos incluidos. Cada lámina encaja en la ranura de la anterior, se avanza desde el alero y los solapes se orientan contra el viento dominante. Basta un atornillador con vaso hexagonal.",
+        "El galvanizado es lo que aporta aquí la resistencia a la corrosión, y Brakki declara el acabado como resistente a los rayos UV y de color estable, de modo que el gris aguanta a pleno sol. Con 0.01 in es una lámina de calibre ligero pensada para anexos, no un sustituto de un panel estructural en vivienda. No se publica garantía, resistencia al viento ni clasificación al fuego. Conviene revisar la normativa local antes de usarlo sobre vivienda."
+      ],
+      "features": {
+        "install": [
+          "Tornillos por el valle del perfil sobre correas de madera o de acero",
+          "Cincuenta tornillos incluidos, cinco por lámina, más un par de guantes",
+          "Cada lámina encaja en la ranura de la anterior, avanzando desde el alero",
+          "Los solapes laterales se orientan contra el viento dominante",
+          "Hay que contar los solapes: la cobertura indicada es superficie bruta"
+        ],
+        "coverage": [
+          "Brakki no publica plazo de garantía para este paquete",
+          "El galvanizado es lo que aporta la resistencia a la corrosión",
+          "El acabado se declara resistente a los rayos UV y de color estable",
+          "No se publica resistencia al levantamiento por viento",
+          "No se publica clasificación al fuego",
+          "Calibre ligero de 0.01 in: para anexos, no para cubierta de vivienda"
+        ]
+      }
     },
     "brakki-stone-tiles": {
-      "title": "Teja DECRA",
-      "titleLead": "Teja",
-      "titleAccent": "DECRA",
-      "description": "Placa de acero con recubrimiento pétreo, veinte por cuadro, con garantía de viento de ciento veinte millas por hora.",
-      "highlights": [
-        "Placa de acero con recubrimiento pétreo",
-        "Veinte placas cubren un cuadro",
-        "Garantía de viento de ciento veinte mph",
-        "Garantía limitada de por vida en viviendas unifamiliares"
-      ]
+      "title": "Tejas DECRA de Acero Recubrimiento Pétreo",
+      "titleLead": "Tejas DECRA de Acero",
+      "titleAccent": "Recubrimiento Pétreo",
+      "about": [
+        "DECRA Tile es una placa de acero conformada a presión con acabado de gravilla pétrea recubierta cerámicamente, de modo que el techo se lee como teja de barro mediterránea pesando una fracción. El acero lleva aleación de aluminio y zinc según ASTM A792 en calibre 26, 0.0179 in (0.455 mm), y cada placa viene precorrugada formando un escalón de teja. El color viene de la propia gravilla mineral y no de una pintura que pueda calear.",
+        "Cada placa mide 16 1/2 x 52 in (419 x 1,321 mm) y se instala con una exposición de 14 1/2 x 50 in (368 x 1,270 mm), lo que da veinte placas por cuadro. El peso instalado es de 150 lb por 100 sq ft, alrededor de una séptima parte de lo que carga la teja de hormigón, así que suele ser la salida en rehabilitación cuando la estructura no admite más. Las limahoyas, los baberos laterales y los de muro se prensan en el mismo calibre 26.",
+        "La pendiente mínima es 3:12. Entre 2:12 y 3:12 el tablero lleva una capa adicional de subcapa antes de colocar los rastreles. La placa está listada para montaje sobre rastrel en el informe ICC-ES ESR-2901 y en la aprobación de Florida FL9759-R9. Se clava atravesando el rastrel, así que no queda ninguna cabeza de fijación a la intemperie. Los rastreles pueden ser de madera o de acero, y se admite contrarrastrel si el drenaje lo pide.",
+        "Garantía: limitada de por vida en vivienda unifamiliar aislada, cubriendo el arranque por viento hasta 120 mph y la perforación, fisura o partido por granizo hasta piedra de 2.5 in. El sistema cumple ASTM E108 y UL 790 Clase A al fuego y UL 2218 Clase 4 de impacto, que es la clase más alta y suele dar descuento en el seguro. Las fijaciones siguen ANSI/ASME B18.6.1 para tirafondos y B18.6.4 para tornillos roscantes de formado de rosca."
+      ],
+      "features": {
+        "install": [
+          "Montaje sobre rastrel, listado en el informe ICC-ES ESR-2901",
+          "Pendiente mínima 3:12, con subcapa adicional entre 2:12 y 3:12",
+          "Clavado a través del rastrel, sin cabezas de fijación a la vista",
+          "Veinte placas por cuadro con exposición de 14 1/2 x 50 in",
+          "Aprobación del código de Florida FL9759-R9 para montaje sobre rastrel"
+        ],
+        "coverage": [
+          "Garantía limitada de por vida en vivienda unifamiliar aislada",
+          "Resistencia al arranque con vientos de hasta 120 mph",
+          "Perforación, fisura y partido por granizo hasta piedra de 2.5 in",
+          "Clasificación al fuego ASTM E108 y UL 790 Clase A",
+          "Impacto UL 2218 Clase 4, la clase más alta publicada",
+          "Peso instalado de 150 lb por cuadro, poca carga en rehabilitación"
+        ]
+      },
+      "description": "Placas de acero con recubrimiento pétreo, veinte piezas por cuadro, garantizadas contra vientos sostenidos de ciento veinte millas horarias."
     },
     "brakki-insulated-panel": {
-      "title": "Panel Aislado Isodomus",
-      "titleLead": "Panel Aislado",
-      "titleAccent": "Isodomus",
-      "description": "Panel sándwich aislante con cara prensada tipo teja y núcleo de poliuretano, un metro de ancho y ochenta milímetros.",
-      "highlights": [
-        "Cara de acero prensada con aspecto de teja",
-        "Núcleo de espuma de poliuretano aislante",
-        "Un metro de ancho útil",
-        "Para techos con pendiente mínima del siete por ciento"
-      ]
+      "title": "Panel Isodomus Sándwich Aislante",
+      "titleLead": "Panel Isodomus",
+      "titleAccent": "Sándwich Aislante",
+      "about": [
+        "Isodomus es un panel sándwich aislante de Isopan que llega como cubierta terminada en una sola pieza: chapa exterior prensada con forma de teja curva, núcleo rígido de poliuretano y una segunda chapa por dentro. Un panel sustituye a la vez teja, rastrel y aislamiento, y por eso aparece en obra rural y pública donde se exige aspecto de teja con estructura ligera. Isopan fabrica la gama en Italia y ofrece colores que imitan la cubierta tradicional de teja.",
+        "El ancho útil de cubrición es de 1,000 mm y el dibujo de teja se repite en un módulo de 350 mm con 50 mm de altura de perfil. La chapa exterior es de 0.5 mm y la interior de 0.4 mm, con cara exterior de aluminio de 0.6 mm como alternativa. Los espesores de núcleo arrancan en 30 mm, y la longitud útil se mantiene en más menos 2 mm según EN 14509. Las tablas de peso del catálogo se dan aparte para las versiones de acero y las monocara.",
+        "La fijación es de tipo pasante, atravesando el panel con tapas vistas, y el número y la posición de los elementos hay que sacarlos de las cargas del tejado y no de un patrón fijo. La pendiente mínima es del siete por ciento. Las tablas de carga publicadas van de una luz de 1,050 mm hasta 3,500 mm, así que la separación de correas sigue al espesor. El sistema no lleva contrarrastrel, así que el drenaje lo resuelve el propio perfil del panel.",
+        "La transmitancia térmica va de 0.55 W/m2K en el núcleo más fino hasta 0.19 W/m2K en el más grueso, calculada según EN ISO 6946 y declarada bajo UNI EN 14509:2007. El panel es lo bastante ligero para ayudar frente a cargas sísmicas y lo bastante rápido para cerrar una cubierta en un día, que es donde está su valor. Isopan lista además una versión Classic del mismo panel con otro escalón de teja a lo largo de toda la cara vista."
+      ],
+      "features": {
+        "install": [
+          "Fijación pasante que atraviesa el panel con tapas vistas",
+          "Número y posición de fijaciones según las cargas, no por patrón fijo",
+          "Pendiente mínima del siete por ciento",
+          "Separación de correas según las tablas, de 1,050 mm a 3,500 mm",
+          "Un panel sustituye teja, rastrel y aislamiento en una sola pasada"
+        ],
+        "coverage": [
+          "Declarado bajo UNI EN 14509:2007 con cálculo térmico EN ISO 6946",
+          "Tolerancia de longitud útil de más menos 2 mm según EN 14509",
+          "Transmitancia de 0.55 a 0.19 W/m2K según el espesor del núcleo",
+          "Chapa exterior de 0.5 mm y chapa interior de 0.4 mm",
+          "Cara exterior de aluminio de 0.6 mm como alternativa",
+          "El catálogo general no publica plazo de garantía"
+        ]
+      },
+      "description": "Panel sándwich aislante que combina superficie prensada tipo teja con núcleo de poliuretano, alcanzando ochenta milímetros de espesor total."
     },
     "certainteed-roofrunner": {
       "title": "Underlayment Sintético RoofRunner",
@@ -529,40 +618,91 @@
       ]
     },
     "brakki-19pc": {
-      "title": "Panel Max Rib Calibre 29",
-      "titleLead": "Panel Max Rib",
-      "titleAccent": "Calibre 29",
-      "description": "Panel de acero nervado de fijación vista, de treinta y seis pulgadas de ancho con nervios de tres cuartos.",
-      "highlights": [
-        "Treinta y seis pulgadas de ancho útil con nervios de tres cuartos",
-        "Hasta pendiente 1:12 con traslapes sellados",
-        "Clasificación UL 580 clase 90 y UL 2218 clase 4",
-        "Acabado Kynar 500 con garantía de pintura de cuarenta años"
-      ]
+      "title": "Paneles de Acero Nervados 20 Piezas",
+      "titleLead": "Paneles de Acero",
+      "titleAccent": "Nervados 20 Piezas",
+      "description": "Paneles nervados grises de acero galvanizado, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies cuadrados.",
+      "about": [
+        "Brakki vende estos paneles como paquete listo para colocar y no como tramo de fábrica cortado a tu techo, así que una construcción pequeña llega completa en una sola entrega. Son láminas nervadas de acero galvanizado en gris, cada una de 73.23 x 17.72 in (1,860 x 450 mm), y en la caja vienen veinte. Los bordes ranurados encajan entre sí, lo que cierra la junta y agiliza mucho la alineación. Nada hay que cortar ni conformar en obra.",
+        "El paquete de veinte piezas cubre 180.19 sq ft en total, que es la superficie bruta de la lámina y no la neta una vez solapadas, así que hay que contar los solapes laterales y de testa al calcular cuántos paquetes lleva el techo. El espesor del acero es 0.01 in (0.25 mm). En la caja van cien tornillos, cinco por lámina, y un par de guantes para manejar los bordes cortados. Brakki ofrece el mismo perfil en paquete de diez piezas para trabajos menores.",
+        "Brakki indica estos paneles para garajes, gallineros, cobertizos, establos y cubiertas de patio, que es el trabajo para el que sirve una lámina de calibre ligero. Se fijan atravesando el valle del perfil sobre correas de madera o de acero con los tornillos incluidos. Cada lámina encaja en la ranura de la anterior, se avanza desde el alero y los solapes se orientan contra el viento dominante. Basta un atornillador con vaso hexagonal.",
+        "El galvanizado es lo que aporta aquí la resistencia a la corrosión, y Brakki declara el acabado como resistente a los rayos UV y de color estable, de modo que el gris aguanta a pleno sol. Con 0.01 in es una lámina de calibre ligero pensada para anexos, no un sustituto de un panel estructural en vivienda. No se publica garantía, resistencia al viento ni clasificación al fuego. Conviene revisar la normativa local antes de usarlo sobre vivienda."
+      ],
+      "features": {
+        "install": [
+          "Tornillos por el valle del perfil sobre correas de madera o de acero",
+          "Cien tornillos incluidos, cinco por lámina, más un par de guantes",
+          "Cada lámina encaja en la ranura de la anterior, avanzando desde el alero",
+          "Los solapes laterales se orientan contra el viento dominante",
+          "Hay que contar los solapes: la cobertura indicada es superficie bruta"
+        ],
+        "coverage": [
+          "Brakki no publica plazo de garantía para este paquete",
+          "El galvanizado es lo que aporta la resistencia a la corrosión",
+          "El acabado se declara resistente a los rayos UV y de color estable",
+          "No se publica resistencia al levantamiento por viento",
+          "No se publica clasificación al fuego",
+          "Calibre ligero de 0.01 in: para anexos, no para cubierta de vivienda"
+        ]
+      }
     },
     "brakki-20pc": {
-      "title": "Panel Met Tile 20 Piezas",
-      "titleLead": "Panel Met Tile",
-      "titleAccent": "20 Piezas",
-      "description": "Panel de acero Galvalume con aspecto de teja de barro, acabado en Kynar 500 mate y hasta veinte pies.",
-      "highlights": [
-        "Imita la teja de barro sin su peso",
-        "Acero Galvalume calibre veintiséis",
-        "Kynar 500 mate con acabado texturizado tipo estuco",
-        "Cortado de dos a veinte pies en pasos de un pie"
-      ]
+      "title": "Paneles Tipo Teja Antracita 20 Piezas",
+      "titleLead": "Paneles Tipo Teja",
+      "titleAccent": "Antracita 20 Piezas",
+      "description": "Paneles grises tipo teja en acero galvanizado, suministrados en paquetes de veinte unidades que proporcionan aproximadamente ciento ochenta pies.",
+      "about": [
+        "Este paquete de Brakki viene prensado con perfil de teja, así que un cobertizo o un garaje se lee desde abajo como un tejado de teja sin su peso ni su coste. Las láminas son de acero galvanizado acabado en gris, cada una de 73.23 x 17.72 in (1,860 x 450 mm), y en la caja vienen veinte. El prensado rigidiza la lámina a lo ancho, algo que cuenta en un calibre delgado sobre correas. Nada hay que cortar ni conformar en obra, solo solapar y atornillar.",
+        "El paquete de veinte piezas cubre 180.19 sq ft en total, que es la superficie bruta de la lámina y no la neta una vez solapadas, así que hay que contar los solapes laterales y de testa al calcular cuántos paquetes lleva el techo. El espesor del acero es 0.01 in (0.25 mm). En la caja van cien tornillos, cinco por lámina, y un par de guantes para manejar los bordes cortados. Brakki ofrece el mismo perfil también en acabado terracota.",
+        "Brakki indica estos paneles para garajes, gallineros, cobertizos, establos y cubiertas de patio, que es el trabajo para el que sirve una lámina de calibre ligero. Se fijan por el valle del prensado sobre correas de madera o de acero con los tornillos incluidos. Conviene alinear los escalones del prensado en todo el tramo antes de fijar nada, porque un perfil de teja delata la hilada torcida. Basta un atornillador con vaso hexagonal para todo el montaje.",
+        "El acabado gris y la sombra del prensado son justo lo que se compra en este panel, así que las láminas se manejan por los bordes y no se arrastran unas sobre otras. Con 0.01 in es una lámina de calibre ligero pensada para anexos, no un sustituto de un panel estructural en vivienda. Brakki no publica garantía, resistencia al viento ni clasificación al fuego para este paquete. Conviene revisar la normativa local antes de usarlo sobre vivienda."
+      ],
+      "features": {
+        "install": [
+          "Tornillos por el valle del prensado sobre correas de madera o de acero",
+          "Cien tornillos incluidos, cinco por lámina, más un par de guantes",
+          "Alinear los escalones del prensado en todo el tramo antes de fijar nada",
+          "Los solapes laterales se orientan contra el viento dominante",
+          "Hay que contar los solapes: la cobertura indicada es superficie bruta"
+        ],
+        "coverage": [
+          "Brakki no publica plazo de garantía para este paquete",
+          "El galvanizado es lo que aporta la resistencia a la corrosión",
+          "Manejar por los bordes: el prensado es lo que se compra en este panel",
+          "No se publica resistencia al levantamiento por viento",
+          "No se publica clasificación al fuego",
+          "Calibre ligero de 0.01 in: para anexos, no para cubierta de vivienda"
+        ]
+      }
     },
     "brakki-21pc": {
-      "title": "Panel Met Tile 21 Piezas",
-      "titleLead": "Panel Met Tile",
-      "titleAccent": "21 Piezas",
-      "description": "Panel Met Tile con aspecto de teja, treinta y seis pulgadas, que se instala rápido como sistema de paneles.",
-      "highlights": [
-        "Imita la teja de barro sin su peso",
-        "Se instala más rápido que las tejas sueltas",
-        "Kynar 500 mate con acabado texturizado tipo estuco",
-        "Hasta pendiente 1.5:12 con sellador"
-      ]
+      "title": "Paneles Tipo Teja Terracota 20 Piezas",
+      "titleLead": "Paneles Tipo Teja",
+      "titleAccent": "Terracota 20 Piezas",
+      "description": "Paneles terracota tipo teja en acero galvanizado, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies.",
+      "about": [
+        "Este paquete de Brakki viene prensado con perfil de teja, así que un cobertizo o un garaje se lee desde abajo como un tejado de teja sin su peso ni su coste. Las láminas son de acero galvanizado acabado en terracota, cada una de 73.23 x 17.72 in (1,860 x 450 mm), y en la caja vienen veinte. El prensado rigidiza la lámina a lo ancho, algo que cuenta en un calibre delgado sobre correas. Nada hay que cortar ni conformar en obra, solo solapar y atornillar.",
+        "El paquete de veinte piezas cubre 180.19 sq ft en total, que es la superficie bruta de la lámina y no la neta una vez solapadas, así que hay que contar los solapes laterales y de testa al calcular cuántos paquetes lleva el techo. El espesor del acero es 0.01 in (0.25 mm). En la caja van cien tornillos, cinco por lámina, y un par de guantes para manejar los bordes cortados. Brakki ofrece el mismo perfil también en acabado gris.",
+        "Brakki indica estos paneles para garajes, gallineros, cobertizos, establos y cubiertas de patio, que es el trabajo para el que sirve una lámina de calibre ligero. Se fijan por el valle del prensado sobre correas de madera o de acero con los tornillos incluidos. Conviene alinear los escalones del prensado en todo el tramo antes de fijar nada, porque un perfil de teja delata la hilada torcida. Basta un atornillador con vaso hexagonal para todo el montaje.",
+        "El acabado terracota y la sombra del prensado son justo lo que se compra en este panel, así que las láminas se manejan por los bordes y no se arrastran unas sobre otras. Con 0.01 in es una lámina de calibre ligero pensada para anexos, no un sustituto de un panel estructural en vivienda. Brakki no publica garantía, resistencia al viento ni clasificación al fuego para este paquete. Conviene revisar la normativa local antes de usarlo sobre vivienda."
+      ],
+      "features": {
+        "install": [
+          "Tornillos por el valle del prensado sobre correas de madera o de acero",
+          "Cien tornillos incluidos, cinco por lámina, más un par de guantes",
+          "Alinear los escalones del prensado en todo el tramo antes de fijar nada",
+          "Los solapes laterales se orientan contra el viento dominante",
+          "Hay que contar los solapes: la cobertura indicada es superficie bruta"
+        ],
+        "coverage": [
+          "Brakki no publica plazo de garantía para este paquete",
+          "El galvanizado es lo que aporta la resistencia a la corrosión",
+          "Manejar por los bordes: el prensado es lo que se compra en este panel",
+          "No se publica resistencia al levantamiento por viento",
+          "No se publica clasificación al fuego",
+          "Calibre ligero de 0.01 in: para anexos, no para cubierta de vivienda"
+        ]
+      }
     },
     "dupont-tyvek-120": {
       "title": "Underlayment Tyvek Protec 120",
@@ -841,10 +981,10 @@
       ]
     },
     "duration-designer-slatestone-grey": {
-      "title": "Tejas Duration Designer Gris Pizarra",
-      "titleLead": "Tejas Duration Designer",
+      "title": "Teja Duration Designer Gris Pizarra",
+      "titleLead": "Teja Duration Designer",
       "titleAccent": "Gris Pizarra",
-      "description": "Tejas arquitectónicas con banda SureNail que refuerza la zona de clavado frente al viento fuerte en techos muy expuestos.",
+      "description": "Tejas arquitectónicas con banda SureNail que refuerza considerablemente la zona de clavado frente a vientos huracanados en cubiertas costeras.",
       "about": [
         "Duration Designer (Owens Corning) es una teja arquitectónica de la serie TruDefinition Duration, aquí en el color Slatestone Grey. Su tecnología patentada SureNail es la única zona de clavado reforzada en la cara de una teja: una banda de tejido técnico que cubre sus dos capas y da triple capa de protección frente al arranque de clavos y una unión entre capas hasta un 200% más ancha que en las tejas comunes. El sellador Tru Bond fija cada hilada.",
         "Cada teja mide 13 1/4 x 39 3/8 in con exposición de 5 5/8 in. Un square lleva 64 tejas en 3 paquetes y cubre 98.4 sq ft. StreakGuard lleva gránulos con cobre de 3M contra las algas verdiazules; las limatesas y cumbreras Owens Corning vienen en colores Designer. El tablero puede ser de tablas de 6 in, contrachapado de 3/8 in u OSB de 7/16 in. Desde 4:12, underlayment sintético Owens Corning o uno conforme a ASTM D8257; de 2:12 a menos de 4:12, dos capas.",
@@ -871,16 +1011,33 @@
       }
     },
     "steeldash-snap-lock-slate-gray": {
-      "title": "Panel de Junta Alzada Snap Lock",
+      "title": "Panel de Junta Alzada Steeldash Pizarra",
       "titleLead": "Panel de Junta Alzada",
-      "titleAccent": "Snap Lock",
-      "description": "Panel de acero con clips ocultos, dieciséis pulgadas de cubrición y junta alzada a presión, hasta cuarenta pies lineales.",
-      "highlights": [
-        "Acero calibre veinticuatro con fijaciones ocultas",
-        "Dieciséis pulgadas de ancho útil y junta de una pulgada",
-        "Cortado a medida desde uno hasta cuarenta pies",
-        "Pintura con cuarenta años contra pelado y treinta contra decoloración"
-      ]
+      "titleAccent": "Steeldash Pizarra",
+      "about": [
+        "Es junta alzada a presión de Steeldash en acero calibre 24, acabada en gris pizarra. La junta cierra apretando un panel sobre el anterior, así que no hay pasada de engatillado mecánico ni una cuadrilla un día entero con la engatilladora. Los clips van bajo la junta y no se ven nunca, que es justo lo que separa una junta alzada de un panel de fijación vista. Steeldash conforma el mismo perfil en Galvalume desnudo y en una serie de colores sólidos.",
+        "La cubrición neta es de 16 in por panel con un nervio principal de 1 in de altura, y el faldón es liso de serie. Los paneles se conforman a medida desde 1 ft hasta 40 ft en incrementos de medio pie, así que un tramo de alero a caballete suele llegar de una pieza y sin solape de testa que sellar. El plazo de fabricación es de siete días hábiles. Hay faldón estriado bajo pedido, que es la respuesta habitual al abombado en tramos anchos.",
+        "Steeldash exige montaje sobre soporte continuo con una subcapa entre el panel y el tablero, lo que descarta las correas al aire en este perfil. La pendiente mínima recomendada es de 3 en 12. Como los clips van ocultos y la junta encaja a presión en vez de atornillarse, nada perfora el plano de agua en todo el faldón. La subcapa la elige el instalador, así que conviene especificar una membrana de alta temperatura pensada para metal.",
+        "Garantía: el sistema de pintura está cubierto 40 años contra el desprendimiento y 30 años contra el caleo o la decoloración. El acero se suministra con certificado de colada. No se publica clasificación de viento, fuego ni impacto para el panel aislado, así que un conjunto clasificado hay que pedírselo a Steeldash. El color es un recubrimiento aplicado en fábrica, sin ninguna pintura en obra en ningún momento del montaje en cubierta."
+      ],
+      "features": {
+        "install": [
+          "Soporte continuo con subcapa entre panel y tablero, no correas al aire",
+          "Pendiente mínima recomendada de 3 en 12",
+          "Clips ocultos bajo la junta, nada perfora el plano de agua",
+          "Conformado a medida de 1 a 40 ft en incrementos de medio pie",
+          "La junta cierra a presión, sin pasada de engatillado mecánico"
+        ],
+        "coverage": [
+          "Pintura cubierta 40 años contra el desprendimiento",
+          "Pintura cubierta 30 años contra el caleo o la decoloración",
+          "Acero suministrado con certificado de colada",
+          "No se publica clasificación de levantamiento por viento del panel solo",
+          "No se publica clasificación de fuego ni de impacto del panel solo",
+          "Plazo de fabricación de siete días hábiles antes del envío"
+        ]
+      },
+      "description": "Panel de acero con clips completamente ocultos, dieciséis pulgadas de cubrición y tramos continuos alcanzando cuarenta pies lineales ininterrumpidos."
     },
     "gibraltar-cf5g-26": {
       "title": "Contrababero de Acero Galvanizado",
@@ -1051,10 +1208,10 @@
       ]
     },
     "malarkey-smart-start": {
-      "title": "Tejas de Arranque Smart Start",
+      "title": "Tejas de Arranque Malarkey Smart Start",
       "titleLead": "Tejas de Arranque",
-      "titleAccent": "Smart Start",
-      "description": "Arranque de asfalto modificado NEX, perforado en dos tiras, que sella la primera hilada en los aleros y bordes.",
+      "titleAccent": "Malarkey Smart Start",
+      "description": "Arranque de asfalto polimérico modificado NEX, perforado en dos tiras independientes que sellan completamente la primera hilada perimetral completa.",
       "about": [
         "Smart Start (código Malarkey 210) es una teja de arranque de asfalto modificado con polímero NEX para techos residenciales de pendiente pronunciada. Se fabrica sobre manto de fibra de vidrio no tejido, recubierto por ambas caras con betún NEX y estabilizador mineral ignífugo, con acabado de gránulo mineral. Malarkey exige Smart Start, o un equivalente conforme a ASTM D3462, bajo todas sus tejas, incluida Windsor, y la recomienda también en los bordes.",
         "Cada teja completa mide 16 3/8 x 38 1/4 in (416 x 972 mm). Una perforación central, a 8 3/16 in (208 mm) de cada borde, la divide a lo largo en dos piezas de arranque conformes al código de 8 3/16 x 38 1/4 in (208 x 972 mm), cada una con su propia banda sellante de fábrica, para exposiciones de hasta 6 3/16 in. Un paquete trae 18 tejas completas (36 piezas) y cubre 114 ft 9 in (35 m); un palé lleva 21 paquetes. La adherencia típica del gránulo es de 0.3 g.",
@@ -1080,10 +1237,10 @@
       }
     },
     "landmark-weathered-wood": {
-      "title": "Tejas Landmark Madera Envejecida",
-      "titleLead": "Tejas Landmark",
-      "titleAccent": "Madera Envejecida",
-      "description": "Laminada de doble capa con faldón en rombo, que cubre casi treinta y tres pies cuadrados por cada paquete.",
+      "title": "Landmark Madera Envejecida",
+      "titleLead": "Landmark Madera",
+      "titleAccent": "Envejecida",
+      "description": "Laminada de doble capa con faldón romboidal, que proporciona aproximadamente treinta y tres pies cuadrados por paquete individual suministrado.",
       "about": [
         "Landmark (CertainTeed) es una teja arquitectónica laminada, en Weathered Wood. Se construye sobre manto de fibra de vidrio con gránulos minerales de recubrimiento cerámico en asfalto refinado impermeable; dos piezas se laminan con cemento asfáltico, y cada teja lleva bandas autoadhesivas y la guía NailTrak. La versión resistente a algas (AR) evita las manchas oscuras de las algas verdiazules (Gloeocapsa magma); no está disponible en todas las regiones.",
         "Cada teja mide 13 1/4 x 38 3/4 in con una exposición de 5 5/8 in. Un square lleva 65 tejas en 3 paquetes, cubre aproximadamente 98.4 sq ft y pesa de 211 a 225 lb según la planta de fabricación. Se usa en pendientes mayores de 2 in por pie; en pendiente baja, de 2:12 a menos de 4:12, requiere underlayment adicional, y donde el hielo puede acumularse en el alero CertainTeed indica el underlayment impermeable WinterGuard o uno equivalente.",
@@ -1110,9 +1267,9 @@
     },
     "dynasty-emerald-green": {
       "title": "Tejas Dynasty Verde Esmeralda",
-      "titleLead": "Tejas Dynasty",
-      "titleAccent": "Verde Esmeralda",
-      "description": "Tejas laminadas arquitectónicas con banda de clavado ArmourZone reforzada, resistentes al viento fuerte y garantía limitada de por vida.",
+      "titleLead": "Tejas Dynasty Verde",
+      "titleAccent": "Esmeralda",
+      "description": "Tejas laminadas arquitectónicas con banda de clavado ArmourZone reforzada, resistentes a vientos muy fuertes y con garantía vitalicia limitada.",
       "about": [
         "Dynasty (IKO) es una teja laminada de alto peso, aquí en el color Emerald Green, fabricada sobre un manto estable de fibra de vidrio no tejido, impregnado con betún impermeabilizante estabilizado. Tiene aspecto de tablilla irregular con sombreado de doble banda, gránulos cerámicos de color en ambas capas que protegen el asfalto del ultravioleta, cinta antiadherente y polvo mineral en el reverso, y gránulos inhibidores de algas de larga duración.",
         "Cada teja mide 40 7/8 x 13 3/4 in (1,038 x 349 mm) con una exposición de 5 7/8 in (149 mm) y un solape superior de 2 in (50 mm). Un paquete trae 20 tejas y cubre 33.3 sq ft (3.1 m²); un palé de 40 x 53 in lleva 56 paquetes. La zona de clavado ArmourZone es más ancha para instalar más rápido y va reforzada con cinta ArmourZone en el reverso para proteger mejor frente al viento, y un sellador activado por calor une cada hilada.",
@@ -1139,28 +1296,62 @@
       }
     },
     "brakki-22pc": {
-      "title": "Panel Max Rib Galvalume sin Pintar",
-      "titleLead": "Panel Max Rib",
-      "titleAccent": "Galvalume sin Pintar",
-      "description": "Panel Max Rib en Galvalume sin pintar, treinta y seis pulgadas, para techo o muro sobre tablero o estructura.",
-      "highlights": [
-        "Treinta y seis pulgadas de ancho útil con nervios de tres cuartos",
-        "Hasta pendiente 1:12 con traslapes sellados",
-        "Clasificación UL 580 clase 90 y UL 2218 clase 4",
-        "Se instala sobre tablero o estructura abierta"
-      ]
+      "title": "Paneles Galvanizados Corrugados 20 Piezas",
+      "titleLead": "Paneles Galvanizados",
+      "titleAccent": "Corrugados 20 Piezas",
+      "description": "Paneles ondulados de acero galvanizado sin pintar, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies.",
+      "about": [
+        "Es el mismo paquete de Brakki en el perfil ondulado clásico, sin pintar, así que el acabado que se ve es el propio galvanizado. Cada lámina mide 73.23 x 17.72 in (1,860 x 450 mm) y en la caja vienen veinte. Las ondas redondeadas van más juntas que en un perfil nervado, lo que rigidiza una lámina delgada y disimula mejor los golpes pequeños una vez montada sobre la estructura. Nada hay que cortar ni conformar en obra, solo solapar y atornillar.",
+        "El paquete de veinte piezas cubre 180.19 sq ft en total, que es la superficie bruta de la lámina y no la neta una vez solapadas, así que hay que contar los solapes laterales y de testa al calcular cuántos paquetes lleva el techo. El espesor del acero es 0.01 in (0.25 mm). En la caja van cien tornillos, cinco por lámina, y un par de guantes para manejar los bordes cortados. Brakki ofrece el mismo perfil en paquete de diez piezas para trabajos menores.",
+        "Brakki indica estos paneles para garajes, gallineros, cobertizos, establos y cubiertas de patio, que es el trabajo para el que sirve una lámina de calibre ligero. Se fijan atravesando el valle de una onda sobre correas de madera o de acero con los tornillos incluidos. El solape lateral es de una onda completa, se avanza desde el alero y los solapes van contra el viento. Basta un atornillador con vaso hexagonal para todo el montaje.",
+        "Al quedar sin pintar, el panel envejece hacia un gris mate en vez de mantenerse brillante, y no hay capa de pintura que pueda calear ni desprenderse. Con 0.01 in es una lámina de calibre ligero pensada para anexos, no un sustituto de un panel estructural en vivienda. No se publica garantía, resistencia al viento ni clasificación al fuego para este paquete de láminas. Conviene revisar la normativa local antes de usarlo sobre vivienda."
+      ],
+      "features": {
+        "install": [
+          "Tornillos por el valle de una onda sobre correas de madera o de acero",
+          "Cien tornillos incluidos, cinco por lámina, más un par de guantes",
+          "Solape lateral de una onda completa, avanzando desde el alero",
+          "Los solapes laterales se orientan contra el viento dominante",
+          "Hay que contar los solapes: la cobertura indicada es superficie bruta"
+        ],
+        "coverage": [
+          "Brakki no publica plazo de garantía para este paquete",
+          "El galvanizado es lo que aporta la resistencia a la corrosión",
+          "Sin capa de pintura, no hay nada que pueda calear ni desprenderse",
+          "No se publica resistencia al levantamiento por viento",
+          "No se publica clasificación al fuego",
+          "Calibre ligero de 0.01 in: para anexos, no para cubierta de vivienda"
+        ]
+      }
     },
     "steeldash-snap-lock-ash-gray": {
-      "title": "Panel Estriado Gris Ceniza",
-      "titleLead": "Panel Estriado",
-      "titleAccent": "Gris Ceniza",
-      "description": "Panel de junta a presión con faldón estriado que disimula el abombado en los tramos largos de la cubierta.",
-      "highlights": [
-        "Acero calibre veinticuatro con fijaciones ocultas",
-        "Dieciséis pulgadas de ancho útil y junta de una pulgada",
-        "Bandeja lisa de serie, estriada bajo pedido",
-        "Pintura con cuarenta años contra pelado y treinta contra decoloración"
-      ]
+      "title": "Panel Estriado Gris Ceniza Steeldash",
+      "titleLead": "Panel Estriado Gris",
+      "titleAccent": "Ceniza Steeldash",
+      "about": [
+        "Es junta alzada a presión de Steeldash en acero calibre 24, acabada en gris ceniza. La junta cierra apretando un panel sobre el anterior, así que no hay pasada de engatillado mecánico ni una cuadrilla un día entero con la engatilladora. Los clips van bajo la junta y no se ven nunca, que es justo lo que separa una junta alzada de un panel de fijación vista. Steeldash conforma el mismo perfil en Galvalume desnudo y en una serie de colores sólidos.",
+        "La cubrición neta es de 16 in por panel con un nervio principal de 1 in de altura, y este lleva el faldón estriado. Los paneles se conforman a medida desde 1 ft hasta 40 ft en incrementos de medio pie, así que un tramo de alero a caballete suele llegar de una pieza y sin solape de testa que sellar. El plazo de fabricación es de siete días hábiles. El faldón liso es la opción de serie, así que el estriado se pide expresamente al encargar.",
+        "Steeldash exige montaje sobre soporte continuo con una subcapa entre el panel y el tablero, lo que descarta las correas al aire en este perfil. La pendiente mínima recomendada es de 3 en 12. Como los clips van ocultos y la junta encaja a presión en vez de atornillarse, nada perfora el plano de agua en todo el faldón. La subcapa la elige el instalador, así que conviene especificar una membrana de alta temperatura pensada para metal.",
+        "Garantía: el sistema de pintura está cubierto 40 años contra el desprendimiento y 30 años contra el caleo o la decoloración. El acero se suministra con certificado de colada. No se publica clasificación de viento, fuego ni impacto para el panel aislado, así que un conjunto clasificado hay que pedírselo a Steeldash. El color es un recubrimiento aplicado en fábrica, sin ninguna pintura en obra en ningún momento del montaje en cubierta."
+      ],
+      "features": {
+        "install": [
+          "Soporte continuo con subcapa entre panel y tablero, no correas al aire",
+          "Pendiente mínima recomendada de 3 en 12",
+          "Clips ocultos bajo la junta, nada perfora el plano de agua",
+          "Conformado a medida de 1 a 40 ft en incrementos de medio pie",
+          "La junta cierra a presión, sin pasada de engatillado mecánico"
+        ],
+        "coverage": [
+          "Pintura cubierta 40 años contra el desprendimiento",
+          "Pintura cubierta 30 años contra el caleo o la decoloración",
+          "Acero suministrado con certificado de colada",
+          "No se publica clasificación de levantamiento por viento del panel solo",
+          "No se publica clasificación de fuego ni de impacto del panel solo",
+          "Plazo de fabricación de siete días hábiles antes del envío"
+        ]
+      },
+      "description": "Panel de junta alzada a presión con faldón estriado que enmascara completamente el abombado sobre superficies metálicas verdaderamente extensas."
     },
     "gibraltar-987642": {
       "title": "Cumbrera RC2 Pizarra",
