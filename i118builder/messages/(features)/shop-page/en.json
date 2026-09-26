@@ -33,7 +33,8 @@
     "tube": "Tube",
     "kit": "Kit",
     "canister": "Canister",
-    "foot": "Linear Foot"
+    "foot": "Linear Foot",
+    "pack": "Pack"
   },
   "categories": {
     "shingles": "Shingles",
@@ -174,7 +175,27 @@
       "productType": "Product Type",
       "warranty": "Warranty",
       "headlap": "Headlap",
-      "squareWeight": "Weight per Square"
+      "squareWeight": "Weight per Square",
+      "panels": "Panels per Pack",
+      "screws": "Screws Included",
+      "finish": "Finish",
+      "gloves": "Gloves Included",
+      "panelCoverage": "Coverage per Panel",
+      "seam": "Side Seam",
+      "use": "Intended Use",
+      "exposureSize": "Installed Exposure",
+      "impactClass": "Impact Class",
+      "hail": "Hail Limit",
+      "module": "Tile Module",
+      "coreThickness": "Core Thickness",
+      "outerSheet": "Outer Sheet",
+      "innerSheet": "Inner Sheet",
+      "uValue": "Thermal Transmittance",
+      "lengthRange": "Length Range",
+      "paintWarranty": "Paint Warranty",
+      "pan": "Pan Type",
+      "fastening": "Fastening",
+      "approval": "Approvals"
     },
     "specValue": {
       "fiberglassAsphalt": "Fiberglass Asphalt",
@@ -182,7 +203,24 @@
       "laminated": "Laminated Architectural Shingle",
       "starter": "Starter Shingle",
       "notPublished": "Not Published",
-      "windStandard": "110 mph, or 130 mph with special installation"
+      "windStandard": "110 mph, or 130 mph with special installation",
+      "galvanizedSteel": "Galvanized Steel",
+      "ribbedPanel": "Ribbed Roof Panel",
+      "corrugatedPanel": "Corrugated Roof Panel",
+      "tilePanel": "Tile Profile Panel",
+      "galvanized": "Galvanized",
+      "groovedInterlock": "Grooved Interlocking",
+      "outbuildings": "Garages, Sheds and Coops",
+      "onePair": "1 pair",
+      "grey": "Grey",
+      "terracotta": "Terracotta",
+      "stoneChip": "Ceramic Coated Stone Chip",
+      "battenFix": "Batten, Nailed Through",
+      "concealedClip": "Concealed Clips",
+      "penetrating": "Penetrating, Exposed Caps",
+      "flatPan": "Flat",
+      "striatedPan": "Striated",
+      "polyurethaneCore": "Polyurethane Core"
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
@@ -204,10 +242,10 @@
   },
   "catalog": {
     "timberline-hdz-charcoal": {
-      "title": "Timberline HDZ Charcoal Shingles",
-      "titleLead": "Timberline HDZ",
+      "title": "GAF Timberline HDZ Charcoal Shingles",
+      "titleLead": "GAF Timberline HDZ",
       "titleAccent": "Charcoal Shingles",
-      "description": "Architectural laminate shingles in deep charcoal, with LayerLock technology that widens the nail zone for a faster and surer fastening.",
+      "description": "Architectural laminate shingles in deep charcoal, featuring LayerLock technology that considerably widens the nailing zone for a faster, surer fastening.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Charcoal, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
@@ -233,10 +271,10 @@
       }
     },
     "timberline-hdz-pewter-gray": {
-      "title": "Timberline HDZ Pewter Gray Shingles",
-      "titleLead": "Timberline HDZ",
+      "title": "GAF Timberline HDZ Pewter Gray Shingles",
+      "titleLead": "GAF Timberline HDZ",
       "titleAccent": "Pewter Gray Shingles",
-      "description": "Architectural laminate shingles in soft pewter gray, built for lasting wind and weather resistance on any pitched roof for decades.",
+      "description": "Architectural laminate shingles in soft pewter gray, engineered for exceptional wind resistance and weathering performance across any pitched residential roof.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Pewter Gray, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
@@ -262,10 +300,10 @@
       }
     },
     "timberline-hdz-barkwood": {
-      "title": "Timberline HDZ Barkwood Shingles",
-      "titleLead": "Timberline HDZ",
+      "title": "GAF Timberline HDZ Barkwood Shingles",
+      "titleLead": "GAF Timberline HDZ",
       "titleAccent": "Barkwood Shingles",
-      "description": "Architectural laminate shingles in warm barkwood, with all the shadow depth of natural wood shakes and none of their upkeep.",
+      "description": "Architectural laminate shingles in warm barkwood, reproducing the shadow depth of natural wood shakes without their considerable ongoing maintenance burden.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Barkwood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
@@ -291,10 +329,10 @@
       }
     },
     "timberline-hdz-hunter-green": {
-      "title": "Timberline HDZ Hunter Green Shingles",
-      "titleLead": "Timberline HDZ",
+      "title": "GAF Timberline HDZ Hunter Green Shingles",
+      "titleLead": "GAF Timberline HDZ",
       "titleAccent": "Hunter Green Shingles",
-      "description": "Architectural laminate shingles in rich hunter green, a bold roof color that settles into wooded lots and heavily shaded settings.",
+      "description": "Architectural laminate shingles in rich hunter green, a distinctive roof color settling naturally into wooded lots and heavily shaded settings.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Hunter Green, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
@@ -320,10 +358,10 @@
       }
     },
     "timberline-hdz-shakewood": {
-      "title": "Timberline HDZ Shakewood Shingles",
-      "titleLead": "Timberline HDZ",
+      "title": "GAF Timberline HDZ Shakewood Shingles",
+      "titleLead": "GAF Timberline HDZ",
       "titleAccent": "Shakewood Shingles",
-      "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline without washing out the walls below it.",
+      "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline without visually overwhelming the walls positioned beneath.",
       "about": [
         "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Shakewood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
@@ -349,40 +387,91 @@
       }
     },
     "brakki-10pc": {
-      "title": "Max Rib Panel 26 Gauge",
-      "titleLead": "Max Rib Panel",
-      "titleAccent": "26 Gauge",
-      "description": "Ribbed steel roof and wall panels with a thirty six inch cover width, cut to length up to fifty feet.",
-      "highlights": [
-        "Thirty six inch cover width with three quarter inch ribs",
-        "Cut to length up to fifty feet",
-        "UL 263 Class A fire rated",
-        "Kynar 500 finish with a forty year paint warranty"
-      ]
+      "title": "Dark Ribbed Steel Roofing Panels 10 Pack",
+      "titleLead": "Dark Ribbed Steel",
+      "titleAccent": "Roofing Panels 10 Pack",
+      "description": "Grey ribbed galvanized steel roofing panels supplied as a ten piece package covering approximately seventy five square feet, screws included.",
+      "about": [
+        "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in grey, each one measuring 61.02 x 17.72 in (1,550 x 450 mm), and ten come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site at all.",
+        "The ten piece pack covers 75.3 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). Fifty screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki offers the same profile in a ten piece pack when the job is bigger.",
+        "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. They fasten straight through the flat of the profile into timber or steel purlins using the screws supplied. Lay each sheet so it laps the groove of the one before it, work from the eave upward, and keep the laps turned away from the prevailing wind. A cordless driver with a hex socket is the only tool needed.",
+        "Galvanizing is what carries the corrosion resistance here, and Brakki rates the finish as UV resistant and colourfast so the grey holds up in full sun. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade. Check local code before putting it over habitable space."
+      ],
+      "features": {
+        "install": [
+          "Screws through the flat of the profile into timber or steel purlins",
+          "Fifty screws supplied, five per sheet, plus a pair of gloves",
+          "Lap each sheet into the groove of the one before it and work up from the eave",
+          "Keep the side laps turned away from the prevailing wind",
+          "Allow for side and end laps: the stated coverage is gross sheet area"
+        ],
+        "coverage": [
+          "No warranty term is published by Brakki for this pack",
+          "Galvanized coating carries the corrosion resistance",
+          "Finish is rated UV resistant and colourfast",
+          "No wind uplift rating is published",
+          "No fire classification is published",
+          "Light gauge at 0.01 in: intended for outbuildings, not a dwelling roof"
+        ]
+      }
     },
     "brakki-stone-tiles": {
-      "title": "DECRA Tile",
-      "titleLead": "DECRA",
-      "titleAccent": "Tile",
-      "description": "Stone coated steel tile panel, twenty to a square, backed by a one hundred twenty mile per hour wind warranty.",
-      "highlights": [
-        "Stone coated steel tile panel",
-        "Twenty panels cover one square",
-        "One hundred twenty mph wind speed warranty",
-        "Lifetime limited warranty on single family homes"
-      ]
+      "title": "DECRA Stone Coated Steel Roof Tiles",
+      "titleLead": "DECRA Stone Coated",
+      "titleAccent": "Steel Roof Tiles",
+      "about": [
+        "DECRA Tile is a pressure formed steel panel finished with a ceramic coated stone chip surface, so a roof reads as Mediterranean clay tile while weighing a fraction of it. The steel is aluminium zinc alloy coated to ASTM A792 at 26 gauge, 0.0179 in (0.455 mm), and each panel is pre corrugated into several vertical tiles forming one tile step across its face. The colour comes from the stone granules rather than a paint film that could chalk.",
+        "Each panel measures 16 1/2 x 52 in (419 x 1,321 mm) and installs to an exposure of 14 1/2 x 50 in (368 x 1,270 mm), which works out at twenty panels to the square. Installed weight is 150 lb per 100 sq ft, roughly a seventh of what concrete tile puts on the same structure, so DECRA Tile is often the option on a reroof where the frame cannot take more load. Matching valley, side and roof to wall flashings are pressed from the same 26 gauge steel.",
+        "Minimum slope is 3:12. Between 2:12 and 3:12 the deck takes an additional underlayment layer before the battens go down. The panel is listed for batten installation under ICC-ES report ESR-2901 and Florida approval FL9759-R9. Panels nail through the batten rather than face fixing, so no fastener head is left exposed to weather on the finished roof. Battens may be timber or steel, and counter battens are an option where drainage needs it.",
+        "Warranty: lifetime limited on a single family detached home, covering blow off in wind speeds up to 120 mph and hail stone penetration, cracking or splitting up to a 2.5 in stone. The system carries ASTM E108 and UL 790 Class A for fire and UL 2218 Class 4 for impact, which is the top impact class and often earns an insurance discount. Fasteners follow ANSI/ASME B18.6.1 for wood screws and B18.6.4 for thread forming tapping screws."
+      ],
+      "features": {
+        "install": [
+          "Batten installation, listed under ICC-ES report ESR-2901",
+          "Minimum slope 3:12, with an extra underlayment layer from 2:12 to 3:12",
+          "Nailed through the batten, leaving no exposed fastener heads",
+          "Twenty panels to the square at a 14 1/2 x 50 in exposure",
+          "Florida Building Code approval FL9759-R9 for batten installation"
+        ],
+        "coverage": [
+          "Lifetime limited warranty on a single family detached home",
+          "Blow off resistance in wind speeds up to 120 mph",
+          "Hail penetration, cracking and splitting up to a 2.5 in stone",
+          "ASTM E108 and UL 790 Class A fire classification",
+          "UL 2218 Class 4 impact, the highest class published",
+          "Installed weight of 150 lb per square keeps reroof loads low"
+        ]
+      },
+      "description": "Stone coated steel roofing tiles, twenty individual panels per square, warranted against sustained winds reaching one hundred twenty miles hourly."
     },
     "brakki-insulated-panel": {
-      "title": "Isodomus Insulated Panel",
-      "titleLead": "Isodomus",
-      "titleAccent": "Insulated Panel",
-      "description": "Insulated sandwich panel with a pressed tile face and a polyurethane core, one meter wide in thicknesses to eighty millimeters.",
-      "highlights": [
-        "Pressed steel face that looks like roof tile",
-        "Polyurethane foam core for insulation",
-        "One meter useful width",
-        "For roofs with a minimum seven percent slope"
-      ]
+      "title": "Isodomus Insulated Sandwich Panel",
+      "titleLead": "Isodomus Insulated",
+      "titleAccent": "Sandwich Panel",
+      "about": [
+        "Isodomus is an insulated sandwich panel from Isopan that arrives as a finished roof in one piece: a pressed steel outer sheet in a barrel tile shape, a rigid polyurethane core and a second steel sheet on the inside. One panel replaces tile, batten and insulation at once, which is why it turns up on rural and public buildings where a tiled look is required but the structure is light. Isopan makes the range in Italy in colours that imitate traditional tile.",
+        "The useful covering width is 1,000 mm and the tile pattern repeats on a 350 mm module with a profile height of 50 mm. The outer sheet is 0.5 mm steel and the inner sheet 0.4 mm, with a 0.6 mm aluminium outer face offered as an alternative. Core thicknesses start at 30 mm and rise from there, and working length is held to a tolerance of plus or minus 2 mm under EN 14509. Catalogue weight tables are given separately for steel and mono faced versions.",
+        "Fixing is the penetrating type, driven through the panel with exposed caps, and the number and position of the fasteners has to be worked out from the loads on the roof rather than taken as a fixed pattern. Minimum slope is seven percent. Published load tables run from a 1,050 mm span up to 3,500 mm, so the purlin spacing follows the core thickness chosen. Counter battens are not part of the system, so drainage is handled by the panel profile itself.",
+        "Thermal transmittance runs from 0.55 W/m2K on the thinnest core down to 0.19 W/m2K on the thickest, calculated to EN ISO 6946 and declared under UNI EN 14509:2007. The panel is light enough to help on seismic loads and fast enough to close a roof in a day, which is where most of its value sits on a refurbishment job. Isopan also lists a Classic version of the same panel with a different tile step running across its visible face."
+      ],
+      "features": {
+        "install": [
+          "Penetrating fixing driven through the panel with exposed caps",
+          "Fastener count and position worked out from the roof loads, not fixed",
+          "Minimum slope of seven percent",
+          "Purlin spacing follows the load tables, from 1,050 mm to 3,500 mm",
+          "One panel replaces tile, batten and insulation in a single pass"
+        ],
+        "coverage": [
+          "Declared under UNI EN 14509:2007 with EN ISO 6946 thermal calculation",
+          "Working length tolerance of plus or minus 2 mm under EN 14509",
+          "Thermal transmittance from 0.55 down to 0.19 W/m2K by core thickness",
+          "Outer sheet 0.5 mm steel, inner sheet 0.4 mm steel",
+          "Aluminium outer face of 0.6 mm offered as an alternative",
+          "No warranty term is published in the general catalogue"
+        ]
+      },
+      "description": "Insulated sandwich panel combining a pressed tile facing with polyurethane core, measuring one meter wide in thicknesses reaching eighty millimeters."
     },
     "certainteed-roofrunner": {
       "title": "RoofRunner Synthetic Underlayment",
@@ -529,40 +618,91 @@
       ]
     },
     "brakki-19pc": {
-      "title": "Max Rib Panel 29 Gauge",
-      "titleLead": "Max Rib Panel",
-      "titleAccent": "29 Gauge",
-      "description": "Exposed fastener ribbed steel panel, thirty six inches wide with three quarter inch ribs spaced every nine inches across it.",
-      "highlights": [
-        "Thirty six inch cover width with three quarter inch ribs",
-        "Down to a 1:12 slope with sealed sidelaps",
-        "UL 580 Class 90 and UL 2218 Class 4 rated",
-        "Kynar 500 finish with a forty year paint warranty"
-      ]
+      "title": "Dark Ribbed Steel Roofing Panels 20 Pack",
+      "titleLead": "Dark Ribbed Steel",
+      "titleAccent": "Roofing Panels 20 Pack",
+      "description": "Ribbed galvanized steel roofing panels supplied as a twenty piece package covering approximately one hundred eighty square feet, screws included.",
+      "about": [
+        "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in grey, each one measuring 73.23 x 17.72 in (1,860 x 450 mm), and twenty of them come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site.",
+        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki offers the same profile in a ten piece pack when the job is smaller.",
+        "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. They fasten straight through the flat of the profile into timber or steel purlins using the screws supplied. Lay each sheet so it laps the groove of the one before it, work from the eave upward, and keep the laps turned away from the prevailing wind. A cordless driver with a hex socket is the only tool needed.",
+        "Galvanizing is what carries the corrosion resistance here, and Brakki rates the finish as UV resistant and colourfast so the grey holds up in full sun. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade. Check local code before putting it over habitable space."
+      ],
+      "features": {
+        "install": [
+          "Screws through the flat of the profile into timber or steel purlins",
+          "One hundred screws supplied, five per sheet, plus a pair of gloves",
+          "Lap each sheet into the groove of the one before it and work up from the eave",
+          "Keep the side laps turned away from the prevailing wind",
+          "Allow for side and end laps: the stated coverage is gross sheet area"
+        ],
+        "coverage": [
+          "No warranty term is published by Brakki for this pack",
+          "Galvanized coating carries the corrosion resistance",
+          "Finish is rated UV resistant and colourfast",
+          "No wind uplift rating is published",
+          "No fire classification is published",
+          "Light gauge at 0.01 in: intended for outbuildings, not a dwelling roof"
+        ]
+      }
     },
     "brakki-20pc": {
-      "title": "Met Tile Panel 20 Pack",
-      "titleLead": "Met Tile Panel",
-      "titleAccent": "20 Pack",
-      "description": "Galvalume steel panel pressed to look like clay tile, finished in low gloss Kynar 500 and cut to twenty feet.",
-      "highlights": [
-        "Replicates clay tile without the weight",
-        "Twenty six gauge Galvalume steel",
-        "Low gloss Kynar 500 with a stucco embossed finish",
-        "Cut from two to twenty feet in one foot steps"
-      ]
+      "title": "Grey Tile Profile Steel Panels 20 Pack",
+      "titleLead": "Grey Tile Profile Steel",
+      "titleAccent": "Panels 20 Pack",
+      "description": "Grey tile profile galvanized steel panels supplied as a twenty piece package covering approximately one hundred eighty square feet altogether.",
+      "about": [
+        "This Brakki pack is pressed into a tile profile, so a shed or a garage reads like a tiled roof from the ground without the weight or the cost of real tile. The sheets are galvanized steel finished in grey, each one 73.23 x 17.72 in (1,860 x 450 mm), and twenty come in the box. The pressed pattern stiffens the sheet across its width, which matters on a thin gauge panel spanning open purlins. Nothing has to be cut or formed on site.",
+        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely on site. Brakki offers the same profile in a terracotta finish as well.",
+        "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. Fasten through the flat of the pressed pattern into timber or steel purlins using the screws supplied. Line the pressed steps up across the run before you fix anything, because a tile profile shows a misaligned course far more than a plain rib does. A cordless driver with a hex socket is the only tool needed for the job.",
+        "The grey finish and the pressed shadow line are what this panel is bought for, so handle the sheets by the edges and avoid dragging them over one another. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack by Brakki. Check local code before putting it over any habitable space below."
+      ],
+      "features": {
+        "install": [
+          "Screws through the flat of the pressed pattern into timber or steel purlins",
+          "One hundred screws supplied, five per sheet, plus a pair of gloves",
+          "Line the pressed steps up across the run before fixing anything",
+          "Keep the side laps turned away from the prevailing wind",
+          "Allow for side and end laps: the stated coverage is gross sheet area"
+        ],
+        "coverage": [
+          "No warranty term is published by Brakki for this pack",
+          "Galvanized coating carries the corrosion resistance",
+          "Handle by the edges: the pressed finish is what the panel is bought for",
+          "No wind uplift rating is published",
+          "No fire classification is published",
+          "Light gauge at 0.01 in: intended for outbuildings, not a dwelling roof"
+        ]
+      }
     },
     "brakki-21pc": {
-      "title": "Met Tile Panel 21 Pack",
-      "titleLead": "Met Tile Panel",
-      "titleAccent": "21 Pack",
-      "description": "Tile look Met Tile panel, thirty six inches wide, installed quickly as a panelized system in lengths to twenty feet.",
-      "highlights": [
-        "Replicates clay tile without the weight",
-        "Installs faster than individual tiles",
-        "Low gloss Kynar 500 with a stucco embossed finish",
-        "Down to a 1.5:12 slope with sealant"
-      ]
+      "title": "Clay Tile Profile Steel Panels 20 Pack",
+      "titleLead": "Clay Tile Profile Steel",
+      "titleAccent": "Panels 20 Pack",
+      "description": "Terracotta tile profile galvanized steel panels supplied as a twenty piece package covering approximately one hundred eighty total square feet.",
+      "about": [
+        "This Brakki pack is pressed into a tile profile, so a shed or a garage reads like a tiled roof from the ground without the weight or the cost of real tile. The sheets are galvanized steel finished in terracotta, each one 73.23 x 17.72 in (1,860 x 450 mm), and twenty come in the box. The pressed pattern stiffens the sheet across its width, which matters on a thin gauge panel spanning open purlins. Nothing has to be cut or formed on site.",
+        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely on site. Brakki offers the same profile in a grey finish as well.",
+        "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. Fasten through the flat of the pressed pattern into timber or steel purlins using the screws supplied. Line the pressed steps up across the run before you fix anything, because a tile profile shows a misaligned course far more than a plain rib does. A cordless driver with a hex socket is the only tool needed for the job.",
+        "The terracotta finish and the pressed shadow line are what this panel is bought for, so handle the sheets by the edges and avoid dragging them over one another. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack by Brakki. Check local code before putting it over any habitable space below."
+      ],
+      "features": {
+        "install": [
+          "Screws through the flat of the pressed pattern into timber or steel purlins",
+          "One hundred screws supplied, five per sheet, plus a pair of gloves",
+          "Line the pressed steps up across the run before fixing anything",
+          "Keep the side laps turned away from the prevailing wind",
+          "Allow for side and end laps: the stated coverage is gross sheet area"
+        ],
+        "coverage": [
+          "No warranty term is published by Brakki for this pack",
+          "Galvanized coating carries the corrosion resistance",
+          "Handle by the edges: the pressed finish is what the panel is bought for",
+          "No wind uplift rating is published",
+          "No fire classification is published",
+          "Light gauge at 0.01 in: intended for outbuildings, not a dwelling roof"
+        ]
+      }
     },
     "dupont-tyvek-120": {
       "title": "Tyvek Protec 120 Underlayment",
@@ -841,10 +981,10 @@
       ]
     },
     "duration-designer-slatestone-grey": {
-      "title": "Duration Designer Slatestone Grey Shingles",
+      "title": "Duration Designer Slatestone Grey",
       "titleLead": "Duration Designer",
-      "titleAccent": "Slatestone Grey Shingles",
-      "description": "Architectural shingles with a SureNail fabric strip reinforcing the nail zone against high wind on the most exposed coastal roofs.",
+      "titleAccent": "Slatestone Grey",
+      "description": "Architectural shingles incorporating a SureNail fabric strip that reinforces the nailing zone against powerful winds on particularly exposed coastal roofs.",
       "about": [
         "Duration Designer (Owens Corning) is an architectural shingle from the TruDefinition Duration series, in Slatestone Grey. Its patented SureNail Technology is the only reinforced nailing zone on the face of a shingle: a woven fabric strip embedded across both layers, giving Triple Layer Protection against nail pull and up to 200% wider bond between the layers than standard shingles. Tru Bond weathering grade asphalt sealant holds each course down.",
         "Each shingle is nominally 13 1/4 x 39 3/8 in with a 5 5/8 in exposure. A square takes 64 shingles in 3 bundles, covering 98.4 sq ft. StreakGuard blends copper lined 3M granules into the surface against blue green algae; Owens Corning Hip and Ridge shingles match the Designer colors. The deck can be 6 in boards, 3/8 in plywood or 7/16 in OSB. From 4:12 up, Owens Corning synthetic underlayment or one meeting ASTM D8257; from 2:12 to under 4:12, two layers.",
@@ -871,16 +1011,33 @@
       }
     },
     "steeldash-snap-lock-slate-gray": {
-      "title": "Snap Lock Standing Seam Panel",
-      "titleLead": "Snap Lock",
-      "titleAccent": "Standing Seam Panel",
-      "description": "Steel panel with concealed clips, sixteen inches of coverage and a raised snap seam, in runs up to forty feet.",
-      "highlights": [
-        "Twenty four gauge steel with concealed fasteners",
-        "Sixteen inch coverage with a one inch seam",
-        "Cut to length from one up to forty feet",
-        "Forty year peel and thirty year fade paint warranty"
-      ]
+      "title": "Steeldash Slate Gray Standing Seam",
+      "titleLead": "Steeldash Slate Gray",
+      "titleAccent": "Standing Seam",
+      "about": [
+        "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Slate Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colours besides this one.",
+        "Net coverage is 16 in per panel with a major rib height of 1 in, and the pan is flat as standard. Panels are rolled to order from 1 ft up to 40 ft in half foot increments, so a run from eave to ridge usually arrives as a single length with no end lap to seal. Lead time from Steeldash is quoted at seven business days before shipping. A striated pan is available on request, which is the usual answer to oil canning across wide runs of pan.",
+        "Steeldash calls for installation over a solid substrate with an underlayment between the panel and the deck, which rules out open purlins for this profile. Minimum recommended roof slope is 3 in 12. Because the clips are concealed and the seam snaps rather than screws, nothing penetrates the water plane across the field of the roof. The underlayment choice is left to the installer, so a high temperature membrane is worth specifying.",
+        "Warranty: the paint system is covered for 40 years against peeling and 30 years against chalk or fade. Steel is supplied mill certified. No wind uplift, fire or impact classification is published for the panel on its own, so if a job needs a rated assembly the numbers have to come from Steeldash for the specific build up. The colour itself is a factory applied coating, so no site painting is involved at any stage of the installation."
+      ],
+      "features": {
+        "install": [
+          "Solid substrate with an underlayment between panel and deck, not open purlins",
+          "Minimum recommended roof slope of 3 in 12",
+          "Concealed clips under the seam, nothing penetrates the water plane",
+          "Rolled to order from 1 to 40 ft in half foot increments",
+          "Seam snaps closed by hand, no mechanical seaming pass needed"
+        ],
+        "coverage": [
+          "Paint covered 40 years against peeling",
+          "Paint covered 30 years against chalk or fade",
+          "Steel supplied mill certified",
+          "No wind uplift classification is published for the panel alone",
+          "No fire or impact classification is published for the panel alone",
+          "Lead time quoted at seven business days before shipping"
+        ]
+      },
+      "description": "Standing seam steel roofing panel with concealed fastening clips, sixteen inches of coverage and continuous runs reaching forty linear feet."
     },
     "gibraltar-cf5g-26": {
       "title": "Galvanized Steel Counter Flashing",
@@ -1051,10 +1208,10 @@
       ]
     },
     "malarkey-smart-start": {
-      "title": "Smart Start Starter Shingles",
-      "titleLead": "Smart Start",
+      "title": "Malarkey Smart Start Starter Shingles",
+      "titleLead": "Malarkey Smart Start",
       "titleAccent": "Starter Shingles",
-      "description": "Perforated NEX polymer modified starter that splits into two strips and seals the first course along both eaves and rakes.",
+      "description": "Perforated NEX polymer modified starter shingle separating into two independent strips that seal the foundational course along eaves and rakes.",
       "about": [
         "Smart Start (Malarkey SKU 210) is a NEX polymer modified starter shingle for steep slope residential roofs. It is manufactured on a non woven fiberglass mat, coated on both sides with NEX polymer modified bitumen compounded with a fire retardant mineral stabilizer, and mineral surfaced. Malarkey requires Smart Start, or an equivalent conforming to ASTM D3462, under all of its shingles, including Windsor, and recommends it on the rake edges too.",
         "Each full size shingle measures 16 3/8 x 38 1/4 in (416 x 972 mm). A perforation in the middle, 8 3/16 in (208 mm) from each edge, splits it lengthwise into two code compliant starter pieces of 8 3/16 x 38 1/4 in (208 x 972 mm), each with its own factory applied seal down strip, for exposures up to 6 3/16 in. A bundle holds 18 full size shingles (36 pieces) and covers 114 ft 9 in (35 m); a pallet carries 21 bundles. Typical granule adhesion is 0.3 g.",
@@ -1083,7 +1240,7 @@
       "title": "Landmark Weathered Wood Shingles",
       "titleLead": "Landmark Weathered",
       "titleAccent": "Wood Shingles",
-      "description": "Dual layer laminate cut to a diamond tab, covering thirty three square feet per bundle at three bundles per square.",
+      "description": "Dual layer laminate shingle cut to a diamond tab, delivering approximately thirty three square feet within every individual bundle supplied.",
       "about": [
         "Landmark (CertainTeed) is a laminated architectural shingle, in Weathered Wood. It is built on a fiberglass mat with ceramic coated mineral granules in refined, water resistant asphalt; two pieces are laminated with a tough asphaltic cement, and every shingle carries self sealing adhesive strips and NailTrak. The Algae Resistant (AR) version prevents the dark streaks caused by blue green algae (Gloeocapsa magma); AR is not available in every region.",
         "Each shingle measures 13 1/4 x 38 3/4 in with a 5 5/8 in weather exposure. A square takes 65 shingles in 3 bundles, covers approximately 98.4 sq ft and weighs 211 to 225 lb, depending on the manufacturing plant. Use it on slopes greater than 2 in per foot; low slope applications from 2:12 to under 4:12 need additional underlayment, and where ice can back up at the eaves CertainTeed specifies WinterGuard waterproofing underlayment or an equivalent.",
@@ -1109,10 +1266,10 @@
       }
     },
     "dynasty-emerald-green": {
-      "title": "Dynasty Emerald Green Shingles",
-      "titleLead": "Dynasty Emerald",
+      "title": "IKO Dynasty Emerald Green Shingles",
+      "titleLead": "IKO Dynasty Emerald",
       "titleAccent": "Green Shingles",
-      "description": "Architectural laminate shingles with a reinforced ArmourZone nailing band, rated for high wind and backed by a limited lifetime warranty.",
+      "description": "Architectural laminate shingles with a reinforced ArmourZone nailing band, rated for powerful winds and protected by a limited lifetime warranty.",
       "about": [
         "Dynasty (IKO) is a heavyweight laminated shingle, shown here in Emerald Green, made on a dimensionally stable non woven glass fiber mat impregnated with stabilized waterproofing bitumen. It has a random shake look with high contrast dual band shadow coloring, colored ceramic granules on both layers to protect the asphalt from ultraviolet radiation, release tape and mineral powder on the underside, and algae inhibiting granules for lasting resistance.",
         "Each shingle measures 40 7/8 x 13 3/4 in (1,038 x 349 mm) with a 5 7/8 in (149 mm) exposure and a 2 in (50 mm) headlap. A bundle holds 20 shingles and covers 33.3 sq ft (3.1 m²); a pallet of 40 x 53 in carries 56 bundles. The ArmourZone nailing area is wider for faster installation and is backed by ArmourZone tape on the reverse side for added protection against wind loss, and a thermally activated sealant bonds each course.",
@@ -1139,28 +1296,62 @@
       }
     },
     "brakki-22pc": {
-      "title": "Max Rib Panel Bare Galvalume",
-      "titleLead": "Max Rib Panel",
-      "titleAccent": "Bare Galvalume",
-      "description": "Max Rib panel in bare Galvalume, thirty six inches wide, for roofs and walls over solid deck or open framing.",
-      "highlights": [
-        "Thirty six inch cover width with three quarter inch ribs",
-        "Down to a 1:12 slope with sealed sidelaps",
-        "UL 580 Class 90 and UL 2218 Class 4 rated",
-        "Installs over solid deck or open framing"
-      ]
+      "title": "Bare Corrugated Steel Panels 20 Pack",
+      "titleLead": "Bare Corrugated Steel",
+      "titleAccent": "Panels 20 Pack",
+      "description": "Bare galvanized corrugated steel roofing panels supplied as a twenty piece package covering approximately one hundred eighty total square feet.",
+      "about": [
+        "This is the same Brakki pack in the classic wavy corrugated profile, left bare rather than painted, so the finish you see is the galvanized coating itself. Each sheet measures 73.23 x 17.72 in (1,860 x 450 mm) and twenty of them come in the box. The rounded corrugations sit closer together than a ribbed profile, which stiffens a thin sheet and hides small dents better once it is up on a frame. Nothing has to be cut or formed on site.",
+        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki offers the same profile in a ten piece pack when the job is smaller.",
+        "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. They fasten straight through the flat of a corrugation into timber or steel purlins using the screws supplied. Overlap by a full corrugation at the sides, work from the eave upward, and keep the laps turned away from the prevailing wind. A cordless driver with a hex socket is the only tool needed for the job.",
+        "Left bare, the panel weathers to a matt grey rather than staying bright, and there is no paint film to chalk or peel. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade material. Check local code before putting it over any habitable space below the deck."
+      ],
+      "features": {
+        "install": [
+          "Screws through the flat of a corrugation into timber or steel purlins",
+          "One hundred screws supplied, five per sheet, plus a pair of gloves",
+          "Overlap a full corrugation at the sides and work up from the eave",
+          "Keep the side laps turned away from the prevailing wind",
+          "Allow for side and end laps: the stated coverage is gross sheet area"
+        ],
+        "coverage": [
+          "No warranty term is published by Brakki for this pack",
+          "Galvanized coating carries the corrosion resistance",
+          "No paint film, so nothing to chalk or peel over time",
+          "No wind uplift rating is published",
+          "No fire classification is published",
+          "Light gauge at 0.01 in: intended for outbuildings, not a dwelling roof"
+        ]
+      }
     },
     "steeldash-snap-lock-ash-gray": {
-      "title": "Ash Gray Striated Panel",
-      "titleLead": "Ash Gray",
+      "title": "Steeldash Ash Gray Striated Panel",
+      "titleLead": "Steeldash Ash Gray",
       "titleAccent": "Striated Panel",
-      "description": "Snap lock panel with a striated pan that hides oil canning across the wide runs of a standing seam roof.",
-      "highlights": [
-        "Twenty four gauge steel with concealed fasteners",
-        "Sixteen inch coverage with a one inch seam",
-        "Flat pan as standard, striated on request",
-        "Forty year peel and thirty year fade paint warranty"
-      ]
+      "about": [
+        "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Ash Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colours besides this one.",
+        "Net coverage is 16 in per panel with a major rib height of 1 in, and this one carries the striated pan. Panels are rolled to order from 1 ft up to 40 ft in half foot increments, so a run from eave to ridge usually arrives as a single length with no end lap to seal. Lead time from Steeldash is quoted at seven business days before shipping. The flat pan is the standard option, so the striated version has to be called in when ordering.",
+        "Steeldash calls for installation over a solid substrate with an underlayment between the panel and the deck, which rules out open purlins for this profile. Minimum recommended roof slope is 3 in 12. Because the clips are concealed and the seam snaps rather than screws, nothing penetrates the water plane across the field of the roof. The underlayment choice is left to the installer, so a high temperature membrane is worth specifying.",
+        "Warranty: the paint system is covered for 40 years against peeling and 30 years against chalk or fade. Steel is supplied mill certified. No wind uplift, fire or impact classification is published for the panel on its own, so if a job needs a rated assembly the numbers have to come from Steeldash for the specific build up. The colour itself is a factory applied coating, so no site painting is involved at any stage of the installation."
+      ],
+      "features": {
+        "install": [
+          "Solid substrate with an underlayment between panel and deck, not open purlins",
+          "Minimum recommended roof slope of 3 in 12",
+          "Concealed clips under the seam, nothing penetrates the water plane",
+          "Rolled to order from 1 to 40 ft in half foot increments",
+          "Seam snaps closed by hand, no mechanical seaming pass needed"
+        ],
+        "coverage": [
+          "Paint covered 40 years against peeling",
+          "Paint covered 30 years against chalk or fade",
+          "Steel supplied mill certified",
+          "No wind uplift classification is published for the panel alone",
+          "No fire or impact classification is published for the panel alone",
+          "Lead time quoted at seven business days before shipping"
+        ]
+      },
+      "description": "Snap lock standing seam panel featuring a striated pan that effectively camouflages oil canning across uninterrupted runs on expansive roofs."
     },
     "gibraltar-987642": {
       "title": "Slate RC2 Ridge Cap",
