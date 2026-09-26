@@ -4,7 +4,7 @@ import type { ProductCardProps } from "@/common/product-card/types";
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
 /* resolved product card: data literals + i18n labels, keyed by slug */
-export interface ShopProduct extends Omit<ProductCardProps, "viewLabel" | "href"> {
+interface ShopProduct extends Omit<ProductCardProps, "viewLabel" | "href"> {
   slug: string;
 }
 
@@ -82,11 +82,6 @@ export interface ProductDetailProps {
 }
 
 export interface ProductInfoProps {
-  slug: string;
-  tone?: SectionTone;
-}
-
-export interface RelatedProductsProps {
   slug: string;
   tone?: SectionTone;
 }
