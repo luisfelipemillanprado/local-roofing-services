@@ -1199,8 +1199,7 @@
           "Deck of 6 in boards, 3/8 in plywood or 7/16 in OSB",
           "Synthetic underlayment at 4:12 and above; two layers from 2:12 to under 4:12",
           "Six nails and 4 spots of asphalt cement on slopes over 21 in per foot",
-          "The sealant needs several days of direct warm sunlight; in cool weather it may not seal until the weather warms",
-          "Bundles are stored flat, under cover and ventilated, below 110°F"
+          "The sealant needs several days of direct warm sunlight; in cool weather it may not seal until the weather warms"
         ],
         "coverage": [
           "Limited lifetime coverage against manufacturing defects, transferable",
@@ -1545,15 +1544,15 @@
           "Overhangs the edge 1/4 to 3/4 in, with the seal down strip next to the edge",
           "4 nails per starter, 1 1/2 to 3 in up from the eave, never through the sealant",
           "Cut 6 in off the first piece so the end joints are offset",
-          "Required under Malarkey shingles for the eave to seal properly",
-          "Applied at both the eaves and the rakes when the Enhanced Wind Warranty is wanted",
-          "The wind warranty asks for shingles that are properly adhered, by their own sealant or by hand with ASTM D4586 cement"
+          "Required under Malarkey shingles for the eave to seal properly"
         ],
         "coverage": [
           "Limited Lifetime coverage with Malarkey lifetime shingles and at least one more Malarkey accessory",
           "With a single Malarkey accessory: 20 years against manufacturing defects and 5 years of Right Start",
           "Installed inside another brand roof system: 10 years against manufacturing defects",
-          "Required, with Malarkey hip and ridge, for the 15 year Enhanced Wind Warranty of up to 130 mph"
+          "Required, with Malarkey hip and ridge, for the 15 year Enhanced Wind Warranty of up to 130 mph",
+          "For the Enhanced Wind Warranty it has to run along the eaves and the rakes",
+          "The wind warranty asks for shingles that are properly adhered, by their own sealant or by hand with ASTM D4586 cement"
         ]
       }
     },
@@ -1574,7 +1573,6 @@
           "Underlayment meeting ASTM D4869 Type I or ASTM D226 Type I, such as DiamondDeck or RoofRunner",
           "4 nails per shingle in the NailTrak area, 6 with 4 spots of cement on steep slopes",
           "WinterGuard waterproofing underlayment where ice can back up at the eaves",
-          "Ventilation that meets or exceeds HUD standards, ridge venting plus soffit intake",
           "Hips and ridges capped with Shadow Ridge, Cedar Crest or Mountain Ridge"
         ],
         "coverage": [
@@ -1582,7 +1580,8 @@
           "SureStart covers 100% of labor and material for defective shingles in the first 10 years",
           "15 years of wind coverage at 110 mph, upgradeable to 160 mph with CertainTeed starter and hip and ridge",
           "25 years of StreakFighter algae coverage on AR shingles",
-          "Unlimited wind velocity coverage as part of an Integrity Roof System"
+          "Unlimited wind velocity coverage as part of an Integrity Roof System",
+          "The Integrity Roof System counts ventilation to HUD standards among its required components"
         ]
       }
     },
@@ -1599,11 +1598,10 @@
       ],
       "features": {
         "install": [
-          "Slopes greater than 4:12; 2:12 to 4:12 with two plies of felt or IKO Ice and Water Protector",
+          "Slopes over 4:12 take one layer of felt or synthetic underlayment over the deck; 2:12 to 4:12 takes two plies or IKO Ice and Water Protector",
           "4 nails per shingle in the ArmourZone, 6 on slopes of 21:12 and above",
           "Nails only, never staples, and rake starters are not required",
           "Hips and ridges capped with Marathon Plus AR or IKO UltraHP",
-          "One layer of asphalt saturated felt or synthetic underlayment over the whole deck",
           "Ventilation has to meet the local building code, since IKO does not answer for leaks without it"
         ],
         "coverage": [
@@ -1623,7 +1621,7 @@
       "description": "Bare galvanized corrugated steel roofing panels supplied as a twenty piece package covering approximately one hundred eighty total square feet.",
       "about": [
         "This is the same Brakki pack in the classic wavy corrugated profile, left bare rather than painted, so the finish you see is the galvanized coating itself. Each sheet measures 73.23 x 17.72 in (1,860 x 450 mm) and twenty of them come in the box. The rounded corrugations sit closer together than a ribbed profile, which stiffens a thin sheet and hides small dents better once it is up on a frame. Nothing has to be cut or formed on site.",
-        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki offers the same profile in a ten piece pack when the job is smaller.",
+        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki sells the same twenty piece format in ribbed and tile profiles too.",
         "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. They fasten straight through the flat of a corrugation into timber or steel purlins using the screws supplied. Overlap by a full corrugation at the sides, work from the eave upward, and keep the laps turned away from the prevailing wind. A cordless driver with a hex socket is the only tool needed for the job.",
         "Left bare, the panel weathers to a matt grey rather than staying bright, and there is no paint film to chalk or peel. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade material. Check local code before putting it over any habitable space below the deck."
       ],

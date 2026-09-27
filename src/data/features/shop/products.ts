@@ -70,13 +70,7 @@ export const shopProductsData = {
       availability: "in-stock",
       sku: "CTD-319283",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "certainteed-roofrunner",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["certainteed-roofrunner", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "38 3/4 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -121,13 +115,7 @@ export const shopProductsData = {
       availability: "in-stock",
       sku: "OWC-1020735",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "dupont-tyvek-120",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["dupont-tyvek-120", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -171,13 +159,7 @@ export const shopProductsData = {
       availability: "in-stock",
       sku: "GAF-0489180",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "dupont-tyvek-120",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["dupont-tyvek-120", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -221,13 +203,7 @@ export const shopProductsData = {
       availability: "in-stock",
       sku: "GAF-0487552",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "dupont-tyvek-120",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["dupont-tyvek-120", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -271,13 +247,7 @@ export const shopProductsData = {
       availability: "in-stock",
       sku: "GAF-0489070",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "dupont-tyvek-120",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["dupont-tyvek-120", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -321,13 +291,7 @@ export const shopProductsData = {
       availability: "limited-stock",
       sku: "GAF-0487723",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "dupont-tyvek-120",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["dupont-tyvek-120", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -371,13 +335,7 @@ export const shopProductsData = {
       availability: "in-stock",
       sku: "GAF-0489737",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "dupont-tyvek-120",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["dupont-tyvek-120", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "39 3/8 in" },
         { key: "shingleWidth", value: "13 1/4 in" },
@@ -421,13 +379,7 @@ export const shopProductsData = {
       availability: "in-stock",
       sku: "IKO-17551100",
       warrantyKey: "detail.warranty.lifetime",
-      compatible: [
-        "dupont-tyvek-120",
-        "gcp-5003000",
-        "gibraltar-08328",
-        "oatey-11872",
-        "master-flow-ssb960a",
-      ],
+      compatible: ["dupont-tyvek-120", "gibraltar-08328", "oatey-11872", "master-flow-ssb960a"],
       specs: [
         { key: "length", value: "40 7/8 in" },
         { key: "shingleWidth", value: "13 3/4 in" },
