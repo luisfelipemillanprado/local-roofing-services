@@ -150,8 +150,6 @@
       "diameter": "Diámetro",
       "intake": "Entrada Mínima",
       "perSquare": "Placas por Cuadro",
-      "ribSpacing": "Separación de Nervios",
-      "maxLength": "Largo Máximo",
       "pipe": "Diámetro de Tubo",
       "base": "Tamaño de Base",
       "height": "Altura",
@@ -195,7 +193,22 @@
       "paintWarranty": "Garantía de Pintura",
       "pan": "Tipo de Faldón",
       "fastening": "Fijación",
-      "approval": "Aprobaciones"
+      "approval": "Aprobaciones",
+      "tensile": "Resistencia a Tracción",
+      "tear": "Resistencia al Desgarro",
+      "uvExposure": "Exposición Máxima",
+      "overlap": "Solapes",
+      "elongation": "Alargamiento",
+      "adhesion": "Adherencia al Contrachapado",
+      "lowTemp": "Flexibilidad en Frío",
+      "rollsPerPallet": "Rollos por Palé",
+      "water": "Resistencia al Agua",
+      "battenGauge": "Paso de Rastrel",
+      "drape": "Flecha Máxima",
+      "air": "Permeabilidad al Aire",
+      "pullThrough": "Arranque de Fijación",
+      "reinforcement": "Armadura",
+      "staticLoad": "Carga Estática"
     },
     "specValue": {
       "fiberglassAsphalt": "Asfalto con Fibra de Vidrio",
@@ -220,7 +233,27 @@
       "penetrating": "Pasante, Tapas Vistas",
       "flatPan": "Liso",
       "striatedPan": "Estriado",
-      "polyurethaneCore": "Núcleo de Poliuretano"
+      "polyurethaneCore": "Núcleo de Poliuretano",
+      "capNails": "Clavos o grapas de cabeza",
+      "shinglesMetalCedar": "Tejas, metal o cedro",
+      "syntheticPolymer": "Polímero sintético",
+      "scrimReinforced": "Reforzado con malla",
+      "roofingNails": "Clavos de techar estándar",
+      "asphaltShingles": "Tejas asfálticas",
+      "typeHR": "Tipo HR impermeable",
+      "tiledSlatedRoofs": "Cubiertas de teja y pizarra",
+      "monolithic": "Monolítica de tres capas",
+      "roofAndWall": "Cubiertas y fachadas",
+      "wovenPolypropylene": "Polipropileno tejido",
+      "twoSideCoated": "Recubierto por ambas caras",
+      "polyesterFelt": "Fieltro de poliéster no tejido",
+      "mineralGranules": "Gránulo mineral o pizarra",
+      "plasticAsphalt": "Asfalto plástico polimerizado",
+      "embossedAluminum": "Aluminio gofrado",
+      "exposedNoTraffic": "Expuesta, sin tránsito",
+      "torchApplied": "Aplicación con soplete",
+      "polymerisedAsphalt": "Asfalto plástico polimerizado",
+      "aluminumFoil": "Foil de aluminio Aluar"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -247,8 +280,8 @@
       "titleAccent": "Carbón",
       "description": "Tejas laminadas arquitectónicas en carbón profundo, con tecnología LayerLock que amplía considerablemente la zona de clavado durante la instalación.",
       "about": [
-        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Charcoal de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
-        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Charcoal de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes. Cumple la norma ASTM D3462 y es Clase A al fuego.",
+        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala desde 2:12 sobre tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
         "Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas con tecnología de liberación gradual."
       ],
@@ -276,8 +309,8 @@
       "titleAccent": "Peltre",
       "description": "Tejas laminadas arquitectónicas en gris peltre suave, desarrolladas para resistir vientos fuertes y climatología adversa durante muchas décadas seguidas.",
       "about": [
-        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Pewter Gray de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
-        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Pewter Gray de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes. Cumple la norma ASTM D3462 y es Clase A al fuego.",
+        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala desde 2:12 sobre tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
         "Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas con tecnología de liberación gradual."
       ],
@@ -305,8 +338,8 @@
       "titleAccent": "Corteza",
       "description": "Tejas laminadas arquitectónicas en tono corteza cálido, que reproducen la profundidad de la madera natural sin mantenimiento prácticamente alguno.",
       "about": [
-        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Barkwood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
-        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Barkwood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes. Cumple la norma ASTM D3462 y es Clase A al fuego.",
+        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala desde 2:12 sobre tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
         "Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas con tecnología de liberación gradual."
       ],
@@ -334,8 +367,8 @@
       "titleAccent": "Verde Bosque",
       "description": "Tejas laminadas arquitectónicas en verde bosque intenso, un color distintivo que encaja naturalmente en entornos muy arbolados y sombreados.",
       "about": [
-        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Hunter Green de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
-        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Hunter Green de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes. Cumple la norma ASTM D3462 y es Clase A al fuego.",
+        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala desde 2:12 sobre tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
         "Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas con tecnología de liberación gradual."
       ],
@@ -363,8 +396,8 @@
       "titleAccent": "Arena",
       "description": "Tejas laminadas arquitectónicas en tono arena claro, mezcla luminosa que realza cualquier línea de techo sin desdibujar paredes circundantes.",
       "about": [
-        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Shakewood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes.",
-        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con una exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala en pendientes de 2:12 o más sobre un tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 el tablero lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
+        "Timberline HDZ (GAF) es la teja más vendida de GAF, una teja arquitectónica de asfalto con fibra de vidrio, aquí en el color Shakewood de su gama High Definition. La tecnología LayerLock hace posible StrikeZone, la zona de clavado más grande del sector, y el sellador térmico Dura Grip une las tejas entre sí al exponerse al sol y al calor, para que se mantengan firmes con vientos fuertes. Cumple la norma ASTM D3462 y es Clase A al fuego.",
+        "Cada teja mide 13 1/4 x 39 3/8 in (337 x 1,000 mm) con exposición de 5 5/8 in (143 mm). Un square lleva 64 piezas en 3 paquetes. GAF la combina con cumbrera TimberTex o TimberCrest y arranques Pro Start, QuickStart o WeatherBlocker en aleros y bordes. Se instala desde 2:12 sobre tablero de contrachapado u OSB de al menos 3/8 in (10 mm). De 2:12 a menos de 4:12 lleva dos capas de GAF Roof Deck Protection; desde 4:12, una.",
         "Se usan clavos de techar de acero galvanizado o aluminio de calibre 10 a 12 con cabeza de 3/8 a 7/16 in (10 a 12 mm), lo bastante largos para penetrar 3/4 in (19 mm) en el tablero, clavados al ras. El patrón estándar es de 4 clavos a unas 6 7/8 in (174 mm) del borde inferior de la teja; algunos códigos exigen 6. En mansardas de 21:12 o más se clava a 6 in (152 mm) del borde inferior y se sella a mano con 4 puntos de adhesivo para tejas.",
         "Garantía: cobertura de por vida contra defectos de fabricación para el propietario original de una vivienda unifamiliar, o un segundo propietario elegible. La garantía de viento WindProven de 15 años, sin velocidad máxima, aplica a tejas con LayerLock instaladas con las tiras de arranque, la protección de tablero y demás accesorios GAF requeridos. StainGuard Plus suma 25 años de garantía limitada contra algas con tecnología de liberación gradual."
       ],
@@ -416,8 +449,8 @@
       }
     },
     "brakki-stone-tiles": {
-      "title": "Tejas DECRA de Acero Recubrimiento Pétreo",
-      "titleLead": "Tejas DECRA de Acero",
+      "title": "Teja DECRA de Acero Recubrimiento Pétreo",
+      "titleLead": "Teja DECRA de Acero",
       "titleAccent": "Recubrimiento Pétreo",
       "about": [
         "DECRA Tile es una placa de acero conformada a presión con acabado de gravilla pétrea recubierta cerámicamente, de modo que el techo se lee como teja de barro mediterránea pesando una fracción. El acero lleva aleación de aluminio y zinc según ASTM A792 en calibre 26, 0.0179 in (0.455 mm), y cada placa viene precorrugada formando un escalón de teja. El color viene de la propia gravilla mineral y no de una pintura que pueda calear.",
@@ -474,76 +507,178 @@
       "description": "Panel sándwich aislante que combina superficie prensada tipo teja con núcleo de poliuretano, alcanzando ochenta milímetros de espesor total."
     },
     "certainteed-roofrunner": {
-      "title": "Underlayment Sintético RoofRunner",
-      "titleLead": "Underlayment Sintético",
-      "titleAccent": "RoofRunner",
+      "title": "RoofRunner Sintético Underlayment",
+      "titleLead": "RoofRunner Sintético",
+      "titleAccent": "Underlayment",
       "description": "Rollo sintético reforzado que cubre diez cuadros, con superficie antideslizante para caminar seguro sobre pendientes fuertes y tableros mojados.",
-      "highlights": [
-        "Superficie antideslizante, incluso cuando está mojada",
-        "Rollo grande de cuatro por doscientos cincuenta pies",
-        "Resiste noventa días de exposición a los rayos UV",
-        "Cumple los requisitos físicos de ASTM D226 y D4869"
-      ]
+      "about": [
+        "RoofRunner es el underlayment de polímero sintético ligero de CertainTeed, una lámina reforzada con malla que se coloca sobre el entablado como capa resistente al agua bajo tejas asfálticas. Un tratamiento en la cara superior le da un agarre que se mantiene incluso con la lámina mojada, y el rollo ancho reduce las hiladas necesarias para cerrar un faldón. CertainTeed lo sitúa por encima del fieltro y de otros sintéticos de su gama.",
+        "El rollo mide 48 in de ancho por 250 ft de largo y contiene 1,000 sq ft de material. Descontados los solapes laterales y de extremo, el rendimiento neto queda en 937.5 sq ft, así que cerca del seis por ciento del rollo se va en los solapes. Cada rollo pesa 23 lb, poco para subirlo con una mano, y en un palé entran 56. La lámina tiene 4 ft de ancho, así que cada hilada cierra una banda de 4 ft. Un palé equivale a unos 52,500 sq ft netos.",
+        "Se fija con clavos de techar corrientes y es compatible con la mayoría de tejas asfálticas, y la garantía del underlayment sigue el periodo de cobertura que tenga la teja colocada encima. CertainTeed lo califica para hasta 90 días de exposición a la radiación ultravioleta, cifra obtenida en ensayo acelerado QUV y no en obra. CertainTeed lo describe como una capa resistente al agua y no como una membrana impermeabilizante como tal.",
+        "Cumple los requisitos físicos de ASTM D226 y ASTM D4869, las dos especificaciones escritas para el fieltro asfáltico, que es la comparación a la que recurre cualquier inspector. Tiene resistencia al fuego Clase A según UL 790 y ASTM E108 junto a una teja Clase A, está listado en ICC-ES AC188 y cuenta con la aprobación FL 21841 de Florida. Las dos normas ASTM cubren solo los requisitos físicos, no una clasificación propia de fuego o viento."
+      ],
+      "features": {
+        "install": [
+          "Se coloca sobre el entablado como capa resistente al agua bajo tejas asfálticas, nunca como acabado final",
+          "Se fija con clavos de techar corrientes, sin necesidad de fijación de cabeza para la teja",
+          "La cara tratada conserva el agarre en mojado, lo que más se agradece en pendientes fuertes",
+          "Las hiladas de 4 ft de ancho cierran el faldón en menos pasadas que el fieltro",
+          "Se puede imprimir un logotipo propio pidiéndolo al representante local de CertainTeed"
+        ],
+        "coverage": [
+          "Un rollo contiene 1,000 sq ft de material, con 48 in por 250 ft",
+          "El rendimiento neto es de 937.5 sq ft descontados los solapes",
+          "Cada rollo pesa 23 lb y en un palé caben 56 rollos",
+          "Admite hasta 90 días de exposición según ensayo acelerado QUV",
+          "Fuego Clase A según UL 790 y ASTM E108 con una teja Clase A",
+          "La garantía sigue el periodo de cobertura de la teja colocada encima"
+        ]
+      }
     },
     "protect-a1": {
-      "title": "Membrana de Techo Protect A1",
-      "titleLead": "Membrana de Techo",
-      "titleAccent": "Protect A1",
-      "description": "Subcapa impermeable al vapor que mantiene el techo hermético y estanco, en rollos de hasta cuarenta y cinco metros.",
-      "highlights": [
-        "Subcapa tipo HR con alta resistencia al vapor",
-        "No tejido de polipropileno recubierto con film de PP y PE",
-        "Estanqueidad clase W1 y uso sin límite ante succión del viento",
-        "Fabricada en Reino Unido y aprobada por BM TRADA"
-      ]
+      "title": "Membrana Protect A1 Impermeable Tipo HR",
+      "titleLead": "Membrana Protect A1",
+      "titleAccent": "Impermeable Tipo HR",
+      "description": "Subcapa impermeable certificada mantiene la cubierta completamente hermética y estanca bajo teja, resistiendo la succión del viento sin restricción.",
+      "about": [
+        "Protect A1 es una subcapa de cubierta impermeable de Tipo HR fabricada en el Reino Unido. Una capa no tejida de polipropileno va recubierta por una cara con un film continuo de polipropileno y polietileno, y la lámina es negra por las dos caras con impresión en la superior tal como se instala. Lleva marcado UKCA y CE, aprobación independiente de BM TRADA y certificación Q Mark. Se desarrolló para superar los inconvenientes de los fieltros Tipo 1F y 5U.",
+        "El gramaje es de 145 g por metro cuadrado con un espesor de 0.6 mm, y se sirve en rollos de 1 m por 45 m o de 1.5 m por 30 m. La resistencia al paso de vapor de agua es de 112 MNs por gramo, un Sd de 22 m, según BS EN ISO 12572, lo que cumple la permeabilidad que recomiendan BM TRADA y la NHBC. Se mantiene flexible en frío y resiste el desgarro en los clavos. El gramaje y el espesor se mantienen en los dos formatos de rollo, y aguanta la obra.",
+        "El uso frente a la succión del viento no tiene restricción en el Reino Unido ni en Irlanda, Zonas 1 a 5, según BS 5534:2018, y con un paso de rastrel de 345 mm o menos la lámina resiste 1,732 Pa de presión de viento. El desgarro por clavo es de 230 N a lo largo del rollo y 234 N a lo ancho según BS EN 12310-1, y la tracción llega a 287 N y 274 N según BS EN 12311-1. Las dos cifras se miden con las modificaciones que indican las normas.",
+        "Al ser una subcapa de alta resistencia, hace falta ventilación añadida según BS 5250: una cubierta caliente pide 25,000 mm² por metro en el alero y 5,000 en la cumbrera, y una cubierta fría 10,000 en el alero y 5,000 en la cumbrera con un techo bien sellado. La resistencia a la penetración de agua según BS EN 1928 modificada es apta en Clase W1. Una barrera de vapor aparte va en el lado cálido del aislamiento, y también frena el paso de polvo."
+      ],
+      "features": {
+        "install": [
+          "Se coloca según BS 5534, BS 8000 Parte 6 y las instrucciones del fabricante, en obra nueva o existente",
+          "Mantén el paso de rastrel en 345 mm o menos para conservar los 1,732 Pa de resistencia al viento",
+          "Sobre entablado rígido, pon contrarrastreles de 12 mm como mínimo y limita la flecha de la lámina a 10 mm",
+          "Si se apoya directamente en el entablado, añade contrarrastreles y rastreles encima para no atrapar humedad",
+          "En cubierta caliente, añade una barrera de vapor aparte en el lado cálido del aislamiento"
+        ],
+        "coverage": [
+          "El rollo de 1 m por 45 m cubre 45 m² y el de 1.5 m por 30 m cubre lo mismo",
+          "Uso sin restricción frente al viento en las cinco zonas de exposición británicas",
+          "Funciona como capa secundaria de protección frente a lluvia con viento y nieve",
+          "También frena la succión de la teja y el polvo que atraviesa la cobertura",
+          "La cubierta caliente pide 25,000 mm² por metro en alero y 5,000 en cumbrera",
+          "La cubierta fría pide 10,000 mm² por metro en alero y 5,000 en cumbrera"
+        ]
+      }
     },
     "exoperm-mono": {
-      "title": "Membrana Transpirable Exoperm Mono 150",
-      "titleLead": "Membrana Transpirable",
-      "titleAccent": "Exoperm Mono 150",
-      "description": "Membrana monolítica abierta al vapor, con alta resistencia al desgarro y barrera hermética, para setenta y cinco metros cuadrados.",
-      "highlights": [
-        "Tres capas con una capa funcional monolítica",
-        "Muy abierta al vapor y totalmente hermética al aire",
-        "Cuatro meses de resistencia UV en cubiertas",
-        "Trabaja de menos cuarenta a ochenta grados Celsius"
-      ]
+      "title": "Exoperm Mono 150 Membrana Monolítica",
+      "titleLead": "Exoperm Mono 150",
+      "titleAccent": "Membrana Monolítica",
+      "description": "Membrana monolítica altamente transpirable que funciona como entablado, subcapa y barrera cortaviento cubriendo setenta y cinco metros cuadrados completos.",
+      "about": [
+        "Exoperm Mono 150 de Partel es una membrana de entablado de tres capas cuya capa intermedia es monolítica y no microporosa, así que el vapor la atraviesa por difusión molecular y no por poros que el polvo o los tensioactivos puedan obstruir. Sirve de entablado, de subcapa de cubierta y de barrera cortaviento, tanto en cubierta inclinada como en fachada. Las tres capas van laminadas y la capa funcional queda protegida entre las dos exteriores.",
+        "El rollo mide 1.5 m por 50 m y cubre 75 m², es decir 807 sq ft, con un gramaje de 150 g por metro cuadrado medido según EN 1849-2. La resistencia a la difusión de vapor es un Sd de solo 0.07 m según EN ISO 12572 método C, de las más abiertas que se publican, y la permeabilidad al aire se queda por debajo de 0.001 metros cúbicos por metro cuadrado hora. Partel mide las dos cifras sobre la membrana acabada, no sobre la capa funcional sola.",
+        "La resistencia al agua es Clase W1 según EN 1928, y Partel publica que esa clase se mantiene antes y después del envejecimiento artificial, que es lo que importa en una obra larga. La tracción es de 255 N en sentido longitudinal y 145 N en transversal por 50 mm según EN 12311-1, y el desgarro por clavo es de 130 N y 160 N según EN 12310-1. Las dos resistencias se expresan por 50 mm de ancho, como marcan las normas europeas.",
+        "La membrana conserva sus propiedades desde 40 grados bajo cero hasta 80 grados centígrados. Partel califica la exposición ultravioleta en seis meses sobre fachada y cuatro meses sobre cubierta, así que aguanta un invierno abierta si el acabado se retrasa. Partel no publica clase de reacción al fuego ni cifra de succión de viento para esta membrana. La membrana está prevista para cubierta inclinada y para fachada de entramado de madera."
+      ],
+      "features": {
+        "install": [
+          "Se coloca como entablado, subcapa y capa cortaviento en una sola lámina, en cubierta inclinada o en fachada",
+          "La capa intermedia monolítica difunde el vapor, así que el polvo y los tensioactivos no pueden obstruir poros",
+          "Conserva sus propiedades desde 40 grados bajo cero hasta 80 grados mientras la cubierta está abierta",
+          "La versión Connex de la misma membrana incorpora cintas adhesivas integradas",
+          "Cúbrela antes de cuatro meses en cubierta, o de seis meses en fachada"
+        ],
+        "coverage": [
+          "Un rollo cubre 75 m², es decir 807 sq ft, con 1.5 m por 50 m",
+          "El gramaje es de 150 g por metro cuadrado según EN 1849-2",
+          "La resistencia al vapor es un Sd de 0.07 m, de las más abiertas",
+          "La permeabilidad al aire no llega a 0.001 metros cúbicos por m² hora",
+          "La resistencia al agua es Clase W1 antes y después del envejecimiento",
+          "No se publica clase de reacción al fuego ni cifra de succión de viento"
+        ]
+      }
     },
     "bmi-chova": {
-      "title": "Membrana Autoprotegida Chova Politaber",
-      "titleLead": "Membrana Autoprotegida",
-      "titleAccent": "Chova Politaber",
-      "description": "Membrana SBS de aplicación con soplete y acabado mineral, en rollos que cubren diez metros cuadrados de cubierta plana.",
-      "highlights": [
-        "Armadura de fieltro de poliéster con cara superior de gránulo mineral",
-        "Lámina superior para sistemas bicapa expuestos a la intemperie",
-        "Cuatro kilos de betún modificado por metro cuadrado",
-        "Se mantiene flexible hasta quince grados bajo cero"
-      ]
+      "title": "Politaber Combi 40/G Autoprotegida",
+      "titleLead": "Politaber Combi 40/G",
+      "titleAccent": "Autoprotegida",
+      "description": "Membrana elastomérica autoprotegida de aplicación con soplete, suministrada en rollos que cubren individualmente diez metros cuadrados de cubierta plana.",
+      "about": [
+        "Politaber Combi 40/G es una lámina de betún modificado de ChovA, una LBM designada LBM-40/G-FP por AENOR. El betún modificado con elastómeros SBS va sobre un fieltro de poliéster no tejido reforzado, el acabado interior es plástico y la cara exterior lleva gránulo mineral o pizarra. Se adhiere con soplete y un borde es banda de solape de 8 cm. La lámina sale de fábrica sin defectos visibles según la norma EN 1850-1, que es lo que declara.",
+        "El rollo mide 1 m por 10 m a 4 kg por metro cuadrado, así que cubre 10 m², y un palé lleva 250 m² de lámina. La tracción según EN 12311-1 es de 700 N por 5 cm a lo largo del rollo y 450 N a lo ancho, el alargamiento es del 45 por ciento en ambas direcciones, la carga estática según EN 12730 supera 15 kg y el impacto según EN 12691 no pasa de 20 mm. La masa por unidad de área se mide según EN 1849-1 con tolerancia de menos cinco a más diez por ciento.",
+        "La plegabilidad según EN 1109 aguanta a 15 grados bajo cero, y tras el envejecimiento artificial según EN 1296 todavía plega a 5 bajo cero. La resistencia a fluencia llega a 100 grados, la estanquidad según EN 1928 es apta, la estabilidad dimensional se queda en medio por ciento y la pérdida de gránulo es del 20 por ciento según EN 12039. Los colores de gránulo figuran en la tarifa de ChovA y no en la ficha técnica. No se aplica por debajo de 5 grados.",
+        "ChovA es explícita sobre dónde va esta lámina: es la capa superior de un sistema bicapa, expuesta a la intemperie o bajo protección pesada. La ficha descarta tres usos, el sistema monocapa por sí solo, la lámina inferior de un bicapa y cualquier cubierta ajardinada. El comportamiento frente a fuego externo es BROOF(t1) y la reacción al fuego es Clase E. El certificado de control de producción en fábrica lleva el número 0099/CPD/A85/0016."
+      ],
+      "features": {
+        "install": [
+          "Se adhiere con soplete, calentando la cara inferior hasta que el betún fluye y presionando la lámina",
+          "Sigue la banda impresa de 8 cm del borde, que es el solape que indica la ficha técnica",
+          "No la apliques nunca con el soporte o el aire por debajo de 5 grados bajo cero",
+          "Guarda los rollos en su palé original y en la posición que marca la etiqueta hasta subirlos",
+          "Úsala como capa superior de un bicapa, nunca sola ni como lámina inferior"
+        ],
+        "coverage": [
+          "Un rollo cubre 10 m² con 1 m por 10 m y 4 kg por metro cuadrado",
+          "Un palé lleva 250 m² de la lámina",
+          "Admitida expuesta a la intemperie o bajo protección pesada",
+          "Descartada para monocapa, para lámina inferior y para cubierta ajardinada",
+          "Fuego externo BROOF(t1) y reacción al fuego Clase E",
+          "Con marcado CE desde 2006 según UNE-EN 13707, organismo 0099"
+        ]
+      }
     },
     "kovertech-gold": {
-      "title": "Membrana de Aluminio KoverTech Gold",
-      "titleLead": "Membrana de Aluminio",
-      "titleAccent": "KoverTech Gold",
-      "description": "Membrana asfáltica con aluminio gofrado que refleja el calor y resiste el agrietamiento por frío, con diez metros cuadrados.",
-      "highlights": [
-        "Asfalto modificado con polímeros y alma de polietileno de alta densidad",
-        "Cara de aluminio gofrado que reduce la absorción solar",
-        "No se quiebra con las bajas temperaturas",
-        "Pensada para techos expuestos y no transitables"
-      ]
+      "title": "KoverTech Gold Aluminio Gofrado",
+      "titleLead": "KoverTech Gold",
+      "titleAccent": "Aluminio Gofrado",
+      "description": "Membrana asfáltica con aluminio gofrado que refleja la radiación solar y resiste el agrietamiento, cubriendo aproximadamente diez metros cuadrados.",
+      "about": [
+        "KoverTech Gold se construye en cuatro capas. La cara es foil de aluminio gofrado de 36 micras, debajo va una armadura central de polietileno de alta densidad de 50 micras, después el cuerpo de asfalto plástico procedente de bases bituminosas modificadas con polímeros termoplásticos, y la cara inferior lleva un film antiadherente de polietileno que se retira al soplete. KoverTech llama Gold a esta gama justamente por esa cara de aluminio.",
+        "El rollo pesa 45 kg y cubre unos 10 m² con 1 m por 10 m. La cara gofrada es la razón de ser del producto: refleja buena parte de la radiación solar que de otro modo se absorbería, lo que mantiene más fría la membrana y el espacio bajo ella, y el foil permite dejarla expuesta a la radiación ultravioleta sin necesidad de cubrirla. El fabricante le atribuye mayor flexibilidad, más alargamiento y mejor resistencia mecánica que a sus gamas simples.",
+        "Se coloca sobre losas, bóvedas, techos de chapa galvanizada y fibrocemento, y cubiertas planas o abovedadas con cualquier pendiente. El soporte debe estar limpio, liso y uniforme, y lleva antes una mano de imprimación asfáltica o emulsión. Se extiende transversal a la pendiente, siguiendo el sentido del agua, y se calienta la cara inferior con presión continua. Se admite cualquier pendiente siempre que el agua tenga salida.",
+        "Los solapes son de 8 a 10 cm entre rollos, y las terminaciones se doblan con 15 cm de solape como mínimo. Hay un límite que importa más que ningún otro: nunca debe ir bajo un mortero de cemento, cal y arena, porque el contacto de esos materiales con el aluminio oxida el foil y degrada la membrana. Una vez colocada no es transitable. No se publica cifra de succión de viento, clase de fuego ni plazo de garantía. Se vende por rollo, no por metro."
+      ],
+      "features": {
+        "install": [
+          "Prepara un soporte limpio, liso y uniforme e imprímelo con imprimación asfáltica o emulsión",
+          "Extiéndela transversal a la pendiente, siguiendo el sentido en que corre el agua",
+          "Calienta la cara inferior con soplete y mantén presión continua sobre el rollo al asentarlo",
+          "Solapa de 8 a 10 cm entre rollos y dobla la membrana en terminaciones con 15 cm de solape",
+          "No la coloques nunca bajo mortero de cemento, cal y arena, que oxida la cara de aluminio"
+        ],
+        "coverage": [
+          "Un rollo pesa 45 kg y cubre unos 10 m² con 1 m por 10 m",
+          "Va sobre losas, bóvedas, chapa galvanizada y fibrocemento",
+          "Sirve en cubiertas planas y abovedadas con cualquier pendiente",
+          "Está pensada para quedar expuesta y no es transitable",
+          "El gofrado refleja la radiación solar y baja la absorción de calor",
+          "La cara de aluminio es lo que permite dejarla al ultravioleta"
+        ]
+      }
     },
     "ormiflex-profesional": {
-      "title": "Membrana de Aluminio Ormiflex Profesional",
-      "titleLead": "Membrana de Aluminio",
-      "titleAccent": "Ormiflex Profesional",
-      "description": "Membrana asfáltica reforzada con cara de aluminio, extendida y sellada con soplete en cubiertas planas, de diez metros cuadrados.",
-      "highlights": [
-        "Foil de aluminio superior resistente a los rayos UV",
-        "Refuerzo central e inferior de polietileno",
-        "Apta para techos planos, curvos y de chapa",
-        "También sirve como barrera de vapor"
-      ]
+      "title": "Ormiflex Profesional Aluminizada",
+      "titleLead": "Ormiflex Profesional",
+      "titleAccent": "Aluminizada",
+      "description": "Membrana asfáltica reforzada con cara de aluminio, extendida y sellada con soplete sobre cubiertas planas inaccesibles, diez metros cuadrados.",
+      "about": [
+        "Ormiflex Profesional está hecha de asfalto plástico número uno polimerizado, sobre una armadura central e inferior de polietileno de alta densidad, con doble capa asfáltica y una cara de foil de aluminio Aluar. Ormiflex distingue sus líneas por el espesor de ese foil: Premium lleva 40 micras, Profesional lleva 30 y Maxiplas lleva 25. Así que el nombre de la línea impreso en el rollo dice el espesor del foil que se compra.",
+        "La línea Profesional se vende en rollos de 10 m², identificados por una cinta de color en el extremo: cinta roja para la presentación de 40 kg y cinta amarilla para la de 35 kg, que es el rollo que se ofrece aquí. Con 1 m por 10 m, un rollo cierra diez metros cuadrados y la cara de aluminio permite dejarla descubierta. Ormiflex publica la presentación por peso y no por espesor, así que el color de cinta es la comprobación más rápida en obra.",
+        "Es para impermeabilizaciones que quedan expuestas a la intemperie y no requieren tránsito: azoteas de edificios, techos planos o abovedados por los que nadie camina, chapa galvanizada o fibrocemento, y la capa inferior de un sistema bicapa de techo ajardinado. Ormiflex también la indica como barrera de vapor, que es donde luce el aluminio. Ormiflex no publica cifra de succión de viento, clase de reacción al fuego ni plazo de garantía para la línea.",
+        "El soporte se imprima primero con Ormiflex A o con Pintura Asfáltica Profesional, y cualquier grieta o fisura existente se sella con Ormiflex 5 antes de extender la lámina. Se calienta la cara inferior para que el asfalto se adhiera al soporte, los rollos solapan de 8 a 10 cm y las uniones se pintan con Ormiflex 8 aluminizada. Esos cuatro pasos son toda la secuencia que especifica Ormiflex. No se aplica nada más sobre la lámina acabada."
+      ],
+      "features": {
+        "install": [
+          "Imprima el soporte con Ormiflex A o con Pintura Asfáltica Profesional antes que nada",
+          "Sella las grietas y fisuras existentes con Ormiflex 5 para que no se marquen en la lámina",
+          "Calienta la cara inferior de la membrana hasta que el asfalto se adhiera al soporte imprimado",
+          "Solapa de 8 a 10 cm entre rollos, dejando cada solape a favor de la pendiente",
+          "Pinta las uniones acabadas con pintura asfáltica aluminizada Ormiflex 8 para protegerlas"
+        ],
+        "coverage": [
+          "Un rollo cubre 10 m² con 1 m por 10 m y pesa 35 kg",
+          "La cinta amarilla marca el rollo de 35 kg y la roja el de 40 kg",
+          "Sirve en azoteas y cubiertas planas o abovedadas sin tránsito",
+          "También va sobre chapa galvanizada y cubierta de fibrocemento",
+          "Hace de capa inferior en un sistema bicapa de techo ajardinado",
+          "Ormiflex también la indica como barrera de vapor del conjunto"
+        ]
+      }
     },
     "gaf-everguard-tpo-quick-spray-7792": {
       "title": "Adhesivo en Spray EverGuard TPO",
@@ -706,27 +841,61 @@
     },
     "dupont-tyvek-120": {
       "title": "Underlayment Tyvek Protec 120",
-      "titleLead": "Underlayment",
-      "titleAccent": "Tyvek Protec 120",
-      "description": "Underlayment sintético de alta tracción que protege el entablado de la humedad con paso seguro, cubriendo mil pies cuadrados.",
-      "highlights": [
-        "Cuatro capas con una pisada líder en el sector",
-        "Admite hasta tres meses de exposición antes de cubrir",
-        "Clasificación al fuego Clase A según ASTM E108",
-        "Aprobado para la zona HVHZ de Florida y Miami Dade"
-      ]
+      "titleLead": "Underlayment Tyvek",
+      "titleAccent": "Protec 120",
+      "description": "Underlayment sintético antideslizante que protege el entablado frente a la humedad manteniendo pisada firme, cubriendo aproximadamente mil pies cuadrados.",
+      "about": [
+        "DuPont Tyvek Protec 120 es un underlayment sintético de cuatro capas construido sobre una tecnología no tejida con relieve. Las ranuras de la capa superior desvían la suciedad y el agua, una capa de laminación hace de barrera, una malla tejida de polipropileno aporta resistencia y un recubrimiento antideslizante agarra el entablado. Se camina en seco, mojado, con calor, frío o sucio. Pertenece a una gama que incluye además Protec 160 y 200.",
+        "El rollo estándar mide 48 in por 250 ft, diez squares o 1,000 sq ft, y también se ofrece un rollo de dos squares de 48 in por 50 ft. El espesor nominal es de 0.248 mm, 9.76 mils, con unas 25 lb por rollo. La resistencia a tracción según ASTM D751 llega a 88.5 lbf longitudinal y 79.4 lbf transversal, y el desgarro según ASTM D4533 da 25 y 40 lbf. El alargamiento según la misma norma es de 21.5 por ciento longitudinal y 19.9 por ciento transversal.",
+        "Está previsto para pendientes de 2:12 o más bajo tejas asfálticas, metal o cedro. Las hiladas van en horizontal desde el alero, siguiendo las líneas impresas con solapes de 4 in entre hiladas y 6 in en los extremos, desfasando los extremos 6 ft entre hiladas. Las fijaciones van a 12 in entre centros en cada solape y una fila a 24 in por el centro del faldón. En zonas de 100 mph o más se fija en todas las posiciones impresas.",
+        "La permeabilidad es inferior a 0.05 perms, así que actúa como barrera de vapor y el espacio bajo el entablado debe estar ventilado. Supera ASTM E108 Clase A al fuego y ASTM D4869 al agua líquida, cumple ASTM D226 Tipos I y II y ASTM D8257, y está listado en ICC-ES AC188 mediante Intertek CCRR-0394 y para la zona HVHZ de Florida y Miami Dade. Es una capa secundaria, nunca la barrera principal, y debe quedar cubierta por el acabado en tres meses."
+      ],
+      "features": {
+        "install": [
+          "Coloca las hiladas en horizontal desde el alero, siguiendo las líneas impresas con solapes de 4 in entre hiladas y 6 in en los extremos",
+          "Desfasa 6 ft los solapes de extremo entre hiladas y aplica la lámina tensa y sin arrugas, nunca estirada",
+          "Fija a 12 in entre centros en los solapes de hilada y extremo más una fila a 24 in por el centro del faldón",
+          "Usa clavos o grapas de cabeza de 1 in bajo metal y cedro; sin cabeza solo bajo tejas colocadas en 36 horas",
+          "Pásala por encima del goterón en aleros y por debajo en los bordes, solapando 8 in como mínimo sobre los muros"
+        ],
+        "coverage": [
+          "Un rollo estándar cubre 1,000 sq ft, diez squares, con 48 in por 250 ft",
+          "El rollo de dos squares de 48 in por 50 ft cubre 200 sq ft en zonas pequeñas",
+          "Las pendientes de 4:12 o más llevan una sola capa sobre todo el entablado",
+          "De 2:12 a menos de 4:12 llevan dos capas, desde una subhilada de 26 in y solapando cada lámina 26 in",
+          "Las limahoyas se forran primero y las hiladas horizontales solapan esa lámina 6 in",
+          "Tiene garantía limitada de reposición de 30 años para instaladores profesionales y debe cubrirse en tres meses"
+        ]
+      }
     },
     "gcp-5003000": {
-      "title": "Underlayment Autoadhesivo Grace Ultra",
-      "titleLead": "Underlayment Autoadhesivo",
-      "titleAccent": "Grace Ultra",
-      "description": "Underlayment autoadhesivo de butilo que se pega directamente al tablero y resiste el calor de hasta trescientos grados Fahrenheit.",
-      "highlights": [
-        "Adhesivo de butilo puro sobre film laminado cruzado",
-        "Resiste temperaturas de hasta trescientos grados Fahrenheit",
-        "Apto bajo techos de cobre, zinc y acero corten",
-        "No dejar expuesto más de sesenta días"
-      ]
+      "title": "Grace Ultra Butílico Autoadhesivo",
+      "titleLead": "Grace Ultra Butílico",
+      "titleAccent": "Autoadhesivo",
+      "description": "Underlayment autoadhesivo butílico que se adhiere directamente al entablado estructural soportando temperaturas cercanas a trescientos grados bajo cubiertas metálicas.",
+      "about": [
+        "Grace Ultra combina dos materiales impermeabilizantes: un adhesivo de caucho butílico muy agresivo respaldado por una capa de polietileno de alta densidad laminado en cruz. Con 30 mil, 0.76 mm, la membrana gris negra se maneja con facilidad y es lo bastante fina para no marcarse bajo el acabado, y un film protector cuida el adhesivo hasta presionarla contra el entablado. La cara antideslizante mejora el agarre del operario al pisar.",
+        "El rollo mide 34 in por 70 ft, 198 sq ft o 18.4 m2, pesa 42 lb y se envía en cajas de cartón a 25 rollos por palé. La tracción es de 250 psi y el alargamiento del 250 por ciento según ASTM D412 con troquel C modificado, el espesor sigue ASTM D3767 método A, la adherencia al contrachapado es de 3.0 lb por pulgada según ASTM D903 y el peso instalado no pasa de 0.22 lb por sq ft. Cumple las normas de código para el sellado de clavos.",
+        "Es la opción indicada donde la membrana aguanta temperaturas altas de servicio durante mucho tiempo: el desierto del suroeste, cubiertas de altura y paneles de cobre, zinc o Cor-Ten que conducen el calor directamente al underlayment. El butilo resiste 300 F sin degradarse. Se aplica con buen tiempo, con aire, entablado y membrana a 40 F o más, sobre soporte limpio y seco. Los solapes laterales son de 3 1/2 in y los de extremo de 6 in como mínimo.",
+        "La permeabilidad se limita a 0.05 perms según ASTM E96, así que también hace de barrera de vapor y la cubierta debe quedar ventilada. Se mantiene intacta a 20 F bajo cero según ASTM D1970. No debe quedar expuesta más de 60 días. La amparan el informe ICBO 3997 y por UL R13399, Clase A bajo tejas de fibra de vidrio y Clase C bajo fieltro orgánico. El hormigón, la obra y DensGlass Gold piden imprimación Perm-A-Barrier WB a 250 o 350 sq ft por galón."
+      ],
+      "features": {
+        "install": [
+          "Se instala directamente sobre soporte limpio, seco y continuo de contrachapado, madera, tabla, metal, hormigón o placa de yeso",
+          "Trabaja con buen tiempo y con el aire, el soporte y la membrana a 40 F o más, y coloca el acabado a esa misma temperatura",
+          "Corta el rollo en tramos de 10 a 15 ft, enróllalo flojo, retira 1 o 2 ft de film y presiona con fuerza con la mano",
+          "Mantén los solapes laterales en 3 1/2 in y los de extremo en 6 in, trabajando de abajo arriba para que todos escurran",
+          "Imprima hormigón, obra y DensGlass Gold con Perm-A-Barrier WB a 250 o 350 sq ft por galón; la madera limpia no lo pide"
+        ],
+        "coverage": [
+          "Un rollo cubre 198 sq ft con 34 in por 70 ft y pesa 42 lb, a 25 rollos por palé",
+          "El fabricante recomienda cubrir todo el faldón frente a la lluvia con viento",
+          "Contra las presas de hielo sube desde el alero por encima de la altura prevista",
+          "La doble capa conviene en aleros y limahoyas donde el hielo es severo",
+          "Las limahoyas se membranan primero, luego los aleros y después las hiladas",
+          "Resiste 300 F, aguanta 20 F bajo cero y no admite más de 60 días expuesta"
+        ]
+      }
     },
     "gaf-everguard-wb181": {
       "title": "Adhesivo EverGuard WB181",
@@ -981,9 +1150,9 @@
       ]
     },
     "duration-designer-slatestone-grey": {
-      "title": "Teja Duration Designer Gris Pizarra",
-      "titleLead": "Teja Duration Designer",
-      "titleAccent": "Gris Pizarra",
+      "title": "Duration Designer Pizarra Gris",
+      "titleLead": "Duration Designer",
+      "titleAccent": "Pizarra Gris",
       "description": "Tejas arquitectónicas con banda SureNail que refuerza considerablemente la zona de clavado frente a vientos huracanados en cubiertas costeras.",
       "about": [
         "Duration Designer (Owens Corning) es una teja arquitectónica de la serie TruDefinition Duration, aquí en el color Slatestone Grey. Su tecnología patentada SureNail es la única zona de clavado reforzada en la cara de una teja: una banda de tejido técnico que cubre sus dos capas y da triple capa de protección frente al arranque de clavos y una unión entre capas hasta un 200% más ancha que en las tejas comunes. El sellador Tru Bond fija cada hilada.",
@@ -1242,7 +1411,7 @@
       "titleAccent": "Envejecida",
       "description": "Laminada de doble capa con faldón romboidal, que proporciona aproximadamente treinta y tres pies cuadrados por paquete individual suministrado.",
       "about": [
-        "Landmark (CertainTeed) es una teja arquitectónica laminada, en Weathered Wood. Se construye sobre manto de fibra de vidrio con gránulos minerales de recubrimiento cerámico en asfalto refinado impermeable; dos piezas se laminan con cemento asfáltico, y cada teja lleva bandas autoadhesivas y la guía NailTrak. La versión resistente a algas (AR) evita las manchas oscuras de las algas verdiazules (Gloeocapsa magma); no está disponible en todas las regiones.",
+        "Landmark (CertainTeed) es una teja arquitectónica laminada en Weathered Wood. Se construye sobre manto de fibra de vidrio con gránulos minerales de recubrimiento cerámico en asfalto refinado impermeable; dos piezas se laminan con cemento asfáltico, y cada teja lleva bandas autoadhesivas y NailTrak. La versión resistente a algas (AR) evita las manchas oscuras de las algas verdiazules (Gloeocapsa magma); la AR no llega a todas las regiones.",
         "Cada teja mide 13 1/4 x 38 3/4 in con una exposición de 5 5/8 in. Un square lleva 65 tejas en 3 paquetes, cubre aproximadamente 98.4 sq ft y pesa de 211 a 225 lb según la planta de fabricación. Se usa en pendientes mayores de 2 in por pie; en pendiente baja, de 2:12 a menos de 4:12, requiere underlayment adicional, y donde el hielo puede acumularse en el alero CertainTeed indica el underlayment impermeable WinterGuard o uno equivalente.",
         "Las instrucciones vienen en cada paquete. Limatesas y cumbreras llevan Shadow Ridge, Cedar Crest o Mountain Ridge del mismo color. No requiere mantenimiento si se instala según CertainTeed, aunque conviene inspeccionarlo cada año. En Florida se puede omitir el arranque lateral si las tejas se asientan en un cordón de cemento asfáltico de 4 in según el código. Como parte de un Integrity Roof System, el techo accede a cobertura de viento sin límite.",
         "Garantía: limitada de por vida y transferible contra defectos de fabricación, con hasta 10 años de SureStart; las tejas AR suman 25 años contra algas si se instalan con las cumbreras CertainTeed indicadas. La cobertura estándar de viento es de 110 mph durante 15 años, ampliable a 160 mph con cumbreras CertainTeed y arranque SwiftStart, SwiftStart SA o High Performance Starter en aleros y bordes laterales; no se permite instalar sobre tejas existentes."
@@ -1274,7 +1443,7 @@
         "Dynasty (IKO) es una teja laminada de alto peso, aquí en el color Emerald Green, fabricada sobre un manto estable de fibra de vidrio no tejido, impregnado con betún impermeabilizante estabilizado. Tiene aspecto de tablilla irregular con sombreado de doble banda, gránulos cerámicos de color en ambas capas que protegen el asfalto del ultravioleta, cinta antiadherente y polvo mineral en el reverso, y gránulos inhibidores de algas de larga duración.",
         "Cada teja mide 40 7/8 x 13 3/4 in (1,038 x 349 mm) con una exposición de 5 7/8 in (149 mm) y un solape superior de 2 in (50 mm). Un paquete trae 20 tejas y cubre 33.3 sq ft (3.1 m²); un palé de 40 x 53 in lleva 56 paquetes. La zona de clavado ArmourZone es más ancha para instalar más rápido y va reforzada con cinta ArmourZone en el reverso para proteger mejor frente al viento, y un sellador activado por calor une cada hilada.",
         "Es apta para pendientes mayores de 4:12, con underlayment muy recomendado por debajo de 6:12. En pendientes bajas de 2:12 a 4:12 el tablero lleva dos capas de fieltro o una de IKO Ice and Water Protector. Se instala con clavos, nunca grapas, como indica el envoltorio, con arranque IKO en los aleros; en Dynasty no se exige en los bordes. Las limatesas y cumbreras se rematan con una teja de cumbrera aprobada por IKO, como Marathon Plus AR o IKO UltraHP.",
-        "Garantía: limitada de por vida, con protección Iron Clad sin prorrateo durante los primeros 180 meses (15 años) y cobertura prorrateada después. En esos mismos 15 años cubre la voladura por ráfagas de viento de hasta 130 mph, siempre que se haya clavado según el envoltorio y la teja haya sellado o se haya sellado a mano; en Florida no se exige el sellado manual. La garantía contra algas es de 120 meses (10 años)."
+        "Garantía: limitada de por vida, con protección Iron Clad sin prorrateo durante los primeros 180 meses (15 años) y cobertura prorrateada después. En esos mismos 15 años cubre la voladura por ráfagas de viento de hasta 130 mph, siempre que se haya clavado según el envoltorio y la teja haya sellado o se haya sellado a mano; en Florida no se exige el sellado manual. La garantía contra algas es de 120 meses (10 años). La teja es Clase A al fuego."
       ],
       "features": {
         "install": [
@@ -1390,16 +1559,33 @@
       ]
     },
     "bp-suredeck": {
-      "title": "Underlayment Sintético SureDeck",
-      "titleLead": "Underlayment Sintético",
-      "titleAccent": "SureDeck",
-      "description": "Rollo de polipropileno tejido recubierto que cubre mil pies cuadrados, con cara antideslizante para pendientes desde tres en doce.",
-      "highlights": [
-        "Polipropileno tejido recubierto por ambas caras",
-        "Superficie texturizada antideslizante para pisar seguro",
-        "Puede quedar expuesto hasta seis meses",
-        "Apto para pendientes desde tres en doce"
-      ]
+      "title": "SureDeck Sintético Underlayment",
+      "titleLead": "SureDeck Sintético",
+      "titleAccent": "Underlayment",
+      "description": "Underlayment ligero de polipropileno tejido recubierto por ambas caras, con superficie texturizada antideslizante para cubrir mil pies cuadrados completos.",
+      "about": [
+        "SureDeck de Building Products of Canada es un underlayment sintético ligero construido sobre un tejido de polipropileno recubierto por sus dos caras, con una textura trabajada en la capa superior para que la lámina conserve el agarre al pisarla. En ese recubrimiento va un estabilizante ultravioleta, que es lo que permite dejarla abierta sobre el entablado. El conjunto pone una cara no tejida sobre el núcleo tejido y recubierto.",
+        "El rollo mide 1219 mm de ancho por 76.2 m de largo, 48 in por 250 ft, y lleva 92.9 m² o 1,000 sq ft de material. En un palé entran 49 rollos, y el fabricante pide mantenerlos fuera del suelo, protegidos del tiempo y sin apilar más de dos palés. Está previsto bajo tejas asfálticas y otras cubiertas en pendientes de 3:12 o más. Son diez cuadros por rollo, así que un palé completo lleva 49,000 sq ft de superficie ya cubierta.",
+        "La tracción es de 14.9 kN por metro en sentido longitudinal y 8.4 en transversal, 85.1 y 48 lbf por pulgada, frente a un requisito de solo 3.5 kN por metro en ASTM D828. El desgarro supera 3,200 gf según ASTM D1922 y el arranque de la fijación llega a 239 N, 54 lbf, donde la norma pide más de 25 según ASTM D3462. Las tres cifras se miden sobre la lámina acabada, no sobre el tejido sin recubrir. El margen sobre el mínimo es amplio.",
+        "La transmisión de vapor de agua es de 1.07 g por metro cuadrado y día según ASTM E96. Supera el encharcamiento sin goteo según CAN/CSA A220.1, la transmisión de agua líquida según ASTM D4869 sin que llegue humedad al entablado, la flexibilidad en frío según ASTM D1970 y la plegabilidad sin fisuras a 14 F según ASTM D146. En conjunto esos cinco ensayos son lo que piden CAN/CSA A220.1 e ICC-ES AC207 a un underlayment sintético."
+      ],
+      "features": {
+        "install": [
+          "Está previsto bajo tejas asfálticas y otras cubiertas inclinadas en pendientes de 3:12 o más",
+          "La capa superior texturizada antideslizante mantiene el agarre mientras se colocan las hiladas",
+          "El estabilizante ultravioleta del recubrimiento permite dejarla abierta antes del acabado",
+          "Guarda los rollos fuera del suelo y protegidos del tiempo antes de subirlos",
+          "No apiles los palés más de dos en alto, que es lo que indica el fabricante"
+        ],
+        "coverage": [
+          "Un rollo lleva 1,000 sq ft, 92.9 m², con 48 in por 250 ft",
+          "En un palé entran 49 rollos de la membrana",
+          "La tracción cuadruplica los 3.5 kN por metro que pide la norma",
+          "El arranque de la fijación es de 239 N frente a un requisito de 25 lbf",
+          "Clasificación de resistencia al fuego Clase A según ASTM E108",
+          "Listado según CAN/CSA A220.1 y bajo ICC-ES AC207"
+        ]
+      }
     }
   }
 }

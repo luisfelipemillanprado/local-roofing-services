@@ -150,8 +150,6 @@
       "diameter": "Diameter",
       "intake": "Min Intake",
       "perSquare": "Panels per Square",
-      "ribSpacing": "Rib Spacing",
-      "maxLength": "Max Length",
       "pipe": "Pipe Size",
       "base": "Base Size",
       "height": "Height",
@@ -195,7 +193,22 @@
       "paintWarranty": "Paint Warranty",
       "pan": "Pan Type",
       "fastening": "Fastening",
-      "approval": "Approvals"
+      "approval": "Approvals",
+      "tensile": "Tensile Strength",
+      "tear": "Tear Strength",
+      "uvExposure": "Max Exposure",
+      "overlap": "Overlaps",
+      "elongation": "Elongation",
+      "adhesion": "Adhesion to Plywood",
+      "lowTemp": "Low Temp Flexibility",
+      "rollsPerPallet": "Rolls per Pallet",
+      "water": "Water Resistance",
+      "battenGauge": "Batten Gauge",
+      "drape": "Max Drape",
+      "air": "Air Permeance",
+      "pullThrough": "Fastener Pull Through",
+      "reinforcement": "Reinforcement",
+      "staticLoad": "Static Load"
     },
     "specValue": {
       "fiberglassAsphalt": "Fiberglass Asphalt",
@@ -220,7 +233,27 @@
       "penetrating": "Penetrating, Exposed Caps",
       "flatPan": "Flat",
       "striatedPan": "Striated",
-      "polyurethaneCore": "Polyurethane Core"
+      "polyurethaneCore": "Polyurethane Core",
+      "capNails": "Cap nails or staples",
+      "shinglesMetalCedar": "Shingles, metal or cedar",
+      "syntheticPolymer": "Synthetic polymer",
+      "scrimReinforced": "Scrim reinforced",
+      "roofingNails": "Standard roofing nails",
+      "asphaltShingles": "Asphalt shingles",
+      "typeHR": "Type HR impermeable",
+      "tiledSlatedRoofs": "Tiled and slated roofs",
+      "monolithic": "Monolithic three ply",
+      "roofAndWall": "Roofs and walls",
+      "wovenPolypropylene": "Woven polypropylene",
+      "twoSideCoated": "Two side coated",
+      "polyesterFelt": "Non woven polyester felt",
+      "mineralGranules": "Mineral granules or slate",
+      "plasticAsphalt": "Plastic polymer asphalt",
+      "embossedAluminum": "Embossed aluminum",
+      "exposedNoTraffic": "Exposed, no foot traffic",
+      "torchApplied": "Torch applied",
+      "polymerisedAsphalt": "Polymerised plastic asphalt",
+      "aluminumFoil": "Aluar aluminum foil"
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
@@ -247,7 +280,7 @@
       "titleAccent": "Charcoal Shingles",
       "description": "Architectural laminate shingles in deep charcoal, featuring LayerLock technology that considerably widens the nailing zone for a faster, surer fastening.",
       "about": [
-        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Charcoal, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
+        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Charcoal, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind. It meets ASTM D3462 and is rated Class A for fire.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
         "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
@@ -276,7 +309,7 @@
       "titleAccent": "Pewter Gray Shingles",
       "description": "Architectural laminate shingles in soft pewter gray, engineered for exceptional wind resistance and weathering performance across any pitched residential roof.",
       "about": [
-        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Pewter Gray, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
+        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Pewter Gray, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind. It meets ASTM D3462 and is rated Class A for fire.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
         "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
@@ -305,7 +338,7 @@
       "titleAccent": "Barkwood Shingles",
       "description": "Architectural laminate shingles in warm barkwood, reproducing the shadow depth of natural wood shakes without their considerable ongoing maintenance burden.",
       "about": [
-        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Barkwood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
+        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Barkwood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind. It meets ASTM D3462 and is rated Class A for fire.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
         "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
@@ -334,7 +367,7 @@
       "titleAccent": "Hunter Green Shingles",
       "description": "Architectural laminate shingles in rich hunter green, a distinctive roof color settling naturally into wooded lots and heavily shaded settings.",
       "about": [
-        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Hunter Green, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
+        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Hunter Green, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind. It meets ASTM D3462 and is rated Class A for fire.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
         "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
@@ -363,7 +396,7 @@
       "titleAccent": "Shakewood Shingles",
       "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline without visually overwhelming the walls positioned beneath.",
       "about": [
-        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Shakewood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind.",
+        "Timberline HDZ (GAF) is the best selling GAF shingle, a fiberglass asphalt architectural shingle shown here in Shakewood, one of its High Definition colors. LayerLock Technology powers StrikeZone, the largest nailing zone in the industry, and Dura Grip thermal sealant bonds the shingles together once they are exposed to sun and warm temperatures, so they stay in place under high wind. It meets ASTM D3462 and is rated Class A for fire.",
         "Each shingle measures 13 1/4 x 39 3/8 in (337 x 1,000 mm) with a 5 5/8 in (143 mm) exposure. A square takes 64 pieces in 3 bundles. GAF matches it with TimberTex or TimberCrest ridge cap and Pro Start, QuickStart or WeatherBlocker starter strips at eaves and rakes. Install on slopes of 2:12 or greater over a deck of at least 3/8 in (10 mm) plywood or OSB. From 2:12 to under 4:12 the deck takes two layers of GAF Roof Deck Protection; at 4:12 and above, one.",
         "Use zinc coated steel or aluminum roofing nails of 10 to 12 gauge with 3/8 to 7/16 in (10 to 12 mm) heads, long enough to penetrate 3/4 in (19 mm) into the deck, driven flush. The standard pattern is 4 nails about 6 7/8 in (174 mm) from the bottom of the shingle; some codes require 6. Mansard roofs of 21:12 and above are nailed 6 in (152 mm) from the bottom and hand sealed with 4 dabs of shingle tab adhesive.",
         "Warranty: Lifetime coverage against manufacturing defects for the original owner of a single family home, or an eligible second owner. The 15 year WindProven Limited Wind Warranty, with no maximum wind speed, applies to LayerLock shingles installed with the required GAF starter strips, roof deck protection and other qualifying GAF accessories. StainGuard Plus adds a 25 year limited algae warranty using time release algae fighting technology."
@@ -387,9 +420,9 @@
       }
     },
     "brakki-10pc": {
-      "title": "Dark Ribbed Steel Roofing Panels 10 Pack",
-      "titleLead": "Dark Ribbed Steel",
-      "titleAccent": "Roofing Panels 10 Pack",
+      "title": "Grey Ribbed Steel Panels 10 Pack",
+      "titleLead": "Grey Ribbed Steel",
+      "titleAccent": "Panels 10 Pack",
       "description": "Grey ribbed galvanized steel roofing panels supplied as a ten piece package covering approximately seventy five square feet, screws included.",
       "about": [
         "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in grey, each one measuring 61.02 x 17.72 in (1,550 x 450 mm), and ten come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site at all.",
@@ -474,76 +507,178 @@
       "description": "Insulated sandwich panel combining a pressed tile facing with polyurethane core, measuring one meter wide in thicknesses reaching eighty millimeters."
     },
     "certainteed-roofrunner": {
-      "title": "RoofRunner Synthetic Underlayment",
-      "titleLead": "RoofRunner Synthetic",
+      "title": "RoofRunner Underlayment",
+      "titleLead": "RoofRunner",
       "titleAccent": "Underlayment",
-      "description": "Scrim reinforced synthetic roll covering ten squares, with a slip resistant walking surface for safer work on steep wet decks.",
-      "highlights": [
-        "Slip resistant surface, even when wet",
-        "Large roll, four feet by two hundred fifty",
-        "Rated for ninety days of UV exposure",
-        "Meets ASTM D226 and D4869 physical requirements"
-      ]
+      "description": "Scrim reinforced synthetic underlayment covering ten squares, offering a slip resistant walking surface for safer work across steep wet decks.",
+      "about": [
+        "RoofRunner is CertainTeed's lightweight synthetic polymer underlayment, built as a scrim reinforced sheet that goes down on the roof deck as a water resistant layer beneath asphalt shingles. A top surface treatment gives it grip that holds even when the sheet is wet, which is the part crews notice first, and the wide roll cuts the number of courses needed to dry in a plane. CertainTeed places it above felt and other synthetics in its own line.",
+        "The roll measures 48 in wide by 250 ft long and holds 1,000 sq ft of material. Once the side and end laps are taken out, net coverage works out at 937.5 sq ft, so roughly six percent of the roll goes into the overlaps. Each roll weighs 23 lb, light enough to carry up a ladder in one hand, and a pallet takes 56 of them. The sheet is 4 ft wide, so each course dries a 4 ft band of deck. A pallet therefore carries about 52,500 sq ft of net coverage.",
+        "It is fastened with standard roofing nails and is compatible with most asphalt shingles, with the underlayment warranty tracking whatever coverage period the shingle carries. CertainTeed rates it for up to 90 days of ultraviolet exposure, a figure drawn from standard accelerated QUV testing rather than from time actually spent uncovered on a roof. CertainTeed lists it as a water resistant layer rather than a waterproofing membrane.",
+        "It satisfies the physical requirements of both ASTM D226 and ASTM D4869, the two specifications written for asphalt saturated felt, which is the comparison most inspectors reach for. It carries UL 790 and ASTM E108 Class A fire resistance when paired with a Class A shingle, is listed under ICC-ES AC188 and holds Florida Approval FL 21841. Both ASTM figures cover the physical requirements only, not a fire or wind rating of their own."
+      ],
+      "features": {
+        "install": [
+          "Goes down on the roof deck as the water resistant layer under asphalt shingles, never as the finished roof",
+          "Fastens with standard roofing nails, so no special cap fastener is needed for the shingle application",
+          "The treated top surface keeps its grip wet, which matters most on steep planes early in the morning",
+          "Wide 4 ft courses cover a plane in fewer passes than felt, cutting the number of laps to align",
+          "Custom logo printing is available on request through a local CertainTeed representative"
+        ],
+        "coverage": [
+          "One roll holds 1,000 sq ft of material at 48 in by 250 ft",
+          "Net coverage is 937.5 sq ft once side and end laps are deducted",
+          "Each roll weighs 23 lb and a pallet carries 56 rolls",
+          "Rated for up to 90 days of exposure under accelerated QUV testing",
+          "Class A fire resistance to UL 790 and ASTM E108 with a Class A shingle",
+          "The warranty follows the coverage period of the shingle laid over it"
+        ]
+      }
     },
     "protect-a1": {
-      "title": "Protect A1 Roofing Membrane",
-      "titleLead": "Protect A1",
-      "titleAccent": "Roofing Membrane",
-      "description": "Vapor impermeable roof underlay that keeps the roof airtight and watertight beneath the tiles, in rolls forty five meters long.",
-      "highlights": [
-        "Type HR underlay with high vapor resistance",
-        "Polypropylene nonwoven coated with a PP and PE film",
-        "Class W1 watertightness and unrestricted wind uplift use",
-        "Made in the UK and approved by BM TRADA"
-      ]
+      "title": "Protect A1 Type HR Roofing Underlay",
+      "titleLead": "Protect A1 Type HR",
+      "titleAccent": "Roofing Underlay",
+      "description": "Vapour impermeable underlay keeping the roof airtight and watertight beneath tiles, supplied in generous rolls reaching forty five metres long.",
+      "about": [
+        "Protect A1 is a Type HR impermeable roof underlay produced in the United Kingdom. A polypropylene non woven layer is coated on one face with a continuous film of polypropylene and polyethylene blend, and the sheet is black top and bottom with print on the upper face as installed. It is UKCA and CE marked, independently approved by BM TRADA and carries a Q Mark certification. It was developed to get past the drawbacks of Type 1F and 5U felts.",
+        "Mass is 145 g per square metre at a thickness of 0.6 mm, and it comes as 1 m by 45 m or 1.5 m by 30 m rolls. Water vapour transmission resistance is 112 MNs per gram, an Sd of 22 m, to BS EN ISO 12572, which satisfies the permeability that BM TRADA and the NHBC recommend. It stays flexible at low temperature and resists tearing at the nails. Thickness and mass are held across both roll formats. It also resists damage from handling on site.",
+        "Wind uplift use is unrestricted across the United Kingdom and Ireland, Zones 1 to 5, under BS 5534:2018, and at a batten gauge of 345 mm or less the sheet resists 1,732 Pa of wind pressure. Nail tear strength is 230 N along the roll and 234 N across it to BS EN 12310-1, while tensile strength reaches 287 N and 274 N to BS EN 12311-1. Both figures are measured with the modifications named in the standards. It is a secondary layer, never the roof itself.",
+        "Because it is a high resistance underlay, extra ventilation is required to BS 5250: a warm roof wants 25,000 mm² per metre at the eaves and 5,000 at the ridge, and a cold roof 10,000 at the eaves and 5,000 at the ridge behind a well sealed ceiling. Resistance to water penetration to BS EN 1928 with modifications is a pass at Class W1. A separate vapour control layer goes on the warm side of the insulation. Dust ingress is held back as well."
+      ],
+      "features": {
+        "install": [
+          "Lay it to BS 5534, BS 8000 Part 6 and the maker's own instructions on any pitched roof, new build or existing",
+          "Keep the batten gauge at 345 mm or less to hold the published 1,732 Pa of wind uplift resistance",
+          "Over rigid sarking, place counter battens of at least 12 mm and limit the drape of the sheet to 10 mm",
+          "Where it is laid straight onto sarking, add counter battens and tiling battens above to avoid trapping moisture",
+          "In a warm roof, add a separate vapour control layer on the warm side of the insulation"
+        ],
+        "coverage": [
+          "A 1 m by 45 m roll covers 45 m² and a 1.5 m by 30 m roll covers the same",
+          "Unrestricted wind uplift use across all five UK and Ireland exposure zones",
+          "Works as the secondary weather resisting layer against wind driven rain and snow",
+          "Also holds back tile uplift and the dust that gets through a tiled covering",
+          "Warm roofs need 25,000 mm² per metre of ventilation at eaves, 5,000 at the ridge",
+          "Cold roofs need 10,000 mm² per metre at eaves and 5,000 at the ridge"
+        ]
+      }
     },
     "exoperm-mono": {
       "title": "Exoperm Mono 150 Breather Membrane",
       "titleLead": "Exoperm Mono 150",
       "titleAccent": "Breather Membrane",
-      "description": "Monolithic breather membrane with high vapor openness, strong tear strength and an airtight seal, covering seventy five square meters each.",
-      "highlights": [
-        "Three ply build with a monolithic functional layer",
-        "Highly vapor open yet fully airtight",
-        "Four months of UV resistance on roofs",
-        "Performs from minus forty to eighty degrees Celsius"
-      ]
+      "description": "Highly breathable monolithic membrane serving as sarking, roof underlay and windtight barrier across seventy five square metres per single roll.",
+      "about": [
+        "Exoperm Mono 150 from Partel is a three ply sarking membrane whose middle layer is monolithic rather than microporous, so vapour crosses it by molecular diffusion instead of through pores that dirt or surfactants could block. It works as sarking, as a roof underlay and as a windtight barrier, on pitched roofs and on timber frame walls alike. The three plies are laminated so the functional layer sits protected between two covers.",
+        "One roll is 1.5 m by 50 m and covers 75 m², which is 807 sq ft, at a mass of 150 g per square metre measured to EN 1849-2. The vapour diffusion resistance is an Sd of just 0.07 m to EN ISO 12572 method C, among the most open figures published for a roofing membrane, while air permeance stays below 0.001 cubic metres per square metre hour. Partel measures both figures on the finished membrane rather than on the functional layer alone.",
+        "Water resistance is Class W1 to EN 1928, and Partel publishes that class as holding both before and after artificial ageing, which is the part that matters over a long build programme. Tensile strength is 255 N in the machine direction and 145 N across it per 50 mm to EN 12311-1, and nail tear resistance is 130 N and 160 N to EN 12310-1. Both strengths are quoted per 50 mm of width, the convention in the European standards.",
+        "The membrane holds its properties from 40 degrees below zero up to 80 degrees Celsius. Partel rates ultraviolet exposure at six months on a wall and four months on a roof, so it can sit open through a winter if the cladding slips. Partel does not publish a reaction to fire class or a wind uplift figure for this membrane. The membrane is listed for pitched roofs and for timber frame walls, and Partel supplies it through its own USA arm."
+      ],
+      "features": {
+        "install": [
+          "Goes down as sarking, roof underlay and windtight layer in one sheet, on pitched roofs or timber frame walls",
+          "The monolithic middle layer diffuses vapour, so dust and surfactants cannot block pores the way they do on microporous sheets",
+          "Holds its properties from 40 below zero up to 80 degrees Celsius while the roof is open",
+          "Integrated adhesive tapes are available on the Connex version of the same membrane",
+          "Keep it covered within four months on a roof, or six months on a wall"
+        ],
+        "coverage": [
+          "One roll covers 75 m², which is 807 sq ft, at 1.5 m by 50 m",
+          "Mass is 150 g per square metre to EN 1849-2",
+          "Vapour resistance is an Sd of 0.07 m, about as open as membranes get",
+          "Air permeance stays under 0.001 cubic metres per square metre hour",
+          "Water resistance is Class W1 before and after artificial ageing",
+          "No reaction to fire class or wind uplift figure is published for it"
+        ]
+      }
     },
     "bmi-chova": {
-      "title": "Chova Politaber Self Protected Membrane",
-      "titleLead": "Chova Politaber",
-      "titleAccent": "Self Protected Membrane",
-      "description": "Torch applied SBS membrane with a mineral finish, supplied in rolls that each cover ten square meters of flat roof.",
-      "highlights": [
-        "Polyester felt reinforcement with a mineral granule top face",
-        "Top sheet for exposed two layer roofing systems",
-        "Four kilograms of modified bitumen per square meter",
-        "Stays flexible down to minus fifteen degrees Celsius"
-      ]
+      "title": "Politaber Combi 40/G SBS Membrane",
+      "titleLead": "Politaber Combi 40/G",
+      "titleAccent": "SBS Membrane",
+      "description": "Torch applied elastomeric membrane finished with mineral granules, supplied in rolls that individually cover ten square meters of flat roofing.",
+      "about": [
+        "Politaber Combi 40/G is a modified bitumen sheet from ChovA, an LBM designated LBM-40/G-FP by AENOR. Bitumen modified with SBS elastomers sits on a reinforced non woven polyester felt, the underside is finished with plastic film and the face carries mineral granules or slate. It is bonded to the deck with a torch, and one edge is a printed 8 cm overlap band. The sheet leaves the factory free of visible defects under EN 1850-1.",
+        "The roll is 1 m by 10 m at 4 kg per square metre, so a roll covers 10 m², and a pallet carries 250 m² of membrane. Tensile strength to EN 12311-1 is 700 N per 5 cm along the roll and 450 N across it, elongation is 45 percent in both directions, static load resistance to EN 12730 clears 15 kg and impact resistance to EN 12691 stays at 20 mm or under. Mass per unit area is measured to EN 1849-1 with a tolerance of minus five to plus ten percent.",
+        "Cold flexibility to EN 1109 holds at 15 degrees below zero, and after artificial ageing to EN 1296 it still folds at 5 below. Flow resistance reaches 100 degrees Celsius, watertightness to EN 1928 is a pass, dimensional stability stays within half a percent, and granule loss measures 20 percent to EN 12039. Do not lay it below 5 degrees below zero. Granule colours are listed in the ChovA price schedule rather than on the datasheet.",
+        "ChovA is explicit about where this sheet belongs: it is the top layer of a two layer system, either left exposed to the weather or covered by heavy protection. The datasheet rules out three uses, namely a single layer system on its own, the lower layer of a two layer build, and any green roof. External fire performance is BROOF(t1) and reaction to fire is Class E. The conformity certificate is numbered 0099/CPD/A85/0016."
+      ],
+      "features": {
+        "install": [
+          "Bond it to the deck with a torch, heating the underside until the bitumen flows and pressing the sheet down",
+          "Follow the printed 8 cm band along the edge, which is the overlap the datasheet specifies",
+          "Never apply it at a deck or air temperature below 5 degrees Celsius under zero",
+          "Keep the rolls on their original pallets and in the position the label shows until they go up",
+          "Use it as the top layer of a two layer build, never on its own and never as the lower sheet"
+        ],
+        "coverage": [
+          "One roll covers 10 m² at 1 m by 10 m and 4 kg per square metre",
+          "A pallet carries 250 m² of the membrane",
+          "Approved either left exposed to the weather or under heavy protection",
+          "Ruled out for single layer systems, lower layers and green roofs",
+          "External fire performance is BROOF(t1) and reaction to fire is Class E",
+          "CE marked since 2006 under UNE-EN 13707, notified body 0099"
+        ]
+      }
     },
     "kovertech-gold": {
       "title": "KoverTech Gold Aluminum Membrane",
       "titleLead": "KoverTech Gold",
       "titleAccent": "Aluminum Membrane",
-      "description": "Asphalt membrane topped with embossed aluminum that reflects heat and resists cracking in cold, covering ten square meters per roll.",
-      "highlights": [
-        "Polymer modified asphalt on a high density polyethylene core",
-        "Embossed aluminum face cuts heat absorbed from sunlight",
-        "Does not crack at low temperatures",
-        "Made for exposed roofs with no foot traffic"
-      ]
+      "description": "Asphalt membrane topped with embossed aluminum that reflects solar radiation and resists cracking, covering approximately ten square meters per roll.",
+      "about": [
+        "KoverTech Gold is built in four layers. The face is embossed aluminium foil 36 microns thick, under it sits a central reinforcement of high density polyethylene at 50 microns, then the body of plastic asphalt drawn from polymer modified bituminous bases with thermoplastic polymers, and the underside carries a polyethylene anti adhesive film that comes off as the sheet is torched. KoverTech names the grade Gold for that aluminium face.",
+        "A roll weighs 45 kg and covers about 10 m² at 1 m by 10 m. The embossed face is the point of the product: it reflects a good part of the solar radiation that would otherwise be absorbed, which keeps the membrane and the space under it cooler, and the foil lets the sheet stay exposed to ultraviolet light rather than needing a covering. The maker credits it with greater flexibility, more elongation and better mechanical resistance than its plainer lines.",
+        "It goes onto slabs, vaults, galvanised sheet and fibre cement roofs, and flat or domed roofs at any pitch. The substrate has to be clean, smooth and uniform, and it takes a coat of asphalt primer or emulsion first. Roll it transverse to the slope, following the direction water runs, and torch the underside with continuous pressure as it goes down. Any pitch is accepted as long as the water has somewhere to go. The film releases as the flame passes.",
+        "Overlaps run 8 to 10 cm between rolls, and terminations are doubled with at least 15 cm of overlap. One limit matters more than any other here: it must never go under a cement, lime and sand screed, because contact between those materials and the aluminium oxidises the foil and breaks the membrane down. It is not walkable once laid. No wind uplift figure, fire class or warranty term is published for it. It is sold by the roll, not the square metre."
+      ],
+      "features": {
+        "install": [
+          "Prepare a clean, smooth and uniform substrate and prime it with asphalt primer or emulsion",
+          "Roll it transverse to the slope, following the direction the water runs off the plane",
+          "Torch the underside and keep continuous pressure on the roll as the sheet beds down",
+          "Lap 8 to 10 cm between rolls and double the membrane at terminations with 15 cm of overlap",
+          "Never lay it under a cement, lime and sand screed, which oxidises the aluminium face"
+        ],
+        "coverage": [
+          "One roll weighs 45 kg and covers about 10 m² at 1 m by 10 m",
+          "Goes on slabs, vaults, galvanised sheet and fibre cement roofs",
+          "Suits flat and domed roofs at any pitch",
+          "Meant to stay exposed, and it is not walkable once laid",
+          "The embossed foil reflects solar radiation and lowers heat absorption",
+          "The aluminium face is what lets it sit in ultraviolet light uncovered"
+        ]
+      }
     },
     "ormiflex-profesional": {
       "title": "Ormiflex Profesional Aluminum Membrane",
       "titleLead": "Ormiflex Profesional",
       "titleAccent": "Aluminum Membrane",
-      "description": "Reinforced asphalt membrane with an aluminum face, rolled out and torched over flat decks, ten square meters to the roll.",
-      "highlights": [
-        "Aluminum foil top resists ultraviolet rays",
-        "Central and lower polyethylene reinforcement",
-        "Suits flat, curved and metal sheet roofs",
-        "Can also serve as a vapor barrier"
-      ]
+      "description": "Reinforced asphalt membrane faced with aluminum foil, rolled out and torched over inaccessible flat decks, covering roughly ten square meters.",
+      "about": [
+        "Ormiflex Profesional is made from number one plastic asphalt, polymerised, over a central and lower reinforcement of high density polyethylene, with a double asphalt layer and a face of Aluar aluminium foil. Ormiflex separates its lines by the thickness of that foil: Premium carries 40 microns, Profesional carries 30 and Maxiplas carries 25. So the line name printed on the roll tells you the gauge of the foil you are buying.",
+        "The Profesional line is sold in 10 m² rolls, marked by a coloured tape at the end: red tape for the 40 kg presentation and yellow tape for the 35 kg one, which is the roll offered here. At 1 m by 10 m, one roll dries in ten square metres of deck, and the aluminium face means it can be left uncovered once it is down. Ormiflex publishes the presentation by weight rather than by thickness, so the tape colour is the quickest check on site.",
+        "It is for waterproofing that stays exposed to the weather and takes no foot traffic: building rooftops, flat or domed roofs nobody walks on, galvanised sheet or fibre cement, and the lower course of a two layer green roof build. Ormiflex also lists it as a vapour barrier, which is where the aluminium face earns its place. Ormiflex does not publish a wind uplift figure, a reaction to fire class or a warranty term for the line.",
+        "The substrate is primed first with Ormiflex A or with Pintura Asfáltica Profesional, and any existing crack or fissure is sealed with Ormiflex 5 before the sheet goes down. The underside is heated so the asphalt bonds to the substrate, rolls lap 8 to 10 cm, and the joints are then painted with Ormiflex 8 aluminised asphalt paint. Those four steps are the whole sequence Ormiflex specifies for the membrane. Nothing else is applied over the sheet."
+      ],
+      "features": {
+        "install": [
+          "Prime the substrate with Ormiflex A or with Pintura Asfáltica Profesional before anything else",
+          "Seal existing cracks and fissures with Ormiflex 5 so they do not telegraph through the sheet",
+          "Heat the underside of the membrane until the asphalt bonds down onto the primed substrate",
+          "Lap 8 to 10 cm between rolls, keeping every lap running with the fall of the roof",
+          "Paint the finished joints with Ormiflex 8 aluminised asphalt paint to protect them"
+        ],
+        "coverage": [
+          "One roll covers 10 m² at 1 m by 10 m and weighs 35 kg",
+          "Yellow tape marks the 35 kg roll, red tape the 40 kg one",
+          "Suits rooftops and flat or domed roofs that take no foot traffic",
+          "Also goes over galvanised sheet and fibre cement roofing",
+          "Serves as the lower course of a two layer green roof build",
+          "Ormiflex also lists it as a vapour barrier for the build up"
+        ]
+      }
     },
     "gaf-everguard-tpo-quick-spray-7792": {
       "title": "EverGuard TPO Quick Spray Adhesive",
@@ -618,9 +753,9 @@
       ]
     },
     "brakki-19pc": {
-      "title": "Dark Ribbed Steel Roofing Panels 20 Pack",
-      "titleLead": "Dark Ribbed Steel",
-      "titleAccent": "Roofing Panels 20 Pack",
+      "title": "Grey Ribbed Steel Panels 20 Pack",
+      "titleLead": "Grey Ribbed Steel",
+      "titleAccent": "Panels 20 Pack",
       "description": "Ribbed galvanized steel roofing panels supplied as a twenty piece package covering approximately one hundred eighty square feet, screws included.",
       "about": [
         "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in grey, each one measuring 73.23 x 17.72 in (1,860 x 450 mm), and twenty of them come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site.",
@@ -709,24 +844,58 @@
       "titleLead": "Tyvek Protec 120",
       "titleAccent": "Underlayment",
       "description": "High traction synthetic underlayment that shields the deck from moisture with confident walkability, covering one thousand square feet per roll.",
-      "highlights": [
-        "Four layer build with industry leading walkability",
-        "Stays exposed up to three months before cladding",
-        "Class A fire rating under ASTM E108",
-        "Listed for the Florida HVHZ and Miami Dade"
-      ]
+      "about": [
+        "DuPont Tyvek Protec 120 is a four layer synthetic roofing underlayment built on an embossed non woven technology. Grooves in the top layer carry dirt and water off the surface, a lamination layer acts as the water barrier, a woven polypropylene scrim adds strength, and a slip resistant coating grips the deck. It stays walkable dry, wet, hot, cold or dirty, lays flat and holds chalk marks. It belongs to a portfolio that also includes Protec 160 and 200.",
+        "The standard roll is 48 in by 250 ft, ten squares or 1,000 sq ft, and a two square roll of 48 in by 50 ft is also offered. Nominal thickness is 0.248 mm, 9.76 mils, at about 25 lb per roll. Tensile strength under ASTM D751 reaches 88.5 lbf machine direction and 79.4 lbf cross direction, and trapezoid tear under ASTM D4533 measures 25 and 40 lbf. Elongation under the same standard runs 21.5 percent machine direction and 19.9 percent cross direction.",
+        "It is specified for slopes of 2:12 and greater under asphalt shingles, metal or cedar cladding. Courses run horizontally in shingle fashion from the eave, following the printed lap lines for 4 in course overlaps and 6 in end laps, with end laps offset 6 ft between courses. Fasteners go 12 in on center along every lap plus a single row 24 in on center down the middle of the field. In zones at or above 100 mph every printed location is fastened.",
+        "Permeance is under 0.05 perms, so it is a vapor barrier and the space below the sheathing has to be ventilated. It passes ASTM E108 Class A for fire and ASTM D4869 for liquid water, meets ASTM D226 Types I and II and ASTM D8257, and is listed under ICC-ES AC188 through Intertek CCRR-0394 and for the Florida HVHZ and Miami Dade. It is a secondary layer, never the primary water barrier, and it has to be covered by the final cladding within three months."
+      ],
+      "features": {
+        "install": [
+          "Lay courses horizontally in shingle fashion from the eave edge, following the printed lap lines for 4 in course overlaps and 6 in end laps",
+          "Offset the end laps of successive courses by 6 ft and apply the sheet taut and wrinkle free, never stretched",
+          "Fasten 12 in on center along course and end laps plus a single row 24 in on center along the middle of the field",
+          "Use 1 in cap nails or cap staples under metal and cedar; uncapped fasteners only under shingles laid within 36 hours",
+          "Run it over the drip edge at eaves and under it at rakes, lapping at least 8 in onto adjoining walls"
+        ],
+        "coverage": [
+          "One standard roll covers 1,000 sq ft, ten squares, at 48 in by 250 ft",
+          "A two square roll of 48 in by 50 ft covers 200 sq ft for small areas",
+          "Slopes of 4:12 and greater take a single layer over the whole deck",
+          "Slopes of 2:12 to under 4:12 take two layers, starting from a 26 in undercourse and lapping each sheet 26 in",
+          "Valleys are lined first, with the horizontal courses lapping that sheet by 6 in",
+          "Covered by a 30 year limited replacement warranty for professional installers, and it must be clad within three months"
+        ]
+      }
     },
     "gcp-5003000": {
-      "title": "Grace Ultra Self Adhered Underlayment",
-      "titleLead": "Grace Ultra",
-      "titleAccent": "Self Adhered Underlayment",
-      "description": "Self adhered butyl underlayment that bonds directly to the deck and resists heat up to a full three hundred degrees.",
-      "highlights": [
-        "Pure butyl adhesive on a cross laminated film",
-        "Withstands heat up to three hundred degrees Fahrenheit",
-        "Suited under copper, zinc and weathering steel roofs",
-        "Leave exposed no longer than sixty days"
-      ]
+      "title": "Grace Ultra Butyl Underlayment",
+      "titleLead": "Grace Ultra Butyl",
+      "titleAccent": "Underlayment",
+      "description": "Self adhered butyl underlayment bonding directly onto the structural deck, withstanding temperatures approaching three hundred degrees beneath architectural metal roofing.",
+      "about": [
+        "Grace Ultra pairs two waterproofing materials: an aggressive butyl rubber based adhesive backed by a layer of high density cross laminated polyethylene. At 30 mil, 0.76 mm, the gray black membrane stays easy to handle and thin enough that it never telegraphs through the roof covering, and a plastic release liner protects the adhesive until the sheet is pressed down onto the deck. The slip resistant face adds traction underfoot.",
+        "A roll is 34 in by 70 ft, 198 sq ft or 18.4 m2, weighs 42 lb and ships in corrugated cartons at 25 rolls per pallet. Tensile strength is 250 psi and elongation 250 percent under ASTM D412 with the modified Die C, thickness follows ASTM D3767 method A, adhesion to plywood is 3.0 lb per inch of width under ASTM D903, and installed weight tops out at 0.22 lb per sq ft. It meets the building code standards for nail sealability.",
+        "It is the right choice wherever the membrane has to hold high service temperatures for long stretches: the desert southwest, alpine roofs, and under copper, zinc or Cor-Ten panels that conduct heat straight into the underlayment. The butyl resists 300 F without degrading. Lay it in fair weather with air, deck and membrane at 40 F or above, on a clean dry continuous deck. Side laps run a minimum of 3 1/2 in and end laps a minimum of 6 in.",
+        "Permeance is capped at 0.05 perms under ASTM E96, so it doubles as a vapor barrier and the roof build has to be ventilated. It stays unaffected at 20 F below zero under ASTM D1970. Leave it exposed no more than 60 days. It is covered by ICBO Report 3997 and by UL R13399, Class A under fiberglass shingles and Class C under organic felt. Concrete, masonry and DensGlass Gold need Perm-A-Barrier WB primer at 250 to 350 sq ft per gallon."
+      ],
+      "features": {
+        "install": [
+          "Install straight onto a clean, dry, continuous deck of plywood, wood composition, plank, metal, concrete or gypsum sheathing",
+          "Work in fair weather with the air, the deck and the membrane at 40 F or above, and lay the covering at that temperature too",
+          "Cut the roll into 10 to 15 ft lengths, reroll loosely, peel back 1 to 2 ft of liner and press down with heavy hand pressure",
+          "Hold side laps at 3 1/2 in and end laps at 6 in, always working from the low point up so that every lap sheds water",
+          "Prime concrete, masonry and DensGlass Gold with Perm-A-Barrier WB at 250 to 350 sq ft per gallon; clean wood needs none"
+        ],
+        "coverage": [
+          "One roll covers 198 sq ft at 34 in by 70 ft and weighs 42 lb, with 25 rolls to a pallet",
+          "Full deck coverage is what the maker recommends against wind driven rain",
+          "For ice dams it runs from the eave past the highest expected dam height",
+          "A double layer suits eaves and valleys in climates with severe ice damming",
+          "Valleys are membraned first, then the eaves, then the courses up the roof",
+          "Rated to 300 F, unaffected at 20 F below zero, and no more than 60 days exposed"
+        ]
+      }
     },
     "gaf-everguard-wb181": {
       "title": "EverGuard WB181 Adhesive",
@@ -987,7 +1156,7 @@
       "description": "Architectural shingles incorporating a SureNail fabric strip that reinforces the nailing zone against powerful winds on particularly exposed coastal roofs.",
       "about": [
         "Duration Designer (Owens Corning) is an architectural shingle from the TruDefinition Duration series, in Slatestone Grey. Its patented SureNail Technology is the only reinforced nailing zone on the face of a shingle: a woven fabric strip embedded across both layers, giving Triple Layer Protection against nail pull and up to 200% wider bond between the layers than standard shingles. Tru Bond weathering grade asphalt sealant holds each course down.",
-        "Each shingle is nominally 13 1/4 x 39 3/8 in with a 5 5/8 in exposure. A square takes 64 shingles in 3 bundles, covering 98.4 sq ft. StreakGuard blends copper lined 3M granules into the surface against blue green algae; Owens Corning Hip and Ridge shingles match the Designer colors. The deck can be 6 in boards, 3/8 in plywood or 7/16 in OSB. From 4:12 up, Owens Corning synthetic underlayment or one meeting ASTM D8257; from 2:12 to under 4:12, two layers.",
+        "Each shingle is nominally 13 1/4 x 39 3/8 in with a 5 5/8 in exposure. A square takes 64 shingles in 3 bundles covering 98.4 sq ft. StreakGuard blends copper lined 3M granules against blue green algae; Owens Corning Hip and Ridge shingles match the Designer colors. The deck can be 6 in boards, 3/8 in plywood or 7/16 in OSB. From 4:12 up, Owens Corning synthetic underlayment or one meeting ASTM D8257; from 2:12 to under 4:12, two layers.",
         "Use galvanized steel, stainless steel or aluminum nails with a minimum 12 gauge shank and 3/8 in head, placed inside the SureNail fastening area and driven at least 3/4 in into the wood deck or through it by 1/4 in, preferably meeting ASTM F1667. Slopes over 60 degrees (21 in per foot) require six nails and four spots of asphalt roofing cement per shingle. Store bundles flat in a covered, ventilated area below 110°F, handling them with care below 40°F.",
         "Warranty: Limited Lifetime. Wind coverage reaches up to 160 mph when the Owens Corning component requirements are met and starter shingles are installed on both the eaves and the rakes. The 25 year algae resistance coverage, effective January 1, 2024, requires an approved Owens Corning Hip and Ridge product. The Class 3 impact rating comes from laboratory testing and does not guarantee all weather resistance; hail damage is excluded."
       ],
@@ -1274,7 +1443,7 @@
         "Dynasty (IKO) is a heavyweight laminated shingle, shown here in Emerald Green, made on a dimensionally stable non woven glass fiber mat impregnated with stabilized waterproofing bitumen. It has a random shake look with high contrast dual band shadow coloring, colored ceramic granules on both layers to protect the asphalt from ultraviolet radiation, release tape and mineral powder on the underside, and algae inhibiting granules for lasting resistance.",
         "Each shingle measures 40 7/8 x 13 3/4 in (1,038 x 349 mm) with a 5 7/8 in (149 mm) exposure and a 2 in (50 mm) headlap. A bundle holds 20 shingles and covers 33.3 sq ft (3.1 m²); a pallet of 40 x 53 in carries 56 bundles. The ArmourZone nailing area is wider for faster installation and is backed by ArmourZone tape on the reverse side for added protection against wind loss, and a thermally activated sealant bonds each course.",
         "Suitable for slopes greater than 4:12, with underlayment strongly recommended below 6:12. Low slopes from 2:12 to 4:12 need two plies of felt or one of IKO Ice and Water Protector. Install it with roofing nails, never staples, exactly as printed on the bundle wrapper, with IKO starter strip shingles at the eaves; rake starters are not required for Dynasty. Cap hips and ridges with an IKO approved shingle such as Marathon Plus AR or IKO UltraHP.",
-        "Warranty: Limited Lifetime, with non prorated Iron Clad Protection for the first 180 months (15 years) and prorated coverage after that. For the same 15 years it is covered against wind blow off for gusts up to 130 mph, provided it was nailed as the wrapper instructs and has sealed down or been hand sealed; manual sealing is not required in Florida. The algae resistance warranty runs 120 months (10 years)."
+        "Warranty: Limited Lifetime, with non prorated Iron Clad Protection for the first 180 months (15 years) and prorated coverage after that. For the same 15 years it is covered against wind blow off for gusts up to 130 mph, provided it was nailed as the wrapper instructs and has sealed down or been hand sealed; manual sealing is not required in Florida. The algae resistance warranty runs 120 months (10 years). It carries a Class A fire rating."
       ],
       "features": {
         "install": [
@@ -1393,13 +1562,30 @@
       "title": "SureDeck Synthetic Underlayment",
       "titleLead": "SureDeck Synthetic",
       "titleAccent": "Underlayment",
-      "description": "Coated woven polypropylene roll covering ten squares, with a slip resistant face for roofs pitched three in twelve and steeper.",
-      "highlights": [
-        "Woven polypropylene coated on both sides",
-        "Textured anti slip surface for sure footing",
-        "Can stay exposed for up to six months",
-        "Rated for roof slopes of three in twelve and up"
-      ]
+      "description": "Lightweight woven polypropylene underlayment coated on both faces, finished with a textured antislip surface across one full thousand square feet.",
+      "about": [
+        "SureDeck from Building Products of Canada is a lightweight synthetic roofing underlayment built on a woven polypropylene fabric that is coated on both faces, with a textured surface worked into the top coat so the sheet keeps its grip underfoot. An ultraviolet stabiliser goes into that coating, which is what lets the membrane sit open on the deck rather than being dried in the same day. The build puts a non woven face over the coated woven core.",
+        "The roll is 1219 mm wide by 76.2 m long, 48 in by 250 ft, and carries 92.9 m² or 1,000 sq ft of material. A pallet holds 49 rolls, and the maker asks that they be kept off the ground, protected from weather and never stacked more than two pallets high. It is specified under asphalt shingles and other roofing on slopes of 3:12 and greater. That works out at ten squares per roll, so one pallet carries 49,000 sq ft of cover.",
+        "Tensile strength is 14.9 kN per metre in the machine direction and 8.4 across it, 85.1 and 48 lbf per inch, against a requirement of only 3.5 kN per metre in ASTM D828. Tear resistance clears 3,200 gf under ASTM D1922 and fastener pull through reaches 239 N, 54 lbf, where the standard asks for more than 25 under ASTM D3462. All three figures are measured on the finished sheet, not on the uncoated scrim. The margin over the minimum is wide.",
+        "Water vapour transmission is 1.07 g per square metre per day to ASTM E96. It passes water ponding with no dripping under CAN/CSA A220.1, liquid water transmission under ASTM D4869 with no wetness reaching the deck, low temperature flexibility under ASTM D1970, and pliability with no cracking at 14 F under ASTM D146. Taken together those five tests are what CAN/CSA A220.1 and ICC-ES AC207 ask of a synthetic roofing underlayment."
+      ],
+      "features": {
+        "install": [
+          "Specified under asphalt shingles and other steep slope roofing on pitches of 3:12 and greater",
+          "The textured anti slip top coat keeps traction on the sheet while courses are being laid",
+          "An ultraviolet stabiliser in the coating lets it stay open on the deck before the cladding goes on",
+          "Store the rolls off the ground and protected from the weather before they go up",
+          "Never stack the pallets more than two high, which is what the maker specifies"
+        ],
+        "coverage": [
+          "One roll carries 1,000 sq ft, 92.9 m², at 48 in by 250 ft",
+          "A pallet holds 49 rolls of the membrane",
+          "Tensile strength runs four times the 3.5 kN per metre the standard asks",
+          "Fastener pull through is 239 N against a requirement of 25 lbf",
+          "Class A fire resistance rating to ASTM E108",
+          "Listed to CAN/CSA A220.1 and under ICC-ES AC207"
+        ]
+      }
     }
   }
 }
