@@ -1199,8 +1199,7 @@
           "Tablero de tablas de 6 in, contrachapado de 3/8 in u OSB de 7/16 in",
           "Underlayment sintético en 4:12 o más; dos capas de 2:12 a menos de 4:12",
           "Seis clavos y 4 puntos de cemento asfáltico en pendientes de más de 21 in por pie",
-          "El sellador necesita varios días de sol directo; en tiempo frío puede no sellar hasta que el clima se temple",
-          "Los paquetes se almacenan planos, bajo techo y ventilados a menos de 110°F"
+          "El sellador necesita varios días de sol directo; en tiempo frío puede no sellar hasta que el clima se temple"
         ],
         "coverage": [
           "Cobertura limitada de por vida contra defectos de fabricación, transferible",
@@ -1545,15 +1544,15 @@
           "Sobresale del borde 1/4 a 3/4 in, con la tira adhesiva junto al borde",
           "4 clavos por pieza, de 1 1/2 a 3 in sobre el alero, nunca a través del sellador",
           "Se cortan 6 in de la primera pieza para desfasar las juntas",
-          "Es obligatoria bajo las tejas Malarkey para que el alero selle bien",
-          "Se aplica en aleros y bordes laterales cuando se busca la garantía de viento mejorada",
-          "La garantía de viento exige tejas bien adheridas, por su propio sellador o a mano con cemento ASTM D4586"
+          "Es obligatoria bajo las tejas Malarkey para que el alero selle bien"
         ],
         "coverage": [
           "Garantía limitada de por vida con tejas Malarkey de por vida y al menos otro accesorio Malarkey",
           "Con un solo accesorio Malarkey: 20 años contra defectos de fabricación y 5 años de Right Start",
           "Instalado dentro del sistema de otra marca: 10 años contra defectos de fabricación",
-          "Requisito, junto con limatesa y cumbrera Malarkey, de la garantía de viento mejorada de 15 años hasta 130 mph"
+          "Requisito, junto con limatesa y cumbrera Malarkey, de la garantía de viento mejorada de 15 años hasta 130 mph",
+          "Para la garantía de viento mejorada tiene que ir en aleros y en bordes laterales",
+          "La garantía de viento exige tejas bien adheridas, por su propio sellador o a mano con cemento ASTM D4586"
         ]
       }
     },
@@ -1574,7 +1573,6 @@
           "Underlayment conforme a ASTM D4869 Tipo I o ASTM D226 Tipo I, como DiamondDeck o RoofRunner",
           "4 clavos por teja en la zona NailTrak, 6 y 4 puntos de cemento en pendientes fuertes",
           "Underlayment impermeabilizante WinterGuard donde el hielo se acumula en el alero",
-          "Ventilación igual o superior a las normas HUD, con cumbrera ventilada y entrada por alero",
           "Limatesas y cumbreras se rematan con Shadow Ridge, Cedar Crest o Mountain Ridge"
         ],
         "coverage": [
@@ -1582,7 +1580,8 @@
           "SureStart cubre el 100% de mano de obra y materiales los primeros 10 años",
           "15 años de cobertura de viento a 110 mph, ampliable a 160 mph con arranque y cumbrera CertainTeed",
           "25 años de cobertura StreakFighter contra algas en las tejas AR",
-          "Cobertura de viento sin límite de velocidad dentro de un Integrity Roof System"
+          "Cobertura de viento sin límite de velocidad dentro de un Integrity Roof System",
+          "El Integrity Roof System cuenta la ventilación según normas HUD entre sus componentes obligatorios"
         ]
       }
     },
@@ -1599,11 +1598,10 @@
       ],
       "features": {
         "install": [
-          "Pendientes de más de 4:12; de 2:12 a 4:12 con dos capas de fieltro o IKO Ice and Water Protector",
+          "Pendientes de más de 4:12 llevan una capa de fieltro o underlayment sintético sobre el tablero; de 2:12 a 4:12, dos capas o IKO Ice and Water Protector",
           "4 clavos por teja en la zona ArmourZone, 6 en pendientes de 21:12 o más",
           "Solo clavos, nunca grapas, y no se requiere arranque en los bordes laterales",
           "Limatesas y cumbreras se rematan con Marathon Plus AR o IKO UltraHP",
-          "Una capa de underlayment de fieltro asfáltico o sintético sobre todo el tablero",
           "La ventilación debe cumplir el código local, porque IKO no responde por filtraciones sin ella"
         ],
         "coverage": [
@@ -1623,7 +1621,7 @@
       "description": "Paneles ondulados de acero galvanizado sin pintar, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies.",
       "about": [
         "Es el mismo paquete de Brakki en el perfil ondulado clásico, sin pintar, así que el acabado que se ve es el propio galvanizado. Cada lámina mide 73.23 x 17.72 in (1,860 x 450 mm) y en la caja vienen veinte. Las ondas redondeadas van más juntas que en un perfil nervado, lo que rigidiza una lámina delgada y disimula mejor los golpes pequeños una vez montada sobre la estructura. Nada hay que cortar ni conformar en obra, solo solapar y atornillar.",
-        "El paquete de veinte piezas cubre 180.19 sq ft en total, que es la superficie bruta de la lámina y no la neta una vez solapadas, así que hay que contar los solapes laterales y de testa al calcular cuántos paquetes lleva el techo. El espesor del acero es 0.01 in (0.25 mm). En la caja van cien tornillos, cinco por lámina, y un par de guantes para manejar los bordes cortados. Brakki ofrece el mismo perfil en paquete de diez piezas para trabajos menores.",
+        "El paquete de veinte piezas cubre 180.19 sq ft en total, que es la superficie bruta de la lámina y no la neta una vez solapadas, así que hay que contar los solapes laterales y de testa al calcular cuántos paquetes lleva el techo. El espesor del acero es 0.01 in (0.25 mm). En la caja van cien tornillos, cinco por lámina, y un par de guantes para manejar los bordes cortados. Brakki vende el mismo formato de veinte piezas en perfil nervado y de teja.",
         "Brakki indica estos paneles para garajes, gallineros, cobertizos, establos y cubiertas de patio, que es el trabajo para el que sirve una lámina de calibre ligero. Se fijan atravesando el valle de una onda sobre correas de madera o de acero con los tornillos incluidos. El solape lateral es de una onda completa, se avanza desde el alero y los solapes van contra el viento. Basta un atornillador con vaso hexagonal para todo el montaje.",
         "Al quedar sin pintar, el panel envejece hacia un gris mate en vez de mantenerse brillante, y no hay capa de pintura que pueda calear ni desprenderse. Con 0.01 in es una lámina de calibre ligero pensada para anexos, no un sustituto de un panel estructural en vivienda. No se publica garantía, resistencia al viento ni clasificación al fuego para este paquete de láminas. Conviene revisar la normativa local antes de usarlo sobre vivienda."
       ],
