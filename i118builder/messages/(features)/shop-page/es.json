@@ -208,7 +208,16 @@
       "air": "Permeabilidad al Aire",
       "pullThrough": "Arranque de Fijación",
       "reinforcement": "Armadura",
-      "staticLoad": "Carga Estática"
+      "staticLoad": "Carga Estática",
+      "pressure": "Presión Sostenida",
+      "splice": "Placas de Unión",
+      "fastenerSpacing": "Separación de Fijaciones",
+      "edges": "Bordes",
+      "collar": "Collarín",
+      "fit": "Ajuste",
+      "step": "Escalón",
+      "pack": "Unidades por Paquete",
+      "ribSpacing": "Separación de Nervios"
     },
     "specValue": {
       "fiberglassAsphalt": "Asfalto con Fibra de Vidrio",
@@ -253,7 +262,31 @@
       "exposedNoTraffic": "Expuesta, sin tránsito",
       "torchApplied": "Aplicación con soplete",
       "polymerisedAsphalt": "Asfalto plástico polimerizado",
-      "aluminumFoil": "Foil de aluminio Aluar"
+      "aluminumFoil": "Foil de aluminio Aluar",
+      "chimneyWall": "Encuentros con muro y chimenea",
+      "parapetWall": "Petos y antepechos",
+      "concealedIncluded": "Ocultas, incluidas",
+      "whiteEmbossed": "Blanco, gofrado",
+      "eavesRakes": "Aleros y bordes",
+      "dripEdge": "Goterón",
+      "millFinish": "Acabado de fábrica",
+      "wValley": "Limahoya en W",
+      "roofValleys": "Limahoyas de cubierta",
+      "hemmed": "Engatillados",
+      "tearAway": "Anillo desprendible, autosellante",
+      "ventPipes": "Tubos de ventilación",
+      "galvalumeSteel": "Acero Galvalume",
+      "gableRake": "Remate de aguilón",
+      "panelEnds": "Extremos de panel metálico",
+      "ridgeCap": "Cumbrera de remate",
+      "ridgeSeam": "Cumbreras de panel metálico",
+      "slatePrimer": "Pizarra sobre imprimación",
+      "ridgeRoll": "Cumbrera en rollo",
+      "universal": "Universal, cualquier panel",
+      "closedCellFoam": "Espuma de célula cerrada",
+      "insideClosure": "Cierre interior",
+      "selfAdhesive": "Autoadhesivo",
+      "counterFlashing": "Contrababero"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -1209,28 +1242,62 @@
       "description": "Panel de acero con clips completamente ocultos, dieciséis pulgadas de cubrición y tramos continuos alcanzando cuarenta pies lineales ininterrumpidos."
     },
     "gibraltar-cf5g-26": {
-      "title": "Contrababero de Acero Galvanizado",
+      "title": "Contrababero Galvanizado de Acero",
       "titleLead": "Contrababero",
-      "titleAccent": "de Acero Galvanizado",
-      "description": "Tira galvanizada de diez pies que remata el babero escalonado de chimeneas y muros laterales, en acero calibre veintiséis.",
-      "highlights": [
-        "Acero galvanizado desnudo calibre veintiséis",
-        "Protege los tapajuntas escalonados en la base de la chimenea",
-        "El borde superior entra en una roza cortada en la mampostería",
-        "No apto en contacto directo con madera tratada"
-      ]
+      "titleAccent": "Galvanizado de Acero",
+      "description": "Contrababero metálico que resguarda el borde superior expuesto del babero de chimenea, conformado en acero galvanizado de calibre veintiséis.",
+      "about": [
+        "El contrababero es la pieza que remata el encuentro entre faldón y muro. El babero escalonado saca el agua de debajo de las tejas, pero su borde superior queda abierto, y este perfil de Gibraltar lo tapa para que nada se cuele por detrás. La sección es de 5 in de cara por 1/2 in de retorno, en acero galvanizado de calibre 26 y en tramos rectos de 10 ft. Gibraltar lo describe sin rodeos: protege el borde superior del babero.",
+        "La pata corta de 1/2 in es la que entra en el muro. Se aloja en una junta de mortero rascada o en una roza cortada en la fábrica, y la junta se sella una vez la pata está dentro. La cara de 5 in cuelga entonces sobre el babero inferior, así que las dos piezas se solapan sin que ninguna atraviese a la otra, que es lo que permite el movimiento. Nada se atornilla a través de la cara, así que ninguna pieza sujeta a la otra pieza.",
+        "Gibraltar indica el perfil para pendientes de 3:12 o más. En un faldón más tendido el agua circula tan despacio que un contrababero solapado deja de ser el detalle correcto, y pasa a hacer falta una pieza soldada o totalmente adherida. Los tramos se solapan unas 4 in, siempre con la pieza superior sobre la inferior para que el solape escurra. En un faldón más inclinado el mismo solape escurre antes y el detalle se simplifica.",
+        "El acero es galvanizado de fábrica, con un recubrimiento de zinc que frena la corrosión y admite pintura si el color del muro importa. Es una pieza complementaria, no un sustituto: el babero de debajo sigue haciendo el trabajo de sacar el agua de la junta, y el sellado de la roza hay que revisarlo en el mantenimiento normal. Un cordón de sellado fallado en la roza es la vía habitual de entrada de agua, y se ve desde la escalera."
+      ],
+      "features": {
+        "install": [
+          "Rasca una junta de mortero o corta una roza, mete la pata de 1/2 in y sella la junta con la pata dentro",
+          "Deja que la cara de 5 in cuelgue sobre el babero sin atravesar con fijaciones la pieza inferior",
+          "Solapa los tramos unas 4 in con la pieza superior sobre la inferior para que la junta escurra",
+          "Resérvalo para pendientes de 3:12 o más, que es lo que indica Gibraltar para el perfil",
+          "Pinta la cara galvanizada si tiene que igualar el muro, porque el acabado de fábrica admite pintura"
+        ],
+        "coverage": [
+          "Un tramo cubre 10 ft de encuentro con muro o chimenea antes de solapes",
+          "La cara mide 5 in de fondo y la pata de muro 1/2 in",
+          "Conformado en acero galvanizado de calibre 26",
+          "Para pendientes de faldón de 3:12 o más",
+          "Cubre el borde superior del babero en muros y chimeneas",
+          "Complementa al babero escalonado y nunca lo sustituye"
+        ]
+      }
     },
     "drexel-econo-coping": {
-      "title": "Remate de Peto Econo Coping",
-      "titleLead": "Remate de Peto",
-      "titleAccent": "Econo Coping",
-      "description": "Albardilla de dos piezas que une grapa continua con tapa de fascia encajada, para muros de hasta veinte pulgadas.",
-      "highlights": [
-        "Sistema de dos piezas con clip continuo preperforado",
-        "Certificado según la norma de bordes ANSI SPRI ES-1",
-        "Garantía de viento de noventa mph durante veinte años",
-        "Tapa de aluminio Kynar 500 o de acero Galvalume"
-      ]
+      "title": "Econo Coping Drexel Remate de Peto",
+      "titleLead": "Econo Coping Drexel",
+      "titleAccent": "Remate de Peto",
+      "description": "Coronación de peto de clip continuo pretaladrado y tapa decorativa que oculta completamente las fijaciones, certificado según normativa ANSI.",
+      "about": [
+        "Econo Coping es un conjunto de dos piezas y no un perfil suelto. Primero se fija un clip continuo a lo largo del peto y después encaja encima una tapa decorativa, que es lo que permite que la tapa no lleve ninguna fijación a la vista. Drexel lo fabrica para cubiertas monocapa comerciales, donde el remate sujeta la membrana contra el muro. La tapa es la pieza que se ve; el clip es el que sujeta de verdad. Y por eso la tapa no lleva tornillos vistos.",
+        "La tapa se sirve en aluminio conformado prepintado Kynar 500 de .040 in o en acero Galvalume de calibre 24, y el clip es de calibre 22 y llega pretaladrado, con fijaciones cada 12 in entre centros. Tanto el clip como la tapa vienen en tramos estándar de 10 ft, y las placas de unión ocultas y sus tornillos se incluyen con la compra. Hay colores corporativos y personalizados en el acabado pintado. El clip llega listo para fijar.",
+        "Drexel publica presiones sostenidas para el clip de calibre 22 según material y ancho de muro. Con una cara de hasta 6 in, el acero de calibre 24 aguanta 110 psf en muro de hasta 16 in y 75 psf en muro de hasta 20 in, y el aluminio de .040 aguanta 145 psf a 16 in y 65 psf a 20 in. El proyectista debe aplicar el coeficiente de seguridad. Cuanto más ancho el muro, menos presión aguanta el mismo clip, y por eso la tabla se publica por anchos.",
+        "El conjunto se ensaya según la norma ANSI, SPRI, FM4435 y ES-1 para sistemas de borde en cubierta de baja pendiente, que es como cumple el código de edificación. Lleva garantía de viento de 90 mph durante 20 años y 35 años de garantía de pintura Gold Standard, y hay aluminio de .050 o .063 y Galvalume de calibre 22 bajo pedido. Drexel facilita planos de taller, especificaciones extensas y detalles CAD a petición. También muestras y cartas de color."
+      ],
+      "features": {
+        "install": [
+          "Fija el clip continuo pretaladrado de calibre 22 a lo largo del peto con tornillos cada 12 in",
+          "Encaja la tapa decorativa sobre el clip para que no se vea ninguna fijación en la cara acabada",
+          "Une los tramos con las placas de unión ocultas y los tornillos que vienen con el producto",
+          "Permite apretar tornillos de alto par sin atravesar la cara superior de la membrana",
+          "Consulta la especificación y los detalles arquitectónicos de Drexel para la secuencia completa"
+        ],
+        "coverage": [
+          "El clip y la tapa vienen en tramos estándar de 10 ft",
+          "Cara de hasta 6 in con ancho de muro de hasta 20 in",
+          "El acero de calibre 24 aguanta 75 psf a 20 in de muro y 110 psf a 16 in",
+          "El aluminio de .040 aguanta 65 psf a 20 in y 145 psf a 16 in",
+          "Certificado según ANSI, SPRI, FM4435 y ES-1 para bordes de baja pendiente",
+          "Con garantía de viento de 90 mph a 20 años y 35 años en la pintura"
+        ]
+      }
     },
     "broan-634": {
       "title": "Sombrerete de Cubierta en Acero Negro",
@@ -1305,52 +1372,120 @@
       ]
     },
     "gibraltar-08328": {
-      "title": "Goterón Blanco Gofrado",
+      "title": "Goterón Blanco Galvanizado Gofrado",
       "titleLead": "Goterón Blanco",
-      "titleAccent": "Gofrado",
-      "description": "Tira de borde blanca gofrada que aleja el agua de la fascia y el entablado, de diez pies lineales.",
-      "highlights": [
-        "Acero galvanizado con acabado blanco gofrado",
-        "Alas de una pulgada y siete octavos cada una",
-        "Se vende en tramos de diez pies",
-        "Aleja el agua de la fascia y del entablado"
-      ]
+      "titleAccent": "Galvanizado Gofrado",
+      "description": "Goterón blanco gofrado que proyecta la escorrentía lejos de las tablas del alero, conformado íntegramente en acero galvanizado anticorrosión.",
+      "about": [
+        "El goterón es la pieza más pequeña de una cubierta que aun así decide si la madera se podre. El agua que sale de la teja tiende a curvarse por debajo del borde y bajar por la tabla del alero, y este perfil de Gibraltar le da un labio del que caer. La sección es de 1 7/8 in por 1 7/8 in, en acero galvanizado y en tramos rectos de 10 ft. Se fija en el canto del entablado antes de colocar la cubierta. Recorre todo el largo del alero.",
+        "El acabado es blanco sobre una superficie gofrada. El gofrado no es decoración en una pieza así, rigidiza la chapa fina y disimula las ondas que la chapa lisa deja ver en un tramo largo, así que 10 ft se mantienen rectos a la vista donde una pieza lisa se vería ondulada. El blanco combina con alero y canalón blancos sin pintar nada en obra. Gibraltar identifica la pieza por el acabado blanco y no por un calibre. Y no necesita imprimación.",
+        "Dónde va la pieza depende del borde. En el alero se fija primero y el underlayment monta por encima, así que el agua que llega al entablado sale sobre el metal. En el borde inclinado es al contrario, va encima del underlayment, porque allí la chapa tiene que echar el agua de lado y no sacarla de debajo. Equivocar el orden es el error más habitual con esta pieza, y se paga en la madera del alero. Los dos casos son práctica habitual.",
+        "Dos detalles deciden si funciona. Los tramos se solapan un par de pulgadas con la pieza superior sobre la inferior, y la pata tiene que sobresalir de la tabla lo suficiente para librarla y caer al canalón. El acero galvanizado resiste bien en un borde que se queda mojado más tiempo, y el blanco aguanta el ultravioleta de esa zona. Gibraltar no publica calibre para el perfil, solo el material. Eso es todo lo que pide la pieza."
+      ],
+      "features": {
+        "install": [
+          "En el alero fíjalo primero y luego solapa el underlayment por encima del metal",
+          "En el borde inclinado hazlo al revés y colócalo sobre el underlayment para que eche el agua de lado",
+          "Solapa los tramos un par de pulgadas con la pieza superior sobre la inferior",
+          "Deja que la pata sobresalga de la tabla lo justo para soltar el agua en el canalón",
+          "No hace falta pintar en obra, porque el acabado blanco viene de fábrica"
+        ],
+        "coverage": [
+          "Un tramo cubre 10 ft de alero o borde antes de solapes",
+          "El perfil mide 1 7/8 in en cada pata",
+          "Conformado en acero galvanizado con acabado blanco gofrado",
+          "El gofrado rigidiza la chapa y mantiene recto un tramo largo",
+          "Combina con alero y canalón blancos sin pintar en obra",
+          "Sirve en aleros y en bordes, invirtiendo el orden del solape"
+        ]
+      }
     },
     "amerimax-5612400120": {
       "title": "Limahoya en W Galvanizada",
       "titleLead": "Limahoya en W",
       "titleAccent": "Galvanizada",
-      "description": "Canal de acero con nervio central y bordes engatillados para limahoyas, de dieciocho pulgadas por diez pies de largo.",
-      "highlights": [
-        "Perfil en W con nervio central para limahoyas",
-        "Acero galvanizado de acabado natural que resiste el óxido",
-        "Bordes rebordeados para más resistencia y manejo seguro",
-        "Dieciocho pulgadas de ancho y diez pies de largo"
-      ]
+      "description": "Limahoya galvanizada cuyo nervio central elevado forma canales estancos donde dos faldones de cubierta convergen formando un ángulo interior.",
+      "about": [
+        "Una limahoya es el encuentro de dos faldones que mandan su agua al mismo canal, lo que la convierte en la línea que más trabaja de una cubierta. Esta pieza de Amerimax mide 18 in de ancho por 10 ft de largo, embutida en acero galvanizado con un nervio elevado por el centro, y ese nervio convierte una chapa plana en dos canales separados. Todo lo que sueltan los dos faldones pasa por ella. Es mucha agua concentrada en una sola línea.",
+        "El nervio central levanta unas 2 in. Importa porque el agua que baja rápida por un faldón, si no, salta la limahoya y se mete por debajo de las tejas del lado contrario, que es como una limahoya tiene fugas sin que falle su metal. El nervio corta ese salto, así que cada lado desagua por su cuenta y los dos caudales se juntan abajo. Un solo nervio resuelve un problema que no arreglaría más metal. Y es un seguro muy barato en comparación.",
+        "Los dos bordes largos van engatillados, doblados sobre sí mismos. Un engatillado rigidiza un borde que vibraría en un tramo de 10 ft y elimina el canto vivo de corte, que es donde empieza la corrosión y donde va la mano del operario al colocar la chapa. Las alas anchas a cada lado del nervio dan apoyo al solape de las tejas. Ninguna de las dos ventajas se ve en una foto, pero las dos se notan en obra. Los dos dobleces valen lo que cuestan.",
+        "El acero es galvanizado con acabado de fábrica, así que el recubrimiento de zinc hace el trabajo anticorrosión y no se pinta nada. En una limahoya que se queda mojada más tiempo y recoge todo lo que baja del faldón, ese recubrimiento es toda la defensa. Los tramos solapan con la pieza superior sobre la inferior. Y las tejas se recortan a los lados para no cerrar el canal central. El canal tiene que quedar completamente libre."
+      ],
+      "features": {
+        "install": [
+          "Colócala en la limahoya antes de las tejas, trabajando de abajo hacia arriba",
+          "Solapa los tramos con la pieza superior sobre la inferior para que la junta escurra",
+          "Mantén el nervio central sobre la línea de la limahoya para que cada faldón desagüe aparte",
+          "Recorta las tejas a los dos lados para dejar el canal central abierto",
+          "Deja que los bordes engatillados reciban el solape en vez de atravesar el canal"
+        ],
+        "coverage": [
+          "Un tramo cubre 10 ft de limahoya y mide 18 in de ancho",
+          "El nervio central elevado levanta unas 2 in",
+          "Embutida en acero galvanizado con acabado de fábrica",
+          "Los dos bordes largos van engatillados, más rígidos y más seguros",
+          "El nervio impide que el agua salte de un faldón al otro",
+          "Las alas anchas dan apoyo al solape de las tejas de cada lado"
+        ]
+      }
     },
     "oatey-11872": {
-      "title": "Pasatubos de Ventilación No Calk",
-      "titleLead": "Pasatubos de Ventilación",
-      "titleAccent": "No Calk",
-      "description": "Collarín autosellante sobre base de acero galvanizado para tubo de ventilación de tres pulgadas que atraviesa la cubierta terminada.",
-      "highlights": [
-        "El collarín sella el tubo sin necesidad de masilla",
-        "Base de acero galvanizado resistente al óxido",
-        "Sella ventilaciones en techos residenciales y comerciales",
-        "Se desliza sobre el tubo y va bajo las tejas"
-      ]
+      "title": "Pasatubos No Calk Galvanizado",
+      "titleLead": "Pasatubos No Calk",
+      "titleAccent": "Galvanizado",
+      "description": "Pasatubos de ventilación con collarín patentado autosellante, mecánicamente ajustado al tubo, admitiendo diámetros entre pulgada y media y tres.",
+      "about": [
+        "Cada ventilación que atraviesa una cubierta es un agujero que hay que cerrar, y el All Flash No Calk de Oatey es la respuesta estándar. Una base de acero galvanizado de calibre 24, de 11 in por 14 1/2 in, se coloca bajo las tejas como cualquier babero, y del centro sube un collarín flexible que abraza el tubo. El color es galvanizado marrón. Es la pieza en la que nadie se fija hasta que falla, y rara vez falla. La base es acero galvanizado simple.",
+        "El collarín es la parte patentada. Va moldeado con un anillo desprendible, así que un solo pasatubos sirve para cualquier tubo de 1 1/2 in a 3 in: el instalador rompe el anillo hasta la medida que necesita y el collarín cierra solo sobre ese diámetro. De ahí viene el nombre No Calk, porque el sellado es mecánico y no se aplica masilla. Una sola referencia cubre entonces tres medidas habituales en la furgoneta. Es una pieza de moldeo bien pensada.",
+        "Está calificado para 180 grados Fahrenheit de calor continuo y aprobado para instalaciones Tipo B, lo que cubre los conductos de humos que van calientes y no solo las bajantes frías. Oatey lo indica para pendientes de cubierta desde plana hasta 40 grados, que abarca casi cualquier faldón residencial, y sirve en obra comercial igual que en vivienda. Esas dos aprobaciones lo separan de un simple manguito de fontanería. Las dos vienen impresas en la caja.",
+        "La base se coloca como un babero escalonado: las hiladas inferiores pasan por debajo y las superiores montan encima, así que el agua viaja siempre sobre el metal. Nada se fija a través del collarín ni del recorrido del agua, y como el collarín hace el sellado, no queda un cordón de masilla en el tubo que revisar o reponer. La ausencia de masilla es lo que lo mantiene funcionando durante décadas. Sencillamente no hay nada ahí que envejezca mal."
+      ],
+      "features": {
+        "install": [
+          "Pasa la base por el tubo y deja que el collarín baje solo sobre el fuste",
+          "Rompe el anillo del collarín hasta el diámetro del tubo, de 1 1/2 in a 3 in",
+          "Solapa las hiladas inferiores por debajo de la base y las superiores por encima",
+          "Mantén las fijaciones fuera del collarín y fuera del paso del agua por la base",
+          "No hace falta masilla en el tubo, que es justo el sentido del collarín patentado"
+        ],
+        "coverage": [
+          "Un pasatubos sirve para cualquier tubo de 1 1/2 in a 3 in de diámetro",
+          "La base mide 11 in por 14 1/2 in en acero galvanizado de calibre 24",
+          "Calificado para 180 grados Fahrenheit de calor continuo",
+          "Aprobado para instalaciones Tipo B, no solo bajantes frías",
+          "Indicado para pendientes desde plana hasta 40 grados",
+          "Sirve igual en cubierta comercial que en residencial"
+        ]
+      }
     },
     "gibraltar-987641": {
       "title": "Remate de Aguilón Galvalume",
       "titleLead": "Remate de Aguilón",
       "titleAccent": "Galvalume",
-      "description": "Remate de galvalume color pizarra que cierra el borde de aguilón de la cubierta, en tramos de diez pies.",
-      "highlights": [
-        "Remate de acero Galvalume en acabado pizarra",
-        "Cierra el borde del hastial sobre paneles metálicos",
-        "Perfil de dos pulgadas en tramos de diez pies",
-        "Combina con los remates de alero y cumbrera pizarra"
-      ]
+      "description": "Remates para aguilones que encapsulan los extremos cortados y expuestos del panel metálico, conformados en acero Galvalume calibre veintinueve.",
+      "about": [
+        "Cuando el panel metálico se corta a medida deja un extremo abierto en cada aguilón, y por ahí entra la lluvia con viento. El perfil GR2 de Gibraltar lo tapa. El remate mide 4 11/16 in en la sección conformada, 10 ft de largo, perfilado en acero Galvalume de calibre 29 y acabado en Pizarra para casar con los paneles de la misma gama. Pizarra es uno de los colores estándar de esa gama. El remate se vende por tramos de diez pies.",
+        "El Galvalume es chapa de acero recubierta con una aleación de aluminio y zinc en vez de zinc solo. En un canto cortado que queda expuesto, esa aleación aguanta mejor que el galvanizado corriente, y por eso los fabricantes de panel la especifican para remates que van en el borde a barlovento y reciben lo peor de la lluvia año tras año. El recubrimiento es lo que compra los años de servicio extra. Los fabricantes lo indican en la etiqueta.",
+        "Gibraltar es directo sobre para qué sirve el remate: cubre los extremos expuestos de los paneles, y usado junto con sellador impide el paso de la lluvia con viento que podre la tabla del alero y el entablado. Las dos mitades de esa frase importan, porque el remate solo es una tapa y el sellador es lo que lo convierte en estanco. Poner uno sin el otro deja el trabajo a medias. El sellador se compra aparte y no viene incluido.",
+        "Los extremos del tramo también hay que cerrarlos. Gibraltar publica indicaciones para terminar los extremos de un tramo GR2 y que el agua no entre de lado, que es el detalle que más se salta en un aguilón. Los tramos se solapan a lo largo del borde, y el solape se dispone con la pieza más alta sobre la de abajo. Un solape al revés canaliza el agua hacia dentro. Saltárselo deja entrar el agua por el costado del tramo completo."
+      ],
+      "features": {
+        "install": [
+          "Recórrelo a lo largo del aguilón sobre los extremos cortados del panel, subiendo la pendiente",
+          "Solapa los tramos con la pieza más alta sobre la inferior para que la junta escurra",
+          "Usa sellador con el remate, que es lo que convierte una tapa en una barrera estanca",
+          "Cierra los extremos del tramo como describen las indicaciones de Gibraltar",
+          "Combínalo con paneles de la misma gama Pizarra para que la cubierta lea un solo color"
+        ],
+        "coverage": [
+          "Un tramo cubre 10 ft de aguilón antes de solapes",
+          "La sección conformada mide 4 11/16 in de ancho",
+          "Perfilado en acero Galvalume de calibre 29",
+          "Acabado en Pizarra para casar con paneles de la misma gama",
+          "Cubre los extremos cortados y expuestos del panel metálico",
+          "Con sellador impide que la lluvia con viento moje alero y entablado"
+        ]
+      }
     },
     "master-flow-gic12": {
       "title": "Extractor Eólico de Cubierta",
@@ -1368,13 +1503,30 @@
       "title": "Cierre para Panel Trapezoidal",
       "titleLead": "Cierre para Panel",
       "titleAccent": "Trapezoidal",
-      "description": "Tira de espuma con el perfil MasterRib que impide el paso de insectos y agua por las ondas trapezoidales.",
-      "highlights": [
-        "Reverso autoadhesivo que se pega a la onda del panel",
-        "Sigue las ondas interiores del panel MasterRib",
-        "Treinta y seis pulgadas de largo y una de ancho",
-        "Espuma gris que frena insectos y agua"
-      ]
+      "description": "Cierre moldeado de espuma que rellena íntegramente la cavidad inferior de un panel metálico con nervadura trapezoidal, totalmente autoadhesivo.",
+      "about": [
+        "Un panel metálico nervado no puede apoyar plano en nada, y cada nervio deja un hueco del ancho del perfil abierto al exterior. Un cierre es la pieza cortada con esa forma exacta. Este es un cierre MasterRib de Union Corrugating, de 36 in de largo por 1 in de espuma, moldeado para casar con los nervios trapezoidales del panel. Nada más rellena bien esa forma, y un cordón de sellador desde luego no lo consigue. El perfil hace el sellado.",
+        "Este es el cierre interior, el gris. Un cierre interior va entre el entablado y la cara inferior del panel, que es el hueco del alero por donde el viento puede meter la lluvia por debajo de la chapa, y por donde los insectos y la broza acaban entrando a lo largo de una temporada completa. El gris es el color que usa Union Corrugating para esa posición, así que se distinguen bien. Una sola temporada basta para comprobarlo de sobra.",
+        "También existe la versión exterior, con su propia referencia, y hace el trabajo contrario: se coloca sobre el panel debajo de un remate, en cumbrera o en borde, para que el remate cierre contra espuma y no puentee sobre nervios abiertos. Las dos se piden por separado, y una cubierta metálica suele necesitar ambas. Pedir solo uno de los dos es una manera habitual de dejar la cubierta medio sellada. Los dos vienen en el mismo largo de 36 in.",
+        "El perfil es autoadhesivo, así que se pega al entablado bajo el panel y se queda quieto mientras se asienta la chapa encima. Eso importa más de lo que parece: un cierre que se mueve mientras se atornilla el panel deja justo el hueco que venía a rellenar, y nadie lo vuelve a ver una vez fijada la chapa. El adhesivo es la diferencia entre un cierre que funciona y otro que solo parece colocado. Se queda exactamente donde se puso."
+      ],
+      "features": {
+        "install": [
+          "Retira el papel y pégalo al entablado bajo el panel antes de asentar la chapa encima",
+          "Alinea el perfil moldeado con los nervios del panel para que no quede ningún hueco",
+          "Usa el cierre interior gris en el alero, entre el entablado y el panel",
+          "Usa el cierre exterior sobre el panel, bajo el remate de cumbrera o de borde",
+          "Comprueba que no se ha movido antes de atornillar el panel definitivamente"
+        ],
+        "coverage": [
+          "Un tramo cubre 36 in de alero o de línea de remate",
+          "La sección de espuma tiene 1 in de fondo",
+          "Moldeado al perfil de nervio trapezoidal de los paneles MasterRib",
+          "El gris marca este cierre interior; el exterior lleva otra referencia",
+          "Frena la lluvia con viento, los insectos y la broza",
+          "Autoadhesivo, así que no se mueve mientras se coloca el panel"
+        ]
+      }
     },
     "malarkey-smart-start": {
       "title": "Tejas de Arranque Malarkey Smart Start",
@@ -1523,28 +1675,62 @@
       "description": "Panel de junta alzada a presión con faldón estriado que enmascara completamente el abombado sobre superficies metálicas verdaderamente extensas."
     },
     "gibraltar-987642": {
-      "title": "Cumbrera RC2 Pizarra",
+      "title": "Cumbrera RC2 Galvalume Pizarra",
       "titleLead": "Cumbrera RC2",
-      "titleAccent": "Pizarra",
-      "description": "Remate angular de galvalume que cierra el caballete donde se juntan dos faldones metálicos, en tramos de diez pies.",
-      "highlights": [
-        "Cubre las limatesas y la cumbrera del techo",
-        "Sirve para techos de tejas o metálicos",
-        "Perfil de dos pulgadas en tramos de diez pies",
-        "Acabado pizarra a juego con los remates de alero y hastial"
-      ]
+      "titleAccent": "Galvalume Pizarra",
+      "description": "Cumbrera prepintada que resuelve la junta abierta donde se encuentran dos faldones metálicos, embutida en acero Galvalume calibre veintinueve.",
+      "about": [
+        "La cumbrera es la única línea de una cubierta metálica donde los dos faldones terminan y nada cubre el hueco entre ellos. La pieza RC2 de Gibraltar lo salva. El remate mide 10 ft de largo, embutido en acero Galvalume de calibre 29 y acabado en Pizarra sobre imprimación, así que el color lee igual que el de los paneles. Gibraltar la vende por tramos de diez pies, y una cumbrera lleva tantos como pida el largo del faldón completo.",
+        "Gibraltar la fabrica para servir a la mayoría de paneles metálicos y no a un perfil concreto, que es lo que hace útil una cumbrera universal en una reforma donde el panel original ya no se fabrica. La pieza cubre 11 in sobre la cumbrera con un escalón de 1 in a cada lado del vértice, desarrollada de un fleje de 20 in, y deja sitio a la línea de fijaciones. En obra nueva es simplemente el remate que hace juego, pedido con los paneles en el mismo color.",
+        "Una cumbrera sola deja hueco debajo, porque el panel de abajo es nervado y ella no. Por eso Gibraltar la especifica junto con cierres: las espumas rellenan el perfil del nervio para que el viento no meta agua bajo la pieza, y el sellador termina la junta. Usada así, el conjunto protege la junta de cumbrera frente a infiltraciones. Dejarse los cierres es la razón habitual de que una cumbrera metálica gotee en una tormenta.",
+        "El Galvalume da al acero un recubrimiento de aleación de aluminio y zinc, que es el estándar en remates expuestos porque dura más en un canto cortado que el zinc solo. La imprimación bajo la pintura Pizarra es lo que sujeta esa pintura al recubrimiento, y es la razón de que una cumbrera pintada aguante años sin levantarse. Esa combinación explica que el remate y el panel envejezcan al mismo ritmo y no cada uno por separado."
+      ],
+      "features": {
+        "install": [
+          "Colócala sobre la cumbrera con el escalón de 1 in pasando del último nervio",
+          "Pon cierres de espuma bajo la pieza para rellenar el perfil del nervio del panel",
+          "Termina la junta con sellador, que es como especifica Gibraltar el conjunto",
+          "Deja la línea de fijaciones en panel macizo y no sobre la cresta de un nervio",
+          "Solapa los tramos a lo largo de la cumbrera para que cada junta escurra ladera abajo"
+        ],
+        "coverage": [
+          "Un tramo cubre 10 ft de cumbrera antes de solapes",
+          "Cubre 11 in sobre la cumbrera con un escalón de 1 in a cada lado",
+          "Embutida en acero Galvalume de calibre 29",
+          "Acabada en Pizarra sobre imprimación para casar con el panel",
+          "Pensada para la mayoría de paneles metálicos y no para un perfil",
+          "Protege la junta de cumbrera usada con cierres y sellador"
+        ]
+      }
     },
     "grip-rite-rrp1010hem": {
       "title": "Cumbrera Redonda Engatillada",
       "titleLead": "Cumbrera Redonda",
       "titleAccent": "Engatillada",
-      "description": "Cumbrera semicircular galvanizada con bordes engatillados, de diez pies de largo y doce pulgadas de ancho, para techos metálicos.",
-      "highlights": [
-        "Acero galvanizado resistente a la corrosión",
-        "Diez pies de largo y doce pulgadas de ancho",
-        "La parte redonda desvía el agua de la cumbrera",
-        "Pensada para cumbreras de techos metálicos"
-      ]
+      "description": "Cumbrera redondeada con bordes engatillados que cierra la cresta de una cubierta metálica, perfilada íntegramente en acero galvanizado resistente.",
+      "about": [
+        "Una cumbrera en rollo es un remate de cumbrera con la coronación redondeada en lugar de una arista doblada. Esa curva es toda la idea: permite que una misma pieza se asiente sobre cumbreras de distinto ángulo sin doblarla para cada caso, y por eso Grip Rite la cataloga como universal y no ligada a un perfil de panel concreto. Grip Rite la vende en tramos de diez pies, y una cumbrera lleva tantos como mida el faldón. No hay que cortar nada a medida.",
+        "La pieza mide 10 ft de largo y 12 in de ancho desarrollado, perfilada en acero galvanizado de 0.017 in de espesor, con acabado plateado de fábrica. Doce pulgadas de ancho dan seis de cubrición por faldón, suficiente para pasar del primer nervio a los dos lados y que las fijaciones caigan en panel liso. El acabado plateado es el propio recubrimiento de fábrica y no pintura, así que no hay retoques en obra. De ahí las doce pulgadas de ancho.",
+        "Los dos bordes largos van engatillados. El doblez rigidiza un canto que si no ondularía con el viento en un tramo de 10 ft, y elimina el corte vivo por donde el acero galvanizado empieza a corroerse. También hace la pieza más segura de manejar en cubierta, porque un borde engatillado deja de cortar las manos. El doblez no cuesta nada más y resuelve tres problemas distintos de golpe en una cubierta. Es un detalle pequeño con un efecto grande.",
+        "Cierra la cresta de la cubierta frente a la lluvia, y sobre panel nervado pide cierres de espuma por debajo que rellenen el perfil del nervio, igual que cualquier otro remate metálico de cumbrera. Grip Rite publica el material y las medidas de esta pieza pero ninguna clasificación de viento, fuego ni plazo de garantía. Cualquier cosa más allá del material y las medidas sería una suposición nuestra, y la dejamos fuera. Las medidas son la parte fiable."
+      ],
+      "features": {
+        "install": [
+          "Colócala sobre la cumbrera dejando unas seis pulgadas de cubrición en cada faldón",
+          "Pon cierres de espuma debajo en panel nervado para rellenar el perfil del nervio",
+          "Deja la línea de fijaciones en panel liso y no sobre la cresta de un nervio",
+          "Solapa los tramos a lo largo de la cumbrera para que cada junta escurra",
+          "La coronación redondeada sirve para distintos ángulos sin doblar cada pieza"
+        ],
+        "coverage": [
+          "Un tramo cubre 10 ft de cumbrera y mide 12 in de ancho",
+          "Eso deja unas seis pulgadas de cubrición por faldón",
+          "Perfilada en acero galvanizado de 0.017 in de espesor",
+          "Acabado plateado de fábrica con los dos bordes engatillados",
+          "Catalogada como universal y no atada a un perfil de panel",
+          "No se publica clasificación de viento, fuego ni garantía"
+        ]
+      }
     },
     "vevor-chimney-cap-6in": {
       "title": "Caperuza de Chimenea Inoxidable",

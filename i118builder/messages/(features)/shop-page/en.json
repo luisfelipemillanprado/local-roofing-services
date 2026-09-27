@@ -208,7 +208,16 @@
       "air": "Air Permeance",
       "pullThrough": "Fastener Pull Through",
       "reinforcement": "Reinforcement",
-      "staticLoad": "Static Load"
+      "staticLoad": "Static Load",
+      "pressure": "Sustained Pressure",
+      "splice": "Splice Plates",
+      "fastenerSpacing": "Fastener Spacing",
+      "edges": "Edges",
+      "collar": "Collar",
+      "fit": "Fit",
+      "step": "Step",
+      "pack": "Package Quantity",
+      "ribSpacing": "Rib Spacing"
     },
     "specValue": {
       "fiberglassAsphalt": "Fiberglass Asphalt",
@@ -253,7 +262,31 @@
       "exposedNoTraffic": "Exposed, no foot traffic",
       "torchApplied": "Torch applied",
       "polymerisedAsphalt": "Polymerised plastic asphalt",
-      "aluminumFoil": "Aluar aluminum foil"
+      "aluminumFoil": "Aluar aluminum foil",
+      "chimneyWall": "Chimney and wall joints",
+      "parapetWall": "Parapet walls",
+      "concealedIncluded": "Concealed, included",
+      "whiteEmbossed": "White, embossed",
+      "eavesRakes": "Eaves and rakes",
+      "dripEdge": "Drip edge",
+      "millFinish": "Mill finish",
+      "wValley": "W valley",
+      "roofValleys": "Roof valleys",
+      "hemmed": "Hemmed",
+      "tearAway": "Tear away ring, self sealing",
+      "ventPipes": "Vent pipes",
+      "galvalumeSteel": "Galvalume steel",
+      "gableRake": "Gable rake trim",
+      "panelEnds": "Metal panel ends",
+      "ridgeCap": "Ridge cap trim",
+      "ridgeSeam": "Metal panel ridges",
+      "slatePrimer": "Slate over primer",
+      "ridgeRoll": "Ridge roll",
+      "universal": "Universal, any panel",
+      "closedCellFoam": "Closed cell foam",
+      "insideClosure": "Inside closure",
+      "selfAdhesive": "Self adhesive",
+      "counterFlashing": "Counter flashing"
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
@@ -1212,25 +1245,59 @@
       "title": "Galvanized Steel Counter Flashing",
       "titleLead": "Galvanized Steel",
       "titleAccent": "Counter Flashing",
-      "description": "Ten foot galvanized strip that caps the step flashing along a chimney or sidewall, folded from twenty six gauge steel.",
-      "highlights": [
-        "Twenty six gauge bare galvanized steel",
-        "Protects the step flashing at a chimney base",
-        "Top bends into a reglet cut in the masonry",
-        "Not for direct contact with treated lumber"
-      ]
+      "description": "Galvanized counter flashing protecting the exposed upper edge of chimney step flashing, formed from straight twenty six gauge steel sections.",
+      "about": [
+        "Counter flashing is the piece that finishes a roof to wall joint. Step flashing carries the water out from under the shingles, but its top edge is left open, and this Gibraltar profile covers that edge so nothing can run behind it. The section is 5 in on the face by 1/2 in on the return, formed from 26 gauge galvanized steel and supplied in straight 10 ft lengths. Gibraltar describes the job plainly: it protects the top edge of step flashing.",
+        "The short 1/2 in leg is the part that goes into the wall. It sits in a raked out mortar joint or in a reglet cut into masonry, and the joint is sealed once the leg is in. The 5 in face then hangs down over the step flashing below it, so the two pieces overlap without either being fastened through the other, which is what lets the wall and the roof move apart. Nothing is screwed through the face, so neither piece restrains the other.",
+        "Gibraltar lists the profile for roof slopes of 3:12 and steeper. On a shallower plane the water moves slowly enough that a lapped counter flashing is no longer the right detail, and a soldered or fully adhered flashing takes over. Lengths lap each other by about 4 in, always arranged so the upper piece sits over the lower one and the lap sheds water. On a steeper plane the same lap sheds faster and the detail gets easier, not harder.",
+        "The steel is mill galvanized, with a zinc coating that holds off corrosion and takes paint if the wall colour matters. It is a companion piece rather than a substitute: the step flashing underneath still does the work of moving water out of the joint, and the sealant at the reglet still has to be inspected as part of normal roof maintenance. A failed bead at the reglet is the usual way this detail lets water in, and it is easy to see from a ladder."
+      ],
+      "features": {
+        "install": [
+          "Rake out a mortar joint or cut a reglet, set the 1/2 in leg into it and seal the joint once the leg is home",
+          "Let the 5 in face hang down over the step flashing without fastening through the piece below it",
+          "Lap lengths about 4 in with the upper piece over the lower one so every joint sheds water",
+          "Keep it to roof slopes of 3:12 and steeper, which is what Gibraltar specifies for the profile",
+          "Paint the galvanized face if it has to match the wall, since the mill finish takes paint"
+        ],
+        "coverage": [
+          "One length covers 10 ft of wall or chimney joint before laps",
+          "The face is 5 in deep and the wall leg is 1/2 in",
+          "Formed from 26 gauge galvanized steel",
+          "For roof slopes of 3:12 and greater",
+          "Covers the top edge of step flashing at walls and chimneys",
+          "It complements step flashing and never replaces it"
+        ]
+      }
     },
     "drexel-econo-coping": {
-      "title": "Econo Coping Edge System",
-      "titleLead": "Econo Coping",
+      "title": "Drexel Econo Coping Edge System",
+      "titleLead": "Drexel Econo Coping",
       "titleAccent": "Edge System",
-      "description": "Two part parapet cap joining a continuous cleat with a snap on fascia cover, for walls up to twenty inches.",
-      "highlights": [
-        "Two part system with a pre punched continuous cleat",
-        "Certified to the ANSI SPRI ES-1 edge standard",
-        "Ninety mph wind warranty for twenty years",
-        "Kynar 500 aluminum or Galvalume steel cover"
-      ]
+      "description": "Parapet coping combining a continuous prepunched cleat with a decorative cover concealing every fastener, certified under the ANSI SPRI standard.",
+      "about": [
+        "Econo Coping is a two part assembly rather than a single piece of trim. A continuous cleat is fastened along the parapet first, then a decorative cover snaps over it, which is what lets the cover carry no visible fasteners. Drexel builds it for single ply commercial roofs, where the coping has to hold the membrane down on the wall and still look finished from the street. The cover is the piece people see; the cleat does the holding.",
+        "The cover comes in pre painted Kynar 500 formed aluminium at .040 in or in 24 gauge Galvalume steel, and the cleat is 22 gauge and arrives pre punched, with fasteners set 12 in on centre. Both the cleat and the cover are supplied in standard 10 ft lengths, and concealed splice plates and their fasteners are included with the purchase rather than ordered separately. Corporate and custom colours are available on the painted finish.",
+        "Drexel publishes sustained pressures for the 22 gauge cleat by material and wall width. With a face up to 6 in, 24 gauge steel holds 110 psf on a wall up to 16 in and 75 psf on a wall up to 20 in, while .040 aluminium holds 145 psf to 16 in and 65 psf to 20 in. The design engineer still has to apply the factor of safety to those numbers. The wider the wall, the less pressure the same cleat holds, which is why the table is published by width.",
+        "The assembly is tested to the ANSI, SPRI, FM4435 and ES-1 standard for edge systems used with low slope roofing, which is how it satisfies the International Building Code. It carries a 90 mph wind warranty for 20 years and a 35 year Gold Standard paint warranty, and .050 or .063 aluminium and 22 gauge Galvalume are available on request. Engineering drawings, long form specifications and CAD details come from Drexel on request."
+      ],
+      "features": {
+        "install": [
+          "Fasten the pre punched 22 gauge continuous cleat along the parapet with fasteners at 12 in on centre",
+          "Snap the decorative cover over the cleat so no fastener shows on the finished face",
+          "Join lengths with the concealed splice plates and fasteners that come with the product",
+          "It lets high torque screws be driven without penetrating the top surface of the membrane",
+          "Refer to Drexel's architectural specification and details for the full sequence"
+        ],
+        "coverage": [
+          "Cleat and cover both come in standard 10 ft lengths",
+          "Face up to 6 in with a wall width up to 20 in",
+          "24 gauge steel holds 75 psf sustained at 20 in of wall, 110 psf at 16 in",
+          "Aluminium at .040 holds 65 psf at 20 in and 145 psf at 16 in",
+          "Certified to ANSI, SPRI, FM4435 and ES-1 for low slope edge systems",
+          "Backed by a 20 year 90 mph wind warranty and 35 years on the paint"
+        ]
+      }
     },
     "broan-634": {
       "title": "Black Steel Roof Cap",
@@ -1305,52 +1372,120 @@
       ]
     },
     "gibraltar-08328": {
-      "title": "White Embossed Drip Edge",
+      "title": "White Embossed Galvanized Drip Edge",
       "titleLead": "White Embossed",
-      "titleAccent": "Drip Edge",
-      "description": "Embossed white edge strip that carries runoff clear of the fascia and the decking, supplied in straight ten foot lengths.",
-      "highlights": [
-        "Galvanized steel with an embossed white finish",
-        "Legs of one and seven eighths inches each",
-        "Sold in ten foot lengths",
-        "Carries runoff clear of the fascia and deck"
-      ]
+      "titleAccent": "Galvanized Drip Edge",
+      "description": "Embossed white drip edging projecting rainwater clear of the fascia boarding, manufactured from galvanized steel in straight ten foot lengths.",
+      "about": [
+        "Drip edge is the smallest piece on a roof that still changes whether the building rots. Water leaving the shingles wants to curl back under the edge and run down the fascia, and this Gibraltar profile gives it a lip to fall from instead. The section is 1 7/8 in by 1 7/8 in, formed from galvanized steel and supplied in straight 10 ft lengths. It is fastened along the deck edge before the roofing goes down. It runs the full length of the eave.",
+        "The finish is white over an embossed surface. Embossing is not decoration on a piece this size, it stiffens thin sheet metal and hides the small waves that flat stock shows along a long run, so a 10 ft length stays visually straight where a flat one can look wavy from the ground. White suits white fascia and white gutter without any painting on site. Gibraltar lists the piece by the white finish rather than by a gauge. It needs no primer.",
+        "Where the piece goes depends on the edge. At an eave it is fastened down first and the underlayment laps over the top of it, so any water that reaches the deck runs out on top of the metal. At a rake it goes the other way around, on top of the underlayment, because there the sheet has to shed water sideways off the edge rather than out from under it. Getting the order wrong is the most common mistake with this piece. Both cases are standard practice.",
+        "Two details decide whether it works. Lengths lap each other by a couple of inches with the upper piece over the lower, and the leg has to project past the fascia far enough to clear it and drop into the gutter. Galvanized steel holds up well on an edge that stays wet longest, and the white coating takes the ultraviolet exposure that edge gets. Gibraltar does not publish a gauge for the profile, only the material. That is all the piece asks."
+      ],
+      "features": {
+        "install": [
+          "At eaves fasten it down first, then lap the underlayment over the top of the metal",
+          "At rakes reverse that and set it on top of the underlayment so water sheds sideways",
+          "Lap lengths a couple of inches with the upper piece over the lower one",
+          "Let the leg project far enough past the fascia to drop water into the gutter",
+          "No painting is needed on site, since the white finish is factory applied"
+        ],
+        "coverage": [
+          "One length covers 10 ft of eave or rake before laps",
+          "The profile is 1 7/8 in on each leg",
+          "Formed from galvanized steel with a white embossed finish",
+          "Embossing stiffens the sheet and keeps a long run looking straight",
+          "Suits white fascia and white gutter with no site painting",
+          "Works at both eaves and rakes, with the lap order reversed"
+        ]
+      }
     },
     "amerimax-5612400120": {
-      "title": "Galvanized W Valley Flashing",
-      "titleLead": "Galvanized W",
+      "title": "Galvanized Steel W Valley Flashing",
+      "titleLead": "Galvanized Steel W",
       "titleAccent": "Valley Flashing",
-      "description": "Mill finish steel channel with a centre rib and hemmed edges, for roof valleys, eighteen inches wide by ten feet.",
-      "highlights": [
-        "W profile with a center rib for roof valleys",
-        "Mill finish galvanized steel that resists rust",
-        "Hemmed edges for strength and safer handling",
-        "Eighteen inches wide in a ten foot length"
-      ]
+      "description": "Galvanized valley flashing whose raised center rib forms watertight channels where two adjoining roofing planes converge at an interior angle.",
+      "about": [
+        "A valley is where two roof planes meet and send their water into the same channel, which makes it the hardest working line on a roof. This Amerimax piece is 18 in wide by 10 ft long, pressed from galvanized steel with a raised rib running down the middle, and that rib is what turns a flat sheet into two separate troughs instead of one wide one. Everything the two planes shed passes through it. That is a lot of water in one line.",
+        "The centre rib stands about 2 in high. It matters because water running fast down one plane will otherwise jump the valley and drive up under the shingles on the opposite side, which is how a valley leaks without any of its metal failing. The rib stops that crossover, so each side of the valley drains on its own and the two flows only join at the bottom. One rib solves a problem that no amount of extra metal would. It is cheap insurance.",
+        "Both long edges are hemmed, folded back on themselves. A hem adds stiffness along an edge that would otherwise flutter over a 10 ft span, and it removes the raw cut edge where corrosion starts first and where a roofer's hand goes when the sheet is being placed. The wide wings on either side of the rib give the shingles something to lap onto. Neither benefit shows in a photograph, but both show on site. Both are worth the extra fold.",
+        "The steel is galvanized with a mill finish, so the zinc coating does the corrosion work and nothing is painted. In a valley that stays wet longest and collects whatever comes off the roof, that coating is the whole defence. Lengths lap with the upper piece over the lower, and the shingles on each side are cut back to leave the channel clear. Nothing should penetrate the open channel itself. The channel must stay completely clear."
+      ],
+      "features": {
+        "install": [
+          "Set it into the valley before the shingles, working from the bottom of the run upward",
+          "Lap lengths with the upper piece over the lower one so the joint sheds water",
+          "Keep the centre rib on the line of the valley so each plane drains on its own side",
+          "Cut the shingles back on both sides to leave an open channel down the middle",
+          "Let the hemmed edges take the shingle lap rather than fastening through the trough"
+        ],
+        "coverage": [
+          "One length covers 10 ft of valley and is 18 in wide",
+          "The raised centre rib stands about 2 in high",
+          "Pressed from galvanized steel with a mill finish",
+          "Both long edges are hemmed for stiffness and safer handling",
+          "The rib stops water crossing from one plane to the other",
+          "Wide wings give the shingles on each side something to lap onto"
+        ]
+      }
     },
     "oatey-11872": {
-      "title": "No Calk Vent Pipe Flashing",
-      "titleLead": "No Calk",
-      "titleAccent": "Vent Pipe Flashing",
-      "description": "Self sealing collar on a galvanized steel base that fits a three inch vent pipe through the finished roof deck.",
-      "highlights": [
-        "Collar seals around the pipe without caulking",
-        "Galvanized steel base resists rust",
-        "Seals plumbing vents on homes and commercial roofs",
-        "Slides over the pipe and tucks under the shingles"
-      ]
+      "title": "No Calk Pipe Flashing Galvanized Base",
+      "titleLead": "No Calk Pipe Flashing",
+      "titleAccent": "Galvanized Base",
+      "description": "Vent pipe roof flashing whose patented collar seals itself mechanically against the pipe, accommodating diameters between one and three inches.",
+      "about": [
+        "Every vent that comes through a roof is a hole that has to be closed, and Oatey's All Flash No Calk is the standard answer. A 24 gauge galvanized steel base, 11 in by 14 1/2 in, lies under the shingles like any other flashing, and a flexible collar rises from the middle of it to grip the pipe. The colour is the galvanized brown finish. It is the piece nobody notices until it fails, which it rarely does. The base is plain galvanized steel.",
+        "The collar is the patented part. It is moulded with a tear away ring, so one flashing covers any pipe from 1 1/2 in up to 3 in: the installer tears the ring to the size needed and the collar closes onto that diameter on its own. That is where the No Calk name comes from, because the seal is mechanical and nothing has to be gunned around the pipe. One part number therefore covers three common pipe sizes on the van. It is a neat piece of moulding.",
+        "It is rated for 180 degrees Fahrenheit of continuous heat and approved for Type B installations, which covers the flue vents that run warm rather than just cold plumbing stacks. Oatey lists it for roof pitches from flat up to 40 degrees, which takes in almost every residential slope, and it is specified for commercial and residential work alike. Those two approvals are what separate it from a plumbing only boot. Both are printed on the box.",
+        "The base goes on like step flashing: the courses below lap under it and the courses above lap over it, so water is always travelling on top of the metal. Nothing is fastened through the collar or through the water path, and because the collar does the sealing, there is no bead of caulk at the pipe to inspect or replace later. That absence of caulk is what keeps it working for decades on end. There is simply nothing there to fail with age."
+      ],
+      "features": {
+        "install": [
+          "Slide the base over the pipe and let the collar drop onto the shank on its own",
+          "Tear the ring on the collar back to the pipe diameter, anywhere from 1 1/2 in to 3 in",
+          "Lap the courses below under the base and the courses above over it",
+          "Keep fasteners out of the collar and out of the water path across the base",
+          "No caulking is needed at the pipe, which is the point of the patented collar"
+        ],
+        "coverage": [
+          "One flashing fits any pipe from 1 1/2 in to 3 in in diameter",
+          "The base measures 11 in by 14 1/2 in in 24 gauge galvanized steel",
+          "Rated for 180 degrees Fahrenheit of continuous heat",
+          "Approved for Type B installations, not only cold stacks",
+          "Listed for roof pitches from flat up to 40 degrees",
+          "Specified for commercial and residential roofs alike"
+        ]
+      }
     },
     "gibraltar-987641": {
-      "title": "Galvalume Gable Rake Trim",
-      "titleLead": "Galvalume Gable",
-      "titleAccent": "Rake Trim",
-      "description": "Slate coloured galvalume trim that closes off the gable edge of a metal roof, supplied in straight ten foot lengths.",
-      "highlights": [
-        "Galvalume steel trim in a slate finish",
-        "Closes the gable edge over metal roof panels",
-        "Two inch profile in ten foot lengths",
-        "Matches the slate eave and ridge trims"
-      ]
+      "title": "Galvalume GR2 Gable Rake Flashing",
+      "titleLead": "Galvalume GR2 Gable",
+      "titleAccent": "Rake Flashing",
+      "description": "Prepainted rake trim encapsulating the exposed cut ends of metal roofing panelling, manufactured from twenty nine gauge Galvalume coated steel.",
+      "about": [
+        "When metal panels are cut to length they leave an open end along every gable, and that end is where wind driven rain gets in. The GR2 profile from Gibraltar covers it. The trim is 4 11/16 in across the formed section, 10 ft long, rolled from 29 gauge Galvalume steel and finished in Slate to match the panel colours in the same range. Slate is one of the standard colours in that range. The trim is sold by the ten foot length.",
+        "Galvalume is a steel sheet coated in an aluminium and zinc alloy rather than zinc alone. On a cut edge that stays exposed to weather, that alloy coating holds up better than plain galvanizing, which is why panel makers specify it for trim that sits on the windward edge of a roof and takes the worst of the driving rain year after year. The coating is what buys the extra service life. Panel makers name the coating on the label.",
+        "Gibraltar is direct about what the trim is for: it covers the exposed ends of the roofing panels, and when it is used together with sealant it keeps out the wind driven rain that rots the fascia and the roof deck underneath. Both halves of that sentence matter, because the trim on its own is a cover and the sealant is what makes it a seal. Fitting one without the other leaves the job half done. The sealant is bought separately.",
+        "The ends of a run need closing too. Gibraltar publishes guidance on finishing the ends of a GR2 length so weather cannot enter from the side, which is the detail most often skipped on a gable. Lengths lap each other along the rake, and the lap is arranged so that the piece higher up the slope sits over the one below it. A lap running the wrong way funnels water inward. Skipping that lets water enter from the side of the run."
+      ],
+      "features": {
+        "install": [
+          "Run it along the gable over the cut ends of the panels, working up the slope",
+          "Lap lengths with the higher piece over the lower so the joint sheds water",
+          "Use sealant with the trim, which is what turns a cover into a weather seal",
+          "Close off the ends of the run as Gibraltar's guidance describes",
+          "Match it to panels in the same Slate range so the roof reads as one colour"
+        ],
+        "coverage": [
+          "One length covers 10 ft of gable before laps",
+          "The formed section measures 4 11/16 in across",
+          "Rolled from 29 gauge Galvalume steel",
+          "Finished in Slate to match panels in the same range",
+          "Covers the exposed cut ends of metal roofing panels",
+          "With sealant it keeps wind driven rain off fascia and deck"
+        ]
+      }
     },
     "master-flow-gic12": {
       "title": "Wind Turbine Roof Vent",
@@ -1368,13 +1503,30 @@
       "title": "Trapezoidal Panel Closure Strip",
       "titleLead": "Trapezoidal Panel",
       "titleAccent": "Closure Strip",
-      "description": "Foam strip cut to the MasterRib profile that keeps insects and weather out of the ribs, thirty six inches long.",
-      "highlights": [
-        "Self adhesive back sticks to the panel rib",
-        "Matches the inside ribs of MasterRib panels",
-        "Thirty six inches long and one inch wide",
-        "Gray foam keeps insects and weather out"
-      ]
+      "description": "Profiled foam closure completely filling the cavity beneath a trapezoidal ribbed panel, manufactured in self adhesive thirty six inch lengths.",
+      "about": [
+        "A ribbed metal panel cannot sit flat on anything, and every rib leaves a gap the width of the profile open to the weather. A closure strip is the piece cut to that exact shape. This one is a Union Corrugating MasterRib closure, 36 in long by 1 in of foam, moulded to match the trapezoidal ribs of the panel it seals. Nothing else will fill that shape properly, and a bead of sealant certainly will not do it. The profile does the sealing.",
+        "This is the inside closure, the gray one. An inside closure goes between the roof deck and the underside of the panel, which is the gap at the eave where wind can otherwise drive rain straight up the underside of the sheet, and where insects and windblown debris find their way in over a season. Grey is the colour Union Corrugating uses for that position, so the two are easy to tell apart on site. One season is enough to prove it.",
+        "There is an outside version too, ordered under its own part number, and it does the opposite job: it fits on top of the panel under a piece of trim, at the ridge or under a rake, so the trim closes down onto foam rather than bridging over open ribs. The two are ordered separately, and a metal roof usually needs both of them. Ordering only one of the two is a common way to leave a metal roof half sealed. Both come in the same 36 in length.",
+        "The strip is self adhesive, so it sticks to the deck under the panel and stays in place while the sheet is set over it. That matters more than it sounds: a closure that shifts while the panel is being screwed down leaves exactly the gap it was bought to fill, and nobody sees it again once the panel is fastened. The adhesive is the difference between a closure that works and one that only looks fitted. It stays where it was put."
+      ],
+      "features": {
+        "install": [
+          "Peel and stick it to the roof deck under the panel before the sheet is set over it",
+          "Line the moulded profile up with the panel ribs so every void is filled",
+          "Use the gray inside closure at the eave, between the deck and the panel",
+          "Use the outside closure on top of the panel under ridge or rake trim",
+          "Check it has not shifted before the panel is finally screwed down"
+        ],
+        "coverage": [
+          "One strip covers 36 in of eave or trim line",
+          "The foam section is 1 in deep",
+          "Moulded to the trapezoidal rib profile of MasterRib panels",
+          "Gray marks this inside closure; the outside one has its own code",
+          "Keeps out wind driven rain, insects and windblown debris",
+          "Self adhesive, so it stays put while the panel goes on"
+        ]
+      }
     },
     "malarkey-smart-start": {
       "title": "Malarkey Smart Start Starter Shingles",
@@ -1523,28 +1675,62 @@
       "description": "Snap lock standing seam panel featuring a striated pan that effectively camouflages oil canning across uninterrupted runs on expansive roofs."
     },
     "gibraltar-987642": {
-      "title": "Slate RC2 Ridge Cap",
-      "titleLead": "Slate RC2",
-      "titleAccent": "Ridge Cap",
-      "description": "Galvalume angle cap that closes off the peak where two metal roof slopes meet, supplied in straight ten foot lengths.",
-      "highlights": [
-        "Caps the hip and ridge sections of a roof",
-        "Works on shingle or metal roofs",
-        "Two inch profile in ten foot lengths",
-        "Slate finish that matches the rake and eave trims"
-      ]
+      "title": "RC2 Ridge Cap Galvalume Slate",
+      "titleLead": "RC2 Ridge Cap",
+      "titleAccent": "Galvalume Slate",
+      "description": "Prepainted ridge cap weatherproofing the open seam where two metal slopes converge, manufactured from twenty nine gauge Galvalume coated steel.",
+      "about": [
+        "The ridge is the one line on a metal roof where both slopes stop and nothing covers the gap between them. The RC2 cap from Gibraltar bridges it. The trim is 10 ft long, pressed from 29 gauge Galvalume steel and finished in Slate over primer, so the colour reads the same as the panels rather than as a bare piece of metal laid on top. Gibraltar sells the cap by the ten foot length, and a ridge takes as many as the run needs.",
+        "Gibraltar builds it to suit most metal roofing panels rather than one profile, which is what makes a universal cap useful on a reroof where the original panel is no longer made. The cap covers 11 in across the ridge with a 1 in step on either side of the peak, developed from a 20 in blank, which leaves room for the fastener line to fall on solid panel. On a new roof it is simply the matching trim, ordered alongside the panels in the very same colour.",
+        "A cap on its own leaves a gap under it, because the panel underneath is ribbed and the cap is not. That is why Gibraltar specifies it together with closure strips: the foam closures fill the rib profile so wind cannot drive rain up under the cap, and sealant finishes the joint. Used that way the assembly protects the ridge seam against infiltration. Leaving the closures out is the usual reason a metal ridge leaks in a storm.",
+        "Galvalume gives the steel an aluminium and zinc alloy coating, which is the standard for exposed roofing trim because it lasts longer on a cut edge than plain zinc. The primer under the Slate paint is what holds that paint to the coating, and it is the reason a painted cap can sit on a ridge for years without the colour lifting. That combination is why the trim and the panel weather at the same rate rather than separately."
+      ],
+      "features": {
+        "install": [
+          "Set it over the ridge so the 1 in step lands past the last rib on both slopes",
+          "Fit foam closure strips under the cap to fill the rib profile of the panels",
+          "Finish the joint with sealant, which is how Gibraltar specifies the assembly",
+          "Keep the fastener line on solid panel rather than on the crown of a rib",
+          "Lap lengths along the ridge so each joint sheds water down the slope"
+        ],
+        "coverage": [
+          "One length covers 10 ft of ridge before laps",
+          "It covers 11 in across the ridge with a 1 in step each side",
+          "Pressed from 29 gauge Galvalume steel",
+          "Finished in Slate over primer to match the panel colour",
+          "Designed to suit most metal roofing panels, not one profile",
+          "Protects the ridge seam when used with closures and sealant"
+        ]
+      }
     },
     "grip-rite-rrp1010hem": {
-      "title": "Hemmed Round Ridge Roll",
-      "titleLead": "Hemmed Round",
-      "titleAccent": "Ridge Roll",
-      "description": "Half round galvanized ridge cap with hemmed edges, ten feet long for metal roofs, and twelve inches across the cover.",
-      "highlights": [
-        "Galvanized steel resists corrosion",
-        "Ten feet long and twelve inches wide",
-        "Rounded top sheds water off the ridge",
-        "Made for metal roof ridges"
-      ]
+      "title": "Hemmed Ridge Roll Galvanized Steel",
+      "titleLead": "Hemmed Ridge Roll",
+      "titleAccent": "Galvanized Steel",
+      "description": "Rounded ridge capping, hemmed edges enclosing the crown of a metal roof, manufactured throughout from galvanized steel in consistent lengths.",
+      "about": [
+        "A ridge roll is a ridge cap with a rounded crown instead of a folded peak. That curve is the whole idea: it lets one piece sit over ridges of different angles without being bent to match each one, which is why Grip Rite lists the part as universal rather than tied to a particular panel profile or roof pitch. Grip Rite sells it in ten foot lengths, and a ridge simply takes as many as the run measures. Nothing has to be cut or bent to fit on site.",
+        "The piece is 10 ft long and 12 in across the developed width, rolled from galvanized steel at 0.017 in thick, in a plain silver mill finish. Twelve inches of width gives six inches of cover on each slope, enough to reach past the first rib on both sides so the fastener line lands on flat panel rather than on a rib crown. The silver finish is the mill coating rather than paint, so nothing has to be touched up on site. Hence the twelve inch width.",
+        "Both long edges are hemmed. The fold stiffens an edge that would otherwise ripple along a 10 ft span in the wind, and it removes the raw cut edge where galvanized steel corrodes first. It also makes the piece safer to handle on a roof, because a hemmed edge is the one part of sheet metal work that stops cutting hands. The fold costs nothing extra and solves three separate problems at once on a working roof. It is a small detail with an outsized effect.",
+        "It closes the crown of the roof against rain, and on a ribbed panel it wants foam closure strips underneath to fill the rib profile, the same as any other metal ridge trim. Grip Rite publishes the material and the dimensions for this part but no wind rating, fire class or warranty term, so none is claimed here either. Anything beyond the material and the dimensions would be a guess on our part, so it is left out. The dimensions are the reliable part."
+      ],
+      "features": {
+        "install": [
+          "Lay it over the ridge with about six inches of cover falling on each slope",
+          "Fit foam closure strips under it on ribbed panels to fill the rib profile",
+          "Keep the fastener line on flat panel rather than on the crown of a rib",
+          "Lap lengths along the ridge so every joint sheds water down the slope",
+          "The rounded crown suits different ridge angles without bending each piece"
+        ],
+        "coverage": [
+          "One length covers 10 ft of ridge and is 12 in across",
+          "That gives about six inches of cover on each slope",
+          "Rolled from galvanized steel at 0.017 in thick",
+          "Plain silver mill finish with both long edges hemmed",
+          "Listed as universal rather than tied to one panel profile",
+          "No wind rating, fire class or warranty term is published for it"
+        ]
+      }
     },
     "vevor-chimney-cap-6in": {
       "title": "Stainless Chimney Rain Cap",
