@@ -273,7 +273,17 @@
       "cut": "Corte",
       "hardness": "Dureza",
       "shelf": "Bandeja",
-      "cord": "Cable"
+      "cord": "Cable",
+      "solids": "Contenido Sólido",
+      "viscosity": "Viscosidad",
+      "method": "Aplicación",
+      "tackFree": "Seco al Tacto",
+      "cure": "Curado Total",
+      "movement": "Movimiento de Junta",
+      "cleanup": "Limpieza",
+      "shelfLife": "Vida Útil",
+      "flashPoint": "Punto de Inflamación",
+      "dryTime": "Tiempo de Secado"
     },
     "specValue": {
       "fiberglassAsphalt": "Asfalto con Fibra de Vidrio",
@@ -503,7 +513,61 @@
       "reusableRoofAnchor": "Anclaje de cubierta reutilizable",
       "fourGallonBucket": "Cubo de cuatro galones",
       "alloySteel": "Acero aleado",
-      "roofFallArrest": "Anticaídas en cubierta"
+      "roofFallArrest": "Anticaídas en cubierta",
+      "bondingAdhesive": "Adhesivo de contacto",
+      "waterAcrylic": "Emulsión acrílica en base acuosa",
+      "aboveFreezing": "Por encima de 40°F, sin congelar",
+      "solventRoller": "Rodillo resistente a disolventes",
+      "tpoPvcMembrane": "Membrana TPO y PVC",
+      "fmUl": "FM Approved y clasificado UL",
+      "waterOneSided": "Base acuosa, a una cara",
+      "wetLayIn": "Colocación en húmedo, solo soporte",
+      "smoothPvc": "Membrana PVC lisa",
+      "keeAndXk": "EverGuard PVC KEE y XK",
+      "fmUlMiamiFlorida": "FM, UL, Miami Dade y Florida",
+      "sealant": "Sellador",
+      "advancedPolymer": "Polímero avanzado",
+      "white": "Blanco",
+      "isopropyl": "Alcohol isopropílico",
+      "metalRoofJoints": "Cubierta metálica, remates y canalones",
+      "sprayAdhesive": "Adhesivo en spray",
+      "solventContact": "Contacto con disolvente",
+      "tenSquare": "Bombona de diez cuadros",
+      "canisterAbove50": "Bombona por encima de 50°F",
+      "hoseAndGun": "Manguera y pistola con boquilla 11002",
+      "smoothTpo": "Membrana TPO lisa",
+      "canisterOnly": "Solo la bombona",
+      "gafCleaner": "Kit de limpieza EverGuard",
+      "fmUlFlorida": "FM, UL y estado de Florida",
+      "insulationAdhesive": "Adhesivo de aislamiento",
+      "twoPartPolyurethane": "Espuma de poliuretano bicomponente",
+      "coolDry60to90": "Fresco y seco, de 60°F a 90°F",
+      "hoseGunTips": "Manguera, pistola, cuatro boquillas y tres alargadores",
+      "twoCanisterKit": "Kit de dos bombonas",
+      "boardAndFleece": "Panel de aislamiento y fieltro",
+      "fm4470": "FM 4470, UL, Miami Dade y Florida",
+      "sbsAdhesive": "Adhesivo de membrana SBS",
+      "coldApplied": "Asfalto de aplicación en frío",
+      "glossyBlack": "Negro brillante semimástico",
+      "ulFmMiamiFlorida": "UL, FM, Miami Dade y Florida",
+      "sprayOrSqueegee": "Pulverizador o rasqueta dentada",
+      "sbsFieldAndFlashing": "Membrana SBS de faldón y babero",
+      "appAndFoil": "APP modificado, con film o con foil",
+      "fiberReinforced": "Asfalto cauchutado con fibra",
+      "sprayBrushSqueegee": "Pulverizador, brocha o rasqueta dentada",
+      "sbsBaseInterplyCap": "Lámina SBS de base, intermedia y acabado",
+      "pail60to80": "Cubo entre 60°F y 80°F",
+      "rollerBothSides": "Rodillo, soporte y membrana",
+      "tpoMembraneFlashing": "Membrana TPO y baberos",
+      "fmUlMiami": "FM, UL y Miami Dade",
+      "contactAdhesive": "Adhesivo de contacto",
+      "polychloroprene": "Policloropreno",
+      "clearOrRed": "Transparente o rojo",
+      "sprayBothSurfaces": "Pistola, sobre las dos caras",
+      "sprayableLiquid": "Líquido pulverizable",
+      "tac101": "Limpiador de contacto TAC 101",
+      "coolOutOfSun": "Bajo cubierto, sin sol directo",
+      "laminateAndFoam": "Laminado, metal, madera y espuma"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -934,73 +998,175 @@
       "title": "Adhesivo en Spray EverGuard TPO",
       "titleLead": "Adhesivo en Spray",
       "titleAccent": "EverGuard TPO",
-      "description": "Cilindro a presión que adhiere diez cuadros de membrana TPO, rociado directamente desde el tanque, sin cubeta ni rodillo.",
-      "highlights": [
-        "Adhesivo de contacto en spray a base de disolvente para TPO liso",
-        "Hasta diez cuadros de cobertura por cilindro",
-        "Se aplica desde veinte grados Fahrenheit en ascenso",
-        "Vida útil de dos años desde su fabricación"
-      ]
+      "description": "Bombona presurizada de adhesivo de contacto para diez cuadros de membrana TPO lisa, pulverizable hasta veinte grados Fahrenheit ambientales.",
+      "about": [
+        "El cubo y el rodillo son una forma lenta de mover adhesivo por una cubierta, y en un paño grande la lentitud se acumula: cada cubo se abre, se remueve, se vierte, se camina y se rueda, y cada uno de esos pasos es un sitio por donde el rendimiento se aleja en silencio de lo que dice la especificación. Una bombona con pistola convierte todo eso en apretar un gatillo. La especificación supone un rendimiento que el cubo casi nunca entrega.",
+        "Esta lleva diez cuadros, mil pies cuadrados, con 40.15 lb de bombona. Es un adhesivo de contacto con disolvente, así que se pulveriza tanto el soporte como el reverso de la membrana y se deja evaporar hasta que las dos caras están pegajosas y no mojadas. Después baja la lámina y se asienta con cepillo de empuje y rodillo lastrado, sin dejar zonas sin presión. Un adhesivo de contacto solo funciona con las dos caras evaporadas.",
+        "La cifra que lo mete en el equipo de invierno es la temperatura de aplicación: 20°F en ascenso, bastante por debajo de lo que tolera un adhesivo de cubo. El inconveniente es que la propia bombona tiene que mantenerse por encima de 50°F para pulverizar bien, así que en frío viaja en caja caliente o bajo manta térmica, y nunca puede pasar de 150°F. Una bombona fría no pulveriza como debe: gotea, y el rendimiento se va con ella.",
+        "GAF exige su manguera y su pistola, referencia 7804 o 7805, porque llevan la boquilla 11002 que da el rendimiento con el que se ensayaron las homologaciones y porque una pistola compartida arriesga contaminación con adhesivo de otra marca. Pulveriza a 8 o 12 pulgadas. El COV es de 489 g/L, la vida útil dos años, y la bombona va sola. La manguera, la pistola y el limpiador se piden aparte de la bombona, que conviene saberlo."
+      ],
+      "features": {
+        "install": [
+          "Pulveriza a ocho o doce pulgadas, sobre soporte y membrana a la vez",
+          "Espera al tacto pegajoso en vez de casar la lámina todavía mojada",
+          "Mantén la bombona por encima de 50°F, en caja caliente si hace frío",
+          "Usa la manguera y pistola GAF: la boquilla 11002 fija el rendimiento",
+          "Asienta la lámina con cepillo de empuje y después con rodillo lastrado"
+        ],
+        "coverage": [
+          "FM Approved, clasificado UL y aprobado por el estado de Florida",
+          "Diez cuadros, mil pies cuadrados, con una bombona de 40.15 lb",
+          "Pulveriza a 20°F en ascenso, muy por debajo del adhesivo de cubo",
+          "Dos años de vida útil desde la fecha de fabricación",
+          "Requiere la manguera y pistola GAF con su boquilla 11002",
+          "La bombona va sola; manguera, pistola y limpiador van aparte"
+        ]
+      }
     },
     "gaf-olybond-500": {
-      "title": "Kit de Adhesivo para Aislamiento OlyBond500",
-      "titleLead": "Kit de Adhesivo para Aislamiento",
+      "title": "Kit Adhesivo OlyBond500",
+      "titleLead": "Kit Adhesivo",
       "titleAccent": "OlyBond500",
-      "description": "Adhesivo de poliuretano de dos partes que pega paneles de aislamiento al entablado sin tornillos, tres mil quinientos pies.",
-      "highlights": [
-        "Cubre hasta treinta y cinco cuadros por juego",
-        "Se aplica de cuarenta a cien grados Fahrenheit",
-        "Incluye manguera de veinticinco pies y pistola",
-        "Adhiere poliiso, EPS, fibra de madera y la mayoría de tableros"
-      ]
+      "description": "Adhesivo de poliuretano bicomponente que pega el panel aislante mediante cordones, aproximadamente treinta y cinco cuadros por kit completo.",
+      "about": [
+        "Cada tornillo que atraviesa un panel aislante es un agujero en la capa térmica y un pequeño puente por donde cruza el calor. Multiplica eso por el patrón de fijación de una cubierta comercial entera y el aislamiento rinde en silencio por debajo del número de su etiqueta. La fijación con adhesivo elimina los agujeros, y por eso tanta cubierta plana ha dejado la fijación mecánica. El número de la etiqueta y el número instalado dejan de coincidir.",
+        "Es un poliuretano de dos componentes que sale de la pistola como cordón de espuma de baja expansión. Los cordones se corren a 12 in entre ejes, el panel se asienta encima y la espuma sube y cura agarrando las dos caras. También fija directamente la membrana monocapa con fieltro y admite varias capas de aislamiento, que es el caso incómodo para la fijación mecánica. No se taladra nada, así que nada llega a atravesar la capa térmica.",
+        "El kit grande son dos bombonas de unas 92 lb entre ambas, con manguera de 25 ft, pistola, cuatro boquillas mezcladoras y tres alargadores de diecisiete pulgadas en la caja. No pide compresor, ni grupo, ni bomba, que en una cubierta sin corriente es todo el argumento. Rinde hasta 35 cuadros en aislamiento, 3,500 sq ft, o hasta 24 bajo membrana con fieltro. Todo lo que el kit necesita para funcionar llega en las dos cajas que trae.",
+        "Los tiempos son cortos y conviene saberlos antes del primer cordón. El agarre llega en uno a cinco minutos a unos 70°F y el fraguado entre diez y quince, así que los paneles se colocan según caen los cordones y no después. El ambiente y el soporte deben estar entre 40°F y 100°F, las bombonas entre 70°F y 90°F, y el COV es de 25 g/L, con dieciséis meses de vida. La ventana es tan corta que cordones y paneles avanzan a la vez."
+      ],
+      "features": {
+        "install": [
+          "Corre los cordones a 12 in entre ejes y asienta el panel directamente",
+          "Coloca los paneles dentro de la ventana de fraguado, sin adelantarte",
+          "Pon las bombonas entre 70°F y 90°F antes del primer cordón",
+          "Pisa los paneles para que la espuma agarre toda la cara y no los bordes",
+          "Ten una boquilla de repuesto: una boquilla curada termina la tirada"
+        ],
+        "coverage": [
+          "FM Approved según la norma 4470, clasificado UL, Miami Dade y Florida",
+          "Hasta 35 cuadros de aislamiento o 24 cuadros de fieltro por kit",
+          "No necesita compresor, ni grupo electrógeno, ni bomba en la cubierta",
+          "Incluye manguera de veinticinco pies, pistola, cuatro boquillas y tres alargadores",
+          "Se aplica entre 40°F y 100°F de ambiente y de soporte",
+          "COV bajo, 25 g/L, y dieciséis meses de vida útil sin abrir"
+        ]
+      }
     },
     "matrix-101": {
       "title": "Adhesivo SBS Premium Matrix 101",
-      "titleLead": "Adhesivo SBS Premium",
-      "titleAccent": "Matrix 101",
-      "description": "Adhesivo en frío de bajo olor para membranas modificadas, cubre 2.4 a 3.2 cuadros por cubeta de 4.75 galones.",
-      "highlights": [
-        "Adhesivo en frío premium para asfalto modificado SBS",
-        "Pensado para zonas con fuerte succión del viento",
-        "Bajo olor y fácil de extender",
-        "Se aplica con pulverizador o llana dentada"
-      ]
+      "titleLead": "Adhesivo SBS",
+      "titleAccent": "Premium Matrix 101",
+      "description": "Adhesivo de membrana SBS aplicado íntegramente en frío, sustituyendo el asfalto caliente, aproximadamente dos galones por cien pies cuadrados.",
+      "about": [
+        "El adhesivo en frío existe por culpa del caldero. Encolar en caliente significa un depósito de asfalto a unos 450°F en el edificio o al lado, una cuadrilla manejándolo, humos saliendo todo el día y un riesgo de incendio que acompaña a la obra desde la calle hasta el peto. Un adhesivo en frío coloca la misma membrana desde un cubo, y todo lo del caldero desaparece. El caldero desaparece también de la evaluación de riesgos de la obra.",
+        "Este es el premium de los dos adhesivos en frío de GAF y es adhesivo de membrana de faldón: se usa para la lámina de campo, para baberos de base y en cualquier pendiente por encima de 1.5 en 12, incluidas las transiciones de escocia. Es negro brillante y semimástico, con más del 80% de sólidos, así que se queda donde lo pones en lugar de escurrir. El cuerpo es lo que mantiene un adhesivo en la pendiente y no al pie de ella.",
+        "Se extiende a 1.5 o 2 gal por 100 sq ft con pulverizador o rasqueta dentada, sobre hormigón estructural imprimado, poliiso, lámina SBS modificada u otro soporte aceptado. El rendimiento varía con la porosidad de ese soporte, y por eso la cifra es una horquilla y no un número. El cubo lleva 4.75 galones netos y pesa de 9.5 a 10 lb por galón. Un soporte poroso se bebe el adhesivo, y el rendimiento tiene que seguir al soporte.",
+        "Los límites importan tanto como el rendimiento. Se aplica a 45°F en ascenso y nunca sobre un soporte por encima de 140°F. No se diluye, no se calienta el envase y no se deja congelar. No sirve para membranas APP modificadas, ni para láminas con film plástico o foil metálico, ni sobre poliestireno, y es combustible con inflamación sobre 105°F. Cada uno de esos límites existe porque alguien ya se comió exactamente ese fallo antes."
+      ],
+      "features": {
+        "install": [
+          "Atempera el cubo un día entero antes de trabajar con frío",
+          "Extiende a 1.5 o 2 gal por 100 sq ft y ajusta si el soporte es poroso",
+          "Imprima la cubierta de hormigón estructural antes de que llegue el adhesivo",
+          "Apártalo de APP y de láminas con film o foil, que no va a pegar",
+          "No lo diluyas ni calientes el envase, haga la temperatura que haga"
+        ],
+        "coverage": [
+          "Cumple ASTM D3019; clasificado UL, FM Approved, Miami Dade y Florida",
+          "Sustituye al asfalto caliente, así que ningún caldero pisa la obra",
+          "De 1.5 a 2 gal por 100 sq ft con pulverizador o rasqueta dentada",
+          "Más del ochenta por ciento de sólidos, aguanta pendientes sobre 1.5 en 12",
+          "Menos de 250 g/L de COV, conforme en el ámbito del SCAQMD",
+          "Se aplica a 45°F en ascenso y nunca sobre soporte por encima de 140°F"
+        ]
+      }
     },
     "matrix-102": {
-      "title": "Adhesivo SBS para Membranas Matrix 102",
-      "titleLead": "Adhesivo SBS para Membranas",
-      "titleAccent": "Matrix 102",
-      "description": "Adhesivo reforzado con fibra que pega membranas modificadas en frío y sin soplete, conforme a ASTM D3019 Tipo III.",
-      "highlights": [
-        "Adhesivo en frío para sistemas de asfalto modificado SBS",
-        "Reforzado con fibra y cauchutado",
-        "Fórmula de bajo olor",
-        "Se aplica con pulverizador o llana dentada"
-      ]
+      "title": "Adhesivo SBS de Membrana Matrix 102",
+      "titleLead": "Adhesivo SBS de",
+      "titleAccent": "Membrana Matrix 102",
+      "description": "Adhesivo cauchutado reforzado con fibra para sistemas de betún modificado, adhiriendo láminas de base, intermedias y de acabado directamente.",
+      "about": [
+        "La diferencia entre este y el 101 es la fibra que lleva dentro. El Matrix 102 es un adhesivo cauchutado reforzado con fibra, y eso le da cuerpo: puentea una pequeña irregularidad del soporte en vez de escurrirse por ella, y mantiene espesor de película húmeda sobre una superficie que no está perfectamente plana. Justo lo que presenta un recrecido. Un recrecido no está plano jamás, diga lo que diga el levantamiento previo de la obra.",
+        "Está libre de amianto y está pensado para la pila entera de betún modificado y no para una sola capa. El mismo cubo pega láminas SBS de base, intermedias y de acabado, un tejado asfáltico liso existente y la lámina base de vidrio asfáltica Tipo G2. GAF llama SURE GRIP a la formulación y lo que reivindica de ella es tanta flexibilidad como agarre. Un solo cubo para toda la pila es un producto que pedir y uno solo que almacenar.",
+        "La flexibilidad es lo que importa en una cubierta de betún modificado, porque el sistema se mueve. Una lámina de acabado dilata y contrae a lo largo del día, y un adhesivo que cura rígido transmite ese movimiento a la lámina en vez de absorberlo. Este se especifica para conservar flexibilidad a baja temperatura, que es donde un adhesivo rígido cede antes. Rígido es justo la propiedad equivocada para algo que se mueve a diario.",
+        "Se extiende a 1.5 o 2 gal por 100 sq ft con pulverizador, brocha o rasqueta dentada, con un mínimo de 45°F en ascenso y nunca sobre un soporte por encima de 140°F. Tiene un 70% mínimo de no volátiles, pesa 9.3 lb por galón y cumple o supera la ASTM D3019 Tipo III. La ficha de GAF no imprime una cifra de COV utilizable, así que no se indica. La cifra de viscosidad está puesta en la fila del COV, así que aquí no se afirma ninguno."
+      ],
+      "features": {
+        "install": [
+          "Úsalo en toda la pila: base, intermedia y acabado con un solo producto",
+          "Da con brocha donde no llegue el pulverizador, sin cambiar de producto",
+          "Deja que la fibra puentee la irregularidad en lugar de regularizar antes",
+          "Aplica a 45°F en ascenso y apártalo de soportes por encima de 140°F",
+          "Guarda el cubo un día a temperatura ambiente antes de trabajar en frío"
+        ],
+        "coverage": [
+          "Cumple o supera la ASTM D3019 Tipo III de adhesivo de solape",
+          "Clasificado UL, FM Approved, aprobado en Miami Dade y en Florida",
+          "Pega lámina SBS de base, intermedia y acabado, y lámina Tipo G2",
+          "Reforzado con fibra: mantiene espesor sobre un soporte irregular",
+          "Setenta por ciento mínimo de no volátiles y 9.3 lb por galón",
+          "La ficha técnica de GAF no imprime una cifra de COV utilizable"
+        ]
+      }
     },
     "gaf-everguard-1121": {
-      "title": "Adhesivo de Contacto EverGuard 1121",
-      "titleLead": "Adhesivo de Contacto",
+      "title": "Adhesivo TPO EverGuard 1121",
+      "titleLead": "Adhesivo TPO",
       "titleAccent": "EverGuard 1121",
-      "description": "Adhesivo con disolvente para membranas TPO lisas, de setenta pies cuadrados por galón, en una cubeta de cinco galones.",
-      "highlights": [
-        "Adhesivo de contacto de uso general para membranas TPO",
-        "Adhiere de cincuenta a setenta pies cuadrados por galón",
-        "Aprobado por FM en los sistemas listados",
-        "Vida útil de un año desde su fabricación"
-      ]
+      "description": "Adhesivo de contacto disolvente para membranas impermeabilizantes TPO, rendimiento aproximado de cincuenta a setenta pies cuadrados por galón encolado.",
+      "about": [
+        "Este es el adhesivo de uso general de la gama EverGuard y el que sigue cogiendo la mayoría de las cuadrillas, porque las propiedades que lo hacen poco moderno son exactamente las que lo hacen previsible. Lleva disolvente y seca rápido, tiene mucho agarre inicial y se comporta igual el segundo día de obra que el primero, sin sorpresas de ningún tipo. Previsible vale mucho más sobre un tejado de lo que jamás ha valido lo moderno.",
+        "Al ser de contacto va sobre el soporte y sobre el reverso de la membrana, y las dos caras se dejan hasta que el disolvente ha evaporado. El rendimiento son 50 a 70 sq ft por galón de membrana pegada, más o menos la mitad de lo que da un adhesivo al agua, así que un cubo cubre menos tejado y el coste por cuadro sube sin más vuelta de hoja. Esa es la cuenta que conviene hacer antes de pedir el palé, y no después de recibirlo.",
+        "Lo que se compra a cambio es velocidad y agarre. El secado son quince a treinta minutos en lugar de esperar a que el agua salga de una emulsión, y el agarre inicial hace que la lámina se quede donde la pones en una pendiente o contra un peto, en vez de deslizarse mientras la cuadrilla avanza. Está aprobado sobre poliiso y sobre paneles de yeso. Una lámina que se desliza mientras la cuadrilla avanza es una lámina que hay que rehacer.",
+        "El precio del disolvente es el COV, por debajo de 650 g/L, así que la normativa de la jurisdicción decide si puede usarse antes que cualquier otra consideración. Se aplica desde 40°F, el cubo quiere estar entre 60°F y 80°F, la vida útil es de un año y el cubo es la referencia 7780OOM con 37 a 42 lb de peso bruto. Aquí manda la normativa antes que el rendimiento, cosa poco habitual en un adhesivo. Comprueba la jurisdicción antes de pedir el palé."
+      ],
+      "features": {
+        "install": [
+          "Encola el soporte y el reverso de la membrana, no solo uno de los dos",
+          "Espera a que evapore el disolvente antes de que la lámina toque nada",
+          "Mira el límite local de COV antes de pedirlo, porque este es alto",
+          "Mantén el cubo entre 60°F y 80°F para que el rodillo extienda parejo",
+          "Cuenta con la mitad de rendimiento que un adhesivo al agua al pedir"
+        ],
+        "coverage": [
+          "FM Approved, clasificado UL según ANSI/UL 790 y aprobado en Miami Dade",
+          "Cincuenta a setenta pies cuadrados por galón de membrana pegada",
+          "Secado rápido de quince a treinta minutos y mucho agarre inicial",
+          "Aprobado sobre aislamiento de poliisocianurato y paneles de yeso",
+          "Se aplica desde 40°F, con el cubo mantenido entre 60°F y 80°F",
+          "Menos de 650 g/L de COV, así que manda la normativa local de aire"
+        ]
+      }
     },
     "tac-203-premium-spray": {
-      "title": "Adhesivo de Contacto en Spray TAC 203",
-      "titleLead": "Adhesivo de Contacto en Spray",
-      "titleAccent": "TAC 203",
-      "description": "Adhesivo de contacto resistente al calor, con tiempo abierto de diez a quince minutos, para tableros, metal y espuma.",
-      "highlights": [
-        "Base de policloropreno con alta resistencia al calor",
-        "Pega metal, hormigón, madera, vidrio y espuma de uretano",
-        "Se pulveriza en ambas superficies para un pegado uniforme",
-        "Disponible en versión transparente y roja"
-      ]
+      "title": "Adhesivo en Spray TAC 203 Premium",
+      "titleLead": "Adhesivo en Spray",
+      "titleAccent": "TAC 203 Premium",
+      "description": "Adhesivo de contacto pulverizable de policloropreno con elevada resistencia térmica, seis a ocho metros cuadrados por cada litro pulverizado.",
+      "about": [
+        "Es el único adhesivo de la gama que no es un producto de cubierta, y se gana el sitio por el trabajo que rodea a un tejado y no por el tejado en sí. Revestir un alero, poner una cara de laminado sobre el remate de un peto, pegar un panel de espuma dentro de una pieza fabricada, rematar en vinilo un cuarto de máquinas: nada de eso es cubierta y todo acaba en la misma factura. El trabajo que rodea a un tejado también hay que presupuestarlo.",
+        "La base es policloropreno, que es lo que le da la resistencia térmica con la que se vende esta calidad. Un adhesivo de contacto bajo un laminado oscuro o contra una cara metálica dentro de un bajocubierta trabaja a temperaturas a las que un adhesivo corriente reblandece, y una unión que fluye en verano y aguanta en invierno no la quiere nadie en un trabajo acabado. El deslizamiento es el fallo que aparece en agosto y no el día del montaje.",
+        "Es un adhesivo de contacto en sentido estricto, así que se pulverizan las dos caras, se dejan hasta que la película deja de estar pegajosa al tacto y después se unen y se prensan fuerte. Cuando se tocan ya no hay segunda oportunidad. La evaporación tarda cinco a diez minutos a 20°C y el tiempo abierto es de diez a quince, que fija el tamaño de pieza manejable. El tamaño de la pieza lo fija el tiempo abierto y no quien la levanta.",
+        "El rendimiento son 6 a 8 m² por litro, y las condiciones de trabajo son concretas: 20°C de material y adhesivo, madera al 8 o 10% de humedad y 60 a 70% de humedad relativa. No se usa por debajo de 10°C, porque se forma condensación sobre la película y la unión falla sin más. Se limpia con TAC 101 y dura doce meses guardado fuera del sol. Por debajo de diez grados la película recoge agua y la unión se pierde antes de empezar."
+      ],
+      "features": {
+        "install": [
+          "Pulveriza las dos caras y prensa fuerte, porque no hay segunda oportunidad",
+          "Deja secar la película hasta que no pegue, en vez de unir en mojado",
+          "Une las dos superficies antes de que se agote el tiempo abierto",
+          "No trabajes nunca por debajo de 10°C: la condensación mata la unión",
+          "Desengrasa el metal con TAC 101 antes de que llegue el adhesivo"
+        ],
+        "coverage": [
+          "Base de policloropreno elegida por su alta resistencia térmica",
+          "Seis a ocho metros cuadrados por litro de adhesivo pulverizado",
+          "Evaporación de cinco a diez minutos y tiempo abierto de diez a quince",
+          "Pega laminado, MDF, madera, metal, hormigón, vidrio y espuma de uretano",
+          "Doce meses de vida útil almacenado bajo cubierto y sin sol directo",
+          "El fabricante no publica contenido de COV"
+        ]
+      }
     },
     "brakki-19pc": {
       "title": "Paneles de Acero Nervados 20 Piezas",
@@ -1151,37 +1317,88 @@
       "title": "Adhesivo EverGuard WB181",
       "titleLead": "Adhesivo",
       "titleAccent": "EverGuard WB181",
-      "description": "Adhesivo base agua para membranas monocapa con buen agarre y fácil aplicación con rodillo, para unos seiscientos pies cuadrados.",
-      "highlights": [
-        "Acrílico al agua con muy bajo contenido de COV",
-        "Adhiere membranas TPO lisas y con respaldo de vellón",
-        "También adhiere membranas PVC con respaldo de vellón",
-        "Unos seiscientos pies cuadrados adheridos por cubeta"
-      ]
+      "description": "Adhesivo acrílico en emulsión acuosa formulado para membranas impermeabilizantes TPO y PVC, aproximadamente seiscientos pies cuadrados por cada envase.",
+      "about": [
+        "La razón de que este adhesivo sea al agua tiene poco que ver con el tejado y mucho con el edificio que hay debajo. Un adhesivo con disolvente mete su olor por cada rejilla, cada hueco de escalera y cada ventana abierta durante todo el tiempo que el equipo esté arriba, y en un edificio ocupado eso es justo lo que genera las quejas. Por debajo de 20 g/L de COV apenas huele. El olor es lo que consigue que manden parar la obra entera.",
+        "Es un copolímero acrílico en emulsión y pega tanto TPO liso como TPO con fieltro, y también PVC con fieltro. Lo útil es la lista de soportes: poliisocianurato y tablero de fibra, aislamientos, paneles de yeso con cara de fibra de vidrio y, para baberos, hormigón, fábrica, metal y madera. Eso cubre casi todo lo que presenta una cubierta comercial cuando se retira lo viejo. Esa lista es casi todo lo que realmente hay en una cubierta comercial.",
+        "Los dos tipos de membrana se aplican al revés uno del otro y confundirlos arruina la adherencia. La membrana lisa reforzada lleva adhesivo en el soporte y en el reverso de la lámina, y la lámina no baja hasta que el adhesivo ha secado y queda transparente. La de fieltro lleva adhesivo solo en el soporte y la lámina entra en él mojado, antes de que seque. Seco para lámina lisa, mojado para la de fieltro, y nunca al contrario.",
+        "El rendimiento va de 115 a 125 sq ft por galón sobre lámina lisa, unos 600 sq ft de superficie pegada por cubo. Pesa de 8.6 a 9 lb por galón, con 60 a 65% de sólidos y 14,000 a 18,000 cps de viscosidad. La temperatura mínima de aplicación es 40°F en ascenso, y el cubo se guarda por encima de 40°F porque una emulsión congelada ya no se recupera jamás. Un cubo que se ha congelado una vez se devuelve, no se remueve con más fuerza."
+      ],
+      "features": {
+        "install": [
+          "Remueve bien el cubo antes de usarlo en vez de verterlo tal cual",
+          "Lámina lisa: adhesivo en los dos lados. Fieltro: solo en el soporte",
+          "Deja secar transparente en lámina lisa; la de fieltro entra en mojado",
+          "No metas adhesivo en los solapes, porque impedirá la soldadura térmica",
+          "Cepilla la lámina para que apoye toda la cara y no solo el centro"
+        ],
+        "coverage": [
+          "FM Approved y clasificado por UL según ANSI/UL 790",
+          "Menos de 20 g/L de COV, así que apenas hay olor para quien está debajo",
+          "Unos 600 sq ft de membrana pegada por cubo de cinco galones",
+          "Pega TPO liso y con fieltro, y también PVC con fieltro",
+          "Admite poliiso, tablero de fibra, yeso, hormigón, fábrica, metal y madera",
+          "Entre sesenta y sesenta y cinco por ciento de sólidos y 14,000 a 18,000 cps"
+        ]
+      }
     },
     "gaf-778c": {
       "title": "Adhesivo PVC Quick Lay EverGuard",
-      "titleLead": "Adhesivo PVC Quick Lay",
-      "titleAccent": "EverGuard",
-      "description": "Adhesivo PVC de agarre rápido que une membranas EverGuard al entablado con una sujeción duradera, para seiscientos pies cuadrados.",
-      "highlights": [
-        "Adhesivo al agua de una cara y colocación en húmedo",
-        "Hasta un cincuenta por ciento más rápido que los sistemas adheridos",
-        "Bajo COV y prácticamente sin olor",
-        "No apto para membranas EverGuard PVC KEE ni XK"
-      ]
+      "titleLead": "Adhesivo PVC",
+      "titleAccent": "Quick Lay EverGuard",
+      "description": "Adhesivo acuoso monocara para membrana PVC lisa, instalada directamente sobre película húmeda con aproximadamente cincuenta por ciento más rapidez.",
+      "about": [
+        "Todo adhesivo de contacto sobre una cubierta cuesta siempre las mismas dos cosas: una segunda mano y una espera. Se encola la lámina, se encola el soporte, y después nadie toca nada hasta que las dos caras han evaporado. Esa espera es tiempo muerto en una cubierta grande, y es la razón de que cinco operarios cierren menos cuadros al día de lo que la cuenta sugiere. La cuenta sale bien en el papel y la jornada nunca se le parece.",
+        "Este elimina los dos costes. Va solo sobre el soporte, y la membrana se extiende encima cuando la película sigue húmeda en lugar de esperar a que seque. GAF cifra la ganancia cerca del cincuenta por ciento frente a un adhesivo de contacto con disolvente, que en la práctica es la diferencia entre cerrar un paño por la tarde y volver a por él mañana. Media jornada ganada en un paño grande es una jornada entera en toda la obra.",
+        "A cambio, la ventana en húmedo pasa a ser lo que hay que gestionar. Aquí el adhesivo seco es una unión fallada y no una unión lista, de modo que se extiende al ritmo que el equipo pueda seguir de verdad, y la lámina se cepilla mientras la película sigue abierta. A 100 sq ft por galón eso da unos 600 sq ft, seis cuadros, de membrana colocada por cubo. El cubo deja de marcar el ritmo del trabajo; lo marca la cuadrilla que va detrás.",
+        "Es de base acuosa con menos de 50 g/L de COV, 8.5 lb por galón, 65.5% de sólidos a 10,000 cps, y la temperatura mínima de aplicación son 40°F en ascenso. Es solo para EverGuard PVC liso: no está aprobado para las membranas PVC KEE ni PVC XK, y el cubo no puede congelarse nunca porque una emulsión congelada no vuelve. Comprueba el tipo de membrana antes de cursar el pedido, porque sobre una cubierta KEE este adhesivo no sirve."
+      ],
+      "features": {
+        "install": [
+          "Extiende solo lo que el equipo pueda cubrir antes de que seque la película",
+          "Encola únicamente el soporte, jamás el reverso de la membrana",
+          "Pasa rodillo y cepillo sobre adhesivo húmedo, nunca sobre adhesivo seco",
+          "Deja los solapes limpios para que la soldadura térmica siga agarrando",
+          "Comprueba primero el tipo de membrana, porque KEE y XK quedan fuera"
+        ],
+        "coverage": [
+          "FM Approved, clasificado UL, aprobado en Miami Dade y en Florida",
+          "Cerca de un cincuenta por ciento más rápido que un adhesivo con disolvente",
+          "Cien pies cuadrados por galón, unos seis cuadros por cubo",
+          "Base acuosa con menos de 50 g/L de COV y 65.5 por ciento de sólidos",
+          "Se aplica desde 40°F en ascenso y solo sobre el soporte",
+          "No apto para las membranas EverGuard PVC KEE ni PVC XK"
+        ]
+      }
     },
     "titebond-61001": {
-      "title": "Sellador WeatherMaster para Metal",
-      "titleLead": "Sellador WeatherMaster",
-      "titleAccent": "para Metal",
-      "description": "Sellador para todo clima que se adhiere a metal, tapajuntas y molduras sin encoger, incluso a cero grados Fahrenheit.",
-      "highlights": [
-        "Adhiere a todos los metales, incluso los pintados con Kynar",
-        "Se adhiere a superficies mojadas y húmedas",
-        "Se puede pintar una hora después de aplicarlo",
-        "Cumple ASTM C920 tipo S, clase 50"
-      ]
+      "title": "Sellador para Cubierta Metálica",
+      "titleLead": "Sellador para",
+      "titleAccent": "Cubierta Metálica",
+      "description": "Sellador de polímero avanzado homologado para cincuenta por ciento de movimiento, aplicable desde cero grados sobre superficies todavía húmedas.",
+      "about": [
+        "Una cubierta metálica es una estructura que no deja de moverse nunca. Un panel largo crece y encoge con cada amanecer y cada noche, y la junta de su extremo tiene que absorber eso durante veinte años sin partirse. Este sellador declara un movimiento de junta de más menos el cincuenta por ciento del ancho, que es la cifra que decide si aguanta una década o falla el tercer verano. Casi todos los fallos de un sellador son fallos de movimiento.",
+        "Es un polímero avanzado y no una silicona ni un poliuretano, y esa elección explica casi todo lo que lo hace utilizable. Pega sobre metal con recubrimiento Kynar, sobre aluminio, acero galvanizado, cobre y sobre la mayoría de los materiales de obra, y admite pintura una hora después de aplicarse. Una silicona no hace ninguna de las dos cosas, y por eso falla. Por eso la elección de la química no es en absoluto un detalle menor.",
+        "Las dos cifras que cuentan en obra son las que nadie mira hasta que hace frío o llueve. El aire, el sellador y la superficie tienen que estar por encima de 0°F, lo que lo mete en la bolsa de invierno y no en la de verano, y a diferencia de casi todos pega sobre superficies húmedas. Eso no es comodidad: es poder cerrar una gotera el mismo día que aparece. Una gotera que aparece en una tarde de lluvia se cierra esa misma tarde.",
+        "El cartucho es de 10.1 oz, que da unos 53 pies lineales con un cordón de 3/16 in. Tiene 99% de sólidos, así que no se retrae dentro de la junta al curar, con 9 g/L de COV. Queda seco al tacto en 20 a 30 minutos y cura del todo en 24 horas. Cumple ASTM C920 Tipo S, Grado NS, Clase 50. No está pensado para inmersión continua ni bajo la línea de agua. El noventa y nueve por ciento de sólidos es lo que impide que el cordón se hunda."
+      ],
+      "features": {
+        "install": [
+          "Aplícalo siempre en cordón, nunca embadurnando la junta con la espátula",
+          "Llena la junta a tope y repite la pasada si hace falta una segunda",
+          "Usa fondo de junta siempre que la profundidad pase de media pulgada",
+          "Alisa antes de quince minutos y después déjalo hasta que forme piel",
+          "No limpies nunca un cordón terminado con disolvente: arruina la cara"
+        ],
+        "coverage": [
+          "Cumple ASTM C920, Tipo S, Grado NS, Clase 50",
+          "Movimiento de junta de más menos el cincuenta por ciento del ancho",
+          "Pega sobre metal Kynar, aluminio, acero galvanizado y cobre",
+          "Se aplica por encima de 0°F y agarra sobre superficies húmedas",
+          "Noventa y nueve por ciento de sólidos y 9 g/L de COV, sin retracción",
+          "Unos 53 pies lineales por cartucho con cordón de 3/16 in"
+        ]
+      }
     },
     "dewalt-dcs391": {
       "title": "Sierra Circular Inalámbrica de 20V",

@@ -273,7 +273,17 @@
       "cut": "Cut",
       "hardness": "Hardness",
       "shelf": "Shelf",
-      "cord": "Cord"
+      "cord": "Cord",
+      "solids": "Solids",
+      "viscosity": "Viscosity",
+      "method": "Application",
+      "tackFree": "Tack Free",
+      "cure": "Full Cure",
+      "movement": "Joint Movement",
+      "cleanup": "Clean Up",
+      "shelfLife": "Shelf Life",
+      "flashPoint": "Flash Point",
+      "dryTime": "Dry Time"
     },
     "specValue": {
       "fiberglassAsphalt": "Fiberglass Asphalt",
@@ -503,7 +513,61 @@
       "reusableRoofAnchor": "Reusable roof anchor",
       "fourGallonBucket": "Four gallon bucket",
       "alloySteel": "Alloy steel",
-      "roofFallArrest": "Roof fall arrest"
+      "roofFallArrest": "Roof fall arrest",
+      "bondingAdhesive": "Bonding adhesive",
+      "waterAcrylic": "Water based acrylic emulsion",
+      "aboveFreezing": "Above 40°F, do not freeze",
+      "solventRoller": "Solvent resistant roller",
+      "tpoPvcMembrane": "TPO and PVC membrane",
+      "fmUl": "FM Approved and UL Classified",
+      "waterOneSided": "Water based, one sided",
+      "wetLayIn": "Wet lay in, substrate only",
+      "smoothPvc": "Smooth PVC membrane",
+      "keeAndXk": "EverGuard PVC KEE and XK",
+      "fmUlMiamiFlorida": "FM, UL, Miami Dade and Florida",
+      "sealant": "Sealant",
+      "advancedPolymer": "Advanced polymer",
+      "white": "White",
+      "isopropyl": "Isopropyl alcohol",
+      "metalRoofJoints": "Metal roof, trim and gutters",
+      "sprayAdhesive": "Spray adhesive",
+      "solventContact": "Solvent based contact",
+      "tenSquare": "Ten square canister",
+      "canisterAbove50": "Canister above 50°F",
+      "hoseAndGun": "Hose and gun with 11002 tip",
+      "smoothTpo": "Smooth TPO membrane",
+      "canisterOnly": "Canister only",
+      "gafCleaner": "EverGuard cleaning kit",
+      "fmUlFlorida": "FM, UL and State of Florida",
+      "insulationAdhesive": "Insulation adhesive",
+      "twoPartPolyurethane": "Two part polyurethane foam",
+      "coolDry60to90": "Cool and dry, 60°F to 90°F",
+      "hoseGunTips": "Hose, gun, four tips and three extenders",
+      "twoCanisterKit": "Two canister kit",
+      "boardAndFleece": "Insulation board and fleece back",
+      "fm4470": "FM 4470, UL, Miami Dade and Florida",
+      "sbsAdhesive": "SBS membrane adhesive",
+      "coldApplied": "Cold applied asphalt",
+      "glossyBlack": "Glossy black semi mastic",
+      "ulFmMiamiFlorida": "UL, FM, Miami Dade and Florida",
+      "sprayOrSqueegee": "Sprayer or notched squeegee",
+      "sbsFieldAndFlashing": "SBS field membrane and base flashing",
+      "appAndFoil": "APP modified, film faced or foil faced",
+      "fiberReinforced": "Fiber reinforced rubberized asphalt",
+      "sprayBrushSqueegee": "Sprayer, brush or notched squeegee",
+      "sbsBaseInterplyCap": "SBS base, interply and cap sheets",
+      "pail60to80": "Pail between 60°F and 80°F",
+      "rollerBothSides": "Roller, substrate and membrane",
+      "tpoMembraneFlashing": "TPO membrane and flashings",
+      "fmUlMiami": "FM, UL and Miami Dade",
+      "contactAdhesive": "Contact adhesive",
+      "polychloroprene": "Polychloroprene",
+      "clearOrRed": "Clear or red",
+      "sprayableLiquid": "Sprayable liquid",
+      "sprayBothSurfaces": "Spray gun, both surfaces",
+      "tac101": "TAC 101 contact cleaner",
+      "coolOutOfSun": "Under cover, out of sunlight",
+      "laminateAndFoam": "Laminate, metal, timber and foam"
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
@@ -934,73 +998,175 @@
       "title": "EverGuard TPO Quick Spray Adhesive",
       "titleLead": "EverGuard TPO",
       "titleAccent": "Quick Spray Adhesive",
-      "description": "Pressurized canister that bonds ten squares of TPO membrane, sprayed straight from the cylinder with no adhesive bucket or roller.",
-      "highlights": [
-        "Sprayable solvent based contact adhesive for smooth TPO",
-        "Up to ten squares of coverage per canister",
-        "Applies at twenty degrees Fahrenheit and rising",
-        "Two year shelf life from manufacture"
-      ]
+      "description": "Pressurised canister of solvent contact adhesive covering ten squares of smooth TPO membrane, sprayable down to twenty degrees Fahrenheit ambient.",
+      "about": [
+        "A bucket and roller is a slow way to move adhesive around a roof, and on a large deck the slowness compounds: every pail is opened, stirred, poured, walked and rolled, and each of those steps is a place where the coverage rate quietly drifts away from what the specification says it should be. A canister and a gun turns all of that into pulling a trigger. The specification assumes a rate that the bucket almost never delivers.",
+        "This one holds ten squares, a thousand square feet, at 40.15 lb for the canister. It is a solvent based contact adhesive, so both the substrate and the underside of the membrane are sprayed and both are left to flash off until they feel tacky rather than wet. The membrane then goes down and is pressed home with a push broom and a weighted roller. A contact adhesive only works once both faces have properly flashed off, not before.",
+        "The number that puts it in the winter kit is the installation temperature: 20°F and rising, which is a long way below what a bucket adhesive will tolerate. The catch is that the canister itself has to stay above 50°F to spray properly, so in cold weather it travels in a hot box or under a heated blanket, and it must never be taken above 150°F. A cold canister does not spray properly; it dribbles, and the coverage rate goes with it.",
+        "GAF require their own hose and gun, SKU 7804 or 7805, because those carry the 11002 spray tip that produces the coverage rate the approvals were tested at, and because a shared gun risks contamination with another maker's adhesive. Spray from 8 to 12 inches out. VOC is 489 g/L, shelf life is two years, and the canister ships on its own. The hose, the gun and the cleaner are each ordered separately from the canister itself, which is worth knowing."
+      ],
+      "features": {
+        "install": [
+          "Spray from eight to twelve inches out, on substrate and membrane both",
+          "Wait for a tacky feel rather than mating the sheet while it is wet",
+          "Keep the canister above 50°F, in a hot box when the weather is cold",
+          "Use the GAF hose and gun so the 11002 tip sets the coverage rate",
+          "Press the sheet home with a push broom and then a weighted roller"
+        ],
+        "coverage": [
+          "FM Approved, UL Classified and State of Florida approved",
+          "Ten squares, a thousand square feet, from one 40.15 lb canister",
+          "Sprays at 20°F and rising, well below bucket adhesive territory",
+          "Two year shelf life from the date of manufacture",
+          "Requires the GAF hose and gun with its 11002 spray tip",
+          "Canister supplied on its own; hose, gun and cleaner are separate"
+        ]
+      }
     },
     "gaf-olybond-500": {
-      "title": "OlyBond500 Insulation Adhesive Kit",
+      "title": "OlyBond500 Insulation Adhesive",
       "titleLead": "OlyBond500",
-      "titleAccent": "Insulation Adhesive Kit",
-      "description": "Two part polyurethane adhesive that beads insulation boards to the deck without any fasteners, covering thirty five hundred square feet.",
-      "highlights": [
-        "Covers up to thirty five squares per set",
-        "Applies from forty to one hundred degrees Fahrenheit",
-        "Kit includes a twenty five foot hose and gun",
-        "Bonds polyiso, EPS, wood fiber and most cover boards"
-      ]
+      "titleAccent": "Insulation Adhesive",
+      "description": "Two component polyurethane foam adhesive that beads insulation board onto the deck, covering approximately thirty five squares per complete kit.",
+      "about": [
+        "Every screw through an insulation board is a hole through the thermal layer and a small bridge for heat to cross. Multiply that by the fastener pattern across a whole commercial deck and the insulation quietly underperforms the number on its label. Adhesive attachment removes the holes altogether, which is why so much low slope work has moved away from mechanical fastening. The label number and the installed number stop matching.",
+        "This is a two component polyurethane that leaves the gun as a low rise foam bead. The beads are run at 12 in on centre, the board is set into them, and the foam rises and cures gripping both faces. It also secures fleece back single ply membrane directly, and it will take multiple layers of insulation, which is the case that makes mechanical attachment awkward. Nothing is drilled, so nothing crosses the thermal layer at all.",
+        "The large kit is two canisters at about 92 lb together, with a 25 ft hose, a gun, four mixing tips and three seventeen inch extenders in the box. It needs no compressor, no generator and no pump, which on a roof with no power is the whole argument. Coverage is up to 35 squares for insulation, 3,500 sq ft, or up to 24 squares under fleece back membrane. Everything the kit needs to work arrives inside the two boxes it comes in.",
+        "Timing is short and worth knowing before the first bead. Tack time is one to five minutes at around 70°F and set up runs ten to fifteen, so boards are placed as the beads go down rather than after. Ambient and substrate must be 40°F to 100°F, the canisters themselves 70°F to 90°F, and VOC is 25 g/L. Shelf life is sixteen months unopened. The window is short enough that the beads and the boards have to move together across the deck."
+      ],
+      "features": {
+        "install": [
+          "Run the beads at 12 in on centre and set the board straight into them",
+          "Place boards within the set up window rather than running ahead of it",
+          "Bring the canisters to 70°F to 90°F before the first bead goes down",
+          "Walk the boards in so the foam grips the full face, not just the edges",
+          "Keep a spare mixing tip on the gun, since a cured tip ends the run"
+        ],
+        "coverage": [
+          "FM Approved to Standard 4470, UL Classified, Miami Dade and Florida",
+          "Up to 35 squares of insulation or 24 squares of fleece back per kit",
+          "No compressor, generator or pump needed anywhere on the roof",
+          "Twenty five foot hose, gun, four tips and three extenders included",
+          "Applies from 40°F to 100°F ambient and substrate",
+          "Low VOC at 25 g/L, with a sixteen month unopened shelf life"
+        ]
+      }
     },
     "matrix-101": {
       "title": "Matrix 101 Premium SBS Adhesive",
       "titleLead": "Matrix 101 Premium",
       "titleAccent": "SBS Adhesive",
-      "description": "Low odor cold adhesive for modified bitumen membranes, covering 2.4 to 3.2 squares per 4.75 gallon pail, without torch work.",
-      "highlights": [
-        "Premium cold adhesive for SBS modified bitumen",
-        "Built for high wind uplift areas",
-        "Low odor and spreads easily",
-        "Apply by sprayer or notched squeegee"
-      ]
+      "description": "Cold applied SBS membrane adhesive superseding hot mopped asphalt, distributing between one and two gallons across every hundred square feet.",
+      "about": [
+        "Cold adhesive exists because of the kettle. Hot mopping means a tank of asphalt at around 450°F somewhere on or beside the building, a crew handling it, fumes coming off it all day and a fire risk that follows the job from the street to the parapet. A cold adhesive puts the same membrane down out of a pail, and everything that goes with the kettle simply stops being part of the job. The kettle disappears from the risk assessment too.",
+        "This is the premium of the two GAF cold adhesives and it is a field membrane adhesive: it is used for the field sheet, for base flashings, and at any slope above 1.5 in 12, including at cant transitions. It is glossy black and semi mastic, at over 80% solids, so it sits where it is put on a slope instead of running the way a thinner adhesive does. Body is what keeps an adhesive on a slope rather than at the bottom of it later.",
+        "It goes down at 1.5 to 2 gal per 100 sq ft with a sprayer or a notched squeegee, over primed structural concrete, polyiso, an SBS modified sheet or another accepted substrate. The rate moves with how porous that substrate is, which is why the figure is a band rather than a number. A pail holds 4.75 gallons net and weighs 9.5 to 10 lb per gallon. A porous deck drinks adhesive, and the rate has to follow the deck rather than the sheet.",
+        "The limits matter as much as the rate. Apply at 45°F and rising and never onto a substrate above 140°F. Do not thin it, do not heat the container, and do not let it freeze. It is not for APP modified membranes, for any sheet with a plastic film or metal foil surface, or over polystyrene, and it is combustible with a flash point above 105°F. Every one of those limits exists because somebody has already had exactly that failure."
+      ],
+      "features": {
+        "install": [
+          "Warm the pail to room temperature for a day before cold weather work",
+          "Spread at 1.5 to 2 gal per 100 sq ft and adjust for a porous substrate",
+          "Prime a structural concrete deck before any adhesive reaches it",
+          "Keep it off APP, film faced and foil faced sheets, which it will not bond",
+          "Never thin it or warm the container, whatever the temperature is doing"
+        ],
+        "coverage": [
+          "Meets ASTM D3019; UL Classified, FM Approved, Miami Dade and Florida",
+          "Replaces hot mopped asphalt, so no kettle goes anywhere near the job",
+          "1.5 to 2 gal per 100 sq ft by sprayer or notched squeegee",
+          "Over eighty percent solids, so it holds on a slope above 1.5 in 12",
+          "Under 250 g/L VOC, compliant in the SCAQMD",
+          "Applies at 45°F and rising, never onto a substrate above 140°F"
+        ]
+      }
     },
     "matrix-102": {
       "title": "Matrix 102 SBS Membrane Adhesive",
-      "titleLead": "Matrix 102",
-      "titleAccent": "SBS Membrane Adhesive",
-      "description": "Fiber reinforced rubberized adhesive that beds modified bitumen membranes cold without any torch work, and meets ASTM D3019 Type III.",
-      "highlights": [
-        "Cold adhesive for SBS modified bitumen systems",
-        "Fiber reinforced and rubberized",
-        "Low odor formula",
-        "Apply by sprayer or notched squeegee"
-      ]
+      "titleLead": "Matrix 102 SBS",
+      "titleAccent": "Membrane Adhesive",
+      "description": "Fiber reinforced rubberized cold adhesive for modified bitumen systems, bonding base, interply and cap sheets without any hot asphalt whatsoever.",
+      "about": [
+        "The difference between this and the 101 is the fibre in it. Matrix 102 is a fiber reinforced rubberized adhesive, which gives it body: it bridges a small irregularity in the substrate rather than running off it, and it holds a wet film thickness on a surface that is not perfectly flat. That is exactly the condition a recover job over an existing smooth asphalt roof presents. A recover job is never flat, whatever the survey said.",
+        "It is asbestos free, and it is built for the whole modified bitumen stack rather than one layer of it. The same pail bonds SBS base sheets, interply sheets and cap sheets, an existing smooth asphalt roof, and Type G2 asphalt coated glass base sheet. GAF call the formulation SURE GRIP and the property they claim for it is flexibility as much as grab. One pail through the whole stack means one product to order and one to store.",
+        "Flexibility is the point on a modified bitumen roof, because the system moves. A cap sheet expands and contracts across a day, and an adhesive that cures rigid transfers that movement into the sheet instead of absorbing it. This one is specified to keep its low temperature flexibility, which is the condition where a rigid adhesive gives up first. Rigid is exactly the wrong property for a roof surface that moves every single day.",
+        "It goes down at 1.5 to 2 gal per 100 sq ft by sprayer, brush or notched squeegee, at a minimum of 45°F and rising, never onto a substrate above 140°F. It is 70% non volatile minimum, 9.3 lb per gallon, and meets or exceeds ASTM D3019 Type III. GAF's data sheet does not print a usable VOC figure for it, so none is stated here. The viscosity figure sits in the VOC row on the sheet, so no VOC is claimed here at all. The rest of the table is as printed."
+      ],
+      "features": {
+        "install": [
+          "Use it through the whole stack: base, interply and cap in one product",
+          "Brush it where a sprayer cannot reach rather than switching product",
+          "Let the fibre bridge a small irregularity instead of skimming it first",
+          "Apply at 45°F and rising, and keep it off a substrate above 140°F",
+          "Store the pail a day at room temperature before cold weather work"
+        ],
+        "coverage": [
+          "Meets or exceeds ASTM D3019 Type III for lap adhesive",
+          "UL Classified, FM Approved, Miami Dade and State of Florida approved",
+          "Bonds SBS base, interply and cap sheets, and Type G2 base sheet",
+          "Fiber reinforced, so it holds film thickness over an uneven substrate",
+          "Seventy percent non volatile minimum at 9.3 lb per gallon",
+          "No usable VOC figure is printed on the GAF data sheet"
+        ]
+      }
     },
     "gaf-everguard-1121": {
       "title": "EverGuard 1121 Bonding Adhesive",
       "titleLead": "EverGuard 1121",
       "titleAccent": "Bonding Adhesive",
-      "description": "Solvent based contact adhesive for smooth back TPO membranes, covering seventy square feet per gallon, from a five gallon pail.",
-      "highlights": [
-        "General purpose contact adhesive for TPO membranes",
-        "Bonds fifty to seventy square feet per gallon",
-        "FM Approved in the listed assemblies",
-        "One year shelf life from manufacture"
-      ]
+      "description": "General purpose solvent based contact adhesive for TPO membranes and flashings, covering approximately fifty to seventy square feet per gallon.",
+      "about": [
+        "This is the general purpose adhesive of the EverGuard range and the one most crews still reach for, because the properties that make it unfashionable are the same ones that make it predictable. It is solvent based and fast drying, it has high initial tack, and it behaves the same way on the second day of a job as it did on the first. Predictable is worth a great deal more on a roof than fashionable has ever been, and this one is predictable.",
+        "Being a contact adhesive it goes on both the substrate and the back of the membrane, and both faces are left until the solvent has flashed off. Coverage is 50 to 70 sq ft per gallon of bonded membrane, which is roughly half what a water based adhesive gives, so a pail covers less roof and the material cost per square is simply higher. That is the arithmetic worth doing before the order goes in, rather than after it arrives.",
+        "What is bought for that is speed and grip. Drying time is fifteen to thirty minutes rather than a wait for water to leave an emulsion, and the initial tack means the sheet stays where it is put on a slope or a parapet instead of creeping while the crew moves on. It is approved over polyisocyanurate insulation and gypsum based cover boards. A sheet that creeps while the crew moves on is a sheet that somebody has to relay later.",
+        "The cost of the solvent is the VOC, which is under 650 g/L, so the regulations of the jurisdiction decide whether it can be used at all before anything else does. It applies at 40°F and above, the pail wants to be between 60°F and 80°F, shelf life is one year, and the pail is item 7780OOM at 37 to 42 lb gross weight. Regulation decides this one before performance does, which is unusual. Check the jurisdiction before the pallet is ordered."
+      ],
+      "features": {
+        "install": [
+          "Coat both the substrate and the back of the membrane, not one of them",
+          "Wait for the solvent to flash off before the sheet touches anything",
+          "Check the local VOC limit before ordering, since this one is a high VOC",
+          "Keep the pail between 60°F and 80°F so the adhesive rolls out evenly",
+          "Budget half the coverage of a water based adhesive when ordering"
+        ],
+        "coverage": [
+          "FM Approved, UL Classified to ANSI/UL 790, Miami Dade approved",
+          "Fifty to seventy square feet per gallon of bonded membrane",
+          "Fast drying at fifteen to thirty minutes with high initial tack",
+          "Approved over polyisocyanurate insulation and gypsum cover boards",
+          "Applies from 40°F and above, with the pail held at 60°F to 80°F",
+          "Under 650 g/L VOC, so local air quality rules decide its use"
+        ]
+      }
     },
     "tac-203-premium-spray": {
-      "title": "TAC 203 Premium Spray Contact Adhesive",
+      "title": "TAC 203 Premium Contact Adhesive",
       "titleLead": "TAC 203 Premium",
-      "titleAccent": "Spray Contact Adhesive",
-      "description": "High heat contact adhesive sprayed straight onto boards, metal and foam, with an open time of ten to fifteen minutes.",
-      "highlights": [
-        "Polychloroprene base with high heat resistance",
-        "Bonds metal, concrete, timber, glass and urethane foam",
-        "Sprayed onto both surfaces for an even contact bond",
-        "Available in clear and red versions"
-      ]
+      "titleAccent": "Contact Adhesive",
+      "description": "Sprayable polychloroprene contact adhesive with high heat resistance, covering six to eight square metres per litre across most rigid substrates.",
+      "about": [
+        "This is the only adhesive in the range that is not a roofing product, and it earns its place through the work that surrounds a roof rather than the roof itself. Soffit linings, a laminate face on a parapet capping, foam board into a fabricated panel, a vinyl or carpet finish in a plant room: none of it is roofing, and all of it turns up on the same invoice. The work that surrounds a roof is still work that somebody has to price.",
+        "The base is polychloroprene, which is what gives it the heat resistance the grade is sold on. A contact adhesive under a dark laminate or against a metal face in a roof space is working at temperatures a general purpose adhesive will soften at, and a bond that creeps in summer and holds in winter is not a bond that anybody wants in a finished job. Creep is the failure that shows up in August rather than on the day it was fitted.",
+        "It is a contact adhesive in the strict sense, so both faces are sprayed, both are left until the film is no longer tacky to the touch, and the two are then joined and pressed hard. There is no second chance once they meet. Evaporation takes five to ten minutes at 20°C and the open time is ten to fifteen, which sets how large a piece one person can handle. The size of the piece is set by the open time, not by the man lifting it.",
+        "Coverage is 6 to 8 m² per litre, and the working conditions are specific: 20°C for materials and adhesive, timber at 8 to 10% moisture and 60 to 70% relative humidity. Do not use it below 10°C, because condensation forms on the film and the bond simply fails. It cleans up with TAC 101 and has a twelve month shelf life stored out of the sun. Below ten degrees the film collects water and the bond is lost before it ever starts."
+      ],
+      "features": {
+        "install": [
+          "Spray both faces and press hard, since there is no second chance",
+          "Let the film dry until it is no longer tacky rather than joining wet",
+          "Join the two surfaces before the open time runs out, not after",
+          "Never work below 10°C, where condensation kills the bond outright",
+          "Degrease metal with TAC 101 before any adhesive reaches it"
+        ],
+        "coverage": [
+          "Polychloroprene base chosen for high heat resistance",
+          "Six to eight square metres per litre of sprayed adhesive",
+          "Evaporation of five to ten minutes and an open time of ten to fifteen",
+          "Bonds laminate, MDF, timber, metal, concrete, glass and urethane foam",
+          "Twelve month shelf life stored under cover and out of sunlight",
+          "No VOC content is published by the manufacturer"
+        ]
+      }
     },
     "brakki-19pc": {
       "title": "Grey Ribbed Steel Panels 20 Pack",
@@ -1151,37 +1317,88 @@
       "title": "EverGuard WB181 Adhesive",
       "titleLead": "EverGuard WB181",
       "titleAccent": "Adhesive",
-      "description": "Water based bonding adhesive for single ply membranes with strong grab and easy roller application, covering six hundred square feet.",
-      "highlights": [
-        "Water based acrylic with a very low VOC",
-        "Bonds smooth and fleece back TPO membranes",
-        "Also bonds fleece back PVC membranes",
-        "About six hundred square feet bonded per pail"
-      ]
+      "description": "Water based acrylic emulsion bonding adhesive for TPO and PVC roofing membranes, covering approximately six hundred square feet per container.",
+      "about": [
+        "The reason this adhesive is water based has very little to do with the roof and a great deal to do with the building underneath it. A solvent bonding adhesive puts its smell through every vent, stairwell and open window for as long as the crew is working, and on an occupied building that is the thing that generates the complaints. At under 20 g/L of VOC this one is close to odourless. Odour is what gets a crew asked to stop work.",
+        "It is an acrylic emulsion copolymer, and it bonds both smooth and fleece back TPO as well as fleece back PVC. The substrate list is the useful part: polyiso and fiber board, insulations, fiberglass faced gypsum panels, and for flashings concrete, masonry, metal and wood. That covers most of what a commercial deck actually presents once the old roof is off and the boards are down. That list is most of what a commercial deck actually is.",
+        "The two membrane types are applied in opposite ways and getting them the wrong way round ruins the bond. Smooth reinforced membrane takes adhesive on both the substrate and the underside of the sheet, and the membrane goes down only once the adhesive has dried clear. Fleece back takes adhesive on the substrate alone and the sheet goes into it wet, before it dries. Dry for smooth sheet, wet for fleece back, and never the other way round.",
+        "Coverage runs 115 to 125 sq ft per gallon on smooth membrane, about 600 sq ft of bonded area per pail. Weight is 8.6 to 9 lb per gallon, solids 60 to 65%, viscosity 14,000 to 18,000 cps. Minimum application temperature is 40°F and rising, and the pail must be stored above 40°F because a frozen emulsion is a ruined emulsion and there is no way back from it. A pail that has frozen once is a pail to send back, not to stir harder."
+      ],
+      "features": {
+        "install": [
+          "Stir the pail thoroughly before use rather than pouring it straight off",
+          "Coat both membrane and substrate for smooth sheet, substrate only for fleece back",
+          "Let smooth sheet adhesive dry clear first; lay fleece back into it while wet",
+          "Keep adhesive out of the laps, since it will stop the heat weld taking",
+          "Broom the sheet down so the whole face makes contact, not just the middle"
+        ],
+        "coverage": [
+          "FM Approved and Classified by UL to ANSI/UL 790",
+          "Under 20 g/L VOC, so little to no odour for the occupants below",
+          "About 600 sq ft of bonded membrane per five gallon pail",
+          "Bonds smooth and fleece back TPO and fleece back PVC",
+          "Takes polyiso, fiber board, gypsum panels, concrete, masonry, metal and wood",
+          "Sixty to sixty five percent solids at 14,000 to 18,000 cps"
+        ]
+      }
     },
     "gaf-778c": {
       "title": "EverGuard PVC Quick Lay Adhesive",
-      "titleLead": "EverGuard PVC Quick Lay",
-      "titleAccent": "Adhesive",
-      "description": "Fast grab PVC adhesive that bonds EverGuard membranes to the deck with strong lasting hold, covering six hundred square feet.",
-      "highlights": [
-        "One sided, wet lay in water based adhesive",
-        "Up to fifty percent faster than standard adhered systems",
-        "Low VOC with little to no odor",
-        "Not for EverGuard PVC KEE or XK membranes"
-      ]
+      "titleLead": "EverGuard PVC",
+      "titleAccent": "Quick Lay Adhesive",
+      "description": "Single sided water based adhesive for smooth PVC membrane, installed directly into wet film for approximately fifty percent faster application.",
+      "about": [
+        "Every contact adhesive on a roof costs the same two things: a second coat and a wait. The sheet is coated, the deck is coated, and then nobody touches anything until both have flashed off. That waiting is dead time on a large deck, and it is the reason a crew of five finishes fewer squares in a day than the arithmetic of the job would suggest they should. The arithmetic looks fine on paper and the working day never quite matches it.",
+        "This one removes both costs. It goes on the substrate only, and the membrane is rolled into it while it is still wet rather than after it has dried. GAF put the gain at close to fifty percent against a traditional solvent bonding adhesive, which in practice is the difference between finishing a section before the afternoon and coming back for it tomorrow. Half a day saved on a large deck becomes a full day across the whole job.",
+        "The trade is that the wet window is now the thing you have to manage. Dried adhesive is a failed bond here, not a ready one, so the adhesive goes down at the rate the crew can actually follow, and the sheet is broomed while the film is still open. Applied at 100 sq ft per gallon that is roughly 600 sq ft, six squares, of installed membrane from one pail. The pail no longer sets the pace of the work; the crew behind it does.",
+        "It is water based at under 50 g/L VOC, 8.5 lb per gallon, 65.5% solids at 10,000 cps, and the minimum application temperature is 40°F and rising. It is for smooth EverGuard PVC only: it is not approved for the PVC KEE or PVC XK membranes, and the pail must never be allowed to freeze because a frozen emulsion does not come back. Check the membrane type before the order goes in, because there is no way to use this on a KEE roof."
+      ],
+      "features": {
+        "install": [
+          "Spread only what the crew can lay into before the film dries",
+          "Coat the substrate alone, never the underside of the membrane",
+          "Roll and broom the sheet into wet adhesive, not dried adhesive",
+          "Keep the adhesive out of the overlaps so the heat weld still takes",
+          "Check the membrane type first, since KEE and XK are excluded"
+        ],
+        "coverage": [
+          "FM Approved, UL Classified, Miami Dade and State of Florida approved",
+          "Close to fifty percent faster than a solvent bonding adhesive",
+          "One hundred square feet per gallon, about six squares per pail",
+          "Water based at under 50 g/L VOC with 65.5 percent solids",
+          "Applies from 40°F and rising, on the substrate only",
+          "Not for use with EverGuard PVC KEE or PVC XK membranes"
+        ]
+      }
     },
     "titebond-61001": {
       "title": "WeatherMaster Metal Roof Sealant",
-      "titleLead": "WeatherMaster Metal Roof",
-      "titleAccent": "Sealant",
-      "description": "All weather sealant that bonds to metal, flashing and trim without shrinking or cracking, even down at zero degrees Fahrenheit.",
-      "highlights": [
-        "Bonds to all metals, including Kynar coated panels",
-        "Adheres to wet and damp surfaces",
-        "Paintable one hour after application",
-        "Meets ASTM C920 Type S, Class 50"
-      ]
+      "titleLead": "WeatherMaster",
+      "titleAccent": "Metal Roof Sealant",
+      "description": "Advanced polymer metal roofing sealant rated at fifty percent joint movement, applied from zero degrees Fahrenheit onto still damp surfaces.",
+      "about": [
+        "A metal roof is a structure that never stops moving. A long panel grows and shrinks with every sunrise and every night, and the joint at its end has to absorb that for twenty years without splitting. This sealant carries a joint movement rating of plus or minus fifty percent of the joint width, which is the number that decides whether a seal survives a decade of that or fails in its third summer. Most sealant failures are movement failures.",
+        "It is an advanced polymer rather than a silicone or a urethane, and that choice drives most of what makes it usable. It bonds to Kynar coated metal, to aluminium, galvanised steel, copper and to most standard building materials, and it takes paint an hour after it goes on. A silicone does neither of those things, which is why silicone on a painted panel is a repair waiting to happen. That is why the choice of chemistry is not a detail.",
+        "The two figures that matter on site are the ones nobody reads until it is cold or wet. Air, sealant and surface temperature have to be above 0°F, which puts the tool in the winter bag rather than the summer one, and unlike most sealants it will bond to wet and damp surfaces. Neither of those is a convenience; they are what let a leak be closed on the day it is found. A leak found on a wet afternoon can be closed on that afternoon.",
+        "The cartridge is 10.1 oz, which lays about 53 linear feet at a 3/16 in bead. It is 99% solids, so it does not shrink back into the joint as it cures, at 9 g/L of VOC. Tack free comes at 20 to 30 minutes and full cure at 24 hours. It meets ASTM C920 Type S, Grade NS, Class 50. It is not made for continuous submersion or any use below the waterline. Ninety nine percent solids is what stops a bead sinking into the joint as it cures."
+      ],
+      "features": {
+        "install": [
+          "Always extrude it as a bead rather than smearing it into the joint",
+          "Fill the joint to capacity and repeat the pass if it needs a second",
+          "Use backing material wherever the joint depth runs past half an inch",
+          "Tool it inside fifteen minutes, then leave it alone until it skins",
+          "Never wipe a finished bead with solvent, which ruins the surface"
+        ],
+        "coverage": [
+          "Meets ASTM C920, Type S, Grade NS, Class 50",
+          "Joint movement of plus or minus fifty percent of the joint width",
+          "Bonds to Kynar coated metal, aluminium, galvanised steel and copper",
+          "Applies above 0°F and adheres to wet and damp surfaces",
+          "Ninety nine percent solids at 9 g/L VOC, so it does not shrink",
+          "About 53 linear feet from the cartridge at a 3/16 in bead"
+        ]
+      }
     },
     "dewalt-dcs391": {
       "title": "Cordless Circular Sidewinder Saw",
