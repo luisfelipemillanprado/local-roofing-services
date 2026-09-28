@@ -53,4 +53,15 @@ update baselines to silence a diff you have not explained.
   never collide. Do not kill :3000 to run tests.
 - `messages/*.json` are generated and gitignored — a red `tsc` complaining about them
   means step 1 was skipped, not a real type error.
+- **`pnpm build` while `pnpm dev` is running races on `messages/*.json`.** Both write them
+  (the dev builder in watch mode, the build one-shot), and the watcher can land last with an
+  older snapshot, leaving the dev server a generation behind the sources. The symptom is a
+  500 on the routes you just edited, typically `TypeError: <field>.map is not a function`
+  where a `t.raw` array is now `undefined`. Compare mtimes — generated older than sources is
+  the tell — and run **`pnpm i18n:build`** to recover. The committed source and the
+  production build are unaffected, since `pnpm build` regenerates first.
+- **A React "Encountered a script tag while rendering React component" error is a symptom,
+  not the bug.** next-themes renders an inline theme `<script>`; React hydrates it normally,
+  and only _creates_ it client side when the server render failed and Next fell back to a
+  client render. The real error is the one logged right after it, and the request is a 500.
 - Commit/push only when explicitly asked; commitlint enforces Conventional Commits.
