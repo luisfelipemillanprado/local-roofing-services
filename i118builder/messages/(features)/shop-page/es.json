@@ -217,7 +217,14 @@
       "fit": "Ajuste",
       "step": "Escalón",
       "pack": "Unidades por Paquete",
-      "ribSpacing": "Separación de Nervios"
+      "ribSpacing": "Separación de Nervios",
+      "filter": "Filtro",
+      "motor": "Motor",
+      "bearing": "Rodamientos",
+      "damper": "Clapeta",
+      "mesh": "Malla",
+      "frame": "Marco",
+      "weightPerFoot": "Peso por Pie"
     },
     "specValue": {
       "fiberglassAsphalt": "Asfalto con Fibra de Vidrio",
@@ -286,7 +293,40 @@
       "closedCellFoam": "Espuma de célula cerrada",
       "insideClosure": "Cierre interior",
       "selfAdhesive": "Autoadhesivo",
-      "counterFlashing": "Contrababero"
+      "counterFlashing": "Contrababero",
+      "galvannealedSteel": "Acero galvanneal",
+      "redOxidePrimer": "Imprimación de óxido rojo",
+      "roofHatch": "Escotilla de techo",
+      "miamiDadeFlorida": "Miami Dade y Florida",
+      "ladderAccess": "Acceso por escalera",
+      "aluminum": "Aluminio",
+      "roofLouver": "Rejilla de tejado",
+      "atticExhaust": "Extracción de ático",
+      "weatherEmber": "Malla contra lluvia y pavesas",
+      "psc": "Condensador permanente",
+      "gableFan": "Ventilador de hastial",
+      "ulListed": "Listado UL en EE. UU. y Canadá",
+      "dualBall": "Doble bola inoxidable",
+      "adjustable": "Regulable",
+      "windTurbine": "Turbina eólica",
+      "dadeTexas": "Condado de Dade y Texas",
+      "crcqSteel": "Acero CRCQ",
+      "powderCoat": "Pintura en polvo",
+      "backdraft": "Antirretorno integrada",
+      "roofCap": "Sombrerete de tejado",
+      "exhaustFans": "Extractores",
+      "stainless304": "Acero inoxidable 304",
+      "stainlessMesh": "Acero inoxidable",
+      "expansionScrews": "Tornillos de expansión",
+      "chimneyCap": "Caperuza de chimenea",
+      "impactPolymer": "Polímero antiimpacto",
+      "dadeFloridaTexas": "Dade, Florida y Texas",
+      "polycarbonate": "Policarbonato estabilizado",
+      "tigWelded": "Esquinas soldadas TIG",
+      "curbMount": "Sobre brocal de obra",
+      "anyRoofType": "Cualquier tipo de tejado",
+      "squareTube": "Tubo cuadrado",
+      "roofFrames": "Estructuras y soportes"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -1171,16 +1211,33 @@
       ]
     },
     "werner-6206": {
-      "title": "Escotilla de Techo Type S",
-      "titleLead": "Escotilla de Techo",
-      "titleAccent": "Type S",
-      "description": "Escotilla de acceso de una hoja, con tapa aislada en fibra de vidrio sobre un bastidor de doce pulgadas.",
-      "highlights": [
-        "Escotilla de una hoja para acceso por escalera",
-        "Tapa calculada para una carga viva de cuarenta psf",
-        "Tapa aislada con una pulgada de fibra de vidrio",
-        "Esquinas totalmente soldadas y estancas"
-      ]
+      "title": "Escotilla de Acceso Galvanizada Tipo S",
+      "titleLead": "Escotilla de Acceso",
+      "titleAccent": "Galvanizada Tipo S",
+      "description": "Escotilla galvanizada monohoja para acceso mediante escalera interior, tapa aislante de fibra sobre brocal galvanizado reforzado de doce pulgadas.",
+      "about": [
+        "La Bilco Tipo S es una escotilla de techo de una sola hoja pensada para acceso por escalera, y el diseño gira en torno al manejo con una mano: la tapa llega a su posición abierta o cerrada sin que el usuario suelte la escalera, que es todo el argumento de seguridad. Llega premontada de fábrica y lista para colocar. Esta es la S-20, de acero galvanizado; existe también en aluminio y en inoxidable. El lado de 30 in es el de las bisagras.",
+        "La tapa es de acero galvanneal calibre 14 con pestaña rebordeada de 3 in y refuerzos conformados, y lleva 1 in de lana de vidrio tras un forro metálico de calibre 22. Una junta de EPDM extruido pesado va adherida a la cara interior, de modo que al cerrar comprime un sello continuo contra el canto superior del brocal. El brocal mide 12 in de alto en el mismo calibre, aislado con 1 in de fibra rígida de alta densidad por su cara exterior.",
+        "El brocal incorpora un remate metálico del mismo material, soldado en las esquinas, con el sistema Bil-Clip: lengüetas troqueladas cada 6 in que se doblan hacia dentro para sujetar la membrana monocapa. Una pestaña de 3 1/2 in con agujeros de 7/16 in fija el marco al tablero. Los resortes de compresión en tubos telescópicos acompañan la tapa en todo su recorrido. El tubo superior va por fuera para que no se acumule suciedad.",
+        "La tapa está reforzada para una sobrecarga mínima de 40 psf con una flecha limitada a 1/150 de la luz, y la presión de diseño es de más menos 100 psf con un factor de diseño de 2. Las versiones de acero galvanizado y de aluminio cuentan con Notice of Acceptance de Miami-Dade y aprobación del código de Florida. Bilco garantiza materiales y mano de obra cinco años. La tornillería va cincada y sellada con cromato, y el acero sale imprimado."
+      ],
+      "features": {
+        "install": [
+          "Apoya la pestaña de 3 1/2 in del brocal y fija por los agujeros de 7/16 in",
+          "Dobla hacia dentro las lengüetas Bil-Clip, cada 6 in, sobre la membrana monocapa",
+          "El lado de 30 in es el de las bisagras, así que plantea el acceso en consecuencia",
+          "Comprueba que la junta de EPDM asiente en el canto del brocal en todo el perímetro",
+          "Prueba los resortes y el brazo de retención y ajusta hasta que el giro sea suave"
+        ],
+        "coverage": [
+          "Cinco años en materiales y mano de obra desde la fecha de compra",
+          "Bilco repone sin cargo la pieza que falle en uso normal dentro de ese plazo",
+          "Tapa reforzada para 40 psf de sobrecarga con flecha menor a 1/150 de la luz",
+          "Presión de diseño de más menos 100 psf con un factor de diseño de 2",
+          "Notice of Acceptance de Miami-Dade y aprobación del código de Florida en la S-20",
+          "Fabricada bajo un sistema de calidad ISO 9001 con ingeniería propia"
+        ]
+      }
     },
     "duration-designer-slatestone-grey": {
       "title": "Duration Designer Pizarra Gris",
@@ -1299,76 +1356,178 @@
       }
     },
     "broan-634": {
-      "title": "Sombrerete de Cubierta en Acero Negro",
-      "titleLead": "Sombrerete de Cubierta",
-      "titleAccent": "en Acero Negro",
-      "description": "Sombrerete de acero con compuerta antirretorno y malla contra aves, para conductos rectangulares o redondos de hasta ocho pulgadas.",
-      "highlights": [
-        "Compuerta antirretorno integrada",
-        "Malla que impide el paso de aves y animales pequeños",
-        "Acero con acabado en pintura en polvo negra",
-        "Para conductos rectangulares o redondos de hasta ocho pulgadas"
-      ]
+      "title": "Sombrerete Negro Antirretorno",
+      "titleLead": "Sombrerete Negro",
+      "titleAccent": "Antirretorno",
+      "description": "Sombrerete de acero esmaltado que termina los conductos de campanas y extractores, con clapeta antirretorno y malla antipájaros incorporadas.",
+      "about": [
+        "Esto es el final en cubierta de un conducto de extracción, y no una ventilación de tejado en el sentido habitual. Una campana de cocina, un extractor de baño o uno de sala tiene que descargar fuera, y donde el conducto asoma por el tejado este sombrerete tapa el hueco, vuelca el aire hacia abajo y deja la intemperie fuera del conducto. Sirve en obra nueva y en reforma. El sombrerete vuelca la descarga hacia abajo para que nada sople de vuelta.",
+        "Admite cualquiera de las dos formas de conducto que usan esos extractores: rectangular de 3 1/4 x 10 in, que es lo estándar tras una campana, o redondo de hasta 8 in. El cuerpo es de acero CRCQ calibre 24, o sea chapa laminada en frío de calidad comercial, acabada en pintura negra en polvo. Pesa unas 4 lb y mide 14 1/4 x 18 3/4 in por 6 5/8 in de alto. Es lo bastante ligero para subirlo por la escalera con una sola mano.",
+        "Lleva dos cosas integradas. Una clapeta antirretorno cuelga por dentro para que el aire exterior, con el frío o el calor que trae, no empuje de vuelta por el conducto hacia la casa con el extractor parado. Detrás, una malla cierra el paso a pájaros, avispas y todo lo que si no anidaría en un conducto templado. Ninguna de las dos se compra aparte. Las dos vienen ya montadas dentro del sombrerete nada más sacarlo de la caja.",
+        "Lo único para lo que no debe usarse es una secadora de ropa. El aire de secadora arrastra pelusa, y la pelusa se apelmaza contra una clapeta y una malla hasta que el conducto se tapona y la propia pelusa se vuelve carga de fuego, por eso las secadoras rematan con otro sombrerete sin malla. Broan lo dice sin rodeos. No publica viento, fuego ni garantía. Los sombreretes de secadora usan boca más ancha y ninguna malla por eso."
+      ],
+      "features": {
+        "install": [
+          "Acepta conducto rectangular de 3 1/4 x 10 in o redondo de hasta 8 in",
+          "Solapa las tejas sobre el alto y los lados de la pestaña, nunca sobre la boca",
+          "Comprueba que la clapeta bascula libre antes de cerrar la última hilada",
+          "Sella el conducto al sombrerete para que la junta no gotee dentro del ático",
+          "No remates aquí nunca una secadora de ropa, que Broan excluye de plano"
+        ],
+        "coverage": [
+          "La clapeta antirretorno va integrada, no es un accesorio aparte",
+          "La malla antipájaros va integrada tras la clapeta, contra aves y avispas",
+          "Acero CRCQ de calibre 24 con acabado negro de pintura en polvo",
+          "Vale para campanas, extractores de baño, de sala y de gimnasio en casa",
+          "Excluido para secadoras porque la pelusa se apelmaza contra la malla",
+          "No se publica resistencia al viento, clase de fuego ni plazo de garantía"
+        ]
+      }
     },
     "master-flow-egv6ht": {
-      "title": "Extractor de Ático para Hastial",
-      "titleLead": "Extractor de Ático",
-      "titleAccent": "para Hastial",
-      "description": "Mil seiscientos pies cúbicos por minuto tras la celosía del hastial, con termostato, para áticos de tres mil pies.",
-      "highlights": [
-        "Control combinado de humedad y temperatura",
-        "Motor PSC de bajo consumo",
-        "Construcción metálica resistente al óxido",
-        "Certificación UL en Estados Unidos y Canadá"
-      ]
+      "title": "Ventilador de Ático Montado en Hastial",
+      "titleLead": "Ventilador de Ático",
+      "titleAccent": "Montado en Hastial",
+      "description": "Ventilación de mil seiscientos pies cúbicos por minuto mediante rejilla instalada en el hastial, incorpora termostato e higrostato precableados.",
+      "about": [
+        "Este es un extractor de ático que se monta dentro del hastial y no sobre el faldón, así que no se corta nada del tablero ni se altera la línea del tejado. Mueve 1,600 pies cúbicos por minuto y Master Flow lo da para áticos de hasta 3,000 sq ft. El EGV5 de la misma familia cubre 2,300 sq ft a 1,450 CFM cuando el ático es algo más corto. La línea del tejado no cambia, que es la razón habitual para elegir un equipo de hastial.",
+        "El motor es de condensador permanente, que es el más silencioso y eficiente de los dos tipos que se usan en extractores de ático, y funciona con los 120 voltios de la red doméstica. La unidad está listada por UL tanto en Estados Unidos como en Canadá. La carcasa es metálica en su totalidad, que es lo que evita que se oxide con la humedad bajo un tejado caliente. Master Flow señala la construcción metálica como lo que resiste el óxido.",
+        "Las siglas HT del modelo son el control: un termostato y un higrostato ajustables vienen ya cableados al ventilador, de modo que arranca por calor o por humedad sin tender un mando aparte. El kit de montaje va en la caja con cuatro escuadras, ocho pernos y ocho tuercas Nylok, y las escuadras lo fijan a la estructura tras una rejilla de hastial. Arranca por calor o por humedad, lo que primero cruce el punto de consigna fijado.",
+        "La entrada de aire es lo que decide si todo esto funciona. Master Flow pide al menos 768 sq in de área libre de admisión para este modelo, tomada en el alero, el sofito o la imposta. La extracción nunca debe superar la admisión, o el ventilador saca aire climatizado de la casa en lugar de aire del ático. La garantía es de diez años con cinco de Labor Protection Plus. Master Flow publica la cifra de admisión junto al caudal por ese motivo."
+      ],
+      "features": {
+        "install": [
+          "Fíjalo a la estructura tras una rejilla de hastial existente, no sobre el faldón",
+          "Usa las cuatro escuadras, ocho pernos y ocho tuercas Nylok que van en la caja",
+          "Aliméntalo de la red de 120 voltios, ya que los mandos llegan cableados",
+          "Dispón al menos 768 sq in de admisión libre en el alero o bajo el alero",
+          "Nunca dejes que la extracción supere la admisión o tirará del aire de la casa"
+        ],
+        "coverage": [
+          "Garantía limitada de diez años con cinco de Labor Protection Plus",
+          "Homologado en 1,600 CFM para áticos de hasta 3,000 sq ft",
+          "Listado por UL tanto en Estados Unidos como en Canadá",
+          "El motor de condensador permanente es el tipo eficiente en extractores",
+          "Carcasa metálica completa, que es lo que resiste el óxido bajo el tejado",
+          "Termostato e higrostato ajustables llegan cableados al ventilador de fábrica"
+        ]
+      }
     },
     "master-flow-prsolar2": {
-      "title": "Extractor Solar de Perfil Bajo",
-      "titleLead": "Extractor Solar",
-      "titleAccent": "de Perfil Bajo",
-      "description": "Panel de treinta y cinco vatios que mueve la extracción sin tirar cable, a setecientos cincuenta pies por minuto.",
-      "highlights": [
-        "Motor sin escobillas que no necesita mantenimiento",
-        "Supera el ensayo climático TAS 100(A)",
-        "Aprobación de producto del condado de Miami Dade",
-        "Para pendientes de 2:12 a 12:12"
-      ]
+      "title": "Ventilador Solar Extraplano de Ático",
+      "titleLead": "Ventilador Solar",
+      "titleAccent": "Extraplano de Ático",
+      "description": "Un panel fotovoltaico incorporado de treinta y cinco vatios desplaza setecientos cincuenta pies cúbicos por minuto sin instalación eléctrica.",
+      "about": [
+        "El argumento de un extractor solar de ático no es tanto la electricidad que ahorra como el cableado que evita. No hay circuito que llevar al ático, ni interruptor, ni magnetotérmico, ni electricista, porque el panel de 35 vatios va integrado y alimenta el motor directamente. Mueve hasta 750 pies cúbicos por minuto y Master Flow lo da para unos 1,070 sq ft de ático. El panel y el ventilador son una sola pieza, no dos cosas que conectar.",
+        "Es la versión de perfil bajo, que importa más de lo que parece. El conjunto mide 28 x 28 in en planta y solo 8 in de alto, así que queda pegado al faldón en vez de levantarse como una cúpula solar, y el panel integrado es de 17 1/2 in de lado. La carcasa es de polímero antiimpacto en negro y no de chapa pintada, así que nada en ella se oxida. Un equipo más bajo es además un equipo que casi no se distingue desde la calle.",
+        "Se monta sobre un hueco de 15 in y la base se regula para pendientes de 2:12 hasta 12:12, que cubre casi cualquier tejado de teja asfáltica. El modelo solar incluye higrostato y termostato, de modo que el ventilador no gira sin más mientras haya sol: espera a que el calor o la humedad del ático crucen la consigna y entonces tira de lo que dé el panel. Un ventilador que gira solo por haber luz desperdicia las mañanas que no hace falta.",
+        "Las aprobaciones son la parte fuerte del expediente. Tiene aprobación del Product Control de Miami-Dade, aprobación del estado de Florida y una evaluación del Texas Department of Insurance bajo RV-62, y está listado según UL 507 y CAN/CSA C22.2. La garantía es de seis años con tres de protección de mano de obra, menos que los modelos de red. Ese plazo más corto es el precio de quitar de en medio el cableado y al electricista."
+      ],
+      "features": {
+        "install": [
+          "Abre un hueco de 15 in y baberiza la base como con cualquier otra ventilación",
+          "La base admite pendientes desde 2:12 hasta 12:12",
+          "No hace falta circuito, interruptor ni magnetotérmico: el panel mueve el motor",
+          "Orienta el panel donde vaya a recibir sol buena parte de la tarde",
+          "Ajusta higrostato y termostato para que espere calor o humedad, no luz"
+        ],
+        "coverage": [
+          "Garantía limitada de seis años con tres de protección de mano de obra",
+          "Aprobaciones del Product Control de Miami-Dade y del estado de Florida",
+          "Evaluación de producto del Texas Department of Insurance bajo RV-62",
+          "Listado según UL 507 y según CAN/CSA C22.2",
+          "Homologado en 750 CFM para unos 1,070 sq ft de superficie de ático",
+          "Carcasa de polímero antiimpacto en negro, sin nada que pueda oxidarse"
+        ]
+      }
     },
     "master-flow-ssb960a": {
-      "title": "Celosía Estática de Cubierta",
-      "titleLead": "Celosía Estática",
-      "titleAccent": "de Cubierta",
-      "description": "Sesenta pulgadas cuadradas de área libre neta en capota de aluminio de dieciocho pulgadas, pensada para pendientes muy fuertes.",
-      "highlights": [
-        "Sesenta pulgadas cuadradas de área libre",
-        "Malla interna contra intemperie y brasas",
-        "Supera el ensayo de lluvia con viento de 110 mph",
-        "Campana cerrada contra roedores, insectos y hojas"
-      ]
+      "title": "Rejilla Inclinada de Ventilación Estática",
+      "titleLead": "Rejilla Inclinada de",
+      "titleAccent": "Ventilación Estática",
+      "description": "Sesenta pulgadas cuadradas de área libre de ventilación bajo una capota completamente cerrada de aluminio natural, para pendientes pronunciadas.",
+      "about": [
+        "Una rejilla estática no tiene piezas móviles ni motor: es una capota sobre un hueco del tablero que deja salir por sí solo el aire caliente del ático. Esta ofrece 60 sq in de área libre de ventilación, que Master Flow traduce en unos 250 sq ft de superficie de ático por unidad, así que el número de rejillas sale del tamaño del ático y no de una promesa de rendimiento. Con 60 sq in mueve cerca de un 20 por ciento más aire que una de 50 sq in.",
+        "La forma inclinada es la razón para elegirla en un tejado empinado. La capota queda baja y volcada contra la pendiente, lo que impide que la lluvia batida por el viento se cuele por debajo de la abertura, y Master Flow le fija una pendiente mínima de 3:12. La placa de babero mide 16 x 20 in y se coloca sobre un hueco de 10 x 10 in abierto en el tablero. Master Flow cierra el rango en 12:12, así que sirve para casi todo el trabajo.",
+        "La capota va cerrada y no abierta por los lados, de modo que ni las hojas ni las acículas se acumulan dentro y ni roedores ni insectos tienen por dónde entrar. Detrás de la abertura hay una malla interior calificada frente a la intemperie y a las pavesas, que además retiene polvo, algo que cuenta donde las pavesas son un riesgo real en temporada de incendios. Esa misma malla evita que la capota se llene de polvo con los años.",
+        "Es de aluminio natural, así que no lleva pintura y nada puede descascarillarse, aunque el metal desnudo queda a la vista en lugar de integrarse con el color de la teja. Master Flow vende versiones con granulado en negro, marrón y madera envejecida bajo sus propias referencias. Son exactamente la misma rejilla con granulado de color adherido sobre la capota. No publica resistencia al viento, clase de fuego ni plazo de garantía."
+      ],
+      "features": {
+        "install": [
+          "Abre un hueco de 10 x 10 in en el tablero, alto en el faldón y cerca de la cumbrera",
+          "Mete el canto superior de la pestaña de 16 x 20 in bajo la hilada de arriba y clava",
+          "Solapa las tejas sobre los laterales de la pestaña y deja libre el canto inferior",
+          "Resérvala para tejados de 3:12 o más, que es el mínimo que fija Master Flow",
+          "Equilibra la cantidad con la entrada de aire del alero antes de añadir más"
+        ],
+        "coverage": [
+          "Homologada en 60 sq in de área libre de ventilación por unidad",
+          "Master Flow cuenta unos 250 sq ft de superficie de ático por rejilla",
+          "La capota cerrada es lo que deja fuera hojas, acículas, roedores e insectos",
+          "Una malla interior frente a intemperie y pavesas retiene además el polvo",
+          "Aluminio natural, sin recubrimiento que pueda calear, desteñir o saltar",
+          "No se publica resistencia al viento, clase de fuego ni plazo de garantía"
+        ]
+      }
     },
     "suntek-cma1919": {
-      "title": "Lucernario de Cúpula CMA sobre Zócalo de Aluminio",
-      "titleLead": "Lucernario de Cúpula CMA",
-      "titleAccent": "sobre Zócalo de Aluminio",
-      "description": "Lucernario de doble cúpula de policarbonato con remate de aluminio, sobre bastidor hecho en obra, de unas veinte pulgadas.",
-      "highlights": [
-        "Cubre un bastidor de obra con un sellado estanco",
-        "Aislamiento de doble cúpula con esquinas soldadas TIG",
-        "Policarbonato coextruido con protección UV",
-        "Apto para cualquier techo, incluso metálico"
-      ]
+      "title": "Claraboya Fija de Policarbonato",
+      "titleLead": "Claraboya Fija de",
+      "titleAccent": "Policarbonato",
+      "description": "Claraboya de doble cúpula en policarbonato con aro decorativo de aluminio, coronando un brocal construido de aproximadamente veinte pulgadas.",
+      "about": [
+        "Una claraboya de brocal no se baberiza a sí misma. El brocal se levanta en obra con madera, se baberiza como cualquier otra penetración, y la claraboya cae después encima a modo de tapa. Ese reparto del trabajo es la razón de que el tipo siga vigente: la impermeabilización es trabajo de tejado corriente que cualquier instalador conoce, y la cúpula es solo una tapa. Nada de la propia claraboya tiene que detener el agua por sí solo.",
+        "El acristalamiento es de policarbonato y no de acrílico, y esa es la especificación que conviene mirar. Sun-Tek sitúa el policarbonato en unas treinta veces la resistencia al impacto del acrílico, que es lo que vuelve habitual este tipo en zonas de granizo y de huracán. Va estabilizado contra el UV para que no amarillee, en doble cúpula bronce sobre transparente. El tinte bronce es lo que corta el deslumbramiento en una estancia al sur.",
+        "Dos cúpulas en vez de una son aislamiento. El aire atrapado entre la lámina exterior y la interior es lo que evita que la pieza chorree condensación en una mañana fría y lo que deja fuera parte del calor de verano. Por el perímetro el conjunto va envuelto en un aro decorativo de aluminio, y las esquinas del marco van soldadas con TIG y no atornilladas. Una esquina soldada no tiene tornillo que se afloje ni junta que se abra.",
+        "Esta es la CMA 1919, de 19 1/2 x 19 1/2 in, que es la medida del brocal que tapa y no la superficie acristalada. Llega montada por completo, y Sun-Tek la da por válida para cualquier tipo de tejado, metálico incluido. La garantía es de diez años. La gama CMA sigue con medidas mayores sobre la misma construcción si el hueco lo pide. Las CMA 2222, CMA 2230 y CMA 3030 son las siguientes medidas de la gama con la misma construcción."
+      ],
+      "features": {
+        "install": [
+          "Levanta y baberiza el brocal primero: la claraboya es tapa, no babero",
+          "Dimensiona el brocal en 19 1/2 x 19 1/2 in para que case con esta unidad",
+          "La unidad llega montada, así que no se acristala nada sobre el tejado",
+          "Vale para cualquier tejado, metálico incluido, porque el brocal hace el trabajo",
+          "Asiéntala sobre el canto del brocal y fija a través del aro de aluminio"
+        ],
+        "coverage": [
+          "Garantía limitada de diez años de Sun-Tek",
+          "Policarbonato con unas treinta veces la resistencia al impacto del acrílico",
+          "Estabilizado contra el UV, de modo que la lámina no queda a amarillear",
+          "La doble cúpula atrapa aire entre la lámina exterior y la interior",
+          "Las esquinas del marco de aluminio van soldadas con TIG y no atornilladas",
+          "Cúpula exterior en bronce sobre interior transparente, con aro de aluminio"
+        ]
+      }
     },
     "steeldash-tube-14ga-2in": {
-      "title": "Tubo Cuadrado Galvanizado",
-      "titleLead": "Tubo Cuadrado",
+      "title": "Tubo Estructural Galvanizado",
+      "titleLead": "Tubo Estructural",
       "titleAccent": "Galvanizado",
-      "description": "Perfil cuadrado de acero grueso de dos pulgadas, en tramos de veinticuatro pies, para estructuras de cubierta y soportes.",
-      "highlights": [
-        "Sección cuadrada de dos por dos pulgadas",
-        "Pared de acero calibre catorce",
-        "Recubrimiento galvanizado contra el óxido",
-        "Se suministra en tramos de veinticuatro pies"
-      ]
+      "description": "Perfil estructural cuadrado de acero galvanizado, dos pulgadas por cara, servido en longitudes de veinticuatro pies para armazones portantes.",
+      "about": [
+        "Esto es material estructural corriente y no un producto de cubierta: un perfil hueco de acero cuadrado, de 2 in por cara, servido en tramos de 24 ft. Es de lo que se hace el bastidor de una marquesina, una pérgola, una correa sobre una nave pequeña o un carril para paneles solares, y por eso un tejado metálico sobre estructura abierta no pide nada más debajo. Nada de esto es específico de cubierta, que es justo la gracia del material.",
+        "El calibre es el dato que cuenta. En calibre 14 la pared es de 0.083 in nominales, que es el extremo grueso de lo que se vende como tubo estructural ligero y bastante más rígido que los calibres 16 y 18 que se usan en cancelas y barandillas. Un perfil de 2 in con esa pared pesa unas 2.16 lb por pie, así que un tramo de 24 ft ronda las 51.8 lb. Conviene saberlo antes de que alguien intente subir un tramo entero por la escalera.",
+        "Va galvanizado y no pintado ni en negro, y para cualquier cosa que viva a la intemperie bajo un tejado esa diferencia es la que merece pagarse. El zinc protege de forma sacrificial las caras cortadas y los taladros, así que un bastidor no empieza a oxidarse por los extremos y por las fijaciones como hace el tubo negro en cuanto llega el primer invierno. El zinc sigue trabajando en un arañazo o un corte de sierra, que es lo que la pintura no hace.",
+        "Steeldash publica la medida, el calibre y la longitud de este perfil y nada más. No hay certificado de colada, ni grado de acero, ni cifra de límite elástico o de rotura, ni tabla de cargas, así que las cifras de pared y peso de arriba son las estándar del tubo cuadrado de 2 in en calibre 14. Lo que soporte carga real debe calcularlo un técnico. Toma esas cifras como la medida del material y no como una calificación estructural."
+      ],
+      "features": {
+        "install": [
+          "Corta con tronzadora abrasiva o disco para metal, nunca con soplete",
+          "Repasa cada corte y cada taladro con una pintura rica en zinc",
+          "Taladra y atornilla antes que soldar, salvo que puedas rehacer el galvanizado",
+          "Encaja el tramo de 24 ft en el reparto para no convertir los recortes en el trabajo",
+          "Cuenta unas 51.8 lb por tramo al planear cómo sube hasta la cubierta"
+        ],
+        "coverage": [
+          "Se sirve en tramos de 24 ft de perfil de 2 x 2 in en calibre 14",
+          "Pared nominal de 0.083 in, la cifra estándar del calibre 14",
+          "Unas 2.16 lb por pie, o sea del orden de 51.8 lb por tramo completo",
+          "Galvanizado, así que cortes y taladros quedan protegidos de forma sacrificial",
+          "Steeldash no publica grado de acero, certificado de colada ni tabla de cargas",
+          "Lo que vaya a soportar carga estructural real debe calcularlo un técnico"
+        ]
+      }
     },
     "gibraltar-08328": {
       "title": "Goterón Blanco Galvanizado Gofrado",
@@ -1487,16 +1646,33 @@
       }
     },
     "master-flow-gic12": {
-      "title": "Extractor Eólico de Cubierta",
-      "titleLead": "Extractor Eólico",
-      "titleAccent": "de Cubierta",
-      "description": "Cabezal de doble rodamiento con refuerzo interno que extrae el aire caliente del ático, de doce pulgadas de diámetro.",
-      "highlights": [
-        "Cabezal de turbina galvanizado de doce pulgadas",
-        "Sistema de doble rodamiento de acero inoxidable",
-        "Refuerzo interno para mayor resistencia",
-        "Base ajustable para pendientes de 2:12 a 12:12"
-      ]
+      "title": "Turbina Eólica Galvanizada",
+      "titleLead": "Turbina Eólica",
+      "titleAccent": "Galvanizada",
+      "description": "Turbina con arriostramiento interno que ventila unos quinientos pies cuadrados de ático, montada sobre base regulable para cualquier pendiente.",
+      "about": [
+        "Una turbina eólica es la única ventilación de tejado que trabaja de verdad sin electricidad: las aletas recogen la brisa que cruza la cumbrera y giran, y ese giro saca el aire del ático de abajo. Master Flow da a este cabezal de 12 in unos 500 sq ft de ático. El arriostramiento va por dentro del cabezal y no por fuera, que es a lo que alude su nombre. En la misma gama hay una versión con arriostramiento exterior del mismo tamaño.",
+        "Lo que distingue a una turbina que sigue girando de otra que se agarrota es el rodamiento. Esta lleva bolas de acero inoxidable arriba y abajo sobre una pista lubricada de por vida, encapsuladas para que ni tierra ni polvo ni arena entren, y gira sobre un eje de acero templado. Esa cápsula es lo que decide cuántas temporadas aguanta antes de empezar a chirriar. No hay nada que engrasar una vez el cabezal está sobre la base.",
+        "Las aletas son de doble nervio con la tapa convexa, una forma pensada para devolver la lluvia batida por el viento en lugar de dejarla bajar por la garganta. El cabezal y la base van en dos piezas, así que la base se coloca y se baberiza primero y el cabezal se encaja después. La propia base se regula para pendientes desde 2:12 hasta 12:12. Ese reparto en dos piezas es lo que permite que una sola persona la monte sobre el faldón.",
+        "Nada de esto sirve sin entrada de aire. Master Flow pide un mínimo de 91 sq in de área libre de admisión en los aleros o bajo el alero por cada turbina de 12 in, y una turbina sin nada que aspirar sencillamente se para. La unidad cuenta con aprobaciones del condado de Dade y del Texas Department of Insurance. El cabezal es galvanizado natural, sin pintar. Son las dos aprobaciones que más pesan en los estados de viento fuerte."
+      ],
+      "features": {
+        "install": [
+          "Abre el hueco, coloca y baberiza la base primero y encaja el cabezal después",
+          "Regula la base para que el cabezal quede a nivel entre 2:12 y 12:12",
+          "Sitúala alta en el faldón, a medio metro escaso de la cumbrera",
+          "Dispón al menos 91 sq in de admisión libre en el alero por cada turbina",
+          "No hay nada que engrasar, así que no toques la pista una vez en marcha"
+        ],
+        "coverage": [
+          "Master Flow la da para unos 500 sq ft de ático por turbina",
+          "Aprobaciones del condado de Dade y del Texas Department of Insurance",
+          "Bolas de acero inoxidable arriba y abajo sobre pista lubricada de por vida",
+          "El rodamiento va encapsulado para que no lleguen tierra, polvo ni arena",
+          "Aletas de doble nervio y tapa convexa devuelven la lluvia batida por el viento",
+          "Acero galvanizado natural; los cabezales de color llevan otras referencias"
+        ]
+      }
     },
     "trapezoidal-panel-closure": {
       "title": "Cierre para Panel Trapezoidal",
@@ -1731,16 +1907,33 @@
       }
     },
     "vevor-chimney-cap-6in": {
-      "title": "Caperuza de Chimenea Inoxidable",
-      "titleLead": "Caperuza de Chimenea",
+      "title": "Caperuza Redonda Inoxidable",
+      "titleLead": "Caperuza Redonda",
       "titleAccent": "Inoxidable",
-      "description": "Sombrerete con lamas que impide la entrada de la lluvia sin cortar el tiro del conducto, de seis pulgadas.",
-      "highlights": [
-        "Fabricado en acero inoxidable 304",
-        "Resiste el óxido mejor que el acero galvanizado",
-        "Tapa superior de casi doce pulgadas",
-        "Para chimenea redonda de seis pulgadas"
-      ]
+      "description": "Caperuza inoxidable que salvaguarda todo conducto de seis pulgadas contra lluvia, nieve y nidificaciones sin estrangular el tiro ascendente.",
+      "about": [
+        "Un conducto abierto es un agujero mirando al cielo, y todo lo que cae o vuela se aprovecha: lluvia, nieve, hojas, pájaros y algún roedor. Una caperuza lo resuelve sin cerrar el conducto, porque la placa queda separada de la boca sobre unas patas y el humo sale de lado por esa holgura. Esta viene dimensionada para un conducto de 6 in, con collarín de 5.91 in. Las patas entre la placa y el collarín son las que mantienen ese paso abierto.",
+        "Está hecha por completo en inoxidable 304, que es el grado que aguanta tanto los ácidos de los humos como la intemperie, y la chapa tiene 0.6 mm de espesor tanto en el collarín como en la placa superior. La caperuza entera pesa 1.54 lb. La placa mide 11.81 in de lado y el conjunto queda en 11.81 x 11.81 x 8.66 in una vez montado. VEVOR referencia el modelo como SRC 6 C y declara un peso bruto de 2.65 lb con todo el embalaje.",
+        "La placa vuela sobre la boca con mucho margen a propósito. Con 11.81 in sobre un collarín de 5.91 in, la lluvia que llega inclinada sigue cayendo sobre metal y no dentro del tubo, que es la diferencia entre una caperuza que sirve en un temporal y otra que solo sirve con llovizna. VEVOR la llama caperuza ampliada, y esa cota es justo el motivo. Una caperuza ajustada al collarín no haría el mismo papel en un buen vendaval de costado.",
+        "Una malla de inoxidable rodea los laterales entre la placa y el collarín. Frena pájaros, avispas y hojas, y retiene las pavesas que si no saldrían del conducto para caer sobre el tejado. La caperuza se fija al tubo con los tornillos de expansión reforzados que vienen incluidos. No se publica tiro, clase de fuego ni plazo de garantía. Los tornillos que vienen son reforzados y no simples, que es lo que tiene que aguantar el viento."
+      ],
+      "features": {
+        "install": [
+          "Dimensionada para conducto de 6 in, con collarín de 5.91 in de diámetro",
+          "Pasa el collarín sobre el tubo y aprieta los tornillos de expansión incluidos",
+          "Deja libre la holgura lateral, que es por donde sale de verdad el humo",
+          "Revisa la malla cada temporada, porque es lo primero que se ciega de hollín",
+          "No se corta ni se suelda nada, así que puede retirarse para deshollinar"
+        ],
+        "coverage": [
+          "Inoxidable 304 en todo el conjunto, el grado que aguanta los humos",
+          "Espesor de chapa de 0.6 mm tanto en el collarín como en la placa",
+          "La placa de 11.81 in vuela sobre un collarín de 5.91 in contra la lluvia",
+          "La malla de inoxidable frena pájaros, avispas y hojas y retiene pavesas",
+          "Incluye tornillos de expansión reforzados para fijarla al tubo",
+          "No se publica tiro, clase de fuego ni plazo de garantía"
+        ]
+      }
     },
     "bp-suredeck": {
       "title": "SureDeck Sintético Underlayment",

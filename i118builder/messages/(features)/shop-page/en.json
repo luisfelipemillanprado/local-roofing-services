@@ -217,7 +217,14 @@
       "fit": "Fit",
       "step": "Step",
       "pack": "Package Quantity",
-      "ribSpacing": "Rib Spacing"
+      "ribSpacing": "Rib Spacing",
+      "filter": "Filter",
+      "motor": "Motor",
+      "bearing": "Bearings",
+      "damper": "Damper",
+      "mesh": "Mesh",
+      "frame": "Frame",
+      "weightPerFoot": "Weight per Foot"
     },
     "specValue": {
       "fiberglassAsphalt": "Fiberglass Asphalt",
@@ -286,7 +293,40 @@
       "closedCellFoam": "Closed cell foam",
       "insideClosure": "Inside closure",
       "selfAdhesive": "Self adhesive",
-      "counterFlashing": "Counter flashing"
+      "counterFlashing": "Counter flashing",
+      "galvannealedSteel": "Galvannealed steel",
+      "redOxidePrimer": "Red oxide primer",
+      "roofHatch": "Roof hatch",
+      "miamiDadeFlorida": "Miami Dade and Florida",
+      "ladderAccess": "Ladder access",
+      "aluminum": "Aluminum",
+      "roofLouver": "Roof louver",
+      "atticExhaust": "Attic exhaust",
+      "weatherEmber": "Weather and ember screen",
+      "psc": "Permanent split capacitor",
+      "gableFan": "Gable mount fan",
+      "ulListed": "UL listed in US and Canada",
+      "dualBall": "Dual stainless ball",
+      "adjustable": "Adjustable",
+      "windTurbine": "Wind turbine",
+      "dadeTexas": "Dade County and Texas",
+      "crcqSteel": "CRCQ steel",
+      "powderCoat": "Powder coat",
+      "backdraft": "Backdraft, built in",
+      "roofCap": "Roof cap",
+      "exhaustFans": "Exhaust fans",
+      "stainless304": "304 stainless steel",
+      "stainlessMesh": "Stainless steel",
+      "expansionScrews": "Expansion screws",
+      "chimneyCap": "Chimney cap",
+      "impactPolymer": "Impact resistant polymer",
+      "dadeFloridaTexas": "Dade, Florida and Texas",
+      "polycarbonate": "UV stabilized polycarbonate",
+      "tigWelded": "TIG welded corners",
+      "curbMount": "Over a site built curb",
+      "anyRoofType": "Any roof type",
+      "squareTube": "Square tube",
+      "roofFrames": "Roof frames and supports"
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
@@ -1171,16 +1211,33 @@
       ]
     },
     "werner-6206": {
-      "title": "Type S Roof Hatch",
-      "titleLead": "Type S",
-      "titleAccent": "Roof Hatch",
-      "description": "Single leaf ladder access roof hatch with a fiberglass insulated cover on a twelve inch curb, thirty six inches wide.",
-      "highlights": [
-        "Single leaf hatch for ladder access",
-        "Cover rated for a forty psf live load",
-        "One inch fiberglass insulated cover",
-        "Fully welded, weathertight corners"
-      ]
+      "title": "Type S Roof Access Galvanized Hatch",
+      "titleLead": "Type S Roof Access",
+      "titleAccent": "Galvanized Hatch",
+      "description": "Single leaf ladder access hatch, fiberglass insulated cover, twelve inch galvannealed curb reinforced throughout for forty pounds per square foot.",
+      "about": [
+        "The Bilco Type S is a single leaf roof hatch made for ladder access, and the design turns on one hand operation: the cover travels to fully open or fully closed without the user ever letting go of the ladder, which is the whole safety argument for specifying it. Units arrive pre assembled from the factory. This one is the S-20, built in galvanized steel; the same hatch exists in aluminum and in stainless. The 30 in dimension is the hinge side.",
+        "The cover is 14 gauge galvannealed steel with a 3 in beaded flange and formed reinforcing members, and it carries 1 in of fiberglass insulation behind a protective 22 gauge metal liner. A heavy extruded EPDM gasket is bonded to the inside of the cover, so closing it compresses a continuous seal onto the top of the curb. The curb stands 12 in tall in the same gauge, insulated with 1 in of rigid high density fiberboard on its outside face.",
+        "The curb carries an integral metal capflashing in the same gauge and material, fully welded at the corners, with the Bil-Clip system: stamped tabs on 6 in centres that bend inward to hold single ply roofing membrane securely in place. A 3 1/2 in flange with 7/16 in holes fixes the frame to the deck. Compression spring operators inside telescopic tubes carry the cover through the whole arc of travel. The upper tube sits outermost so grit cannot collect.",
+        "The cover is reinforced for a minimum 40 psf live load with deflection held to 1/150 of the span, and the design pressure is plus or minus 100 psf with a design factor of 2. The galvanized steel and aluminum versions carry a Miami-Dade Notice of Acceptance and Florida Building Code approval. Bilco warrants materials and workmanship for five years. Hardware is zinc plated and chromate sealed, and the steel ships red oxide primed."
+      ],
+      "features": {
+        "install": [
+          "Set the 3 1/2 in curb flange on the deck and fix through the 7/16 in holes",
+          "Bend the Bil-Clip tabs, on 6 in centres, inward over the single ply membrane",
+          "The 30 in dimension is the hinge side, so plan the ladder approach to suit",
+          "Check the EPDM gasket meets the top of the curb all the way round",
+          "Test the spring operators and the hold open arm and adjust until travel is smooth"
+        ],
+        "coverage": [
+          "Five years on materials and workmanship from the date of purchase",
+          "Bilco furnishes a new part for anything that fails in normal use in that period",
+          "Cover reinforced for 40 psf live load with deflection under 1/150 of the span",
+          "Design pressure of plus or minus 100 psf with a design factor of 2",
+          "Miami-Dade Notice of Acceptance and Florida Building Code approval on the S-20",
+          "Built under an ISO 9001 registered quality system with in house engineering"
+        ]
+      }
     },
     "duration-designer-slatestone-grey": {
       "title": "Duration Designer Slatestone Grey",
@@ -1299,76 +1356,178 @@
       }
     },
     "broan-634": {
-      "title": "Black Steel Roof Cap",
-      "titleLead": "Black Steel",
-      "titleAccent": "Roof Cap",
-      "description": "Steel roof cap with a backdraft damper and bird screen, for rectangular or round ducts of up to eight inches.",
-      "highlights": [
-        "Built in backdraft damper",
-        "Bird screen keeps small animals out",
-        "Steel with a black powder coat finish",
-        "Fits rectangular or round ducts up to eight inches"
-      ]
+      "title": "Black Steel Roof Ventilation Cap",
+      "titleLead": "Black Steel Roof",
+      "titleAccent": "Ventilation Cap",
+      "description": "Powder coated steel termination cap for range hood and bathroom extractor ductwork, incorporating a backdraft damper and integral bird screen.",
+      "about": [
+        "This is the roof end of an exhaust run rather than a roof vent in the ventilation sense. A range hood, a bathroom fan or a rec room extractor has to discharge somewhere outside, and where the duct comes up through the roof this cap covers the hole, turns the air down and away, and keeps the weather out of the duct. Broan lists it for new work and for replacement alike. The cap turns the discharge downward so nothing blows back at the opening.",
+        "It takes either shape of duct that those fans use: rectangular 3 1/4 x 10 in, which is the standard behind a range hood, or round up to 8 in. The body is 24 gauge CRCQ steel, which is cold rolled commercial quality sheet, finished in black powder coat. The whole thing weighs about 4 lb and measures roughly 14 1/4 x 18 3/4 in across the base by 6 5/8 in tall. That is light enough to carry up a ladder in one hand while the other holds on.",
+        "Two things are built in. A backdraft damper hangs inside so that outside air, and the cold or heat that comes with it, cannot push back down the duct into the house when the fan is off. Behind it a bird screen closes the opening against birds, wasps and the rest of what will otherwise nest in a warm duct over a winter. Neither is an accessory to buy separately. Both are already inside the cap when it comes out of the carton.",
+        "The one thing it must not be used for is a clothes dryer. Dryer exhaust carries lint, and lint packs against a damper and a screen until the run blocks and the lint itself becomes a fire load, which is why dryer terminations use a different cap with no screen. Broan states the restriction plainly. No wind rating, fire class or warranty term is published for the cap. Dryer caps use a wider throat and no screen for that reason."
+      ],
+      "features": {
+        "install": [
+          "Take either 3 1/4 x 10 in rectangular duct or round duct of up to 8 in",
+          "Lap the shingles over the top and sides of the flange, never over the throat",
+          "Check the damper swings free before the last course goes over the flange",
+          "Seal the duct to the cap so the joint does not leak back into the attic",
+          "Never terminate a clothes dryer here, which Broan excludes outright"
+        ],
+        "coverage": [
+          "Backdraft damper is built in, not a separate accessory",
+          "Bird screen is built in behind the damper against birds and wasps",
+          "24 gauge CRCQ steel with a black powder coat finish",
+          "Suits range hoods, bathroom fans, rec room and home gym extractors",
+          "Excluded from clothes dryer use because lint packs against the screen",
+          "No wind rating, fire classification or warranty term is published"
+        ]
+      }
     },
     "master-flow-egv6ht": {
-      "title": "Gable Mount Attic Fan",
-      "titleLead": "Gable Mount",
-      "titleAccent": "Attic Fan",
-      "description": "Sixteen hundred cubic feet a minute behind the gable louver, with a thermostat, for attics to three thousand square feet.",
-      "highlights": [
-        "Combo humidistat and thermostat control",
-        "Energy efficient PSC motor",
-        "Rust resistant metal construction",
-        "UL listed in the US and Canada"
-      ]
+      "title": "Gable Mount Attic Ventilator Fan",
+      "titleLead": "Gable Mount Attic",
+      "titleAccent": "Ventilator Fan",
+      "description": "Sixteen hundred cubic feet per minute behind the gable ventilation louver, with adjustable thermostat and humidistat prewired at the factory.",
+      "about": [
+        "This is a powered attic vent that mounts inside the gable end rather than on the roof slope, so nothing is cut through the deck and nothing changes the line of the roof. It pulls 1,600 cubic feet a minute and Master Flow rates it for attics up to 3,000 sq ft. The smaller EGV5 in the same family covers 2,300 sq ft at 1,450 CFM if the attic is shorter. Nothing about the roof line changes, which is the usual reason to pick a gable unit.",
+        "The motor is a permanent split capacitor type, which is the quieter and more efficient of the two motor styles used in attic fans, and it runs on ordinary 120 volt house power. The unit is UL listed in both the United States and Canada. The housing is metal throughout, which is what keeps it from rusting out in the humidity that collects under a hot roof. Master Flow describes the metal build as the part that resists rust.",
+        "The HT in the model code is the control: an adjustable thermostat and humidistat come already wired to the fan, so it starts on heat or on moisture without a separate control being run. The mounting kit ships in the box with four brackets, eight bolts and eight Nylok nuts, and the brackets take the fan onto the framing behind an existing gable louver. It starts on heat or on moisture, whichever crosses the setting first.",
+        "Intake is the part that decides whether any of this works. Master Flow asks for at least 768 sq in of net free intake area for this model, taken at the soffit, the undereave or the fascia. Exhaust must never exceed intake, or the fan pulls conditioned air out of the house instead of out of the attic. The warranty runs ten years limited with five years of Labor Protection Plus. Master Flow lists the intake figure right next to the fan rating."
+      ],
+      "features": {
+        "install": [
+          "Mount it on the framing behind an existing gable end louver, not on the slope",
+          "Use the four brackets, eight bolts and eight Nylok nuts that ship in the box",
+          "Feed it from ordinary 120 volt house power, since the controls arrive wired",
+          "Provide at least 768 sq in of net free intake at the soffit or the undereave",
+          "Never let the exhaust exceed the intake or the fan will draw from the house"
+        ],
+        "coverage": [
+          "Ten year limited warranty with five years of Labor Protection Plus",
+          "Rated at 1,600 CFM for attics of up to 3,000 sq ft",
+          "UL listed in both the United States and Canada",
+          "The permanent split capacitor motor is the efficient style used in attic fans",
+          "Metal housing throughout, which is what resists rust under a hot roof",
+          "Adjustable thermostat and humidistat arrive wired to the fan from the factory"
+        ]
+      }
     },
     "master-flow-prsolar2": {
-      "title": "Low Profile Solar Attic Fan",
-      "titleLead": "Low Profile",
-      "titleAccent": "Solar Attic Fan",
-      "description": "A thirty five watt panel drives the extraction with no wiring run, at seven hundred fifty cubic feet a minute.",
-      "highlights": [
-        "Brushless motor that needs no maintenance",
-        "Passes TAS 100(A) weather testing",
-        "Miami Dade County product approval",
-        "Fits roof pitches from 2:12 to 12:12"
-      ]
+      "title": "Low Profile Solar Powered Attic Fan",
+      "titleLead": "Low Profile Solar",
+      "titleAccent": "Powered Attic Fan",
+      "description": "An integrated thirty five watt photovoltaic panel delivers seven hundred fifty cubic feet a minute, requiring absolutely no electrical wiring.",
+      "about": [
+        "The argument for a solar attic fan is not really the electricity it saves, it is the wiring it avoids. There is no circuit to run into the attic, no switch, no breaker and no electrician, because the 35 watt panel is built into the unit and drives the motor directly. It moves up to 750 cubic feet a minute and Master Flow rates it for about 1,070 sq ft of attic floor. The panel and the fan are one unit, not two things to connect.",
+        "It is the low profile version, which matters more than it sounds. The whole unit is 28 x 28 in on plan and only 8 in tall, so it sits close to the slope instead of standing up off it like a domed solar vent, and the integral panel measures 17 1/2 in square. The housing is an impact resistant polymer in black rather than painted steel, so nothing on it rusts. A lower unit is also a unit that is harder to see from the street.",
+        "It goes over a 15 in roof opening and the base adjusts for pitches from 2:12 through to 12:12, which covers nearly every shingle roof. A humidistat and thermostat come with the solar powered model, so the fan is not simply running whenever the sun is up: it waits for heat or moisture in the attic to cross the setting, then runs on whatever the panel gives it. A fan that runs on daylight alone wastes the mornings it is not needed.",
+        "Approvals are the strong part of the file. It holds Miami-Dade County Product Control approval, State of Florida approval, and a Texas Department of Insurance product evaluation under RV-62, and it is listed to UL 507 and to CAN/CSA C22.2. The warranty is six years limited with three years of labor protection, shorter than the wired Master Flow fans carry. That shorter term is the trade for losing the wiring and the electrician."
+      ],
+      "features": {
+        "install": [
+          "Cut a 15 in opening and flash the base into the roof as you would any vent",
+          "The base takes pitches anywhere from 2:12 through to 12:12",
+          "No circuit, switch or breaker is needed, since the panel drives the motor",
+          "Face the panel where it will actually see sun for most of the afternoon",
+          "Set the humidistat and thermostat so it waits for heat or damp, not daylight"
+        ],
+        "coverage": [
+          "Six year limited warranty with three years of labor protection",
+          "Miami-Dade County Product Control and State of Florida approvals",
+          "Texas Department of Insurance product evaluation under RV-62",
+          "Listed to UL 507 and to CAN/CSA C22.2",
+          "Rated at 750 CFM for roughly 1,070 sq ft of attic floor",
+          "Impact resistant polymer housing in black, with nothing on it to rust"
+        ]
+      }
     },
     "master-flow-ssb960a": {
-      "title": "Slant Back Roof Louver",
-      "titleLead": "Slant Back",
-      "titleAccent": "Roof Louver",
-      "description": "Sixty square inches of net free area in a mill finish aluminum hood, eighteen inches wide, for steep roof pitches.",
-      "highlights": [
-        "Sixty square inches of net free area",
-        "Internal weather and ember resistant screen",
-        "Passes 110 mph wind driven rain testing",
-        "Enclosed hood keeps out rodents, insects and leaves"
-      ]
+      "title": "Slant Back Aluminum Static Roof Louver",
+      "titleLead": "Slant Back Aluminum",
+      "titleAccent": "Static Roof Louver",
+      "description": "Ventilating area of sixty square inches beneath a fully enclosed mill aluminum hood, sixteen inches across, recommended for steeper pitches.",
+      "about": [
+        "A static roof louver has no moving parts and no motor: it is a hood over a hole in the deck that lets hot attic air leave by itself. This one offers 60 sq in of net free ventilating area, which Master Flow rates at roughly 250 sq ft of attic floor per vent, so the number of vents follows from the attic size rather than from any performance claim about the unit. The 60 sq in size moves about 20 percent more air than a 50 sq in louver.",
+        "The slant back shape is the reason to choose it on a steep roof. The hood sits low and angled back against the slope, which keeps wind driven rain from being pushed up under the opening, and Master Flow gives it a minimum roof slope of 3:12. The flashing plate measures 16 x 20 in, and it goes over a 10 x 10 in hole cut through the deck near the ridge. Master Flow tops the range out at 12:12, so it suits all but the steepest work.",
+        "The hood is fully enclosed rather than open at the sides, so leaves and pine needles do not pack into it and rodents and insects have no way in. An internal screen rated against weather and embers sits behind the opening and doubles as a filter for dust and debris, which matters in areas where wind blown embers are a real risk during a fire season. The same screen keeps the hood from packing solid with dust over the years of service.",
+        "It is mill finish aluminum, so nothing is painted and nothing can peel, though the bare metal stays visible rather than blending with the shingle colour. Master Flow sells granule coated versions in black, brown and weathered wood under their own part numbers if the look matters. Those are the same louver with a coloured granule surface bonded onto the hood. No wind rating, fire class or warranty term is published for this louver."
+      ],
+      "features": {
+        "install": [
+          "Cut a 10 x 10 in hole through the deck, high on the slope and near the ridge",
+          "Slide the top of the 16 x 20 in flange under the course above and nail it down",
+          "Lap the shingles over the sides of the flange and leave the lower edge exposed",
+          "Keep it to roofs of 3:12 or steeper, which is the minimum Master Flow gives",
+          "Balance the count against the intake at the soffit before adding more vents"
+        ],
+        "coverage": [
+          "Rated at 60 sq in of net free ventilating area per unit",
+          "Master Flow reckons roughly 250 sq ft of attic floor to each vent",
+          "The enclosed hood is what keeps leaves, needles, rodents and insects out",
+          "An internal screen rated against weather and embers also traps dust",
+          "Mill finish aluminum, so there is no coating to chalk, fade or peel",
+          "No wind rating, fire classification or warranty term is published for it"
+        ]
+      }
     },
     "suntek-cma1919": {
-      "title": "CMA Curb Mount Aluminum Dome Skylight",
-      "titleLead": "CMA Curb Mount",
-      "titleAccent": "Aluminum Dome Skylight",
-      "description": "Double dome polycarbonate skylight in an aluminum trim that caps a site built curb, roughly twenty inches on each side.",
-      "highlights": [
-        "Caps a site built curb with a leak proof seal",
-        "Double dome insulation with TIG welded corners",
-        "Co extruded, UV protected polycarbonate",
-        "Suits any roof type, including metal"
-      ]
+      "title": "Fixed Curb Mount Skylight Dome",
+      "titleLead": "Fixed Curb Mount",
+      "titleAccent": "Skylight Dome",
+      "description": "Polycarbonate double dome skylight wrapped in decorative aluminum, capping a site built curb of approximately twenty inches along each side.",
+      "about": [
+        "A curb mount skylight does not flash itself into the roof. The curb is built on site out of timber, flashed like any other penetration, and the skylight then drops over the top of it as a lid. That division of labour is the reason the type survives: the waterproofing is ordinary roofing work that any roofer already knows, and the glazing unit is simply a cap. Nothing about the skylight itself has to keep water out on its own.",
+        "The glazing is polycarbonate rather than acrylic, and that is the specification worth noticing. Sun-Tek put polycarbonate at around thirty times the impact resistance of acrylic, which is what makes the type usual in hail country and in hurricane country. It is UV stabilized so the sheet does not yellow, and it comes as a double dome, bronze outside over clear inside. The bronze tint is what cuts the glare in a south facing room.",
+        "Two domes rather than one is insulation. The air trapped between the outer and inner sheets is what stops the unit running with condensation on a cold morning and what keeps some of the summer heat out of the room below. Around the outside the unit is wrapped in a decorative aluminum ring, and the corners of the frame are TIG welded rather than screwed. A welded corner has no fastener to back out and no joint that can open up.",
+        "This one is the CMA 1919, sized 19 1/2 x 19 1/2 in, which is the curb size it caps rather than the glass area. It arrives completely assembled, and Sun-Tek list it as suitable for any roof type, metal included. The warranty is ten years limited. The CMA range runs through larger sizes on the same construction if a bigger opening is wanted. CMA 2222, CMA 2230 and CMA 3030 are the next sizes up the range on the same build."
+      ],
+      "features": {
+        "install": [
+          "Build and flash the curb first, since the skylight is a cap and not a flashing",
+          "Size the curb at 19 1/2 x 19 1/2 in to match this unit",
+          "The unit arrives fully assembled, so nothing is glazed on the roof",
+          "It suits any roof type, metal roofs included, because the curb does the work",
+          "Bed it down on the curb top and fix through the aluminum trim"
+        ],
+        "coverage": [
+          "Ten year limited warranty from Sun-Tek",
+          "Polycarbonate rated around thirty times the impact resistance of acrylic",
+          "UV stabilized, so the sheet is not left to yellow in the sun",
+          "Double dome construction traps air between the outer and inner sheets",
+          "Corners of the aluminum frame are TIG welded rather than screwed",
+          "Bronze outer dome over a clear inner dome, wrapped in an aluminum ring"
+        ]
+      }
     },
     "steeldash-tube-14ga-2in": {
-      "title": "Galvanized Square Tube",
-      "titleLead": "Galvanized",
-      "titleAccent": "Square Tube",
-      "description": "Heavy gauge square steel section, two inches across, in twenty four foot lengths for roof frameworks and other supporting structures.",
-      "highlights": [
-        "Two by two inch square section",
-        "Fourteen gauge steel wall",
-        "Galvanized coating against rust",
-        "Supplied in twenty four foot lengths"
-      ]
+      "title": "Galvanized Steel Structural Tube",
+      "titleLead": "Galvanized Steel",
+      "titleAccent": "Structural Tube",
+      "description": "Heavier gauge square steel section, two inches across, supplied in twenty four foot lengths for roofing frameworks and supporting structures.",
+      "about": [
+        "This is plain structural stock rather than a roofing product: a hollow square steel section, 2 in on each face, sold in 24 ft lengths. It is what a carport frame, a patio cover, a purlin run over an outbuilding or a rack of solar rails gets built from, and it is the reason a metal roof over an open structure needs nothing else underneath it to span. None of it is specific to roofing, which is exactly the point of plain stock.",
+        "The gauge is the number that matters. At 14 gauge the wall is a nominal 0.083 in, which is the heavier end of what is sold as light structural tube and noticeably stiffer than the 16 and 18 gauge sections used for gates and handrails. A 2 in square section at that wall runs about 2.16 lb to the foot, so a full 24 ft length weighs roughly 51.8 lb. That is worth knowing before anyone tries to carry a full length up a ladder.",
+        "It is galvanized rather than painted or left black, and for anything that lives outdoors under a roof that is the distinction worth paying for. Zinc protects the cut faces and the drilled holes sacrificially, so a frame does not start rusting from the ends and the fixings the way bare hot rolled tube does once the first winter arrives. Zinc keeps on working at a scratch or a saw cut, which is the one thing paint cannot do.",
+        "Steeldash publish the size, the gauge and the length for this section and nothing further. There is no mill certificate, no steel grade, no yield or tensile figure and no load table, so the figures above for wall thickness and weight are the standard ones for 14 gauge 2 in square tube. Anything carrying a real load should be sized by an engineer. Treat those numbers as the size of the stock and not as a structural rating."
+      ],
+      "features": {
+        "install": [
+          "Cut with an abrasive chop saw or a metal cutting blade, not a torch",
+          "Touch in every cut end and drilled hole with a zinc rich paint",
+          "Drill and bolt rather than weld unless the galvanizing can be made good after",
+          "Plan the 24 ft length into the run so offcuts do not become the whole job",
+          "Allow about 51.8 lb per length when working out how it gets to the roof"
+        ],
+        "coverage": [
+          "Sold as a 24 ft length of 2 x 2 in section in 14 gauge",
+          "Nominal wall of 0.083 in, the standard figure for 14 gauge",
+          "About 2.16 lb to the foot, so roughly 51.8 lb for a full length",
+          "Galvanized, so cut ends and drilled holes stay protected sacrificially",
+          "Steeldash publish no steel grade, mill certificate or load table for it",
+          "Anything carrying a real structural load should be sized by an engineer"
+        ]
+      }
     },
     "gibraltar-08328": {
       "title": "White Embossed Galvanized Drip Edge",
@@ -1487,16 +1646,33 @@
       }
     },
     "master-flow-gic12": {
-      "title": "Wind Turbine Roof Vent",
-      "titleLead": "Wind Turbine",
-      "titleAccent": "Roof Vent",
-      "description": "Internally braced dual bearing turbine head, twelve inches across, that draws the hot air out of the attic space below.",
-      "highlights": [
-        "Twelve inch galvanized turbine head",
-        "Stainless dual bearing system",
-        "Internally braced for strength",
-        "Adjustable base for pitches from 2:12 to 12:12"
-      ]
+      "title": "Internally Braced Galvanized Turbine",
+      "titleLead": "Internally Braced",
+      "titleAccent": "Galvanized Turbine",
+      "description": "Internally braced turbine that ventilates approximately five hundred square feet of attic space, on a base adjustable across common pitches.",
+      "about": [
+        "A wind turbine is the only roof vent that does real work without power: the vanes catch whatever breeze crosses the ridge and spin, and the spinning pulls air out of the attic underneath. Master Flow rates this 12 in head at roughly 500 sq ft of attic. The bracing sits inside the head rather than across the outside, which is what the internally braced name refers to. An externally braced version of the same size sits alongside it in the range.",
+        "What separates a turbine that keeps turning from one that seizes is the bearing. This one runs upper and lower stainless steel ball bearings on a permanently lubricated track, encased so that dirt, dust and sand cannot work their way in, turning on a case hardened steel shaft. That encasement is really what decides how many seasons it lasts before it starts to squeal. Nothing about it needs oiling once the head is on the base.",
+        "The vanes are double ribbed with a convex top, a shape meant to throw wind driven rain back off the unit rather than let it run down inside the throat. The head and the base ship as two pieces, so the base goes down and is flashed into the roof first and the head drops on afterwards. The base itself adjusts to take pitches anywhere from 2:12 right up to 12:12. That two piece split is what makes it a one person job on a slope.",
+        "None of this works without intake. Master Flow asks for a minimum of 91 sq in of net free intake area in the soffits or under the eaves for each 12 in turbine, and a turbine with nothing to draw from simply stalls. The unit carries Dade County and Texas Department of Insurance approvals. It is a mill finish galvanized head; coloured versions carry their own codes. Those are the two approvals that matter most in high wind states."
+      ],
+      "features": {
+        "install": [
+          "Cut the hole, set and flash the base first, then drop the head on afterwards",
+          "Set the adjustable base so the head sits level on anything from 2:12 to 12:12",
+          "Place it high on the slope, within a couple of feet of the ridge",
+          "Provide at least 91 sq in of net free intake at the soffit for each turbine",
+          "Nothing needs oiling, so leave the bearing track alone once it is running"
+        ],
+        "coverage": [
+          "Rated by Master Flow at roughly 500 sq ft of attic per turbine",
+          "Dade County and Texas Department of Insurance approvals",
+          "Upper and lower stainless ball bearings on a permanently lubricated track",
+          "The bearing is encased so dirt, dust and sand cannot reach it",
+          "Double ribbed vanes and a convex top throw wind driven rain off the unit",
+          "Mill finish galvanized steel, with coloured heads sold under separate codes"
+        ]
+      }
     },
     "trapezoidal-panel-closure": {
       "title": "Trapezoidal Panel Closure Strip",
@@ -1731,16 +1907,33 @@
       }
     },
     "vevor-chimney-cap-6in": {
-      "title": "Stainless Chimney Rain Cap",
-      "titleLead": "Stainless Chimney",
-      "titleAccent": "Rain Cap",
-      "description": "Louvred cap that keeps rain out of the flue while the draught stays open, sized for a six inch flue.",
-      "highlights": [
-        "Made from 304 stainless steel",
-        "Resists rust better than galvanized steel",
-        "Top plate nearly twelve inches across",
-        "Fits a six inch round flue"
-      ]
+      "title": "Six Inch Stainless Chimney Rain Cap",
+      "titleLead": "Six Inch Stainless",
+      "titleAccent": "Chimney Rain Cap",
+      "description": "Stainless steel cap sheltering any six inch flue against rain, snow and nesting, while the draught continues underneath without obstruction.",
+      "about": [
+        "An open flue is a hole pointing at the sky, and everything that falls or flies takes advantage of it: rain, snow, leaves, birds and the odd rodent. A cap solves that without closing the flue, because the plate is held clear above the opening on legs and the smoke leaves sideways through the gap. This one is sized for a 6 in flue, with a collar of 5.91 in. The legs between the plate and the collar are what keep the path open.",
+        "It is made throughout in 304 stainless, which is the grade that holds up against the acids in flue gas as well as against weather, and the sheet is 0.6 mm thick in both the collar and the top plate. The whole cap weighs 1.54 lb. The top plate measures 11.81 in across, and the cap stands 11.81 x 11.81 x 8.66 in overall once it is assembled. VEVOR list the model as SRC 6 C and the gross shipping weight as 2.65 lb, packaging included.",
+        "The plate overhangs the flue by a wide margin on purpose. At 11.81 in across a 5.91 in collar, rain driven at an angle still lands on metal rather than down the pipe, which is the difference between a cap that works in a storm and one that only works in a drizzle. VEVOR call this the increased cap, and the dimension is the whole point of it. A cap sized tight against the collar would not do the same job in a driving gale.",
+        "Stainless mesh wraps the sides between the plate and the collar. It blocks birds, wasps and leaves, and it arrests sparks that would otherwise leave the flue and land on a roof. The cap fixes to the pipe with the reinforced expansion screws supplied. No draught figure, fire classification or warranty term is published for this cap. The screws supplied are reinforced rather than plain. That is the part that has to hold in wind."
+      ],
+      "features": {
+        "install": [
+          "Sized for a 6 in flue, with a collar measuring 5.91 in across",
+          "Slide the collar over the pipe and tighten the expansion screws supplied",
+          "Leave the side gap clear, since that is where the flue gas actually leaves",
+          "Check the mesh each season, because it is what clogs first with soot",
+          "Nothing is cut or welded, so the cap can be lifted off for a sweep"
+        ],
+        "coverage": [
+          "304 stainless throughout, the grade that stands up to flue gas",
+          "Sheet thickness of 0.6 mm in both the collar and the top plate",
+          "The 11.81 in plate overhangs a 5.91 in collar to keep angled rain out",
+          "Stainless mesh blocks birds, wasps and leaves and arrests sparks",
+          "Reinforced expansion screws are supplied for fixing to the pipe",
+          "No draught figure, fire classification or warranty term is published"
+        ]
+      }
     },
     "bp-suredeck": {
       "title": "SureDeck Synthetic Underlayment",
