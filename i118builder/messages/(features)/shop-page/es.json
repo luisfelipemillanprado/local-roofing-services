@@ -244,7 +244,36 @@
       "mounting": "Fijación",
       "laborWarranty": "Protección de Mano de Obra",
       "panelSize": "Medida del Panel",
-      "hood": "Capota"
+      "hood": "Capota",
+      "arbor": "Eje",
+      "depth": "Corte a 90°",
+      "depthBevel": "Corte a 45°",
+      "shoe": "Zapata",
+      "included": "Incluye",
+      "trigger": "Gatillo",
+      "depthAdjust": "Ajuste de Profundidad",
+      "lockout": "Bloqueo",
+      "handle": "Mango",
+      "claw": "Uña",
+      "nailStart": "Arranque de Clavo",
+      "nailPuller": "Sacaclavos",
+      "head": "Cabeza",
+      "grip": "Empuñadura",
+      "edge": "Filo de Trabajo",
+      "chain": "Cadena",
+      "tension": "Tensado",
+      "oiling": "Engrase",
+      "light": "Iluminación",
+      "spindle": "Eje",
+      "coating": "Recubrimiento del Extremo",
+      "spring": "Sistema de Muelles",
+      "case": "Carcasa",
+      "drop": "Caída Soportada",
+      "hook": "Gancho",
+      "cut": "Corte",
+      "hardness": "Dureza",
+      "shelf": "Bandeja",
+      "cord": "Cable"
     },
     "specValue": {
       "fiberglassAsphalt": "Asfalto con Fibra de Vidrio",
@@ -365,7 +394,116 @@
       "solarFan": "Extractor solar de ático",
       "fullyEnclosed": "Totalmente cerrada",
       "factoryAssembled": "Montada de fábrica",
-      "skylight": "Claraboya fija"
+      "skylight": "Claraboya fija",
+      "magnesium": "Magnesio",
+      "carbideTipped": "Disco con dientes de carburo",
+      "bladeOnly": "Sierra y un disco",
+      "circularSaw": "Sierra circular",
+      "deckAndPanel": "Tablero y panel",
+      "brushless": "Sin escobillas",
+      "selectableTrigger": "Secuencial o por contacto",
+      "toolFree": "Sin herramientas",
+      "lowNail": "Bloqueo por falta de grapas",
+      "crownStapler": "Grapadora de corona estrecha",
+      "underlaymentFixing": "Fijación de underlayment",
+      "onePieceSteel": "Acero de una sola pieza",
+      "heatTreated": "Templado",
+      "antiSlipGrip": "Empuñadura antideslizante",
+      "smoothShield": "Lisa, en forma de escudo",
+      "curvedClaw": "Curva",
+      "magneticStart": "Magnético",
+      "sideSlot": "Ranura lateral",
+      "nailingHammer": "Martillo clavador",
+      "limitedLifetime": "Limitada de por vida",
+      "carpentryFinishing": "Carpintería y acabado",
+      "allSteel": "Todo de acero",
+      "heatTempered": "Templado al calor",
+      "vinylGrip": "Vinilo",
+      "tearOffShovel": "Pala de arranque",
+      "shingleRemoval": "Arranque de tejas",
+      "lowKickback": "Oregon, bajo retroceso",
+      "automatic": "Automático",
+      "chainsaw": "Motosierra",
+      "limbClearing": "Despeje de ramas",
+      "nonStickCoated": "Con recubrimiento antiadherente",
+      "bladeChangeTool": "Llave de cambio de cuchilla",
+      "onboardLed": "LED integrado",
+      "pruner": "Tijera de podar",
+      "branchClearing": "Despeje de ramas",
+      "rubberOvermold": "Caja de engranajes con goma",
+      "frontOrSide": "Empuñadura frontal o lateral",
+      "triggerAndDial": "Gatillo y rueda",
+      "rotaryPolisher": "Pulidora rotativa",
+      "metalFinishing": "Acabado de metal",
+      "highCarbonSteel": "Acero de alto carbono",
+      "yellowThermoplastic": "Termoplástico amarillo",
+      "dualCore": "Dual Core, dos muelles",
+      "pcAbs": "PC y ABS resistentes al impacto",
+      "reinforcedHook": "Unión reforzada",
+      "tapeMeasure": "Cinta métrica",
+      "roofLayout": "Replanteo de cubierta",
+      "utilityKnife": "Cúter",
+      "standardUtility": "Hoja de cúter estándar",
+      "replaceable": "Reemplazable",
+      "threeSliderStops": "Tres posiciones de corredera",
+      "secureBladeLock": "Bloqueo firme de la hoja",
+      "zincBody": "Cuerpo de zinc",
+      "shingleCutting": "Corte de teja asfáltica",
+      "stoningHammer": "Maceta de cantero",
+      "forgedToolSteel": "Acero de herramienta forjado",
+      "blackPainted": "Cabeza pintada en negro",
+      "fiberglass": "Fibra de vidrio",
+      "stoneAndTile": "Trabajo de piedra y teja",
+      "boltCutter": "Cortapernos",
+      "forgedHardenedJaws": "Mordazas forjadas y templadas",
+      "adjustableJaws": "Ajustables y reemplazables",
+      "polished": "Pulido",
+      "compoundAction": "Acción compuesta",
+      "tubularSteel": "Acero tubular",
+      "rebarAndWire": "Corte de varilla y alambre",
+      "handsaw": "Serrucho",
+      "hardenedTeeth": "Dentado templado",
+      "universalTeeth": "Dentado universal",
+      "pushAndPull": "Empuje y tiro",
+      "hatchet": "Hacha",
+      "fullTang": "Espiga completa",
+      "g10": "Composite G10",
+      "stoneWash": "Stone wash ennegrecido",
+      "hammerFace": "Cara de martillo",
+      "integratedPryBar": "Palanca integrada",
+      "kydexSheath": "Funda Kydex con clip de cinturón",
+      "demolitionWork": "Trabajos de demolición",
+      "stepladder": "Escalera de tijera",
+      "ansiOsha": "ANSI y OSHA",
+      "largerStep": "Un veinticinco por ciento mayor",
+      "slipResistant": "Antideslizantes",
+      "gussetBracing": "Arriostramiento con cartelas",
+      "magnetAndSlots": "Imán y alojamientos",
+      "pailShelf": "Bandeja portacubos",
+      "cableReel": "Carrete de cable",
+      "groundedShuttered": "Con toma de tierra y obturadores",
+      "highVisibility": "Alta visibilidad",
+      "cassetteReel": "Carrete tipo casete",
+      "windingHandle": "Manivela de recogida",
+      "overloadCutout": "Protector térmico de sobrecarga",
+      "powerSwitch": "Interruptor general",
+      "powerIndicator": "Piloto de tensión",
+      "sitePower": "Alimentación provisional de obra",
+      "workGloves": "Guantes de trabajo",
+      "gloveInGlove": "Guante dentro de guante",
+      "nylonFifteen": "Exterior de nailon calibre quince",
+      "acrylicSeven": "Forro acrílico calibre siete",
+      "microFoam": "Microespuma",
+      "dippedPalm": "Palma bañada tres cuartos",
+      "coldWeather": "Trabajo en frío",
+      "fallArrestKit": "Kit anticaídas",
+      "fivePoint": "Arnés de cinco puntos",
+      "ropeGrab": "Freno de cuerda con elemento de amarre",
+      "threeQuarterSnap": "Mosquetones de tres cuartos de pulgada",
+      "reusableRoofAnchor": "Anclaje de cubierta reutilizable",
+      "fourGallonBucket": "Cubo de cuatro galones",
+      "alloySteel": "Acero aleado",
+      "roofFallArrest": "Anticaídas en cubierta"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -1046,208 +1184,497 @@
       ]
     },
     "dewalt-dcs391": {
-      "title": "Sierra Circular Inalámbrica 20V",
-      "titleLead": "Sierra Circular Inalámbrica",
-      "titleAccent": "20V",
-      "description": "Sierra circular inalámbrica compacta para cortes rápidos en entablado, molduras y paneles, con hoja de seis pulgadas y media.",
-      "highlights": [
-        "Incluye disco de seis pulgadas y media con punta de carburo",
-        "Motor de alta velocidad por encima de cinco mil RPM",
-        "Bisel de cero a cincuenta grados",
-        "Funciona con el sistema de baterías 20V MAX de DeWalt"
-      ]
+      "title": "Sierra Circular Inalámbrica de 20V",
+      "titleLead": "Sierra Circular",
+      "titleAccent": "Inalámbrica de 20V",
+      "description": "Sierra circular inalámbrica de configuración alineada que incorpora zapata de magnesio con disco dentado de carburo de tungsteno endurecido.",
+      "about": [
+        "Esta es la disposición en línea, que significa que el motor va alineado con el disco y no detrás de una caja de engranajes en ángulo recto. Eso hace la herramienta más corta de delante atrás y más ligera en la mano que una de tornillo sinfín, y sobre un tejado, donde sueles cortar tablero de rodillas o recortar panel sobre dos borriquetas, lo corto y lo ligero es lo que cuenta. Una de sinfín se gana el sueldo encofrando, no aquí arriba.",
+        "El manual de DeWalt da 5,150 rpm en vacío y una profundidad máxima de corte de 55 mm, que son las 2 1/8 in que citan los listados de EE. UU. a noventa grados y 1 5/8 in con la zapata volcada a 45. El disco es de 6 1/2 in sobre un eje de 5/8 in y el bisel recorre de cero a 50 grados. El peso desnudo sin batería es de 2.9 kg, o sea 6.4 lb. Son cifras del propio fabricante y no de un listado de tienda cualquiera, que es donde aparecen los errores.",
+        "La zapata es de magnesio y no de acero estampado, y esa es la pieza de una sierra circular que decide si tus cortes siguen saliendo rectos después de que la herramienta se haya caído un par de veces desde un tablón. El magnesio conserva su planitud y aguanta los golpes que dejarían torcida para siempre una zapata estampada, y además pesa menos. Una zapata torcida es una sierra que ya no vuelve a cortar recto por mucho que la ajustes.",
+        "Funciona con la misma batería 20V MAX que el resto de la gama inalámbrica DeWalt, así que en una obra que ya trabaje con esa plataforma no hay nada extra que cargar ni que llevar. En la caja va un disco con dientes de carburo y nada más, porque se vende como herramienta sola. DeWalt la cubre con tres años de garantía, uno de servicio gratuito y noventa días de satisfacción. Las baterías y el cargador se compran por separado."
+      ],
+      "features": {
+        "install": [
+          "Ajusta la profundidad para que el disco pase la pieza justo un diente",
+          "Comprueba que la zapata está a escuadra antes de fiarte de la escala de bisel",
+          "Sujeta el recorte, porque una sierra inalámbrica se agarrota igual que una de cable",
+          "Deja que el disco alcance sus vueltas antes de tocar la pieza",
+          "Usa el protector y nunca lo calces hacia atrás para hacer un corte de incisión"
+        ],
+        "coverage": [
+          "Tres años de garantía limitada con uno de servicio gratuito",
+          "Noventa días de satisfacción desde la fecha de compra",
+          "Velocidad en vacío de 5,150 rpm con disco de carburo de 6 1/2 in",
+          "Corta 2 1/8 in a noventa grados y 1 5/8 in a cuarenta y cinco",
+          "La zapata de magnesio conserva la planitud donde una estampada se torcería",
+          "Usa la misma batería 20V MAX que el resto de la gama inalámbrica"
+        ]
+      }
     },
     "dewalt-dwht51002": {
-      "title": "Martillo de Uña Curva 16 oz",
-      "titleLead": "Martillo de Uña Curva",
-      "titleAccent": "16 oz",
-      "description": "Martillo de uña curva de acero en una pieza, con iniciador magnético, empuñadura antideslizante y dieciséis onzas de peso.",
-      "highlights": [
-        "Acero en una sola pieza con mango templado",
-        "Iniciador magnético para clavar con una mano",
-        "Empuñadura antideslizante cinco veces más duradera",
-        "Garantía limitada de por vida de DeWalt"
-      ]
+      "title": "Martillo de Acero Clavador de 16 oz",
+      "titleLead": "Martillo de Acero",
+      "titleAccent": "Clavador de 16 oz",
+      "description": "Martillo clavador de dieciséis onzas, conformado completamente en una única pieza de acero endurecido, con arranque magnético lateral incorporado.",
+      "about": [
+        "Un martillo hecho de una sola pieza de acero no tiene junta entre la cabeza y el mango, que es justo donde acaba cediendo uno de madera o de fibra. Nada se afloja porque no hay nada que pueda aflojarse, y el vástago entero va templado y no solo la cara de golpeo. En un tejado eso significa que la herramienta sobrevive a que la tires al cubo al final de cada jornada. Un mango de madera se habría partido bastante antes de eso.",
+        "El precio de eso son las vibraciones, porque el acero transmite el golpe de un clavo fallado directo a la muñeca de una forma que un mango de madera nunca hace. DeWalt lo compensa con una empuñadura antideslizante moldeada sobre el vástago, que se lleva lo peor del picotazo y, más útil en pendiente fuerte, sujeta el mango dentro de un guante mojado. Un martillo de acero es un intercambio y no una mejora que salga del todo gratis.",
+        "Son 16 oz de cabeza sobre un mango de 11 3/4 in, que es la medida de carpintería general y no un peso de encofrado. La cara es lisa y en forma de escudo, así que no deja marca de rejilla en nada que vaya a quedar visto, y la uña es curva para arrancar y no recta para demoler. Esa combinación apunta tanto al acabado y al mueble como al tejado. Un peso de encofrado solo serviría para cansar la muñeca en un trabajo como este.",
+        "Dos detalles ahorran tiempo. El arranque magnético sostiene el clavo en la cara para colocarlo con una sola mano, algo que cuenta cuando la otra sujeta la escalera o una hilada de arranque. Una ranura lateral en la cabeza saca los clavos a los que la uña curva no llega. DeWalt cubre sus herramientas de mano de por vida y no publica ninguna norma dimensional. Los dos detalles van en la cabeza y no se venden como accesorio."
+      ],
+      "features": {
+        "install": [
+          "Usa el arranque magnético para colocar el clavo con una mano en la escalera",
+          "La ranura lateral saca los clavos a los que no llega la uña curva",
+          "Reserva la cara lisa para el trabajo que vaya a quedar a la vista",
+          "Dieciséis onzas es peso de carpintería, no de encofrado",
+          "Nunca golpees otra cara templada, que es como se desportillan estos martillos"
+        ],
+        "coverage": [
+          "Garantía limitada de por vida en las herramientas de mano DeWalt",
+          "Forjado de una sola pieza de acero, sin cabeza que pueda aflojarse",
+          "El vástago va templado en toda su longitud, no solo en la cara",
+          "La empuñadura antideslizante amortigua y sujeta con el guante mojado",
+          "La cara lisa en forma de escudo no deja marca en el trabajo visto",
+          "No se publica ninguna norma dimensional para el martillo"
+        ]
+      }
     },
     "dewalt-dcm849": {
-      "title": "Pulidora Rotativa Inalámbrica 20V",
-      "titleLead": "Pulidora Rotativa Inalámbrica",
-      "titleAccent": "20V",
-      "description": "Pulidora inalámbrica de velocidad variable para acabado y pulido de techado metálico y molduras, con plato de siete pulgadas.",
-      "highlights": [
-        "Motor sin escobillas para más autonomía",
-        "Gatillo de velocidad variable para un control total",
-        "Recubrimiento de goma que protege superficies y mejora el agarre",
-        "Se sujeta por la empuñadura frontal o el mango lateral"
-      ]
+      "title": "Pulidora Rotativa Inalámbrica",
+      "titleLead": "Pulidora Rotativa",
+      "titleAccent": "Inalámbrica",
+      "description": "Pulidora rotativa inalámbrica sin escobillas con plato de siete pulgadas, regulable continuamente entre ochocientas y dos mil doscientas revoluciones.",
+      "about": [
+        "En una cubierta metálica la pulidora es herramienta de acabado y no de limpieza. La junta alzada y la teja con granulado llegan con un acabado de fábrica que ningún proceso en obra mejora, pero el remate, el babero y la pieza fabricada se cortan, se manipulan y se rayan, y una rotativa con el plato adecuado es como se recuperan esas marcas antes de subirlas. Nadie pule un acabado de fábrica; se pule lo que la obra le hizo encima.",
+        "El plato es de 7 in sobre un eje de 5/8 in por 11, que es la rosca común de los platos y las pastas, así que los discos no quedan atados a esta herramienta. La velocidad va de 800 a 2,200 rpm y es variable por dos vías: en el gatillo para entrar poco a poco y en una rueda para fijar un techo que el gatillo ya no pueda superar. Esa independencia respecto de la propia herramienta vale bastante más de lo que parece a primera vista.",
+        "La velocidad baja es lo que pide casi todo este trabajo. Una pulidora a tope sobre un panel pintado quema el recubrimiento antes de llegar a pulirlo, y la rueda es lo que impide que una mano poco habituada lo haga. La goma sobre la caja de engranajes está para el agarre, y además suaviza las marcas al dejar la herramienta sobre metal acabado. La pintura quemada en una pieza vista es una pieza que acabas comprando dos veces.",
+        "Se sujeta por la empuñadura frontal o por la lateral, así que la misma herramienta sirve plana sobre un banco y de canto contra un tramo de remate. El motor es sin escobillas y usa la batería 20V MAX compartida por toda la gama DeWalt. Ni el peso desnudo ni el contenido de la caja de la herramienta sola están publicados, así que no se indican. Las baterías y el cargador se compran aparte, como en cualquier herramienta desnuda."
+      ],
+      "features": {
+        "install": [
+          "Fija el techo de velocidad con la rueda antes de apretar sobre metal pintado",
+          "Arranca despacio y entra poco a poco, porque una rotativa marca al morder",
+          "Mantén el plato plano: un canto apoyado quema el recubrimiento enseguida",
+          "Usa la empuñadura lateral en cantos y la frontal sobre el banco",
+          "Elige plato y pasta según el acabado y no según la herramienta"
+        ],
+        "coverage": [
+          "Tres años de garantía limitada de DeWalt",
+          "Variable de 800 a 2,200 rpm, ajustable en el gatillo y en una rueda",
+          "Plato de siete pulgadas sobre eje de 5/8 in por 11, la rosca común",
+          "Motor sin escobillas sobre la plataforma de batería 20V MAX compartida",
+          "Goma sobre la caja de engranajes para agarrar y para posarla",
+          "No se publica el peso desnudo ni el contenido de la caja"
+        ]
+      }
     },
     "dewalt-dcn681": {
-      "title": "Grapadora Inalámbrica 20V",
-      "titleLead": "Grapadora Inalámbrica",
-      "titleAccent": "20V",
-      "description": "Grapadora a batería de corona estrecha calibre 18 para muebles, paneles y bajo piso, sin manguera ni compresor detrás.",
-      "highlights": [
-        "Motor sin escobillas que alarga la autonomía y la vida útil",
-        "Ajuste de profundidad sin herramientas para un avellanado preciso",
-        "Luces LED de iluminación y diagnóstico",
-        "Cargador inferior que facilita retirar atascos"
-      ]
+      "title": "Grapadora 18 Ga Inalámbrica",
+      "titleLead": "Grapadora 18 Ga",
+      "titleAccent": "Inalámbrica",
+      "description": "Grapadora inalámbrica sin escobillas para grapas de corona estrecha calibre dieciocho, con accionamiento secuencial o por contacto totalmente seleccionable.",
+      "about": [
+        "El underlayment sintético se coloca más rápido con grapadora que con clavos de arandela, y sobre un tablero ya seco una grapa de corona estrecha sujeta la lámina plana sin que la cabeza de una fijación de arandela quede resaltada bajo la teja de encima. Esta es la versión inalámbrica de ese trabajo: sin compresor al ralentí y sin manguera subiendo por la escalera. No queda nada al ralentí en la entrada mientras tú trabajas arriba.",
+        "Dispara grapas de calibre 18 con corona estrecha de 1/4 in, en patas de 1/2 in hasta 1 1/2 in, y el cargador admite 100. El motor es sin escobillas, lo que en una clavadora importa menos por la autonomía que por la constancia del disparo: la última grapa del cargador entra a la misma profundidad que la primera, en vez de irse quedando corta según cae la batería. Esa constancia es el verdadero argumento del motor sin escobillas aquí.",
+        "Dos de los mandos conviene conocerlos antes de que la herramienta salga de la furgoneta. El gatillo se conmuta sin ninguna herramienta entre modo secuencial, donde apoyas la nariz y luego aprietas, y modo por contacto, donde mantienes apretado y vas golpeando a lo largo de una tirada. La profundidad también se ajusta a mano, para tablero blando o denso. Las dos cosas se cambian sin abrir ninguna caja ni tener que buscar una llave.",
+        "Un bloqueo por falta de grapas impide que la herramienta dispare cuando el cargador se vacía, lo que protege la hoja impulsora del disparo en vacío, que es lo que estropea una clavadora más rápido que ninguna otra cosa. Es herramienta sola con la misma batería 20V MAX de toda la gama, pesa 5.7 lb y DeWalt la cubre con tres años de garantía. Las baterías y el cargador se venden aparte, como en toda la gama de herramienta sola."
+      ],
+      "features": {
+        "install": [
+          "Usa grapas de calibre 18 con corona de 1/4 in, de 1/2 in a 1 1/2 in",
+          "Elige modo secuencial para colocar y modo por contacto para una tirada larga",
+          "Ajusta la profundidad a mano para que la corona quede rasante sin cortar",
+          "Sigue el patrón de fijación del fabricante del underlayment, no el ritmo",
+          "Para cuando salte el bloqueo en lugar de insistir con el gatillo"
+        ],
+        "coverage": [
+          "Tres años de garantía limitada de DeWalt",
+          "Cargador de 100 grapas con bloqueo que evita el disparo en vacío",
+          "El motor sin escobillas mantiene la última grapa igual que la primera",
+          "El gatillo pasa de secuencial a contacto sin ninguna herramienta",
+          "La profundidad se ajusta a mano para tablero blando o material denso",
+          "Usa la misma batería 20V MAX que el resto de la gama inalámbrica"
+        ]
+      }
     },
     "tolsen-25012": {
-      "title": "Mazo con Mango de Fibra",
-      "titleLead": "Mazo con Mango",
-      "titleAccent": "de Fibra",
-      "description": "Mazo de mil quinientos gramos con mango de fibra de vidrio para demolición y trabajo con cincel y picado.",
-      "highlights": [
-        "Cabeza templada de mil quinientos gramos",
-        "Cabeza con acabado pintado en negro",
-        "Mango de fibra de vidrio",
-        "Apto para demolición y trabajo con cincel"
-      ]
+      "title": "Maceta de Cantero Reforzada de Fibra",
+      "titleLead": "Maceta de Cantero",
+      "titleAccent": "Reforzada de Fibra",
+      "description": "Maceta profesional para cantería con cabeza forjada térmicamente tratada de mil quinientos gramos sobre mango estructural reforzado de fibra.",
+      "about": [
+        "Una maceta de cantero no es un martillo de carpintero con otro nombre. No tiene uña y no está pensada para clavar; es una masa en un palo, empleada para labrar piedra, para asentar una teja de hormigón sobre su rastrel y para romper la pieza que debe salir antes de colocar la nueva. En una cubierta de teja o pizarra eso es faena diaria, y un martillo de uña lo hace mal. La herramienta correcta para la piedra siempre ha sido una herramienta roma.",
+        "La cabeza pesa 1,500 g y la herramienta entera 1.68 kg, así que cerca de nueve décimas partes de lo que mueves es cabeza. Esa proporción es justo el sentido del diseño: la energía se va a la piedra y no al brazo que la movió, y un mango ligero permite al mismo operario seguir golpeando más rato. Mide 295 por 45 por 110 mm, lo bastante corta para trabajar pegado a un muro. Nueve décimas en la cabeza es exactamente para lo que sirve una maceta.",
+        "La cabeza se forja por estampación en acero especial de herramienta y después recibe tratamiento térmico, que es lo que impide que se aborregue por sus propios cantos tras una temporada golpeando fábrica. La forja orienta la fibra del acero alrededor de la forma en vez de cortarla, y esa es la diferencia entre una cabeza que se gasta y una que agrieta. Una cabeza agrietada es el único fallo que ya no se arregla con una lima.",
+        "El mango es de fibra de vidrio y no de madera, así que no se hincha con la humedad, no se reseca dentro de una furgoneta ni se raja por el ojo como acaba haciendo uno de fresno. Tolsen no publica especificación de empuñadura, ni medida de la cara de golpeo, ni plazo de garantía, ni norma de conformidad, así que ninguna de las cuatro se afirma aquí. La madera sigue siendo la opción tradicional y sigue siendo la parte que falla antes."
+      ],
+      "features": {
+        "install": [
+          "Labra y asienta piedra o teja con ella, y deja los clavos al martillo de uña",
+          "Deja que trabaje la cabeza en vez de forzar el golpe desde el hombro",
+          "Mantén limpia la cara de golpeo: la arenilla desconcha la cara y la piedra",
+          "Revisa la unión de cabeza y mango antes de cada tejado, como en todo golpeo",
+          "Usa protección ocular, porque labrar piedra lanza esquirlas a la cara"
+        ],
+        "coverage": [
+          "Cabeza de 1,500 g en una herramienta de 1.68 kg, casi toda la masa arriba",
+          "Forjada por estampación en acero especial de herramienta y tratada",
+          "Cabeza pintada en negro que mantiene el óxido a raya entre obras",
+          "Mango de fibra que no se hincha, ni se reseca, ni se raja por el ojo",
+          "Medida total de 295 por 45 por 110 mm, corta para trabajar junto a un muro",
+          "Tolsen no publica empuñadura, cara de golpeo, garantía ni norma"
+        ]
+      }
     },
     "tolsen-10243": {
-      "title": "Cortapernos de 18 Pulgadas",
-      "titleLead": "Cortapernos",
-      "titleAccent": "de 18 Pulgadas",
-      "description": "Cortapernos de acero al carbono con hoja pulida y mangos engomados para varillas y alambre, corta hasta siete milímetros.",
-      "highlights": [
-        "Hoja de acero al carbono con acabado pulido",
-        "Dieciocho pulgadas de largo total",
-        "Corta material de hasta siete milímetros",
-        "Mangos engomados"
-      ]
+      "title": "Cortapernos de Dieciocho Pulgadas",
+      "titleLead": "Cortapernos de",
+      "titleAccent": "Dieciocho Pulgadas",
+      "description": "Cortapernos compuesto de cuarenta y cinco centímetros con mordazas forjadas y templadas, ajustables y reemplazables, entre mangos tubulares acolchados.",
+      "about": [
+        "El tejado genera más cosas que hay que cortar de lo que el oficio suele admitir. Cinchas de anclaje, el fleje de un palé de teja, el candado del que nadie tiene llave, varilla roscada que sobra por debajo de una correa, alambre de paranieves, algún redondo en un peto. Una sierra acaba con todo ello y una radial lo hace con chispas, que es lo único que nadie quiere sobre fieltro. Un cortapernos hace todo eso en frío y sin ruido.",
+        "Este cortapernos mide 450 mm, que es el extremo corto de la gama y lo es a propósito. Los cortapernos largos son cuatro pies de palanca que no caben en una bolsa, no giran en un bajocubierta y no se manejan con una mano desde una escalera. Dieciocho pulgadas entran en la furgoneta, suben contigo y aún cortan lo que un tejado presenta de verdad. Una herramienta que se queda en la furgoneta es una herramienta que no corta nada.",
+        "La palanca sale de una articulación compuesta y no de la longitud bruta del mango. Dos pivotes en serie multiplican dos veces la fuerza de la mano, así que una herramienta corta cierra unas mordazas que un solo pivote de ese tamaño no movería jamás. Es el mismo truco que usa una tijera compuesta en madera verde, y por eso el mango deja de decidirlo todo. La palanca comprada con geometría no cuesta ni longitud ni peso adicional.",
+        "Las mordazas se forjan por estampación en acero de alto carbono, se templan, se pulen y son a la vez ajustables y reemplazables, de modo que el par se reajusta según se gasta en lugar de tirar la herramienta con ellas. Los mangos son de acero tubular con empuñaduras acolchadas antideslizantes. Tolsen no publica capacidad de corte, ni peso, ni garantía. Un par de mordazas que se reajusta es lo que da a la herramienta una segunda vida."
+      ],
+      "features": {
+        "install": [
+          "Corta varilla y alambre blandos, y deja el material templado a la sierra",
+          "Apoya las mordazas a escuadra para que los dos filos entren a la vez",
+          "Reajusta las mordazas conforme se gastan en lugar de aceptar la holgura",
+          "Agarra el final del mango para aprovechar la palanca que añade la doble",
+          "No lo dejes de noche sobre un tejado húmedo: el acero pulido no es inox"
+        ],
+        "coverage": [
+          "Articulación compuesta que multiplica la fuerza de la mano en dos pivotes",
+          "Cuatrocientos cincuenta milímetros, corto para subirlo por una escalera",
+          "Mordazas de acero de alto carbono forjadas, templadas y pulidas",
+          "Mordazas a la vez ajustables por desgaste y reemplazables",
+          "Mangos de acero tubular con empuñaduras acolchadas antideslizantes",
+          "Tolsen no publica capacidad de corte, peso ni plazo de garantía"
+        ]
+      }
     },
     "supatool-20in": {
-      "title": "Serrucho de 20 Pulgadas",
-      "titleLead": "Serrucho",
-      "titleAccent": "de 20 Pulgadas",
-      "description": "Serrucho de dientes templados para cortes en madera, entablado y molduras, de veinte pulgadas y siete dientes por pulgada.",
-      "highlights": [
-        "Dentado universal de siete TPI para madera seca o húmeda",
-        "Corta tanto al empujar como al tirar",
-        "Hoja endurecida y templada",
-        "Garantía de dos años"
-      ]
+      "title": "Serrucho de Veinte Pulgadas",
+      "titleLead": "Serrucho de Veinte",
+      "titleAccent": "Pulgadas",
+      "description": "Serrucho profesional de veinte pulgadas con dentado universal templado de siete dientes por pulgada, cortando eficazmente en ambas direcciones.",
+      "about": [
+        "Hay una suposición tozuda según la cual la sierra circular jubiló al serrucho, y cualquiera que haya cortado un tablero bajo la lluvia sabe que no. Un serrucho no pide batería, ni cable, ni revisar un protector, empieza en cuanto toca la madera, y es la única sierra que se maneja tumbado sobre un vano con un brazo metido entre la estructura. Es además la única que nunca se queda sin carga a media pendiente, lejos del cargador.",
+        "La hoja mide 500 mm, veinte pulgadas, a siete dientes por pulgada. Ese paso de dentado es el compromiso sobre el que está construida la herramienta entera: basto para evacuar serrín y avanzar por un tablero sin agarrotarse, fino para dejar un canto al que merezca la pena clavar y no la salida desgarrada de un dentado de cuatro dientes en contrachapado. Siete dientes por pulgada es el paso en el que acaba la carpintería de obra.",
+        "Los dientes van templados y la hoja tratada térmicamente, que es el intercambio moderno. Un diente templado conserva el filo mucho más que uno sin tratar y aguanta la arenilla, los clavos y el fieltro viejo que le pone delante un tejado, pero es demasiado duro para recuperarlo con lima, así que el serrucho se usa hasta el final y luego se sustituye. Es una sierra que se gasta en vez de mantenerse, y por el precio es un trato justo.",
+        "El dentado es universal, es decir que corta al empujar y al tirar y no solo en un sentido. Sobre un banco eso es comodidad; por encima de la cabeza, metido en un vano o bajo un cabio bajo donde el recorrido de vuelta es todo el sitio que hay, es la diferencia entre cortar y no cortar. Supatool no publica material de hoja, material de mango ni peso. Ninguna de esas cifras cambia cómo corta el serrucho, pero tampoco se inventan aquí."
+      ],
+      "features": {
+        "install": [
+          "Empieza el corte tirando, con el pulgar guiando la hoja",
+          "Aprovecha las 20 in enteras en vez de serrar solo con el centro",
+          "Aléjalo de clavos viejos: un diente templado se desconcha, no se dobla",
+          "Sujeta el recorte para que la tabla no se astille en la última pulgada",
+          "Sustituye la hoja en vez de intentar limar un dentado templado"
+        ],
+        "coverage": [
+          "Dos años de garantía",
+          "Hoja de veinte pulgadas, 500 mm, a siete dientes por pulgada",
+          "Dientes templados sobre hoja tratada térmicamente",
+          "Dentado universal que corta tanto al empujar como al tirar",
+          "Paso de dentado elegido para tablero y entablado, no para ebanistería",
+          "Supatool no publica material de hoja, material de mango ni peso"
+        ]
+      }
     },
     "qualcraft-2560p": {
-      "title": "Pala para Arranque de Techo",
-      "titleLead": "Pala para Arranque",
-      "titleAccent": "de Techo",
-      "description": "Pala dentada que levanta tejas y clavos rápido en trabajos de retiro, con mango de cincuenta y cuatro pulgadas.",
-      "highlights": [
-        "Construcción de acero de cincuenta y cuatro pulgadas",
-        "Hoja inclinada con sacaclavos integrado",
-        "Arranca clavos de hasta 16d",
-        "Borde de trabajo templado"
-      ]
+      "title": "Pala de Arranque Reforzada de Acero",
+      "titleLead": "Pala de Arranque",
+      "titleAccent": "Reforzada de Acero",
+      "description": "Pala para desmontajes y demoliciones de cincuenta y cuatro pulgadas con cabeza endurecida, diez dientes y empuñadura acodada antideslizante.",
+      "about": [
+        "Arrancar un tejado es la parte del trabajo que nadie fotografía, y también la que decide cómo va la jornada. Una pala plana levanta la teja y deja todos los clavos puestos; una pala de arranque de verdad levanta la teja y el clavo juntos en un solo movimiento, y la diferencia sobre un tejado entero se mide en horas y no en minutos de esfuerzo ahorrado. La herramienta se paga sola en el primer tejado que arranques con ella.",
+        "La cabeza es toda de acero, de 9 3/4 x 10 1/2 in, con diez dientes a lo largo del filo y ese filo templado al calor para que conserve el mordiente entre clavos y grava en lugar de doblarse tras el primer faldón. Esos dientes son los que abrazan la cabeza del clavo y dejan que el mango haga la palanca, y saca clavos de hasta 16D, que cubre cualquier fijación. Un filo que se ha doblado es una pala que ha dejado de trabajar.",
+        "El mango es la pieza que se pasa por alto con más facilidad. Es de acero y no de madera o fibra, mide 22 1/2 in, y va acodado en vez de recto. Ese codo es lo que sitúa el punto de apoyo bajo la carga para que el tirón salga de la pala y no de tu espalda, y es la razón de llevar una pala de arranque aparte de una pala corriente cualquiera. Un mango recto te mete esa misma carga directamente en la zona lumbar en cada tirón.",
+        "En conjunto la herramienta mide 54 in, largo suficiente para trabajar de pie en una pendiente suave. Una empuñadura de vinilo cubre la parte alta del mango. Qualcraft la construye específicamente para arranque de teja de fibra de vidrio y asfáltica. No se publica ni el peso ni el plazo de garantía, así que ninguno de los dos se da por supuesto aquí. Todo lo demás que se publica sobre ella sale de una tienda y no de Qualcraft."
+      ],
+      "features": {
+        "install": [
+          "Mete los dientes bajo la teja de modo que abracen la cabeza del clavo",
+          "Deja que el mango acodado haga la palanca en lugar de tu espalda",
+          "Trabaja subiendo el faldón para que el escombro caiga lejos de ti",
+          "Saca clavos de hasta 16D, que cubre cualquier fijación de teja",
+          "Limpia el tablero de clavos antes de volver a poner underlayment"
+        ],
+        "coverage": [
+          "Construcción íntegra de acero con el filo de trabajo templado al calor",
+          "Diez dientes a lo largo de una cabeza de 9 3/4 x 10 1/2 in",
+          "Mango acodado de acero de 22 1/2 in que sitúa el apoyo bajo la carga",
+          "Cincuenta y cuatro pulgadas en total, suficiente para trabajar de pie",
+          "Qualcraft la hace para arranque de teja de fibra de vidrio y asfáltica",
+          "No se publica ni cifra de peso ni plazo de garantía para la herramienta"
+        ]
+      }
     },
     "dewalt-dcpr320": {
-      "title": "Podadora Inalámbrica 20V",
-      "titleLead": "Podadora Inalámbrica",
-      "titleAccent": "20V",
-      "description": "Podadora a batería que hace cortes limpios en ramas de hasta una pulgada y media, con solo tres libras.",
-      "highlights": [
-        "Hasta mil cien cortes por carga",
-        "Dieciséis veces menos esfuerzo que una podadora manual",
-        "LED integrado que ilumina las zonas oscuras",
-        "Hojas antiadherentes que se cambian con la llave incluida"
-      ]
+      "title": "Tijera de Podar Inalámbrica",
+      "titleLead": "Tijera de Podar",
+      "titleAccent": "Inalámbrica",
+      "description": "Podadora inalámbrica preparada para seccionar ramas y arbustos de pulgada y media, proporcionando aproximadamente mil cien cortes por carga.",
+      "about": [
+        "La razón de que una podadora esté en un catálogo de tejados no tiene nada que ver con la jardinería. Las ramas que vuelan sobre una cubierta sueltan hojas en las limas, retienen humedad contra la teja y dan a las ardillas un puente hasta el tablero, y la cura es cortarlas y no limpiar el tejado dos veces al año para siempre. Una rama que se deja donde está volverá a soltar exactamente las mismas hojas cuando llegue el otoño.",
+        "Secciona tallos y arbustos de hasta 1 1/2 in, y DeWalt da unos 1,100 cortes con una sola carga, bastante más de lo que un día de repaso alrededor de una casa le va a pedir jamás. La herramienta pesa 3 lb desnuda. DeWalt afirma además que exige unas dieciséis veces menos esfuerzo de media que una podadora manual, que es lo que cuenta con cien cortes por delante. Tres libras es lo bastante poco como para sostenerla con el brazo estirado un rato.",
+        "Las cuchillas llevan un recubrimiento antiadherente, algo que importa más de lo que parece en madera verde, porque la savia es lo que engoma una podadora hasta que el corte deja de ser limpio y empieza a aplastar el tallo. Con ella viene una llave de cambio, así que una cuchilla gastada se sustituye en obra en lugar de afilarse mal. La savia es lo que convierte un corte limpio en uno aplastado a lo largo de una sola tarde.",
+        "Un LED integrado ilumina el corte, que suena a capricho hasta que metes la mano en la cara sombría de un seto contra un muro. Usa la misma batería 20V MAX que el resto de la gama DeWalt y se vende desnuda. No se publica ni el tipo de motor, ni la velocidad de cuchilla, ni ninguna norma de corte, así que no se afirma ninguna de las tres. Las baterías y el cargador se compran aparte, igual que en cualquier herramienta desnuda."
+      ],
+      "features": {
+        "install": [
+          "Corta ramas de hasta 1 1/2 in y no más, o la cuchilla se calará",
+          "Deja una mano para la escalera, que es el sentido de una herramienta así",
+          "Limpia la savia de la cuchilla en vez de dejar que se acumule",
+          "Cambia la cuchilla gastada con la llave incluida y no intentes afilarla",
+          "Retira lo que vuele sobre una lima antes de que suelte otro otoño encima"
+        ],
+        "coverage": [
+          "Tres años de garantía limitada de DeWalt",
+          "Homologada para tallos de hasta 1 1/2 in y unos 1,100 cortes por carga",
+          "Cuchillas con recubrimiento antiadherente que resisten el engomado",
+          "Incluye llave de cambio para sustituir la cuchilla en vez de afilarla",
+          "Un LED integrado ilumina el corte a la sombra o bajo un alero",
+          "No se publica tipo de motor, velocidad de cuchilla ni norma de corte"
+        ]
+      }
     },
     "dewalt-dwht36225": {
-      "title": "Cinta Métrica de 25 pies",
-      "titleLead": "Cinta Métrica",
-      "titleAccent": "de 25 pies",
-      "description": "Cinta métrica resistente de 25 pies con hoja de largo alcance y carcasa duradera, con trece pies en voladizo.",
-      "highlights": [
-        "Trece pies de cinta recta sin doblarse",
-        "Nueve pulgadas de recubrimiento junto al gancho",
-        "Sigue funcionando tras una caída de sesenta pies",
-        "Protección integrada del botón de bloqueo ante caídas"
-      ]
+      "title": "Cinta Métrica de Veinticinco Pies",
+      "titleLead": "Cinta Métrica de",
+      "titleAccent": "Veinticinco Pies",
+      "description": "Cinta métrica de veinticinco pies con lámina termoplástica amarilla, trece pies de voladizo y envolvente antiimpacto certificada para caídas.",
+      "about": [
+        "El voladizo es la cifra que importa en un tejado y la que casi nadie mira. Es cuánto sale la lámina sin apoyo antes de doblarse, y con 13 ft esta cinta cruza un vano entre cabios, sube por un faldón o llega al otro lado de una chimenea sin que nadie sujete el extremo. En el suelo eso es comodidad; sobre una pendiente es seguridad. La mayoría de las cintas se rinde por los ocho o nueve pies de alcance sin ningún apoyo debajo.",
+        "La lámina mide 25 ft de largo y 1 1/4 in de ancho en acero de alto carbono, recubierta de termoplástico amarillo. Las últimas 9 in llevan una capa más gruesa, porque el extremo es donde se produce el desgaste: se arrastra sobre la teja, se recoge de golpe cien veces al día y se dobla alrededor del gancho. Esa zona reforzada retrasa la rotura. Esa zona reforzada es la que decide cuánto dura la cinta entera dentro de una bolsa.",
+        "Dentro de la carcasa va Dual Core, una disposición patentada de dos muelles de retorno en lugar de uno. Dos muelles pequeños caben en una carcasa más corta que uno largo, que es la razón de que una cinta con este alcance no sea el ladrillo que sería si no, y además reparte el trabajo para que ninguno lo haga entero cada vez. Es también la razón de que la carcasa resulte bastante más corta de lo que su alcance haría suponer.",
+        "La carcasa es una mezcla de policarbonato y ABS resistente al impacto que DeWalt homologa para una caída de 60 ft, que es la cifra que dice dónde se espera que se use esta cinta. La unión del gancho va reforzada contra el desgarro que mata una lámina por los remaches. DeWalt cubre sus herramientas de mano de por vida. Sesenta pies describe un tejado y no el banco de un taller, que es exactamente donde DeWalt espera que viva esta cinta."
+      ],
+      "features": {
+        "install": [
+          "Aprovecha los 13 ft de voladizo para cruzar un vano sin pedir otra mano",
+          "Deja que la lámina se recoja controlada en vez de soltarla de golpe",
+          "Reserva las 9 in finales reforzadas para el arrastre, que es su función",
+          "Engancha en el borde y lee bajando el faldón en vez de medir en plano",
+          "Revisa de vez en cuando los remaches del gancho, que es por donde rompe"
+        ],
+        "coverage": [
+          "Garantía limitada de por vida en las herramientas de mano DeWalt",
+          "Trece pies de voladizo sobre una lámina de 25 ft por 1 1/4 in",
+          "Lámina de acero de alto carbono bajo recubrimiento termoplástico amarillo",
+          "Nueve pulgadas de recubrimiento reforzado en el extremo que se desgasta",
+          "Sistema Dual Core de dos muelles en una carcasa más corta y resistente",
+          "Carcasa homologada por DeWalt para una caída de sesenta pies"
+        ]
+      }
     },
     "dewalt-dccs620": {
-      "title": "Motosierra 20V de 12 Pulgadas",
-      "titleLead": "Motosierra 20V",
-      "titleAccent": "de 12 Pulgadas",
-      "description": "Motosierra inalámbrica de 12 pulgadas para desrame y limpieza rápida en la obra, con nueve libras y batería incluida.",
-      "highlights": [
-        "Nueve libras con la batería puesta",
-        "Motor sin escobillas para más autonomía",
-        "Espada y cadena Oregon de bajo rebote",
-        "Tensado de cadena y ajuste de espada sin herramientas"
-      ]
+      "title": "Motosierra de 12 in Inalámbrica",
+      "titleLead": "Motosierra de 12 in",
+      "titleAccent": "Inalámbrica",
+      "description": "Motosierra compacta sin escobillas con espada Oregon de doce pulgadas, engrase automático y tensado de cadena sin herramientas complementarias.",
+      "about": [
+        "Una motosierra no es herramienta de tejado hasta el día en que una rama cae sobre la cumbrera, o hasta que el árbol que lleva diez años soltando acículas en la lima por fin hay que retirarlo del alero. Ese es el trabajo para el que está pensado este tamaño: cortes cortos, ángulos incómodos y nada parecido a la tala que justificaría subir una de gasolina. Nadie compra esta sierra para talar un árbol, y ahí está la gracia.",
+        "La espada es de 12 in de Oregon, con una cadena de paso 3/8 in y calibre 0.043 in a 25.2 pies por segundo. Es cadena de bajo retroceso, que en una sierra de uso ocasional y no diario es la elección correcta, porque el retroceso es justo lo que sorprende a quien no coge una en seis meses. Pesa 7.8 lb desnuda y unas 9 lb con la batería puesta. El usuario esporádico es justo aquel a quien protege una cadena de bajo retroceso.",
+        "Dos de las comodidades valen lo que cuestan en una herramienta ocasional. El tensado es sin herramientas, así que la cadena se ajusta a mano con una rueda en vez de buscando una llave que se perdió hace dos obras. El engrase es automático, lo que elimina el otro fallo clásico del usuario esporádico: tirar con la cadena seca hasta azular la espada. Los dos fallos acaban costando bastante más que la propia sierra cuando ocurren.",
+        "El motor es sin escobillas, algo que pesa más en una herramienta de batería que en una de cable, porque cada vatio que no se pierde en el roce de las escobillas es autonomía que no has tenido que cargar. Usa la misma batería 20V MAX del resto de la gama DeWalt y se vende desnuda. La garantía es de tres años, igual que sus otras inalámbricas. Las baterías y el cargador se compran aparte, igual que en cualquier otra herramienta desnuda."
+      ],
+      "features": {
+        "install": [
+          "Comprueba a mano la tensión de la cadena antes de cada arranque",
+          "Mantén la espada engrasada, pero revisa el depósito en vez de confiarte",
+          "Nunca cortes por encima del hombro ni desde una escalera",
+          "Usa la cadena de bajo retroceso que trae y no una más agresiva",
+          "Despeja el corte para que la cadena no toque el tablero ni una fijación"
+        ],
+        "coverage": [
+          "Tres años de garantía limitada de DeWalt",
+          "Espada Oregon de doce pulgadas con cadena de paso 3/8 in y calibre 0.043 in",
+          "Velocidad de cadena de 25.2 pies por segundo con motor sin escobillas",
+          "Tensado sin herramientas, a mano y no con una llave de bujía",
+          "Engrase automático, que es lo que salva una cadena de uso esporádico",
+          "Usa la misma batería 20V MAX que el resto de la gama inalámbrica"
+        ]
+      }
     },
     "hxoutdoors-ft16c": {
-      "title": "Hacha Táctica de Campo",
-      "titleLead": "Hacha Táctica",
-      "titleAccent": "de Campo",
-      "description": "Hacha táctica compacta con hoja de espiga completa y funda moldeada para cortar y partir, en acero inoxidable 420.",
-      "highlights": [
-        "Espiga completa hasta la palanca",
-        "Cara de martillo y sacaclavos integrados",
-        "Mango de G10 que resiste la humedad",
-        "Incluye funda de Kydex"
-      ]
+      "title": "Hacha Táctica de Supervivencia",
+      "titleLead": "Hacha Táctica de",
+      "titleAccent": "Supervivencia",
+      "description": "Hacha táctica de supervivencia con construcción de espiga completa, trescientos veintiséis milímetros totales y acero inoxidable 420 debidamente templado.",
+      "about": [
+        "Un hacha se gana el sitio en un tejado por los tres trabajos que tiene detrás y no por el que tiene delante. Parte un rastrel a medida, clava una estaca en el entablado para amarrar una cuerda, saca el clavo al que nadie llega con una barra y desmenuza lo que la pala de arranque ya ha levantado. El filo de corte es casi lo de menos a lo largo de una jornada entera. Casi todo eso es trabajo que una pala o una barra hacen francamente mal.",
+        "Mide 12.83 in en total sobre un filo de 3.74 in, que es corta para un hacha y larga para un cuchillo, y ese es justo el tramo en el que una herramienta todavía se maneja con una mano desde una escalera. Desnuda pesa 711 g. Cualquier cosa más pesada deja de ser una herramienta que subes y pasa a ser una que vas a buscar, y esa se queda en la furgoneta. El peso es la razón callada de que las buenas herramientas se queden abajo.",
+        "El acero es 420 templado a 58 HRC, más duro que un inoxidable de uso general y una decisión deliberada para un filo que se encuentra clavos, arenilla y teja vieja antes que madera limpia. La hoja es de espiga completa, así que el acero va entero del filo a la culata y las cachas van atornilladas encima. Una espiga oculta es por donde rompe un hacha, y aquí no la hay. Las espigas ocultas son por donde revientan las hachas baratas.",
+        "Las cachas son composite G10 en stone wash ennegrecido, que ni se hincha, ni se pudre, ni pierde agarre mojado, y la culata está rematada como cara de martillo con una palanca y una ranura sacaclavos labradas en la cola. Se entrega en funda Kydex con clip de cinturón. HX Outdoors no publica plazo de garantía, así que aquí no se afirma ninguno en absoluto. Lo que el fabricante no declara se deja en blanco y no se rellena a ojo."
+      ],
+      "features": {
+        "install": [
+          "Parte rastreles y desmenuza teja levantada, y deja la estructura a la sierra",
+          "Usa la culata como martillo en vez de golpear una estaca con el filo",
+          "Saca los clavos con la ranura de la cola y no haciendo palanca en el filo",
+          "Llévala enfundada al subir y al bajar, que para eso está el clip",
+          "Sécala antes de guardarla en el Kydex, porque la humedad bajo funda oxida"
+        ],
+        "coverage": [
+          "Doce coma ocho pulgadas totales sobre un filo de corte de 3.74 in",
+          "Acero 420 templado a 58 HRC para arenilla, clavos y teja vieja",
+          "Construcción de espiga completa con cachas de composite G10 atornilladas",
+          "Cara de martillo en la culata y palanca con ranura sacaclavos en la cola",
+          "Setecientos once gramos, ligera para subirla por una escalera",
+          "Se entrega en funda Kydex con clip; no se publica plazo de garantía"
+        ]
+      }
     },
     "dewalt-dwht10998": {
-      "title": "Cúter Retráctil",
-      "titleLead": "Cúter",
-      "titleAccent": "Retráctil",
-      "description": "Cúter retráctil que guarda cinco hojas de repuesto en el mango, para cortes limpios y rápidos en el techo.",
-      "highlights": [
-        "Guarda hasta cinco cuchillas de repuesto en el mango",
-        "Cambio rápido de cuchilla",
-        "Cuchilla retráctil",
-        "Incluye dos cuchillas"
-      ]
+      "title": "Cúter Retráctil con Almacén de Hojas",
+      "titleLead": "Cúter Retráctil con",
+      "titleAccent": "Almacén de Hojas",
+      "description": "Cúter retráctil que almacena internamente cinco hojas de recambio, con tres posiciones de corredera gobernando exactamente el filo expuesto.",
+      "about": [
+        "El cúter es la herramienta que un techador coge más veces que ninguna otra, y también es la que más a menudo aparece con una hoja gastada todavía puesta. El granulado de la teja mata un filo en minutos, el subtecho sintético lo mata antes, y una hoja roma desgarra donde debería cortar. El remedio nunca fue una hoja mejor; es llevar la siguiente dentro del propio mango y no en una caja. Ese es todo el argumento de este cúter en concreto.",
+        "Este cúter lleva cinco hojas de recambio en el cuerpo, algo que parece una tontería hasta que cuentas los viajes de bajada por la escalera que ahorra en una semana. El cambio se hace sin herramienta, así que ocurre donde se corta y no en el portón de la furgoneta, y una hoja que se sustituye en diez segundos se sustituye en cuanto pierde filo y no dos cuadros después. Cinco hojas son buena parte de una semana entera de trabajo.",
+        "La corredera tiene tres posiciones firmes, de modo que el filo expuesto se ajusta al material que hay delante en lugar de quedarse donde cayó. La posición corta marca una teja sin llegar nunca al subtecho de debajo, mientras que la posición larga corta fieltro y membrana de una pasada. El bloqueo mantiene ese ajuste bajo carga, que es lo que impide que el filo retroceda. Un corte que se cuela hasta el fieltro ya no es un corte: es una reparación.",
+        "El cuerpo es de zinc, que es la razón de que sobreviva a la caída desde el tejado y a la bota que aterriza encima después, y admite la hoja de cúter estándar que cualquier proveedor de la obra ya tiene a cientos. DeWalt cubre sus herramientas de mano de por vida. Ni el peso desnudo, ni la longitud cerrada, ni el contenido de la caja están publicados. Ninguna de esas tres cifras cambia la forma de usar el cúter sobre el tejado."
+      ],
+      "features": {
+        "install": [
+          "Ajusta la corredera al material en vez de trabajar siempre a filo entero",
+          "Marca la teja en la posición corta para que la hoja no toque el subtecho",
+          "Cambia la hoja en cuanto arrastre y no al terminar la hilada con ella",
+          "Lleva las cinco hojas de repuesto en el cuerpo y cambia sobre el tejado",
+          "Recoge la hoja antes de guardarlo en la cartuchera o el bolsillo, siempre"
+        ],
+        "coverage": [
+          "Garantía limitada de por vida en las herramientas de mano DeWalt",
+          "Cinco hojas de recambio guardadas dentro del cuerpo del cúter",
+          "Cambio de hoja sin herramienta, sobre el tejado y no en la furgoneta",
+          "Tres posiciones firmes de corredera que fijan el filo expuesto",
+          "Un bloqueo que mantiene el ajuste de la hoja bajo carga",
+          "No se publica el peso desnudo, la longitud cerrada ni el contenido"
+        ]
+      }
     },
     "dewalt-dxst11000": {
-      "title": "Escalera de Tijera de Aluminio",
+      "title": "Escalera de Tijera Aluminio Tipo IA",
       "titleLead": "Escalera de Tijera",
-      "titleAccent": "de Aluminio",
-      "description": "Escalera de tijera de aluminio de cuatro pies, Tipo IA para trescientas libras, fabricada conforme a la norma ANSI.",
-      "highlights": [
-        "Tapa superior con imán y ranuras para herramientas",
-        "Bandeja para cubeta de cierre automático",
-        "Zapatas de aluminio antideslizantes",
-        "Peldaños con veinticinco por ciento más de superficie"
-      ]
+      "titleAccent": "Aluminio Tipo IA",
+      "description": "Escalera de tijera de aluminio homologada Tipo IA para trescientas libras, con arriostramiento reforzado, bandeja portacubos y zapatas antideslizantes.",
+      "about": [
+        "La clase de carga es el único número de una escalera que importa de verdad, y es el que la gente lee el último. Tipo IA significa 300 lb, y esa cifra no es el operario: es el operario, las botas, el cinturón, las herramientas que lleva dentro y lo que suba en la mano. Un techador de ochenta kilos con un paquete al hombro ya va por la mayor parte de ese número. La clase cubre todo lo que sube del suelo contigo, y no solo tu propio peso.",
+        "Con cuatro pies esta es una escalera de altura de trabajo y no de acceso. Es la que pone a tiro un alero, el retorno de un canalón, una cornisa baja, el faldón de un garaje o el babero de una chimenea sin arrastrar una extensible alrededor de la casa. Cuatro pies caben además en una furgoneta sin abatir asientos, que decide cuál llega de verdad a la obra. La escalera que llega de verdad a la casa es la que acaba haciendo el trabajo.",
+        "Los largueros son de aluminio con arriostramiento de cartelas, que es el detalle que impide que una escalera de tijera se descuadre de lado con los años. Una escalera que cede al cambiar el peso todavía no es insegura, pero va camino de serlo, y las cartelas son lo que retrasa ese momento. Las zapatas son antideslizantes y el peldaño es un cuarto más ancho. El arriostramiento es casi todo lo que pagas cuando dos escaleras parecen iguales.",
+        "La parte alta está pensada para trabajar desde ella y no para pisarla: un imán sujeta la tornillería y los alojamientos admiten un atornillador o una barra, así que ninguno acaba en un bolsillo ni por el borde. Debajo hay una bandeja portacubos. Cumple los requisitos de ANSI y de OSHA. DeWalt no publica el peso ni el plazo de garantía de este modelo. Ninguna de las dos ausencias cambia cómo se usa la escalera, y no se rellenan."
+      ],
+      "features": {
+        "install": [
+          "Cuenta herramientas y carga contra las 300 lb, no solo el peso del cuerpo",
+          "Ábrela del todo y bloquea los tensores antes de poner peso en un peldaño",
+          "Apoya las cuatro zapatas en firme en lugar de nivelar con una cuña",
+          "Trabaja desde los peldaños y deja la tapa para el imán y las herramientas",
+          "Vigila las cartelas: el descuadre es el primer aviso de una escalera cansada"
+        ],
+        "coverage": [
+          "Clase de carga Tipo IA, 300 lb incluyendo operario, herramienta y carga",
+          "Altura de trabajo de cuatro pies para aleros, retornos y cornisas bajas",
+          "Largueros de aluminio con arriostramiento de cartelas contra el descuadre",
+          "Peldaño un cuarto más ancho que el estándar y zapatas antideslizantes",
+          "Imán y alojamientos de herramienta arriba, con bandeja portacubos debajo",
+          "Cumple los requisitos de ANSI y de OSHA para escaleras de tijera"
+        ]
+      }
     },
     "masterplug-ose15104g": {
-      "title": "Carrete de Extensión Eléctrica",
-      "titleLead": "Carrete de Extensión",
-      "titleAccent": "Eléctrica",
-      "description": "Carrete tipo casete con cuatro tomas con tierra, interruptor y un protector de sobrecarga, sobre treinta pies de cable.",
-      "highlights": [
-        "Treinta pies de cable de alta visibilidad",
-        "Cuatro tomas con tierra y obturador",
-        "Protector de sobrecarga e interruptor",
-        "Manivela que recoge el cable en el carrete"
-      ]
+      "title": "Carrete de Cable Enrollable",
+      "titleLead": "Carrete de Cable",
+      "titleAccent": "Enrollable",
+      "description": "Carrete enrollable de treinta pies con conductor de calibre dieciséis, cuatro tomas obturadas y protección térmica integrada contra sobrecargas.",
+      "about": [
+        "El fallo que mete un carrete de cable en un catálogo de cubiertas no es eléctrico. Son nueve metros de cable tirados sobre un tejado, cruzando un peldaño, rodeando un paquete y pasando justo por donde alguien tiene que caminar. Un carrete es cómo esos mismos nueve metros suben ya enrollados, sueltan solo lo que la obra pide y vuelven igual al final. Un cable por el suelo es un tropiezo; un cable por un tejado es bastante peor.",
+        "Este es un casete y no un tambor sobre bastidor, así que apoya plano, cuelga de un gancho y ocupa una fracción del sitio en una furgoneta. Lleva manivela para recoger, algo que parece obvio hasta que has enrollado treinta pies a mano. El cable es de alta visibilidad, la medida de seguridad más barata que existe y la que más a menudo se omite. El sitio en una furgoneta es la limitación que nadie escribe en una ficha técnica.",
+        "El cable es de 16 AWG homologado a 10 A repartidos en cuatro tomas con puesta a tierra, todas con obturadores. Los obturadores importan más fuera que dentro: una toma abierta en un tejado recoge arenilla, lluvia y granulado de teja, y el obturador es lo que mantiene las tres cosas lejos de los contactos. Un interruptor corta el carrete entero de una vez. Unos contactos limpios son los que siguen funcionando al final del invierno.",
+        "El protector térmico de sobrecarga va en el propio carrete, que es la parte que cuenta con un cable enrollado. El cable que queda en el tambor no disipa calor como uno desplegado, de modo que una carga segura desenrollada no siempre lo es enrollada, y el protector es lo que cubre eso. Un piloto avisa de que hay tensión. Masterplug lo garantiza tres años. Tres años es mucha garantía para algo que se arrastra para ganarse la vida."
+      ],
+      "features": {
+        "install": [
+          "Saca solo el cable que la faena pide y recoge el resto al terminar",
+          "Desenrolla el cable entero antes de pasar una carga alta por el carrete",
+          "Mantén el carrete fuera del faldón, colgado o al pie de la escalera",
+          "Usa el interruptor para cortar las cuatro tomas en vez de tirar del enchufe",
+          "Revisa el cable al recogerlo, que es el momento en que se ven los cortes"
+        ],
+        "coverage": [
+          "Tres años de garantía de Masterplug",
+          "Treinta pies de cable de 16 AWG homologado a 10 A",
+          "Cuatro tomas con puesta a tierra, todas ellas con obturadores",
+          "Protector térmico que cubre el cable que se queda enrollado en el tambor",
+          "Formato casete plano con manivela para la recogida del cable",
+          "Cable de alta visibilidad y piloto que avisa de que hay tensión"
+        ]
+      }
     },
     "dewalt-dpg737": {
-      "title": "Guantes Térmicos de Trabajo",
-      "titleLead": "Guantes Térmicos",
-      "titleAccent": "de Trabajo",
-      "description": "Guantes térmicos de doble capa, con forro cálido dentro de una carcasa de nailon para las jornadas más frías.",
-      "highlights": [
-        "Sistema térmico de guante dentro de guante para el frío",
-        "Forro térmico dentro de una carcasa de nailon",
-        "Guante multiuso para tareas de obra",
-        "Se vende por par"
-      ]
+      "title": "Guantes de Trabajo Térmicos Aislantes",
+      "titleLead": "Guantes de Trabajo",
+      "titleAccent": "Térmicos Aislantes",
+      "description": "Guantes aislantes profesionales con revestimiento exterior resistente de nailon calibre quince sobre aislamiento térmico acrílico interior de calibre siete.",
+      "about": [
+        "El frío no es lo que le cuesta un día a un techador; es la mano fría. Primero se va el agarre y después el movimiento fino que hace falta para presentar un clavo o sujetar una hoja a escuadra, y lo que viene detrás es trabajo lento o un error. La respuesta habitual es un guante gordo, que resuelve el frío quitando el tacto, y ahí está el problema. Un abrigo que te cuesta el tacto del trabajo no es un abrigo que valga la pena.",
+        "El planteamiento aquí son dos guantes en lugar de uno. Un exterior de nailon de calibre 15 se lleva la abrasión y mantiene la forma de la mano, y dentro un forro acrílico de calibre 7 se encarga de aislar. Separar esos dos trabajos es lo que permite que cada capa sea fina: el exterior queda tan ceñido que se nota una fijación a través de él sin esfuerzo. Fino y abrigado solo son contrarios mientras los dos trabajos viven en una capa.",
+        "La palma va bañada tres cuartas partes hacia arriba en microespuma, que es la parte que agarra de verdad. El baño de espuma funciona mojado igual que seco, porque la textura se abre en vez de cerrarse en una película lisa como hace un recubrimiento macizo, y la cubierta es un oficio mojado buena parte del año. El dorso sin bañar es lo que deja respirar. Un guante que agarra solo en seco es un guante de otro oficio distinto.",
+        "Que el baño se quede antes del puño es deliberado: un guante recubierto entero abriga más y no ventila, y una mano que suda dentro de un guante sellado se enfría antes que una que nunca llegó a sudar. DeWalt no publica tabla de tallas, ni norma, ni peso, ni plazo de garantía para este guante, así que aquí no se afirma ninguna de las cuatro cosas. Un dorso que ventila vale más a lo largo de una jornada que otra capa de forro."
+      ],
+      "features": {
+        "install": [
+          "Ajusta bien la talla: un guante holgado quita más tacto que un forro fino",
+          "Deja la palma bañada contra el trabajo y el dorso desnudo hacia fuera",
+          "Sécalos del todo entre jornadas en vez de empezar húmedo y frío",
+          "Lávalos antes de cambiarlos en cuanto el agarre se vuelva acristalado",
+          "Trátalos como abrigo y agarre, no como protección al corte, que no la dan"
+        ],
+        "coverage": [
+          "Construcción de doble capa, exterior y forro separados entre sí",
+          "Exterior de nailon calibre quince que mantiene la forma y aguanta roce",
+          "Forro térmico acrílico de calibre siete que se encarga del aislamiento",
+          "Baño de microespuma en tres cuartos de palma, con agarre seco y mojado",
+          "Dorso sin recubrir que ventila en vez de sellar la mano dentro",
+          "No se publica tabla de tallas, norma, peso ni plazo de garantía"
+        ]
+      }
     },
     "palmer-k111115": {
-      "title": "Kit de Protección contra Caídas",
-      "titleLead": "Kit de Protección",
-      "titleAccent": "contra Caídas",
-      "description": "Kit anticaídas con arnés de cinco puntos, línea de vida de cincuenta pies y anclaje, todo según ANSI Z359.11.",
-      "highlights": [
-        "Arnés de cuerpo entero con cinco puntos de ajuste",
-        "Línea de vida vertical de cincuenta pies con mosquetón de seguro",
-        "Incluye anclaje reutilizable, gafas y guantes",
-        "Cumple las normas OSHA y ANSI Z359"
-      ]
+      "title": "Kit Anticaídas de Protección Total",
+      "titleLead": "Kit Anticaídas de",
+      "titleAccent": "Protección Total",
+      "description": "Equipamiento anticaídas con arnés integral, línea de vida de cincuenta pies, freno deslizante, absorbedor de energía y anclaje reutilizable.",
+      "about": [
+        "Un kit anticaídas se compra como un solo artículo porque solo funciona como uno. Un arnés con el elemento de amarre equivocado, un anclaje homologado para otra cosa o un freno que no corresponde a esa cuerda son sistemas que nadie ha ensayado como sistema, y el fallo no aparece hasta el único momento para el que existen. Este kit llega ya emparejado. Un sistema solo se ensaya como el conjunto exacto con el que fue certificado.",
+        "El arnés es de cinco puntos con anilla dorsal, que es el enganche que deja al operario erguido después de la retención y no doblado. La línea de vida son 50 ft de cuerda de 5/8 in con un freno montado, y el freno conecta a través de un absorbedor de energía. Ese absorbedor es el componente que convierte una parada brusca en una parada soportable. Detener una caída es lo fácil; detenerla sin lesión es justo lo que se compra.",
+        "La capacidad va de 130 a 310 lb, y los dos extremos de ese rango son límites reales y no un único máximo. Un usuario demasiado ligero no carga el absorbedor lo suficiente para que despliegue como fue diseñado, y uno demasiado pesado se pasa de la distancia de retención prevista. Toda la herrajería portante del kit es de acero aleado, con mosquetones. Un rango con suelo sorprende a quien solo se fija en el número de arriba.",
+        "El anclaje es reutilizable y no de un solo uso, así que se retira al terminar la obra en vez de quedarse clavado en el entablado, y el kit entero se guarda en un cubo de cuatro galones que hace además de envase. El arnés cumple ANSI Z359.11 y el anclaje ANSI Z359.18. Palmer Safety no publica plazo de garantía, así que aquí no se afirma ninguno. Un anclaje olvidado en un tejado acabado es una gotera que alguien halla años después."
+      ],
+      "features": {
+        "install": [
+          "Ancla en estructura y nunca en el entablado ni en una tabla de alero",
+          "Comprueba que el peso del usuario cae dentro del rango de 130 a 310 lb",
+          "Mantén la línea de vida lo más vertical que permita la posición del anclaje",
+          "Revisa cintas, costuras y mosquetones antes de cada uso, sin excepción",
+          "Retira el kit entero tras una caída, porque el absorbedor despliega una vez"
+        ],
+        "coverage": [
+          "Arnés de cinco puntos con anilla dorsal para una retención erguida",
+          "Cincuenta pies de línea de vida de 5/8 in con freno de cuerda emparejado",
+          "Absorbedor de energía que cede para limitar la fuerza de retención",
+          "Homologado de 130 a 310 lb, un rango con suelo además de techo",
+          "Herrajería portante de acero aleado con mosquetones de 3/4 in",
+          "Arnés según ANSI Z359.11 y anclaje reutilizable según ANSI Z359.18"
+        ]
+      }
     },
     "werner-6206": {
       "title": "Escotilla de Acceso Galvanizada Tipo S",

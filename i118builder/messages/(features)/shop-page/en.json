@@ -244,7 +244,36 @@
       "mounting": "Mounting",
       "laborWarranty": "Labor Protection",
       "panelSize": "Panel Size",
-      "hood": "Hood"
+      "hood": "Hood",
+      "arbor": "Arbor",
+      "depth": "Cut Depth at 90°",
+      "depthBevel": "Cut Depth at 45°",
+      "shoe": "Shoe",
+      "included": "In the Box",
+      "trigger": "Trigger",
+      "depthAdjust": "Depth Adjustment",
+      "lockout": "Lockout",
+      "handle": "Handle",
+      "claw": "Claw",
+      "nailStart": "Nail Start",
+      "nailPuller": "Nail Puller",
+      "head": "Head",
+      "grip": "Grip",
+      "edge": "Work Edge",
+      "chain": "Chain",
+      "tension": "Tensioning",
+      "oiling": "Oiling",
+      "light": "Light",
+      "spindle": "Spindle",
+      "coating": "End Coating",
+      "spring": "Spring System",
+      "case": "Case",
+      "drop": "Drop Rating",
+      "hook": "Hook",
+      "cut": "Cut",
+      "hardness": "Hardness",
+      "shelf": "Shelf",
+      "cord": "Cord"
     },
     "specValue": {
       "fiberglassAsphalt": "Fiberglass Asphalt",
@@ -365,7 +394,116 @@
       "solarFan": "Solar attic fan",
       "fullyEnclosed": "Fully enclosed",
       "factoryAssembled": "Factory assembled",
-      "skylight": "Fixed skylight"
+      "skylight": "Fixed skylight",
+      "magnesium": "Magnesium",
+      "carbideTipped": "Carbide tipped blade",
+      "bladeOnly": "Saw and one blade",
+      "circularSaw": "Circular saw",
+      "deckAndPanel": "Decking and panel",
+      "brushless": "Brushless",
+      "selectableTrigger": "Sequential or contact",
+      "toolFree": "Tool free",
+      "lowNail": "Low staple lockout",
+      "crownStapler": "Narrow crown stapler",
+      "underlaymentFixing": "Underlayment fixing",
+      "onePieceSteel": "One piece steel",
+      "heatTreated": "Heat treated",
+      "antiSlipGrip": "Anti slip grip",
+      "smoothShield": "Smooth, shield shaped",
+      "curvedClaw": "Curved",
+      "magneticStart": "Magnetic",
+      "sideSlot": "Side slot",
+      "nailingHammer": "Nailing hammer",
+      "limitedLifetime": "Limited lifetime",
+      "carpentryFinishing": "Carpentry and finishing",
+      "allSteel": "All steel",
+      "heatTempered": "Heat tempered",
+      "vinylGrip": "Vinyl",
+      "tearOffShovel": "Tear off shovel",
+      "shingleRemoval": "Shingle removal",
+      "lowKickback": "Oregon, low kickback",
+      "automatic": "Automatic",
+      "chainsaw": "Chainsaw",
+      "limbClearing": "Clearing limbs",
+      "nonStickCoated": "Non stick coated",
+      "bladeChangeTool": "Blade change tool",
+      "onboardLed": "Onboard LED",
+      "pruner": "Pruner",
+      "branchClearing": "Clearing branches",
+      "rubberOvermold": "Rubber gear case overmold",
+      "frontOrSide": "Front grip or side handle",
+      "triggerAndDial": "Trigger and dial",
+      "rotaryPolisher": "Rotary polisher",
+      "metalFinishing": "Metal finishing",
+      "highCarbonSteel": "High carbon steel",
+      "yellowThermoplastic": "Yellow thermoplastic",
+      "dualCore": "Dual Core, two springs",
+      "pcAbs": "Impact resistant PC and ABS",
+      "reinforcedHook": "Reinforced connection",
+      "tapeMeasure": "Tape measure",
+      "roofLayout": "Roof layout",
+      "utilityKnife": "Utility knife",
+      "standardUtility": "Standard utility blade",
+      "replaceable": "Replaceable",
+      "threeSliderStops": "Three slider stops",
+      "secureBladeLock": "Secure blade lock",
+      "zincBody": "Zinc body",
+      "shingleCutting": "Cutting shingles",
+      "stoningHammer": "Stoning hammer",
+      "forgedToolSteel": "Drop forged tool steel",
+      "blackPainted": "Black painted head",
+      "fiberglass": "Fiberglass",
+      "stoneAndTile": "Stone and tile work",
+      "boltCutter": "Bolt cutter",
+      "forgedHardenedJaws": "Drop forged hardened jaws",
+      "adjustableJaws": "Adjustable and replaceable",
+      "polished": "Polished",
+      "compoundAction": "Compound action",
+      "tubularSteel": "Tubular steel",
+      "rebarAndWire": "Cutting rod and wire",
+      "handsaw": "Handsaw",
+      "hardenedTeeth": "Hardened teeth",
+      "universalTeeth": "Universal tooth pattern",
+      "pushAndPull": "Push and pull",
+      "hatchet": "Hatchet",
+      "fullTang": "Full tang",
+      "g10": "G10 composite",
+      "stoneWash": "Blackened stone wash",
+      "hammerFace": "Hammer face",
+      "integratedPryBar": "Integrated pry bar",
+      "kydexSheath": "Kydex sheath with belt clip",
+      "demolitionWork": "Demolition work",
+      "stepladder": "Stepladder",
+      "ansiOsha": "ANSI and OSHA",
+      "largerStep": "Twenty five percent larger",
+      "slipResistant": "Slip resistant",
+      "gussetBracing": "Gusset bracing",
+      "magnetAndSlots": "Magnet and tool slots",
+      "pailShelf": "Pail shelf",
+      "cableReel": "Cable reel",
+      "groundedShuttered": "Grounded and shuttered",
+      "highVisibility": "High visibility",
+      "cassetteReel": "Cassette reel",
+      "windingHandle": "Winding handle",
+      "overloadCutout": "Thermal overload cutout",
+      "powerSwitch": "Power switch",
+      "powerIndicator": "Power indicator",
+      "sitePower": "Temporary site power",
+      "workGloves": "Work gloves",
+      "gloveInGlove": "Glove in glove",
+      "nylonFifteen": "Fifteen gauge nylon shell",
+      "acrylicSeven": "Seven gauge acrylic liner",
+      "microFoam": "Micro foam",
+      "dippedPalm": "Three quarter dipped palm",
+      "coldWeather": "Cold weather work",
+      "fallArrestKit": "Fall arrest kit",
+      "fivePoint": "Five point harness",
+      "ropeGrab": "Rope grab with lanyard",
+      "threeQuarterSnap": "Three quarter inch snap hooks",
+      "reusableRoofAnchor": "Reusable roof anchor",
+      "fourGallonBucket": "Four gallon bucket",
+      "alloySteel": "Alloy steel",
+      "roofFallArrest": "Roof fall arrest"
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
@@ -1046,208 +1184,497 @@
       ]
     },
     "dewalt-dcs391": {
-      "title": "20V Cordless Circular Saw",
-      "titleLead": "20V Cordless",
-      "titleAccent": "Circular Saw",
-      "description": "Compact cordless circular saw for accurate cuts on decking, trim and panels, with a six and a half inch blade.",
-      "highlights": [
-        "Carbide tipped six and a half inch blade included",
-        "High speed motor above five thousand RPM",
-        "Bevels from zero to fifty degrees",
-        "Runs on the DeWalt 20V MAX battery system"
-      ]
+      "title": "Cordless Circular Sidewinder Saw",
+      "titleLead": "Cordless Circular",
+      "titleAccent": "Sidewinder Saw",
+      "description": "Sidewinder configuration circular saw combining lightweight magnesium construction with a carbide tipped blade measuring six and a half inches across.",
+      "about": [
+        "This is the sidewinder layout, which means the motor sits in line with the blade rather than behind a gearbox at right angles to it. That makes the tool shorter front to back and lighter in the hand than a worm drive, and on a roof, where you are usually cutting sheathing on your knees or trimming panel on a pair of trestles, shorter and lighter is what actually matters over a full day of work. A worm drive earns its keep framing, not up here.",
+        "DeWalt's own manual puts the no load speed at 5,150 rpm and the maximum depth of cut at 55 mm, which is the 2 1/8 in the US listings quote at 90 degrees and 1 5/8 in once the shoe is tipped over to 45. The blade is 6 1/2 in on a 5/8 in arbor and the bevel travels from zero through to 50 degrees. Bare weight without a battery is 2.9 kg, near enough 6.4 lb. Those are the figures from the manufacturer rather than from a retailer listing.",
+        "The shoe is magnesium rather than pressed steel, and that is the part of a circular saw that decides whether your cuts stay true after the tool has been dropped off a staging plank a few times. Magnesium keeps its flatness and shrugs off the knocks that would put a permanent twist in a stamped shoe, and it is lighter, which is where a good part of the weight saving comes from. A twisted shoe is a saw that never cuts straight again.",
+        "It runs on the same 20V MAX battery as the rest of the DeWalt cordless line, so on a site already carrying that platform there is nothing extra to charge or carry. A carbide tipped blade ships in the box and nothing else, since this is sold as a bare tool. DeWalt covers it with a three year limited warranty, one year of free service and ninety days of satisfaction guarantee. Batteries and the charger are bought separately."
+      ],
+      "features": {
+        "install": [
+          "Set the depth so the blade clears the stock by about a tooth and no more",
+          "Check the shoe is square to the blade before trusting a bevel scale",
+          "Support the offcut, since a cordless saw binds as readily as a corded one",
+          "Let the blade reach full speed before it touches the work",
+          "Use the guard, and never wedge the lower guard back for a plunge"
+        ],
+        "coverage": [
+          "Three year limited warranty with one year of free service",
+          "Ninety day satisfaction guarantee from the date of purchase",
+          "No load speed of 5,150 rpm on a 6 1/2 in carbide tipped blade",
+          "Cuts 2 1/8 in at ninety degrees and 1 5/8 in at forty five",
+          "Magnesium shoe holds its flatness where a stamped shoe would twist",
+          "Runs on the same 20V MAX battery as the rest of the cordless line"
+        ]
+      }
     },
     "dewalt-dwht51002": {
-      "title": "16 oz Curved Claw Hammer",
-      "titleLead": "16 oz Curved Claw",
-      "titleAccent": "Hammer",
-      "description": "One piece forged steel curved claw hammer with a magnetic nail starter and an anti slip grip, at sixteen ounces.",
-      "highlights": [
-        "One piece steel with a heat treated shaft",
-        "Magnetic nail starter for one handed placement",
-        "Anti slip grip, five times more durable",
-        "Limited lifetime warranty from DeWalt"
-      ]
+      "title": "Sixteen Ounce Steel Nailing Hammer",
+      "titleLead": "Sixteen Ounce Steel",
+      "titleAccent": "Nailing Hammer",
+      "description": "Sixteen ounce nailing hammer manufactured from a single continuous forging of steel, incorporating magnetic nail start and side puller slot.",
+      "about": [
+        "A hammer made from one piece of steel has no joint between the head and the handle, which is the place where a wooden or fiberglass hammer eventually gives up. Nothing works loose because there is nothing to work loose, and the whole shaft is heat treated rather than just the striking face. On a roof that means the tool survives being thrown into a bucket at the end of every day. A wooden handle would have split long before then.",
+        "The trade against that is vibration, because steel transmits the shock of a missed nail straight into the wrist in a way a wooden handle never does. DeWalt answer that with an anti slip grip moulded over the shaft, which takes the worst of the sting and, more usefully on a steep pitch, keeps the handle in a wet glove. The claimed balance point is set to smooth the swing. A steel hammer is a trade off and not a free upgrade.",
+        "It is a 16 oz head on an 11 3/4 in handle, which is the general carpentry size rather than a framing weight. The face is smooth and shield shaped, so it leaves no waffle mark on anything that will be seen, and the claw is curved for pulling rather than ripped straight for demolition. That combination is aimed at finish work and cabinet work as much as at a roof. A framing weight would only tire the wrist out on work like this.",
+        "Two details save time. A magnetic nail start holds a nail on the face so it can be set one handed, which matters when the other hand is holding a ladder or a course of starter strip. A side slot in the head pulls nails the curved claw cannot reach into. DeWalt cover their hand tools with a limited lifetime warranty, and no dimensional standard is published for it. Both details are on the head rather than sold as an accessory."
+      ],
+      "features": {
+        "install": [
+          "Use the magnetic start to set a nail one handed on a ladder",
+          "The side slot pulls the nails the curved claw cannot reach",
+          "Keep the smooth face for work that will be seen when finished",
+          "Sixteen ounces is a carpentry weight, not a framing weight",
+          "Never strike another hardened face, which is how steel hammers chip"
+        ],
+        "coverage": [
+          "Limited lifetime warranty on DeWalt hand tools",
+          "Forged from a single piece of steel, so there is no head to work loose",
+          "The shaft is heat treated along its length, not only at the face",
+          "Anti slip grip takes the sting out and holds in a wet glove",
+          "Smooth shield shaped face leaves no mark on finished work",
+          "No dimensional standard is published for the hammer"
+        ]
+      }
     },
     "dewalt-dcm849": {
-      "title": "20V Cordless Rotary Polisher",
-      "titleLead": "20V Cordless Rotary",
-      "titleAccent": "Polisher",
-      "description": "Variable speed cordless polisher for finishing and buffing metal roofing and trim, from eight hundred to twenty two hundred revolutions.",
-      "highlights": [
-        "Brushless motor for efficient runtime",
-        "Variable speed trigger for full control",
-        "Rubber overmold protects surfaces and improves grip",
-        "Hold by the front grip or the side handle"
-      ]
+      "title": "Brushless Cordless Rotary Polisher",
+      "titleLead": "Brushless Cordless",
+      "titleAccent": "Rotary Polisher",
+      "description": "Brushless cordless rotary polisher carrying a seven inch backing plate, variable continuously between eight hundred and twenty two hundred revolutions.",
+      "about": [
+        "On a metal roof the polisher is a finishing tool rather than a cleaning one. Standing seam and stone coated panels arrive with a factory finish that no site process improves, but coping, flashing and fabricated trim get cut, handled and scratched, and a rotary with the right pad is how those marks are taken back before the piece goes up where everyone can see it. Nobody polishes a factory finish; they polish what the site did to it.",
+        "The pad is 7 in on a 5/8 in by 11 spindle, which is the common thread across backing plates and compounds, so pads are not tied to this tool. Speed runs from 800 to 2,200 rpm and it is variable two ways: on the trigger for feathering into a start, and on a dial for setting a ceiling so the trigger cannot run away with a compound that burns at speed. That independence from the tool itself is worth a good deal more than it sounds.",
+        "Low speed is what most of this work needs. A polisher held at full speed on a painted panel will burn the coating through before it ever polishes it, and the dial is what stops an unfamiliar hand from doing that. The rubber overmold on the gear case is there for grip, and it also takes the edge off the marks the tool leaves when it is set down on finished metal. Burned paint on a visible trim piece is a piece you end up buying twice.",
+        "It can be held by the front grip or by a side handle, so the same tool works flat on a bench and up on edge against a length of coping. The motor is brushless and it runs on the 20V MAX battery shared across the DeWalt line. Bare weight and the contents of the bare tool carton are not published, so neither figure is stated here. Batteries and a charger are bought separately, as with every bare tool in the DeWalt cordless line."
+      ],
+      "features": {
+        "install": [
+          "Set the dial to cap the speed before pulling the trigger on coated metal",
+          "Start slow and feather in, since a rotary marks the moment it bites",
+          "Keep the pad flat, because an edge held down burns a coating fast",
+          "Use the side handle for edge work and the front grip on a bench",
+          "Match the pad and compound to the finish rather than to the tool"
+        ],
+        "coverage": [
+          "Three year limited warranty from DeWalt",
+          "Variable 800 to 2,200 rpm, set on both the trigger and a dial",
+          "Seven inch pad on a 5/8 in by 11 spindle, the common backing plate thread",
+          "Brushless motor on the shared 20V MAX battery platform",
+          "Rubber overmold on the gear case for grip and for setting it down",
+          "No bare weight or carton contents are published for the tool"
+        ]
+      }
     },
     "dewalt-dcn681": {
-      "title": "20V Cordless Stapler",
-      "titleLead": "20V Cordless",
-      "titleAccent": "Stapler",
-      "description": "Battery powered 18 gauge narrow crown stapler for cabinetry, paneling and underlayment, with no hose and no compressor to drag.",
-      "highlights": [
-        "Brushless motor maximizes runtime and durability",
-        "Tool free depth adjustment for precise countersinking",
-        "LED lights for illumination and diagnostics",
-        "Bottom load magazine makes jams easy to clear"
-      ]
+      "title": "Cordless Brushless Stapler 18 Gauge",
+      "titleLead": "Cordless Brushless",
+      "titleAccent": "Stapler 18 Gauge",
+      "description": "Brushless cordless stapler driving eighteen gauge narrow crown staples, with selectable sequential or contact actuation and tool free depth adjustment.",
+      "about": [
+        "Synthetic underlayment goes down faster with a stapler than with cap nails, and on a deck that is already dry a narrow crown staple holds the sheet flat without the head of a cap fastener standing proud under the shingle above it. This is the cordless version of that job, so there is no compressor idling on the drive and no hose snaking up the ladder behind you all morning. Nothing sits idling on the drive while you work.",
+        "It drives 18 gauge staples with a 1/4 in narrow crown, in leg lengths from 1/2 in up to 1 1/2 in, and the magazine holds 100 of them. The motor is brushless, which on a fastening tool matters less for runtime than for the consistency of the drive: the last staple in a magazine sets to the same depth as the first, rather than tailing off as the battery sags toward the end of its charge. That consistency is the real argument for brushless here.",
+        "Two of the controls are worth knowing before the tool leaves the van. The trigger is selectable without any tool between sequential mode, where you place the nose then pull, and contact mode, where you hold the trigger and bump along a run. Depth is also adjusted by hand, so a staple can be set flush on soft sheathing and driven harder into something dense. Both settings change without opening a case or hunting for a key.",
+        "A low staple lockout stops the tool firing once the magazine runs low, which protects the driver blade from the dry firing that destroys a nailer faster than anything else on a job. It is a bare tool on the same 20V MAX battery as the rest of the line, it weighs 5.7 lb, and DeWalt covers it with a three year limited warranty. Batteries and a charger are sold separately, as with every bare tool in the DeWalt cordless line."
+      ],
+      "features": {
+        "install": [
+          "Use 18 gauge staples with a 1/4 in crown, from 1/2 in up to 1 1/2 in",
+          "Pick sequential mode for placement and contact mode for a long run",
+          "Set the depth by hand so the crown sits flush and never cuts the sheet",
+          "Follow the underlayment maker's fastening pattern, not the tool's speed",
+          "Stop when the lockout engages rather than working the trigger harder"
+        ],
+        "coverage": [
+          "Three year limited warranty from DeWalt",
+          "Magazine holds 100 staples with a low staple lockout against dry firing",
+          "Brushless motor keeps the last staple driving as deep as the first",
+          "Trigger switches between sequential and contact without any tool",
+          "Depth adjusts by hand for soft sheathing or for dense material",
+          "Runs on the same 20V MAX battery as the rest of the cordless line"
+        ]
+      }
     },
     "tolsen-25012": {
-      "title": "Fiberglass Stoning Hammer",
-      "titleLead": "Fiberglass Stoning",
-      "titleAccent": "Hammer",
-      "description": "Fifteen hundred gram stoning hammer with a fiberglass handle for demolition, chisel work and breaking out old masonry on site.",
-      "highlights": [
-        "Fifteen hundred gram heat treated head",
-        "Black painted finish on the head",
-        "Fiberglass handle",
-        "Suited to demolition and chisel work"
-      ]
+      "title": "Fiberglass Handle Stoning Hammer",
+      "titleLead": "Fiberglass Handle",
+      "titleAccent": "Stoning Hammer",
+      "description": "Professional stoning hammer combining a 1,500 gram drop forged head with a fiberglass reinforced handle, totalling 1.68 kilograms once assembled.",
+      "about": [
+        "A stoning hammer is not a framing hammer with a different name. It has no claw and it is not meant to drive nails; it is a mass on a stick, used to dress stone, to seat a concrete tile onto its batten and to break the piece that has to come off before the new one goes on. On a tiled or slated roof that is a daily job, and a claw hammer does it badly and marks everything it touches. The right tool for stone has always been a blunt one.",
+        "The head weighs 1,500 g and the whole tool 1.68 kg, so roughly nine tenths of what you are swinging is head. That ratio is the point of the design: the energy goes into the stone rather than into the arm that moved it, and a lighter handle lets the same worker keep swinging for longer. Overall the tool measures 295 by 45 by 110 mm, which is short enough to work close in against a wall. Nine tenths in the head is what a dressing hammer is for.",
+        "The head is drop forged from special tool steel and then heat treated, which is what stops it mushrooming over its own edges after a season of hitting masonry. Forging aligns the grain of the steel around the shape instead of cutting through it, and that is the difference between a head that wears and a head that cracks. The black paint is there to keep rust off it between jobs. A cracked head is the one failure that cannot be filed out.",
+        "The handle is fiberglass rather than wood, so it does not swell in the wet, dry out in a truck or split at the eye the way an ash handle eventually will. Tolsen publish no grip specification, no striking face dimension, no warranty term and no conformity standard for this hammer, so none of those four is claimed here and each appears in the table as unpublished. Wood is still the traditional choice, and it is still the part that fails first."
+      ],
+      "features": {
+        "install": [
+          "Dress and seat stone or tile with it, and leave nails to a claw hammer",
+          "Let the head do the work rather than forcing the swing from the shoulder",
+          "Keep the striking face clean, since grit between face and stone chips both",
+          "Check the head to handle joint before every roof, as with any struck tool",
+          "Wear eye protection, because dressing stone throws chips at head height"
+        ],
+        "coverage": [
+          "A 1,500 g head on a 1.68 kg tool, so most of the mass is in the head",
+          "Drop forged from special tool steel and then heat treated",
+          "Black painted head that keeps rust off between jobs",
+          "Fiberglass handle that will not swell, dry out or split at the eye",
+          "Overall 295 by 45 by 110 mm, short enough to work close to a wall",
+          "No grip, face, warranty or standard is published by Tolsen"
+        ]
+      }
     },
     "tolsen-10243": {
-      "title": "18 Inch Bolt Cutter",
-      "titleLead": "18 Inch",
+      "title": "Eighteen Inch Compound Bolt Cutter",
+      "titleLead": "Eighteen Inch Compound",
       "titleAccent": "Bolt Cutter",
-      "description": "Carbon steel bolt cutter with a polished blade and rubberized handles for rods and wire, cutting up to seven millimeters.",
-      "highlights": [
-        "Carbon steel blade with a polished finish",
-        "Eighteen inch overall length",
-        "Cuts material up to seven millimeters",
-        "Rubberized handles"
-      ]
+      "description": "Eighteen inch compound bolt cutter carrying drop forged hardened jaws, adjustable and replaceable, between tubular steel handles with cushioned grips.",
+      "about": [
+        "Roofing generates more things that need cutting off than most trades admit. Anchor straps, banding round a pallet of tile, the padlock nobody has a key for, threaded rod left long through a purlin, snow guard wire, the odd bit of rebar in a parapet. A saw does all of it eventually and a grinder does it with sparks on a roof, which is the one thing nobody wants near felt. A cutter is the tool that does all of it cold and quietly.",
+        "This cutter is 450 mm long, which is the short end of the range and deliberately so. Full length bolt cutters are four feet of leverage that will not fit in a bag, will not swing in a loft and cannot be worked one handed on a ladder. Eighteen inches goes in the van, gets carried up, and still cuts what a roof actually presents rather than what a demolition site does. A tool that stays in the van is a tool that cuts nothing at all.",
+        "The leverage comes from a compound linkage instead of raw handle length. Two pivots in series multiply the hand force twice over, so a short tool closes jaws that a single pivot of the same size could never move. It is the same trick a compound lopper uses on green wood, and it is why the length of the handles stops being the only thing that decides what will cut. Leverage bought with geometry costs nothing in length or in weight.",
+        "The jaws are drop forged from high carbon steel, hardened, polished, and both adjustable and replaceable, so the pair can be reset as they wear rather than the tool being thrown out with them. The handles are tubular steel with cushioned non slip grips. Tolsen publish no cutting capacity, no weight and no warranty term for it, so none of the three is stated here. A pair of jaws that can be reset is what gives the tool a second life."
+      ],
+      "features": {
+        "install": [
+          "Cut soft rod and wire with it, and leave hardened stock to a saw",
+          "Set the jaws square to the work so both edges land at once",
+          "Adjust the jaws as they wear instead of living with a widening gap",
+          "Take the last inch of handle for the leverage the compound linkage adds",
+          "Keep it off a wet roof overnight, since polished steel is not stainless"
+        ],
+        "coverage": [
+          "Compound linkage that multiplies hand force through two pivots",
+          "Four hundred and fifty millimetres, short enough to carry up a ladder",
+          "Drop forged high carbon steel jaws, hardened and polished",
+          "Jaws that are both adjustable for wear and replaceable",
+          "Tubular steel handles with cushioned non slip grips",
+          "No cutting capacity, weight or warranty term is published by Tolsen"
+        ]
+      }
     },
     "supatool-20in": {
-      "title": "20 Inch Hand Saw",
-      "titleLead": "20 Inch",
-      "titleAccent": "Hand Saw",
-      "description": "Hardened tooth hand saw for quick cuts on lumber, decking and trim, twenty inches long at seven teeth per inch.",
-      "highlights": [
-        "Universal seven TPI teeth for wet or dry timber",
-        "Cuts on both the push and pull strokes",
-        "Hardened, heat treated blade",
-        "Two year guarantee"
-      ]
+      "title": "Hardened Blade Carpentry Handsaw",
+      "titleLead": "Hardened Blade",
+      "titleAccent": "Carpentry Handsaw",
+      "description": "Professional twenty inch carpentry handsaw carrying hardened heat treated universal teeth at seven points per inch, cutting in both directions.",
+      "about": [
+        "There is a stubborn assumption that a circular saw has retired the handsaw, and anyone who has cut one sheet of decking in the rain knows better. A handsaw needs no battery, no cord and no guard check, it starts the moment it touches the wood, and it is the only saw that can be worked lying across a rafter bay with one arm through the framing to reach the cut. It is also the only one that never runs out of charge halfway up a slope.",
+        "The blade is 500 mm, twenty inches, at seven points to the inch. That tooth count is the compromise the whole tool is built around: coarse enough that it clears sawdust and moves through a deck board without binding, fine enough that it leaves an edge worth nailing to rather than the torn exit a four point rip saw gives on plywood and thin sheathing. Seven points is the count most site carpentry settles on, and for good reason.",
+        "The teeth are hardened and the blade heat treated, which is the modern trade off. A hardened tooth holds an edge far longer than an untreated one and survives the grit, nails and old felt that a roof puts in front of it, but it is too hard to be reset with a file, so the saw is used until it is done and then replaced rather than being sharpened. It is a saw that gets used up rather than maintained, and for the price that is a fair trade.",
+        "The tooth pattern is universal, meaning it cuts on the push and on the pull rather than only on one stroke. On a bench that is a convenience; overhead, working into a bay or under a low rafter where the return stroke is all the room there is, it is the difference between cutting and not. Supatool publish no blade material, handle material or weight for it. Neither figure changes how the saw cuts, but neither is invented here either."
+      ],
+      "features": {
+        "install": [
+          "Start the cut on the pull stroke with a thumb guiding the blade",
+          "Let the whole 20 in of blade work instead of sawing with the middle",
+          "Keep the saw out of old nails, because a hardened tooth chips rather than bends",
+          "Support the offcut so the board does not split at the last inch",
+          "Replace the blade rather than trying to file a hardened tooth back"
+        ],
+        "coverage": [
+          "Two year warranty",
+          "Twenty inch, 500 mm blade at seven points to the inch",
+          "Hardened teeth on a heat treated blade",
+          "Universal tooth pattern cutting on both push and pull strokes",
+          "Tooth count chosen for decking and sheathing rather than fine joinery",
+          "No blade material, handle material or weight is published by Supatool"
+        ]
+      }
     },
     "qualcraft-2560p": {
-      "title": "Roof Tear Off Shovel",
-      "titleLead": "Roof Tear Off",
-      "titleAccent": "Shovel",
-      "description": "Serrated tear off shovel that lifts shingles and nails fast on strip outs, on a long fifty four inch handle.",
-      "highlights": [
-        "Fifty four inch all steel construction",
-        "Angled blade with a built in nail puller",
-        "Pulls nails up to 16d",
-        "Heat tempered working edge"
-      ]
+      "title": "Shingle Tear Off Demolition Shovel",
+      "titleLead": "Shingle Tear Off",
+      "titleAccent": "Demolition Shovel",
+      "description": "Fifty four inch shingle demolition shovel incorporating a heat tempered steel head, ten working teeth and ergonomically offset steel handle.",
+      "about": [
+        "Tearing a roof off is the part of the job nobody photographs, and it is also the part that decides how the day goes. A flat spade lifts shingles and leaves every nail behind; a proper tear off shovel lifts the shingle and the nail together in one movement, and the difference across a whole roof is measured in hours rather than in minutes of saved effort. The tool pays for itself on the very first roof that you strip with it.",
+        "The head is all steel, 9 3/4 x 10 1/2 in, with ten teeth along the working edge and that edge heat tempered so it keeps its bite through nails and grit instead of rolling over after the first slope. Those teeth are what straddle a nail head and let the shaft do the pulling, and the head will draw nails up to 16D, which covers anything holding a shingle down. An edge that has rolled over is a shovel that has stopped working.",
+        "The handle is the part that is easy to overlook. It is steel rather than wood or fiberglass, 22 1/2 in of it, and it is offset rather than straight. That offset is what puts the fulcrum under the load so the lift comes from the shovel and not from your back, and it is the reason a tear off shovel is worth carrying separately from an ordinary spade. A straight handle puts that same load straight through your lower back instead.",
+        "Overall the tool measures 54 in, which is long enough to work standing upright on a shallow pitch. A vinyl grip covers the top of the shaft. Qualcraft build it for fiberglass and asphalt shingle work specifically. No weight figure and no warranty term are published for the tool, so both are left unstated here rather than guessed at. Anything else published about it comes from a retailer rather than from Qualcraft itself."
+      ],
+      "features": {
+        "install": [
+          "Drive the teeth under the shingle so they straddle the nail head",
+          "Let the offset handle do the lifting rather than your back",
+          "Work up the slope so gravity takes the debris away from you",
+          "Pulls nails up to 16D, which covers anything holding a shingle",
+          "Clear the deck of nails before any underlayment goes back down"
+        ],
+        "coverage": [
+          "All steel construction with a heat tempered working edge",
+          "Ten teeth along a 9 3/4 x 10 1/2 in head",
+          "Offset 22 1/2 in steel handle puts the fulcrum under the load",
+          "Fifty four inches overall, long enough to work standing up",
+          "Built by Qualcraft for fiberglass and asphalt shingle tear off",
+          "No weight figure or warranty term is published for the tool"
+        ]
+      }
     },
     "dewalt-dcpr320": {
-      "title": "20V Cordless Pruner",
-      "titleLead": "20V Cordless",
-      "titleAccent": "Pruner",
-      "description": "Battery powered pruner making clean, effortless cuts on branches up to an inch and a half thick, weighing three pounds.",
-      "highlights": [
-        "Up to one thousand one hundred cuts per charge",
-        "Sixteen times less effort than a manual pruner",
-        "Onboard LED lights up dark spots",
-        "Non stick blades change with the included tool"
-      ]
+      "title": "Cordless Battery Powered Pruner",
+      "titleLead": "Cordless Battery",
+      "titleAccent": "Powered Pruner",
+      "description": "Cordless pruning shears engineered to sever branches approaching one and a half inches, delivering approximately eleven hundred cuts per charge.",
+      "about": [
+        "The reason a pruner belongs in a roofing catalogue has nothing to do with gardening. Branches that overhang a roof drop leaves into the valleys, hold moisture against the shingles and give squirrels a bridge onto the deck, and the cure is cutting them back rather than cleaning the roof twice a year forever. This is the tool that does that from a ladder with one hand free. A branch left where it is will put the same leaves back down next autumn.",
+        "It severs stems and shrubs up to 1 1/2 in, and DeWalt quote around 1,100 cuts from a single charge, which is far more than a day of trimming back around a house will ever ask of it. The tool weighs 3 lb bare. DeWalt also claim it takes roughly sixteen times less effort on average than a manual pruner, which is the point when a hundred cuts are in front of you. Three pounds is light enough to hold out at arm reach for a while.",
+        "The blades carry a non stick coating, which matters more than it sounds on green wood, because sap is what gums a pruner until the cut stops being clean and starts crushing the stem instead. A blade change tool ships with it, so a dulled blade is replaced on the job rather than sharpened badly or left to tear through everything for the rest of the week. Sap is what turns a clean cut into a crushed one over a single afternoon.",
+        "An onboard LED lights the cut, which sounds like a gimmick until you are reaching into the shaded side of a hedge against a wall. It runs on the same 20V MAX battery as the rest of the DeWalt line and comes as a bare tool. Motor type, blade speed and any cutting standard are not published for it, so none of the three is stated here. Batteries and a charger are bought separately, as with every bare tool in the DeWalt cordless line."
+      ],
+      "features": {
+        "install": [
+          "Cut branches of up to 1 1/2 in and no more, or the blade will stall",
+          "Keep one hand for the ladder, which is the whole point of a one handed tool",
+          "Clean sap off the coated blade rather than letting it build up",
+          "Swap a dull blade with the tool supplied instead of trying to sharpen it",
+          "Cut back anything that overhangs a valley before it drops another autumn"
+        ],
+        "coverage": [
+          "Three year limited warranty from DeWalt",
+          "Rated for stems up to 1 1/2 in, at around 1,100 cuts per charge",
+          "Non stick coated blades that resist gumming up with sap",
+          "A blade change tool is supplied so blades are replaced rather than sharpened",
+          "An onboard LED lights the cut in shade or under a soffit",
+          "No motor type, blade speed or cutting standard is published for it"
+        ]
+      }
     },
     "dewalt-dwht36225": {
-      "title": "25 ft Tape Measure",
-      "titleLead": "25 ft",
-      "titleAccent": "Tape Measure",
-      "description": "Rugged 25 foot tape measure with a long standout blade and durable impact housing, holding thirteen feet of blade unsupported.",
-      "highlights": [
-        "Thirteen feet of straight blade standout",
-        "Nine inches of coating near the hook",
-        "Still usable after a sixty foot drop",
-        "Integrated lock protection when dropped"
-      ]
+      "title": "Twenty Five Foot Measuring Tape",
+      "titleLead": "Twenty Five Foot",
+      "titleAccent": "Measuring Tape",
+      "description": "Twenty five foot tape measure delivering thirteen feet of unsupported standout, inside impact resistant housing withstanding a sixty foot drop.",
+      "about": [
+        "Standout is the figure that matters on a roof and it is the one most people never look at. It is how far the blade will reach out unsupported before it folds, and at 13 ft this tape will cross a rafter bay, run up a slope or reach the far side of a chimney without a second person holding the end. On the ground that is convenience; on a pitch it is safety. Most tapes give up somewhere around eight or nine feet of unsupported reach.",
+        "The blade is 25 ft long and 1 1/4 in wide in high carbon steel, coated in yellow thermoplastic. The last 9 in carry a heavier coat, because the end of a blade is where the wear happens: it is dragged over shingles, snapped back a hundred times a day and bent around the hook. That heavier section is what postpones the break that eventually retires every tape. That section is what decides how long the whole tape lasts in a bag.",
+        "Inside the case is Dual Core, a patented arrangement of two retracting springs instead of one. Two smaller springs fit a shorter case than one long one, which is why a tape of this reach is not the brick it would otherwise be, and it also spreads the work so neither spring is doing the whole job every time the blade goes back in. It is also the reason the case is shorter than a tape of this reach would otherwise need to be.",
+        "The case is an impact resistant blend of polycarbonate and ABS that DeWalt rate for a 60 ft drop, which is the number that speaks to where this tape is expected to be used. The hook connection is reinforced against the tearing that kills a blade at the rivets. DeWalt cover their hand tools with a limited lifetime warranty. Sixty feet describes a roof rather than a workshop bench, which tells you where DeWalt expect this tape to spend its life."
+      ],
+      "features": {
+        "install": [
+          "Use the 13 ft standout to cross a bay rather than asking for a second pair of hands",
+          "Let the blade retract under control instead of snapping it back every time",
+          "Keep the heavier coated last 9 in for the dragging, which is what it is for",
+          "Hook over a rake edge and read down the slope rather than measuring flat",
+          "Check the hook rivets now and then, since that is where a blade tears"
+        ],
+        "coverage": [
+          "Limited lifetime warranty on DeWalt hand tools",
+          "Thirteen feet of standout on a 25 ft by 1 1/4 in blade",
+          "High carbon steel blade under a yellow thermoplastic coating",
+          "Nine inches of heavier coating at the end, where the wear happens",
+          "Dual Core two spring system in a shorter, impact resistant case",
+          "Case rated by DeWalt for a sixty foot drop"
+        ]
+      }
     },
     "dewalt-dccs620": {
-      "title": "20V 12 Inch Chainsaw",
-      "titleLead": "20V 12 Inch",
-      "titleAccent": "Chainsaw",
-      "description": "Cordless 12 inch chainsaw for fast limbing and cleanup around the job site, at nine pounds with the battery in.",
-      "highlights": [
-        "Nine pounds with the battery fitted",
-        "Brushless motor for longer runtime",
-        "Low kickback Oregon bar and chain",
-        "Tool free chain tensioning and bar knob"
-      ]
+      "title": "Compact Cordless Brushless Chainsaw",
+      "titleLead": "Compact Cordless",
+      "titleAccent": "Brushless Chainsaw",
+      "description": "Compact brushless chainsaw carrying a twelve inch Oregon guide bar, with automatic chain oiling and completely tool free tensioning adjustment.",
+      "about": [
+        "A chainsaw is not a roofing tool until the day a limb comes down across the ridge, or until the tree that has been dropping needles into the valley for ten years finally has to be cut back from the eaves. That is the job this size is built for: short cuts, awkward angles, and nothing like the felling work that would justify carrying a petrol saw up a ladder. Nobody buys this saw to fell a tree, and that is the point of it.",
+        "The bar is 12 in of Oregon, running a chain of 3/8 in pitch on a 0.043 in gauge at 25.2 feet per second. It is a low kickback chain, which on a saw that will be used occasionally rather than daily is the right choice, because kickback is what catches out the operator who has not held a saw in six months. Bare weight is 7.8 lb, about 9 lb once a battery is on it. An occasional user is exactly who a low kickback chain protects.",
+        "Two of the conveniences are worth the money on an occasional tool. Tensioning is tool free, so the chain is adjusted by hand with a knob rather than by hunting for a scrench that went missing two jobs ago. Oiling is automatic, which removes the other classic failure of the occasional user, running a dry chain until the bar is blued and the chain is ruined. Both of those failures end up costing a good deal more than the saw itself.",
+        "The motor is brushless, which matters more for a battery tool than for a corded one because every watt not lost to brush friction is runtime you did not have to charge. It runs on the same 20V MAX battery as the rest of the DeWalt line and ships bare. DeWalt covers it with a three year limited warranty on the same terms as their other cordless tools. Batteries and a charger are bought separately, as with every bare tool."
+      ],
+      "features": {
+        "install": [
+          "Check the chain tension by hand before every start, using the knob",
+          "Keep the bar oiled, but confirm the reservoir rather than trusting it",
+          "Never cut above shoulder height or from a ladder, which is how saws bite",
+          "Use the low kickback chain it ships with rather than a more aggressive one",
+          "Clear the cut of debris so the chain never touches the deck or a fastener"
+        ],
+        "coverage": [
+          "Three year limited warranty from DeWalt",
+          "Twelve inch Oregon bar with a 3/8 in pitch, 0.043 in gauge chain",
+          "Chain speed of 25.2 feet per second from a brushless motor",
+          "Tool free tensioning, adjusted by hand rather than with a scrench",
+          "Automatic oiling, which is what saves an occasionally used chain",
+          "Runs on the same 20V MAX battery as the rest of the cordless line"
+        ]
+      }
     },
     "hxoutdoors-ft16c": {
-      "title": "Tactical Camp Axe",
-      "titleLead": "Tactical Camp",
-      "titleAccent": "Axe",
-      "description": "Compact tactical axe with a full tang blade and molded sheath for chopping and splitting, forged from 420 stainless steel.",
-      "highlights": [
-        "Full tang build through to the pry bar",
-        "Hammer face and nail puller built in",
-        "G10 handle that stands up to moisture",
-        "Kydex sheath included"
-      ]
+      "title": "Full Tang Tactical Camping Hatchet",
+      "titleLead": "Full Tang Tactical",
+      "titleAccent": "Camping Hatchet",
+      "description": "Full tang tactical camping hatchet stretching twelve point eight inches overall, forged from 420 stainless hardened to fifty eight Rockwell.",
+      "about": [
+        "A hatchet earns its place on a roof through the three jobs at the back of it rather than the one at the front. It splits a batten to length, it drives a stake into sheathing for a rope, it pulls the nail nobody can reach with a bar, and it breaks apart what the tear off shovel has already lifted. The chopping edge is almost the least of what it does across a working day. Most of that is work that a shovel or a pry bar does badly.",
+        "It runs 12.83 in overall on a 3.74 in edge, which is short for an axe and long for a knife, and that is the span where a tool can still be swung one handed from a ladder. Bare it weighs 711 g. Anything heavier stops being a tool you carry up and becomes one you fetch, and a tool that has to be fetched is a tool that sits in the van all day. Weight is the quiet reason good tools stay in the van, and this one is under two pounds of it.",
+        "The steel is 420 hardened to 58 HRC, which is harder than a general purpose stainless and a deliberate choice for an edge that meets nails, grit and old shingle rather than clean wood. The blade is full tang, so the steel runs unbroken from edge to pommel and the handle scales are bolted to it. A hidden tang is where a hatchet breaks, and this one has no hidden tang to break. Hidden tangs are why cheap hatchets fail at the handle.",
+        "The scales are G10 composite in a blackened stone wash, which does not swell, rot or lose grip when wet, and the poll is finished as a hammer face with a pry bar and nail slot cut into the tail. It ships in a Kydex sheath with a belt clip. HX Outdoors publish no warranty term for it, so no warranty is stated here and the table records it as unpublished. Everything the maker does not state is left blank here rather than filled in by guesswork."
+      ],
+      "features": {
+        "install": [
+          "Split battens and break up lifted shingle, and leave framing to a saw",
+          "Use the poll as a hammer face rather than swinging the edge at a stake",
+          "Pull nails with the tail slot instead of levering on the cutting edge",
+          "Keep it sheathed on the way up and down, since the clip is there for that",
+          "Dry it before it goes back in the Kydex, because damp under a sheath rusts"
+        ],
+        "coverage": [
+          "Twelve point eight inches overall on a 3.74 in cutting edge",
+          "420 stainless hardened to 58 HRC for grit, nails and old shingle",
+          "Full tang construction with bolted G10 composite scales",
+          "Hammer face on the poll and a pry bar with a nail slot at the tail",
+          "Seven hundred and eleven grams, light enough to carry up a ladder",
+          "Supplied in a Kydex sheath with a belt clip; no warranty is published"
+        ]
+      }
     },
     "dewalt-dwht10998": {
-      "title": "Retractable Utility Knife",
-      "titleLead": "Retractable Utility",
-      "titleAccent": "Knife",
-      "description": "Retractable utility knife that keeps five spare blades in the handle, for clean and fast cuts up on the roof.",
-      "highlights": [
-        "Stores up to five spare blades in the handle",
-        "Rapid load blade changes",
-        "Retractable blade",
-        "Two blades included"
-      ]
+      "title": "Retractable Blade Cutting Knife",
+      "titleLead": "Retractable Blade",
+      "titleAccent": "Cutting Knife",
+      "description": "Retractable utility knife storing five replacement blades internally, with three positive slider stops governing exactly how much edge stays exposed.",
+      "about": [
+        "A utility knife is the tool a roofer picks up more often than anything else, and it is also the one most often found with a dull blade still in it. Shingle granules blunt an edge in minutes, synthetic underlayment blunts it faster, and a blunt blade tears where it ought to slice. The cure was never a better blade; it is having the next one already inside the handle instead of in a box on the truck. That is the whole argument for this one.",
+        "This knife carries five replacement blades in the body, which sounds trivial until you count the trips back down a ladder that it saves across a week of work. The change is made without a tool, so it happens where the cutting is rather than at the tailgate, and a blade that swaps in ten seconds gets swapped the moment it dulls rather than being pushed through another two squares of roof. Five blades is the better part of a working week.",
+        "The slider has three positive stops, so the exposed edge is set to the material in front of it rather than left wherever it happened to land. A short setting scores a shingle without ever reaching the underlayment beneath it, while the full setting cuts felt and wrap in a single pass. The blade lock holds that setting under load, which is what stops an edge creeping back mid cut. A cut that wanders into the felt below is a repair, not a cut.",
+        "The body is zinc, which is why it survives the drop off a roof and the boot that lands on it afterwards, and it takes the standard utility blade that every supplier on the job already stocks by the hundred. DeWalt cover their hand tools with a limited lifetime warranty. Bare weight, closed length and the contents of the carton are not published, so none of the three is stated here. None of those three figures changes how the knife is used."
+      ],
+      "features": {
+        "install": [
+          "Set the slider stop to the material instead of working at full exposure",
+          "Score shingles at the short setting so the blade never reaches the underlayment",
+          "Change the blade the moment it drags rather than finishing the course with it",
+          "Keep the five spare blades in the body so the change happens on the roof",
+          "Retract the blade before it goes into a pouch or a pocket, every time"
+        ],
+        "coverage": [
+          "Limited lifetime warranty on DeWalt hand tools",
+          "Five replacement blades stored inside the body of the knife",
+          "Tool free blade changes made on the roof rather than at the truck",
+          "Three positive slider stops that set the exposed cutting edge",
+          "A blade lock that holds the setting under load",
+          "No bare weight, closed length or carton contents are published"
+        ]
+      }
     },
     "dewalt-dxst11000": {
-      "title": "Aluminum Step Ladder",
-      "titleLead": "Aluminum Step",
-      "titleAccent": "Ladder",
-      "description": "Four foot aluminum step ladder rated Type IA for three hundred pounds, built to the ANSI standard for jobsite use.",
-      "highlights": [
-        "Top with a magnet and tool slots",
-        "Pail shelf closes automatically",
-        "Slip resistant aluminum shoes",
-        "Steps give twenty five percent more standing surface"
-      ]
+      "title": "Four Foot Aluminum Stepladder Type IA",
+      "titleLead": "Four Foot Aluminum",
+      "titleAccent": "Stepladder Type IA",
+      "description": "Four foot aluminum stepladder rated Type IA for three hundred pounds, incorporating gusseted bracing, pail shelf and slip resistant footings.",
+      "about": [
+        "Duty rating is the only number on a ladder that matters, and it is the one people read last. Type IA means 300 lb, and that figure is not the worker: it is the worker, the boots, the belt, the tools in it and whatever is being carried up. A hundred and eighty pound roofer with a bundle on one shoulder is already most of the way there, which is why a lighter rating is a false economy. The rating covers everything that leaves the ground with you.",
+        "At four feet this is a working height ladder rather than an access one. It is what gets a soffit, a gutter return, a low eave, a garage rake or a chimney flashing within reach without dragging an extension around the house. Four feet also fits in a van without folding seats down, which decides more often than anyone admits which ladder actually arrives at the job. The ladder that actually arrives at the house is the one that does the work.",
+        "The rails are aluminum with gusset bracing, which is the detail that keeps a stepladder from racking sideways as it ages. A ladder that flexes when you shift weight is not yet unsafe, but it is on the way, and bracing is what postpones that. The feet are slip resistant, and the step surface is a quarter larger than the standard, which is felt over a full day. Bracing is most of what you are paying for when two ladders look identical.",
+        "The top is set up to work from rather than stand on: a magnet holds fasteners and the slots take a driver or a bar, so neither goes in a pocket nor off the edge. There is a pail shelf below it. The ladder meets both ANSI and OSHA requirements. DeWalt publish no weight and no warranty term for this model, so neither figure is stated anywhere here. Neither absence changes how the ladder is used, and neither is guessed at here."
+      ],
+      "features": {
+        "install": [
+          "Count the tools and the load against the 300 lb rating, not just the body",
+          "Open it fully and lock the spreaders before any weight goes on a step",
+          "Set all four feet on firm ground rather than levelling with a shim",
+          "Work from the steps and leave the top cap for the magnet and the tools",
+          "Check the gussets for play, since racking is the first sign of a tired ladder"
+        ],
+        "coverage": [
+          "Type IA duty rating, 300 lb including worker, tools and load",
+          "Four foot working height that reaches soffits, returns and low eaves",
+          "Aluminum rails with gusset bracing against sideways racking",
+          "Step surface a quarter larger than standard, and slip resistant feet",
+          "Magnet and tool slots on the top cap, with a pail shelf below",
+          "Meets both ANSI and OSHA requirements for stepladders"
+        ]
+      }
     },
     "masterplug-ose15104g": {
-      "title": "Extension Cord Reel",
-      "titleLead": "Extension Cord",
-      "titleAccent": "Reel",
-      "description": "Cassette cord reel with four grounded outlets, a power switch and overload breaker, on a full thirty feet of cable.",
-      "highlights": [
-        "Thirty feet of high visibility cord",
-        "Four shuttered grounded outlets",
-        "Overload circuit breaker and power switch",
-        "Winding handle stores the cord inside"
-      ]
+      "title": "Thirty Foot Cable Cassette Reel",
+      "titleLead": "Thirty Foot Cable",
+      "titleAccent": "Cassette Reel",
+      "description": "Thirty foot cassette reel carrying sixteen gauge cable to four shuttered grounded outlets, protected by an integrated thermal overload cutout.",
+      "about": [
+        "The failure that puts a cable reel in a roofing catalogue is not electrical. It is thirty feet of cord lying across a roof, over a ladder rung, round a bundle and through the one place someone has to walk. A reel is how that same thirty feet leaves the ground as a wound drum, pays out only what the job needs, and goes back the same way at the end of the day. A cord across the ground is a trip hazard, and a cord across a roof is worse.",
+        "This one is a cassette rather than a drum on a frame, so it lies flat, hangs on a hook and takes up a fraction of the room in a van. There is a winding handle for the recovery, which sounds obvious until you have wound thirty feet in by hand. The cord is high visibility, which is the cheapest safety feature ever invented and the one most often left out. Space in a van is the constraint that nobody ever writes into a specification.",
+        "The cable is 16 AWG rated at 10 A across four grounded outlets, all of them shuttered. Shutters matter more outdoors than in: an open socket on a roof collects grit, rain and roofing granules, and the shutter is what keeps all three out of the contacts. A power switch cuts the whole reel at once rather than leaving four live outlets in the weather. Contacts that stay clean are the contacts still working at the end of a winter.",
+        "A thermal overload cutout sits in the reel itself, which is the part that matters with a wound cable. Cord left coiled on a drum cannot shed heat the way a run out cable can, so a load that is safe unwound is not always safe wound, and the cutout is what covers that. A power indicator shows the reel is live. Masterplug warrant it for three years. Three years is a long warranty on a thing that gets dragged around for a living."
+      ],
+      "features": {
+        "install": [
+          "Run out only what the job needs and wind the rest back at the end",
+          "Fully unwind the cord before drawing a heavy load through the reel",
+          "Keep the reel off the roof surface, on a hook or at the ladder foot",
+          "Use the switch to kill all four outlets rather than pulling a plug",
+          "Check the cord for cuts each time it winds in, which is when they show"
+        ],
+        "coverage": [
+          "Three year warranty from Masterplug",
+          "Thirty feet of 16 AWG cable rated at 10 A",
+          "Four grounded outlets, every one of them shuttered",
+          "Thermal overload cutout that covers a cable left wound on the reel",
+          "Flat cassette format with a winding handle for recovery",
+          "High visibility cord and a power indicator showing the reel is live"
+        ]
+      }
     },
     "dewalt-dpg737": {
-      "title": "Thermal Work Gloves",
-      "titleLead": "Thermal Work",
-      "titleAccent": "Gloves",
-      "description": "Glove in glove thermal work gloves, with a warm liner inside a nylon shell for cold shifts on the roof.",
-      "highlights": [
-        "Glove in glove thermal system for cold weather",
-        "Thermal liner inside a nylon outer shell",
-        "Multipurpose glove for jobsite tasks",
-        "Sold as a single pair"
-      ]
+      "title": "Two Layer Thermal Insulated Gloves",
+      "titleLead": "Two Layer Thermal",
+      "titleAccent": "Insulated Gloves",
+      "description": "Insulated roofing gloves constructed glove inside glove, combining a fifteen gauge nylon outer shell over seven gauge acrylic thermal insulation.",
+      "about": [
+        "Cold is not the reason a roofer loses a day; a cold hand is. Grip goes first, then the fine movement needed to start a nail or hold a blade square, and what follows is either slower work or a mistake. The usual answer is a thick glove, which solves the cold by removing the feel, and a roof is the one place where feel is what keeps hands on the material and off the edge. Warmth that costs you the feel of the work is not warmth worth having.",
+        "The design here is two gloves rather than one. A 15 gauge nylon shell takes the abrasion and holds the shape of a hand, and inside it a 7 gauge acrylic liner does the insulating. Separating those two jobs is what lets each be thin: the shell stays close enough to feel a fastener through, and the warmth is carried by a layer that never has to be tough. Thin and warm are only opposites for as long as both jobs live in one layer.",
+        "The palm is dipped three quarters of the way up in micro foam, which is the part that does the gripping. Foam dip works wet as well as dry, because the texture opens rather than closing into a smooth film the way a solid coating does, and roofing is a wet trade for a good part of the year. The undipped back is what lets the glove breathe instead of soaking. A glove that grips only when dry is a glove for a different trade entirely.",
+        "The dip stopping short of the cuff is deliberate: a fully coated glove is warmer and does not vent, and a hand sweating inside a sealed glove gets cold faster than one that never sweated at all. DeWalt publish no sizing table, no standard, no weight and no warranty term for this glove, so none of those four is stated here and each is recorded as unpublished. A vented back is worth more over a full day than another layer of lining."
+      ],
+      "features": {
+        "install": [
+          "Size them close, since a loose glove costs more feel than a thin liner",
+          "Keep the dipped palm to the work and the bare back to the weather",
+          "Let them dry fully between days rather than starting damp and cold",
+          "Wash them rather than replacing them as soon as the grip goes glazed",
+          "Treat them as warmth and grip, not as cut protection, which they are not"
+        ],
+        "coverage": [
+          "Two layer glove in glove construction, shell and liner separate",
+          "Fifteen gauge nylon outer shell that holds shape and takes abrasion",
+          "Seven gauge acrylic thermal liner carrying the insulation",
+          "Micro foam dip over three quarters of the palm for wet and dry grip",
+          "Uncoated back that vents rather than sealing the hand in",
+          "No sizing, standard, weight or warranty term is published"
+        ]
+      }
     },
     "palmer-k111115": {
-      "title": "Roofer Fall Protection Kit",
-      "titleLead": "Roofer Fall Protection",
-      "titleAccent": "Kit",
-      "description": "Duffle bag fall arrest kit with a five point harness, fifty foot lifeline and roof anchor, all meeting ANSI Z359.11.",
-      "highlights": [
-        "Full body harness with five adjustment points",
-        "Fifty foot vertical lifeline with a locking snap hook",
-        "Reusable roof anchor, glasses and gloves included",
-        "Meets OSHA and ANSI Z359 standards"
-      ]
+      "title": "Roofer Fall Arrest Protection Kit",
+      "titleLead": "Roofer Fall Arrest",
+      "titleAccent": "Protection Kit",
+      "description": "Comprehensive roofer fall arrest kit combining a five point harness, fifty foot vertical lifeline, rope grab and reusable structural anchorage.",
+      "about": [
+        "A fall arrest kit is bought as one item because it only works as one. A harness with the wrong lanyard, an anchor rated for something else or a rope grab that does not match the line are each a system that has not been tested as a system, and the failure never shows up until the one moment the whole thing exists for. This kit ships already matched. A system is only ever tested as the exact set of parts it was certified with.",
+        "The harness is five point with a dorsal D ring, which is the attachment that keeps a worker upright after arrest rather than folded. The lifeline is 50 ft of 5/8 in rope carrying a rope grab, and the grab connects through a shock absorbing lanyard. That lanyard is the component that turns a sudden stop into a survivable one by paying out under load. Stopping a fall is easy; stopping one without injury is what is being bought.",
+        "Capacity runs from 130 to 310 lb, and both ends of that range are real limits rather than a single maximum. Too light a user does not load an energy absorber enough to deploy it as designed, and too heavy a one overruns the arrest distance the absorber was rated for. Every load bearing fitting in the kit is alloy steel, with three quarter inch snap hooks. A range with a floor surprises people who only ever read the top number.",
+        "The anchor is reusable rather than single use, so it comes off at the end of the job instead of being left in the deck, and the whole kit packs into a four gallon bucket that also serves as the thing it lives in. The harness meets ANSI Z359.11 and the anchor ANSI Z359.18. Palmer Safety publish no warranty term for the kit, so none is stated here. An anchor left behind in a finished roof is a leak somebody finds years later."
+      ],
+      "features": {
+        "install": [
+          "Anchor into structure rather than sheathing, and never into a fascia",
+          "Check the user weight falls inside the 130 to 310 lb range before use",
+          "Keep the lifeline as near vertical as the anchor position allows",
+          "Inspect webbing, stitching and hooks before every single use, without exception",
+          "Retire the whole kit after any fall, since an absorber deploys only once"
+        ],
+        "coverage": [
+          "Five point harness with a dorsal D ring for upright arrest",
+          "Fifty feet of 5/8 in vertical lifeline with a matched rope grab",
+          "Shock absorbing lanyard that pays out to limit arrest force",
+          "Rated from 130 to 310 lb, a range with a floor as well as a ceiling",
+          "Alloy steel load bearing hardware with 3/4 in snap hooks",
+          "Harness to ANSI Z359.11 and reusable anchor to ANSI Z359.18"
+        ]
+      }
     },
     "werner-6206": {
       "title": "Type S Roof Access Galvanized Hatch",
