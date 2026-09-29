@@ -567,7 +567,8 @@
       "sprayableLiquid": "Líquido pulverizable",
       "tac101": "Limpiador de contacto TAC 101",
       "coolOutOfSun": "Bajo cubierto, sin sol directo",
-      "laminateAndFoam": "Laminado, metal, madera y espuma"
+      "laminateAndFoam": "Laminado, metal, madera y espuma",
+      "storeWarranty": "Un año, cobertura Roofpro"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
@@ -1525,7 +1526,7 @@
         "Una maceta de cantero no es un martillo de carpintero con otro nombre. No tiene uña y no está pensada para clavar; es una masa en un palo, empleada para labrar piedra, para asentar una teja de hormigón sobre su rastrel y para romper la pieza que debe salir antes de colocar la nueva. En una cubierta de teja o pizarra eso es faena diaria, y un martillo de uña lo hace mal. La herramienta correcta para la piedra siempre ha sido una herramienta roma.",
         "La cabeza pesa 1,500 g y la herramienta entera 1.68 kg, así que cerca de nueve décimas partes de lo que mueves es cabeza. Esa proporción es justo el sentido del diseño: la energía se va a la piedra y no al brazo que la movió, y un mango ligero permite al mismo operario seguir golpeando más rato. Mide 295 por 45 por 110 mm, lo bastante corta para trabajar pegado a un muro. Nueve décimas en la cabeza es exactamente para lo que sirve una maceta.",
         "La cabeza se forja por estampación en acero especial de herramienta y después recibe tratamiento térmico, que es lo que impide que se aborregue por sus propios cantos tras una temporada golpeando fábrica. La forja orienta la fibra del acero alrededor de la forma en vez de cortarla, y esa es la diferencia entre una cabeza que se gasta y una que agrieta. Una cabeza agrietada es el único fallo que ya no se arregla con una lima.",
-        "El mango es de fibra de vidrio y no de madera, así que no se hincha con la humedad, no se reseca dentro de una furgoneta ni se raja por el ojo como acaba haciendo uno de fresno. Tolsen no publica especificación de empuñadura, ni medida de la cara de golpeo, ni plazo de garantía, ni norma de conformidad, así que ninguna de las cuatro se afirma aquí. La madera sigue siendo la opción tradicional y sigue siendo la parte que falla antes."
+        "El mango es de fibra de vidrio y no de madera, así que no se hincha con la humedad, no se reseca dentro de una furgoneta ni se raja por el ojo como acaba haciendo uno de fresno. Tolsen no publica especificación de empuñadura, ni medida de la cara de golpeo, ni plazo de garantía, ni norma de conformidad, así que no se afirma ninguna y Roofpro la cubre un año. La madera sigue siendo la opción tradicional y sigue siendo la parte que falla antes."
       ],
       "features": {
         "install": [
@@ -1541,7 +1542,7 @@
           "Cabeza pintada en negro que mantiene el óxido a raya entre obras",
           "Mango de fibra que no se hincha, ni se reseca, ni se raja por el ojo",
           "Medida total de 295 por 45 por 110 mm, corta para trabajar junto a un muro",
-          "Tolsen no publica empuñadura, cara de golpeo, garantía ni norma"
+          "Un año de cobertura Roofpro, porque Tolsen no publica garantía"
         ]
       }
     },
@@ -1554,7 +1555,7 @@
         "El tejado genera más cosas que hay que cortar de lo que el oficio suele admitir. Cinchas de anclaje, el fleje de un palé de teja, el candado del que nadie tiene llave, varilla roscada que sobra por debajo de una correa, alambre de paranieves, algún redondo en un peto. Una sierra acaba con todo ello y una radial lo hace con chispas, que es lo único que nadie quiere sobre fieltro. Un cortapernos hace todo eso en frío y sin ruido.",
         "Este cortapernos mide 450 mm, que es el extremo corto de la gama y lo es a propósito. Los cortapernos largos son cuatro pies de palanca que no caben en una bolsa, no giran en un bajocubierta y no se manejan con una mano desde una escalera. Dieciocho pulgadas entran en la furgoneta, suben contigo y aún cortan lo que un tejado presenta de verdad. Una herramienta que se queda en la furgoneta es una herramienta que no corta nada.",
         "La palanca sale de una articulación compuesta y no de la longitud bruta del mango. Dos pivotes en serie multiplican dos veces la fuerza de la mano, así que una herramienta corta cierra unas mordazas que un solo pivote de ese tamaño no movería jamás. Es el mismo truco que usa una tijera compuesta en madera verde, y por eso el mango deja de decidirlo todo. La palanca comprada con geometría no cuesta ni longitud ni peso adicional.",
-        "Las mordazas se forjan por estampación en acero de alto carbono, se templan, se pulen y son a la vez ajustables y reemplazables, de modo que el par se reajusta según se gasta en lugar de tirar la herramienta con ellas. Los mangos son de acero tubular con empuñaduras acolchadas antideslizantes. Tolsen no publica capacidad de corte, ni peso, ni garantía. Un par de mordazas que se reajusta es lo que da a la herramienta una segunda vida."
+        "Las mordazas se forjan por estampación en acero de alto carbono, se templan, se pulen y son a la vez ajustables y reemplazables, de modo que el par se reajusta según se gasta en lugar de tirar la herramienta con ellas. Los mangos son de acero tubular con empuñaduras acolchadas antideslizantes. Tolsen no publica capacidad, peso ni garantía: Roofpro lo cubre un año. Unas mordazas reajustables dan a la herramienta una segunda vida."
       ],
       "features": {
         "install": [
@@ -1570,7 +1571,7 @@
           "Mordazas de acero de alto carbono forjadas, templadas y pulidas",
           "Mordazas a la vez ajustables por desgaste y reemplazables",
           "Mangos de acero tubular con empuñaduras acolchadas antideslizantes",
-          "Tolsen no publica capacidad de corte, peso ni plazo de garantía"
+          "Un año de cobertura Roofpro, porque Tolsen no publica garantía"
         ]
       }
     },
@@ -1612,7 +1613,7 @@
         "Arrancar un tejado es la parte del trabajo que nadie fotografía, y también la que decide cómo va la jornada. Una pala plana levanta la teja y deja todos los clavos puestos; una pala de arranque de verdad levanta la teja y el clavo juntos en un solo movimiento, y la diferencia sobre un tejado entero se mide en horas y no en minutos de esfuerzo ahorrado. La herramienta se paga sola en el primer tejado que arranques con ella.",
         "La cabeza es toda de acero, de 9 3/4 x 10 1/2 in, con diez dientes a lo largo del filo y ese filo templado al calor para que conserve el mordiente entre clavos y grava en lugar de doblarse tras el primer faldón. Esos dientes son los que abrazan la cabeza del clavo y dejan que el mango haga la palanca, y saca clavos de hasta 16D, que cubre cualquier fijación. Un filo que se ha doblado es una pala que ha dejado de trabajar.",
         "El mango es la pieza que se pasa por alto con más facilidad. Es de acero y no de madera o fibra, mide 22 1/2 in, y va acodado en vez de recto. Ese codo es lo que sitúa el punto de apoyo bajo la carga para que el tirón salga de la pala y no de tu espalda, y es la razón de llevar una pala de arranque aparte de una pala corriente cualquiera. Un mango recto te mete esa misma carga directamente en la zona lumbar en cada tirón.",
-        "En conjunto la herramienta mide 54 in, largo suficiente para trabajar de pie en una pendiente suave. Una empuñadura de vinilo cubre la parte alta del mango. Qualcraft la construye específicamente para arranque de teja de fibra de vidrio y asfáltica. No se publica ni el peso ni el plazo de garantía, así que ninguno de los dos se da por supuesto aquí. Todo lo demás que se publica sobre ella sale de una tienda y no de Qualcraft."
+        "En conjunto la herramienta mide 54 in, largo suficiente para trabajar de pie en una pendiente suave. Una empuñadura de vinilo cubre la parte alta del mango. Qualcraft la construye específicamente para arranque de teja de fibra de vidrio y asfáltica. No se publica ni el peso ni el plazo de garantía, así que ese se deja sin indicar, mientras Guardian la garantiza de por vida. Todo lo demás que se publica sobre ella sale de una tienda y no de Qualcraft."
       ],
       "features": {
         "install": [
@@ -1628,7 +1629,7 @@
           "Mango acodado de acero de 22 1/2 in que sitúa el apoyo bajo la carga",
           "Cincuenta y cuatro pulgadas en total, suficiente para trabajar de pie",
           "Qualcraft la hace para arranque de teja de fibra de vidrio y asfáltica",
-          "No se publica ni cifra de peso ni plazo de garantía para la herramienta"
+          "Garantía de por vida, el plazo que Guardian aplica a todos sus productos"
         ]
       }
     },
@@ -1728,7 +1729,7 @@
         "Un hacha se gana el sitio en un tejado por los tres trabajos que tiene detrás y no por el que tiene delante. Parte un rastrel a medida, clava una estaca en el entablado para amarrar una cuerda, saca el clavo al que nadie llega con una barra y desmenuza lo que la pala de arranque ya ha levantado. El filo de corte es casi lo de menos a lo largo de una jornada entera. Casi todo eso es trabajo que una pala o una barra hacen francamente mal.",
         "Mide 12.83 in en total sobre un filo de 3.74 in, que es corta para un hacha y larga para un cuchillo, y ese es justo el tramo en el que una herramienta todavía se maneja con una mano desde una escalera. Desnuda pesa 711 g. Cualquier cosa más pesada deja de ser una herramienta que subes y pasa a ser una que vas a buscar, y esa se queda en la furgoneta. El peso es la razón callada de que las buenas herramientas se queden abajo.",
         "El acero es 420 templado a 58 HRC, más duro que un inoxidable de uso general y una decisión deliberada para un filo que se encuentra clavos, arenilla y teja vieja antes que madera limpia. La hoja es de espiga completa, así que el acero va entero del filo a la culata y las cachas van atornilladas encima. Una espiga oculta es por donde rompe un hacha, y aquí no la hay. Las espigas ocultas son por donde revientan las hachas baratas.",
-        "Las cachas son composite G10 en stone wash ennegrecido, que ni se hincha, ni se pudre, ni pierde agarre mojado, y la culata está rematada como cara de martillo con una palanca y una ranura sacaclavos labradas en la cola. Se entrega en funda Kydex con clip de cinturón. HX Outdoors no publica plazo de garantía, así que aquí no se afirma ninguno en absoluto. Lo que el fabricante no declara se deja en blanco y no se rellena a ojo."
+        "Las cachas son composite G10 en stone wash ennegrecido, que ni se hincha, ni se pudre, ni pierde agarre mojado, y la culata está rematada como cara de martillo con una palanca y una ranura sacaclavos labradas en la cola. Se entrega en funda Kydex con clip de cinturón. HX Outdoors no publica plazo de garantía, así que el de la tabla es el año propio de Roofpro. Lo que el fabricante no declara se deja en blanco y no se rellena a ojo."
       ],
       "features": {
         "install": [
@@ -1744,7 +1745,7 @@
           "Construcción de espiga completa con cachas de composite G10 atornilladas",
           "Cara de martillo en la culata y palanca con ranura sacaclavos en la cola",
           "Setecientos once gramos, ligera para subirla por una escalera",
-          "Se entrega en funda Kydex con clip; no se publica plazo de garantía"
+          "Se entrega en funda Kydex con clip, con un año de cobertura Roofpro"
         ]
       }
     },
@@ -1786,7 +1787,7 @@
         "La clase de carga es el único número de una escalera que importa de verdad, y es el que la gente lee el último. Tipo IA significa 300 lb, y esa cifra no es el operario: es el operario, las botas, el cinturón, las herramientas que lleva dentro y lo que suba en la mano. Un techador de ochenta kilos con un paquete al hombro ya va por la mayor parte de ese número. La clase cubre todo lo que sube del suelo contigo, y no solo tu propio peso.",
         "Con cuatro pies esta es una escalera de altura de trabajo y no de acceso. Es la que pone a tiro un alero, el retorno de un canalón, una cornisa baja, el faldón de un garaje o el babero de una chimenea sin arrastrar una extensible alrededor de la casa. Cuatro pies caben además en una furgoneta sin abatir asientos, que decide cuál llega de verdad a la obra. La escalera que llega de verdad a la casa es la que acaba haciendo el trabajo.",
         "Los largueros son de aluminio con arriostramiento de cartelas, que es el detalle que impide que una escalera de tijera se descuadre de lado con los años. Una escalera que cede al cambiar el peso todavía no es insegura, pero va camino de serlo, y las cartelas son lo que retrasa ese momento. Las zapatas son antideslizantes y el peldaño es un cuarto más ancho. El arriostramiento es casi todo lo que pagas cuando dos escaleras parecen iguales.",
-        "La parte alta está pensada para trabajar desde ella y no para pisarla: un imán sujeta la tornillería y los alojamientos admiten un atornillador o una barra, así que ninguno acaba en un bolsillo ni por el borde. Debajo hay una bandeja portacubos. Cumple los requisitos de ANSI y de OSHA. DeWalt no publica el peso ni el plazo de garantía de este modelo. Ninguna de las dos ausencias cambia cómo se usa la escalera, y no se rellenan."
+        "La parte alta está pensada para trabajar desde ella y no para pisarla: un imán sujeta la tornillería y los alojamientos admiten un atornillador o una barra, así que ninguno acaba en un bolsillo ni por el borde. Debajo hay una bandeja portacubos. Cumple los requisitos de ANSI y de OSHA. DeWalt no publica el peso, y Roofpro la cubre un año al no haber garantía. Ninguna de las dos ausencias cambia cómo se usa la escalera, y no se rellenan."
       ],
       "features": {
         "install": [
@@ -1844,7 +1845,7 @@
         "El frío no es lo que le cuesta un día a un techador; es la mano fría. Primero se va el agarre y después el movimiento fino que hace falta para presentar un clavo o sujetar una hoja a escuadra, y lo que viene detrás es trabajo lento o un error. La respuesta habitual es un guante gordo, que resuelve el frío quitando el tacto, y ahí está el problema. Un abrigo que te cuesta el tacto del trabajo no es un abrigo que valga la pena.",
         "El planteamiento aquí son dos guantes en lugar de uno. Un exterior de nailon de calibre 15 se lleva la abrasión y mantiene la forma de la mano, y dentro un forro acrílico de calibre 7 se encarga de aislar. Separar esos dos trabajos es lo que permite que cada capa sea fina: el exterior queda tan ceñido que se nota una fijación a través de él sin esfuerzo. Fino y abrigado solo son contrarios mientras los dos trabajos viven en una capa.",
         "La palma va bañada tres cuartas partes hacia arriba en microespuma, que es la parte que agarra de verdad. El baño de espuma funciona mojado igual que seco, porque la textura se abre en vez de cerrarse en una película lisa como hace un recubrimiento macizo, y la cubierta es un oficio mojado buena parte del año. El dorso sin bañar es lo que deja respirar. Un guante que agarra solo en seco es un guante de otro oficio distinto.",
-        "Que el baño se quede antes del puño es deliberado: un guante recubierto entero abriga más y no ventila, y una mano que suda dentro de un guante sellado se enfría antes que una que nunca llegó a sudar. DeWalt no publica tabla de tallas, ni norma, ni peso, ni plazo de garantía para este guante, así que aquí no se afirma ninguna de las cuatro cosas. Un dorso que ventila vale más a lo largo de una jornada que otra capa de forro."
+        "Que el baño se quede antes del puño es deliberado: un guante recubierto entero abriga más y no ventila, y una mano que suda dentro de un guante sellado se enfría antes que una que nunca llegó a sudar. DeWalt no publica tabla de tallas, ni norma, ni peso, ni plazo de garantía para este guante, así que no se afirma ninguna, y la cobertura es el año propio de Roofpro. Un dorso que ventila vale más a lo largo de una jornada que otra capa de forro."
       ],
       "features": {
         "install": [
@@ -1860,7 +1861,7 @@
           "Forro térmico acrílico de calibre siete que se encarga del aislamiento",
           "Baño de microespuma en tres cuartos de palma, con agarre seco y mojado",
           "Dorso sin recubrir que ventila en vez de sellar la mano dentro",
-          "No se publica tabla de tallas, norma, peso ni plazo de garantía"
+          "No se publica talla, norma ni peso; un año de cobertura Roofpro"
         ]
       }
     },
@@ -1873,7 +1874,7 @@
         "Un kit anticaídas se compra como un solo artículo porque solo funciona como uno. Un arnés con el elemento de amarre equivocado, un anclaje homologado para otra cosa o un freno que no corresponde a esa cuerda son sistemas que nadie ha ensayado como sistema, y el fallo no aparece hasta el único momento para el que existen. Este kit llega ya emparejado. Un sistema solo se ensaya como el conjunto exacto con el que fue certificado.",
         "El arnés es de cinco puntos con anilla dorsal, que es el enganche que deja al operario erguido después de la retención y no doblado. La línea de vida son 50 ft de cuerda de 5/8 in con un freno montado, y el freno conecta a través de un absorbedor de energía. Ese absorbedor es el componente que convierte una parada brusca en una parada soportable. Detener una caída es lo fácil; detenerla sin lesión es justo lo que se compra.",
         "La capacidad va de 130 a 310 lb, y los dos extremos de ese rango son límites reales y no un único máximo. Un usuario demasiado ligero no carga el absorbedor lo suficiente para que despliegue como fue diseñado, y uno demasiado pesado se pasa de la distancia de retención prevista. Toda la herrajería portante del kit es de acero aleado, con mosquetones. Un rango con suelo sorprende a quien solo se fija en el número de arriba.",
-        "El anclaje es reutilizable y no de un solo uso, así que se retira al terminar la obra en vez de quedarse clavado en el entablado, y el kit entero se guarda en un cubo de cuatro galones que hace además de envase. El arnés cumple ANSI Z359.11 y el anclaje ANSI Z359.18. Palmer Safety no publica plazo de garantía, así que aquí no se afirma ninguno. Un anclaje olvidado en un tejado acabado es una gotera que alguien halla años después."
+        "El anclaje es reutilizable y no de un solo uso, así que se retira al terminar la obra en vez de quedarse clavado en el entablado, y el kit entero se guarda en un cubo de cuatro galones que hace además de envase. El arnés cumple ANSI Z359.11 y el anclaje ANSI Z359.18. Palmer Safety no publica plazo, así que el kit lleva un año de cobertura Roofpro. Un anclaje olvidado en un tejado acabado es una gotera que alguien halla años después."
       ],
       "features": {
         "install": [
@@ -2047,7 +2048,7 @@
         "Esto es el final en cubierta de un conducto de extracción, y no una ventilación de tejado en el sentido habitual. Una campana de cocina, un extractor de baño o uno de sala tiene que descargar fuera, y donde el conducto asoma por el tejado este sombrerete tapa el hueco, vuelca el aire hacia abajo y deja la intemperie fuera del conducto. Sirve en obra nueva y en reforma. El sombrerete vuelca la descarga hacia abajo para que nada sople de vuelta.",
         "Admite cualquiera de las dos formas de conducto que usan esos extractores: rectangular de 3 1/4 x 10 in, que es lo estándar tras una campana, o redondo de hasta 8 in. El cuerpo es de acero CRCQ calibre 24, o sea chapa laminada en frío de calidad comercial, acabada en pintura negra en polvo. Pesa unas 4 lb y mide 14 1/4 x 18 3/4 in por 6 5/8 in de alto. Es lo bastante ligero para subirlo por la escalera con una sola mano.",
         "Lleva dos cosas integradas. Una clapeta antirretorno cuelga por dentro para que el aire exterior, con el frío o el calor que trae, no empuje de vuelta por el conducto hacia la casa con el extractor parado. Detrás, una malla cierra el paso a pájaros, avispas y todo lo que si no anidaría en un conducto templado. Ninguna de las dos se compra aparte. Las dos vienen ya montadas dentro del sombrerete nada más sacarlo de la caja.",
-        "Lo único para lo que no debe usarse es una secadora de ropa. El aire de secadora arrastra pelusa, y la pelusa se apelmaza contra una clapeta y una malla hasta que el conducto se tapona y la propia pelusa se vuelve carga de fuego, por eso las secadoras rematan con otro sombrerete sin malla. Broan lo dice sin rodeos. No publica viento, fuego ni garantía. Los sombreretes de secadora usan boca más ancha y ninguna malla por eso."
+        "Lo único para lo que no debe usarse es una secadora de ropa. El aire de secadora arrastra pelusa, y la pelusa se apelmaza contra una clapeta y una malla hasta que el conducto se tapona y la propia pelusa se vuelve carga de fuego, por eso las secadoras rematan con otro sombrerete sin malla. Broan lo dice sin rodeos. No publica viento ni fuego, y Broan cubre sus accesorios un año. Los sombreretes de secadora usan boca más ancha y ninguna malla por eso."
       ],
       "features": {
         "install": [
@@ -2063,7 +2064,7 @@
           "Acero CRCQ de calibre 24 con acabado negro de pintura en polvo",
           "Vale para campanas, extractores de baño, de sala y de gimnasio en casa",
           "Excluido para secadoras porque la pelusa se apelmaza contra la malla",
-          "No se publica resistencia al viento, clase de fuego ni plazo de garantía"
+          "Un año de garantía limitada, el plazo de Broan para accesorios"
         ]
       }
     },
@@ -2134,7 +2135,7 @@
         "Una rejilla estática no tiene piezas móviles ni motor: es una capota sobre un hueco del tablero que deja salir por sí solo el aire caliente del ático. Esta ofrece 60 sq in de área libre de ventilación, que Master Flow traduce en unos 250 sq ft de superficie de ático por unidad, así que el número de rejillas sale del tamaño del ático y no de una promesa de rendimiento. Con 60 sq in mueve cerca de un 20 por ciento más aire que una de 50 sq in.",
         "La forma inclinada es la razón para elegirla en un tejado empinado. La capota queda baja y volcada contra la pendiente, lo que impide que la lluvia batida por el viento se cuele por debajo de la abertura, y Master Flow le fija una pendiente mínima de 3:12. La placa de babero mide 16 x 20 in y se coloca sobre un hueco de 10 x 10 in abierto en el tablero. Master Flow cierra el rango en 12:12, así que sirve para casi todo el trabajo.",
         "La capota va cerrada y no abierta por los lados, de modo que ni las hojas ni las acículas se acumulan dentro y ni roedores ni insectos tienen por dónde entrar. Detrás de la abertura hay una malla interior calificada frente a la intemperie y a las pavesas, que además retiene polvo, algo que cuenta donde las pavesas son un riesgo real en temporada de incendios. Esa misma malla evita que la capota se llene de polvo con los años.",
-        "Es de aluminio natural, así que no lleva pintura y nada puede descascarillarse, aunque el metal desnudo queda a la vista en lugar de integrarse con el color de la teja. Master Flow vende versiones con granulado en negro, marrón y madera envejecida bajo sus propias referencias. Son exactamente la misma rejilla con granulado de color adherido sobre la capota. No publica resistencia al viento, clase de fuego ni plazo de garantía."
+        "Es de aluminio natural, así que no lleva pintura y nada puede descascarillarse, aunque el metal desnudo queda a la vista en lugar de integrarse con el color de la teja. Master Flow vende versiones con granulado en negro, marrón y madera envejecida bajo sus propias referencias. Son exactamente la misma rejilla con granulado de color adherido sobre la capota. No publica resistencia al viento ni clase de fuego, pero GAF garantiza la rejilla cuatro años."
       ],
       "features": {
         "install": [
@@ -2150,7 +2151,7 @@
           "La capota cerrada es lo que deja fuera hojas, acículas, roedores e insectos",
           "Una malla interior frente a intemperie y pavesas retiene además el polvo",
           "Aluminio natural, sin recubrimiento que pueda calear, desteñir o saltar",
-          "No se publica resistencia al viento, clase de fuego ni plazo de garantía"
+          "Cuatro años de garantía limitada, el plazo de GAF para aireadores estáticos"
         ]
       }
     },
@@ -2598,7 +2599,7 @@
         "Un conducto abierto es un agujero mirando al cielo, y todo lo que cae o vuela se aprovecha: lluvia, nieve, hojas, pájaros y algún roedor. Una caperuza lo resuelve sin cerrar el conducto, porque la placa queda separada de la boca sobre unas patas y el humo sale de lado por esa holgura. Esta viene dimensionada para un conducto de 6 in, con collarín de 5.91 in. Las patas entre la placa y el collarín son las que mantienen ese paso abierto.",
         "Está hecha por completo en inoxidable 304, que es el grado que aguanta tanto los ácidos de los humos como la intemperie, y la chapa tiene 0.6 mm de espesor tanto en el collarín como en la placa superior. La caperuza entera pesa 1.54 lb. La placa mide 11.81 in de lado y el conjunto queda en 11.81 x 11.81 x 8.66 in una vez montado. VEVOR referencia el modelo como SRC 6 C y declara un peso bruto de 2.65 lb con todo el embalaje.",
         "La placa vuela sobre la boca con mucho margen a propósito. Con 11.81 in sobre un collarín de 5.91 in, la lluvia que llega inclinada sigue cayendo sobre metal y no dentro del tubo, que es la diferencia entre una caperuza que sirve en un temporal y otra que solo sirve con llovizna. VEVOR la llama caperuza ampliada, y esa cota es justo el motivo. Una caperuza ajustada al collarín no haría el mismo papel en un buen vendaval de costado.",
-        "Una malla de inoxidable rodea los laterales entre la placa y el collarín. Frena pájaros, avispas y hojas, y retiene las pavesas que si no saldrían del conducto para caer sobre el tejado. La caperuza se fija al tubo con los tornillos de expansión reforzados que vienen incluidos. No se publica tiro, clase de fuego ni plazo de garantía. Los tornillos que vienen son reforzados y no simples, que es lo que tiene que aguantar el viento."
+        "Una malla de inoxidable rodea los laterales entre la placa y el collarín. Frena pájaros, avispas y hojas, y retiene las pavesas que si no saldrían del conducto para caer sobre el tejado. La caperuza se fija al tubo con los tornillos de expansión reforzados que vienen incluidos. No se publica ni tiro ni clase de fuego, y VEVOR lo garantiza doce meses. Los tornillos que vienen son reforzados y no simples, que es lo que tiene que aguantar el viento."
       ],
       "features": {
         "install": [
@@ -2614,7 +2615,7 @@
           "La placa de 11.81 in vuela sobre un collarín de 5.91 in contra la lluvia",
           "La malla de inoxidable frena pájaros, avispas y hojas y retiene pavesas",
           "Incluye tornillos de expansión reforzados para fijarla al tubo",
-          "No se publica tiro, clase de fuego ni plazo de garantía"
+          "Doce meses de garantía de fabricante, el plazo estándar de VEVOR"
         ]
       }
     },

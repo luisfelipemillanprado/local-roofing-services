@@ -1878,7 +1878,7 @@ export const shopProductsData = {
         { key: "grip", valueKey: "detail.specValue.notPublished" },
         { key: "face", valueKey: "detail.specValue.notPublished" },
         { key: "standard", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -1913,7 +1913,7 @@ export const shopProductsData = {
         { key: "use", valueKey: "detail.specValue.rebarAndWire" },
         { key: "pack", value: "1" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -1990,7 +1990,7 @@ export const shopProductsData = {
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.shingleRemoval" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.limitedLifetime" },
       ],
     },
     {
@@ -2136,7 +2136,7 @@ export const shopProductsData = {
         { key: "included", valueKey: "detail.specValue.kydexSheath" },
         { key: "use", valueKey: "detail.specValue.demolitionWork" },
         { key: "pack", value: "1" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2213,7 +2213,7 @@ export const shopProductsData = {
         { key: "use", valueKey: "detail.specValue.ladderAccess" },
         { key: "pack", value: "1" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2289,7 +2289,7 @@ export const shopProductsData = {
         { key: "size", valueKey: "detail.specValue.notPublished" },
         { key: "standard", valueKey: "detail.specValue.notPublished" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2325,7 +2325,7 @@ export const shopProductsData = {
         { key: "approval", value: "ANSI Z359.18" },
         { key: "use", valueKey: "detail.specValue.roofFallArrest" },
         { key: "pack", value: "1" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2404,7 +2404,7 @@ export const shopProductsData = {
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.ventPipes" },
         { key: "fire", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", value: "1 yr" },
       ],
     },
     {
@@ -2442,7 +2442,7 @@ export const shopProductsData = {
         { key: "approval", valueKey: "detail.specValue.dadeTexas" },
         { key: "use", valueKey: "detail.specValue.atticExhaust" },
         { key: "wind", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", valueKey: "detail.specValue.limitedLifetime" },
       ],
     },
     {
@@ -2479,7 +2479,7 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.roofCap" },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.exhaustFans" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", value: "1 yr" },
       ],
     },
     {
@@ -2599,7 +2599,7 @@ export const shopProductsData = {
         { key: "use", valueKey: "detail.specValue.atticExhaust" },
         { key: "wind", valueKey: "detail.specValue.notPublished" },
         { key: "fire", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.notPublished" },
+        { key: "warranty", value: "4 yr" },
       ],
     },
     {
