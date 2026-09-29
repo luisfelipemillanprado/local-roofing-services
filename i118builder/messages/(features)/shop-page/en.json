@@ -996,8 +996,8 @@
     },
     "gaf-everguard-tpo-quick-spray-7792": {
       "title": "EverGuard TPO Quick Spray Adhesive",
-      "titleLead": "EverGuard TPO",
-      "titleAccent": "Quick Spray Adhesive",
+      "titleLead": "EverGuard TPO Quick",
+      "titleAccent": "Spray Adhesive",
       "description": "Pressurised canister of solvent contact adhesive covering ten squares of smooth TPO membrane, sprayable down to twenty degrees Fahrenheit ambient.",
       "about": [
         "A bucket and roller is a slow way to move adhesive around a roof, and on a large deck the slowness compounds: every pail is opened, stirred, poured, walked and rolled, and each of those steps is a place where the coverage rate quietly drifts away from what the specification says it should be. A canister and a gun turns all of that into pulling a trigger. The specification assumes a rate that the bucket almost never delivers.",
@@ -1024,9 +1024,9 @@
       }
     },
     "gaf-olybond-500": {
-      "title": "OlyBond500 Insulation Adhesive",
+      "title": "OlyBond500 Adhesive Kit",
       "titleLead": "OlyBond500",
-      "titleAccent": "Insulation Adhesive",
+      "titleAccent": "Adhesive Kit",
       "description": "Two component polyurethane foam adhesive that beads insulation board onto the deck, covering approximately thirty five squares per complete kit.",
       "about": [
         "Every screw through an insulation board is a hole through the thermal layer and a small bridge for heat to cross. Multiply that by the fastener pattern across a whole commercial deck and the insulation quietly underperforms the number on its label. Adhesive attachment removes the holes altogether, which is why so much low slope work has moved away from mechanical fastening. The label number and the installed number stop matching.",
@@ -1053,9 +1053,9 @@
       }
     },
     "matrix-101": {
-      "title": "Matrix 101 Premium SBS Adhesive",
-      "titleLead": "Matrix 101 Premium",
-      "titleAccent": "SBS Adhesive",
+      "title": "Matrix 101 SBS Membrane Adhesive",
+      "titleLead": "Matrix 101 SBS",
+      "titleAccent": "Membrane Adhesive",
       "description": "Cold applied SBS membrane adhesive superseding hot mopped asphalt, distributing between one and two gallons across every hundred square feet.",
       "about": [
         "Cold adhesive exists because of the kettle. Hot mopping means a tank of asphalt at around 450°F somewhere on or beside the building, a crew handling it, fumes coming off it all day and a fire risk that follows the job from the street to the parapet. A cold adhesive puts the same membrane down out of a pail, and everything that goes with the kettle simply stops being part of the job. The kettle disappears from the risk assessment too.",
@@ -1087,7 +1087,7 @@
       "titleAccent": "Membrane Adhesive",
       "description": "Fiber reinforced rubberized cold adhesive for modified bitumen systems, bonding base, interply and cap sheets without any hot asphalt whatsoever.",
       "about": [
-        "The difference between this and the 101 is the fibre in it. Matrix 102 is a fiber reinforced rubberized adhesive, which gives it body: it bridges a small irregularity in the substrate rather than running off it, and it holds a wet film thickness on a surface that is not perfectly flat. That is exactly the condition a recover job over an existing smooth asphalt roof presents. A recover job is never flat, whatever the survey said.",
+        "The difference between this and the 101 is the fiber in it. Matrix 102 is a fiber reinforced rubberized adhesive, which gives it body: it bridges a small irregularity in the substrate rather than running off it, and it holds a wet film thickness on a surface that is not perfectly flat. That is exactly the condition a recover job over an existing smooth asphalt roof presents. A recover job is never flat, whatever the survey happened to say about it.",
         "It is asbestos free, and it is built for the whole modified bitumen stack rather than one layer of it. The same pail bonds SBS base sheets, interply sheets and cap sheets, an existing smooth asphalt roof, and Type G2 asphalt coated glass base sheet. GAF call the formulation SURE GRIP and the property they claim for it is flexibility as much as grab. One pail through the whole stack means one product to order and one to store.",
         "Flexibility is the point on a modified bitumen roof, because the system moves. A cap sheet expands and contracts across a day, and an adhesive that cures rigid transfers that movement into the sheet instead of absorbing it. This one is specified to keep its low temperature flexibility, which is the condition where a rigid adhesive gives up first. Rigid is exactly the wrong property for a roof surface that moves every single day.",
         "It goes down at 1.5 to 2 gal per 100 sq ft by sprayer, brush or notched squeegee, at a minimum of 45°F and rising, never onto a substrate above 140°F. It is 70% non volatile minimum, 9.3 lb per gallon, and meets or exceeds ASTM D3019 Type III. GAF's data sheet does not print a usable VOC figure for it, so none is stated here. The viscosity figure sits in the VOC row on the sheet, so no VOC is claimed here at all. The rest of the table is as printed."
@@ -1111,8 +1111,8 @@
       }
     },
     "gaf-everguard-1121": {
-      "title": "EverGuard 1121 Bonding Adhesive",
-      "titleLead": "EverGuard 1121",
+      "title": "EverGuard TPO 1121 Bonding Adhesive",
+      "titleLead": "EverGuard TPO 1121",
       "titleAccent": "Bonding Adhesive",
       "description": "General purpose solvent based contact adhesive for TPO membranes and flashings, covering approximately fifty to seventy square feet per gallon.",
       "about": [
@@ -1140,9 +1140,9 @@
       }
     },
     "tac-203-premium-spray": {
-      "title": "TAC 203 Premium Contact Adhesive",
+      "title": "TAC 203 Premium Spray Adhesive",
       "titleLead": "TAC 203 Premium",
-      "titleAccent": "Contact Adhesive",
+      "titleAccent": "Spray Adhesive",
       "description": "Sprayable polychloroprene contact adhesive with high heat resistance, covering six to eight square metres per litre across most rigid substrates.",
       "about": [
         "This is the only adhesive in the range that is not a roofing product, and it earns its place through the work that surrounds a roof rather than the roof itself. Soffit linings, a laminate face on a parapet capping, foam board into a fabricated panel, a vinyl or carpet finish in a plant room: none of it is roofing, and all of it turns up on the same invoice. The work that surrounds a roof is still work that somebody has to price.",
@@ -1314,9 +1314,9 @@
       }
     },
     "gaf-everguard-wb181": {
-      "title": "EverGuard WB181 Adhesive",
+      "title": "EverGuard WB181 Bonding Adhesive",
       "titleLead": "EverGuard WB181",
-      "titleAccent": "Adhesive",
+      "titleAccent": "Bonding Adhesive",
       "description": "Water based acrylic emulsion bonding adhesive for TPO and PVC roofing membranes, covering approximately six hundred square feet per container.",
       "about": [
         "The reason this adhesive is water based has very little to do with the roof and a great deal to do with the building underneath it. A solvent bonding adhesive puts its smell through every vent, stairwell and open window for as long as the crew is working, and on an occupied building that is the thing that generates the complaints. At under 20 g/L of VOC this one is close to odourless. Odour is what gets a crew asked to stop work.",
@@ -1546,8 +1546,8 @@
       }
     },
     "tolsen-10243": {
-      "title": "Eighteen Inch Compound Bolt Cutter",
-      "titleLead": "Eighteen Inch Compound",
+      "title": "Eighteen Inch Bolt Cutter",
+      "titleLead": "Eighteen Inch",
       "titleAccent": "Bolt Cutter",
       "description": "Eighteen inch compound bolt cutter carrying drop forged hardened jaws, adjustable and replaceable, between tubular steel handles with cushioned grips.",
       "about": [
