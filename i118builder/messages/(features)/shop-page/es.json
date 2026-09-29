@@ -572,9 +572,11 @@
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
-      "years": "{years} Años",
-      "limitedYears": "Limitada de {years} Años",
-      "paintYears": "Pintura de {years} Años"
+      "years": "{years, plural, one {# Año} other {# Años}}",
+      "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}",
+      "paintYears": "Pintura de {years} Años",
+      "store": "Un Año, Roofpro",
+      "matchesShingle": "La De La Teja"
     },
     "section": {
       "description": "Descripción",
