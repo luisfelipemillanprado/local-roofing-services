@@ -33,8 +33,6 @@ export const SectionHeading = ({
     <div
       className={clsx(
         "grid grid-cols-1 justify-items-center gap-5.25",
-        /* mobile flushes the whole box left, the eyebrow stays centered inside it */
-        "justify-self-start sm:justify-self-auto",
         !isCenter && "sm:justify-items-start",
         flushFrom && flushJustify[flushFrom],
       )}
@@ -43,7 +41,7 @@ export const SectionHeading = ({
       {/* title sets the width; description wraps within it, never wider */}
       <div
         className={clsx(
-          "grid w-fit gap-5.25 justify-self-start sm:max-w-113 sm:justify-self-auto lg:max-w-126",
+          "grid w-fit gap-5.25 sm:max-w-113 lg:max-w-126",
           isCenter
             ? "text-left sm:text-center"
             : size === "banner"
