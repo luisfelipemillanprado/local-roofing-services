@@ -21,8 +21,9 @@ export const ProductGallery = ({
 
   return (
     <div className="grid content-start gap-4">
-      <div className="group relative overflow-hidden rounded-media border border-line">
-        <Media src={images[active]!} alt={title} shape="thumb" sizes="(max-width: 1024px) 100vw, 45vw" />
+      {/* frame owns the form as in about: square, 4:3 on tablet, square again from lg */}
+      <div className="group relative aspect-square overflow-hidden rounded-media shadow-lg sm:aspect-4/3 lg:aspect-square">
+        <Media src={images[active]!} alt={title} shape="fill" sizes="(max-width: 1024px) 100vw, 45vw" />
         <div className="absolute top-4 right-4">
           <ZoomButton label={zoomLabel} onClick={() => setOpen(true)} pulse />
         </div>
