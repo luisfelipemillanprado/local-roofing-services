@@ -574,7 +574,9 @@
       "lifetime": "Lifetime Limited",
       "years": "{years} Years",
       "limitedYears": "{years} Year Limited",
-      "paintYears": "{years} Year Paint"
+      "paintYears": "{years} Year Paint",
+      "store": "One Year, Roofpro",
+      "matchesShingle": "Matches The Shingle"
     },
     "section": {
       "description": "Description",
