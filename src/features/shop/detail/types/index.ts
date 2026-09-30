@@ -29,11 +29,8 @@ interface ProductSpecRow {
   value: string;
 }
 
-export interface ProductSpecStripProps {
-  rows: ProductSpecRow[];
-}
-
-export interface ProductSpecTableProps {
+/* strip and table take the same resolved rows, each in its own finish */
+export interface ProductSpecProps {
   rows: ProductSpecRow[];
 }
 
@@ -41,14 +38,11 @@ export interface ProductAboutProps {
   paragraphs: string[];
 }
 
-/* what it pairs with in the catalog, then how it goes on and what is covered */
+/* what it pairs with in the catalog, then the ticked lists that follow it */
 export interface ProductFeaturesProps {
   compatibleLabel: string;
   compatible: { key: string; title: string; href: string }[];
-  installLabel: string;
-  install: string[];
-  coverageLabel: string;
-  coverage: string[];
+  checklists: { key: string; label: string; items: string[] }[];
 }
 
 /* one tab: its label plus the already-built panel content */

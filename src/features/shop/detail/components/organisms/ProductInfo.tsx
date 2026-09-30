@@ -75,10 +75,18 @@ export const ProductInfo = ({ slug, tone = "base" }: ProductInfoProps) => {
                               title: t(`catalog.${slug}.title`),
                               href: `/shop/${slug}`,
                             }))}
-                            installLabel={t("detail.features.install")}
-                            install={t.raw(`catalog.${product.slug}.features.install`) as string[]}
-                            coverageLabel={t("detail.features.coverage")}
-                            coverage={t.raw(`catalog.${product.slug}.features.coverage`) as string[]}
+                            checklists={[
+                              {
+                                key: "install",
+                                label: t("detail.features.install"),
+                                items: t.raw(`catalog.${product.slug}.features.install`) as string[],
+                              },
+                              {
+                                key: "coverage",
+                                label: t("detail.features.coverage"),
+                                items: t.raw(`catalog.${product.slug}.features.coverage`) as string[],
+                              },
+                            ]}
                           />
                         </div>
                       ),
