@@ -37,10 +37,6 @@ export interface ProductSpecTableProps {
   rows: ProductSpecRow[];
 }
 
-export interface ProductHighlightsProps {
-  items: string[];
-}
-
 export interface ProductAboutProps {
   paragraphs: string[];
 }

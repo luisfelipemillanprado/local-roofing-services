@@ -3,10 +3,8 @@
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
-import { Text } from "@/common/text/components/Text";
 import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
 import { ProductAbout } from "@/features/shop/detail/components/molecules/ProductAbout";
-import { ProductHighlights } from "@/features/shop/detail/components/molecules/ProductHighlights";
 import { ProductFeatures } from "@/features/shop/detail/components/molecules/ProductFeatures";
 import { ProductTabs } from "@/features/shop/detail/components/molecules/ProductTabs";
 import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
@@ -22,8 +20,7 @@ export const ProductInfo = ({ slug, tone = "base" }: ProductInfoProps) => {
 
   if (!product) return null;
 
-  const description = t(`catalog.${product.slug}.description`);
-  /* a researched product carries both its spec sheet and its highlight copy */
+  /* a researched product carries its spec sheet */
   const researched = "specs" in product ? product : undefined;
 
   return (
@@ -37,20 +34,8 @@ export const ProductInfo = ({ slug, tone = "base" }: ProductInfoProps) => {
                 key: "description",
                 label: t("detail.section.description"),
                 panel: (
-                  <div className="grid max-w-3xl gap-5">
-                    {/* the long about replaces both the short line and the highlights it repeats */}
-                    {t.has(`catalog.${product.slug}.about`) ? (
-                      <ProductAbout paragraphs={t.raw(`catalog.${product.slug}.about`) as string[]} />
-                    ) : (
-                      <>
-                        <Text size="body" tone="muted" text={description} />
-                        {researched && (
-                          <ProductHighlights
-                            items={t.raw(`catalog.${researched.slug}.highlights`) as string[]}
-                          />
-                        )}
-                      </>
-                    )}
+                  <div className="max-w-3xl">
+                    <ProductAbout paragraphs={t.raw(`catalog.${product.slug}.about`) as string[]} />
                   </div>
                 ),
               },
