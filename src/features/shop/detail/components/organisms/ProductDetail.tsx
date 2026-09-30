@@ -11,7 +11,6 @@ import { Socials } from "@/common/social/components/Socials";
 import { layoutData } from "@/data/global/layout";
 import { ProductGallery } from "@/features/shop/detail/components/molecules/ProductGallery";
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
-import { shopProductsData } from "@/data/features/shop/products";
 import { productDetailData } from "@/data/features/shop/product-detail";
 import type { ProductAvailability } from "@/common/product-card/types";
 import type { ProductDetailProps } from "@/features/shop/detail/types";
@@ -25,14 +24,9 @@ const dots: Record<ProductAvailability, string> = {
   "out-of-stock": "bg-foreground-muted",
 };
 
-export const ProductDetail = async ({ slug, tone = "base" }: ProductDetailProps) => {
+export const ProductDetail = async ({ product, tone = "base" }: ProductDetailProps) => {
   const t = await getTranslations("shop-page");
-  const product = shopProductsData.items.find((item) => item.slug === slug);
 
-  if (!product) return null;
-
-  const title = t(`catalog.${product.slug}.title`);
-  const description = t(`catalog.${product.slug}.description`);
   /* facts under the price: data value + its i18n label */
   const specRows = [
     { key: "category", label: t("detail.category"), value: t(`categories.${product.category}`) },
@@ -56,8 +50,8 @@ export const ProductDetail = async ({ slug, tone = "base" }: ProductDetailProps)
           media={
             <ProductGallery
               images={[product.image, ...product.gallery]}
-              title={title}
-              description={description}
+              title={t(`catalog.${product.slug}.title`)}
+              description={t(`catalog.${product.slug}.description`)}
               zoomLabel={t(viewer.zoom)}
               closeLabel={t(viewer.close)}
               previousLabel={t(viewer.previous)}
@@ -71,7 +65,7 @@ export const ProductDetail = async ({ slug, tone = "base" }: ProductDetailProps)
               eyebrow={product.brand}
               title={t(`catalog.${product.slug}.titleLead`)}
               accent={t(`catalog.${product.slug}.titleAccent`)}
-              description={description}
+              description={t(`catalog.${product.slug}.description`)}
             />
           }
           points={
