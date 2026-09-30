@@ -1,5 +1,5 @@
 import { Text } from "@/common/text/components/Text";
-import type { ProductSpecTableProps } from "@/features/shop/types";
+import type { ProductSpecTableProps } from "@/features/shop/detail/types";
 
 /* spec sheet rows; label left, value right, ruled between rows */
 export const ProductSpecTable = ({ rows }: ProductSpecTableProps) => (

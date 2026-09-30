@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { useCarousel } from "@/carousel/hooks/useCarousel";
-import type { CategoryStripProps } from "@/features/shop/types";
+import type { CategoryStripProps } from "@/features/shop/catalog/types";
 
 /* category chips: a plain drag strip, arrows only while the row overflows */
 export const CategoryStrip = ({

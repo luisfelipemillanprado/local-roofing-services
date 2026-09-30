@@ -4,15 +4,15 @@ import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
 import { Text } from "@/common/text/components/Text";
-import { ProductSpecTable } from "@/features/shop/components/molecules/ProductSpecTable";
-import { ProductAbout } from "@/features/shop/components/molecules/ProductAbout";
-import { ProductHighlights } from "@/features/shop/components/molecules/ProductHighlights";
-import { ProductFeatures } from "@/features/shop/components/molecules/ProductFeatures";
-import { ProductTabs } from "@/features/shop/components/molecules/ProductTabs";
+import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
+import { ProductAbout } from "@/features/shop/detail/components/molecules/ProductAbout";
+import { ProductHighlights } from "@/features/shop/detail/components/molecules/ProductHighlights";
+import { ProductFeatures } from "@/features/shop/detail/components/molecules/ProductFeatures";
+import { ProductTabs } from "@/features/shop/detail/components/molecules/ProductTabs";
 import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
 import { shopProductsData } from "@/data/features/shop/products";
 import { productDetailData } from "@/data/features/shop/product-detail";
-import type { ProductInfoProps } from "@/features/shop/types";
+import type { ProductInfoProps } from "@/features/shop/detail/types";
 
 const { trust } = productDetailData;
 

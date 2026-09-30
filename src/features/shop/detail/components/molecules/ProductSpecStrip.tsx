@@ -1,5 +1,5 @@
 import { Text } from "@/common/text/components/Text";
-import type { ProductSpecStripProps } from "@/features/shop/types";
+import type { ProductSpecStripProps } from "@/features/shop/detail/types";
 
 /* fact row under the price; same bare panel finish as the about stats row */
 export const ProductSpecStrip = ({ rows }: ProductSpecStripProps) => (

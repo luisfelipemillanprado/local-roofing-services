@@ -37,6 +37,14 @@ module.exports = {
       to: { path: "^src/features/([^/]+)/", pathNot: "^src/features/$1/" },
     },
     {
+      /* the nested halves share one feature name, so the cross-feature rule cannot see them */
+      name: "shop-catalog-detail-split",
+      comment: "the shop catalog and detail halves must stay independent",
+      severity: "error",
+      from: { path: "^src/features/shop/(catalog|detail)/" },
+      to: { path: "^src/features/shop/(catalog|detail)/", pathNot: "^src/features/shop/$1/" },
+    },
+    {
       name: "features-no-app",
       comment: "features must not depend on app",
       severity: "error",

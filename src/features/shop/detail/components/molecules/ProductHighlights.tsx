@@ -1,6 +1,6 @@
 import { CircleCheck } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
-import type { ProductHighlightsProps } from "@/features/shop/types";
+import type { ProductHighlightsProps } from "@/features/shop/detail/types";
 
 /* selling points under the description; one ticked line each */
 export const ProductHighlights = ({ items }: ProductHighlightsProps) => (

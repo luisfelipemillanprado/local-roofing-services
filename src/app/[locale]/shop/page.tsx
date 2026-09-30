@@ -5,7 +5,7 @@ import { routeMetadata } from "@/i18n/metadata";
 import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
 import { pageHeaderData } from "@/data/shared-sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
-import { ShopCatalog } from "@/features/shop/components/organisms/ShopCatalog";
+import { ShopCatalog } from "@/features/shop/catalog/components/organisms/ShopCatalog";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
 type Props = { params: Promise<{ locale: string }> };

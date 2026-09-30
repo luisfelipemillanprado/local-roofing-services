@@ -1,6 +1,6 @@
 import { Bookmark, Package, Search, ShoppingCart, User } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
-import type { ShopSearchBarProps } from "@/features/shop/types";
+import type { ShopSearchBarProps } from "@/features/shop/catalog/types";
 
 /* store bar: live search plus the account row; the icons are still decoration */
 export const ShopSearchBar = ({ value, onChange, label, placeholder, accountLabels }: ShopSearchBarProps) => (

@@ -11,12 +11,12 @@ import { TextNumber } from "@/common/text/components/TextNumber";
 import { Stars } from "@/common/stars/components/Stars";
 import { Socials } from "@/common/social/components/Socials";
 import { layoutData } from "@/data/global/layout";
-import { ProductGallery } from "@/features/shop/components/molecules/ProductGallery";
-import { ProductSpecStrip } from "@/features/shop/components/molecules/ProductSpecStrip";
+import { ProductGallery } from "@/features/shop/detail/components/molecules/ProductGallery";
+import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { shopProductsData } from "@/data/features/shop/products";
 import { productDetailData } from "@/data/features/shop/product-detail";
 import type { ProductAvailability } from "@/common/product-card/types";
-import type { ProductDetailProps } from "@/features/shop/types";
+import type { ProductDetailProps } from "@/features/shop/detail/types";
 
 const { ctaHref, viewer } = productDetailData;
 

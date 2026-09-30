@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
-import type { ProductFeaturesProps } from "@/features/shop/types";
+import type { ProductFeaturesProps } from "@/features/shop/detail/types";
 
 /* practical side of the product: what it pairs with, how it goes on, what is covered */
 export const ProductFeatures = ({

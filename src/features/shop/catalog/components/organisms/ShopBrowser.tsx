@@ -1,11 +1,11 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ShopSearchBar } from "@/features/shop/components/molecules/ShopSearchBar";
-import { CategoryStrip } from "@/features/shop/components/molecules/CategoryStrip";
-import { SortSelect } from "@/features/shop/components/molecules/SortSelect";
-import { ShopProductList } from "@/features/shop/components/molecules/ShopProductList";
-import type { ShopBrowserProps, ShopCatalogItem, ShopSort } from "@/features/shop/types";
+import { ShopSearchBar } from "@/features/shop/catalog/components/molecules/ShopSearchBar";
+import { CategoryStrip } from "@/features/shop/catalog/components/molecules/CategoryStrip";
+import { SortSelect } from "@/features/shop/catalog/components/molecules/SortSelect";
+import { ShopProductList } from "@/features/shop/catalog/components/molecules/ShopProductList";
+import type { ShopBrowserProps, ShopCatalogItem, ShopSort } from "@/features/shop/catalog/types";
 
 const sorters: Record<ShopSort, (a: ShopCatalogItem, b: ShopCatalogItem) => number> = {
   best: () => 0 /* catalog order */,
