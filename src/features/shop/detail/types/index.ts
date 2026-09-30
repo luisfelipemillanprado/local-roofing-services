@@ -1,14 +1,18 @@
 import type { ReactNode } from "react";
+import type { shopProductsData } from "@/data/features/shop/products";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
+/* the catalog entry the route already resolved, handed down whole */
+type ShopProduct = (typeof shopProductsData.items)[number];
+
 export interface ProductDetailProps {
-  slug: string;
+  product: ShopProduct;
   tone?: SectionTone;
 }
 
 export interface ProductInfoProps {
-  slug: string;
+  product: ShopProduct;
   tone?: SectionTone;
 }
 

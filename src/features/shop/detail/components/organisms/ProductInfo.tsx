@@ -6,17 +6,13 @@ import { ProductAbout } from "@/features/shop/detail/components/molecules/Produc
 import { ProductFeatures } from "@/features/shop/detail/components/molecules/ProductFeatures";
 import { ProductTabs } from "@/features/shop/detail/components/molecules/ProductTabs";
 import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
-import { shopProductsData } from "@/data/features/shop/products";
 import { productDetailData } from "@/data/features/shop/product-detail";
 import type { ProductInfoProps } from "@/features/shop/detail/types";
 
 const { trust } = productDetailData;
 
-export const ProductInfo = async ({ slug, tone = "base" }: ProductInfoProps) => {
+export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) => {
   const t = await getTranslations("shop-page");
-  const product = shopProductsData.items.find((item) => item.slug === slug);
-
-  if (!product) return null;
 
   /* long write up: one block per paragraph */
   const aboutParagraphs = t.raw(`catalog.${product.slug}.about`) as string[];

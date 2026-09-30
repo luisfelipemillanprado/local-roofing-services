@@ -58,8 +58,8 @@ export default async function ProductDetailPage({ params }: Props) {
         secondaryCta="shop"
       />
       <Marquee />
-      <ProductDetail slug={slug} />
-      <ProductInfo slug={slug} tone="muted" />
+      <ProductDetail product={product} />
+      <ProductInfo product={product} tone="muted" />
       <Results category={product.category} limit={6} />
       <Products tone="muted" limit={6} />
       <Contact />
