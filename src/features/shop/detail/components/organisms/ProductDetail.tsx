@@ -1,6 +1,4 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
@@ -27,8 +25,8 @@ const dots: Record<ProductAvailability, string> = {
   "out-of-stock": "bg-foreground-muted",
 };
 
-export const ProductDetail = ({ slug, tone = "base" }: ProductDetailProps) => {
-  const t = useTranslations("shop-page");
+export const ProductDetail = async ({ slug, tone = "base" }: ProductDetailProps) => {
+  const t = await getTranslations("shop-page");
   const product = shopProductsData.items.find((item) => item.slug === slug);
 
   if (!product) return null;

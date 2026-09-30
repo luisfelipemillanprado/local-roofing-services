@@ -1,6 +1,4 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
 import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
@@ -14,8 +12,8 @@ import type { ProductInfoProps } from "@/features/shop/detail/types";
 
 const { trust } = productDetailData;
 
-export const ProductInfo = ({ slug, tone = "base" }: ProductInfoProps) => {
-  const t = useTranslations("shop-page");
+export const ProductInfo = async ({ slug, tone = "base" }: ProductInfoProps) => {
+  const t = await getTranslations("shop-page");
   const product = shopProductsData.items.find((item) => item.slug === slug);
 
   if (!product) return null;
