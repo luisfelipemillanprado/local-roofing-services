@@ -55,7 +55,6 @@
     "category": "Categoría",
     "unit": "Formato",
     "sku": "Referencia",
-    "none": "No disponible",
     "share": "Compartir",
     "viewImage": "Ver Imagen",
     "close": "Cerrar",
@@ -572,11 +571,7 @@
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
-      "years": "{years, plural, one {# Año} other {# Años}}",
-      "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}",
-      "paintYears": "Pintura de {years} Años",
-      "store": "Un Año, Roofpro",
-      "matchesShingle": "La De La Teja"
+      "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}"
     },
     "section": {
       "description": "Descripción",

@@ -1,5 +1,5 @@
 import { Text } from "@/common/text/components/Text";
-import type { ShopSort, SortSelectProps } from "@/features/shop/types";
+import type { ShopSort, SortSelectProps } from "@/features/shop/catalog/types";
 
 /* results sort: native select styled to the site */
 export const SortSelect = ({ label, value, options, onChange }: SortSelectProps) => (

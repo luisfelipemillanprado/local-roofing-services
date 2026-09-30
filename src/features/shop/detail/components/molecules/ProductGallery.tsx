@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Media } from "@/common/media/components/Media";
 import { ZoomButton } from "@/common/image-viewer/components/ZoomButton";
 import { ImageViewer } from "@/common/image-viewer/components/ImageViewer";
-import type { ProductGalleryProps } from "@/features/shop/types";
+import type { ProductGalleryProps } from "@/features/shop/detail/types";
 
 /* main shot with a zoom control over a thumb strip that swaps it */
 export const ProductGallery = ({

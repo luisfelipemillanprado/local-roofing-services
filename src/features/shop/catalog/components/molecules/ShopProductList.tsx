@@ -1,5 +1,5 @@
 import { ProductCard } from "@/common/product-card/components/ProductCard";
-import type { ShopProductListProps } from "@/features/shop/types";
+import type { ShopProductListProps } from "@/features/shop/catalog/types";
 
 /* shop render loop: catalog and related results → ProductCard grid */
 export const ShopProductList = ({ cards, viewLabel }: ShopProductListProps) => (

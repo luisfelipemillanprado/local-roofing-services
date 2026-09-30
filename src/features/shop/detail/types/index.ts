@@ -1,0 +1,51 @@
+import type { ReactNode } from "react";
+
+type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
+
+export interface ProductDetailProps {
+  slug: string;
+  tone?: SectionTone;
+}
+
+export interface ProductInfoProps {
+  slug: string;
+  tone?: SectionTone;
+}
+
+export interface ProductGalleryProps {
+  images: string[];
+  title: string;
+  description: string;
+  zoomLabel: string;
+  closeLabel: string;
+  previousLabel: string;
+  nextLabel: string;
+}
+
+/* resolved spec row: data value + its i18n label */
+interface ProductSpecRow {
+  key: string;
+  label: string;
+  value: string;
+}
+
+/* strip and table take the same resolved rows, each in its own finish */
+export interface ProductSpecProps {
+  rows: ProductSpecRow[];
+}
+
+export interface ProductAboutProps {
+  paragraphs: string[];
+}
+
+/* what it pairs with in the catalog, then the ticked lists that follow it */
+export interface ProductFeaturesProps {
+  compatibleLabel: string;
+  compatible: { key: string; title: string; href: string }[];
+  checklists: { key: string; label: string; items: string[] }[];
+}
+
+/* one tab: its label plus the already-built panel content */
+export interface ProductTabsProps {
+  tabs: { key: string; label: string; panel: ReactNode }[];
+}

@@ -3,17 +3,10 @@ import { ArrowUpRight } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
-import type { ProductFeaturesProps } from "@/features/shop/types";
+import type { ProductFeaturesProps } from "@/features/shop/detail/types";
 
 /* practical side of the product: what it pairs with, how it goes on, what is covered */
-export const ProductFeatures = ({
-  compatibleLabel,
-  compatible,
-  installLabel,
-  install,
-  coverageLabel,
-  coverage,
-}: ProductFeaturesProps) => (
+export const ProductFeatures = ({ compatibleLabel, compatible, checklists }: ProductFeaturesProps) => (
   <div className="grid gap-7">
     <div className="grid gap-3">
       <Title as="h3" size="panel" weight="bold" text={compatibleLabel} />
@@ -32,23 +25,16 @@ export const ProductFeatures = ({
       </ul>
     </div>
 
-    <div className="grid gap-3">
-      <Title as="h3" size="panel" weight="bold" text={installLabel} />
-      {/* same check list as the about selling points */}
-      <ul className="grid gap-4">
-        {install.map((item) => (
-          <CheckItem key={item} tone="default" text={item} />
-        ))}
-      </ul>
-    </div>
-
-    <div className="grid gap-3">
-      <Title as="h3" size="panel" weight="bold" text={coverageLabel} />
-      <ul className="grid gap-4">
-        {coverage.map((item) => (
-          <CheckItem key={item} tone="default" text={item} />
-        ))}
-      </ul>
-    </div>
+    {/* same check list as the about selling points */}
+    {checklists.map(({ key, label, items }) => (
+      <div key={key} className="grid gap-3">
+        <Title as="h3" size="panel" weight="bold" text={label} />
+        <ul className="grid gap-4">
+          {items.map((item) => (
+            <CheckItem key={item} tone="default" text={item} />
+          ))}
+        </ul>
+      </div>
+    ))}
   </div>
 );

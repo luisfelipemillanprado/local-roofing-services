@@ -1,5 +1,5 @@
 import { Text } from "@/common/text/components/Text";
-import type { ProductAboutProps } from "@/features/shop/types";
+import type { ProductAboutProps } from "@/features/shop/detail/types";
 
 /* long product write up, one block per paragraph */
 export const ProductAbout = ({ paragraphs }: ProductAboutProps) => (

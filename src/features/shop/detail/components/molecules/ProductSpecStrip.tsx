@@ -1,8 +1,8 @@
 import { Text } from "@/common/text/components/Text";
-import type { ProductSpecStripProps } from "@/features/shop/types";
+import type { ProductSpecProps } from "@/features/shop/detail/types";
 
 /* fact row under the price; same bare panel finish as the about stats row */
-export const ProductSpecStrip = ({ rows }: ProductSpecStripProps) => (
+export const ProductSpecStrip = ({ rows }: ProductSpecProps) => (
   /* rules only once the four facts share a single row, or the second row gets a stray one */
   <dl className="grid grid-cols-2 gap-y-4 rounded-panel border border-line py-4 sm:grid-cols-4 sm:divide-x sm:divide-line lg:py-5.5">
     {rows.map(({ key, label, value }) => (

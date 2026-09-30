@@ -421,7 +421,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 62,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "BRK-186LGY20",
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       specs: [
@@ -456,7 +457,8 @@ export const shopProductsData = {
       rating: 4.4,
       reviews: 38,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "BRK-186LBG20",
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       specs: [
@@ -490,7 +492,8 @@ export const shopProductsData = {
       rating: 5,
       reviews: 48,
       availability: "limited-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "BRK-186LTG20",
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       specs: [
@@ -525,7 +528,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 33,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "BRK-186LTT20",
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       specs: [
@@ -560,7 +564,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 37,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "BRK-133LGY10",
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       specs: [
@@ -633,7 +638,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 22,
       availability: "limited-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       sku: "ISO-PUR1000",
       specs: [
@@ -670,7 +676,7 @@ export const shopProductsData = {
       availability: "in-stock",
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       sku: "STD-SL16SGY",
-      warrantyKey: "detail.warranty.paintYears",
+      warrantyKey: "detail.warranty.limitedYears",
       warrantyYears: 40,
       specs: [
         { key: "width", value: "16 in" },
@@ -704,7 +710,7 @@ export const shopProductsData = {
       availability: "in-stock",
       compatible: ["gcp-5003000", "gibraltar-987641", "gibraltar-987642", "gibraltar-08328"],
       sku: "STD-SL16AGY",
-      warrantyKey: "detail.warranty.paintYears",
+      warrantyKey: "detail.warranty.limitedYears",
       warrantyYears: 40,
       specs: [
         { key: "width", value: "16 in" },
@@ -775,7 +781,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 52,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: [
         "steeldash-snap-lock-slate-gray",
         "brakki-stone-tiles",
@@ -817,7 +824,7 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 88,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.matchesShingle",
+      warrantyKey: "detail.warranty.lifetime",
       sku: "CTD-404987",
       compatible: [
         "timberline-hdz-barkwood",
@@ -856,7 +863,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 34,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "GLP-A1HR145",
       compatible: ["brakki-20pc", "brakki-21pc", "gibraltar-987642", "grip-rite-rrp1010hem"],
       specs: [
@@ -894,7 +902,7 @@ export const shopProductsData = {
       reviews: 26,
       availability: "limited-stock",
       sku: "PAR-EXM150",
-      warrantyKey: "detail.warranty.years",
+      warrantyKey: "detail.warranty.limitedYears",
       warrantyYears: 10,
       compatible: ["brakki-insulated-panel", "brakki-22pc", "gibraltar-cf5g-26", "trapezoidal-panel-closure"],
       specs: [
@@ -930,7 +938,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 57,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "CHO-COMBI40G",
       compatible: [
         "brakki-insulated-panel",
@@ -973,7 +982,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 44,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "KOV-GOLD36",
       compatible: ["brakki-22pc", "brakki-insulated-panel", "gibraltar-cf5g-26", "titebond-61001"],
       specs: [
@@ -1005,7 +1015,8 @@ export const shopProductsData = {
       rating: 4,
       reviews: 31,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "ORM-PROF35KG",
       compatible: ["brakki-19pc", "brakki-insulated-panel", "drexel-econo-coping", "gaf-everguard-1121"],
       specs: [
@@ -1038,7 +1049,7 @@ export const shopProductsData = {
       reviews: 76,
       availability: "in-stock",
       sku: "BPC-RU600",
-      warrantyKey: "detail.warranty.years",
+      warrantyKey: "detail.warranty.limitedYears",
       warrantyYears: 15,
       compatible: [
         "timberline-hdz-shakewood",
@@ -1082,7 +1093,8 @@ export const shopProductsData = {
       rating: 4.4,
       reviews: 56,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["timberline-hdz-charcoal", "malarkey-smart-start", "dupont-tyvek-120", "oatey-11872"],
       specs: [
         { key: "size", value: "5 x 1/2 in" },
@@ -1115,7 +1127,7 @@ export const shopProductsData = {
       reviews: 18,
       availability: "limited-stock",
       sku: "DRX-EC2420",
-      warrantyKey: "detail.warranty.paintYears",
+      warrantyKey: "detail.warranty.limitedYears",
       warrantyYears: 35,
       compatible: ["gcp-5003000", "bmi-chova", "ormiflex-profesional", "gaf-everguard-wb181"],
       specs: [
@@ -1150,7 +1162,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 214,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: [
         "timberline-hdz-pewter-gray",
         "dynasty-emerald-green",
@@ -1188,7 +1201,8 @@ export const shopProductsData = {
       rating: 4.4,
       reviews: 72,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["timberline-hdz-barkwood", "landmark-weathered-wood", "gcp-5003000", "dupont-tyvek-120"],
       specs: [
         { key: "size", value: "18 in x 10 ft" },
@@ -1220,7 +1234,8 @@ export const shopProductsData = {
       rating: 4.7,
       reviews: 183,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: [
         "timberline-hdz-charcoal",
         "malarkey-smart-start",
@@ -1257,7 +1272,8 @@ export const shopProductsData = {
       rating: 4.3,
       reviews: 41,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["brakki-22pc", "brakki-19pc", "gibraltar-987642", "trapezoidal-panel-closure"],
       specs: [
         { key: "size", value: "4 11/16 in" },
@@ -1290,7 +1306,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 64,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["brakki-20pc", "brakki-21pc", "gibraltar-987641", "trapezoidal-panel-closure"],
       specs: [
         { key: "size", value: "11 in" },
@@ -1325,7 +1342,8 @@ export const shopProductsData = {
       rating: 4.4,
       reviews: 52,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["brakki-19pc", "brakki-22pc", "trapezoidal-panel-closure", "titebond-61001"],
       specs: [
         { key: "length", value: "10 ft" },
@@ -1357,7 +1375,8 @@ export const shopProductsData = {
       rating: 4.2,
       reviews: 35,
       availability: "limited-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "UNC-ACCS0105021",
       compatible: ["brakki-20pc", "brakki-22pc", "gibraltar-987642", "grip-rite-rrp1010hem"],
       specs: [
@@ -1390,7 +1409,8 @@ export const shopProductsData = {
       rating: 4,
       reviews: 58,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["gaf-778c", "gaf-everguard-1121", "gaf-everguard-tpo-quick-spray-7792", "gaf-olybond-500"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.bondingAdhesive" },
@@ -1427,7 +1447,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 47,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["gaf-everguard-wb181", "gaf-everguard-1121", "gaf-olybond-500", "matrix-102"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.bondingAdhesive" },
@@ -1465,7 +1486,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 96,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: [
         "steeldash-snap-lock-slate-gray",
         "gibraltar-cf5g-26",
@@ -1510,7 +1532,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 31,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["gaf-everguard-1121", "gaf-everguard-wb181", "gaf-778c", "gaf-olybond-500"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.sprayAdhesive" },
@@ -1546,7 +1569,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 45,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "GAF-OB500KIT",
       compatible: ["gaf-everguard-wb181", "brakki-insulated-panel", "matrix-101", "gaf-778c"],
       specs: [
@@ -1585,7 +1609,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 52,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "GAF-MTX101",
       compatible: ["matrix-102", "bmi-chova", "gaf-olybond-500", "gaf-everguard-1121"],
       specs: [
@@ -1625,7 +1650,8 @@ export const shopProductsData = {
       rating: 4.4,
       reviews: 39,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "GAF-MTX102",
       compatible: ["matrix-101", "bmi-chova", "gaf-olybond-500", "titebond-61001"],
       specs: [
@@ -1664,7 +1690,8 @@ export const shopProductsData = {
       rating: 4.6,
       reviews: 64,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["gaf-everguard-wb181", "gaf-778c", "gaf-everguard-tpo-quick-spray-7792", "matrix-101"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.bondingAdhesive" },
@@ -1700,7 +1727,8 @@ export const shopProductsData = {
       rating: 4,
       reviews: 18,
       availability: "limited-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "TAC-203PS",
       compatible: ["brakki-insulated-panel", "titebond-61001", "gaf-everguard-1121", "dewalt-dcs391"],
       specs: [
@@ -1892,7 +1920,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 41,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["brakki-stone-tiles", "steeldash-tube-14ga-2in", "gibraltar-987642", "dewalt-dwht51002"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.stoningHammer" },
@@ -1928,7 +1957,8 @@ export const shopProductsData = {
       rating: 5,
       reviews: 88,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["steeldash-tube-14ga-2in", "grip-rite-rrp1010hem", "gibraltar-08328", "dewalt-dcs391"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.boltCutter" },
@@ -1964,7 +1994,7 @@ export const shopProductsData = {
       reviews: 37,
       availability: "in-stock",
       sku: "SUP-HS2007",
-      warrantyKey: "detail.warranty.years",
+      warrantyKey: "detail.warranty.limitedYears",
       warrantyYears: 2,
       compatible: ["dupont-tyvek-120", "bp-suredeck", "dewalt-dcs391", "dewalt-dwht51002"],
       specs: [
@@ -2152,7 +2182,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 27,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["brakki-19pc", "gibraltar-987641", "dewalt-dcs391", "qualcraft-2560p"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.hatchet" },
@@ -2230,7 +2261,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 39,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["qualcraft-2560p", "palmer-v5501", "dewalt-dcn681", "timberline-hdz-pewter-gray"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.stepladder" },
@@ -2310,7 +2342,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 63,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["palmer-v5501", "dewalt-dwht51002", "qualcraft-2560p", "gibraltar-cf5g-26"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.workGloves" },
@@ -2346,7 +2379,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 38,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       compatible: ["dewalt-dxl2010", "dewalt-dpg737", "qualcraft-2560p", "timberline-hdz-charcoal"],
       specs: [
         { key: "productType", valueKey: "detail.specValue.fallArrestKit" },
@@ -2383,7 +2417,7 @@ export const shopProductsData = {
       rating: 5,
       reviews: 41,
       availability: "out-of-stock",
-      warrantyKey: "detail.warranty.years",
+      warrantyKey: "detail.warranty.limitedYears",
       warrantyYears: 5,
       compatible: ["drexel-econo-coping", "bmi-chova", "gcp-5003000", "oatey-11872"],
       specs: [
@@ -2702,7 +2736,8 @@ export const shopProductsData = {
       rating: 4.7,
       reviews: 24,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.store",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 1,
       sku: "STD-TS214",
       compatible: [
         "steeldash-snap-lock-slate-gray",

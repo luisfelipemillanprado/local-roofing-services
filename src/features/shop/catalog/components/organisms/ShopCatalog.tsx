@@ -1,9 +1,9 @@
 import { getTranslations } from "next-intl/server";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
-import { ShopBrowser } from "@/features/shop/components/organisms/ShopBrowser";
+import { ShopBrowser } from "@/features/shop/catalog/components/organisms/ShopBrowser";
 import { shopProductsData } from "@/data/features/shop/products";
-import type { ShopCatalogProps, ShopSort } from "@/features/shop/types";
+import type { ShopCatalogProps, ShopSort } from "@/features/shop/catalog/types";
 
 const { categories, categoryImages, items } = shopProductsData;
 const sortOrder: ShopSort[] = ["best", "priceAsc", "priceDesc", "topRated"];

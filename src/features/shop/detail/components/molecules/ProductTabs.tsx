@@ -2,7 +2,7 @@
 
 import { useId, useState, type KeyboardEvent } from "react";
 import { Text } from "@/common/text/components/Text";
-import type { ProductTabsProps } from "@/features/shop/types";
+import type { ProductTabsProps } from "@/features/shop/detail/types";
 
 export const ProductTabs = ({ tabs }: ProductTabsProps) => {
   const id = useId();
