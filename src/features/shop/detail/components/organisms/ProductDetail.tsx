@@ -92,23 +92,15 @@ export const ProductDetail = ({ slug, tone = "base" }: ProductDetailProps) => {
               rows={[
                 { key: "category", label: t("detail.category"), value: category },
                 { key: "unit", label: t("detail.unit"), value: t(product.unitKey) },
-                /* every product shows both columns; a missing value reads as none */
-                {
-                  key: "sku",
-                  label: t("detail.sku"),
-                  value: "sku" in product ? product.sku : t("detail.none"),
-                },
+                { key: "sku", label: t("detail.sku"), value: product.sku },
                 {
                   key: "warranty",
                   label: t("detail.section.warranty"),
-                  /* a timed warranty feeds its years into the label */
-                  value:
-                    "warrantyKey" in product
-                      ? t(
-                          product.warrantyKey,
-                          "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
-                        )
-                      : t("detail.none"),
+                  /* a warranty measured in years feeds its number into the label; lifetime has none */
+                  value: t(
+                    product.warrantyKey,
+                    "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
+                  ),
                 },
               ]}
             />

@@ -20,9 +20,6 @@ export const ProductInfo = ({ slug, tone = "base" }: ProductInfoProps) => {
 
   if (!product) return null;
 
-  /* a researched product carries its spec sheet */
-  const researched = "specs" in product ? product : undefined;
-
   return (
     <SectionWrapper id="product-info" tone={tone}>
       <Container>
@@ -39,60 +36,50 @@ export const ProductInfo = ({ slug, tone = "base" }: ProductInfoProps) => {
                   </div>
                 ),
               },
-              /* only a product with a researched spec sheet gets the tab */
-              ...(researched
-                ? [
-                    {
-                      key: "specifications",
-                      label: t("detail.section.specifications"),
-                      panel: (
-                        <div className="max-w-3xl">
-                          <ProductSpecTable
-                            rows={researched.specs.map((row) => ({
-                              key: row.key,
-                              label: t(`detail.spec.${row.key}`),
-                              /* a worded value is translated, a measure ships as is */
-                              value: "valueKey" in row ? t(row.valueKey) : row.value,
-                            }))}
-                          />
-                        </div>
-                      ),
-                    },
-                  ]
-                : []),
-              /* only a product with researched pairings and copy gets the tab */
-              ...("compatible" in product
-                ? [
-                    {
-                      key: "features",
-                      label: t("detail.section.features"),
-                      panel: (
-                        <div className="max-w-3xl">
-                          <ProductFeatures
-                            compatibleLabel={t("detail.features.compatible")}
-                            compatible={product.compatible.map((slug) => ({
-                              key: slug,
-                              title: t(`catalog.${slug}.title`),
-                              href: `/shop/${slug}`,
-                            }))}
-                            checklists={[
-                              {
-                                key: "install",
-                                label: t("detail.features.install"),
-                                items: t.raw(`catalog.${product.slug}.features.install`) as string[],
-                              },
-                              {
-                                key: "coverage",
-                                label: t("detail.features.coverage"),
-                                items: t.raw(`catalog.${product.slug}.features.coverage`) as string[],
-                              },
-                            ]}
-                          />
-                        </div>
-                      ),
-                    },
-                  ]
-                : []),
+              {
+                key: "specifications",
+                label: t("detail.section.specifications"),
+                panel: (
+                  <div className="max-w-3xl">
+                    <ProductSpecTable
+                      rows={product.specs.map((row) => ({
+                        key: row.key,
+                        label: t(`detail.spec.${row.key}`),
+                        /* a worded value is translated, a measure ships as is */
+                        value: "valueKey" in row ? t(row.valueKey) : row.value,
+                      }))}
+                    />
+                  </div>
+                ),
+              },
+              {
+                key: "features",
+                label: t("detail.section.features"),
+                panel: (
+                  <div className="max-w-3xl">
+                    <ProductFeatures
+                      compatibleLabel={t("detail.features.compatible")}
+                      compatible={product.compatible.map((slug) => ({
+                        key: slug,
+                        title: t(`catalog.${slug}.title`),
+                        href: `/shop/${slug}`,
+                      }))}
+                      checklists={[
+                        {
+                          key: "install",
+                          label: t("detail.features.install"),
+                          items: t.raw(`catalog.${product.slug}.features.install`) as string[],
+                        },
+                        {
+                          key: "coverage",
+                          label: t("detail.features.coverage"),
+                          items: t.raw(`catalog.${product.slug}.features.coverage`) as string[],
+                        },
+                      ]}
+                    />
+                  </div>
+                ),
+              },
             ]}
           />
 
