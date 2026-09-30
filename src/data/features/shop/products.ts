@@ -33,7 +33,8 @@ export const shopProductsData = {
       reviews: 47,
       availability: "in-stock",
       sku: "MAL-210SS",
-      warrantyKey: "detail.warranty.lifetime",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 10,
       compatible: ["dupont-tyvek-120", "gcp-5003000", "gibraltar-08328", "oatey-11872"],
       specs: [
         { key: "length", value: "38 1/4 in" },
@@ -49,7 +50,7 @@ export const shopProductsData = {
         { key: "windClass", value: "D3161 Class F" },
         { key: "fire", value: "Class A" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
+        { key: "warranty", value: "10 yr" },
       ],
     },
     {
@@ -2031,7 +2032,8 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 44,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.lifetime",
+      warrantyKey: "detail.warranty.limitedYears",
+      warrantyYears: 2,
       compatible: [
         "timberline-hdz-charcoal",
         "landmark-weathered-wood",
@@ -2052,7 +2054,7 @@ export const shopProductsData = {
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.shingleRemoval" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.limitedLifetime" },
+        { key: "warranty", value: "2 yr" },
       ],
     },
     {
