@@ -572,11 +572,7 @@
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
-      "years": "{years} Years",
-      "limitedYears": "{years} Year Limited",
-      "paintYears": "{years} Year Paint",
-      "store": "One Year, Roofpro",
-      "matchesShingle": "Matches The Shingle"
+      "limitedYears": "{years} Year Limited"
     },
     "section": {
       "description": "Description",
