@@ -2,7 +2,7 @@ import type { ProductSplitProps } from "@/common/product-split/types";
 
 /* product split band: gallery left, heading/points/stats/action right */
 export const ProductSplit = ({ media, heading, points, stats, action, footer }: ProductSplitProps) => (
-  <div className="grid items-center gap-20 lg:grid-cols-2 lg:gap-13">
+  <div className="grid items-center gap-13 lg:grid-cols-2">
     {/* gallery side */}
     {media}
     {/* copy side */}
