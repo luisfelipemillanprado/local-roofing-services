@@ -18,6 +18,8 @@ export const ProductGallery = ({
 }: ProductGalleryProps) => {
   const [active, setActive] = useState(0);
   const [open, setOpen] = useState(false);
+  /* every shot carries the same caption: the viewer only swaps the image */
+  const viewerCards = images.map((image) => ({ image, title, description }));
 
   return (
     <div className="grid content-start gap-4">
@@ -47,7 +49,7 @@ export const ProductGallery = ({
 
       {open && (
         <ImageViewer
-          cards={images.map((image) => ({ image, title, description }))}
+          cards={viewerCards}
           startIndex={active}
           onClose={() => setOpen(false)}
           closeLabel={closeLabel}

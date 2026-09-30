@@ -18,6 +18,45 @@ export const ProductInfo = async ({ slug, tone = "base" }: ProductInfoProps) => 
 
   if (!product) return null;
 
+  /* long write up: one block per paragraph */
+  const aboutParagraphs = t.raw(`catalog.${product.slug}.about`) as string[];
+  /* spec sheet: a worded value is translated, a measure ships as is */
+  const specRows = product.specs.map((row) => ({
+    key: row.key,
+    label: t(`detail.spec.${row.key}`),
+    value: "valueKey" in row ? t(row.valueKey) : row.value,
+  }));
+  /* pairings: each one links to its own page */
+  const compatibleItems = product.compatible.map((paired) => ({
+    key: paired,
+    title: t(`catalog.${paired}.title`),
+    href: `/shop/${paired}`,
+  }));
+  /* ticked lists that follow the pairings */
+  const checklists = [
+    {
+      key: "install",
+      label: t("detail.features.install"),
+      items: t.raw(`catalog.${product.slug}.features.install`) as string[],
+    },
+    {
+      key: "coverage",
+      label: t("detail.features.coverage"),
+      items: t.raw(`catalog.${product.slug}.features.coverage`) as string[],
+    },
+  ];
+  /* trust cards: icon from data, text by key */
+  const trustCards = trust.map(({ key, icon }) => ({
+    key,
+    icon,
+    title: t(`detail.trust.${key}.title`),
+    description: t(`detail.trust.${key}.description`),
+    highlights: {
+      label: t(`detail.trust.${key}.highlights.label`),
+      accent: t(`detail.trust.${key}.highlights.accent`),
+    },
+  }));
+
   return (
     <SectionWrapper id="product-info" tone={tone}>
       <Container>
@@ -30,7 +69,7 @@ export const ProductInfo = async ({ slug, tone = "base" }: ProductInfoProps) => 
                 label: t("detail.section.description"),
                 panel: (
                   <div className="max-w-3xl">
-                    <ProductAbout paragraphs={t.raw(`catalog.${product.slug}.about`) as string[]} />
+                    <ProductAbout paragraphs={aboutParagraphs} />
                   </div>
                 ),
               },
@@ -39,14 +78,7 @@ export const ProductInfo = async ({ slug, tone = "base" }: ProductInfoProps) => 
                 label: t("detail.section.specifications"),
                 panel: (
                   <div className="max-w-3xl">
-                    <ProductSpecTable
-                      rows={product.specs.map((row) => ({
-                        key: row.key,
-                        label: t(`detail.spec.${row.key}`),
-                        /* a worded value is translated, a measure ships as is */
-                        value: "valueKey" in row ? t(row.valueKey) : row.value,
-                      }))}
-                    />
+                    <ProductSpecTable rows={specRows} />
                   </div>
                 ),
               },
@@ -57,23 +89,8 @@ export const ProductInfo = async ({ slug, tone = "base" }: ProductInfoProps) => 
                   <div className="max-w-3xl">
                     <ProductFeatures
                       compatibleLabel={t("detail.features.compatible")}
-                      compatible={product.compatible.map((slug) => ({
-                        key: slug,
-                        title: t(`catalog.${slug}.title`),
-                        href: `/shop/${slug}`,
-                      }))}
-                      checklists={[
-                        {
-                          key: "install",
-                          label: t("detail.features.install"),
-                          items: t.raw(`catalog.${product.slug}.features.install`) as string[],
-                        },
-                        {
-                          key: "coverage",
-                          label: t("detail.features.coverage"),
-                          items: t.raw(`catalog.${product.slug}.features.coverage`) as string[],
-                        },
-                      ]}
+                      compatible={compatibleItems}
+                      checklists={checklists}
                     />
                   </div>
                 ),
@@ -83,18 +100,7 @@ export const ProductInfo = async ({ slug, tone = "base" }: ProductInfoProps) => 
 
           {/* the short column rides along while the tabs scroll, like the pitch band */}
           <div className="lg:sticky lg:top-28">
-            <IconCardList
-              cards={trust.map(({ key, icon }) => ({
-                key,
-                icon,
-                title: t(`detail.trust.${key}.title`),
-                description: t(`detail.trust.${key}.description`),
-                highlights: {
-                  label: t(`detail.trust.${key}.highlights.label`),
-                  accent: t(`detail.trust.${key}.highlights.accent`),
-                },
-              }))}
-            />
+            <IconCardList cards={trustCards} />
           </div>
         </div>
       </Container>

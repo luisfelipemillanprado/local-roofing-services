@@ -33,7 +33,21 @@ export const ProductDetail = async ({ slug, tone = "base" }: ProductDetailProps)
 
   const title = t(`catalog.${product.slug}.title`);
   const description = t(`catalog.${product.slug}.description`);
-  const category = t(`categories.${product.category}`);
+  /* facts under the price: data value + its i18n label */
+  const specRows = [
+    { key: "category", label: t("detail.category"), value: t(`categories.${product.category}`) },
+    { key: "unit", label: t("detail.unit"), value: t(product.unitKey) },
+    { key: "sku", label: t("detail.sku"), value: product.sku },
+    {
+      key: "warranty",
+      label: t("detail.section.warranty"),
+      /* a warranty measured in years feeds its number into the label; lifetime has none */
+      value: t(
+        product.warrantyKey,
+        "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
+      ),
+    },
+  ];
 
   return (
     <SectionWrapper id="product" tone={tone}>
@@ -85,24 +99,7 @@ export const ProductDetail = async ({ slug, tone = "base" }: ProductDetailProps)
               </div>
             </>
           }
-          stats={
-            <ProductSpecStrip
-              rows={[
-                { key: "category", label: t("detail.category"), value: category },
-                { key: "unit", label: t("detail.unit"), value: t(product.unitKey) },
-                { key: "sku", label: t("detail.sku"), value: product.sku },
-                {
-                  key: "warranty",
-                  label: t("detail.section.warranty"),
-                  /* a warranty measured in years feeds its number into the label; lifetime has none */
-                  value: t(
-                    product.warrantyKey,
-                    "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
-                  ),
-                },
-              ]}
-            />
-          }
+          stats={<ProductSpecStrip rows={specRows} />}
           action={
             /* calling is covered by the floating contact, so the quote stands alone */
             <Button href={ctaHref.href} pulse>
