@@ -63,32 +63,22 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
               {
                 key: "description",
                 label: t("detail.section.description"),
-                panel: (
-                  <div className="max-w-3xl">
-                    <ProductAbout paragraphs={aboutParagraphs} />
-                  </div>
-                ),
+                panel: <ProductAbout paragraphs={aboutParagraphs} />,
               },
               {
                 key: "specifications",
                 label: t("detail.section.specifications"),
-                panel: (
-                  <div className="max-w-3xl">
-                    <ProductSpecTable rows={specRows} />
-                  </div>
-                ),
+                panel: <ProductSpecTable rows={specRows} />,
               },
               {
                 key: "features",
                 label: t("detail.section.features"),
                 panel: (
-                  <div className="max-w-3xl">
-                    <ProductFeatures
-                      compatibleLabel={t("detail.features.compatible")}
-                      compatible={compatibleItems}
-                      checklists={checklists}
-                    />
-                  </div>
+                  <ProductFeatures
+                    compatibleLabel={t("detail.features.compatible")}
+                    compatible={compatibleItems}
+                    checklists={checklists}
+                  />
                 ),
               },
             ]}
