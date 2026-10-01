@@ -6,7 +6,7 @@ export interface RevealProps {
   children: ReactNode;
   className?: string;
   variant?: RevealVariant;
-  /** Delay in seconds — used to stagger sibling reveals. */
+  /* seconds of delay, to stagger sibling reveals */
   delay?: number;
   as?: "div" | "section" | "article" | "figure" | "li" | "span";
 }

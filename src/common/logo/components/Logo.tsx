@@ -5,7 +5,7 @@ import { Link } from "@/i18n/navigation";
 
 const { logo } = layoutData;
 
-/* Logo badge + wordmark. */
+/* Logo badge + wordmark */
 export const Logo = () => {
   return (
     <Link

@@ -1,2 +1,2 @@
-// Allow side-effect CSS imports and SVG/image asset imports across the app.
+/* side-effect css plus svg and image asset imports */
 declare module "*.css";

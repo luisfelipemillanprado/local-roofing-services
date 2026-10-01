@@ -55,7 +55,7 @@ export async function POST(request: Request) {
     return Response.json({ ok: false }, { status: 415 });
   }
 
-  /* reject oversized payloads up front when the length is declared... */
+  /* reject oversized payloads up front when the length is declared */
   const declaredLength = Number(request.headers.get("content-length"));
   if (Number.isFinite(declaredLength) && declaredLength > MAX_BODY_BYTES) {
     return Response.json({ ok: false }, { status: 413 });
