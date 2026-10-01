@@ -2,7 +2,7 @@ import { Title } from "@/common/title/components/Title";
 import { CheckItem } from "@/common/check-item/components/CheckItem";
 import type { ProductChecklistsProps } from "@/features/shop/detail/types";
 
-/* same check list as the about selling points, one block per list */
+/* a fragment keeps the band's gap reaching each block; check list as in about */
 export const ProductChecklists = ({ lists }: ProductChecklistsProps) => (
   <>
     {lists.map(({ key, label, items }) => (
