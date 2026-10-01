@@ -18,23 +18,23 @@ const { ctaHref, specStrip, viewer } = productDetailData;
 export const ProductDetail = async ({ product, tone = "base" }: ProductDetailProps) => {
   const t = await getTranslations("shop-page");
 
+  /* one value per strip row; satisfies holds the map to the keys the data declares */
+  const stripValues = {
+    category: t(`categories.${product.category}`),
+    unit: t(product.unitKey),
+    sku: product.sku,
+    /* a warranty measured in years feeds its number into the label; lifetime has none */
+    warranty: t(
+      product.warrantyKey,
+      "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
+    ),
+  } satisfies Record<SpecStripKey, string>;
+
   /* facts under the price: data value + its i18n label */
   const specRows = specStrip.map((key) => ({
     key,
     label: t(`detail.strip.${key}`),
-    /* the data owns the strip; satisfies makes this map match it exactly */
-    value: (
-      {
-        category: t(`categories.${product.category}`),
-        unit: t(product.unitKey),
-        sku: product.sku,
-        /* a warranty measured in years feeds its number into the label; lifetime has none */
-        warranty: t(
-          product.warrantyKey,
-          "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
-        ),
-      } satisfies Record<SpecStripKey, string>
-    )[key],
+    value: stripValues[key],
   }));
 
   return (
