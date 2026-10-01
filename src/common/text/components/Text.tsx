@@ -2,7 +2,7 @@ import type { TextProps, TextSize, TextTone, TextTracking, TextWeight } from "@/
 
 const sizes: Record<TextSize, string> = {
   subhead:
-    "text-[clamp(1rem,0.7rem+1.3333vw,1.0625rem)] leading-relaxed" /* fluid 16→17px, 360→435vw — FAQ questions, shop tab labels, product share label and spec values */,
+    "text-[clamp(1rem,0.7rem+1.3333vw,1.0625rem)] leading-relaxed" /* fluid 16→17px, 360→435vw — FAQ questions, shop tab labels, product follow label and spec values */,
   lead: "text-[clamp(0.95625rem,0.74625rem+0.9333vw,1rem)] leading-relaxed" /* fluid 15.3→16px, 360→435vw — section/page descriptions, footer tagline, shop tabs */,
   body: "text-[clamp(0.95625rem,0.83625rem+0.5333vw,0.98125rem)] leading-relaxed" /* fluid 15.3→15.7px, 360→435vw — card body, buttons, navbar, footer, hero rating, contact phone, shop tab prose, product price unit, stock and rating */,
   caption:

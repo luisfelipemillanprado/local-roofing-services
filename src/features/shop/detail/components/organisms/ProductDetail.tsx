@@ -7,7 +7,6 @@ import { Button } from "@/common/call-to-actions/components/Button";
 import { Text } from "@/common/text/components/Text";
 import { ProductRating } from "@/common/product-rating/components/ProductRating";
 import { Socials } from "@/common/social/components/Socials";
-import { layoutData } from "@/data/global/layout";
 import { ProductGallery } from "@/features/shop/detail/components/molecules/ProductGallery";
 import { ProductPrice } from "@/features/shop/detail/components/molecules/ProductPrice";
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
@@ -61,6 +60,7 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
             />
           }
           points={
+            /* kept as two children: the split's own gap is what separates the rows */
             <>
               <ProductRating
                 rating={product.rating}
@@ -85,8 +85,8 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
           footer={
             /* the rule sits centered: its padding matches the column gap above it */
             <div className="grid grid-flow-col items-center justify-start gap-3 border-t border-line pt-7">
-              <Text as="span" size="subhead" weight="semibold" text={`${t("detail.share")}:`} />
-              <Socials items={layoutData.socials} />
+              <Text as="span" size="subhead" weight="semibold" text={`${t("detail.follow")}:`} />
+              <Socials />
             </div>
           }
         />
