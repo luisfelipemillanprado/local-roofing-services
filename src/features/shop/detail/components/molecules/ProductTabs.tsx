@@ -59,6 +59,8 @@ export const ProductTabs = ({ tabs }: ProductTabsProps) => {
           aria-labelledby={`${id}-tab-${key}`}
           hidden={active !== key}
           tabIndex={0}
+          /* caps the reading measure; only bites below lg, where the panel spans the container */
+          className="max-w-3xl"
         >
           {panel}
         </div>
