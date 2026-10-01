@@ -9,7 +9,7 @@ import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
 import { productDetailData } from "@/data/features/shop/product-detail";
 import type { ProductInfoProps } from "@/features/shop/detail/types";
 
-const { trust } = productDetailData;
+const { features, trust } = productDetailData;
 
 export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) => {
   const t = await getTranslations("shop-page");
@@ -29,18 +29,11 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
     href: `/shop/${paired}`,
   }));
   /* checklists: label by key, items a real i18n array */
-  const checklists = [
-    {
-      key: "install",
-      label: t("detail.features.install"),
-      items: t.raw(`catalog.${product.slug}.features.install`) as string[],
-    },
-    {
-      key: "coverage",
-      label: t("detail.features.coverage"),
-      items: t.raw(`catalog.${product.slug}.features.coverage`) as string[],
-    },
-  ];
+  const checklists = features.map((key) => ({
+    key,
+    label: t(`detail.features.${key}`),
+    items: t.raw(`catalog.${product.slug}.features.${key}`) as string[],
+  }));
   /* trust cards: icon from data, text by key */
   const trustCards = trust.map(({ key, icon }) => ({
     key,
