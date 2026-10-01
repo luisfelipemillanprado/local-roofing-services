@@ -1,8 +1,9 @@
+import type { ReactNode } from "react";
 import { Tabs } from "@/common/tabs/components/Tabs";
 import { ProductAbout } from "@/features/shop/detail/components/molecules/ProductAbout";
 import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
 import { ProductFeatures } from "@/features/shop/detail/components/molecules/ProductFeatures";
-import type { ProductTabsProps } from "@/features/shop/detail/types";
+import type { ProductTabKey, ProductTabsProps } from "@/features/shop/detail/types";
 
 /* the product panels, built on the server and handed to the tab shell */
 export const ProductTabs = ({
@@ -17,20 +18,20 @@ export const ProductTabs = ({
     tabs={tabs.map(({ key, label }) => ({
       key,
       label,
-      /* every key is compared, so renaming one in the data breaks the build */
+      /* the data owns the tab set; satisfies makes this map match it exactly */
       panel: (
-        <>
-          {key === "description" && <ProductAbout paragraphs={paragraphs} />}
-          {key === "specifications" && <ProductSpecTable rows={specRows} />}
-          {key === "features" && (
+        {
+          description: <ProductAbout paragraphs={paragraphs} />,
+          specifications: <ProductSpecTable rows={specRows} />,
+          features: (
             <ProductFeatures
               compatibleLabel={compatibleLabel}
               compatible={compatible}
               checklists={checklists}
             />
-          )}
-        </>
-      ),
+          ),
+        } satisfies Record<ProductTabKey, ReactNode>
+      )[key],
     }))}
   />
 );

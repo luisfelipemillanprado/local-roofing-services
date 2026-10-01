@@ -71,8 +71,8 @@ export interface ProductFeaturesProps {
   checklists: ChecklistItem[];
 }
 
-/* the tab keys the data declares, so a renamed one fails the build */
-type ProductTabKey = (typeof productDetailData.tabs)[number];
+/* the tab keys the data declares; the panel map must cover exactly these */
+export type ProductTabKey = (typeof productDetailData.tabs)[number];
 
 /* the resolved tabs, then whatever each panel renders */
 export interface ProductTabsProps {
