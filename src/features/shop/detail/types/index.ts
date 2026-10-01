@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import type { ProductAvailability } from "@/common/availability-dot/types";
 import type { shopProductsData } from "@/data/features/shop/products";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
@@ -14,6 +15,13 @@ export interface ProductDetailProps {
 export interface ProductInfoProps {
   product: ShopProduct;
   tone?: SectionTone;
+}
+
+export interface ProductPriceProps {
+  price: string;
+  unit: string;
+  availability: ProductAvailability;
+  availabilityLabel: string;
 }
 
 export interface ProductGalleryProps {

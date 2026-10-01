@@ -1,17 +1,11 @@
 import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
+import { AvailabilityDot } from "@/common/availability-dot/components/AvailabilityDot";
 import { Media } from "@/common/media/components/Media";
-import { Stars } from "@/common/stars/components/Stars";
+import { ProductRating } from "@/common/product-rating/components/ProductRating";
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
-import type { ProductCardProps, ProductAvailability } from "@/common/product-card/types";
-
-/* availability dot color per state */
-const dots: Record<ProductAvailability, string> = {
-  "in-stock": "bg-malachite",
-  "limited-stock": "bg-primary",
-  "out-of-stock": "bg-foreground-muted",
-};
+import type { ProductCardProps } from "@/common/product-card/types";
 
 export const ProductCard = ({
   title,
@@ -39,15 +33,9 @@ export const ProductCard = ({
         <Title as="h3" size="card" weight="bold" truncate text={title} />
         <div className="grid grid-flow-col items-center justify-start gap-3">
           <Text as="span" size="note" tone="muted" text={brand} />
-          <div className="inline-grid grid-flow-col items-center gap-2">
-            <span className={`size-2 rounded-full ${dots[availability]}`} />
-            <Text as="span" size="note" tone="muted" text={availabilityLabel} />
-          </div>
+          <AvailabilityDot availability={availability} label={availabilityLabel} size="note" />
         </div>
-        <div className="grid grid-flow-col items-center justify-start gap-2">
-          <Stars rating={rating} />
-          <Text as="span" size="caption" tone="muted" text={`${rating} (${reviews})`} />
-        </div>
+        <ProductRating rating={rating} label={`${rating} (${reviews})`} size="caption" />
         <div className="grid grid-flow-col items-end justify-start gap-1.5">
           <TextNumber size="price" text={priceLabel} />
           <span className="mb-0.5">

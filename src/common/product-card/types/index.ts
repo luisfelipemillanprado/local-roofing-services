@@ -1,4 +1,4 @@
-export type ProductAvailability = "in-stock" | "limited-stock" | "out-of-stock";
+import type { ProductAvailability } from "@/common/availability-dot/types";
 
 /* product card: resolved fields + view CTA */
 export interface ProductCardProps {
