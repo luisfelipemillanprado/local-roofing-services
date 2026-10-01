@@ -14,7 +14,7 @@ const { trust } = productDetailData;
 export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) => {
   const t = await getTranslations("shop-page");
 
-  /* long write up: one block per paragraph */
+  /* write up: a real i18n array, so t.raw */
   const aboutParagraphs = t.raw(`catalog.${product.slug}.about`) as string[];
   /* spec sheet: a worded value is translated, a measure ships as is */
   const specRows = product.specs.map((row) => ({
@@ -22,13 +22,13 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
     label: t(`detail.spec.${row.key}`),
     value: "valueKey" in row ? t(row.valueKey) : row.value,
   }));
-  /* pairings: each one links to its own page */
+  /* pairings: title by key, href built from the slug */
   const compatibleItems = product.compatible.map((paired) => ({
     key: paired,
     title: t(`catalog.${paired}.title`),
     href: `/shop/${paired}`,
   }));
-  /* ticked lists that follow the pairings */
+  /* checklists: label by key, items a real i18n array */
   const checklists = [
     {
       key: "install",
