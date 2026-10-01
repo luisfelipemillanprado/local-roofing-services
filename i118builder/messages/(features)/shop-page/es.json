@@ -577,7 +577,7 @@
       "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}"
     },
     "section": {
-      "description": "Descripción",
+      "about": "Descripción",
       "specifications": "Especificaciones",
       "features": "Características"
     },
