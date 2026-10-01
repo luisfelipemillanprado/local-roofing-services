@@ -75,13 +75,6 @@ export interface ProductChecklistsProps {
   lists: ChecklistItem[];
 }
 
-/* what it pairs with in the catalog, then the ticked lists that follow it */
-export interface ProductFeaturesProps {
-  compatibleLabel: string;
-  compatible: CompatibleItem[];
-  checklists: ChecklistItem[];
-}
-
 /* the strip rows the data declares; the value map must cover exactly these */
 export type SpecStripKey = (typeof productDetailData.specStrip)[number];
 
