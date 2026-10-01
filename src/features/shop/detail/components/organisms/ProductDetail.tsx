@@ -11,28 +11,31 @@ import { ProductGallery } from "@/features/shop/detail/components/molecules/Prod
 import { ProductPrice } from "@/features/shop/detail/components/molecules/ProductPrice";
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { productDetailData } from "@/data/features/shop/product-detail";
-import type { ProductDetailProps } from "@/features/shop/detail/types";
+import type { ProductDetailProps, SpecStripKey } from "@/features/shop/detail/types";
 
-const { ctaHref, viewer } = productDetailData;
+const { ctaHref, specStrip, viewer } = productDetailData;
 
 export const ProductDetail = async ({ product, tone = "base" }: ProductDetailProps) => {
   const t = await getTranslations("shop-page");
 
   /* facts under the price: data value + its i18n label */
-  const specRows = [
-    { key: "category", label: t("detail.category"), value: t(`categories.${product.category}`) },
-    { key: "unit", label: t("detail.unit"), value: t(product.unitKey) },
-    { key: "sku", label: t("detail.sku"), value: product.sku },
-    {
-      key: "warranty",
-      label: t("detail.warranty.label"),
-      /* a warranty measured in years feeds its number into the label; lifetime has none */
-      value: t(
-        product.warrantyKey,
-        "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
-      ),
-    },
-  ];
+  const specRows = specStrip.map((key) => ({
+    key,
+    label: t(`detail.strip.${key}`),
+    /* the data owns the strip; satisfies makes this map match it exactly */
+    value: (
+      {
+        category: t(`categories.${product.category}`),
+        unit: t(product.unitKey),
+        sku: product.sku,
+        /* a warranty measured in years feeds its number into the label; lifetime has none */
+        warranty: t(
+          product.warrantyKey,
+          "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
+        ),
+      } satisfies Record<SpecStripKey, string>
+    )[key],
+  }));
 
   return (
     <SectionWrapper id="product" tone={tone}>
