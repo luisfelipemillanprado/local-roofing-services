@@ -25,7 +25,7 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
     { key: "sku", label: t("detail.sku"), value: product.sku },
     {
       key: "warranty",
-      label: t("detail.section.warranty"),
+      label: t("detail.warranty.label"),
       /* a warranty measured in years feeds its number into the label; lifetime has none */
       value: t(
         product.warrantyKey,

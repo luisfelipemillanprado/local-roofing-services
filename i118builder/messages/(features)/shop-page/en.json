@@ -570,13 +570,13 @@
       "storeWarranty": "One year, Roofpro cover"
     },
     "warranty": {
+      "label": "Warranty",
       "lifetime": "Lifetime Limited",
       "limitedYears": "{years} Year Limited"
     },
     "section": {
       "description": "Description",
       "specifications": "Specifications",
-      "warranty": "Warranty",
       "features": "Features"
     },
     "features": {
