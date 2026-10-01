@@ -2,7 +2,8 @@ import type { ReactNode } from "react";
 import { Tabs } from "@/common/tabs/components/Tabs";
 import { ProductAbout } from "@/features/shop/detail/components/molecules/ProductAbout";
 import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
-import { ProductFeatures } from "@/features/shop/detail/components/molecules/ProductFeatures";
+import { ProductCompatible } from "@/features/shop/detail/components/molecules/ProductCompatible";
+import { ProductChecklists } from "@/features/shop/detail/components/molecules/ProductChecklists";
 import type { ProductTabKey, ProductTabsProps } from "@/features/shop/detail/types";
 
 /* the product panels, built on the server and handed to the tab shell */
@@ -24,11 +25,10 @@ export const ProductTabs = ({
           description: <ProductAbout paragraphs={paragraphs} />,
           specifications: <ProductSpecTable rows={specRows} />,
           features: (
-            <ProductFeatures
-              compatibleLabel={compatibleLabel}
-              compatible={compatible}
-              checklists={checklists}
-            />
+            <div className="grid gap-7">
+              <ProductCompatible label={compatibleLabel} items={compatible} />
+              <ProductChecklists lists={checklists} />
+            </div>
           ),
         } satisfies Record<ProductTabKey, ReactNode>
       )[key],
