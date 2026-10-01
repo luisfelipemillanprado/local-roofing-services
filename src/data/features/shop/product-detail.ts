@@ -1,5 +1,4 @@
-/* Shop product-detail scaffold: shared CTAs and panels.
-   Per-product specs, SKU, warranty and extra gallery shots are still pending. */
+/* Shop product detail: the shared cta, the trust card icons and the viewer labels */
 export const productDetailData = {
   /* the detail cta lands on the contact form, same wording as every other section */
   ctaHref: { key: "action.contact", href: "#contact" },
