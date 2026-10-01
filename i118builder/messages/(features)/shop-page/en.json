@@ -577,7 +577,7 @@
       "limitedYears": "{years} Year Limited"
     },
     "section": {
-      "description": "Description",
+      "about": "Description",
       "specifications": "Specifications",
       "features": "Features"
     },

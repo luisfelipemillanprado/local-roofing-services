@@ -5,7 +5,7 @@ export const productDetailData = {
   /* spec strip rows in render order, label by key; each key has its own value */
   specStrip: ["category", "unit", "sku", "warranty"],
   /* panel tabs in render order, label by key; each key has its own panel */
-  tabs: ["description", "specifications", "features"],
+  tabs: ["about", "specifications", "features"],
   /* checklist panels on the features tab, label and items by key */
   features: ["install", "coverage"],
   /* trust cards: icon by key, never reusing a pitch icon */

@@ -22,7 +22,7 @@ export const ProductTabs = ({
       /* the data owns the tab set; satisfies makes this map match it exactly */
       panel: (
         {
-          description: <ProductAbout paragraphs={paragraphs} />,
+          about: <ProductAbout paragraphs={paragraphs} />,
           specifications: <ProductSpecTable rows={specRows} />,
           features: (
             <div className="grid gap-7">
