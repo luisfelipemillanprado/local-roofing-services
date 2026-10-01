@@ -5,24 +5,16 @@ import { SectionHeading } from "@/common/section-header/components/SectionHeadin
 import { ProductSplit } from "@/common/product-split/components/ProductSplit";
 import { Button } from "@/common/call-to-actions/components/Button";
 import { Text } from "@/common/text/components/Text";
-import { TextNumber } from "@/common/text/components/TextNumber";
-import { Stars } from "@/common/stars/components/Stars";
+import { ProductRating } from "@/common/product-rating/components/ProductRating";
 import { Socials } from "@/common/social/components/Socials";
 import { layoutData } from "@/data/global/layout";
 import { ProductGallery } from "@/features/shop/detail/components/molecules/ProductGallery";
+import { ProductPrice } from "@/features/shop/detail/components/molecules/ProductPrice";
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { productDetailData } from "@/data/features/shop/product-detail";
-import type { ProductAvailability } from "@/common/product-card/types";
 import type { ProductDetailProps } from "@/features/shop/detail/types";
 
 const { ctaHref, viewer } = productDetailData;
-
-/* availability dot color per state */
-const dots: Record<ProductAvailability, string> = {
-  "in-stock": "bg-malachite",
-  "limited-stock": "bg-primary",
-  "out-of-stock": "bg-foreground-muted",
-};
 
 export const ProductDetail = async ({ product, tone = "base" }: ProductDetailProps) => {
   const t = await getTranslations("shop-page");
@@ -70,27 +62,17 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
           }
           points={
             <>
-              <div className="grid grid-flow-col items-center justify-start gap-2">
-                <Stars rating={product.rating} />
-                <Text
-                  as="span"
-                  size="body"
-                  tone="muted"
-                  text={t("detail.reviewCount", { rating: product.rating, count: product.reviews })}
-                />
-              </div>
-
-              {/* price, unit and stock state share one row, all seated on the price baseline */}
-              <div className="grid grid-flow-col items-end justify-start gap-2">
-                <TextNumber size="display" text={`$${product.price.toFixed(2)}`} />
-                <span className="mb-1">
-                  <Text as="span" size="body" tone="muted" text={`/ ${t(product.unitKey)}`} />
-                </span>
-                <span className="mb-1 ml-3 grid grid-flow-col items-center justify-start gap-2">
-                  <span className={`size-2 rounded-full ${dots[product.availability]}`} />
-                  <Text as="span" size="body" tone="muted" text={t(`availability.${product.availability}`)} />
-                </span>
-              </div>
+              <ProductRating
+                rating={product.rating}
+                label={t("detail.reviewCount", { rating: product.rating, count: product.reviews })}
+                size="body"
+              />
+              <ProductPrice
+                price={`$${product.price.toFixed(2)}`}
+                unit={t(product.unitKey)}
+                availability={product.availability}
+                availabilityLabel={t(`availability.${product.availability}`)}
+              />
             </>
           }
           stats={<ProductSpecStrip rows={specRows} />}
