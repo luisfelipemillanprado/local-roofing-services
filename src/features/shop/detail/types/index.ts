@@ -64,6 +64,17 @@ interface ChecklistItem {
   items: string[];
 }
 
+/* the pairings block: its heading plus the linked rows */
+export interface ProductCompatibleProps {
+  label: string;
+  items: CompatibleItem[];
+}
+
+/* the ticked lists that follow the pairings */
+export interface ProductChecklistsProps {
+  lists: ChecklistItem[];
+}
+
 /* what it pairs with in the catalog, then the ticked lists that follow it */
 export interface ProductFeaturesProps {
   compatibleLabel: string;
