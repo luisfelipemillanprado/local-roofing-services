@@ -36,6 +36,7 @@ export const ProductGallery = ({
           <button
             key={src}
             type="button"
+            aria-pressed={index === active}
             onClick={() => setActive(index)}
             aria-label={`${title} ${index + 1}`}
             className={`overflow-hidden rounded-media border-2 transition-colors ${
