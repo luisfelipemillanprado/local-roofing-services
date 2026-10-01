@@ -2,6 +2,8 @@
 export const productDetailData = {
   /* the detail cta lands on the contact form, same wording as every other section */
   ctaHref: { key: "action.contact", href: "#contact" },
+  /* panel tabs in render order, label by key; each key has its own panel */
+  tabs: ["description", "specifications", "features"],
   /* checklist panels on the features tab, label and items by key */
   features: ["install", "coverage"],
   /* trust cards: icon by key, never reusing a pitch icon */

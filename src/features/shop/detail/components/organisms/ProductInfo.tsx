@@ -6,7 +6,7 @@ import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
 import { productDetailData } from "@/data/features/shop/product-detail";
 import type { ProductInfoProps } from "@/features/shop/detail/types";
 
-const { features, trust } = productDetailData;
+const { tabs, features, trust } = productDetailData;
 
 export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) => {
   const t = await getTranslations("shop-page");
@@ -31,6 +31,8 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
     label: t(`detail.features.${key}`),
     items: t.raw(`catalog.${product.slug}.features.${key}`) as string[],
   }));
+  /* tabs: label by key, in the order the data declares */
+  const tabItems = tabs.map((key) => ({ key, label: t(`detail.section.${key}`) }));
   /* trust cards: icon from data, text by key */
   const trustCards = trust.map(({ key, icon }) => ({
     key,
@@ -49,9 +51,7 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
         {/* info row: same split, gutter and card grid as the pitch band */}
         <div className="grid items-start gap-13 lg:grid-cols-[0.9fr_1.1fr]">
           <ProductTabs
-            descriptionLabel={t("detail.section.description")}
-            specificationsLabel={t("detail.section.specifications")}
-            featuresLabel={t("detail.section.features")}
+            tabs={tabItems}
             paragraphs={aboutParagraphs}
             specRows={specRows}
             compatibleLabel={t("detail.features.compatible")}
