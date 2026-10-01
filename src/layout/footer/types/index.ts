@@ -1,5 +1,3 @@
-import type { SocialData } from "@/common/social/types";
-
 /* certification trust badge from the data layer; label is the image alt */
 export interface CertificationData {
   key: string;
@@ -9,7 +7,6 @@ export interface CertificationData {
 
 export interface FooterBrandProps {
   description: string;
-  socials: readonly SocialData[];
   certifications: readonly CertificationData[];
 }
 
