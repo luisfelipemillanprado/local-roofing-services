@@ -1,9 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
-import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
-import { ProductAbout } from "@/features/shop/detail/components/molecules/ProductAbout";
-import { ProductFeatures } from "@/features/shop/detail/components/molecules/ProductFeatures";
 import { ProductTabs } from "@/features/shop/detail/components/molecules/ProductTabs";
 import { IconCardList } from "@/common/icon-card-list/components/IconCardList";
 import { productDetailData } from "@/data/features/shop/product-detail";
@@ -52,29 +49,14 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
         {/* info row: same split, gutter and card grid as the pitch band */}
         <div className="grid items-start gap-13 lg:grid-cols-[0.9fr_1.1fr]">
           <ProductTabs
-            tabs={[
-              {
-                key: "description",
-                label: t("detail.section.description"),
-                panel: <ProductAbout paragraphs={aboutParagraphs} />,
-              },
-              {
-                key: "specifications",
-                label: t("detail.section.specifications"),
-                panel: <ProductSpecTable rows={specRows} />,
-              },
-              {
-                key: "features",
-                label: t("detail.section.features"),
-                panel: (
-                  <ProductFeatures
-                    compatibleLabel={t("detail.features.compatible")}
-                    compatible={compatibleItems}
-                    checklists={checklists}
-                  />
-                ),
-              },
-            ]}
+            descriptionLabel={t("detail.section.description")}
+            specificationsLabel={t("detail.section.specifications")}
+            featuresLabel={t("detail.section.features")}
+            paragraphs={aboutParagraphs}
+            specRows={specRows}
+            compatibleLabel={t("detail.features.compatible")}
+            compatible={compatibleItems}
+            checklists={checklists}
           />
 
           {/* the short column rides along while the tabs scroll, like the pitch band */}

@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import type { ProductAvailability } from "@/common/availability-dot/types";
 import type { shopProductsData } from "@/data/features/shop/products";
 
@@ -50,14 +49,35 @@ export interface ProductAboutProps {
   paragraphs: string[];
 }
 
+/* a product this one pairs with, linked to its own page */
+interface CompatibleItem {
+  key: string;
+  title: string;
+  href: string;
+}
+
+/* one ticked list: its heading and its lines */
+interface ChecklistItem {
+  key: string;
+  label: string;
+  items: string[];
+}
+
 /* what it pairs with in the catalog, then the ticked lists that follow it */
 export interface ProductFeaturesProps {
   compatibleLabel: string;
-  compatible: { key: string; title: string; href: string }[];
-  checklists: { key: string; label: string; items: string[] }[];
+  compatible: CompatibleItem[];
+  checklists: ChecklistItem[];
 }
 
-/* one tab: its label plus the already-built panel content */
+/* the three tab labels, then whatever each panel renders */
 export interface ProductTabsProps {
-  tabs: { key: string; label: string; panel: ReactNode }[];
+  descriptionLabel: string;
+  specificationsLabel: string;
+  featuresLabel: string;
+  paragraphs: string[];
+  specRows: ProductSpecRow[];
+  compatibleLabel: string;
+  compatible: CompatibleItem[];
+  checklists: ChecklistItem[];
 }
