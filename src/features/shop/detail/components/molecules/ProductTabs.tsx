@@ -6,9 +6,7 @@ import type { ProductTabsProps } from "@/features/shop/detail/types";
 
 /* the product panels, built on the server and handed to the tab shell */
 export const ProductTabs = ({
-  descriptionLabel,
-  specificationsLabel,
-  featuresLabel,
+  tabs,
   paragraphs,
   specRows,
   compatibleLabel,
@@ -16,20 +14,23 @@ export const ProductTabs = ({
   checklists,
 }: ProductTabsProps) => (
   <Tabs
-    tabs={[
-      { key: "description", label: descriptionLabel, panel: <ProductAbout paragraphs={paragraphs} /> },
-      { key: "specifications", label: specificationsLabel, panel: <ProductSpecTable rows={specRows} /> },
-      {
-        key: "features",
-        label: featuresLabel,
-        panel: (
-          <ProductFeatures
-            compatibleLabel={compatibleLabel}
-            compatible={compatible}
-            checklists={checklists}
-          />
-        ),
-      },
-    ]}
+    tabs={tabs.map(({ key, label }) => ({
+      key,
+      label,
+      /* every key is compared, so renaming one in the data breaks the build */
+      panel: (
+        <>
+          {key === "description" && <ProductAbout paragraphs={paragraphs} />}
+          {key === "specifications" && <ProductSpecTable rows={specRows} />}
+          {key === "features" && (
+            <ProductFeatures
+              compatibleLabel={compatibleLabel}
+              compatible={compatible}
+              checklists={checklists}
+            />
+          )}
+        </>
+      ),
+    }))}
   />
 );

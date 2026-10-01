@@ -1,4 +1,5 @@
 import type { ProductAvailability } from "@/common/availability-dot/types";
+import type { productDetailData } from "@/data/features/shop/product-detail";
 import type { shopProductsData } from "@/data/features/shop/products";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
@@ -70,11 +71,12 @@ export interface ProductFeaturesProps {
   checklists: ChecklistItem[];
 }
 
-/* the three tab labels, then whatever each panel renders */
+/* the tab keys the data declares, so a renamed one fails the build */
+type ProductTabKey = (typeof productDetailData.tabs)[number];
+
+/* the resolved tabs, then whatever each panel renders */
 export interface ProductTabsProps {
-  descriptionLabel: string;
-  specificationsLabel: string;
-  featuresLabel: string;
+  tabs: { key: ProductTabKey; label: string }[];
   paragraphs: string[];
   specRows: ProductSpecRow[];
   compatibleLabel: string;
