@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
 import type { CheckItemProps } from "@/common/check-item/types";
 
-/* Check-list item: check icon + text. */
+/* Check-list item: check icon + text */
 export const CheckItem = ({ text, tone }: CheckItemProps) => (
   <li className="grid grid-cols-[auto_1fr] items-center gap-3 text-left">
     <span className="grid place-items-center rounded-full bg-primary p-1">
