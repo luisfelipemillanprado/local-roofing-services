@@ -52,9 +52,6 @@
   },
   "detail": {
     "reviewCount": "{rating} from {count} Reviews",
-    "category": "Category",
-    "unit": "Sale Unit",
-    "sku": "Item Code",
     "follow": "Follow Us",
     "viewImage": "View Image",
     "close": "Close",
@@ -93,6 +90,12 @@
           "accent": "BACKED"
         }
       }
+    },
+    "strip": {
+      "category": "Category",
+      "unit": "Sale Unit",
+      "sku": "Item Code",
+      "warranty": "Warranty"
     },
     "spec": {
       "size": "Size",
@@ -570,7 +573,6 @@
       "storeWarranty": "One year, Roofpro cover"
     },
     "warranty": {
-      "label": "Warranty",
       "lifetime": "Lifetime Limited",
       "limitedYears": "{years} Year Limited"
     },

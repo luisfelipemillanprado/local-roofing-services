@@ -52,9 +52,6 @@
   },
   "detail": {
     "reviewCount": "{rating} de {count} Reseñas",
-    "category": "Categoría",
-    "unit": "Formato",
-    "sku": "Referencia",
     "follow": "Síguenos",
     "viewImage": "Ver Imagen",
     "close": "Cerrar",
@@ -93,6 +90,12 @@
           "accent": "FÁBRICA"
         }
       }
+    },
+    "strip": {
+      "category": "Categoría",
+      "unit": "Formato",
+      "sku": "Referencia",
+      "warranty": "Garantía"
     },
     "spec": {
       "size": "Medidas",
@@ -570,7 +573,6 @@
       "storeWarranty": "Un año, cobertura Roofpro"
     },
     "warranty": {
-      "label": "Garantía",
       "lifetime": "Limitada de por Vida",
       "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}"
     },

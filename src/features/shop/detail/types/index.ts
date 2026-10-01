@@ -71,6 +71,9 @@ export interface ProductFeaturesProps {
   checklists: ChecklistItem[];
 }
 
+/* the strip rows the data declares; the value map must cover exactly these */
+export type SpecStripKey = (typeof productDetailData.specStrip)[number];
+
 /* the tab keys the data declares; the panel map must cover exactly these */
 export type ProductTabKey = (typeof productDetailData.tabs)[number];
 
