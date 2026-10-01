@@ -1,70 +1,35 @@
-"use client";
-
-import { useId, useState, type KeyboardEvent } from "react";
-import { Text } from "@/common/text/components/Text";
+import { Tabs } from "@/common/tabs/components/Tabs";
+import { ProductAbout } from "@/features/shop/detail/components/molecules/ProductAbout";
+import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
+import { ProductFeatures } from "@/features/shop/detail/components/molecules/ProductFeatures";
 import type { ProductTabsProps } from "@/features/shop/detail/types";
 
-export const ProductTabs = ({ tabs }: ProductTabsProps) => {
-  const id = useId();
-  const [active, setActive] = useState(tabs[0]?.key);
-
-  /* arrow keys cycle the tabs and move focus with the selection */
-  const onKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
-    const step = event.key === "ArrowRight" ? 1 : event.key === "ArrowLeft" ? -1 : 0;
-    if (!step) return;
-    const next = (tabs.findIndex((tab) => tab.key === active) + step + tabs.length) % tabs.length;
-    setActive(tabs[next]?.key);
-    event.currentTarget.querySelectorAll<HTMLButtonElement>('[role="tab"]')[next]?.focus();
-  };
-
-  return (
-    <div className="grid content-start gap-6">
-      {/* scrolls only when the labels outgrow the column; overflow-y guards the active underline */}
-      <div
-        role="tablist"
-        onKeyDown={onKeyDown}
-        className="grid scrollbar-none grid-flow-col justify-start gap-8 overflow-x-auto overflow-y-hidden border-b border-line"
-      >
-        {tabs.map(({ key, label }) => (
-          <button
-            key={key}
-            id={`${id}-tab-${key}`}
-            type="button"
-            role="tab"
-            aria-selected={active === key}
-            aria-controls={`${id}-panel-${key}`}
-            tabIndex={active === key ? 0 : -1}
-            onClick={() => setActive(key)}
-            className={`-mb-px border-b-2 pb-3 transition-colors ${
-              active === key ? "border-primary" : "border-transparent"
-            }`}
-          >
-            <Text
-              as="span"
-              size="subhead"
-              weight="semibold"
-              tone={active === key ? "default" : "muted"}
-              text={label}
-            />
-          </button>
-        ))}
-      </div>
-
-      {/* every panel stays mounted so each tab's aria-controls resolves */}
-      {tabs.map(({ key, panel }) => (
-        <div
-          key={key}
-          id={`${id}-panel-${key}`}
-          role="tabpanel"
-          aria-labelledby={`${id}-tab-${key}`}
-          hidden={active !== key}
-          tabIndex={0}
-          /* caps the reading measure; only bites below lg, where the panel spans the container */
-          className="max-w-3xl"
-        >
-          {panel}
-        </div>
-      ))}
-    </div>
-  );
-};
+/* the product panels, built on the server and handed to the tab shell */
+export const ProductTabs = ({
+  descriptionLabel,
+  specificationsLabel,
+  featuresLabel,
+  paragraphs,
+  specRows,
+  compatibleLabel,
+  compatible,
+  checklists,
+}: ProductTabsProps) => (
+  <Tabs
+    tabs={[
+      { key: "description", label: descriptionLabel, panel: <ProductAbout paragraphs={paragraphs} /> },
+      { key: "specifications", label: specificationsLabel, panel: <ProductSpecTable rows={specRows} /> },
+      {
+        key: "features",
+        label: featuresLabel,
+        panel: (
+          <ProductFeatures
+            compatibleLabel={compatibleLabel}
+            compatible={compatible}
+            checklists={checklists}
+          />
+        ),
+      },
+    ]}
+  />
+);
