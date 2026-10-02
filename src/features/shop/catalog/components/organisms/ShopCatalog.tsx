@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
 import { ShopBrowser } from "@/features/shop/catalog/components/organisms/ShopBrowser";
-import { shopProductsData } from "@/data/features/shop/products";
+import { formatPrice, shopProductsData } from "@/data/features/shop/products";
 import type { ShopCatalogProps, ShopSort } from "@/features/shop/catalog/types";
 
 const { categories, categoryImages, items } = shopProductsData;
@@ -19,7 +19,7 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
     image: product.image,
     category: product.category,
     price: product.price,
-    priceLabel: `$${product.price.toFixed(2)}`,
+    priceLabel: formatPrice(product.price),
     unit: t(product.unitKey),
     rating: product.rating,
     reviews: product.reviews,
