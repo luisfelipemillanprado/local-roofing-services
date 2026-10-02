@@ -6,7 +6,7 @@ const eslintConfig = [
   {
     ignores: [".next/**", "node_modules/**", "scripts/**"],
   },
-  // Must be last: turns off ESLint rules that conflict with Prettier.
+  /* must be last: turns off the rules that conflict with prettier */
   prettier,
 ];
 
