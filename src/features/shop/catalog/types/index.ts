@@ -29,12 +29,13 @@ interface ShopCategoryItem {
 /* the sort options the data declares; the comparator map must cover exactly these */
 export type ShopSort = (typeof shopProductsData.sortOrder)[number];
 
-/* account row icons; no logic behind them yet */
-interface ShopAccountLabels {
-  saved: string;
-  account: string;
-  orders: string;
-  cart: string;
+/* the account row keys the data declares; the icon map must cover exactly these */
+export type ShopAccountKey = (typeof shopProductsData.accountRow)[number];
+
+/* one account row item; no logic behind these yet */
+interface ShopAccountItem {
+  key: ShopAccountKey;
+  label: string;
 }
 
 export interface ShopSearchBarProps {
@@ -42,7 +43,7 @@ export interface ShopSearchBarProps {
   onChange: (value: string) => void;
   label: string;
   placeholder: string;
-  accountLabels: ShopAccountLabels;
+  account: ShopAccountItem[];
 }
 
 export interface CategoryStripProps {
@@ -66,7 +67,7 @@ export interface ShopBrowserProps {
   viewLabel: string;
   searchLabel: string;
   searchPlaceholder: string;
-  accountLabels: ShopAccountLabels;
+  account: ShopAccountItem[];
   sortLabel: string;
   sortOptions: { value: ShopSort; label: string }[];
   previousLabel: string;
