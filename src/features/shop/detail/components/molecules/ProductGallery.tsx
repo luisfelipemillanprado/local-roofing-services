@@ -31,6 +31,7 @@ export const ProductGallery = ({
         </div>
       </div>
 
+      {/* five columns for the five shots every product carries: main plus four */}
       <div className="grid grid-cols-5 gap-3">
         {images.map((src, index) => (
           <button
