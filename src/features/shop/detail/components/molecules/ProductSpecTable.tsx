@@ -1,7 +1,7 @@
 import { Text } from "@/common/text/components/Text";
 import type { ProductSpecProps } from "@/features/shop/detail/types";
 
-/* spec sheet rows; label left, value right, ruled between rows */
+/* spec sheet rows; label left, value right, a rule under each including the last */
 export const ProductSpecTable = ({ rows }: ProductSpecProps) => (
   <dl className="grid">
     {rows.map(({ key, label, value }) => (
