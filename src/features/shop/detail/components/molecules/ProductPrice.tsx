@@ -10,7 +10,7 @@ export const ProductPrice = ({ price, unit, availability, availabilityLabel }: P
     <span className="mb-1">
       <Text as="span" size="body" tone="muted" text={`/ ${unit}`} />
     </span>
-    {/* inline-grid, not a bare span: margin-bottom would not apply to an inline box */}
+    {/* inline-grid keeps the dot wrapper off a text baseline; mb-1 works either way */}
     <span className="mb-1 ml-3 inline-grid">
       <AvailabilityDot availability={availability} label={availabilityLabel} size="body" />
     </span>
