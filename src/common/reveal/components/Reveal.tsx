@@ -1,30 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRevealOnScroll } from "@/hooks/common/reveal/useRevealOnScroll";
 import type { RevealProps } from "@/common/reveal/types";
 
-/* one shared IntersectionObserver for all <Reveal>s; fires its callback once, then unobserves */
-let observer: IntersectionObserver | null = null;
-const callbacks = new WeakMap<Element, () => void>();
-
-function getObserver(): IntersectionObserver {
-  if (observer) return observer;
-  observer = new IntersectionObserver(
-    (entries) => {
-      for (const entry of entries) {
-        if (entry.isIntersecting) {
-          callbacks.get(entry.target)?.();
-          observer?.unobserve(entry.target);
-          callbacks.delete(entry.target);
-        }
-      }
-    },
-    { threshold: 0.2 },
-  );
-  return observer;
-}
-
-/* client scroll reveal wrapper; children stay server rendered, visibility in state to survive re-renders */
+/* client scroll reveal wrapper; children stay server rendered */
 export const Reveal = ({
   children,
   className,
@@ -32,26 +11,7 @@ export const Reveal = ({
   delay = 0,
   as: Tag = "div",
 }: RevealProps) => {
-  const ref = useRef<HTMLElement>(null);
-  const [shown, setShown] = useState(false);
-
-  useEffect(() => {
-    const node = ref.current;
-    if (!node || shown) return;
-    /* no IntersectionObserver: reveal immediately so content isn't stuck hidden */
-    if (typeof IntersectionObserver === "undefined") {
-      /* eslint-disable-next-line react-hooks/set-state-in-effect */
-      setShown(true);
-      return;
-    }
-    const io = getObserver();
-    callbacks.set(node, () => setShown(true));
-    io.observe(node);
-    return () => {
-      io.unobserve(node);
-      callbacks.delete(node);
-    };
-  }, [shown]);
+  const { ref, shown } = useRevealOnScroll();
 
   return (
     <Tag

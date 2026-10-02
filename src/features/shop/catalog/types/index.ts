@@ -77,3 +77,11 @@ export interface ShopBrowserProps {
 export interface ShopCatalogProps {
   tone?: SectionTone;
 }
+
+/* what the result list is filtered and sorted by */
+export interface ShopResultsOptions {
+  items: ShopCatalogItem[];
+  category: string;
+  search: string;
+  sort: ShopSort;
+}

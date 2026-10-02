@@ -44,3 +44,10 @@ export interface ViewerZoomButtonProps {
   index: number;
   label: string;
 }
+
+/* the three viewer actions the keyboard drives */
+export interface ViewerKeys {
+  onClose: () => void;
+  onPrev: () => void;
+  onNext: () => void;
+}

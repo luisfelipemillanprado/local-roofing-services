@@ -5,7 +5,9 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { ViewerControl } from "@/common/image-viewer/components/ViewerControl";
-import { useCarousel } from "@/carousel/hooks/useCarousel";
+import { useCarousel } from "@/hooks/carousel/useCarousel";
+import { useScrollLock } from "@/hooks/common/image-viewer/useScrollLock";
+import { useKeyboard } from "@/hooks/common/image-viewer/useKeyboard";
 import type { ImageViewerProps } from "@/common/image-viewer/types";
 
 /* modal image viewer: backdrop, swipeable track, caption; portaled above the app shell */
@@ -25,25 +27,13 @@ export const ImageViewer = ({
     align: "center",
   });
 
-  /* on open: lock scroll and move focus into the dialog */
-  useEffect(() => {
-    document.body.style.overflow = "hidden";
-    closeRef.current?.focus();
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, []);
+  useScrollLock();
+  useKeyboard({ onClose, onPrev: goToPrev, onNext: goToNext });
 
-  /* keyboard: escape closes, arrows navigate */
+  /* the focus target is this dialog's own close button, so it stays here */
   useEffect(() => {
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === "Escape") onClose();
-      else if (event.key === "ArrowLeft") goToPrev();
-      else if (event.key === "ArrowRight") goToNext();
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [onClose, goToPrev, goToNext]);
+    closeRef.current?.focus();
+  }, []);
 
   if (typeof document === "undefined") return null;
   const card = cards[selectedIndex];

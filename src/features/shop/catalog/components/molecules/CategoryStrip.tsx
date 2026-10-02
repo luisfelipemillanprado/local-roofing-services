@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
-import { useCarousel } from "@/carousel/hooks/useCarousel";
+import { useCarousel } from "@/hooks/carousel/useCarousel";
 import type { CategoryStripProps } from "@/features/shop/catalog/types";
 
 /* category chips: a plain drag strip, arrows only while the row overflows */
