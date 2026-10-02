@@ -3,10 +3,9 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Container } from "@/common/container/components/Container";
 import { ShopBrowser } from "@/features/shop/catalog/components/organisms/ShopBrowser";
 import { formatPrice, shopProductsData } from "@/data/features/shop/products";
-import type { ShopCatalogProps, ShopSort } from "@/features/shop/catalog/types";
+import type { ShopCatalogProps } from "@/features/shop/catalog/types";
 
-const { categories, categoryImages, items } = shopProductsData;
-const sortOrder: ShopSort[] = ["best", "priceAsc", "priceDesc", "topRated"];
+const { categories, items, sortOrder } = shopProductsData;
 
 /* shop catalog: search and category chips over the product grid */
 export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
@@ -32,10 +31,10 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
       <Container>
         <ShopBrowser
           items={products}
-          categories={categories.map((category) => ({
-            key: category,
-            label: t(`categories.${category}`),
-            image: categoryImages.find((item) => item.key === category)!.image,
+          categories={categories.map(({ key, image }) => ({
+            key,
+            label: t(`categories.${key}`),
+            image,
           }))}
           viewLabel={t("action.view")}
           searchLabel={t("search.label")}

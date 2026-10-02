@@ -3,9 +3,7 @@
    image = folder main shot; gallery = extra shots in the same folder (variants). */
 export const shopProductsData = {
   /* /shop category strip: chips render in this order, first one selected by default */
-  categories: ["shingles", "metal", "underlayment", "flashing", "accessories", "tools", "supplies"],
-  /* category strip photos, linked by category key */
-  categoryImages: [
+  categories: [
     { key: "shingles", image: "/images/categories/shingles.webp" },
     { key: "metal", image: "/images/categories/metal-roofing.webp" },
     { key: "underlayment", image: "/images/categories/underlayment.webp" },
@@ -14,6 +12,8 @@ export const shopProductsData = {
     { key: "tools", image: "/images/categories/tools.webp" },
     { key: "supplies", image: "/images/categories/supplies.webp" },
   ],
+  /* results sort in select order, label by key; each key has its own comparator */
+  sortOrder: ["best", "priceAsc", "priceDesc", "topRated"],
   items: [
     /* shingles lead with the distinct roof profiles, then the rectangular tabs */
     {
