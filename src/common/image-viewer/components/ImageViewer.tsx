@@ -6,8 +6,8 @@ import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { ViewerControl } from "@/common/image-viewer/components/ViewerControl";
 import { useCarousel } from "@/hooks/carousel/useCarousel";
-import { useScrollLock } from "@/hooks/common/image-viewer/useScrollLock";
-import { useKeyboard } from "@/hooks/common/image-viewer/useKeyboard";
+import { useScrollLock } from "@/hooks/image-viewer/useScrollLock";
+import { useKeyboard } from "@/hooks/image-viewer/useKeyboard";
 import type { ImageViewerProps } from "@/common/image-viewer/types";
 
 /* modal image viewer: backdrop, swipeable track, caption; portaled above the app shell */
