@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { useCarouselDots } from "@/carousel/hooks/useCarouselDots";
+import { useCarouselDots } from "@/hooks/carousel/useCarouselDots";
 import type { Carousel, CarouselOptions } from "@/carousel/types";
 
 /* carousel state: dots and manual navigation; looped autoplay by default */

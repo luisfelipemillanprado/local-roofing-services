@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState, type MouseEvent } from "react";
+import { type MouseEvent } from "react";
 import { Menu, X, Home, Info, Wrench, Images, Package, MapPin } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
+import { useEnterExit } from "@/hooks/layout/navbar/useEnterExit";
 import type { MobileMenuProps, NavLinkKey } from "@/layout/navbar/types";
 
 /* exit transition duration — drives animation + unmount delay */
@@ -23,37 +24,12 @@ const ICONS: Record<NavLinkKey, LucideIcon> = {
 
 /* mobile menu: trigger + full-screen overlay of links */
 export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProps) => {
-  const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const [isOpen, setIsOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
-
-  /* mount, then open next frame for the enter transition */
-  const handleOpenOptions = () => {
-    if (isOpen) return;
-    if (closeTimeoutRef.current) {
-      clearTimeout(closeTimeoutRef.current);
-      closeTimeoutRef.current = null;
-    }
-    setIsVisible(true);
-    requestAnimationFrame(() => setIsOpen(true));
-  };
-
-  /* play exit transition, then unmount */
-  const handleCloseOptions = () => {
-    if (!isOpen) return;
-    setIsOpen(false);
-    closeTimeoutRef.current = setTimeout(() => {
-      setIsVisible(false);
-      closeTimeoutRef.current = null;
-    }, ANIMATION_MS);
-  };
-
-  /* clear pending close timeout on unmount */
-  useEffect(() => {
-    return () => {
-      if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
-    };
-  }, []);
+  const {
+    isOpen,
+    isVisible,
+    open: handleOpenOptions,
+    close: handleCloseOptions,
+  } = useEnterExit(ANIMATION_MS);
 
   /* keep clicks inside the panel from closing via the overlay */
   const handlePropagateOptions = (e: MouseEvent) => e.stopPropagation();

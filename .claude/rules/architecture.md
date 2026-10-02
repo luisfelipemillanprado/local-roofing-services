@@ -6,7 +6,9 @@
   - `shared-sections/` — organisms reused by **two or more** routes.
   - `layout/` — app-shell chrome (navbar, footer, floating-contact).
   - `features/<route>/` — organisms used by a **single** route.
-  - `carousel/` — self-contained carousel engine (hooks + types), no app-tier imports.
+  - `carousel/` — self-contained carousel engine (types), no app-tier imports.
+  - `hooks/` — every custom hook, mirroring the owning slice's path so the folder states
+    where a hook belongs: `hooks/<tier>/<slice>/useX.ts` (`hooks/carousel/` for the engine).
   - `data/` — non-translatable data/metadata; `i18n/` — locale config/helpers;
     `app/` — Next.js routing & page composition.
 - **Enforced import boundaries.** The source of truth is `.dependency-cruiser.cjs`, verified
@@ -19,6 +21,9 @@
     import `app/`.
   - `data/` must not import component runtime from any tier — **`type-only` imports are the
     only allowed exception** (e.g. importing a `*Props`/`*Data` type).
+  - every tier rule above also governs that tier's hooks: the patterns read
+    `^src/(?:hooks/)?<tier>/`, so `hooks/common/` is as pure as `common/` and `common/` may
+    not reach a hook that belongs to a higher tier.
   - no circular dependencies; no unresolvable modules.
 - Atomic subfolders (`atoms/`/`molecules/`/`organisms/`) appear **only** when a slice truly
   spans multiple tiers; a single-component slice stays flat at `<slice>/components/X.tsx`.

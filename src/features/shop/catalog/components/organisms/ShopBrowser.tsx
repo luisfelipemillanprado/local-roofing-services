@@ -1,19 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { ShopSearchBar } from "@/features/shop/catalog/components/molecules/ShopSearchBar";
 import { CategoryStrip } from "@/features/shop/catalog/components/molecules/CategoryStrip";
 import { SortSelect } from "@/features/shop/catalog/components/molecules/SortSelect";
 import { ShopProductList } from "@/features/shop/catalog/components/molecules/ShopProductList";
-import type { ShopBrowserProps, ShopCatalogItem, ShopSort } from "@/features/shop/catalog/types";
-
-/* the data owns the sort set; Record makes this map match it exactly */
-const sorters: Record<ShopSort, (a: ShopCatalogItem, b: ShopCatalogItem) => number> = {
-  best: () => 0 /* catalog order */,
-  priceAsc: (a, b) => a.price - b.price,
-  priceDesc: (a, b) => b.price - a.price,
-  topRated: (a, b) => b.rating - a.rating || b.reviews - a.reviews,
-};
+import { useShopResults } from "@/hooks/features/shop/catalog/useShopResults";
+import type { ShopBrowserProps, ShopSort } from "@/features/shop/catalog/types";
 
 export const ShopBrowser = ({
   items,
@@ -31,17 +24,7 @@ export const ShopBrowser = ({
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<ShopSort>("best");
 
-  /* a query searches the whole catalog and overrides the category */
-  const results = useMemo(() => {
-    const query = search.trim().toLowerCase();
-    return items
-      .filter((item) =>
-        query === ""
-          ? item.category === category
-          : item.title.toLowerCase().includes(query) || item.brand.toLowerCase().includes(query),
-      )
-      .sort(sorters[sort]);
-  }, [items, category, search, sort]);
+  const results = useShopResults({ items, category, search, sort });
 
   return (
     <div className="grid gap-10">
