@@ -7,12 +7,6 @@
     "label": "Buscar Productos",
     "placeholder": "Busca productos, marcas y más"
   },
-  "account": {
-    "saved": "Guardados",
-    "account": "Cuenta",
-    "orders": "Pedidos",
-    "cart": "Carrito"
-  },
   "sort": {
     "label": "Ordenar por",
     "best": "Mejor Coincidencia",

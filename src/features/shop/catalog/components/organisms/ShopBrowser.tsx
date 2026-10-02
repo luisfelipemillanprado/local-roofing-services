@@ -14,7 +14,6 @@ export const ShopBrowser = ({
   viewLabel,
   searchLabel,
   searchPlaceholder,
-  account,
   sortLabel,
   sortOptions,
   previousLabel,
@@ -28,13 +27,19 @@ export const ShopBrowser = ({
 
   return (
     <div className="grid gap-10">
-      <ShopSearchBar
-        value={search}
-        onChange={setSearch}
-        label={searchLabel}
-        placeholder={searchPlaceholder}
-        account={account}
-      />
+      {/* search takes the row, sort sits in the slot the account icons used to hold */}
+      <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:gap-8">
+        <ShopSearchBar
+          value={search}
+          onChange={setSearch}
+          label={searchLabel}
+          placeholder={searchPlaceholder}
+        />
+        {/* content-width on phones too, or the grid stretches the select across */}
+        <div className="justify-self-start lg:justify-self-end">
+          <SortSelect label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
+        </div>
+      </div>
       <CategoryStrip
         categories={categories}
         active={category}
@@ -42,13 +47,7 @@ export const ShopBrowser = ({
         previousLabel={previousLabel}
         nextLabel={nextLabel}
       />
-      <div className="grid gap-7">
-        {/* left half stays free for the heading that lands here later */}
-        <div className="justify-self-end">
-          <SortSelect label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
-        </div>
-        <ShopProductList cards={results} viewLabel={viewLabel} />
-      </div>
+      <ShopProductList cards={results} viewLabel={viewLabel} />
     </div>
   );
 };

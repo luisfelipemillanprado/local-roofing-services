@@ -5,7 +5,7 @@ import { ShopBrowser } from "@/features/shop/catalog/components/organisms/ShopBr
 import { formatPrice, shopProductsData } from "@/data/features/shop/products";
 import type { ShopCatalogProps } from "@/features/shop/catalog/types";
 
-const { accountRow, categories, items, sortOrder } = shopProductsData;
+const { categories, items, sortOrder } = shopProductsData;
 
 /* shop catalog: search and category chips over the product grid */
 export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
@@ -39,7 +39,6 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
           viewLabel={t("action.view")}
           searchLabel={t("search.label")}
           searchPlaceholder={t("search.placeholder")}
-          account={accountRow.map((key) => ({ key, label: t(`account.${key}`) }))}
           sortLabel={t("sort.label")}
           sortOptions={sortOrder.map((value) => ({ value, label: t(`sort.${value}`) }))}
           previousLabel={t("strip.previous")}
