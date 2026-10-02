@@ -11,6 +11,7 @@ import { ProductGallery } from "@/features/shop/detail/components/molecules/Prod
 import { ProductPrice } from "@/features/shop/detail/components/molecules/ProductPrice";
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { productDetailData } from "@/data/features/shop/product-detail";
+import { formatPrice } from "@/data/features/shop/products";
 import type { ProductDetailProps, SpecStripKey } from "@/features/shop/detail/types";
 
 const { ctaHref, specStrip, viewer } = productDetailData;
@@ -71,7 +72,7 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
                 size="body"
               />
               <ProductPrice
-                price={`$${product.price.toFixed(2)}`}
+                price={formatPrice(product.price)}
                 unit={t(product.unitKey)}
                 availability={product.availability}
                 availabilityLabel={t(`availability.${product.availability}`)}

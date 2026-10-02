@@ -4,7 +4,7 @@ import { Button } from "@/common/call-to-actions/components/Button";
 import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
 import { getTranslations } from "next-intl/server";
 import { productsData } from "@/data/shared-sections/products";
-import { shopProductsData } from "@/data/features/shop/products";
+import { formatPrice, shopProductsData } from "@/data/features/shop/products";
 import type { ProductsProps } from "@/shared-sections/products/types";
 import { Container } from "@/common/container/components/Container";
 
@@ -21,7 +21,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
     title: tShop(`catalog.${product.slug}.title`),
     brand: product.brand,
     image: product.image,
-    priceLabel: `$${product.price.toFixed(2)}`,
+    priceLabel: formatPrice(product.price),
     unit: tShop(product.unitKey),
     rating: product.rating,
     reviews: product.reviews,
