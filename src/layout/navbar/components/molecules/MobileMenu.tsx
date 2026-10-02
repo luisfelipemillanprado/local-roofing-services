@@ -6,7 +6,7 @@ import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
-import { useEnterExit } from "@/hooks/layout/navbar/useEnterExit";
+import { useEnterExit } from "@/hooks/navbar/useEnterExit";
 import type { MobileMenuProps, NavLinkKey } from "@/layout/navbar/types";
 
 /* exit transition duration — drives animation + unmount delay */
