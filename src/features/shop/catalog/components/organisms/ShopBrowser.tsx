@@ -21,7 +21,7 @@ export const ShopBrowser = ({
   viewLabel,
   searchLabel,
   searchPlaceholder,
-  accountLabels,
+  account,
   sortLabel,
   sortOptions,
   previousLabel,
@@ -50,7 +50,7 @@ export const ShopBrowser = ({
         onChange={setSearch}
         label={searchLabel}
         placeholder={searchPlaceholder}
-        accountLabels={accountLabels}
+        account={account}
       />
       <CategoryStrip
         categories={categories}

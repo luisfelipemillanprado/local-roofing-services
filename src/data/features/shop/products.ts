@@ -14,6 +14,8 @@ export const shopProductsData = {
   ],
   /* results sort in select order, label by key; each key has its own comparator */
   sortOrder: ["best", "priceAsc", "priceDesc", "topRated"],
+  /* search bar account row: items render in this order, label and icon by key */
+  accountRow: ["saved", "account", "orders", "cart"],
   items: [
     /* shingles lead with the distinct roof profiles, then the rectangular tabs */
     {
