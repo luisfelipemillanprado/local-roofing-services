@@ -1,4 +1,5 @@
 import type { ProductCardProps } from "@/common/product-card/types";
+import type { shopProductsData } from "@/data/features/shop/products";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
@@ -25,7 +26,8 @@ interface ShopCategoryItem {
   image: string;
 }
 
-export type ShopSort = "best" | "priceAsc" | "priceDesc" | "topRated";
+/* the sort options the data declares; the comparator map must cover exactly these */
+export type ShopSort = (typeof shopProductsData.sortOrder)[number];
 
 /* account row icons; no logic behind them yet */
 interface ShopAccountLabels {

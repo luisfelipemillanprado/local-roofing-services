@@ -7,6 +7,7 @@ import { SortSelect } from "@/features/shop/catalog/components/molecules/SortSel
 import { ShopProductList } from "@/features/shop/catalog/components/molecules/ShopProductList";
 import type { ShopBrowserProps, ShopCatalogItem, ShopSort } from "@/features/shop/catalog/types";
 
+/* the data owns the sort set; Record makes this map match it exactly */
 const sorters: Record<ShopSort, (a: ShopCatalogItem, b: ShopCatalogItem) => number> = {
   best: () => 0 /* catalog order */,
   priceAsc: (a, b) => a.price - b.price,
