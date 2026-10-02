@@ -11,17 +11,16 @@ const renamedProducts = [
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  // Pin the workspace root to this project so Next.js doesn't infer it from a
-  // stray pnpm-lock.yaml in the home directory.
+  /* pin the root here, or a stray home-directory lockfile is inferred instead */
   turbopack: {
     root: import.meta.dirname,
   },
-  // Hide the Next.js dev indicator badge (the floating "N" in the corner).
+  /* hide the floating dev indicator badge */
   devIndicators: false,
   images: {
     formats: ["image/avif", "image/webp"],
   },
-  // /gallery was renamed to /projects; keep old URLs working.
+  /* /gallery became /projects; the old urls keep working */
   async redirects() {
     return [
       { source: "/gallery", destination: "/projects", permanent: true },
