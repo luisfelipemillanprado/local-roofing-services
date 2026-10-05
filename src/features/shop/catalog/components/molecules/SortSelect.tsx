@@ -10,7 +10,7 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
     <select
       value={value}
       onChange={(event) => onChange(event.target.value as ShopSort)}
-      className="rounded-full border border-line bg-surface-panel px-4 py-2 text-foreground outline-none focus:border-primary"
+      className="rounded-full border border-line bg-surface-panel px-4 py-4 text-foreground outline-none focus:border-primary"
     >
       {options.map(({ value: optionValue, label: optionLabel }) => (
         <option key={optionValue} value={optionValue}>
