@@ -40,7 +40,6 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
           searchLabel={t("search.label")}
           searchPlaceholder={t("search.placeholder")}
           searchSubmitLabel={t("action.search")}
-          searchClearLabel={t("action.clear")}
           sortLabel={t("sort.label")}
           sortOptions={sortOrder.map((value) => ({ value, label: t(`sort.${value}`) }))}
           previousLabel={t("strip.previous")}

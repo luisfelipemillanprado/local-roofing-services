@@ -32,13 +32,11 @@ export type ShopSort = (typeof shopProductsData.sortOrder)[number];
 export interface ShopSearchBarProps {
   value: string;
   onChange: (value: string) => void;
-  /* typing no longer filters; these two are what commit and reset the query */
+  /* typing no longer filters; the submit is what hands the query to the list */
   onSubmit: () => void;
-  onClear: () => void;
   label: string;
   placeholder: string;
   submitLabel: string;
-  clearLabel: string;
 }
 
 export interface CategoryStripProps {
@@ -63,7 +61,6 @@ export interface ShopBrowserProps {
   searchLabel: string;
   searchPlaceholder: string;
   searchSubmitLabel: string;
-  searchClearLabel: string;
   sortLabel: string;
   sortOptions: { value: ShopSort; label: string }[];
   previousLabel: string;

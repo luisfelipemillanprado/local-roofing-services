@@ -15,7 +15,6 @@ export const ShopBrowser = ({
   searchLabel,
   searchPlaceholder,
   searchSubmitLabel,
-  searchClearLabel,
   sortLabel,
   sortOptions,
   previousLabel,
@@ -35,16 +34,15 @@ export const ShopBrowser = ({
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:gap-8">
         <ShopSearchBar
           value={query}
-          onChange={setQuery}
-          onSubmit={() => setSearch(query)}
-          onClear={() => {
-            setQuery("");
-            setSearch("");
+          onChange={(next) => {
+            setQuery(next);
+            /* an empty box means the whole catalog, however it was emptied */
+            if (next === "") setSearch("");
           }}
+          onSubmit={() => setSearch(query)}
           label={searchLabel}
           placeholder={searchPlaceholder}
           submitLabel={searchSubmitLabel}
-          clearLabel={searchClearLabel}
         />
         {/* content-width on phones too, or the grid stretches the select across */}
         <div className="justify-self-start lg:justify-self-end">

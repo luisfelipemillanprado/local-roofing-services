@@ -2,8 +2,7 @@
   "action": {
     "contact": "Contactar Ahora",
     "view": "Ver Producto",
-    "search": "Buscar",
-    "clear": "Limpiar Búsqueda"
+    "search": "Buscar"
   },
   "search": {
     "label": "Buscar Productos",
