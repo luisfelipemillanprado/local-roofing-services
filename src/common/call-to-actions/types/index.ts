@@ -20,3 +20,9 @@ export interface ArrowLinkProps {
   label: string;
   pulse?: boolean;
 }
+
+/* Square icon button (renders <button>); closes a search field's trailing edge */
+export interface SearchButtonProps {
+  label: string;
+  onClick: () => void;
+}
