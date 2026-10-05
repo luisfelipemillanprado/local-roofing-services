@@ -6,13 +6,12 @@ import type { ShopSort, SortSelectProps } from "@/features/shop/catalog/types";
 export const SortSelect = ({ label, value, options, onChange }: SortSelectProps) => (
   <label className="grid grid-flow-col items-center justify-start gap-3">
     <Text as="span" size="body" tone="muted" text={label} />
-    {/* same shell as the search bar: the icons sit outside the control, all in one box */}
-    <span className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-xl bg-surface-panel py-4 pr-4 pl-5">
-      <Funnel className="size-5 text-foreground-muted" />
+    {/* the select is the whole box, so every pixel of it opens the picker */}
+    <span className="relative">
       <select
         value={value}
         onChange={(event) => onChange(event.target.value as ShopSort)}
-        className="sort-select w-full bg-transparent text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
+        className="sort-select rounded-xl bg-surface-panel py-4 pr-11 pl-13 leading-6 text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
       >
         {options.map((option) => (
           <option key={option.value} value={option.value}>
@@ -20,7 +19,9 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
           </option>
         ))}
       </select>
-      <ChevronDown className="size-5 text-foreground-muted" />
+      {/* both ride on top of the control, inert, so they never steal the click */}
+      <Funnel className="pointer-events-none absolute top-1/2 left-5 size-5 -translate-y-1/2 text-foreground-muted" />
+      <ChevronDown className="pointer-events-none absolute top-1/2 right-4 size-5 -translate-y-1/2 text-foreground-muted" />
     </span>
   </label>
 );
