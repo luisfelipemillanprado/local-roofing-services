@@ -1,7 +1,9 @@
 {
   "action": {
     "contact": "Contact Us Now",
-    "view": "View Product"
+    "view": "View Product",
+    "search": "Search",
+    "clear": "Clear Search"
   },
   "search": {
     "label": "Search Products",
