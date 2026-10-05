@@ -279,6 +279,41 @@
   );
 }
 
+/* Sort select: base-select hands Chrome the picker; browsers without it keep the OS list */
+@utility sort-select {
+  /* @supports, not a second declaration: the optimizer collapses those and drops the fallback */
+  appearance: none;
+
+  @supports (appearance: base-select) {
+    appearance: base-select;
+  }
+
+  &::picker(select) {
+    appearance: base-select;
+    margin-block-start: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    background-color: var(--surface-panel);
+    box-shadow: 0 12px 28px -12px color-mix(in oklab, var(--shade) 55%, transparent);
+  }
+
+  & option {
+    padding: 0.625rem 0.75rem;
+    border-radius: 0.5rem;
+  }
+
+  & option:checked,
+  & option:hover {
+    background-color: var(--surface-muted);
+  }
+
+  /* the shell draws the chevron, so the control's own one goes */
+  &::picker-icon {
+    display: none;
+  }
+}
+
 /* Offices map (MapLibre DOM): branded popup; two-class selectors beat the library CSS */
 .office-popup .maplibregl-popup-content {
   padding: 0.875rem 1rem;
