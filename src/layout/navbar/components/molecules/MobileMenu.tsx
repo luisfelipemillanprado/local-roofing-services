@@ -1,13 +1,12 @@
 "use client";
 
-import { type MouseEvent } from "react";
+import type { MouseEvent } from "react";
 import { Menu, X, Home, Info, Wrench, Images, Package, MapPin } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
 import { useEnterExit } from "@/hooks/transition/useEnterExit";
-import { useScrollLock } from "@/hooks/scroll-lock/useScrollLock";
 import type { MobileMenuProps, NavLinkKey } from "@/layout/navbar/types";
 
 /* exit transition duration — drives animation + unmount delay */
@@ -31,8 +30,6 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
     open: handleOpenOptions,
     close: handleCloseOptions,
   } = useEnterExit(ANIMATION_MS);
-  /* the menu outlives its open state, so the lock follows the flag and not the mount */
-  useScrollLock(isOpen);
 
   /* keep clicks inside the panel from closing via the overlay */
   const handlePropagateOptions = (e: MouseEvent) => e.stopPropagation();
@@ -52,6 +49,8 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
 
       {isVisible && (
         <div
+          /* what the page lock keys on; it is gone from the DOM the moment the menu is */
+          data-mobile-menu
           onClick={handleCloseOptions}
           className={clsx(
             "fixed inset-x-0 top-header z-(--z-overlay) h-dvh transition-colors duration-150 lg:hidden",

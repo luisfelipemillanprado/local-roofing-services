@@ -11,7 +11,7 @@
     imports: a hook that imports a slice's types lives in that slice's folder
     (`hooks/<slice>/useX.ts` — `carousel`, `image-viewer`, `shop`); a hook that imports
     nothing but React belongs to no slice and is named for what it does
-    (`hooks/scroll-lock/`, `hooks/transition/`, `hooks/viewport/`). Never file a generic
+    (`hooks/transition/`, `hooks/viewport/`). Never file a generic
     hook under whichever slice happened to need it first.
   - `data/` — non-translatable data/metadata; `i18n/` — locale config/helpers;
     `app/` — Next.js routing & page composition.
