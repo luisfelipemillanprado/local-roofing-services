@@ -35,7 +35,7 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
   return (
     <div className="grid grid-flow-col items-center justify-start gap-3">
       <span id={`${id}-label`}>
-        <Text as="span" size="body" tone="muted" text={label} />
+        <Text as="span" size="subhead" tone="muted" text={label} />
       </span>
 
       {/* the trigger's own box, so the panel's min-width is the trigger and not the whole row */}
