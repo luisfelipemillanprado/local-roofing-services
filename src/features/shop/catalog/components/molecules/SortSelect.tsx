@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useRef, useState, type KeyboardEvent } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { ChevronDown, Funnel } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
 import type { SortSelectProps } from "@/features/shop/catalog/types";
@@ -8,15 +8,12 @@ import type { SortSelectProps } from "@/features/shop/catalog/types";
 /* results sort: a dropdown of our own, so the panel's size and layer are ours to set */
 export const SortSelect = ({ label, value, options, onChange }: SortSelectProps) => {
   const [open, setOpen] = useState(false);
-  /* the keyboard's cursor, separate from the committed value until Enter */
-  const [activeIndex, setActiveIndex] = useState(0);
   const root = useRef<HTMLDivElement>(null);
-  const listRef = useRef<HTMLUListElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const id = useId();
-  const current = options.find((option) => option.value === value) ?? options[0]!;
+  const current = options.find((option) => option.value === value)!;
 
-  /* a dropdown closes on an outside click and on escape, like every other menu */
+  /* a document listener, not a scrim: a filter must not swallow the next click on the page */
   useEffect(() => {
     if (!open) return;
     const onPointer = (event: PointerEvent) => {
@@ -26,43 +23,10 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
     return () => document.removeEventListener("pointerdown", onPointer);
   }, [open]);
 
-  /* focus the list on open so the arrows work without a second tab */
-  useEffect(() => {
-    if (open) listRef.current?.focus();
-  }, [open]);
-
-  const openAt = (index: number) => {
-    setActiveIndex(index);
-    setOpen(true);
-  };
-
-  /* closing always hands focus back, or a keyboard user loses their place on the page */
+  /* closing hands focus back, or it falls to the body with the panel */
   const close = () => {
     setOpen(false);
     triggerRef.current?.focus();
-  };
-
-  const commit = (index: number) => {
-    onChange(options[index]!.value);
-    close();
-  };
-
-  const onListKeyDown = (event: KeyboardEvent<HTMLUListElement>) => {
-    const last = options.length - 1;
-    const keys: Record<string, () => void> = {
-      ArrowDown: () => setActiveIndex(activeIndex === last ? 0 : activeIndex + 1),
-      ArrowUp: () => setActiveIndex(activeIndex === 0 ? last : activeIndex - 1),
-      Home: () => setActiveIndex(0),
-      End: () => setActiveIndex(last),
-      Enter: () => commit(activeIndex),
-      " ": () => commit(activeIndex),
-      Escape: () => close(),
-      Tab: () => setOpen(false),
-    };
-    const handler = keys[event.key];
-    if (!handler) return;
-    if (event.key !== "Tab") event.preventDefault();
-    handler();
   };
 
   return (
@@ -71,48 +35,51 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
         <Text as="span" size="body" tone="muted" text={label} />
       </span>
 
-      <div ref={root} className="relative">
+      <div ref={root} onKeyDown={(event) => event.key === "Escape" && close()} className="relative">
         <button
           ref={triggerRef}
+          id={`${id}-trigger`}
           type="button"
-          aria-haspopup="listbox"
           aria-expanded={open}
-          aria-labelledby={`${id}-label ${id}-value`}
-          onClick={() => (open ? setOpen(false) : openAt(options.indexOf(current)))}
-          className="grid w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-xl bg-surface-panel py-4 pr-4 pl-5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
+          aria-controls={`${id}-panel`}
+          /* the trigger names itself too, so the value it carries reaches the name */
+          aria-labelledby={`${id}-label ${id}-trigger`}
+          onClick={() => setOpen(!open)}
+          /* a floor, not a height: 56px like the bar, but a wrapped label still needs the room */
+          className="grid min-h-14 w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-xl bg-surface-panel py-2 pr-4 pl-5 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
         >
           <Funnel className="size-5 text-foreground-muted" />
-          <span id={`${id}-value`} className="justify-self-start">
-            <Text as="span" size="body" text={current.label} />
-          </span>
+          <Text as="span" size="body" text={current.label} />
           <ChevronDown className="size-5 text-foreground-muted" />
         </button>
 
         {open && (
-          <ul
-            ref={listRef}
-            role="listbox"
-            tabIndex={-1}
-            aria-labelledby={`${id}-label`}
-            aria-activedescendant={`${id}-option-${activeIndex}`}
-            onKeyDown={onListKeyDown}
-            className="absolute top-full right-0 z-(--z-dropdown) mt-2 grid w-max min-w-full gap-1 rounded-xl border border-line bg-surface-panel p-2 shadow-lg shadow-shade/40 outline-none"
+          <div
+            id={`${id}-panel`}
+            className="absolute top-full right-0 z-(--z-dropdown) mt-2 grid w-max min-w-full gap-1 rounded-xl border border-line bg-surface-panel p-2 shadow-lg shadow-shade/40"
           >
-            {options.map((option, index) => (
-              <li
+            {options.map((option) => (
+              <button
                 key={option.value}
-                id={`${id}-option-${index}`}
-                role="option"
-                aria-selected={option.value === value}
-                onPointerEnter={() => setActiveIndex(index)}
-                onClick={() => commit(index)}
-                /* the cursor follows the pointer, so hover and arrows highlight the same row */
-                className={`cursor-pointer rounded-lg px-3 py-2.5 ${index === activeIndex ? "bg-surface-muted" : ""}`}
+                type="button"
+                aria-pressed={option.value === value}
+                /* the panel mounts on open, so this lands the keyboard on the current option */
+                autoFocus={option.value === value}
+                onClick={() => {
+                  onChange(option.value);
+                  close();
+                }}
+                className="rounded-lg px-3 py-2.5 text-left hover:bg-surface-muted focus-visible:bg-surface-muted"
               >
-                <Text as="span" size="body" text={option.label} />
-              </li>
+                <Text
+                  as="span"
+                  size="body"
+                  tone={option.value === value ? "default" : "muted"}
+                  text={option.label}
+                />
+              </button>
             ))}
-          </ul>
+          </div>
         )}
       </div>
     </div>
