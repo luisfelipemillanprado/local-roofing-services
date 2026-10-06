@@ -36,7 +36,15 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
       </span>
 
       {/* the trigger's own box, so the panel's min-width is the trigger and not the whole row */}
-      <div ref={root} onKeyDown={(event) => event.key === "Escape" && close()} className="relative">
+      <div
+        ref={root}
+        onKeyDown={(event) => event.key === "Escape" && close()}
+        /* a real relatedTarget means focus moved on; a null one is a click, which the pointer listener handles */
+        onBlur={(event) =>
+          event.relatedTarget && !event.currentTarget.contains(event.relatedTarget) && setOpen(false)
+        }
+        className="relative"
+      >
         <button
           ref={triggerRef}
           id={`${id}-trigger`}
