@@ -63,10 +63,8 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
           <Text as="span" size="body" text={current.label} />
           {/* the trigger says it is open, the way the faq chevron and the menu glyph do */}
           <ChevronDown
-            className={clsx(
-              "size-5 text-foreground-muted transition-transform duration-300",
-              isOpen && "rotate-180",
-            )}
+            style={{ transitionDuration: `${ANIMATION_MS}ms` }}
+            className={clsx("size-5 text-foreground-muted transition-transform", isOpen && "rotate-180")}
           />
         </button>
 
@@ -76,7 +74,8 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
             style={{ transitionDuration: `${ANIMATION_MS}ms` }}
             className={clsx(
               "absolute top-full right-0 z-(--z-dropdown) mt-2 grid w-max min-w-full gap-1 rounded-xl border border-line bg-surface-panel p-2 shadow-lg shadow-shade/40 transition-all ease-in-out",
-              isOpen ? "translate-y-0 opacity-100" : "-translate-y-1 opacity-0",
+              /* no clicks on the way out: it is still mounted while it fades */
+              isOpen ? "translate-y-0 opacity-100" : "pointer-events-none -translate-y-1 opacity-0",
             )}
           >
             {options.map((option) => (
