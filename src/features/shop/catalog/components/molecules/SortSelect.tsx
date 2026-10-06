@@ -1,27 +1,36 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useRef } from "react";
 import { ChevronDown, Funnel } from "lucide-react";
 import clsx from "clsx";
 import { Text } from "@/common/text/components/Text";
+import { useEnterExit } from "@/hooks/transition/useEnterExit";
 import type { SortSelectProps } from "@/features/shop/catalog/types";
+
+/* exit transition duration — drives animation + unmount delay; a dropdown is quicker than a menu */
+const ANIMATION_MS = 150;
 
 /* results sort: a dropdown of our own, so the panel's size and layer are ours to set */
 export const SortSelect = ({ label, value, options, onChange }: SortSelectProps) => {
-  const [open, setOpen] = useState(false);
+  const {
+    isOpen,
+    isVisible,
+    open: handleOpenOptions,
+    close: handleCloseOptions,
+  } = useEnterExit(ANIMATION_MS);
   const root = useRef<HTMLDivElement>(null);
   const id = useId();
   const current = options.find((option) => option.value === value)!;
 
   /* a document listener, not a scrim: a filter must not swallow the next click on the page */
   useEffect(() => {
-    if (!open) return;
+    if (!isOpen) return;
     const onPointer = (event: PointerEvent) => {
-      if (!root.current?.contains(event.target as Node)) setOpen(false);
+      if (!root.current?.contains(event.target as Node)) handleCloseOptions();
     };
     document.addEventListener("pointerdown", onPointer);
     return () => document.removeEventListener("pointerdown", onPointer);
-  }, [open]);
+  }, [isOpen, handleCloseOptions]);
 
   return (
     <div className="grid grid-flow-col items-center justify-start gap-3">
@@ -32,21 +41,21 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
       {/* the trigger's own box, so the panel's min-width is the trigger and not the whole row */}
       <div
         ref={root}
-        onKeyDown={(event) => event.key === "Escape" && setOpen(false)}
+        onKeyDown={(event) => event.key === "Escape" && handleCloseOptions()}
         /* a real relatedTarget means focus moved on; a null one is a click, which the pointer listener handles */
         onBlur={(event) =>
-          event.relatedTarget && !event.currentTarget.contains(event.relatedTarget) && setOpen(false)
+          event.relatedTarget && !event.currentTarget.contains(event.relatedTarget) && handleCloseOptions()
         }
         className="relative"
       >
         <button
           id={`${id}-trigger`}
           type="button"
-          aria-expanded={open}
+          aria-expanded={isOpen}
           aria-controls={`${id}-panel`}
           /* the trigger names itself too, so the value it carries reaches the name */
           aria-labelledby={`${id}-label ${id}-trigger`}
-          onClick={() => setOpen(!open)}
+          onClick={isOpen ? handleCloseOptions : handleOpenOptions}
           /* a floor, not a height: 56px like the bar, but a wrapped label still needs the room */
           className="grid min-h-14 grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-xl bg-surface-panel py-2 pr-4 pl-5 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
         >
@@ -56,15 +65,19 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
           <ChevronDown
             className={clsx(
               "size-5 text-foreground-muted transition-transform duration-300",
-              open && "rotate-180",
+              isOpen && "rotate-180",
             )}
           />
         </button>
 
-        {open && (
+        {isVisible && (
           <div
             id={`${id}-panel`}
-            className="absolute top-full right-0 z-(--z-dropdown) mt-2 grid w-max min-w-full gap-1 rounded-xl border border-line bg-surface-panel p-2 shadow-lg shadow-shade/40"
+            style={{ transitionDuration: `${ANIMATION_MS}ms` }}
+            className={clsx(
+              "absolute top-full right-0 z-(--z-dropdown) mt-2 grid w-max min-w-full gap-1 rounded-xl border border-line bg-surface-panel p-2 shadow-lg shadow-shade/40 transition-all ease-in-out",
+              isOpen ? "translate-y-0 opacity-100" : "-translate-y-1 opacity-0",
+            )}
           >
             {options.map((option) => (
               <button
@@ -73,7 +86,7 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
                 aria-pressed={option.value === value}
                 onClick={() => {
                   onChange(option.value);
-                  setOpen(false);
+                  handleCloseOptions();
                 }}
                 className="rounded-lg px-3 py-2.5 text-left hover:bg-surface-muted focus-visible:bg-surface-muted"
               >
