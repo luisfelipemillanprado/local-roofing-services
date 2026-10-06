@@ -290,6 +290,8 @@
 
   &::picker(select) {
     appearance: base-select;
+    /* the browser offers three placements and flips to one above when room runs short */
+    position-try-fallbacks: none;
     margin-block-start: 0.5rem;
     padding: 0.5rem;
     border: 1px solid var(--line);
