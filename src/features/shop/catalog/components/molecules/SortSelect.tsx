@@ -35,6 +35,7 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
         <Text as="span" size="body" tone="muted" text={label} />
       </span>
 
+      {/* the trigger's own box, so the panel's min-width is the trigger and not the whole row */}
       <div ref={root} onKeyDown={(event) => event.key === "Escape" && close()} className="relative">
         <button
           ref={triggerRef}
@@ -46,7 +47,7 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
           aria-labelledby={`${id}-label ${id}-trigger`}
           onClick={() => setOpen(!open)}
           /* a floor, not a height: 56px like the bar, but a wrapped label still needs the room */
-          className="grid min-h-14 w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-xl bg-surface-panel py-2 pr-4 pl-5 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
+          className="grid min-h-14 grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-xl bg-surface-panel py-2 pr-4 pl-5 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
         >
           <Funnel className="size-5 text-foreground-muted" />
           <Text as="span" size="body" text={current.label} />
