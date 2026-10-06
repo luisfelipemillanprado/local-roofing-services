@@ -13,7 +13,8 @@ const sizes: Record<TextSize, string> = {
 };
 
 const tones: Record<TextTone, string> = {
-  default: "text-foreground" /* navy/white per theme — phone, mobile menu, chosen sort option */,
+  default:
+    "text-foreground" /* navy/white per theme — phone, mobile menu, shop sort label and chosen option */,
   muted: "text-foreground-muted" /* slate/stone — descriptions (most common), unchosen sort options */,
   white: "text-white" /* badges over dark imagery (hero, marquee) */,
   primary: "text-primary" /* accent labels — categories, eyebrows */,
