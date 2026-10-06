@@ -51,8 +51,14 @@ export const ShopBrowser = ({
       </div>
       <CategoryStrip
         categories={categories}
-        active={category}
-        onSelect={setCategory}
+        /* a search spans every category, so no chip may claim to be filtering */
+        active={search ? "" : category}
+        onSelect={(key) => {
+          setCategory(key);
+          /* picking a category is a fresh intent: it replaces the query rather than fighting it */
+          setQuery("");
+          setSearch("");
+        }}
         previousLabel={previousLabel}
         nextLabel={nextLabel}
       />
