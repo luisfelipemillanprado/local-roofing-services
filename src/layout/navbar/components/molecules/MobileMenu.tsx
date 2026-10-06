@@ -6,7 +6,8 @@ import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
-import { useEnterExit } from "@/hooks/navbar/useEnterExit";
+import { useEnterExit } from "@/hooks/transition/useEnterExit";
+import { useScrollLock } from "@/hooks/scroll-lock/useScrollLock";
 import type { MobileMenuProps, NavLinkKey } from "@/layout/navbar/types";
 
 /* exit transition duration — drives animation + unmount delay */
@@ -30,6 +31,8 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
     open: handleOpenOptions,
     close: handleCloseOptions,
   } = useEnterExit(ANIMATION_MS);
+  /* the menu outlives its open state, so the lock follows the flag and not the mount */
+  useScrollLock(isOpen);
 
   /* keep clicks inside the panel from closing via the overlay */
   const handlePropagateOptions = (e: MouseEvent) => e.stopPropagation();
@@ -56,9 +59,14 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
           )}
         >
           <div
-            role="dialog"
             id={menuId}
             onClick={handlePropagateOptions}
+            /* a real relatedTarget means focus moved on; a null one is a click, which the overlay handles */
+            onBlur={(event) =>
+              event.relatedTarget &&
+              !event.currentTarget.contains(event.relatedTarget) &&
+              handleCloseOptions()
+            }
             style={{ transitionDuration: `${ANIMATION_MS}ms` }}
             className={clsx(
               "bg-surface-panel/95 shadow-lg shadow-shade/40 transition-all ease-in-out",
