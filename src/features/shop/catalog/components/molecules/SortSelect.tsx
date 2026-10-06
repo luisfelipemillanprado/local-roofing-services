@@ -9,7 +9,6 @@ import type { SortSelectProps } from "@/features/shop/catalog/types";
 export const SortSelect = ({ label, value, options, onChange }: SortSelectProps) => {
   const [open, setOpen] = useState(false);
   const root = useRef<HTMLDivElement>(null);
-  const triggerRef = useRef<HTMLButtonElement>(null);
   const id = useId();
   const current = options.find((option) => option.value === value)!;
 
@@ -23,12 +22,6 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
     return () => document.removeEventListener("pointerdown", onPointer);
   }, [open]);
 
-  /* closing hands focus back, or it falls to the body with the panel */
-  const close = () => {
-    setOpen(false);
-    triggerRef.current?.focus();
-  };
-
   return (
     <div className="grid grid-flow-col items-center justify-start gap-3">
       <span id={`${id}-label`}>
@@ -38,7 +31,7 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
       {/* the trigger's own box, so the panel's min-width is the trigger and not the whole row */}
       <div
         ref={root}
-        onKeyDown={(event) => event.key === "Escape" && close()}
+        onKeyDown={(event) => event.key === "Escape" && setOpen(false)}
         /* a real relatedTarget means focus moved on; a null one is a click, which the pointer listener handles */
         onBlur={(event) =>
           event.relatedTarget && !event.currentTarget.contains(event.relatedTarget) && setOpen(false)
@@ -46,7 +39,6 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
         className="relative"
       >
         <button
-          ref={triggerRef}
           id={`${id}-trigger`}
           type="button"
           aria-expanded={open}
@@ -72,11 +64,9 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
                 key={option.value}
                 type="button"
                 aria-pressed={option.value === value}
-                /* the panel mounts on open, so this lands the keyboard on the current option */
-                autoFocus={option.value === value}
                 onClick={() => {
                   onChange(option.value);
-                  close();
+                  setOpen(false);
                 }}
                 className="rounded-lg px-3 py-2.5 text-left hover:bg-surface-muted focus-visible:bg-surface-muted"
               >
