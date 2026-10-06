@@ -1,17 +1,12 @@
 {
   "action": {
     "contact": "Contactar Ahora",
-    "view": "Ver Producto"
+    "view": "Ver Producto",
+    "search": "Buscar"
   },
   "search": {
     "label": "Buscar Productos",
     "placeholder": "Busca productos, marcas y más"
-  },
-  "account": {
-    "saved": "Guardados",
-    "account": "Cuenta",
-    "orders": "Pedidos",
-    "cart": "Carrito"
   },
   "sort": {
     "label": "Ordenar por",

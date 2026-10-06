@@ -196,6 +196,19 @@
   }
 }
 
+/* Page lock — outside any layer, and keyed on the panel itself so no state can contradict it */
+html:has([role="dialog"][aria-modal="true"]) {
+  overflow: hidden;
+  scrollbar-gutter: stable; /* the gutter stays, or the fixed chrome jumps by a scrollbar */
+}
+/* the menu's lock lives in the query that hides the menu, so the two can never disagree */
+@media (width < theme(--breakpoint-lg)) {
+  html:has([data-mobile-menu]) {
+    overflow: hidden;
+    scrollbar-gutter: stable;
+  }
+}
+
 /* Scroll-reveal — <Reveal> adds .is-visible via IntersectionObserver */
 @layer components {
   @keyframes reveal-fade-up {

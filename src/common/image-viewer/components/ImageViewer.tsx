@@ -6,7 +6,6 @@ import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { ViewerControl } from "@/common/image-viewer/components/ViewerControl";
 import { useCarousel } from "@/hooks/carousel/useCarousel";
-import { useScrollLock } from "@/hooks/image-viewer/useScrollLock";
 import { useKeyboard } from "@/hooks/image-viewer/useKeyboard";
 import type { ImageViewerProps } from "@/common/image-viewer/types";
 
@@ -27,7 +26,6 @@ export const ImageViewer = ({
     align: "center",
   });
 
-  useScrollLock();
   useKeyboard({ onClose, onPrev: goToPrev, onNext: goToNext });
 
   /* the focus target is this dialog's own close button, so it stays here */

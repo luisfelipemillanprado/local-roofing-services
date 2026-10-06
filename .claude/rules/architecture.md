@@ -7,8 +7,12 @@
   - `layout/` — app-shell chrome (navbar, footer, floating-contact).
   - `features/<route>/` — organisms used by a **single** route.
   - `carousel/` — self-contained carousel engine (types), no app-tier imports.
-  - `hooks/` — every custom hook, one folder per owning slice so the folder states where a
-    hook belongs: `hooks/<slice>/useX.ts` (`image-viewer`, `navbar`, `shop`, `carousel`…).
+  - `hooks/` — every custom hook, in a folder that states where it belongs, decided by its
+    imports: a hook that imports a slice's types lives in that slice's folder
+    (`hooks/<slice>/useX.ts` — `carousel`, `image-viewer`, `shop`); a hook that imports
+    nothing but React belongs to no slice and is named for what it does
+    (`hooks/transition/`, `hooks/viewport/`). Never file a generic
+    hook under whichever slice happened to need it first.
   - `data/` — non-translatable data/metadata; `i18n/` — locale config/helpers;
     `app/` — Next.js routing & page composition.
 - **Enforced import boundaries.** The source of truth is `.dependency-cruiser.cjs`, verified

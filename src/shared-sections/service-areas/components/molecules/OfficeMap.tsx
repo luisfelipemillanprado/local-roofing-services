@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useNearViewport } from "@/hooks/service-areas/useNearViewport";
+import { useNearViewport } from "@/hooks/viewport/useNearViewport";
 import type { OfficeMapProps } from "@/shared-sections/service-areas/types";
 
 /* MapLibre + its CSS live in a split chunk, client only */

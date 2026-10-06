@@ -1,17 +1,12 @@
 {
   "action": {
     "contact": "Contact Us Now",
-    "view": "View Product"
+    "view": "View Product",
+    "search": "Search"
   },
   "search": {
     "label": "Search Products",
     "placeholder": "Search products, brands and more"
-  },
-  "account": {
-    "saved": "Saved",
-    "account": "Account",
-    "orders": "Orders",
-    "cart": "Cart"
   },
   "sort": {
     "label": "Sort by",

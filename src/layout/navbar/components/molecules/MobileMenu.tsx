@@ -1,12 +1,12 @@
 "use client";
 
-import { type MouseEvent } from "react";
+import type { MouseEvent } from "react";
 import { Menu, X, Home, Info, Wrench, Images, Package, MapPin } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
 import { Text } from "@/common/text/components/Text";
-import { useEnterExit } from "@/hooks/navbar/useEnterExit";
+import { useEnterExit } from "@/hooks/transition/useEnterExit";
 import type { MobileMenuProps, NavLinkKey } from "@/layout/navbar/types";
 
 /* exit transition duration — drives animation + unmount delay */
@@ -49,6 +49,8 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
 
       {isVisible && (
         <div
+          /* what the page lock keys on; it is gone from the DOM the moment the menu is */
+          data-mobile-menu
           onClick={handleCloseOptions}
           className={clsx(
             "fixed inset-x-0 top-header z-(--z-overlay) h-dvh transition-colors duration-150 lg:hidden",
@@ -56,9 +58,14 @@ export const MobileMenu = ({ navLinks, menuId, toggleMenuLabel }: MobileMenuProp
           )}
         >
           <div
-            role="dialog"
             id={menuId}
             onClick={handlePropagateOptions}
+            /* a real relatedTarget means focus moved on; a null one is a click, which the overlay handles */
+            onBlur={(event) =>
+              event.relatedTarget &&
+              !event.currentTarget.contains(event.relatedTarget) &&
+              handleCloseOptions()
+            }
             style={{ transitionDuration: `${ANIMATION_MS}ms` }}
             className={clsx(
               "bg-surface-panel/95 shadow-lg shadow-shade/40 transition-all ease-in-out",
