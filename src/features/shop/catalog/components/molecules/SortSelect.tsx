@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import { ChevronDown, Funnel } from "lucide-react";
+import clsx from "clsx";
 import { Text } from "@/common/text/components/Text";
 import type { SortSelectProps } from "@/features/shop/catalog/types";
 
@@ -51,7 +52,13 @@ export const SortSelect = ({ label, value, options, onChange }: SortSelectProps)
         >
           <Funnel className="size-5 text-foreground-muted" />
           <Text as="span" size="body" text={current.label} />
-          <ChevronDown className="size-5 text-foreground-muted" />
+          {/* the trigger says it is open, the way the faq chevron and the menu glyph do */}
+          <ChevronDown
+            className={clsx(
+              "size-5 text-foreground-muted transition-transform duration-300",
+              open && "rotate-180",
+            )}
+          />
         </button>
 
         {open && (
