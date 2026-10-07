@@ -6,6 +6,8 @@ export const routes = [
   ["services", "/services"],
   ["about", "/about"],
   ["shop", "/shop"],
+  /* one product page for all 71, and the only [slug] route watching the shared Products section */
+  ["shop-detail", "/shop/malarkey-smart-start"],
   ["projects", "/projects"],
   ["areas", "/areas"],
 ] as const;
