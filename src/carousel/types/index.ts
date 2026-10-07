@@ -10,15 +10,10 @@ export interface CarouselOptions {
   align?: "start" | "center"; /* center lets the neighbouring slides peek at both edges */
 }
 
-/* dot indicator state: active snap + snap list */
-export interface CarouselDots {
-  selectedIndex: number;
-  scrollSnaps: number[];
-}
-
 /* all a carousel view needs; logic lives in the hook */
-export interface Carousel extends CarouselDots {
+export interface Carousel {
   emblaRef: EmblaRef;
+  selectedIndex: number;
   goToPrev: () => void;
   goToNext: () => void;
 }
