@@ -22,7 +22,7 @@ export const ShopSearchBar = ({
       onKeyDown={(event) => event.key === "Enter" && onSubmit()}
       placeholder={placeholder}
       aria-label={label}
-      className="w-full self-center bg-transparent py-4 text-foreground outline-none placeholder:text-foreground-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
+      className="w-full self-center bg-transparent py-4 text-foreground placeholder:text-foreground-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
     />
     <SearchButton label={submitLabel} onClick={onSubmit} />
   </span>
