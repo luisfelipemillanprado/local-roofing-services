@@ -1,5 +1,3 @@
-"use client";
-
 import clsx from "clsx";
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
