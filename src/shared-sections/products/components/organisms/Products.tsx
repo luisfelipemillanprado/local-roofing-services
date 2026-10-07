@@ -1,7 +1,7 @@
 import { SectionHeading } from "@/common/section-header/components/SectionHeading";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Button } from "@/common/call-to-actions/components/Button";
-import { ProductList } from "@/shared-sections/products/components/molecules/ProductList";
+import { ProductCardList } from "@/common/product-card-list/components/ProductCardList";
 import { getTranslations } from "next-intl/server";
 import { productsData } from "@/data/shared-sections/products";
 import { formatPrice, shopProductsData } from "@/data/features/shop/products";
@@ -18,6 +18,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
   /* limit: teaser slice on every route */
   const products = items.slice(0, limit).map((product) => ({
     slug: product.slug,
+    href: `/shop/${product.slug}`,
     title: tShop(`catalog.${product.slug}.title`),
     brand: product.brand,
     image: product.image,
@@ -49,7 +50,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
             </div>
           </div>
 
-          <ProductList
+          <ProductCardList
             cards={products}
             viewLabel={tShop("action.view")}
             trimLastOnMobile={products.length === 6}

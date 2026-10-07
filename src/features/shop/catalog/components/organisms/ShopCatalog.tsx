@@ -13,6 +13,7 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
   /* resolve: data literals + i18n labels */
   const products = items.map((product) => ({
     slug: product.slug,
+    href: `/shop/${product.slug}`,
     title: t(`catalog.${product.slug}.title`),
     brand: product.brand,
     image: product.image,
