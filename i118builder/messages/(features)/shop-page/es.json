@@ -9,10 +9,10 @@
     "placeholder": "Busca productos, marcas y más"
   },
   "sort": {
-    "label": "Ordenar por",
-    "best": "Mejor Coincidencia",
-    "priceAsc": "Precio: De Menor A Mayor",
-    "priceDesc": "Precio: De Mayor A Menor",
+    "label": "Ordenar",
+    "best": "Mejor Opción",
+    "priceAsc": "Precio: Menor A Mayor",
+    "priceDesc": "Precio: Mayor A Menor",
     "topRated": "Mejor Valorados"
   },
   "units": {
@@ -29,11 +29,11 @@
   },
   "categories": {
     "shingles": "Tejas",
-    "metal": "Techo Metálico",
-    "underlayment": "Membrana",
+    "metal": "Paneles Metal",
+    "underlayment": "Membranas",
     "flashing": "Tapajuntas",
     "tools": "Herramientas",
-    "supplies": "Suministros",
+    "supplies": "Adhesivos Pro",
     "accessories": "Accesorios"
   },
   "availability": {
