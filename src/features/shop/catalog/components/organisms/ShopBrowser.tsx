@@ -17,8 +17,6 @@ export const ShopBrowser = ({
   searchSubmitLabel,
   sortLabel,
   sortOptions,
-  previousLabel,
-  nextLabel,
 }: ShopBrowserProps) => {
   const [category, setCategory] = useState(categories[0]!.key);
   /* query is what the box holds; search is what the list has been told to use */
@@ -63,8 +61,6 @@ export const ShopBrowser = ({
           setCategory(key);
           setSearch("");
         }}
-        previousLabel={previousLabel}
-        nextLabel={nextLabel}
       />
       <ShopProductList cards={results.items} viewLabel={viewLabel} />
     </div>

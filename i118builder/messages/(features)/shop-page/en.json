@@ -15,10 +15,6 @@
     "priceDesc": "Price: High to Low",
     "topRated": "Highest Rated"
   },
-  "strip": {
-    "previous": "Previous Categories",
-    "next": "Next Categories"
-  },
   "units": {
     "bundle": "Bundle",
     "panel": "Panel",

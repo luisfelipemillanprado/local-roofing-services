@@ -42,8 +42,6 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
           searchSubmitLabel={t("action.search")}
           sortLabel={t("sort.label")}
           sortOptions={sortOrder.map((value) => ({ value, label: t(`sort.${value}`) }))}
-          previousLabel={t("strip.previous")}
-          nextLabel={t("strip.next")}
         />
       </Container>
     </SectionWrapper>
