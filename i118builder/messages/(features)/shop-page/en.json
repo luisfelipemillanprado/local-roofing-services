@@ -10,9 +10,9 @@
   },
   "sort": {
     "label": "Sort by",
-    "best": "Best Match",
-    "priceAsc": "Price: Low to High",
-    "priceDesc": "Price: High to Low",
+    "best": "Best Matches",
+    "priceAsc": "Price: Low To High",
+    "priceDesc": "Price: High To Low",
     "topRated": "Highest Rated"
   },
   "units": {
@@ -29,11 +29,11 @@
   },
   "categories": {
     "shingles": "Shingles",
-    "metal": "Metal Roofing",
+    "metal": "Metal Panels",
     "underlayment": "Underlayment",
     "flashing": "Flashing",
-    "tools": "Tools",
-    "supplies": "Supplies",
+    "tools": "Tools & Gear",
+    "supplies": "Pro Adhesives",
     "accessories": "Accessories"
   },
   "availability": {
