@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { useCarouselDots } from "@/hooks/carousel/useCarouselDots";
+import { useSelectedSnap } from "@/hooks/carousel/useSelectedSnap";
 import type { Carousel, CarouselOptions } from "@/carousel/types";
 
 /* carousel state: dots and manual navigation; looped autoplay by default */
@@ -21,7 +21,7 @@ export const useCarousel = ({
   );
 
   /* seeded so the caption matches the opening slide on the first frame */
-  const dots = useCarouselDots(emblaApi, startSnap);
+  const selectedIndex = useSelectedSnap(emblaApi, startSnap);
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -54,5 +54,5 @@ export const useCarousel = ({
     emblaApi?.plugins().autoplay?.reset();
   }, [emblaApi]);
 
-  return { emblaRef, goToPrev, goToNext, ...dots };
+  return { emblaRef, selectedIndex, goToPrev, goToNext };
 };
