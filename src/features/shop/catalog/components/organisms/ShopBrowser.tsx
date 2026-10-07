@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ShopSearchBar } from "@/features/shop/catalog/components/molecules/ShopSearchBar";
 import { CategoryStrip } from "@/features/shop/catalog/components/molecules/CategoryStrip";
 import { SortSelect } from "@/features/shop/catalog/components/molecules/SortSelect";
-import { ShopProductList } from "@/features/shop/catalog/components/molecules/ShopProductList";
+import { ProductCardList } from "@/common/product-card-list/components/ProductCardList";
 import { useShopResults } from "@/hooks/shop/useShopResults";
 import type { ShopBrowserProps } from "@/features/shop/catalog/types";
 
@@ -62,7 +62,7 @@ export const ShopBrowser = ({
           setSearch("");
         }}
       />
-      <ShopProductList cards={results.items} viewLabel={viewLabel} />
+      <ProductCardList cards={results.items} viewLabel={viewLabel} />
     </div>
   );
 };

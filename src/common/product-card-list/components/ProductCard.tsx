@@ -5,7 +5,7 @@ import { ProductRating } from "@/common/product-rating/components/ProductRating"
 import { Text } from "@/common/text/components/Text";
 import { TextNumber } from "@/common/text/components/TextNumber";
 import { Title } from "@/common/title/components/Title";
-import type { ProductCardProps } from "@/common/product-card/types";
+import type { ProductCardProps } from "@/common/product-card-list/types";
 
 export const ProductCard = ({
   title,

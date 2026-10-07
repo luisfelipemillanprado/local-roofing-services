@@ -1,20 +1,10 @@
-import type { ProductCardProps } from "@/common/product-card/types";
+import type { ProductCardItem } from "@/common/product-card-list/types";
 import type { shopProductsData } from "@/data/features/shop/products";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
-/* resolved product card: data literals + i18n labels, keyed by slug */
-interface ShopProduct extends Omit<ProductCardProps, "viewLabel" | "href"> {
-  slug: string;
-}
-
-export interface ShopProductListProps {
-  cards: ShopProduct[];
-  viewLabel: string;
-}
-
 /* catalog entry: card fields plus what the browser filters and sorts on */
-export interface ShopCatalogItem extends ShopProduct {
+export interface ShopCatalogItem extends ProductCardItem {
   category: string;
   price: number;
 }
