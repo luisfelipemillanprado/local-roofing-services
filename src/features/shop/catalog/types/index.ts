@@ -32,7 +32,7 @@ export type ShopSort = (typeof shopProductsData.sortOrder)[number];
 export interface ShopSearchBarProps {
   value: string;
   onChange: (value: string) => void;
-  /* typing no longer filters; the submit is what hands the query to the list */
+  /* typing does not filter; the submit is what hands the query to the list */
   onSubmit: () => void;
   label: string;
   placeholder: string;
@@ -41,7 +41,7 @@ export interface ShopSearchBarProps {
 
 export interface CategoryStripProps {
   categories: ShopCategoryItem[];
-  active: string;
+  active: string | null /* null while a query filters: no chip owns the result */;
   onSelect: (key: string) => void;
   previousLabel: string;
   nextLabel: string;
@@ -75,6 +75,14 @@ export interface ShopCatalogProps {
 export interface ShopResultsOptions {
   items: ShopCatalogItem[];
   category: string;
+  /* where a query with no hits lands, so the grid is never left empty */
+  defaultCategory: string;
   search: string;
   sort: ShopSort;
+}
+
+/* the grid's contents and which category owns them; null while a query is what filters */
+export interface ShopResults {
+  items: ShopCatalogItem[];
+  category: string | null;
 }

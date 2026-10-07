@@ -6,7 +6,7 @@ import { CategoryStrip } from "@/features/shop/catalog/components/molecules/Cate
 import { SortSelect } from "@/features/shop/catalog/components/molecules/SortSelect";
 import { ShopProductList } from "@/features/shop/catalog/components/molecules/ShopProductList";
 import { useShopResults } from "@/hooks/shop/useShopResults";
-import type { ShopBrowserProps, ShopSort } from "@/features/shop/catalog/types";
+import type { ShopBrowserProps } from "@/features/shop/catalog/types";
 
 export const ShopBrowser = ({
   items,
@@ -24,13 +24,19 @@ export const ShopBrowser = ({
   /* query is what the box holds; search is what the list has been told to use */
   const [query, setQuery] = useState("");
   const [search, setSearch] = useState("");
-  const [sort, setSort] = useState<ShopSort>("best");
+  const [sort, setSort] = useState(sortOptions[0]!.value);
 
-  const results = useShopResults({ items, category, search, sort });
+  const results = useShopResults({
+    items,
+    category,
+    defaultCategory: categories[0]!.key,
+    search,
+    sort,
+  });
 
   return (
     <div className="grid gap-10">
-      {/* search takes the row, sort sits in the slot the account icons used to hold */}
+      {/* search takes the row, sort rides beside it from lg */}
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:gap-8">
         <ShopSearchBar
           value={query}
@@ -44,19 +50,23 @@ export const ShopBrowser = ({
           placeholder={searchPlaceholder}
           submitLabel={searchSubmitLabel}
         />
-        {/* content-width on phones too, or the grid stretches the select across */}
+        {/* content-width on phones too, or the grid stretches the control across */}
         <div className="justify-self-start lg:justify-self-end">
           <SortSelect label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
         </div>
       </div>
       <CategoryStrip
         categories={categories}
-        active={category}
-        onSelect={setCategory}
+        active={results.category}
+        /* the box belongs to whoever types in it: a category drops the filter, not the text */
+        onSelect={(key) => {
+          setCategory(key);
+          setSearch("");
+        }}
         previousLabel={previousLabel}
         nextLabel={nextLabel}
       />
-      <ShopProductList cards={results} viewLabel={viewLabel} />
+      <ShopProductList cards={results.items} viewLabel={viewLabel} />
     </div>
   );
 };
