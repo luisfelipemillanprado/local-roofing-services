@@ -15,10 +15,6 @@
     "priceDesc": "Precio: De Mayor A Menor",
     "topRated": "Mejor Valorados"
   },
-  "strip": {
-    "previous": "Categorías Anteriores",
-    "next": "Categorías Siguientes"
-  },
   "units": {
     "bundle": "Paquete",
     "panel": "Panel",

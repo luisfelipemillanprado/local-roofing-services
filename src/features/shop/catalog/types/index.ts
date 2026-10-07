@@ -43,8 +43,6 @@ export interface CategoryStripProps {
   categories: ShopCategoryItem[];
   active: string | null /* null while a query filters: no chip owns the result */;
   onSelect: (key: string) => void;
-  previousLabel: string;
-  nextLabel: string;
 }
 
 export interface SortSelectProps {
@@ -63,8 +61,6 @@ export interface ShopBrowserProps {
   searchSubmitLabel: string;
   sortLabel: string;
   sortOptions: { value: ShopSort; label: string }[];
-  previousLabel: string;
-  nextLabel: string;
 }
 
 export interface ShopCatalogProps {
