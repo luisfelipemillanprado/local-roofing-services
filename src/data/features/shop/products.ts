@@ -917,7 +917,7 @@ export const shopProductsData = {
         { key: "air", value: "<0.001 m³/m²h" },
         { key: "tensile", value: "255 / 145 N/50 mm" },
         { key: "tear", value: "130 / 160 N" },
-        { key: "tempRange", value: "-40 to 80 °C" },
+        { key: "tempRange", value: "-40 °C – 80 °C" },
         { key: "uvExposure", value: "4 months" },
         { key: "use", valueKey: "detail.specValue.roofAndWall" },
         { key: "standard", value: "EN 1849-2, EN 1928, EN 12311-1" },
