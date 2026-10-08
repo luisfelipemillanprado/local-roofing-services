@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useId, useRef } from "react";
 import { ChevronDown, Funnel } from "lucide-react";
 import clsx from "clsx";
