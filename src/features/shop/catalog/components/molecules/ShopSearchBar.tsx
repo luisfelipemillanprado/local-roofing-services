@@ -12,7 +12,10 @@ export const ShopSearchBar = ({
   submitLabel,
 }: ShopSearchBarProps) => (
   /* the bar owns the height, so a border cannot push it out of line with the sort control */
-  <span className="grid h-14 grid-cols-[auto_minmax(0,1fr)_auto] gap-3 rounded-xl border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light">
+  <span
+    role="search"
+    className="grid h-14 grid-cols-[auto_minmax(0,1fr)_auto] gap-3 rounded-xl border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light"
+  >
     <Search className="size-5 self-center text-foreground-muted" />
     {/* sr-only is absolute, so the label claims no column of its own */}
     <label htmlFor="shop-search" className="sr-only">
@@ -22,6 +25,8 @@ export const ShopSearchBar = ({
     <input
       id="shop-search"
       type="search"
+      /* the phone keyboard offers Search instead of a generic return key */
+      enterKeyHint="search"
       value={value}
       onChange={(event) => onChange(event.target.value)}
       onKeyDown={(event) => event.key === "Enter" && onSubmit()}
