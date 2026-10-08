@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 import { SearchButton } from "@/common/call-to-actions/components/SearchButton";
 import type { ShopSearchBarProps } from "@/features/shop/catalog/types";
 
-/* store bar: the query only reaches the list on submit, never on keystroke */
+/* store bar: icon, field and button read as one control, so the box belongs to the bar */
 export const ShopSearchBar = ({
   value,
   onChange,
@@ -12,7 +12,7 @@ export const ShopSearchBar = ({
   submitLabel,
 }: ShopSearchBarProps) => (
   /* the bar owns the height, so a border cannot push it out of line with the sort control */
-  <span className="grid h-14 grid-cols-[auto_minmax(0,1fr)_auto] items-stretch gap-3 rounded-xl border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light">
+  <span className="grid h-14 grid-cols-[auto_minmax(0,1fr)_auto] gap-3 rounded-xl border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light">
     <Search className="size-5 self-center text-foreground-muted" />
     {/* sr-only is absolute, so the label claims no column of its own */}
     <label htmlFor="shop-search" className="sr-only">
@@ -27,7 +27,7 @@ export const ShopSearchBar = ({
       onKeyDown={(event) => event.key === "Enter" && onSubmit()}
       placeholder={placeholder}
       /* the bar wears the ring for it, so the whole control reads as one */
-      className="w-full bg-transparent text-foreground outline-none placeholder:text-foreground-muted"
+      className="text-foreground outline-none placeholder:text-foreground-muted"
     />
     <SearchButton label={submitLabel} onClick={onSubmit} />
   </span>
