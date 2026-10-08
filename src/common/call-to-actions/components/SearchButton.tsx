@@ -1,5 +1,3 @@
-"use client"; /* client by design; the only call to action driven by an onClick */
-
 import { Search } from "lucide-react";
 import type { SearchButtonProps } from "@/common/call-to-actions/types";
 
