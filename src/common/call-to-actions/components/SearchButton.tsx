@@ -7,7 +7,7 @@ export const SearchButton = ({ label, onClick }: SearchButtonProps) => (
     type="button"
     aria-label={label}
     onClick={onClick}
-    className="grid aspect-square h-full place-items-center rounded-r-xl bg-primary transition-transform duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
+    className="grid aspect-square h-full place-items-center rounded-xl bg-primary transition-transform duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
   >
     <Search className="size-5 text-white" />
   </button>
