@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 import { SearchButton } from "@/common/call-to-actions/components/SearchButton";
 import type { ShopSearchBarProps } from "@/features/shop/catalog/types";
 
-/* store bar: icon, field and button read as one control, so the box belongs to the bar */
+/* store bar: the field has no box of its own, so the border, the height and the ring live here */
 export const ShopSearchBar = ({
   value,
   onChange,
