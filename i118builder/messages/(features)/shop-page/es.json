@@ -561,7 +561,11 @@
       "tac101": "Limpiador de contacto TAC 101",
       "coolOutOfSun": "Bajo cubierto, sin sol directo",
       "laminateAndFoam": "Laminado, metal, madera y espuma",
-      "storeWarranty": "Un año, cobertura Roofpro"
+      "storeWarranty": "Un año, cobertura Roofpro",
+      "years": "{n, plural, one {# año} other {# años}}",
+      "months": "{n, plural, one {# mes} other {# meses}}",
+      "peel40chalk30": "40 años pelado, 30 tizado",
+      "pass": "Cumple"
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
