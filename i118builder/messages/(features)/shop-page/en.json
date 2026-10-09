@@ -417,7 +417,6 @@
       "magneticStart": "Magnetic",
       "sideSlot": "Side slot",
       "nailingHammer": "Nailing hammer",
-      "limitedLifetime": "Limited lifetime",
       "carpentryFinishing": "Carpentry and finishing",
       "allSteel": "All steel",
       "heatTempered": "Heat tempered",
@@ -561,7 +560,6 @@
       "tac101": "TAC 101 contact cleaner",
       "coolOutOfSun": "Under cover, out of sunlight",
       "laminateAndFoam": "Laminate, metal, timber and foam",
-      "storeWarranty": "One year, Roofpro cover",
       "years": "{n} yr",
       "months": "{n, plural, one {# month} other {# months}}",
       "peel40chalk30": "40 yr peel, 30 yr chalk",
@@ -569,7 +567,8 @@
     },
     "warranty": {
       "lifetime": "Lifetime Limited",
-      "limitedYears": "{years} Year Limited"
+      "limitedYears": "{years} Year Limited",
+      "store": "{years} Year, Roofpro cover"
     },
     "section": {
       "about": "Description",

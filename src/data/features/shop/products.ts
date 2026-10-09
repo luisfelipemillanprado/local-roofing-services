@@ -50,7 +50,6 @@ export const shopProductsData = {
         { key: "windClass", value: "D3161 Class F" },
         { key: "fire", value: "Class A" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 10 },
       ],
     },
     {
@@ -94,7 +93,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -139,7 +137,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -183,7 +180,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -227,7 +223,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -271,7 +266,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -315,7 +309,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -359,7 +352,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "25" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -403,7 +395,6 @@ export const shopProductsData = {
         { key: "impact", value: "Class 3" },
         { key: "algae", value: "10" },
         { key: "standard", value: "ASTM D3462" },
-        { key: "warranty", valueKey: "detail.warranty.lifetime" },
       ],
     },
     {
@@ -1784,7 +1775,6 @@ export const shopProductsData = {
         { key: "material", valueKey: "detail.specValue.carbideTipped" },
         { key: "included", valueKey: "detail.specValue.bladeOnly" },
         { key: "productType", valueKey: "detail.specValue.circularSaw" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 3 },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.deckAndPanel" },
       ],
@@ -1819,7 +1809,6 @@ export const shopProductsData = {
         { key: "nailStart", valueKey: "detail.specValue.magneticStart" },
         { key: "nailPuller", valueKey: "detail.specValue.sideSlot" },
         { key: "productType", valueKey: "detail.specValue.nailingHammer" },
-        { key: "warranty", valueKey: "detail.specValue.limitedLifetime" },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.carpentryFinishing" },
         { key: "standard", valueKey: "detail.specValue.notPublished" },
@@ -1860,7 +1849,6 @@ export const shopProductsData = {
         { key: "handle", valueKey: "detail.specValue.frontOrSide" },
         { key: "control", valueKey: "detail.specValue.triggerAndDial" },
         { key: "productType", valueKey: "detail.specValue.rotaryPolisher" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 3 },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.metalFinishing" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
@@ -1899,7 +1887,6 @@ export const shopProductsData = {
         { key: "depthAdjust", valueKey: "detail.specValue.toolFree" },
         { key: "lockout", valueKey: "detail.specValue.lowNail" },
         { key: "productType", valueKey: "detail.specValue.crownStapler" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 3 },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.underlaymentFixing" },
       ],
@@ -1921,7 +1908,7 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 41,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.limitedYears",
+      warrantyKey: "detail.warranty.store",
       warrantyYears: 1,
       compatible: ["brakki-stone-tiles", "steeldash-tube-14ga-2in", "gibraltar-987642", "dewalt-dwht51002"],
       specs: [
@@ -1938,7 +1925,6 @@ export const shopProductsData = {
         { key: "grip", valueKey: "detail.specValue.notPublished" },
         { key: "face", valueKey: "detail.specValue.notPublished" },
         { key: "standard", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -1958,7 +1944,7 @@ export const shopProductsData = {
       rating: 5,
       reviews: 88,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.limitedYears",
+      warrantyKey: "detail.warranty.store",
       warrantyYears: 1,
       compatible: ["steeldash-tube-14ga-2in", "grip-rite-rrp1010hem", "gibraltar-08328", "dewalt-dcs391"],
       specs: [
@@ -1975,7 +1961,6 @@ export const shopProductsData = {
         { key: "use", valueKey: "detail.specValue.rebarAndWire" },
         { key: "pack", value: "1" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2008,7 +1993,6 @@ export const shopProductsData = {
         { key: "edge", valueKey: "detail.specValue.universalTeeth" },
         { key: "cut", valueKey: "detail.specValue.pushAndPull" },
         { key: "use", valueKey: "detail.specValue.deckAndPanel" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 2 },
         { key: "pack", value: "1" },
         { key: "material", valueKey: "detail.specValue.notPublished" },
         { key: "handle", valueKey: "detail.specValue.notPublished" },
@@ -2054,7 +2038,6 @@ export const shopProductsData = {
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.shingleRemoval" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 2 },
       ],
     },
     {
@@ -2086,7 +2069,6 @@ export const shopProductsData = {
         { key: "included", valueKey: "detail.specValue.bladeChangeTool" },
         { key: "light", valueKey: "detail.specValue.onboardLed" },
         { key: "productType", valueKey: "detail.specValue.pruner" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 3 },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.branchClearing" },
         { key: "motor", valueKey: "detail.specValue.notPublished" },
@@ -2125,7 +2107,6 @@ export const shopProductsData = {
         { key: "drop", value: "60 ft" },
         { key: "hook", valueKey: "detail.specValue.reinforcedHook" },
         { key: "productType", valueKey: "detail.specValue.tapeMeasure" },
-        { key: "warranty", valueKey: "detail.specValue.limitedLifetime" },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.roofLayout" },
       ],
@@ -2162,7 +2143,6 @@ export const shopProductsData = {
         { key: "tension", valueKey: "detail.specValue.toolFree" },
         { key: "oiling", valueKey: "detail.specValue.automatic" },
         { key: "productType", valueKey: "detail.specValue.chainsaw" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 3 },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.limbClearing" },
       ],
@@ -2184,7 +2164,7 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 27,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.limitedYears",
+      warrantyKey: "detail.warranty.store",
       warrantyYears: 1,
       compatible: ["brakki-19pc", "gibraltar-987641", "dewalt-dcs391", "qualcraft-2560p"],
       specs: [
@@ -2202,7 +2182,6 @@ export const shopProductsData = {
         { key: "included", valueKey: "detail.specValue.kydexSheath" },
         { key: "use", valueKey: "detail.specValue.demolitionWork" },
         { key: "pack", value: "1" },
-        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2239,7 +2218,6 @@ export const shopProductsData = {
         { key: "assembly", valueKey: "detail.specValue.toolFree" },
         { key: "material", valueKey: "detail.specValue.zincBody" },
         { key: "use", valueKey: "detail.specValue.shingleCutting" },
-        { key: "warranty", valueKey: "detail.specValue.limitedLifetime" },
         { key: "pack", value: "1" },
         { key: "length", valueKey: "detail.specValue.notPublished" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
@@ -2263,7 +2241,7 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 39,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.limitedYears",
+      warrantyKey: "detail.warranty.store",
       warrantyYears: 1,
       compatible: ["qualcraft-2560p", "palmer-v5501", "dewalt-dcn681", "timberline-hdz-pewter-gray"],
       specs: [
@@ -2281,7 +2259,6 @@ export const shopProductsData = {
         { key: "use", valueKey: "detail.specValue.ladderAccess" },
         { key: "pack", value: "1" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2323,7 +2300,6 @@ export const shopProductsData = {
         { key: "control", valueKey: "detail.specValue.powerSwitch" },
         { key: "light", valueKey: "detail.specValue.powerIndicator" },
         { key: "use", valueKey: "detail.specValue.sitePower" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 3 },
         { key: "pack", value: "1" },
       ],
     },
@@ -2344,7 +2320,7 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 63,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.limitedYears",
+      warrantyKey: "detail.warranty.store",
       warrantyYears: 1,
       compatible: ["palmer-v5501", "dewalt-dwht51002", "qualcraft-2560p", "gibraltar-cf5g-26"],
       specs: [
@@ -2361,7 +2337,6 @@ export const shopProductsData = {
         { key: "size", valueKey: "detail.specValue.notPublished" },
         { key: "standard", valueKey: "detail.specValue.notPublished" },
         { key: "weight", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2381,7 +2356,7 @@ export const shopProductsData = {
       rating: 4.5,
       reviews: 38,
       availability: "in-stock",
-      warrantyKey: "detail.warranty.limitedYears",
+      warrantyKey: "detail.warranty.store",
       warrantyYears: 1,
       compatible: ["dewalt-dxl2010", "dewalt-dpg737", "qualcraft-2560p", "timberline-hdz-charcoal"],
       specs: [
@@ -2399,7 +2374,6 @@ export const shopProductsData = {
         { key: "approval", value: "ANSI Z359.18" },
         { key: "use", valueKey: "detail.specValue.roofFallArrest" },
         { key: "pack", value: "1" },
-        { key: "warranty", valueKey: "detail.specValue.storeWarranty" },
       ],
     },
     {
@@ -2441,7 +2415,6 @@ export const shopProductsData = {
         { key: "hardware", valueKey: "detail.specValue.zincChromate" },
         { key: "productType", valueKey: "detail.specValue.roofHatch" },
         { key: "approval", valueKey: "detail.specValue.miamiDadeFlorida" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 5 },
         { key: "use", valueKey: "detail.specValue.ladderAccess" },
       ],
     },
@@ -2480,7 +2453,6 @@ export const shopProductsData = {
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.ventPipes" },
         { key: "fire", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 1 },
       ],
     },
     {
@@ -2519,7 +2491,6 @@ export const shopProductsData = {
         { key: "approval", valueKey: "detail.specValue.dadeTexas" },
         { key: "use", valueKey: "detail.specValue.atticExhaust" },
         { key: "wind", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.limitedLifetime" },
       ],
     },
     {
@@ -2558,7 +2529,6 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.roofCap" },
         { key: "pack", value: "1" },
         { key: "use", valueKey: "detail.specValue.exhaustFans" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 1 },
       ],
     },
     {
@@ -2600,7 +2570,6 @@ export const shopProductsData = {
         { key: "finish", valueKey: "detail.specValue.millFinish" },
         { key: "productType", valueKey: "detail.specValue.gableFan" },
         { key: "approval", valueKey: "detail.specValue.ulListed" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 10 },
         { key: "laborWarranty", valueKey: "detail.specValue.years", n: 5 },
         { key: "use", valueKey: "detail.specValue.atticExhaust" },
       ],
@@ -2640,7 +2609,6 @@ export const shopProductsData = {
         { key: "productType", valueKey: "detail.specValue.solarFan" },
         { key: "standard", value: "UL 507, CAN/CSA C22.2" },
         { key: "approval", valueKey: "detail.specValue.dadeFloridaTexas" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 6 },
         { key: "laborWarranty", valueKey: "detail.specValue.years", n: 3 },
         { key: "use", valueKey: "detail.specValue.atticExhaust" },
       ],
@@ -2680,7 +2648,6 @@ export const shopProductsData = {
         { key: "use", valueKey: "detail.specValue.atticExhaust" },
         { key: "wind", valueKey: "detail.specValue.notPublished" },
         { key: "fire", valueKey: "detail.specValue.notPublished" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 4 },
       ],
     },
     {
@@ -2716,7 +2683,6 @@ export const shopProductsData = {
         { key: "fastening", valueKey: "detail.specValue.curbMount" },
         { key: "assembly", valueKey: "detail.specValue.factoryAssembled" },
         { key: "productType", valueKey: "detail.specValue.skylight" },
-        { key: "warranty", valueKey: "detail.specValue.years", n: 10 },
         { key: "use", valueKey: "detail.specValue.anyRoofType" },
         { key: "uValue", valueKey: "detail.specValue.notPublished" },
         { key: "approval", valueKey: "detail.specValue.notPublished" },

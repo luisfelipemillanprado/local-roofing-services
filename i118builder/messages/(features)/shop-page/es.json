@@ -417,7 +417,6 @@
       "magneticStart": "Magnético",
       "sideSlot": "Ranura lateral",
       "nailingHammer": "Martillo clavador",
-      "limitedLifetime": "Limitada de por vida",
       "carpentryFinishing": "Carpintería y acabado",
       "allSteel": "Todo de acero",
       "heatTempered": "Templado al calor",
@@ -561,7 +560,6 @@
       "tac101": "Limpiador de contacto TAC 101",
       "coolOutOfSun": "Bajo cubierto, sin sol directo",
       "laminateAndFoam": "Laminado, metal, madera y espuma",
-      "storeWarranty": "Un año, cobertura Roofpro",
       "years": "{n, plural, one {# año} other {# años}}",
       "months": "{n, plural, one {# mes} other {# meses}}",
       "peel40chalk30": "40 años pelado, 30 tizado",
@@ -569,7 +567,8 @@
     },
     "warranty": {
       "lifetime": "Limitada de por Vida",
-      "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}"
+      "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}",
+      "store": "{years, plural, one {# Año} other {# Años}}, cubre Roofpro"
     },
     "section": {
       "about": "Descripción",
