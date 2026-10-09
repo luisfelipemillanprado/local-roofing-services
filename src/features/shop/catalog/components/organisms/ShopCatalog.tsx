@@ -3,9 +3,11 @@ import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapp
 import { Container } from "@/common/container/components/Container";
 import { ShopBrowser } from "@/features/shop/catalog/components/organisms/ShopBrowser";
 import { formatPrice, shopProductsData } from "@/data/features/shop/products";
+import { shopCatalogData } from "@/data/features/shop/catalog";
 import type { ShopCatalogProps } from "@/features/shop/catalog/types";
 
-const { categories, items, sortOrder } = shopProductsData;
+const { items } = shopProductsData;
+const { categories, sortOrder } = shopCatalogData;
 
 /* shop catalog: search and category chips over the product grid */
 export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {

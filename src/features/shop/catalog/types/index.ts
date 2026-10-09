@@ -1,5 +1,5 @@
 import type { ProductCardItem } from "@/common/product-card-list/types";
-import type { shopProductsData } from "@/data/features/shop/products";
+import type { shopCatalogData } from "@/data/features/shop/catalog";
 
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
@@ -17,7 +17,7 @@ interface ShopCategoryItem {
 }
 
 /* the sort options the data declares; the comparator map must cover exactly these */
-export type ShopSort = (typeof shopProductsData.sortOrder)[number];
+export type ShopSort = (typeof shopCatalogData.sortOrder)[number];
 
 export interface ShopSearchBarProps {
   value: string;
