@@ -13,11 +13,12 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
 
   /* write up: a real i18n array, so t.raw */
   const aboutParagraphs = t.raw(`catalog.${product.slug}.about`) as string[];
-  /* spec sheet: a worded value is translated, a measure ships as is */
+  /* spec sheet: a worded value is translated, a symbol measure ships as is */
   const specRows = product.specs.map((row) => ({
     key: row.key,
     label: t(`detail.spec.${row.key}`),
-    value: "valueKey" in row ? t(row.valueKey) : row.value,
+    /* a counted value feeds its number in, so the unit can inflect; the rest carry none */
+    value: "valueKey" in row ? t(row.valueKey, "n" in row ? { n: row.n } : undefined) : row.value,
   }));
   /* pairings: title by key, href built from the slug */
   const compatibleItems = product.compatible.map((paired) => ({
