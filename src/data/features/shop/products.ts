@@ -1,18 +1,6 @@
-/* Shop catalog: feeds the shop and the products teaser; slug is id, route, i18n key and React key */
+/* Shop products: every item the shop and the teaser read; slug is id, route, i18n key and React key */
 /* image = folder main shot; gallery = extra shots in the same folder (variants) */
 export const shopProductsData = {
-  /* /shop category strip: chips render in this order, first one selected by default */
-  categories: [
-    { key: "shingles", image: "/images/categories/shingles.webp" },
-    { key: "metal", image: "/images/categories/metal-roofing.webp" },
-    { key: "underlayment", image: "/images/categories/underlayment.webp" },
-    { key: "flashing", image: "/images/categories/flashing.webp" },
-    { key: "accessories", image: "/images/categories/accessories.webp" },
-    { key: "tools", image: "/images/categories/tools.webp" },
-    { key: "supplies", image: "/images/categories/supplies.webp" },
-  ],
-  /* results sort in select order, label by key; each key has its own comparator */
-  sortOrder: ["best", "priceAsc", "priceDesc", "topRated"],
   items: [
     {
       slug: "malarkey-smart-start",
