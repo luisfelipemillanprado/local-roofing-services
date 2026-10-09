@@ -1,4 +1,4 @@
-/* Shop product detail: the shared cta, the feature and trust members, the viewer labels */
+/* Shop product detail: what the page composes, identical for all 71 products */
 export const productDetailData = {
   /* the detail cta lands on the contact form, same wording as every other section */
   ctaHref: { key: "action.contact", href: "#contact" },
@@ -15,7 +15,7 @@ export const productDetailData = {
     { key: "installation", icon: "drill" },
     { key: "warranty", icon: "fileCheck" },
   ],
-  /* image viewer control labels by key */
+  /* image viewer labels by key; zoom sits on the gallery button that opens it */
   viewer: {
     zoom: "detail.viewImage",
     close: "detail.close",

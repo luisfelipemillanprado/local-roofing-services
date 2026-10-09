@@ -1,6 +1,5 @@
-/* Shop catalog: single source for the shop and the products teaser section.
-   slug = brand-model, stable id · /shop/[slug] route · i18n key · React key.
-   image = folder main shot; gallery = extra shots in the same folder (variants). */
+/* Shop catalog: feeds the shop and the products teaser; slug is id, route, i18n key and React key */
+/* image = folder main shot; gallery = extra shots in the same folder (variants) */
 export const shopProductsData = {
   /* /shop category strip: chips render in this order, first one selected by default */
   categories: [
@@ -15,7 +14,6 @@ export const shopProductsData = {
   /* results sort in select order, label by key; each key has its own comparator */
   sortOrder: ["best", "priceAsc", "priceDesc", "topRated"],
   items: [
-    /* shingles lead with the distinct roof profiles, then the rectangular tabs */
     {
       slug: "malarkey-smart-start",
       category: "shingles",
