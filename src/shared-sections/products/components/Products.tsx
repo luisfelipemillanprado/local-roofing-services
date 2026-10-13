@@ -4,7 +4,8 @@ import { Button } from "@/common/call-to-actions/components/Button";
 import { ProductCardList } from "@/common/product-card-list/components/ProductCardList";
 import { getTranslations } from "next-intl/server";
 import { productsData } from "@/data/shared-sections/products";
-import { formatPrice, shopProductsData } from "@/data/features/shop/products";
+import { shopProductsData } from "@/data/features/shop/products";
+import { formatPrice } from "@/utils/helpers/price";
 import type { ProductsProps } from "@/shared-sections/products/types";
 import { Container } from "@/common/container/components/Container";
 

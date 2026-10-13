@@ -2,7 +2,7 @@ import { useEffect, useId, useRef } from "react";
 import { ChevronDown, Funnel } from "lucide-react";
 import clsx from "clsx";
 import { Text } from "@/common/text/components/Text";
-import { useEnterExit } from "@/hooks/transition/useEnterExit";
+import { useEnterExit } from "@/utils/hooks/transition/useEnterExit";
 import type { SortSelectProps } from "@/features/shop/catalog/types";
 
 /* exit transition duration — drives animation + unmount delay; a dropdown is quicker than a menu */

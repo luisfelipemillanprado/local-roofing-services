@@ -2718,6 +2718,3 @@ export const shopProductsData = {
     },
   ],
 } as const;
-
-/* the shop's one price format: dollars with cents */
-export const formatPrice = (price: number) => `$${price.toFixed(2)}`;

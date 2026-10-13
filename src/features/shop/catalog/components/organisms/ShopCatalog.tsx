@@ -2,8 +2,9 @@ import { getTranslations } from "next-intl/server";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
 import { ShopBrowser } from "@/features/shop/catalog/components/organisms/ShopBrowser";
-import { formatPrice, shopProductsData } from "@/data/features/shop/products";
+import { shopProductsData } from "@/data/features/shop/products";
 import { shopCatalogData } from "@/data/features/shop/catalog";
+import { formatPrice } from "@/utils/helpers/price";
 import type { ShopCatalogProps } from "@/features/shop/catalog/types";
 
 const { items } = shopProductsData;

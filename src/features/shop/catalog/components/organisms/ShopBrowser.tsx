@@ -5,7 +5,7 @@ import { ShopSearchBar } from "@/features/shop/catalog/components/molecules/Shop
 import { CategoryStrip } from "@/features/shop/catalog/components/molecules/CategoryStrip";
 import { SortSelect } from "@/features/shop/catalog/components/molecules/SortSelect";
 import { ProductCardList } from "@/common/product-card-list/components/ProductCardList";
-import { useShopResults } from "@/hooks/shop/useShopResults";
+import { useShopResults } from "@/utils/hooks/shop/useShopResults";
 import type { ShopBrowserProps } from "@/features/shop/catalog/types";
 
 export const ShopBrowser = ({

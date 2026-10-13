@@ -33,7 +33,9 @@ tiers. A slice's **tier folder** (not an inner `organisms/` folder) determines t
 - `shared-sections/` — organisms reused by **two or more** routes.
 - `layout/` — app-shell chrome (navbar, footer, floating-contact).
 - `features/<route>/` — organisms specific to a **single** route.
-- `carousel/` — self-contained carousel engine (hooks + types).
+- `carousel/` — self-contained carousel engine (types).
+- `utils/` — non-component code that is not data: `utils/hooks/` (every custom hook, filed by
+  the slice its imports belong to) and `utils/helpers/` (pure functions).
 - `data/` — non-translatable data and metadata (company facts, image paths, icons, keys).
 - `i18n/` — internationalization config and helpers.
 - `app/` — Next.js routing and page composition.
@@ -53,6 +55,8 @@ Architectural boundaries are defined and verified by
 - `features/` must not import from `app/`.
 - `data/` must not import component runtime from any tier; **`type-only`** imports into
   those layers are allowed (e.g. importing a `*Props`/`*Data` type).
+- `utils/` must not import component runtime from any tier; same **`type-only`** exception,
+  which is what lets a hook take its slice's types.
 - No circular dependencies.
 - No unresolvable modules.
 
@@ -72,12 +76,16 @@ that file and `pnpm arch` are the source of truth — do not infer a rule that i
 i118builder/
   index.ts                       # builder: compiles split sources → messages/{en,es}.json
   messages/
-    (global)/                    # navbar, footer, metadata, floating-contact
-    (sections)/                  # about, contact, faq, marquee, page-header, pitch,
-                                 #   pricing, product, project, service, service-area,
-                                 #   team, testimonial
-    (pages)/                     # about-page, projects-page, service-detail,
-                                 #   services-page, shop-page
+    metadata/                    # per-route page metadata
+    (global)/                    # navbar, footer, floating-contact
+    (shared-sections)/           # about, contact, faq, marquee, page-header, pitch,
+                                 #   products, project, result, service, service-area,
+                                 #   testimonial
+    (features)/                  # service-detail, shop-page
+      shop-page/                 # split to mirror src/data/features/shop/:
+        (products)/              #   catalog, units, availability
+        (catalog)/               #   categories, sort, search
+        (product-detail)/        #   detail
 messages/{en,es}.json            # GENERATED (gitignored) — never edit by hand
 
 src/
@@ -101,14 +109,17 @@ src/
   shared-sections/<slice>/components/   # organisms reused by ≥2 routes (services, pitch, …)
   layout/<slice>/components/            # app-shell chrome (navbar, footer, floating-contact)
   features/<route>/components/          # route-only organisms (shop, service-detail, projects)
-  carousel/                      # self-contained carousel engine (hooks + types)
+  carousel/                      # self-contained carousel engine (types)
+  utils/
+    hooks/<slice>/useX.ts        # every custom hook, filed by the slice its imports belong to
+    helpers/<file>.ts            # pure functions (price formatting)
   data/
     site.ts                      # company facts (company)
     blurs.ts                     # blur placeholders for next/image
     global/layout.ts             # navbar / footer / floating-contact shell data
     shared-sections/<section>.ts # per-section metadata (icons, image paths, keys)
     pages/<route>.ts             # route-specific section data (service-detail)
-    shop/<file>.ts               # shop catalog + product-detail data
+    features/shop/<file>.ts      # shop catalog + product-detail data
   i18n/
     routing.ts                   # locales, defaultLocale, localePrefix: "as-needed"
     request.ts                   # getRequestConfig (loads the generated messages)
@@ -142,10 +153,14 @@ i118builder/messages/  →  i118builder/index.ts  →  messages/{en,es}.json  �
 - **Sources** are the split JSON under `i118builder/messages/`, one file per locale
   (`en.json`, `es.json`) inside each namespace folder — these are what you edit.
 - [`i118builder/index.ts`](i118builder/index.ts) collects every `*.json`, **strips folder
-  segments wrapped in parentheses** (`(global)`, `(sections)`, `(pages)` are organizational
-  groups and do **not** appear in the namespace), nests the remaining segments, deep-merges
-  per locale, and writes `messages/<locale>.json`. So `(sections)/service/en.json` →
-  namespace `service`; `(pages)/shop-page/en.json` → namespace `shop-page`.
+  segments wrapped in parentheses** (`(global)`, `(shared-sections)`, `(features)` are
+  organizational groups and do **not** appear in the namespace), nests the remaining
+  segments, deep-merges per locale, and writes `messages/<locale>.json`. So
+  `(shared-sections)/service/en.json` → namespace `service`;
+  `(features)/shop-page/en.json` → namespace `shop-page`.
+- A namespace that outgrows one file splits into **parenthesized subfolders**, which merge
+  back into the same namespace: `shop-page/(products)/en.json` mirrors
+  `src/data/features/shop/products.ts` and still yields `shop-page.catalog.…`.
 - `messages/en.json` and `messages/es.json` are **generated and gitignored** (also in
   `.prettierignore`). **Do not edit them by hand** — edit the split sources and rebuild.
 - Rebuild with `pnpm i18n:build` (one-shot) or `pnpm dev` (watch mode). The builder is

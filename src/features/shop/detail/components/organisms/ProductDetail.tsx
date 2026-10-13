@@ -11,7 +11,7 @@ import { ProductGallery } from "@/features/shop/detail/components/molecules/Prod
 import { ProductPrice } from "@/features/shop/detail/components/molecules/ProductPrice";
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { productDetailData } from "@/data/features/shop/product-detail";
-import { formatPrice } from "@/data/features/shop/products";
+import { formatPrice } from "@/utils/helpers/price";
 import type { ProductDetailProps, SpecStripKey } from "@/features/shop/detail/types";
 
 const { ctaHref, specStrip, viewer } = productDetailData;

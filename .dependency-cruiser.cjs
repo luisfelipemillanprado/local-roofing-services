@@ -12,7 +12,7 @@ module.exports = {
       name: "carousel-stays-pure",
       comment: "carousel/ is a self-contained engine; it must not import from any app tier",
       severity: "error",
-      from: { path: "^src/(?:hooks/)?carousel/" },
+      from: { path: "^src/(?:utils/hooks/)?carousel/" },
       to: { path: "^src/(common|shared-sections|features|layout|app|data|i18n)/" },
     },
     {
@@ -62,10 +62,10 @@ module.exports = {
       },
     },
     {
-      name: "hooks-stay-pure",
-      comment: "a hook must not import component runtime; type-only imports are allowed",
+      name: "utils-stay-pure",
+      comment: "a util must not import component runtime; type-only imports are allowed",
       severity: "error",
-      from: { path: "^src/hooks/" },
+      from: { path: "^src/utils/" },
       to: {
         path: "^src/(common|shared-sections|features|layout|app)/",
         dependencyTypesNot: ["type-only"],
