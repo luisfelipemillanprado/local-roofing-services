@@ -1,0 +1,22 @@
+{
+  "search": {
+    "label": "Search Products",
+    "placeholder": "Search products, brands and more"
+  },
+  "sort": {
+    "label": "Sort by",
+    "best": "Best Matches",
+    "priceAsc": "Price: Low To High",
+    "priceDesc": "Price: High To Low",
+    "topRated": "Highest Rated"
+  },
+  "categories": {
+    "shingles": "Shingles",
+    "metal": "Metal Panels",
+    "underlayment": "Underlayment",
+    "flashing": "Flashing",
+    "tools": "Tools & Gear",
+    "supplies": "Pro Adhesives",
+    "accessories": "Accessories"
+  }
+}

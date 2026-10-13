@@ -1,0 +1,22 @@
+{
+  "search": {
+    "label": "Buscar Productos",
+    "placeholder": "Busca productos, marcas y más"
+  },
+  "sort": {
+    "label": "Ordenar",
+    "best": "Mejor Opción",
+    "priceAsc": "Precio: Menor A Mayor",
+    "priceDesc": "Precio: Mayor A Menor",
+    "topRated": "Mejor Valorados"
+  },
+  "categories": {
+    "shingles": "Tejas",
+    "metal": "Paneles Metal",
+    "underlayment": "Membranas",
+    "flashing": "Tapajuntas",
+    "tools": "Herramientas",
+    "supplies": "Adhesivos Pro",
+    "accessories": "Accesorios"
+  }
+}
