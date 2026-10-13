@@ -499,8 +499,8 @@
   },
   "items": {
     "timberline-hdz-charcoal": {
-      "title": "GAF Timberline HDZ Charcoal Shingles",
-      "titleLead": "GAF Timberline HDZ",
+      "title": "Asphalt Timberline HDZ Charcoal Shingles",
+      "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Charcoal Shingles",
       "description": "Architectural laminate shingles in deep charcoal, featuring LayerLock technology that considerably widens the nailing zone for a faster, surer fastening.",
       "about": [
@@ -528,8 +528,8 @@
       }
     },
     "timberline-hdz-pewter-gray": {
-      "title": "GAF Timberline HDZ Pewter Gray Shingles",
-      "titleLead": "GAF Timberline HDZ",
+      "title": "Asphalt Timberline HDZ Pewter Gray Shingles",
+      "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Pewter Gray Shingles",
       "description": "Architectural laminate shingles in soft pewter gray, engineered for exceptional wind resistance and weathering performance across any pitched residential roof.",
       "about": [
@@ -557,8 +557,8 @@
       }
     },
     "timberline-hdz-barkwood": {
-      "title": "GAF Timberline HDZ Barkwood Shingles",
-      "titleLead": "GAF Timberline HDZ",
+      "title": "Asphalt Timberline HDZ Barkwood Shingles",
+      "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Barkwood Shingles",
       "description": "Architectural laminate shingles in warm barkwood, reproducing the shadow depth of natural wood shakes without their considerable ongoing maintenance burden.",
       "about": [
@@ -586,8 +586,8 @@
       }
     },
     "timberline-hdz-hunter-green": {
-      "title": "GAF Timberline HDZ Hunter Green Shingles",
-      "titleLead": "GAF Timberline HDZ",
+      "title": "Asphalt Timberline HDZ Hunter Green Shingles",
+      "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Hunter Green Shingles",
       "description": "Architectural laminate shingles in rich hunter green, a distinctive roof color settling naturally into wooded lots and heavily shaded settings.",
       "about": [
@@ -615,8 +615,8 @@
       }
     },
     "timberline-hdz-shakewood": {
-      "title": "GAF Timberline HDZ Shakewood Shingles",
-      "titleLead": "GAF Timberline HDZ",
+      "title": "Asphalt Timberline HDZ Shakewood Shingles",
+      "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Shakewood Shingles",
       "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline without visually overwhelming the walls positioned beneath.",
       "about": [
@@ -673,8 +673,8 @@
       }
     },
     "brakki-stone-tiles": {
-      "title": "DECRA Stone Coated Steel Roof Tiles",
-      "titleLead": "DECRA Stone Coated",
+      "title": "Ceramic Stone Coated Steel Roof Tiles",
+      "titleLead": "Ceramic Stone Coated",
       "titleAccent": "Steel Roof Tiles",
       "about": [
         "DECRA Tile is a pressure formed steel panel finished with a ceramic coated stone chip surface, so a roof reads as Mediterranean clay tile while weighing a fraction of it. The steel is aluminium zinc alloy coated to ASTM A792 at 26 gauge, 0.0179 in (0.455 mm), and each panel is pre corrugated into several vertical tiles forming one tile step across its face. The colour comes from the stone granules rather than a paint film that could chalk.",
@@ -1862,9 +1862,9 @@
       }
     },
     "steeldash-snap-lock-slate-gray": {
-      "title": "Steeldash Slate Gray Standing Seam",
-      "titleLead": "Steeldash Slate Gray",
-      "titleAccent": "Standing Seam",
+      "title": "Slate Gray Standing Seam Steel Panel",
+      "titleLead": "Slate Gray Standing",
+      "titleAccent": "Seam Steel Panel",
       "about": [
         "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Slate Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colours besides this one.",
         "Net coverage is 16 in per panel with a major rib height of 1 in, and the pan is flat as standard. Panels are rolled to order from 1 ft up to 40 ft in half foot increments, so a run from eave to ridge usually arrives as a single length with no end lap to seal. Lead time from Steeldash is quoted at seven business days before shipping. A striated pan is available on request, which is the usual answer to oil canning across wide runs of pan.",
@@ -1920,8 +1920,8 @@
       }
     },
     "drexel-econo-coping": {
-      "title": "Drexel Econo Coping Edge System",
-      "titleLead": "Drexel Econo Coping",
+      "title": "Econo Coping Parapet Edge System",
+      "titleLead": "Econo Coping Parapet",
       "titleAccent": "Edge System",
       "description": "Parapet coping combining a continuous prepunched cleat with a decorative cover concealing every fastener, certified under the ANSI SPRI standard.",
       "about": [
@@ -2297,8 +2297,8 @@
       }
     },
     "malarkey-smart-start": {
-      "title": "Malarkey Smart Start Starter Shingles",
-      "titleLead": "Malarkey Smart Start",
+      "title": "Smart Start Asphalt Starter Shingles",
+      "titleLead": "Smart Start Asphalt",
       "titleAccent": "Starter Shingles",
       "description": "Perforated NEX polymer modified starter shingle separating into two independent strips that seal the foundational course along eaves and rakes.",
       "about": [
@@ -2355,9 +2355,9 @@
       }
     },
     "dynasty-emerald-green": {
-      "title": "IKO Dynasty Emerald Green Shingles",
-      "titleLead": "IKO Dynasty Emerald",
-      "titleAccent": "Green Shingles",
+      "title": "Dynasty Emerald Green Asphalt Shingles",
+      "titleLead": "Dynasty Emerald Green",
+      "titleAccent": "Asphalt Shingles",
       "description": "Architectural laminate shingles with a reinforced ArmourZone nailing band, rated for powerful winds and protected by a limited lifetime warranty.",
       "about": [
         "Dynasty (IKO) is a heavyweight laminated shingle, shown here in Emerald Green, made on a dimensionally stable non woven glass fiber mat impregnated with stabilized waterproofing bitumen. It has a random shake look with high contrast dual band shadow coloring, colored ceramic granules on both layers to protect the asphalt from ultraviolet radiation, release tape and mineral powder on the underside, and algae inhibiting granules for lasting resistance.",
@@ -2413,9 +2413,9 @@
       }
     },
     "steeldash-snap-lock-ash-gray": {
-      "title": "Steeldash Ash Gray Striated Panel",
-      "titleLead": "Steeldash Ash Gray",
-      "titleAccent": "Striated Panel",
+      "title": "Ash Gray Striated Steel Panel",
+      "titleLead": "Ash Gray Striated",
+      "titleAccent": "Steel Panel",
       "about": [
         "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Ash Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colours besides this one.",
         "Net coverage is 16 in per panel with a major rib height of 1 in, and this one carries the striated pan. Panels are rolled to order from 1 ft up to 40 ft in half foot increments, so a run from eave to ridge usually arrives as a single length with no end lap to seal. Lead time from Steeldash is quoted at seven business days before shipping. The flat pan is the standard option, so the striated version has to be called in when ordering.",
