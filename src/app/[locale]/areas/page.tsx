@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { routeMetadata } from "@/i18n/metadata";
-import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { PageHeader } from "@/shared-sections/page-header/components/organisms/PageHeader";
 import { pageHeaderData } from "@/data/shared-sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ServiceAreas } from "@/shared-sections/service-areas/components/organisms/ServiceAreas";
-import { Products } from "@/shared-sections/products/components/organisms/Products";
+import { Products } from "@/shared-sections/products/components/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 
 type Props = { params: Promise<{ locale: string }> };

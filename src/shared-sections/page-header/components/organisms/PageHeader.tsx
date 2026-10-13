@@ -4,7 +4,7 @@ import { Title } from "@/common/title/components/Title";
 import { AvailabilityBadge } from "@/common/availability-badge/components/AvailabilityBadge";
 import { HeroActions } from "@/common/hero-actions/components/HeroActions";
 import { HeroWrapper } from "@/common/hero-wrapper/components/HeroWrapper";
-import { HeroShowcase } from "@/shared-sections/page-header/components/HeroShowcase";
+import { HeroShowcase } from "@/shared-sections/page-header/components/organisms/HeroShowcase";
 import { CustomerRating } from "@/common/customer-rating/components/CustomerRating";
 import { getTranslations } from "next-intl/server";
 import { pageHeaderData } from "@/data/shared-sections/page-header";

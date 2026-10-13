@@ -3,13 +3,13 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { routeMetadata } from "@/i18n/metadata";
-import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { PageHeader } from "@/shared-sections/page-header/components/organisms/PageHeader";
 import { pageHeaderData } from "@/data/shared-sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { ProductDetail } from "@/features/shop/detail/components/organisms/ProductDetail";
 import { ProductInfo } from "@/features/shop/detail/components/organisms/ProductInfo";
 import { Results } from "@/shared-sections/results/components/Results";
-import { Products } from "@/shared-sections/products/components/organisms/Products";
+import { Products } from "@/shared-sections/products/components/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 import { shopProductsData } from "@/data/features/shop/products";
 
