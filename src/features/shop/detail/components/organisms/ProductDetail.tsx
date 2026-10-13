@@ -11,7 +11,7 @@ import { ProductGallery } from "@/features/shop/detail/components/molecules/Prod
 import { ProductPrice } from "@/features/shop/detail/components/molecules/ProductPrice";
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { productDetailData } from "@/data/features/shop/product-detail";
-import { formatPrice } from "@/data/features/shop/products";
+import { formatPrice } from "@/utils/helpers/price";
 import type { ProductDetailProps, SpecStripKey } from "@/features/shop/detail/types";
 
 const { ctaHref, specStrip, viewer } = productDetailData;
@@ -45,8 +45,8 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
           media={
             <ProductGallery
               images={[product.image, ...product.gallery]}
-              title={t(`catalog.${product.slug}.title`)}
-              description={t(`catalog.${product.slug}.description`)}
+              title={t(`items.${product.slug}.title`)}
+              description={t(`items.${product.slug}.description`)}
               zoomLabel={t(viewer.zoom)}
               closeLabel={t(viewer.close)}
               previousLabel={t(viewer.previous)}
@@ -58,9 +58,9 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
             <SectionHeading
               align="left"
               eyebrow={product.brand}
-              title={t(`catalog.${product.slug}.titleLead`)}
-              accent={t(`catalog.${product.slug}.titleAccent`)}
-              description={t(`catalog.${product.slug}.description`)}
+              title={t(`items.${product.slug}.titleLead`)}
+              accent={t(`items.${product.slug}.titleAccent`)}
+              description={t(`items.${product.slug}.description`)}
             />
           }
           points={

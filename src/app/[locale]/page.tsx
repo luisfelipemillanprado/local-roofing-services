@@ -1,13 +1,13 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { PageHeader } from "@/shared-sections/page-header/components/PageHeader";
+import { PageHeader } from "@/shared-sections/page-header/components/organisms/PageHeader";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
 import { About } from "@/shared-sections/about/components/organisms/About";
 import { Services } from "@/shared-sections/services/components/organisms/Services";
 import { Pitch } from "@/shared-sections/pitch/components/Pitch";
-import { Projects } from "@/shared-sections/projects/components/organisms/Projects";
+import { Projects } from "@/shared-sections/projects/components/Projects";
 import { Testimonials } from "@/shared-sections/testimonials/components/organisms/Testimonials";
-import { Products } from "@/shared-sections/products/components/organisms/Products";
+import { Products } from "@/shared-sections/products/components/Products";
 import { Contact } from "@/shared-sections/contact/components/organisms/Contact";
 import { pageHeaderData } from "@/data/shared-sections/page-header";
 

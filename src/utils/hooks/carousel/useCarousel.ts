@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { useSelectedSnap } from "@/hooks/carousel/useSelectedSnap";
+import { useSelectedSnap } from "@/utils/hooks/carousel/useSelectedSnap";
 import type { Carousel, CarouselOptions } from "@/carousel/types";
 
 /* carousel state: dots and manual navigation; looped autoplay by default */

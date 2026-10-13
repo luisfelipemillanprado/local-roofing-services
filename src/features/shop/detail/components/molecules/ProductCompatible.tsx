@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
+import { Link } from "@/i18n/navigation";
 import type { ProductCompatibleProps } from "@/features/shop/detail/types";
 
 /* what the product pairs with, each row linking to its own page */

@@ -2,8 +2,9 @@ import { getTranslations } from "next-intl/server";
 import { SectionWrapper } from "@/common/section-wrapper/components/SectionWrapper";
 import { Container } from "@/common/container/components/Container";
 import { ShopBrowser } from "@/features/shop/catalog/components/organisms/ShopBrowser";
-import { formatPrice, shopProductsData } from "@/data/features/shop/products";
+import { shopProductsData } from "@/data/features/shop/products";
 import { shopCatalogData } from "@/data/features/shop/catalog";
+import { formatPrice } from "@/utils/helpers/price";
 import type { ShopCatalogProps } from "@/features/shop/catalog/types";
 
 const { items } = shopProductsData;
@@ -16,7 +17,7 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
   const products = items.map((product) => ({
     slug: product.slug,
     href: `/shop/${product.slug}`,
-    title: t(`catalog.${product.slug}.title`),
+    title: t(`items.${product.slug}.title`),
     brand: product.brand,
     image: product.image,
     category: product.category,

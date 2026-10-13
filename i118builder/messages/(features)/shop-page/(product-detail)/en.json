@@ -1,0 +1,60 @@
+{
+  "detail": {
+    "reviewCount": "{rating} from {count} Reviews",
+    "follow": "Follow Us",
+    "viewImage": "View Image",
+    "close": "Close",
+    "previous": "Previous Image",
+    "next": "Next Image",
+    "trust": {
+      "materials": {
+        "title": "Professional Materials",
+        "description": "Every item is chosen for how it holds up on a real roof.",
+        "highlights": {
+          "label": "PICKED",
+          "accent": "CAREFULLY"
+        }
+      },
+      "brands": {
+        "title": "Trusted Brands",
+        "description": "We stock makers like GAF, CertainTeed, Owens Corning, IKO and Malarkey, all recognized.",
+        "highlights": {
+          "label": "MANY",
+          "accent": "MAKERS"
+        }
+      },
+      "installation": {
+        "title": "Expert Installation",
+        "description": "Certified crews install what you buy, following the manufacturer instructions to the letter.",
+        "highlights": {
+          "label": "CREWS",
+          "accent": "CERTIFIED"
+        }
+      },
+      "warranty": {
+        "title": "Factory Warranty",
+        "description": "Each product carries the coverage its own manufacturer publishes, and we explain it.",
+        "highlights": {
+          "label": "FACTORY",
+          "accent": "BACKED"
+        }
+      }
+    },
+    "strip": {
+      "category": "Category",
+      "unit": "Sale Unit",
+      "sku": "Item Code",
+      "warranty": "Warranty"
+    },
+    "section": {
+      "about": "Description",
+      "specifications": "Specifications",
+      "features": "Features"
+    },
+    "compatible": "Compatible With",
+    "features": {
+      "install": "Installation",
+      "coverage": "Warranty Coverage"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRevealOnScroll } from "@/hooks/viewport/useRevealOnScroll";
+import { useRevealOnScroll } from "@/utils/hooks/viewport/useRevealOnScroll";
 import type { RevealProps } from "@/common/reveal/types";
 
 /* client scroll reveal wrapper; children stay server rendered */

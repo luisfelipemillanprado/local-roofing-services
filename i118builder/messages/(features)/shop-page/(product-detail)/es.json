@@ -1,0 +1,60 @@
+{
+  "detail": {
+    "reviewCount": "{rating} de {count} Reseñas",
+    "follow": "Síguenos",
+    "viewImage": "Ver Imagen",
+    "close": "Cerrar",
+    "previous": "Imagen Anterior",
+    "next": "Imagen Siguiente",
+    "trust": {
+      "materials": {
+        "title": "Materiales Profesionales",
+        "description": "Elegimos cada artículo por cómo aguanta en un techo real y exigente.",
+        "highlights": {
+          "label": "ELEGIDOS",
+          "accent": "UNO A UNO"
+        }
+      },
+      "brands": {
+        "title": "Marcas Confiables",
+        "description": "Trabajamos fabricantes como GAF, CertainTeed, Owens Corning, IKO y Malarkey, todos reconocidos.",
+        "highlights": {
+          "label": "VARIOS",
+          "accent": "FABRICANTES"
+        }
+      },
+      "installation": {
+        "title": "Instalación Experta",
+        "description": "Equipos certificados instalan lo que compras siguiendo las instrucciones exactas del fabricante.",
+        "highlights": {
+          "label": "EQUIPOS",
+          "accent": "CERTIFICADOS"
+        }
+      },
+      "warranty": {
+        "title": "Garantía de Fábrica",
+        "description": "Cada producto lleva la cobertura que publica su fabricante, y la explicamos.",
+        "highlights": {
+          "label": "RESPALDO",
+          "accent": "FÁBRICA"
+        }
+      }
+    },
+    "strip": {
+      "category": "Categoría",
+      "unit": "Formato",
+      "sku": "Referencia",
+      "warranty": "Garantía"
+    },
+    "section": {
+      "about": "Descripción",
+      "specifications": "Especificaciones",
+      "features": "Características"
+    },
+    "compatible": "Compatible Con",
+    "features": {
+      "install": "Instalación",
+      "coverage": "Cobertura de Garantía"
+    }
+  }
+}
