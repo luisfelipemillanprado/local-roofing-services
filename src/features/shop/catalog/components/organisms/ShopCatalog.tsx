@@ -16,7 +16,7 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
   const products = items.map((product) => ({
     slug: product.slug,
     href: `/shop/${product.slug}`,
-    title: t(`catalog.${product.slug}.title`),
+    title: t(`items.${product.slug}.title`),
     brand: product.brand,
     image: product.image,
     category: product.category,

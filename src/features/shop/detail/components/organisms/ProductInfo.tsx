@@ -12,25 +12,25 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
   const t = await getTranslations("shop-page");
 
   /* write up: a real i18n array, so t.raw */
-  const aboutParagraphs = t.raw(`catalog.${product.slug}.about`) as string[];
+  const aboutParagraphs = t.raw(`items.${product.slug}.about`) as string[];
   /* spec sheet: a worded value is translated, a symbol measure ships as is */
   const specRows = product.specs.map((row) => ({
     key: row.key,
-    label: t(`detail.spec.${row.key}`),
+    label: t(`spec.${row.key}`),
     /* a counted value feeds its number in, so the unit can inflect; the rest carry none */
     value: "valueKey" in row ? t(row.valueKey, "n" in row ? { n: row.n } : undefined) : row.value,
   }));
   /* pairings: title by key, href built from the slug */
   const compatibleItems = product.compatible.map((paired) => ({
     key: paired,
-    title: t(`catalog.${paired}.title`),
+    title: t(`items.${paired}.title`),
     href: `/shop/${paired}`,
   }));
   /* checklists: label by key, items a real i18n array */
   const checklists = features.map((key) => ({
     key,
     label: t(`detail.features.${key}`),
-    items: t.raw(`catalog.${product.slug}.features.${key}`) as string[],
+    items: t.raw(`items.${product.slug}.features.${key}`) as string[],
   }));
   /* tabs: label by key, in the order the data declares */
   const tabItems = tabs.map((key) => ({ key, label: t(`detail.section.${key}`) }));
@@ -55,7 +55,7 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
             tabs={tabItems}
             paragraphs={aboutParagraphs}
             specRows={specRows}
-            compatibleLabel={t("detail.features.compatible")}
+            compatibleLabel={t("detail.compatible")}
             compatible={compatibleItems}
             checklists={checklists}
           />

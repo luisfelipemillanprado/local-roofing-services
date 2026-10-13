@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return {};
   const t = await getTranslations({ locale: locale as Locale, namespace: "shop-page" });
   return {
-    title: t(`catalog.${product.slug}.title`),
-    description: t(`catalog.${product.slug}.description`),
+    title: t(`items.${product.slug}.title`),
+    description: t(`items.${product.slug}.description`),
     ...(await routeMetadata(locale as Locale, `/shop/${slug}`)),
   };
 }

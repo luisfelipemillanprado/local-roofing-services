@@ -19,7 +19,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
   const products = items.slice(0, limit).map((product) => ({
     slug: product.slug,
     href: `/shop/${product.slug}`,
-    title: tShop(`catalog.${product.slug}.title`),
+    title: tShop(`items.${product.slug}.title`),
     brand: product.brand,
     image: product.image,
     priceLabel: formatPrice(product.price),
