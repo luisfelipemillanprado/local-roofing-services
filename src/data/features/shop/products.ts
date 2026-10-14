@@ -1,11 +1,12 @@
 /* Shop products: every item the shop and the teaser read; slug is id, route, i18n key and React key */
 /* image = folder main shot; gallery = extra shots in the same folder (variants) */
+/* brand hand-cased lowercase for the card; the detail eyebrow uppercases it */
 export const shopProductsData = {
   items: [
     {
       slug: "malarkey-smart-start",
       category: "shingles",
-      brand: "MALARKEY",
+      brand: "malarkey",
       sku: "MAL-000210SS",
       image: "/images/products/shingles/malarkey-smart-start/malarkey-smart-start-1.webp",
       gallery: [
@@ -41,7 +42,7 @@ export const shopProductsData = {
     {
       slug: "landmark-weathered-wood",
       category: "shingles",
-      brand: "CERTAINTEED",
+      brand: "certainteed",
       sku: "CTD-00319283",
       image: "/images/products/shingles/landmark-weathered-wood/landmark-weathered-wood-1.webp",
       gallery: [
@@ -84,7 +85,7 @@ export const shopProductsData = {
     {
       slug: "duration-designer-slatestone-grey",
       category: "shingles",
-      brand: "OWENS CORNING",
+      brand: "owens corning",
       sku: "OWC-01020735",
       image:
         "/images/products/shingles/duration-designer-slatestone-grey/duration-designer-slatestone-grey-1.webp",
@@ -128,7 +129,7 @@ export const shopProductsData = {
     {
       slug: "timberline-hdz-charcoal",
       category: "shingles",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00489180",
       image: "/images/products/shingles/timberline-hdz-charcoal/timberline-hdz-charcoal-1.webp",
       gallery: [
@@ -171,7 +172,7 @@ export const shopProductsData = {
     {
       slug: "timberline-hdz-pewter-gray",
       category: "shingles",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00487552",
       image: "/images/products/shingles/timberline-hdz-pewter-gray/timberline-hdz-pewter-gray-1.webp",
       gallery: [
@@ -214,7 +215,7 @@ export const shopProductsData = {
     {
       slug: "timberline-hdz-barkwood",
       category: "shingles",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00489070",
       image: "/images/products/shingles/timberline-hdz-barkwood/timberline-hdz-barkwood-1.webp",
       gallery: [
@@ -257,7 +258,7 @@ export const shopProductsData = {
     {
       slug: "timberline-hdz-hunter-green",
       category: "shingles",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00487723",
       image: "/images/products/shingles/timberline-hdz-hunter-green/timberline-hdz-hunter-green-1.webp",
       gallery: [
@@ -300,7 +301,7 @@ export const shopProductsData = {
     {
       slug: "timberline-hdz-shakewood",
       category: "shingles",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00489737",
       image: "/images/products/shingles/timberline-hdz-shakewood/timberline-hdz-shakewood-1.webp",
       gallery: [
@@ -343,7 +344,7 @@ export const shopProductsData = {
     {
       slug: "dynasty-emerald-green",
       category: "shingles",
-      brand: "IKO",
+      brand: "iko",
       sku: "IKO-17551100",
       image: "/images/products/shingles/dynasty-emerald-green/dynasty-emerald-green-1.webp",
       gallery: [
@@ -386,7 +387,7 @@ export const shopProductsData = {
     {
       slug: "brakki-19pc",
       category: "metal",
-      brand: "BRAKKI",
+      brand: "brakki",
       sku: "BRK-186LGY20",
       image: "/images/products/metal-roofing/brakki-19pc/brakki-19pc-1.webp",
       gallery: [
@@ -422,7 +423,7 @@ export const shopProductsData = {
     {
       slug: "brakki-22pc",
       category: "metal",
-      brand: "BRAKKI",
+      brand: "brakki",
       sku: "BRK-186LBG20",
       image: "/images/products/metal-roofing/brakki-22pc/brakki-22pc-1.webp",
       gallery: [
@@ -457,7 +458,7 @@ export const shopProductsData = {
     {
       slug: "brakki-20pc",
       category: "metal",
-      brand: "BRAKKI",
+      brand: "brakki",
       sku: "BRK-186LTG20",
       image: "/images/products/metal-roofing/brakki-20pc/brakki-20pc-1.webp",
       gallery: [
@@ -493,7 +494,7 @@ export const shopProductsData = {
     {
       slug: "brakki-21pc",
       category: "metal",
-      brand: "BRAKKI",
+      brand: "brakki",
       sku: "BRK-186LTT20",
       image: "/images/products/metal-roofing/brakki-21pc/brakki-21pc-1.webp",
       gallery: [
@@ -529,7 +530,7 @@ export const shopProductsData = {
     {
       slug: "brakki-10pc",
       category: "metal",
-      brand: "BRAKKI",
+      brand: "brakki",
       sku: "BRK-133LGY10",
       image: "/images/products/metal-roofing/brakki-10pc/brakki-10pc-1.webp",
       gallery: [
@@ -565,7 +566,7 @@ export const shopProductsData = {
     {
       slug: "brakki-stone-tiles",
       category: "metal",
-      brand: "DECRA",
+      brand: "decra",
       sku: "DEC-0TIL5216",
       image: "/images/products/metal-roofing/brakki-stone-tiles/brakki-stone-tiles-1.webp",
       gallery: [
@@ -603,7 +604,7 @@ export const shopProductsData = {
     {
       slug: "brakki-insulated-panel",
       category: "metal",
-      brand: "ISOPAN",
+      brand: "isopan",
       sku: "ISO-0PUR1000",
       image: "/images/products/metal-roofing/brakki-insulated-panel/brakki-insulated-panel-1.webp",
       gallery: [
@@ -638,7 +639,7 @@ export const shopProductsData = {
     {
       slug: "steeldash-snap-lock-slate-gray",
       category: "metal",
-      brand: "STEELDASH",
+      brand: "steeldash",
       sku: "STD-0SL16SGY",
       image:
         "/images/products/metal-roofing/steeldash-snap-lock-slate-gray/steeldash-snap-lock-slate-gray-1.webp",
@@ -672,7 +673,7 @@ export const shopProductsData = {
     {
       slug: "steeldash-snap-lock-ash-gray",
       category: "metal",
-      brand: "STEELDASH",
+      brand: "steeldash",
       sku: "STD-0SL16AGY",
       image:
         "/images/products/metal-roofing/steeldash-snap-lock-ash-gray/steeldash-snap-lock-ash-gray-1.webp",
@@ -706,7 +707,7 @@ export const shopProductsData = {
     {
       slug: "dupont-tyvek-120",
       category: "underlayment",
-      brand: "DUPONT",
+      brand: "dupont",
       sku: "DUP-D1551565",
       image: "/images/products/underlayment/dupont-tyvek-120/dupont-tyvek-120-1.webp",
       gallery: [
@@ -745,7 +746,7 @@ export const shopProductsData = {
     {
       slug: "gcp-5003000",
       category: "underlayment",
-      brand: "GCP",
+      brand: "gcp",
       sku: "GCP-05003000",
       image: "/images/products/underlayment/gcp-5003000/gcp-5003000-1.webp",
       gallery: [
@@ -789,7 +790,7 @@ export const shopProductsData = {
     {
       slug: "certainteed-roofrunner",
       category: "underlayment",
-      brand: "CERTAINTEED",
+      brand: "certainteed",
       sku: "CTD-00404987",
       image: "/images/products/underlayment/certainteed-roofrunner/certainteed-roofrunner-1.webp",
       gallery: [
@@ -828,7 +829,7 @@ export const shopProductsData = {
     {
       slug: "protect-a1",
       category: "underlayment",
-      brand: "GLIDEVALE PROTECT",
+      brand: "glidevale protect",
       sku: "GLP-0A1HR145",
       image: "/images/products/underlayment/protect-a1/protect-a1-1.webp",
       gallery: [
@@ -866,7 +867,7 @@ export const shopProductsData = {
     {
       slug: "exoperm-mono",
       category: "underlayment",
-      brand: "PARTEL",
+      brand: "partel",
       sku: "PAR-00EXM150",
       image: "/images/products/underlayment/exoperm-mono/exoperm-mono-1.webp",
       gallery: [
@@ -903,7 +904,7 @@ export const shopProductsData = {
     {
       slug: "bmi-chova",
       category: "underlayment",
-      brand: "CHOVA",
+      brand: "chova",
       sku: "CHO-COMBI40G",
       image: "/images/products/underlayment/bmi-chova/bmi-chova-1.webp",
       gallery: [
@@ -947,7 +948,7 @@ export const shopProductsData = {
     {
       slug: "kovertech-gold",
       category: "underlayment",
-      brand: "KOVERTECH",
+      brand: "kovertech",
       sku: "KOV-00GOLD36",
       image: "/images/products/underlayment/kovertech-gold/kovertech-gold-1.webp",
       gallery: [
@@ -980,7 +981,7 @@ export const shopProductsData = {
     {
       slug: "ormiflex-profesional",
       category: "underlayment",
-      brand: "ORMIFLEX",
+      brand: "ormiflex",
       sku: "ORM-PROF35KG",
       image: "/images/products/underlayment/ormiflex-profesional/ormiflex-profesional-1.webp",
       gallery: [
@@ -1013,7 +1014,7 @@ export const shopProductsData = {
     {
       slug: "bp-suredeck",
       category: "underlayment",
-      brand: "BP",
+      brand: "bp",
       sku: "BPC-000RU600",
       image: "/images/products/underlayment/bp-suredeck/bp-suredeck-1.webp",
       gallery: [
@@ -1057,7 +1058,7 @@ export const shopProductsData = {
     {
       slug: "gibraltar-cf5g-26",
       category: "flashing",
-      brand: "GIBRALTAR",
+      brand: "gibraltar",
       sku: "GIB-00CF5G26",
       image: "/images/products/flashing/gibraltar-cf5g-26/gibraltar-cf5g-26-1.webp",
       gallery: [
@@ -1091,7 +1092,7 @@ export const shopProductsData = {
     {
       slug: "drexel-econo-coping",
       category: "flashing",
-      brand: "DREXEL METALS",
+      brand: "drexel metals",
       sku: "DRX-00EC2420",
       image: "/images/products/flashing/drexel-econo-coping/drexel-econo-coping-1.webp",
       gallery: [
@@ -1126,7 +1127,7 @@ export const shopProductsData = {
     {
       slug: "gibraltar-08328",
       category: "flashing",
-      brand: "GIBRALTAR",
+      brand: "gibraltar",
       sku: "GIB-00008328",
       image: "/images/products/flashing/gibraltar-08328/gibraltar-08328-1.webp",
       gallery: [
@@ -1165,7 +1166,7 @@ export const shopProductsData = {
     {
       slug: "amerimax-5612400120",
       category: "flashing",
-      brand: "AMERIMAX",
+      brand: "amerimax",
       sku: "AMX-56124001",
       image: "/images/products/flashing/amerimax-5612400120/amerimax-5612400120-1.webp",
       gallery: [
@@ -1198,7 +1199,7 @@ export const shopProductsData = {
     {
       slug: "oatey-11872",
       category: "flashing",
-      brand: "OATEY",
+      brand: "oatey",
       sku: "OAT-00011872",
       image: "/images/products/flashing/oatey-11872/oatey-11872-1.webp",
       gallery: [
@@ -1236,7 +1237,7 @@ export const shopProductsData = {
     {
       slug: "gibraltar-987641",
       category: "flashing",
-      brand: "GIBRALTAR",
+      brand: "gibraltar",
       sku: "GIB-00987641",
       image: "/images/products/flashing/gibraltar-987641/gibraltar-987641-1.webp",
       gallery: [
@@ -1270,7 +1271,7 @@ export const shopProductsData = {
     {
       slug: "gibraltar-987642",
       category: "flashing",
-      brand: "GIBRALTAR",
+      brand: "gibraltar",
       sku: "GIB-00987642",
       image: "/images/products/flashing/gibraltar-987642/gibraltar-987642-1.webp",
       gallery: [
@@ -1306,7 +1307,7 @@ export const shopProductsData = {
     {
       slug: "grip-rite-rrp1010hem",
       category: "flashing",
-      brand: "GRIP RITE",
+      brand: "grip rite",
       sku: "GRP-RRP1010H",
       image: "/images/products/flashing/grip-rite-rrp1010hem/grip-rite-rrp1010hem-1.webp",
       gallery: [
@@ -1340,7 +1341,7 @@ export const shopProductsData = {
     {
       slug: "trapezoidal-panel-closure",
       category: "flashing",
-      brand: "UNION CORRUGATING",
+      brand: "union corrugating",
       sku: "UNC-ACCS0105",
       image: "/images/products/flashing/trapezoidal-panel-closure/trapezoidal-panel-closure-1.webp",
       gallery: [
@@ -1373,7 +1374,7 @@ export const shopProductsData = {
     {
       slug: "gaf-everguard-wb181",
       category: "supplies",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-000WB181",
       image: "/images/products/supplies/gaf-everguard-wb181/gaf-everguard-wb181-1.webp",
       gallery: [
@@ -1411,7 +1412,7 @@ export const shopProductsData = {
     {
       slug: "gaf-778c",
       category: "supplies",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-0000778C",
       image: "/images/products/supplies/gaf-778c/gaf-778c-1.webp",
       gallery: [
@@ -1450,7 +1451,7 @@ export const shopProductsData = {
     {
       slug: "titebond-61001",
       category: "supplies",
-      brand: "TITEBOND",
+      brand: "titebond",
       sku: "TTB-00061001",
       image: "/images/products/supplies/titebond-61001/titebond-61001-1.webp",
       gallery: [
@@ -1495,7 +1496,7 @@ export const shopProductsData = {
     {
       slug: "gaf-everguard-tpo-quick-spray-7792",
       category: "supplies",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00007792",
       image:
         "/images/products/supplies/gaf-everguard-tpo-quick-spray-7792/gaf-everguard-tpo-quick-spray-7792-1.webp",
@@ -1534,7 +1535,7 @@ export const shopProductsData = {
     {
       slug: "gaf-olybond-500",
       category: "supplies",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-OB500KIT",
       image: "/images/products/supplies/gaf-olybond-500/gaf-olybond-500-1.webp",
       gallery: [
@@ -1574,7 +1575,7 @@ export const shopProductsData = {
     {
       slug: "matrix-101",
       category: "supplies",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00MTX101",
       image: "/images/products/supplies/matrix-101/matrix-101-1.webp",
       gallery: [
@@ -1615,7 +1616,7 @@ export const shopProductsData = {
     {
       slug: "matrix-102",
       category: "supplies",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-00MTX102",
       image: "/images/products/supplies/matrix-102/matrix-102-1.webp",
       gallery: [
@@ -1654,7 +1655,7 @@ export const shopProductsData = {
     {
       slug: "gaf-everguard-1121",
       category: "supplies",
-      brand: "GAF",
+      brand: "gaf",
       sku: "GAF-07780OOM",
       image: "/images/products/supplies/gaf-everguard-1121/gaf-everguard-1121-1.webp",
       gallery: [
@@ -1692,7 +1693,7 @@ export const shopProductsData = {
     {
       slug: "tac-203-premium-spray",
       category: "supplies",
-      brand: "TAC ADHESIVES",
+      brand: "tac adhesives",
       sku: "TAC-000203PS",
       image: "/images/products/supplies/tac-203-premium-spray/tac-203-premium-spray-1.webp",
       gallery: [
@@ -1731,7 +1732,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dcs391",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-00DCS391",
       image: "/images/products/tools/dewalt-dcs391/dewalt-dcs391-1.webp",
       gallery: [
@@ -1768,7 +1769,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dwht51002",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-DWHT5100",
       image: "/images/products/tools/dewalt-dwht51002/dewalt-dwht51002-1.webp",
       gallery: [
@@ -1803,7 +1804,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dcm849",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-00DCM849",
       image: "/images/products/tools/dewalt-dcm849/dewalt-dcm849-1.webp",
       gallery: [
@@ -1844,7 +1845,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dcn681",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-00DCN681",
       image: "/images/products/tools/dewalt-dcn681/dewalt-dcn681-1.webp",
       gallery: [
@@ -1880,7 +1881,7 @@ export const shopProductsData = {
     {
       slug: "tolsen-25012",
       category: "tools",
-      brand: "TOLSEN",
+      brand: "tolsen",
       sku: "TOL-00025012",
       image: "/images/products/tools/tolsen-25012/tolsen-25012-1.webp",
       gallery: [
@@ -1916,7 +1917,7 @@ export const shopProductsData = {
     {
       slug: "tolsen-10243",
       category: "tools",
-      brand: "TOLSEN",
+      brand: "tolsen",
       sku: "TOL-00010243",
       image: "/images/products/tools/tolsen-10243/tolsen-10243-1.webp",
       gallery: [
@@ -1952,7 +1953,7 @@ export const shopProductsData = {
     {
       slug: "supatool-20in",
       category: "tools",
-      brand: "SUPATOOL",
+      brand: "supatool",
       sku: "SUP-00HS2007",
       image: "/images/products/tools/supatool-20in/supatool-20in-1.webp",
       gallery: [
@@ -1988,7 +1989,7 @@ export const shopProductsData = {
     {
       slug: "qualcraft-2560p",
       category: "tools",
-      brand: "QUALCRAFT",
+      brand: "qualcraft",
       sku: "QCF-0002560P",
       image: "/images/products/tools/qualcraft-2560p/qualcraft-2560p-1.webp",
       gallery: [
@@ -2029,7 +2030,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dcpr320",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-0DCPR320",
       image: "/images/products/tools/dewalt-dcpr320/dewalt-dcpr320-1.webp",
       gallery: [
@@ -2065,7 +2066,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dwht36225",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-DWHT3622",
       image: "/images/products/tools/dewalt-dwht36225/dewalt-dwht36225-1.webp",
       gallery: [
@@ -2100,7 +2101,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dccs620",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-0DCCS620",
       image: "/images/products/tools/dewalt-dccs620/dewalt-dccs620-1.webp",
       gallery: [
@@ -2136,7 +2137,7 @@ export const shopProductsData = {
     {
       slug: "hxoutdoors-ft16c",
       category: "tools",
-      brand: "HX OUTDOORS",
+      brand: "hx outdoors",
       sku: "HXO-000FT16C",
       image: "/images/products/tools/hxoutdoors-ft16c/hxoutdoors-ft16c-1.webp",
       gallery: [
@@ -2173,7 +2174,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dwht10998",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-DWHT1099",
       image: "/images/products/tools/dewalt-dwht10998/dewalt-dwht10998-1.webp",
       gallery: [
@@ -2213,7 +2214,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dxl2010",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-DXL20100",
       image: "/images/products/tools/dewalt-dxl2010/dewalt-dxl2010-1.webp",
       gallery: [
@@ -2250,7 +2251,7 @@ export const shopProductsData = {
     {
       slug: "masterplug-cma301116g4sl",
       category: "tools",
-      brand: "MASTERPLUG",
+      brand: "masterplug",
       sku: "MPL-CMA30111",
       image: "/images/products/tools/masterplug-cma301116g4sl/masterplug-cma301116g4sl-1.webp",
       gallery: [
@@ -2292,7 +2293,7 @@ export const shopProductsData = {
     {
       slug: "dewalt-dpg737",
       category: "tools",
-      brand: "DEWALT",
+      brand: "dewalt",
       sku: "DEW-00DPG737",
       image: "/images/products/tools/dewalt-dpg737/dewalt-dpg737-1.webp",
       gallery: [
@@ -2328,7 +2329,7 @@ export const shopProductsData = {
     {
       slug: "palmer-v5501",
       category: "tools",
-      brand: "PALMER SAFETY",
+      brand: "palmer safety",
       sku: "PLM-000V5501",
       image: "/images/products/tools/palmer-v5501/palmer-v5501-1.webp",
       gallery: [
@@ -2365,7 +2366,7 @@ export const shopProductsData = {
     {
       slug: "bilco-s20",
       category: "accessories",
-      brand: "BILCO",
+      brand: "bilco",
       sku: "BIL-00000S20",
       image: "/images/products/accessories/bilco-s20/bilco-s20-1.webp",
       gallery: [
@@ -2407,7 +2408,7 @@ export const shopProductsData = {
     {
       slug: "vevor-chimney-cap-6in",
       category: "accessories",
-      brand: "VEVOR",
+      brand: "vevor",
       sku: "VEV-000SRC6C",
       image: "/images/products/accessories/vevor-chimney-cap-6in/vevor-chimney-cap-6in-1.webp",
       gallery: [
@@ -2444,7 +2445,7 @@ export const shopProductsData = {
     {
       slug: "master-flow-gic12",
       category: "accessories",
-      brand: "MASTER FLOW",
+      brand: "master flow",
       sku: "MFL-000GIC12",
       image: "/images/products/accessories/master-flow-gic12/master-flow-gic12-1.webp",
       gallery: [
@@ -2482,7 +2483,7 @@ export const shopProductsData = {
     {
       slug: "broan-634",
       category: "accessories",
-      brand: "BROAN NUTONE",
+      brand: "broan nutone",
       sku: "BRN-00000634",
       image: "/images/products/accessories/broan-634/broan-634-1.webp",
       gallery: [
@@ -2520,7 +2521,7 @@ export const shopProductsData = {
     {
       slug: "master-flow-egv6ht",
       category: "accessories",
-      brand: "MASTER FLOW",
+      brand: "master flow",
       sku: "MFL-00EGV6HT",
       image: "/images/products/accessories/master-flow-egv6ht/master-flow-egv6ht-1.webp",
       gallery: [
@@ -2563,7 +2564,7 @@ export const shopProductsData = {
     {
       slug: "master-flow-prsolar2",
       category: "accessories",
-      brand: "MASTER FLOW",
+      brand: "master flow",
       sku: "MFL-PRSOLAR2",
       image: "/images/products/accessories/master-flow-prsolar2/master-flow-prsolar2-1.webp",
       gallery: [
@@ -2602,7 +2603,7 @@ export const shopProductsData = {
     {
       slug: "master-flow-ssb960a",
       category: "accessories",
-      brand: "MASTER FLOW",
+      brand: "master flow",
       sku: "MFL-0SSB960A",
       image: "/images/products/accessories/master-flow-ssb960a/master-flow-ssb960a-1.webp",
       gallery: [
@@ -2639,7 +2640,7 @@ export const shopProductsData = {
     {
       slug: "suntek-cma1919",
       category: "accessories",
-      brand: "SUN TEK",
+      brand: "sun tek",
       sku: "SUN-0CMA1919",
       image: "/images/products/accessories/suntek-cma1919/suntek-cma1919-1.webp",
       gallery: [
@@ -2677,7 +2678,7 @@ export const shopProductsData = {
     {
       slug: "steeldash-tube-14ga-2in",
       category: "accessories",
-      brand: "STEELDASH",
+      brand: "steeldash",
       sku: "STD-000TS214",
       image: "/images/products/accessories/steeldash-tube-14ga-2in/steeldash-tube-14ga-2in-1.webp",
       gallery: [
