@@ -2199,7 +2199,7 @@ export const shopProductsData = {
         { key: "productType", valueKey: "specValue.utilityKnife" },
         { key: "blade", valueKey: "specValue.standardUtility" },
         { key: "edge", valueKey: "specValue.replaceable" },
-        { key: "storage", value: "5" },
+        { key: "bladeStorage", value: "5" },
         { key: "control", valueKey: "specValue.threeSliderStops" },
         { key: "lockout", valueKey: "specValue.secureBladeLock" },
         { key: "assembly", valueKey: "specValue.toolFree" },
