@@ -33,8 +33,8 @@ export const ProductCard = ({
       <div className="grid min-w-0 gap-2">
         <Title as="h3" size="card" weight="bold" truncate text={cardTitle} />
         <div className="grid grid-flow-col items-center justify-start gap-3">
-          <Text as="span" size="note" tone="muted" text={brand} />
-          <AvailabilityDot availability={availability} label={availabilityLabel} size="note" />
+          <Text as="span" size="caption" tone="muted" text={brand} />
+          <AvailabilityDot availability={availability} label={availabilityLabel} size="caption" />
         </div>
         <ProductRating rating={rating} label={`${rating} (${reviews})`} size="caption" />
         <div className="grid grid-flow-col items-end justify-start gap-1.5">
