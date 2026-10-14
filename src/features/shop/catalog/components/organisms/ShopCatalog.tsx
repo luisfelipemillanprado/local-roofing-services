@@ -18,6 +18,7 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
     slug: product.slug,
     href: `/shop/${product.slug}`,
     title: t(`items.${product.slug}.title`),
+    cardTitle: t(`items.${product.slug}.cardTitle`),
     brand: product.brand,
     image: product.image,
     category: product.category,

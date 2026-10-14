@@ -500,6 +500,7 @@
   "items": {
     "timberline-hdz-charcoal": {
       "title": "Tejas Timberline HDZ Carbón",
+      "cardTitle": "Timberline HDZ Carbón",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Carbón",
       "description": "Tejas laminadas arquitectónicas en carbón profundo, con tecnología LayerLock que amplía considerablemente la zona de clavado durante la instalación.",
@@ -529,6 +530,7 @@
     },
     "timberline-hdz-pewter-gray": {
       "title": "Tejas Timberline HDZ Peltre",
+      "cardTitle": "Timberline HDZ Peltre",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Peltre",
       "description": "Tejas laminadas arquitectónicas en gris peltre suave, desarrolladas para resistir vientos fuertes y climatología adversa durante muchas décadas seguidas.",
@@ -558,6 +560,7 @@
     },
     "timberline-hdz-barkwood": {
       "title": "Tejas Timberline HDZ Corteza",
+      "cardTitle": "Timberline HDZ Corteza",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Corteza",
       "description": "Tejas laminadas arquitectónicas en tono corteza cálido, que reproducen la profundidad de la madera natural sin mantenimiento prácticamente alguno.",
@@ -587,6 +590,7 @@
     },
     "timberline-hdz-hunter-green": {
       "title": "Tejas Timberline HDZ Verde Bosque",
+      "cardTitle": "Timberline HDZ Bosque",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Verde Bosque",
       "description": "Tejas laminadas arquitectónicas en verde bosque intenso, un color distintivo que encaja naturalmente en entornos muy arbolados y sombreados.",
@@ -616,6 +620,7 @@
     },
     "timberline-hdz-shakewood": {
       "title": "Tejas Timberline HDZ Arena",
+      "cardTitle": "Timberline HDZ Arena",
       "titleLead": "Tejas Timberline HDZ",
       "titleAccent": "Arena",
       "description": "Tejas laminadas arquitectónicas en tono arena claro, mezcla luminosa que realza cualquier línea de techo sin desdibujar paredes circundantes.",
@@ -645,6 +650,7 @@
     },
     "brakki-10pc": {
       "title": "Paneles Nervados Grises 10 Piezas",
+      "cardTitle": "Nervado Gris 10 Piezas",
       "titleLead": "Paneles Nervados Grises",
       "titleAccent": "10 Piezas",
       "description": "Paneles nervados grises de acero galvanizado, suministrados en paquetes de diez unidades que proporcionan aproximadamente setenta y cinco pies.",
@@ -674,6 +680,7 @@
     },
     "brakki-stone-tiles": {
       "title": "Teja Cerámica de Acero Recubrimiento Pétreo",
+      "cardTitle": "Teja Cerámica de Acero",
       "titleLead": "Teja Cerámica de Acero",
       "titleAccent": "Recubrimiento Pétreo",
       "about": [
@@ -703,6 +710,7 @@
     },
     "brakki-insulated-panel": {
       "title": "Panel Isodomus Sándwich Aislante",
+      "cardTitle": "Isodomus Sándwich",
       "titleLead": "Panel Isodomus",
       "titleAccent": "Sándwich Aislante",
       "about": [
@@ -732,6 +740,7 @@
     },
     "certainteed-roofrunner": {
       "title": "Membrana Sintética RoofRunner",
+      "cardTitle": "Membrana RoofRunner",
       "titleLead": "Membrana Sintética",
       "titleAccent": "RoofRunner",
       "description": "Rollo sintético reforzado que cubre diez cuadros, con superficie antideslizante para caminar seguro sobre pendientes fuertes y tableros mojados.",
@@ -761,6 +770,7 @@
     },
     "protect-a1": {
       "title": "Membrana Protect A1 Impermeable Tipo HR",
+      "cardTitle": "Protect A1 Impermeable",
       "titleLead": "Membrana Protect A1",
       "titleAccent": "Impermeable Tipo HR",
       "description": "Subcapa impermeable certificada mantiene la cubierta completamente hermética y estanca bajo teja, resistiendo la succión del viento sin restricción.",
@@ -790,6 +800,7 @@
     },
     "exoperm-mono": {
       "title": "Exoperm Mono 150 Membrana Monolítica",
+      "cardTitle": "Exoperm Mono 150",
       "titleLead": "Exoperm Mono 150",
       "titleAccent": "Membrana Monolítica",
       "description": "Membrana monolítica altamente transpirable que funciona como entablado, subcapa y barrera cortaviento cubriendo setenta y cinco metros cuadrados completos.",
@@ -819,6 +830,7 @@
     },
     "bmi-chova": {
       "title": "Politaber Combi 40/G Autoprotegida",
+      "cardTitle": "Politaber Combi 40/G",
       "titleLead": "Politaber Combi 40/G",
       "titleAccent": "Autoprotegida",
       "description": "Membrana elastomérica autoprotegida de aplicación con soplete, suministrada en rollos que cubren individualmente diez metros cuadrados de cubierta plana.",
@@ -848,6 +860,7 @@
     },
     "kovertech-gold": {
       "title": "KoverTech Gold Aluminio Gofrado",
+      "cardTitle": "KoverTech Aluminio",
       "titleLead": "KoverTech Gold",
       "titleAccent": "Aluminio Gofrado",
       "description": "Membrana asfáltica con aluminio gofrado que refleja la radiación solar y resiste el agrietamiento, cubriendo aproximadamente diez metros cuadrados.",
@@ -877,6 +890,7 @@
     },
     "ormiflex-profesional": {
       "title": "Ormiflex Profesional Aluminizada",
+      "cardTitle": "Ormiflex Profesional",
       "titleLead": "Ormiflex Profesional",
       "titleAccent": "Aluminizada",
       "description": "Membrana asfáltica reforzada con cara de aluminio, extendida y sellada con soplete sobre cubiertas planas inaccesibles, diez metros cuadrados.",
@@ -906,6 +920,7 @@
     },
     "gaf-everguard-tpo-quick-spray-7792": {
       "title": "Adhesivo en Spray EverGuard TPO",
+      "cardTitle": "Spray EverGuard TPO",
       "titleLead": "Adhesivo en Spray",
       "titleAccent": "EverGuard TPO",
       "description": "Bombona presurizada de adhesivo de contacto para diez cuadros de membrana TPO lisa, pulverizable hasta veinte grados Fahrenheit ambientales.",
@@ -935,6 +950,7 @@
     },
     "gaf-olybond-500": {
       "title": "Kit Adhesivo OlyBond500",
+      "cardTitle": "Adhesivo OlyBond500",
       "titleLead": "Kit Adhesivo",
       "titleAccent": "OlyBond500",
       "description": "Adhesivo de poliuretano bicomponente que pega el panel aislante mediante cordones, aproximadamente treinta y cinco cuadros por kit completo.",
@@ -964,6 +980,7 @@
     },
     "matrix-101": {
       "title": "Adhesivo SBS de Membrana Matrix 101",
+      "cardTitle": "Adhesivo Matrix 101",
       "titleLead": "Adhesivo SBS de",
       "titleAccent": "Membrana Matrix 101",
       "description": "Adhesivo de membrana SBS aplicado íntegramente en frío, sustituyendo el asfalto caliente, aproximadamente dos galones por cien pies cuadrados.",
@@ -993,6 +1010,7 @@
     },
     "matrix-102": {
       "title": "Adhesivo SBS de Membrana Matrix 102",
+      "cardTitle": "Adhesivo Matrix 102",
       "titleLead": "Adhesivo SBS de",
       "titleAccent": "Membrana Matrix 102",
       "description": "Adhesivo cauchutado reforzado con fibra para sistemas de betún modificado, adhiriendo láminas de base, intermedias y de acabado directamente.",
@@ -1022,6 +1040,7 @@
     },
     "gaf-everguard-1121": {
       "title": "Adhesivo TPO EverGuard 1121",
+      "cardTitle": "EverGuard TPO 1121",
       "titleLead": "Adhesivo TPO",
       "titleAccent": "EverGuard 1121",
       "description": "Adhesivo de contacto disolvente para membranas impermeabilizantes TPO, rendimiento aproximado de cincuenta a setenta pies cuadrados por galón encolado.",
@@ -1051,6 +1070,7 @@
     },
     "tac-203-premium-spray": {
       "title": "Adhesivo Premium en Spray TAC 203",
+      "cardTitle": "Spray Premium TAC 203",
       "titleLead": "Adhesivo Premium en",
       "titleAccent": "Spray TAC 203",
       "description": "Adhesivo de contacto pulverizable de policloropreno con elevada resistencia térmica, seis a ocho metros cuadrados por cada litro pulverizado.",
@@ -1080,6 +1100,7 @@
     },
     "brakki-19pc": {
       "title": "Paneles Nervados Grises 20 Piezas",
+      "cardTitle": "Nervado Gris 20 Piezas",
       "titleLead": "Paneles Nervados Grises",
       "titleAccent": "20 Piezas",
       "description": "Paneles nervados grises de acero galvanizado, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies cuadrados.",
@@ -1109,6 +1130,7 @@
     },
     "brakki-20pc": {
       "title": "Paneles Tipo Teja Grises 20 Piezas",
+      "cardTitle": "Paneles Tipo Teja Gris",
       "titleLead": "Paneles Tipo Teja Grises",
       "titleAccent": "20 Piezas",
       "description": "Paneles grises tipo teja en acero galvanizado, suministrados en paquetes de veinte unidades que proporcionan aproximadamente ciento ochenta pies.",
@@ -1138,6 +1160,7 @@
     },
     "brakki-21pc": {
       "title": "Paneles Tipo Teja Terracota 20 Piezas",
+      "cardTitle": "Paneles Teja Terracota",
       "titleLead": "Paneles Tipo Teja",
       "titleAccent": "Terracota 20 Piezas",
       "description": "Paneles terracota tipo teja en acero galvanizado, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies.",
@@ -1167,6 +1190,7 @@
     },
     "dupont-tyvek-120": {
       "title": "Membrana Tyvek Protec 120",
+      "cardTitle": "Membrana Tyvek 120",
       "titleLead": "Membrana Tyvek Protec",
       "titleAccent": "120",
       "description": "Underlayment sintético antideslizante que protege el entablado frente a la humedad manteniendo pisada firme, cubriendo aproximadamente mil pies cuadrados.",
@@ -1196,6 +1220,7 @@
     },
     "gcp-5003000": {
       "title": "Grace Ultra Butílico Autoadhesivo",
+      "cardTitle": "Grace Ultra Butílico",
       "titleLead": "Grace Ultra Butílico",
       "titleAccent": "Autoadhesivo",
       "description": "Underlayment autoadhesivo butílico que se adhiere directamente al entablado estructural soportando temperaturas cercanas a trescientos grados bajo cubiertas metálicas.",
@@ -1225,6 +1250,7 @@
     },
     "gaf-everguard-wb181": {
       "title": "Adhesivo Base Agua EverGuard WB181",
+      "cardTitle": "EverGuard WB181",
       "titleLead": "Adhesivo Base Agua",
       "titleAccent": "EverGuard WB181",
       "description": "Adhesivo acrílico en emulsión acuosa formulado para membranas impermeabilizantes TPO y PVC, aproximadamente seiscientos pies cuadrados por cada envase.",
@@ -1254,6 +1280,7 @@
     },
     "gaf-778c": {
       "title": "Adhesivo EverGuard PVC Quick Lay",
+      "cardTitle": "EverGuard Quick Lay",
       "titleLead": "Adhesivo EverGuard",
       "titleAccent": "PVC Quick Lay",
       "description": "Adhesivo acuoso monocara para membrana PVC lisa, instalada directamente sobre película húmeda con aproximadamente cincuenta por ciento más rapidez.",
@@ -1283,6 +1310,7 @@
     },
     "titebond-61001": {
       "title": "Sellador de Metal WeatherMaster",
+      "cardTitle": "WeatherMaster Metal",
       "titleLead": "Sellador de Metal",
       "titleAccent": "WeatherMaster",
       "description": "Sellador de polímero avanzado homologado para cincuenta por ciento de movimiento, aplicable desde cero grados sobre superficies todavía húmedas.",
@@ -1312,6 +1340,7 @@
     },
     "dewalt-dcs391": {
       "title": "Sierra Circular 20V Inalámbrica",
+      "cardTitle": "Sierra Circular 20V",
       "titleLead": "Sierra Circular 20V",
       "titleAccent": "Inalámbrica",
       "description": "Sierra circular inalámbrica de configuración alineada que incorpora zapata de magnesio con disco dentado de carburo de tungsteno endurecido.",
@@ -1341,6 +1370,7 @@
     },
     "dewalt-dwht51002": {
       "title": "Martillo de Acero Clavador de 16 oz",
+      "cardTitle": "Martillo Clavador 16 oz",
       "titleLead": "Martillo de Acero",
       "titleAccent": "Clavador de 16 oz",
       "description": "Martillo clavador de dieciséis onzas, conformado completamente en una única pieza de acero endurecido, con arranque magnético lateral incorporado.",
@@ -1370,6 +1400,7 @@
     },
     "dewalt-dcm849": {
       "title": "Pulidora Rotativa Inalámbrica",
+      "cardTitle": "Pulidora Rotativa 20V",
       "titleLead": "Pulidora Rotativa",
       "titleAccent": "Inalámbrica",
       "description": "Pulidora rotativa inalámbrica sin escobillas con plato de siete pulgadas, regulable continuamente entre ochocientas y dos mil doscientas revoluciones.",
@@ -1399,6 +1430,7 @@
     },
     "dewalt-dcn681": {
       "title": "Grapadora 18 Ga Inalámbrica",
+      "cardTitle": "Grapadora Inalámbrica",
       "titleLead": "Grapadora 18 Ga",
       "titleAccent": "Inalámbrica",
       "description": "Grapadora inalámbrica sin escobillas para grapas de corona estrecha calibre dieciocho, con accionamiento secuencial o por contacto totalmente seleccionable.",
@@ -1428,6 +1460,7 @@
     },
     "tolsen-25012": {
       "title": "Maceta de Cantero Reforzada de Fibra",
+      "cardTitle": "Maceta Cantero Fibra",
       "titleLead": "Maceta de Cantero",
       "titleAccent": "Reforzada de Fibra",
       "description": "Maceta profesional para cantería con cabeza forjada térmicamente tratada de mil quinientos gramos sobre mango estructural reforzado de fibra.",
@@ -1457,6 +1490,7 @@
     },
     "tolsen-10243": {
       "title": "Cortapernos de Acero de 18 in",
+      "cardTitle": "Cortapernos Acero 18 in",
       "titleLead": "Cortapernos de Acero de",
       "titleAccent": "18 in",
       "description": "Cortapernos compuesto de cuarenta y cinco centímetros con mordazas forjadas y templadas, ajustables y reemplazables, entre mangos tubulares acolchados.",
@@ -1486,6 +1520,7 @@
     },
     "supatool-20in": {
       "title": "Serrucho de Carpintero Templado 20 in",
+      "cardTitle": "Serrucho de Carpintero",
       "titleLead": "Serrucho de Carpintero",
       "titleAccent": "Templado 20 in",
       "description": "Serrucho profesional de veinte pulgadas con dentado universal templado de siete dientes por pulgada, cortando eficazmente en ambas direcciones.",
@@ -1515,6 +1550,7 @@
     },
     "qualcraft-2560p": {
       "title": "Pala de Arranque Reforzada de Acero",
+      "cardTitle": "Pala Arranque de Acero",
       "titleLead": "Pala de Arranque",
       "titleAccent": "Reforzada de Acero",
       "description": "Pala para desmontajes y demoliciones de cincuenta y cuatro pulgadas con cabeza endurecida, diez dientes y empuñadura acodada antideslizante.",
@@ -1544,6 +1580,7 @@
     },
     "dewalt-dcpr320": {
       "title": "Tijera de Podar Inalámbrica",
+      "cardTitle": "Tijera Podar Inalámbrica",
       "titleLead": "Tijera de Podar",
       "titleAccent": "Inalámbrica",
       "description": "Podadora inalámbrica preparada para seccionar ramas y arbustos de pulgada y media, proporcionando aproximadamente mil cien cortes por carga.",
@@ -1573,6 +1610,7 @@
     },
     "dewalt-dwht36225": {
       "title": "Cinta Métrica de Acero 25 ft",
+      "cardTitle": "Cinta Métrica 25 ft",
       "titleLead": "Cinta Métrica de Acero",
       "titleAccent": "25 ft",
       "description": "Cinta métrica de veinticinco pies con lámina termoplástica amarilla, trece pies de voladizo y envolvente antiimpacto certificada para caídas.",
@@ -1602,6 +1640,7 @@
     },
     "dewalt-dccs620": {
       "title": "Motosierra 20V sin Escobillas",
+      "cardTitle": "Motosierra Inalámbrica",
       "titleLead": "Motosierra 20V sin",
       "titleAccent": "Escobillas",
       "description": "Motosierra compacta sin escobillas con espada Oregon de doce pulgadas, engrase automático y tensado de cadena sin herramientas complementarias.",
@@ -1631,6 +1670,7 @@
     },
     "hxoutdoors-ft16c": {
       "title": "Hacha Táctica de Supervivencia",
+      "cardTitle": "Hacha de Supervivencia",
       "titleLead": "Hacha Táctica de",
       "titleAccent": "Supervivencia",
       "description": "Hacha táctica de supervivencia con construcción de espiga completa, trescientos veintiséis milímetros totales y acero inoxidable 420 debidamente templado.",
@@ -1660,6 +1700,7 @@
     },
     "dewalt-dwht10998": {
       "title": "Cúter Retráctil con Almacén de Hojas",
+      "cardTitle": "Cúter Retráctil Hojas",
       "titleLead": "Cúter Retráctil con",
       "titleAccent": "Almacén de Hojas",
       "description": "Cúter retráctil que almacena internamente cinco hojas de recambio, con tres posiciones de corredera gobernando exactamente el filo expuesto.",
@@ -1689,6 +1730,7 @@
     },
     "dewalt-dxl2010": {
       "title": "Escalera de Tijera Aluminio Tipo IA",
+      "cardTitle": "Escalera de Tijera IA",
       "titleLead": "Escalera de Tijera",
       "titleAccent": "Aluminio Tipo IA",
       "description": "Escalera de tijera de aluminio homologada Tipo IA para trescientas libras, con arriostramiento reforzado, bandeja portacubos y zapatas antideslizantes.",
@@ -1718,6 +1760,7 @@
     },
     "masterplug-cma301116g4sl": {
       "title": "Carrete de Cable Enrollable 30 ft",
+      "cardTitle": "Carrete Enrollable 30 ft",
       "titleLead": "Carrete de Cable",
       "titleAccent": "Enrollable 30 ft",
       "description": "Carrete enrollable de treinta pies con conductor de calibre dieciséis, cuatro tomas obturadas y protección térmica integrada contra sobrecargas.",
@@ -1747,6 +1790,7 @@
     },
     "dewalt-dpg737": {
       "title": "Guantes de Trabajo Térmicos de Nailon",
+      "cardTitle": "Guantes Térmicos",
       "titleLead": "Guantes de Trabajo",
       "titleAccent": "Térmicos de Nailon",
       "description": "Guantes aislantes profesionales con revestimiento exterior resistente de nailon calibre quince sobre aislamiento térmico acrílico interior de calibre siete.",
@@ -1776,6 +1820,7 @@
     },
     "palmer-v5501": {
       "title": "Kit Anticaídas de Protección Total",
+      "cardTitle": "Kit Anticaídas Total",
       "titleLead": "Kit Anticaídas de",
       "titleAccent": "Protección Total",
       "description": "Equipamiento anticaídas con arnés integral, línea de vida de cincuenta pies, freno deslizante, absorbedor de energía y anclaje reutilizable.",
@@ -1805,6 +1850,7 @@
     },
     "bilco-s20": {
       "title": "Escotilla de Acceso Galvanizada Tipo S",
+      "cardTitle": "Escotilla Acceso Tipo S",
       "titleLead": "Escotilla de Acceso",
       "titleAccent": "Galvanizada Tipo S",
       "description": "Escotilla galvanizada monohoja para acceso mediante escalera interior, tapa aislante de fibra sobre brocal galvanizado reforzado de doce pulgadas.",
@@ -1834,6 +1880,7 @@
     },
     "duration-designer-slatestone-grey": {
       "title": "Duration Designer Pizarra Gris",
+      "cardTitle": "Duration Designer Gris",
       "titleLead": "Duration Designer",
       "titleAccent": "Pizarra Gris",
       "description": "Tejas arquitectónicas con banda SureNail que refuerza considerablemente la zona de clavado frente a vientos huracanados en cubiertas costeras.",
@@ -1863,6 +1910,7 @@
     },
     "steeldash-snap-lock-slate-gray": {
       "title": "Panel de Junta Alzada Galvanizado Pizarra",
+      "cardTitle": "Junta Alzada Pizarra",
       "titleLead": "Panel de Junta Alzada",
       "titleAccent": "Galvanizado Pizarra",
       "about": [
@@ -1892,6 +1940,7 @@
     },
     "gibraltar-cf5g-26": {
       "title": "Contrababero Galvanizado de Acero",
+      "cardTitle": "Contrababero de Acero",
       "titleLead": "Contrababero",
       "titleAccent": "Galvanizado de Acero",
       "description": "Contrababero metálico que resguarda el borde superior expuesto del babero de chimenea, conformado en acero galvanizado de calibre veintiséis.",
@@ -1921,6 +1970,7 @@
     },
     "drexel-econo-coping": {
       "title": "Sistema Econo Coping Remate de Peto",
+      "cardTitle": "Sistema Econo Coping",
       "titleLead": "Sistema Econo Coping",
       "titleAccent": "Remate de Peto",
       "description": "Coronación de peto de clip continuo pretaladrado y tapa decorativa que oculta completamente las fijaciones, certificado según normativa ANSI.",
@@ -1950,6 +2000,7 @@
     },
     "broan-634": {
       "title": "Sombrerete Negro Antirretorno",
+      "cardTitle": "Sombrerete Negro",
       "titleLead": "Sombrerete Negro",
       "titleAccent": "Antirretorno",
       "description": "Sombrerete de acero esmaltado que termina los conductos de campanas y extractores, con clapeta antirretorno y malla antipájaros incorporadas.",
@@ -1979,6 +2030,7 @@
     },
     "master-flow-egv6ht": {
       "title": "Ventilador de Ático Montado en Hastial",
+      "cardTitle": "Ventilador Ático Hastial",
       "titleLead": "Ventilador de Ático",
       "titleAccent": "Montado en Hastial",
       "description": "Ventilación de mil seiscientos pies cúbicos por minuto mediante rejilla instalada en el hastial, incorpora termostato e higrostato precableados.",
@@ -2008,6 +2060,7 @@
     },
     "master-flow-prsolar2": {
       "title": "Ventilador Solar Extraplano de Ático",
+      "cardTitle": "Ventilador Solar Ático",
       "titleLead": "Ventilador Solar",
       "titleAccent": "Extraplano de Ático",
       "description": "Un panel fotovoltaico incorporado de treinta y cinco vatios desplaza setecientos cincuenta pies cúbicos por minuto sin instalación eléctrica.",
@@ -2037,6 +2090,7 @@
     },
     "master-flow-ssb960a": {
       "title": "Rejilla Inclinada de Ventilación Estática",
+      "cardTitle": "Rejilla Inclinada Estática",
       "titleLead": "Rejilla Inclinada de",
       "titleAccent": "Ventilación Estática",
       "description": "Sesenta pulgadas cuadradas de área libre de ventilación bajo una capota completamente cerrada de aluminio natural, para pendientes pronunciadas.",
@@ -2066,6 +2120,7 @@
     },
     "suntek-cma1919": {
       "title": "Claraboya Fija de Policarbonato",
+      "cardTitle": "Claraboya Fija Domo",
       "titleLead": "Claraboya Fija de",
       "titleAccent": "Policarbonato",
       "description": "Claraboya de doble cúpula en policarbonato con aro decorativo de aluminio, coronando un brocal construido de aproximadamente veinte pulgadas.",
@@ -2095,6 +2150,7 @@
     },
     "steeldash-tube-14ga-2in": {
       "title": "Tubo Estructural Galvanizado",
+      "cardTitle": "Tubo Estructural Acero",
       "titleLead": "Tubo Estructural",
       "titleAccent": "Galvanizado",
       "description": "Perfil estructural cuadrado de acero galvanizado, dos pulgadas por cara, servido en longitudes de veinticuatro pies para armazones portantes.",
@@ -2124,6 +2180,7 @@
     },
     "gibraltar-08328": {
       "title": "Goterón Blanco Galvanizado Gofrado",
+      "cardTitle": "Goterón Galvanizado",
       "titleLead": "Goterón Blanco",
       "titleAccent": "Galvanizado Gofrado",
       "description": "Goterón blanco gofrado que proyecta la escorrentía lejos de las tablas del alero, conformado íntegramente en acero galvanizado anticorrosión.",
@@ -2153,6 +2210,7 @@
     },
     "amerimax-5612400120": {
       "title": "Limahoya en W Galvanizada",
+      "cardTitle": "Limahoya Galvanizada",
       "titleLead": "Limahoya en W",
       "titleAccent": "Galvanizada",
       "description": "Limahoya galvanizada cuyo nervio central elevado forma canales estancos donde dos faldones de cubierta convergen formando un ángulo interior.",
@@ -2182,6 +2240,7 @@
     },
     "oatey-11872": {
       "title": "Pasatubos No Calk Galvanizado",
+      "cardTitle": "Pasatubos Galvanizado",
       "titleLead": "Pasatubos No Calk",
       "titleAccent": "Galvanizado",
       "description": "Pasatubos de ventilación con collarín patentado autosellante, mecánicamente ajustado al tubo, admitiendo diámetros entre pulgada y media y tres.",
@@ -2211,6 +2270,7 @@
     },
     "gibraltar-987641": {
       "title": "Remate de Aguilón Galvalume GR2",
+      "cardTitle": "Remate de Aguilón GR2",
       "titleLead": "Remate de Aguilón",
       "titleAccent": "Galvalume GR2",
       "description": "Remates para aguilones que encapsulan los extremos cortados y expuestos del panel metálico, conformados en acero Galvalume calibre veintinueve.",
@@ -2240,6 +2300,7 @@
     },
     "master-flow-gic12": {
       "title": "Turbina Eólica Galvanizada",
+      "cardTitle": "Turbina Galvanizada",
       "titleLead": "Turbina Eólica",
       "titleAccent": "Galvanizada",
       "description": "Turbina con arriostramiento interno que ventila unos quinientos pies cuadrados de ático, montada sobre base regulable para cualquier pendiente.",
@@ -2269,6 +2330,7 @@
     },
     "trapezoidal-panel-closure": {
       "title": "Cierre para Panel Trapezoidal",
+      "cardTitle": "Cierre Trapezoidal",
       "titleLead": "Cierre para Panel",
       "titleAccent": "Trapezoidal",
       "description": "Cierre moldeado de espuma que rellena íntegramente la cavidad inferior de un panel metálico con nervadura trapezoidal, totalmente autoadhesivo.",
@@ -2298,6 +2360,7 @@
     },
     "malarkey-smart-start": {
       "title": "Tejas de Arranque Asfálticas Smart Start",
+      "cardTitle": "Smart Start Arranque",
       "titleLead": "Tejas de Arranque",
       "titleAccent": "Asfálticas Smart Start",
       "description": "Arranque de asfalto polimérico modificado NEX, perforado en dos tiras independientes que sellan completamente la primera hilada perimetral completa.",
@@ -2327,6 +2390,7 @@
     },
     "landmark-weathered-wood": {
       "title": "Landmark Madera Envejecida",
+      "cardTitle": "Landmark Envejecida",
       "titleLead": "Landmark Madera",
       "titleAccent": "Envejecida",
       "description": "Laminada de doble capa con faldón romboidal, que proporciona aproximadamente treinta y tres pies cuadrados por paquete individual suministrado.",
@@ -2356,6 +2420,7 @@
     },
     "dynasty-emerald-green": {
       "title": "Tejas Dynasty Verde Esmeralda",
+      "cardTitle": "Dynasty Esmeralda",
       "titleLead": "Tejas Dynasty Verde",
       "titleAccent": "Esmeralda",
       "description": "Tejas laminadas arquitectónicas con banda de clavado ArmourZone reforzada, resistentes a vientos muy fuertes y con garantía vitalicia limitada.",
@@ -2385,6 +2450,7 @@
     },
     "brakki-22pc": {
       "title": "Paneles Ondulados sin Pintar 20 Piezas",
+      "cardTitle": "Ondulados sin Pintar",
       "titleLead": "Paneles Ondulados sin",
       "titleAccent": "Pintar 20 Piezas",
       "description": "Paneles ondulados de acero galvanizado sin pintar, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies.",
@@ -2414,6 +2480,7 @@
     },
     "steeldash-snap-lock-ash-gray": {
       "title": "Panel Estriado Gris Ceniza Galvanizado",
+      "cardTitle": "Panel Estriado Ceniza",
       "titleLead": "Panel Estriado Gris",
       "titleAccent": "Ceniza Galvanizado",
       "about": [
@@ -2443,6 +2510,7 @@
     },
     "gibraltar-987642": {
       "title": "Cumbrera RC2 Galvalume Pizarra",
+      "cardTitle": "Cumbrera RC2 Pizarra",
       "titleLead": "Cumbrera RC2",
       "titleAccent": "Galvalume Pizarra",
       "description": "Cumbrera prepintada que resuelve la junta abierta donde se encuentran dos faldones metálicos, embutida en acero Galvalume calibre veintinueve.",
@@ -2472,6 +2540,7 @@
     },
     "grip-rite-rrp1010hem": {
       "title": "Cumbrera Redonda Engatillada",
+      "cardTitle": "Cumbrera Galvanizada",
       "titleLead": "Cumbrera Redonda",
       "titleAccent": "Engatillada",
       "description": "Cumbrera redondeada con bordes engatillados que cierra la cresta de una cubierta metálica, perfilada íntegramente en acero galvanizado resistente.",
@@ -2501,6 +2570,7 @@
     },
     "vevor-chimney-cap-6in": {
       "title": "Caperuza de Chimenea Inoxidable 6 in",
+      "cardTitle": "Caperuza de Chimenea",
       "titleLead": "Caperuza de Chimenea",
       "titleAccent": "Inoxidable 6 in",
       "description": "Caperuza inoxidable que salvaguarda todo conducto de seis pulgadas contra lluvia, nieve y nidificaciones sin estrangular el tiro ascendente.",
@@ -2530,6 +2600,7 @@
     },
     "bp-suredeck": {
       "title": "Membrana Sintética SureDeck",
+      "cardTitle": "Membrana SureDeck",
       "titleLead": "Membrana Sintética",
       "titleAccent": "SureDeck",
       "description": "Underlayment ligero de polipropileno tejido recubierto por ambas caras, con superficie texturizada antideslizante para cubrir mil pies cuadrados completos.",

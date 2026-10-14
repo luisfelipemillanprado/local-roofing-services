@@ -2,7 +2,10 @@ import type { ProductAvailability } from "@/common/availability-dot/types";
 
 /* product card: resolved fields + view CTA */
 export interface ProductCardProps {
+  /* the full name: image alt and, on the shop, what the search matches */
   title: string;
+  /* the short name the card shows, so the heading is not cut */
+  cardTitle: string;
   brand: string;
   image: string;
   priceLabel: string;
