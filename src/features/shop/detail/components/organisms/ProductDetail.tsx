@@ -55,7 +55,7 @@ export const ProductDetail = async ({ product, tone = "base" }: ProductDetailPro
           }
           heading={
             /* category is not repeated here: the spec strip already carries it */
-            /* the data keeps the card's lowercase, so the eyebrow shouts it here */
+            /* the data keeps the card's title case, so the eyebrow shouts it here */
             <SectionHeading
               align="left"
               eyebrow={product.brand.toUpperCase()}
