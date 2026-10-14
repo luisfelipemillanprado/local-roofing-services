@@ -500,6 +500,7 @@
   "items": {
     "timberline-hdz-charcoal": {
       "title": "Asphalt Timberline HDZ Charcoal Shingles",
+      "cardTitle": "Timberline Charcoal",
       "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Charcoal Shingles",
       "description": "Architectural laminate shingles in deep charcoal, featuring LayerLock technology that considerably widens the nailing zone for a faster, surer fastening.",
@@ -529,6 +530,7 @@
     },
     "timberline-hdz-pewter-gray": {
       "title": "Asphalt Timberline HDZ Pewter Gray Shingles",
+      "cardTitle": "Timberline Pewter Gray",
       "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Pewter Gray Shingles",
       "description": "Architectural laminate shingles in soft pewter gray, engineered for exceptional wind resistance and weathering performance across any pitched residential roof.",
@@ -558,6 +560,7 @@
     },
     "timberline-hdz-barkwood": {
       "title": "Asphalt Timberline HDZ Barkwood Shingles",
+      "cardTitle": "Timberline Barkwood",
       "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Barkwood Shingles",
       "description": "Architectural laminate shingles in warm barkwood, reproducing the shadow depth of natural wood shakes without their considerable ongoing maintenance burden.",
@@ -587,6 +590,7 @@
     },
     "timberline-hdz-hunter-green": {
       "title": "Asphalt Timberline HDZ Hunter Green Shingles",
+      "cardTitle": "Timberline Hunter",
       "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Hunter Green Shingles",
       "description": "Architectural laminate shingles in rich hunter green, a distinctive roof color settling naturally into wooded lots and heavily shaded settings.",
@@ -616,6 +620,7 @@
     },
     "timberline-hdz-shakewood": {
       "title": "Asphalt Timberline HDZ Shakewood Shingles",
+      "cardTitle": "Timberline Shakewood",
       "titleLead": "Asphalt Timberline HDZ",
       "titleAccent": "Shakewood Shingles",
       "description": "Architectural laminate shingles in light shakewood, a sandy blend that brightens any roofline without visually overwhelming the walls positioned beneath.",
@@ -645,6 +650,7 @@
     },
     "brakki-10pc": {
       "title": "Grey Ribbed Steel Panels 10 Pack",
+      "cardTitle": "Grey Ribbed 10 Pack",
       "titleLead": "Grey Ribbed Steel",
       "titleAccent": "Panels 10 Pack",
       "description": "Grey ribbed galvanized steel roofing panels supplied as a ten piece package covering approximately seventy five square feet, screws included.",
@@ -674,6 +680,7 @@
     },
     "brakki-stone-tiles": {
       "title": "Ceramic Stone Coated Steel Roof Tiles",
+      "cardTitle": "Ceramic Stone Coated",
       "titleLead": "Ceramic Stone Coated",
       "titleAccent": "Steel Roof Tiles",
       "about": [
@@ -703,6 +710,7 @@
     },
     "brakki-insulated-panel": {
       "title": "Isodomus Insulated Sandwich Panel",
+      "cardTitle": "Isodomus Insulated",
       "titleLead": "Isodomus Insulated",
       "titleAccent": "Sandwich Panel",
       "about": [
@@ -732,6 +740,7 @@
     },
     "certainteed-roofrunner": {
       "title": "RoofRunner Synthetic Underlayment",
+      "cardTitle": "RoofRunner Synthetic",
       "titleLead": "RoofRunner Synthetic",
       "titleAccent": "Underlayment",
       "description": "Scrim reinforced synthetic underlayment covering ten squares, offering a slip resistant walking surface for safer work across steep wet decks.",
@@ -761,6 +770,7 @@
     },
     "protect-a1": {
       "title": "Protect A1 Type HR Roofing Underlay",
+      "cardTitle": "Protect A1 Roofing HR",
       "titleLead": "Protect A1 Type HR",
       "titleAccent": "Roofing Underlay",
       "description": "Vapour impermeable underlay keeping the roof airtight and watertight beneath tiles, supplied in generous rolls reaching forty five metres long.",
@@ -790,6 +800,7 @@
     },
     "exoperm-mono": {
       "title": "Exoperm Mono 150 Breather Membrane",
+      "cardTitle": "Exoperm Mono 150",
       "titleLead": "Exoperm Mono 150",
       "titleAccent": "Breather Membrane",
       "description": "Highly breathable monolithic membrane serving as sarking, roof underlay and windtight barrier across seventy five square metres per single roll.",
@@ -819,6 +830,7 @@
     },
     "bmi-chova": {
       "title": "Politaber Combi 40/G SBS Membrane",
+      "cardTitle": "Politaber Combi 40/G",
       "titleLead": "Politaber Combi 40/G",
       "titleAccent": "SBS Membrane",
       "description": "Torch applied elastomeric membrane finished with mineral granules, supplied in rolls that individually cover ten square meters of flat roofing.",
@@ -848,6 +860,7 @@
     },
     "kovertech-gold": {
       "title": "KoverTech Gold Aluminum Membrane",
+      "cardTitle": "KoverTech Aluminum",
       "titleLead": "KoverTech Gold",
       "titleAccent": "Aluminum Membrane",
       "description": "Asphalt membrane topped with embossed aluminum that reflects solar radiation and resists cracking, covering approximately ten square meters per roll.",
@@ -877,6 +890,7 @@
     },
     "ormiflex-profesional": {
       "title": "Ormiflex Profesional Aluminum Membrane",
+      "cardTitle": "Ormiflex Profesional",
       "titleLead": "Ormiflex Profesional",
       "titleAccent": "Aluminum Membrane",
       "description": "Reinforced asphalt membrane faced with aluminum foil, rolled out and torched over inaccessible flat decks, covering roughly ten square meters.",
@@ -906,6 +920,7 @@
     },
     "gaf-everguard-tpo-quick-spray-7792": {
       "title": "EverGuard TPO Quick Spray Adhesive",
+      "cardTitle": "EverGuard TPO Spray",
       "titleLead": "EverGuard TPO Quick",
       "titleAccent": "Spray Adhesive",
       "description": "Pressurised canister of solvent contact adhesive covering ten squares of smooth TPO membrane, sprayable down to twenty degrees Fahrenheit ambient.",
@@ -935,6 +950,7 @@
     },
     "gaf-olybond-500": {
       "title": "OlyBond500 Canister Adhesive Kit",
+      "cardTitle": "OlyBond500 Adhesive",
       "titleLead": "OlyBond500 Canister",
       "titleAccent": "Adhesive Kit",
       "description": "Two component polyurethane foam adhesive that beads insulation board onto the deck, covering approximately thirty five squares per complete kit.",
@@ -964,6 +980,7 @@
     },
     "matrix-101": {
       "title": "Matrix 101 SBS Membrane Adhesive",
+      "cardTitle": "Matrix 101 Adhesive",
       "titleLead": "Matrix 101 SBS",
       "titleAccent": "Membrane Adhesive",
       "description": "Cold applied SBS membrane adhesive superseding hot mopped asphalt, distributing between one and two gallons across every hundred square feet.",
@@ -993,6 +1010,7 @@
     },
     "matrix-102": {
       "title": "Matrix 102 SBS Membrane Adhesive",
+      "cardTitle": "Matrix 102 Adhesive",
       "titleLead": "Matrix 102 SBS",
       "titleAccent": "Membrane Adhesive",
       "description": "Fiber reinforced rubberized cold adhesive for modified bitumen systems, bonding base, interply and cap sheets without any hot asphalt whatsoever.",
@@ -1022,6 +1040,7 @@
     },
     "gaf-everguard-1121": {
       "title": "EverGuard TPO 1121 Bonding Adhesive",
+      "cardTitle": "EverGuard TPO 1121",
       "titleLead": "EverGuard TPO 1121",
       "titleAccent": "Bonding Adhesive",
       "description": "General purpose solvent based contact adhesive for TPO membranes and flashings, covering approximately fifty to seventy square feet per gallon.",
@@ -1051,6 +1070,7 @@
     },
     "tac-203-premium-spray": {
       "title": "TAC 203 Sprayable Contact Adhesive",
+      "cardTitle": "TAC 203 Contact Spray",
       "titleLead": "TAC 203 Sprayable",
       "titleAccent": "Contact Adhesive",
       "description": "Sprayable polychloroprene contact adhesive with high heat resistance, covering six to eight square metres per litre across most rigid substrates.",
@@ -1080,6 +1100,7 @@
     },
     "brakki-19pc": {
       "title": "Grey Ribbed Steel Panels 20 Pack",
+      "cardTitle": "Grey Ribbed 20 Pack",
       "titleLead": "Grey Ribbed Steel",
       "titleAccent": "Panels 20 Pack",
       "description": "Ribbed galvanized steel roofing panels supplied as a twenty piece package covering approximately one hundred eighty square feet, screws included.",
@@ -1109,6 +1130,7 @@
     },
     "brakki-20pc": {
       "title": "Grey Tile Profile Steel Panels 20 Pack",
+      "cardTitle": "Grey Tile Profile Panels",
       "titleLead": "Grey Tile Profile Steel",
       "titleAccent": "Panels 20 Pack",
       "description": "Grey tile profile galvanized steel panels supplied as a twenty piece package covering approximately one hundred eighty square feet altogether.",
@@ -1138,6 +1160,7 @@
     },
     "brakki-21pc": {
       "title": "Terracotta Tile Profile Steel Panels 20 Pack",
+      "cardTitle": "Terracotta Tile Panels",
       "titleLead": "Terracotta Tile Profile",
       "titleAccent": "Steel Panels 20 Pack",
       "description": "Terracotta tile profile galvanized steel panels supplied as a twenty piece package covering approximately one hundred eighty total square feet.",
@@ -1167,6 +1190,7 @@
     },
     "dupont-tyvek-120": {
       "title": "Tyvek Protec 120 Underlayment",
+      "cardTitle": "Tyvek Protec 120",
       "titleLead": "Tyvek Protec 120",
       "titleAccent": "Underlayment",
       "description": "High traction synthetic underlayment that shields the deck from moisture with confident walkability, covering one thousand square feet per roll.",
@@ -1196,6 +1220,7 @@
     },
     "gcp-5003000": {
       "title": "Grace Ultra Butyl Underlayment",
+      "cardTitle": "Grace Ultra Butyl",
       "titleLead": "Grace Ultra Butyl",
       "titleAccent": "Underlayment",
       "description": "Self adhered butyl underlayment bonding directly onto the structural deck, withstanding temperatures approaching three hundred degrees beneath architectural metal roofing.",
@@ -1225,6 +1250,7 @@
     },
     "gaf-everguard-wb181": {
       "title": "EverGuard WB181 Bonding Adhesive",
+      "cardTitle": "EverGuard WB181",
       "titleLead": "EverGuard WB181",
       "titleAccent": "Bonding Adhesive",
       "description": "Water based acrylic emulsion bonding adhesive for TPO and PVC roofing membranes, covering approximately six hundred square feet per container.",
@@ -1254,6 +1280,7 @@
     },
     "gaf-778c": {
       "title": "EverGuard PVC Quick Lay Adhesive",
+      "cardTitle": "EverGuard Quick Lay",
       "titleLead": "EverGuard PVC Quick",
       "titleAccent": "Lay Adhesive",
       "description": "Single sided water based adhesive for smooth PVC membrane, installed directly into wet film for approximately fifty percent faster application.",
@@ -1283,6 +1310,7 @@
     },
     "titebond-61001": {
       "title": "WeatherMaster Metal Roof Sealant",
+      "cardTitle": "WeatherMaster Sealant",
       "titleLead": "WeatherMaster Metal",
       "titleAccent": "Roof Sealant",
       "description": "Advanced polymer metal roofing sealant rated at fifty percent joint movement, applied from zero degrees Fahrenheit onto still damp surfaces.",
@@ -1312,6 +1340,7 @@
     },
     "dewalt-dcs391": {
       "title": "Cordless 20V Circular Saw",
+      "cardTitle": "20V Circular Saw",
       "titleLead": "Cordless 20V Circular",
       "titleAccent": "Saw",
       "description": "Sidewinder configuration circular saw combining lightweight magnesium construction with a carbide tipped blade measuring six and a half inches across.",
@@ -1341,6 +1370,7 @@
     },
     "dewalt-dwht51002": {
       "title": "16 oz Steel Nailing Hammer",
+      "cardTitle": "16 oz Nailing Hammer",
       "titleLead": "16 oz Steel Nailing",
       "titleAccent": "Hammer",
       "description": "Sixteen ounce nailing hammer manufactured from a single continuous forging of steel, incorporating magnetic nail start and side puller slot.",
@@ -1370,6 +1400,7 @@
     },
     "dewalt-dcm849": {
       "title": "Brushless Cordless Rotary Polisher",
+      "cardTitle": "Cordless Polisher 20V",
       "titleLead": "Brushless Cordless",
       "titleAccent": "Rotary Polisher",
       "description": "Brushless cordless rotary polisher carrying a seven inch backing plate, variable continuously between eight hundred and twenty two hundred revolutions.",
@@ -1399,6 +1430,7 @@
     },
     "dewalt-dcn681": {
       "title": "Cordless Brushless Stapler 18 Gauge",
+      "cardTitle": "Brushless 18 Ga Stapler",
       "titleLead": "Cordless Brushless",
       "titleAccent": "Stapler 18 Gauge",
       "description": "Brushless cordless stapler driving eighteen gauge narrow crown staples, with selectable sequential or contact actuation and tool free depth adjustment.",
@@ -1428,6 +1460,7 @@
     },
     "tolsen-25012": {
       "title": "Fiberglass Handle Stoning Hammer",
+      "cardTitle": "Fiberglass Hammer",
       "titleLead": "Fiberglass Handle",
       "titleAccent": "Stoning Hammer",
       "description": "Professional stoning hammer combining a 1,500 gram drop forged head with a fiberglass reinforced handle, totalling 1.68 kilograms once assembled.",
@@ -1457,6 +1490,7 @@
     },
     "tolsen-10243": {
       "title": "18 in Steel Bolt Cutter",
+      "cardTitle": "18 in Steel Bolt Cutter",
       "titleLead": "18 in Steel Bolt",
       "titleAccent": "Cutter",
       "description": "Eighteen inch compound bolt cutter carrying drop forged hardened jaws, adjustable and replaceable, between tubular steel handles with cushioned grips.",
@@ -1486,6 +1520,7 @@
     },
     "supatool-20in": {
       "title": "Hardened Blade 20 in Carpentry Handsaw",
+      "cardTitle": "20 in Carpentry Saw",
       "titleLead": "Hardened Blade 20 in",
       "titleAccent": "Carpentry Handsaw",
       "description": "Professional twenty inch carpentry handsaw carrying hardened heat treated universal teeth at seven points per inch, cutting in both directions.",
@@ -1515,6 +1550,7 @@
     },
     "qualcraft-2560p": {
       "title": "Shingle Tear Off Demolition Shovel",
+      "cardTitle": "Shingle Tear Off Shovel",
       "titleLead": "Shingle Tear Off",
       "titleAccent": "Demolition Shovel",
       "description": "Fifty four inch shingle demolition shovel incorporating a heat tempered steel head, ten working teeth and ergonomically offset steel handle.",
@@ -1544,6 +1580,7 @@
     },
     "dewalt-dcpr320": {
       "title": "Cordless Battery Powered Pruner",
+      "cardTitle": "Cordless Battery Pruner",
       "titleLead": "Cordless Battery",
       "titleAccent": "Powered Pruner",
       "description": "Cordless pruning shears engineered to sever branches approaching one and a half inches, delivering approximately eleven hundred cuts per charge.",
@@ -1573,6 +1610,7 @@
     },
     "dewalt-dwht36225": {
       "title": "25 ft Steel Measuring Tape",
+      "cardTitle": "25 ft Measuring Tape",
       "titleLead": "25 ft Steel Measuring",
       "titleAccent": "Tape",
       "description": "Twenty five foot tape measure delivering thirteen feet of unsupported standout, inside impact resistant housing withstanding a sixty foot drop.",
@@ -1602,6 +1640,7 @@
     },
     "dewalt-dccs620": {
       "title": "20V Brushless Chainsaw",
+      "cardTitle": "20V Cordless Chainsaw",
       "titleLead": "20V Brushless",
       "titleAccent": "Chainsaw",
       "description": "Compact brushless chainsaw carrying a twelve inch Oregon guide bar, with automatic chain oiling and completely tool free tensioning adjustment.",
@@ -1631,6 +1670,7 @@
     },
     "hxoutdoors-ft16c": {
       "title": "Full Tang Tactical Camping Hatchet",
+      "cardTitle": "Camping Hatchet",
       "titleLead": "Full Tang Tactical",
       "titleAccent": "Camping Hatchet",
       "description": "Full tang tactical camping hatchet stretching twelve point eight inches overall, forged from 420 stainless hardened to fifty eight Rockwell.",
@@ -1660,6 +1700,7 @@
     },
     "dewalt-dwht10998": {
       "title": "Retractable Blade Cutting Knife",
+      "cardTitle": "Retractable Utility Knife",
       "titleLead": "Retractable Blade",
       "titleAccent": "Cutting Knife",
       "description": "Retractable utility knife storing five replacement blades internally, with three positive slider stops governing exactly how much edge stays exposed.",
@@ -1689,6 +1730,7 @@
     },
     "dewalt-dxl2010": {
       "title": "Type IA Aluminum Folding Stepladder",
+      "cardTitle": "Type IA Step Ladder",
       "titleLead": "Type IA Aluminum",
       "titleAccent": "Folding Stepladder",
       "description": "Four foot aluminum stepladder rated Type IA for three hundred pounds, incorporating gusseted bracing, pail shelf and slip resistant footings.",
@@ -1718,6 +1760,7 @@
     },
     "masterplug-cma301116g4sl": {
       "title": "30 ft Cable Cassette Reel",
+      "cardTitle": "30 ft Cassette Reel",
       "titleLead": "30 ft Cable Cassette",
       "titleAccent": "Reel",
       "description": "Thirty foot cassette reel carrying sixteen gauge cable to four shuttered grounded outlets, protected by an integrated thermal overload cutout.",
@@ -1747,6 +1790,7 @@
     },
     "dewalt-dpg737": {
       "title": "Thermal Insulated Nylon Work Gloves",
+      "cardTitle": "Insulated Work Gloves",
       "titleLead": "Thermal Insulated Nylon",
       "titleAccent": "Work Gloves",
       "description": "Insulated roofing gloves constructed glove inside glove, combining a fifteen gauge nylon outer shell over seven gauge acrylic thermal insulation.",
@@ -1776,6 +1820,7 @@
     },
     "palmer-v5501": {
       "title": "Roofer Fall Arrest Protection Kit",
+      "cardTitle": "Roofer Fall Arrest Kit",
       "titleLead": "Roofer Fall Arrest",
       "titleAccent": "Protection Kit",
       "description": "Comprehensive roofer fall arrest kit combining a five point harness, fifty foot vertical lifeline, rope grab and reusable structural anchorage.",
@@ -1805,6 +1850,7 @@
     },
     "bilco-s20": {
       "title": "Type S Roof Access Galvanized Hatch",
+      "cardTitle": "Type S Access Hatch",
       "titleLead": "Type S Roof Access",
       "titleAccent": "Galvanized Hatch",
       "description": "Single leaf ladder access hatch, fiberglass insulated cover, twelve inch galvannealed curb reinforced throughout for forty pounds per square foot.",
@@ -1834,6 +1880,7 @@
     },
     "duration-designer-slatestone-grey": {
       "title": "Duration Designer Slatestone Grey",
+      "cardTitle": "Duration Designer Grey",
       "titleLead": "Duration Designer",
       "titleAccent": "Slatestone Grey",
       "description": "Architectural shingles incorporating a SureNail fabric strip that reinforces the nailing zone against powerful winds on particularly exposed coastal roofs.",
@@ -1863,6 +1910,7 @@
     },
     "steeldash-snap-lock-slate-gray": {
       "title": "Slate Gray Standing Seam Steel Panel",
+      "cardTitle": "Slate Gray Seam Panel",
       "titleLead": "Slate Gray Standing",
       "titleAccent": "Seam Steel Panel",
       "about": [
@@ -1892,6 +1940,7 @@
     },
     "gibraltar-cf5g-26": {
       "title": "Galvanized Steel Counter Flashing",
+      "cardTitle": "Steel Counter Flashing",
       "titleLead": "Galvanized Steel",
       "titleAccent": "Counter Flashing",
       "description": "Galvanized counter flashing protecting the exposed upper edge of chimney step flashing, formed from straight twenty six gauge steel sections.",
@@ -1921,6 +1970,7 @@
     },
     "drexel-econo-coping": {
       "title": "Econo Coping Parapet Edge System",
+      "cardTitle": "Econo Coping System",
       "titleLead": "Econo Coping Parapet",
       "titleAccent": "Edge System",
       "description": "Parapet coping combining a continuous prepunched cleat with a decorative cover concealing every fastener, certified under the ANSI SPRI standard.",
@@ -1950,6 +2000,7 @@
     },
     "broan-634": {
       "title": "Black Steel Roof Ventilation Cap",
+      "cardTitle": "Black Steel Roof Cap",
       "titleLead": "Black Steel Roof",
       "titleAccent": "Ventilation Cap",
       "description": "Powder coated steel termination cap for range hood and bathroom extractor ductwork, incorporating a backdraft damper and integral bird screen.",
@@ -1979,6 +2030,7 @@
     },
     "master-flow-egv6ht": {
       "title": "Gable Mount Attic Ventilator Fan",
+      "cardTitle": "Gable Mount Attic Fan",
       "titleLead": "Gable Mount Attic",
       "titleAccent": "Ventilator Fan",
       "description": "Sixteen hundred cubic feet per minute behind the gable ventilation louver, with adjustable thermostat and humidistat prewired at the factory.",
@@ -2008,6 +2060,7 @@
     },
     "master-flow-prsolar2": {
       "title": "Low Profile Solar Powered Attic Fan",
+      "cardTitle": "Solar Powered Attic Fan",
       "titleLead": "Low Profile Solar",
       "titleAccent": "Powered Attic Fan",
       "description": "An integrated thirty five watt photovoltaic panel delivers seven hundred fifty cubic feet a minute, requiring absolutely no electrical wiring.",
@@ -2037,6 +2090,7 @@
     },
     "master-flow-ssb960a": {
       "title": "Slant Back Aluminum Static Roof Louver",
+      "cardTitle": "Slant Back Static Louver",
       "titleLead": "Slant Back Aluminum",
       "titleAccent": "Static Roof Louver",
       "description": "Ventilating area of sixty square inches beneath a fully enclosed mill aluminum hood, sixteen inches across, recommended for steeper pitches.",
@@ -2066,6 +2120,7 @@
     },
     "suntek-cma1919": {
       "title": "Fixed Curb Mount Skylight Dome",
+      "cardTitle": "Fixed Skylight Dome",
       "titleLead": "Fixed Curb Mount",
       "titleAccent": "Skylight Dome",
       "description": "Polycarbonate double dome skylight wrapped in decorative aluminum, capping a site built curb of approximately twenty inches along each side.",
@@ -2095,6 +2150,7 @@
     },
     "steeldash-tube-14ga-2in": {
       "title": "Galvanized Steel Structural Tube",
+      "cardTitle": "Steel Structural Tube",
       "titleLead": "Galvanized Steel",
       "titleAccent": "Structural Tube",
       "description": "Heavier gauge square steel section, two inches across, supplied in twenty four foot lengths for roofing frameworks and supporting structures.",
@@ -2124,6 +2180,7 @@
     },
     "gibraltar-08328": {
       "title": "White Embossed Galvanized Drip Edge",
+      "cardTitle": "Galvanized Drip Edge",
       "titleLead": "White Embossed",
       "titleAccent": "Galvanized Drip Edge",
       "description": "Embossed white drip edging projecting rainwater clear of the fascia boarding, manufactured from galvanized steel in straight ten foot lengths.",
@@ -2153,6 +2210,7 @@
     },
     "amerimax-5612400120": {
       "title": "Galvanized Steel W Valley Flashing",
+      "cardTitle": "Steel W Valley Flashing",
       "titleLead": "Galvanized Steel W",
       "titleAccent": "Valley Flashing",
       "description": "Galvanized valley flashing whose raised center rib forms watertight channels where two adjoining roofing planes converge at an interior angle.",
@@ -2182,6 +2240,7 @@
     },
     "oatey-11872": {
       "title": "No Calk Pipe Flashing Galvanized Base",
+      "cardTitle": "No Calk Pipe Flashing",
       "titleLead": "No Calk Pipe Flashing",
       "titleAccent": "Galvanized Base",
       "description": "Vent pipe roof flashing whose patented collar seals itself mechanically against the pipe, accommodating diameters between one and three inches.",
@@ -2211,6 +2270,7 @@
     },
     "gibraltar-987641": {
       "title": "Galvalume GR2 Gable Rake Flashing",
+      "cardTitle": "Galvalume GR2 Rake",
       "titleLead": "Galvalume GR2 Gable",
       "titleAccent": "Rake Flashing",
       "description": "Prepainted rake trim encapsulating the exposed cut ends of metal roofing panelling, manufactured from twenty nine gauge Galvalume coated steel.",
@@ -2240,6 +2300,7 @@
     },
     "master-flow-gic12": {
       "title": "Internally Braced Galvanized Turbine",
+      "cardTitle": "Braced Steel Turbine",
       "titleLead": "Internally Braced",
       "titleAccent": "Galvanized Turbine",
       "description": "Internally braced turbine that ventilates approximately five hundred square feet of attic space, on a base adjustable across common pitches.",
@@ -2269,6 +2330,7 @@
     },
     "trapezoidal-panel-closure": {
       "title": "Trapezoidal Panel Closure Strip",
+      "cardTitle": "Trapezoidal Closure",
       "titleLead": "Trapezoidal Panel",
       "titleAccent": "Closure Strip",
       "description": "Profiled foam closure completely filling the cavity beneath a trapezoidal ribbed panel, manufactured in self adhesive thirty six inch lengths.",
@@ -2298,6 +2360,7 @@
     },
     "malarkey-smart-start": {
       "title": "Smart Start Asphalt Starter Shingles",
+      "cardTitle": "Smart Start Starter",
       "titleLead": "Smart Start Asphalt",
       "titleAccent": "Starter Shingles",
       "description": "Perforated NEX polymer modified starter shingle separating into two independent strips that seal the foundational course along eaves and rakes.",
@@ -2327,6 +2390,7 @@
     },
     "landmark-weathered-wood": {
       "title": "Landmark Weathered Wood Shingles",
+      "cardTitle": "Landmark Weathered",
       "titleLead": "Landmark Weathered",
       "titleAccent": "Wood Shingles",
       "description": "Dual layer laminate shingle cut to a diamond tab, delivering approximately thirty three square feet within every individual bundle supplied.",
@@ -2356,6 +2420,7 @@
     },
     "dynasty-emerald-green": {
       "title": "Dynasty Emerald Green Asphalt Shingles",
+      "cardTitle": "Dynasty Emerald Green",
       "titleLead": "Dynasty Emerald Green",
       "titleAccent": "Asphalt Shingles",
       "description": "Architectural laminate shingles with a reinforced ArmourZone nailing band, rated for powerful winds and protected by a limited lifetime warranty.",
@@ -2385,6 +2450,7 @@
     },
     "brakki-22pc": {
       "title": "Bare Corrugated Steel Panels 20 Pack",
+      "cardTitle": "Bare Corrugated Panels",
       "titleLead": "Bare Corrugated Steel",
       "titleAccent": "Panels 20 Pack",
       "description": "Bare galvanized corrugated steel roofing panels supplied as a twenty piece package covering approximately one hundred eighty total square feet.",
@@ -2414,6 +2480,7 @@
     },
     "steeldash-snap-lock-ash-gray": {
       "title": "Ash Gray Striated Steel Panel",
+      "cardTitle": "Ash Gray Striated Panel",
       "titleLead": "Ash Gray Striated",
       "titleAccent": "Steel Panel",
       "about": [
@@ -2443,6 +2510,7 @@
     },
     "gibraltar-987642": {
       "title": "RC2 Ridge Cap Galvalume Slate",
+      "cardTitle": "RC2 Ridge Cap Slate",
       "titleLead": "RC2 Ridge Cap",
       "titleAccent": "Galvalume Slate",
       "description": "Prepainted ridge cap weatherproofing the open seam where two metal slopes converge, manufactured from twenty nine gauge Galvalume coated steel.",
@@ -2472,6 +2540,7 @@
     },
     "grip-rite-rrp1010hem": {
       "title": "Hemmed Ridge Roll Galvanized Steel",
+      "cardTitle": "Galvanized Ridge Roll",
       "titleLead": "Hemmed Ridge Roll",
       "titleAccent": "Galvanized Steel",
       "description": "Rounded ridge capping, hemmed edges enclosing the crown of a metal roof, manufactured throughout from galvanized steel in consistent lengths.",
@@ -2501,6 +2570,7 @@
     },
     "vevor-chimney-cap-6in": {
       "title": "6 in Stainless Chimney Rain Cap",
+      "cardTitle": "Stainless Chimney Cap",
       "titleLead": "6 in Stainless Chimney",
       "titleAccent": "Rain Cap",
       "description": "Stainless steel cap sheltering any six inch flue against rain, snow and nesting, while the draught continues underneath without obstruction.",
@@ -2530,6 +2600,7 @@
     },
     "bp-suredeck": {
       "title": "SureDeck Synthetic Underlayment",
+      "cardTitle": "SureDeck Synthetic",
       "titleLead": "SureDeck Synthetic",
       "titleAccent": "Underlayment",
       "description": "Lightweight woven polypropylene underlayment coated on both faces, finished with a textured antislip surface across one full thousand square feet.",

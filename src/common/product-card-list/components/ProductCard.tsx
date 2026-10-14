@@ -9,6 +9,7 @@ import type { ProductCardProps } from "@/common/product-card-list/types";
 
 export const ProductCard = ({
   title,
+  cardTitle,
   brand,
   image,
   priceLabel,
@@ -30,7 +31,7 @@ export const ProductCard = ({
 
     <div className="grid grid-cols-[1fr_auto] items-center gap-4 px-5.5 py-4.5">
       <div className="grid min-w-0 gap-2">
-        <Title as="h3" size="card" weight="bold" truncate text={title} />
+        <Title as="h3" size="card" weight="bold" truncate text={cardTitle} />
         <div className="grid grid-flow-col items-center justify-start gap-3">
           <Text as="span" size="note" tone="muted" text={brand} />
           <AvailabilityDot availability={availability} label={availabilityLabel} size="note" />

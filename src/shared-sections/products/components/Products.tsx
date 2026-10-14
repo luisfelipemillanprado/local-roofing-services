@@ -21,6 +21,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
     slug: product.slug,
     href: `/shop/${product.slug}`,
     title: tShop(`items.${product.slug}.title`),
+    cardTitle: tShop(`items.${product.slug}.cardTitle`),
     brand: product.brand,
     image: product.image,
     priceLabel: formatPrice(product.price),
