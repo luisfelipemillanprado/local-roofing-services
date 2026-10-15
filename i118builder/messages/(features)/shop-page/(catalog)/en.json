@@ -5,7 +5,7 @@
   },
   "sort": {
     "label": "Sort by",
-    "best": "Best Matches",
+    "best": "Featured",
     "priceAsc": "Price: Low To High",
     "priceDesc": "Price: High To Low",
     "topRated": "Highest Rated"
