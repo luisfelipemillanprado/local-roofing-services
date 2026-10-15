@@ -686,13 +686,13 @@
       "about": [
         "DECRA Tile es una placa de acero conformada a presión con acabado de gravilla pétrea recubierta cerámicamente, de modo que el techo se lee como teja de barro mediterránea pesando una fracción. El acero lleva aleación de aluminio y zinc según ASTM A792 en calibre 26, 0.0179 in (0.455 mm), y cada placa viene precorrugada formando un escalón de teja. El color viene de la propia gravilla mineral y no de una pintura que pueda tizarse.",
         "Cada placa mide 16 1/2 x 52 in (419 x 1,321 mm) y se instala con una exposición de 14 1/2 x 50 in (368 x 1,270 mm), lo que da veinte placas por cuadro. El peso instalado es de 150 lb por 100 sq ft, alrededor de una séptima parte de lo que carga la teja de hormigón, así que suele ser la salida en rehabilitación cuando la estructura no admite más. Las limahoyas, los baberos laterales y los de muro se prensan en el mismo calibre 26.",
-        "La pendiente mínima es 3:12. Entre 2:12 y 3:12 el tablero lleva una capa adicional de subcapa antes de colocar los rastreles. La placa está listada para montaje sobre rastrel en el informe ICC-ES ESR-2901 y en la aprobación de Florida FL9759-R9. Se clava atravesando el rastrel, así que no queda ninguna cabeza de fijación a la intemperie. Los rastreles pueden ser de madera o de acero, y se admite contrarrastrel si el drenaje lo pide.",
+        "La pendiente mínima es 3:12. Entre 2:12 y 3:12 el tablero lleva una capa adicional de membrana antes de colocar los rastreles. La placa está listada para montaje sobre rastrel en el informe ICC-ES ESR-2901 y en la aprobación de Florida FL9759-R9. Se clava atravesando el rastrel, así que no queda ninguna cabeza de fijación a la intemperie. Los rastreles pueden ser de madera o de acero, y se admite contrarrastrel si el drenaje lo pide.",
         "Garantía: limitada de por vida en vivienda unifamiliar aislada, cubriendo el arranque por viento hasta 120 mph y la perforación, fisura o partido por granizo hasta piedra de 2.5 in. El sistema cumple ASTM E108 y UL 790 Clase A al fuego y UL 2218 Clase 4 de impacto, que es la clase más alta y suele dar descuento en el seguro. Las fijaciones siguen ANSI/ASME B18.6.1 para tirafondos y B18.6.4 para tornillos roscantes de formado de rosca."
       ],
       "features": {
         "install": [
           "Montaje sobre rastrel, listado en el informe ICC-ES ESR-2901",
-          "Pendiente mínima 3:12, con subcapa adicional entre 2:12 y 3:12",
+          "Pendiente mínima 3:12, con membrana adicional entre 2:12 y 3:12",
           "Clavado a través del rastrel, sin cabezas de fijación a la vista",
           "Veinte placas por cuadro con exposición de 14 1/2 x 50 in",
           "Aprobación del código de Florida FL9759-R9 para montaje sobre rastrel"
@@ -775,10 +775,10 @@
       "titleAccent": "Impermeable Tipo HR",
       "description": "Subcapa impermeable que mantiene la cubierta hermética y estanca bajo teja, servida en rollos de cuarenta y cinco metros.",
       "about": [
-        "Protect A1 es una subcapa de cubierta impermeable de Tipo HR fabricada en el Reino Unido. Una capa no tejida de polipropileno va recubierta por una cara con un film continuo de polipropileno y polietileno, y la lámina es negra por las dos caras con impresión en la superior tal como se instala. Lleva marcado UKCA y CE, aprobación independiente de BM TRADA y certificación Q Mark. Se desarrolló para superar los inconvenientes de los fieltros Tipo 1F y 5U.",
+        "Protect A1 es una membrana de cubierta impermeable de Tipo HR fabricada en el Reino Unido. Una capa no tejida de polipropileno va recubierta por una cara con un film continuo de polipropileno y polietileno, y la lámina es negra por las dos caras con impresión en la superior tal como se instala. Lleva marcado UKCA y CE, aprobación independiente de BM TRADA y certificación Q Mark. Se desarrolló para superar los inconvenientes de los fieltros Tipo 1F y 5U.",
         "El gramaje es de 145 g por metro cuadrado con un espesor de 0.6 mm, y se sirve en rollos de 1 m por 45 m o de 1.5 m por 30 m. La resistencia al paso de vapor de agua es de 112 MNs por gramo, un Sd de 22 m, según BS EN ISO 12572, lo que cumple la permeabilidad que recomiendan BM TRADA y la NHBC. Se mantiene flexible en frío y resiste el desgarro en los clavos. El gramaje y el espesor se mantienen en los dos formatos de rollo, y aguanta la obra.",
         "El uso frente a la succión del viento no tiene restricción en el Reino Unido ni en Irlanda, Zonas 1 a 5, según BS 5534:2018, y con un paso de rastrel de 345 mm o menos la lámina resiste 1,732 Pa de presión de viento. El desgarro por clavo es de 230 N a lo largo del rollo y 234 N a lo ancho según BS EN 12310-1, y la tracción llega a 287 N y 274 N según BS EN 12311-1. Las dos cifras se miden con las modificaciones que indican las normas.",
-        "Al ser una subcapa de alta resistencia, hace falta ventilación añadida según BS 5250: una cubierta caliente pide 25,000 mm² por metro en el alero y 5,000 en la cumbrera, y una cubierta fría 10,000 en el alero y 5,000 en la cumbrera con un techo bien sellado. La resistencia a la penetración de agua según BS EN 1928 modificada es apta en Clase W1. Una barrera de vapor aparte va en el lado cálido del aislamiento, y también frena el paso de polvo."
+        "Al ser una membrana de alta resistencia, hace falta ventilación añadida según BS 5250: una cubierta caliente pide 25,000 mm² por metro en el alero y 5,000 en la cumbrera, y una cubierta fría 10,000 en el alero y 5,000 en la cumbrera con un techo bien sellado. La resistencia a la penetración de agua según BS EN 1928 modificada es apta en Clase W1. Una barrera de vapor aparte va en el lado cálido del aislamiento, y también frena el paso de polvo."
       ],
       "features": {
         "install": [
@@ -805,14 +805,14 @@
       "titleAccent": "Membrana Monolítica",
       "description": "Membrana monolítica altamente transpirable que funciona como entablado, subcapa y barrera cortaviento cubriendo setenta y cinco metros cuadrados completos.",
       "about": [
-        "Exoperm Mono 150 de Partel es una membrana de entablado de tres capas cuya capa intermedia es monolítica y no microporosa, así que el vapor la atraviesa por difusión molecular y no por poros que el polvo o los tensioactivos puedan obstruir. Sirve de entablado, de subcapa de cubierta y de barrera cortaviento, tanto en cubierta inclinada como en fachada. Las tres capas van laminadas y la capa funcional queda protegida entre las dos exteriores.",
+        "Exoperm Mono 150 de Partel es una membrana de entablado de tres capas cuya capa intermedia es monolítica y no microporosa, así que el vapor la atraviesa por difusión molecular y no por poros que el polvo o los tensioactivos puedan obstruir. Sirve de entablado, de membrana de cubierta y de barrera cortaviento, tanto en cubierta inclinada como en fachada. Las tres capas van laminadas y la capa funcional queda protegida entre las dos exteriores.",
         "El rollo mide 1.5 m por 50 m y cubre 75 m², es decir 807 sq ft, con un gramaje de 150 g por metro cuadrado medido según EN 1849-2. La resistencia a la difusión de vapor es un Sd de solo 0.07 m según EN ISO 12572 método C, de las más abiertas que se publican, y la permeabilidad al aire se queda por debajo de 0.001 metros cúbicos por metro cuadrado hora. Partel mide las dos cifras sobre la membrana acabada, no sobre la capa funcional sola.",
         "La resistencia al agua es Clase W1 según EN 1928, y Partel publica que esa clase se mantiene antes y después del envejecimiento artificial, que es lo que importa en una obra larga. La tracción es de 255 N en sentido longitudinal y 145 N en transversal por 50 mm según EN 12311-1, y el desgarro por clavo es de 130 N y 160 N según EN 12310-1. Las dos resistencias se expresan por 50 mm de ancho, como marcan las normas europeas.",
         "La membrana conserva sus propiedades desde 40 grados bajo cero hasta 80 grados centígrados. Partel califica la exposición ultravioleta en seis meses sobre fachada y cuatro meses sobre cubierta, así que aguanta un invierno abierta si el acabado se retrasa. Partel no publica clase de reacción al fuego ni cifra de succión de viento para esta membrana. La membrana está prevista para cubierta inclinada y para fachada de entramado de madera. Partel la distribuye por su propia filial en Estados Unidos."
       ],
       "features": {
         "install": [
-          "Se coloca como entablado, subcapa y capa cortaviento en una sola lámina, en cubierta inclinada o en fachada",
+          "Se coloca como entablado, membrana y capa cortaviento en una sola lámina, en cubierta inclinada o en fachada",
           "La capa intermedia monolítica difunde el vapor, así que el polvo y los tensioactivos no pueden obstruir poros",
           "Conserva sus propiedades desde 40 grados bajo cero hasta 80 grados mientras la cubierta está abierta",
           "La versión Connex de la misma membrana incorpora cintas adhesivas integradas",
@@ -1915,13 +1915,13 @@
       "titleAccent": "Galvanizado Pizarra",
       "about": [
         "Es junta alzada a presión de Steeldash en acero calibre 24, acabada en gris pizarra. La junta cierra apretando un panel sobre el anterior, así que no hay pasada de engatillado mecánico ni una cuadrilla un día entero con la engatilladora. Los clips van bajo la junta y no se ven nunca, que es justo lo que separa una junta alzada de un panel de fijación vista. Steeldash conforma el mismo perfil en Galvalume desnudo y en una serie de colores sólidos.",
-        "La cubrición neta es de 16 in por panel con un nervio principal de 1 in de altura, y la bandeja es lisa de serie. Los paneles se conforman a medida desde 1 ft hasta 40 ft en incrementos de medio pie, así que un tramo de alero a caballete suele llegar de una pieza y sin solape de testa que sellar. El plazo de fabricación es de siete días hábiles. Hay bandeja estriada bajo pedido, que es la respuesta habitual al abombado en tramos anchos.",
-        "Steeldash exige montaje sobre soporte continuo con una subcapa entre el panel y el tablero, lo que descarta las correas al aire en este perfil. La pendiente mínima recomendada es de 3 en 12. Como los clips van ocultos y la junta encaja a presión en vez de atornillarse, nada perfora el plano de agua en todo el faldón. La subcapa la elige el instalador, así que conviene especificar una membrana de alta temperatura pensada para metal.",
+        "La cubrición neta es de 16 in por panel con un nervio principal de 1 in de altura, y la bandeja es lisa de serie. Los paneles se conforman a medida desde 1 ft hasta 40 ft en incrementos de medio pie, así que un tramo de alero a cumbrera suele llegar de una pieza y sin solape de testa que sellar. El plazo de fabricación es de siete días hábiles. Hay bandeja estriada bajo pedido, que es la respuesta habitual al abombado en tramos anchos.",
+        "Steeldash exige montaje sobre soporte continuo con una membrana entre el panel y el tablero, lo que descarta las correas al aire en este perfil. La pendiente mínima recomendada es de 3 en 12. Como los clips van ocultos y la junta encaja a presión en vez de atornillarse, nada perfora el plano de agua en todo el faldón. La membrana la elige el instalador, así que conviene especificar una de alta temperatura pensada para metal.",
         "Garantía: el sistema de pintura está cubierto 40 años contra el desprendimiento y 30 años contra el tizado o la decoloración. El acero se suministra con certificado de colada. No se publica clasificación de viento, fuego ni impacto para el panel aislado, así que un conjunto clasificado hay que pedírselo a Steeldash. El color es un recubrimiento aplicado en fábrica, sin ninguna pintura en obra en ningún momento del montaje en cubierta."
       ],
       "features": {
         "install": [
-          "Soporte continuo con subcapa entre panel y tablero, no correas al aire",
+          "Soporte continuo con membrana entre panel y tablero, no correas al aire",
           "Pendiente mínima recomendada de 3 en 12",
           "Clips ocultos bajo la junta, nada perfora el plano de agua",
           "Conformado a medida de 1 a 40 ft en incrementos de medio pie",
@@ -2072,7 +2072,7 @@
       ],
       "features": {
         "install": [
-          "Abre un hueco de 15 in y baberiza la base como con cualquier otra ventilación",
+          "Abre un hueco de 15 in y remata la base con babero como en cualquier otra ventilación",
           "La base admite pendientes desde 2:12 hasta 12:12",
           "No hace falta circuito, interruptor ni magnetotérmico: el panel mueve el motor",
           "Orienta el panel donde vaya a recibir sol buena parte de la tarde",
@@ -2125,14 +2125,14 @@
       "titleAccent": "Policarbonato",
       "description": "Claraboya de doble cúpula en policarbonato con aro decorativo de aluminio, coronando un brocal construido de aproximadamente veinte pulgadas.",
       "about": [
-        "Una claraboya de brocal no se baberiza a sí misma. El brocal se levanta en obra con madera, se baberiza como cualquier otra penetración, y la claraboya cae después encima a modo de tapa. Ese reparto del trabajo es la razón de que el tipo siga vigente: la impermeabilización es trabajo de tejado corriente que cualquier instalador conoce, y la cúpula es solo una tapa. Nada de la propia claraboya tiene que detener el agua por sí solo.",
+        "Una claraboya de brocal no trae su propio babero. El brocal se levanta en obra con madera, se remata con babero como cualquier otra penetración, y la claraboya cae después encima a modo de tapa. Ese reparto del trabajo es la razón de que el tipo siga vigente: la impermeabilización es trabajo de tejado corriente que cualquier instalador conoce, y la cúpula es solo una tapa. Nada de la propia claraboya tiene que detener el agua por sí solo.",
         "El acristalamiento es de policarbonato y no de acrílico, y esa es la especificación que conviene mirar. Sun-Tek sitúa el policarbonato en unas treinta veces la resistencia al impacto del acrílico, que es lo que vuelve habitual este tipo en zonas de granizo y de huracán. Va estabilizado contra el UV para que no amarillee, en doble cúpula bronce sobre transparente. El tinte bronce es lo que corta el deslumbramiento en una estancia al sur.",
         "Dos cúpulas en vez de una son aislamiento. El aire atrapado entre la lámina exterior y la interior es lo que evita que la pieza chorree condensación en una mañana fría y lo que deja fuera parte del calor de verano. Por el perímetro el conjunto va envuelto en un aro decorativo de aluminio, y las esquinas del marco van soldadas con TIG y no atornilladas. Una esquina soldada no tiene tornillo que se afloje ni junta que se abra.",
         "Esta es la CMA 1919, de 19 1/2 x 19 1/2 in, que es la medida del brocal que tapa y no la superficie acristalada. Llega montada por completo, y Sun-Tek la da por válida para cualquier tipo de tejado, metálico incluido. La garantía es de diez años. La gama CMA sigue con medidas mayores sobre la misma construcción si el hueco lo pide. Las CMA 2222, CMA 2230 y CMA 3030 son las siguientes medidas de la gama con la misma construcción."
       ],
       "features": {
         "install": [
-          "Levanta y baberiza el brocal primero: la claraboya es tapa, no babero",
+          "Levanta el brocal y remátalo con babero primero: la claraboya es tapa, no babero",
           "Dimensiona el brocal en 19 1/2 x 19 1/2 in para que case con esta unidad",
           "La unidad llega montada, así que no se acristala nada sobre el tejado",
           "Vale para cualquier tejado, metálico incluido, porque el brocal hace el trabajo",
@@ -2307,12 +2307,12 @@
       "about": [
         "Una turbina eólica es la única ventilación de tejado que trabaja de verdad sin electricidad: las aletas recogen la brisa que cruza la cumbrera y giran, y ese giro saca el aire del ático de abajo. Master Flow da a este cabezal de 12 in unos 500 sq ft de ático. El arriostramiento va por dentro del cabezal y no por fuera, que es a lo que alude su nombre. En la misma gama hay una versión con arriostramiento exterior del mismo tamaño.",
         "Lo que distingue a una turbina que sigue girando de otra que se agarrota es el rodamiento. Esta lleva bolas de acero inoxidable arriba y abajo sobre una pista lubricada de por vida, encapsuladas para que ni tierra ni polvo ni arena entren, y gira sobre un eje de acero templado. Esa cápsula es lo que decide cuántas temporadas aguanta antes de empezar a chirriar. No hay nada que engrasar una vez el cabezal está sobre la base.",
-        "Las aletas son de doble nervio con la tapa convexa, una forma pensada para devolver la lluvia batida por el viento en lugar de dejarla bajar por la garganta. El cabezal y la base van en dos piezas, así que la base se coloca y se baberiza primero y el cabezal se encaja después. La propia base se regula para pendientes desde 2:12 hasta 12:12. Ese reparto en dos piezas es lo que permite que una sola persona la monte sobre el faldón.",
+        "Las aletas son de doble nervio con la tapa convexa, una forma pensada para devolver la lluvia batida por el viento en lugar de dejarla bajar por la garganta. El cabezal y la base van en dos piezas, así que la base se coloca y se remata con babero primero y el cabezal se encaja después. La propia base se regula para pendientes desde 2:12 hasta 12:12. Ese reparto en dos piezas es lo que permite que una sola persona la monte sobre el faldón.",
         "Nada de esto sirve sin entrada de aire. Master Flow pide un mínimo de 91 sq in de área libre de admisión en los aleros o bajo el alero por cada turbina de 12 in, y una turbina sin nada que aspirar sencillamente se para. La unidad cuenta con aprobaciones del condado de Dade y del Texas Department of Insurance. El cabezal es galvanizado natural, sin pintar. Son las dos aprobaciones que más pesan en los estados de viento fuerte."
       ],
       "features": {
         "install": [
-          "Abre el hueco, coloca y baberiza la base primero y encaja el cabezal después",
+          "Abre el hueco, coloca la base y remátala con babero primero y encaja el cabezal después",
           "Regula la base para que el cabezal quede a nivel entre 2:12 y 12:12",
           "Sitúala alta en el faldón, a medio metro escaso de la cumbrera",
           "Dispón al menos 91 sq in de admisión libre en el alero por cada turbina",
@@ -2485,13 +2485,13 @@
       "titleAccent": "Ceniza Galvanizado",
       "about": [
         "Es junta alzada a presión de Steeldash en acero calibre 24, acabada en gris ceniza. La junta cierra apretando un panel sobre el anterior, así que no hay pasada de engatillado mecánico ni una cuadrilla un día entero con la engatilladora. Los clips van bajo la junta y no se ven nunca, que es justo lo que separa una junta alzada de un panel de fijación vista. Steeldash conforma el mismo perfil en Galvalume desnudo y en una serie de colores sólidos.",
-        "La cubrición neta es de 16 in por panel con un nervio principal de 1 in de altura, y este lleva la bandeja estriada. Los paneles se conforman a medida desde 1 ft hasta 40 ft en incrementos de medio pie, así que un tramo de alero a caballete suele llegar de una pieza y sin solape de testa que sellar. El plazo de fabricación es de siete días hábiles. La bandeja lisa es la opción de serie, así que el estriado se pide expresamente al encargar.",
-        "Steeldash exige montaje sobre soporte continuo con una subcapa entre el panel y el tablero, lo que descarta las correas al aire en este perfil. La pendiente mínima recomendada es de 3 en 12. Como los clips van ocultos y la junta encaja a presión en vez de atornillarse, nada perfora el plano de agua en todo el faldón. La subcapa la elige el instalador, así que conviene especificar una membrana de alta temperatura pensada para metal.",
+        "La cubrición neta es de 16 in por panel con un nervio principal de 1 in de altura, y este lleva la bandeja estriada. Los paneles se conforman a medida desde 1 ft hasta 40 ft en incrementos de medio pie, así que un tramo de alero a cumbrera suele llegar de una pieza y sin solape de testa que sellar. El plazo de fabricación es de siete días hábiles. La bandeja lisa es la opción de serie, así que el estriado se pide expresamente al encargar.",
+        "Steeldash exige montaje sobre soporte continuo con una membrana entre el panel y el tablero, lo que descarta las correas al aire en este perfil. La pendiente mínima recomendada es de 3 en 12. Como los clips van ocultos y la junta encaja a presión en vez de atornillarse, nada perfora el plano de agua en todo el faldón. La membrana la elige el instalador, así que conviene especificar una de alta temperatura pensada para metal.",
         "Garantía: el sistema de pintura está cubierto 40 años contra el desprendimiento y 30 años contra el tizado o la decoloración. El acero se suministra con certificado de colada. No se publica clasificación de viento, fuego ni impacto para el panel aislado, así que un conjunto clasificado hay que pedírselo a Steeldash. El color es un recubrimiento aplicado en fábrica, sin ninguna pintura en obra en ningún momento del montaje en cubierta."
       ],
       "features": {
         "install": [
-          "Soporte continuo con subcapa entre panel y tablero, no correas al aire",
+          "Soporte continuo con membrana entre panel y tablero, no correas al aire",
           "Pendiente mínima recomendada de 3 en 12",
           "Clips ocultos bajo la junta, nada perfora el plano de agua",
           "Conformado a medida de 1 a 40 ft en incrementos de medio pie",
