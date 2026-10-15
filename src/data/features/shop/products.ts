@@ -1002,7 +1002,7 @@ export const shopProductsData = {
         { key: "size", value: "1 x 10 m" },
         { key: "coverage", value: "10 m²" },
         { key: "weight", value: "35 kg" },
-        { key: "material", valueKey: "specValue.polymerisedAsphalt" },
+        { key: "material", valueKey: "specValue.plasticAsphalt" },
         { key: "reinforcement", value: "HDPE" },
         { key: "foil", value: "30 µm" },
         { key: "finish", valueKey: "specValue.aluminumFoil" },
