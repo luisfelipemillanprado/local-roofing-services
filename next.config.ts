@@ -7,6 +7,8 @@ const renamedProducts = [
   ["dewalt-dxst11000", "dewalt-dxl2010"],
   ["masterplug-ose15104g", "masterplug-cma301116g4sl"],
   ["palmer-k111115", "palmer-v5501"],
+  ["brakki-stone-tiles", "decra-stone-tiles"],
+  ["brakki-insulated-panel", "isopan-isodomus-panel"],
 ];
 
 const nextConfig: NextConfig = {
