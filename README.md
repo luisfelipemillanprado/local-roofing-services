@@ -1,8 +1,8 @@
 # Roofpro — Local Roofing Services Website
 
 A marketing website for a roofing company, built on the Next.js 16 App Router. It is a
-multi-page, multi-slug experience (Home, Services, Shop, Gallery, About, plus per-service,
-per-product, per-project and per-team-member detail pages), fully localized (English at
+multi-page, multi-slug experience (Home, Services, Shop, Projects, Areas, About, plus
+per-service and per-product detail pages), fully localized (English at
 `/`, Spanish at `/es`), light/dark themed, statically prerendered, and responsive.
 
 The coding conventions Claude follows in this repo are documented in
@@ -101,10 +101,9 @@ src/
       services/[slug]/page.tsx   # Service detail      → /services/:slug   (SSG)
       shop/page.tsx              # Shop catalog        → /shop
       shop/[slug]/page.tsx       # Product detail      → /shop/:slug       (SSG)
-      gallery/page.tsx           # Project gallery     → /gallery
-      gallery/[slug]/page.tsx    # Project detail      → /gallery/:slug    (SSG)
+      projects/page.tsx          # Project gallery     → /projects
+      areas/page.tsx             # Service areas       → /areas
       about/page.tsx             # About               → /about
-      team/[slug]/page.tsx       # Team member detail  → /team/:slug       (SSG)
   common/<slice>/components/            # primitives (Button, ActionButton, Media, …)
   shared-sections/<slice>/components/   # organisms reused by ≥2 routes (services, pitch, …)
   layout/<slice>/components/            # app-shell chrome (navbar, footer, floating-contact)
@@ -178,29 +177,27 @@ Every page renders a fixed **Navbar** and **Footer**; the floating quick-contact
 every route, and `Pitch` renders three variants (`why-choose`, `process`, `values`).
 
 - **Home (`/`):** PageHeader → Marquee → About → Services → Why Choose Us (Pitch) →
-  Projects → Team → Testimonials → Pricing → Products → Contact.
+  Projects → Testimonials → Products → Contact.
 - **Services (`/services`):** PageHeader → Marquee → Services → Process (Pitch) →
   Testimonials → FAQ → Products → Contact.
 - **Service detail (`/services/[slug]`):** PageHeader → Marquee → ServiceOverview →
   ServiceProcess → FAQ → ServiceAreas → Products → Contact.
 - **Shop (`/shop`):** PageHeader → Marquee → ShopCatalog (search / category / filter /
   sort) → Contact.
-- **Product detail (`/shop/[slug]`):** PageHeader → Marquee → ProductDetail →
-  RelatedProducts → Contact.
-- **Gallery (`/gallery`):** PageHeader → Marquee → Projects → CaseStudy → Testimonials →
-  FAQ → Products → Contact.
-- **Project detail (`/gallery/[slug]`):** PageHeader → project image + back link.
-- **About (`/about`):** PageHeader → Marquee → About → Values (Pitch) → Team →
+- **Product detail (`/shop/[slug]`):** PageHeader → Marquee → ProductDetail → ProductInfo
+  (description / specifications / features) → Results → Products → Contact.
+- **Projects (`/projects`):** PageHeader → Marquee → Projects → Testimonials → FAQ →
+  Products → Contact.
+- **Areas (`/areas`):** PageHeader → Marquee → ServiceAreas → Products → Contact.
+- **About (`/about`):** PageHeader → Marquee → About → Values (Pitch) → Projects →
   Testimonials → FAQ → Products → Contact.
-- **Team detail (`/team/[slug]`):** PageHeader → member image + back link.
 
-The dynamic routes — `services/[slug]`, `shop/[slug]`, `gallery/[slug]`, `team/[slug]` —
-enumerate a **fixed** set of valid slugs from `src/data/` via `generateStaticParams` and set
-`dynamicParams = false`, so any unknown slug 404s. There is no free-form slug generation.
+The dynamic routes — `services/[slug]` and `shop/[slug]` — enumerate a **fixed** set of
+valid slugs from `src/data/` via `generateStaticParams` and set `dynamicParams = false`, so
+any unknown slug 404s. There is no free-form slug generation.
 
-> The navbar's **Areas** entry (`/areas`) and the footer's legal links (privacy / terms) are
-> placeholders pending their pages. `ServiceAreas` currently ships as a section on
-> service-detail pages.
+> The footer's legal links (privacy / terms) are placeholders pending their pages.
+> `ServiceAreas` ships both as the `/areas` page and as a section on service-detail pages.
 
 ## Theming
 
