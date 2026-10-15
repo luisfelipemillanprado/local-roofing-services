@@ -25,6 +25,12 @@ Project decisions, historical context, and pending work. Conventions live in
 
 ## Pending work
 
+- `next.config.ts` kept redirects for seven renamed paths (`/gallery` and six shop slugs).
+  They were dropped because the site has never been published: no domain, sitemap, robots
+  or deployment, no internal link pointed at any old path, and a stale redirect shadows a
+  future route of the same name, since redirects are matched before the filesystem. **Once
+  the site is live, every slug or route rename needs its own 308 in `next.config.ts`**, one
+  entry per locale (`/x` and `/es/x`), because the App Router does not localize redirects.
 - Known accessibility gaps live in the `accessibility-review` skill's "Known gaps to check"
   section (the source of truth) — MobileMenu dialog semantics, focus-visible rings,
   ProjectViewer focus trap/restore, nav `aria-current`, skip-to-content link. Don't restate
