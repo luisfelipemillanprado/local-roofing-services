@@ -5,9 +5,8 @@ Project decisions, historical context, and pending work. Conventions live in
 
 ## Current Project State
 
-- The navbar `Areas` entry is still a placeholder until the `/areas` page exists.
 - Footer privacy and terms links are still placeholders until those pages exist.
-- `ServiceAreas` currently exists as a section on service detail pages.
+- `ServiceAreas` ships both as the `/areas` page and as a section on service detail pages.
 - The contact `EmailForm` posts to `src/app/api/contact/route.ts` (Node.js runtime), which
   sends via Amazon SES and is bot-hardened (honeypot, time-trap, origin check, in-memory
   rate limit). It is a dev no-op until `AWS_REGION`/`SES_FROM`/`CONTACT_TO` are set and an
