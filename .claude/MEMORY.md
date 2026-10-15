@@ -11,9 +11,6 @@ Project decisions, historical context, and pending work. Conventions live in
   sends via Amazon SES and is bot-hardened (honeypot, time-trap, origin check, in-memory
   rate limit). It is a dev no-op until `AWS_REGION`/`SES_FROM`/`CONTACT_TO` are set and an
   SES identity is verified; the rate limit should move to Upstash/Vercel KV for production.
-- Shop product detail is scaffolding — `src/data/features/shop/product-detail.ts` shares one set of
-  placeholder values across every product (placeholder CTAs, swatch hex, a "was" price),
-  and `ProductTabs` renders placeholder bodies.
 
 ## Placeholder client data (needs real values before launch)
 
@@ -24,6 +21,9 @@ Project decisions, historical context, and pending work. Conventions live in
 
 ## Pending work
 
+- 58 of the 71 shop products still show other products' photos in their gallery. Wire a
+  folder's own `-2` to `-5` as soon as it holds five shots, as metal and four shingles
+  already do.
 - `next.config.ts` kept redirects for seven renamed paths (`/gallery` and six shop slugs).
   They were dropped because the site has never been published: no domain, sitemap, robots
   or deployment, no internal link pointed at any old path, and a stale redirect shadows a

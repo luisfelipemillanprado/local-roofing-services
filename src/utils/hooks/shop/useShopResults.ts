@@ -19,11 +19,16 @@ const sorters: Record<ShopSort, (a: ShopCatalogItem, b: ShopCatalogItem) => numb
 const inCategory = (items: ShopCatalogItem[], category: string) =>
   items.filter((item) => item.category === category);
 
+/* phones type without accents, so both sides are compared folded */
+const fold = (text: string) =>
+  text
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase();
+
 const matching = (items: ShopCatalogItem[], search: string) => {
-  const query = search.trim().toLowerCase();
-  return items.filter(
-    (item) => item.title.toLowerCase().includes(query) || item.brand.toLowerCase().includes(query),
-  );
+  const query = fold(search.trim());
+  return items.filter((item) => fold(item.title).includes(query) || fold(item.brand).includes(query));
 };
 
 /* what the grid shows and which chip owns it: a query beats the category, a miss falls back */
