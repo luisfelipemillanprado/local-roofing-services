@@ -1,15 +1,15 @@
 {
   "units": {
-    "bundle": "Bundle",
-    "panel": "Panel",
-    "roll": "Roll",
-    "each": "Each",
-    "bucket": "Bucket",
-    "tube": "Tube",
-    "kit": "Kit",
-    "canister": "Canister",
+    "bundle": "Shingle Pack",
+    "panel": "Metal Panel",
+    "roll": "Membrane Roll",
+    "each": "Single Piece",
+    "bucket": "Adhesive Pail",
+    "tube": "Sealant Tube",
+    "kit": "Complete Kit",
+    "canister": "TPO Canister",
     "foot": "Linear Foot",
-    "pack": "Pack"
+    "pack": "Panel Pack"
   },
   "availability": {
     "in-stock": "In Stock",
