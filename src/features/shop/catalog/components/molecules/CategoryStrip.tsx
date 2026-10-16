@@ -13,8 +13,8 @@ export const CategoryStrip = ({ categories, active, onSelect }: CategoryStripPro
         type="button"
         aria-pressed={key === active}
         onClick={() => onSelect(key)}
-        /* the column cannot outgrow the button: a long word would drag the photo off centre */
-        className="group grid w-26 grid-cols-[minmax(0,1fr)] justify-items-center gap-3"
+        /* wide enough for the longest label on one line: a wrapped one would drag the photo off centre */
+        className="group grid w-30 grid-cols-[minmax(0,1fr)] justify-items-center gap-3"
       >
         <span
           className={clsx(
