@@ -26,7 +26,7 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
     priceLabel: formatPrice(product.price),
     unit: t(product.unitKey),
     rating: product.rating,
-    ratingLabel: t("ratingCount", { rating: product.rating, count: product.reviews }),
+    ratingLabel: t("reviewCount", { rating: product.rating, count: product.reviews }),
     reviews: product.reviews,
     availability: product.availability,
     availabilityLabel: t(`availability.${product.availability}`),

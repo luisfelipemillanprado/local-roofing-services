@@ -4,7 +4,6 @@ import type { shopCatalogData } from "@/data/features/shop/catalog";
 type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
 
 /* catalog entry: card fields plus what the browser filters and sorts on */
-/* price and reviews ride along unformatted: the sort reads them, the card never shows them */
 export interface ShopCatalogItem extends ProductCardItem {
   category: string;
   price: number;
