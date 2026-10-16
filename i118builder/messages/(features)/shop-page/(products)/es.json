@@ -1,15 +1,15 @@
 {
   "units": {
-    "bundle": "Bulto De Tejas",
+    "bundle": "Paquete De Tejas",
     "panel": "Panel De Metal",
-    "roll": "Rollo Subcapa",
+    "roll": "Rollo De Membrana",
     "each": "Unidad Suelta",
     "bucket": "Cubeta",
-    "tube": "Tubo Sellador",
+    "tube": "Tubo De Sellador",
     "kit": "Kit Completo",
     "canister": "Cilindro TPO",
     "foot": "Pie Lineal",
-    "pack": "Pack De Chapa"
+    "pack": "Paquete De Panel"
   },
   "availability": {
     "in-stock": "En Stock",
