@@ -27,7 +27,7 @@ export const Products = async ({ tone = "muted", limit }: ProductsProps) => {
     priceLabel: formatPrice(product.price),
     unit: tShop(product.unitKey),
     rating: product.rating,
-    ratingLabel: tShop("ratingCount", { rating: product.rating, count: product.reviews }),
+    ratingLabel: tShop("reviewCount", { rating: product.rating, count: product.reviews }),
     availability: product.availability,
     availabilityLabel: tShop(`availability.${product.availability}`),
   }));
