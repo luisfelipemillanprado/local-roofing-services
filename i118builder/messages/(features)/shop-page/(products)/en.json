@@ -16,6 +16,7 @@
     "limited-stock": "Limited Stock",
     "out-of-stock": "Out of Stock"
   },
+  "ratingCount": "{rating} from ({count})",
   "warranty": {
     "lifetime": "Lifetime Limited",
     "limitedYears": "{years} Year Limited",

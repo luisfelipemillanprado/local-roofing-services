@@ -10,8 +10,8 @@ export interface ProductCardProps {
   image: string;
   priceLabel: string;
   unit: string;
-  rating: number;
-  reviews: number;
+  rating: number /* the stars; the count beside them arrives translated */;
+  ratingLabel: string;
   availability: ProductAvailability;
   availabilityLabel: string;
   viewLabel: string;
