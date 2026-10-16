@@ -15,7 +15,7 @@ export const ProductCard = ({
   priceLabel,
   unit,
   rating,
-  reviews,
+  ratingLabel,
   availability,
   availabilityLabel,
   viewLabel,
@@ -36,7 +36,7 @@ export const ProductCard = ({
           <Text as="span" size="caption" tone="muted" text={brand} />
           <AvailabilityDot availability={availability} label={availabilityLabel} size="caption" />
         </div>
-        <ProductRating rating={rating} label={`${rating} (${reviews})`} size="caption" />
+        <ProductRating rating={rating} label={ratingLabel} size="caption" />
         <div className="grid grid-flow-col items-end justify-start gap-1.5">
           <TextNumber size="price" text={priceLabel} />
           <span className="mb-0.5">

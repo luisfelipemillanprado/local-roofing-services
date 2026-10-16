@@ -16,6 +16,7 @@
     "limited-stock": "Pocas Unidades",
     "out-of-stock": "Agotado"
   },
+  "ratingCount": "{rating} de ({count})",
   "warranty": {
     "lifetime": "Limitada de por Vida",
     "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}",
