@@ -2360,11 +2360,11 @@
       }
     },
     "malarkey-smart-start": {
-      "title": "Tejas de Arranque Asfálticas Smart Start",
+      "title": "Arranque de Asfalto Smart Start",
       "cardTitle": "Smart Start Arranque",
-      "titleLead": "Tejas de Arranque",
-      "titleAccent": "Asfálticas Smart Start",
-      "description": "Arranque de asfalto polimérico modificado NEX, perforado en dos tiras independientes que sellan completamente la primera hilada perimetral completa.",
+      "titleLead": "Arranque de Asfalto",
+      "titleAccent": "Smart Start",
+      "description": "Arranque de asfalto polimérico modificado NEX, perforado en dos tiras independientes que sellan la primera hilada en aleros y bordes laterales.",
       "about": [
         "Smart Start (código Malarkey 210) es una teja de arranque de asfalto modificado con polímero NEX para techos residenciales de pendiente pronunciada. Se fabrica sobre manto de fibra de vidrio no tejido, recubierto por ambas caras con betún NEX y estabilizador mineral ignífugo, con acabado de gránulo mineral. Malarkey exige Smart Start, o un equivalente conforme a ASTM D3462, bajo todas sus tejas, incluida Windsor, y la recomienda también en los bordes.",
         "Cada teja completa mide 16 3/8 x 38 1/4 in (416 x 972 mm). Una perforación central, a 8 3/16 in (208 mm) de cada borde, la divide a lo largo en dos piezas de arranque conformes al código de 8 3/16 x 38 1/4 in (208 x 972 mm), cada una con su propia banda sellante de fábrica, para exposiciones de hasta 6 3/16 in. Un paquete trae 18 tejas completas (36 piezas) y cubre 114 ft 9 in (35 m); un palé lleva 21 paquetes. La adherencia típica del gránulo es de 0.3 g.",
@@ -2374,7 +2374,7 @@
       "features": {
         "install": [
           "Va bajo la primera hilada en el alero y también se recomienda en los bordes laterales",
-          "Sobresale del borde 1/4 a 3/4 in, con la tira adhesiva junto al borde",
+          "Sobresale del borde 1/4 a 3/4 in, con la banda sellante junto al borde",
           "4 clavos por pieza, de 1 1/2 a 3 in sobre el alero, nunca a través del sellador",
           "Se cortan 6 in de la primera pieza para desfasar las juntas",
           "Es obligatoria bajo las tejas Malarkey para que el alero selle bien"
@@ -2390,10 +2390,10 @@
       }
     },
     "landmark-weathered-wood": {
-      "title": "Landmark Madera Envejecida",
+      "title": "Tejas CertainTeed Landmark Madera Envejecida",
       "cardTitle": "Landmark Envejecida",
-      "titleLead": "Landmark Madera",
-      "titleAccent": "Envejecida",
+      "titleLead": "Tejas CertainTeed Landmark",
+      "titleAccent": "Madera Envejecida",
       "description": "Laminada de doble capa con faldón romboidal, que proporciona aproximadamente treinta y tres pies cuadrados por paquete individual suministrado.",
       "about": [
         "Landmark es una teja arquitectónica laminada en Weathered Wood. Se construye sobre manto de fibra de vidrio con gránulos minerales de recubrimiento cerámico en asfalto refinado impermeable; dos piezas se laminan con cemento asfáltico, y cada teja lleva bandas autoadhesivas y NailTrak. La versión resistente a algas (AR) evita las manchas oscuras de las algas verdiazules (Gloeocapsa magma); la AR no llega a todas las regiones.",
@@ -2420,10 +2420,10 @@
       }
     },
     "dynasty-emerald-green": {
-      "title": "Tejas Dynasty Verde Esmeralda",
+      "title": "Tejas IKO Dynasty Verde Esmeralda",
       "cardTitle": "Dynasty Esmeralda",
-      "titleLead": "Tejas Dynasty Verde",
-      "titleAccent": "Esmeralda",
+      "titleLead": "Tejas IKO Dynasty",
+      "titleAccent": "Verde Esmeralda",
       "description": "Tejas laminadas arquitectónicas con banda de clavado ArmourZone reforzada, resistentes a vientos muy fuertes y con garantía vitalicia limitada.",
       "about": [
         "Dynasty es una teja laminada de alto peso, aquí en el color Emerald Green, fabricada sobre un manto estable de fibra de vidrio no tejido, impregnado con betún impermeabilizante estabilizado. Tiene aspecto de tablilla irregular con sombreado de doble banda, gránulos cerámicos de color en ambas capas que protegen el asfalto del ultravioleta, cinta antiadherente y polvo mineral en el reverso, y gránulos inhibidores de algas de larga duración.",
