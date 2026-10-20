@@ -12,7 +12,7 @@ import { ProductPrice } from "@/features/shop/detail/components/molecules/Produc
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { productDetailData } from "@/data/features/shop/product-detail";
 import { formatPrice } from "@/utils/helpers/price";
-import type { ProductOverviewProps, SpecStripKey } from "@/features/shop/detail/types";
+import type { ProductOverviewProps, ProductSpecStripKey } from "@/features/shop/detail/types";
 
 const { ctaHref, specStrip, viewer } = productDetailData;
 
@@ -34,7 +34,7 @@ export const ProductOverview = async ({ product, tone = "base" }: ProductOvervie
           product.warrantyKey,
           "warrantyYears" in product ? { years: product.warrantyYears } : undefined,
         ),
-      } satisfies Record<SpecStripKey, string>
+      } satisfies Record<ProductSpecStripKey, string>
     )[key],
   }));
 

@@ -1,8 +1,8 @@
 import { Text } from "@/common/text/components/Text";
-import type { ProductSpecProps } from "@/features/shop/detail/types";
+import type { ProductSpecTableProps } from "@/features/shop/detail/types";
 
 /* spec sheet rows; label left, value right, a rule under each including the last */
-export const ProductSpecTable = ({ rows }: ProductSpecProps) => (
+export const ProductSpecTable = ({ rows }: ProductSpecTableProps) => (
   <dl className="grid">
     {rows.map(({ key, label, value }) => (
       <div key={key} className="grid grid-cols-[1fr_auto] items-baseline gap-4 border-b border-line py-3">
