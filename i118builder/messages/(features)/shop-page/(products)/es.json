@@ -18,9 +18,9 @@
   },
   "reviewCount": "{rating} de ({count})",
   "warranty": {
-    "lifetime": "Limitada de por Vida",
-    "limitedYears": "Limitada de {years, plural, one {# Año} other {# Años}}",
-    "store": "{years, plural, one {# Año} other {# Años}}, cubre Roofpro"
+    "lifetime": "De Por Vida",
+    "limitedYears": "Límite {years, plural, one {# Año} other {# Años}}",
+    "store": "Roofpro {years, plural, one {# Año} other {# Años}}"
   },
   "spec": {
     "size": "Medidas",
