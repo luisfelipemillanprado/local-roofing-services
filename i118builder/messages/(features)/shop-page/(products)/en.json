@@ -227,7 +227,7 @@
     "groovedInterlock": "Grooved interlocking",
     "outbuildings": "Garages, sheds and coops",
     "onePair": "1 pair",
-    "grey": "Grey",
+    "gray": "Gray",
     "terracotta": "Terracotta",
     "stoneChip": "Ceramic coated stone chip",
     "battenFix": "Batten, nailed through",
@@ -652,16 +652,16 @@
       }
     },
     "brakki-10pc": {
-      "title": "Ribbed Steel Panels Grey 10 Pack",
-      "cardTitle": "Grey Ribbed 10 Pack",
+      "title": "Ribbed Steel Panels Gray 10 Pack",
+      "cardTitle": "Gray Ribbed 10 Pack",
       "titleLead": "Ribbed Steel Panels",
-      "titleAccent": "Grey 10 Pack",
-      "description": "Grey ribbed galvanized steel roofing panels supplied as a ten piece package covering approximately seventy five square feet, screws included.",
+      "titleAccent": "Gray 10 Pack",
+      "description": "Gray ribbed galvanized steel roofing panels supplied as a ten piece package covering approximately seventy five square feet, screws included.",
       "about": [
-        "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in grey, each one measuring 61.02 x 17.72 in (1,550 x 450 mm), and ten come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site at all.",
+        "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in gray, each one measuring 61.02 x 17.72 in (1,550 x 450 mm), and ten come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site at all.",
         "The ten piece pack covers 75.3 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). Fifty screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki offers the same profile in a ten piece pack when the job is bigger.",
         "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. They fasten straight through the flat of the profile into timber or steel purlins using the screws supplied. Lay each sheet so it laps the groove of the one before it, work from the eave upward, and keep the laps turned away from the prevailing wind. A cordless driver with a hex socket is the only tool needed.",
-        "Galvanizing is what carries the corrosion resistance here, and Brakki rates the finish as UV resistant and colourfast so the grey holds up in full sun. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade. Check local code before putting it over habitable space."
+        "Galvanizing is what carries the corrosion resistance here, and Brakki rates the finish as UV resistant and colorfast so the gray holds up in full sun. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade. Check local code before putting it over habitable space."
       ],
       "features": {
         "install": [
@@ -674,7 +674,7 @@
         "coverage": [
           "No warranty term is published by Brakki for this pack",
           "Galvanized coating carries the corrosion resistance",
-          "Finish is rated UV resistant and colourfast",
+          "Finish is rated UV resistant and colorfast",
           "No wind uplift rating is published",
           "No fire classification is published",
           "Light gauge at 0.01 in: intended for outbuildings, not a dwelling roof"
@@ -687,7 +687,7 @@
       "titleLead": "DECRA Stone Coated",
       "titleAccent": "Steel Roof Tile",
       "about": [
-        "DECRA Tile is a pressure formed steel panel finished with a ceramic coated stone chip surface, so a roof reads as Mediterranean clay tile while weighing a fraction of it. The steel is aluminium zinc alloy coated to ASTM A792 at 26 gauge, 0.0179 in (0.455 mm), and each panel is pre corrugated into several vertical tiles forming one tile step across its face. The colour comes from the stone granules rather than a paint film that could chalk.",
+        "DECRA Tile is a pressure formed steel panel finished with a ceramic coated stone chip surface, so a roof reads as Mediterranean clay tile while weighing a fraction of it. The steel is aluminium zinc alloy coated to ASTM A792 at 26 gauge, 0.0179 in (0.455 mm), and each panel is pre corrugated into several vertical tiles forming one tile step across its face. The color comes from the stone granules rather than a paint film that could chalk.",
         "Each panel measures 16 1/2 x 52 in (419 x 1,321 mm) and installs to an exposure of 14 1/2 x 50 in (368 x 1,270 mm), which works out at twenty panels to the square. Installed weight is 150 lb per 100 sq ft, roughly a seventh of what concrete tile puts on the same structure, so DECRA Tile is often the option on a reroof where the frame cannot take more load. Matching valley, side and roof to wall flashings are pressed from the same 26 gauge steel.",
         "Minimum slope is 3:12. Between 2:12 and 3:12 the deck takes an additional underlayment layer before the battens go down. The panel is listed for batten installation under ICC-ES report ESR-2901 and Florida approval FL9759-R9. Panels nail through the batten rather than face fixing, so no fastener head is left exposed to weather on the finished roof. Battens may be timber or steel, and counter battens are an option where drainage needs it.",
         "Warranty: lifetime limited on a single family detached home, covering blow off in wind speeds up to 120 mph and hail stone penetration, cracking or splitting up to a 2.5 in stone. The system carries ASTM E108 and UL 790 Class A for fire and UL 2218 Class 4 for impact, which is the top impact class and often earns an insurance discount. Fasteners follow ANSI/ASME B18.6.1 for wood screws and B18.6.4 for thread forming tapping screws."
@@ -717,7 +717,7 @@
       "titleLead": "Isopan Isodomus Panel",
       "titleAccent": "Insulated Sandwich",
       "about": [
-        "Isodomus is an insulated sandwich panel from Isopan that arrives as a finished roof in one piece: a pressed steel outer sheet in a barrel tile shape, a rigid polyurethane core and a second steel sheet on the inside. One panel replaces tile, batten and insulation at once, which is why it turns up on rural and public buildings where a tiled look is required but the structure is light. Isopan makes the range in Italy in colours that imitate traditional tile.",
+        "Isodomus is an insulated sandwich panel from Isopan that arrives as a finished roof in one piece: a pressed steel outer sheet in a barrel tile shape, a rigid polyurethane core and a second steel sheet on the inside. One panel replaces tile, batten and insulation at once, which is why it turns up on rural and public buildings where a tiled look is required but the structure is light. Isopan makes the range in Italy in colors that imitate traditional tile.",
         "The useful covering width is 1,000 mm and the tile pattern repeats on a 350 mm module with a profile height of 50 mm. The outer sheet is 0.5 mm steel and the inner sheet 0.4 mm, with a 0.6 mm aluminium outer face offered as an alternative. Core thicknesses start at 30 mm and rise from there, and working length is held to a tolerance of plus or minus 2 mm under EN 14509. Catalogue weight tables are given separately for steel and mono faced versions.",
         "Fixing is the penetrating type, driven through the panel with exposed caps, and the number and position of the fasteners has to be worked out from the loads on the roof rather than taken as a fixed pattern. Minimum slope is seven percent. Published load tables run from a 1,050 mm span up to 3,500 mm, so the purlin spacing follows the core thickness chosen. Counter battens are not part of the system, so drainage is handled by the panel profile itself.",
         "Thermal transmittance runs from 0.55 W/m2K on the thinnest core down to 0.19 W/m2K on the thickest, calculated to EN ISO 6946 and declared under UNI EN 14509:2007. The panel is light enough to help on seismic loads and fast enough to close a roof in a day, which is where most of its value sits on a refurbishment job. Isopan also lists a Classic version of the same panel with a different tile step running across its visible face."
@@ -1102,16 +1102,16 @@
       }
     },
     "brakki-19pc": {
-      "title": "Ribbed Steel Panels Grey 20 Pack",
-      "cardTitle": "Grey Ribbed 20 Pack",
+      "title": "Ribbed Steel Panels Gray 20 Pack",
+      "cardTitle": "Gray Ribbed 20 Pack",
       "titleLead": "Ribbed Steel Panels",
-      "titleAccent": "Grey 20 Pack",
+      "titleAccent": "Gray 20 Pack",
       "description": "Ribbed galvanized steel roofing panels supplied as a twenty piece package covering approximately one hundred eighty square feet, screws included.",
       "about": [
-        "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in grey, each one measuring 73.23 x 17.72 in (1,860 x 450 mm), and twenty of them come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site.",
+        "Brakki sells these panels as a ready to fit pack rather than as a factory run cut to your roof, so a small building arrives complete in one delivery. The sheets are ribbed galvanized steel in gray, each one measuring 73.23 x 17.72 in (1,860 x 450 mm), and twenty of them come in the box. Grooved side edges interlock, which keeps the seam tight and makes the sheets quicker to line up on a frame. Nothing has to be cut or formed on site.",
         "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki offers the same profile in a ten piece pack when the job is smaller.",
         "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. They fasten straight through the flat of the profile into timber or steel purlins using the screws supplied. Lay each sheet so it laps the groove of the one before it, work from the eave upward, and keep the laps turned away from the prevailing wind. A cordless driver with a hex socket is the only tool needed.",
-        "Galvanizing is what carries the corrosion resistance here, and Brakki rates the finish as UV resistant and colourfast so the grey holds up in full sun. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade. Check local code before putting it over habitable space."
+        "Galvanizing is what carries the corrosion resistance here, and Brakki rates the finish as UV resistant and colorfast so the gray holds up in full sun. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade. Check local code before putting it over habitable space."
       ],
       "features": {
         "install": [
@@ -1124,7 +1124,7 @@
         "coverage": [
           "No warranty term is published by Brakki for this pack",
           "Galvanized coating carries the corrosion resistance",
-          "Finish is rated UV resistant and colourfast",
+          "Finish is rated UV resistant and colorfast",
           "No wind uplift rating is published",
           "No fire classification is published",
           "Light gauge at 0.01 in: intended for outbuildings, not a dwelling roof"
@@ -1132,16 +1132,16 @@
       }
     },
     "brakki-20pc": {
-      "title": "Tile Profile Panels Grey 20 Pack",
-      "cardTitle": "Grey Tile Profile Panels",
+      "title": "Tile Profile Panels Gray 20 Pack",
+      "cardTitle": "Gray Tile Profile Panels",
       "titleLead": "Tile Profile Panels",
-      "titleAccent": "Grey 20 Pack",
-      "description": "Grey tile profile galvanized steel panels supplied as a twenty piece package covering approximately one hundred eighty square feet altogether.",
+      "titleAccent": "Gray 20 Pack",
+      "description": "Gray tile profile galvanized steel panels supplied as a twenty piece package covering approximately one hundred eighty square feet altogether.",
       "about": [
-        "This Brakki pack is pressed into a tile profile, so a shed or a garage reads like a tiled roof from the ground without the weight or the cost of real tile. The sheets are galvanized steel finished in grey, each one 73.23 x 17.72 in (1,860 x 450 mm), and twenty come in the box. The pressed pattern stiffens the sheet across its width, which matters on a thin gauge panel spanning open purlins. Nothing has to be cut or formed on site.",
+        "This Brakki pack is pressed into a tile profile, so a shed or a garage reads like a tiled roof from the ground without the weight or the cost of real tile. The sheets are galvanized steel finished in gray, each one 73.23 x 17.72 in (1,860 x 450 mm), and twenty come in the box. The pressed pattern stiffens the sheet across its width, which matters on a thin gauge panel spanning open purlins. Nothing has to be cut or formed on site.",
         "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely on site. Brakki offers the same profile in a terracotta finish as well.",
         "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. Fasten through the flat of the pressed pattern into timber or steel purlins using the screws supplied. Line the pressed steps up across the run before you fix anything, because a tile profile shows a misaligned course far more than a plain rib does. A cordless driver with a hex socket is the only tool needed for the job.",
-        "The grey finish and the pressed shadow line are what this panel is bought for, so handle the sheets by the edges and avoid dragging them over one another. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack by Brakki. Check local code before putting it over any habitable space below."
+        "The gray finish and the pressed shadow line are what this panel is bought for, so handle the sheets by the edges and avoid dragging them over one another. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack by Brakki. Check local code before putting it over any habitable space below."
       ],
       "features": {
         "install": [
@@ -1169,7 +1169,7 @@
       "description": "Terracotta tile profile galvanized steel panels supplied as a twenty piece package covering approximately one hundred eighty total square feet.",
       "about": [
         "This Brakki pack is pressed into a tile profile, so a shed or a garage reads like a tiled roof from the ground without the weight or the cost of real tile. The sheets are galvanized steel finished in terracotta, each one 73.23 x 17.72 in (1,860 x 450 mm), and twenty come in the box. The pressed pattern stiffens the sheet across its width, which matters on a thin gauge panel spanning open purlins. Nothing has to be cut or formed on site.",
-        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely on site. Brakki offers the same profile in a grey finish as well.",
+        "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely on site. Brakki offers the same profile in a gray finish as well.",
         "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. Fasten through the flat of the pressed pattern into timber or steel purlins using the screws supplied. Line the pressed steps up across the run before you fix anything, because a tile profile shows a misaligned course far more than a plain rib does. A cordless driver with a hex socket is the only tool needed for the job.",
         "The terracotta finish and the pressed shadow line are what this panel is bought for, so handle the sheets by the edges and avoid dragging them over one another. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack by Brakki. Check local code before putting it over any habitable space below."
       ],
@@ -1882,13 +1882,13 @@
       }
     },
     "duration-designer-slatestone-grey": {
-      "title": "Duration Designer Slatestone Grey",
-      "cardTitle": "Duration Designer Grey",
+      "title": "Duration Designer Slatestone Gray",
+      "cardTitle": "Duration Designer Gray",
       "titleLead": "Duration Designer",
-      "titleAccent": "Slatestone Grey",
+      "titleAccent": "Slatestone Gray",
       "description": "Architectural shingles incorporating a SureNail fabric strip that reinforces the nailing zone against powerful winds on particularly exposed coastal roofs.",
       "about": [
-        "Duration Designer is an architectural shingle from the TruDefinition Duration series, in Slatestone Grey. Its patented SureNail Technology is the only reinforced nailing zone on the face of a shingle: a woven fabric strip embedded across both layers, giving Triple Layer Protection against nail pull and up to 200% wider bond between the layers than standard shingles. Tru Bond weathering grade asphalt sealant holds each course down.",
+        "Duration Designer is an architectural shingle from the TruDefinition Duration series, in Slatestone Gray. Its patented SureNail Technology is the only reinforced nailing zone on the face of a shingle: a woven fabric strip embedded across both layers, giving Triple Layer Protection against nail pull and up to 200% wider bond between the layers than standard shingles. Tru Bond weathering grade asphalt sealant holds each course down.",
         "Each shingle is nominally 13 1/4 x 39 3/8 in with a 5 5/8 in exposure. A square takes 64 shingles in 3 bundles covering 98.4 sq ft. StreakGuard blends copper lined 3M granules against blue green algae; Owens Corning Hip and Ridge shingles match the Designer colors. The deck can be 6 in boards, 3/8 in plywood or 7/16 in OSB. From 4:12 up, Owens Corning synthetic underlayment or one meeting ASTM D8257; from 2:12 to under 4:12, two layers.",
         "Use galvanized steel, stainless steel or aluminum nails with a minimum 12 gauge shank and 3/8 in head, placed inside the SureNail fastening area and driven at least 3/4 in into the wood deck or through it by 1/4 in, preferably meeting ASTM F1667. Slopes over 60 degrees (21 in per foot) require six nails and four spots of asphalt roofing cement per shingle. Store bundles flat in a covered, ventilated area below 110°F, handling them with care below 40°F.",
         "Warranty: Limited Lifetime. Wind coverage reaches up to 160 mph when the Owens Corning component requirements are met and starter shingles are installed on both the eaves and the rakes. The 25 year algae resistance coverage, effective January 1, 2024, requires an approved Owens Corning Hip and Ridge product. The Class 3 impact rating comes from laboratory testing and does not guarantee all weather resistance; hail damage is excluded."
@@ -1917,10 +1917,10 @@
       "titleLead": "Steeldash Seam Panel",
       "titleAccent": "Slate Gray",
       "about": [
-        "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Slate Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colours besides this one.",
+        "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Slate Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colors besides this one.",
         "Net coverage is 16 in per panel with a major rib height of 1 in, and the pan is flat as standard. Panels are rolled to order from 1 ft up to 40 ft in half foot increments, so a run from eave to ridge usually arrives as a single length with no end lap to seal. Lead time from Steeldash is quoted at seven business days before shipping. A striated pan is available on request, which is the usual answer to oil canning across wide runs of pan.",
         "Steeldash calls for installation over a solid substrate with an underlayment between the panel and the deck, which rules out open purlins for this profile. Minimum recommended roof slope is 3 in 12. Because the clips are concealed and the seam snaps rather than screws, nothing penetrates the water plane across the field of the roof. The underlayment choice is left to the installer, so a high temperature membrane is worth specifying.",
-        "Warranty: the paint system is covered for 40 years against peeling and 30 years against chalk or fade. Steel is supplied mill certified. No wind uplift, fire or impact classification is published for the panel on its own, so if a job needs a rated assembly the numbers have to come from Steeldash for the specific build up. The colour itself is a factory applied coating, so no site painting is involved at any stage of the installation."
+        "Warranty: the paint system is covered for 40 years against peeling and 30 years against chalk or fade. Steel is supplied mill certified. No wind uplift, fire or impact classification is published for the panel on its own, so if a job needs a rated assembly the numbers have to come from Steeldash for the specific build up. The color itself is a factory applied coating, so no site painting is involved at any stage of the installation."
       ],
       "features": {
         "install": [
@@ -2461,7 +2461,7 @@
         "This is the same Brakki pack in the classic wavy corrugated profile, left bare rather than painted, so the finish you see is the galvanized coating itself. Each sheet measures 73.23 x 17.72 in (1,860 x 450 mm) and twenty of them come in the box. The rounded corrugations sit closer together than a ribbed profile, which stiffens a thin sheet and hides small dents better once it is up on a frame. Nothing has to be cut or formed on site.",
         "The twenty piece pack covers 180.19 sq ft in total, which is the gross sheet area rather than the net area once the sheets overlap, so allow for the side and end laps when you work out how many packs a roof needs. Steel thickness is 0.01 in (0.25 mm). One hundred screws ship in the box, five per sheet, along with a pair of gloves for handling the cut edges safely. Brakki sells the same twenty piece format in ribbed and tile profiles too.",
         "Brakki lists the panels for garages, chicken coops, sheds, stables and patio covers, which is the work a light gauge sheet is meant for. They fasten straight through the flat of a corrugation into timber or steel purlins using the screws supplied. Overlap by a full corrugation at the sides, work from the eave upward, and keep the laps turned away from the prevailing wind. A cordless driver with a hex socket is the only tool needed for the job.",
-        "Left bare, the panel weathers to a matt grey rather than staying bright, and there is no paint film to chalk or peel. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade material. Check local code before putting it over any habitable space below the deck."
+        "Left bare, the panel weathers to a matt gray rather than staying bright, and there is no paint film to chalk or peel. At 0.01 in this is a light gauge sheet built for outbuildings, not a substitute for a structural roof panel on a house. No warranty term, wind rating or fire classification is published for the pack, so treat it as accessory grade material. Check local code before putting it over any habitable space below the deck."
       ],
       "features": {
         "install": [
@@ -2487,10 +2487,10 @@
       "titleLead": "Steeldash Seam Panel",
       "titleAccent": "Ash Gray",
       "about": [
-        "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Ash Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colours besides this one.",
+        "This is Steeldash snap lock standing seam in 24 gauge steel, finished in Ash Gray. The seam closes by pressing one panel onto the last, so there is no mechanical seaming pass and no crew standing on a seamer for a day. The clips sit under the seam and never show, which is the whole point of a standing seam roof next to an exposed fastener panel. Steeldash rolls the same profile in Galvalume bare and in a run of solid colors besides this one.",
         "Net coverage is 16 in per panel with a major rib height of 1 in, and this one carries the striated pan. Panels are rolled to order from 1 ft up to 40 ft in half foot increments, so a run from eave to ridge usually arrives as a single length with no end lap to seal. Lead time from Steeldash is quoted at seven business days before shipping. The flat pan is the standard option, so the striated version has to be called in when ordering.",
         "Steeldash calls for installation over a solid substrate with an underlayment between the panel and the deck, which rules out open purlins for this profile. Minimum recommended roof slope is 3 in 12. Because the clips are concealed and the seam snaps rather than screws, nothing penetrates the water plane across the field of the roof. The underlayment choice is left to the installer, so a high temperature membrane is worth specifying.",
-        "Warranty: the paint system is covered for 40 years against peeling and 30 years against chalk or fade. Steel is supplied mill certified. No wind uplift, fire or impact classification is published for the panel on its own, so if a job needs a rated assembly the numbers have to come from Steeldash for the specific build up. The colour itself is a factory applied coating, so no site painting is involved at any stage of the installation."
+        "Warranty: the paint system is covered for 40 years against peeling and 30 years against chalk or fade. Steel is supplied mill certified. No wind uplift, fire or impact classification is published for the panel on its own, so if a job needs a rated assembly the numbers have to come from Steeldash for the specific build up. The color itself is a factory applied coating, so no site painting is involved at any stage of the installation."
       ],
       "features": {
         "install": [
