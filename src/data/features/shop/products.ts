@@ -113,7 +113,7 @@ export const shopProductsData = {
         { key: "piecesPerBundle", value: "≥ 20" },
         { key: "bundlesPerPallet", valueKey: "specValue.notPublished" },
         { key: "squareWeight", valueKey: "specValue.notPublished" },
-        { key: "color", value: "Slatestone Grey" },
+        { key: "color", value: "Slatestone Gray" },
         { key: "material", valueKey: "specValue.fiberglassAsphalt" },
         { key: "productType", valueKey: "specValue.laminated" },
         { key: "slope", value: "2:12" },
@@ -417,7 +417,7 @@ export const shopProductsData = {
         { key: "productType", valueKey: "specValue.ribbedPanel" },
         { key: "seam", valueKey: "specValue.groovedInterlock" },
         { key: "use", valueKey: "specValue.outbuildings" },
-        { key: "color", valueKey: "specValue.grey" },
+        { key: "color", valueKey: "specValue.gray" },
       ],
     },
     {
@@ -488,7 +488,7 @@ export const shopProductsData = {
         { key: "productType", valueKey: "specValue.tilePanel" },
         { key: "seam", valueKey: "specValue.groovedInterlock" },
         { key: "use", valueKey: "specValue.outbuildings" },
-        { key: "color", valueKey: "specValue.grey" },
+        { key: "color", valueKey: "specValue.gray" },
       ],
     },
     {
@@ -560,7 +560,7 @@ export const shopProductsData = {
         { key: "productType", valueKey: "specValue.ribbedPanel" },
         { key: "seam", valueKey: "specValue.groovedInterlock" },
         { key: "use", valueKey: "specValue.outbuildings" },
-        { key: "color", valueKey: "specValue.grey" },
+        { key: "color", valueKey: "specValue.gray" },
       ],
     },
     {
