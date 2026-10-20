@@ -32,7 +32,7 @@
         }
       },
       "warranty": {
-        "title": "Garantía de Fábrica",
+        "title": "Garantía De Fábrica",
         "description": "Cada producto lleva la cobertura que publica su fabricante, y la explicamos.",
         "highlights": {
           "label": "RESPALDO",
@@ -54,7 +54,7 @@
     "compatible": "Compatible Con",
     "features": {
       "install": "Instalación",
-      "coverage": "Cobertura de Garantía"
+      "coverage": "Cobertura De Garantía"
     }
   }
 }
