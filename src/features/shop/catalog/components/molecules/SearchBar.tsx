@@ -7,7 +7,7 @@ export const SearchBar = ({ value, onChange, onSubmit, label, placeholder, submi
   /* the bar owns the height, so a border cannot push it out of line with the sort control */
   <span
     role="search"
-    className="grid h-14 grid-cols-[auto_minmax(0,1fr)_auto] gap-3 rounded-xl border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light"
+    className="grid h-14 grid-cols-[auto_minmax(0,1fr)_auto] gap-3 rounded-card border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light"
   >
     <Search className="size-5 self-center text-foreground-muted" />
     {/* sr-only is absolute, so the label claims no column of its own */}
