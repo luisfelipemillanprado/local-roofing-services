@@ -681,7 +681,7 @@
     },
     "decra-stone-tiles": {
       "title": "Placa DECRA de Acero Gravilla Pétrea",
-      "cardTitle": "Teja Cerámica de Acero",
+      "cardTitle": "Placa DECRA de Acero",
       "titleLead": "Placa DECRA de Acero",
       "titleAccent": "Gravilla Pétrea",
       "about": [
@@ -711,7 +711,7 @@
     },
     "isopan-isodomus-panel": {
       "title": "Panel Isopan Isodomus Sándwich Aislante",
-      "cardTitle": "Isodomus Sándwich",
+      "cardTitle": "Panel Isopan Isodomus",
       "titleLead": "Panel Isopan Isodomus",
       "titleAccent": "Sándwich Aislante",
       "about": [
@@ -1131,7 +1131,7 @@
     },
     "brakki-20pc": {
       "title": "20 Paneles Tipo Teja Grises",
-      "cardTitle": "Paneles Tipo Teja Gris",
+      "cardTitle": "Tipo Teja Gris",
       "titleLead": "20 Paneles Tipo Teja",
       "titleAccent": "Grises",
       "description": "Paneles grises tipo teja en acero galvanizado, suministrados en paquetes de veinte unidades que proporcionan aproximadamente ciento ochenta pies.",
@@ -1161,7 +1161,7 @@
     },
     "brakki-21pc": {
       "title": "20 Paneles Tipo Teja Terracota",
-      "cardTitle": "Paneles Teja Terracota",
+      "cardTitle": "Tipo Teja Terracota",
       "titleLead": "20 Paneles Tipo Teja",
       "titleAccent": "Terracota",
       "description": "Paneles terracota tipo teja en acero galvanizado, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies.",
@@ -1911,7 +1911,7 @@
     },
     "steeldash-snap-lock-slate-gray": {
       "title": "Panel de Junta Alzada Gris Pizarra",
-      "cardTitle": "Junta Alzada Pizarra",
+      "cardTitle": "Panel Gris Pizarra",
       "titleLead": "Panel de Junta Alzada",
       "titleAccent": "Gris Pizarra",
       "about": [
@@ -2451,7 +2451,7 @@
     },
     "brakki-22pc": {
       "title": "20 Paneles Ondulados sin Pintar",
-      "cardTitle": "Ondulados sin Pintar",
+      "cardTitle": "Ondulado sin Pintar",
       "titleLead": "20 Paneles Ondulados",
       "titleAccent": "sin Pintar",
       "description": "Paneles ondulados de acero galvanizado sin pintar, suministrados en paquetes de veinte unidades que cubren aproximadamente ciento ochenta pies.",
@@ -2481,7 +2481,7 @@
     },
     "steeldash-snap-lock-ash-gray": {
       "title": "Panel de Junta Alzada Gris Ceniza",
-      "cardTitle": "Panel Estriado Ceniza",
+      "cardTitle": "Panel Gris Ceniza",
       "titleLead": "Panel de Junta Alzada",
       "titleAccent": "Gris Ceniza",
       "about": [
