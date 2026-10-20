@@ -83,17 +83,17 @@ export const shopProductsData = {
       ],
     },
     {
-      slug: "duration-designer-slatestone-grey",
+      slug: "duration-designer-slatestone-gray",
       category: "shingles",
       brand: "Owens Corning",
       sku: "OWC-01020735",
       image:
-        "/images/products/shingles/duration-designer-slatestone-grey/duration-designer-slatestone-grey-1.webp",
+        "/images/products/shingles/duration-designer-slatestone-gray/duration-designer-slatestone-gray-1.webp",
       gallery: [
-        "/images/products/shingles/duration-designer-slatestone-grey/duration-designer-slatestone-grey-2.webp",
-        "/images/products/shingles/duration-designer-slatestone-grey/duration-designer-slatestone-grey-3.webp",
-        "/images/products/shingles/duration-designer-slatestone-grey/duration-designer-slatestone-grey-4.webp",
-        "/images/products/shingles/duration-designer-slatestone-grey/duration-designer-slatestone-grey-5.webp",
+        "/images/products/shingles/duration-designer-slatestone-gray/duration-designer-slatestone-gray-2.webp",
+        "/images/products/shingles/duration-designer-slatestone-gray/duration-designer-slatestone-gray-3.webp",
+        "/images/products/shingles/duration-designer-slatestone-gray/duration-designer-slatestone-gray-4.webp",
+        "/images/products/shingles/duration-designer-slatestone-gray/duration-designer-slatestone-gray-5.webp",
       ],
       price: 48.99,
       unitKey: "units.bundle",
@@ -2009,7 +2009,7 @@ export const shopProductsData = {
         "timberline-hdz-charcoal",
         "landmark-weathered-wood",
         "dynasty-emerald-green",
-        "duration-designer-slatestone-grey",
+        "duration-designer-slatestone-gray",
       ],
       specs: [
         { key: "length", value: "54 in" },
