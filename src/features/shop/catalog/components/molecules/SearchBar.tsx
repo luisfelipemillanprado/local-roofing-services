@@ -4,10 +4,10 @@ import type { SearchBarProps } from "@/features/shop/catalog/types";
 
 /* store bar: the field has no box of its own, so the border, the height and the ring live here */
 export const SearchBar = ({ value, onChange, onSubmit, label, placeholder, submitLabel }: SearchBarProps) => (
-  /* the bar owns the height, so a border cannot push it out of line with the sort control */
+  /* the bar owns its height, so the border cannot add to it */
   <span
     role="search"
-    className="grid h-14 grid-cols-[auto_minmax(0,1fr)_auto] gap-3 rounded-badge border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light"
+    className="grid h-15 grid-cols-[auto_minmax(0,1fr)_auto] gap-3 rounded-badge border border-line bg-surface-panel pl-5 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-primary-light"
   >
     <Search className="size-5 self-center text-foreground-muted" />
     {/* sr-only is absolute, so the label claims no column of its own */}

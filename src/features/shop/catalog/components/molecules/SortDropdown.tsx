@@ -54,8 +54,8 @@ export const SortDropdown = ({ label, value, options, onChange }: SortDropdownPr
           /* the trigger names itself too, so the value it carries reaches the name */
           aria-labelledby={`${id}-label ${id}-trigger`}
           onClick={isOpen ? handleCloseOptions : handleOpenOptions}
-          /* a floor, not a height: 56px like the bar, but a wrapped label still needs the room */
-          className="grid min-h-14 grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-badge border border-line bg-surface-panel py-2 pr-4 pl-5 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
+          /* a floor, not a height: 58px, but a wrapped label still needs the room */
+          className="grid min-h-14.5 grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-badge border border-line bg-surface-panel py-2 pr-4 pl-5 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
         >
           <Funnel className="size-5 text-foreground-muted" />
           <Text as="span" size="body" text={current.label} />
@@ -85,12 +85,15 @@ export const SortDropdown = ({ label, value, options, onChange }: SortDropdownPr
                   onChange(option.value);
                   handleCloseOptions();
                 }}
-                className="rounded-lg px-3 py-2.5 text-left hover:bg-surface-muted focus-visible:bg-surface-muted"
+                /* the row the pointer or the keyboard is on lifts to primary, as the menu's links do */
+                className="rounded-lg px-3 py-2.5 text-left transition-colors hover:bg-primary focus-visible:bg-primary"
               >
+                {/* weight carries the choice: a muted tone would sink into the primary row */}
                 <Text
                   as="span"
                   size="body"
-                  tone={option.value === value ? "default" : "muted"}
+                  tone="default"
+                  weight={option.value === value ? "semibold" : "medium"}
                   text={option.label}
                 />
               </button>
