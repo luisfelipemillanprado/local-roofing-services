@@ -5,8 +5,8 @@ import { Text } from "@/common/text/components/Text";
 import { useEnterExit } from "@/utils/hooks/transition/useEnterExit";
 import type { SortDropdownProps } from "@/features/shop/catalog/types";
 
-/* exit transition duration — drives animation + unmount delay; a dropdown is quicker than a menu */
-const ANIMATION_MS = 150;
+/* exit transition duration — drives animation + unmount delay */
+const ANIMATION_MS = 400;
 
 /* results sort: a dropdown of our own, so the panel's size and layer are ours to set */
 export const SortDropdown = ({ label, value, options, onChange }: SortDropdownProps) => {
@@ -39,7 +39,6 @@ export const SortDropdown = ({ label, value, options, onChange }: SortDropdownPr
       {/* the trigger's own box, so the panel's min-width is the trigger and not the whole row */}
       <div
         ref={root}
-        onKeyDown={(event) => event.key === "Escape" && handleCloseOptions()}
         /* a real relatedTarget means focus moved on; a null one is a click, which the pointer listener handles */
         onBlur={(event) =>
           event.relatedTarget && !event.currentTarget.contains(event.relatedTarget) && handleCloseOptions()
