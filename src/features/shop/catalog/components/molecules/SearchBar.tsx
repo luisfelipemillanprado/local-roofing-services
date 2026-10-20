@@ -1,16 +1,9 @@
 import { Search } from "lucide-react";
 import { SearchButton } from "@/common/call-to-actions/components/SearchButton";
-import type { ShopSearchBarProps } from "@/features/shop/catalog/types";
+import type { SearchBarProps } from "@/features/shop/catalog/types";
 
 /* store bar: the field has no box of its own, so the border, the height and the ring live here */
-export const ShopSearchBar = ({
-  value,
-  onChange,
-  onSubmit,
-  label,
-  placeholder,
-  submitLabel,
-}: ShopSearchBarProps) => (
+export const SearchBar = ({ value, onChange, onSubmit, label, placeholder, submitLabel }: SearchBarProps) => (
   /* the bar owns the height, so a border cannot push it out of line with the sort control */
   <span
     role="search"

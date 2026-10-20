@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { ShopSearchBar } from "@/features/shop/catalog/components/molecules/ShopSearchBar";
+import { SearchBar } from "@/features/shop/catalog/components/molecules/SearchBar";
 import { CategoryStrip } from "@/features/shop/catalog/components/molecules/CategoryStrip";
-import { SortSelect } from "@/features/shop/catalog/components/molecules/SortSelect";
+import { SortDropdown } from "@/features/shop/catalog/components/molecules/SortDropdown";
 import { ProductCardList } from "@/common/product-card-list/components/ProductCardList";
 import { useShopResults } from "@/utils/hooks/shop/useShopResults";
 import type { ShopBrowserProps } from "@/features/shop/catalog/types";
@@ -36,7 +36,7 @@ export const ShopBrowser = ({
     <div className="grid gap-10">
       {/* search takes the row, sort rides beside it from lg */}
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:gap-8">
-        <ShopSearchBar
+        <SearchBar
           value={query}
           onChange={(next) => {
             setQuery(next);
@@ -50,7 +50,7 @@ export const ShopBrowser = ({
         />
         {/* content-width on phones too, or the grid stretches the control across */}
         <div className="justify-self-start lg:justify-self-end">
-          <SortSelect label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
+          <SortDropdown label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
         </div>
       </div>
       <CategoryStrip

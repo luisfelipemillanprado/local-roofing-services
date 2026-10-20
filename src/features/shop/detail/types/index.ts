@@ -7,7 +7,7 @@ type SectionTone = "base" | "muted" /* section surface; keeps page section alter
 /* the catalog entry the route already resolved, handed down whole */
 type ShopProduct = (typeof shopProductsData.items)[number];
 
-export interface ProductDetailProps {
+export interface ProductOverviewProps {
   product: ShopProduct;
   tone?: SectionTone;
 }
@@ -65,7 +65,7 @@ interface ChecklistItem {
 }
 
 /* the pairings block: its heading plus the linked rows */
-export interface ProductCompatibleProps {
+export interface ProductCompatibleListProps {
   label: string;
   items: CompatibleItem[];
 }
