@@ -11,5 +11,5 @@ export const shopCatalogData = {
     { key: "supplies", image: "/images/categories/supplies.webp" },
   ],
   /* results sort in select order, label by key; each key has its own comparator */
-  sortOrder: ["best", "priceAsc", "priceDesc", "topRated"],
+  sortOrder: ["featured", "priceAsc", "priceDesc", "topRated", "mostReviewed"],
 } as const;

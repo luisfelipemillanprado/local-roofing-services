@@ -5,10 +5,11 @@
   },
   "sort": {
     "label": "Ordenar",
-    "best": "Mejor Opción",
+    "featured": "Destacados",
     "priceAsc": "Precio: Menor A Mayor",
     "priceDesc": "Precio: Mayor A Menor",
-    "topRated": "Mejor Valorados"
+    "topRated": "Mejor Valorados",
+    "mostReviewed": "Más Reseñados"
   },
   "categories": {
     "shingles": "Tejas De Techo",
