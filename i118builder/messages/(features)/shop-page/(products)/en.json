@@ -2062,10 +2062,10 @@
       }
     },
     "master-flow-prsolar2": {
-      "title": "Low Profile Solar Powered Attic Fan",
+      "title": "Low Profile Attic Fan Solar Powered",
       "cardTitle": "Solar Powered Attic Fan",
-      "titleLead": "Low Profile Solar",
-      "titleAccent": "Powered Attic Fan",
+      "titleLead": "Low Profile Attic Fan",
+      "titleAccent": "Solar Powered",
       "description": "An integrated thirty five watt photovoltaic panel delivers seven hundred fifty cubic feet a minute, requiring absolutely no electrical wiring.",
       "about": [
         "The argument for a solar attic fan is not really the electricity it saves, it is the wiring it avoids. There is no circuit to run into the attic, no switch, no breaker and no electrician, because the 35 watt panel is built into the unit and drives the motor directly. It moves up to 750 cubic feet a minute and Master Flow rates it for about 1,070 sq ft of attic floor. The panel and the fan are one unit, not two things to connect.",
@@ -2302,10 +2302,10 @@
       }
     },
     "master-flow-gic12": {
-      "title": "Internally Braced Galvanized Turbine",
+      "title": "Galvanized Turbine Internally Braced",
       "cardTitle": "Braced Steel Turbine",
-      "titleLead": "Internally Braced",
-      "titleAccent": "Galvanized Turbine",
+      "titleLead": "Galvanized Turbine",
+      "titleAccent": "Internally Braced",
       "description": "Internally braced turbine that ventilates approximately five hundred square feet of attic space, on a base adjustable across common pitches.",
       "about": [
         "A wind turbine is the only roof vent that does real work without power: the vanes catch whatever breeze crosses the ridge and spin, and the spinning pulls air out of the attic underneath. Master Flow rates this 12 in head at roughly 500 sq ft of attic. The bracing sits inside the head rather than across the outside, which is what the internally braced name refers to. An externally braced version of the same size sits alongside it in the range.",
