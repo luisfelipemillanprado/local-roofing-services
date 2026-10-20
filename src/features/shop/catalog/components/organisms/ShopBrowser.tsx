@@ -35,7 +35,7 @@ export const ShopBrowser = ({
   return (
     <div className="grid gap-10">
       {/* search takes the row, sort rides beside it from lg */}
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:gap-8">
+      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
         <SearchBar
           value={query}
           onChange={(next) => {
