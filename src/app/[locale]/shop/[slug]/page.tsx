@@ -6,7 +6,7 @@ import { routeMetadata } from "@/i18n/metadata";
 import { PageHeader } from "@/shared-sections/page-header/components/organisms/PageHeader";
 import { pageHeaderData } from "@/data/shared-sections/page-header";
 import { Marquee } from "@/shared-sections/marquee/components/organisms/Marquee";
-import { ProductDetail } from "@/features/shop/detail/components/organisms/ProductDetail";
+import { ProductOverview } from "@/features/shop/detail/components/organisms/ProductOverview";
 import { ProductInfo } from "@/features/shop/detail/components/organisms/ProductInfo";
 import { Results } from "@/shared-sections/results/components/Results";
 import { Products } from "@/shared-sections/products/components/Products";
@@ -58,7 +58,7 @@ export default async function ProductDetailPage({ params }: Props) {
         secondaryCta="shop"
       />
       <Marquee />
-      <ProductDetail product={product} />
+      <ProductOverview product={product} />
       <ProductInfo product={product} tone="muted" />
       <Results category={product.category} limit={6} />
       <Products tone="muted" limit={6} />

@@ -12,11 +12,11 @@ import { ProductPrice } from "@/features/shop/detail/components/molecules/Produc
 import { ProductSpecStrip } from "@/features/shop/detail/components/molecules/ProductSpecStrip";
 import { productDetailData } from "@/data/features/shop/product-detail";
 import { formatPrice } from "@/utils/helpers/price";
-import type { ProductDetailProps, SpecStripKey } from "@/features/shop/detail/types";
+import type { ProductOverviewProps, SpecStripKey } from "@/features/shop/detail/types";
 
 const { ctaHref, specStrip, viewer } = productDetailData;
 
-export const ProductDetail = async ({ product, tone = "base" }: ProductDetailProps) => {
+export const ProductOverview = async ({ product, tone = "base" }: ProductOverviewProps) => {
   const t = await getTranslations("shop-page");
 
   /* facts under the price: data value + its i18n label */

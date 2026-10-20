@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import { Tabs } from "@/common/tabs/components/Tabs";
 import { ProductAbout } from "@/features/shop/detail/components/molecules/ProductAbout";
 import { ProductSpecTable } from "@/features/shop/detail/components/molecules/ProductSpecTable";
-import { ProductCompatible } from "@/features/shop/detail/components/molecules/ProductCompatible";
+import { ProductCompatibleList } from "@/features/shop/detail/components/molecules/ProductCompatibleList";
 import { ProductChecklists } from "@/features/shop/detail/components/molecules/ProductChecklists";
 import type { ProductTabKey, ProductTabsProps } from "@/features/shop/detail/types";
 
@@ -26,7 +26,7 @@ export const ProductTabs = ({
           specifications: <ProductSpecTable rows={specRows} />,
           features: (
             <div className="grid gap-7">
-              <ProductCompatible label={compatibleLabel} items={compatible} />
+              <ProductCompatibleList label={compatibleLabel} items={compatible} />
               <ProductChecklists lists={checklists} />
             </div>
           ),

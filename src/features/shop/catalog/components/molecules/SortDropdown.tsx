@@ -3,13 +3,13 @@ import { ChevronDown, Funnel } from "lucide-react";
 import clsx from "clsx";
 import { Text } from "@/common/text/components/Text";
 import { useEnterExit } from "@/utils/hooks/transition/useEnterExit";
-import type { SortSelectProps } from "@/features/shop/catalog/types";
+import type { SortDropdownProps } from "@/features/shop/catalog/types";
 
 /* exit transition duration — drives animation + unmount delay; a dropdown is quicker than a menu */
 const ANIMATION_MS = 150;
 
 /* results sort: a dropdown of our own, so the panel's size and layer are ours to set */
-export const SortSelect = ({ label, value, options, onChange }: SortSelectProps) => {
+export const SortDropdown = ({ label, value, options, onChange }: SortDropdownProps) => {
   const {
     isOpen,
     isVisible,

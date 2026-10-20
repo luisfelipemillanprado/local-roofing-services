@@ -2,10 +2,10 @@ import { ArrowUpRight } from "lucide-react";
 import { Text } from "@/common/text/components/Text";
 import { Title } from "@/common/title/components/Title";
 import { Link } from "@/i18n/navigation";
-import type { ProductCompatibleProps } from "@/features/shop/detail/types";
+import type { ProductCompatibleListProps } from "@/features/shop/detail/types";
 
 /* what the product pairs with, each row linking to its own page */
-export const ProductCompatible = ({ label, items }: ProductCompatibleProps) => (
+export const ProductCompatibleList = ({ label, items }: ProductCompatibleListProps) => (
   <div className="grid gap-3">
     <Title as="h3" size="panel" weight="bold" text={label} />
     <ul className="grid">

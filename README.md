@@ -184,7 +184,7 @@ every route, and `Pitch` renders three variants (`why-choose`, `process`, `value
   ServiceProcess → FAQ → ServiceAreas → Products → Contact.
 - **Shop (`/shop`):** PageHeader → Marquee → ShopCatalog (search / category / filter /
   sort) → Contact.
-- **Product detail (`/shop/[slug]`):** PageHeader → Marquee → ProductDetail → ProductInfo
+- **Product detail (`/shop/[slug]`):** PageHeader → Marquee → ProductOverview → ProductInfo
   (description / specifications / features) → Results → Products → Contact.
 - **Projects (`/projects`):** PageHeader → Marquee → Projects → Testimonials → FAQ →
   Products → Contact.
