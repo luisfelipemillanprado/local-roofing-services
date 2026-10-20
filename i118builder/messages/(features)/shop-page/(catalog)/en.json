@@ -5,11 +5,10 @@
   },
   "sort": {
     "label": "Sort by",
-    "featured": "Featured",
-    "priceAsc": "Price: Low To High",
-    "priceDesc": "Price: High To Low",
     "topRated": "Highest Rated",
-    "mostReviewed": "Most Reviewed"
+    "mostReviewed": "Most Reviewed",
+    "priceAsc": "Price: Low To High",
+    "priceDesc": "Price: High To Low"
   },
   "categories": {
     "shingles": "Roof Shingles",

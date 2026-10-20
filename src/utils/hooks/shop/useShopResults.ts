@@ -11,11 +11,10 @@ import type {
 
 /* the data owns the sort set; Record makes this map match it exactly */
 const sorters: Record<ShopSort, (a: ShopCatalogItem, b: ShopCatalogItem) => number> = {
-  featured: () => 0 /* catalog order */,
-  priceAsc: (a, b) => a.price - b.price,
-  priceDesc: (a, b) => b.price - a.price,
   topRated: (a, b) => b.rating - a.rating || b.reviews - a.reviews,
   mostReviewed: (a, b) => b.reviews - a.reviews || b.rating - a.rating,
+  priceAsc: (a, b) => a.price - b.price,
+  priceDesc: (a, b) => b.price - a.price,
 };
 
 const inCategory = (items: ShopCatalogItem[], category: ShopCategoryKey) =>
