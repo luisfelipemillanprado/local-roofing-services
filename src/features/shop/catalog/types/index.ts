@@ -5,7 +5,7 @@ import type { shopCatalogData } from "@/data/features/shop/catalog";
 /* the category keys the data declares; every chip, filter and result speaks this one */
 export type ShopCategoryKey = (typeof shopCatalogData.categories)[number]["key"];
 
-/* catalog entry: card fields plus what the browser filters and sorts on */
+/* catalog entry: card fields plus what the list filters and sorts on */
 export interface ShopCatalogItem extends ProductCardItem {
   category: ShopCategoryKey;
   price: number;
