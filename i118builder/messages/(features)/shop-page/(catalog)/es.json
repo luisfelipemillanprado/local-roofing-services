@@ -5,8 +5,8 @@
   },
   "sort": {
     "label": "Ordenar",
-    "topRated": "Mejor Valorados",
-    "mostReviewed": "Más Reseñados",
+    "topRated": "Nota: Mayor A Menor",
+    "mostReviewed": "Reseñas: Más A Menos",
     "priceAsc": "Precio: Menor A Mayor",
     "priceDesc": "Precio: Mayor A Menor"
   },
