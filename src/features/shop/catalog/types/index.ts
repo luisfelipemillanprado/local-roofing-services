@@ -1,18 +1,20 @@
 import type { ProductCardItem } from "@/common/product-card-list/types";
+import type { SectionWrapperTone } from "@/common/section-wrapper/types";
 import type { shopCatalogData } from "@/data/features/shop/catalog";
 
-type SectionTone = "base" | "muted" /* section surface; keeps page section alternation correct */;
+/* the category keys the data declares; every chip, filter and result speaks this one */
+export type ShopCategoryKey = (typeof shopCatalogData.categories)[number]["key"];
 
 /* catalog entry: card fields plus what the browser filters and sorts on */
 export interface ShopCatalogItem extends ProductCardItem {
-  category: string;
+  category: ShopCategoryKey;
   price: number;
   reviews: number;
 }
 
 /* one category chip: photo over its label */
-interface ShopCategoryItem {
-  key: string;
+interface CategoryItem {
+  key: ShopCategoryKey;
   label: string;
   image: string;
 }
@@ -31,9 +33,9 @@ export interface SearchBarProps {
 }
 
 export interface CategoryStripProps {
-  categories: ShopCategoryItem[];
-  active: string | null /* null while a query filters: no chip owns the result */;
-  onSelect: (key: string) => void;
+  categories: CategoryItem[];
+  active: ShopCategoryKey | null /* null while a query filters: no chip owns the result */;
+  onSelect: (key: ShopCategoryKey) => void;
 }
 
 export interface SortDropdownProps {
@@ -45,7 +47,7 @@ export interface SortDropdownProps {
 
 export interface ShopBrowserProps {
   items: ShopCatalogItem[];
-  categories: ShopCategoryItem[];
+  categories: CategoryItem[];
   viewLabel: string;
   searchLabel: string;
   searchPlaceholder: string;
@@ -55,15 +57,15 @@ export interface ShopBrowserProps {
 }
 
 export interface ShopCatalogProps {
-  tone?: SectionTone;
+  tone?: SectionWrapperTone;
 }
 
 /* what the result list is filtered and sorted by */
 export interface ShopResultsOptions {
   items: ShopCatalogItem[];
-  category: string;
+  category: ShopCategoryKey;
   /* where a query with no hits lands, so the grid is never left empty */
-  defaultCategory: string;
+  defaultCategory: ShopCategoryKey;
   search: string;
   sort: ShopSort;
 }
@@ -71,5 +73,5 @@ export interface ShopResultsOptions {
 /* the grid's contents and which category owns them; null while a query is what filters */
 export interface ShopResults {
   items: ShopCatalogItem[];
-  category: string | null;
+  category: ShopCategoryKey | null;
 }

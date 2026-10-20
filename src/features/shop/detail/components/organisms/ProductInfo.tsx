@@ -20,12 +20,15 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
     /* a counted value feeds its number in, so the unit can inflect; the rest carry none */
     value: "valueKey" in row ? t(row.valueKey, "n" in row ? { n: row.n } : undefined) : row.value,
   }));
-  /* pairings: title by key, href built from the slug */
-  const compatibleItems = product.compatible.map((paired) => ({
-    key: paired,
-    title: t(`items.${paired}.title`),
-    href: `/shop/${paired}`,
-  }));
+  /* pairings: its heading over a row per pairing, title by key and href from the slug */
+  const compatible = {
+    label: t("detail.compatible"),
+    items: product.compatible.map((paired) => ({
+      key: paired,
+      title: t(`items.${paired}.title`),
+      href: `/shop/${paired}`,
+    })),
+  };
   /* checklists: label by key, items a real i18n array */
   const checklists = features.map((key) => ({
     key,
@@ -55,8 +58,7 @@ export const ProductInfo = async ({ product, tone = "base" }: ProductInfoProps) 
             tabs={tabItems}
             paragraphs={aboutParagraphs}
             specRows={specRows}
-            compatibleLabel={t("detail.compatible")}
-            compatible={compatibleItems}
+            compatible={compatible}
             checklists={checklists}
           />
 

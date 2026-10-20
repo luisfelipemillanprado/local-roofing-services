@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import type {
   ShopCatalogItem,
+  ShopCategoryKey,
   ShopResults,
   ShopResultsOptions,
   ShopSort,
@@ -16,7 +17,7 @@ const sorters: Record<ShopSort, (a: ShopCatalogItem, b: ShopCatalogItem) => numb
   topRated: (a, b) => b.rating - a.rating || b.reviews - a.reviews,
 };
 
-const inCategory = (items: ShopCatalogItem[], category: string) =>
+const inCategory = (items: ShopCatalogItem[], category: ShopCategoryKey) =>
   items.filter((item) => item.category === category);
 
 /* phones type without accents, so both sides are compared folded */

@@ -7,14 +7,7 @@ import { ProductChecklists } from "@/features/shop/detail/components/molecules/P
 import type { ProductTabKey, ProductTabsProps } from "@/features/shop/detail/types";
 
 /* the product panels, built on the server and handed to the tab shell */
-export const ProductTabs = ({
-  tabs,
-  paragraphs,
-  specRows,
-  compatibleLabel,
-  compatible,
-  checklists,
-}: ProductTabsProps) => (
+export const ProductTabs = ({ tabs, paragraphs, specRows, compatible, checklists }: ProductTabsProps) => (
   <Tabs
     tabs={tabs.map(({ key, label }) => ({
       key,
@@ -26,7 +19,7 @@ export const ProductTabs = ({
           specifications: <ProductSpecTable rows={specRows} />,
           features: (
             <div className="grid gap-7">
-              <ProductCompatibleList label={compatibleLabel} items={compatible} />
+              <ProductCompatibleList {...compatible} />
               <ProductChecklists lists={checklists} />
             </div>
           ),
