@@ -9,6 +9,6 @@ export const SearchButton = ({ label, onClick }: SearchButtonProps) => (
     onClick={onClick}
     className="grid aspect-square h-full place-items-center rounded-badge bg-primary transition-transform duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
   >
-    <Search className="size-5 text-white" />
+    <Search className="size-5 text-white" aria-hidden />
   </button>
 );
