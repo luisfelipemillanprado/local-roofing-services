@@ -10,6 +10,7 @@ export interface ShopCatalogItem extends ProductCardItem {
   category: ShopCategoryKey;
   price: number;
   reviews: number;
+  sku: string /* never shown on a card; it is what a buyer arrives with in hand */;
 }
 
 /* one category chip: photo over its label */

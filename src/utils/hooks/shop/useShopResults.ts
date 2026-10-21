@@ -29,7 +29,11 @@ const fold = (text: string) =>
 
 const matching = (items: ShopCatalogItem[], search: string) => {
   const query = fold(search.trim());
-  return items.filter((item) => fold(item.title).includes(query) || fold(item.brand).includes(query));
+  /* the three a buyer arrives with: the name, the maker, or the reference off the box */
+  return items.filter(
+    (item) =>
+      fold(item.title).includes(query) || fold(item.brand).includes(query) || fold(item.sku).includes(query),
+  );
 };
 
 /* what the grid shows and which chip owns it: a query beats the category, a miss falls back */

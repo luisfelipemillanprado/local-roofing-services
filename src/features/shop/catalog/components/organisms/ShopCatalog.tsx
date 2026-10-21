@@ -20,6 +20,7 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
     title: t(`items.${product.slug}.title`),
     cardTitle: t(`items.${product.slug}.cardTitle`),
     brand: product.brand,
+    sku: product.sku,
     image: product.image,
     category: product.category,
     price: product.price,
