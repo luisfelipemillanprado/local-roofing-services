@@ -56,12 +56,13 @@ export const SortDropdown = ({ label, value, options, onChange }: SortDropdownPr
           /* a floor, not a height: 58px, but a wrapped label still needs the room */
           className="grid min-h-14.5 grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-badge border border-line bg-surface-panel py-2 pr-4 pl-5 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light"
         >
-          <ArrowDownWideNarrow className="size-5 text-foreground" />
+          <ArrowDownWideNarrow className="size-5 text-foreground" aria-hidden />
           <Text as="span" size="body" text={current.label} />
           {/* the trigger says it is open, the way the faq chevron and the menu glyph do */}
           <ChevronDown
             style={{ transitionDuration: `${ANIMATION_MS}ms` }}
             className={clsx("size-5 text-foreground transition-transform", isOpen && "rotate-180")}
+            aria-hidden
           />
         </button>
 
