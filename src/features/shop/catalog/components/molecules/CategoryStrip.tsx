@@ -13,7 +13,7 @@ export const CategoryStrip = ({ categories, active, onSelect }: CategoryStripPro
         type="button"
         aria-pressed={key === active}
         onClick={() => onSelect(key)}
-        /* wide enough for the longest label on one line: a wrapped one would drag the photo off centre */
+        /* wide enough for the longest label on one line: a wrapped one makes the whole strip taller */
         className="group grid w-29 snap-start grid-cols-[minmax(0,1fr)] justify-items-center gap-3"
       >
         <span
