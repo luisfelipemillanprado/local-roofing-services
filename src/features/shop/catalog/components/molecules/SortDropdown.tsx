@@ -86,7 +86,7 @@ export const SortDropdown = ({ label, value, options, onChange }: SortDropdownPr
                   handleCloseOptions();
                 }}
                 /* the row the pointer or the keyboard is on lifts to primary, as the menu's links do */
-                className="rounded-lg px-3 py-2.5 text-left transition-colors hover:bg-primary focus-visible:bg-primary"
+                className="rounded-control px-3 py-2.5 text-left transition-colors hover:bg-primary focus-visible:bg-primary"
               >
                 {/* weight carries the choice: a muted tone would sink into the primary row */}
                 <Text
