@@ -5,7 +5,7 @@ import { Text } from "@/common/text/components/Text";
 import { useEnterExit } from "@/utils/hooks/transition/useEnterExit";
 import type { SortDropdownProps } from "@/features/shop/catalog/types";
 
-/* exit transition duration — drives animation + unmount delay */
+/* transition duration — drives the panel, the chevron and the unmount delay */
 const ANIMATION_MS = 400;
 
 /* results sort: a dropdown of our own, so the panel's size and layer are ours to set */
