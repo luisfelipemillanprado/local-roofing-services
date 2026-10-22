@@ -19,11 +19,11 @@ export const Tabs = ({ tabs }: TabsProps) => {
 
   return (
     <div className="grid content-start gap-6">
-      {/* scrolls only when the labels outgrow the column; overflow-y guards the active underline */}
+      {/* scrolls only when the labels outgrow the column; the segments meet, so they carry no gap */}
       <div
         role="tablist"
         onKeyDown={onKeyDown}
-        className="grid scrollbar-none grid-flow-col justify-start gap-8 overflow-x-auto overflow-y-hidden border-b border-line"
+        className="grid scrollbar-none grid-flow-col justify-start overflow-x-auto overflow-y-hidden border-b border-line"
       >
         {tabs.map(({ key, label }) => (
           <button
@@ -35,8 +35,9 @@ export const Tabs = ({ tabs }: TabsProps) => {
             aria-controls={`${id}-panel-${key}`}
             tabIndex={active === key ? 0 : -1}
             onClick={() => setActive(key)}
-            className={`-mb-px border-b-2 pb-3 transition-colors ${
-              active === key ? "border-primary" : "border-transparent"
+            /* the edge is always there, transparent when unchosen, so no tab changes height */
+            className={`rounded-t-xl border-t-2 px-5 py-3 transition-colors ${
+              active === key ? "border-primary bg-primary/10" : "border-transparent"
             }`}
           >
             <Text
