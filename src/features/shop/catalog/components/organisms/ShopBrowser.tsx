@@ -33,9 +33,9 @@ export const ShopBrowser = ({
   });
 
   return (
-    <div className="grid gap-10 sm:gap-11 lg:gap-12">
-      {/* search takes the row, sort rides beside it from lg */}
-      <div className="grid gap-10 sm:gap-11 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-12">
+    <div className="grid gap-10 sm:gap-11 md:gap-12">
+      {/* search takes the row, sort rides beside it from md */}
+      <div className="grid gap-10 sm:gap-11 md:grid-cols-[minmax(0,1fr)_auto] md:gap-12">
         <SearchBar
           value={query}
           onChange={(next) => {
@@ -48,7 +48,10 @@ export const ShopBrowser = ({
           placeholder={searchPlaceholder}
           submitLabel={searchSubmitLabel}
         />
-        <SortDropdown label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
+        {/* centred while it owns the line; on a phone the control nearly fills the row anyway */}
+        <div className="grid sm:justify-center">
+          <SortDropdown label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
+        </div>
       </div>
       <CategoryStrip
         categories={categories}

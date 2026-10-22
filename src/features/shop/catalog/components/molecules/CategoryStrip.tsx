@@ -20,12 +20,17 @@ export const CategoryStrip = ({ categories, active, onSelect }: CategoryStripPro
       >
         <span
           className={clsx(
-            "size-18.5 overflow-hidden rounded-full border-2 transition-colors sm:size-20",
+            "size-18.5 overflow-hidden rounded-full border-2 transition-colors sm:size-19.5 lg:size-20.5",
             key === active ? "border-primary" : "border-line group-hover:border-primary",
           )}
         >
           {/* decorative: the chip's own label carries the meaning */}
-          <Media src={image} alt="" shape="thumb" sizes="(max-width: 640px) 70px, 76px" />
+          <Media
+            src={image}
+            alt=""
+            shape="thumb"
+            sizes="(max-width: 640px) 70px, (max-width: 1024px) 74px, 78px"
+          />
         </span>
         <Text
           as="span"
