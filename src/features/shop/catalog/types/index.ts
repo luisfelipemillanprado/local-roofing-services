@@ -23,7 +23,7 @@ interface CategoryItem {
 /* the sort options the data declares; the comparator map must cover exactly these */
 export type ShopSort = (typeof shopCatalogData.sortOrder)[number];
 
-/* one sort option: the key the data declares and its label */
+/* one sort option: the order the data declares and its label */
 interface SortItem {
   value: ShopSort;
   label: string;
