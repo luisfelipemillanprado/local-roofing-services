@@ -1,6 +1,7 @@
 import { Media } from "@/common/media/components/Media";
 import { Text } from "@/common/text/components/Text";
 import { ArrowLink } from "@/common/call-to-actions/components/ArrowLink";
+import { LiveDot } from "@/common/animations/components/LiveDot";
 import type { HeroMaterialCardProps } from "@/shared-sections/page-header/types";
 
 /* fan placement per card index: size, tilt, overlap and reveal breakpoint (central shows first) */
@@ -19,7 +20,7 @@ export const HeroMaterialCard = ({ item, position, href, linkAria }: HeroMateria
     <div className="pointer-events-none absolute inset-0 overlay-card-bottom" />
     <div className="absolute inset-x-0 top-0 p-3">
       <span className="inline-grid grid-flow-col items-center gap-2 rounded-badge border border-white/20 bg-contrast/70 px-2.5 py-1">
-        <span className="size-1.5 rounded-full bg-malachite" aria-hidden />
+        <LiveDot color="malachite" />
         <Text
           as="span"
           size="label"

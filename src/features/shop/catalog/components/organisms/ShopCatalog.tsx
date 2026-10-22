@@ -9,7 +9,7 @@ import type { ShopCatalogProps } from "@/features/shop/catalog/types";
 
 const { categories, sortOrder } = shopCatalogData;
 
-/* shop catalog: search and category chips over the product grid */
+/* shop catalog: search, sort and category chips over the product grid */
 export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
   const t = await getTranslations("shop-page");
   /* resolve: data literals + i18n labels */
