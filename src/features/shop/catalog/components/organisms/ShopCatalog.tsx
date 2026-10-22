@@ -7,14 +7,13 @@ import { shopCatalogData } from "@/data/features/shop/catalog";
 import { formatPrice } from "@/utils/helpers/price";
 import type { ShopCatalogProps } from "@/features/shop/catalog/types";
 
-const { items } = shopProductsData;
 const { categories, sortOrder } = shopCatalogData;
 
 /* shop catalog: search and category chips over the product grid */
 export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
   const t = await getTranslations("shop-page");
   /* resolve: data literals + i18n labels */
-  const products = items.map((product) => ({
+  const items = shopProductsData.items.map((product) => ({
     slug: product.slug,
     href: `/shop/${product.slug}`,
     title: t(`items.${product.slug}.title`),
@@ -32,23 +31,25 @@ export const ShopCatalog = async ({ tone = "base" }: ShopCatalogProps) => {
     availability: product.availability,
     availabilityLabel: t(`availability.${product.availability}`),
   }));
+  const categoryItems = categories.map(({ key, image }) => ({
+    key,
+    label: t(`categories.${key}`),
+    image,
+  }));
+  const sortItems = sortOrder.map((value) => ({ value, label: t(`sort.${value}`) }));
 
   return (
     <SectionWrapper id="catalog" tone={tone}>
       <Container>
         <ShopBrowser
-          items={products}
-          categories={categories.map(({ key, image }) => ({
-            key,
-            label: t(`categories.${key}`),
-            image,
-          }))}
+          items={items}
+          categories={categoryItems}
           viewLabel={t("action.view")}
           searchLabel={t("search.label")}
           searchPlaceholder={t("search.placeholder")}
           searchSubmitLabel={t("action.search")}
           sortLabel={t("sort.label")}
-          sortOptions={sortOrder.map((value) => ({ value, label: t(`sort.${value}`) }))}
+          sortOptions={sortItems}
         />
       </Container>
     </SectionWrapper>

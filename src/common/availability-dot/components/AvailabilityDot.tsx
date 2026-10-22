@@ -6,8 +6,8 @@ import type { LiveDotColor } from "@/common/animations/types";
 /* dot color per stock state */
 const dots: Record<ProductAvailability, LiveDotColor> = {
   "in-stock": "malachite",
-  "limited-stock": "primary",
-  "out-of-stock": "muted",
+  "limited-stock": "citrine",
+  "out-of-stock": "cinnabar",
 };
 
 /* stock state: live dot + its label */

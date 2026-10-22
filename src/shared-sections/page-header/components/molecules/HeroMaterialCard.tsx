@@ -19,7 +19,7 @@ export const HeroMaterialCard = ({ item, position, href, linkAria }: HeroMateria
     <div className="pointer-events-none absolute inset-0 overlay-card-bottom" />
     <div className="absolute inset-x-0 top-0 p-3">
       <span className="inline-grid grid-flow-col items-center gap-2 rounded-badge border border-white/20 bg-contrast/70 px-2.5 py-1">
-        <span className="size-1.5 rounded-full bg-primary" aria-hidden />
+        <span className="size-1.5 rounded-full bg-malachite" aria-hidden />
         <Text
           as="span"
           size="label"

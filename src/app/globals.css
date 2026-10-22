@@ -7,7 +7,9 @@
   --color-amber: oklch(0.78 0.1 72); /* → --primary (accent, mobile base) */
   --color-amber-deep: oklch(0.6864 0.0941 67.81); /* → --secondary (section button bg) */
   --color-peach: oklch(0.8789 0.0479 51.54); /* → --primary-light (soft accent) */
-  --color-malachite: oklch(0.761 0.2015 149.74); /* WhatsApp FAB (bg-malachite) */
+  --color-malachite: oklch(0.761 0.2015 149.74); /* WhatsApp FAB (bg-malachite) + in-stock dot */
+  --color-citrine: oklch(0.85 0.2015 100); /* limited-stock dot (bg-citrine) */
+  --color-cinnabar: oklch(0.7 0.2015 25.331); /* out-of-stock dot (bg-cinnabar) */
   --color-onyx: oklch(0.2047 0.0121 237.38); /* → --shade (shadows) */
   --color-white: oklch(1 0 0); /* → --foreground (dark), --primary-foreground, --line */
 
