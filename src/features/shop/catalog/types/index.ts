@@ -23,6 +23,12 @@ interface CategoryItem {
 /* the sort options the data declares; the comparator map must cover exactly these */
 export type ShopSort = (typeof shopCatalogData.sortOrder)[number];
 
+/* one sort option: the key the data declares and its label */
+interface SortItem {
+  value: ShopSort;
+  label: string;
+}
+
 export interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
@@ -42,7 +48,7 @@ export interface CategoryStripProps {
 export interface SortDropdownProps {
   label: string;
   value: ShopSort;
-  options: { value: ShopSort; label: string }[];
+  options: SortItem[];
   onChange: (value: ShopSort) => void;
 }
 
@@ -54,7 +60,7 @@ export interface ShopBrowserProps {
   searchPlaceholder: string;
   searchSubmitLabel: string;
   sortLabel: string;
-  sortOptions: { value: ShopSort; label: string }[];
+  sortOptions: SortItem[];
 }
 
 export interface ShopCatalogProps {

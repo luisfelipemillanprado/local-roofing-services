@@ -9,7 +9,7 @@ export interface PulseRingProps {
 }
 
 /* color keys resolved to color utilities inside LiveDot */
-export type LiveDotColor = "primary" | "malachite" | "muted";
+export type LiveDotColor = "malachite" | "citrine" | "cinnabar";
 
 export interface LiveDotProps {
   /* dot and ring color key (resolved to a utility in LiveDot) */

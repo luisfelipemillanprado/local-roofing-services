@@ -2,9 +2,9 @@ import type { LiveDotColor, LiveDotProps } from "@/common/animations/types";
 
 /* background per key — both layers carry it, so the ring matches the dot */
 const dots: Record<LiveDotColor, string> = {
-  primary: "bg-primary",
   malachite: "bg-malachite",
-  muted: "bg-foreground-muted",
+  citrine: "bg-citrine",
+  cinnabar: "bg-cinnabar",
 };
 
 /* live status dot with ping ring */

@@ -33,14 +33,14 @@ export const ShopBrowser = ({
   });
 
   return (
-    <div className="grid gap-10">
+    <div className="grid gap-10 sm:gap-11 lg:gap-12">
       {/* search takes the row, sort rides beside it from lg */}
-      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+      <div className="grid gap-10 sm:gap-11 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-12">
         <SearchBar
           value={query}
           onChange={(next) => {
             setQuery(next);
-            /* an empty box means the whole catalog, however it was emptied */
+            /* an empty box drops the search, however it was emptied */
             if (next === "") setSearch("");
           }}
           onSubmit={() => setSearch(query)}
@@ -48,10 +48,7 @@ export const ShopBrowser = ({
           placeholder={searchPlaceholder}
           submitLabel={searchSubmitLabel}
         />
-        {/* content-width on phones too, or the grid stretches the control across */}
-        <div className="justify-self-start lg:justify-self-end">
-          <SortDropdown label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
-        </div>
+        <SortDropdown label={sortLabel} value={sort} options={sortOptions} onChange={setSort} />
       </div>
       <CategoryStrip
         categories={categories}

@@ -6,7 +6,8 @@ import type { CategoryStripProps } from "@/features/shop/catalog/types";
 /* category chips: a focused chip is brought into view by the browser, so there are no arrows */
 export const CategoryStrip = ({ categories, active, onSelect }: CategoryStripProps) => (
   /* the row never stretches a chip: a wrapped label would push a short one's text off its photo */
-  <div className="grid snap-x snap-mandatory scrollbar-none grid-flow-col items-start justify-start gap-2.5 overflow-x-auto sm:gap-4">
+  /* safe center: were the row ever to overflow, a plain center would hide its first chip */
+  <div className="grid snap-x snap-mandatory scrollbar-none grid-flow-col items-start justify-start gap-2.5 overflow-x-auto sm:gap-4 lg:justify-center-safe xl:gap-6 2xl:gap-8">
     {categories.map(({ key, label, image }) => (
       <button
         key={key}
