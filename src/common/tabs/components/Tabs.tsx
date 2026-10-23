@@ -1,29 +1,20 @@
 "use client";
 
-import { useId, useState, type KeyboardEvent } from "react";
+import { useId, useState } from "react";
 import { Text } from "@/common/text/components/Text";
 import type { TabsProps } from "@/common/tabs/types";
 
-export const Tabs = ({ tabs }: TabsProps) => {
+export const Tabs = ({ label, tabs }: TabsProps) => {
   const id = useId();
-  const [active, setActive] = useState(tabs[0]?.key);
-
-  /* arrow keys cycle the tabs and move focus with the selection */
-  const onKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
-    const step = event.key === "ArrowRight" ? 1 : event.key === "ArrowLeft" ? -1 : 0;
-    if (!step) return;
-    const next = (tabs.findIndex((tab) => tab.key === active) + step + tabs.length) % tabs.length;
-    setActive(tabs[next]?.key);
-    event.currentTarget.querySelectorAll<HTMLButtonElement>('[role="tab"]')[next]?.focus();
-  };
+  const [active, setActive] = useState(tabs[0]!.key);
 
   return (
-    <div className="grid content-start gap-6">
+    <div className="grid gap-6">
       {/* scrolls only when the labels outgrow the column; the segments meet, so they carry no gap */}
       <div
         role="tablist"
-        onKeyDown={onKeyDown}
-        className="grid scrollbar-none grid-flow-col justify-start overflow-x-auto overflow-y-hidden border-b border-line"
+        aria-label={label}
+        className="grid scrollbar-none grid-flow-col justify-start overflow-x-auto border-b border-line"
       >
         {tabs.map(({ key, label }) => (
           <button
@@ -33,11 +24,11 @@ export const Tabs = ({ tabs }: TabsProps) => {
             role="tab"
             aria-selected={active === key}
             aria-controls={`${id}-panel-${key}`}
-            tabIndex={active === key ? 0 : -1}
             onClick={() => setActive(key)}
             /* the edge is always there, transparent when unchosen, so no tab changes height */
-            className={`rounded-t-xl border-t-2 px-5 py-3 transition-colors ${
-              active === key ? "border-primary bg-primary/10" : "border-transparent"
+            /* 12px, under the radius roles' 16px floor, which rounds a tab this short too far */
+            className={`rounded-t-xl border-t-2 px-5 py-3 transition-colors *:transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light ${
+              active === key ? "border-primary bg-surface-panel" : "border-transparent"
             }`}
           >
             <Text
@@ -59,8 +50,7 @@ export const Tabs = ({ tabs }: TabsProps) => {
           role="tabpanel"
           aria-labelledby={`${id}-tab-${key}`}
           hidden={active !== key}
-          tabIndex={0}
-          /* caps the panel's reading measure; inert once the column is narrower */
+          /* caps the panel's reading measure; this column never reaches it, a wider one would */
           className="max-w-3xl"
         >
           {panel}

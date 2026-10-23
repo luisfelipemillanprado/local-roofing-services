@@ -7,8 +7,16 @@ import { ProductChecklists } from "@/features/shop/detail/components/molecules/P
 import type { ProductTabKey, ProductTabsProps } from "@/features/shop/detail/types";
 
 /* the product panels, built on the server and handed to the tab shell */
-export const ProductTabs = ({ tabs, paragraphs, specRows, compatible, checklists }: ProductTabsProps) => (
+export const ProductTabs = ({
+  tabsLabel,
+  tabs,
+  paragraphs,
+  specRows,
+  compatible,
+  checklists,
+}: ProductTabsProps) => (
   <Tabs
+    label={tabsLabel}
     tabs={tabs.map(({ key, label }) => ({
       key,
       label,
