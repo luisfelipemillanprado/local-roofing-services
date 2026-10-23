@@ -38,14 +38,21 @@ export const ProductOverview = async ({ product, tone = "base" }: ProductOvervie
     )[key],
   }));
 
+  const title = t(`items.${product.slug}.title`);
+  /* each shot travels with the name its thumb button takes */
+  const images = [product.image, ...product.gallery].map((src, index, all) => ({
+    src,
+    label: t(viewer.thumb, { title, index: index + 1, total: all.length }),
+  }));
+
   return (
     <SectionWrapper id="product" tone={tone}>
       <Container>
         <ProductSplit
           media={
             <ProductGallery
-              images={[product.image, ...product.gallery]}
-              title={t(`items.${product.slug}.title`)}
+              images={images}
+              title={title}
               description={t(`items.${product.slug}.description`)}
               zoomLabel={t(viewer.zoom)}
               closeLabel={t(viewer.close)}

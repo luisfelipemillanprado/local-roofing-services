@@ -3,6 +3,7 @@
     "reviewCount": "{rating} de {count} Reseñas",
     "follow": "Síguenos",
     "viewImage": "Ver Imagen",
+    "thumb": "{title}, Imagen {index} de {total}",
     "close": "Cerrar",
     "previous": "Imagen Anterior",
     "next": "Imagen Siguiente",
@@ -47,6 +48,7 @@
       "warranty": "Garantía"
     },
     "section": {
+      "label": "Detalles Del Producto",
       "about": "Descripción",
       "specifications": "Especificaciones",
       "features": "Características"

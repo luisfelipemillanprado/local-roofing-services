@@ -23,8 +23,14 @@ export interface ProductPriceProps {
   availabilityLabel: string;
 }
 
+/* one shot: its file and the name its thumb button takes */
+interface GalleryItem {
+  src: string;
+  label: string;
+}
+
 export interface ProductGalleryProps {
-  images: string[];
+  images: GalleryItem[];
   title: string;
   description: string;
   zoomLabel: string;
@@ -32,6 +38,9 @@ export interface ProductGalleryProps {
   previousLabel: string;
   nextLabel: string;
 }
+
+/* the strip rows the data declares; the value map must cover exactly these */
+export type ProductSpecStripKey = (typeof productDetailData.specStrip)[number];
 
 /* resolved spec row: data value + its i18n label */
 interface SpecRow {
@@ -60,6 +69,9 @@ interface CompatibleItem {
   href: string;
 }
 
+/* the checklist panels the data declares, each with its own label and lines */
+type ProductFeatureKey = (typeof productDetailData.features)[number];
+
 /* one ticked list: its heading and its lines */
 interface ChecklistItem {
   key: ProductFeatureKey;
@@ -78,17 +90,13 @@ export interface ProductChecklistsProps {
   lists: ChecklistItem[];
 }
 
-/* the strip rows the data declares; the value map must cover exactly these */
-export type ProductSpecStripKey = (typeof productDetailData.specStrip)[number];
-
 /* the tab keys the data declares; the panel map must cover exactly these */
 export type ProductTabKey = (typeof productDetailData.tabs)[number];
 
-/* the checklist panels the data declares, each with its own label and lines */
-type ProductFeatureKey = (typeof productDetailData.features)[number];
-
 /* the resolved tabs, then whatever each panel renders */
 export interface ProductTabsProps {
+  /* names the strip, not any one tab, so it travels separately */
+  tabsLabel: string;
   tabs: { key: ProductTabKey; label: string }[];
   paragraphs: string[];
   specRows: SpecRow[];

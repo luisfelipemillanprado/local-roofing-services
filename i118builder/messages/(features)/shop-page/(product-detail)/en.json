@@ -3,6 +3,7 @@
     "reviewCount": "{rating} from {count} Reviews",
     "follow": "Follow Us",
     "viewImage": "View Image",
+    "thumb": "{title}, Image {index} of {total}",
     "close": "Close",
     "previous": "Previous Image",
     "next": "Next Image",
@@ -47,6 +48,7 @@
       "warranty": "Warranty"
     },
     "section": {
+      "label": "Product Details",
       "about": "Description",
       "specifications": "Specifications",
       "features": "Features"
